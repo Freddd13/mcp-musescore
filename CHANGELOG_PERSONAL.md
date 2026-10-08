@@ -12,3 +12,4 @@
 - 验证：Python 3.13 / FastMCP 4.0.11 / websockets 17.2；17 项测试通过，包含 in-memory MCP、真实 WebSocket mock、独立 Python 子进程 stdio、并发响应配对、写响应丢失不重放及超时。实际 0.10/0.11 offscreen 宿主验证 Qt 模块加载、能力读取、读谱保持选择、单谱表范围、批处理失败、撤销及速度写入；0.11 另核验实际速度图值和音符插入。skill validator、安装器 WhatIf 和实际仅环境安装通过。
 - 范围：未完成用户桌面中真实乐谱的长期交互、声卡/SF2 听感或 Codex MCP App 渲染验收；原生宿主测试静音，真实网络收发用 mock 和 stdio 验证。get_score_data 的小节筛选在 Python 侧，QML 仍读全谱；密集大谱需后续分段 API。和声临时提示、演奏属性批量写入与净书定向工具是下一轮路线，尚未实现。
 - 用户执行偏好：七次短任务实测 Bash 509 ms、旧 PowerShell 707 ms、pwsh 807 ms（中位）；优先 Git Bash 做 Git/文本工作，Windows 原生任务用 pwsh -NoProfile。完整任务仍需计入执行器外层开销。
+- 结束复核：并发软件任务已提交 0.11.0（36c3fa12a），当前 VERSION 正在准备 0.12.0。Plugin API 与 TempoText setter 没有新的未提交修改，无需再改本轮桥接接口；0.12 新安装与长期使用尚待实际核验。软件工作保持独立，本次未混入其源码提交。
