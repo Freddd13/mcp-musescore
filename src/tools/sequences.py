@@ -18,7 +18,7 @@ def setup_sequence_tools(mcp, client: MuseScoreClient):
             "getCursorInfo, goToMeasure, nextElement, prevElement, nextStaff, prevStaff, "
             "selectCurrentMeasure, insertMeasure, goToFinalMeasure, goToBeginningOfScore, "
             "setTimeSignature, addLyrics, addInstrument, setStaffMute, setInstrumentSound, setTempo. "
-            "Processing stops at the first invalid action."
+            "Stops on the first failure; completed actions remain applied and have individual undo entries."
         ),
         tags={"sequence"},
     )

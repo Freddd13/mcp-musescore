@@ -1,5 +1,18 @@
 # MCP client configuration
 
+## Codex desktop / CLI (preferred for this fork)
+
+Run `pwsh -NoProfile -File scripts/install-codex.ps1 -WhatIf` from the checkout to preview, then omit `-WhatIf` to install the venv, register the stdio MCP server and copy the skill to `$HOME/.agents/skills`. Use `-Scope Project` for a project skill; MCP registration remains user-scoped. Existing skills are backed up. Use `-SkipMcp`, `-SkipSkill` and `-SkipEnvironment` to skip steps.
+
+For just the MCP registration, with actual absolute checkout paths:
+
+```powershell
+codex mcp add musescore --env 'MCP_MUSESCORE_DIR=E:\programming\funcodes\mcp-musescore' -- E:\programming\funcodes\mcp-musescore\.venv\Scripts\python.exe E:\programming\funcodes\mcp-musescore\server.py
+codex mcp get musescore
+```
+
+Start a new Codex chat after changing MCP configuration, invoke `$mcp-musescore`, then ping and read capabilities. Skills alone do not register MCP. Detailed plugin/DLL deployment is in the checkout's `docs/CODEX_SETUP.md`. [Official MCP documentation](https://developers.openai.com/codex/mcp) and [skill locations](https://developers.openai.com/codex/skills).
+
 This skill is client-agnostic. The client must launch the Python MCP server as a stdio process. No secret, public URL, or HTTP proxy is needed.
 
 The command is conceptually:

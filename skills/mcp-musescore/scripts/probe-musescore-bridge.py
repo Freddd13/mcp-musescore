@@ -10,12 +10,12 @@ import websockets
 
 
 async def main() -> None:
-    host = os.environ.get("MCP_MUSESCORE_HOST", "localhost")
+    host = os.environ.get("MCP_MUSESCORE_HOST", "127.0.0.1")
     port = int(os.environ.get("MCP_MUSESCORE_PORT", "8765"))
     uri = f"ws://{host}:{port}"
-    async with websockets.connect(uri) as websocket:
+    async with websockets.connect(uri, open_timeout=5, close_timeout=2) as websocket:
         await websocket.send(json.dumps({"action": "ping", "params": {}}))
-        response = json.loads(await websocket.recv())
+        response = json.loads(await asyncio.wait_for(websocket.recv(), timeout=5))
     if response.get("status") != "success" or response.get("result") != "pong":
         raise RuntimeError(f"Unexpected MuseScore bridge response: {response!r}")
     print(f"MuseScore bridge OK: {uri}")

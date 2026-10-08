@@ -1,13 +1,36 @@
 import QtQuick 2.9
 import MuseScore 3.0
+import QtWebSockets 1.0
 
 MuseScore {
     id: root
     menuPath: "Plugins.MuseScore API Server"
-    description: "Exposes MuseScore API via WebSocket (Clean Version)"
-    version: "2.0"
+    description: "MuseScore Evolution bridge for Codex and MCP clients"
+    version: "2.1.0"
     
     property var clientConnections: []
+    // Qt's shipped QML module works without a custom native websocket API.
+    WebSocketServer {
+        id: bridge
+        host: "127.0.0.1"
+        port: 8765
+        name: "MuseScore MCP"
+        listen: false
+        onClientConnected: {
+            var socket = webSocket;
+            root.clientConnections.push(socket);
+            socket.textMessageReceived.connect(function(message) {
+                root.processMessage(message, socket);
+            });
+            socket.statusChanged.connect(function(status) {
+                if (status === WebSocket.Closed || status === WebSocket.Error) {
+                    var index = root.clientConnections.indexOf(socket);
+                    if (index >= 0) root.clientConnections.splice(index, 1);
+                }
+            });
+        }
+        onErrorStringChanged: console.log("MuseScore MCP: " + errorString)
+    }
     property var selectionState: ({
         startStaff: 0,
         endStaff: 1,
@@ -24,13 +47,13 @@ MuseScore {
         try {
             var command = JSON.parse(message);
             var result = processCommand(command);
-            api.websocketserver.send(clientId, JSON.stringify({
+            clientId.sendTextMessage(JSON.stringify({
                 status: "success",
                 result: result
             }));
         } catch (e) {
             console.log("Error processing command: " + e.toString());
-            api.websocketserver.send(clientId, JSON.stringify({
+            clientId.sendTextMessage(JSON.stringify({
                 status: "error",
                 message: e.toString()
             }));
@@ -45,6 +68,7 @@ MuseScore {
             case "getScore":                return getScore(command.params);
             case "syncStateToSelection":    return syncStateToSelection();
             case "ping":                    return "pong";
+            case "getCapabilities":         return getCapabilities();
             case "undo":                    return undo();
             case "goToBeginningOfScore":    return goToBeginningOfScore();
             case "processSequence":         return processSequence(command.params);
@@ -222,6 +246,7 @@ MuseScore {
             isTie: element.tieForward ? true : false,
             isTuplet: element.tuplet ? true : false
         };
+        base.writtenDurationTicks = element.duration ? element.duration.ticks : base.durationTicks;
 
         if (element.lyrics && element.lyrics.length > 0) {
             base.lyrics = [];
@@ -248,6 +273,13 @@ MuseScore {
                     tpc: note.tpc,
                     pitchName: getTpcName(note.tpc)
                 });
+                var data = base.notes[base.notes.length - 1];
+                data.tieForward = Boolean(note.tieForward);
+                data.tieBack = Boolean(note.tieBack);
+                data.tuning = note.tuning;
+                data.veloType = note.veloType;
+                data.veloOffset = note.veloOffset;
+                if (data.tieForward) base.isTie = true;
             }
         }
                 
@@ -259,10 +291,10 @@ MuseScore {
     // ========================================
 
     function undo() {
-        return executeWithUndo(function() {
-            cmd("undo");
-            return { success: true, message: "Undo successful" };
-        });
+        if (!curScore) return { error: "No score open" };
+        // Native undo must run outside a new command transaction.
+        cmd("undo");
+        return { success: true, message: "Undo successful" };
     }
 
     function goToBeginningOfScore() {
@@ -284,7 +316,7 @@ MuseScore {
             "getCursorInfo", "goToMeasure", "nextElement", "prevElement", "nextStaff", "prevStaff",
             "selectCurrentMeasure", "processSequence", "insertMeasure", "goToFinalMeasure",
             "goToBeginningOfScore", "setTimeSignature", "addLyrics", "addInstrument",    
-            "setStaffMute", "setInstrumentSound", "setTempo"
+            "setStaffMute", "setInstrumentSound", "setTempo", "undo"
         ];
 
         try {
@@ -293,7 +325,11 @@ MuseScore {
                 if (!validCommands.includes(command.action)) {
                     throw new Error("Invalid command: " + command.action);
                 }
-                processCommand(command);
+                var result = processCommand(command);
+                if (result && (result.error || result.success === false)) {
+                    return { error: result.error || result.message || "Action failed",
+                             failedIndex: i, completedCount: i, action: command.action };
+                }
             }
             return { success: true, message: "Sequence processed", currentSelection: selectionState };
         } catch (e) {
@@ -649,7 +685,10 @@ MuseScore {
 
             // Visual GUI snap
             curScore.selection.clear();
-            curScore.selection.selectRange(startTick, endTick, startStaff, endStaff);
+            // Public custom-range endStaff is inclusive; native API excludes it.
+            if (!curScore.selection.selectRange(startTick, endTick, startStaff, endStaff + 1)) {
+                return { error: "Unable to select requested range" };
+            }
 
             var elementsMap = {};
             for (var st = startStaff; st <= endStaff; st++) {
@@ -970,6 +1009,9 @@ MuseScore {
                        (typeof curScore.staff === "function" ? curScore.staff(params.staff) : null);
             
             if (staff) {
+                if (staff.invisible === undefined) {
+                    return { error: "This MuseScore API does not expose staff visibility or audio mute. Use Mixer for audio mute." };
+                }
                 staff.invisible = Boolean(params.mute);
                 return { success: true, message: "Staff " + (params.mute ? "muted" : "unmuted") };
             } else {
@@ -1011,15 +1053,21 @@ MuseScore {
     function setTempo(params) {
         var validation = validateParams(params, ["bpm"]);
         if (!validation.valid) return validation;
+        if (typeof params.bpm !== "number" || !isFinite(params.bpm) || params.bpm < 5 || params.bpm > 999) {
+            return { error: "BPM must be between 5 and 999" };
+        }
         
         return executeWithUndo(function() {
-            var cursor = createCursor();
+            var cursor = curScore.newCursor();
+            cursor.staffIdx = selectionState.startStaff || 0;
+            cursor.rewindToTick(selectionState.startTick || 0);
             
             var tempo = newElement(Element.TEMPO_TEXT);
+            // Evolution's TEMPO setter rebuilds the tempo map using segment().
+            // Attach first, so the setter never sees an unparented TempoText.
+            cursor.add(tempo);
             tempo.tempo = params.bpm / 60.0;
             tempo.text = "♩ = " + params.bpm;
-            
-            cursor.add(tempo);
             
             return { success: true, message: "Tempo set to " + params.bpm + " BPM" };
         });
@@ -1039,83 +1087,88 @@ MuseScore {
         }
     }
 
+    function getCapabilities() {
+        return { success: true, bridgeVersion: root.version,
+                 museScoreVersion: mscoreVersion, ticksPerQuarter: division,
+                 scoreOpen: Boolean(curScore), transport: "QtWebSockets",
+                 scoreObserver: typeof newScoreObserver === "function" };
+    }
+
     function getScoreSummary() {
         if (!curScore) return { error: "No score open" };
 
-        return executeWithUndo(function() {
-            var tempState = selectionState;
-            var score = {
-                title: curScore.metaTag("workTitle") || curScore.title || "",
-                numMeasures: curScore.nmeasures,
-                measures: [],
-                staves: []
+        // A detached cursor keeps analysis out of the score's input/undo state.
+        var score = {
+            ticksPerQuarter: division,
+            title: curScore.metaTag("workTitle") || curScore.title || "",
+            numMeasures: curScore.nmeasures,
+            measures: [],
+            staves: []
+        };
+
+        // Analyze staves
+        for (var i = 0; i < curScore.nstaves; i++) {
+            var staff = curScore.staves && curScore.staves[i] ||
+                       (typeof curScore.staff === "function" ? curScore.staff(i) : null);
+
+            score.staves.push({
+                name: `staff${i}`,
+                shortName: staff && staff.part ? staff.part.shortName : "",
+                visible: staff && staff.part ? staff.part.show : true
+            });
+        }
+
+        // Analyze measures
+        var cursor = curScore.newCursor();
+        cursor.rewind(0);
+        var measureBoundaries = [];
+
+        // Get measure boundaries
+        for (var i = 0; i < curScore.nmeasures; i++) {
+            var measure = {
+                measure: i + 1,
+                startTick: cursor.tick,
+                numElements: 0,
+                elements: {}
             };
-            
-            // Analyze staves
-            for (var i = 0; i < curScore.nstaves; i++) {
-                var staff = curScore.staves && curScore.staves[i] || 
-                           (typeof curScore.staff === "function" ? curScore.staff(i) : null);
-                
-                score.staves.push({
-                    name: `staff${i}`,
-                    shortName: staff ? staff.shortName : "",
-                    visible: staff ? !staff.invisible : true
-                });
+
+            for (var j = 0; j < curScore.nstaves; j++) {
+                measure.elements[`staff${j}`] = [];
             }
 
-            // Analyze measures
-            var cursor = createCursor({startTick: 0});
-            var measureBoundaries = [];
+            measureBoundaries.push(cursor.tick);
+            score.measures.push(measure);
+            cursor.nextMeasure();
+        }
 
-            // Get measure boundaries
-            for (var i = 0; i < curScore.nmeasures; i++) {
-                var measure = {
-                    measure: i + 1, 
-                    startTick: cursor.tick,
-                    numElements: 0, 
-                    elements: {}
-                };
+        // Process elements for each staff
+        for (var k = 0; k < curScore.nstaves; k++) {
+            cursor.rewind(0);
+            var currentSegment = cursor.segment;
 
-                for (var j = 0; j < curScore.nstaves; j++) {
-                    measure.elements[`staff${j}`] = [];
-                }
+            while (currentSegment) {
+                var measureIdx = measureBoundaries.filter(function(tick) {
+                    return tick <= currentSegment.tick;
+                }).length - 1;
 
-                measureBoundaries.push(cursor.tick);
-                score.measures.push(measure);
-                cursor.nextMeasure();
-            }
-
-            // Process elements for each staff
-            for (var k = 0; k < curScore.nstaves; k++) {
-                cursor.rewind(0);
-                var currentSegment = cursor.segment;
-
-                while (currentSegment) {
-                    var measureIdx = measureBoundaries.filter(function(tick) {
-                        return tick <= currentSegment.tick;
-                    }).length - 1;
-
-                    for (var v = 0; v < 4; v++) {
-                        var track = k * 4 + v;
-                        var el = currentSegment.elementAt(track);
-                        if (el) {
-                            score.measures[measureIdx].numElements++;
-                            var processedElement = processElement(el);
-                            if (processedElement) {
-                                processedElement.startTick = currentSegment.tick;
-                                processedElement.voice = v;
-                                score.measures[measureIdx].elements[`staff${k}`].push(processedElement);
-                            }
+                for (var v = 0; v < 4; v++) {
+                    var track = k * 4 + v;
+                    var el = currentSegment.elementAt(track);
+                    if (el) {
+                        score.measures[measureIdx].numElements++;
+                        var processedElement = processElement(el);
+                        if (processedElement) {
+                            processedElement.startTick = currentSegment.tick;
+                            processedElement.voice = v;
+                            score.measures[measureIdx].elements[`staff${k}`].push(processedElement);
                         }
                     }
-                    currentSegment = currentSegment.next;
                 }
+                currentSegment = currentSegment.next;
             }
+        }
 
-            // Restore state
-            selectionState = tempState;
-            return score;
-        });
+        return score;
     }
 
     // ========================================
@@ -1125,17 +1178,6 @@ MuseScore {
     onRun: {
         console.log("Starting MuseScore API Server (Clean Version) on port 8765");
         
-        api.websocketserver.listen(8765, function(clientId) {
-            console.log("Client connected with ID: " + clientId);
-            clientConnections.push(clientId);
-            
-            api.websocketserver.onMessage(clientId, function(message) {
-                processMessage(message, clientId);
-            });
-        });
-    
-        if (curScore) {
-            initCursorState();
-        }
+        bridge.listen = true;
     }
 }

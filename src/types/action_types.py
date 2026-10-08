@@ -144,6 +144,15 @@ class setTimeSignatureAction(TypedDict):
     params: setTimeSignatureParams
 
 
+class setTempoParams(TypedDict):
+    bpm: float
+
+
+class setTempoAction(TypedDict):
+    action: Literal["setTempo"]
+    params: setTempoParams
+
+
 class undoAction(TypedDict):
     action: Literal["undo"]
     params: Dict[str, Any]
@@ -166,5 +175,5 @@ ActionSequence = List[
     getCursorInfoAction | goToMeasureAction | nextElementAction | 
     prevElementAction | selectCurrentMeasureAction | insertMeasureAction | 
     goToFinalMeasureAction | goToBeginningOfScoreAction | setTimeSignatureAction | 
-    undoAction | nextStaffAction | prevStaffAction
+    undoAction | nextStaffAction | prevStaffAction | setTempoAction
 ]

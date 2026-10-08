@@ -9,6 +9,7 @@ from fastmcp.exceptions import ToolError
 from fastmcp.tools import ToolResult
 
 from ..client import MuseScoreClient
+from ..client.responses import unwrap_response
 
 VIEWER_URI = "ui://musescore/score-viewer.html"
 VIEWER_HTML = Path(__file__).resolve().parent.parent / "ui" / "score_viewer.html"
@@ -17,9 +18,7 @@ DEFAULT_MEASURE_TICKS = 1920
 
 def _unwrap(response: dict) -> dict:
     """Return the plugin's result payload or raise ToolError."""
-    if response.get("status") == "error" or "error" in response:
-        raise ToolError(response.get("message") or response.get("error") or "MuseScore error")
-    result = response.get("result")
+    result = unwrap_response(response)
     if not isinstance(result, dict) or "error" in result:
         message = result.get("error") if isinstance(result, dict) else "Unexpected plugin response"
         raise ToolError(message)

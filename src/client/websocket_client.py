@@ -3,6 +3,7 @@
 import websockets
 import json
 import logging
+import asyncio
 from typing import Dict, Any, Optional
 
 logger = logging.getLogger("MuseScoreMCP.Client")
@@ -11,14 +12,30 @@ logger = logging.getLogger("MuseScoreMCP.Client")
 class MuseScoreClient:
     """Client to communicate with MuseScore WebSocket API."""
     
-    def __init__(self, host: str = "localhost", port: int = 8765):
+    def __init__(self, host: str = "127.0.0.1", port: int = 8765, timeout: float = 15):
         self.uri = f"ws://{host}:{port}"
         self.websocket = None
+        self.timeout = timeout
+        self._lock = None
+        self._loop = None
+
+    def _command_lock(self):
+        # Tests/embedders may reuse a client across sequential event loops.
+        loop = asyncio.get_running_loop()
+        if self._loop is not loop:
+            self._lock = asyncio.Lock()
+            self._loop = loop
+        return self._lock
     
     async def connect(self):
+        async with self._command_lock():
+            await self._reset_socket()
+            return await self._connect()
+
+    async def _connect(self):
         """Connect to the MuseScore WebSocket API."""
         try:
-            self.websocket = await websockets.connect(self.uri)
+            self.websocket = await websockets.connect(self.uri, open_timeout=self.timeout, close_timeout=2, max_size=16 * 1024 * 1024)
             logger.info(f"Connected to MuseScore API at {self.uri}")
             return True
         except Exception as e:
@@ -40,12 +57,11 @@ class MuseScoreClient:
             self.websocket = None
 
     async def send_command(self, action: str, params: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
-        """Send a command to MuseScore and wait for response.
+        """Serialize request/response pairs; never replay an ambiguous write."""
+        async with self._command_lock():
+            return await self._send_command(action, params)
 
-        Tries the existing socket first; if that fails (e.g. MuseScore was
-        restarted and the socket is stale), the socket is dropped and the
-        command is retried once on a fresh connection.
-        """
+    async def _send_command(self, action, params):
         if params is None:
             params = {}
 
@@ -53,24 +69,32 @@ class MuseScoreClient:
         payload = json.dumps(command)
 
         last_error: Optional[str] = None
-        for attempt in range(2):
+        read_only = action in {"ping", "getCapabilities", "getScore", "getCursorInfo"}
+        attempts = 2 if read_only else 1
+        for attempt in range(attempts):
             if not self.websocket:
-                if not await self.connect():
+                if not await self._connect():
                     return {"error": "Not connected to MuseScore"}
 
             try:
                 logger.info(f"Sending command: {payload}")
                 await self.websocket.send(payload)
-                response = await self.websocket.recv()
+                response = await asyncio.wait_for(self.websocket.recv(), self.timeout)
                 logger.info(f"Received response: {response}")
                 return json.loads(response)
+            except asyncio.CancelledError:
+                await self._reset_socket()
+                raise
             except Exception as e:
                 last_error = str(e)
                 logger.warning(
-                    f"Send failed (attempt {attempt + 1}/2), resetting socket: {last_error}"
+                    f"Send failed (attempt {attempt + 1}/{attempts}), resetting socket: {last_error}"
                 )
                 await self._reset_socket()
 
+        if not read_only:
+            return {"error": "MuseScore write response was lost; the action may have applied. Read the score before retrying.",
+                    "outcomeUnknown": True, "detail": last_error}
         return {"error": f"Not connected to MuseScore: {last_error}"}
 
     async def close(self):

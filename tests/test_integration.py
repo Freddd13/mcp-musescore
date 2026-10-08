@@ -98,7 +98,8 @@ def test_append_measure_and_get_score():
 
 def test_plugin_errors_surface_in_result():
     async def scenario(c, mock):
-        result = await c.call_tool("go_to_measure", {"measure": 99})
+        result = await c.call_tool("go_to_measure", {"measure": 99}, raise_on_error=False)
+        assert result.is_error
         assert "Invalid measure number" in str(result)
 
     run_with_mock(scenario)
@@ -114,6 +115,28 @@ def test_show_score_returns_structured_score_for_the_viewer():
         assert "2 of 4" in result.content[0].text
 
     run_with_mock(scenario, demo_score())
+
+
+def test_structured_read_and_legacy_lilypond():
+    async def scenario(c, mock):
+        data = (await c.call_tool("get_score_data", {"first_measure": 2, "last_measure": 3})).data
+        assert [m["measure"] for m in data["measures"]] == [2, 3]
+        assert data["title"] == mock.score.title
+        text = await c.call_tool("get_score", {})
+        assert "[Partition]" in text.content[0].text
+        assert "\\new Staff" in text.content[0].text
+
+    run_with_mock(scenario, demo_score())
+
+
+def test_tempo_direct_and_sequence():
+    async def scenario(c, mock):
+        await c.call_tool("set_tempo", {"bpm": 88})
+        assert mock.score.tempo == 88
+        await c.call_tool("processSequence", {"sequence": [{"action": "setTempo", "params": {"bpm": 96}}]})
+        assert mock.score.tempo == 96
+
+    run_with_mock(scenario)
 
 
 def test_show_score_declares_its_ui_resource_and_serves_it():

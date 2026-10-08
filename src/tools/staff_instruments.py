@@ -20,12 +20,12 @@ def setup_staff_instruments_tools(mcp, client: MuseScoreClient):
         })
 
     @mcp.tool(
-        description="Mute or unmute a staff.",
+        description="Legacy visibility operation, not audio mute. MuseScore 3 lacks this staff property and reports unsupported; use Mixer for audio mute.",
         tags={"staff"},
     )
     async def set_staff_mute(
         staff: Annotated[int, "Staff number (0-based)"],
-        mute: Annotated[bool, "True to mute, False to unmute"],
+        mute: Annotated[bool, "True to hide the staff, False to show it (legacy parameter name)"],
     ):
         return await client.send_command("setStaffMute", {
             "staff": staff,
@@ -33,7 +33,7 @@ def setup_staff_instruments_tools(mcp, client: MuseScoreClient):
         })
 
     @mcp.tool(
-        description="Change the sound of an instrument on a staff.",
+        description="Open MuseScore's instrument dialog for manual selection. Does not automatically apply the requested sound.",
         tags={"staff"},
     )
     async def set_instrument_sound(

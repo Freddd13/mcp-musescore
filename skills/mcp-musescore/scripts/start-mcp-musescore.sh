@@ -1,9 +1,16 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-repo_dir="${MCP_MUSESCORE_DIR:-$HOME/Downloads/mcp-musescore}"
+script_dir="$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+checkout_dir="$(CDPATH= cd -- "$script_dir/../../.." && pwd)"
+default_dir="$HOME/Downloads/mcp-musescore"
+if [ -f "$checkout_dir/server.py" ]; then default_dir="$checkout_dir"; fi
+repo_dir="${MCP_MUSESCORE_DIR:-$default_dir}"
 server="$repo_dir/server.py"
 python_bin="${MCP_MUSESCORE_PYTHON:-$repo_dir/.venv/bin/python}"
+if [ -z "${MCP_MUSESCORE_PYTHON:-}" ] && [ -f "$repo_dir/.venv/Scripts/python.exe" ]; then
+  python_bin="$repo_dir/.venv/Scripts/python.exe"
+fi
 
 if [ ! -f "$server" ]; then
   printf 'mcp-musescore repository not found: %s\n' "$repo_dir" >&2

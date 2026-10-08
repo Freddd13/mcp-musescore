@@ -13,6 +13,8 @@ websockets
 
 Keep the Python environment isolated in the project venv. Do not put secrets in the skill or client entry.
 
+This fork's Windows setup uses Python 3.13. The system Python 3.7 is not supported. Run the checkout's `scripts/install-codex.ps1` to create the runtime, register Codex MCP and install the skill; use -WhatIf to preview. The helper scripts discover the checkout when run in-place and recognize Windows `.venv/Scripts/python.exe` from Git Bash. An installed standalone skill requires MCP_MUSESCORE_DIR when the checkout is outside the historical Downloads default.
+
 ## Start script
 
 The skill scripts do not install dependencies or alter client configuration. They only launch or probe an already-installed checkout:

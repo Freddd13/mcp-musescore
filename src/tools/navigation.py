@@ -3,13 +3,14 @@
 from typing import Annotated
 
 from ..client import MuseScoreClient
+from ..client.responses import unwrap_response
 
 
 def setup_navigation_tools(mcp, client: MuseScoreClient):
     """Setup cursor and navigation tools."""
     
     async def _run_and_convert(action: str, params=None):
-        res = await client.send_command(action, params)
+        res = unwrap_response(await client.send_command(action, params))
         if res.get("success") and "currentSelection" in res:
             from ..utils.lilypond_converter import json_to_lilypond
             sel = res["currentSelection"]

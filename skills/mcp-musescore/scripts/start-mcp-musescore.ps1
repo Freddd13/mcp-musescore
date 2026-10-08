@@ -1,7 +1,8 @@
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 
-$repoDir = if ($env:MCP_MUSESCORE_DIR) { $env:MCP_MUSESCORE_DIR } else { Join-Path $HOME "Downloads\mcp-musescore" }
+$checkoutDir = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..\..\..'))
+$repoDir = if ($env:MCP_MUSESCORE_DIR) { $env:MCP_MUSESCORE_DIR } elseif (Test-Path (Join-Path $checkoutDir 'server.py')) { $checkoutDir } else { Join-Path $HOME "Downloads\mcp-musescore" }
 $server = Join-Path $repoDir "server.py"
 $pythonBin = if ($env:MCP_MUSESCORE_PYTHON) { $env:MCP_MUSESCORE_PYTHON } else { Join-Path $repoDir ".venv\Scripts\python.exe" }
 
@@ -16,5 +17,6 @@ if (-not (Test-Path $pythonBin)) {
 }
 
 Push-Location $repoDir
-try { & $pythonBin $server @args }
+try { & $pythonBin $server @args; $taskExitCode = $LASTEXITCODE }
 finally { Pop-Location }
+exit $taskExitCode

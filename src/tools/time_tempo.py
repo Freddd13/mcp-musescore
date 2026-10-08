@@ -3,6 +3,7 @@
 from typing import Annotated
 
 from ..client import MuseScoreClient
+from fastmcp.exceptions import ToolError
 
 
 def setup_time_tempo_tools(mcp, client: MuseScoreClient):
@@ -20,3 +21,9 @@ def setup_time_tempo_tools(mcp, client: MuseScoreClient):
             "numerator": numerator,
             "denominator": denominator
         })
+
+    @mcp.tool(description="Insert a visible quarter-note tempo at the current cursor. Does not draw a tempo curve or replace existing markings.", tags={"time"})
+    async def set_tempo(bpm: Annotated[float, "Positive quarter-note BPM"]):
+        if not 5 <= bpm <= 999:
+            raise ToolError("BPM must be between 5 and 999")
+        return await client.send_command("setTempo", {"bpm": bpm})

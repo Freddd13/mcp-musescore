@@ -1,33 +1,33 @@
 # Architecture and connection model
 
 ```text
-Claude Code / Codex / another MCP client
+Codex / another MCP client
                  │ MCP stdio
                  ▼
 server.py ─ FastMCP("MuseScore Assistant")
                  │ src/tools/*
                  ▼
-MuseScoreClient ─ WebSocket ws://localhost:8765
+MuseScoreClient ─ WebSocket ws://127.0.0.1:8765
                  │ JSON actions
                  ▼
 musescore-mcp-websocket.qml ─ MuseScore plugin API
                  ▼
-open score in MuseScore Studio
+open score in MuseScore 3 Evolution
 ```
 
 ## Components
 
 - `server.py` creates the FastMCP server and registers the public Python tools.
 - `src/tools/` translates typed MCP calls into camelCase JSON actions.
-- `src/client/websocket_client.py` owns the localhost WebSocket connection and retries once after a stale socket.
-- `musescore-mcp-websocket.qml` runs inside MuseScore and exposes a WebSocket server on port 8765.
+- `src/client/websocket_client.py` serializes requests, bounds receive waits and retries only reads. Lost write responses report outcomeUnknown; inspect before replay.
+- `musescore-mcp-websocket.qml` uses QtWebSockets on loopback port 8765. It requires no api.websocketserver. Windows needs the matching Qt5WebSockets.dll and QML module.
 - `src/utils/lilypond_converter.py` converts score analysis/selection data into LilyPond text for supported read paths.
 
 ## Startup order
 
-1. Start MuseScore Studio and open a score.
+1. Start MuseScore 3 Evolution and open a score.
 2. Enable the plugin once in MuseScore's plugin manager.
-3. Run `Plugins > musescore-mcp-websocket`.
+3. Run `Plugins > MuseScore API Server`.
 4. Let the MCP client launch `server.py` over stdio, or run the skill's start script manually.
 5. Call `ping_musescore` before using a score tool.
 
@@ -53,7 +53,7 @@ Errors use:
 {"status": "error", "message": "..."}
 ```
 
-The current Python wrappers sometimes test the inner `success` key without first unwrapping `status/result`. If a read tool returns the raw envelope, use `result`/`result.analysis` as the authoritative score data and do not claim that a formatted LilyPond response was produced.
+Read wrappers unwrap status/result and surface nested errors. get_score keeps the LilyPond view; get_score_data provides JSON. Legacy mutation tools retain the wire envelope; inspect its inner result. Sequences stop on failures and report failedIndex/completedCount without rolling back completed actions.
 
 ## Files and versions
 
@@ -61,7 +61,7 @@ The current Python wrappers sometimes test the inner `success` key without first
 - Python entry point: `server.py`.
 - Dependency declaration: `requirements.txt`.
 - The current source imports `fastmcp` (standalone FastMCP 4, declared as `fastmcp>=4,<5` in `requirements.txt`).
-- The upstream project documents MuseScore 3.x and 4.x, but this integration was verified with MuseScore Studio 4.7.4 on macOS. Treat other versions as needing a bridge check.
+- This fork targets MuseScore 3 Evolution. Native checks use personal 0.10/0.11 Windows installations; upstream MuseScore 4 support claims are not guarantees for this fork.
 
 ## Failure diagnosis
 
