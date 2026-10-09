@@ -1,0 +1,6 @@
+# Author-owned sources use predictable text line endings.
+* text eol=lf
+# Preserve the vendored baseline byte-for-byte for SHA-256 verification.
+vendor/* -text -diff
+*.otf -text -diff
+*.zip -text -diff

@@ -1,0 +1,53 @@
+{
+  "version": "0.100",
+  "units_per_staff_space": 250,
+  "copyright_addition": "Copyright (c) 2026 Freddd13. Independent prototype notehead designs and derivative font packaging.",
+  "profiles": {
+    "control": {
+      "family": "Kumo Engrave Control",
+      "description": "Rename-only control: all base outlines, advance widths and anchors preserved.",
+      "counter_scale": 1.0
+    },
+    "balanced": {
+      "family": "Kumo Engrave",
+      "description": "Independent affine-ellipse noteheads; base advance widths and normal stem anchors retained.",
+      "counter_scale": 1.0
+    },
+    "open": {
+      "family": "Kumo Engrave Open",
+      "description": "Same outer outlines as balanced, with 12 percent more counter height for half and whole notes.",
+      "counter_scale": 1.12
+    },
+    "jp": {
+      "family": "Kumo Engrave JP",
+      "description": "Independent publication-direction study after visual review of Chaconne Ex: fuller black head, more open half counter, horizontal whole exterior.",
+      "counter_scale": 1.0,
+      "glyph_overrides": {
+        "noteheadBlack": {"codepoint": "E0A4", "outer_box": [0, -141, 318, 135], "outer_shear": 0.2358490566},
+        "noteheadHalf": {"codepoint": "E0A3", "outer_box": [0, -139, 328, 137], "outer_shear": 0.3018292683,
+                         "counter": {"radius_x": 138, "radius_y": 68, "shear": 0.39}},
+        "noteheadWhole": {"codepoint": "E0A2", "outer_box": [0, -132, 420, 134], "outer_shear": 0.0,
+                          "counter": {"radius_x": 86, "radius_y": 95, "shear": -0.65}}
+      }
+    }
+  },
+  "glyphs": {
+    "noteheadBlack": {
+      "codepoint": "E0A4",
+      "outer_box": [0, -132, 318, 126],
+      "outer_shear": 0.2358490566
+    },
+    "noteheadHalf": {
+      "codepoint": "E0A3",
+      "outer_box": [0, -134, 328, 132],
+      "outer_shear": 0.3018292683,
+      "counter": {"radius_x": 139, "radius_y": 32, "shear": 0.42}
+    },
+    "noteheadWhole": {
+      "codepoint": "E0A2",
+      "outer_box": [0, -132, 420, 134],
+      "outer_shear": -0.16,
+      "counter": {"radius_x": 67, "radius_y": 95, "shear": -0.35}
+    }
+  }
+}
