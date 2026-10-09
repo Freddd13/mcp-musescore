@@ -1,6 +1,6 @@
 # 钢琴净书研究与自动净书准备计划
 
-更新日期：2026-10-09。状态：**本对话正在推进的主线；阶段 A 首批 14 个案例、14 张规则卡已完成，继续补充规范并准备只读诊断；自动净书尚未实现。**
+更新日期：2026-10-09。状态：**本对话正在推进的主线；阶段 A 累计35例、26张规则卡，含新增12份官谱的情境研究与Behind Bars正文定向核查；继续补规范并准备只读诊断，自动净书尚未实现。**
 
 字体工作另见 [FONT_PLAN.md](FONT_PLAN.md)。项目当前实现与接口边界见 [ARCHITECTURE_AND_PIANO.md](ARCHITECTURE_AND_PIANO.md)。
 
@@ -57,7 +57,7 @@ MuseScore 已处理部分凹形／重复音型水平连梁、倾斜厚度补偿�
 
 ### 3.3 核查来源与阅读状态
 
-- Elaine Gould《Behind Bars》：[官方目录](https://behindbarsnotation.co.uk/contents/)与[公开样章](https://behindbarsnotation.co.uk/contents/sample_pages.pdf)。已核对目录和样章相关内容；未通读全书。目录中的 Keyboard、Layout 等章节是后续核查范围，不能仅凭目录声称已掌握其中全部规则。
+- Elaine Gould《Behind Bars》：此前核查[官方目录](https://behindbarsnotation.co.uk/contents/)与[公开样章](https://behindbarsnotation.co.uk/contents/sample_pages.pdf)；本轮找到用户OneDrive的696页全文，定向阅读钢琴声部/休止/跨谱表、连音、装饰音/震音、踏板、反复、间距与翻页，并复核20个图页。具体页码与尚未读处见 [阅读笔记](engraving/BEHIND_BARS_NOTES.md)。未通读全书，全文索引不等于逐页掌握。
 - Ted Ross 的连梁规则：现阶段通过 [Dorico 官方连梁设计说明](https://blog.dorico.com/2015/03/development-diary-part-10/)了解其讨论与限制；没有将二手转述标成原书直接核实。
 - LilyPond：[光学间距](https://lilypond.org/doc/v2.25/Documentation/essay/optical-spacing)、[候选布局评价](https://lilypond.org/doc/v2.25/Documentation/essay/beauty-contests)、[真实净书基准比较](https://lilypond.org/doc/v2.25/Documentation/essay/improvement-by-benchmarking)。这是机制与算法参考，不是所有出版机构共同遵循的规范。
 - Dorico：[连梁机制](https://blog.dorico.com/2015/03/development-diary-part-10/)、[横向布局设计](https://blog.dorico.com/2015/06/development-diary-part-11/)、[垂直间距](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/page_formatting/page_formatting_vertical_spacing_per_layout_options_r.html)。区分软件实现、传统惯例与个人风格。
@@ -175,6 +175,8 @@ MCP 的后续接口候选为 get_engraving_state 与 preview_engraving；具体�
 ### 当前下一步
 
 首批成果见 [engraving/README.md](engraving/README.md)，包含来源核查、14 个案例、14 张规则卡、实现路线和原文件哈希核验。五组至少两例，解释音乐上下文、阅读收益、替代代价、例外与验收；出版者真实意图和未经试验的改善均保留为假说。
+
+扩大研究见 [EXPANDED_RESEARCH.md](engraving/EXPANDED_RESEARCH.md)：目录枚举146份PDF，选择新增12份/229页作发现材料，近读其中19页，新增21例/12规则及48幅本机裁图。覆盖十六分swing、震音、复杂连音、虚线声部引导、部分tie、八度续段、独立coda片段等。全部缩略图生成不代表全部页已深读；完整覆盖矩阵记录明确缺口。规则修正包括音乐层不等于voice容器、允许交叉按类型判断、手分配惯例与事实分开，以及翻页时间不设通用阈值。
 
 下一步以用户工程 m41、m111–114 和第 2 页垂直空白为只读审计起点；m148–149 的四谱表作为反例验收。先核时间/作用域、有效样式与实际几何，再在独立副本比较文字通道、弧线和局部间距。当前仍不实施字体、MCP 或本体功能。
 

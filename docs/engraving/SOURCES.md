@@ -20,8 +20,9 @@
 | S12 | Dorico 6.2 [Note spacing options](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_page_layout_options_r.html) | 时值间距与实际占宽、跨谱表 optical spacing、末行伸展 | 说明理想时间网格与占宽约束可以分开；不照搬默认阈值。 |
 | S13 | LilyPond 2.26 [Page breaking](https://lilypond.org/doc/v2.26/Documentation/notation/page-breaking) | 普通最优分页与翻页优化不同、允许翻页位置、扫描无音区段 | 实现思路；钢琴是否腾得出手还需演奏条件，不直接套声部休止长度。 |
 | S14 | LilyPond [Beauty contests](https://lilypond.org/doc/v2.25/Documentation/essay/beauty-contests) | 多候选布局评分 | 自动净书架构参考，评分权重必须用本项目案例验证。 |
-| S15 | 本机 Evolution 源码 `libmscore/beam.cpp`、`dynamic.cpp`、`dynamic.h` | 梁生成、力度范围读入/默认 | 本机实现事实，位置见 IMPLEMENTATION；不推断上游所有版本。只读核查，软件仓库并发变更可能改变行号。 |
+| S15 | 本机 Evolution 源码 `libmscore/beam.cpp`、`dynamic.cpp`、`dynamic.h`、`bracket.cpp` | 梁生成、力度范围读入/默认、Leland名称触发的括号几何分支 | 本机实现事实，位置见 IMPLEMENTATION；不推断上游所有版本。只读核查，软件仓库并发变更可能改变行号。 |
 | S16 | 本项目 QML 桥及 `src/tools/connection.py` | 当前读谱字段与已注册能力 | 能力缺口依据；“Plugin API 可读”与“已有 MCP 工具返回”分开。 |
+| S17 | 用户OneDrive本地 *Behind Bars* (2011)，696页PDF | Keyboard及连音、装饰音/震音、重复、间距、翻页等定向正文；20个图页 | 本次读取范围/页码/未读处见 [BEHIND_BARS_NOTES.md](BEHIND_BARS_NOTES.md)；没有通读全书，正文不提交。 |
 
 ## 本批从教材取用的原则
 
@@ -38,4 +39,4 @@ PDF 观察标为“可见事实”，工程 XML 标为“结构事实”，原�
 
 ## 下一批学习缺口
 
-需要继续核查：复合拍/切分的时值拆写与延音、声部休止的隐藏条件、变音重复提示和跨小节记忆、连音括号/数字、装饰音、指法/手分配、踏板与演奏语义、反复跳转的提示、换页前后弧线。新条目必须附可查来源与正反例，禁止仅按个人感觉升级为规范。
+扩大研究已定向核查声部休止、连音数字/括号、装饰音、指法/手分配、踏板和跳转；见S17与 [覆盖矩阵](EXPANDED_RESEARCH.md)。下一步补切分时值拆写、变音重复提示/跨小节与跳转后的记忆、附点/二度几何、嵌套比例和跨页tie/Slur。教材条件已核不代表工程实现或打印通过；新条目必须附可查来源与正反例。
