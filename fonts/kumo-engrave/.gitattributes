@@ -2,5 +2,6 @@
 * text eol=lf
 # Preserve the vendored baseline byte-for-byte for SHA-256 verification.
 vendor/* -text -diff
+vendor/** -text -diff
 *.otf -text -diff
 *.zip -text -diff

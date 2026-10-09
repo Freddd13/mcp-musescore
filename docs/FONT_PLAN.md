@@ -1,16 +1,18 @@
 # 个人出版风格音乐字体计划
 
-更新日期：2026-10-09。状态：**字体线已执行至 F1 可评审原型；隔离构建与原生加载通过，尚待用户选择方向和打印验收。**
+更新日期：2026-10-10。状态：**字体线进入 F2；以 Leland 为新版底库，Kumo Piano 0.2 的 38 个常用字形已完成原生对照；交付为可安装草案，仍待审美评审和打印验收。**
 
 本对话执行字体线；[钢琴净书研究线](ENGRAVING_PLAN.md) 在另一任务并行推进。实现位于 [fonts/kumo-engrave](../fonts/kumo-engrave/README.md)，两线独立提交，互相交换验收案例与机制发现。
 
 ## 1. 已确认的目标与边界
 
-用户喜欢 Animenz 新官谱的 Chaconne 风格，并选择开发个人字体：**以开放授权的 Finale Maestro 为底，保留完整字库，先独立设计常规符头，再渐进扩展常用字形。**
+用户喜欢 Animenz 新官谱的 Chaconne 风格。初版使用开放授权 Finale Maestro；2026-10-09 用户认为其整体不够干净，明确改为 **以 Leland 为新版底库，保留 Leland 的完整字库，扩展常用字形**。旧 Maestro 家族与 0.1 包保留，供历史对照。
+
+本轮新增 `Kumo Piano` / `Kumo Piano Control`，以 Leland 0.80 为基础；独立替换 38 个字形（含符头、G/F 谱号、休止、变音、旗尾、琶音、发音符号、延长号），未改字符沿用 Leland。观察范围扩展至 14 份官谱的 33 页，详见 [官谱到设计的依据](../fonts/kumo-engrave/ANIMENZ_REFERENCE.md)。参考以实际 Animenz 成品谱为主，Ex 字形表仅是补充，不把二者说成同一版本。
 
 2026-10-09 用户在第一轮符头对照后明确要求“按 chonnex 的来”：视觉目标具体化为 **Chaconne Ex 官方谱例与字形表展示的风格**，不以两种初版候选的主观偏好为定稿依据。已读取官方字形表第9页，新增 `Kumo Engrave JP`，保留 Control／初版候选作工程对照；[设计依据](../fonts/kumo-engrave/DESIGN_BRIEF.md)记录观察到参数的理由。旧官谱不能自动代表 Ex 全套设计。目标方向与字形来源分开记录。
 
-暂用独立家族名 `Kumo Engrave`，配套文本音乐字体为 `Kumo Engrave Text`；发布前核查命名冲突，不复用保留名称。目标是符合用户偏好的出版谱视觉语言，不承诺复制 Chaconne，也不宣称字体本身能够完成净书。
+当前独立家族名为 `Kumo Piano`，配套 `Kumo Piano Text` 暂作兼容研究；旧 `Kumo Engrave` 家族保留。不复用基础字体保留名称。目标是符合用户偏好的出版谱视觉语言，不承诺复制 Chaconne，也不宣称字体本身能够完成净书。
 
 - 参考 PDF 只用于观察比例、黑白关系、印刷效果和上下文表现。不提取、描摹或重新包装其嵌入 Chaconne 字形。
 - 不修改用户 PDF、MSCZ、现有内置字体、全局字体或当前 MuseScore 设置。试验使用独立字体家族、独立配置和工程副本。
@@ -23,7 +25,8 @@
 | --- | --- | --- |
 | Chaconne | 主要新官谱样本嵌入字体名称已确认；并非所有年代样本都相同 | 审美参考，不作为字体文件来源 |
 | Chaconne Ex | 官方定位为 SMuFL 后继，支持 OTF／Windows；2026-10-08 查看官方商店标价 16,500 日元 | 可购买的参考候选，当前未取得或测试，不保证与旧版字形完全相同 |
-| Finale Maestro／Text | Evolution 已内置，厂家公开 OFL 许可及免费安装包 | 本计划基础字体与现成对照 |
+| Finale Maestro／Text | Evolution 已内置，厂家公开 OFL 许可及免费安装包 | 0.1 历史底库与现成对照 |
+| Leland／Text | 本地软件仓库为 0.80，OFL；保留名称 Leland；音乐 493 字、Text 182 字 | 用户最新确认的基础；未删减覆盖，不能称与 Maestro 的覆盖完全相同 |
 | Sebastian | 作者提供字体、SMuFL JSON 和 UFO 源，OFL 许可 | 独立研究对照，不预先判定为最接近 Chaconne |
 | Bravura | SMuFL 参考字体，开放授权，外观偏厚重 | 覆盖与机制对照，不因它是 Dorico 默认字体就视为目标答案 |
 
@@ -38,17 +41,19 @@
 
 ## 3. 基础资产、许可与可重复构建
 
-软件仓库：`E:\programming\funcodes\muse3_dev\MuseScore`。当前基础资产位于 `fonts/finalemaestro/`：
+软件仓库：`E:\programming\funcodes\muse3_dev\MuseScore`。旧版基础资产位于 `fonts/finalemaestro/`：
 
 - `FinaleMaestro.otf`、`FinaleMaestro.json`
 - `FinaleMaestroText-Regular.otf`、`Finale Maestro Text.json`
 - `OFL.txt`
 
+0.2 新底库来自 `fonts/leland/`：`Leland.otf`、`LelandText.otf`、`leland_metadata.json`、`LICENSE.txt` 与 `FONTLOG.txt`，只读复制到插件项目 `vendor/leland/`；哈希、来源提交和版本记在 `LELAND_BASELINE.json`。新家族不使用保留名称 Leland，不替换软件内置资产。源矢量为 `source/piano_palette.py` 与 `source/design.json`。
+
 本地 OFL 包含 Finale、Maestro 等保留名称。衍生字体须使用新名称、保留原版权与许可、补充修改者记录，并继续按 OFL 分发；文档／乐谱本身不因使用该字体而必须采用 OFL。[OFL 官方说明](https://openfontlicense.org/ofl-faq/)
 
 开工先固定基础文件版本和哈希，并记录来源。字体工作放在本项目独立目录 `fonts/kumo-engrave/`，不替换软件仓库的基础资产。保存可编辑矢量源、构建脚本、度量／锚点定义、版本日志与生成产物。基础 OTF 不等于已有可编辑源；工具链选择需先做一次未改字形的转换／构建回归，确认没有覆盖、轮廓或度量退化，再开始设计。
 
-构建交付包括 `Kumo Engrave.otf`、`Kumo Engrave.json`、配套 Text OTF／JSON、OFL、来源和版本说明。修改后的内部 family／full／PostScript 名称须统一，避免与已安装字体冲突。每轮记录具体替换的字形、度量及参数，不把整体转换引起的变化误当作设计收益。
+构建交付包括 `Kumo Piano.otf`、`Kumo Piano.json`、配套 Text OTF／JSON、OFL、来源和版本说明。修改后的内部 family／full／PostScript 名称须统一，避免与已安装字体冲突。每轮记录具体替换的字形、度量及参数，不把整体转换引起的变化误当作设计收益。
 
 ## 4. 渐进字形设计与净书配套
 
@@ -81,14 +86,14 @@
 安装与副本试验步骤（当前原型详见 [安装指南](../fonts/kumo-engrave/README.md)）：
 
 1. 先用隔离配置及测试字体目录验证加载，不安装到用户全局字体目录。
-2. 准备 `Kumo Engrave/` 子目录，放入同名 OTF／JSON；Text 字体的注册与解析必须另行实际验证，不能仅凭符号字体扫描成功宣称 Text 已适配。
+2. 准备 `Kumo Piano/` 子目录，放入同名 OTF／JSON；Text 字体的注册与解析必须另行实际验证，不能仅凭符号字体扫描成功宣称 Text 已适配。
 3. 在独立副本选择新字体，分别测试“只换字体”和“加载配套参数”；读回有效样式，说明二者差别。
 4. 生成原生 Windows PNG／SVG／PDF 对照。保持固定宿主版本；offscreen 曾发生系统字体回退，不能拿该结果评价正常使用效果。
 5. 通过后再交付用户安装说明及卸载／恢复方法；不得删除用户已有字体或覆盖原谱。
 
 音乐字体变更可能影响分页。既有同曲试验只改 Finale Maestro/Text 就从 8 页变为 9 页，不能把换字体后的布局变化视为字体质量排名。
 
-2026-10-09 的 0.17 隔离原生试验已验证三家族及 Text 注册。发现只改名 Text 也改变部分力度：Maestro Text 缺 `dynamicMezzo` U+E521，内置家族的 Qt 字体回退并不自动传给新家族。当前推荐配套方式为 **Kumo 音乐字体 + 内置 Finale Maestro Text**；改名 Text 暂留作兼容研究。固定 Text 后，Control 与 Maestro 在测试谱 1 页、用户谱 9 页均逐像素一致。两种新符头候选的用户谱均 9 页，仍需检查局部碰撞和分页变化，不能由保留 hmtx 推断布局绝对不变。
+2026-10-09 的 0.17 隔离原生试验已验证三家族及 Text 注册。发现只改名 Text 也改变部分力度：Maestro Text 缺 `dynamicMezzo` U+E521，内置家族的 Qt 字体回退并不自动传给新家族。旧 0.1 的推荐配套方式为 **Kumo Engrave 音乐字体 + 内置 Finale Maestro Text**；改名 Text 暂留作兼容研究。固定 Text 后，Control 与 Maestro 在测试谱 1 页、用户谱 9 页均逐像素一致。两种新符头候选的用户谱均 9 页，仍需检查局部碰撞和分页变化，不能由保留 hmtx 推断布局绝对不变。
 
 ## 6. 验收与交付
 
@@ -103,15 +108,17 @@
 
 ## 7. 分支对话交接与下一步
 
-字体线已读取两线边界并核查基础许可。基础资产固定到软件提交 `1146859d0`，三个常规符头独立原型及构建／验证／原生试验脚本已落盘；不需修改 MuseScore 内置字体引擎。源码及字体报告见 [验证记录](../fonts/kumo-engrave/VERIFICATION.md)。
+字体线已读取两线边界并核查基础许可。0.1 Maestro 基础资产固定到软件提交 `1146859d0`，三个常规符头独立原型及构建／验证／原生试验脚本已落盘；不需修改 MuseScore 内置字体引擎。源码及字体报告见 [验证记录](../fonts/kumo-engrave/VERIFICATION.md)。
 
 下一步按顺序进行：
 
-1. 按用户已确认的 Chaconne Ex 方向核查官方谱例，形成外轮廓／内孔／墨色的设计说明，再做同曲对照；两种初版候选不直接定为成品。
-2. 增补二度和弦、分叉接杆及不同输出缩放专项；实际打印核查谱线穿孔与墨色。净书线提供的 m41 力度、m148–149 四谱表案例纳入回归，并保留音乐内容／标记时间和归属。
-3. 优先在字体层修复 Text 缺码位／混排兼容，再独立验收 Text；不为私人家族添加硬编码本体规则。
-4. F1 方向确定后进入 F2 谱号、变音记号、休止与力度渐进设计；F3 推荐样式单独版本化，不自动覆盖已有 MSS。
+0. **最新决定优先：** 继续以 Leland/Animenz 官谱推进，不再把 JP/Maestro 作为主方向；0.2 常用符号草案先做用户评审。已发现宿主 `bracket.cpp` 对精确名称 Leland 特判 brace 最大跨谱表数与 bracket 端部；6 谱表用户谱的改名 Control 因此可能改变分页。该发现已通知净书线，字体线不添加本体硬编码；使用改名 Control 作为新字形的严格基准，并单独记录与内置 Leland 的差异。
 
-参考 PDF 目录：`C:\Users\Fred\OneDrive - yunzd\cloudreve\Sheets\【2021-】新官谱`。主要样本为 Idol、Sincerely、IRIS OUT 和 Shirushi；具体文件名、用户只读材料和历史报告位置列于净书计划第 8 节。分支到别的电脑时这些绝对路径可能不可用，不得伪称已读取。
+1. 按新版同曲对照收集审美反馈，优先修正谱号、休止、旗尾和连续琶音；参考更多实际 Animenz 官谱，不能因首批 38 字完成就宣称全字库设计完成。
+2. 增补二度和弦、分叉接杆及不同输出缩放专项；实际打印核查谱线穿孔与墨色。净书线提供的 m41 力度、m148–149 四谱表案例纳入回归，并保留音乐内容／标记时间和归属。
+3. 配套 Leland Text 虽含 mezzo，改名后的用户谱仍在八度线等混排出现差异；0.2 推荐内置 Leland Text。后续优先在字体层补覆盖／混排，独立验收；不为私人家族添加硬编码本体规则。
+4. 继续 F2 踏板、装饰、力度、数字及组合发音系列；32/64 分旗尾与较少见形态需补足观察。F3 推荐样式单独版本化，不自动覆盖已有 MSS。
+
+参考 PDF 目录：`C:\Users\Fred\OneDrive - yunzd\cloudreve\Sheets\【2021-】新官谱`。首批样本为 Idol、Sincerely、IRIS OUT 和 Shirushi；0.2 已扩展到 14 份谱子，完整列表见官谱设计依据；具体文件名、用户只读材料和历史报告位置列于净书计划第 8 节。分支到别的电脑时这些绝对路径可能不可用，不得伪称已读取。
 
 净书线提供真实阅读需求、情境与验收谱例；字体线反馈字形度量、锚点、建议参数及版本变化。不要同时重画字形、改变谱表大小和重排系统后把整体改善归因于字体。后续每轮在本文件记录实际状态、证据及下一步。

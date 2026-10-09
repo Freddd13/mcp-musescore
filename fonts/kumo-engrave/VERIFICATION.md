@@ -1,3 +1,23 @@
+# 0.2 新版验证（2026-10-10）
+
+当前主候选是 **Kumo Piano（Leland 底库）＋内置 Leland Text**。以下是本轮实测，不覆盖下面 0.1 的历史记录。
+
+- 固定 Leland 0.80 的文件哈希；完整保留音乐 493 字、Text 182 字的 glyph order／cmap／hmtx。独立替换 38 个音乐码位，未授权范围的轮廓不变；每个 CFF 字宽与 hmtx 一致，实际外框回写 JSON，普通接杆锚点保留。
+- 采用相同 personal 0.17 宿主（SHA-256 `bbc3b4a139a802a98096fc0d01eee5ab5d460c38e4340d2b282e72696348c0f5`），独立 ScoreFonts／配置、Windows Qt 原生 PNG/SVG。当前软件其它开发已推进至后续版本；本轮不混用宿主结果。
+- 自写 20 小节、2 谱表、完整 4/4 测试谱：38 个系列中的常用形态及上下／多层休止、无方向与上下方向琶音、密集变音、发音、延长号、踏板和 mf/mp。MusicXML 导入后核查琶音 subtype 0/1/2；原生 SVG 使用了新谱号／符头／琶音路径，未仅凭 Qt 注册认定字形被采用。放大检查了普通接杆与连续波纹；专项共享符头及纸面墨色未完成。
+- 固定 Text 模式：4 家族各输出测试谱 1 页；用户谱 Maestro 9 页、内置 Leland 8 页、改名 Leland Control 9 页、新 Piano 8 页。没有把页数减少列为质量通过条件。
+- 改名 Control 与内置 Leland 的整份双谱表测试谱逐像素一致，用户谱前 3 页一致、第 4 页起不同。源码 `bracket.cpp:125` 的 Leland 名称特判将 brace 跨谱表数截为 4；201/268 的 bracket 端部伸出也只对 Leland 特判。用户源有 6 个 Staff。新字形的严格对照基准使用同样落入私人家族分支的 `Kumo Piano Control`；该本体候选问题已通知净书任务，本轮未修改本体。
+- 反事实原生验证：两个副本仅将 bracket span >4 改为 4，保留全部 6 个 Staff 音乐子树、字体、Text 和其它配置。两者都输出 8 页，8 页逐像素一致，确认本工程的这项 Control 分页差异由括号跨度／名称分支触发。这不代表推荐修改原谱的括号，也不能代替对其它工程的定位。代码 `verify_bracket_branch.py`，报告 `dist/bracket-cause-probe/report.json`。
+- 单独测试配套改名 Text：两种音乐家族共 19 页（Control 的 1+9，Piano 的 1+8），测试谱两页完全相同；用户谱中 12/17 页出现局部差异。第 1 页 SVG 差异定位为 OttavaSegment。Leland Text 虽含 mezzo，Qt 家族替代与其它混排仍不随改名自动继承；继续推荐内置 Leland Text，不能宣称配套 Text 全部兼容。
+- 在独立目录 `dist/repeat-v02-final/` 重建：六种家族共 64 个 OTF／JSON／许可／出处／FONTLOG／SVG 文件，以及 build-report，逐字节一致。
+- 最终音乐／Text OTF 字节与两组原生试验加载的文件一致，原 MSCZ 和 PDF SHA-256 均与既有记录相同。官谱读前读后哈希亦不变。
+
+最终原生报告保存在本项目忽略目录 `dist/proofs-v02-final/` 和 `dist/proofs-v02-final-text/`；这组使用最后修订的琶音箭头和渐变粗细延长号。复核脚本 `verify_release.py --fixed dist/proofs-v02-final --paired dist/proofs-v02-final-text`（在字体目录执行）只读这些结果，将报告及同尺度对照输出到 `dist/review-0.2/`。早期原生结果仍在本机私有可视化目录保留。分发机器没有这些路径时应先自行运行 `render_proofs.py`，不能照抄“已验证”。
+
+尚未通过：用户审美认可、实际打印、共享符头/二度接杆专项、特殊符头、32/64 分旗尾与所有组合记号、推荐 MSS。官谱方向的独立绘制不等于商业字体的精确复刻。
+
+---
+
 # 0.1.0 技术验证与观察
 
 更新：2026-10-09。本报告区分构建正确性、原生兼容和审美选择；用户现已明确以 **Chaconne Ex** 为视觉目标，初版候选仍为工程与参数对照，不能称为目标字体的完成版。

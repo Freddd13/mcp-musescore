@@ -52,7 +52,9 @@ def run(args):
     fonts = out / "ScoreFonts"
     fonts.mkdir()
     design = json.loads((ROOT / "source/design.json").read_text(encoding="utf-8"))
-    for profile, config in design["profiles"].items():
+    selected = args.profiles.split(',') if args.profiles else list(design["profiles"])
+    for profile in selected:
+        config = design["profiles"][profile]
         for family in [config["family"], config["family"] + " Text"]:
             shutil.copytree(args.fonts / profile / family, fonts / family)
     config = out / "config"
@@ -72,7 +74,7 @@ def run(args):
         print(label, "OK", flush=True)
 
     fixture = out / "fixture.mscx"
-    convert("import-fixture", ["-o", str(fixture)], ROOT / "fixtures/piano-heads.musicxml")
+    convert("import-fixture", ["-o", str(fixture)], args.fixture or ROOT / "fixtures/piano-heads.musicxml")
     inputs = {"fixture": fixture.read_bytes()}
     originals = {}
     if args.score:
@@ -89,14 +91,14 @@ def run(args):
     results = {"host": str(args.musescore), "host_sha256": digest(args.musescore),
                "originals": originals, "font_config": str(config),
                "text_mode": args.text_mode, "proofs": {}}
-    variants = {"maestro": "Finale Maestro", **{k: v["family"] for k, v in design["profiles"].items()}}
+    variants = {"maestro": "Finale Maestro", "leland": "Leland", **{k: design["profiles"][k]["family"] for k in selected}}
     for sample, source in inputs.items():
         for variant, family in variants.items():
             label = sample + "-" + variant
             score = out / (label + ".mscx")
             # The built-in Text family has Qt substitutions that a renamed family
             # does not inherit. Keep Text fixed when judging notehead changes.
-            text_family = family + " Text" if args.text_mode == "paired" else "Finale Maestro Text"
+            text_family = family + " Text" if args.text_mode == "paired" else args.fixed_text
             set_font(source, score, family, text_family)
             probe = out / (label + "-probe.qml")
             report_path = out / (label + "-probe.json")
@@ -138,6 +140,9 @@ if __name__ == "__main__":
     parser.add_argument("--fonts", type=Path, default=ROOT / "dist")
     parser.add_argument("--score", type=Path)
     parser.add_argument("--dpi", type=int, default=180)
+    parser.add_argument("--profiles", help="Comma-separated profiles to render; default all")
+    parser.add_argument("--fixture", type=Path, help="Alternative authored MusicXML fixture")
+    parser.add_argument("--fixed-text", default="Finale Maestro Text")
     parser.add_argument("--text-mode", choices=["fixed", "paired"], default="fixed",
                         help="fixed isolates noteheads; paired tests experimental renamed Text")
     run(parser.parse_args())

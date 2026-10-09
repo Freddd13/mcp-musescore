@@ -1,7 +1,7 @@
 """Build isolated OFL prototypes without recompiling unaffected CFF glyphs.
 
-The source is a parameterized, independently drawn four-cubic affine ellipse,
-not a traced/extracted reference glyph. Run with fontTools 4.38.0.
+The source uses independent parameterized contours and variable-width ribbons,
+not traced/extracted reference glyphs. Run with fontTools 4.38.0.
 """
 from __future__ import annotations
 
@@ -18,6 +18,7 @@ from fontTools.pens.recordingPen import RecordingPen
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.t2CharStringPen import T2CharStringPen
 from fontTools.ttLib import TTFont
+from source.piano_palette import draw as draw_palette, specs as palette_specs
 
 ROOT = Path(__file__).resolve().parent
 KAPPA = 4 * (math.sqrt(2) - 1) / 3
@@ -34,7 +35,15 @@ def write_json(path, value):
 def profile_design(design, profile):
     resolved = copy.deepcopy(design)
     resolved["glyphs"].update(design["profiles"][profile].get("glyph_overrides", {}))
+    if design["profiles"][profile].get("palette"):
+        resolved["glyphs"].update(palette_specs())
     return resolved
+
+
+def base_files(config):
+    if config.get("baseline") == "leland":
+        return ("leland/Leland.otf", "leland/LelandText.otf", "leland/leland_metadata.json", "leland/LICENSE.txt")
+    return ("FinaleMaestro.otf", "FinaleMaestroText-Regular.otf", "FinaleMaestro.json", "OFL.txt")
 
 
 def ellipse(pen, cx, cy, rx, ry, shear, reverse=False):
@@ -101,7 +110,7 @@ def make_font(base_path, output_path, family, design, profile):
     font = TTFont(base_path, recalcTimestamp=False)
     rename(font, family, design["version"], design["copyright_addition"])
     changed = []
-    if profile != "control":
+    if not design["profiles"][profile].get("control", profile == "control"):
         top = font["CFF "].cff.topDictIndex[0]
         cmap = font.getBestCmap()
         for symbol, spec in design["glyphs"].items():
@@ -110,7 +119,8 @@ def make_font(base_path, output_path, family, design, profile):
             # Type 2 encodes width relative to nominalWidthX, not absolute hmtx width.
             width_delta = advance - getattr(top.Private, "nominalWidthX", 0)
             pen = T2CharStringPen(width_delta, font.getGlyphSet())
-            outline(spec, design["profiles"][profile]["counter_scale"]).replay(pen)
+            drawing = draw_palette(spec, advance) if "drawing" in spec else outline(spec, design["profiles"][profile]["counter_scale"])
+            drawing.replay(pen)
             top.CharStrings[name] = pen.getCharString(private=top.Private, globalSubrs=top.GlobalSubrs)
             changed.append((symbol, name))
     font.save(output_path)
@@ -127,6 +137,10 @@ def update_head_metadata(meta, font_path, changed, design):
             meta["glyphBBoxes"][symbol] = {"bBoxNE": [round(x1 / unit, 6), round(y1 / unit, 6)],
                                          "bBoxSW": [round(x0 / unit, 6), round(y0 / unit, 6)]}
             spec = design["glyphs"][symbol]
+            if "outer_box" not in spec:
+                # These drawings preserve origin and advances. Repetition uses
+                # original repeatOffset; flags meet the original stem origin.
+                continue
             sx0, sy0, sx1, sy1 = spec["outer_box"]
             cx, cy = (sx0 + sx1) / 2, (sy0 + sy1) / 2
             rx = (sx1 - sx0) / 2
@@ -139,7 +153,8 @@ def update_head_metadata(meta, font_path, changed, design):
 
             anchors = meta["glyphsWithAnchors"].setdefault(symbol, {})
             # Keep ordinary stem attachment points; update optical cutouts and split anchors.
-            for corner, fraction, upper in [("cutOutNW", .17, True), ("cutOutSE", .83, False)]:
+            for corner, fraction, upper in [("cutOutNW", .17, True), ("cutOutSE", .83, False),
+                                             ("cutOutNE", .83, True), ("cutOutSW", .17, False)]:
                 x = sx0 + fraction * (sx1 - sx0)
                 y = edge(x, upper) + (1 if upper else -1)
                 anchors[corner] = [round(x / unit, 6), round(y / unit, 6)]
@@ -149,20 +164,25 @@ def update_head_metadata(meta, font_path, changed, design):
                     anchors[key] = [point[0], round(edge(x, "Up" in key) / unit, 6)]
 
 
-def draw_svg(font_path, output_path):
+def draw_svg(font_path, output_path, symbols=None):
     """Actual rebuilt glyphs at common scale on staff lines, editable SVG."""
     with TTFont(font_path) as font:
         cmap, glyphs = font.getBestCmap(), font.getGlyphSet()
-        parts = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 460">',
-                 '<rect width="1700" height="460" fill="white"/>']
-        for index, cp in enumerate([0xE0A4, 0xE0A3, 0xE0A2]):
-            x = 90 + index * 540
+        symbols = symbols or {"black": {"codepoint":"E0A4"}, "half": {"codepoint":"E0A3"}, "whole": {"codepoint":"E0A2"}}
+        rows = math.ceil(len(symbols)/5)
+        parts = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 {rows*620}">',
+                 f'<rect width="2000" height="{rows*620}" fill="white"/>']
+        for index, (label,spec) in enumerate(symbols.items()):
+            cp = int(spec["codepoint"],16)
+            x = 20 + index%5 * 400
+            top = index//5*620
             for line in range(-2, 3):
-                y = 230 + line * 70
-                parts.append(f'<path d="M{x-35} {y}h470" stroke="#777" stroke-width="6.37"/>')
+                y = top+340 + line * 50
+                parts.append(f'<path d="M{x} {y}h365" stroke="#aaa" stroke-width="3"/>')
             pen = SVGPathPen(glyphs)
             glyphs[cmap[cp]].draw(pen)
-            parts.append(f'<path d="{pen.getCommands()}" transform="translate({x+110} 230) scale(.28 -.28)" fill="black"/>')
+            parts.append(f'<path d="{pen.getCommands()}" transform="translate({x+100} {top+340}) scale(.20 -.20)" fill="black"/>')
+            parts.append(f'<text x="{x}" y="{top+35}" font-family="Arial" font-size="18">{label}</text>')
         parts.append('</svg>')
         output_path.write_text("\n".join(parts) + "\n", encoding="utf-8")
 
@@ -170,40 +190,55 @@ def draw_svg(font_path, output_path):
 def build(output):
     design = load_json(ROOT / "source/design.json")
     baseline = load_json(ROOT / "BASELINE.json")
-    for name, expected in baseline["files"].items():
+    all_files = dict(baseline["files"])
+    all_files.update(load_json(ROOT / "LELAND_BASELINE.json")["files"])
+    for name, expected in all_files.items():
         actual = hashlib.sha256((ROOT / "vendor" / name).read_bytes()).hexdigest()
         if actual != expected:
             raise ValueError(f"Baseline hash mismatch: {name}")
     output.mkdir(parents=True, exist_ok=True)
-    report = {"version": design["version"], "baseline": baseline, "profiles": {}}
+    report = {"version": design["version"], "baseline": baseline,
+              "leland_baseline": load_json(ROOT / "LELAND_BASELINE.json"), "profiles": {}}
     for profile, config in design["profiles"].items():
         active_design = profile_design(design, profile)
+        music_base, text_base, metadata_base, license_base = base_files(config)
         family = config["family"]
         pack = output / profile
         for is_text in [False, True]:
             name = family + (" Text" if is_text else "")
             directory = pack / name
             directory.mkdir(parents=True, exist_ok=True)
-            base_file = "FinaleMaestroText-Regular.otf" if is_text else "FinaleMaestro.otf"
+            base_file = text_base if is_text else music_base
             font_path = directory / (name + ".otf")
-            changed = make_font(ROOT / "vendor" / base_file, font_path, name, active_design,
-                                "control" if is_text else profile)
-            metadata_file = "Finale Maestro Text.json" if is_text else "FinaleMaestro.json"
-            meta = copy.deepcopy(load_json(ROOT / "vendor" / metadata_file))
+            text_design = copy.deepcopy(active_design)
+            if is_text:
+                text_design["profiles"][profile]["control"] = True
+            changed = make_font(ROOT / "vendor" / base_file, font_path, name, text_design if is_text else active_design, profile)
+            if is_text and config.get("baseline") == "leland":
+                meta = {"glyphBBoxes": {}, "glyphsWithAnchors": {}}
+            else:
+                metadata_file = "Finale Maestro Text.json" if is_text else metadata_base
+                meta = copy.deepcopy(load_json(ROOT / "vendor" / metadata_file))
             meta.update(fontName=name, fontVersion=float(design["version"]))
             update_head_metadata(meta, font_path, changed, active_design)
             write_json(directory / (name + ".json"), meta)
-            license_text = (ROOT / "vendor/OFL.txt").read_text(encoding="utf-8")
+            license_text = (ROOT / "vendor" / license_base).read_text(encoding="utf-8")
             (directory / "OFL.txt").write_text(design["copyright_addition"] + "\n\n" + license_text,
                                                encoding="utf-8")
             (directory / "SOURCE.txt").write_text(
-                "OFL derivative of MakeMusic Finale Maestro.\n"
+                f"OFL derivative of {'MuseScore Leland' if config.get('baseline') == 'leland' else 'MakeMusic Finale Maestro'}.\n"
                 f"Kumo prototype {design['version']}; profile {profile}.\n"
-                "Only the three normal notehead glyphs are redesigned; Text outlines are unchanged.\n"
+                f"Redesigned music symbols: {', '.join(s for s,n in changed) or 'none'}. Text outlines are unchanged.\n"
                 "Source, baseline hashes and limitations: fonts/kumo-engrave in Freddd13/mcp-musescore.\n",
                 encoding="utf-8")
+            if config.get("baseline") == "leland":
+                (directory / "FONTLOG.txt").write_bytes((ROOT / "vendor/leland/FONTLOG.txt").read_bytes()
+                    + (f"\n2026-10-09 Freddd13: renamed to {name}, version {design['version']}.\n"
+                       f"Independent replacement outlines: {', '.join(s for s,n in changed) or 'none'}.\n"
+                       "Original coverage and hmtx preserved; music BBoxes/cutouts updated; Text outlines unchanged.\n").encode('utf-8'))
             if not is_text:
                 draw_svg(font_path, pack / "noteheads.svg")
+                draw_svg(font_path, pack / "palette.svg", profile_design(design, "piano")["glyphs"])
         report["profiles"][profile] = {"family": family, "description": config["description"]}
     write_json(output / "build-report.json", report)
     print(f"Built {len(design['profiles'])} isolated profile pairs in {output}")
@@ -226,10 +261,10 @@ def package(output):
     for name in ["build-report.json", "validation.json"]:
         if (output / name).exists():
             files.append((output / name, name))
-    for name in ["README.md", "VERIFICATION.md", "CHANGELOG.md", "DESIGN_BRIEF.md", "verification.json"]:
+    for name in ["README.md", "VERIFICATION.md", "CHANGELOG.md", "DESIGN_BRIEF.md", "ANIMENZ_REFERENCE.md", "verification.json", "verification-0.1.json"]:
         if (ROOT / name).exists():
             files.append((ROOT / name, name))
-    with zipfile.ZipFile(output / "kumo-engrave-0.1.0-prototypes.zip", "w", zipfile.ZIP_DEFLATED) as archive:
+    with zipfile.ZipFile(output / ("kumo-engrave-" + design.get("release_version","0.1.0") + "-prototypes.zip"), "w", zipfile.ZIP_DEFLATED) as archive:
         for file, member in sorted(files, key=lambda pair: pair[1]):
             info = zipfile.ZipInfo(member, date_time=(2026, 10, 9, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED

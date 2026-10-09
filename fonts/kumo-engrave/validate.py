@@ -8,7 +8,7 @@ from pathlib import Path
 from fontTools.pens.recordingPen import RecordingPen
 from fontTools.ttLib import TTFont
 
-from build import ROOT, bounds, load_json, profile_design
+from build import ROOT, bounds, load_json, profile_design, base_files
 
 
 def record(glyphs, name):
@@ -19,11 +19,15 @@ def record(glyphs, name):
 
 def validate(output):
     design = load_json(ROOT / "source/design.json")
-    for name, expected in load_json(ROOT / "BASELINE.json")["files"].items():
+    files = dict(load_json(ROOT / "BASELINE.json")["files"])
+    files.update(load_json(ROOT / "LELAND_BASELINE.json")["files"])
+    for name, expected in files.items():
         assert hashlib.sha256((ROOT / "vendor" / name).read_bytes()).hexdigest() == expected
     result = {}
     for profile, config in design["profiles"].items():
         active_design = profile_design(design, profile)
+        music_base, text_base, metadata_base, _ = base_files(config)
+        control = config.get("control", profile == "control")
         changed = []
         for is_text in [False, True]:
             family = config["family"] + (" Text" if is_text else "")
@@ -33,7 +37,7 @@ def validate(output):
                 text_digest = digest
             else:
                 music_digest = digest
-            base_name = "FinaleMaestroText-Regular.otf" if is_text else "FinaleMaestro.otf"
+            base_name = text_base if is_text else music_base
             with TTFont(ROOT / "vendor" / base_name) as base, TTFont(folder / (family + ".otf")) as new:
                 assert base.getGlyphOrder() == new.getGlyphOrder(), "Glyph order/coverage changed"
                 assert base.getBestCmap() == new.getBestCmap(), "Unicode coverage changed"
@@ -45,8 +49,8 @@ def validate(output):
                 else:
                     music_count = counts
                 before, after = base.getGlyphSet(), new.getGlyphSet()
-                allowed = set() if profile == "control" or is_text else {
-                    new.getBestCmap()[int(spec["codepoint"], 16)] for spec in design["glyphs"].values()}
+                allowed = set() if control or is_text else {
+                    new.getBestCmap()[int(spec["codepoint"], 16)] for spec in active_design["glyphs"].values()}
                 for name in base.getGlyphOrder():
                     different = record(before, name) != record(after, name)
                     assert not different or name in allowed, f"Unexpected outline change: {name}"
@@ -62,17 +66,17 @@ def validate(output):
                 meta = load_json(folder / (family + ".json"))
                 assert meta["fontName"] == family
                 if not is_text:
-                    source_meta = load_json(ROOT / "vendor/FinaleMaestro.json")
-                    for symbol, spec in active_design["glyphs"].items():
+                    source_meta = load_json(ROOT / "vendor" / metadata_base)
+                    for symbol, spec in ({} if control else active_design["glyphs"]).items():
                         name = new.getBestCmap()[int(spec["codepoint"], 16)]
                         actual = bounds(after, name)
                         box = meta["glyphBBoxes"][symbol]
                         expected = [*box["bBoxSW"], *box["bBoxNE"]]
                         assert all(abs(a / 250 - b) < 1e-5 for a, b in zip(actual, expected))
                         for anchor in ["stemUpSE", "stemDownNW"]:
-                            if anchor in source_meta["glyphsWithAnchors"][symbol]:
+                            if anchor in source_meta["glyphsWithAnchors"].get(symbol, {}):
                                 assert meta["glyphsWithAnchors"][symbol][anchor] == source_meta["glyphsWithAnchors"][symbol][anchor]
-                        if profile != "control" and "counter" in spec:
+                        if not control and "counter" in spec:
                             # Analytic hole must remain fully inside the outer ellipse.
                             x0, y0, x1, y1 = spec["outer_box"]
                             rx = (x1 - x0) / 2
