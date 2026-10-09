@@ -1,0 +1,611 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-09",
+  "sources": {
+    "own": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "pages": 8
+    },
+    "idol": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Idol - Oshi no Ko - Opening Theme.pdf",
+      "sha256": "e4aab892d6d3838c923a8c393171b3ea254d1bbbc845f19435f720bce5fce122",
+      "pages": 6
+    },
+    "sincerely": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Sincerely - Violet Evergarden Opening Theme.pdf",
+      "sha256": "e9dc32eddcd18df30310564566f0512725e64924c02c04ea6c20ad30d976b990",
+      "pages": 9
+    },
+    "shirushi": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Shirushi - Sword Art Online II - 3rd Ending Theme.pdf",
+      "sha256": "98bb55f1be005890c955cdfa7bd9bcec2384ddb82017d86bd7492cad1176bd33",
+      "pages": 5
+    },
+    "iris": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\IRIS OUT - Chainsaw Man_ Reze Arc - OP.pdf",
+      "sha256": "5a2f42b9a95344c2d9a3d5796a148066df482283a699d53d9a54e17b40fef335",
+      "pages": 5
+    }
+  },
+  "coordinate_convention": "page/system 1-based; crop pixels in stored render; exclusive right/bottom",
+  "evidence_boundary": "PDF geometry is observed; editorial motives and alternatives are research hypotheses. MSCZ is not proven identical to every PDF object.",
+  "atlas_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\atlas.html",
+  "cases": [
+    {
+      "id": "E01",
+      "group": "A",
+      "title": "重复音型与连梁",
+      "rules": [
+        "R01",
+        "R03"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E01",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "iris",
+          "pdf_page": 2,
+          "system": 1,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\iris_page2.png",
+          "render_sha256": "f1a133ecb1c3c7f312342c7830f9c12c1ca77ad7981078d2b99f6ce3615ea04d",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            90,
+            1205,
+            335
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E01_1.png",
+          "crop_sha256": "e0df28aa4b4428250336d5e8125bfce346c1466d2bf798cb37e6f440307d2fb2"
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "group": "A",
+      "title": "快音与持音共享时间网格",
+      "rules": [
+        "R02",
+        "R10"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E02",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "sincerely",
+          "pdf_page": 2,
+          "system": 6,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\sincerely_page2.png",
+          "render_sha256": "fe8e72f0a07b4c3b4ce82c39a5ac8b3a0fbf01c8d2bb8f9d98f3a7a3ca3966fc",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            1440,
+            1205,
+            1675
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E02_1.png",
+          "crop_sha256": "876477ec6ef516b8cd686349de943fa3ded9663238161975bacd13d3ef37a608"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "group": "B",
+      "title": "复调符干是声部路标",
+      "rules": [
+        "R04",
+        "R05"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E03",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "own",
+          "pdf_page": 2,
+          "system": 1,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\own_page2.png",
+          "render_sha256": "55903db3db082f970dbc4b7c5a4fedee1b1b5041fe99130b18f43e1235e646f0",
+          "render_size_px": [
+            1272,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            60,
+            1205,
+            350
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E03_1.png",
+          "crop_sha256": "262fed606b182096e74b009a8d2367ad8c5e3d333d065a38381612cdeac1e931"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "group": "B",
+      "title": "谱表和手不是同一信息",
+      "rules": [
+        "R05",
+        "R10"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E04",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "shirushi",
+          "pdf_page": 2,
+          "system": 5,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\shirushi_page2.png",
+          "render_sha256": "3e584dc728b4dbb38d925d0d7e9d62f0af457a06882b13ab06ba08450a234272",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            1110,
+            1205,
+            1410
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E04_1.png",
+          "crop_sha256": "8c86096deabada3d680c292f8d5a5fa48de24249ee71e638061ccce3b6a0b50f"
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "group": "C",
+      "title": "下行双梁的几何",
+      "rules": [
+        "R03",
+        "R11"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E05",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "iris",
+          "pdf_page": 1,
+          "system": 3,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\iris_page1.png",
+          "render_sha256": "0ed0b2d9763f52d4b91395a6f8a31f3bbc54d763d6146b8489e58d63b5a6ce01",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            845,
+            885,
+            1205,
+            1180
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E05_1.png",
+          "crop_sha256": "4f528cba35425788072f9daecfdd2ae512ec7b5d5991d001e78a718a50d44464"
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "group": "C",
+      "title": "短连接弧与长分句弧",
+      "rules": [
+        "R06",
+        "R11"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E06",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "idol",
+          "pdf_page": 2,
+          "system": 1,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\idol_page2.png",
+          "render_sha256": "b14a62f559505160fe7f669eaa5a41bea25a7aa69a232808a840032f16745db8",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            140,
+            90,
+            690,
+            335
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E06_1.png",
+          "crop_sha256": "797de9c521a5bef0bb94879cd39ff28adf007dd31e9a61c224fbfd83fb6f160d"
+        }
+      ]
+    },
+    {
+      "id": "E07",
+      "group": "D",
+      "title": "8va 与局部弧的层级",
+      "rules": [
+        "R07"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E07",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "sincerely",
+          "pdf_page": 2,
+          "system": 1,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\sincerely_page2.png",
+          "render_sha256": "fe8e72f0a07b4c3b4ce82c39a5ac8b3a0fbf01c8d2bb8f9d98f3a7a3ca3966fc",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            75,
+            1205,
+            340
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E07_1.png",
+          "crop_sha256": "adafbe233e269023e336072e5de1d3c135b7a02e37da5881581a32183d129286"
+        },
+        {
+          "source": "sincerely",
+          "pdf_page": 2,
+          "system": 3,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\sincerely_page2.png",
+          "render_sha256": "fe8e72f0a07b4c3b4ce82c39a5ac8b3a0fbf01c8d2bb8f9d98f3a7a3ca3966fc",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            650,
+            1205,
+            895
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E07_2.png",
+          "crop_sha256": "fbe12a95219f0a1bc746698f299ed98334c838049ad702520ee703cadf3ebf40"
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "group": "D",
+      "title": "长文字、长弧和技术提示",
+      "rules": [
+        "R08",
+        "R09",
+        "R12"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E08",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "own",
+          "pdf_page": 6,
+          "system": 1,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\own_page6.png",
+          "render_sha256": "55fea9d5a9870fa08f504c9369819b3ec9fff2e8d512d38e5eb847f6a16bf3d6",
+          "render_size_px": [
+            1131,
+            1600
+          ],
+          "crop_xyxy_px": [
+            55,
+            55,
+            1075,
+            355
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E08_1.png",
+          "crop_sha256": "8cf19b06811466e064a5621dda446ff9b70169742ffb47a0c8b8406c3c5df8e9"
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "group": "D",
+      "title": "mf 与 pp 的时间和作用域",
+      "rules": [
+        "R08",
+        "R09"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E09",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "own",
+          "pdf_page": 2,
+          "system": 2,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\own_page2.png",
+          "render_sha256": "55903db3db082f970dbc4b7c5a4fedee1b1b5041fe99130b18f43e1235e646f0",
+          "render_size_px": [
+            1272,
+            1800
+          ],
+          "crop_xyxy_px": [
+            555,
+            375,
+            820,
+            680
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E09_1.png",
+          "crop_sha256": "59f59b209b06c5a34d77969fa7a707aa6ea7b4345a3bb873dc0ec6ab1059a27c"
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "group": "D",
+      "title": "嵌套弧与文字通道",
+      "rules": [
+        "R06",
+        "R09",
+        "R12"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E10",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "own",
+          "pdf_page": 7,
+          "system": 1,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\own_page7.png",
+          "render_sha256": "557818bac71bdf42f966a971d2fa884c85a0c9e4fd4b11a2f31cb4af2e641e23",
+          "render_size_px": [
+            1131,
+            1600
+          ],
+          "crop_xyxy_px": [
+            55,
+            45,
+            1075,
+            355
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E10_1.png",
+          "crop_sha256": "cf112d7c25427c7bbe6a01a9a451d0d1f2cfd8b93ac1705b742f1072cd02450e"
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "group": "E",
+      "title": "段落起于行首",
+      "rules": [
+        "R13"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E11",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "sincerely",
+          "pdf_page": 2,
+          "system": 3,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\sincerely_page2.png",
+          "render_sha256": "fe8e72f0a07b4c3b4ce82c39a5ac8b3a0fbf01c8d2bb8f9d98f3a7a3ca3966fc",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            650,
+            480,
+            895
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E11_1.png",
+          "crop_sha256": "d2c03b017ea7cb035e29df7dec6253712c1c0ac83352a6423c6ff8fd1b028228"
+        },
+        {
+          "source": "sincerely",
+          "pdf_page": 2,
+          "system": 6,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\sincerely_page2.png",
+          "render_sha256": "fe8e72f0a07b4c3b4ce82c39a5ac8b3a0fbf01c8d2bb8f9d98f3a7a3ca3966fc",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            1440,
+            480,
+            1675
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E11_2.png",
+          "crop_sha256": "68d912a9c49d014ec2e467970319a9639075dd0c11428fdc974908bbac0ff075"
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "group": "E",
+      "title": "段落起于行中",
+      "rules": [
+        "R13"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E12",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "iris",
+          "pdf_page": 2,
+          "system": 3,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\iris_page2.png",
+          "render_sha256": "f1a133ecb1c3c7f312342c7830f9c12c1ca77ad7981078d2b99f6ce3615ea04d",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            500,
+            600,
+            990,
+            850
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E12_1.png",
+          "crop_sha256": "1414ea2ad9bec0d1bd6059baf130c2ff6fb41842aa09491093273ba6b88fcb84"
+        },
+        {
+          "source": "iris",
+          "pdf_page": 2,
+          "system": 5,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\iris_page2.png",
+          "render_sha256": "f1a133ecb1c3c7f312342c7830f9c12c1ca77ad7981078d2b99f6ce3615ea04d",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            640,
+            1135,
+            1205,
+            1420
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E12_2.png",
+          "crop_sha256": "d3154951df239f7bcf0a16a94a5a4874d8fcb10475090e735c8097a1a00197d0"
+        }
+      ]
+    },
+    {
+      "id": "E13",
+      "group": "E",
+      "title": "系统内归组与内容空间",
+      "rules": [
+        "R11",
+        "R12"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E13",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "own",
+          "pdf_page": 2,
+          "system": 2,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\own_page2.png",
+          "render_sha256": "55903db3db082f970dbc4b7c5a4fedee1b1b5041fe99130b18f43e1235e646f0",
+          "render_size_px": [
+            1272,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            375,
+            1205,
+            690
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E13_1.png",
+          "crop_sha256": "36a91a64aa3d8c19765233f6ccba18ea06b3d50d73e3c9283563333a649ede47"
+        },
+        {
+          "source": "sincerely",
+          "pdf_page": 2,
+          "system": 2,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\sincerely_page2.png",
+          "render_sha256": "fe8e72f0a07b4c3b4ce82c39a5ac8b3a0fbf01c8d2bb8f9d98f3a7a3ca3966fc",
+          "render_size_px": [
+            1273,
+            1800
+          ],
+          "crop_xyxy_px": [
+            65,
+            365,
+            1205,
+            610
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E13_2.png",
+          "crop_sha256": "60a3b0dc55f20b000e7a5d33e5827c62f1fc2726de8f1c0ae69aefcce835c27c"
+        }
+      ]
+    },
+    {
+      "id": "E14",
+      "group": "E",
+      "title": "分页和翻页、四谱表反例",
+      "rules": [
+        "R05",
+        "R14"
+      ],
+      "analysis_document": "CASES.md",
+      "analysis_heading_prefix": "E14",
+      "status": "observed; alternatives not applied",
+      "fragments": [
+        {
+          "source": "own",
+          "pdf_page": 7,
+          "system": 5,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\own_page7.png",
+          "render_sha256": "557818bac71bdf42f966a971d2fa884c85a0c9e4fd4b11a2f31cb4af2e641e23",
+          "render_size_px": [
+            1131,
+            1600
+          ],
+          "crop_xyxy_px": [
+            55,
+            1250,
+            1075,
+            1520
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E14_1.png",
+          "crop_sha256": "21bf8ba8a135b747b6ceea904c3e7e7595656f68a595de68685e35d1d6b5f382"
+        },
+        {
+          "source": "own",
+          "pdf_page": 8,
+          "system": 1,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\own_page8.png",
+          "render_sha256": "46127e9620bb83459c9826e325a7815a985d6c54fb1aa23f52f94ee39a2ce5d7",
+          "render_size_px": [
+            1131,
+            1600
+          ],
+          "crop_xyxy_px": [
+            55,
+            5,
+            1075,
+            325
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E14_2.png",
+          "crop_sha256": "ca421b3f917312c6c6954012629d5e2071bb77aa971ff03470f86c3217558b8f"
+        },
+        {
+          "source": "own",
+          "pdf_page": 8,
+          "system": 2,
+          "render_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\own_page8.png",
+          "render_sha256": "46127e9620bb83459c9826e325a7815a985d6c54fb1aa23f52f94ee39a2ce5d7",
+          "render_size_px": [
+            1131,
+            1600
+          ],
+          "crop_xyxy_px": [
+            55,
+            340,
+            1075,
+            805
+          ],
+          "crop_path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_stage_a\\E14_3.png",
+          "crop_sha256": "1aab8d46a7bbc57ca228ab2623ad3748cb08b182058296f073ad0c0f9b06afbe"
+        }
+      ]
+    }
+  ]
+}
