@@ -1,5 +1,13 @@
 # 个人开发更新日志
 
+## 乐谱数据与 AI 上下文规划 — 2026-10-09
+
+- 两仓库先 `git pull --ff-only`，均已同步；MCP 基线 `7584651`，软件 `059ddd720` / personal 0.18.0。保留字体任务已有暂存文件，以及软件仓库已有指南/AGENTS 修改。
+- 新增 [数据与上下文设计](docs/AI_SCORE_CONTEXT_DESIGN.md)：本地完整模型、多音乐视图、按任务分层包、精确时间/音高/关系、踏板/原生演奏/几何边界、原曲与录音对应、目标与偏好、版本与闭包、提案/副本预览/写回契约、P0–P3 路线及验收集。
+- 核查发现：ScoreObserver analysisNotes 按 MIDI 音高去重，适合和声候选、不适合完整声部；其 fingerprint 不是全谱内容版本。个人琶音/倚音/重音/rit./a tempo 属性未在 QML Element 包装完整暴露；新方案优先插件与 Python，仅为已验证缺口增最小原生读取接口。
+- 维护 README 入口与软件 `personal/USER_GUIDE.md` 的规划说明。未修改 MCP/QML/skill 或 MuseScore 原生源码，未增加可调用工具、未改个人版本/安装；本次无需重装 MCP/skill/插件。
+- 验证范围：文档结构、JSON 示例与链接检查、Git whitespace 检查、对照本地源码与 MusicXML/MEI/MCP 官方规范；设计未做运行功能验收。提交定位使用 `docs: design score data and AI task context` 查询。
+
 ## MCP 桥 2.1.0 — 2026-10-08
 
 - 基线：cab6a74；开发分支 codex/musescore-evolution。软件基线 origin/3.x 的 02346d2dd，本机 personal 0.11.0 工作未提交。本轮两边 pull 后开发，保留软件现有改动。提交定位：`feat(codex): adapt MuseScore Evolution bridge and skill`，通过 `git log --all --grep='adapt MuseScore Evolution bridge'` 查询。

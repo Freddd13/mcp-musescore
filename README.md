@@ -2,6 +2,8 @@
 
 本分支优先用于个人钢琴编曲、读谱分析和净书辅助，兼容原有 MCP 工具并保留上游说明。请先阅读 [中文 Codex 安装与使用](docs/CODEX_SETUP.md)、[实现原理与钢琴扩展路线](docs/ARCHITECTURE_AND_PIANO.md) 和 [个人开发日志](CHANGELOG_PERSONAL.md)。下文 Claude Desktop 配置与历史示例属于上游资料；本分支入口是 `scripts/install-codex.ps1` 和 `skills/mcp-musescore`。
 
+后续智能分析与写作的数据基础见 [乐谱数据与 AI 上下文设计](docs/AI_SCORE_CONTEXT_DESIGN.md)：统一乐谱模型、分层任务上下文、旋律/和声/演奏/净书视图、原曲对应与分阶段实现。该文档是规划，新接口尚未实现。
+
 # MuseScore MCP Server
 
 A Model Context Protocol (MCP) server that provides programmatic control over MuseScore, via a WebSocket-based plugin system. This allows AI assistants like Claude to compose music, add lyrics, navigate scores, and control MuseScore directly.
