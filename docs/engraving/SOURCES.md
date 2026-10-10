@@ -40,3 +40,11 @@ PDF 观察标为“可见事实”，工程 XML 标为“结构事实”，原�
 ## 下一批学习缺口
 
 扩大研究已定向核查声部休止、连音数字/括号、装饰音、指法/手分配、踏板和跳转；见S17与 [覆盖矩阵](EXPANDED_RESEARCH.md)。下一步补切分时值拆写、变音重复提示/跨小节与跳转后的记忆、附点/二度几何、嵌套比例和跨页tie/Slur。教材条件已核不代表工程实现或打印通过；新条目必须附可查来源与正反例。
+
+## 2026-10-10 横向专题增补来源
+
+Gould主文件新增完整图页p39–43、87–88、489–490；5份官谱为Again、Black Catcher、Cry Baby、unravel、Kaikai Kitan，本次近读页与定位见 [SPACING_STUDY](SPACING_STUDY.md) 和 [spacing_evidence.json](spacing_evidence.json)。不反推PDF的编辑声部或出版者操作。用户PDF第2页测量结合release5只读结构核查，但不证明二者逐对象一致。
+
+再次核查[Dorico part nine](https://blog.dorico.com/2014/12/development-diary-part-nine/)、[part 11](https://blog.dorico.com/2015/06/development-diary-part-11/)、[6.2间距层次](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_c.html)、[跨谱表符干光学选项](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_beaming/notation_reference_beaming_cross_staff_optical_changing_to_t.html)（检索正文可读，直接打开cache miss）与[LilyPond光学间距](https://lilypond.org/doc/v2.25/Documentation/essay/optical-spacing)。旧设计/竞争比较与当前文档区分，本次未运行Dorico作同曲测试。
+
+只读本机 `libmscore/measure.cpp`、`segment.cpp`、`shape.cpp`、`layout.cpp`、`style.cpp`，源码定位见专题；自制fixture在 [fixtures](fixtures/README.md)，原生SVG标记MuseScore 3.7.0。源码HEAD与安装二进制的精确对应未确认，不将其称为该源码提交的完整构建回归。原始文件保护和无改善候选状态均有记录。

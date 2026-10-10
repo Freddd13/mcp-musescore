@@ -1,0 +1,811 @@
+{
+  "date": "2026-10-10",
+  "measurement_method": "PDF text drawing origins of the same notehead glyph, deduplicated within 0.05pt; these are not font ink bounding boxes or software voice IDs. Selected regions visually checked. Native measurements use Note transforms in SVG.",
+  "scores": {
+    "again": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Again - Fullmetal Alchemist Brotherhood - Opening Theme.pdf",
+      "sha256_before": "6f1af8d0d02173de5d4d4fd714ddca047c75a35bfa52483d5a2c018be241bcd5",
+      "pages": 6,
+      "metadata": {
+        "/ModDate": "D:20210730155410+09'00'",
+        "/Producer": "Mac OS X 10.9.5 Quartz PDFContext",
+        "/AAPL:Keywords": "['']",
+        "/Title": "M4_Again.mus",
+        "/Keywords": "",
+        "/Author": "星出和宏",
+        "/Creator": "Finale 2012",
+        "/Subject": "",
+        "/CreationDate": "D:20210415085049Z00'00'"
+      }
+    },
+    "black": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Black Catcher - Black Clover - 10th Opening Theme.pdf",
+      "sha256_before": "9771968197e453a7ac452292b49266cd5f669ca23d5c3209e684216f640f2f0c",
+      "pages": 6,
+      "metadata": {
+        "/CreationDate": "D:20230323214356+09'00'",
+        "/Creator": "Adobe Illustrator 27.0 (Windows)",
+        "/ModDate": "D:20230323214808+08'00'",
+        "/Producer": "Adobe PDF library 16.07",
+        "/Title": "未标题-2"
+      }
+    },
+    "cry": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Cry Baby - Tokyo Revengers - Opening Theme.pdf",
+      "sha256_before": "dfbfff9cabfa67eea896855f4d1a9ac39e2f803167f79549c078fafc373b023c",
+      "pages": 5,
+      "metadata": {
+        "/CreationDate": "D:20230325154325",
+        "/Creator": "PDFium",
+        "/Producer": "PDFium"
+      }
+    },
+    "unravel": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\unravel - Tokyo Ghoul - Opening Theme.pdf",
+      "sha256_before": "8e10d08451d3e7f647ff2a8e8ca1b8fd46e751350bfcbf512fd87a92f758a8a4",
+      "pages": 6,
+      "metadata": {
+        "/ModDate": "D:20210729213753+09'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Unravel_“!.pdf",
+        "/Author": "anime",
+        "/CreationDate": "D:20210609145431+09'00'"
+      }
+    },
+    "kaikai": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf",
+      "sha256_before": "3983329ffbfa429c00f84d7c68911a325dddf0a9fcc524124ee0d2334e59c3d4",
+      "pages": 6,
+      "metadata": {
+        "/Author": "dell",
+        "/CreationDate": "D:20220427160638+09'00'",
+        "/ModDate": "D:20220427160638+09'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Kaikai Kitan (by Animenz).musx"
+      }
+    }
+  },
+  "book": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256_before": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "printed_pages": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      87,
+      88,
+      489,
+      490
+    ]
+  },
+  "closely_viewed_score_pages": {
+    "again": [
+      2,
+      5
+    ],
+    "black": [
+      2,
+      5
+    ],
+    "cry": [
+      1,
+      3
+    ],
+    "unravel": [
+      3
+    ],
+    "kaikai": [
+      2
+    ],
+    "user": [
+      2
+    ]
+  },
+  "cases": [
+    {
+      "id": "HS01",
+      "label": "again",
+      "pdf_page": 5,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Again - Fullmetal Alchemist Brotherhood - Opening Theme.pdf",
+      "normalized_crop": [
+        0.04,
+        0.42,
+        0.96,
+        0.55
+      ],
+      "source_render": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\again_5.png",
+      "crop": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\HS01.png",
+      "reading_purpose": "密集音型保持稳定，长旋律不要求独立等距。"
+    },
+    {
+      "id": "HS02",
+      "label": "unravel",
+      "pdf_page": 3,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\unravel - Tokyo Ghoul - Opening Theme.pdf",
+      "normalized_crop": [
+        0.04,
+        0.04,
+        0.96,
+        0.19
+      ],
+      "source_render": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\unravel_3.png",
+      "crop": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\HS02.png",
+      "reading_purpose": "连续十六分建立网格；疏层和加入的旋律据同拍点对齐。"
+    },
+    {
+      "id": "HS03",
+      "label": "black",
+      "pdf_page": 2,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Black Catcher - Black Clover - 10th Opening Theme.pdf",
+      "normalized_crop": [
+        0.04,
+        0.37,
+        0.96,
+        0.53
+      ],
+      "source_render": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\black_2.png",
+      "crop": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\HS03.png",
+      "reading_purpose": "三连音与普通细分同时存在，不能要求所有层都机械等距。"
+    },
+    {
+      "id": "HS04",
+      "label": "black",
+      "pdf_page": 5,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Black Catcher - Black Clover - 10th Opening Theme.pdf",
+      "normalized_crop": [
+        0.04,
+        0.355,
+        0.96,
+        0.499
+      ],
+      "source_render": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\black_5.png",
+      "crop": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\HS04.png",
+      "reading_purpose": "密集变音与复合节奏需分清时点、变音列和符干，保留有理由的局部增宽。"
+    },
+    {
+      "id": "HS05",
+      "label": "cry",
+      "pdf_page": 1,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Cry Baby - Tokyo Revengers - Opening Theme.pdf",
+      "normalized_crop": [
+        0.04,
+        0.19,
+        0.96,
+        0.337
+      ],
+      "source_render": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\cry_1.png",
+      "crop": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\HS05.png",
+      "reading_purpose": "密集伴奏、变细分与跨谱表运行共用空间；先判断真实音乐细分。"
+    },
+    {
+      "id": "HS06",
+      "label": "cry",
+      "pdf_page": 3,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Cry Baby - Tokyo Revengers - Opening Theme.pdf",
+      "normalized_crop": [
+        0.04,
+        0.638,
+        0.96,
+        0.8
+      ],
+      "source_render": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\cry_3.png",
+      "crop": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\HS06.png",
+      "reading_purpose": "两音震音占的是符号空间，不能按假想逐次击键数量直接计宽。"
+    },
+    {
+      "id": "HS07",
+      "label": "kaikai",
+      "pdf_page": 2,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf",
+      "normalized_crop": [
+        0.04,
+        0.489,
+        0.96,
+        0.646
+      ],
+      "source_render": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\kaikai_2.png",
+      "crop": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\HS07.png",
+      "reading_purpose": "切分、延音和错位符头增加形状复杂度，但需保存共同时间列。"
+    },
+    {
+      "id": "HS08",
+      "label": "user",
+      "pdf_page": 2,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "normalized_crop": [
+        0.045,
+        0.545,
+        0.96,
+        0.744
+      ],
+      "source_render": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\user_2.png",
+      "crop": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\HS08.png",
+      "reading_purpose": "m49–52：区别细分引起的可解释变化与相邻同类脉冲粒度变化。"
+    }
+  ],
+  "pdf_measurements": {
+    "again_N_first_measure_dense_layer": {
+      "origins": [
+        66.46597164,
+        73.734,
+        81.179,
+        88.446,
+        95.713,
+        103.157,
+        110.424,
+        117.691,
+        125.136,
+        132.403,
+        139.67,
+        146.937,
+        154.381,
+        161.648,
+        168.916,
+        176.36
+      ],
+      "unit": "pt",
+      "gaps": [
+        7.268028359999988,
+        7.445000000000007,
+        7.266999999999996,
+        7.266999999999996,
+        7.444000000000003,
+        7.26700000000001,
+        7.266999999999996,
+        7.444999999999993,
+        7.266999999999996,
+        7.266999999999996,
+        7.267000000000024,
+        7.443999999999988,
+        7.266999999999996,
+        7.268000000000001,
+        7.444000000000017
+      ],
+      "mean_gap": 7.326268557333334,
+      "max_min_ratio": 1.0244942892527882
+    },
+    "unravel_D_first_measure_notes_after_initial_rest": {
+      "origins": [
+        75.5967136,
+        82.916,
+        90.235,
+        97.555,
+        104.874,
+        112.193,
+        119.512,
+        126.967,
+        134.2861168,
+        141.605,
+        148.924,
+        156.243,
+        163.562,
+        170.881,
+        178.201
+      ],
+      "unit": "pt",
+      "gaps": [
+        7.319286399999996,
+        7.319000000000003,
+        7.320000000000007,
+        7.318999999999988,
+        7.319000000000003,
+        7.319000000000003,
+        7.454999999999998,
+        7.319116800000003,
+        7.318883199999988,
+        7.319000000000017,
+        7.318999999999988,
+        7.319000000000017,
+        7.318999999999988,
+        7.319999999999993
+      ],
+      "mean_gap": 7.328877599999999,
+      "max_min_ratio": 1.0185980287265701
+    },
+    "user_m50_lower_eighth_onsets": {
+      "origins": [
+        258.82672920000005,
+        274.92405,
+        291.021372,
+        307.11869279999996,
+        323.2160148,
+        339.31333559999996
+      ],
+      "unit": "pt",
+      "gaps": [
+        16.097320799999977,
+        16.097321999999963,
+        16.097320799999977,
+        16.09732200000002,
+        16.097320799999977
+      ],
+      "mean_gap": 16.09732127999998,
+      "max_min_ratio": 1.0000000745465694
+    },
+    "user_m51_lower_eighth_onsets": {
+      "origins": [
+        363.332358,
+        378.83172479999996,
+        394.3310904,
+        409.8304572,
+        429.2046648,
+        448.5788724
+      ],
+      "unit": "pt",
+      "gaps": [
+        15.499366799999962,
+        15.499365600000033,
+        15.499366800000018,
+        19.374207599999977,
+        19.374207600000034
+      ],
+      "mean_gap": 17.049302880000006,
+      "max_min_ratio": 1.2500000387112613
+    },
+    "user_m52_lower_eighth_onsets": {
+      "origins": [
+        471.99993959999995,
+        486.3076704,
+        500.61539999999997,
+        514.9231295999999,
+        529.2308604,
+        543.53859
+      ],
+      "unit": "pt",
+      "gaps": [
+        14.307730800000058,
+        14.30772959999996,
+        14.30772959999996,
+        14.307730800000058,
+        14.307729600000016
+      ],
+      "mean_gap": 14.30773008000001,
+      "max_min_ratio": 1.0000000838707561
+    },
+    "user_m50_m52_mean_gap_ratio": 1.1250786246311386
+  },
+  "user_source_structure": [
+    {
+      "staff_id": "3",
+      "measure_ordinal": 50,
+      "saved_stretch": null,
+      "voices": [
+        [
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          }
+        ]
+      ]
+    },
+    {
+      "staff_id": "3",
+      "measure_ordinal": 51,
+      "saved_stretch": null,
+      "voices": [
+        [
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Rest",
+            "duration": "16th",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "16th",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "16th",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "16th",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          }
+        ]
+      ]
+    },
+    {
+      "staff_id": "3",
+      "measure_ordinal": 52,
+      "saved_stretch": null,
+      "voices": [
+        [
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          }
+        ]
+      ]
+    },
+    {
+      "staff_id": "4",
+      "measure_ordinal": 50,
+      "saved_stretch": null,
+      "voices": [
+        [
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          }
+        ],
+        [
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 1,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 1,
+            "staff_move": 0
+          }
+        ]
+      ]
+    },
+    {
+      "staff_id": "4",
+      "measure_ordinal": 51,
+      "saved_stretch": null,
+      "voices": [
+        [
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          }
+        ],
+        [
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 1,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 1,
+            "staff_move": 0
+          }
+        ]
+      ]
+    },
+    {
+      "staff_id": "4",
+      "measure_ordinal": 52,
+      "saved_stretch": null,
+      "voices": [
+        [
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "eighth",
+            "dots": 0,
+            "staff_move": 0
+          }
+        ],
+        [
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 1,
+            "staff_move": 0
+          },
+          {
+            "type": "Chord",
+            "duration": "quarter",
+            "dots": 1,
+            "staff_move": 0
+          }
+        ]
+      ]
+    }
+  ],
+  "user_pdf_all_objects_match_mscz": false,
+  "native_probe": {
+    "fixture": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\native_probe\\mixed-subdivision.mscx",
+    "svg": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\native_probe\\mixed-subdivision-1.svg",
+    "png": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\08\\01a11a5f-d840-7eb3-84c2-39e9d493a830\\engraving_spacing\\native_probe\\mixed-subdivision-1.png",
+    "host_svg_version": "MuseScore 3.7.0",
+    "font": "Leland",
+    "text_font": "Leland Text",
+    "music_head_counts": {
+      "lower": 24,
+      "upper": 18
+    },
+    "measures": [
+      {
+        "measure": 1,
+        "head_origins_svg": [
+          536.197,
+          621.528,
+          706.859,
+          792.19,
+          877.521,
+          962.852
+        ],
+        "gaps_points": [
+          17.066200000000002,
+          17.066200000000002,
+          17.066200000000002,
+          17.06619999999998,
+          17.066200000000002
+        ],
+        "max_min_ratio": 1.0000000000000013
+      },
+      {
+        "measure": 2,
+        "head_origins_svg": [
+          1083.81,
+          1169.14,
+          1254.47,
+          1339.81,
+          1425.14,
+          1510.47
+        ],
+        "gaps_points": [
+          17.06600000000003,
+          17.065999999999985,
+          17.067999999999984,
+          17.06600000000003,
+          17.065999999999985
+        ],
+        "max_min_ratio": 1.0001171920778156
+      },
+      {
+        "measure": 3,
+        "head_origins_svg": [
+          1631.43,
+          1717.72,
+          1804.01,
+          1890.31,
+          1998.17,
+          2106.04
+        ],
+        "gaps_points": [
+          17.257999999999992,
+          17.257999999999992,
+          17.25999999999999,
+          21.572000000000024,
+          21.573999999999977
+        ],
+        "max_min_ratio": 1.2500869162127701
+      },
+      {
+        "measure": 4,
+        "head_origins_svg": [
+          2225.26,
+          2310.6,
+          2395.93,
+          2481.26,
+          2566.59,
+          2651.92
+        ],
+        "gaps_points": [
+          17.067999999999937,
+          17.065999999999985,
+          17.066000000000077,
+          17.065999999999985,
+          17.065999999999985
+        ],
+        "max_min_ratio": 1.0001171920778127
+      }
+    ],
+    "source_code_head": "3dc1d38c837875befe292c7a73f4eecd82dd03cb",
+    "binary_same_as_source_head_confirmed": false
+  },
+  "protected_sources": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Again - Fullmetal Alchemist Brotherhood - Opening Theme.pdf",
+      "before_sha256": "6f1af8d0d02173de5d4d4fd714ddca047c75a35bfa52483d5a2c018be241bcd5",
+      "after_sha256": "6f1af8d0d02173de5d4d4fd714ddca047c75a35bfa52483d5a2c018be241bcd5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Black Catcher - Black Clover - 10th Opening Theme.pdf",
+      "before_sha256": "9771968197e453a7ac452292b49266cd5f669ca23d5c3209e684216f640f2f0c",
+      "after_sha256": "9771968197e453a7ac452292b49266cd5f669ca23d5c3209e684216f640f2f0c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Cry Baby - Tokyo Revengers - Opening Theme.pdf",
+      "before_sha256": "dfbfff9cabfa67eea896855f4d1a9ac39e2f803167f79549c078fafc373b023c",
+      "after_sha256": "dfbfff9cabfa67eea896855f4d1a9ac39e2f803167f79549c078fafc373b023c",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\unravel - Tokyo Ghoul - Opening Theme.pdf",
+      "before_sha256": "8e10d08451d3e7f647ff2a8e8ca1b8fd46e751350bfcbf512fd87a92f758a8a4",
+      "after_sha256": "8e10d08451d3e7f647ff2a8e8ca1b8fd46e751350bfcbf512fd87a92f758a8a4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf",
+      "before_sha256": "3983329ffbfa429c00f84d7c68911a325dddf0a9fcc524124ee0d2334e59c3d4",
+      "after_sha256": "3983329ffbfa429c00f84d7c68911a325dddf0a9fcc524124ee0d2334e59c3d4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "before_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "after_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "before_sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "after_sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "before_sha256": "27d54e408f37f457006c53ee44a457c9afcdc28776ee16b0012c2691eb5ee726",
+      "after_sha256": "27d54e408f37f457006c53ee44a457c9afcdc28776ee16b0012c2691eb5ee726",
+      "unchanged": true
+    }
+  ],
+  "originals_unchanged": true,
+  "improved_layout_rendered": false,
+  "preference_approval_obtained": false
+}
