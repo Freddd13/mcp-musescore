@@ -4,6 +4,8 @@
 
 后续智能分析与写作的数据基础见 [乐谱数据与 AI 上下文设计](docs/AI_SCORE_CONTEXT_DESIGN.md)：统一乐谱模型、分层任务上下文、旋律/和声/演奏/净书视图、原曲对应与分阶段实现。该文档是规划，新接口尚未实现。
 
+可选解释/原曲资料、直接读取当前内存谱、外部材料/模型与讨论/回写边界，详见 [上下文集成契约](docs/AI_CONTEXT_INTEGRATION.md)。
+
 # MuseScore MCP Server
 
 A Model Context Protocol (MCP) server that provides programmatic control over MuseScore, via a WebSocket-based plugin system. This allows AI assistants like Claude to compose music, add lyrics, navigate scores, and control MuseScore directly.
