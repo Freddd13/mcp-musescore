@@ -66,3 +66,7 @@ QML 返回 `{status:"success",result:...}`；内层仍可能有 `error`，因此
 5. 更新 Codex skill、安装脚本、中文文档和软件用户指南，进行 MCP/mock 与实际 MuseScore 宿主测试。
 
 后续演奏写入、临时提示及净书接口属于下一轮功能扩展，本轮没有宣称它们已实现。
+
+## P2 当前谱与编配建议
+
+`src/context/service.py`管理独立任务和资料，`src/tools/arrangement.py`提供MCP入口；QML桥转发到原生ScoreObserver的分批查询与候选处理。参数和完整操作见[P2接口说明](P2_CONTEXT_API.md)。

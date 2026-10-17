@@ -6,8 +6,9 @@ MuseScore {
     id: root
     menuPath: "Plugins.MuseScore API Server"
     description: "MuseScore Evolution bridge for Codex and MCP clients"
-    version: "2.1.0"
+    version: "2.2.0"
     
+    property var arrangementObserver: null
     property var clientConnections: []
     // Qt's shipped QML module works without a custom native websocket API.
     WebSocketServer {
@@ -18,18 +19,38 @@ MuseScore {
         listen: false
         onClientConnected: {
             var socket = webSocket;
-            root.clientConnections.push(socket);
-            socket.textMessageReceived.connect(function(message) {
-                root.processMessage(message, socket);
-            });
-            socket.statusChanged.connect(function(status) {
+            var entry = {socket: socket};
+            entry.message = function(message) {
+                if (root) root.processMessage(message, socket);
+            };
+            entry.status = function(status) {
+                if (!root) return;
                 if (status === WebSocket.Closed || status === WebSocket.Error) {
-                    var index = root.clientConnections.indexOf(socket);
+                    var index = root.clientConnections.indexOf(entry);
                     if (index >= 0) root.clientConnections.splice(index, 1);
                 }
-            });
+            };
+            root.clientConnections.push(entry);
+            socket.textMessageReceived.connect(entry.message);
+            socket.statusChanged.connect(entry.status);
         }
         onErrorStringChanged: console.log("MuseScore MCP: " + errorString)
+    }
+    Component.onCompleted: {
+        if (typeof newScoreObserver === "function") {
+            arrangementObserver = newScoreObserver();
+            if (typeof arrangementObserver.prepareLocalBridge === "function") arrangementObserver.prepareLocalBridge();
+        }
+    }
+    Component.onDestruction: {
+        bridge.listen = false;
+        for (var i = 0; i < clientConnections.length; ++i) {
+            var entry = clientConnections[i];
+            entry.socket.textMessageReceived.disconnect(entry.message);
+            entry.socket.statusChanged.disconnect(entry.status);
+            entry.socket.active = false;
+        }
+        clientConnections = [];
     }
     property var selectionState: ({
         startStaff: 0,
@@ -43,7 +64,7 @@ MuseScore {
     // ========================================
 
     function processMessage(message, clientId) {
-        console.log("Received message: " + message);
+        console.log("MuseScore MCP request: " + message.length + " characters");
         try {
             var command = JSON.parse(message);
             var result = processCommand(command);
@@ -64,6 +85,14 @@ MuseScore {
         console.log("Processing command: " + command.action);
         
         switch(command.action) {
+            case "arrangementState":
+            case "arrangementRange":
+            case "arrangementSuggestions":
+            case "storeArrangementInfo":
+            case "submitArrangementOptions":
+            case "arrangementOption":
+            case "arrangementOperationStatus":
+                return arrangementCommand(command.action, command.params || {});
             // Core operations
             case "getScore":                return getScore(command.params);
             case "syncStateToSelection":    return syncStateToSelection();
@@ -1087,11 +1116,20 @@ MuseScore {
         }
     }
 
+    function arrangementCommand(action, params) {
+        if (!curScore) throw new Error("打开乐谱后选择要编配的一段。");
+        if (!arrangementObserver && typeof newScoreObserver === "function") arrangementObserver = newScoreObserver();
+        if (!arrangementObserver || typeof arrangementObserver.arrangementRequest !== "function") throw new Error("请使用支持P2编配交互的MuseScore版本。");
+        arrangementObserver.score = curScore;
+        return arrangementObserver.arrangementRequest(action, params);
+    }
+
     function getCapabilities() {
+        if (!arrangementObserver && typeof newScoreObserver === "function") arrangementObserver = newScoreObserver();
         return { success: true, bridgeVersion: root.version,
                  museScoreVersion: mscoreVersion, ticksPerQuarter: division,
                  scoreOpen: Boolean(curScore), transport: "QtWebSockets",
-                 scoreObserver: typeof newScoreObserver === "function" };
+                 arrangementContext: arrangementObserver && typeof arrangementObserver.arrangementRequest === "function" ? "arrangement-context/1" : null, scoreObserver: typeof newScoreObserver === "function" };
     }
 
     function getScoreSummary() {
@@ -1176,7 +1214,7 @@ MuseScore {
     // ========================================
 
     onRun: {
-        console.log("Starting MuseScore API Server (Clean Version) on port 8765");
+        console.log("Starting MuseScore API Server on port " + bridge.port);
         
         bridge.listen = true;
     }

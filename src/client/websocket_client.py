@@ -69,7 +69,7 @@ class MuseScoreClient:
         payload = json.dumps(command)
 
         last_error: Optional[str] = None
-        read_only = action in {"ping", "getCapabilities", "getScore", "getCursorInfo"}
+        read_only = action in {"ping", "getCapabilities", "getScore", "getCursorInfo", "arrangementState", "arrangementRange", "arrangementSuggestions", "arrangementOperationStatus"}
         attempts = 2 if read_only else 1
         for attempt in range(attempts):
             if not self.websocket:
@@ -77,10 +77,10 @@ class MuseScoreClient:
                     return {"error": "Not connected to MuseScore"}
 
             try:
-                logger.info(f"Sending command: {payload}")
+                logger.info("Sending %s (%d bytes)", action, len(payload.encode("utf8")))
                 await self.websocket.send(payload)
                 response = await asyncio.wait_for(self.websocket.recv(), self.timeout)
-                logger.info(f"Received response: {response}")
+                logger.info("Received %s response (%d bytes)", action, len(response.encode("utf8")))
                 return json.loads(response)
             except asyncio.CancelledError:
                 await self._reset_socket()

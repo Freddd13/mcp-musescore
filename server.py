@@ -5,6 +5,8 @@ import os
 
 # Import modular components
 from src.client import MuseScoreClient
+from src.context.service import ContextService
+from src.tools.arrangement import setup_arrangement_tools
 from src.tools import (
     setup_connection_tools,
     setup_navigation_tools,
@@ -36,8 +38,12 @@ mcp = FastMCP("MuseScore Evolution Assistant", instructions=(
 client = MuseScoreClient(host=os.environ.get("MCP_MUSESCORE_HOST", "127.0.0.1"),
                         port=int(os.environ.get("MCP_MUSESCORE_PORT", "8765")))
 
+# One context service is shared by the tools and local callers.
+context_service = ContextService(client)
+setup_arrangement_tools(mcp, context_service)
+
 # Setup all tool categories
-setup_connection_tools(mcp, client)
+setup_connection_tools(mcp, client, context_service)
 setup_navigation_tools(mcp, client)
 setup_notes_measures_tools(mcp, client)
 setup_staff_instruments_tools(mcp, client)
