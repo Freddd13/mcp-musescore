@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录8份，另有1份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录21份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -12,23 +12,23 @@
 | A002 | 041470_[Animenz] Linked Horizon - Guren no Yumiya (Attack on Titan OP).pdf | 10 | 已有逐谱案例 | [READING_001.md](READING_001.md) |
 | A003 | 062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf | 6 | 已有逐谱案例 | [READING_001.md](READING_001.md) |
 | A004 | 070769_[Animenz] Evan Call - The Ultimate Price (Violet Evergarden OST).pdf | 3 | 已有逐谱案例 | [READING_001.md](READING_001.md) |
-| A005 | 200 Anime Songs Medley.pdf | 154 | 部分：16/154页 | [READING_MEDLEY_200.md](READING_MEDLEY_200.md) |
+| A005 | 200 Anime Songs Medley.pdf | 154 | 已有逐谱案例 | [READING_MEDLEY_200.md](READING_MEDLEY_200.md) |
 | A006 | 5 Variations about the theme 「lit」 - A Silent Voice - Soundtrack.pdf | 5 | 已有逐谱案例 | [READING_001.md](READING_001.md) |
 | A007 | A Cruel Angel's Thesis - Neon Genesis Evangelion - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_002.md](READING_002.md) |
 | A008 | A Link to the Past Medley.pdf | 9 | 已有逐谱案例 | [READING_002.md](READING_002.md) |
 | A009 | Adabana Necromancy - Zombie Land Saga - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_002.md](READING_002.md) |
-| A010 | Again - Fullmetal Alchemist Brotherhood - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A011 | Akuma no Ko - Attack on Titan - The Final Season Part 2 - Ending Theme.pdf | 6 | 待逐谱阅读 | — |
-| A012 | aLIEz - Aldnoah.Zero - 2nd Ending Theme.pdf | 6 | 待逐谱阅读 | — |
-| A013 | Ao no Sumika - Jujutsu Kaisen Season 2 - Opening Theme.pdf | 5 | 待逐谱阅读 | — |
-| A014 | Ashes on the Fire - Attack on Titan The Final Season - Soundtrack.pdf | 6 | 待逐谱阅读 | — |
-| A015 | Attack on Titan (Main Theme) - Attack on Titan - Soundtrack.pdf | 6 | 待逐谱阅读 | — |
-| A016 | Avid - 86 (Eighty-Six) - Ending Theme.pdf | 5 | 待逐谱阅读 | — |
-| A017 | Bauklötze (Hanji's Final Theme)- Attack on Titan.pdf | 7 | 待逐谱阅读 | — |
-| A018 | Before my body is dry - Kill la Kill - Soundtrack.pdf | 6 | 待逐谱阅读 | — |
-| A019 | Bios - Guilty Crown - Soundtrack.pdf | 9 | 待逐谱阅读 | — |
-| A020 | Black Catcher - Black Clover - 10th Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A021 | Bloody Stream - JoJo's Bizarre Adventure.pdf | 5 | 待逐谱阅读 | — |
+| A010 | Again - Fullmetal Alchemist Brotherhood - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_003.md](READING_003.md) |
+| A011 | Akuma no Ko - Attack on Titan - The Final Season Part 2 - Ending Theme.pdf | 6 | 已有逐谱案例 | [READING_003.md](READING_003.md) |
+| A012 | aLIEz - Aldnoah.Zero - 2nd Ending Theme.pdf | 6 | 已有逐谱案例 | [READING_003.md](READING_003.md) |
+| A013 | Ao no Sumika - Jujutsu Kaisen Season 2 - Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_003.md](READING_003.md) |
+| A014 | Ashes on the Fire - Attack on Titan The Final Season - Soundtrack.pdf | 6 | 已有逐谱案例 | [READING_003.md](READING_003.md) |
+| A015 | Attack on Titan (Main Theme) - Attack on Titan - Soundtrack.pdf | 6 | 已有逐谱案例 | [READING_003.md](READING_003.md) |
+| A016 | Avid - 86 (Eighty-Six) - Ending Theme.pdf | 5 | 已有逐谱案例 | [READING_004.md](READING_004.md) |
+| A017 | Bauklötze (Hanji's Final Theme)- Attack on Titan.pdf | 7 | 已有逐谱案例 | [READING_004.md](READING_004.md) |
+| A018 | Before my body is dry - Kill la Kill - Soundtrack.pdf | 6 | 已有逐谱案例 | [READING_004.md](READING_004.md) |
+| A019 | Bios - Guilty Crown - Soundtrack.pdf | 9 | 已有逐谱案例 | [READING_004.md](READING_004.md) |
+| A020 | Black Catcher - Black Clover - 10th Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_004.md](READING_004.md) |
+| A021 | Bloody Stream - JoJo's Bizarre Adventure.pdf | 5 | 已有逐谱案例 | [READING_004.md](READING_004.md) |
 | A022 | Blue Bird - Naruto Shippuuden - 3rd Opening Theme.pdf | 6 | 待逐谱阅读 | — |
 | A023 | Blumenkranz - Kill la Kill - Soundtrack.pdf | 5 | 待逐谱阅读 | — |
 | A024 | BOY - Ousama Ranking - Opening Theme.pdf | 5 | 待逐谱阅读 | — |

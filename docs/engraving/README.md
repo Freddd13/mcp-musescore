@@ -2,7 +2,7 @@
 
 更新：2026-10-18。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
 
-持续任务：[全目录学习与资源整理](CONTINUOUS_STUDY.md)。已清点并渲染全部146份PDF、1,135页；新阅读批次已审视8份谱49页，近读19页，见[逐谱一](corpus/READING_001.md)、[逐谱二](corpus/READING_002.md)及[覆盖记录](corpus/reviews.json)。新增[附点、变音与连音的判断](NOTATION_DETAILS.md)、[资源核实目录](RESOURCE_RESEARCH.md)。全部谱子的深入研究仍在进行中。缓存已迁E盘，位置见[CACHE_LOCATIONS](CACHE_LOCATIONS.md)。
+持续任务：[全目录学习与资源整理](CONTINUOUS_STUDY.md)。已清点并渲染全部146份PDF、1,135页；新阅读批次已审视21份谱276页，近读77页，见[逐谱一](corpus/READING_001.md)、[逐谱二](corpus/READING_002.md)、[逐谱三](corpus/READING_003.md)、[逐谱四](corpus/READING_004.md)、[154页串烧的13章](corpus/READING_MEDLEY_200.md)及[覆盖记录](corpus/reviews.json)。新增[附点、变音与连音的判断](NOTATION_DETAILS.md)、[资源核实目录](RESOURCE_RESEARCH.md)。全部谱子的深入研究仍在进行中。缓存已迁E盘，位置见[CACHE_LOCATIONS](CACHE_LOCATIONS.md)。
 
 当前优先阅读：[个人偏好与应用方法](PREFERENCES.md)、[横向间距专题](SPACING_STUDY.md)。用户进一步明确：需要持续学习并形成具体的审美判断、建议与后续自动净书能力，不以规则数量/技术检查替代。新专题增加5份官谱、8个定位观察和一个自制原生复现，尚未制作改善候选；HS编号与以下35个正式E案例分开记录。
 
@@ -11,6 +11,7 @@
 ## 阅读入口
 
 - [PREFERENCES.md](PREFERENCES.md)：明确偏好、未确认取舍、怎样让用户验收少量候选，以及跨任务怎样读取/应用知识。
+- [BEAM_STEM_STUDY.md](BEAM_STEM_STUDY.md)：梁坡、干长、梁与谱线/加线的黑白关系；结合新官谱与Gould p17–26解释出版观感，并区分现可调项和待验证开发方案。
 - [SPACING_STUDY.md](SPACING_STUDY.md)：横向间距的规范、更多谱例、用户m50–52测量、原生25%变幅复现与开发假说；[spacing_evidence.json](spacing_evidence.json)保存证据，[fixtures](fixtures/README.md)保存自制谱与复现方法。
 - [EXPANDED_RESEARCH.md](EXPANDED_RESEARCH.md)：本轮新增情境、为什么这样排更易读、覆盖矩阵与路线调整。
 - [CASES_EXPANDED.md](CASES_EXPANDED.md)：E15–E35与替代方案代价；[RULES_EXPANDED.md](RULES_EXPANDED.md)：R15–R26的适用条件与例外。
