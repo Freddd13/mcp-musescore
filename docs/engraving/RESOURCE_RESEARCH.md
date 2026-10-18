@@ -16,7 +16,7 @@
 
 | 来源 | 读到的范围 | 实际用途和限制 |
 | --- | --- | --- |
-| Gould《Behind Bars》[官方目录](https://behindbarsnotation.co.uk/contents/)及用户本地全文 | 已有定向阅读，本次新增完整图页p17–26、54–58、72–73、78–84、200–202，见[细节专题](NOTATION_DETAILS.md)及[梁干专题](BEAM_STEM_STUDY.md) | 条件和反例的主要教材。未通读全书；不能把某出版社惯例都当唯一规范 |
+| Gould《Behind Bars》[官方目录](https://behindbarsnotation.co.uk/contents/)及用户本地全文 | 已有定向阅读，本次新增完整图页p17–26、54–58、72–73、78–84、200–202；次日补p316–318、320–322、325，见[细节专题](NOTATION_DETAILS.md)及[梁干专题](BEAM_STEM_STUDY.md) | 条件和反例的主要教材。未通读全书；不能把某出版社惯例都当唯一规范 |
 | 日本楽譜出版社[ハンコ浄書の世界](https://nihongakufu.com/article-list/making) | 已读文章正文，网页注明更新2025-09-26 | 介绍字模与手工弧线的分工，也比较使用相近工具的净书家之风格差异。支持研究字形之外的布局判断；不是现代软件教程 |
 | LilyPond 2.26 [Optical spacing](https://lilypond.org/doc/v2.26/Documentation/essay/optical-spacing) | 已读页面文字；图形机制已有本库前批研究，当前未把新网页图当新实验 | 符干组合、小节边界与眼睛看到的疏密；不能照搬数值或声称已与Evolution同曲比过 |
 | LilyPond 2.26 [Beauty contests](https://lilypond.org/doc/v2.26/Documentation/essay/beauty-contests) | 已读页面文字 | 用多个候选及其代价选择布局，适合本项目的“先解释、再小量对照”。本库尚无经用户选择校准的评分权重 |
@@ -28,6 +28,14 @@
 - [MPA Standard Music Notation Practice](https://www.mpa.org/wp-content/uploads/2018/06/standard-practice-engraving.pdf)：核实20页PDF与1966/1993版权年，读前言及可提取正文；大部分谱例仍待看图。前言明确细节并非全体一致，阅读清楚优先；不能把此小册等同当前所有出版社的唯一标准。
 - 藤井大河[2024-12-04 Dorico设置文章](https://note.com/fujii_taiga_m/n/nca8f66de9948)：已读正文，图片未看。提出重音、跨系统弧、间距比例、小节号的偏好；现行软件默认/能力需再对官方版本核查，不能把个人喜好的比例叫作出版规范。
 - [YMD净书基础课](https://ymdmusic.jp/academy/seminar-engraving)：已读官网公开介绍和纲要，确认有记谱、布局及实用阅读主题与公开PDF入口；未获取授课内容，不把课程介绍冒充具体技术。
+- [ICS课程纲要](https://www.ics-j.com/course/)：已读公开的基础、应用、实务分层介绍。仅用于检查学习体系是否遗漏，不是取得其教材或授课内容。
+
+## 可编辑例与软件执行：新增定向阅读
+
+- LilyPond 2.24.4 [snippets入口](https://lilypond.org/doc/v2.24/Documentation/snippets/)明确该文档为public domain，并提醒有版本转换；不能把可运行例子等同最佳排版。[键盘专题](https://lilypond.org/doc/v2.24/Documentation/snippets/keyboards)实际读了跨声部slur、跨谱表和弦避碰、跨谱表震音、踏板括号和手分配括形的说明及源码；图形未显示，未编译。这些说明结构、连接和避碰策略相互影响，不宜照抄“关闭避碰”到MuseScore。
+- [多声部专题](https://lilypond.org/doc/v2.24/Documentation/snippets/simultaneous-notes)实际读了附点声部左右移位、透明对象和忽略列碰撞的说明/源码。透明对象仍可能参与布局；“看不见”不等于没有空间贡献。它是排查隐藏对象的机制线索，不能未经源码/工程核查便断言MuseScore行为相同。
+- [Mutopia贡献说明](https://www.mutopiaproject.org/contribute.html)已读：源码保留版本与出处，许可由具体贡献者选择；强调A4/Letter都能编译与避免困难翻页。本线未据此批量收录曲库，也不保证其全部作品无误；后续逐份核许可、版本和源谱，再作可编辑测试素材。
+- [MuseScore 3版面手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting)新增实际阅读“添加/移除换行符”“拉伸”“重置梁”“重置形状位置”“加载/保存样式”正文。拉伸影响所选小节，重置会改既有干向/曲线等；后续净书不能先全谱重置再宣称保留人工判断。样式可复用，但不包含每个情境的编辑决定。未在本轮操作原谱验证Evolution菜单差异。
 
 ## 自动净书研究的补充线索
 

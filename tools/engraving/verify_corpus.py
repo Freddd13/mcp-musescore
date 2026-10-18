@@ -69,7 +69,7 @@ def main():
     old_protection = json.loads((BASE/'spacing_evidence.json').read_text(encoding='utf-8'))['protected_sources']
     prior_results = [{'path': r['path'], 'matches_prior_baseline': sha(r['path']) == r['before_sha256']} for r in old_protection]
     docs = ['CONTINUOUS_STUDY.md','CACHE_LOCATIONS.md','NOTATION_DETAILS.md','RESOURCE_RESEARCH.md','README.md',
-            'BEAM_STEM_STUDY.md','RESOURCE_PLAN_MAPPING.md','INPUT_HISTORY.md','EXTERNAL_PRACTICE.md']
+            'BEAM_STEM_STUDY.md','RESOURCE_PLAN_MAPPING.md','INPUT_HISTORY.md','EXTERNAL_PRACTICE.md','CROSS_STAFF_STUDY.md']
     docs += [str(p.relative_to(BASE)) for p in (BASE/'corpus').glob('*.md')]
     for name in docs:
         path = BASE/name
@@ -81,7 +81,7 @@ def main():
             assert (path.parent/target.split('#')[0]).exists(), name+' broken link '+target
     compile((REPO/'tools/engraving/corpus.py').read_text(encoding='utf-8'), 'corpus.py', 'exec')
     report = {
-        'date': '2026-10-18', 'result': 'passed', 'sources_unchanged': len(source_results),
+        'date': review['date'], 'result': 'passed', 'sources_unchanged': len(source_results),
         'source_directory_matches_inventory': True, 'rendered_pages': page_count,
         'reviewed_scores_documented': len(review['scores']), 'screened_pages_recorded': review['screened_pages'],
         'detail_pages_recorded': review['detail_pages'],

@@ -29,11 +29,11 @@
 | [MOLA](https://mola-inc.org/resources/11631) | 已核官网简体中文PDF链接及16页文件；正文PDF p3–8可读 | 已实际看PDF p3–12，其中图例1–7；乐团分谱尺寸不能直接当独奏钢琴下限 |
 | [MPA](https://www.mpa.org/permission-forms-informational-pdfs/) | 已核20页PDF，前言和少量正文可提取 | 多数规则在图页；截图工具未返回可见图片，不能称看过全部图页 |
 | [LilyPond 2.26 essay](https://lilypond.org/doc/v2.26/Documentation/essay/index.html) | 已读光学间距与候选评比文字，前批另有谱例研究 | 继续对照本地稳定脉冲复现，不能把候选评分当已获用户校准 |
-| [MuseScore 3中文排版手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting) | 已打开手册页，正文尚待定向细读；另有本地源码证据 | 核查版本及Evolution差异；3的操作不直接等同4的文档 |
+| [MuseScore 3中文排版手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting) | 已定向读换行、拉伸、重置与样式复用正文，另有本地源码证据 | 继续核Evolution差异；不能先全谱重置清掉人工判断 |
 | [YMD基础课](https://ymdmusic.jp/academy/seminar-engraving) | 已读官网介绍/纲要、公开谱例链接 | 没有获取付费授课内容，不将课程介绍列为已学会的技术 |
 | 藤井大河 [Dorico初始设置](https://note.com/fujii_taiga_m/n/nca8f66de9948) | 已读2024-12-04文章正文，涉及重音、跨系统弧、间距比例、小节号 | 截图未看；具体默认/功能需官方版本文档核查。作者喜好不等于规范 |
 | [ICS课程](https://www.ics-j.com/course/) | 已读公开课程纲要，了解基础、应用、实务的分层 | 未取得教材或授课内容，不能假装已学会完整课程 |
-| [LilyPond 2.24 snippets](https://lilypond.org/doc/v2.24/Documentation/snippets/)、[Mutopia](https://www.mutopiaproject.org/contribute.html) | 原规划线索 | 逐样本核源码、版本与许可；有源码也不能自动当美学标准 |
+| [LilyPond 2.24 snippets](https://lilypond.org/doc/v2.24/Documentation/snippets/)、[Mutopia](https://www.mutopiaproject.org/contribute.html) | 已读入口许可/版本、定向键盘/多声部说明与源码，以及Mutopia贡献正文 | Lily图未显示、未编译；Mutopia未逐份收录。可编辑不等于最佳，不能以集合入口许可替代逐份核查 |
 
 所有“待做”均保留，当前未完成整份资源规划。用户粘贴的13KB附件未实际取得，不称其内容已经收入项目；这里落实的是已粘贴正文。
 

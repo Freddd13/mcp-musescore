@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录45份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录57份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -53,18 +53,18 @@
 | A043 | Extra Magic Hour - Amagi Brilliant Park - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_008.md](READING_008.md) |
 | A044 | Fate stay night：Heaven's Feel Medley.pdf | 11 | 已有逐谱案例 | [READING_008.md](READING_008.md) |
 | A045 | FRIEREN Beyond Journey's End - Soundtrack Medley.pdf | 14 | 已有逐谱案例 | [READING_008.md](READING_008.md) |
-| A046 | Fubuki - Kantai Collection - Ending Song.pdf | 7 | 待逐谱阅读 | — |
-| A047 | Giorno's Theme - JoJo's Bizarre Adventure：Golden Wind - Soundtrack.pdf | 5 | 待逐谱阅读 | — |
-| A048 | Go Shiina - Entrance to Infinity Castle (Demon Slayer_ Hashira Training Arc - OST).pdf | 7 | 待逐谱阅读 | — |
-| A049 | God knows… - The Melancholy of Haruhi Suzumiya - Insert Song.pdf | 8 | 待逐谱阅读 | — |
-| A050 | Gotta catch ’em all!&Pokémon Red and Blue Medley.pdf | 13 | 待逐谱阅读 | — |
-| A051 | Grand escape - Weathering with you - Insert Song.pdf | 6 | 待逐谱阅读 | — |
-| A052 | Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A053 | Gurenge - Demon Slayer - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A054 | Hacking to the Gate - Steins;Gate - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A055 | Hanezeve Caradhina - Made in Abyss - Soundtrack.pdf | 3 | 待逐谱阅读 | — |
-| A056 | Here - Mahoutsukai no Yome - Opening Theme.pdf | 9 | 待逐谱阅读 | — |
-| A057 | Hikaru nara - Shigatsu wa Kimi no Uso - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
+| A046 | Fubuki - Kantai Collection - Ending Song.pdf | 7 | 已有逐谱案例 | [READING_009.md](READING_009.md) |
+| A047 | Giorno's Theme - JoJo's Bizarre Adventure：Golden Wind - Soundtrack.pdf | 5 | 已有逐谱案例 | [READING_009.md](READING_009.md) |
+| A048 | Go Shiina - Entrance to Infinity Castle (Demon Slayer_ Hashira Training Arc - OST).pdf | 7 | 已有逐谱案例 | [READING_009.md](READING_009.md) |
+| A049 | God knows… - The Melancholy of Haruhi Suzumiya - Insert Song.pdf | 8 | 已有逐谱案例 | [READING_009.md](READING_009.md) |
+| A050 | Gotta catch ’em all!&Pokémon Red and Blue Medley.pdf | 13 | 已有逐谱案例 | [READING_009.md](READING_009.md) |
+| A051 | Grand escape - Weathering with you - Insert Song.pdf | 6 | 已有逐谱案例 | [READING_009.md](READING_009.md) |
+| A052 | Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_010.md](READING_010.md) |
+| A053 | Gurenge - Demon Slayer - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_010.md](READING_010.md) |
+| A054 | Hacking to the Gate - Steins;Gate - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_010.md](READING_010.md) |
+| A055 | Hanezeve Caradhina - Made in Abyss - Soundtrack.pdf | 3 | 已有逐谱案例 | [READING_010.md](READING_010.md) |
+| A056 | Here - Mahoutsukai no Yome - Opening Theme.pdf | 9 | 已有逐谱案例 | [READING_010.md](READING_010.md) |
+| A057 | Hikaru nara - Shigatsu wa Kimi no Uso - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_010.md](READING_010.md) |
 | A058 | History Maker - Yuri!!! on ICE - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
 | A059 | Homura - Demon Slayer the Movie Mugen Train - Theme Song.pdf | 5 | 待逐谱阅读 | — |
 | A060 | Hyori Ittai - Hunter × Hunter - 5th Ending Theme.pdf | 9 | 待逐谱阅读 | — |
