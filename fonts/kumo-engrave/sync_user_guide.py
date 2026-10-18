@@ -38,6 +38,11 @@ def run(commit,appendix=None,title=None):
     if appendix:
         text=appendix.read_text(encoding='utf-8').replace('{{FONT_COMMIT}}',commit)
         assert title in text,'Appendix title mismatch'
+    # PowerShell here-strings may omit the final newline. A unified diff's last
+    # added line must be terminated; normalize only our new appendix, not the
+    # pre-existing guide or other chats' uncommitted changes.
+    if not text.endswith('\n'):
+        text+='\n'
     addition=text.encode('utf-8')
     desired=base+addition
     patch=''.join(difflib.unified_diff(base.decode('utf-8').splitlines(True),desired.decode('utf-8').splitlines(True),fromfile='a/'+PATH,tofile='b/'+PATH))
