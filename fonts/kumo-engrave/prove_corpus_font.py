@@ -1,5 +1,5 @@
 """Isolated native proofs of the local corpus font: notes, Text, and all glyphs."""
-import argparse,hashlib,json,os,shutil,subprocess,xml.etree.ElementTree as ET
+import argparse,hashlib,json,os,re,shutil,subprocess,textwrap,xml.etree.ElementTree as ET,zipfile
 from pathlib import Path
 from render_proofs import set_font,no_style_xml
 
@@ -23,8 +23,13 @@ def run(args):
     fixture=out/'palette.mscx'
     convert('import',['-o',str(fixture)],ROOT/'fixtures/piano-palette.musicxml')
     data=fixture.read_bytes()
-    def proof(label,source,family):
+    def proof(label,source,family,archive=None):
         score=out/(label+'.mscx');set_font(source,score,family,family+' Text')
+        if archive:
+            updated=score.read_bytes();score=out/(label+'.mscz')
+            with zipfile.ZipFile(archive) as old,zipfile.ZipFile(score,'x') as new:
+                main=[n for n in old.namelist() if n.endswith('.mscx')];assert len(main)==1
+                for info in old.infolist():new.writestr(info,updated if info.filename==main[0] else old.read(info.filename))
         probe=out/(label+'.qml');state=out/(label+'.json')
         probe.write_text('''import QtQuick 2.0
 import MuseScore 3.0
@@ -47,13 +52,31 @@ MuseScore {
         status=json.loads(state.read_text(encoding='utf-8'));assert status['symbolRegistered'] and status['textRegistered']
         assert status['symbol']==family and status['text']==family+' Text'
         report['proofs'][label]=status
-    if not args.text_only:
+    if not args.text_only and not args.waves_only:
         for variant in ('Control','Study'):proof('palette-'+variant.lower(),data,'Kumo Score '+variant)
         from source.extension_fixture import integration_score
         extra=integration_score(data)
         for variant in ('Control','Study'):
             source=extra.replace(b'Kumo Score Study Text',('Kumo Score '+variant+' Text').encode())
             proof('integration-'+variant.lower(),source,'Kumo Score '+variant)
+    if not args.text_only:
+        from source.wave_fixture import wave_score
+        for variant in ('Control','Study'):proof('waves-'+variant.lower(),wave_score(data),'Kumo Score '+variant)
+    if args.score:
+        original=hashlib.sha256(args.score.read_bytes()).hexdigest();archive=None
+        if args.score.suffix.lower()=='.mscz':
+            with zipfile.ZipFile(args.score) as z:
+                main=[n for n in z.namelist() if n.endswith('.mscx')];assert len(main)==1
+                user=z.read(main[0])
+            archive=args.score
+        else:user=args.score.read_bytes()
+        for variant in ('Control','Study'):proof('user-'+variant.lower(),user,'Kumo Score '+variant,archive)
+        assert hashlib.sha256(args.score.read_bytes()).hexdigest()==original
+        report['original_score']=dict(path=str(args.score),sha256=original,unchanged=True)
+    if args.waves_only:
+        assert hashlib.sha256(args.musescore.read_bytes()).hexdigest()==report['host_sha256'],'Proof host changed during rendering'
+        (out/'native-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+        return
     def text_score():
         tree=ET.fromstring(data);score=tree.find('Score')
         for staff in score.findall('Staff'):
@@ -77,7 +100,11 @@ MuseScore {
             ET.SubElement(text,'offset',x=str(i%5*52),y=str(i//5*40))
             item=build['fonts']['Kumo Score Study']['changed'][name]
             body=('<sym>'+name+'</sym>') if item.get('smufl',True) else '<font face="Kumo Score Study Text"/>'+chr(item['codepoint'])
-            text.append(ET.fromstring('<text><font size="9"/>'+name+'\n<font size="28"/>'+body+'</text>'))
+            label=name if len(name)<=24 else '\n'.join(textwrap.wrap(re.sub(r'([a-z])([A-Z])',r'\1 \2',name),24))
+            text.append(ET.fromstring('<text><font size="8"/>'+label+'</text>'))
+            glyph=ET.SubElement(frame,'Text');ET.SubElement(glyph,'style').text='Frame'
+            ET.SubElement(glyph,'offset',x=str(i%5*52),y=str(i//5*40+14))
+            glyph.append(ET.fromstring('<text><font size="28"/>'+body+'</text>'))
         proof('atlas-%02d'%(block//25+1),ET.tostring(tree),'Kumo Score Study')
     # Native GSUB comparison rows; left uses ordinary composed dynamics,
     # right the observed single-glyph equivalent. Same type size and family.
@@ -91,6 +118,7 @@ MuseScore {
             ET.SubElement(text,'offset',x=str(j*80),y=str(i*18))
             text.append(ET.fromstring('<text><font size="22"/>'+body+'</text>'))
     proof('dynamics-shaping',ET.tostring(tree),'Kumo Score Study')
+    assert hashlib.sha256(args.musescore.read_bytes()).hexdigest()==report['host_sha256'],'Proof host changed during rendering'
     (out/'native-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print('Native registration and authored fixture conversions verified; inspect images separately.')
 
@@ -98,5 +126,8 @@ MuseScore {
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--fonts',type=Path,required=True)
     p.add_argument('--output',type=Path,required=True);p.add_argument('--musescore',type=Path,required=True)
-    p.add_argument('--text-only',action='store_true')
+    section=p.add_mutually_exclusive_group()
+    section.add_argument('--text-only',action='store_true')
+    section.add_argument('--waves-only',action='store_true')
+    p.add_argument('--score',type=Path,help='Optional read-only original; render isolated copies with archive assets preserved')
     run(p.parse_args())

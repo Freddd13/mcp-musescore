@@ -98,12 +98,18 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
                     if table.isUnicode():table.cmap[cp]=glyph
                 cmap[cp]=glyph;report['added'].append(symbol)
             pen=T2CharStringPen(advance-getattr(top.Private,'nominalWidthX',0),font.getGlyphSet(),roundTolerance=0)
-            for points in loops:
-                points=[tuple(round(v*65536)/65536 for v in p) for p in points]
-                pen.moveTo(points[0])
-                for p in points[1:]:pen.lineTo(p)
-                pen.closePath()
-            top.CharStrings[glyph]=pen.getCharString(private=top.Private,globalSubrs=top.GlobalSubrs)
+            if item.get('commands'):
+                for op,points in item['commands']:
+                    assert op in ('moveTo','lineTo','curveTo','closePath')
+                    points=[tuple(round(v*65536)/65536 for v in p) for p in points]
+                    getattr(pen,op)(*points)
+            else:
+                for points in loops:
+                    points=[tuple(round(v*65536)/65536 for v in p) for p in points]
+                    pen.moveTo(points[0])
+                    for p in points[1:]:pen.lineTo(p)
+                    pen.closePath()
+            top.CharStrings[glyph]=pen.getCharString(private=top.Private,globalSubrs=top.GlobalSubrs,optimize=not bool(item.get('commands')))
             font['hmtx'].metrics[glyph]=(advance,int(math.floor(box[0])))
             if standard:
                 meta['glyphBBoxes'][symbol]=dict(bBoxSW=[v/250 for v in box[:2]],bBoxNE=[v/250 for v in box[2:]])
@@ -142,7 +148,8 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
             if symbol.startswith('flag'):
                 anchors['stemUpNW' if symbol.endswith('Up') else 'stemDownSW']=[0,0]
             if item['repeat']:anchors['repeatOffset']=[item['repeat']/250,0]
-            report['changed'][symbol]=dict(codepoint=cp,glyph=glyph,advance=advance,bounds_sp=[v/250 for v in box],anchors=anchors,smufl=standard)
+            report['changed'][symbol]=dict(codepoint=cp,glyph=glyph,advance=advance,bounds_sp=[v/250 for v in box],anchors=anchors,smufl=standard,
+                cubic_segments=sum(op=='curveTo' for op,points in item.get('commands',[])))
         # MuseScore 3 composes dynamics from letter symbols. Default OpenType
         # liga selects the observed complete forms without changing score XML.
         rules=[]
@@ -170,7 +177,8 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
         for symbol,row in report['changed'].items():
             actual=bounds(result.getGlyphSet(),row['glyph'])
             assert all(abs(a/250-b)<1e-5 for a,b in zip(actual,row['bounds_sp'])),symbol
-            cs=result['CFF '].cff.topDictIndex[0].CharStrings[row['glyph']];cs.draw(RecordingPen())
+            cs=result['CFF '].cff.topDictIndex[0].CharStrings[row['glyph']];record=RecordingPen();cs.draw(record)
+            assert sum(op=='curveTo' for op,points in record.value)==row['cubic_segments'],symbol
             assert cs.width==row['advance']==result['hmtx'].metrics[row['glyph']][0]
         report.update(glyph_count=len(result.getGlyphOrder()),cmap_count=len(result.getBestCmap()),coverage_preserved=True,
                       unchanged_outlines_and_metrics_preserved=True,sha256=hashlib.sha256(path.read_bytes()).hexdigest())
