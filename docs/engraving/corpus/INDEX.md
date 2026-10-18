@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录81份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录93份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -89,18 +89,18 @@
 | A079 | Kuchizuke Diamond - Yamada-kun and the Seven Witches - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_014.md](READING_014.md) |
 | A080 | Kura Kura - SPY × FAMILY S2 - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_014.md](READING_014.md) |
 | A081 | Kuusou Mesorogiwi - Mirai Nikki - 1st Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_014.md](READING_014.md) |
-| A082 | Kyouran Hey Kids!! - Noragami Aragoto - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A083 | Last Stardust - Fate stay night：Unlimited Blade Works - Insert Song.pdf | 6 | 待逐谱阅读 | — |
-| A084 | Little Busters! - Little Busters! - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A085 | Madoka Magica - Piano Suite Medley.pdf | 10 | 待逐谱阅读 | — |
-| A086 | Main Theme - Detective Conan - Soundtrack.pdf | 4 | 待逐谱阅读 | — |
-| A087 | Melissa - Fullmetal Alchemist - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A088 | Merry-Go-Round of Life - Howl’s Moving Castle - Main Theme.pdf | 7 | 待逐谱阅读 | — |
-| A089 | Michishirube - Violet Evergarden - Ending Theme.pdf | 6 | 待逐谱阅读 | — |
-| A090 | Miiro - Kantai Collection - Opening Song.pdf | 7 | 待逐谱阅读 | — |
-| A091 | Mixed Nuts - SPY×FAMILY - Opening Theme.pdf | 5 | 待逐谱阅读 | — |
-| A092 | My Dearest - Guilty Crown - Opening Theme.pdf | 10 | 待逐谱阅读 | — |
-| A093 | My Hero Academia  - Boku no Hero Academia - Soundtrack.pdf | 5 | 待逐谱阅读 | — |
+| A082 | Kyouran Hey Kids!! - Noragami Aragoto - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_015.md](READING_015.md) |
+| A083 | Last Stardust - Fate stay night：Unlimited Blade Works - Insert Song.pdf | 6 | 已有逐谱案例 | [READING_015.md](READING_015.md) |
+| A084 | Little Busters! - Little Busters! - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_015.md](READING_015.md) |
+| A085 | Madoka Magica - Piano Suite Medley.pdf | 10 | 已有逐谱案例 | [READING_015.md](READING_015.md) |
+| A086 | Main Theme - Detective Conan - Soundtrack.pdf | 4 | 已有逐谱案例 | [READING_015.md](READING_015.md) |
+| A087 | Melissa - Fullmetal Alchemist - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_015.md](READING_015.md) |
+| A088 | Merry-Go-Round of Life - Howl’s Moving Castle - Main Theme.pdf | 7 | 已有逐谱案例 | [READING_016.md](READING_016.md) |
+| A089 | Michishirube - Violet Evergarden - Ending Theme.pdf | 6 | 已有逐谱案例 | [READING_016.md](READING_016.md) |
+| A090 | Miiro - Kantai Collection - Opening Song.pdf | 7 | 已有逐谱案例 | [READING_016.md](READING_016.md) |
+| A091 | Mixed Nuts - SPY×FAMILY - Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_016.md](READING_016.md) |
+| A092 | My Dearest - Guilty Crown - Opening Theme.pdf | 10 | 已有逐谱案例 | [READING_016.md](READING_016.md) |
+| A093 | My Hero Academia  - Boku no Hero Academia - Soundtrack.pdf | 5 | 已有逐谱案例 | [READING_016.md](READING_016.md) |
 | A094 | My Soul, Your Beats!  - Angel Beats! - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
 | A095 | My War - Attack on Titan Final Season - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
 | A096 | Nagi no Asu kara Medley.pdf | 11 | 待逐谱阅读 | — |
