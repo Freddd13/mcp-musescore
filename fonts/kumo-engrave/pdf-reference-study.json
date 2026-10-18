@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-18",
+  "status": "Local seven-glyph feasibility proof; 0.2 and 0.3 rejected by user",
+  "originals": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Sincerely - Violet Evergarden Opening Theme.pdf",
+      "sha256": "e9dc32eddcd18df30310564566f0512725e64924c02c04ea6c20ad30d976b990",
+      "music_font_names": [
+        "/CMJEMF+Chaconne"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Idol - Oshi no Ko - Opening Theme.pdf",
+      "sha256": "e4aab892d6d3838c923a8c393171b3ea254d1bbbc845f19435f720bce5fce122",
+      "music_font_names": [
+        "/JMLNEF+Chaconne"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\IRIS OUT - Chainsaw Man_ Reze Arc - OP.pdf",
+      "sha256": "5a2f42b9a95344c2d9a3d5796a148066df482283a699d53d9a54e17b40fef335",
+      "music_font_names": [
+        "/DGNPBP+Chaconne"
+      ]
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Shirushi - Sword Art Online II - 3rd Ending Theme.pdf",
+      "sha256": "98bb55f1be005890c955cdfa7bd9bcec2384ddb82017d86bd7492cad1176bd33",
+      "music_font_names": [
+        "/JDGEKN+Chaconne"
+      ]
+    }
+  ],
+  "source_unchanged": true,
+  "no_font_program_extracted": true,
+  "no_original_pdf_saved": true,
+  "source_glyphs": [
+    "noteheadBlack",
+    "noteheadHalf",
+    "noteheadWhole",
+    "gClef",
+    "fClef",
+    "restQuarter",
+    "rest8th"
+  ],
+  "capture_scale": 128,
+  "measured_staff_space_pt": 4.248,
+  "source_staff_space_caveat": "Some staff line deltas are 4.266pt; calibration is local to this source, not global.",
+  "capture_repeated_identically": true,
+  "font_sha256": "5f8ac3f37a0be0aef7fe99a372924e7ce1bf592edb647c2d7f6e3c964b5e2770",
+  "font_metadata_sha256": "cc8981573ee818b2e1aab9cbf32f40a325c1710b113b72de447901774ee6d699",
+  "source_based_bbox_and_trial_metrics": {
+    "noteheadBlack": {
+      "advance": 308,
+      "bounds_sp": [
+        0.0,
+        -0.55447452,
+        1.2303584,
+        0.55634236
+      ],
+      "anchors": {
+        "cutOutNE": [
+          1.021197472,
+          0.51988212
+        ],
+        "cutOutNW": [
+          0.20916092800000005,
+          0.28631632
+        ],
+        "cutOutSE": [
+          1.021197472,
+          -0.28444848
+        ],
+        "cutOutSW": [
+          0.20916092800000005,
+          -0.5198533999999999
+        ],
+        "stemDownNW": [
+          0.0,
+          -0.12394155999999998
+        ],
+        "stemUpSE": [
+          1.2303584,
+          0.12305073999999999
+        ]
+      }
+    },
+    "noteheadHalf": {
+      "advance": 312,
+      "bounds_sp": [
+        0.0,
+        -0.5350202799999999,
+        1.24691032,
+        0.53717548
+      ],
+      "anchors": {
+        "cutOutNE": [
+          1.0349355656,
+          0.5062325599999999
+        ],
+        "cutOutNW": [
+          0.2119747544,
+          0.26163216
+        ],
+        "cutOutSE": [
+          1.0349355656,
+          -0.25947696
+        ],
+        "cutOutSW": [
+          0.2119747544,
+          -0.50591644
+        ],
+        "stemDownNW": [
+          0.0,
+          -0.13391293999999998
+        ],
+        "stemUpSE": [
+          1.24691032,
+          0.13330946
+        ]
+      }
+    },
+    "noteheadWhole": {
+      "advance": 420,
+      "bounds_sp": [
+        0.0,
+        -0.5155804,
+        1.679099,
+        0.5179942399999999
+      ],
+      "anchors": {
+        "cutOutNE": [
+          1.3936521699999997,
+          0.39325716
+        ],
+        "cutOutNW": [
+          0.28544683000000004,
+          0.39325716
+        ],
+        "cutOutSE": [
+          1.3936521699999997,
+          -0.39452156000000005
+        ],
+        "cutOutSW": [
+          0.28544683000000004,
+          -0.39452156000000005
+        ]
+      }
+    },
+    "gClef": {
+      "advance": 628,
+      "bounds_sp": [
+        -0.00800028,
+        -2.6099138400000004,
+        2.5115677599999997,
+        4.20763264
+      ],
+      "anchors": {
+        "cutOutNE": [
+          2.152,
+          0.844
+        ],
+        "cutOutNW": [
+          1.072,
+          2.152
+        ],
+        "cutOutSE": [
+          2.0,
+          -0.94
+        ],
+        "cutOutSW": [
+          0.488,
+          -0.7
+        ]
+      }
+    },
+    "fClef": {
+      "advance": 685,
+      "bounds_sp": [
+        -0.14400032,
+        -2.3083588,
+        2.73603144,
+        1.00937896
+      ],
+      "anchors": {
+        "cutOutNE": [
+          1.832,
+          0.7
+        ],
+        "cutOutNW": [
+          0.424,
+          0.8
+        ],
+        "cutOutSE": [
+          1.72,
+          -1.2
+        ]
+      }
+    },
+    "restQuarter": {
+      "advance": 273,
+      "bounds_sp": [
+        0.0,
+        -1.3295118,
+        1.08874764,
+        1.78408576
+      ],
+      "anchors": {}
+    },
+    "rest8th": {
+      "advance": 281,
+      "bounds_sp": [
+        0.0,
+        -1.01063976,
+        1.12369056,
+        0.7769661999999999
+      ],
+      "anchors": {}
+    }
+  },
+  "native_probe": {
+    "symbol": "Kumo PDF Study",
+    "text": "Leland Text",
+    "pages": 1,
+    "symbolRegistered": true,
+    "textRegistered": true
+  },
+  "native_host": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\msvc.install_piano_0_21_x64\\bin\\MuseScore3Evo.exe",
+  "native_style_only_copy": true,
+  "local_artifacts": "E:\\programming\\funcodes\\mcp-musescore\\fonts\\kumo-engrave\\dist\\actual-pdf-review",
+  "public_font_profile": false,
+  "complete_font": false,
+  "aesthetic_approval": false,
+  "limitations": [
+    "Raster boundary approximation, not original curves/hinting/kerning",
+    "Trial advances derived from visible bounds, not the original metrics",
+    "Only common head attachment and hole tests; other glyph anchors retain baseline placeholders"
+  ]
+}
