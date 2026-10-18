@@ -82,6 +82,7 @@ EMPTY = {'0003','0020'}
 LIGATURES=[
  ('dynamicSforzatoFF',['dynamicSforzando','dynamicForte','dynamicForte','dynamicZ']),
  ('dynamicSforzato',['dynamicSforzando','dynamicForte','dynamicZ']),
+ ('dynamicSforzando1',['dynamicSforzando','dynamicForte']),
  ('dynamicPPP',['dynamicPiano']*3),('dynamicFFF',['dynamicForte']*3),
  ('dynamicPP',['dynamicPiano']*2),('dynamicFF',['dynamicForte']*2),
  ('dynamicMP',['dynamicMezzo','dynamicPiano']),('dynamicMF',['dynamicMezzo','dynamicForte']),

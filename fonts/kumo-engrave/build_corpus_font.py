@@ -14,6 +14,21 @@ from source.contours import vertical_edges,inside,area
 from source.pdf_symbol_map import LIGATURES
 
 
+def ink_intervals(loops,x):
+    """Filled intervals at x, including separated arms and contour holes."""
+    hits=[]
+    for points in loops:
+        for a,b in zip(points,points[1:]+points[:1]):
+            if min(a[0],b[0])<=x<max(a[0],b[0]):
+                hits.append(a[1]+(b[1]-a[1])*(x-a[0])/(b[0]-a[0]))
+    hits=sorted(set(hits));result=[]
+    for low,high in zip(hits,hits[1:]):
+        if high-low>1e-7 and sum(inside(v,(x,(low+high)/2)) for v in loops)%2:
+            result.append((low,high))
+    assert result,('No filled interval',x)
+    return result
+
+
 def add_ligatures(font,rules):
     """Append simple ligature lookups while preserving baseline GSUB features."""
     baseline=copy.deepcopy(font['GSUB']) if 'GSUB' in font else None
@@ -60,7 +75,8 @@ def add_ligatures(font,rules):
 def write_font(base_path,out,family,data,sm,control=False,text=False):
     out.mkdir(parents=True,exist_ok=False)
     font=TTFont(base_path,recalcTimestamp=False);original_order=list(font.getGlyphOrder());cmap=dict(font.getBestCmap())
-    rename(font,family,'0.410',' Local unpublished user-PDF shape study; not the Chaconne font program.')
+    version=data.get('version','0.410')
+    rename(font,family,version,' Local unpublished user-PDF shape study; not the Chaconne font program.')
     font['name'].setName('Leland baseline retains OFL. Reference-derived portions are local study material; no redistribution license is granted for them.',13,3,1,0x409)
     top=font['CFF '].cff.topDictIndex[0]
     meta=copy.deepcopy(json.loads((ROOT/'vendor/leland/leland_metadata.json').read_text(encoding='utf-8'))) if not text else dict(glyphBBoxes={},glyphsWithAnchors={})
@@ -68,6 +84,8 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
     if not control:
         for symbol,item in data['glyphs'].items():
             cp=item['codepoint'];glyph=cmap.get(cp);loops=item['outlines'];box=item['bounds'];advance=item['advance']
+            standard=symbol in sm
+            if not standard:assert glyph is None,('Custom Unicode collides with baseline',symbol,cp)
             if glyph is None:
                 glyph='uni%04X'%cp
                 assert glyph not in font.getGlyphOrder()
@@ -87,8 +105,14 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
                 pen.closePath()
             top.CharStrings[glyph]=pen.getCharString(private=top.Private,globalSubrs=top.GlobalSubrs)
             font['hmtx'].metrics[glyph]=(advance,int(math.floor(box[0])))
-            meta['glyphBBoxes'][symbol]=dict(bBoxSW=[v/250 for v in box[:2]],bBoxNE=[v/250 for v in box[2:]])
-            anchors=meta['glyphsWithAnchors'].setdefault(symbol,{})
+            if standard:
+                meta['glyphBBoxes'][symbol]=dict(bBoxSW=[v/250 for v in box[:2]],bBoxNE=[v/250 for v in box[2:]])
+                anchors=meta['glyphsWithAnchors'].setdefault(symbol,{})
+            else:
+                # These are explicit Unicode Text extras, not unknown SMuFL
+                # names for the host to resolve as noSym.
+                meta.setdefault('kumoUnicodeExtras',{})[symbol]=dict(codepoint=cp,bounds_sp=[v/250 for v in box],usage=item['usage'])
+                anchors={}
             # Conservative cutouts bound the new ink; old Leland cutout gaps
             # cannot be assumed to survive a different outline.
             for key in list(anchors):
@@ -105,10 +129,20 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
                         x=min(max(point[0]*250,box[0]+2),box[2]-2);lo,hi=vertical_edges(loops[0],x)
                         anchors[key]=[x/250,(hi if 'Up' in key else lo)/250]
                 if len(loops)>1:assert area(loops[0])*area(loops[1])<0
+            if symbol=='noteheadXBlack':
+                for key,x,side,which in [('stemDownNW',box[0]+2,box[0],-1),('stemUpSE',box[2]-2,box[2],0)]:
+                    low,high=ink_intervals(loops,x)[which];y=(low+high)/2
+                    assert sum(inside(v,(x,y)) for v in loops)%2
+                    anchors[key]=[side/250,y/250]
+                for key,point in list(anchors.items()):
+                    if key.startswith('splitStem'):
+                        x=min(max(point[0]*250,box[0]+2),box[2]-2)
+                        low,high=ink_intervals(loops,x)[0 if 'Up' in key else -1]
+                        anchors[key]=[x/250,(low+high)/500]
             if symbol.startswith('flag'):
                 anchors['stemUpNW' if symbol.endswith('Up') else 'stemDownSW']=[0,0]
             if item['repeat']:anchors['repeatOffset']=[item['repeat']/250,0]
-            report['changed'][symbol]=dict(codepoint=cp,glyph=glyph,advance=advance,bounds_sp=[v/250 for v in box],anchors=anchors)
+            report['changed'][symbol]=dict(codepoint=cp,glyph=glyph,advance=advance,bounds_sp=[v/250 for v in box],anchors=anchors,smufl=standard)
         # MuseScore 3 composes dynamics from letter symbols. Default OpenType
         # liga selects the observed complete forms without changing score XML.
         rules=[]
@@ -118,7 +152,7 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
                 rules.append('sub %s by %s;'%(' '.join(cmap[c] for c in codes[1:]),cmap[codes[0]]))
                 report['ligatures'].append(dict(target=target,components=components))
         if rules:add_ligatures(font,rules)
-    meta.update(fontName=family,fontVersion=.410)
+    meta.update(fontName=family,fontVersion=float(version))
     path=out/(family+'.otf');font.save(path);font.close()
     (out/(family+'.json')).write_text(json.dumps(meta,indent=2)+'\n',encoding='utf-8')
     (out/'SOURCE.txt').write_text('LOCAL STUDY, NOT A PUBLIC FONT RELEASE.\nLeland baseline plus raster-derived user-PDF shapes.\nNo source font program recovered. Capture provenance remains in capture.json.\n',encoding='utf-8')

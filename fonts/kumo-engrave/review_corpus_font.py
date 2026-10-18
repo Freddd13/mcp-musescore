@@ -24,9 +24,9 @@ def run(args):
         for y in np.flatnonzero(ink):
             if not runs or y-runs[-1][-1]>12:runs.append([int(y)])
             else:runs[-1].append(int(y))
-        assert len(runs)>=9,'Native dynamics page is empty or missing rows'
+        assert len(runs)>=len(LIGATURES),'Native dynamics page is empty or missing rows'
         rows=[]
-        for (target,parts),run in zip(LIGATURES,runs[:9]):
+        for (target,parts),run in zip(LIGATURES,runs[:len(LIGATURES)]):
             y0,y1=run[0]-3,run[-1]+4
             a=image.crop((int(10*scale),y0,int(60*scale),y1))
             b=image.crop((int(90*scale),y0,int(140*scale),y1))

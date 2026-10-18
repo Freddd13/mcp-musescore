@@ -49,6 +49,11 @@ MuseScore {
         report['proofs'][label]=status
     if not args.text_only:
         for variant in ('Control','Study'):proof('palette-'+variant.lower(),data,'Kumo Score '+variant)
+        from source.extension_fixture import integration_score
+        extra=integration_score(data)
+        for variant in ('Control','Study'):
+            source=extra.replace(b'Kumo Score Study Text',('Kumo Score '+variant+' Text').encode())
+            proof('integration-'+variant.lower(),source,'Kumo Score '+variant)
     def text_score():
         tree=ET.fromstring(data);score=tree.find('Score')
         for staff in score.findall('Staff'):
@@ -70,7 +75,9 @@ MuseScore {
         for i,name in enumerate(names[block:block+25]):
             text=ET.SubElement(frame,'Text');ET.SubElement(text,'style').text='Frame'
             ET.SubElement(text,'offset',x=str(i%5*52),y=str(i//5*40))
-            text.append(ET.fromstring('<text><font size="9"/>'+name+'\n<font size="28"/><sym>'+name+'</sym></text>'))
+            item=build['fonts']['Kumo Score Study']['changed'][name]
+            body=('<sym>'+name+'</sym>') if item.get('smufl',True) else '<font face="Kumo Score Study Text"/>'+chr(item['codepoint'])
+            text.append(ET.fromstring('<text><font size="9"/>'+name+'\n<font size="28"/>'+body+'</text>'))
         proof('atlas-%02d'%(block//25+1),ET.tostring(tree),'Kumo Score Study')
     # Native GSUB comparison rows; left uses ordinary composed dynamics,
     # right the observed single-glyph equivalent. Same type size and family.

@@ -1,0 +1,19 @@
+{
+  "version": "0.420",
+  "glyphs": [
+    {"symbol": "dynamicSforzando1", "catalog": "cid", "key": "CIDFont+F1:U+F053", "mode": "raw"},
+    {"symbol": "ottavaAlta", "catalog": "cid", "key": "CIDFont+F1:U+F0C3", "mode": "raw"},
+    {"symbol": "ottava", "pending": "H157", "character": "â", "mode": "bottom_zero", "calibration": "staff"},
+    {"symbol": "noteheadParenthesisLeft", "pending": "H269", "character": "(", "mode": "center_y", "calibration": "staff"},
+    {"symbol": "noteheadParenthesisRight", "pending": "H269", "character": ")", "mode": "center_y", "calibration": "staff"},
+    {"symbol": "timeSigEquals", "catalog": "chaconne", "key": "Chaconne:U+00BB", "mode": "center_y"},
+    {"symbol": "kumoTempoApproxEquals", "codepoint": "2252", "catalog": "cid", "key": "CIDFont+F1:U+00DA", "mode": "center_y"},
+    {"symbol": "kumoSwingEighths", "codepoint": "F700", "catalog": "chaconne", "key": "Chaconne:U+00B8", "mode": "met_baseline"},
+    {"symbol": "kumoSwingDotted8Sixteenth", "codepoint": "F701", "catalog": "chaconne", "key": "Chaconne:U+00B7", "mode": "met_baseline"},
+    {"symbol": "kumoSwingTripletQuarterEighth", "codepoint": "F702", "catalog": "chaconne", "key": "Chaconne:U+02DB", "mode": "met_baseline"},
+    {"symbol": "kumoSwingSixteenths", "codepoint": "F703", "pending": "H005", "segment": "first_two", "mode": "met_baseline"},
+    {"symbol": "kumoSwingTripletEighthSixteenth", "codepoint": "F704", "pending": "H005", "segment": "after_equals", "mode": "met_baseline"},
+    {"symbol": "kumoFlag8thDownShort", "codepoint": "F706", "catalog": "chaconne", "key": "Chaconne:U+00D4", "mode": "flag_down", "usage": "alternative-only; not selected automatically for score-note flags"}
+  ],
+  "derived": ["restWholeLegerLine", "restHalfLegerLine"]
+}
