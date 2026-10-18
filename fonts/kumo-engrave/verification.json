@@ -1,217 +1,96 @@
 {
-  "date": "2026-10-10",
-  "fixed_report": "fonts\\kumo-engrave\\dist\\proofs-v02-final\\native-report.json",
-  "paired_report": "fonts\\kumo-engrave\\dist\\proofs-v02-final-text\\native-report.json",
-  "text_comparison": {
-    "fixture-leland-control-1.png": {
-      "fixed_vs_paired_pixel_identical": true,
-      "difference_bbox": null
-    },
-    "user-leland-control-1.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        874,
-        340,
-        913,
-        366
-      ]
-    },
-    "user-leland-control-2.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        167,
-        442,
-        1393,
-        839
-      ]
-    },
-    "user-leland-control-3.png": {
-      "fixed_vs_paired_pixel_identical": true,
-      "difference_bbox": null
-    },
-    "user-leland-control-4.png": {
-      "fixed_vs_paired_pixel_identical": true,
-      "difference_bbox": null
-    },
-    "user-leland-control-5.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        79,
-        107,
-        1397,
-        1949
-      ]
-    },
-    "user-leland-control-6.png": {
-      "fixed_vs_paired_pixel_identical": true,
-      "difference_bbox": null
-    },
-    "user-leland-control-7.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        619,
-        1126,
-        749,
-        1168
-      ]
-    },
-    "user-leland-control-8.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        79,
-        453,
-        1397,
-        1849
-      ]
-    },
-    "user-leland-control-9.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        217,
-        559,
-        733,
-        578
-      ]
-    },
-    "fixture-piano-1.png": {
-      "fixed_vs_paired_pixel_identical": true,
-      "difference_bbox": null
-    },
-    "user-piano-1.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        870,
-        340,
-        908,
-        365
-      ]
-    },
-    "user-piano-2.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        165,
-        441,
-        1393,
-        839
-      ]
-    },
-    "user-piano-3.png": {
-      "fixed_vs_paired_pixel_identical": true,
-      "difference_bbox": null
-    },
-    "user-piano-4.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        696,
-        1568,
-        1368,
-        1587
-      ]
-    },
-    "user-piano-5.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        80,
-        382,
-        1396,
-        1950
-      ]
-    },
-    "user-piano-6.png": {
-      "fixed_vs_paired_pixel_identical": true,
-      "difference_bbox": null
-    },
-    "user-piano-7.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        614,
-        413,
-        742,
-        455
-      ]
-    },
-    "user-piano-8.png": {
-      "fixed_vs_paired_pixel_identical": false,
-      "difference_bbox": [
-        79,
-        483,
-        1397,
-        1645
-      ]
-    }
-  },
-  "recommended_text": "Leland Text",
+  "host": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\msvc.install_piano_0_21_x64\\bin\\MuseScore3Evo.exe",
+  "host_sha256": "7581cb761217c5c2ef6fc802cf7aafbbe8fe1133c8553967b07e22cc3e74f034",
+  "text": "Leland Text",
+  "native_report": "E:\\programming\\funcodes\\mcp-musescore\\fonts\\kumo-engrave\\dist\\proofs-v03-final-r3\\native-report.json",
   "originals": {
-    "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz": "27d54e408f37f457006c53ee44a457c9afcdc28776ee16b0012c2691eb5ee726",
-    "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
   },
-  "originals_unchanged": true,
-  "font_bytes_match_proofs": true,
-  "physical_print_test": false,
+  "registration_and_style_only_copies": true,
+  "fonts_match_native_proofs": true,
+  "physical_print": false,
   "aesthetic_approval": false,
+  "control_pixel_identical": true,
+  "originals_unchanged_during_run": true,
+  "reference": {
+    "path": "C:\\Users\\Fred\\.codex\\visualizations\\2026\\10\\09\\01a11ecb-ed01-7723-ae9b-12c5ea10a97d\\official-ex-reference\\official-character-map-complete.pdf",
+    "sha256": "5d06d92e1c0f24def54774c7c0711d5b3f460e0250de18568c0b331a76393959",
+    "pages": [
+      9,
+      25
+    ],
+    "raster_only": true
+  },
+  "date": "2026-10-18",
+  "release": "0.3.0",
   "font_validation": {
     "control": {
       "music_glyphs": 2745,
       "text_glyphs": 373,
-      "music_sha256": "65606867366d380f992d201433af055f94e567d94cd34d38675e7d0b5ddc2fbc",
-      "text_sha256": "93083b1ae97863d9064dfde635ef9b4de69d1f4fbbd39ddd47ccb2e7878fe908",
+      "music_sha256": "0aab8016e24fb3c6aa6124bcd93a14a56c2f33ae50504647feb860021cef4487",
+      "text_sha256": "fc9b0198921014cd500eb4249f2d07e9e45b67ec6e33211887851469c6f0e955",
       "changed_outlines": [],
       "advances_preserved": true,
+      "declared_advance_changes": {},
       "normal_stem_anchors_preserved": true
     },
     "balanced": {
       "music_glyphs": 2745,
       "text_glyphs": 373,
-      "music_sha256": "e24661504e073a5bc595b6ffd3e7bc6bcda804ddb5ae93e580b87015da61a539",
-      "text_sha256": "c09bb45f1b02142b3db8e751f012839dd8fdcd827ebb669850544b4e73144c3a",
+      "music_sha256": "94c9f92746133fe8c95248f447fc732875e0115b6957695d52f08cc02ea3c618",
+      "text_sha256": "2aeb4bb83a70b52adf580d5ed46165c329a3e30e11291e832c62df1fbac7fd4a",
       "changed_outlines": [
         "uniE0A2",
         "uniE0A3",
         "uniE0A4"
       ],
       "advances_preserved": true,
+      "declared_advance_changes": {},
       "normal_stem_anchors_preserved": true
     },
     "open": {
       "music_glyphs": 2745,
       "text_glyphs": 373,
-      "music_sha256": "285ef58699901166df58db8260cb67ed4ff04f3184583954cafef5d311335841",
-      "text_sha256": "b9bb6a2dd9ab067fab215d034d132f89355284d0f7f74de5180962399aee0f6d",
+      "music_sha256": "385ed804f0670e10694de19a86f49eaa9bc9bc523846477498ba4b85df79a2ab",
+      "text_sha256": "dd18010944cdf7bbb40fd1cbd0f5ceddbd6ac4d2c4e264e2a37872c85dbb2020",
       "changed_outlines": [
         "uniE0A2",
         "uniE0A3",
         "uniE0A4"
       ],
       "advances_preserved": true,
+      "declared_advance_changes": {},
       "normal_stem_anchors_preserved": true
     },
     "jp": {
       "music_glyphs": 2745,
       "text_glyphs": 373,
-      "music_sha256": "51d94f4ff7191dea4893309c8073a7d04a5636cda5d129a62d7562ae7e276003",
-      "text_sha256": "6dbd16bd1b840a55f2a41532ebe723efb9cc48f14869bb091110d16d51626dab",
+      "music_sha256": "9475eea0e4ae4692a2f57a08bf6fdfa6ec270fe67496d5503732c01885284800",
+      "text_sha256": "52d33c8fb714ca8e475bc67368e0df3beaa866a2ad7428e51561e5ae027c4ba8",
       "changed_outlines": [
         "uniE0A2",
         "uniE0A3",
         "uniE0A4"
       ],
       "advances_preserved": true,
+      "declared_advance_changes": {},
       "normal_stem_anchors_preserved": true
     },
     "leland-control": {
       "music_glyphs": 493,
       "text_glyphs": 182,
-      "music_sha256": "4ec776791743976bb2f58d669c0cd662e2adde7b770c548af0fba84e209e3a02",
-      "text_sha256": "77f26779eb6bacfc695112395cf5df722a18031c93c803d315d0386c65667689",
+      "music_sha256": "4bb6d0e3ecde5af1ae4c8fce4f52a06b4fe56db9bf54ab0424dface2a83a8e2b",
+      "text_sha256": "f8e9795b72e5014306bfed3ed38c8486900325fb060206346b85421b8e583e17",
       "changed_outlines": [],
       "advances_preserved": true,
+      "declared_advance_changes": {},
       "normal_stem_anchors_preserved": true
     },
     "piano": {
       "music_glyphs": 493,
       "text_glyphs": 182,
-      "music_sha256": "b0134a55cda8cca2bdd2a16f883e752602f84e6533e30af84fc4a40fd107d4dd",
-      "text_sha256": "4e19e01fbf9bed26d6a0add1d6ff1368f45ca27d87d45ee0927367195a04b7c3",
+      "music_sha256": "ee55e495ca38355de9bd8c3c6840f4b978efd412548ccbf9bfa0491ad9a2703e",
+      "text_sha256": "80167af8183510af7c31c73eacf2437819ecb63778e10cf9ba35678b8ae363bb",
       "changed_outlines": [
         "gClef",
         "fClef",
@@ -253,65 +132,96 @@
         "wiggleArpeggiatoDownArrow"
       ],
       "advances_preserved": true,
+      "declared_advance_changes": {},
+      "normal_stem_anchors_preserved": true
+    },
+    "ex": {
+      "music_glyphs": 493,
+      "text_glyphs": 182,
+      "music_sha256": "b29b9eaf730937818bc3845b56d77e3def57a6a536ef9607dfe2b4e7d4035315",
+      "text_sha256": "ffd2849a8643acee2b713a54d14f0720a8b099304f342536fe1c6b4af6c0c370",
+      "changed_outlines": [
+        "gClef",
+        "fClef",
+        "noteheadWhole",
+        "noteheadHalf",
+        "noteheadBlack",
+        "augmentationDot",
+        "flag8thUp",
+        "flag8thDown",
+        "flag16thUp",
+        "flag16thDown",
+        "accidentalFlat",
+        "accidentalNatural",
+        "accidentalSharp",
+        "accidentalDoubleSharp",
+        "accidentalDoubleFlat",
+        "articAccentAbove",
+        "articAccentBelow",
+        "articStaccatoAbove",
+        "articStaccatoBelow",
+        "articTenutoAbove",
+        "articTenutoBelow",
+        "articStaccatissimoAbove",
+        "articStaccatissimoBelow",
+        "articMarcatoAbove",
+        "articMarcatoBelow",
+        "fermataAbove",
+        "fermataBelow",
+        "restWhole",
+        "restHalf",
+        "restQuarter",
+        "rest8th",
+        "rest16th",
+        "rest32nd",
+        "rest64th",
+        "wiggleArpeggiatoUp",
+        "wiggleArpeggiatoDown",
+        "wiggleArpeggiatoUpArrow",
+        "wiggleArpeggiatoDownArrow"
+      ],
+      "advances_preserved": false,
+      "declared_advance_changes": {
+        "noteheadWhole": {
+          "before": 373,
+          "after": 438
+        }
+      },
       "normal_stem_anchors_preserved": true
     }
   },
-  "deterministic_files": 64,
-  "bracket_counterfactual": {
-    "intervention": "Only bracket span >4 becomes 4 in copies. Six Staff music subtrees unchanged. Fonts/Text/config otherwise the same as fixed proofs.",
-    "changes": [
-      {
-        "variant": "leland",
-        "before": {
-          "col": "1",
-          "span": "6",
-          "type": "1"
-        }
-      },
-      {
-        "variant": "leland-control",
-        "before": {
-          "col": "1",
-          "span": "6",
-          "type": "1"
-        }
-      }
+  "deterministic_profile_files": 76,
+  "shape_delta": {
+    "changed_from_v02": [
+      "gClef",
+      "fClef",
+      "noteheadWhole",
+      "noteheadHalf",
+      "noteheadBlack",
+      "flag8thUp",
+      "flag8thDown",
+      "flag16thUp",
+      "flag16thDown",
+      "accidentalFlat",
+      "accidentalNatural",
+      "accidentalSharp",
+      "accidentalDoubleFlat",
+      "articTenutoAbove",
+      "articTenutoBelow",
+      "fermataAbove",
+      "fermataBelow",
+      "restQuarter",
+      "rest8th",
+      "rest16th",
+      "rest32nd",
+      "rest64th",
+      "wiggleArpeggiatoUp",
+      "wiggleArpeggiatoDown",
+      "wiggleArpeggiatoUpArrow",
+      "wiggleArpeggiatoDownArrow"
     ],
-    "pages": 8,
-    "comparisons": {
-      "leland-1.png": {
-        "pixel_identical": true,
-        "difference_bbox": null
-      },
-      "leland-2.png": {
-        "pixel_identical": true,
-        "difference_bbox": null
-      },
-      "leland-3.png": {
-        "pixel_identical": true,
-        "difference_bbox": null
-      },
-      "leland-4.png": {
-        "pixel_identical": true,
-        "difference_bbox": null
-      },
-      "leland-5.png": {
-        "pixel_identical": true,
-        "difference_bbox": null
-      },
-      "leland-6.png": {
-        "pixel_identical": true,
-        "difference_bbox": null
-      },
-      "leland-7.png": {
-        "pixel_identical": true,
-        "difference_bbox": null
-      },
-      "leland-8.png": {
-        "pixel_identical": true,
-        "difference_bbox": null
-      }
-    }
+    "count": 26
   },
-  "previous_verification": "verification-0.1.json"
+  "previous_verification": "verification-0.2.json",
+  "input_revision_note": "User MSCZ hash differs from the 2026-10-10 input; both 2026-10-18 renders used the present source and checked it unchanged during this run."
 }

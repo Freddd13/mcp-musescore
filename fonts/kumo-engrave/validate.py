@@ -9,6 +9,7 @@ from fontTools.pens.recordingPen import RecordingPen
 from fontTools.ttLib import TTFont
 
 from build import ROOT, bounds, load_json, profile_design, base_files
+from source.contours import sample_contours, inside, area
 
 
 def record(glyphs, name):
@@ -41,7 +42,18 @@ def validate(output):
             with TTFont(ROOT / "vendor" / base_name) as base, TTFont(folder / (family + ".otf")) as new:
                 assert base.getGlyphOrder() == new.getGlyphOrder(), "Glyph order/coverage changed"
                 assert base.getBestCmap() == new.getBestCmap(), "Unicode coverage changed"
-                assert base["hmtx"].metrics == new["hmtx"].metrics, "Advances/side bearings changed"
+                expected_metrics = dict(base["hmtx"].metrics)
+                advance_changes = {}
+                if not control and not is_text:
+                    for symbol,spec in active_design["glyphs"].items():
+                        if "advance" in spec:
+                            name=base.getBestCmap()[int(spec["codepoint"],16)]
+                            old=expected_metrics[name]
+                            expected_metrics[name]=(spec["advance"],old[1])
+                            advance_changes[symbol]=dict(before=old[0],after=spec["advance"])
+                assert expected_metrics == new["hmtx"].metrics, "Undeclared advance/side-bearing change"
+                if not is_text:
+                    music_advance_changes = advance_changes
                 assert new["head"].unitsPerEm == 1000
                 counts = len(new.getGlyphOrder())
                 if is_text:
@@ -76,6 +88,20 @@ def validate(output):
                         for anchor in ["stemUpSE", "stemDownNW"]:
                             if anchor in source_meta["glyphsWithAnchors"].get(symbol, {}):
                                 assert meta["glyphsWithAnchors"][symbol][anchor] == source_meta["glyphsWithAnchors"][symbol][anchor]
+                        if spec.get("head"):
+                            recording=RecordingPen();after[name].draw(recording)
+                            contours=sample_contours(recording,128)
+                            assert len(contours)==(1 if symbol=='noteheadBlack' else 2)
+                            if len(contours)==2:
+                                assert area(contours[0])*area(contours[1])<0,"Counter winding"
+                                assert all(inside(contours[0],p) for p in contours[1]),"Counter leaves exterior"
+                            for key in ('stemDownNW','stemUpSE'):
+                                point=meta['glyphsWithAnchors'][symbol].get(key)
+                                if point:
+                                    x=point[0]*250+(8 if key=='stemDownNW' else -8)
+                                    y=point[1]*250
+                                    assert inside(contours[0],(x,y)),(symbol,key,'detached stem')
+                                    assert len(contours)==1 or not inside(contours[1],(x,y)),(symbol,key,'stem enters counter')
                         if not control and "counter" in spec:
                             # Analytic hole must remain fully inside the outer ellipse.
                             x0, y0, x1, y1 = spec["outer_box"]
@@ -89,7 +115,8 @@ def validate(output):
                                 assert (x / rx) ** 2 + ((y - spec["outer_shear"] * x) / ry) ** 2 < .98
         result[profile] = {"music_glyphs": music_count, "text_glyphs": text_count,
                            "music_sha256": music_digest, "text_sha256": text_digest,
-                           "changed_outlines": changed, "advances_preserved": True,
+                           "changed_outlines": changed, "advances_preserved": not bool(music_advance_changes),
+                           "declared_advance_changes": music_advance_changes,
                            "normal_stem_anchors_preserved": True}
     # Open is a controlled counter experiment: black glyph and all outer arcs
     # must be byte-for-byte equivalent at the recorded outline level.

@@ -14,15 +14,16 @@ TITLE='## Kumo Piano 字体草案 0.2（2026-10-10）'
 def git(*args):
     return subprocess.check_output([GIT,'-C',str(REPO),*args])
 
-def run(commit):
+def run(commit,appendix=None,title=None):
+    title=title or TITLE
     assert not git('diff','--cached','--name-only').strip(),'Native index contains other work; preserve it'
     old_ref=git('rev-parse','HEAD').strip()
     base=git('show','HEAD:'+PATH)
     working=(REPO/PATH).read_bytes()
-    assert TITLE not in base.decode('utf-8') and TITLE not in working.decode('utf-8'),'Already documented'
+    assert title not in base.decode('utf-8') and title not in working.decode('utf-8'),'Already documented'
     text=f'''
 
-{TITLE}
+{title}
 
 用户改选 Leland 底库，新增独立字体 **Kumo Piano**，以 Animenz 官谱为观察目标，重画38个常用字形（符头、G/F谱号、休止、变音、8/16分旗尾、方向琶音、发音符号和延长号）。其余字形沿用Leland；旧Maestro原型保留。本次是可安装评审的造型草案，未完成审美认可和纸面打印。
 
@@ -34,6 +35,9 @@ def run(commit):
 
 字体独立版本为0.2.0，源码提交 `Freddd13/mcp-musescore@{commit}`（`codex/musescore-evolution`）。本次只更新本体仓库用户说明，不改原生代码、个人软件版本或字体引擎。
 '''
+    if appendix:
+        text=appendix.read_text(encoding='utf-8').replace('{{FONT_COMMIT}}',commit)
+        assert title in text,'Appendix title mismatch'
     addition=text.encode('utf-8')
     desired=base+addition
     patch=''.join(difflib.unified_diff(base.decode('utf-8').splitlines(True),desired.decode('utf-8').splitlines(True),fromfile='a/'+PATH,tofile='b/'+PATH))
@@ -46,4 +50,6 @@ def run(commit):
     assert git('diff','--cached','--name-only').decode().strip()==PATH
     print('Staged only the font appendix; all previous guide edits retained.')
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('font_commit');run(p.parse_args().font_commit)
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('font_commit')
+    p.add_argument('--appendix',type=Path);p.add_argument('--title')
+    a=p.parse_args();run(a.font_commit,a.appendix,a.title)

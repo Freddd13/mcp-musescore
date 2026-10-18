@@ -19,6 +19,8 @@ from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.t2CharStringPen import T2CharStringPen
 from fontTools.ttLib import TTFont
 from source.piano_palette import draw as draw_palette, specs as palette_specs
+from source.ex_palette import draw as draw_ex, specs as ex_specs
+from source.contours import sample_contours, vertical_edges
 
 ROOT = Path(__file__).resolve().parent
 KAPPA = 4 * (math.sqrt(2) - 1) / 3
@@ -35,7 +37,9 @@ def write_json(path, value):
 def profile_design(design, profile):
     resolved = copy.deepcopy(design)
     resolved["glyphs"].update(design["profiles"][profile].get("glyph_overrides", {}))
-    if design["profiles"][profile].get("palette"):
+    if design["profiles"][profile].get("palette") == "ex":
+        resolved["glyphs"].update(ex_specs())
+    elif design["profiles"][profile].get("palette"):
         resolved["glyphs"].update(palette_specs())
     return resolved
 
@@ -115,11 +119,16 @@ def make_font(base_path, output_path, family, design, profile):
         cmap = font.getBestCmap()
         for symbol, spec in design["glyphs"].items():
             name = cmap[int(spec["codepoint"], 16)]
-            advance = font["hmtx"].metrics[name][0]
+            advance, bearing = font["hmtx"].metrics[name]
+            advance = spec.get("advance", advance)
+            font["hmtx"].metrics[name] = (advance, bearing)
             # Type 2 encodes width relative to nominalWidthX, not absolute hmtx width.
             width_delta = advance - getattr(top.Private, "nominalWidthX", 0)
             pen = T2CharStringPen(width_delta, font.getGlyphSet())
-            drawing = draw_palette(spec, advance) if "drawing" in spec else outline(spec, design["profiles"][profile]["counter_scale"])
+            if "ex_drawing" in spec:
+                drawing = draw_ex(spec, advance)
+            else:
+                drawing = draw_palette(spec, advance) if "drawing" in spec else outline(spec, design["profiles"][profile]["counter_scale"])
             drawing.replay(pen)
             top.CharStrings[name] = pen.getCharString(private=top.Private, globalSubrs=top.GlobalSubrs)
             changed.append((symbol, name))
@@ -137,6 +146,21 @@ def update_head_metadata(meta, font_path, changed, design):
             meta["glyphBBoxes"][symbol] = {"bBoxNE": [round(x1 / unit, 6), round(y1 / unit, 6)],
                                          "bBoxSW": [round(x0 / unit, 6), round(y0 / unit, 6)]}
             spec = design["glyphs"][symbol]
+            if spec.get("head"):
+                recording = RecordingPen()
+                glyphs[name].draw(recording)
+                outer = sample_contours(recording)[0]
+                anchors = meta["glyphsWithAnchors"].setdefault(symbol, {})
+                for corner,fraction,upper in [("cutOutNW",.17,True),("cutOutSE",.83,False),
+                                               ("cutOutNE",.83,True),("cutOutSW",.17,False)]:
+                    x=x0+fraction*(x1-x0)
+                    lo,hi=vertical_edges(outer,x)
+                    anchors[corner]=[round(x/unit,6),round(((hi+1) if upper else (lo-1))/unit,6)]
+                for key,point in list(anchors.items()):
+                    if key.startswith("splitStem"):
+                        lo,hi=vertical_edges(outer,point[0]*unit)
+                        anchors[key]=[point[0],round((hi if "Up" in key else lo)/unit,6)]
+                continue
             if "outer_box" not in spec:
                 # These drawings preserve origin and advances. Repetition uses
                 # original repeatOffset; flags meet the original stem origin.
@@ -233,9 +257,9 @@ def build(output):
                 encoding="utf-8")
             if config.get("baseline") == "leland":
                 (directory / "FONTLOG.txt").write_bytes((ROOT / "vendor/leland/FONTLOG.txt").read_bytes()
-                    + (f"\n2026-10-09 Freddd13: renamed to {name}, version {design['version']}.\n"
+                    + (f"\n{design.get('release_date','2026-10-09')} Freddd13: renamed to {name}, version {design['version']}.\n"
                        f"Independent replacement outlines: {', '.join(s for s,n in changed) or 'none'}.\n"
-                       "Original coverage and hmtx preserved; music BBoxes/cutouts updated; Text outlines unchanged.\n").encode('utf-8'))
+                       "Original coverage preserved; declared advance overrides applied; music BBoxes/cutouts updated; Text outlines unchanged.\n").encode('utf-8'))
             if not is_text:
                 draw_svg(font_path, pack / "noteheads.svg")
                 draw_svg(font_path, pack / "palette.svg", profile_design(design, "piano")["glyphs"])
@@ -261,7 +285,7 @@ def package(output):
     for name in ["build-report.json", "validation.json"]:
         if (output / name).exists():
             files.append((output / name, name))
-    for name in ["README.md", "VERIFICATION.md", "CHANGELOG.md", "DESIGN_BRIEF.md", "ANIMENZ_REFERENCE.md", "verification.json", "verification-0.1.json"]:
+    for name in ["README.md", "VERIFICATION.md", "CHANGELOG.md", "DESIGN_BRIEF.md", "EX_REDRAW.md", "ANIMENZ_REFERENCE.md", "verification.json", "verification-0.1.json", "verification-0.2.json"]:
         if (ROOT / name).exists():
             files.append((ROOT / name, name))
     with zipfile.ZipFile(output / ("kumo-engrave-" + design.get("release_version","0.1.0") + "-prototypes.zip"), "w", zipfile.ZIP_DEFLATED) as archive:

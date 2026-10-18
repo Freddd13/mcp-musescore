@@ -1,0 +1,317 @@
+{
+  "date": "2026-10-10",
+  "fixed_report": "fonts\\kumo-engrave\\dist\\proofs-v02-final\\native-report.json",
+  "paired_report": "fonts\\kumo-engrave\\dist\\proofs-v02-final-text\\native-report.json",
+  "text_comparison": {
+    "fixture-leland-control-1.png": {
+      "fixed_vs_paired_pixel_identical": true,
+      "difference_bbox": null
+    },
+    "user-leland-control-1.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        874,
+        340,
+        913,
+        366
+      ]
+    },
+    "user-leland-control-2.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        167,
+        442,
+        1393,
+        839
+      ]
+    },
+    "user-leland-control-3.png": {
+      "fixed_vs_paired_pixel_identical": true,
+      "difference_bbox": null
+    },
+    "user-leland-control-4.png": {
+      "fixed_vs_paired_pixel_identical": true,
+      "difference_bbox": null
+    },
+    "user-leland-control-5.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        79,
+        107,
+        1397,
+        1949
+      ]
+    },
+    "user-leland-control-6.png": {
+      "fixed_vs_paired_pixel_identical": true,
+      "difference_bbox": null
+    },
+    "user-leland-control-7.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        619,
+        1126,
+        749,
+        1168
+      ]
+    },
+    "user-leland-control-8.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        79,
+        453,
+        1397,
+        1849
+      ]
+    },
+    "user-leland-control-9.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        217,
+        559,
+        733,
+        578
+      ]
+    },
+    "fixture-piano-1.png": {
+      "fixed_vs_paired_pixel_identical": true,
+      "difference_bbox": null
+    },
+    "user-piano-1.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        870,
+        340,
+        908,
+        365
+      ]
+    },
+    "user-piano-2.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        165,
+        441,
+        1393,
+        839
+      ]
+    },
+    "user-piano-3.png": {
+      "fixed_vs_paired_pixel_identical": true,
+      "difference_bbox": null
+    },
+    "user-piano-4.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        696,
+        1568,
+        1368,
+        1587
+      ]
+    },
+    "user-piano-5.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        80,
+        382,
+        1396,
+        1950
+      ]
+    },
+    "user-piano-6.png": {
+      "fixed_vs_paired_pixel_identical": true,
+      "difference_bbox": null
+    },
+    "user-piano-7.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        614,
+        413,
+        742,
+        455
+      ]
+    },
+    "user-piano-8.png": {
+      "fixed_vs_paired_pixel_identical": false,
+      "difference_bbox": [
+        79,
+        483,
+        1397,
+        1645
+      ]
+    }
+  },
+  "recommended_text": "Leland Text",
+  "originals": {
+    "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz": "27d54e408f37f457006c53ee44a457c9afcdc28776ee16b0012c2691eb5ee726",
+    "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+  },
+  "originals_unchanged": true,
+  "font_bytes_match_proofs": true,
+  "physical_print_test": false,
+  "aesthetic_approval": false,
+  "font_validation": {
+    "control": {
+      "music_glyphs": 2745,
+      "text_glyphs": 373,
+      "music_sha256": "65606867366d380f992d201433af055f94e567d94cd34d38675e7d0b5ddc2fbc",
+      "text_sha256": "93083b1ae97863d9064dfde635ef9b4de69d1f4fbbd39ddd47ccb2e7878fe908",
+      "changed_outlines": [],
+      "advances_preserved": true,
+      "normal_stem_anchors_preserved": true
+    },
+    "balanced": {
+      "music_glyphs": 2745,
+      "text_glyphs": 373,
+      "music_sha256": "e24661504e073a5bc595b6ffd3e7bc6bcda804ddb5ae93e580b87015da61a539",
+      "text_sha256": "c09bb45f1b02142b3db8e751f012839dd8fdcd827ebb669850544b4e73144c3a",
+      "changed_outlines": [
+        "uniE0A2",
+        "uniE0A3",
+        "uniE0A4"
+      ],
+      "advances_preserved": true,
+      "normal_stem_anchors_preserved": true
+    },
+    "open": {
+      "music_glyphs": 2745,
+      "text_glyphs": 373,
+      "music_sha256": "285ef58699901166df58db8260cb67ed4ff04f3184583954cafef5d311335841",
+      "text_sha256": "b9bb6a2dd9ab067fab215d034d132f89355284d0f7f74de5180962399aee0f6d",
+      "changed_outlines": [
+        "uniE0A2",
+        "uniE0A3",
+        "uniE0A4"
+      ],
+      "advances_preserved": true,
+      "normal_stem_anchors_preserved": true
+    },
+    "jp": {
+      "music_glyphs": 2745,
+      "text_glyphs": 373,
+      "music_sha256": "51d94f4ff7191dea4893309c8073a7d04a5636cda5d129a62d7562ae7e276003",
+      "text_sha256": "6dbd16bd1b840a55f2a41532ebe723efb9cc48f14869bb091110d16d51626dab",
+      "changed_outlines": [
+        "uniE0A2",
+        "uniE0A3",
+        "uniE0A4"
+      ],
+      "advances_preserved": true,
+      "normal_stem_anchors_preserved": true
+    },
+    "leland-control": {
+      "music_glyphs": 493,
+      "text_glyphs": 182,
+      "music_sha256": "4ec776791743976bb2f58d669c0cd662e2adde7b770c548af0fba84e209e3a02",
+      "text_sha256": "77f26779eb6bacfc695112395cf5df722a18031c93c803d315d0386c65667689",
+      "changed_outlines": [],
+      "advances_preserved": true,
+      "normal_stem_anchors_preserved": true
+    },
+    "piano": {
+      "music_glyphs": 493,
+      "text_glyphs": 182,
+      "music_sha256": "b0134a55cda8cca2bdd2a16f883e752602f84e6533e30af84fc4a40fd107d4dd",
+      "text_sha256": "4e19e01fbf9bed26d6a0add1d6ff1368f45ca27d87d45ee0927367195a04b7c3",
+      "changed_outlines": [
+        "gClef",
+        "fClef",
+        "noteheadWhole",
+        "noteheadHalf",
+        "noteheadBlack",
+        "augmentationDot",
+        "flag8thUp",
+        "flag8thDown",
+        "flag16thUp",
+        "flag16thDown",
+        "accidentalFlat",
+        "accidentalNatural",
+        "accidentalSharp",
+        "accidentalDoubleSharp",
+        "accidentalDoubleFlat",
+        "articAccentAbove",
+        "articAccentBelow",
+        "articStaccatoAbove",
+        "articStaccatoBelow",
+        "articTenutoAbove",
+        "articTenutoBelow",
+        "articStaccatissimoAbove",
+        "articStaccatissimoBelow",
+        "articMarcatoAbove",
+        "articMarcatoBelow",
+        "fermataAbove",
+        "fermataBelow",
+        "restWhole",
+        "restHalf",
+        "restQuarter",
+        "rest8th",
+        "rest16th",
+        "rest32nd",
+        "rest64th",
+        "wiggleArpeggiatoUp",
+        "wiggleArpeggiatoDown",
+        "wiggleArpeggiatoUpArrow",
+        "wiggleArpeggiatoDownArrow"
+      ],
+      "advances_preserved": true,
+      "normal_stem_anchors_preserved": true
+    }
+  },
+  "deterministic_files": 64,
+  "bracket_counterfactual": {
+    "intervention": "Only bracket span >4 becomes 4 in copies. Six Staff music subtrees unchanged. Fonts/Text/config otherwise the same as fixed proofs.",
+    "changes": [
+      {
+        "variant": "leland",
+        "before": {
+          "col": "1",
+          "span": "6",
+          "type": "1"
+        }
+      },
+      {
+        "variant": "leland-control",
+        "before": {
+          "col": "1",
+          "span": "6",
+          "type": "1"
+        }
+      }
+    ],
+    "pages": 8,
+    "comparisons": {
+      "leland-1.png": {
+        "pixel_identical": true,
+        "difference_bbox": null
+      },
+      "leland-2.png": {
+        "pixel_identical": true,
+        "difference_bbox": null
+      },
+      "leland-3.png": {
+        "pixel_identical": true,
+        "difference_bbox": null
+      },
+      "leland-4.png": {
+        "pixel_identical": true,
+        "difference_bbox": null
+      },
+      "leland-5.png": {
+        "pixel_identical": true,
+        "difference_bbox": null
+      },
+      "leland-6.png": {
+        "pixel_identical": true,
+        "difference_bbox": null
+      },
+      "leland-7.png": {
+        "pixel_identical": true,
+        "difference_bbox": null
+      },
+      "leland-8.png": {
+        "pixel_identical": true,
+        "difference_bbox": null
+      }
+    }
+  },
+  "previous_verification": "verification-0.1.json"
+}

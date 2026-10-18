@@ -1,5 +1,5 @@
 {
-  "version": "0.200",
+  "version": "0.300",
   "units_per_staff_space": 250,
   "copyright_addition": "Copyright (c) 2026 Freddd13. Independent prototype notehead designs and derivative font packaging.",
   "profiles": {
@@ -120,6 +120,13 @@
         }
       },
       "description": "Leland-based piano palette: independent common heads, clefs, rests, accidentals, arpeggios, flags and dots; Animenz printed references are observational only."
+    },
+    "ex": {
+      "family": "Kumo Piano EX",
+      "baseline": "leland",
+      "palette": "ex",
+      "counter_scale": 1,
+      "description": "Direct Chaconne Ex visual study: rounded slanted heads, substantial clefs/rests and stronger stroke hierarchy. Whole-note advance 373 to 438; normal stemmed-head metrics retained."
     }
   },
   "glyphs": {
@@ -164,5 +171,6 @@
       }
     }
   },
-  "release_version": "0.2.0"
+  "release_version": "0.3.0",
+  "release_date": "2026-10-18"
 }
