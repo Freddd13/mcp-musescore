@@ -57,6 +57,12 @@ def run(args):
                     char=context['char'],source_text=obj.extract(),matrix=obj.get_matrix().get(),font_size=obj.get_font_size(),
                     staff_space_pt=spaces[0]['space_pt'],commands=commands,source_advance=width.value,verification=verification)
         if not verification['passed']:
+            if choice.get('reject_retains_previous'):
+                record['rejected']=True
+                rows.append(record)
+                text.close();page.close();doc.close();assert hashlib.sha256(source.read_bytes()).hexdigest()==sha
+                print(choice['symbol'],'rejected; previous glyph retained',verification,flush=True)
+                continue
             assert choice.get('fallback_raster'),(choice['symbol'],verification)
             # Use only the actual displayed character, never the rejected path.
             unit=250/spaces[0]['space_pt'];loops=trace_pixels(np.asarray(image.getchannel('A'))>127)
@@ -69,7 +75,7 @@ def run(args):
             for index in derived['text_objects']:
                 member=objects[index];character=member.extract().strip();assert len(character)==1
                 member_commands=glyph_commands(member,character)
-                check,*_=compare(doc,page,text,member,character,member_commands,args.output/('flag32ndUp-part%d.png'%index),args.scale)
+                check,*_=compare(doc,page,text,member,character,member_commands,args.output/(derived['symbol']+'-part%d.png'%index),args.scale)
                 assert check['passed'];checks.append(dict(object_index=index,**check))
                 pieces.extend(displayed_commands(member,member_commands,[member.get_matrix().e,member.get_matrix().f]))
             rows.append(dict(choice=derived,source=str(source),source_sha256=sha,page=sample['page'],world_commands=pieces,

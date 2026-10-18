@@ -26,7 +26,7 @@ GLYPHS = [
  ('restWhole','2211 007C','top_zero'),('restHalf','00D3','bottom_zero'),
  ('restQuarter','0152 0090','raw'),('rest8th','2030 00A6','raw'),
  ('rest16th','2248 008A','raw'),('rest32nd','00AE 006D','raw'),
- ('flag8thUp','006A 004B','flag_up'),('flag8thDown','004A 002C','flag_down'),
+ ('flag8thUp','006A','flag_up'),('flag8thDown','004A 002C','flag_down'),
  ('flag16thUp','0072 0053','flag_up'),('flag16thDown','0052','flag_down'),
  ('augmentationDot','02DC 00B9','center_y'),
  ('articStaccatoAbove','002E 0011','bottom_zero'),
@@ -74,7 +74,8 @@ COMPOUNDS = {
  '0131': ['metNote8thUp','engine:dotted8-16-pair'],
  '02DB': ['metNoteQuarterUp','metNote8thUp','engine:triplet-bracket'],
  '00BB': ['text:equals'], '008D': ['text:equals'],
- '00D4': ['variant:short-flag8thDown'],
+ '004B': ['flagInternalUp','engine:flag32ndUp-assembly'],
+ '00D4': ['flagInternalDown','engine:flag32ndDown-assembly'],
 }
 
 EMPTY = {'0003','0020'}

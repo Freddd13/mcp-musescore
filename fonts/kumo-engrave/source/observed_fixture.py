@@ -6,19 +6,19 @@ def observed_score(data):
     tree=E.fromstring(data);score=tree.find('Score');staves=score.findall('Staff')
     for staff in staves:
         for child in list(staff):staff.remove(child)
-    def chord(duration='quarter',stem='up',head='',articulation=''):
+    def chord(duration='quarter',stem='up',head='',articulation='',tenuto=False):
         c=E.Element('Chord');E.SubElement(c,'durationType').text=duration;E.SubElement(c,'StemDirection').text=stem
         E.SubElement(c,'BeamMode').text='no'
         note=E.SubElement(c,'Note');E.SubElement(note,'pitch').text='72';E.SubElement(note,'tpc').text='14'
         if head:E.SubElement(note,'head').text=head
         if articulation:
-            a=E.SubElement(c,'Articulation');E.SubElement(a,'subtype').text='articMarcatoStaccatoAbove'
+            a=E.SubElement(c,'Articulation');E.SubElement(a,'subtype').text='articMarcatoTenutoAbove' if tenuto else 'articMarcatoStaccatoAbove'
             E.SubElement(a,'direction').text='up' if articulation=='above' else 'down'
             E.SubElement(a,'anchor').text='0' if articulation=='above' else '1'
         return c
     labels=['Circle-X / both stems','Marcato-staccato / both placements','Native breath comma',
             'Native 32nd flags / source assembled 16th + internal','Native repeat dots / start and end',
-            'Native single-letter dynamics / m, s, z']
+            'Native single-letter dynamics / m, s, z','Marcato-tenuto / both placements']
     for i,label in enumerate(labels):
         measure=E.SubElement(staves[0],'Measure');v=E.SubElement(measure,'voice')
         E.SubElement(E.SubElement(v,'StaffText'),'text').text=label
@@ -32,7 +32,7 @@ def observed_score(data):
                 d=E.SubElement(v,'Dynamic');E.SubElement(d,'subtype').text='other-dynamics'
                 d.append(E.fromstring('<text><sym>'+['dynamicMezzo','dynamicSforzando','dynamicZ'][k]+'</sym></text>'))
             v.append(chord('32nd' if i==3 else 'quarter','down' if k%2 else 'up','xcircle' if i==0 else '',
-                           ('below' if k%2 else 'above') if i==1 else ''))
+                           ('below' if k%2 else 'above') if i in (1,6) else '',i==6))
             if i==2 and k in (0,2):v.append(E.fromstring('<Breath><symbol>breathMarkComma</symbol></Breath>'))
         if i==3:v.append(E.fromstring('<Rest><durationType>half</durationType><dots>1</dots></Rest>'))
         lv.append(E.fromstring('<Rest><durationType>whole</durationType></Rest>'))
