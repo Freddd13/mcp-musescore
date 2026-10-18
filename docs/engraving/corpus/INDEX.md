@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录105份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录117份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -113,18 +113,18 @@
 | A103 | Pierce the Heavens with your drill! - Tengen Toppa Gurren Lagann - Soundtrack.pdf | 4 | 已有逐谱案例 | [READING_018.md](READING_018.md) |
 | A104 | Resonance - Soul Eater - 1st Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_018.md](READING_018.md) |
 | A105 | Rising Hope - Mahouka Koukou no Rettousei - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_018.md](READING_018.md) |
-| A106 | Sadness and Sorrow - Fantasy on a theme from the soundtrack of Naruto.pdf | 8 | 待逐谱阅读 | — |
-| A107 | Sakayume - Jujutsu Kaisen 0 Movie - Ending Theme.pdf | 8 | 待逐谱阅读 | — |
-| A108 | Sayonara Memories - from the album - Today is a Beautiful Day -.pdf | 9 | 待逐谱阅读 | — |
-| A109 | Secret Base - Anohana The Flower We Saw That Day - Ending Theme.pdf | 6 | 待逐谱阅读 | — |
-| A110 | Shinzou wo Sasageyo! - Attack on Titan Season 2 - Opening Theme.pdf | 10 | 待逐谱阅读 | — |
-| A111 | Shirushi - Sword Art Online II - 3rd Ending Theme.pdf | 5 | 待逐谱阅读 | — |
-| A112 | Silhouette - Naruto Shippuuden - 16th Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A113 | Sincerely - Violet Evergarden Opening Theme.pdf | 9 | 待逐谱阅读 | — |
-| A114 | Sirius - Kill la Kill - Opening Theme.pdf | 8 | 待逐谱阅读 | — |
-| A115 | Snow halation - Love Live! - Soundtrack.pdf | 7 | 待逐谱阅读 | — |
-| A116 | Sparkle - Your Name. - Insert Song.pdf | 7 | 待逐谱阅读 | — |
-| A117 | SPECIALZ - Jujutsu Kaisen S2 - Opening Theme.pdf | 5 | 待逐谱阅读 | — |
+| A106 | Sadness and Sorrow - Fantasy on a theme from the soundtrack of Naruto.pdf | 8 | 已有逐谱案例 | [READING_019.md](READING_019.md) |
+| A107 | Sakayume - Jujutsu Kaisen 0 Movie - Ending Theme.pdf | 8 | 已有逐谱案例 | [READING_019.md](READING_019.md) |
+| A108 | Sayonara Memories - from the album - Today is a Beautiful Day -.pdf | 9 | 已有逐谱案例 | [READING_019.md](READING_019.md) |
+| A109 | Secret Base - Anohana The Flower We Saw That Day - Ending Theme.pdf | 6 | 已有逐谱案例 | [READING_019.md](READING_019.md) |
+| A110 | Shinzou wo Sasageyo! - Attack on Titan Season 2 - Opening Theme.pdf | 10 | 已有逐谱案例 | [READING_019.md](READING_019.md) |
+| A111 | Shirushi - Sword Art Online II - 3rd Ending Theme.pdf | 5 | 已有逐谱案例 | [READING_019.md](READING_019.md) |
+| A112 | Silhouette - Naruto Shippuuden - 16th Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_020.md](READING_020.md) |
+| A113 | Sincerely - Violet Evergarden Opening Theme.pdf | 9 | 已有逐谱案例 | [READING_020.md](READING_020.md) |
+| A114 | Sirius - Kill la Kill - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_020.md](READING_020.md) |
+| A115 | Snow halation - Love Live! - Soundtrack.pdf | 7 | 已有逐谱案例 | [READING_020.md](READING_020.md) |
+| A116 | Sparkle - Your Name. - Insert Song.pdf | 7 | 已有逐谱案例 | [READING_020.md](READING_020.md) |
+| A117 | SPECIALZ - Jujutsu Kaisen S2 - Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_020.md](READING_020.md) |
 | A118 | Studio Ghibli Medley.pdf | 14 | 待逐谱阅读 | — |
 | A119 | STYX HELIX - Re：Zero kara Hajimeru Isekai Seikatsu - Ending Theme.pdf | 8 | 待逐谱阅读 | — |
 | A120 | Sugar Song and Bitter Step - Kekkai Sensen - Ending Theme.pdf | 7 | 待逐谱阅读 | — |
