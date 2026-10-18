@@ -162,7 +162,7 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
     meta.update(fontName=family,fontVersion=float(version))
     path=out/(family+'.otf');font.save(path);font.close()
     (out/(family+'.json')).write_text(json.dumps(meta,indent=2)+'\n',encoding='utf-8')
-    (out/'SOURCE.txt').write_text('LOCAL STUDY, NOT A PUBLIC FONT RELEASE.\nLeland baseline plus raster-derived user-PDF shapes.\nNo source font program recovered. Capture provenance remains in capture.json.\n',encoding='utf-8')
+    (out/'SOURCE.txt').write_text('LOCAL STUDY, NOT A PUBLIC FONT RELEASE.\nLeland baseline plus locally studied PDF-rendered and/or page-path-derived shapes.\nNo source font program recovered. Capture provenance remains in capture.json.\n',encoding='utf-8')
     (out/'Leland-OFL.txt').write_bytes((ROOT/'vendor/leland/LICENSE.txt').read_bytes())
     with TTFont(base_path) as base,TTFont(path) as result:
         assert set(base.getBestCmap()).issubset(result.getBestCmap())

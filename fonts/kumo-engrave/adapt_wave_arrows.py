@@ -9,7 +9,7 @@ from pathlib import Path
 from fontTools.ttLib import TTFont
 from fontTools.pens.recordingPen import RecordingPen
 from fontTools.pens.boundsPen import BoundsPen
-from source.contours import sample_contours,vertical_edges,area
+from source.contours import sample_contours,filled_intervals,area
 
 ROOT=Path(__file__).resolve().parent
 
@@ -33,7 +33,7 @@ def run(args):
     source=copy.deepcopy(data['glyphs']['wiggleArpeggiatoUp']);loops=source['outlines']
     oldmeta=json.loads((ROOT/'vendor/leland/leland_metadata.json').read_text(encoding='utf-8'))
     old=oldmeta['glyphBBoxes']['wiggleArpeggiatoUp'];scale=(source['bounds'][3]-source['bounds'][1])/((old['bBoxNE'][1]-old['bBoxSW'][1])*250)
-    at=source['advance'];low,high=vertical_edges(loops[0],at)
+    at=source['advance'];spans=filled_intervals(loops,at);low,high=spans[0][0],spans[-1][1]
     dx=at-72*scale;dy=(low+high)/2-88*scale
     adapted=[(op,[[round(x*scale+dx,6),round(y*scale+dy,6)] for x,y in points]) for op,points in head.value]
     hp=RecordingPen()
@@ -45,7 +45,7 @@ def run(args):
         from fontTools.pens.reverseContourPen import ReverseContourPen
         reverse=RecordingPen();hp.replay(ReverseContourPen(reverse));hp=reverse
         adapted=[(op,[list(p) for p in points]) for op,points in hp.value];head_loops=sample_contours(hp,steps=64)
-    commands=polygon_commands(loops)+adapted
+    commands=copy.deepcopy(source.get('commands') or polygon_commands(loops))+adapted
     bounds=BoundsPen(None)
     for op,points in commands:getattr(bounds,op)(*[tuple(p) for p in points])
     box=list(bounds.bounds);advance=int(math.ceil(box[2]))
