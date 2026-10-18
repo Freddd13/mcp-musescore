@@ -68,7 +68,8 @@ def main():
         assert sha(migrated/row['relative']) == row['sha256'], 'Legacy evidence changed.'
     old_protection = json.loads((BASE/'spacing_evidence.json').read_text(encoding='utf-8'))['protected_sources']
     prior_results = [{'path': r['path'], 'matches_prior_baseline': sha(r['path']) == r['before_sha256']} for r in old_protection]
-    docs = ['CONTINUOUS_STUDY.md','CACHE_LOCATIONS.md','NOTATION_DETAILS.md','RESOURCE_RESEARCH.md','README.md']
+    docs = ['CONTINUOUS_STUDY.md','CACHE_LOCATIONS.md','NOTATION_DETAILS.md','RESOURCE_RESEARCH.md','README.md',
+            'BEAM_STEM_STUDY.md','RESOURCE_PLAN_MAPPING.md','INPUT_HISTORY.md','EXTERNAL_PRACTICE.md']
     docs += [str(p.relative_to(BASE)) for p in (BASE/'corpus').glob('*.md')]
     for name in docs:
         path = BASE/name
@@ -89,7 +90,9 @@ def main():
         'review_limit': 'Visual reading is recorded by the analyst. This verifier checks indices, files and consistency; it cannot establish depth of understanding or aesthetic quality.',
         'migration_files_verified': migration['file_count'], 'migration_bytes': migration['bytes'],
         'legacy_c_directory_absent': True, 'prior_protected_sources': prior_results,
-        'entire_objective_complete': False, 'planning_body_obtained': False,
+        'entire_objective_complete': False, 'planning_body_obtained': True,
+        'planning_body_source': 'User pasted the planning text on 2026-10-18; see RESOURCE_PLAN_MAPPING.md. Source research remains incomplete.',
+        'historical_input_differences': [r['path'] for r in prior_results if not r['matches_prior_baseline']],
         'sources': source_results,
     }
     target = BASE/'corpus/verification.json'

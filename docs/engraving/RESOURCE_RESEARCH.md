@@ -1,14 +1,14 @@
 # 净书资源：目前真正读到了什么
 
-2026-10-18。来源于用户所指“钢琴谱净书资源调研”的搜集目标。规划全文仍待取得，见[持续学习状态](CONTINUOUS_STUDY.md)。本页是逐步核实的资源目录，不冒称已看完视频、原书或论文。网页与视频会变化，记录阅读范围；以作者/出版者/开发者自己的页面为主。
+2026-10-18。用户已粘贴“钢琴谱净书资源调研”规划正文，逐项落实见[RESOURCE_PLAN_MAPPING](RESOURCE_PLAN_MAPPING.md)。本页是逐步核实的资源目录，不冒称已看完视频、原书或论文。网页与视频会变化，记录阅读范围；以作者/出版者/开发者自己的页面为主。
 
 ## 用户点名的线索
 
 | 线索 | 当前证据和状态 | 接下来如何学习 |
 | --- | --- | --- |
-| B站legatissmo，用户给出[动态页](https://space.bilibili.com/372657607/dynamic) | 网页读取失败，搜索没有取得可核实的作者教程条目；用户名拼写与身份尚未从主页确认 | 先核主页/文章/视频列表，再按具体内容记录BV或文章ID、时间点、前后对照和规范条件；目前不能将其列为已学习来源 |
+| B站legatissmo，用户给出[动态页](https://space.bilibili.com/372657607/dynamic) | 动态页读取失败；后续已从[拉威尔作品页](https://www.bilibili.com/video/BV1mz421b77e/)核实Legatissimo-署名与账号链接 | 先核主页/文章/视频列表，再按具体内容记录BV或文章ID、时间点、前后对照和规范条件；已核首条作品的公开说明，视频画面和其它作品仍待阅读 |
 | 廿十七 | 已按用户名称搜索，尚未取得可靠的本人主页或具体教程 | 需要核实账号、具体内容与署名；保留为用户线索，不能用泛泛钢琴入门视频替代 |
-| 星出和宏 | 已读本人[Works](https://www.kazuhirohoshide.com/works)：有採譜・浄書履历及出版链接，列出2017年职业介绍文章 | 履历证明相关工作经历，不能当作已取得净书教学。可继续核对应出版物/作者文章；所读页面没有直接可用的系统教程 |
+| 星出和宏 | 已读本人[Works](https://www.kazuhirohoshide.com/works)及[净书页](https://www.kazuhirohoshide.com/studio/engraving)：核实Finale + Illustrator、自制Pavane和钢琴/室内乐/乐队样本入口 | 已正常取得6/7mm《帕凡》PDF并实际看全部8页，见[尺寸对照](EXTERNAL_PRACTICE.md)；没有取得系统净书教学，不据业务介绍推断操作细节 |
 
 不得把上述搜索未找到写成“作者没有教程”。当前资源收集尚未完成；尤其不能以链接表代替视频或图例阅读。
 
@@ -16,10 +16,18 @@
 
 | 来源 | 读到的范围 | 实际用途和限制 |
 | --- | --- | --- |
-| Gould《Behind Bars》[官方目录](https://behindbarsnotation.co.uk/contents/)及用户本地全文 | 已有定向阅读，本次新增完整图页p54–58、78–84、200–202，见[细节专题](NOTATION_DETAILS.md) | 条件和反例的主要教材。未通读全书；不能把某出版社惯例都当唯一规范 |
+| Gould《Behind Bars》[官方目录](https://behindbarsnotation.co.uk/contents/)及用户本地全文 | 已有定向阅读，本次新增完整图页p17–26、54–58、72–73、78–84、200–202，见[细节专题](NOTATION_DETAILS.md)及[梁干专题](BEAM_STEM_STUDY.md) | 条件和反例的主要教材。未通读全书；不能把某出版社惯例都当唯一规范 |
 | 日本楽譜出版社[ハンコ浄書の世界](https://nihongakufu.com/article-list/making) | 已读文章正文，网页注明更新2025-09-26 | 介绍字模与手工弧线的分工，也比较使用相近工具的净书家之风格差异。支持研究字形之外的布局判断；不是现代软件教程 |
 | LilyPond 2.26 [Optical spacing](https://lilypond.org/doc/v2.26/Documentation/essay/optical-spacing) | 已读页面文字；图形机制已有本库前批研究，当前未把新网页图当新实验 | 符干组合、小节边界与眼睛看到的疏密；不能照搬数值或声称已与Evolution同曲比过 |
 | LilyPond 2.26 [Beauty contests](https://lilypond.org/doc/v2.26/Documentation/essay/beauty-contests) | 已读页面文字 | 用多个候选及其代价选择布局，适合本项目的“先解释、再小量对照”。本库尚无经用户选择校准的评分权重 |
+
+## 新取得的实践与规范来源
+
+- Kokecola的[准备篇](https://note.com/kokecola/n/n5203d1df81ca)、[输入篇](https://note.com/kokecola/n/n67b13d01c746)、[净书篇](https://note.com/kokecola/n/n6df2c29e9942)，2020-05-23至25：已读正文，图片未成功显示。作者把输入与净书分开；净书中先处理普通梁/干、变音和休止，跨谱表梁留到谱表距处理时再调。**具体梁坡和间距规则被作者明确略去**，不能把此系列称为完整算法教程；关闭自动调整也是其特定工作流选择。以后补看前后图，才能提出具体几何收益。
+- [MOLA官网指南](https://mola-inc.org/resources/11631)：已核官方简体中文16页PDF，读到PDF p3–8正文；已实际看PDF p3–12与图例1–7。其分谱尺寸、翻页和交付要求面向乐团，不能直接套成独奏钢琴的尺寸硬门槛。
+- [MPA Standard Music Notation Practice](https://www.mpa.org/wp-content/uploads/2018/06/standard-practice-engraving.pdf)：核实20页PDF与1966/1993版权年，读前言及可提取正文；大部分谱例仍待看图。前言明确细节并非全体一致，阅读清楚优先；不能把此小册等同当前所有出版社的唯一标准。
+- 藤井大河[2024-12-04 Dorico设置文章](https://note.com/fujii_taiga_m/n/nca8f66de9948)：已读正文，图片未看。提出重音、跨系统弧、间距比例、小节号的偏好；现行软件默认/能力需再对官方版本核查，不能把个人喜好的比例叫作出版规范。
+- [YMD净书基础课](https://ymdmusic.jp/academy/seminar-engraving)：已读官网公开介绍和纲要，确认有记谱、布局及实用阅读主题与公开PDF入口；未获取授课内容，不把课程介绍冒充具体技术。
 
 ## 自动净书研究的补充线索
 

@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录21份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录33份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -29,18 +29,18 @@
 | A019 | Bios - Guilty Crown - Soundtrack.pdf | 9 | 已有逐谱案例 | [READING_004.md](READING_004.md) |
 | A020 | Black Catcher - Black Clover - 10th Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_004.md](READING_004.md) |
 | A021 | Bloody Stream - JoJo's Bizarre Adventure.pdf | 5 | 已有逐谱案例 | [READING_004.md](READING_004.md) |
-| A022 | Blue Bird - Naruto Shippuuden - 3rd Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A023 | Blumenkranz - Kill la Kill - Soundtrack.pdf | 5 | 待逐谱阅读 | — |
-| A024 | BOY - Ousama Ranking - Opening Theme.pdf | 5 | 待逐谱阅读 | — |
-| A025 | Brave Shine - Fatestay night Unlimited Blade Works - 2nd Opening Theme.pdf | 8 | 待逐谱阅读 | — |
-| A026 | Butter-Fly - Digimon Adventure - Opening Theme.pdf | 8 | 待逐谱阅读 | — |
-| A027 | Call of Silence - Attack on Titan Season 2 - Soundtrack.pdf | 6 | 待逐谱阅读 | — |
-| A028 | Catch the Moment - Sword Art Online Ordinal Scale - Theme Song.pdf | 7 | 待逐谱阅读 | — |
-| A029 | Change the World - InuYasha - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A030 | COLORS - Code Geass：Lelouch of the Rebellion - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A031 | Connect - Puella Magi Madoka☆Magica - Opening Theme.pdf | 8 | 待逐谱阅读 | — |
-| A032 | crossing field - Sword Art Online - Opening Theme.pdf | 8 | 待逐谱阅读 | — |
-| A033 | Cry Baby - Tokyo Revengers - Opening Theme.pdf | 5 | 待逐谱阅读 | — |
+| A022 | Blue Bird - Naruto Shippuuden - 3rd Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_005.md](READING_005.md) |
+| A023 | Blumenkranz - Kill la Kill - Soundtrack.pdf | 5 | 已有逐谱案例 | [READING_005.md](READING_005.md) |
+| A024 | BOY - Ousama Ranking - Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_005.md](READING_005.md) |
+| A025 | Brave Shine - Fatestay night Unlimited Blade Works - 2nd Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_005.md](READING_005.md) |
+| A026 | Butter-Fly - Digimon Adventure - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_005.md](READING_005.md) |
+| A027 | Call of Silence - Attack on Titan Season 2 - Soundtrack.pdf | 6 | 已有逐谱案例 | [READING_005.md](READING_005.md) |
+| A028 | Catch the Moment - Sword Art Online Ordinal Scale - Theme Song.pdf | 7 | 已有逐谱案例 | [READING_006.md](READING_006.md) |
+| A029 | Change the World - InuYasha - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_006.md](READING_006.md) |
+| A030 | COLORS - Code Geass：Lelouch of the Rebellion - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_006.md](READING_006.md) |
+| A031 | Connect - Puella Magi Madoka☆Magica - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_006.md](READING_006.md) |
+| A032 | crossing field - Sword Art Online - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_006.md](READING_006.md) |
+| A033 | Cry Baby - Tokyo Revengers - Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_006.md](READING_006.md) |
 | A034 | Daisy - Kyoukai no Kanata - Ending Theme.pdf | 5 | 待逐谱阅读 | — |
 | A035 | Dango Daikazoku  - CLANNAD - Ending Theme.pdf | 4 | 待逐谱阅读 | — |
 | A036 | departure! - Hunter × Hunter - Opening Theme.pdf | 9 | 待逐谱阅读 | — |
