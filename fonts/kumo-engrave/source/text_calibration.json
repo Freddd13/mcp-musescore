@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "version": "0.480",
+  "groups": [
+    {
+      "name": "dynamics",
+      "prefix": "dynamic",
+      "scale": 1.9,
+      "basis": "Leland Text/music dynamics height ratios are about 1.9. Apply one scale to letters and complete ligatures to retain their relative proportions."
+    },
+    {
+      "name": "octave-text",
+      "symbols": ["ottavaAlta", "ottava"],
+      "scale": 1.1,
+      "basis": "Measured fixed-host native baseline height is 0.954sp; unadapted Study is 0.853sp for 8va and 0.875sp for 8. A shared 1.1 factor keeps their proportions near the actual baseline. The theoretical 2.0 EM conversion was rejected after native comparison because it made both marks too large."
+    },
+    {
+      "name": "pedal-word",
+      "symbols": ["keyboardPedalPed"],
+      "scale": 1.6,
+      "basis": "Measured native baseline word height is 1.744sp, versus 1.109sp before adaptation. A 1.6 factor restores comparable size while retaining the source word proportions; the generic Leland Text/music 1.3 ratio alone under-corrected this source outline."
+    },
+    {
+      "name": "pedal-release",
+      "symbols": ["keyboardPedalUp"],
+      "scale": 1.15,
+      "basis": "Measured native release-star height is 1.144sp in the baseline versus 0.991sp before adaptation. A 1.15 factor restores comparable size."
+    }
+  ],
+  "notes": [
+    "Text-only calibration. Never apply these factors to the music font or to the original captured reference geometry.",
+    "Metronome glyphs remain unchanged: the real Leland Text route uses Metronome Text 3, whose quarter-note ink height is about 1073 units rather than the smaller modern Leland Text subset.",
+    "User score style sizes and per-element overrides remain authoritative; no score XML size or offset changes."
+  ]
+}

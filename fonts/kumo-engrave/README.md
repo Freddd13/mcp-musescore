@@ -1,12 +1,12 @@
 # Kumo 音乐字体研究与历史原型
 
-**评审状态：0.2和0.3均已被用户否定，不再作为推荐候选。** 当前本机研究小样为 **Kumo Score Study 0.470，112 个处理码位**。本轮将sf、八度、括号及速度/swing等9个旧字形改为通过原图核对的曲线，95个字形含三次曲线；未改部分保留 Leland。整个目录仍146份PDF、1,135页，覆盖审计继续，不能把112码位当作“所有出现符号”已经完成。详见 [本轮字形与组合验证](REMAINING_CURVES.md)、[曲线修订与新组合](CURVE_REFINEMENT.md) 和 [全目录研究](CORPUS_STUDY.md)。
+**评审状态：0.2和0.3均已被用户否定，不再作为推荐候选。** 当前本机研究小样为 **Kumo Score Study 0.480，112 个处理码位**。修复用户指出的Text力度、八度和踏板偏小：同谱距实测mf恢复至原字体约96%，8/8va接近原有大小。音乐字形保持0.470；95个字形含三次曲线，未改部分保留Leland。整个目录仍146份PDF、1,135页，覆盖审计继续，不能把112码位当作“所有出现符号”已经完成。详见 [实际尺寸修正](TEXT_SIZING.md)、[来源曲线与组合验证](REMAINING_CURVES.md) 和 [全目录研究](CORPUS_STUDY.md)。
 
 ## 当前本机小样的试用
 
-先查看 Evolution 偏好设置指定的 **Score Fonts** 目录并退出软件。解压本机包 `dist/kumo-score-study-0.470-local.zip`，或将 `dist/corpus-font-098/Kumo Score Study/` 和 `dist/corpus-font-098/Kumo Score Study Text/` 两个完整文件夹复制进去。重新打开软件，在乐谱**独立副本**的“格式 → 样式 → 乐谱”同时选择 **Kumo Score Study** 与 **Kumo Score Study Text**；第一轮保持现有谱距和样式参数。
+先查看 Evolution 偏好设置指定的 **Score Fonts** 目录并退出软件。解压本机包 `dist/kumo-score-study-0.480-local.zip`，或将 `dist/corpus-font-104/Kumo Score Study/` 和 `dist/corpus-font-104/Kumo Score Study Text/` 两个完整文件夹复制进去。重新打开软件，在乐谱**独立副本**的“格式 → 样式 → 乐谱”同时选择 **Kumo Score Study** 与 **Kumo Score Study Text**；第一轮保持现有谱距和样式参数。
 
-这次必须同时选择新的 Text，才能使用已验证的组合力度和速度音符；下文“保持内置Leland Text”属于旧0.3的历史步骤。无需重装MCP、skill或Windows字体。更新时先退出软件，再成对更换两个家族的OTF/JSON，重新打开即可。小样仍在本机忽略目录，未加入公开原型ZIP。固定0.21宿主全套测试在 `dist/corpus-native-098/`，来源/OTF对照在 `dist/remaining-verify-099/` 与 `dist/assembly-verify-099/`。当前安装宿主的独立导入异常仍未定位，未称通过；证据见 [验证边界](REMAINING_CURVES.md#原生与保护检查)。
+这次必须同时选择新的 Text，才能使用尺寸修正及已验证的组合力度、速度音符；下文“保持内置Leland Text”属于旧0.3的历史步骤。无需重装MCP、skill或Windows字体。更新时先退出软件，再成对更换两个家族的OTF/JSON，重新打开即可。小样仍在本机忽略目录，未加入公开原型ZIP。最新固定0.21宿主尺寸/用户谱测试在 `dist/corpus-native-104/`，同谱距比较在 `dist/native-size-audit-105/`。Music不变，0.470来源/全套Music证据继续保留。当前安装宿主的独立导入异常仍未定位，未称通过；见 [验证边界](TEXT_SIZING.md)。
 
 当前完整保留Leland原覆盖，音乐493→502字、Text182→266字。新加的组合标记有明确Unicode入口，见 [额外符号使用](TEXT_EXTRAS.md)。历史短下符尾U+F706保留；普通32分下音符现在直接使用补齐的原生字形。仍有少见符号、复合标记和特殊编码需要核对；本轮保留页面/字符现有曲线，未恢复完整字体程序、原字距或hinting。
 

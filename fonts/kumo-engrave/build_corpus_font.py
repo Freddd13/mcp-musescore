@@ -15,6 +15,23 @@ from source.pdf_symbol_map import LIGATURES
 from source.symbol_names import load_symbol_names
 
 
+def text_item(symbol,item,calibration):
+    """Adapt ink/advance together for Text; source music geometry stays intact."""
+    matches=[g for g in calibration.get('groups',[]) if symbol in g.get('symbols',[]) or
+             (g.get('prefix') and symbol.startswith(g['prefix']))]
+    assert len(matches)<=1,('Overlapping Text calibration groups',symbol)
+    if not matches:return item,1.0
+    factor=matches[0]['scale'];assert 0<factor<4
+    result=copy.deepcopy(item)
+    result['outlines']=[[[x*factor,y*factor] for x,y in loop] for loop in item['outlines']]
+    result['bounds']=[v*factor for v in item['bounds']]
+    result['advance']=round(item['advance']*factor)
+    if item.get('commands'):
+        result['commands']=[[op,[[x*factor,y*factor] for x,y in pts]] for op,pts in item['commands']]
+    if item.get('repeat'):result['repeat']=round(item['repeat']*factor)
+    return result,factor
+
+
 def ink_intervals(loops,x):
     """Filled intervals at x, including separated arms and contour holes."""
     hits=[]
@@ -84,6 +101,7 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
     report=dict(family=family,baseline=str(base_path),baseline_sha256=hashlib.sha256(base_path.read_bytes()).hexdigest(),changed={},added=[],ligatures=[])
     if not control:
         for symbol,item in data['glyphs'].items():
+            item,text_scale=text_item(symbol,item,data.get('text_calibration',{})) if text else (item,1.0)
             cp=item['codepoint'];glyph=cmap.get(cp);loops=item['outlines'];box=item['bounds'];advance=item['advance']
             standard=symbol in sm
             if not standard:assert glyph is None,('Custom Unicode collides with baseline',symbol,cp)
@@ -156,7 +174,7 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
                 anchors['stemUpNW' if symbol.endswith('Up') else 'stemDownSW']=[0,0]
             if item['repeat']:anchors['repeatOffset']=[item['repeat']/250,0]
             report['changed'][symbol]=dict(codepoint=cp,glyph=glyph,advance=advance,bounds_sp=[v/250 for v in box],anchors=anchors,smufl=standard,
-                cubic_segments=sum(op=='curveTo' for op,points in item.get('commands',[])))
+                cubic_segments=sum(op=='curveTo' for op,points in item.get('commands',[])),text_scale=text_scale)
         # MuseScore 3 composes dynamics from letter symbols. Default OpenType
         # liga selects the observed complete forms without changing score XML.
         rules=[]

@@ -63,7 +63,7 @@ MuseScore {
         for variant in ('Control','Study'):
             source=extra.replace(b'Kumo Score Study Text',('Kumo Score '+variant+' Text').encode())
             proof('integration-'+variant.lower(),source,'Kumo Score '+variant)
-    if not args.text_only and not args.waves_only and 'noteheadCircleX' in build['fonts']['Kumo Score Study']['changed']:
+    if not args.text_sizing_only and not args.text_only and not args.waves_only and 'noteheadCircleX' in build['fonts']['Kumo Score Study']['changed']:
         from source.observed_fixture import observed_score,brace_score
         for variant in ('Control','Study'):
             proof('observed-'+variant.lower(),observed_score(data),'Kumo Score '+variant)
@@ -75,7 +75,7 @@ MuseScore {
         assert hashlib.sha256(args.musescore.read_bytes()).hexdigest()==report['host_sha256']
         (out/'native-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
         return
-    if not args.text_only:
+    if not args.text_only and not args.text_sizing_only:
         from source.wave_fixture import wave_score
         for variant in ('Control','Study'):proof('waves-'+variant.lower(),wave_score(data),'Kumo Score '+variant)
     if args.score:
@@ -103,7 +103,7 @@ MuseScore {
     # A separate authored score exercises the real <sym> Text path for every
     # changed symbol. These are not screenshots from Pillow font rendering.
     names=list(build['fonts']['Kumo Score Study']['changed'])
-    for block in range(0,len(names),25):
+    for block in ([] if args.text_sizing_only else range(0,len(names),25)):
         tree,score=text_score();style=score.find('Style')
         for key,value in [('pageWidth',11.6929),('pageHeight',16.5354)]:
             e=style.find(key)
@@ -146,5 +146,6 @@ if __name__=='__main__':
     section.add_argument('--text-only',action='store_true')
     section.add_argument('--waves-only',action='store_true')
     section.add_argument('--observed-only',action='store_true')
+    section.add_argument('--text-sizing-only',action='store_true',help='Palette, native text integration, optional user copies and dynamics')
     p.add_argument('--score',type=Path,help='Optional read-only original; render isolated copies with archive assets preserved')
     run(p.parse_args())
