@@ -2,13 +2,16 @@
 
 更新：2026-10-19。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
 
-持续任务：[全目录学习与资源整理](CONTINUOUS_STUDY.md)。已清点并渲染全部146份PDF、1,135页；新阅读批次已审视129份谱1023页，近读333页，见[逐谱一](corpus/READING_001.md)、[逐谱二](corpus/READING_002.md)、[逐谱三](corpus/READING_003.md)、[逐谱四](corpus/READING_004.md)、[逐谱五](corpus/READING_005.md)、[逐谱六](corpus/READING_006.md)、[逐谱七](corpus/READING_007.md)、[逐谱八](corpus/READING_008.md)、[逐谱九](corpus/READING_009.md)、[逐谱十](corpus/READING_010.md)、[逐谱十一](corpus/READING_011.md)、[逐谱十二](corpus/READING_012.md)、[逐谱十三](corpus/READING_013.md)、[逐谱十四](corpus/READING_014.md)、[逐谱十五](corpus/READING_015.md)、[逐谱十六](corpus/READING_016.md)、[逐谱十七](corpus/READING_017.md)、[逐谱十八](corpus/READING_018.md)、[逐谱十九](corpus/READING_019.md)、[逐谱二十](corpus/READING_020.md)、[逐谱二十一](corpus/READING_021.md)、[逐谱二十二](corpus/READING_022.md)、[154页串烧的13章](corpus/READING_MEDLEY_200.md)及[覆盖记录](corpus/reviews.json)。新增[附点、变音与连音的判断](NOTATION_DETAILS.md)、[资源核实目录](RESOURCE_RESEARCH.md)与[规划落实](RESOURCE_PLAN_MAPPING.md)。全部谱子的深入研究仍在进行中。缓存已迁E盘，位置见[CACHE_LOCATIONS](CACHE_LOCATIONS.md)。
+持续任务：[全目录学习与资源整理](CONTINUOUS_STUDY.md)。已清点并渲染全部146份PDF、1,135页；本轮已审视全部146份谱1,135页，近读379页，见[逐谱一](corpus/READING_001.md)、[逐谱二](corpus/READING_002.md)、[逐谱三](corpus/READING_003.md)、[逐谱四](corpus/READING_004.md)、[逐谱五](corpus/READING_005.md)、[逐谱六](corpus/READING_006.md)、[逐谱七](corpus/READING_007.md)、[逐谱八](corpus/READING_008.md)、[逐谱九](corpus/READING_009.md)、[逐谱十](corpus/READING_010.md)、[逐谱十一](corpus/READING_011.md)、[逐谱十二](corpus/READING_012.md)、[逐谱十三](corpus/READING_013.md)、[逐谱十四](corpus/READING_014.md)、[逐谱十五](corpus/READING_015.md)、[逐谱十六](corpus/READING_016.md)、[逐谱十七](corpus/READING_017.md)、[逐谱十八](corpus/READING_018.md)、[逐谱十九](corpus/READING_019.md)、[逐谱二十](corpus/READING_020.md)、[逐谱二十一](corpus/READING_021.md)、[逐谱二十二](corpus/READING_022.md)、[逐谱二十三](corpus/READING_023.md)、[逐谱二十四](corpus/READING_024.md)、[逐谱二十五](corpus/READING_025.md)、[154页串烧的13章](corpus/READING_MEDLEY_200.md)及[覆盖记录](corpus/reviews.json)。新增[附点、变音与连音的判断](NOTATION_DETAILS.md)、[资源核实目录](RESOURCE_RESEARCH.md)与[规划落实](RESOURCE_PLAN_MAPPING.md)。本轮全目录阅读完成；全页审视与近读分别记录，不等于逐音校对。综合判断和后续应用见[JUDGMENT_GUIDE](JUDGMENT_GUIDE.md)，范围与限制见[完成核查](COMPLETION_REVIEW.md)。缓存已迁E盘，位置见[CACHE_LOCATIONS](CACHE_LOCATIONS.md)。
 
-当前优先阅读：[个人偏好与应用方法](PREFERENCES.md)、[横向间距专题](SPACING_STUDY.md)。用户进一步明确：需要持续学习并形成具体的审美判断、建议与后续自动净书能力，不以规则数量/技术检查替代。新专题增加5份官谱、8个定位观察和一个自制原生复现，尚未制作改善候选；HS编号与以下35个正式E案例分开记录。
+当前优先阅读：[具体情境的净书判断](JUDGMENT_GUIDE.md)、[个人偏好与应用方法](PREFERENCES.md)、[横向间距专题](SPACING_STUDY.md)。用户进一步明确：需要持续学习并形成具体的审美判断、建议与后续自动净书能力，不以规则数量/技术检查替代。新专题增加5份官谱、8个定位观察和一个自制原生复现，尚未制作改善候选；HS编号与以下35个正式E案例分开记录。
 
-阶段 A 累计 **35 个案例、26 张规则卡**：首批14例/14规则，扩大研究新增21例/12规则。新增12份官谱、229页发现材料，19页近读；《Behind Bars》定向正文阅读与20个图页核查。这是后续诊断的依据库，尚未实现自动修改；完整钢琴记谱规范、所有官谱、实际打印与演奏验收均未完成。先解释阅读问题，再决定是否需要参数、插件或本体开发。
+早期阶段 A 累计 **35 个案例、26 张规则卡**：首批14例/14规则，扩大研究新增21例/12规则。该批新增12份官谱、229页发现材料，19页近读；《Behind Bars》定向正文阅读与20个图页核查。这些历史批次与本轮全目录记录分开。这是后续诊断的依据库，尚未实现自动修改；全部钢琴记谱规范的学习、逐音校对、实际打印与演奏验收尚未完成。先解释阅读问题，再决定是否需要参数、插件或本体开发。
 
 ## 阅读入口
+
+- [JUDGMENT_GUIDE.md](JUDGMENT_GUIDE.md)：八类音乐情境的正面判断、间距的五种原因、怎样应用到用户工程及开发先后。
+- [COMPLETION_REVIEW.md](COMPLETION_REVIEW.md)：本轮完成范围、来源访问限制、原件保护和后续任务边界。
 
 - [CROSS_STAFF_STUDY.md](CROSS_STAFF_STUDY.md)：副梁、休止、括号、slur与八度范围为何需要联合判断，含教材条件与官谱定位。
 - [EXTERNAL_PRACTICE.md](EXTERNAL_PRACTICE.md)：星出和宏6/7mm同曲对照、MOLA适用范围和Dorico 6.2控制层次；区分观察与推论。

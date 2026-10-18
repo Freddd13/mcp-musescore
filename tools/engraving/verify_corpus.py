@@ -43,6 +43,7 @@ def main():
         assert len(list(directory.glob('board-*.jpg'))) == (row['pages']+5)//6
         page_count += len(rendered)
     assert review['reviewed_score_count'] == len(review['scores'])
+    assert len({r['id'] for r in review['scores']}) == len(review['scores']), 'Duplicate review IDs.'
     for row in review['scores']:
         source = next(s for s in rows if s['id'] == row['id'])
         assert row['source_sha256'] == source['sha256']
@@ -54,6 +55,8 @@ def main():
     assert review['screened_pages'] == sum(len(r['all_pages_screened']) for r in review['scores'])
     assert review['detail_pages'] == sum(len(r['full_page_detail_viewed']) for r in review['scores'])
     assert review['all_scores_complete'] == (len(review['scores']) == inventory['score_count'])
+    if review['all_scores_complete']:
+        assert {r['id'] for r in review['scores']} == {r['id'] for r in rows}
     for row in review.get('partial_scores', []):
         source = next(s for s in rows if s['id'] == row['id'])
         assert row['source_sha256'] == source['sha256']
@@ -69,7 +72,8 @@ def main():
     old_protection = json.loads((BASE/'spacing_evidence.json').read_text(encoding='utf-8'))['protected_sources']
     prior_results = [{'path': r['path'], 'matches_prior_baseline': sha(r['path']) == r['before_sha256']} for r in old_protection]
     docs = ['CONTINUOUS_STUDY.md','CACHE_LOCATIONS.md','NOTATION_DETAILS.md','RESOURCE_RESEARCH.md','README.md',
-            'BEAM_STEM_STUDY.md','RESOURCE_PLAN_MAPPING.md','INPUT_HISTORY.md','EXTERNAL_PRACTICE.md','CROSS_STAFF_STUDY.md']
+            'BEAM_STEM_STUDY.md','RESOURCE_PLAN_MAPPING.md','INPUT_HISTORY.md','EXTERNAL_PRACTICE.md','CROSS_STAFF_STUDY.md',
+            'JUDGMENT_GUIDE.md','COMPLETION_REVIEW.md']
     docs += [str(p.relative_to(BASE)) for p in (BASE/'corpus').glob('*.md')]
     for name in docs:
         path = BASE/name
@@ -90,8 +94,10 @@ def main():
         'review_limit': 'Visual reading is recorded by the analyst. This verifier checks indices, files and consistency; it cannot establish depth of understanding or aesthetic quality.',
         'migration_files_verified': migration['file_count'], 'migration_bytes': migration['bytes'],
         'legacy_c_directory_absent': True, 'prior_protected_sources': prior_results,
-        'entire_objective_complete': False, 'planning_body_obtained': True,
-        'planning_body_source': 'User pasted the planning text on 2026-10-18; see RESOURCE_PLAN_MAPPING.md. Source research remains incomplete.',
+        'all_corpus_records_complete': review['all_scores_complete'], 'planning_body_obtained': True,
+        'analyst_completion_review': 'docs/engraving/COMPLETION_REVIEW.md',
+        'research_quality_automatically_verified': False,
+        'planning_body_source': 'User pasted the planning text; see RESOURCE_PLAN_MAPPING.md for actual reading and source-access limits.',
         'historical_input_differences': [r['path'] for r in prior_results if not r['matches_prior_baseline']],
         'sources': source_results,
     }

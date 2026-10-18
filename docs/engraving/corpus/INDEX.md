@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录129份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录146份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -137,20 +137,20 @@
 | A127 | The Rumbling - Attack on Titan The Final Season Part 2 - Opening Theme.pdf | 4 | 已有逐谱案例 | [READING_022.md](READING_022.md) |
 | A128 | The Song of Aether - Short Piano Composition in C# Minor.pdf | 2 | 已有逐谱案例 | [READING_022.md](READING_022.md) |
 | A129 | the WORLD - Death Note - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_022.md](READING_022.md) |
-| A130 | There is a Reason - No Game No Life Zero - Theme Song.pdf | 6 | 待逐谱阅读 | — |
-| A131 | This Game (2014 ver.) - No Game No Life  - Opening Theme.pdf | 9 | 待逐谱阅读 | — |
-| A132 | This Game (2021 ver.) - No Game No Life  - Opening Theme.pdf | 8 | 待逐谱阅读 | — |
-| A133 | to the beginning - Fate Zero - 2nd Opening Theme.pdf | 5 | 待逐谱阅读 | — |
-| A134 | To You, 2000 Years... or... 20000 Years - Attack on Titan Final Chapters Part2 - Ending Theme .pdf | 5 | 待逐谱阅读 | — |
-| A135 | Tokimeki poporon - Gochuumon wa usagi desu ka？？ - Ending Theme.pdf | 7 | 待逐谱阅读 | — |
-| A136 | Uchiage Hanabi - Fireworks (2017) - Theme Song.pdf | 5 | 待逐谱阅读 | — |
-| A137 | unlasting - Sword Art Online Alicization War of Underworld - Ending Theme.pdf | 6 | 待逐谱阅读 | — |
-| A138 | unravel - Tokyo Ghoul - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A139 | Uragirimono no Requiem - JoJo’s Bizarre Adventure：Golden Wind - 2nd Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A140 | Vogel im Käfig - Attack on Titan - Soundtrack.pdf | 6 | 待逐谱阅读 | — |
-| A141 | We Are! - One Piece - 1st Opening Theme.pdf | 8 | 待逐谱阅读 | — |
-| A142 | Weight of the World - NieR：Automata - Ending Theme.pdf | 6 | 待逐谱阅读 | — |
-| A143 | WILL -Violet Evergarden the Movie - Theme Song.pdf | 6 | 待逐谱阅读 | — |
-| A144 | You See BIGGIRL - Attack on Titan Season 2 - Soundtrack.pdf | 6 | 待逐谱阅读 | — |
-| A145 | Zankyou Sanka - Demon Slayer Entertainment District Arc - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A146 | Zen Zen Zense - Your Name. - Insert Song.pdf | 10 | 待逐谱阅读 | — |
+| A130 | There is a Reason - No Game No Life Zero - Theme Song.pdf | 6 | 已有逐谱案例 | [READING_023.md](READING_023.md) |
+| A131 | This Game (2014 ver.) - No Game No Life  - Opening Theme.pdf | 9 | 已有逐谱案例 | [READING_023.md](READING_023.md) |
+| A132 | This Game (2021 ver.) - No Game No Life  - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_023.md](READING_023.md) |
+| A133 | to the beginning - Fate Zero - 2nd Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_023.md](READING_023.md) |
+| A134 | To You, 2000 Years... or... 20000 Years - Attack on Titan Final Chapters Part2 - Ending Theme .pdf | 5 | 已有逐谱案例 | [READING_023.md](READING_023.md) |
+| A135 | Tokimeki poporon - Gochuumon wa usagi desu ka？？ - Ending Theme.pdf | 7 | 已有逐谱案例 | [READING_023.md](READING_023.md) |
+| A136 | Uchiage Hanabi - Fireworks (2017) - Theme Song.pdf | 5 | 已有逐谱案例 | [READING_024.md](READING_024.md) |
+| A137 | unlasting - Sword Art Online Alicization War of Underworld - Ending Theme.pdf | 6 | 已有逐谱案例 | [READING_024.md](READING_024.md) |
+| A138 | unravel - Tokyo Ghoul - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_024.md](READING_024.md) |
+| A139 | Uragirimono no Requiem - JoJo’s Bizarre Adventure：Golden Wind - 2nd Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_024.md](READING_024.md) |
+| A140 | Vogel im Käfig - Attack on Titan - Soundtrack.pdf | 6 | 已有逐谱案例 | [READING_024.md](READING_024.md) |
+| A141 | We Are! - One Piece - 1st Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_024.md](READING_024.md) |
+| A142 | Weight of the World - NieR：Automata - Ending Theme.pdf | 6 | 已有逐谱案例 | [READING_025.md](READING_025.md) |
+| A143 | WILL -Violet Evergarden the Movie - Theme Song.pdf | 6 | 已有逐谱案例 | [READING_025.md](READING_025.md) |
+| A144 | You See BIGGIRL - Attack on Titan Season 2 - Soundtrack.pdf | 6 | 已有逐谱案例 | [READING_025.md](READING_025.md) |
+| A145 | Zankyou Sanka - Demon Slayer Entertainment District Arc - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_025.md](READING_025.md) |
+| A146 | Zen Zen Zense - Your Name. - Insert Song.pdf | 10 | 已有逐谱案例 | [READING_025.md](READING_025.md) |
