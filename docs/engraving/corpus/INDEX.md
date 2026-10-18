@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录69份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录81份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -77,18 +77,18 @@
 | A067 | Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf | 4 | 已有逐谱案例 | [READING_012.md](READING_012.md) |
 | A068 | Kamado Tanjiro no Uta - Demon Slayer - Insert Song.pdf | 6 | 已有逐谱案例 | [READING_012.md](READING_012.md) |
 | A069 | Kantai Collection Medley.pdf | 9 | 已有逐谱案例 | [READING_012.md](READING_012.md) |
-| A070 | Kawaki wo Ameku - Domestic na Kanojo - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A071 | Kenshi Yonezu, Hikaru Utada - JANE DOE (Chainsaw Man_ Reze Arc - ED).pdf | 7 | 待逐谱阅读 | — |
-| A072 | Key Anime Piano Medley (Air, Kanon, Clannad).pdf | 11 | 待逐谱阅读 | — |
-| A073 | KICK BACK - Chainsaw Man - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A074 | Kigeki - SPY×FAMILY - Ending Theme.pdf | 4 | 待逐谱阅读 | — |
-| A075 | Killy Killy Joker - Selector Infected WIXOSS - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A076 | Kimi no Shiranai Monogatari - Bakemonogatari - Ending Theme.pdf | 10 | 待逐谱阅读 | — |
-| A077 | Kizuna Music - BangDream! S2 - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A078 | KonoSuba Medley.pdf | 9 | 待逐谱阅读 | — |
-| A079 | Kuchizuke Diamond - Yamada-kun and the Seven Witches - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A080 | Kura Kura - SPY × FAMILY S2 - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A081 | Kuusou Mesorogiwi - Mirai Nikki - 1st Opening Theme.pdf | 6 | 待逐谱阅读 | — |
+| A070 | Kawaki wo Ameku - Domestic na Kanojo - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_013.md](READING_013.md) |
+| A071 | Kenshi Yonezu, Hikaru Utada - JANE DOE (Chainsaw Man_ Reze Arc - ED).pdf | 7 | 已有逐谱案例 | [READING_013.md](READING_013.md) |
+| A072 | Key Anime Piano Medley (Air, Kanon, Clannad).pdf | 11 | 已有逐谱案例 | [READING_013.md](READING_013.md) |
+| A073 | KICK BACK - Chainsaw Man - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_013.md](READING_013.md) |
+| A074 | Kigeki - SPY×FAMILY - Ending Theme.pdf | 4 | 已有逐谱案例 | [READING_013.md](READING_013.md) |
+| A075 | Killy Killy Joker - Selector Infected WIXOSS - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_013.md](READING_013.md) |
+| A076 | Kimi no Shiranai Monogatari - Bakemonogatari - Ending Theme.pdf | 10 | 已有逐谱案例 | [READING_014.md](READING_014.md) |
+| A077 | Kizuna Music - BangDream! S2 - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_014.md](READING_014.md) |
+| A078 | KonoSuba Medley.pdf | 9 | 已有逐谱案例 | [READING_014.md](READING_014.md) |
+| A079 | Kuchizuke Diamond - Yamada-kun and the Seven Witches - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_014.md](READING_014.md) |
+| A080 | Kura Kura - SPY × FAMILY S2 - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_014.md](READING_014.md) |
+| A081 | Kuusou Mesorogiwi - Mirai Nikki - 1st Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_014.md](READING_014.md) |
 | A082 | Kyouran Hey Kids!! - Noragami Aragoto - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
 | A083 | Last Stardust - Fate stay night：Unlimited Blade Works - Insert Song.pdf | 6 | 待逐谱阅读 | — |
 | A084 | Little Busters! - Little Busters! - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
