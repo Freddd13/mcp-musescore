@@ -25,7 +25,11 @@ def run(args):
         if result.returncode:raise RuntimeError(label+' native conversion failed: '+str(result.returncode))
         print(label,'OK',flush=True)
     fixture=out/'palette.mscx'
-    convert('import',['-o',str(fixture)],ROOT/'fixtures/piano-palette.musicxml')
+    import_source=ROOT/'fixtures/piano-palette.musicxml'
+    if args.gliss_only:
+        from source.gliss_fixture import gliss_musicxml
+        import_source=out/'glissandi.musicxml';import_source.write_bytes(gliss_musicxml())
+    convert('import',['-o',str(fixture)],import_source)
     data=fixture.read_bytes()
     def proof(label,source,family,archive=None):
         score=out/(label+'.mscx');set_font(source,score,family,family+' Text')
@@ -56,6 +60,12 @@ MuseScore {
         status=json.loads(state.read_text(encoding='utf-8'));assert status['symbolRegistered'] and status['textRegistered']
         assert status['symbol']==family and status['text']==family+' Text'
         report['proofs'][label]=status
+    if args.gliss_only:
+        assert not args.score,'Use authored copies for gliss-only verification'
+        for variant in ('Control','Study'):proof('gliss-'+variant.lower(),data,'Kumo Score '+variant)
+        assert hashlib.sha256(args.musescore.read_bytes()).hexdigest()==report['host_sha256']
+        (out/'native-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+        return
     if not args.text_only and not args.waves_only and not args.observed_only:
         for variant in ('Control','Study'):proof('palette-'+variant.lower(),data,'Kumo Score '+variant)
         from source.extension_fixture import integration_score
@@ -145,6 +155,7 @@ if __name__=='__main__':
     section=p.add_mutually_exclusive_group()
     section.add_argument('--text-only',action='store_true')
     section.add_argument('--waves-only',action='store_true')
+    section.add_argument('--gliss-only',action='store_true',help='Authored native piano glissandi and trill control')
     section.add_argument('--observed-only',action='store_true')
     section.add_argument('--text-sizing-only',action='store_true',help='Palette, native text integration, optional user copies and dynamics')
     p.add_argument('--score',type=Path,help='Optional read-only original; render isolated copies with archive assets preserved')

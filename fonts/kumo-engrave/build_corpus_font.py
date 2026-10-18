@@ -185,6 +185,10 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
                 report['ligatures'].append(dict(target=target,components=components))
         if rules:add_ligatures(font,rules)
     meta.update(fontName=family,fontVersion=float(version))
+    if not control and not text and data.get('native_engraving'):
+        name=data['native_engraving']['wavyGlissandoGlyph']
+        assert name in data['glyphs'] and data['glyphs'][name]['codepoint'] in cmap
+        meta['kumoEngraving']=copy.deepcopy(data['native_engraving'])
     path=out/(family+'.otf');font.save(path);font.close()
     (out/(family+'.json')).write_text(json.dumps(meta,indent=2)+'\n',encoding='utf-8')
     (out/'SOURCE.txt').write_text('LOCAL STUDY, NOT A PUBLIC FONT RELEASE.\nLeland baseline plus locally studied PDF-rendered and/or page-path-derived shapes.\nNo source font program recovered. Capture provenance remains in capture.json.\n',encoding='utf-8')

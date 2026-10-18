@@ -16,6 +16,9 @@ def run(args):
         for path in (args.fonts/family).iterdir():
             assert path.is_file();files[family+'/'+path.name]=path.read_bytes()
     files['TEXT_EXTRAS.md']=(ROOT/'TEXT_EXTRAS.md').read_bytes()
+    native_gliss=(args.fonts/'Kumo Score Study/Kumo Score Study.json').read_text(encoding='utf-8')
+    if 'kumoEngraving' in json.loads(native_gliss):
+        files['NATIVE_GLISSANDO.md']=(ROOT/'NATIVE_GLISSANDO.md').read_bytes()
     sized=any(v.get('text_scale',1)!=1 for v in build['fonts']['Kumo Score Study Text']['changed'].values())
     if sized:
         files['TEXT_SIZING.md']=(ROOT/'TEXT_SIZING.md').read_bytes()
@@ -26,6 +29,7 @@ def run(args):
         '已有旧小样时成对更换两个家族的 OTF/JSON 后重启，不需重装 MCP、skill 或 Windows 字体。\n'
         '额外的 swing / ≒ 入口见 TEXT_EXTRAS.md；普通8va、sf、音符括号仍用软件原有操作。\n'
         '未修改字形保持 Leland。实际原生验证宿主和范围见项目 CORPUS_STUDY.md。\n'
+        + ('本包专用波浪滑音需要 Evolution 个人0.71；旧宿主沿用旧波形。见 NATIVE_GLISSANDO.md。\n' if 'NATIVE_GLISSANDO.md' in files else '') +
         '这是本机研究构建，不是 Chaconne 字体文件；来源轮廓与公开 OFL 底库分别记录。\n').encode('utf-8')
     manifest={name:hashlib.sha256(data).hexdigest() for name,data in files.items()}
     files['SHA256.json']=(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n').encode('utf-8')
