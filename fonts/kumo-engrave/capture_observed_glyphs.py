@@ -49,7 +49,14 @@ def run(args):
         spaces=inv['page_geometry'][sample['page']-1]['staff_spaces'];assert spaces
         doc=pdf.PdfDocument(source);page=doc[sample['page']-1];text=page.get_textpage()
         objects=list(page.get_objects(filter=[pdf.raw.FPDF_PAGEOBJ_TEXT],textpage=text));obj=objects[sample['text_object_index']]
-        commands=glyph_commands(obj,context['char'])
+        try:commands=glyph_commands(obj,context['char'])
+        except (AssertionError,ValueError) as error:
+            if not choice.get('reject_retains_previous'):raise
+            rows.append(dict(choice=choice,source=str(source),source_sha256=sha,score=sample['score'],page=sample['page'],
+                             object_index=sample['text_object_index'],staff_space_pt=spaces[0]['space_pt'],rejected=True,reason=str(error)))
+            text.close();page.close();doc.close();assert hashlib.sha256(source.read_bytes()).hexdigest()==sha
+            print(choice['symbol'],'unavailable mapping; previous glyph retained',flush=True)
+            continue
         verification,image,box,origin=compare(doc,page,text,obj,context['char'],commands,args.output/(choice['symbol']+'.png'),args.scale)
         width=ctypes.c_float()
         assert pdf.raw.FPDFFont_GetGlyphWidth(pdf.raw.FPDFTextObj_GetFont(obj),ord(context['char']),obj.get_font_size(),ctypes.byref(width))
