@@ -19,6 +19,8 @@ def run(args):
     native_gliss=(args.fonts/'Kumo Score Study/Kumo Score Study.json').read_text(encoding='utf-8')
     if 'kumoEngraving' in json.loads(native_gliss):
         files['NATIVE_GLISSANDO.md']=(ROOT/'NATIVE_GLISSANDO.md').read_bytes()
+    if build['fonts']['Kumo Score Study']['changed'].get('coda',{}).get('cubic_segments',0)>0:
+        files['CATALOG_COVERAGE.md']=(ROOT/'CATALOG_COVERAGE.md').read_bytes()
     sized=any(v.get('text_scale',1)!=1 for v in build['fonts']['Kumo Score Study Text']['changed'].values())
     if sized:
         files['TEXT_SIZING.md']=(ROOT/'TEXT_SIZING.md').read_bytes()

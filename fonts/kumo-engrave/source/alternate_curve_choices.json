@@ -1,0 +1,10 @@
+{
+  "version": "0.500",
+  "catalog": "cid1-catalog-v2",
+  "choices": [
+    {"symbol":"coda","key":"CIDFont+F1:U+F0DE","mode":"raw"},
+    {"symbol":"articAccentStaccatoBelow","key":"CIDFont+F1:U+F0DF","mode":"top_zero"},
+    {"symbol":"caesura","key":"CIDFont+F1:U+0022","mode":"raw"}
+  ],
+  "note": "Actual selected instances only. Independently compare API curves to displayed ink; rejected candidates retain prior verified shapes."
+}

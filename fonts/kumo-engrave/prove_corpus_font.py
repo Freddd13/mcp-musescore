@@ -60,6 +60,13 @@ MuseScore {
         status=json.loads(state.read_text(encoding='utf-8'));assert status['symbolRegistered'] and status['textRegistered']
         assert status['symbol']==family and status['text']==family+' Text'
         report['proofs'][label]=status
+    if args.refinements_only:
+        assert not args.score,'Refinement-only uses authored fixtures'
+        from source.refinement_fixture import refinement_score
+        for variant in ('Control','Study'):proof('refinements-'+variant.lower(),refinement_score(data),'Kumo Score '+variant)
+        assert hashlib.sha256(args.musescore.read_bytes()).hexdigest()==report['host_sha256']
+        (out/'native-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+        return
     if args.gliss_only:
         assert not args.score,'Use authored copies for gliss-only verification'
         for variant in ('Control','Study'):proof('gliss-'+variant.lower(),data,'Kumo Score '+variant)
@@ -156,6 +163,7 @@ if __name__=='__main__':
     section.add_argument('--text-only',action='store_true')
     section.add_argument('--waves-only',action='store_true')
     section.add_argument('--gliss-only',action='store_true',help='Authored native piano glissandi and trill control')
+    section.add_argument('--refinements-only',action='store_true',help='Actual Coda markers and accent-staccato objects')
     section.add_argument('--observed-only',action='store_true')
     section.add_argument('--text-sizing-only',action='store_true',help='Palette, native text integration, optional user copies and dynamics')
     p.add_argument('--score',type=Path,help='Optional read-only original; render isolated copies with archive assets preserved')
