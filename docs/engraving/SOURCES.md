@@ -1,5 +1,7 @@
 # 规范来源与证据等级
 
+2026-10-18新增来源与实际阅读范围见[RESOURCE_RESEARCH](RESOURCE_RESEARCH.md)，新增教材p54–58、78–84、200–202及对应条件见[NOTATION_DETAILS](NOTATION_DETAILS.md)。全目录清点和逐谱记录见[INDEX](corpus/INDEX.md)，没有将全部渲染算作全部已学习。
+
 核查日期：2026-10-09。这里列明**实际读到的范围**，不把软件默认值等同于普遍规范，也不声称已读完所列书籍。
 
 ## 来源索引

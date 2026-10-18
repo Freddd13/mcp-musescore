@@ -2,7 +2,7 @@
 
 2026-10-10。主目标是积累排法和判断能力，见 [PREFERENCES.md](PREFERENCES.md)。本次没有修改用户PDF、MSCZ、插件、字体或软件本体；新增5份官谱的29页发现材料，近读8页，重读用户PDF第2页，教材9个图页。HS01–HS08是横向专题定位，不冒充此前E01–E35之外已验收的自动规则。
 
-原图、9幅教材图、8幅专题裁图与自制原生探针均保留本机隔离目录。私人图集：`C:\Users\Fred\.codex\visualizations\2026\10\08\01a11a5f-d840-7eb3-84c2-39e9d493a830\engraving_spacing\atlas.html`。仓库只存分析、索引与自制fixture，不提交参考谱/书籍页或全文。精确路径、选择区域、测量和8个源文件保护见 [spacing_evidence.json](spacing_evidence.json)；结构、几何、链接与保护核查见 [spacing_verification.json](spacing_verification.json)。后者只验证研究证据与基线，不代表改善算法或审美已经验收。
+原图、9幅教材图、8幅专题裁图与自制原生探针均保留本机隔离目录。私人图集：`E:\programming\funcodes\mcp-musescore\tmp\engraving\legacy-2026-10-08\engraving_spacing\atlas.html`。仓库只存分析、索引与自制fixture，不提交参考谱/书籍页或全文。精确路径、选择区域、测量和8个源文件保护见 [spacing_evidence.json](spacing_evidence.json)；结构、几何、链接与保护核查见 [spacing_verification.json](spacing_verification.json)。后者只验证研究证据与基线，不代表改善算法或审美已经验收。
 
 ## 1. 判断“稳”需要分清三种距离
 

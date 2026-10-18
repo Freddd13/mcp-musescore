@@ -87,4 +87,4 @@ lit/My Soul部分BaseFont是CID泛名，This Game包含混淆名；不能据此�
 
 可复现实验脚本由字体线维护：[verify_bracket_branch.py](../../fonts/kumo-engrave/verify_bracket_branch.py)。其私有生成证据为 `fonts/kumo-engrave/dist/bracket-cause-probe/report.json` 及同目录PNG；生成文件不纳入本线提交。这补充的是字体名称/布局的诊断验证，不改变前述规范学习和打印验收的覆盖状态。
 
-原始谱与书籍只读，参考截图/全文索引留在本机隔离目录。私人图集：`C:\Users\Fred\.codex\visualizations\2026\10\08\01a11a5f-d840-7eb3-84c2-39e9d493a830\engraving_expansion\atlas.html`，含48幅定位裁图与解释，可筛选案例。不提交书或谱的页面、嵌入字体、OCR全文。
+原始谱与书籍只读，参考截图/全文索引留在本机隔离目录。私人图集：`E:\programming\funcodes\mcp-musescore\tmp\engraving\legacy-2026-10-08\engraving_expansion\atlas.html`，含48幅定位裁图与解释，可筛选案例。不提交书或谱的页面、嵌入字体、OCR全文。

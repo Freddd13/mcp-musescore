@@ -1,6 +1,8 @@
 # 钢琴净书研究：规范、案例与实现依据
 
-更新：2026-10-10。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
+更新：2026-10-18。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
+
+持续任务：[全目录学习与资源整理](CONTINUOUS_STUDY.md)。已清点并渲染全部146份PDF、1,135页；新阅读批次已审视8份谱49页，近读19页，见[逐谱一](corpus/READING_001.md)、[逐谱二](corpus/READING_002.md)及[覆盖记录](corpus/reviews.json)。新增[附点、变音与连音的判断](NOTATION_DETAILS.md)、[资源核实目录](RESOURCE_RESEARCH.md)。全部谱子的深入研究仍在进行中。缓存已迁E盘，位置见[CACHE_LOCATIONS](CACHE_LOCATIONS.md)。
 
 当前优先阅读：[个人偏好与应用方法](PREFERENCES.md)、[横向间距专题](SPACING_STUDY.md)。用户进一步明确：需要持续学习并形成具体的审美判断、建议与后续自动净书能力，不以规则数量/技术检查替代。新专题增加5份官谱、8个定位观察和一个自制原生复现，尚未制作改善候选；HS编号与以下35个正式E案例分开记录。
 
@@ -37,7 +39,7 @@ PDF 是版面事实，不提供完整的编辑对象和音乐作用域。`如果
 
 本批仅只读原 PDF、MSCZ 和软件代码。使用既有页面渲染生成本机裁图/HTML；没有修改原谱、字体、MCP、插件或 MuseScore 本体，也未操作当前 GUI 乐谱。参考谱图不入 Git，保留在隔离目录，`cases.json` 记录复查路径。仓库中的文字分析与索引可跨对话使用；本机图集不保证在其他电脑可用。
 
-本机图集：`C:\Users\Fred\.codex\visualizations\2026\10\08\01a11a5f-d840-7eb3-84c2-39e9d493a830\engraving_stage_a\atlas.html`。浏览器可以按案例选择片段和查看坐标。裁图用于分析，不是新的排版成品；保持原渲染的比例，未作为印刷尺寸示范。
+本机图集：`E:\programming\funcodes\mcp-musescore\tmp\engraving\legacy-2026-10-08\engraving_stage_a\atlas.html`。浏览器可以按案例选择片段和查看坐标。裁图用于分析，不是新的排版成品；保持原渲染的比例，未作为印刷尺寸示范。
 
 ## 下一步
 
