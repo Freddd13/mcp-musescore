@@ -20,6 +20,12 @@ PENDING_HASH='5c830c3968099822dff2c1cb3edbdfd54c37ce4a608c0ac71f64e38463b64846'
 EMPTY_AUDIT_HASH='a872515b956c7c6cd34c07d289a31ed39c506f4e1a687541901945f25724f8bb'
 EMPTY_CATALOG_AUDIT_HASH='0659dcc2ee773f94cca05a99bdaef48c5a0c70e9c82713ba12222def6427a9c7'
 EMPTY_CATALOG_CONTROLS_HASH='0c0950ca959c4393af4bd1785e7a6d67012492952254b129618f4dbcb84dbd06'
+HIDDEN_OBJECTS_HASH='0910e66466026980350cc28174b18a8f5f779f1f54cb776e745d256840fa1f10'
+HIDDEN_LAYOUT_HASH='c78c9cc29a022a97def58f5f2c1ac14742213da57e30b8b7a53039ba7370055b'
+HIDDEN_VISIBILITY_HASH='276368e3af2b73d856735a52b411fc9e9fab2d9b1fd48e747b788a20e4b487c4'
+# Reviewed complete words in A057's hidden ordinary-text subset, not a music
+# encoding. Python whitespace stripping had removed five of these source keys.
+H112_TEXT_ALPHABET=dict(enumerate(['l','.','h','c','r','e','s','i','t','d','m','a',' ','p','o'],1))
 
 
 def add(mapping, symbols, codes):
@@ -109,9 +115,9 @@ def selected_roles(directory):
     raise KeyError(directory)
 
 
-# Full-object samples distinguish hidden music from ordinary type. The remaining
-# groups were viewed as title/credit, rehearsal/tempo, tuplet/fingering or prose;
-# that review does not certify every unshown character of their font subsets.
+# Initially distinguished by full-object samples; the later full-object/key
+# review (HIDDEN_FONT_COVERAGE.md) confirmed these music roles and ordinary type
+# groups. This does not certify every same-string occurrence at every size.
 HIDDEN_MUSIC={
  'H005':{'kumoSwingSixteenths','kumoSwingTripletEighthSixteenth','timeSigEquals'},
  'H008':{'fermataAbove','fermataBelow'},'H027':{'fermataAbove'},
