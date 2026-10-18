@@ -1,6 +1,28 @@
 # Codex 安装与使用
 
-本分支使用 Codex desktop / CLI 的本地 stdio MCP。skill 是操作指导，MCP 是实际工具连接，QML 插件负责访问打开的乐谱；三者都要准备。无需 Claude Desktop，也无需额外 OpenAI API key。
+## 使用完整程序包
+
+0.63 起从 MuseScore 的“视图 → AI 连接”点“配置 Codex”，再点“检查连接”。打开多个窗口时选择谱名。重新连接 Codex 或新建对话后，可以直接说“读取当前谱名和选区”。
+
+程序包包含 `bin/tools/mcp/MuseScoreMCP.exe` 和运行文件。用户直接使用 exe；开发环境的 Python 与虚拟环境留在本仓库。
+
+Codex 使用本地 stdio 启动命令。手动配置可从程序窗口复制，示例如下，路径按安装位置调整：
+
+```toml
+[mcp_servers.musescore]
+command = 'E:\programming\funcodes\muse3_dev\MuseScore\msvc.install_repair_current_x64\bin\tools\mcp\MuseScoreMCP.exe'
+args = ['--stdio', '--application', 'E:\programming\funcodes\muse3_dev\MuseScore\msvc.install_repair_current_x64\bin\MuseScore3Evo.exe']
+startup_timeout_sec = 20
+tool_timeout_sec = 60
+```
+
+配置默认保存在 `~/.codex/config.toml`。程序修改 MuseScore 一项前会备份，保留其它设置。移动程序后再点“配置 Codex”更新路径。可用 `codex mcp list` 检查登记。
+
+AI 连接受程序旁 `kumo.ini` 的 `features/enable_exp_feature` 控制。关闭后，MCP 仅提供开关状态查询。开启并重启程序后重新连接 Codex。
+
+## 从源码运行与 0.62 及更早程序
+
+下面保留开发者和旧程序的安装方法。新程序使用上面的完整程序包即可。
 
 ## 1. 安装 Python 服务、注册 MCP 与 skill
 
