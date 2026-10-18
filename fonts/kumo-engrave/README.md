@@ -1,6 +1,14 @@
 # Kumo 音乐字体研究与历史原型
 
-**评审状态：0.2和0.3均已被用户否定，不再作为推荐候选。** 当前仅有按用户官谱实际字形制作的7字本机可行性小样，见 [PDF参照研究](PDF_REFERENCE_STUDY.md)。它不是完整字体或新发布包。
+**评审状态：0.2和0.3均已被用户否定，不再作为推荐候选。** 当前本机研究小样为 **Kumo Score Study 0.410，75 个替换码位**，依据用户提供的官谱文字对象栅格建立轮廓；未改部分保留 Leland。整个目录已清点146份PDF、1,135页，覆盖审计仍在进行，不能把75字当作“所有出现符号”已经完成。详见 [全目录研究](CORPUS_STUDY.md) 和 [早期7字试验](PDF_REFERENCE_STUDY.md)。
+
+## 当前本机小样的试用
+
+将 `dist/corpus-font-049/Kumo Score Study/` 和 `dist/corpus-font-049/Kumo Score Study Text/` 两个完整文件夹复制到 Evolution 偏好设置指定的 **Score Fonts** 目录，然后重启。在乐谱**独立副本**的“格式 → 样式 → 乐谱”选择音乐符号字体 **Kumo Score Study**、音乐 Text 字体 **Kumo Score Study Text**；第一轮保持现有谱距和样式参数。
+
+这次必须同时选择新的 Text，才能使用已验证的组合力度和速度音符；下文“保持内置Leland Text”属于旧0.3的历史步骤。无需重装MCP、skill或Windows字体。更新字体时成对更换OTF/JSON并重启即可；小样仍在本机忽略目录，未加入公开原型ZIP。原生对照在 `dist/corpus-native-049/`，其中 `palette-study-1-white.png` 为整页，`native-first-systems.png` 为同尺度Control/Study对照，三张 `atlas-*-1-white.png` 覆盖全部75字。
+
+当前保持Leland音乐493字覆盖；Text从182字扩至233字。仍有少见符号、复合标记和特殊编码需要核对，原始曲线、原字体字宽及hinting没有恢复。版本和保护边界见 [全目录研究](CORPUS_STUDY.md)。
 
 **以下保留0.3历史说明：`Kumo Piano EX`：用户已否定0.2过细、不像目标的观感；0.3直接对照Chaconne Ex官方字形修订。** 新版仍基于Leland 0.80，旧Kumo Piano和Maestro原型保留。相对0.2重改26个轮廓，见 [直接字形对照](EX_REDRAW.md)。 按用户要求，以实际 Animenz 官谱为视觉参考，独立绘制 38 个常用字形：三种符头、G/F 谱号、七种休止、五种变音、四种旗尾、四种琶音、附点、十种上下发音符号、两种上下延长号。其余字形沿用 Leland。参考扩展到 14 份谱子的 33 页，出处与设计决定见 [ANIMENZ_REFERENCE.md](ANIMENZ_REFERENCE.md)。没有提取、描摹或重新包装 Chaconne。
 

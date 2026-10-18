@@ -90,6 +90,7 @@ def run(args):
         if not raw:raise RuntimeError('Text-object rasterization failed')
         bitmap=pdf.PdfBitmap.from_raw(raw);image=bitmap.to_pil().copy()
         # This API creates a caller-owned bitmap. All pixels were copied above.
+        bitmap.warn_on_close=False
         bitmap.close()
         alpha=image.getchannel('A') if image.mode=='RGBA' else Image.eval(image.convert('L'),lambda x:255-x)
         loops=trace_pixels(np.asarray(alpha)>127)
