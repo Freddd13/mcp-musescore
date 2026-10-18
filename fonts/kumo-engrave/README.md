@@ -1,16 +1,18 @@
 # Kumo 音乐字体研究与历史原型
 
+**编码覆盖补记：** 三项空白音乐图录已遍历117份相关PDF，457个源字符位置确认无墨迹，另区分298个生成间隔；八份特殊编码谱的296逐PDF键样本、65组代表及18处原页已核对。纠正Chaconne U+004B选样为八分上符尾，本轮不改0.500字形或大小。见[ENCODING_VARIANTS](ENCODING_VARIANTS.md)。
+
 **路径复核补记：** A064的864个代表图已保存角色决定；7,299项填充路径完成成员归属核对，十项空白确认是反向边填充抵消。普通文字／连音／速度数字与音乐字体分开；本轮没有改变0.500字形及mf、八度大小，无需重新安装。范围和具体误判例见[PATH_ROLE_COVERAGE](PATH_ROLE_COVERAGE.md)。
 
 **最新0.500：** Coda和下方重音断音改用原页核查后的实际曲线，仍112处理码位、97个含三次曲线；其它Music/Text字形和度量保持，mf、八度及踏板的实谱大小未变。包`dist/kumo-score-study-0.500-local.zip`，字库`dist/corpus-font-141/`，安装方式同下。7套音乐图录399个选样及269个隐藏字体组已有明确范围的核查，尚未宣布全目标完成。详见[图录覆盖与两枚改善](CATALOG_COVERAGE.md)。
 
 **0.490补充：** 专用波浪滑音已接入Evolution个人0.71原生接口。全部Music/Text轮廓和度量与0.480一致，保持已校正的mf、八度与踏板大小；仅Study音乐JSON增加可选声明。试用包`dist/kumo-score-study-0.490-local.zip`，字库`dist/corpus-font-114/`。旧宿主仍用原波形；无需重装MCP/skill。接口、实谱检查和使用限制见[NATIVE_GLISSANDO](NATIVE_GLISSANDO.md)。以下0.480安装方法同样适用，0.480包保留。
 
-**评审状态：0.2和0.3均已被用户否定，不再作为推荐候选。** 当前本机研究小样为 **Kumo Score Study 0.480，112 个处理码位**。修复用户指出的Text力度、八度和踏板偏小：同谱距实测mf恢复至原字体约96%，8/8va接近原有大小。音乐字形保持0.470；95个字形含三次曲线，未改部分保留Leland。整个目录仍146份PDF、1,135页，覆盖审计继续，不能把112码位当作“所有出现符号”已经完成。详见 [实际尺寸修正](TEXT_SIZING.md)、[来源曲线与组合验证](REMAINING_CURVES.md) 和 [全目录研究](CORPUS_STUDY.md)。
+**评审状态：0.2和0.3均已被用户否定，不再作为推荐候选。** 当前本机研究小样为 **Kumo Score Study 0.500，112 个处理码位、97个含三次曲线**。保留用户指出的Text力度、八度和踏板偏小问题的修正：同谱距实测mf为Leland Text基线约96%，8/8va接近基线，未改部分保留Leland。整个目录仍146份PDF、1,135页，覆盖核查继续，不能把112码位当作“所有出现符号”已经完成。详见 [实际尺寸修正](TEXT_SIZING.md)、[来源曲线与组合验证](REMAINING_CURVES.md) 和 [全目录研究](CORPUS_STUDY.md)。
 
 ## 当前本机小样的试用
 
-先查看 Evolution 偏好设置指定的 **Score Fonts** 目录并退出软件。解压本机包 `dist/kumo-score-study-0.480-current-local.zip`，或将 `dist/corpus-font-104/Kumo Score Study/` 和 `dist/corpus-font-104/Kumo Score Study Text/` 两个完整文件夹复制进去。重新打开软件，在乐谱**独立副本**的“格式 → 样式 → 乐谱”同时选择 **Kumo Score Study** 与 **Kumo Score Study Text**；第一轮保持现有谱距和样式参数。
+先查看 Evolution 偏好设置指定的 **Score Fonts** 目录并退出软件。解压本机包 `dist/kumo-score-study-0.500-local.zip`，或将 `dist/corpus-font-141/Kumo Score Study/` 和 `dist/corpus-font-141/Kumo Score Study Text/` 两个完整文件夹复制进去。重新打开软件，在乐谱**独立副本**的“格式 → 样式 → 乐谱”同时选择 **Kumo Score Study** 与 **Kumo Score Study Text**；第一轮保持现有谱距和样式参数。0.480旧包保留作历史对照，最新0.500验证范围见[CATALOG_COVERAGE](CATALOG_COVERAGE.md)。
 
 这次必须同时选择新的 Text，才能使用尺寸修正及已验证的组合力度、速度音符；下文“保持内置Leland Text”属于旧0.3的历史步骤。无需重装MCP、skill或Windows字体。更新时先退出软件，再成对更换两个家族的OTF/JSON，重新打开即可。小样仍在本机忽略目录，未加入公开原型ZIP。刚更新的当前安装版已完成全套字体/用户谱验证，证据 `dist/current-native-full-110/`，大小检查与固定宿主一致；见 [当前宿主与覆盖验收](COVERAGE_RECONCILIATION.md)。旧二进制的崩溃记录保留，不能混同于本次通过的新二进制。
 

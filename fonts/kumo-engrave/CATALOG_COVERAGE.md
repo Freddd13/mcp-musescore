@@ -17,7 +17,7 @@
 | OpusSpecialStd | 7 | 7 |
 | 合计 | 399 | 396 |
 
-每个实际选样明确对应已制作的字形或组合，所有指定目标在最终Study Music与Text中存在。不是399种不同的符号，也不把同名字体在另一PDF里的同一编码自动当作相同符号。手工决定固定到原图录SHA，见[source/reviewed_catalog_roles.py](source/reviewed_catalog_roles.py)，核查脚本[audit_catalog_coverage.py](audit_catalog_coverage.py)，最终结果`dist/catalog-coverage-147/catalog-coverage.json`。三项无墨迹选样另列，尚不能由抽样断言所有对应对象均为空。
+每个实际选样明确对应已制作的字形或组合，所有指定目标在最终Study Music与Text中存在。不是399种不同的符号，也不把同名字体在另一PDF里的同一编码自动当作相同符号。手工决定固定到原图录SHA，见[source/reviewed_catalog_roles.py](source/reviewed_catalog_roles.py)，核查脚本[audit_catalog_coverage.py](audit_catalog_coverage.py)，初次结果`dist/catalog-coverage-147/catalog-coverage.json`。后续逐页核查已关闭三项空白：117份相关PDF、457个源字符位置均无墨迹，另区分298个生成间隔；两项无字图另经原页隔离渲染确认。并纠正Chaconne U+004B选样为八分上符尾，最终结果`dist/catalog-coverage-167/`。八份特殊编码谱的296逐PDF键样本及65组代表对应见[ENCODING_VARIANTS](ENCODING_VARIANTS.md)。
 
 另看完269个隐藏字体组的12张整对象联系表，并回原页看13个音乐组的16处情境。分类为243个普通文字/数字组的选样、13个音乐组的选样和13个此前已穷举所有对象而确认无墨迹的组。普通文字包括标题、版权、速度表情术语、排练字母与连音/指法数字；其字面和字号仍走宿主对应文本样式，不能用替换音乐码位冒充。**前两类只确认所展示的样本，不宣称每个未展示的字符都经过独立核查。** 13个无墨迹组的全对象证据继续引用`pending-empty-052/audit.json`。
 

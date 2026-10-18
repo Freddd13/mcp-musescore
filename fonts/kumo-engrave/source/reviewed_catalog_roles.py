@@ -18,6 +18,8 @@ CATALOG_HASHES = {
 }
 PENDING_HASH='5c830c3968099822dff2c1cb3edbdfd54c37ce4a608c0ac71f64e38463b64846'
 EMPTY_AUDIT_HASH='a872515b956c7c6cd34c07d289a31ed39c506f4e1a687541901945f25724f8bb'
+EMPTY_CATALOG_AUDIT_HASH='0659dcc2ee773f94cca05a99bdaef48c5a0c70e9c82713ba12222def6427a9c7'
+EMPTY_CATALOG_CONTROLS_HASH='0c0950ca959c4393af4bd1785e7a6d67012492952254b129618f4dbcb84dbd06'
 
 
 def add(mapping, symbols, codes):
@@ -38,7 +40,12 @@ def selected_roles(directory):
     add(base,'flagInternalDown flag32ndDown kumoFlag8thDownShort','00D4')
     add(base,'accidentalParensLeft noteheadParenthesisLeft','0028')
     add(base,'accidentalParensRight noteheadParenthesisRight','0029 000C')
-    if directory in ('chaconne-catalog-v2','OpusStd-catalog-v2'):return base
+    if directory=='chaconne-catalog-v2':
+        # The selected U+004B is the single eighth-up flag. Native 32nd/internal
+        # flags have separate, verified sources; don't inherit the old proposal.
+        add(base,'flag8thUp','004B')
+        return base
+    if directory=='OpusStd-catalog-v2':return base
     if directory=='cid1-catalog-v2':
         add(base,'caesura','0022')
         add(base,'dynamicSforzando1','0053')
