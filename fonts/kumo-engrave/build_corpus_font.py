@@ -12,6 +12,7 @@ from fontTools.feaLib.builder import addOpenTypeFeaturesFromString
 from build import ROOT,rename,bounds
 from source.contours import vertical_edges,inside,area
 from source.pdf_symbol_map import LIGATURES
+from source.symbol_names import load_symbol_names
 
 
 def ink_intervals(loops,x):
@@ -145,6 +146,12 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
                         x=min(max(point[0]*250,box[0]+2),box[2]-2)
                         low,high=ink_intervals(loops,x)[0 if 'Up' in key else -1]
                         anchors[key]=[x/250,(low+high)/500]
+            if symbol=='noteheadCircleX':
+                for key,x,side in [('stemDownNW',box[0]+2,box[0]),('stemUpSE',box[2]-2,box[2])]:
+                    low,high=min(ink_intervals(loops,x),key=lambda span:abs(sum(span)/2))
+                    y=(low+high)/2
+                    assert sum(inside(v,(x,y)) for v in loops)%2
+                    anchors[key]=[side/250,y/250]
             if symbol.startswith('flag'):
                 anchors['stemUpNW' if symbol.endswith('Up') else 'stemDownSW']=[0,0]
             if item['repeat']:anchors['repeatOffset']=[item['repeat']/250,0]
@@ -187,7 +194,7 @@ def write_font(base_path,out,family,data,sm,control=False,text=False):
 
 def run(args):
     assert not args.output.exists(),'Use a new build directory'
-    data=json.loads(args.capture.read_text(encoding='utf-8'));sm=json.loads(args.glyphnames.read_text(encoding='utf-8'))
+    data=json.loads(args.capture.read_text(encoding='utf-8'));sm=load_symbol_names(args.glyphnames)
     report=dict(capture_sha256=hashlib.sha256(args.capture.read_bytes()).hexdigest(),fonts={})
     for control in [True,False]:
         for text in [False,True]:

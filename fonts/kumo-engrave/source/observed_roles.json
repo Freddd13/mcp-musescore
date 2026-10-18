@@ -1,0 +1,22 @@
+{
+  "version": "0.450",
+  "glyphs": [
+    {"group":"G050","symbol":"wiggleGlissando","mode":"center_y","route":"Text only; MuseScore3 native wavy glissando uses wiggleTrill"},
+    {"group":"G074","symbol":"breathMarkComma","mode":"bottom_zero"},
+    {"group":"G076","symbol":"articMarcatoStaccatoAbove","mode":"bottom_zero"},
+    {"group":"G125","symbol":"noteheadCircleX","mode":"center_y"},
+    {"group":"G080","symbol":"flagInternalUp","mode":"flag_up"},
+    {"group":"G127","symbol":"tremolo2","mode":"center_xy","fallback_raster":true,"route":"Text only; native Tremolo draws geometry"}
+  ],
+  "derived": [
+    {"symbol":"articMarcatoStaccatoBelow","from":"articMarcatoStaccatoAbove","reflect_y":true},
+    {"symbol":"flag32ndUp","group":"G080","text_objects":[663,664],"mode":"flag_up"}
+  ],
+  "page_components": [
+    {"symbol":"dynamicMezzo","parent":"dynamicMF","page":1,"object_index":1079,"contours":[1]},
+    {"symbol":"dynamicSforzando","parent":"dynamicSforzato","page":5,"object_index":164,"contours":[1]},
+    {"symbol":"dynamicZ","parent":"dynamicSforzato","page":5,"object_index":164,"contours":[2]}
+  ],
+  "repeat_dot":{"page":3,"object_index":891},
+  "brace":{"page":1,"objects":[19,20],"nominal_height_units":1000,"two_staff_magnification":3.625,"variants":["braceSmall","brace","braceLarge","braceLarger"]}
+}

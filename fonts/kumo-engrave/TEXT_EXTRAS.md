@@ -1,5 +1,7 @@
 # 0.420 起支持的行内额外符号
 
+0.450补充：圈叉、呼吸、32分上符尾、组合奏法、反复点与大括号使用软件原有操作。独立`wiggleGlissando`与`tremolo2`虽可作为音乐符号插入Text，原生滑音和Tremolo另走复用/几何路径，不能通过插入文字代替实际音乐对象。具体边界见 [OBSERVED_SYMBOLS](OBSERVED_SYMBOLS.md)。
+
 先安装并选择 Kumo Score Study 与 Kumo Score Study Text。8va／数字8、音符括号和 sf 使用原有八度线、括号及力度操作即可，不必输入下面的私有码位。sf 的内容仍为 sf，由字体 liga 选择完整形状，回放不变。
 
 下列字符用于独立文字中的速度／swing标记。在文字编辑状态选中这些字符，将该段字体设为 **Kumo Score Study Text**；普通说明文字继续用原来的文字字体。私有码位在其它字体中可能显示为空框。

@@ -1,14 +1,14 @@
 # Kumo 音乐字体研究与历史原型
 
-**评审状态：0.2和0.3均已被用户否定，不再作为推荐候选。** 当前本机研究小样为 **Kumo Score Study 0.440，92 个处理码位**，其中42个采用页面矢量或配套适配，41个含三次曲线；其余沿前版轮廓，未改部分保留 Leland。整个目录已清点146份PDF、1,135页，覆盖审计仍在进行，不能把92字当作“所有出现符号”已经完成。详见 [曲线接入与验证](VECTOR_STUDY.md)、[全目录研究](CORPUS_STUDY.md) 和 [波线修订](WAVE_STUDY.md)。
+**评审状态：0.2和0.3均已被用户否定，不再作为推荐候选。** 当前本机研究小样为 **Kumo Score Study 0.450，108 个处理码位**。本轮新增圈叉符头、呼吸、32分上符尾、组合奏法、反复点、大括号等16码位，其中15个保留曲线；未改部分保留 Leland。整个目录已清点146份PDF、1,135页，覆盖审计仍在进行，不能把108码位当作“所有出现符号”已经完成。详见 [新角色与宿主路径](OBSERVED_SYMBOLS.md)、[曲线接入与验证](VECTOR_STUDY.md) 和 [全目录研究](CORPUS_STUDY.md)。
 
 ## 当前本机小样的试用
 
-先查看 Evolution 偏好设置指定的 **Score Fonts** 目录并退出软件。解压本机包 `dist/kumo-score-study-0.440-local.zip`，或将 `dist/corpus-font-068/Kumo Score Study/` 和 `dist/corpus-font-068/Kumo Score Study Text/` 两个完整文件夹复制进去。重新打开软件，在乐谱**独立副本**的“格式 → 样式 → 乐谱”同时选择 **Kumo Score Study** 与 **Kumo Score Study Text**；第一轮保持现有谱距和样式参数。
+先查看 Evolution 偏好设置指定的 **Score Fonts** 目录并退出软件。解压本机包 `dist/kumo-score-study-0.450-local.zip`，或将 `dist/corpus-font-076/Kumo Score Study/` 和 `dist/corpus-font-076/Kumo Score Study Text/` 两个完整文件夹复制进去。重新打开软件，在乐谱**独立副本**的“格式 → 样式 → 乐谱”同时选择 **Kumo Score Study** 与 **Kumo Score Study Text**；第一轮保持现有谱距和样式参数。
 
-这次必须同时选择新的 Text，才能使用已验证的组合力度和速度音符；下文“保持内置Leland Text”属于旧0.3的历史步骤。无需重装MCP、skill或Windows字体。更新时先退出软件，再成对更换两个家族的OTF/JSON，重新打开即可。小样仍在本机忽略目录，未加入公开原型ZIP。当前原生测试、92字图录和用户谱副本均在 `dist/corpus-native-067/`，来源对照在 `dist/vector-verify-067/`。
+这次必须同时选择新的 Text，才能使用已验证的组合力度和速度音符；下文“保持内置Leland Text”属于旧0.3的历史步骤。无需重装MCP、skill或Windows字体。更新时先退出软件，再成对更换两个家族的OTF/JSON，重新打开即可。小样仍在本机忽略目录，未加入公开原型ZIP。固定0.21宿主测试在 `dist/corpus-native-078/`，新谱例最终修正在 `dist/observed-native-081/`。本轮当前安装宿主导入异常，旧字体也复现，未称通过；证据见 [验证边界](OBSERVED_SYMBOLS.md#本机文件与验证边界)。
 
-当前完整保留Leland原覆盖，音乐493→501字、Text182→249字。新加的组合标记有明确Unicode入口，见 [额外符号使用](TEXT_EXTRAS.md)。短下符尾只作为显式备选保存，普通音符不会自动切换。仍有少见符号、复合标记和特殊编码需要核对；本轮保留页面现有曲线，未恢复完整字体程序、原字距或hinting。
+当前完整保留Leland原覆盖，音乐493→502字、Text182→262字。新加的组合标记有明确Unicode入口，见 [额外符号使用](TEXT_EXTRAS.md)。短下符尾只作为显式备选保存，普通音符不会自动切换。仍有少见符号、复合标记和特殊编码需要核对；本轮保留页面/字符现有曲线，未恢复完整字体程序、原字距或hinting。
 
 **以下保留0.3历史说明：`Kumo Piano EX`：用户已否定0.2过细、不像目标的观感；0.3直接对照Chaconne Ex官方字形修订。** 新版仍基于Leland 0.80，旧Kumo Piano和Maestro原型保留。相对0.2重改26个轮廓，见 [直接字形对照](EX_REDRAW.md)。 按用户要求，以实际 Animenz 官谱为视觉参考，独立绘制 38 个常用字形：三种符头、G/F 谱号、七种休止、五种变音、四种旗尾、四种琶音、附点、十种上下发音符号、两种上下延长号。其余字形沿用 Leland。参考扩展到 14 份谱子的 33 页，出处与设计决定见 [ANIMENZ_REFERENCE.md](ANIMENZ_REFERENCE.md)。没有提取、描摹或重新包装 Chaconne。
 

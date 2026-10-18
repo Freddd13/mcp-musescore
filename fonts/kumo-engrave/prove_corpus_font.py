@@ -16,9 +16,13 @@ def run(args):
     prefix=[str(args.musescore),'-s','-m','-c',str(config)]
     report=dict(host=str(args.musescore),host_sha256=hashlib.sha256(args.musescore.read_bytes()).hexdigest(),proofs={})
     def convert(label,options,source):
-        result=subprocess.run(prefix+options+[str(source)],env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=90)
+        try:
+            result=subprocess.run(prefix+options+[str(source)],env=env,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=90)
+        except subprocess.TimeoutExpired as error:
+            (out/(label+'.log')).write_bytes(error.output or b'')
+            raise
         (out/(label+'.log')).write_bytes(result.stdout)
-        if result.returncode:raise RuntimeError(label+' native conversion failed')
+        if result.returncode:raise RuntimeError(label+' native conversion failed: '+str(result.returncode))
         print(label,'OK',flush=True)
     fixture=out/'palette.mscx'
     convert('import',['-o',str(fixture)],ROOT/'fixtures/piano-palette.musicxml')
@@ -52,13 +56,25 @@ MuseScore {
         status=json.loads(state.read_text(encoding='utf-8'));assert status['symbolRegistered'] and status['textRegistered']
         assert status['symbol']==family and status['text']==family+' Text'
         report['proofs'][label]=status
-    if not args.text_only and not args.waves_only:
+    if not args.text_only and not args.waves_only and not args.observed_only:
         for variant in ('Control','Study'):proof('palette-'+variant.lower(),data,'Kumo Score '+variant)
         from source.extension_fixture import integration_score
         extra=integration_score(data)
         for variant in ('Control','Study'):
             source=extra.replace(b'Kumo Score Study Text',('Kumo Score '+variant+' Text').encode())
             proof('integration-'+variant.lower(),source,'Kumo Score '+variant)
+    if not args.text_only and not args.waves_only and 'noteheadCircleX' in build['fonts']['Kumo Score Study']['changed']:
+        from source.observed_fixture import observed_score,brace_score
+        for variant in ('Control','Study'):
+            proof('observed-'+variant.lower(),observed_score(data),'Kumo Score '+variant)
+        if not args.observed_only:
+            for count in (1,2,3,4,6):
+                proof('brace-%d'%count,brace_score(data,count),'Kumo Score Study')
+    if args.observed_only:
+        assert not args.score,'The observed-only fixture does not render user scores'
+        assert hashlib.sha256(args.musescore.read_bytes()).hexdigest()==report['host_sha256']
+        (out/'native-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+        return
     if not args.text_only:
         from source.wave_fixture import wave_score
         for variant in ('Control','Study'):proof('waves-'+variant.lower(),wave_score(data),'Kumo Score '+variant)
@@ -129,5 +145,6 @@ if __name__=='__main__':
     section=p.add_mutually_exclusive_group()
     section.add_argument('--text-only',action='store_true')
     section.add_argument('--waves-only',action='store_true')
+    section.add_argument('--observed-only',action='store_true')
     p.add_argument('--score',type=Path,help='Optional read-only original; render isolated copies with archive assets preserved')
     run(p.parse_args())
