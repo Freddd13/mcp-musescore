@@ -2,7 +2,7 @@
 
 更新：2026-10-18。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
 
-持续任务：[全目录学习与资源整理](CONTINUOUS_STUDY.md)。已清点并渲染全部146份PDF、1,135页；新阅读批次已审视33份谱354页，近读102页，见[逐谱一](corpus/READING_001.md)、[逐谱二](corpus/READING_002.md)、[逐谱三](corpus/READING_003.md)、[逐谱四](corpus/READING_004.md)、[逐谱五](corpus/READING_005.md)、[逐谱六](corpus/READING_006.md)、[154页串烧的13章](corpus/READING_MEDLEY_200.md)及[覆盖记录](corpus/reviews.json)。新增[附点、变音与连音的判断](NOTATION_DETAILS.md)、[资源核实目录](RESOURCE_RESEARCH.md)与[规划落实](RESOURCE_PLAN_MAPPING.md)。全部谱子的深入研究仍在进行中。缓存已迁E盘，位置见[CACHE_LOCATIONS](CACHE_LOCATIONS.md)。
+持续任务：[全目录学习与资源整理](CONTINUOUS_STUDY.md)。已清点并渲染全部146份PDF、1,135页；新阅读批次已审视45份谱441页，近读131页，见[逐谱一](corpus/READING_001.md)、[逐谱二](corpus/READING_002.md)、[逐谱三](corpus/READING_003.md)、[逐谱四](corpus/READING_004.md)、[逐谱五](corpus/READING_005.md)、[逐谱六](corpus/READING_006.md)、[逐谱七](corpus/READING_007.md)、[逐谱八](corpus/READING_008.md)、[154页串烧的13章](corpus/READING_MEDLEY_200.md)及[覆盖记录](corpus/reviews.json)。新增[附点、变音与连音的判断](NOTATION_DETAILS.md)、[资源核实目录](RESOURCE_RESEARCH.md)与[规划落实](RESOURCE_PLAN_MAPPING.md)。全部谱子的深入研究仍在进行中。缓存已迁E盘，位置见[CACHE_LOCATIONS](CACHE_LOCATIONS.md)。
 
 当前优先阅读：[个人偏好与应用方法](PREFERENCES.md)、[横向间距专题](SPACING_STUDY.md)。用户进一步明确：需要持续学习并形成具体的审美判断、建议与后续自动净书能力，不以规则数量/技术检查替代。新专题增加5份官谱、8个定位观察和一个自制原生复现，尚未制作改善候选；HS编号与以下35个正式E案例分开记录。
 

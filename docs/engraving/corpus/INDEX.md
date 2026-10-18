@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录33份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录45份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -41,18 +41,18 @@
 | A031 | Connect - Puella Magi Madoka☆Magica - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_006.md](READING_006.md) |
 | A032 | crossing field - Sword Art Online - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_006.md](READING_006.md) |
 | A033 | Cry Baby - Tokyo Revengers - Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_006.md](READING_006.md) |
-| A034 | Daisy - Kyoukai no Kanata - Ending Theme.pdf | 5 | 待逐谱阅读 | — |
-| A035 | Dango Daikazoku  - CLANNAD - Ending Theme.pdf | 4 | 待逐谱阅读 | — |
-| A036 | departure! - Hunter × Hunter - Opening Theme.pdf | 9 | 待逐谱阅读 | — |
-| A037 | Departures - Guilty Crown - 1st Ending Theme.pdf | 6 | 待逐谱阅读 | — |
-| A038 | Don't say lazy - K-ON! - Ending Theme.pdf | 8 | 待逐谱阅读 | — |
-| A039 | Eien no Fuzai Shoumei - Detective Conan Movie The Scarlet Bullet - Theme Song.pdf | 5 | 待逐谱阅读 | — |
-| A040 | EONIAN - Expelled from Paradise - Theme song.pdf | 6 | 待逐谱阅读 | — |
-| A041 | Euterpe - Guilty Crown - Soundtrack.pdf | 5 | 待逐谱阅读 | — |
-| A042 | Everyday World - Oregairu Zoku - Ending Theme.pdf | 6 | 待逐谱阅读 | — |
-| A043 | Extra Magic Hour - Amagi Brilliant Park - Opening Theme.pdf | 8 | 待逐谱阅读 | — |
-| A044 | Fate stay night：Heaven's Feel Medley.pdf | 11 | 待逐谱阅读 | — |
-| A045 | FRIEREN Beyond Journey's End - Soundtrack Medley.pdf | 14 | 待逐谱阅读 | — |
+| A034 | Daisy - Kyoukai no Kanata - Ending Theme.pdf | 5 | 已有逐谱案例 | [READING_007.md](READING_007.md) |
+| A035 | Dango Daikazoku  - CLANNAD - Ending Theme.pdf | 4 | 已有逐谱案例 | [READING_007.md](READING_007.md) |
+| A036 | departure! - Hunter × Hunter - Opening Theme.pdf | 9 | 已有逐谱案例 | [READING_007.md](READING_007.md) |
+| A037 | Departures - Guilty Crown - 1st Ending Theme.pdf | 6 | 已有逐谱案例 | [READING_007.md](READING_007.md) |
+| A038 | Don't say lazy - K-ON! - Ending Theme.pdf | 8 | 已有逐谱案例 | [READING_007.md](READING_007.md) |
+| A039 | Eien no Fuzai Shoumei - Detective Conan Movie The Scarlet Bullet - Theme Song.pdf | 5 | 已有逐谱案例 | [READING_007.md](READING_007.md) |
+| A040 | EONIAN - Expelled from Paradise - Theme song.pdf | 6 | 已有逐谱案例 | [READING_008.md](READING_008.md) |
+| A041 | Euterpe - Guilty Crown - Soundtrack.pdf | 5 | 已有逐谱案例 | [READING_008.md](READING_008.md) |
+| A042 | Everyday World - Oregairu Zoku - Ending Theme.pdf | 6 | 已有逐谱案例 | [READING_008.md](READING_008.md) |
+| A043 | Extra Magic Hour - Amagi Brilliant Park - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_008.md](READING_008.md) |
+| A044 | Fate stay night：Heaven's Feel Medley.pdf | 11 | 已有逐谱案例 | [READING_008.md](READING_008.md) |
+| A045 | FRIEREN Beyond Journey's End - Soundtrack Medley.pdf | 14 | 已有逐谱案例 | [READING_008.md](READING_008.md) |
 | A046 | Fubuki - Kantai Collection - Ending Song.pdf | 7 | 待逐谱阅读 | — |
 | A047 | Giorno's Theme - JoJo's Bizarre Adventure：Golden Wind - Soundtrack.pdf | 5 | 待逐谱阅读 | — |
 | A048 | Go Shiina - Entrance to Infinity Castle (Demon Slayer_ Hashira Training Arc - OST).pdf | 7 | 待逐谱阅读 | — |
