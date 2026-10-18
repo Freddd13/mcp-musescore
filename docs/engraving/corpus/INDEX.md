@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录117份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录129份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -125,18 +125,18 @@
 | A115 | Snow halation - Love Live! - Soundtrack.pdf | 7 | 已有逐谱案例 | [READING_020.md](READING_020.md) |
 | A116 | Sparkle - Your Name. - Insert Song.pdf | 7 | 已有逐谱案例 | [READING_020.md](READING_020.md) |
 | A117 | SPECIALZ - Jujutsu Kaisen S2 - Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_020.md](READING_020.md) |
-| A118 | Studio Ghibli Medley.pdf | 14 | 待逐谱阅读 | — |
-| A119 | STYX HELIX - Re：Zero kara Hajimeru Isekai Seikatsu - Ending Theme.pdf | 8 | 待逐谱阅读 | — |
-| A120 | Sugar Song and Bitter Step - Kekkai Sensen - Ending Theme.pdf | 7 | 待逐谱阅读 | — |
-| A121 | Suzume no Tojimari Medley.pdf | 8 | 待逐谱阅读 | — |
-| A122 | Swordland - Sword Art Online - Soundtrack.pdf | 5 | 待逐谱阅读 | — |
-| A123 | Tabi no Tochuu - Spice and Wolf - Opening Theme.pdf | 5 | 待逐谱阅读 | — |
-| A124 | Tamashii no Refrain - Neon Genesis Evangelion Death & Rebirth - Ending Theme.pdf | 7 | 待逐谱阅读 | — |
-| A125 | The Everlasting Guilty Crown - Guilty Crown - 2nd Opening Theme.pdf | 9 | 待逐谱阅读 | — |
-| A126 | The Reluctant Heroes - Attack on Titan - Soundtrack.pdf | 6 | 待逐谱阅读 | — |
-| A127 | The Rumbling - Attack on Titan The Final Season Part 2 - Opening Theme.pdf | 4 | 待逐谱阅读 | — |
-| A128 | The Song of Aether - Short Piano Composition in C# Minor.pdf | 2 | 待逐谱阅读 | — |
-| A129 | the WORLD - Death Note - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
+| A118 | Studio Ghibli Medley.pdf | 14 | 已有逐谱案例 | [READING_021.md](READING_021.md) |
+| A119 | STYX HELIX - Re：Zero kara Hajimeru Isekai Seikatsu - Ending Theme.pdf | 8 | 已有逐谱案例 | [READING_021.md](READING_021.md) |
+| A120 | Sugar Song and Bitter Step - Kekkai Sensen - Ending Theme.pdf | 7 | 已有逐谱案例 | [READING_021.md](READING_021.md) |
+| A121 | Suzume no Tojimari Medley.pdf | 8 | 已有逐谱案例 | [READING_021.md](READING_021.md) |
+| A122 | Swordland - Sword Art Online - Soundtrack.pdf | 5 | 已有逐谱案例 | [READING_021.md](READING_021.md) |
+| A123 | Tabi no Tochuu - Spice and Wolf - Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_021.md](READING_021.md) |
+| A124 | Tamashii no Refrain - Neon Genesis Evangelion Death & Rebirth - Ending Theme.pdf | 7 | 已有逐谱案例 | [READING_022.md](READING_022.md) |
+| A125 | The Everlasting Guilty Crown - Guilty Crown - 2nd Opening Theme.pdf | 9 | 已有逐谱案例 | [READING_022.md](READING_022.md) |
+| A126 | The Reluctant Heroes - Attack on Titan - Soundtrack.pdf | 6 | 已有逐谱案例 | [READING_022.md](READING_022.md) |
+| A127 | The Rumbling - Attack on Titan The Final Season Part 2 - Opening Theme.pdf | 4 | 已有逐谱案例 | [READING_022.md](READING_022.md) |
+| A128 | The Song of Aether - Short Piano Composition in C# Minor.pdf | 2 | 已有逐谱案例 | [READING_022.md](READING_022.md) |
+| A129 | the WORLD - Death Note - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_022.md](READING_022.md) |
 | A130 | There is a Reason - No Game No Life Zero - Theme Song.pdf | 6 | 待逐谱阅读 | — |
 | A131 | This Game (2014 ver.) - No Game No Life  - Opening Theme.pdf | 9 | 待逐谱阅读 | — |
 | A132 | This Game (2021 ver.) - No Game No Life  - Opening Theme.pdf | 8 | 待逐谱阅读 | — |
