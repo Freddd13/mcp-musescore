@@ -28,7 +28,7 @@ Mf此前确实约减半；八度则约小8–11%，不能统一放大一倍。2�
 - 原生尺寸与同尺度上下文图：`dist/native-size-audit-105/`，`audit_native_text_sizes.py`按实际SVG谱线间距测量。五个指定情境的修正高度均在基线±10%内；这是本轮回归门槛，不能推广成全谱所有符号必须等高或所有字体必须同宽。
 - 本机包 `dist/kumo-score-study-0.480-local.zip`，字体 `dist/corpus-font-104/`。成对更新Study/Study Text并重启，原有乐谱字号与手动偏移保留。无需重装MCP/skill。
 
-宿主仍为已固定的0.21（SHA256 `7581cb761217c5c2ef6fc802cf7aafbbe8fe1133c8553967b07e22cc3e74f034`）。当前安装版此前独立导入异常未解决，不能将这份固定宿主尺寸验收称为当前宿主通过。更换宿主/底库时须重看默认Text、缺字回退和实际谱距。
+最初尺寸验收使用已固定的0.21（SHA256 `7581cb761217c5c2ef6fc802cf7aafbbe8fe1133c8553967b07e22cc3e74f034`）。随后当前安装目录更新为SHA256 `4d739629b557e1393fe764490362d4ac3e40572d4060dba685110b4bc2df5304`，已重新完成全套字体/用户谱及实际尺寸检查，结果一致；旧二进制导入崩溃的根因没有定位。本机最新包为`dist/kumo-score-study-0.480-current-local.zip`，字体内容不变，详见 [当前验收与差异](COVERAGE_RECONCILIATION.md)。更换宿主/底库时仍须重看默认Text、缺字回退和实际谱距。
 
 ## 后续每次更新的约束
 

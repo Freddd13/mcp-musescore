@@ -39,7 +39,7 @@ def measure(directory,variant,page=2,fixture='user',roles=('Dynamic','OttavaSegm
 
 def run(args):
     args.output.mkdir(parents=True,exist_ok=False)
-    inputs=[('Leland Text baseline',args.before,'control'),('Study 0.470',args.before,'study'),('Study 0.480 corrected',args.after,'study')]
+    inputs=[('Leland Text baseline',args.before,'control'),(args.before_label,args.before,'study'),(args.after_label,args.after,'study')]
     records=[]
     guards=[]
     for role,title,index,fixture,page in [('Dynamic','mf',0,'user',2),('OttavaSegment','8',0,'user',2),
@@ -68,4 +68,5 @@ def run(args):
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     for name in ('before','after','output'):p.add_argument('--'+name,type=Path,required=True)
+    p.add_argument('--before-label',default='Study 0.470');p.add_argument('--after-label',default='Study 0.480 corrected')
     run(p.parse_args())

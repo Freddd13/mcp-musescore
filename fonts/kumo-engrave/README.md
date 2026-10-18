@@ -4,9 +4,9 @@
 
 ## 当前本机小样的试用
 
-先查看 Evolution 偏好设置指定的 **Score Fonts** 目录并退出软件。解压本机包 `dist/kumo-score-study-0.480-local.zip`，或将 `dist/corpus-font-104/Kumo Score Study/` 和 `dist/corpus-font-104/Kumo Score Study Text/` 两个完整文件夹复制进去。重新打开软件，在乐谱**独立副本**的“格式 → 样式 → 乐谱”同时选择 **Kumo Score Study** 与 **Kumo Score Study Text**；第一轮保持现有谱距和样式参数。
+先查看 Evolution 偏好设置指定的 **Score Fonts** 目录并退出软件。解压本机包 `dist/kumo-score-study-0.480-current-local.zip`，或将 `dist/corpus-font-104/Kumo Score Study/` 和 `dist/corpus-font-104/Kumo Score Study Text/` 两个完整文件夹复制进去。重新打开软件，在乐谱**独立副本**的“格式 → 样式 → 乐谱”同时选择 **Kumo Score Study** 与 **Kumo Score Study Text**；第一轮保持现有谱距和样式参数。
 
-这次必须同时选择新的 Text，才能使用尺寸修正及已验证的组合力度、速度音符；下文“保持内置Leland Text”属于旧0.3的历史步骤。无需重装MCP、skill或Windows字体。更新时先退出软件，再成对更换两个家族的OTF/JSON，重新打开即可。小样仍在本机忽略目录，未加入公开原型ZIP。最新固定0.21宿主尺寸/用户谱测试在 `dist/corpus-native-104/`，同谱距比较在 `dist/native-size-audit-105/`。Music不变，0.470来源/全套Music证据继续保留。当前安装宿主的独立导入异常仍未定位，未称通过；见 [验证边界](TEXT_SIZING.md)。
+这次必须同时选择新的 Text，才能使用尺寸修正及已验证的组合力度、速度音符；下文“保持内置Leland Text”属于旧0.3的历史步骤。无需重装MCP、skill或Windows字体。更新时先退出软件，再成对更换两个家族的OTF/JSON，重新打开即可。小样仍在本机忽略目录，未加入公开原型ZIP。刚更新的当前安装版已完成全套字体/用户谱验证，证据 `dist/current-native-full-110/`，大小检查与固定宿主一致；见 [当前宿主与覆盖验收](COVERAGE_RECONCILIATION.md)。旧二进制的崩溃记录保留，不能混同于本次通过的新二进制。
 
 当前完整保留Leland原覆盖，音乐493→502字、Text182→266字。新加的组合标记有明确Unicode入口，见 [额外符号使用](TEXT_EXTRAS.md)。历史短下符尾U+F706保留；普通32分下音符现在直接使用补齐的原生字形。仍有少见符号、复合标记和特殊编码需要核对；本轮保留页面/字符现有曲线，未恢复完整字体程序、原字距或hinting。
 

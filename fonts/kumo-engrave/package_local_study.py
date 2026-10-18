@@ -17,7 +17,9 @@ def run(args):
             assert path.is_file();files[family+'/'+path.name]=path.read_bytes()
     files['TEXT_EXTRAS.md']=(ROOT/'TEXT_EXTRAS.md').read_bytes()
     sized=any(v.get('text_scale',1)!=1 for v in build['fonts']['Kumo Score Study Text']['changed'].values())
-    if sized:files['TEXT_SIZING.md']=(ROOT/'TEXT_SIZING.md').read_bytes()
+    if sized:
+        files['TEXT_SIZING.md']=(ROOT/'TEXT_SIZING.md').read_bytes()
+        if (ROOT/'COVERAGE_RECONCILIATION.md').exists():files['COVERAGE_RECONCILIATION.md']=(ROOT/'COVERAGE_RECONCILIATION.md').read_bytes()
     files['README.txt']=('Kumo Score Study — 本机官谱字形研究小样\n\n'
         '将 Kumo Score Study 和 Kumo Score Study Text 两个完整文件夹复制到 Evolution 偏好设置的 Score Fonts 路径，重启。\n'
         '在乐谱独立副本的 格式→样式→乐谱 中同时选择上述音乐字体与 Text 字体。第一轮保持其余样式。\n'
