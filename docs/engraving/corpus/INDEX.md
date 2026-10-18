@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录57份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录69份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -65,18 +65,18 @@
 | A055 | Hanezeve Caradhina - Made in Abyss - Soundtrack.pdf | 3 | 已有逐谱案例 | [READING_010.md](READING_010.md) |
 | A056 | Here - Mahoutsukai no Yome - Opening Theme.pdf | 9 | 已有逐谱案例 | [READING_010.md](READING_010.md) |
 | A057 | Hikaru nara - Shigatsu wa Kimi no Uso - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_010.md](READING_010.md) |
-| A058 | History Maker - Yuri!!! on ICE - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A059 | Homura - Demon Slayer the Movie Mugen Train - Theme Song.pdf | 5 | 待逐谱阅读 | — |
-| A060 | Hyori Ittai - Hunter × Hunter - 5th Ending Theme.pdf | 9 | 待逐谱阅读 | — |
-| A061 | Ichiban no Takaramono - Angel Beats! - Soundtrack.pdf | 5 | 待逐谱阅读 | — |
-| A062 | Idol - Oshi no Ko - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A063 | Imagination - Haikyu!! - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A064 | in the pool - Chainsaw Man - The Movie_Reze Arc - Soundtrack.pdf | 5 | 待逐谱阅读 | — |
-| A065 | IRIS OUT - Chainsaw Man_ Reze Arc - OP.pdf | 5 | 待逐谱阅读 | — |
-| A066 | Kaibutsu - BEASTARS Season 2 - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A067 | Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf | 4 | 待逐谱阅读 | — |
-| A068 | Kamado Tanjiro no Uta - Demon Slayer - Insert Song.pdf | 6 | 待逐谱阅读 | — |
-| A069 | Kantai Collection Medley.pdf | 9 | 待逐谱阅读 | — |
+| A058 | History Maker - Yuri!!! on ICE - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_011.md](READING_011.md) |
+| A059 | Homura - Demon Slayer the Movie Mugen Train - Theme Song.pdf | 5 | 已有逐谱案例 | [READING_011.md](READING_011.md) |
+| A060 | Hyori Ittai - Hunter × Hunter - 5th Ending Theme.pdf | 9 | 已有逐谱案例 | [READING_011.md](READING_011.md) |
+| A061 | Ichiban no Takaramono - Angel Beats! - Soundtrack.pdf | 5 | 已有逐谱案例 | [READING_011.md](READING_011.md) |
+| A062 | Idol - Oshi no Ko - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_011.md](READING_011.md) |
+| A063 | Imagination - Haikyu!! - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_011.md](READING_011.md) |
+| A064 | in the pool - Chainsaw Man - The Movie_Reze Arc - Soundtrack.pdf | 5 | 已有逐谱案例 | [READING_012.md](READING_012.md) |
+| A065 | IRIS OUT - Chainsaw Man_ Reze Arc - OP.pdf | 5 | 已有逐谱案例 | [READING_012.md](READING_012.md) |
+| A066 | Kaibutsu - BEASTARS Season 2 - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_012.md](READING_012.md) |
+| A067 | Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf | 4 | 已有逐谱案例 | [READING_012.md](READING_012.md) |
+| A068 | Kamado Tanjiro no Uta - Demon Slayer - Insert Song.pdf | 6 | 已有逐谱案例 | [READING_012.md](READING_012.md) |
+| A069 | Kantai Collection Medley.pdf | 9 | 已有逐谱案例 | [READING_012.md](READING_012.md) |
 | A070 | Kawaki wo Ameku - Domestic na Kanojo - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
 | A071 | Kenshi Yonezu, Hikaru Utada - JANE DOE (Chainsaw Man_ Reze Arc - ED).pdf | 7 | 待逐谱阅读 | — |
 | A072 | Key Anime Piano Medley (Air, Kanon, Clannad).pdf | 11 | 待逐谱阅读 | — |
