@@ -1,6 +1,6 @@
 # 官谱全目录与阅读入口
 
-目录共146份、1135页。已完成本轮逐谱案例记录93份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
+目录共146份、1135页。已完成本轮逐谱案例记录105份，另有0份分段阅读中。页级记录见JSON；清点、渲染不计为阅读。
 
 [当前目标与完成条件](../CONTINUOUS_STUDY.md) · [阅读记录](reviews.json) · [证据核查](verification.json)
 
@@ -101,18 +101,18 @@
 | A091 | Mixed Nuts - SPY×FAMILY - Opening Theme.pdf | 5 | 已有逐谱案例 | [READING_016.md](READING_016.md) |
 | A092 | My Dearest - Guilty Crown - Opening Theme.pdf | 10 | 已有逐谱案例 | [READING_016.md](READING_016.md) |
 | A093 | My Hero Academia  - Boku no Hero Academia - Soundtrack.pdf | 5 | 已有逐谱案例 | [READING_016.md](READING_016.md) |
-| A094 | My Soul, Your Beats!  - Angel Beats! - Opening Theme.pdf | 6 | 待逐谱阅读 | — |
-| A095 | My War - Attack on Titan Final Season - Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A096 | Nagi no Asu kara Medley.pdf | 11 | 待逐谱阅读 | — |
-| A097 | NieR：Automata Medley.pdf | 14 | 待逐谱阅读 | — |
-| A098 | ninelie - Kabaneri of the Iron Fortress - Ending Theme.pdf | 6 | 待逐谱阅读 | — |
-| A099 | One Last Kiss - Evangelion 3.0+1.0 Thrice Upon a Time - Theme Song.pdf | 5 | 待逐谱阅读 | — |
-| A100 | One more time, One more chance - 5 Centimeters per Second - Ending Theme.pdf | 5 | 待逐谱阅读 | — |
-| A101 | only my railgun - A Certain Scientific Railgun - Opening Theme.pdf | 8 | 待逐谱阅读 | — |
-| A102 | Owari no Sekai Kara - from the album - Owari no Hoshi no Love Song -.pdf | 8 | 待逐谱阅读 | — |
-| A103 | Pierce the Heavens with your drill! - Tengen Toppa Gurren Lagann - Soundtrack.pdf | 4 | 待逐谱阅读 | — |
-| A104 | Resonance - Soul Eater - 1st Opening Theme.pdf | 7 | 待逐谱阅读 | — |
-| A105 | Rising Hope - Mahouka Koukou no Rettousei - Opening Theme.pdf | 8 | 待逐谱阅读 | — |
+| A094 | My Soul, Your Beats!  - Angel Beats! - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_017.md](READING_017.md) |
+| A095 | My War - Attack on Titan Final Season - Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_017.md](READING_017.md) |
+| A096 | Nagi no Asu kara Medley.pdf | 11 | 已有逐谱案例 | [READING_017.md](READING_017.md) |
+| A097 | NieR：Automata Medley.pdf | 14 | 已有逐谱案例 | [READING_017.md](READING_017.md) |
+| A098 | ninelie - Kabaneri of the Iron Fortress - Ending Theme.pdf | 6 | 已有逐谱案例 | [READING_017.md](READING_017.md) |
+| A099 | One Last Kiss - Evangelion 3.0+1.0 Thrice Upon a Time - Theme Song.pdf | 5 | 已有逐谱案例 | [READING_017.md](READING_017.md) |
+| A100 | One more time, One more chance - 5 Centimeters per Second - Ending Theme.pdf | 5 | 已有逐谱案例 | [READING_018.md](READING_018.md) |
+| A101 | only my railgun - A Certain Scientific Railgun - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_018.md](READING_018.md) |
+| A102 | Owari no Sekai Kara - from the album - Owari no Hoshi no Love Song -.pdf | 8 | 已有逐谱案例 | [READING_018.md](READING_018.md) |
+| A103 | Pierce the Heavens with your drill! - Tengen Toppa Gurren Lagann - Soundtrack.pdf | 4 | 已有逐谱案例 | [READING_018.md](READING_018.md) |
+| A104 | Resonance - Soul Eater - 1st Opening Theme.pdf | 7 | 已有逐谱案例 | [READING_018.md](READING_018.md) |
+| A105 | Rising Hope - Mahouka Koukou no Rettousei - Opening Theme.pdf | 8 | 已有逐谱案例 | [READING_018.md](READING_018.md) |
 | A106 | Sadness and Sorrow - Fantasy on a theme from the soundtrack of Naruto.pdf | 8 | 待逐谱阅读 | — |
 | A107 | Sakayume - Jujutsu Kaisen 0 Movie - Ending Theme.pdf | 8 | 待逐谱阅读 | — |
 | A108 | Sayonara Memories - from the album - Today is a Beautiful Day -.pdf | 9 | 待逐谱阅读 | — |
