@@ -12,6 +12,7 @@
 
 ## 阅读入口
 
+- [CURVES_STUDY.md](CURVES_STUDY.md)：tie与slur的读法、端点与层次、允许交叉和跨行续接；含官谱／用户PDF分析及自制原生谱的连接保护验证。
 - [JUDGMENT_GUIDE.md](JUDGMENT_GUIDE.md)：八类音乐情境的正面判断、间距的五种原因、怎样应用到用户工程及开发先后。
 - [COMPLETION_REVIEW.md](COMPLETION_REVIEW.md)：本轮完成范围、来源访问限制、原件保护和后续任务边界。
 

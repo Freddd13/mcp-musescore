@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-19",
+  "scope": "Learning and self-authored native exercise, not completed mastery or an automatic engraving feature.",
+  "book": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "matches_previous_source_baseline": true,
+    "printed_pages_fully_read_and_visually_viewed": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      121,
+      122
+    ],
+    "revisited_previously_viewed_pages": [
+      72,
+      73
+    ],
+    "mapping": "Local edition PDF page = printed page + 20."
+  },
+  "reference_scores": [
+    {
+      "id": "A021",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bloody Stream - JoJo's Bizarre Adventure.pdf",
+      "sha256": "bbc5adf41772e9d7071757aaa377978d415238a1783b2b85932a7bd10c09cdcb",
+      "matches_inventory_after": true,
+      "full_pages_revisited": [
+        4
+      ],
+      "additional_view": null
+    },
+    {
+      "id": "A061",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Ichiban no Takaramono - Angel Beats! - Soundtrack.pdf",
+      "sha256": "26bfcfebe95344ed7d98b89ff7bbe7926a367ca00286bf78b1042d0e4a3d634c",
+      "matches_inventory_after": true,
+      "full_pages_revisited": [
+        2
+      ],
+      "additional_view": null
+    },
+    {
+      "id": "A062",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Idol - Oshi no Ko - Opening Theme.pdf",
+      "sha256": "e4aab892d6d3838c923a8c393171b3ea254d1bbbc845f19435f720bce5fce122",
+      "matches_inventory_after": true,
+      "full_pages_revisited": [
+        2
+      ],
+      "additional_view": "Page 1 final system excerpt also viewed; not a new full-page read."
+    }
+  ],
+  "user_pdf": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+    "sha256_before": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+    "sha256_after": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+    "pages_revisited": [
+      6,
+      7
+    ],
+    "unchanged": true
+  },
+  "user_mscz_or_current_gui_opened": false,
+  "native": {
+    "host_path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\msvc.install_repair_current_x64\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "fec7e2cef61ed4b4d6b639b8cc42630bbb97153670e6c24433c455a6ed23cd77",
+    "written_notes": 19,
+    "rests": 1,
+    "logical_slurs": 3,
+    "tie_starts": 2,
+    "only_native_difference": "One LayoutBreak after upper-staff measure 2; after removing it native XML is identical.",
+    "normalization_scope": "Self-authored fixture with one voice per staff. Compare written pitch, normalized quarter-duration/onset, tie flags, articulation names and slur start/end events; no generic voice-equivalence claim.",
+    "results": [
+      {
+        "name": "unbroken",
+        "svg_counts": {
+          "null": 3,
+          "Text": 2,
+          "InstrumentName": 1,
+          "BarLine": 10,
+          "StaffLines": 10,
+          "SlurSegment": 3,
+          "TieSegment": 2,
+          "Stem": 15,
+          "Note": 19,
+          "Clef": 2,
+          "TimeSig": 4,
+          "Rest": 1,
+          "Articulation": 2,
+          "Page": 1,
+          "Bracket": 1
+        },
+        "semantics_equal_to_source": true
+      },
+      {
+        "name": "split",
+        "svg_counts": {
+          "null": 3,
+          "Text": 2,
+          "MeasureNumber": 1,
+          "InstrumentName": 1,
+          "BarLine": 12,
+          "StaffLines": 20,
+          "SlurSegment": 4,
+          "TieSegment": 3,
+          "Stem": 15,
+          "Note": 19,
+          "Clef": 4,
+          "TimeSig": 4,
+          "Rest": 1,
+          "Articulation": 2,
+          "Page": 1,
+          "Bracket": 2
+        },
+        "semantics_equal_to_source": true
+      }
+    ],
+    "checks": {
+      "all_19_written_notes_and_one_rest_match_source": true,
+      "two_tie_starts_three_slur_spans_preserved": true,
+      "only_one_LayoutBreak_differs": true,
+      "white_background_music_regions_visually_viewed": true
+    }
+  },
+  "self_authored_assets": [
+    {
+      "path": "docs/engraving/fixtures/curves-source.musicxml",
+      "sha256": "af954a682e2bfc4129d813ca3ad81b2afa6ecde530c7fbff701265e7244c6199",
+      "bytes": 7115
+    },
+    {
+      "path": "docs/engraving/fixtures/curves-and-break.mscx",
+      "sha256": "95be346287d13d1695ba77126689a11c44237638704232fe9dcb231e31c4d80f",
+      "bytes": 11599
+    },
+    {
+      "path": "docs/engraving/fixtures/curves-unbroken.png",
+      "sha256": "1e53a726aa160c289470437bd1c16cfb61b51e2e5d40b73fdeef657337a6a67f",
+      "bytes": 27109
+    },
+    {
+      "path": "docs/engraving/fixtures/curves-split.png",
+      "sha256": "acaaba83ddaea78b41e41af25db7e2ea7738197b56607a1ed9acbfdf7d39c75e",
+      "bytes": 44016
+    }
+  ],
+  "private_directory": "tmp/engraving/curves-2026-10-19",
+  "fixture_generator": "tmp/engraving/curves-2026-10-19/make_fixture.py",
+  "fixture_inspection": "tmp/engraving/curves-2026-10-19/inspect_fixture.py",
+  "source_protection_checks_prove_learning_depth": false
+}

@@ -14,3 +14,11 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 宿主可能在文件名添加页号（本次为`probe-1.svg/png`）。PNG含透明背景时需合成白底查看；不能将黑色背景预览当渲染失败。SVG中的`class="Note"`及其transform可定位实际符头；本fixture的下手24头处于同一Y，可按X排序、每六个分一小节。输出SVG坐标为360dpi，除以5转换pt；其它版本先核查viewBox与物理尺寸，不能盲用换算。
 
 新方案需要保留基线和相同宽度预算，分别验语义、同步、净空和视觉收益。不能通过给原谱加入隐藏发音/休止或缩短括号span强行取得等距。是否需要软件改动须由实际候选比较决定。
+
+## 弧线与换行自制练习
+
+[curves-source.musicxml](curves-source.musicxml)是原创四小节、双谱表材料，CC0；没有摘录用户或参考谱音乐。[curves-and-break.mscx](curves-and-break.mscx)是当前宿主导入后固定内置Leland/Leland Text、在m2后加一次换行的版本。谱表高度约7mm，仅是该练习的输入条件。可以直接读取原生文件；需连续版时，复制后去掉上谱表m2末唯一LayoutBreak，勿改用户工程。
+
+题目包含：m1前两音tie，后两同音slur＋tenuto；m2–3长slur与低音tie；m4跨休止slur。[连续版图](curves-unbroken.png)和[跨行图](curves-split.png)均为180dpi原生PNG合白底后只裁去标题／页脚，保留完整音乐，未移动音符或调整曲线。
+
+两版19个音头、1个休止、2条逻辑tie、3条逻辑slur相同，XML除一次LayoutBreak外完全一致；MusicXML重新导出核对音高、时值、起点、奏法和连接范围通过。SVG的tie/slur绘制段数由2/3变为3/4。图不是所有曲线规范均已验收的证明。详见[弧线专题](../CURVES_STUDY.md)与[证据](../curves_evidence.json)。仅本目录原创曲谱与其渲染使用CC0，参考官谱和教材不在此许可中。
