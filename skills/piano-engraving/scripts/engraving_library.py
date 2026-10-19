@@ -10,13 +10,13 @@ import sys
 COMMON = ("README.md", "PREFERENCES.md", "JUDGMENT_GUIDE.md")
 TOPICS = {
     "overview": ("FOUNDATION_REVIEW.md",),
-    "spacing": ("SPACING_DECISIONS.md", "USER_SPACING_APPLICATION.md", "SPACING_CANDIDATES.md", "SPACING_STUDY.md"),
+    "spacing": ("SPACING_DECISIONS.md", "ACCIDENTAL_SPACING.md", "USER_SPACING_APPLICATION.md", "SPACING_CANDIDATES.md", "SPACING_STUDY.md"),
     "rhythm": ("RHYTHM_READING.md", "NOTATION_DETAILS.md"),
     "beams": ("BEAM_STEM_STUDY.md", "RHYTHM_READING.md"),
     "curves": ("CURVES_STUDY.md",),
     "piano": ("PIANO_TEXTURE_STUDY.md",),
     "cross-staff": ("CROSS_STAFF_STUDY.md", "PIANO_TEXTURE_STUDY.md"),
-    "notation": ("NOTATION_DETAILS.md",),
+    "notation": ("NOTATION_DETAILS.md", "ACCIDENTAL_SPACING.md"),
     "layout": ("SPACING_DECISIONS.md", "EXTERNAL_PRACTICE.md", "CASES.md"),
     "sources": ("SOURCES.md", "BEHIND_BARS_NOTES.md", "RESOURCE_PLAN_MAPPING.md"),
     "cases": ("corpus/INDEX.md", "CASES.md", "CASES_EXPANDED.md"),

@@ -39,6 +39,8 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 
 事件核对限这些每谱表单声部、无连音/附点/曲线的练习；不代表一般多声部归一化或碰撞校验器。原生导出方式同本页前述命令，输入替换为相应自制谱，使用独立配置与输出目录。具体试验数值只供复现，不当作通用净书默认值。
 
+后续[变音参数实验](../ACCIDENTAL_SPACING.md)沿用`chromatic-spacing-source.mscx/png`基线，新增[更紧实验谱](chromatic-tight-accidentals.mscx)与[同裁框图](chromatic-tight-accidentals.png)，CC0。原生XML仅新增`accidentalNoteDistance=0.1`、`accidentalDistance=0.1`；这是分离符号占位与细分弹性的实验，**不推荐为全谱预设**。四条件音乐／记法、共同起点及联合版保存重载的限定检查见[证据](../accidental_spacing_evidence.json)。相同研究还重导本目录密集源谱，证明正常侧头对齐时，整组头的外框中心仍可偏移；没有增加新的音乐材料。
+
 ## 梁的坡度与导入层级：两个不同问题
 
 [beam-shape-source.musicxml](beam-shape-source.musicxml)是原创八小节双谱表练习，CC0；[原生自动版](beam-shape-auto.mscx)和[全局平梁版](beam-shape-all-flat.mscx)除`Style/beamNoSlope` 0／1外完整XML相同，固定Leland／Leland Text。上部故意固定上干、四小节一系统、关闭页面纵向伸展，均是本fixture的控制条件，不是用户审美或真实乐曲默认值。原生PNG为[自动版](beam-shape-auto.png)和[平梁版](beam-shape-all-flat.png)，同一裁框保留两系统全部音乐，只合白底，未移动符号。

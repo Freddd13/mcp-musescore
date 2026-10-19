@@ -483,5 +483,58 @@
     "document_links_and_placeholders_checked": true,
     "independent_behavioral_evaluation_performed": false,
     "skill_text_files_utf8_lf": true
+  },
+  "source_skill_files_scope": "Historical snapshot at initial 23-case validation; current routing-only update below.",
+  "follow_up_routing_validation": {
+    "date": "2026-10-19",
+    "scope": "Only spacing/notation route contents changed; no path-resolution algorithm or skill instructions changed.",
+    "checks": [
+      {
+        "topic": "spacing",
+        "exit_code": 0,
+        "external_cwd": "C:\\Windows",
+        "result": {
+          "repository": "E:\\programming\\funcodes\\mcp-musescore",
+          "repository_resolution": "skill-realpath",
+          "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+          "topic": "spacing",
+          "start_here": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+          ],
+          "references": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_DECISIONS.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\USER_SPACING_APPLICATION.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_CANDIDATES.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_STUDY.md"
+          ]
+        }
+      },
+      {
+        "topic": "notation",
+        "exit_code": 0,
+        "external_cwd": "C:\\Windows",
+        "result": {
+          "repository": "E:\\programming\\funcodes\\mcp-musescore",
+          "repository_resolution": "skill-realpath",
+          "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+          "topic": "notation",
+          "start_here": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+          ],
+          "references": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md"
+          ]
+        }
+      }
+    ],
+    "passed_cases": 2,
+    "script_sha256": "c4711d9155972044ea1b68e33bd7b1fc1869c19d2e9623e6c048b0748a08a99f",
+    "global_installation_or_app_discovery_performed": false
   }
 }
