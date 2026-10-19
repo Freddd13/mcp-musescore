@@ -572,5 +572,37 @@
     "new_study_reachable_from_both_topics": true,
     "evidence": "seconds_ownership_evidence.json",
     "no_independent_behavior_or_aesthetic_evaluation_claimed": true
+  },
+  "follow_up_page_flow": {
+    "date": "2026-10-20",
+    "scope": "Added one layout topic reference and native-review prose; path-resolution algorithm, main SKILL.md and UI metadata unchanged.",
+    "check": {
+      "topic": "layout",
+      "external_cwd": "C:\\Windows",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "layout",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PAGE_FLOW_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_DECISIONS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\EXTERNAL_PRACTICE.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CASES.md"
+        ]
+      }
+    },
+    "script_sha256": "e6d9beabbd369dffa285de9f34d58b6b0e89082f581341fa3a9dd6bac7f262cd",
+    "native_reference_sha256": "a4ca38597465bcf9149aed508eff910e3a8b3d464bd53825cd35c5cec9151992",
+    "evidence": "page_flow_evidence.json",
+    "initial_23_tests_not_claimed_rerun": true,
+    "independent_behavior_or_aesthetic_evaluation_claimed": false,
+    "global_installation_or_app_discovery_performed": false
   }
 }

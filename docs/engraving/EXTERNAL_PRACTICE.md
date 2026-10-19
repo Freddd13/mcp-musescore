@@ -8,6 +8,8 @@
 
 ## 星出和宏《帕凡舞曲》6 mm / 7 mm
 
+尺寸与输出条件续见[分行、空表与翻页](PAGE_FLOW_STUDY.md)：Gould p557–562中的尺寸／时间示例均有演奏条件，不能单凭推荐数字评判这里的6／7mm成品；对开、视距和实际进入同样要看。本轮没有另跑Dorico或LilyPond版分页比较。
+
 来源：作者[净书页](https://www.kazuhirohoshide.com/studio/engraving)、[6 mm PDF](https://www.kazuhirohoshide.com/pdf/pavane_6mm.pdf)、[7 mm PDF](https://www.kazuhirohoshide.com/pdf/pavane_7mm.pdf)。两份均4页，本线实际查看全部8张完整页图。公开参考文件只读保存在项目忽略目录`tmp/engraving/resources-2026-10-18/`，文件哈希见其中`sources.json`，不打包原谱。
 
 **可见事实：** 两版每页均5个钢琴系统，逐页可见分行相同；7 mm版谱表与符号较大，标题位置与垂直空白有所重分配。不是把整张纸同比例放大，也不能据此说字号变大必然增加页数。尚未逐音校勘两版内容，未测定所有对象的精确尺寸。
