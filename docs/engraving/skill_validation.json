@@ -665,5 +665,106 @@
     "initial_23_tests_not_claimed_rerun": true,
     "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
     "global_installation_or_app_discovery_performed": false
+  },
+  "follow_up_sustain_rest": {
+    "date": "2026-10-20",
+    "scope": "Native-review dependency guidance and links in existing piano/curves/overview references updated; locator, main SKILL.md and UI metadata unchanged.",
+    "checks": [
+      {
+        "topic": "piano",
+        "external_cwd": "C:\\Windows",
+        "exit_code": 0,
+        "result": {
+          "repository": "E:\\programming\\funcodes\\mcp-musescore",
+          "repository_resolution": "skill-realpath",
+          "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+          "topic": "piano",
+          "start_here": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+          ],
+          "references": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+          ]
+        }
+      },
+      {
+        "topic": "curves",
+        "external_cwd": "C:\\Windows",
+        "exit_code": 0,
+        "result": {
+          "repository": "E:\\programming\\funcodes\\mcp-musescore",
+          "repository_resolution": "skill-realpath",
+          "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+          "topic": "curves",
+          "start_here": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+          ],
+          "references": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CURVES_STUDY.md"
+          ]
+        }
+      },
+      {
+        "topic": "overview",
+        "external_cwd": "C:\\Windows",
+        "exit_code": 0,
+        "result": {
+          "repository": "E:\\programming\\funcodes\\mcp-musescore",
+          "repository_resolution": "skill-realpath",
+          "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+          "topic": "overview",
+          "start_here": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+          ],
+          "references": [
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_REVIEW.md",
+            "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\FOUNDATION_REVIEW.md"
+          ]
+        }
+      }
+    ],
+    "script_sha256": "6c7e614aaf230eacbcde29c44163ba767d12937179428d877c78a71fa736d33b",
+    "native_reference_sha256": "d8fd8240147dd8293f6a3f89d1ce605d5e921479f595e5d4d111816a68e82ebe",
+    "evidence": "sustain_rest_evidence.json",
+    "linked_new_study_reachable_through_piano_curves_and_overview_references": true,
+    "changed_markdown_links": [
+      {
+        "path": "docs/engraving/SUSTAIN_AND_RESTS.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/README.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/CURVES_STUDY.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/PIANO_TEXTURE_STUDY.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/INTEGRATED_REVIEW.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/BEHIND_BARS_NOTES.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "local_links_resolve": true
+      }
+    ],
+    "initial_23_tests_not_claimed_rerun": true,
+    "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
+    "global_installation_or_app_discovery_performed": false
   }
 }

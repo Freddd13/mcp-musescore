@@ -1,0 +1,354 @@
+{
+  "date": "2026-10-20",
+  "scope": "Targeted rest/sustain/Slur dependency study using one real-score object and two not-adopted diagnostic controls; same-agent study, not blind or user-approved.",
+  "input": {
+    "source_copy": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\page-flow-2026-10-19\\source-baseline.mscz",
+    "source_sha256_before_after": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "source_xml_entry": "如果有来生-release5.mscx",
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "host_sha256_before_after": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "target": {
+      "global_staff_1_based": 3,
+      "measure_1_based": 135,
+      "native_voice_container_1_based": 1,
+      "event": "Rest at measure onset",
+      "source_type": "half with dots=1",
+      "effective_duration_whole_note": "3/4 = 6/8",
+      "offset": "0,-2 preserved",
+      "slur_receive_count": 2
+    },
+    "variants": {
+      "whole-bar-rest": {
+        "path": "tmp\\engraving\\sustain-anchors-2026-10-20\\native\\whole-bar-rest.mscz",
+        "sha256": "6c3d0a321e9be20c8190f4e23b6713d9f9689a22cfcbb053e739825695d127a2",
+        "status": "Diagnostic only, not adopted. User intent unresolved. One-object mutation isolates anchor behavior, not a finished rest-layout proposal."
+      },
+      "hidden-rest": {
+        "path": "tmp\\engraving\\sustain-anchors-2026-10-20\\native\\hidden-rest.mscz",
+        "sha256": "e4e29112ed0a7383a31eccdd4b8fd1de19d344d9e1315f7bc743d48a23536b7a",
+        "status": "Diagnostic only, not adopted. User intent unresolved. One-object mutation isolates anchor behavior, not a finished rest-layout proposal."
+      }
+    }
+  },
+  "original_user_pdf_sha256_matches_history": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+  "original_mscz_not_parsed_or_written_this_study": true,
+  "source_copy_sha256_unchanged": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+  "book": {
+    "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256_before": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "prepared_printed_pages": [
+      72,
+      73,
+      310,
+      311,
+      312,
+      313,
+      337
+    ],
+    "revisit_of_previously_read_material": true,
+    "preparation_does_not_imply_visual_review": true,
+    "complete_text_and_figures_actually_revisited": [
+      72,
+      73,
+      310,
+      311,
+      312,
+      313,
+      337
+    ],
+    "pdf_page_offset": 20,
+    "new_reading_page_count_claimed": false
+  },
+  "official_revisits": [
+    {
+      "id": "A021",
+      "pdf_page": 4,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bloody Stream - JoJo's Bizarre Adventure.pdf",
+      "sha256_matches_inventory_and_render_cache": "bbc5adf41772e9d7071757aaa377978d415238a1783b2b85932a7bd10c09cdcb",
+      "cache": "tmp\\engraving\\corpus\\A021\\page-4.jpg",
+      "cache_sha256": "e43dcbd8854d31d336d370ab7ccc942cf9683ef89338e9286731445915f3d041",
+      "full_page_actually_revisited": true,
+      "new_corpus_reading_count_claimed": false
+    },
+    {
+      "id": "A056",
+      "pdf_page": 8,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Here - Mahoutsukai no Yome - Opening Theme.pdf",
+      "sha256_matches_inventory_and_render_cache": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+      "cache": "tmp\\engraving\\corpus\\A056\\page-8.jpg",
+      "cache_sha256": "b79121da9016fb1c1c87fd300181e5bca5e60f18b44e8450e9c69708fbb66531",
+      "full_page_actually_revisited": true,
+      "new_corpus_reading_count_claimed": false
+    }
+  ],
+  "semantic_status": {
+    "SP_expansion": "Unknown; asked once, no answer at time of recording.",
+    "two_slurs_same_logical_anchors": "m132 globalstaff3 voice1 chord at 1/8 whole-note offset to m135 voice1 Rest at measure onset; opposite directions, manual segment geometry preserved.",
+    "duration_between_anchors_quarters": "17/2",
+    "object_type_not_a_semantic_proof": true,
+    "no_user_aesthetic_preference_inferred": true
+  },
+  "svg_comparison_excluded": [
+    "title"
+  ],
+  "fresh_baseline_all_eight_svgs_equal_to_prior": true,
+  "svg_unit_calibration": {
+    "width_mm": 210,
+    "viewbox_width": 2976.38,
+    "approx_svg_units_per_point": 5.0,
+    "note": "Derived from this A4 width; rounding in coordinates retained."
+  },
+  "layout": {
+    "pages": 8,
+    "systems": 38,
+    "page_ends": [
+      32,
+      56,
+      69,
+      93,
+      110,
+      129,
+      146,
+      155
+    ]
+  },
+  "musicxml_geometry_attributes_normalized": [
+    "bezier-offset",
+    "bezier-offset2",
+    "bezier-x",
+    "bezier-x2",
+    "bezier-y",
+    "bezier-y2",
+    "default-x",
+    "default-y",
+    "relative-x",
+    "relative-y",
+    "measure width"
+  ],
+  "musicxml_metadata_normalized": [
+    "encoding-date"
+  ],
+  "musicxml_no_blocks_ignored": true,
+  "results": [
+    {
+      "variant": "whole-bar-rest",
+      "status": "Diagnostic only, not adopted; human pedal/slur intent unresolved.",
+      "exact_native_change_reversed_to_original": true,
+      "other_zip_entry_bytes_equal": true,
+      "effective_rest_duration_quarters": "3",
+      "midi_complete_bytes_equal": true,
+      "midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "musicxml_full_tree_equal_after_explicit_target_notation_and_layout_normalization": true,
+      "musicxml_target_notation_change": "rest measure=yes; omit type=half and dot",
+      "musicxml_target_slur_stop_nodes_preserved_except_layout": true,
+      "layout_equal": true,
+      "pages": [
+        {
+          "page": 1,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "55d3a609226e810252d7f24cfe3b5981b72e0be01fdb0191d3667c391d4b2f6c"
+        },
+        {
+          "page": 2,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "8d94b8c9389716709a6789e457a37d49f7f1211db5e66b88246019849714ee64"
+        },
+        {
+          "page": 3,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "1d4a9d12520cd2cd99def6967c2b5c3d927595cb41c80e4624686afa878fe72a"
+        },
+        {
+          "page": 4,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "546be868743f62b2ea77d122b5bad31484d4893ab274e57619e8a248befc4203"
+        },
+        {
+          "page": 5,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "c9dcca7615ad8d39948905951fa9c57d7714fe8cca357757fbb282b31314e021"
+        },
+        {
+          "page": 6,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "b9e0fb25bf179c7aacae442de3f919673dea57a563a9e07c1e69b2b195e5ec98"
+        },
+        {
+          "page": 7,
+          "complete_svg_equal": false,
+          "removed_by_class": {
+            "SlurSegment": 2,
+            "Rest": 1,
+            "NoteDot": 1
+          },
+          "added_by_class": {
+            "SlurSegment": 2,
+            "Rest": 1
+          },
+          "svg_sha256": "6386af4d8bba16c133fb26f2c86091bb746857240c8309b5778ceb281b206daf"
+        },
+        {
+          "page": 8,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "429391fc12f10a0d9d2ecdfc2608490e2c7bf3f9444c498b1c808c2ad09376f7"
+        }
+      ],
+      "changed_slur_right_endpoints": [
+        {
+          "old_svg": [
+            440.09,
+            1070.58
+          ],
+          "new_svg": [
+            679.295,
+            1057.94
+          ],
+          "dx_svg": 239.20499999999998,
+          "dy_svg": -12.639999999999873,
+          "dx_points_approx": 47.840999999999994,
+          "dx_mm_approx": 16.877241666666663,
+          "dy_points_approx": -2.5279999999999747
+        },
+        {
+          "old_svg": [
+            440.09,
+            1282.95
+          ],
+          "new_svg": [
+            679.295,
+            1270.32
+          ],
+          "dx_svg": 239.20499999999998,
+          "dy_svg": -12.63000000000011,
+          "dx_points_approx": 47.840999999999994,
+          "dx_mm_approx": 16.877241666666663,
+          "dy_points_approx": -2.526000000000022
+        }
+      ],
+      "preview_full_page": "tmp\\engraving\\sustain-anchors-2026-10-20\\native\\whole-bar-rest-page-7-white.png",
+      "preview_two_staff_system": "tmp\\engraving\\sustain-anchors-2026-10-20\\native\\whole-bar-rest-m135-137.png"
+    },
+    {
+      "variant": "hidden-rest",
+      "status": "Diagnostic only, not adopted; human pedal/slur intent unresolved.",
+      "exact_native_change_reversed_to_original": true,
+      "other_zip_entry_bytes_equal": true,
+      "effective_rest_duration_quarters": "3",
+      "midi_complete_bytes_equal": true,
+      "midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "musicxml_full_tree_equal_after_explicit_target_notation_and_layout_normalization": true,
+      "musicxml_target_notation_change": "note print-object=no",
+      "musicxml_target_slur_stop_nodes_preserved_except_layout": true,
+      "layout_equal": true,
+      "pages": [
+        {
+          "page": 1,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "ecbda53b39e16a678dcddab321d778dc135a0b87b08d97f3673199efc50785d3"
+        },
+        {
+          "page": 2,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "c58cb58742e8fc83b0b9f6c24e81db82cd5a3b33026e6b20f98cf6d7476cb9dd"
+        },
+        {
+          "page": 3,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "89d69ab3fc3267b5beb8803d3f74e3fc8fba4eb60c4d5ec36566fa8ae3f7704f"
+        },
+        {
+          "page": 4,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "a0fc86c376926083ba837fbc222c57ac4b20379d28104a20a7ff5ef9a6652ed6"
+        },
+        {
+          "page": 5,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "4f1359242e90ab1098f80b6540145aa9b91493572d810e1d597bb6763fda57c2"
+        },
+        {
+          "page": 6,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "b39e2a148406b239a55460869dffdd6290406eba3c4dcef979c99f485c3a9fe2"
+        },
+        {
+          "page": 7,
+          "complete_svg_equal": false,
+          "removed_by_class": {
+            "Rest": 1,
+            "NoteDot": 1
+          },
+          "added_by_class": {},
+          "svg_sha256": "7f39bb28a9f83d8ee8e71d825cfeaa7daa08379092c7ea820bb2d0e07d412c8a"
+        },
+        {
+          "page": 8,
+          "complete_svg_equal": true,
+          "removed_by_class": {},
+          "added_by_class": {},
+          "svg_sha256": "86d9d022bc5270d74c01c3b5583e61b24024c9ff37f005a3d98fa6d344501860"
+        }
+      ],
+      "changed_slur_right_endpoints": [],
+      "preview_full_page": "tmp\\engraving\\sustain-anchors-2026-10-20\\native\\hidden-rest-page-7-white.png",
+      "preview_two_staff_system": "tmp\\engraving\\sustain-anchors-2026-10-20\\native\\hidden-rest-m135-137.png"
+    }
+  ],
+  "visual_review": {
+    "full_native_page7": [
+      "baseline",
+      "whole-bar-rest",
+      "hidden-rest"
+    ],
+    "complete_two_staff_m135_137": [
+      "baseline",
+      "whole-bar-rest",
+      "hidden-rest"
+    ],
+    "source_start_and_receiver_context_m130_137_seen_on_full_page": true,
+    "processing": "White composite and identical crops only, no glyph edits."
+  },
+  "decision": "Do not adopt whole-bar substitution or hidden rest without clarifying role. Whole-bar substitution moves visible curve release point; hidden version keeps two short open curves but omits a potentially meaningful pause. Preserve original in current task.",
+  "future_requirement": "Inspect incoming/outgoing notation dependencies and semantic role before type/visibility normalization; no demonstrated engine bug, no adaptation implemented.",
+  "not_performed": [
+    "Original score editing",
+    "GUI operation",
+    "Native save/reload of these diagnostic variants",
+    "Audio/listening/printing/performance evaluation",
+    "Any MuseScore/MCP/plugin implementation",
+    "Proving human sustain intention",
+    "New all-page corpus proofreading"
+  ],
+  "private_scripts": {
+    "native_trials.py": "4202c9a2d6136148c52bb10053b58af9e325c78a47577ebe352a119d1ea28703",
+    "audit.py": "bbe4f70d8599202b43bfe7e5e094fadb8911962c7db832bd94e71e3606cf64ee"
+  },
+  "copyright_scope": "Only analytic prose, small object metadata and verification evidence enter Git; complete score sources/images/MIDI/book pages remain private ignored cache."
+}

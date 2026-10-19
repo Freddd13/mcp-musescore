@@ -2,6 +2,8 @@
 
 更新：2026-10-20。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
 
+最新续学见[持续、休止与弧尾](SUSTAIN_AND_RESTS.md)：m135接收休止即使保持时长和完整MIDI，改成居中的整小节休止仍使两条弧尾移动约17mm。隐藏休止虽保住弧形，也未证明可以省去停顿；两个诊断版均不采用。结合踏板／手持的规范条件，先确认角色、保护实际读法，再决定省写，不将数据相同等同净书成功。
+
 **当前继续深学，尚未达到“吃透并可稳定应用”的目标。** 下文“本轮完成”指上一轮覆盖与整理。用户新目标是先掌握材料和问题处理，再设计净书skill；软件适配另期进行。[间距取舍](SPACING_DECISIONS.md)新增A102五/七对三的实测解释、同拍错列条件、Kokecola七张实际对照图与当前宿主四种参数条件的原生实验。
 
 当前已按[基础核查](FOUNDATION_REVIEW.md)将可追溯的判断流程组织为[净书skill初版](../../skills/piano-engraving/SKILL.md)，用同一知识库按问题读取；[使用与更新](../ENGRAVING_SKILL.md)、[初版检验](SKILL_REVIEW.md)分别说明关联方式和实际验证范围。初版可用于诊断／少量副本工作流，不是全面掌握或自动全谱净书的完成证明；继续用实际任务检验，不做本次明确排除的软件适配。
@@ -28,6 +30,7 @@
 
 ## 阅读入口
 
+- [SUSTAIN_AND_RESTS.md](SUSTAIN_AND_RESTS.md)：持续方式、自由／严格声部的休止、同端点异向弧，以及休止改型牵动弧尾的真实工程反例；含当前保留判断。
 - [INTEGRATED_REVIEW.md](INTEGRATED_REVIEW.md)：整页综合应用；区分PDF与当前工程、显示与播放角色，以一个高优先候选和同图异播放反例检验保护方法。
 - [ACCIDENTAL_CONTEXT.md](ACCIDENTAL_CONTEXT.md)：必要变音、提示身份、跨行tie与后续显示、反复两结尾的实际来路；结合换调惯例和Coda导航，不按纸面顺序去重。
 - [PAGE_FLOW_STUDY.md](PAGE_FLOW_STUDY.md)：空表与进入、跨页音区提示、原生整曲分行的三种拒绝候选；页数相同不等于翻页相同，NoBreak写入不等于实际合组。
