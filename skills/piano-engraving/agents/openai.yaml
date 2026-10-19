@@ -1,0 +1,4 @@
+interface:
+  display_name: "钢琴净书"
+  short_description: "结合出版谱与规范解释钢琴排版问题，生成有依据的诊断和原生副本候选"
+  default_prompt: "使用 $piano-engraving 分析这份钢琴谱的阅读与排版问题，查阅项目知识库，给出有依据的保留或改进建议。"

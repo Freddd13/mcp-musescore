@@ -1,0 +1,487 @@
+{
+  "date": "2026-10-19",
+  "scope": "Skill library locator behavior only. No independent model evaluation or live Codex discovery claimed.",
+  "checks": [
+    {
+      "case": "source_path_with_external_working_directory",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "curves",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CURVES_STUDY.md"
+        ]
+      }
+    },
+    {
+      "case": "copied_skill_explicit_repo",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "--repo",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "rhythm",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md"
+        ]
+      }
+    },
+    {
+      "case": "copied_skill_environment_repo",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "MCP_MUSESCORE_DIR",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "piano",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+        ]
+      }
+    },
+    {
+      "case": "explicit_repo_overrides_bad_environment",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "--repo",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "beams",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_STEM_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md"
+        ]
+      }
+    },
+    {
+      "case": "invalid_explicit_repo_does_not_fall_back",
+      "exit_code": 2,
+      "result": {
+        "diagnostic": "No engraving library at E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\skill-review-2026-10-19\\locator-m6az562x\\missing\\docs\\engraving; missing README.md, PREFERENCES.md, JUDGMENT_GUIDE.md. Pass --repo with the mcp-musescore checkout."
+      }
+    },
+    {
+      "case": "copied_skill_without_repo_fails_clearly",
+      "exit_code": 2,
+      "result": {
+        "diagnostic": "Engraving library not found. Pass --repo or set MCP_MUSESCORE_DIR to the maintained mcp-musescore checkout; copying this skill alone does not copy the library."
+      }
+    },
+    {
+      "case": "bad_environment_does_not_fall_back",
+      "exit_code": 2,
+      "result": {
+        "diagnostic": "No engraving library at E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\skill-review-2026-10-19\\locator-m6az562x\\missing\\docs\\engraving; missing README.md, PREFERENCES.md, JUDGMENT_GUIDE.md. Pass --repo with the mcp-musescore checkout."
+      }
+    },
+    {
+      "case": "list_topics_needs_no_library",
+      "exit_code": 0,
+      "result": {
+        "topics": {
+          "overview": [
+            "FOUNDATION_REVIEW.md"
+          ],
+          "spacing": [
+            "SPACING_DECISIONS.md",
+            "USER_SPACING_APPLICATION.md",
+            "SPACING_CANDIDATES.md",
+            "SPACING_STUDY.md"
+          ],
+          "rhythm": [
+            "RHYTHM_READING.md",
+            "NOTATION_DETAILS.md"
+          ],
+          "beams": [
+            "BEAM_STEM_STUDY.md",
+            "RHYTHM_READING.md"
+          ],
+          "curves": [
+            "CURVES_STUDY.md"
+          ],
+          "piano": [
+            "PIANO_TEXTURE_STUDY.md"
+          ],
+          "cross-staff": [
+            "CROSS_STAFF_STUDY.md",
+            "PIANO_TEXTURE_STUDY.md"
+          ],
+          "notation": [
+            "NOTATION_DETAILS.md"
+          ],
+          "layout": [
+            "SPACING_DECISIONS.md",
+            "EXTERNAL_PRACTICE.md",
+            "CASES.md"
+          ],
+          "sources": [
+            "SOURCES.md",
+            "BEHIND_BARS_NOTES.md",
+            "RESOURCE_PLAN_MAPPING.md"
+          ],
+          "cases": [
+            "corpus/INDEX.md",
+            "CASES.md",
+            "CASES_EXPANDED.md"
+          ],
+          "baseline": [
+            "INPUT_HISTORY.md"
+          ],
+          "implementation": [
+            "IMPLEMENTATION.md"
+          ]
+        }
+      }
+    },
+    {
+      "case": "existing_references_for_overview",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "overview",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\FOUNDATION_REVIEW.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_spacing",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "spacing",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_DECISIONS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\USER_SPACING_APPLICATION.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_CANDIDATES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_STUDY.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_rhythm",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "rhythm",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_beams",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "beams",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_STEM_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_curves",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "curves",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CURVES_STUDY.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_piano",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "piano",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_cross-staff",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "cross-staff",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CROSS_STAFF_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_notation",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "notation",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_layout",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "layout",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_DECISIONS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\EXTERNAL_PRACTICE.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CASES.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_sources",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "sources",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SOURCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEHIND_BARS_NOTES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RESOURCE_PLAN_MAPPING.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_cases",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "cases",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\corpus\\INDEX.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CASES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CASES_EXPANDED.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_baseline",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "baseline",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INPUT_HISTORY.md"
+        ]
+      }
+    },
+    {
+      "case": "existing_references_for_implementation",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "implementation",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\IMPLEMENTATION.md"
+        ]
+      }
+    },
+    {
+      "case": "unknown_topic_rejected",
+      "exit_code": 2,
+      "result": {
+        "diagnostic": "usage: engraving_library.py [-h] [--repo REPO]\n                            [--topic {overview,spacing,rhythm,beams,curves,piano,cross-staff,notation,layout,sources,cases,baseline,implementation}]\n                            [--list-topics]\nengraving_library.py: error: argument --topic: invalid choice: 'fictional-tool' (choose from overview, spacing, rhythm, beams, curves, piano, cross-staff, notation, layout, sources, cases, baseline, implementation)"
+      }
+    },
+    {
+      "case": "linked_skill_resolves_real_library",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "spacing",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_DECISIONS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\USER_SPACING_APPLICATION.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_CANDIDATES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_STUDY.md"
+        ]
+      }
+    }
+  ],
+  "passed_cases": 23,
+  "skill_library_files_unchanged": true,
+  "link_test": {
+    "method": "junction",
+    "directory": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\skill-review-2026-10-19\\locator-m6az562x\\linked-skill",
+    "resolved_target": "E:\\programming\\funcodes\\mcp-musescore\\skills\\piano-engraving",
+    "only_inside_ignored_repo_temp": true
+  },
+  "global_skill_directory_modified": false,
+  "codex_app_discovery_verified": false,
+  "metadata_and_creator_validator": {
+    "system_quick_validate": "passed",
+    "python_environment": "Existing project .venv, UTF-8 mode",
+    "yaml_version": "6.0.3",
+    "ui_utf8_name_length_prompt_checked": true,
+    "implicit_invocation_disabled": false
+  },
+  "source_skill_files": [
+    {
+      "path": "skills/piano-engraving/agents/openai.yaml",
+      "sha256": "8df86c0a5767aab008e41e5ee675e88b26bf3eb7a6f142a2e9f615d03c64a3e9"
+    },
+    {
+      "path": "skills/piano-engraving/references/native-review.md",
+      "sha256": "ece5f3cb9e5d58725f4a9adaba8ec8691607e4d0ed9987825d6b48e1f2961b90"
+    },
+    {
+      "path": "skills/piano-engraving/scripts/engraving_library.py",
+      "sha256": "b99bbab9336a2f8ca4eb05b4bffb9bcd8f6ef995b372dff197861b5b3a3c92c2"
+    },
+    {
+      "path": "skills/piano-engraving/SKILL.md",
+      "sha256": "b1f02d24a586dfcc2bb13e2a07255c4ff357e06ca7c151fec76bdb74775a74ac"
+    }
+  ],
+  "same_agent_worked_example": {
+    "id": "A127",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\The Rumbling - Attack on Titan The Final Season Part 2 - Opening Theme.pdf",
+    "sha256_before": "4ec194bb0a2336ee5159a2e8af61e97ac885bb6f33d26a9ca9d091b8bb754eb4",
+    "page": 3,
+    "cached_render": "tmp/engraving/corpus/A127/page-3.jpg",
+    "scope": "Same-agent worked example, no blind or independent agent test, no score edits.",
+    "sha256_after": "4ec194bb0a2336ee5159a2e8af61e97ac885bb6f33d26a9ca9d091b8bb754eb4",
+    "discussion": "SKILL_REVIEW.md"
+  },
+  "post_review": {
+    "scope_routing_and_references_reviewed": true,
+    "no_extra_software_development_authorization_implied": true,
+    "format_validator_repeated_after_final_instruction_change": "passed",
+    "document_links_and_placeholders_checked": true,
+    "independent_behavioral_evaluation_performed": false,
+    "skill_text_files_utf8_lf": true
+  }
+}
