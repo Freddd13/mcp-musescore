@@ -16,7 +16,7 @@ TOPICS = {
     "curves": ("CURVES_STUDY.md",),
     "piano": ("PIANO_TEXTURE_STUDY.md",),
     "cross-staff": ("CROSS_STAFF_STUDY.md", "PIANO_TEXTURE_STUDY.md"),
-    "notation": ("NOTATION_DETAILS.md", "ACCIDENTAL_SPACING.md"),
+    "notation": ("ACCIDENTAL_CONTEXT.md", "NOTATION_DETAILS.md", "ACCIDENTAL_SPACING.md"),
     "layout": ("PAGE_FLOW_STUDY.md", "SPACING_DECISIONS.md", "EXTERNAL_PRACTICE.md", "CASES.md"),
     "sources": ("SOURCES.md", "BEHIND_BARS_NOTES.md", "RESOURCE_PLAN_MAPPING.md"),
     "cases": ("corpus/INDEX.md", "CASES.md", "CASES_EXPANDED.md"),

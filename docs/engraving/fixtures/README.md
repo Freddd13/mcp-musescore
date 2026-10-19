@@ -1,5 +1,13 @@
 # 独立净书复现谱例
 
+## 提示变音与来路：行中、跨行、简单反复
+
+2026-10-20新增原创六小节3/4双谱表，CC0。[自动版](accidental-state-automatic.mscx)／[图](accidental-state-automatic.png)、[选择性提示](accidental-state-selective.mscx)／[图](accidental-state-selective.png)、[额外给行中tie重复版](accidental-state-extra-tied.mscx)／[图](accidental-state-extra-tied.png)。m1–2同系统，m3–4跨系统，m5–6两次反复。选择版只在m4 tie接收F♯加普通升号、m5反复起点C加括起还原；额外版再给m2行中tie接收C♯加升号。后者是反例，不作通用美化。
+
+保持Leland／Leland Text、spatium 1.57mm、A4与同宿主。32逻辑音、两tie和反复等结构核对，原生输入只差Accidental节点；三版MIDI逐字节相同。m4提示会使后面自动升号省去，故显示核查不能只看添加点。选择版保存重载MusicXML音乐、SVG（除标题）、PNG像素与MIDI相同；其余两版未作此次重载。全部图只合白底并同框裁页边；稀疏宽行用于隔开试验条件，不是理想页模板，末系统未强撑满。判断及限制见[提示变音专题](../ACCIDENTAL_CONTEXT.md)，证据见[accidental_state_evidence.json](../accidental_state_evidence.json)。原官谱／教材和用户音乐不属于此CC0许可。
+
+## 共同时间列极简复现
+
 `mixed-subdivision.mscx` 是本线自制的极简6/8钢琴谱，不含用户或参考谱的音乐摘录。四小节左手均为六个C3八分，右手均用G4，仅第三小节后半的细分改变。内置Leland/Leland Text，无变音、歌词、手工位移、特殊隐藏谱表。用于研究共同时间列和弹性分配，不是改好的排版或审美目标。
 
 2026-10-10由本机Evolution原生导出PNG和SVG；SVG标记MuseScore 3.7.0。第三小节左手间距约17.26/17.26/17.26/21.57/21.57pt，前后普通小节约17.07pt。完整结果见 [SPACING_STUDY](../SPACING_STUDY.md) 与 [spacing_evidence.json](../spacing_evidence.json)。

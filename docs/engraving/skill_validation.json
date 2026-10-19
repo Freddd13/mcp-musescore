@@ -604,5 +604,36 @@
     "initial_23_tests_not_claimed_rerun": true,
     "independent_behavior_or_aesthetic_evaluation_claimed": false,
     "global_installation_or_app_discovery_performed": false
+  },
+  "follow_up_accidental_context": {
+    "date": "2026-10-20",
+    "scope": "Added notation topic reference and native-review prose; main SKILL.md, UI metadata and path-resolution algorithm unchanged.",
+    "check": {
+      "topic": "notation",
+      "external_cwd": "C:\\Windows",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "notation",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_CONTEXT.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md"
+        ]
+      }
+    },
+    "script_sha256": "18ff264574963800e7f06d315875d5db081edeb2c7fd2e08574df02a841e926f",
+    "native_reference_sha256": "41ae474649c3bf6c740c80faa2f375862ee9f7e2ff6d7e3b8f9ddf56418959a1",
+    "evidence": "accidental_state_evidence.json",
+    "initial_23_tests_not_claimed_rerun": true,
+    "independent_behavior_or_aesthetic_evaluation_claimed": false,
+    "global_installation_or_app_discovery_performed": false
   }
 }
