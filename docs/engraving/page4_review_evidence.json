@@ -1,0 +1,956 @@
+{
+  "date": "2026-10-20",
+  "scope": "Full user page 4 judgment and 13-pedal style comparison; no software development or original-score modification",
+  "previous_goal_turn": "progress: 589bf1f added tremolo reading and native evidence",
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "same_before_and_after_all_export_batches": true,
+    "source_commit_correspondence_proven": false
+  },
+  "source_context_read_only": {
+    "head": "ec901d3559c4a7dd143c86390393e88ee2f59a27",
+    "files": [
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\pedal.cpp",
+        "sha256": "6b270a31d523b3b309528effa314985243701ca8760c3041cdca49bdedbcab09"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\line.cpp",
+        "sha256": "0944a2f321c41ec1db7a1c733c13a67f2b587ab0aad33f73674d91349c4f8799"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\rendermidi.cpp",
+        "sha256": "265086927d77b45e411edca435d164f614c418cdb34b8eb6beba9e31a4495a20"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\style.cpp",
+        "sha256": "605bb4d4849e6925fdea219732710cbfb6aefcd8b09347cd188cf58a88ca97b7"
+      }
+    ],
+    "serialization_condition": "Current line.cpp writes modified segments if OFFSET is unstyled (among other conditions); off2-only styled segments can render but be omitted on save",
+    "binary_observation": "Nine off2-only segments disappear on save; explicit paired effective offsets preserve them",
+    "no_core_bug_or_interface_fix_implemented": true
+  },
+  "reading": {
+    "user_pdf_full_pages_viewed": [
+      3,
+      4,
+      5
+    ],
+    "primary_page": 4,
+    "book_full_text_and_images_revisited_printed": [
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338
+    ],
+    "book_pdf_pages": [
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358
+    ],
+    "book_previously_read_in_piano_texture_study": true,
+    "official_revisited": {
+      "id": "A056",
+      "page": 8,
+      "topic": "Two independent pedal functions and releases; ambiguous sus. label retained as a conditional source observation"
+    },
+    "no_new_corpus_near_read_count": true
+  },
+  "input": {
+    "private_baseline": "tmp\\engraving\\page-reading-2026-10-20\\native\\baseline.mscz",
+    "baseline_mscz_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "root_entry": "如果有来生-release5.mscx",
+    "fonts_and_style_not_changed": true,
+    "spatium_mm": 1.57,
+    "parts_staff_ids": [
+      [
+        "1",
+        "2"
+      ],
+      [
+        "3",
+        "4"
+      ],
+      [
+        "5",
+        "6"
+      ]
+    ],
+    "PDF_to_MSCZ_objectwise_equivalence_not_proven": true
+  },
+  "selection": {
+    "staff_id": "4",
+    "voice_zero_based": 0,
+    "measures": [
+      70,
+      79
+    ],
+    "pedal_starts": 13,
+    "start_measure_sequence": [
+      70,
+      70,
+      71,
+      71,
+      72,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+    ],
+    "logical_spanner_locations_unchanged": true,
+    "SP_text_untouched_and_meaning_unconfirmed": true,
+    "other_ZIP_entries_identical": true,
+    "inverse_restore_13_Pedal_nodes_recovers_complete_original_XML_tree_including_rich_text_tails": true
+  },
+  "whole_page_judgment": {
+    "retain": [
+      "G Comodo in-line entrance and actual dynamic onsets",
+      "m85-88 chromatic/tuplet information and handover",
+      "m89-93 three-staff separation, empty upper entry lane and two quasi eco responses",
+      "all note, voice, spelling, connection, rest and page-break data",
+      "all unknown SP instructions"
+    ],
+    "compare": "Reduce repeated pedal glyph clusters using two Ped. labels and independent brackets, preserving visible activation/release cues",
+    "not_claimed": "This is a style candidate, not a verified preferred edition or a reconstruction of author performance intent"
+  },
+  "variants": {
+    "naive": {
+      "name": "pedal-lines-kept-geometry",
+      "result": "Rejected: first line crosses next Ped. word; only 11 of 13 horizontal lines render because two short spans cannot fit repeated text",
+      "full_MIDI_equal": true
+    },
+    "matched_but_unpaired": {
+      "name": "pedal-brackets-matched",
+      "result": "Initial release positions match, but nine new off2-only segments disappear on native save",
+      "lost_off2_segments_on_save": 9,
+      "max_release_shift_svg_observed_after_save": 32.28,
+      "adopted": false
+    },
+    "explicit_default_offset": {
+      "name": "pedal-brackets-persistent",
+      "result": "Persists, but makes some marks closer and redistributes page-4 vertical layout; not the appearance-only comparison",
+      "nonpedal_change_from_matched": {
+        "scope": "Staff-line Y displacement only; other layout-dependent shapes such as braces also change scale",
+        "staff_line_count": 55,
+        "max_staff_line_y_shift_svg": 0.010000000000218279,
+        "same_geometry_as_matched": false
+      },
+      "adopted_as_final": false
+    },
+    "final": {
+      "name": "pedal-brackets-frozen",
+      "path": "tmp\\engraving\\page-reading-2026-10-20\\native\\pedal-brackets-frozen.mscz",
+      "sha256": "cd34af310389f2aba09ddcf6b3c5b57847463d109e6a9e7854e1ba75a84b02a2",
+      "visible_labels": 2,
+      "independent_brackets": 13,
+      "begin_hook_90_count": 11,
+      "end_hook_90_count": 13,
+      "new_segment_paired_effective_offsets": [
+        {
+          "index": 4,
+          "measure": 72,
+          "effective_offset_y_sp": 6.954980184005665,
+          "canonical_offset_y_sp": 6.95498
+        },
+        {
+          "index": 5,
+          "measure": 72,
+          "effective_offset_y_sp": 6.954980184005665,
+          "canonical_offset_y_sp": 6.95498
+        },
+        {
+          "index": 6,
+          "measure": 73,
+          "effective_offset_y_sp": 6.954980184005665,
+          "canonical_offset_y_sp": 6.95498
+        },
+        {
+          "index": 7,
+          "measure": 74,
+          "effective_offset_y_sp": 6.857820240622784,
+          "canonical_offset_y_sp": 6.85782
+        },
+        {
+          "index": 8,
+          "measure": 75,
+          "effective_offset_y_sp": 6.857820240622784,
+          "canonical_offset_y_sp": 6.85782
+        },
+        {
+          "index": 9,
+          "measure": 76,
+          "effective_offset_y_sp": 6.857820240622784,
+          "canonical_offset_y_sp": 6.85782
+        },
+        {
+          "index": 10,
+          "measure": 77,
+          "effective_offset_y_sp": 6.857820240622784,
+          "canonical_offset_y_sp": 6.85782
+        },
+        {
+          "index": 11,
+          "measure": 78,
+          "effective_offset_y_sp": 6.857820240622784,
+          "canonical_offset_y_sp": 6.85782
+        },
+        {
+          "index": 12,
+          "measure": 79,
+          "effective_offset_y_sp": 6.857820240622784,
+          "canonical_offset_y_sp": 6.85782
+        }
+      ],
+      "modified_off2_values_canonicalized_to_native_six_significant_digits": true,
+      "font_family_font_size_and_page_style_unchanged": true,
+      "user_adoption_or_preference_claimed": false
+    }
+  },
+  "graphics": {
+    "svg_units_per_sp": 22.251968503937007,
+    "source_star_centers_from_actual_cubic_Bezier_extrema": true,
+    "release_mapping": [
+      {
+        "index": 0,
+        "measure": 70,
+        "old_begin_ink_left_svg": 396.107,
+        "old_release_ink_center_svg": 591.3695,
+        "new_horizontal_line_xyxy_svg": [
+          509.233,
+          836.029,
+          591.37,
+          836.029
+        ],
+        "release_x_error_svg": 0.0004999999999881766
+      },
+      {
+        "index": 1,
+        "measure": 70,
+        "old_begin_ink_left_svg": 746.289,
+        "old_release_ink_center_svg": 1039.04,
+        "new_horizontal_line_xyxy_svg": [
+          746.289,
+          840.808,
+          1039.04,
+          840.808
+        ],
+        "release_x_error_svg": 0.0
+      },
+      {
+        "index": 2,
+        "measure": 71,
+        "old_begin_ink_left_svg": 1107.28,
+        "old_release_ink_center_svg": 1187.815,
+        "new_horizontal_line_xyxy_svg": [
+          1107.28,
+          843.033,
+          1187.82,
+          843.033
+        ],
+        "release_x_error_svg": 0.004999999999881766
+      },
+      {
+        "index": 3,
+        "measure": 71,
+        "old_begin_ink_left_svg": 1310.74,
+        "old_release_ink_center_svg": 1533.53,
+        "new_horizontal_line_xyxy_svg": [
+          1310.74,
+          843.033,
+          1533.53,
+          843.033
+        ],
+        "release_x_error_svg": 0.0
+      },
+      {
+        "index": 4,
+        "measure": 72,
+        "old_begin_ink_left_svg": 1878.18,
+        "old_release_ink_center_svg": 2022.28,
+        "new_horizontal_line_xyxy_svg": [
+          1878.18,
+          871.311,
+          2022.28,
+          871.311
+        ],
+        "release_x_error_svg": 0.0
+      },
+      {
+        "index": 5,
+        "measure": 72,
+        "old_begin_ink_left_svg": 2083.48,
+        "old_release_ink_center_svg": 2228.45,
+        "new_horizontal_line_xyxy_svg": [
+          2083.48,
+          871.311,
+          2228.45,
+          871.311
+        ],
+        "release_x_error_svg": 0.0
+      },
+      {
+        "index": 6,
+        "measure": 73,
+        "old_begin_ink_left_svg": 2314.63,
+        "old_release_ink_center_svg": 2772.0,
+        "new_horizontal_line_xyxy_svg": [
+          2314.63,
+          871.311,
+          2772.0,
+          871.311
+        ],
+        "release_x_error_svg": 0.0
+      },
+      {
+        "index": 7,
+        "measure": 74,
+        "old_begin_ink_left_svg": 377.469,
+        "old_release_ink_center_svg": 708.2864999999999,
+        "new_horizontal_line_xyxy_svg": [
+          490.595,
+          1625.01,
+          708.286,
+          1625.01
+        ],
+        "release_x_error_svg": -0.0004999999999881766
+      },
+      {
+        "index": 8,
+        "measure": 75,
+        "old_begin_ink_left_svg": 776.53,
+        "old_release_ink_center_svg": 918.0844999999999,
+        "new_horizontal_line_xyxy_svg": [
+          776.53,
+          1625.01,
+          918.084,
+          1625.01
+        ],
+        "release_x_error_svg": -0.0004999999999881766
+      },
+      {
+        "index": 9,
+        "measure": 76,
+        "old_begin_ink_left_svg": 1209.9,
+        "old_release_ink_center_svg": 1557.47,
+        "new_horizontal_line_xyxy_svg": [
+          1209.9,
+          1625.01,
+          1557.47,
+          1625.01
+        ],
+        "release_x_error_svg": 0.0
+      },
+      {
+        "index": 10,
+        "measure": 77,
+        "old_begin_ink_left_svg": 1625.71,
+        "old_release_ink_center_svg": 1748.52,
+        "new_horizontal_line_xyxy_svg": [
+          1625.71,
+          1625.01,
+          1748.52,
+          1625.01
+        ],
+        "release_x_error_svg": 0.0
+      },
+      {
+        "index": 11,
+        "measure": 78,
+        "old_begin_ink_left_svg": 1953.74,
+        "old_release_ink_center_svg": 2260.145,
+        "new_horizontal_line_xyxy_svg": [
+          1953.74,
+          1625.01,
+          2260.14,
+          1625.01
+        ],
+        "release_x_error_svg": -0.005000000000109139
+      },
+      {
+        "index": 12,
+        "measure": 79,
+        "old_begin_ink_left_svg": 2363.82,
+        "old_release_ink_center_svg": 2752.05,
+        "new_horizontal_line_xyxy_svg": [
+          2363.82,
+          1625.01,
+          2752.05,
+          1625.01
+        ],
+        "release_x_error_svg": 0.0
+      }
+    ],
+    "max_release_x_error_svg": 0.005000000000109139,
+    "two_roman_label_begin_ink_shift_svg": [
+      0.48399999999998045,
+      0.48399999999998045
+    ],
+    "other_11_begin_hooks_match_old_begin_ink_left_within_svg": 0.02,
+    "old_page4_PedalSegment_paths": 30,
+    "new_page4_PedalSegment_paths": 6,
+    "new_page4_PedalSegment_polylines": 37,
+    "primitive_count_is_not_reading_complexity": true,
+    "page4_nonpedal_changes": {
+      "MeasureNumber": {
+        "changed_elements": 1,
+        "max_x_delta_svg": 0.0,
+        "max_y_delta_svg": 0.009999999999990905
+      },
+      "SlurSegment": {
+        "changed_elements": 1,
+        "max_x_delta_svg": 0.0,
+        "max_y_delta_svg": 0.009999999999990905
+      },
+      "Dynamic": {
+        "changed_elements": 2,
+        "max_x_delta_svg": 0.0,
+        "max_y_delta_svg": 0.009999999999990905
+      },
+      "Beam": {
+        "changed_elements": 1,
+        "max_x_delta_svg": 0.0,
+        "max_y_delta_svg": 0.009999999999763531
+      },
+      "OttavaSegment": {
+        "changed_elements": 4,
+        "max_x_delta_svg": 0.0,
+        "max_y_delta_svg": 0.010000000000218279
+      }
+    },
+    "max_nonpedal_x_delta_svg": 0.0,
+    "max_nonpedal_y_delta_svg": 0.010000000000218279,
+    "all_full_page_and_first_system_variants_visually_reviewed": true,
+    "complete_general_collision_detection_not_claimed": true
+  },
+  "native_reload": {
+    "saved_name": "pedal-brackets-frozen-resaved",
+    "offset_and_off2_values_persist": true,
+    "all_8_svg_equal_except_title_desc": true,
+    "all_8_png_pixels_equal": true,
+    "musicxml_bytes_equal": true,
+    "complete_MIDI_bytes_equal": true
+  },
+  "pages": [
+    {
+      "page": 1,
+      "baseline_svg_equal_except_title_desc": true,
+      "candidate_reload_svg_equal_except_title_desc": true,
+      "candidate_reload_png_pixels_equal": true
+    },
+    {
+      "page": 2,
+      "baseline_svg_equal_except_title_desc": true,
+      "candidate_reload_svg_equal_except_title_desc": true,
+      "candidate_reload_png_pixels_equal": true
+    },
+    {
+      "page": 3,
+      "baseline_svg_equal_except_title_desc": true,
+      "candidate_reload_svg_equal_except_title_desc": true,
+      "candidate_reload_png_pixels_equal": true
+    },
+    {
+      "page": 4,
+      "baseline_svg_equal_except_title_desc": false,
+      "candidate_reload_svg_equal_except_title_desc": true,
+      "candidate_reload_png_pixels_equal": true
+    },
+    {
+      "page": 5,
+      "baseline_svg_equal_except_title_desc": true,
+      "candidate_reload_svg_equal_except_title_desc": true,
+      "candidate_reload_png_pixels_equal": true
+    },
+    {
+      "page": 6,
+      "baseline_svg_equal_except_title_desc": true,
+      "candidate_reload_svg_equal_except_title_desc": true,
+      "candidate_reload_png_pixels_equal": true
+    },
+    {
+      "page": 7,
+      "baseline_svg_equal_except_title_desc": true,
+      "candidate_reload_svg_equal_except_title_desc": true,
+      "candidate_reload_png_pixels_equal": true
+    },
+    {
+      "page": 8,
+      "baseline_svg_equal_except_title_desc": true,
+      "candidate_reload_svg_equal_except_title_desc": true,
+      "candidate_reload_png_pixels_equal": true
+    }
+  ],
+  "layout_systems": [
+    {
+      "page": 1,
+      "start": 1,
+      "end": 6
+    },
+    {
+      "page": 1,
+      "start": 7,
+      "end": 12
+    },
+    {
+      "page": 1,
+      "start": 13,
+      "end": 19
+    },
+    {
+      "page": 1,
+      "start": 20,
+      "end": 26
+    },
+    {
+      "page": 1,
+      "start": 27,
+      "end": 32
+    },
+    {
+      "page": 2,
+      "start": 33,
+      "end": 38
+    },
+    {
+      "page": 2,
+      "start": 39,
+      "end": 43
+    },
+    {
+      "page": 2,
+      "start": 44,
+      "end": 48
+    },
+    {
+      "page": 2,
+      "start": 49,
+      "end": 52
+    },
+    {
+      "page": 2,
+      "start": 53,
+      "end": 56
+    },
+    {
+      "page": 3,
+      "start": 57,
+      "end": 59
+    },
+    {
+      "page": 3,
+      "start": 60,
+      "end": 61
+    },
+    {
+      "page": 3,
+      "start": 62,
+      "end": 63
+    },
+    {
+      "page": 3,
+      "start": 64,
+      "end": 65
+    },
+    {
+      "page": 3,
+      "start": 66,
+      "end": 69
+    },
+    {
+      "page": 4,
+      "start": 70,
+      "end": 73
+    },
+    {
+      "page": 4,
+      "start": 74,
+      "end": 79
+    },
+    {
+      "page": 4,
+      "start": 80,
+      "end": 84
+    },
+    {
+      "page": 4,
+      "start": 85,
+      "end": 88
+    },
+    {
+      "page": 4,
+      "start": 89,
+      "end": 93
+    },
+    {
+      "page": 5,
+      "start": 94,
+      "end": 97
+    },
+    {
+      "page": 5,
+      "start": 98,
+      "end": 100
+    },
+    {
+      "page": 5,
+      "start": 101,
+      "end": 103
+    },
+    {
+      "page": 5,
+      "start": 104,
+      "end": 106
+    },
+    {
+      "page": 5,
+      "start": 107,
+      "end": 110
+    },
+    {
+      "page": 6,
+      "start": 111,
+      "end": 114
+    },
+    {
+      "page": 6,
+      "start": 115,
+      "end": 117
+    },
+    {
+      "page": 6,
+      "start": 118,
+      "end": 121
+    },
+    {
+      "page": 6,
+      "start": 122,
+      "end": 125
+    },
+    {
+      "page": 6,
+      "start": 126,
+      "end": 129
+    },
+    {
+      "page": 7,
+      "start": 130,
+      "end": 134
+    },
+    {
+      "page": 7,
+      "start": 135,
+      "end": 137
+    },
+    {
+      "page": 7,
+      "start": 138,
+      "end": 140
+    },
+    {
+      "page": 7,
+      "start": 141,
+      "end": 143
+    },
+    {
+      "page": 7,
+      "start": 144,
+      "end": 146
+    },
+    {
+      "page": 8,
+      "start": 147,
+      "end": 147
+    },
+    {
+      "page": 8,
+      "start": 148,
+      "end": 149
+    },
+    {
+      "page": 8,
+      "start": 150,
+      "end": 155
+    }
+  ],
+  "playback": {
+    "ppq": 480,
+    "note_ons": 2310,
+    "tempo_events": 391,
+    "CC64_events": 310,
+    "all_byte_equal_variants": [
+      "baseline",
+      "pedal-lines-kept-geometry",
+      "pedal-brackets-matched",
+      "pedal-brackets-resaved",
+      "pedal-brackets-persistent",
+      "pedal-brackets-persistent-resaved",
+      "pedal-brackets-frozen",
+      "pedal-brackets-frozen-resaved"
+    ],
+    "two_contrasting_CC64_transitions": [
+      {
+        "context": "m70 release then later press",
+        "release_tick": 103681,
+        "press_tick": 103922,
+        "gap_ticks": 241
+      },
+      {
+        "context": "m72 immediate retake",
+        "release_tick": 107281,
+        "press_tick": 107282,
+        "gap_ticks": 1
+      }
+    ],
+    "physical_pedal_routing_audio_and_SP_intent_not_assessed": true
+  },
+  "pedal_time_context_from_baseline_musicxml": [
+    {
+      "measure": 70,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "215",
+      "staff": "2"
+    },
+    {
+      "measure": 70,
+      "type": "stop",
+      "local_quarters": "1",
+      "global_quarters": "216",
+      "staff": "2"
+    },
+    {
+      "measure": 70,
+      "type": "start",
+      "local_quarters": "3/2",
+      "global_quarters": "433/2",
+      "staff": "2"
+    },
+    {
+      "measure": 70,
+      "type": "stop",
+      "local_quarters": "3",
+      "global_quarters": "218",
+      "staff": "2"
+    },
+    {
+      "measure": 71,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "218",
+      "staff": "2"
+    },
+    {
+      "measure": 71,
+      "type": "start",
+      "local_quarters": "3/2",
+      "global_quarters": "439/2",
+      "staff": "2"
+    },
+    {
+      "measure": 71,
+      "type": "stop",
+      "local_quarters": "3",
+      "global_quarters": "221",
+      "staff": "2"
+    },
+    {
+      "measure": 71,
+      "type": "stop",
+      "local_quarters": "1",
+      "global_quarters": "219",
+      "staff": "2"
+    },
+    {
+      "measure": 72,
+      "type": "start",
+      "local_quarters": "3/2",
+      "global_quarters": "445/2",
+      "staff": "2"
+    },
+    {
+      "measure": 72,
+      "type": "stop",
+      "local_quarters": "5/2",
+      "global_quarters": "447/2",
+      "staff": "2"
+    },
+    {
+      "measure": 72,
+      "type": "start",
+      "local_quarters": "5/2",
+      "global_quarters": "447/2",
+      "staff": "2"
+    },
+    {
+      "measure": 72,
+      "type": "stop",
+      "local_quarters": "3",
+      "global_quarters": "224",
+      "staff": "2"
+    },
+    {
+      "measure": 73,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "224",
+      "staff": "2"
+    },
+    {
+      "measure": 73,
+      "type": "stop",
+      "local_quarters": "3",
+      "global_quarters": "227",
+      "staff": "2"
+    },
+    {
+      "measure": 74,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "227",
+      "staff": "2"
+    },
+    {
+      "measure": 74,
+      "type": "stop",
+      "local_quarters": "3",
+      "global_quarters": "230",
+      "staff": "2"
+    },
+    {
+      "measure": 75,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "230",
+      "staff": "2"
+    },
+    {
+      "measure": 75,
+      "type": "stop",
+      "local_quarters": "3/2",
+      "global_quarters": "463/2",
+      "staff": "2"
+    },
+    {
+      "measure": 76,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "233",
+      "staff": "2"
+    },
+    {
+      "measure": 76,
+      "type": "stop",
+      "local_quarters": "3",
+      "global_quarters": "236",
+      "staff": "2"
+    },
+    {
+      "measure": 77,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "236",
+      "staff": "2"
+    },
+    {
+      "measure": 77,
+      "type": "stop",
+      "local_quarters": "3/2",
+      "global_quarters": "475/2",
+      "staff": "2"
+    },
+    {
+      "measure": 78,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "239",
+      "staff": "2"
+    },
+    {
+      "measure": 78,
+      "type": "stop",
+      "local_quarters": "3",
+      "global_quarters": "242",
+      "staff": "2"
+    },
+    {
+      "measure": 79,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "242",
+      "staff": "2"
+    },
+    {
+      "measure": 79,
+      "type": "stop",
+      "local_quarters": "3",
+      "global_quarters": "245",
+      "staff": "2"
+    },
+    {
+      "measure": 80,
+      "type": "start",
+      "local_quarters": "0",
+      "global_quarters": "245",
+      "staff": "2"
+    },
+    {
+      "measure": 80,
+      "type": "stop",
+      "local_quarters": "3",
+      "global_quarters": "248",
+      "staff": "2"
+    }
+  ],
+  "private_visuals": {
+    "before_first_system": "tmp\\engraving\\page-reading-2026-10-20\\baseline-first-system.png",
+    "candidate_first_system": "tmp\\engraving\\page-reading-2026-10-20\\pedal-brackets-frozen-first-system.png",
+    "candidate_full_page": "tmp\\engraving\\page-reading-2026-10-20\\pedal-brackets-frozen-p4-white.png",
+    "method": "180dpi native PNG white composited; first-system crop (80,110,1430,455); no symbols moved or rescaled in image editing"
+  },
+  "protection": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Here - Mahoutsukai no Yome - Opening Theme.pdf",
+      "sha256": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+      "equals_prior_read_only_baseline": true
+    }
+  ],
+  "not_performed": [
+    "original PDF or MSCZ edit",
+    "GUI operations",
+    "MCP/plugin/core changes",
+    "MusicXML reimport",
+    "audio/physical printing",
+    "user preference evaluation",
+    "automatic conversion of all retakes into continuous notches",
+    "global skill installation"
+  ],
+  "source_music_images_and_book_not_in_Git": true
+}
