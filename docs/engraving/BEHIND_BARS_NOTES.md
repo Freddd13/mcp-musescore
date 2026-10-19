@@ -1,5 +1,7 @@
 # Behind Bars 定向阅读与规则核查
 
+2026-10-19续学：本次完整复看p40/41/43、487–490；新看p47–53七个完整图页。补二度和弦、变化同音的斜接干、双干同音/邻音、交叠声部与同步参照的条件，并将p40稳定目标与p490的逐拍复杂层优先合读，见[SPACING_DECISIONS](SPACING_DECISIONS.md)。A102 p8还补三小节分两系统的实际拆行例，与p489–490核对。未把几何上的同时均匀说成绝不可能；也未以单页一般规则覆盖钢琴章的共头例外。
+
 2026-10-09。来源 S17：Elaine Gould, *Behind Bars: The Definitive Guide to Music Notation*, Faber Music, 2011。读取用户 OneDrive 的696页PDF，以本机文件为正文来源；并非仅凭目录推断规则。原书、OCR全文和图页不提交仓库。
 
 主文件：`C:\Users\Fred\OneDrive - yunzd\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf`。另一本地副本 `cloudreve\ebooks\Elaine Gould\Behind Bars (125)\Behind Bars - Elaine Gould.pdf` 用于章节文字读取，两个文件哈希不同，不称逐页完全相同。来源哈希与读取后保护见 [expanded_verification.json](expanded_verification.json)。

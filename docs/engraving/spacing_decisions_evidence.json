@@ -1,0 +1,606 @@
+{
+  "date": "2026-10-19",
+  "scope": "New learning evidence, not a mastery certificate, software fix or aesthetic acceptance.",
+  "book": {
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "matches_historical_source_sha256": true,
+    "full_image_reread_printed_pages": [
+      40,
+      41,
+      43,
+      487,
+      488,
+      489,
+      490
+    ],
+    "full_image_new_read_printed_pages": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+    ],
+    "page_mapping": "Verified local edition: PDF page = printed page + 20."
+  },
+  "reference_score": {
+    "id": "A102",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Owari no Sekai Kara - from the album - Owari no Hoshi no Love Song -.pdf",
+    "sha256_after": "baae71eacfddd0bd72be8925c1ae1be519a8ce6f860641688e0ffddc148fe825",
+    "matches_inventory_sha256": true,
+    "visually_revisited_full_pdf_pages": [
+      7,
+      8
+    ],
+    "additional_view": "Page 1 title and first-system excerpt only.",
+    "measurement_region": "PDF page 7, first system, second measure, upper 5/7 groups and lower 3 groups.",
+    "measurement_kind": "Same-file CIDFont+F1 U+F0CF drawing origins from pdfplumber, visually matched to solid noteheads here only. Not ink bboxes; no cross-file encoding assumption.",
+    "five_upper_x_pt": [
+      256.3200075,
+      263.879997,
+      271.3200075,
+      279.0,
+      286.4399985
+    ],
+    "seven_upper_x_pt": [
+      294.0,
+      300.9599985,
+      309.479991,
+      319.2000045,
+      328.920018,
+      338.759994,
+      348.47998425
+    ],
+    "five_lower_x_pt": [
+      256.3200075,
+      268.920009,
+      281.51998725
+    ],
+    "seven_lower_x_pt": [
+      294.0,
+      312.71999325,
+      335.51998725
+    ],
+    "local_interpolation_checks": [
+      {
+        "group": "five",
+        "lower_index_zero_based": 1,
+        "predicted_x_pt": 268.840004,
+        "observed_x_pt": 268.920009,
+        "absolute_difference_pt": 0.080005
+      },
+      {
+        "group": "five",
+        "lower_index_zero_based": 2,
+        "predicted_x_pt": 281.48,
+        "observed_x_pt": 281.51998725,
+        "absolute_difference_pt": 0.039988
+      },
+      {
+        "group": "seven",
+        "lower_index_zero_based": 1,
+        "predicted_x_pt": 312.719995,
+        "observed_x_pt": 312.71999325,
+        "absolute_difference_pt": 2e-06
+      },
+      {
+        "group": "seven",
+        "lower_index_zero_based": 2,
+        "predicted_x_pt": 335.480002,
+        "observed_x_pt": 335.51998725,
+        "absolute_difference_pt": 0.039985
+      }
+    ],
+    "page8_split_measure": {
+      "reading": "Three 4/4 measures span two systems as 4+2 and 2+4 sextuplet groups; the middle chromatic measure is split at a whole beat.",
+      "upper_drawing_origins_pt": {
+        "system1_plain24": [
+          87.71999925,
+          99.47999924999999,
+          111.120003,
+          123.0,
+          134.75999475,
+          146.39999775,
+          158.16000375000002,
+          169.7999955,
+          181.68000375,
+          193.32000750000003,
+          205.08000149999998,
+          216.71999325000002,
+          228.599991,
+          240.36000825,
+          252.0,
+          263.75999475000003,
+          275.400009,
+          287.28000675,
+          299.04000075,
+          310.67999249999997,
+          322.44000975,
+          334.0800015,
+          345.95999925,
+          357.71999325
+        ],
+        "system1_chromatic12": [
+          377.400009,
+          392.64001500000006,
+          407.64001500000006,
+          422.88002025,
+          438.0,
+          453.24000525,
+          468.24000525,
+          483.48001124999996,
+          498.599991,
+          513.83999625,
+          528.96002175,
+          544.199982
+        ],
+        "system2_chromatic12": [
+          86.28000075,
+          102.24000525,
+          118.2000045,
+          134.16000375000002,
+          150.120003,
+          166.08000149999998,
+          182.04000075,
+          198.0,
+          213.95999924999998,
+          229.91999850000002,
+          245.879997,
+          261.83999625
+        ],
+        "system2_plain24": [
+          285.71999325,
+          298.0800015,
+          309.95999925,
+          321.83999625,
+          333.599991,
+          345.48001125,
+          357.36000824999996,
+          368.879997,
+          380.04000075,
+          391.3200075,
+          402.83999625,
+          414.0,
+          425.16000375,
+          436.199982,
+          447.35998499999994,
+          458.51998875000004,
+          469.6799925,
+          480.83999625,
+          491.88002025,
+          503.03997825,
+          514.199982,
+          525.3599849999999,
+          536.400009,
+          547.5600127499999
+        ]
+      },
+      "event_counts_per_system": [
+        36,
+        36
+      ],
+      "system1_internal_barline_x_pt": 369.6,
+      "system2_internal_barline_x_pt": 278.04,
+      "system1_staff_right_edge_x_pt": 559.2,
+      "visible_no_system1_closing_barline": true,
+      "scope": "Visual grouping, bass quarter-note count and vector lines jointly checked. No exact bar number or publisher implementation inferred."
+    },
+    "inference_limit": "Consistent with interpolation along the dense layer; does not establish the publisher software or internal algorithm."
+  },
+  "public_article": {
+    "url": "https://note.com/kokecola/n/n6df2c29e9942",
+    "newly_viewed_images": [
+      {
+        "url": "https://assets.st-note.com/production/uploads/images/26428200/picture_pc_304ddfa3523d592d1e103f592430e8ba.png",
+        "cache": "tmp/engraving/study-2026-10-19/kokecola-accidentals.png",
+        "sha256": "cec0b34e6e4ff090cc356d7b9345ed478f3922d13a8bc9bd54e23c7dd13a473d",
+        "bytes": 4938,
+        "visually_viewed": true
+      },
+      {
+        "url": "https://assets.st-note.com/production/uploads/images/26428078/picture_pc_5ef9a24df4f4b707841cbe3407983c3d.png",
+        "cache": "tmp/engraving/study-2026-10-19/kokecola-beams.png",
+        "sha256": "8316f928f877a8a74a645ca8fbdf96bf633e148bca0e0bcbe04a2a1fce53d976",
+        "bytes": 35973,
+        "visually_viewed": true
+      },
+      {
+        "url": "https://assets.st-note.com/production/uploads/images/26428305/picture_pc_aed6ba8665fa9b23704f3e9ce92bcf2a.png",
+        "cache": "tmp/engraving/study-2026-10-19/kokecola-rests.png",
+        "sha256": "bb84432b963fddebe67fd395b90cfa981eb98a94a097ad96cba85d0bd8c5b008",
+        "bytes": 38845,
+        "visually_viewed": true
+      },
+      {
+        "url": "https://assets.st-note.com/production/uploads/images/26428653/picture_pc_a44d9ad618690b9586b696459eccd083.png",
+        "cache": "tmp/engraving/study-2026-10-19/kokecola-spacing.png",
+        "sha256": "7b082f9d9367c1e6a34aa806efbc465bd67c87e2a1ac58b99d476e360ea3aa82",
+        "bytes": 54570,
+        "visually_viewed": true
+      },
+      {
+        "url": "https://assets.st-note.com/production/uploads/images/26506713/picture_pc_ffea88773902ccc9d93f9ef4b443681a.png",
+        "cache": "tmp/engraving/study-2026-10-19/kokecola-final-adjustments.png",
+        "sha256": "8cac870d1566b095d90ef5791b561b23c5f15b6a769ca3942293fc57ee39bdcc",
+        "bytes": 58874,
+        "visually_viewed": true
+      },
+      {
+        "url": "https://assets.st-note.com/production/uploads/images/26629549/picture_pc_e9caac80180dd48c4428c4da625c32da.png",
+        "cache": "tmp/engraving/study-2026-10-19/kokecola-complete.png",
+        "sha256": "4e12dbf08a2c6f42390bd452d8fad9e1c67c1a42c941bd2ca4aa2ffe0c97eae0",
+        "bytes": 155224,
+        "visually_viewed": true
+      },
+      {
+        "url": "https://assets.st-note.com/production/uploads/images/26666498/picture_pc_aebf2b8aea9641c8de60da4d73cb302e.png",
+        "cache": "tmp/engraving/study-2026-10-19/kokecola-default-comparison.png",
+        "sha256": "17d6a7027fe32e6875f24e073fbbba016ecac158950ff72ead8f58fa7353b6c7",
+        "bytes": 84038,
+        "visually_viewed": true
+      }
+    ],
+    "scope_limit": "Seven figures of part 3 only; parts 1/2 images not covered."
+  },
+  "native_study": {
+    "host_path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\msvc.install_repair_current_x64\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "fec7e2cef61ed4b4d6b639b8cc42630bbb97153670e6c24433c455a6ed23cd77",
+    "fixture_sha256": "28d7399457dd08a7416bc5e269db0df7b78ed309d929edbec154297519c7418e",
+    "font": "Leland",
+    "text_font": "Leland Text",
+    "svg_units_per_pt": 5,
+    "changes": "Only listed Style values; input is self-authored. No user score was opened.",
+    "results": [
+      {
+        "name": "baseline",
+        "settings": {},
+        "music_xml_outside_style_identical": true,
+        "note_count": 42,
+        "measures": [
+          {
+            "measure": 1,
+            "x_svg": [
+              536.197,
+              621.528,
+              706.859,
+              792.19,
+              877.521,
+              962.852
+            ],
+            "gaps_pt": [
+              17.0662,
+              17.0662,
+              17.0662,
+              17.0662,
+              17.0662
+            ],
+            "max_min": 1.0000000000000013
+          },
+          {
+            "measure": 2,
+            "x_svg": [
+              1083.81,
+              1169.14,
+              1254.47,
+              1339.81,
+              1425.14,
+              1510.47
+            ],
+            "gaps_pt": [
+              17.066,
+              17.066,
+              17.068,
+              17.066,
+              17.066
+            ],
+            "max_min": 1.0001171920778156
+          },
+          {
+            "measure": 3,
+            "x_svg": [
+              1631.43,
+              1717.72,
+              1804.01,
+              1890.31,
+              1998.17,
+              2106.04
+            ],
+            "gaps_pt": [
+              17.258,
+              17.258,
+              17.26,
+              21.572,
+              21.574
+            ],
+            "max_min": 1.2500869162127701
+          },
+          {
+            "measure": 4,
+            "x_svg": [
+              2225.26,
+              2310.6,
+              2395.93,
+              2481.26,
+              2566.59,
+              2651.92
+            ],
+            "gaps_pt": [
+              17.068,
+              17.066,
+              17.066,
+              17.066,
+              17.066
+            ],
+            "max_min": 1.0001171920778127
+          }
+        ]
+      },
+      {
+        "name": "narrow",
+        "settings": {
+          "pagePrintableWidth": "5.31579"
+        },
+        "music_xml_outside_style_identical": true,
+        "note_count": 42,
+        "measures": [
+          {
+            "measure": 1,
+            "x_svg": [
+              536.197,
+              588.217,
+              640.238,
+              699.337,
+              751.358,
+              803.378
+            ],
+            "gaps_pt": [
+              10.404,
+              10.4042,
+              11.8198,
+              10.4042,
+              10.404
+            ],
+            "max_min": 1.136082276047673
+          },
+          {
+            "measure": 2,
+            "x_svg": [
+              924.339,
+              976.359,
+              1028.38,
+              1087.48,
+              1139.5,
+              1191.52
+            ],
+            "gaps_pt": [
+              10.404,
+              10.4042,
+              11.82,
+              10.404,
+              10.404
+            ],
+            "max_min": 1.1361014994232974
+          },
+          {
+            "measure": 3,
+            "x_svg": [
+              1312.48,
+              1374.14,
+              1435.8,
+              1497.46,
+              1574.53,
+              1651.61
+            ],
+            "gaps_pt": [
+              12.332,
+              12.332,
+              12.332,
+              15.414,
+              15.416
+            ],
+            "max_min": 1.250081089847553
+          },
+          {
+            "measure": 4,
+            "x_svg": [
+              1746.84,
+              1798.86,
+              1850.88,
+              1909.98,
+              1962.0,
+              2014.02
+            ],
+            "gaps_pt": [
+              10.404,
+              10.404,
+              11.82,
+              10.404,
+              10.404
+            ],
+            "max_min": 1.1361014994232974
+          }
+        ]
+      },
+      {
+        "name": "larger-min-gap",
+        "settings": {
+          "minNoteDistance": "0.7"
+        },
+        "music_xml_outside_style_identical": true,
+        "note_count": 42,
+        "measures": [
+          {
+            "measure": 1,
+            "x_svg": [
+              536.197,
+              620.248,
+              704.3,
+              788.351,
+              872.403,
+              956.455
+            ],
+            "gaps_pt": [
+              16.8102,
+              16.8104,
+              16.8102,
+              16.8104,
+              16.8104
+            ],
+            "max_min": 1.0000118975383991
+          },
+          {
+            "measure": 2,
+            "x_svg": [
+              1077.41,
+              1161.47,
+              1245.52,
+              1329.57,
+              1413.62,
+              1497.67
+            ],
+            "gaps_pt": [
+              16.812,
+              16.81,
+              16.81,
+              16.81,
+              16.81
+            ],
+            "max_min": 1.000118976799524
+          },
+          {
+            "measure": 3,
+            "x_svg": [
+              1618.63,
+              1707.88,
+              1797.12,
+              1886.37,
+              1997.93,
+              2109.48
+            ],
+            "gaps_pt": [
+              17.85,
+              17.848,
+              17.85,
+              22.312,
+              22.31
+            ],
+            "max_min": 1.2501120573733802
+          },
+          {
+            "measure": 4,
+            "x_svg": [
+              2231.66,
+              2315.71,
+              2399.77,
+              2483.82,
+              2567.87,
+              2651.92
+            ],
+            "gaps_pt": [
+              16.81,
+              16.812,
+              16.81,
+              16.81,
+              16.81
+            ],
+            "max_min": 1.0001189767995269
+          }
+        ]
+      },
+      {
+        "name": "lower-measure-spacing",
+        "settings": {
+          "measureSpacing": "0.8"
+        },
+        "music_xml_outside_style_identical": true,
+        "note_count": 42,
+        "measures": [
+          {
+            "measure": 1,
+            "x_svg": [
+              536.197,
+              621.829,
+              707.462,
+              793.094,
+              878.727,
+              964.359
+            ],
+            "gaps_pt": [
+              17.1264,
+              17.1266,
+              17.1264,
+              17.1266,
+              17.1264
+            ],
+            "max_min": 1.00001167787743
+          },
+          {
+            "measure": 2,
+            "x_svg": [
+              1085.32,
+              1170.95,
+              1256.58,
+              1342.22,
+              1427.85,
+              1513.48
+            ],
+            "gaps_pt": [
+              17.126,
+              17.126,
+              17.128,
+              17.126,
+              17.126
+            ],
+            "max_min": 1.0001167815018128
+          },
+          {
+            "measure": 3,
+            "x_svg": [
+              1634.44,
+              1720.04,
+              1805.64,
+              1891.23,
+              1998.23,
+              2105.23
+            ],
+            "gaps_pt": [
+              17.12,
+              17.12,
+              17.118,
+              21.4,
+              21.4
+            ],
+            "max_min": 1.2501460450987276
+          },
+          {
+            "measure": 4,
+            "x_svg": [
+              2223.76,
+              2309.39,
+              2395.02,
+              2480.65,
+              2566.29,
+              2651.92
+            ],
+            "gaps_pt": [
+              17.126,
+              17.126,
+              17.126,
+              17.128,
+              17.126
+            ],
+            "max_min": 1.0001167815018128
+          }
+        ]
+      }
+    ]
+  },
+  "native_cache_directory": "tmp/engraving/study-2026-10-19/native",
+  "native_reproduction_script": "tmp/engraving/study-2026-10-19/native_study.py",
+  "all_four_native_system_images_visually_viewed": true,
+  "protected_user_pdf_or_mscz_opened": false,
+  "musescore_plugin_mcp_or_core_modified": false,
+  "improved_candidate_proven": false
+}

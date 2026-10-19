@@ -23,7 +23,7 @@
 
 ## 新取得的实践与规范来源
 
-- Kokecola的[准备篇](https://note.com/kokecola/n/n5203d1df81ca)、[输入篇](https://note.com/kokecola/n/n67b13d01c746)、[净书篇](https://note.com/kokecola/n/n6df2c29e9942)，2020-05-23至25：已读正文，图片未成功显示。作者把输入与净书分开；净书中先处理普通梁/干、变音和休止，跨谱表梁留到谱表距处理时再调。**具体梁坡和间距规则被作者明确略去**，不能把此系列称为完整算法教程；关闭自动调整也是其特定工作流选择。以后补看前后图，才能提出具体几何收益。
+- Kokecola的[准备篇](https://note.com/kokecola/n/n5203d1df81ca)、[输入篇](https://note.com/kokecola/n/n67b13d01c746)、[净书篇](https://note.com/kokecola/n/n6df2c29e9942)，2020-05-23至25：已读正文；2026-10-19续学取得并实际查看净书篇7张关键图，准备/输入篇图片仍未补齐。作者把输入与净书分开；净书中先处理普通梁/干、变音和休止，跨谱表梁留到谱表距处理时再调。**具体梁坡和间距规则被作者明确略去**，不能把此系列称为完整算法教程；关闭自动调整也是其特定工作流选择。图例分析与实际取得范围见[间距取舍](SPACING_DECISIONS.md)。
 - [MOLA官网指南](https://mola-inc.org/resources/11631)：已核官方简体中文16页PDF，读到PDF p3–8正文；已实际看PDF p3–12与图例1–7。其分谱尺寸、翻页和交付要求面向乐团，不能直接套成独奏钢琴的尺寸硬门槛。
 - [MPA Standard Music Notation Practice](https://www.mpa.org/wp-content/uploads/2018/06/standard-practice-engraving.pdf)：核实20页PDF与1966/1993版权年，读前言及可提取正文；大部分谱例仍待看图。前言明确细节并非全体一致，阅读清楚优先；不能把此小册等同当前所有出版社的唯一标准。
 - 藤井大河[2024-12-04 Dorico设置文章](https://note.com/fujii_taiga_m/n/nca8f66de9948)：已读正文，图片未看。提出重音、跨系统弧、间距比例、小节号的偏好；现行软件默认/能力需再对官方版本核查，不能把个人喜好的比例叫作出版规范。
@@ -58,3 +58,5 @@
 - 萌象的J哥[跨表琶音页](https://www.bilibili.com/video/BV1F44y1L7u8/)公开说明已读，核实其MuseScore 3.6.2与三段演示主题；没有观看视频。页面/声部两条返回412，符号模板返回cache miss，连梁此前失败。Legatissimo其它作品同样不冒称已看；廿十七经名称/净书及B站限定搜索仍无可靠对应。
 
 本轮完成的是可得正文、选定实际图页/源码的学习与全部资源条目的状态核查；不是取得或学完所有列出的书、视频和课程。受限来源不作为已核规则的唯一依据，后续有正文/画面时再补。全目录参考谱的实践知识与定向教材仍可用于当前分析，具体入口见[JUDGMENT_GUIDE](JUDGMENT_GUIDE.md)。
+
+同日后续更新：Kokecola净书篇7张关键图已通过公开原始图片链接取得并实际看过，见[SPACING_DECISIONS](SPACING_DECISIONS.md)和[来源哈希](spacing_decisions_evidence.json)。上面的请求失败是较早访问结果；准备/输入篇图片、MPA图及视频的未读状态未因此改变。
