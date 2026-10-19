@@ -1029,5 +1029,61 @@
     "initial_23_tests_not_claimed_rerun": true,
     "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
     "global_installation_or_app_discovery_performed": false
+  },
+  "follow_up_spacing_geometry": {
+    "date": "2026-10-20",
+    "scope": "Added causal spacing follow-up to existing user-score application and native-review guidance; main SKILL.md, locator and UI metadata unchanged.",
+    "check": {
+      "topic": "spacing",
+      "external_cwd": "C:\\Windows",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "spacing",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_DECISIONS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\USER_SPACING_APPLICATION.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_CANDIDATES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_STUDY.md"
+        ]
+      },
+      "new_study_reachable_from_existing_USER_SPACING_APPLICATION_reference": true
+    },
+    "script_sha256": "6c7e614aaf230eacbcde29c44163ba767d12937179428d877c78a71fa736d33b",
+    "native_reference_sha256": "27a4f3f1837512be1b2efee70e068614b00f45771f9aa23f3a31161cbdb8563f",
+    "evidence": "spacing_geometry_evidence.json",
+    "changed_markdown_links": [
+      {
+        "path": "docs/engraving/USER_SPACING_APPLICATION.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/SPACING_DECISIONS.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/README.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/BEHIND_BARS_NOTES.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "local_links_resolve": true
+      }
+    ],
+    "initial_23_tests_not_claimed_rerun": true,
+    "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
+    "global_installation_or_app_discovery_performed": false
   }
 }

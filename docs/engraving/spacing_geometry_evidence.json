@@ -1,0 +1,1935 @@
+{
+  "date": "2026-10-20",
+  "scope": "Further diagnose whole-bar grain difference, separate hook/stem and ledger geometry from the existing m51 spring example; reproduce prior A on a single pinned host. Original music/images remain private.",
+  "preparation": {
+    "date": "2026-10-20",
+    "scope": "Private actual-score diagnostic, not an adopted engraving candidate. No source music/image published.",
+    "source_existing_private_copy": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\page-flow-2026-10-19\\source-baseline.mscz",
+    "source_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "variants": [
+      {
+        "name": "baseline",
+        "bar": null,
+        "direction": null,
+        "target": "Staff3 voice0 second Chord, isolated eighth"
+      },
+      {
+        "name": "m50-eighth-down",
+        "bar": 50,
+        "direction": "down",
+        "target": "Staff3 voice0 second Chord, isolated eighth"
+      },
+      {
+        "name": "m52-eighth-up",
+        "bar": 52,
+        "direction": "up",
+        "target": "Staff3 voice0 second Chord, isolated eighth"
+      },
+      {
+        "name": "m50-all-down",
+        "bar": 50,
+        "direction": "down",
+        "target": "Staff3 voice0 all four Chords, including fourth already auto-down; diagnostic control only"
+      },
+      {
+        "name": "m50-parens-hidden",
+        "bar": 50,
+        "target": "Staff4 voice0 fourth Chord G4 Note, hide two parenthesis Symbol children; preserve play=0",
+        "also_flag_down": false,
+        "diagnostic_only": true
+      },
+      {
+        "name": "m50-down-parens-hidden",
+        "bar": 50,
+        "target": "Staff4 voice0 fourth Chord G4 Note, hide two parenthesis Symbol children; preserve play=0",
+        "also_flag_down": true,
+        "diagnostic_only": true
+      },
+      {
+        "name": "m50-parens-removed",
+        "bar": 50,
+        "target": "Remove two parenthesis Symbol children from Staff4 voice0 fourth Chord Note, retain G4/play=0; diagnostic only, visual cue lost",
+        "also_flag_down": false,
+        "diagnostic_only": true
+      },
+      {
+        "name": "m50-down-parens-removed",
+        "bar": 50,
+        "target": "Remove two parenthesis Symbol children from Staff4 voice0 fourth Chord Note, retain G4/play=0; diagnostic only, visual cue lost",
+        "also_flag_down": true,
+        "diagnostic_only": true
+      },
+      {
+        "name": "ledger-extension-zero",
+        "target": "Style ledgerLineLength=0, a diagnostic extremum, not recommended score styling",
+        "also_flag_down": false,
+        "diagnostic_only": true
+      },
+      {
+        "name": "ledger-zero-m50-eighth-down",
+        "target": "Style ledgerLineLength=0, a diagnostic extremum, not recommended score styling",
+        "also_flag_down": true,
+        "diagnostic_only": true
+      },
+      {
+        "name": "grain-candidate-preserved",
+        "target": "Only Staff1 Measure50/52 stretch=0.93/1.07, preserving all stems, ledger style and note-attached Symbols",
+        "candidate": "Previously studied A reproduced on this pinned host; no new user preference or aesthetic acceptance."
+      }
+    ],
+    "source_fonts_not_explicit": "Same input and frozen runtime; do not claim explicit font family in MSCZ.",
+    "hypothesis": "The m50/m52 grain difference can partly arise from stem/hook geometry and minimum widths, distinct from the m51 mixed-subdivision spring ratio.",
+    "native_root_member": "如果有来生-release5.mscx"
+  },
+  "protected_originals": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "registered_and_current_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "read_only_hash_verification": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "registered_and_current_sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "read_only_hash_verification": true
+    }
+  ],
+  "book": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "registered_and_current_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "printed_pages_full_text_and_figures_revisited": [
+      41,
+      43
+    ],
+    "pdf_offset": 20,
+    "new_book_or_corpus_reading_count_claimed": false
+  },
+  "official_revisit": {
+    "id": "A102",
+    "pdf_page": 7,
+    "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Owari no Sekai Kara - from the album - Owari no Hoshi no Love Song -.pdf",
+    "registered_and_current_sha256": "baae71eacfddd0bd72be8925c1ae1be519a8ce6f860641688e0ffddc148fe825",
+    "full_page_viewed": true,
+    "cache_sha256": "363a35c525e36b1c2af7b05a852e340f5a8c21d5a86d77f3be4948584fbd32cd",
+    "new_corpus_count_claimed": false
+  },
+  "professional_practice": {
+    "url": "https://note.com/kokecola/n/n6df2c29e9942",
+    "text_reread": true,
+    "spacing_comparison_revisited": "tmp/engraving/study-2026-10-19/kokecola-spacing.png",
+    "cache_sha256": "7b082f9d9367c1e6a34aa806efbc465bd67c87e2a1ac58b99d476e360ea3aa82",
+    "used": "Compare whole systems and practical readability; do not infer hidden detailed rules or MuseScore parameters from the article."
+  },
+  "source_interpretation": {
+    "current_source_head": "ec901d3559c4a7dd143c86390393e88ee2f59a27",
+    "binary_correspondence_proven": false,
+    "files": [
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\measure.cpp",
+        "sha256": "4a271597c8180ba6978c204fba722241ff85761de2cab528b9bd23924654a8f4"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\layout.cpp",
+        "sha256": "088655bf2da4a12bb2f6ea4c35ff82cffe5b07bfaaaf174ff54543a3a345933a"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\chord.cpp",
+        "sha256": "4bf70cd2b25d0a0415c55afc0229e0550c308926731b5ef0467b96ac2dc0ed65"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\note.cpp",
+        "sha256": "ceac71d01e1db33c9d24e9ebad7918271ae97cd957a4bfcbbac8d64c336f0471"
+      }
+    ],
+    "relevant": "layoutSystem gives residual space by layoutWeight*basicStretch; ordinary measure layoutWeight is duration, and basicStretch multiplies user stretch by measureSpacing. Ledger extension and actual stem/hook geometry can change spatial requirements."
+  },
+  "baseline_midi_note_on_count": 2310,
+  "baseline_midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+  "musicxml_note_event_count": 3203,
+  "results": [
+    {
+      "name": "baseline",
+      "role": "baseline",
+      "source_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 472.2,
+          "lower_svg_origins": [
+            376.537,
+            501.488,
+            634.517,
+            767.545,
+            900.573,
+            1033.6
+          ],
+          "lower_adjacent_gaps_pt": [
+            24.990200000000005,
+            26.60580000000001,
+            26.60559999999998,
+            26.605600000000003,
+            26.605399999999985
+          ],
+          "lower_mean_gap_pt": 26.282519999999998
+        },
+        "50": {
+          "measure_width_tenths": 237.41,
+          "lower_svg_origins": [
+            1276.81,
+            1358.25,
+            1439.7,
+            1521.15,
+            1602.59,
+            1684.04
+          ],
+          "lower_adjacent_gaps_pt": [
+            16.28800000000001,
+            16.29000000000001,
+            16.29000000000001,
+            16.287999999999965,
+            16.29000000000001
+          ],
+          "lower_mean_gap_pt": 16.2892
+        },
+        "51": {
+          "measure_width_tenths": 246.78,
+          "lower_svg_origins": [
+            1805.1,
+            1883.48,
+            1961.87,
+            2040.26,
+            2138.24,
+            2236.23
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.676000000000021,
+            15.677999999999974,
+            15.67800000000002,
+            19.595999999999957,
+            19.59800000000005
+          ],
+          "lower_mean_gap_pt": 17.245200000000004
+        },
+        "52": {
+          "measure_width_tenths": 213.29,
+          "lower_svg_origins": [
+            2354.22,
+            2426.72,
+            2499.22,
+            2571.73,
+            2644.23,
+            2716.73
+          ],
+          "lower_adjacent_gaps_pt": [
+            14.5,
+            14.5,
+            14.502000000000043,
+            14.5,
+            14.5
+          ],
+          "lower_mean_gap_pt": 14.500400000000008
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.1233621141485746,
+      "m51_late_over_early_mean": 1.2500212621194078,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 7.389999999999963,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 20.1,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 36,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "m50-eighth-down",
+      "role": "diagnostic not for adoption",
+      "source_sha256": "77bce40082de133a49b813689468c6be03ba009dd27d0da96623566f08da61b5",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 473.68,
+          "lower_svg_origins": [
+            376.537,
+            501.488,
+            635.213,
+            768.937,
+            902.662,
+            1036.39
+          ],
+          "lower_adjacent_gaps_pt": [
+            24.990200000000005,
+            26.744999999999994,
+            26.74480000000001,
+            26.745000000000005,
+            26.745600000000014
+          ],
+          "lower_mean_gap_pt": 26.394120000000004
+        },
+        "50": {
+          "measure_width_tenths": 232.96,
+          "lower_svg_origins": [
+            1280.11,
+            1359.9,
+            1439.7,
+            1519.5,
+            1599.29,
+            1679.09
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.958000000000037,
+            15.95999999999999,
+            15.95999999999999,
+            15.957999999999993,
+            15.95999999999999
+          ],
+          "lower_mean_gap_pt": 15.959200000000001
+        },
+        "51": {
+          "measure_width_tenths": 248.26,
+          "lower_svg_origins": [
+            1798.5,
+            1877.39,
+            1956.29,
+            2035.18,
+            2133.8,
+            2232.42
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.77800000000002,
+            15.779999999999973,
+            15.77800000000002,
+            19.724000000000025,
+            19.72399999999998
+          ],
+          "lower_mean_gap_pt": 17.356800000000003
+        },
+        "52": {
+          "measure_width_tenths": 214.78,
+          "lower_svg_origins": [
+            2350.92,
+            2423.97,
+            2497.02,
+            2570.08,
+            2643.13,
+            2716.18
+          ],
+          "lower_adjacent_gaps_pt": [
+            14.609999999999946,
+            14.610000000000037,
+            14.61199999999999,
+            14.610000000000037,
+            14.609999999999946
+          ],
+          "lower_mean_gap_pt": 14.61039999999999
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.0923178010184535,
+      "m51_late_over_early_mean": 1.2500422511407807,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 7.059999999999991,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 20.319999999999983,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 36,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "m52-eighth-up",
+      "role": "diagnostic not for adoption",
+      "source_sha256": "79e08d8b905179d464d6a97b5a67bb4cf270cf180a2c45a150575c0e862400ce",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 469.58,
+          "lower_svg_origins": [
+            376.537,
+            501.488,
+            633.287,
+            765.086,
+            896.885,
+            1028.68
+          ],
+          "lower_adjacent_gaps_pt": [
+            24.990200000000005,
+            26.359800000000007,
+            26.359799999999996,
+            26.359799999999996,
+            26.359000000000016
+          ],
+          "lower_mean_gap_pt": 26.085720000000002
+        },
+        "50": {
+          "measure_width_tenths": 234.79,
+          "lower_svg_origins": [
+            1270.98,
+            1351.45,
+            1431.93,
+            1512.4,
+            1592.88,
+            1673.35
+          ],
+          "lower_adjacent_gaps_pt": [
+            16.094000000000005,
+            16.096000000000004,
+            16.094000000000005,
+            16.096000000000004,
+            16.09399999999996
+          ],
+          "lower_mean_gap_pt": 16.094799999999996
+        },
+        "51": {
+          "measure_width_tenths": 244.16,
+          "lower_svg_origins": [
+            1793.44,
+            1870.93,
+            1948.42,
+            2025.91,
+            2122.77,
+            2219.64
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.498000000000001,
+            15.498000000000001,
+            15.498000000000001,
+            19.37199999999998,
+            19.373999999999977
+          ],
+          "lower_mean_gap_pt": 17.04799999999999
+        },
+        "52": {
+          "measure_width_tenths": 221.15,
+          "lower_svg_origins": [
+            2336.74,
+            2412.15,
+            2487.57,
+            2562.98,
+            2638.4,
+            2713.82
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.082000000000061,
+            15.084000000000014,
+            15.08199999999997,
+            15.084000000000014,
+            15.084000000000014
+          ],
+          "lower_mean_gap_pt": 15.083200000000014
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.0670679961811804,
+      "m51_late_over_early_mean": 1.2500322622273827,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 7.195999999999958,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 21.26800000000003,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 36,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "m50-all-down",
+      "role": "diagnostic not for adoption",
+      "source_sha256": "a67a09a85ff84a672ff5b3c94a7cca6d19544def7e418a90b7bbf600f6f7ed3e",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 473.68,
+          "lower_svg_origins": [
+            376.537,
+            501.488,
+            635.213,
+            768.937,
+            902.662,
+            1036.39
+          ],
+          "lower_adjacent_gaps_pt": [
+            24.990200000000005,
+            26.744999999999994,
+            26.74480000000001,
+            26.745000000000005,
+            26.745600000000014
+          ],
+          "lower_mean_gap_pt": 26.394120000000004
+        },
+        "50": {
+          "measure_width_tenths": 232.96,
+          "lower_svg_origins": [
+            1280.11,
+            1359.9,
+            1439.7,
+            1519.5,
+            1599.29,
+            1679.09
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.958000000000037,
+            15.95999999999999,
+            15.95999999999999,
+            15.957999999999993,
+            15.95999999999999
+          ],
+          "lower_mean_gap_pt": 15.959200000000001
+        },
+        "51": {
+          "measure_width_tenths": 248.26,
+          "lower_svg_origins": [
+            1798.5,
+            1877.39,
+            1956.29,
+            2035.18,
+            2133.8,
+            2232.42
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.77800000000002,
+            15.779999999999973,
+            15.77800000000002,
+            19.724000000000025,
+            19.72399999999998
+          ],
+          "lower_mean_gap_pt": 17.356800000000003
+        },
+        "52": {
+          "measure_width_tenths": 214.78,
+          "lower_svg_origins": [
+            2350.92,
+            2423.97,
+            2497.02,
+            2570.08,
+            2643.13,
+            2716.18
+          ],
+          "lower_adjacent_gaps_pt": [
+            14.609999999999946,
+            14.610000000000037,
+            14.61199999999999,
+            14.610000000000037,
+            14.609999999999946
+          ],
+          "lower_mean_gap_pt": 14.61039999999999
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.0923178010184535,
+      "m51_late_over_early_mean": 1.2500422511407807,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 7.059999999999991,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 20.319999999999983,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 36,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "m50-parens-hidden",
+      "role": "diagnostic not for adoption",
+      "source_sha256": "9cd846070fa00bb7edefe0dd28417c3b790c59b2b0a6da54262c9d46123c5ed2",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 472.2,
+          "lower_svg_origins": [
+            376.537,
+            501.488,
+            634.517,
+            767.545,
+            900.573,
+            1033.6
+          ],
+          "lower_adjacent_gaps_pt": [
+            24.990200000000005,
+            26.60580000000001,
+            26.60559999999998,
+            26.605600000000003,
+            26.605399999999985
+          ],
+          "lower_mean_gap_pt": 26.282519999999998
+        },
+        "50": {
+          "measure_width_tenths": 237.41,
+          "lower_svg_origins": [
+            1276.81,
+            1358.25,
+            1439.7,
+            1521.15,
+            1602.59,
+            1684.04
+          ],
+          "lower_adjacent_gaps_pt": [
+            16.28800000000001,
+            16.29000000000001,
+            16.29000000000001,
+            16.287999999999965,
+            16.29000000000001
+          ],
+          "lower_mean_gap_pt": 16.2892
+        },
+        "51": {
+          "measure_width_tenths": 246.78,
+          "lower_svg_origins": [
+            1805.1,
+            1883.48,
+            1961.87,
+            2040.26,
+            2138.24,
+            2236.23
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.676000000000021,
+            15.677999999999974,
+            15.67800000000002,
+            19.595999999999957,
+            19.59800000000005
+          ],
+          "lower_mean_gap_pt": 17.245200000000004
+        },
+        "52": {
+          "measure_width_tenths": 213.29,
+          "lower_svg_origins": [
+            2354.22,
+            2426.72,
+            2499.22,
+            2571.73,
+            2644.23,
+            2716.73
+          ],
+          "lower_adjacent_gaps_pt": [
+            14.5,
+            14.5,
+            14.502000000000043,
+            14.5,
+            14.5
+          ],
+          "lower_mean_gap_pt": 14.500400000000008
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.1233621141485746,
+      "m51_late_over_early_mean": 1.2500212621194078,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 7.389999999999963,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 20.1,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 34,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "m50-down-parens-hidden",
+      "role": "diagnostic not for adoption",
+      "source_sha256": "525382c40cee4c9a8901f7f0ce55e9d219185aaf2d9c8358f0420c9074a1b9d4",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 473.68,
+          "lower_svg_origins": [
+            376.537,
+            501.488,
+            635.213,
+            768.937,
+            902.662,
+            1036.39
+          ],
+          "lower_adjacent_gaps_pt": [
+            24.990200000000005,
+            26.744999999999994,
+            26.74480000000001,
+            26.745000000000005,
+            26.745600000000014
+          ],
+          "lower_mean_gap_pt": 26.394120000000004
+        },
+        "50": {
+          "measure_width_tenths": 232.96,
+          "lower_svg_origins": [
+            1280.11,
+            1359.9,
+            1439.7,
+            1519.5,
+            1599.29,
+            1679.09
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.958000000000037,
+            15.95999999999999,
+            15.95999999999999,
+            15.957999999999993,
+            15.95999999999999
+          ],
+          "lower_mean_gap_pt": 15.959200000000001
+        },
+        "51": {
+          "measure_width_tenths": 248.26,
+          "lower_svg_origins": [
+            1798.5,
+            1877.39,
+            1956.29,
+            2035.18,
+            2133.8,
+            2232.42
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.77800000000002,
+            15.779999999999973,
+            15.77800000000002,
+            19.724000000000025,
+            19.72399999999998
+          ],
+          "lower_mean_gap_pt": 17.356800000000003
+        },
+        "52": {
+          "measure_width_tenths": 214.78,
+          "lower_svg_origins": [
+            2350.92,
+            2423.97,
+            2497.02,
+            2570.08,
+            2643.13,
+            2716.18
+          ],
+          "lower_adjacent_gaps_pt": [
+            14.609999999999946,
+            14.610000000000037,
+            14.61199999999999,
+            14.610000000000037,
+            14.609999999999946
+          ],
+          "lower_mean_gap_pt": 14.61039999999999
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.0923178010184535,
+      "m51_late_over_early_mean": 1.2500422511407807,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 7.059999999999991,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 20.319999999999983,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 34,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "m50-parens-removed",
+      "role": "diagnostic not for adoption",
+      "source_sha256": "b3f8f4e5d8e243dce6c1b0afc15b55629377b83434577c1b1334081a5f71d0ef",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 472.2,
+          "lower_svg_origins": [
+            376.537,
+            501.488,
+            634.517,
+            767.545,
+            900.573,
+            1033.6
+          ],
+          "lower_adjacent_gaps_pt": [
+            24.990200000000005,
+            26.60580000000001,
+            26.60559999999998,
+            26.605600000000003,
+            26.605399999999985
+          ],
+          "lower_mean_gap_pt": 26.282519999999998
+        },
+        "50": {
+          "measure_width_tenths": 237.41,
+          "lower_svg_origins": [
+            1276.81,
+            1358.25,
+            1439.7,
+            1521.15,
+            1602.59,
+            1684.04
+          ],
+          "lower_adjacent_gaps_pt": [
+            16.28800000000001,
+            16.29000000000001,
+            16.29000000000001,
+            16.287999999999965,
+            16.29000000000001
+          ],
+          "lower_mean_gap_pt": 16.2892
+        },
+        "51": {
+          "measure_width_tenths": 246.78,
+          "lower_svg_origins": [
+            1805.1,
+            1883.48,
+            1961.87,
+            2040.26,
+            2138.24,
+            2236.23
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.676000000000021,
+            15.677999999999974,
+            15.67800000000002,
+            19.595999999999957,
+            19.59800000000005
+          ],
+          "lower_mean_gap_pt": 17.245200000000004
+        },
+        "52": {
+          "measure_width_tenths": 213.29,
+          "lower_svg_origins": [
+            2354.22,
+            2426.72,
+            2499.22,
+            2571.73,
+            2644.23,
+            2716.73
+          ],
+          "lower_adjacent_gaps_pt": [
+            14.5,
+            14.5,
+            14.502000000000043,
+            14.5,
+            14.5
+          ],
+          "lower_mean_gap_pt": 14.500400000000008
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.1233621141485746,
+      "m51_late_over_early_mean": 1.2500212621194078,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 7.389999999999963,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 20.1,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 34,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "m50-down-parens-removed",
+      "role": "diagnostic not for adoption",
+      "source_sha256": "b90d236d5736bae331239229dd800bbbe40bf4d8cd7528219b888591debf4a08",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 473.68,
+          "lower_svg_origins": [
+            376.537,
+            501.488,
+            635.213,
+            768.937,
+            902.662,
+            1036.39
+          ],
+          "lower_adjacent_gaps_pt": [
+            24.990200000000005,
+            26.744999999999994,
+            26.74480000000001,
+            26.745000000000005,
+            26.745600000000014
+          ],
+          "lower_mean_gap_pt": 26.394120000000004
+        },
+        "50": {
+          "measure_width_tenths": 232.96,
+          "lower_svg_origins": [
+            1280.11,
+            1359.9,
+            1439.7,
+            1519.5,
+            1599.29,
+            1679.09
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.958000000000037,
+            15.95999999999999,
+            15.95999999999999,
+            15.957999999999993,
+            15.95999999999999
+          ],
+          "lower_mean_gap_pt": 15.959200000000001
+        },
+        "51": {
+          "measure_width_tenths": 248.26,
+          "lower_svg_origins": [
+            1798.5,
+            1877.39,
+            1956.29,
+            2035.18,
+            2133.8,
+            2232.42
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.77800000000002,
+            15.779999999999973,
+            15.77800000000002,
+            19.724000000000025,
+            19.72399999999998
+          ],
+          "lower_mean_gap_pt": 17.356800000000003
+        },
+        "52": {
+          "measure_width_tenths": 214.78,
+          "lower_svg_origins": [
+            2350.92,
+            2423.97,
+            2497.02,
+            2570.08,
+            2643.13,
+            2716.18
+          ],
+          "lower_adjacent_gaps_pt": [
+            14.609999999999946,
+            14.610000000000037,
+            14.61199999999999,
+            14.610000000000037,
+            14.609999999999946
+          ],
+          "lower_mean_gap_pt": 14.61039999999999
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.0923178010184535,
+      "m51_late_over_early_mean": 1.2500422511407807,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 7.059999999999991,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 20.319999999999983,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 34,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "ledger-extension-zero",
+      "role": "diagnostic not for adoption",
+      "source_sha256": "21b4c987f72738ec583e9466cf49426c8078242aa6922d70f80db70f62e99f10",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 473.98,
+          "lower_svg_origins": [
+            368.749,
+            477.011,
+            616.04,
+            755.069,
+            894.098,
+            1033.13
+          ],
+          "lower_adjacent_gaps_pt": [
+            21.6524,
+            27.805799999999987,
+            27.805799999999998,
+            27.805799999999998,
+            27.806400000000032
+          ],
+          "lower_mean_gap_pt": 26.57524
+        },
+        "50": {
+          "measure_width_tenths": 230.76,
+          "lower_svg_origins": [
+            1272.98,
+            1353.26,
+            1433.54,
+            1513.81,
+            1594.09,
+            1674.37
+          ],
+          "lower_adjacent_gaps_pt": [
+            16.055999999999994,
+            16.055999999999994,
+            16.053999999999995,
+            16.055999999999994,
+            16.055999999999994
+          ],
+          "lower_mean_gap_pt": 16.05559999999999
+        },
+        "51": {
+          "measure_width_tenths": 249.21,
+          "lower_svg_origins": [
+            1786.46,
+            1866.88,
+            1947.3,
+            2027.72,
+            2128.25,
+            2228.77
+          ],
+          "lower_adjacent_gaps_pt": [
+            16.084000000000014,
+            16.083999999999968,
+            16.084000000000014,
+            20.105999999999995,
+            20.103999999999996
+          ],
+          "lower_mean_gap_pt": 17.6924
+        },
+        "52": {
+          "measure_width_tenths": 215.73,
+          "lower_svg_origins": [
+            2341.01,
+            2415.71,
+            2490.42,
+            2565.12,
+            2639.82,
+            2714.53
+          ],
+          "lower_adjacent_gaps_pt": [
+            14.939999999999964,
+            14.942000000000007,
+            14.939999999999964,
+            14.940000000000055,
+            14.942000000000007
+          ],
+          "lower_mean_gap_pt": 14.9408
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.0746144784750475,
+      "m51_late_over_early_mean": 1.2499999999999998,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 10.269999999999982,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 24.09800000000005,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 36,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "ledger-zero-m50-eighth-down",
+      "role": "diagnostic not for adoption",
+      "source_sha256": "efc4ca77ae40d713bbad007240a44c7a101db575e78863cdd3726f17e37a711d",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 476.46,
+          "lower_svg_origins": [
+            368.749,
+            477.011,
+            617.206,
+            757.4,
+            897.595,
+            1037.79
+          ],
+          "lower_adjacent_gaps_pt": [
+            21.6524,
+            28.038999999999998,
+            28.03879999999999,
+            28.03900000000001,
+            28.038999999999987
+          ],
+          "lower_mean_gap_pt": 26.76164
+        },
+        "50": {
+          "measure_width_tenths": 223.31,
+          "lower_svg_origins": [
+            1278.51,
+            1356.02,
+            1433.54,
+            1511.05,
+            1588.56,
+            1666.08
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.501999999999999,
+            15.503999999999996,
+            15.501999999999999,
+            15.501999999999999,
+            15.503999999999996
+          ],
+          "lower_mean_gap_pt": 15.502799999999997
+        },
+        "51": {
+          "measure_width_tenths": 251.7,
+          "lower_svg_origins": [
+            1775.41,
+            1856.68,
+            1937.95,
+            2019.22,
+            2120.81,
+            2222.4
+          ],
+          "lower_adjacent_gaps_pt": [
+            16.253999999999998,
+            16.253999999999998,
+            16.253999999999998,
+            20.317999999999984,
+            20.31800000000003
+          ],
+          "lower_mean_gap_pt": 17.879600000000003
+        },
+        "52": {
+          "measure_width_tenths": 218.21,
+          "lower_svg_origins": [
+            2335.49,
+            2411.11,
+            2486.73,
+            2562.36,
+            2637.98,
+            2713.61
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.12400000000007,
+            15.123999999999977,
+            15.126000000000023,
+            15.123999999999977,
+            15.126000000000023
+          ],
+          "lower_mean_gap_pt": 15.124800000000013
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.0249920660107892,
+      "m51_late_over_early_mean": 1.2500307616586692,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 9.717999999999984,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 24.465999999999987,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 36,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    },
+    {
+      "name": "grain-candidate-preserved",
+      "role": "candidate recreation",
+      "source_sha256": "521264e575f4d532614cc8b97c6a9c7ecc262c4cbdff0b234f53822e069fce68",
+      "exact_inverse_preserves_full_native_tree_including_rich_text": true,
+      "all_other_zip_entries_identical": true,
+      "midi_full_bytes_identical": true,
+      "musicxml_note_events_identical": true,
+      "native_parenthesized_note_play_zero_preserved": true,
+      "pages": 8,
+      "systems": 38,
+      "svg_units": {
+        "per_point": 5,
+        "spatium_mm": 1.57,
+        "per_musicxml_tenth_from_physical_width": 2.225198380952381
+      },
+      "system_measure_ranges_equal_baseline": true,
+      "focus_actual_system": {
+        "page": 2,
+        "system": 4,
+        "first": "49",
+        "last": "52"
+      },
+      "focus_system_span_svg": [
+        189.356,
+        2792.12
+      ],
+      "bars": {
+        "49": {
+          "measure_width_tenths": 472.54,
+          "lower_svg_origins": [
+            376.537,
+            501.488,
+            634.677,
+            767.865,
+            901.054,
+            1034.24
+          ],
+          "lower_adjacent_gaps_pt": [
+            24.990200000000005,
+            26.637800000000006,
+            26.6376,
+            26.63779999999999,
+            26.637200000000007
+          ],
+          "lower_mean_gap_pt": 26.308120000000002
+        },
+        "50": {
+          "measure_width_tenths": 225.16,
+          "lower_svg_origins": [
+            1277.57,
+            1354.47,
+            1431.37,
+            1508.27,
+            1585.17,
+            1662.07
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.380000000000019,
+            15.379999999999972,
+            15.380000000000019,
+            15.380000000000019,
+            15.379999999999972
+          ],
+          "lower_mean_gap_pt": 15.38
+        },
+        "51": {
+          "measure_width_tenths": 247.12,
+          "lower_svg_origins": [
+            1778.58,
+            1857.09,
+            1935.59,
+            2014.1,
+            2112.23,
+            2210.36
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.701999999999998,
+            15.7,
+            15.701999999999998,
+            19.626000000000023,
+            19.626000000000023
+          ],
+          "lower_mean_gap_pt": 17.271200000000007
+        },
+        "52": {
+          "measure_width_tenths": 224.87,
+          "lower_svg_origins": [
+            2328.47,
+            2405.26,
+            2482.06,
+            2558.85,
+            2635.64,
+            2712.44
+          ],
+          "lower_adjacent_gaps_pt": [
+            15.358000000000084,
+            15.359999999999946,
+            15.357999999999993,
+            15.357999999999993,
+            15.360000000000037
+          ],
+          "lower_mean_gap_pt": 15.358800000000011
+        }
+      },
+      "mean_grain_ratio_m50_over_m52": 1.0013803161705335,
+      "m51_late_over_early_mean": 1.2499575407608712,
+      "simultaneous_note_pairs_aligned": 12,
+      "ledger_clearances": {
+        "50": {
+          "common_y_ledger_endpoint_min_gap_pt": 6.479999999999973,
+          "tested_horizontal_pairs": 7,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        },
+        "52": {
+          "common_y_ledger_endpoint_min_gap_pt": 21.81800000000003,
+          "tested_horizontal_pairs": 4,
+          "scope": "Endpoint gaps of same-Y upper ledger lines in lower staff; not a universal ink collision check."
+        }
+      },
+      "pages_geometry_equal_to_baseline_except_title": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "svg_classes_focus_page": {
+        "MeasureNumber": 5,
+        "BarLine": 60,
+        "StaffLines": 50,
+        "SlurSegment": 67,
+        "TieSegment": 11,
+        "Arpeggio": 19,
+        "Accidental": 10,
+        "LedgerLine": 179,
+        "Stem": 283,
+        "Hook": 52,
+        "Note": 363,
+        "Clef": 14,
+        "KeySig": 10,
+        "Rest": 24,
+        "Symbol": 36,
+        "Articulation": 22,
+        "Fermata": 4,
+        "Dynamic": 4,
+        "Beam": 50,
+        "Tuplet": 1,
+        "StaffText": 1,
+        "RehearsalMark": 4,
+        "HairpinSegment": 9,
+        "OttavaSegment": 5,
+        "TextLineSegment": 1,
+        "NoteDot": 69,
+        "Page": 1,
+        "Bracket": 5
+      }
+    }
+  ],
+  "interpretation": {
+    "stem_direction_and_ledger_extension_causally_change_grain_under_fixed_row_budget": true,
+    "percentages_not_an_additive_or_complete_cause_decomposition": true,
+    "removing_parentheses_not_an_active_width_solution_in_this_context": true,
+    "hidden_object_does_not_by_itself_prove_reserved_width": true,
+    "keep_parenthesis_and_play_zero_role": true,
+    "only_genuine_candidate_in_this_set": "grain-candidate-preserved: re-created old A with two stretch nodes; no new user aesthetic acceptance",
+    "all_other_variants_not_adopted": true,
+    "no_new_native_save_reload_or_musicxml_reimport_test_claimed": true,
+    "no_global_all_equal_or_font_or_core_fix_inferred": true,
+    "remaining_grain_difference_in_extreme_combined_control_not_fully_explained": true
+  },
+  "visual_review": {
+    "page2_complete": [
+      "baseline",
+      "grain-candidate-preserved"
+    ],
+    "complete_target_system_crops": [
+      "baseline",
+      "grain-candidate-preserved",
+      "m50-eighth-down",
+      "m52-eighth-up",
+      "m50-all-down",
+      "m50-parens-hidden",
+      "ledger-extension-zero",
+      "ledger-zero-m50-eighth-down"
+    ],
+    "crop_pixels": [
+      65,
+      1135,
+      1430,
+      1565
+    ],
+    "processing": "180dpi native PNG composited white then common crop; no symbols moved/rescaled. Some adjacent-system curve fragments remain."
+  },
+  "private_audit_script": "tmp/engraving/system-spacing-2026-10-20/audit.py",
+  "private_audit_sha256": "461811562a98e924b0a80254ee2aef52166c0b2d402e0a1a324e4826e1b7a12a",
+  "no_original_pdf_score_font_plugin_mcp_or_core_changes": true
+}
