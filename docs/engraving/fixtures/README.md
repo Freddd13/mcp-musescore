@@ -1,5 +1,14 @@
 # 独立净书复现谱例
 
+## 奏法的贴音关系与动态通道
+
+2026-10-20原创四小节4/4双谱表，CC0，无参考音乐转写；26音、22奏法、3动态、1逻辑渐强。固定Leland／Leland Text、spatium1.57mm及两系统预算，非出版预设。m1八分断奏，m2高音tenuto，m3上下干分别断奏／tenuto，m4短重音；输入明确指定相应奏法的上／下方，非全部无条件自动方向。渐强从m2起至m3第三拍，SVG有三个绘制图元，不能据此建三个逻辑范围。
+
+- [源MusicXML](articulation-source.musicxml)、[原生保留版](articulation-ownership.mscx)／[图](articulation-ownership.png)：按音与声部分配奏法；不宣称全部细节已达最佳出版。
+- [全平拒绝版](articulation-flat-dots-rejected.mscx)／[图](articulation-flat-dots-rejected.png)：只给m1八个Articulation设offset／关闭autoplace，向其中最高点统一，最大上移约4.5sp，低处点与音分离。不是“所有对齐均错误”的模板。
+
+恢复8个子树可还原源XML；实际7个奏法图元移动，全部非奏法图形保持。源／原生26事件经显式voice映射核对，完整MIDI相同；MusicXML只奏法位置属性不同。拒绝版另做原生保存重载，SVG／PNG像素／MusicXML／MIDI保持，这不改变其拒绝判断；保留版本轮未另重载。两图180dpi原生PNG，仅白底合成及同框裁切(70,90,1420,750)，没有图片重排／缩放符号。见[专题](../DYNAMICS_ARTICULATION.md)与[证据](../dynamics_articulation_evidence.json)。复现沿用下文CLI，用独立路径／配置；未做MusicXML重导入、试听、打印或用户偏好评价，官谱／教材不在CC0许可中。
+
 ## 震音的时值、逻辑半程与梁长
 
 2026-10-20原创三小节4/4双谱表，CC0，无参考音乐摘录。固定Leland／Leland Text、spatium 1.57mm、A4同满行预算；该预算为控制，非出版模板。m1上部16个C5／G5交替十六分，m2两个whole端点c16、各实际1/2 slot，m3 whole C5 r16；文字明确有节制十六分。下部m2前两拍四分、后两拍八个十六分，其余四分。37书写头、2个震音、无Tuplet，播放66起音。

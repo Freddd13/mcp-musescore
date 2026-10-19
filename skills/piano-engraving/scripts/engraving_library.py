@@ -14,6 +14,7 @@ TOPICS = {
     "rhythm": ("RHYTHM_READING.md", "NOTATION_DETAILS.md"),
     "beams": ("BEAM_STEM_STUDY.md", "RHYTHM_READING.md"),
     "curves": ("CURVES_STUDY.md",),
+    "markings": ("DYNAMICS_ARTICULATION.md", "CURVES_STUDY.md"),
     "piano": ("PIANO_TEXTURE_STUDY.md",),
     "cross-staff": ("CROSS_STAFF_STUDY.md", "PIANO_TEXTURE_STUDY.md"),
     "notation": ("ACCIDENTAL_CONTEXT.md", "NOTATION_DETAILS.md", "ACCIDENTAL_SPACING.md"),

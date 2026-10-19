@@ -1354,5 +1354,96 @@
       "initial_bundled_python_attempt": "failed because PyYAML unavailable; existing project venv reused without dependency installation",
       "scope": "Frontmatter/naming/scaffold validation only; not independent decision quality testing"
     }
+  },
+  "follow_up_dynamics_articulation": {
+    "date": "2026-10-20",
+    "scope": "New markings topic routes to dynamics/articulation study and curves. Existing curves and piano topics also link the study; no UI metadata change.",
+    "locator_probes_from_C_Windows": {
+      "markings": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "markings",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\DYNAMICS_ARTICULATION.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CURVES_STUDY.md"
+        ]
+      },
+      "curves": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "curves",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CURVES_STUDY.md"
+        ]
+      },
+      "piano": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "piano",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+        ]
+      }
+    },
+    "system_quick_validate": "passed with existing project venv; frontmatter validation, not behavioral proof",
+    "locator_script_sha256": "c019836c0c18a03286bac138b42231ab51db030897dbf5e985e0b699290c5c26",
+    "skill_main_sha256": "3241779529c06b61c6c132c68828e9adb6ea526c68239177453390eccb78f55c",
+    "evidence": "dynamics_articulation_evidence.json",
+    "changed_markdown_links": [
+      {
+        "path": "docs/engraving/DYNAMICS_ARTICULATION.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/README.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/BEHIND_BARS_NOTES.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/CURVES_STUDY.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/PIANO_TEXTURE_STUDY.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/RULES.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/fixtures/README.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "local_links_resolve": true
+      }
+    ],
+    "fixture_XML_parse_and_same_frame_images": true,
+    "initial_23_tests_not_claimed_rerun": true,
+    "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
+    "global_installation_or_app_discovery_performed": false
   }
 }

@@ -1,0 +1,275 @@
+{
+  "date": "2026-10-20",
+  "previous_goal_turn": "progress: page hierarchy study and skill guidance pushed as 78f2d3a",
+  "scope": "Dynamics/articulation placement and ownership; authored native control, not software adaptation",
+  "book_full_text_and_images_printed": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122
+  ],
+  "previous_curve_study_already_read": [
+    109,
+    114,
+    121,
+    122
+  ],
+  "locator_only_printed": [
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    123,
+    124
+  ],
+  "official_full_pages_revisited": {
+    "A066": [
+      4
+    ],
+    "A017": [
+      1
+    ],
+    "A143": [
+      4
+    ]
+  },
+  "corpus_near_read_count_not_incremented": true,
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "checked_before_and_after_each_export": true,
+    "source_commit_correspondence_not_proven": true
+  },
+  "fixture": {
+    "license": "CC0",
+    "reference_or_user_music_transcribed": false,
+    "notes": 26,
+    "articulations": 22,
+    "dynamic_objects": 3,
+    "logical_hairpin_starts": 1,
+    "hairpin_start": "m2 q0",
+    "hairpin_end": "m3 q2",
+    "native_hairpin_drawing_primitives": 3,
+    "notes_per_staff_voice": [
+      {
+        "source": "staff1:source_voice1",
+        "native_musicxml_voice": "1"
+      },
+      {
+        "source": "staff2:source_voice5",
+        "native_musicxml_voice": "5"
+      },
+      {
+        "source": "staff1:source_voice2",
+        "native_musicxml_voice": "2"
+      }
+    ],
+    "source_musicxml_events_match_native_export_after_explicit_voice_mapping": true
+  },
+  "control": {
+    "name": "articulation-flat-dots-rejected",
+    "only_8_m1_Articulation_subtrees_modified": true,
+    "restoring_8_subtrees_recovers_complete_original_XML_tree": true,
+    "all_non_Articulation_SVG_elements_equal_except_title_desc": true,
+    "changed_Articulation_SVG_elements": 7,
+    "one_dot_already_at_target": true,
+    "eight_dot_origin_y_svg": [
+      305.076,
+      305.076,
+      305.076,
+      305.076,
+      305.076,
+      305.076,
+      305.076,
+      305.076
+    ],
+    "max_vertical_shift_sp": 4.5,
+    "full_MIDI_bytes_equal": true,
+    "musicxml_equal_except_articulation_position_attributes": true,
+    "judgment": "Reject the forced common-height row; low-note dots lose proximity. This is not a claim that every alignment or above-staff placement is wrong."
+  },
+  "native_reload": {
+    "subject": "rejected control, not a new accepted engraving",
+    "all_offsets_and_autoplace_fields_present": false,
+    "svg_equal_except_title_desc": true,
+    "png_pixels_equal": true,
+    "musicxml_equal": true,
+    "MIDI_bytes_equal": true
+  },
+  "playback": {
+    "ppq": 480,
+    "note_ons": 26,
+    "tempo_events": 1,
+    "MIDI_sha256": "1abb20ee689ee3156b5ab01934608adef5971ed00a6ac010c084f4fa0e956845",
+    "no_audio_or_piano_performance_assessment": true
+  },
+  "input_changes": [
+    {
+      "index": 0,
+      "old_svg_origin": [
+        584.164,
+        360.706
+      ],
+      "new_target_y_svg": 305.076,
+      "offset_y_sp": -2.500003538570417
+    },
+    {
+      "index": 1,
+      "old_svg_origin": [
+        724.189,
+        349.58
+      ],
+      "new_target_y_svg": 305.076,
+      "offset_y_sp": -2.000002830856332
+    },
+    {
+      "index": 2,
+      "old_svg_origin": [
+        864.214,
+        327.328
+      ],
+      "new_target_y_svg": 305.076,
+      "offset_y_sp": -1.0000014154281647
+    },
+    {
+      "index": 3,
+      "old_svg_origin": [
+        1004.24,
+        305.076
+      ],
+      "new_target_y_svg": 305.076,
+      "offset_y_sp": 0.0
+    },
+    {
+      "index": 4,
+      "old_svg_origin": [
+        1144.26,
+        382.958
+      ],
+      "new_target_y_svg": 305.076,
+      "offset_y_sp": -3.5000049539985842
+    },
+    {
+      "index": 5,
+      "old_svg_origin": [
+        1284.29,
+        405.21
+      ],
+      "new_target_y_svg": 305.076,
+      "offset_y_sp": -4.500006369426749
+    },
+    {
+      "index": 6,
+      "old_svg_origin": [
+        1424.31,
+        382.958
+      ],
+      "new_target_y_svg": 305.076,
+      "offset_y_sp": -3.5000049539985842
+    },
+    {
+      "index": 7,
+      "old_svg_origin": [
+        1564.34,
+        360.706
+      ],
+      "new_target_y_svg": 305.076,
+      "offset_y_sp": -2.500003538570417
+    }
+  ],
+  "protection": [
+    {
+      "id": "A066",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kaibutsu - BEASTARS Season 2 - Opening Theme.pdf",
+      "sha256": "70ac5faa5d7d20af84c22d48deb109dea66ddb7486051ae3e3e5d9ea8fba54b8",
+      "matches_inventory": true
+    },
+    {
+      "id": "A017",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bauklötze (Hanji's Final Theme)- Attack on Titan.pdf",
+      "sha256": "f71fd487361fcb0dbca2eae6824b33fb77cc26c03f0a70f108613f0b397e6081",
+      "matches_inventory": true
+    },
+    {
+      "id": "A143",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\WILL -Violet Evergarden the Movie - Theme Song.pdf",
+      "sha256": "925883bf56991ab7fa412939bc9c6bd0929724b4339f5b31031cd0e2844c3830",
+      "matches_inventory": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "matches_prior_baseline": true
+    }
+  ],
+  "images": "180dpi native PNG, white background composite and identical crop (70,90,1420,750); no symbol movement or resizing in image editing",
+  "not_performed": [
+    "original score modification",
+    "GUI actions",
+    "MusicXML reimport roundtrip",
+    "user aesthetic evaluation",
+    "printing or audition",
+    "MCP/plugin/core development",
+    "global skill installation"
+  ],
+  "source_book_and_official_music_or_images_in_Git": false,
+  "public_original_fixtures": [
+    {
+      "path": "docs/engraving/fixtures/articulation-source.musicxml",
+      "sha256": "17ffe522dbfe1de927e49868fb25d277a72a3e836fa20d9df0ee38c9539e2672"
+    },
+    {
+      "path": "docs/engraving/fixtures/articulation-ownership.mscx",
+      "sha256": "de12a9898e6cd9c826f6c463b25ec4d532ed0dfcfdbb0ba1fc86337c58bc7eb9"
+    },
+    {
+      "path": "docs/engraving/fixtures/articulation-flat-dots-rejected.mscx",
+      "sha256": "49934265a8f22cadf8736e2b56600cd01d35145bb657921f5dcd8cd63274e973"
+    },
+    {
+      "path": "docs/engraving/fixtures/articulation-ownership.png",
+      "sha256": "bb263b35153826124e894d6ddf68d4b4497de2b365d425955917757d6cc53bfa"
+    },
+    {
+      "path": "docs/engraving/fixtures/articulation-flat-dots-rejected.png",
+      "sha256": "aefd0922eb9f8dcf736bf600f5cd53e24bcf3228526c64d9e24e55431bb117df"
+    }
+  ],
+  "native_page_and_system_count": {
+    "articulation-ownership": {
+      "pages": 1,
+      "systems": 2
+    },
+    "articulation-flat-dots-rejected": {
+      "pages": 1,
+      "systems": 2
+    },
+    "articulation-flat-dots-resaved": {
+      "pages": 1,
+      "systems": 2
+    }
+  },
+  "public_XML_serialization": {
+    "only_CRLF_to_LF_normalization": true,
+    "parsed_trees_unchanged": true,
+    "original_private_render_inputs_not_rewritten": true
+  }
+}
