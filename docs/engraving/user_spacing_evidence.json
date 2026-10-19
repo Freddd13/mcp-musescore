@@ -1,0 +1,489 @@
+{
+  "date": "2026-10-19",
+  "study": "USER_SPACING_APPLICATION.md",
+  "source": {
+    "original_read_only_path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+    "sha256_before": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "sha256_after": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "native_score_staves": 6,
+    "measures_per_staff": 155,
+    "focus_page": 2,
+    "focus_system": 4,
+    "focus_measures": [
+      49,
+      50,
+      51,
+      52
+    ],
+    "original_pdf_modified_or_reexported": false,
+    "source_pdf_and_mscz_objectwise_equivalence_established": false
+  },
+  "host": {
+    "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\msvc.install_repair_current_x64\\bin\\MuseScore3Evo.exe",
+    "sha256": "fec7e2cef61ed4b4d6b639b8cc42630bbb97153670e6c24433c455a6ed23cd77",
+    "svg_reported_version": "3.7.0",
+    "version_string_does_not_identify_source_commit": true
+  },
+  "input_style": {
+    "Spatium": "1.57",
+    "pageWidth": "8.26772",
+    "pageHeight": "11.6929",
+    "pagePrintableWidth": "7.32283",
+    "musicalSymbolFont": null,
+    "musicalTextFont": null,
+    "enableVerticalSpread": "1"
+  },
+  "font_scope": "Font family names absent in source Style. Preserve the complete original input and use the same host; do not assert explicit font selection.",
+  "geometry_scope": "SVG physical 210x297 mm, viewBox 2976.38x4209.44; verified 5 SVG units/pt. Normal-side note-head origins in top-level Staff 3/4 voice container 0, measures 50-52 only.",
+  "native_input_protection": {
+    "only_listed_new_segment_and_measure_stretch_nodes_changed": true,
+    "all_other_parsed_xml_equal": true,
+    "all_other_zip_entry_contents_identical": true,
+    "segment_locations": "Top-level Staff 4, measure 51, voice container 0, after eighth chords 2/3/4.",
+    "stretch_locations": "Top-level Staff 1, corresponding measures."
+  },
+  "musicxml_scope": "Three full native exports. MusicXML compares all element structure/content after removing print blocks, measure width, wedge spread and listed coordinate attributes. Native input mutation separately proves all other score fields unchanged.",
+  "excluded_musicxml_coordinate_attributes": [
+    "bezier-offset",
+    "bezier-offset2",
+    "bezier-x",
+    "bezier-x2",
+    "bezier-y",
+    "bezier-y2",
+    "default-x",
+    "default-y",
+    "relative-x",
+    "relative-y"
+  ],
+  "versions": [
+    {
+      "name": "baseline",
+      "pages": 8,
+      "measure_stretch": {},
+      "measure51_shared_segment_leading_space_sp": null,
+      "lower_eighth_gaps_pt": {
+        "50": [
+          16.288,
+          16.29,
+          16.29,
+          16.288,
+          16.29
+        ],
+        "51": [
+          15.676,
+          15.678,
+          15.678,
+          19.596,
+          19.598
+        ],
+        "52": [
+          14.5,
+          14.5,
+          14.502,
+          14.5,
+          14.5
+        ]
+      },
+      "measure50_52_mean_gap_ratio": 1.1233621141485755,
+      "measure51_max_min_gap_ratio": 1.2501913753508547,
+      "system_barline_x_pt": [
+        38.1604,
+        247.728,
+        353.386,
+        463.212,
+        558.136
+      ],
+      "shared_axis_checks": [
+        {
+          "measure": 50,
+          "shared_note_onsets": 4,
+          "max_upper_lower_axis_difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "shared_note_onsets": 4,
+          "max_upper_lower_axis_difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "shared_note_onsets": 4,
+          "max_upper_lower_axis_difference_pt": 0.0
+        }
+      ],
+      "system_upper_lower_staff_top_shifts_pt": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "max_abs_staff_top_shift_pt": 0.0,
+      "musicxml_non_layout_structure_equal": true,
+      "other_pages_svg_geometry_text_equal": []
+    },
+    {
+      "name": "grain-balanced",
+      "pages": 8,
+      "measure_stretch": {
+        "50": 0.93,
+        "52": 1.07
+      },
+      "measure51_shared_segment_leading_space_sp": null,
+      "lower_eighth_gaps_pt": {
+        "50": [
+          15.38,
+          15.38,
+          15.38,
+          15.38,
+          15.38
+        ],
+        "51": [
+          15.702,
+          15.7,
+          15.702,
+          19.626,
+          19.626
+        ],
+        "52": [
+          15.358,
+          15.36,
+          15.358,
+          15.358,
+          15.36
+        ]
+      },
+      "measure50_52_mean_gap_ratio": 1.0013803161705344,
+      "measure51_max_min_gap_ratio": 1.250063694267516,
+      "system_barline_x_pt": [
+        38.1604,
+        247.88,
+        348.084,
+        458.062,
+        558.136
+      ],
+      "shared_axis_checks": [
+        {
+          "measure": 50,
+          "shared_note_onsets": 4,
+          "max_upper_lower_axis_difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "shared_note_onsets": 4,
+          "max_upper_lower_axis_difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "shared_note_onsets": 4,
+          "max_upper_lower_axis_difference_pt": 0.0
+        }
+      ],
+      "system_upper_lower_staff_top_shifts_pt": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.07,
+          -0.072
+        ],
+        [
+          -0.144,
+          -0.144
+        ],
+        [
+          -0.216,
+          0.072
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "max_abs_staff_top_shift_pt": 0.216,
+      "musicxml_non_layout_structure_equal": true,
+      "other_pages_svg_geometry_text_equal": [
+        {
+          "page": 1,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 3,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 4,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 5,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 6,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 7,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 8,
+          "svg_geometry_and_text_equal": true
+        }
+      ]
+    },
+    {
+      "name": "joint-uniform",
+      "pages": 8,
+      "measure_stretch": {
+        "50": 0.93,
+        "51": 0.5,
+        "52": 1.07
+      },
+      "measure51_shared_segment_leading_space_sp": [
+        1.4,
+        2.3,
+        1.95
+      ],
+      "lower_eighth_gaps_pt": {
+        "50": [
+          15.326,
+          15.326,
+          15.326,
+          15.326,
+          15.326
+        ],
+        "51": [
+          17.798,
+          17.802,
+          17.802,
+          17.644,
+          17.946
+        ],
+        "52": [
+          15.298,
+          15.296,
+          15.296,
+          15.296,
+          15.296
+        ]
+      },
+      "measure50_52_mean_gap_ratio": 1.0019350958395439,
+      "measure51_max_min_gap_ratio": 1.0171163001586943,
+      "system_barline_x_pt": [
+        38.1604,
+        247.53,
+        347.408,
+        458.436,
+        558.136
+      ],
+      "shared_axis_checks": [
+        {
+          "measure": 50,
+          "shared_note_onsets": 4,
+          "max_upper_lower_axis_difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "shared_note_onsets": 4,
+          "max_upper_lower_axis_difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "shared_note_onsets": 4,
+          "max_upper_lower_axis_difference_pt": 0.0
+        }
+      ],
+      "system_upper_lower_staff_top_shifts_pt": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          -0.072,
+          -0.072
+        ],
+        [
+          -0.146,
+          -0.144
+        ],
+        [
+          -0.218,
+          0.074
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "max_abs_staff_top_shift_pt": 0.218,
+      "musicxml_non_layout_structure_equal": true,
+      "other_pages_svg_geometry_text_equal": [
+        {
+          "page": 1,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 3,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 4,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 5,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 6,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 7,
+          "svg_geometry_and_text_equal": true
+        },
+        {
+          "page": 8,
+          "svg_geometry_and_text_equal": true
+        }
+      ]
+    }
+  ],
+  "joint_candidate_native_save_reload_all_eight_pages": [
+    {
+      "page": 1,
+      "svg_equal": true,
+      "png_pixels_equal": true
+    },
+    {
+      "page": 2,
+      "svg_equal": true,
+      "png_pixels_equal": true
+    },
+    {
+      "page": 3,
+      "svg_equal": true,
+      "png_pixels_equal": true
+    },
+    {
+      "page": 4,
+      "svg_equal": true,
+      "png_pixels_equal": true
+    },
+    {
+      "page": 5,
+      "svg_equal": true,
+      "png_pixels_equal": true
+    },
+    {
+      "page": 6,
+      "svg_equal": true,
+      "png_pixels_equal": true
+    },
+    {
+      "page": 7,
+      "svg_equal": true,
+      "png_pixels_equal": true
+    },
+    {
+      "page": 8,
+      "svg_equal": true,
+      "png_pixels_equal": true
+    }
+  ],
+  "visual_review": {
+    "reviewed": [
+      "all three complete page-2 native renders",
+      "all three complete system-49-52 focus crops"
+    ],
+    "finding": "No obvious new collision, missing glyph or crop seen; no exhaustive collision oracle or perceptual superiority established.",
+    "focus_crop_pixels": [
+      70,
+      1150,
+      1430,
+      1565
+    ],
+    "adjacent_curve_fragments_not_erased": true,
+    "printed_or_performed": false,
+    "user_selected_real_score_candidate": false
+  },
+  "user_feedback": {
+    "verbatim": "暂时看不出差别",
+    "scope": "Earlier original simple 6/8 fixture comparison only, not these real-score versions.",
+    "inference": "Aesthetic or reading benefit unconfirmed; no preference for equal spacing or original inferred."
+  },
+  "private_artifacts": [
+    {
+      "private_relative_path": "tmp/engraving/user-spacing-2026-10-19/source-readonly-copy.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "private_relative_path": "tmp/engraving/user-spacing-2026-10-19/grain-balanced.mscz",
+      "sha256": "78d8a114d9ccaaf0a75fb7b60bb8ba82078f4bd06ef2ca299da5b864045e4e19"
+    },
+    {
+      "private_relative_path": "tmp/engraving/user-spacing-2026-10-19/joint-uniform.mscz",
+      "sha256": "2f9371d0fc7eaf491ada4b29bba7a0ac49d99229b2d0d647a87743fcc916a576"
+    },
+    {
+      "private_relative_path": "tmp/engraving/user-spacing-2026-10-19/baseline-focus.png",
+      "sha256": "646ca340c8b2b19549f406856a734a89dbccb445f7c9c73d38fb9b529d797014"
+    },
+    {
+      "private_relative_path": "tmp/engraving/user-spacing-2026-10-19/grain-balanced-focus.png",
+      "sha256": "f43c81c8b49d4b0938fa426a86f74130e190b1e8ba6921d87c010056ef74d963"
+    },
+    {
+      "private_relative_path": "tmp/engraving/user-spacing-2026-10-19/joint-uniform-focus.png",
+      "sha256": "90f93841efa4e00688a77b7e23c6cc181d6283919963e6b4c3dbf8177fe6629f"
+    },
+    {
+      "private_relative_path": "tmp/engraving/user-spacing-2026-10-19/baseline-page-2.png",
+      "sha256": "eae6e101a135cdd29b4910652ceb5fd4918151f9b1a78d301c9434391a2fc808"
+    },
+    {
+      "private_relative_path": "tmp/engraving/user-spacing-2026-10-19/grain-balanced-page-2.png",
+      "sha256": "7eacb55f4bb5ba6ebbf5efc9c21170012c38b1bbad5bd65ea2249134794df547"
+    },
+    {
+      "private_relative_path": "tmp/engraving/user-spacing-2026-10-19/joint-uniform-page-2.png",
+      "sha256": "26dd67532baa5f9d0ffff8a632a322b738f06e3d436f964043fbabd1ee6afa83"
+    }
+  ],
+  "private_reproduction_scripts": [
+    "inspect_source.py",
+    "variants.py",
+    "phase2.py",
+    "phase5.py",
+    "measure.py",
+    "review_score.py",
+    "stability.py",
+    "scope_check.py",
+    "register.py"
+  ],
+  "code_adaptation_performed": false,
+  "gui_score_operated": false,
+  "limits": [
+    "One real system, not whole-score improvement.",
+    "Joint candidate combines local minimum spacing and measure stretch, not a single-parameter experiment.",
+    "Vertical displacement mechanism consistent with enabled spread but unique triggering object not isolated.",
+    "No general voice parser, collision checker, plugin/MCP write or user aesthetic acceptance claimed."
+  ]
+}
