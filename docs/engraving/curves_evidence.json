@@ -164,5 +164,219 @@
   "private_directory": "tmp/engraving/curves-2026-10-19",
   "fixture_generator": "tmp/engraving/curves-2026-10-19/make_fixture.py",
   "fixture_inspection": "tmp/engraving/curves-2026-10-19/inspect_fixture.py",
-  "source_protection_checks_prove_learning_depth": false
+  "source_protection_checks_prove_learning_depth": false,
+  "real_score_weight_application": {
+    "name": "ties-match-existing-slur",
+    "overrides": {
+      "tieEndWidth": "0.02",
+      "tieMidWidth": "0.11",
+      "tieDottedWidth": "0.11"
+    },
+    "rationale": "Use existing explicit Slur weight group as a test input for independent Tie widths; not proof that all ties should equal slurs.",
+    "native_xml_only_three_new_style_nodes": true,
+    "musicxml_non_layout_structure_equal": true,
+    "pages": [
+      {
+        "page": 1,
+        "class_geometry_equal": {
+          "Note": true,
+          "Rest": true,
+          "Stem": true,
+          "Hook": true,
+          "Beam": true,
+          "BarLine": true,
+          "StaffLines": true,
+          "SlurSegment": true,
+          "TieSegment": false
+        },
+        "tie_segments": 32
+      },
+      {
+        "page": 2,
+        "class_geometry_equal": {
+          "Note": true,
+          "Rest": true,
+          "Stem": true,
+          "Hook": true,
+          "Beam": true,
+          "BarLine": true,
+          "StaffLines": true,
+          "SlurSegment": true,
+          "TieSegment": false
+        },
+        "tie_segments": 11
+      },
+      {
+        "page": 3,
+        "class_geometry_equal": {
+          "Note": true,
+          "Rest": true,
+          "Stem": true,
+          "Hook": true,
+          "Beam": true,
+          "BarLine": true,
+          "StaffLines": true,
+          "SlurSegment": true,
+          "TieSegment": false
+        },
+        "tie_segments": 8
+      },
+      {
+        "page": 4,
+        "class_geometry_equal": {
+          "Note": true,
+          "Rest": true,
+          "Stem": true,
+          "Hook": true,
+          "Beam": true,
+          "BarLine": true,
+          "StaffLines": true,
+          "SlurSegment": true,
+          "TieSegment": false
+        },
+        "tie_segments": 8
+      },
+      {
+        "page": 5,
+        "class_geometry_equal": {
+          "Note": true,
+          "Rest": true,
+          "Stem": true,
+          "Hook": true,
+          "Beam": true,
+          "BarLine": true,
+          "StaffLines": true,
+          "SlurSegment": true,
+          "TieSegment": false
+        },
+        "tie_segments": 9
+      },
+      {
+        "page": 6,
+        "class_geometry_equal": {
+          "Note": true,
+          "Rest": true,
+          "Stem": true,
+          "Hook": true,
+          "Beam": true,
+          "BarLine": true,
+          "StaffLines": true,
+          "SlurSegment": true,
+          "TieSegment": false
+        },
+        "tie_segments": 32
+      },
+      {
+        "page": 7,
+        "class_geometry_equal": {
+          "Note": true,
+          "Rest": true,
+          "Stem": true,
+          "Hook": true,
+          "Beam": true,
+          "BarLine": true,
+          "StaffLines": true,
+          "SlurSegment": true,
+          "TieSegment": false
+        },
+        "tie_segments": 3
+      },
+      {
+        "page": 8,
+        "class_geometry_equal": {
+          "Note": true,
+          "Rest": true,
+          "Stem": true,
+          "Hook": true,
+          "Beam": true,
+          "BarLine": true,
+          "StaffLines": true,
+          "SlurSegment": true,
+          "TieSegment": false
+        },
+        "tie_segments": 15
+      }
+    ],
+    "musicxml_scope": "Same layout exclusions as spacing study plus only the two expected appearance line-width types tie middle/tie tip; actual exported values separately asserted 2.1/0.7 to 1.1/0.2 tenths.",
+    "original_sha256_after": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "printed_or_performed": false,
+    "user_preference_confirmed": false,
+    "non_tie_svg_comparison": [
+      {
+        "page": 1,
+        "all_svg_elements_except_tie_and_title_equal": true
+      },
+      {
+        "page": 2,
+        "all_svg_elements_except_tie_and_title_equal": true
+      },
+      {
+        "page": 3,
+        "all_svg_elements_except_tie_and_title_equal": true
+      },
+      {
+        "page": 4,
+        "all_svg_elements_except_tie_and_title_equal": true
+      },
+      {
+        "page": 5,
+        "all_svg_elements_except_tie_and_title_equal": true
+      },
+      {
+        "page": 6,
+        "all_svg_elements_except_tie_and_title_equal": true
+      },
+      {
+        "page": 7,
+        "all_svg_elements_except_tie_and_title_equal": true
+      },
+      {
+        "page": 8,
+        "all_svg_elements_except_tie_and_title_equal": false
+      }
+    ],
+    "non_tie_page8_difference": {
+      "changed_elements": 3,
+      "objects": 2,
+      "fermata_shift_y_pt": 0.034,
+      "ottava_shift_y_pt": -0.334,
+      "scope": "One Fermata path and two OttavaSegment elements only; identical list length and all other non-Tie/title elements equal."
+    },
+    "visual_review": {
+      "full_pages": [
+        1,
+        6
+      ],
+      "same_frame_system": "m111-114",
+      "eight_page_thumbnail_overview": true,
+      "all_eight_pages_detail_reviewed": false,
+      "interpretation": "Reduced Tie weight relieves dense chord region; long Slur and text can remain. Short-tie and print strength unverified."
+    },
+    "same_source_and_host_provenance": "user_spacing_evidence.json",
+    "input_xml_zip_entries_checked": true,
+    "private_artifacts": [
+      {
+        "relative_path": "tmp/engraving/user-spacing-2026-10-19/ties-match-existing-slur.mscz",
+        "sha256": "e4ef4007efa650b5bb720a3af60324683a1636ca203d23b132341ced2593f8eb"
+      },
+      {
+        "relative_path": "tmp/engraving/user-spacing-2026-10-19/baseline-m111-114.png",
+        "sha256": "28a1059bb6dc295f71d4cbc2f86f0c530e815ba97810f453a19170015de530ec"
+      },
+      {
+        "relative_path": "tmp/engraving/user-spacing-2026-10-19/ties-match-existing-slur-m111-114.png",
+        "sha256": "c3bf78d51dcbabeef44e2039827215a87ef9f28ad7850ba2a7b4c29c5e6509dd"
+      },
+      {
+        "relative_path": "tmp/engraving/user-spacing-2026-10-19/ties-match-existing-slur-page-6.png",
+        "sha256": "ec38cecce9fc38604cb3b8ff156ee7338bb75eaa68d1b8e9f1e72287d640f58d"
+      }
+    ],
+    "not_verified": [
+      "Native save/reload stability for this candidate",
+      "Print or performance",
+      "User aesthetic preference",
+      "Unique cause/version migration status of omitted Tie defaults"
+    ]
+  }
 }

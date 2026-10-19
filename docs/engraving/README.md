@@ -6,6 +6,8 @@
 
 最新应用见[用户实曲副本](USER_SPACING_APPLICATION.md)：m50／52整小节疏密与m51内部波动分别形成A、B候选，三版同为8页，其它7页几何相同，所查共同起点与音乐内容保持。它验证一个片段可调，尚未证明阅读或审美更好。此前[原创间距候选](SPACING_CANDIDATES.md)虽在技术上更均匀，用户反馈“暂时看不出差别”；没有据此确定等距偏好，相同参数在变音/密集反例也不能照搬。
 
+随后[弧线专题](CURVES_STUDY.md)增加实曲m113–114线宽候选：保留长弧和文字，单独减轻密集和弦Tie黑度。音乐、音符／梁／Slur及8页结构保持，第8页两个标记有极小位置连动；它说明应先查有效样式与层次，不必先换字体或搬文字。数值仍未获用户／打印认可。
+
 持续任务：[全目录学习与资源整理](CONTINUOUS_STUDY.md)。已清点并渲染全部146份PDF、1,135页；本轮已审视全部146份谱1,135页，近读379页，见[逐谱一](corpus/READING_001.md)、[逐谱二](corpus/READING_002.md)、[逐谱三](corpus/READING_003.md)、[逐谱四](corpus/READING_004.md)、[逐谱五](corpus/READING_005.md)、[逐谱六](corpus/READING_006.md)、[逐谱七](corpus/READING_007.md)、[逐谱八](corpus/READING_008.md)、[逐谱九](corpus/READING_009.md)、[逐谱十](corpus/READING_010.md)、[逐谱十一](corpus/READING_011.md)、[逐谱十二](corpus/READING_012.md)、[逐谱十三](corpus/READING_013.md)、[逐谱十四](corpus/READING_014.md)、[逐谱十五](corpus/READING_015.md)、[逐谱十六](corpus/READING_016.md)、[逐谱十七](corpus/READING_017.md)、[逐谱十八](corpus/READING_018.md)、[逐谱十九](corpus/READING_019.md)、[逐谱二十](corpus/READING_020.md)、[逐谱二十一](corpus/READING_021.md)、[逐谱二十二](corpus/READING_022.md)、[逐谱二十三](corpus/READING_023.md)、[逐谱二十四](corpus/READING_024.md)、[逐谱二十五](corpus/READING_025.md)、[154页串烧的13章](corpus/READING_MEDLEY_200.md)及[覆盖记录](corpus/reviews.json)。新增[附点、变音与连音的判断](NOTATION_DETAILS.md)、[资源核实目录](RESOURCE_RESEARCH.md)与[规划落实](RESOURCE_PLAN_MAPPING.md)。本轮全目录阅读完成；全页审视与近读分别记录，不等于逐音校对。综合判断和后续应用见[JUDGMENT_GUIDE](JUDGMENT_GUIDE.md)，范围与限制见[完成核查](COMPLETION_REVIEW.md)。缓存已迁E盘，位置见[CACHE_LOCATIONS](CACHE_LOCATIONS.md)。
 
 当前优先阅读：[具体情境的净书判断](JUDGMENT_GUIDE.md)、[个人偏好与应用方法](PREFERENCES.md)、[横向间距专题](SPACING_STUDY.md)。用户进一步明确：需要持续学习并形成具体的审美判断、建议与后续自动净书能力，不以规则数量/技术检查替代。横向专题最初增加5份官谱、8个定位观察和一个自制原生复现，后续候选见上；HS编号与以下35个正式E案例分开记录。
