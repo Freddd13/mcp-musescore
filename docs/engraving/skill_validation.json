@@ -1143,5 +1143,83 @@
     "initial_23_tests_not_claimed_rerun": true,
     "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
     "global_installation_or_app_discovery_performed": false
+  },
+  "follow_up_tremolo_reading": {
+    "date": "2026-10-20",
+    "scope": "Existing notation route reaches new tremolo section; beams route reaches it through updated beam reference. Native-review guidance updated only.",
+    "locator_probes_from_C_Windows": {
+      "notation": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "notation",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_CONTEXT.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md"
+        ]
+      },
+      "beams": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "beams",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_STEM_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md"
+        ]
+      }
+    },
+    "new_study_reachable_from_existing_routes": true,
+    "script_sha256": "6c7e614aaf230eacbcde29c44163ba767d12937179428d877c78a71fa736d33b",
+    "native_reference_sha256": "bdf6efbbb88c9195cc924bb20943d4ca3fe721a991a1a3d5c69ffb22136548c4",
+    "evidence": "tremolo_reading_evidence.json",
+    "changed_markdown_links": [
+      {
+        "path": "docs/engraving/NOTATION_DETAILS.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/CASES_EXPANDED.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/RULES_EXPANDED.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/BEHIND_BARS_NOTES.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/README.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/BEAM_STEM_STUDY.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/fixtures/README.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "local_links_resolve": true
+      }
+    ],
+    "initial_23_tests_not_claimed_rerun": true,
+    "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
+    "global_installation_or_app_discovery_performed": false
   }
 }

@@ -1,0 +1,570 @@
+{
+  "date": "2026-10-20",
+  "scope": "Tremolo reading, conditional abbreviation, duration/axis and stroke-length study; no software adaptation",
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "same_before_and_after_both_export_batches": true,
+    "source_commit_correspondence_proven": false
+  },
+  "source_context_read_only": {
+    "head": "ec901d3559c4a7dd143c86390393e88ee2f59a27",
+    "files": [
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\tremolo.cpp",
+        "sha256": "5e38300a013c8cca692eb85f57f7ee99904a17e1244f0b6a81866ec171abbd66"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\tremolo.h",
+        "sha256": "2772661905434c300341d398d8ffaeceb843e9bd456163fee4786a8fcfb10c4f"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\style.cpp",
+        "sha256": "605bb4d4849e6925fdea219732710cbfb6aefcd8b09347cd188cf58a88ca97b7"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\rendermidi.cpp",
+        "sha256": "265086927d77b45e411edca435d164f614c418cdb34b8eb6beba9e31a4495a20"
+      }
+    ],
+    "source_test_compat114_tremolo2notes_ref_consulted_for_storage_only": true,
+    "reference_music_from_source_test_not_copied": true
+  },
+  "reading": {
+    "book_printed_full_text_and_images": [
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228
+    ],
+    "book_pdf_pages": [
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248
+    ],
+    "p223_224_complete_figures_gap_filled": true,
+    "p228_continuation_read": true,
+    "official_revisited": [
+      {
+        "id": "A106",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "observations": "Two minim endpoints per half-note-span group; freer spread texture vs explicit running sextuplets; single-note quasi-shamisen change at C"
+      },
+      {
+        "id": "A113",
+        "pdf_pages": [
+          7
+        ],
+        "observations": "J quiet two-note background, compact detached strokes and gradual change from semibreves to stemmed/dotted groups; no exact repeat speed inferred"
+      }
+    ],
+    "historical_379_near_read_count_not_incremented": true,
+    "primary_format_reference": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/tremolo/"
+  },
+  "original_fixture": {
+    "license": "CC0 original music and rendering only",
+    "bars": 3,
+    "meter": "4/4",
+    "staves": 2,
+    "fonts": [
+      "Leland",
+      "Leland Text"
+    ],
+    "spatium_mm": 1.57,
+    "page": "A4, same full-width final system as a controlled budget",
+    "recipe": "m1 upper 16 alternating C5/G5 sixteenths; m2 two written semibreves C5/G5 with c16 and actual half-note slots; m3 semibreve C5 r16. Lower C3: four quarters, two quarters + eight sixteenths, four quarters. Measured repetition stated explicitly.",
+    "written_heads": 37,
+    "real_tremolo_groups": 2,
+    "native_real_tuplets": 0,
+    "actual_quarters_per_staff_bar": 4,
+    "m2_written_type_vs_actual_duration": {
+      "types": [
+        "whole",
+        "whole"
+      ],
+      "duration_values": [
+        "1/2",
+        "1/2"
+      ],
+      "actual_slots_quarters": [
+        "2",
+        "2"
+      ],
+      "pair_duration_quarters": "4"
+    },
+    "source_default_line_multiplier_read_from_current_source": 0.62,
+    "binary_effect_verified_by_shape_output": true
+  },
+  "controlled_changes": {
+    "shorter_strokes": {
+      "from": "tremolo-reading-source",
+      "only_change": "Style/tremoloStrokeLengthMultiplier=0.38",
+      "inverse_full_xml_equal": true,
+      "judgment": "Conditional compact-background style option, original also valid; global parameter not proposed as user preset",
+      "all_non_Tremolo_svg_equal_except_title_desc": true,
+      "single_note_tremolo_path_unchanged": true
+    },
+    "visual_midpoint_rejected": {
+      "from": "tremolo-reading-source",
+      "only_change": "m2 second upper Chord offset x=4.430650849sp",
+      "inverse_full_xml_equal": true,
+      "calculation": {
+        "first_head_center_svg": 1540.83859372755,
+        "second_head_center_svg": 1790.18859372755,
+        "right_barline_svg": 2236.72,
+        "naive_target_svg": 1888.779296863775,
+        "chord_offset_sp": 4.430650848655551
+      },
+      "judgment": "Rejected: head is shifted to naive geometric midpoint and loses third-beat correspondence while playback remains identical",
+      "all_other_svg_equal_after_removing_only_target_head_and_tremolo_paths_and_title_desc": true
+    }
+  },
+  "native_and_musicxml_events_equal_to_independent_fraction_recipe": true,
+  "musicxml_exports": {
+    "tremolo-reading-source": {
+      "version": "4.0",
+      "tremolo_rows": [
+        {
+          "measure": 2,
+          "staff": 1,
+          "onset_quarters": "0",
+          "type": "start",
+          "strokes": "2",
+          "duration_quarters": "2",
+          "written_type": "whole",
+          "time_modification": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "measure": 2,
+          "staff": 1,
+          "onset_quarters": "2",
+          "type": "stop",
+          "strokes": "2",
+          "duration_quarters": "2",
+          "written_type": "whole",
+          "time_modification": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "measure": 3,
+          "staff": 1,
+          "onset_quarters": "0",
+          "type": "single",
+          "strokes": "2",
+          "duration_quarters": "4",
+          "written_type": "whole",
+          "time_modification": null
+        }
+      ],
+      "written_note_events": 37
+    },
+    "tremolo-shorter-strokes": {
+      "version": "4.0",
+      "tremolo_rows": [
+        {
+          "measure": 2,
+          "staff": 1,
+          "onset_quarters": "0",
+          "type": "start",
+          "strokes": "2",
+          "duration_quarters": "2",
+          "written_type": "whole",
+          "time_modification": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "measure": 2,
+          "staff": 1,
+          "onset_quarters": "2",
+          "type": "stop",
+          "strokes": "2",
+          "duration_quarters": "2",
+          "written_type": "whole",
+          "time_modification": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "measure": 3,
+          "staff": 1,
+          "onset_quarters": "0",
+          "type": "single",
+          "strokes": "2",
+          "duration_quarters": "4",
+          "written_type": "whole",
+          "time_modification": null
+        }
+      ],
+      "written_note_events": 37
+    },
+    "tremolo-visual-midpoint-rejected": {
+      "version": "4.0",
+      "tremolo_rows": [
+        {
+          "measure": 2,
+          "staff": 1,
+          "onset_quarters": "0",
+          "type": "start",
+          "strokes": "2",
+          "duration_quarters": "2",
+          "written_type": "whole",
+          "time_modification": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "measure": 2,
+          "staff": 1,
+          "onset_quarters": "2",
+          "type": "stop",
+          "strokes": "2",
+          "duration_quarters": "2",
+          "written_type": "whole",
+          "time_modification": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "measure": 3,
+          "staff": 1,
+          "onset_quarters": "0",
+          "type": "single",
+          "strokes": "2",
+          "duration_quarters": "4",
+          "written_type": "whole",
+          "time_modification": null
+        }
+      ],
+      "written_note_events": 37
+    },
+    "tremolo-shorter-resaved": {
+      "version": "4.0",
+      "tremolo_rows": [
+        {
+          "measure": 2,
+          "staff": 1,
+          "onset_quarters": "0",
+          "type": "start",
+          "strokes": "2",
+          "duration_quarters": "2",
+          "written_type": "whole",
+          "time_modification": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "measure": 2,
+          "staff": 1,
+          "onset_quarters": "2",
+          "type": "stop",
+          "strokes": "2",
+          "duration_quarters": "2",
+          "written_type": "whole",
+          "time_modification": [
+            "2",
+            "1"
+          ]
+        },
+        {
+          "measure": 3,
+          "staff": 1,
+          "onset_quarters": "0",
+          "type": "single",
+          "strokes": "2",
+          "duration_quarters": "4",
+          "written_type": "whole",
+          "time_modification": null
+        }
+      ],
+      "written_note_events": 37
+    }
+  },
+  "source_and_shorter_musicxml_bytes_equal": true,
+  "graphics": {
+    "svg_units_per_sp": 22.251968503937007,
+    "matching_tolerance_svg": 0.02,
+    "tolerance_basis": "SVG origins rounded to about 0.01 units; compare true glyph X ink centers, not unequal whole/filled origins",
+    "variants": {
+      "tremolo-reading-source": {
+        "m2_first_whole": {
+          "origin_x": 1524.24,
+          "ink_center_x": 1540.83859372755,
+          "y": 401.74,
+          "width_svg": 33.1971874551
+        },
+        "m2_second_whole": {
+          "origin_x": 1773.59,
+          "ink_center_x": 1790.18859372755,
+          "y": 357.236,
+          "width_svg": 33.1971874551
+        },
+        "lower_third_beat": {
+          "origin_x": 1775.72,
+          "ink_center_x": 1790.18378375,
+          "y": 657.638,
+          "width_svg": 28.9275675
+        },
+        "alignment_error_svg": 0.004809977549939504,
+        "right_barline_svg": 2236.72,
+        "second_position_fraction_first_axis_to_right_barline": 0.35832255000987195,
+        "tremolo_paths": [
+          {
+            "bbox_svg": [
+              1571.62,
+              432.67,
+              1726.21,
+              475.394
+            ],
+            "width_svg": 154.59000000000015,
+            "mid_x_svg": 1648.915
+          },
+          {
+            "bbox_svg": [
+              2273.04,
+              429.555,
+              2299.74,
+              469.609
+            ],
+            "width_svg": 26.699999999999818,
+            "mid_x_svg": 2286.39
+          }
+        ]
+      },
+      "tremolo-shorter-strokes": {
+        "m2_first_whole": {
+          "origin_x": 1524.24,
+          "ink_center_x": 1540.83859372755,
+          "y": 401.74,
+          "width_svg": 33.1971874551
+        },
+        "m2_second_whole": {
+          "origin_x": 1773.59,
+          "ink_center_x": 1790.18859372755,
+          "y": 357.236,
+          "width_svg": 33.1971874551
+        },
+        "lower_third_beat": {
+          "origin_x": 1775.72,
+          "ink_center_x": 1790.18378375,
+          "y": 657.638,
+          "width_svg": 28.9275675
+        },
+        "alignment_error_svg": 0.004809977549939504,
+        "right_barline_svg": 2236.72,
+        "second_position_fraction_first_axis_to_right_barline": 0.35832255000987195,
+        "tremolo_paths": [
+          {
+            "bbox_svg": [
+              1601.54,
+              435.341,
+              1696.29,
+              472.724
+            ],
+            "width_svg": 94.75,
+            "mid_x_svg": 1648.915
+          },
+          {
+            "bbox_svg": [
+              2273.04,
+              429.555,
+              2299.74,
+              469.609
+            ],
+            "width_svg": 26.699999999999818,
+            "mid_x_svg": 2286.39
+          }
+        ]
+      },
+      "tremolo-visual-midpoint-rejected": {
+        "m2_first_whole": {
+          "origin_x": 1524.24,
+          "ink_center_x": 1540.83859372755,
+          "y": 401.74,
+          "width_svg": 33.1971874551
+        },
+        "m2_second_whole": {
+          "origin_x": 1872.18,
+          "ink_center_x": 1888.77859372755,
+          "y": 357.236,
+          "width_svg": 33.1971874551
+        },
+        "lower_third_beat": {
+          "origin_x": 1775.72,
+          "ink_center_x": 1790.18378375,
+          "y": 657.638,
+          "width_svg": 28.9275675
+        },
+        "alignment_error_svg": 98.59480997755009,
+        "right_barline_svg": 2236.72,
+        "second_position_fraction_first_axis_to_right_barline": 0.4999989895746337,
+        "tremolo_paths": [
+          {
+            "bbox_svg": [
+              1590.35,
+              432.67,
+              1806.07,
+              475.394
+            ],
+            "width_svg": 215.72000000000003,
+            "mid_x_svg": 1698.21
+          },
+          {
+            "bbox_svg": [
+              2273.04,
+              429.555,
+              2299.74,
+              469.609
+            ],
+            "width_svg": 26.699999999999818,
+            "mid_x_svg": 2286.39
+          }
+        ]
+      }
+    },
+    "all_public_figures_visually_reviewed": true,
+    "images": "180dpi native PNG, white composited and same crop (120,100,1430,450); no symbol movement or rescaling",
+    "not_claimed": [
+      "general collision detection",
+      "preferred exact multiplier",
+      "user aesthetic acceptance",
+      "printing"
+    ]
+  },
+  "native_reload_shorter": {
+    "duration_types_actual_slots_and_tremolo_classes_preserved": true,
+    "style_value_preserved": true,
+    "svg_equal_except_title_desc": true,
+    "png_pixels_equal": true,
+    "musicxml_bytes_equal": true,
+    "midi_bytes_equal": true
+  },
+  "midi": {
+    "ppq": 480,
+    "tempo_microseconds_per_quarter": 500000,
+    "written_heads": 37,
+    "positive_note_ons": 66,
+    "source_shorter_negative_and_native_reload_bytes_identical": true,
+    "upper_m1_m2": "32 alternating C5/G5 attacks at tick 120*i, i=0..31",
+    "upper_m3_observed_quantization": "16 C5 attacks at 3840+119*i, i=0..15; not claimed exact 120-tick measured playback or free-tremolo intent",
+    "current_source_explanatory_formula": {
+      "location": "libmscore/rendermidi.cpp renderTremolo TremoloSingle branch, ordinary mode",
+      "n": 16,
+      "integer_l_1000_div_n": 62,
+      "prediction": "3840 + floor(1920 * 62 * i / 1000), i=0..15",
+      "prediction_matches_all_16_observed_onsets": true,
+      "binary_source_build_correspondence_still_unproven": true
+    },
+    "lower_positive_attacks": 18,
+    "native_reload_preserves_observed_quantization": true,
+    "no_audio_audition": true
+  },
+  "musicxml_import": {
+    "type_duration_and_c16_r16_preserved": true,
+    "tuplets_created": 0,
+    "custom_stroke_length_style_missing": true,
+    "complete_native_page_and_figure_not_equal": true,
+    "all_66_positive_channel_events_equal": true,
+    "tempo_events_equal": true,
+    "all_66_note_off_events_differ": true,
+    "gateTime_95_and_other_instrument_defaults_added": true,
+    "CC_counts_source_import": [
+      11,
+      10
+    ],
+    "CC_pan_values_source_import": [
+      64,
+      63
+    ],
+    "complete_MIDI_equal": false,
+    "difference_not_attributed_to_tremolo_identity_alone": true,
+    "no_replacement_of_source_project": true
+  },
+  "published_fixtures": [
+    {
+      "path": "docs/engraving/fixtures/tremolo-reading-source.mscx",
+      "sha256": "e39371fab688905124cf3166eb8fda1df5caa0f8cb437de947abdffb2a74635e"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-reading-source.png",
+      "sha256": "a48af22fa12ff0dac7b0e15f8df97daa04c8bf744af26ab7dc8ce37f07f76aff"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-shorter-strokes.mscx",
+      "sha256": "b2c68f6299dee80de7fff12b46a9779c1190e1ceefc2e4bdf018bae8b2ec5692"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-shorter-strokes.png",
+      "sha256": "e1f3db889da92c9860b8e11f08ca248b294896dbb11190cef9ba78ca7f93e342"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-visual-midpoint-rejected.mscx",
+      "sha256": "a08b47600716e5c7274cd27351b36ed11ad3264c28cbe349c95464801edc742d"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-visual-midpoint-rejected.png",
+      "sha256": "1e388dfa00e66dab26475ab3e801fd8916274cf799a0036dcce51c722906d6da"
+    }
+  ],
+  "protection": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Sadness and Sorrow - Fantasy on a theme from the soundtrack of Naruto.pdf",
+      "sha256": "d90de774d8503b7dc33a105fbf621ed6a4a5c899795417ff276670ed46f01b46",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Sincerely - Violet Evergarden Opening Theme.pdf",
+      "sha256": "e9dc32eddcd18df30310564566f0512725e64924c02c04ea6c20ad30d976b990",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "equals_prior_read_only_baseline": true
+    }
+  ],
+  "not_performed": [
+    "MCP/plugin/core modifications",
+    "GUI operations",
+    "global skill installation",
+    "all tremolo variants including flags/tuplets/cross-staff in native fixtures",
+    "audio/print/user aesthetic evaluation",
+    "musical reinterpretation of official PDFs"
+  ]
+}

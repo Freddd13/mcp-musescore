@@ -1,5 +1,15 @@
 # 独立净书复现谱例
 
+## 震音的时值、逻辑半程与梁长
+
+2026-10-20原创三小节4/4双谱表，CC0，无参考音乐摘录。固定Leland／Leland Text、spatium 1.57mm、A4同满行预算；该预算为控制，非出版模板。m1上部16个C5／G5交替十六分，m2两个whole端点c16、各实际1/2 slot，m3 whole C5 r16；文字明确有节制十六分。下部m2前两拍四分、后两拍八个十六分，其余四分。37书写头、2个震音、无Tuplet，播放66起音。
+
+- [保留版](tremolo-reading-source.mscx)／[图](tremolo-reading-source.png)：m2第二头在横区间35.8%仍正确对下部第三拍；不能按可见whole相加成八拍。
+- [短梁备选](tremolo-shorter-strokes.mscx)／[图](tremolo-shorter-strokes.png)：仅Style/tremoloStrokeLengthMultiplier=0.38；两音梁缩短，单音斜划和其它SVG图元保持。原版也有效，此值不作用户全局预设。
+- [几何居中拒绝版](tremolo-visual-midpoint-rejected.mscx)／[图](tremolo-visual-midpoint-rejected.png)：仅m2第二Chord offset x≈4.431sp，移到首列／右界几何中点，失去第三拍对齐；完整MIDI相同仍拒绝。
+
+两个修改均可逆回原XML；三版实际事件／MIDI相同。短梁版另做原生重载，样式、分类／实际时长、SVG除标题说明、PNG像素、MusicXML／MIDI保持。MusicXML重导入保住c16／r16与slot、无新Tuplet，却未保短梁样式，并因附加乐器设置改变NoteOff／CC。原输入m3单音重复间隔实测119tick而非理想120，不宣称精确计量播放或由此判自由震音。见[专题第11节](../NOTATION_DETAILS.md)和[证据](../tremolo_reading_evidence.json)。三图为180dpi原生PNG，仅合白底、同框裁页边，未缩放／移动符号。按本页CLI用独立输出／配置复现；未做打印、音响或用户审美验收，官谱／教材不在CC0许可中。
+
 ## 跨表琶音：成员、分组与下表降号
 
 2026-10-20原创两小节4/4双谱表，CC0，无参考音乐转写；固定Leland／Leland Text、spatium 1.57mm、A4满行预算（控制条件，非出版模板）。m1低部C2以tie延续到m2；m2下部E♭3／G♭3／B♭3、上部E4／G4／B♭4另起。8头、2休止、7实际起音。文字明确拍上展开，原生间隔70ms，不是一般时序规范。
