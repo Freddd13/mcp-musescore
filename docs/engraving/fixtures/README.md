@@ -1,5 +1,16 @@
 # 独立净书复现谱例
 
+## 指法归属、替指与同指多音
+
+2026-10-20新增原创四小节3/4双谱表，CC0，无参考旋律摘录；固定Leland／Leland Text、spatium 1.57mm，指法沿用宿主文本样式。20音、19个Note下Fingering、一个3:2组：m1和弦纵排，m2持音5→4替指，m3连音数与指法，m4同一拇指取E4／F4。仅作记谱／净书练习，不承诺最佳生理手型。
+
+- [原生基线](fingerings-automatic.mscx)／[图](fingerings-automatic.png)：保留合理堆叠与两处富文本符号，原生重载SVG／PNG／MIDI保持。
+- [贴近音头的拒绝版](fingerings-near-notes-rejected.mscx)／[图](fingerings-near-notes-rejected.png)：仅m4目标Fingering加autoplace=0及offset(-1.6,0.2)sp，却碰小节线，不采用。
+- [删符号的拒绝版](fingerings-stripped-rejected.mscx)／[图](fingerings-stripped-rejected.png)：只去两个sym，数字／所属音／MIDI保持却丢替指与同指多音含义，不采用。
+- [实际MusicXML输出](fingerings-export.musicxml)→[重导入MSCX](fingerings-musicxml-roundtrip.mscx)／[图](fingerings-musicxml-roundtrip.png)：字形名称变普通文字，源谱不可用其替换。书写事件保持，播放另引入gateTime等配置，完整MIDI不相同，勿沿用前三版的一致结论。
+
+四张图均180dpi原生PNG，只合白底、用相同较高裁框保留两系统，包括重导入后更大的间隔；未缩放／移动符号。XML公开副本仅规范LF换行。判断、范围和一手规范链接见[指法专题](../FINGERING_STUDY.md)，原生／MusicXML／MIDI核对见[fingering_evidence.json](../fingering_evidence.json)。复现命令同下文；所有输出使用独立路径和配置，原谱与教材不在此CC0许可中。
+
 ## 连音省写与嵌套：保留分法，分开标记层级
 
 2026-10-20新增原创四小节4/4双谱表，CC0，无参考音乐摘录，固定Leland／Leland Text、spatium 1.57mm、上干和两小节一系统。干向及断行只是本练习的控制条件。m1建立四组三连八分，m2重复；m3换成3／5／普通二分／3；m4外层3:2的最后一份内含5:4，再接二分休止。

@@ -1,0 +1,341 @@
+{
+  "date": "2026-10-20",
+  "scope": "Fingering ownership, small symbol semantics, rejected local move and actual native-versus-MusicXML roundtrip; original fixtures, same-agent judgment.",
+  "book": {
+    "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256_before": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "prepared_printed_pages": [
+      308,
+      309
+    ],
+    "pdf_page_offset": 20,
+    "revisit_of_previously_read_material": true,
+    "preparation_does_not_imply_image_review": true,
+    "full_text_and_complete_figures_actually_revisited": [
+      308,
+      309
+    ],
+    "new_reading_page_count_claimed": false
+  },
+  "official_revisit": [
+    {
+      "id": "A063",
+      "pdf_page": 3,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Imagination - Haikyu!! - Opening Theme.pdf",
+      "source_sha256": "fea4dc1410d349e5b5d7d9b4f73757f3a284adc5c6010a4805bbbae05c0f771b",
+      "cache": "tmp\\engraving\\corpus\\A063\\page-3.jpg",
+      "cache_sha256": "a0361163ebefb8a462aa1bfcfee39f96503c705d4254f46951c72477fc3f10d7",
+      "full_page_revisited": true,
+      "observation": "Hand assignment l.h. and corner brackets, not a verified finger-number example.",
+      "new_corpus_count_claimed": false
+    }
+  ],
+  "standards_read": [
+    {
+      "url": "https://www.w3.org/2021/03/smufl14/tables/fingering.html",
+      "date_read": "2026-10-20",
+      "used": "U+ED20 fingeringSubstitutionAbove and U+ED23 fingeringMultipleNotes are distinct named symbols; glyph identity is not music Slur."
+    },
+    {
+      "url": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/fingering/",
+      "date_read": "2026-10-20",
+      "used": "Multiple fingering elements and substitution yes/no identify a mid-note finger substitution; alternate has a separate meaning."
+    }
+  ],
+  "preparation": {
+    "source": "Original four-bar 3/4 piano engraving study, no reference melody copied.",
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "input": "tmp\\engraving\\fingering-2026-10-20\\native\\automatic.mscx",
+    "input_sha256": "2763a2324dc09d63b6e1841ffef92503c5b0f1daca98e8fbbec3b0ff902c0b07",
+    "license": "CC0-1.0",
+    "intended": "m1 chord fingering stacks; m2 finger-substitution inline symbol; m3 fingering and tuplet numerals; m4 multiple-note thumb symbol. Native rendering and intent-to-glyph verification still required."
+  },
+  "musical_recipe": {
+    "notes": 20,
+    "fingering_objects": 19,
+    "tuplets": 1,
+    "meter": "3/4",
+    "each_staff_measure_quarters": 3,
+    "no_logical_Slur_spanner_in_source": true,
+    "fingering_symbols_in_source": [
+      "fingeringSubstitutionAbove",
+      "fingeringMultipleNotes"
+    ],
+    "m2_meaning": "An authored illustration of finger 5 -> 4 while holding G4; no claim of optimal ergonomic fingering.",
+    "m4_meaning": "An authored illustration of one thumb taking E4/F4 together; glyph attached to E4 Note, human role extends to both chord notes."
+  },
+  "results": [
+    {
+      "variant": "automatic",
+      "source_sha256": "2763a2324dc09d63b6e1841ffef92503c5b0f1daca98e8fbbec3b0ff902c0b07",
+      "twenty_notes_match_independent_rational_recipe": true,
+      "nineteen_fingering_objects_present": true,
+      "fingering_owner_and_rich_contents_equal": true,
+      "rich_symbol_names": [
+        "fingeringSubstitutionAbove",
+        "fingeringMultipleNotes"
+      ],
+      "native_tuplet_ratio_and_time_equal": true,
+      "midi_full_bytes_equal_to_automatic": true,
+      "svg_removed_by_class": {},
+      "svg_added_by_class": {},
+      "one_page": true
+    },
+    {
+      "variant": "thumb-near-notes",
+      "source_sha256": "7510b071def7d759c6fa8a4006f01cc47b137cceb9eba96832afdc365645135c",
+      "twenty_notes_match_independent_rational_recipe": true,
+      "nineteen_fingering_objects_present": true,
+      "fingering_owner_and_rich_contents_equal": true,
+      "rich_symbol_names": [
+        "fingeringSubstitutionAbove",
+        "fingeringMultipleNotes"
+      ],
+      "native_tuplet_ratio_and_time_equal": true,
+      "midi_full_bytes_equal_to_automatic": true,
+      "svg_removed_by_class": {
+        "Fingering": 2
+      },
+      "svg_added_by_class": {
+        "Fingering": 2
+      },
+      "one_page": true
+    },
+    {
+      "variant": "stripped-symbols",
+      "source_sha256": "c69221b00eb6eac300fd490ed8e39c3887cadf0e3b1de8c87f2a249d3e99b1e8",
+      "twenty_notes_match_independent_rational_recipe": true,
+      "nineteen_fingering_objects_present": true,
+      "fingering_owner_and_rich_contents_equal": false,
+      "rich_symbol_names": [],
+      "native_tuplet_ratio_and_time_equal": true,
+      "midi_full_bytes_equal_to_automatic": true,
+      "svg_removed_by_class": {
+        "BarLine": 2,
+        "Stem": 2,
+        "Note": 2,
+        "Fingering": 6,
+        "NoteDot": 2
+      },
+      "svg_added_by_class": {
+        "BarLine": 2,
+        "Stem": 2,
+        "Note": 2,
+        "Fingering": 3,
+        "NoteDot": 2
+      },
+      "one_page": true
+    },
+    {
+      "variant": "native-resaved",
+      "source_sha256": "17e2b6781b00f8fce56ab284c3dbaec20cc4047c1dbdbab62fa36ca8c44c158f",
+      "twenty_notes_match_independent_rational_recipe": true,
+      "nineteen_fingering_objects_present": true,
+      "fingering_owner_and_rich_contents_equal": true,
+      "rich_symbol_names": [
+        "fingeringSubstitutionAbove",
+        "fingeringMultipleNotes"
+      ],
+      "native_tuplet_ratio_and_time_equal": true,
+      "midi_full_bytes_equal_to_automatic": true,
+      "svg_removed_by_class": {},
+      "svg_added_by_class": {},
+      "one_page": true
+    },
+    {
+      "variant": "musicxml-imported",
+      "source_sha256": "69e659dce7d2261d1557787ca388fa5cd8cf6a9a90d43f1aa79a22ec4eb8f57d",
+      "twenty_notes_match_independent_rational_recipe": true,
+      "nineteen_fingering_objects_present": true,
+      "fingering_owner_and_rich_contents_equal": false,
+      "rich_symbol_names": [],
+      "native_tuplet_ratio_and_time_equal": true,
+      "midi_full_bytes_equal_to_automatic": false,
+      "svg_removed_by_class": {
+        "MeasureNumber": 1,
+        "BarLine": 14,
+        "StaffLines": 20,
+        "Stem": 15,
+        "Note": 20,
+        "Clef": 4,
+        "TimeSig": 4,
+        "Beam": 1,
+        "Fingering": 22,
+        "Tuplet": 1,
+        "NoteDot": 9,
+        "Bracket": 2
+      },
+      "svg_added_by_class": {
+        "MeasureNumber": 1,
+        "BarLine": 14,
+        "StaffLines": 20,
+        "Stem": 15,
+        "Note": 20,
+        "Clef": 4,
+        "TimeSig": 4,
+        "Beam": 1,
+        "Fingering": 19,
+        "Tuplet": 1,
+        "NoteDot": 9,
+        "Bracket": 2
+      },
+      "one_page": true
+    }
+  ],
+  "decision": {
+    "automatic": "Preserve default chord stacks and distinction from tuplet labels; not a complete publication template.",
+    "thumb-near-notes": "Rejected: manual x=-1.6,y=0.2 with autoplace off puts label/bracket at barline. Closeness alone is not an improvement.",
+    "stripped-symbols": "Rejected: 19 fingering objects and MIDI preserved, but 5->4 substitution and multiple-note finger role removed. Also causes small unrelated layout movement.",
+    "musicxml_roundtrip": "Rejected as replacement of native source: actual glyph names become visible literal strings after import; note count and written rhythm retention do not preserve notation."
+  },
+  "native_reload": {
+    "rich_symbol_children_and_owners_preserved": true,
+    "all_twenty_note_events_and_tuplet_equal": true,
+    "full_midi_bytes_equal": true,
+    "svg_excluding_title_and_png_pixels_equal": true
+  },
+  "musicxml_roundtrip": {
+    "export_version": "4.0",
+    "exported_bad_fingering_texts": [
+      "5fingeringSubstitutionAbove4",
+      "1fingeringMultipleNotes"
+    ],
+    "substitution_attribute_absent": true,
+    "imported_rich_symbol_children": 0,
+    "imported_fingering_object_count": 19,
+    "written_events_match_exact_recipe": true,
+    "all_note_on_events_track_time_pitch_velocity_equal": true,
+    "tempo_events_equal": true,
+    "note_off_events_different": true,
+    "complete_channel_events_equal": false,
+    "complete_midi_bytes_equal": false,
+    "source_channel_event_count": 52,
+    "imported_channel_event_count": 51,
+    "last_source_note_off": [
+      2,
+      5759,
+      144,
+      [
+        45,
+        0
+      ]
+    ],
+    "last_import_note_off": [
+      2,
+      5687,
+      144,
+      [
+        45,
+        0
+      ]
+    ],
+    "imported_instrument_default_gateTime": "95",
+    "caveat": "The import also introduces instrument/channel and layout defaults; these additional changes are not attributed to fingering-symbol conversion. No separate gateTime causal toggle trial."
+  },
+  "source_read_only": [
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\fingering.cpp",
+      "sha256": "27021269b428afc2d9238b7c92067d428594f601070064c8548514b81f7805d4"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\sym.cpp",
+      "sha256": "74c52b48b3ea66bbbb61929fd086dc161bc6d373d949db8c8580fb4a02dd60f1"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\importexport\\musicxml\\exportxml.cpp",
+      "sha256": "3b07d873489db6495f6767a9e40368c2f3ab2daa6448a35f5c80e95e3202e8be"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\importexport\\musicxml\\importmxmlpass2.cpp",
+      "sha256": "1f6b267a4ceb791ecfe400e3f9b8893b240cda567278bbb03efaed603e14960c"
+    }
+  ],
+  "source_locations": [
+    "fingering.cpp calculatePlacement and layout handle note/chord/voice/staff context",
+    "exportxml.cpp 3750-3780 writeFingering converts xmlText through MScoreTextToMXML::toPlainText",
+    "importmxmlpass2.cpp around1437 uses Fingering + setPlainText"
+  ],
+  "source_not_proven_binary_commit": true,
+  "published_original_files": [
+    {
+      "path": "docs\\engraving\\fixtures\\fingerings-automatic.mscx",
+      "sha256": "2763a2324dc09d63b6e1841ffef92503c5b0f1daca98e8fbbec3b0ff902c0b07",
+      "license": "CC0-1.0",
+      "processing": "XML line endings LF, parsed tree identical"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\fingerings-automatic.png",
+      "sha256": "cd931694aa1c4d7d1007528e5226d5a7ce43c2741f18098f4ed454abba05c063",
+      "license": "CC0-1.0",
+      "processing": "Native 180dpi white composite and common crop (65,90,1415,1100), no glyph edits or resize"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\fingerings-near-notes-rejected.mscx",
+      "sha256": "7510b071def7d759c6fa8a4006f01cc47b137cceb9eba96832afdc365645135c",
+      "license": "CC0-1.0",
+      "processing": "XML line endings LF, parsed tree identical"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\fingerings-near-notes-rejected.png",
+      "sha256": "e60dde340f4cfd21ee87a2e86ef8b3ebc4b6d8bbcff435a4e00ef5ec7cb79e3c",
+      "license": "CC0-1.0",
+      "processing": "Native 180dpi white composite and common crop (65,90,1415,1100), no glyph edits or resize"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\fingerings-stripped-rejected.mscx",
+      "sha256": "c69221b00eb6eac300fd490ed8e39c3887cadf0e3b1de8c87f2a249d3e99b1e8",
+      "license": "CC0-1.0",
+      "processing": "XML line endings LF, parsed tree identical"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\fingerings-stripped-rejected.png",
+      "sha256": "c3bb8e6ee71b2d8b0bc0746c17cd5ec6d05097288092e06211d3dfedae6a3cd2",
+      "license": "CC0-1.0",
+      "processing": "Native 180dpi white composite and common crop (65,90,1415,1100), no glyph edits or resize"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\fingerings-musicxml-roundtrip.mscx",
+      "sha256": "69e659dce7d2261d1557787ca388fa5cd8cf6a9a90d43f1aa79a22ec4eb8f57d",
+      "license": "CC0-1.0",
+      "processing": "XML line endings LF, parsed tree identical"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\fingerings-musicxml-roundtrip.png",
+      "sha256": "93908c6486b8dd7f9d770463e893c231d78ecc4a97345fc79cb6a96167edc34c",
+      "license": "CC0-1.0",
+      "processing": "Native 180dpi white composite and common crop (65,90,1415,1100), no glyph edits or resize"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\fingerings-export.musicxml",
+      "sha256": "e8b1d79f772ea65642151f92c022b25bf7868a96a8ae2aca4eee0326dc93036b",
+      "license": "CC0-1.0",
+      "processing": "Actual MusicXML 4.0 export of the original fixture; line endings LF only"
+    }
+  ],
+  "visual_review": [
+    "Full book p308/309",
+    "Full A063p3",
+    "Automatic full two-system preview",
+    "Thumb-near-note rejected full two-system preview",
+    "Stripped-symbol rejected full two-system preview",
+    "MusicXML-imported full page, both systems; initial short crop was insufficient and was replaced for publication by common larger crop"
+  ],
+  "private_scripts": {
+    "fixture.py": "3b0edaa12e416bd33132452a49a9abd421ae258812ce13d3cf1739a255972b64",
+    "candidates.py": "b8211cfc5ab3c24775bdf577853285a5c2f3b1b81a90b870faf69c3d28b4df5e",
+    "roundtrip.py": "e4e6df1dcc0a25eb68938b95bf0fdbee1abc6ddf980bab74df5888cd31c03c2c",
+    "audit.py": "829c62b2f698f0da1257c01e83bdecafa07f19584bf5c45480cc8aec8daa906f"
+  },
+  "not_performed": [
+    "Changing reference or user original score",
+    "GUI operation",
+    "Optimal ergonomic fingering or actual performance validation",
+    "Printed-page or listening trial",
+    "MuseScore/MCP/plugin implementation",
+    "Proving this behavior in latest installed host or all MusicXML applications",
+    "Native save/reload of the two rejected edits"
+  ],
+  "copyright_scope": "Original self-authored fixtures/export/native renders CC0; official and book images remain private ignored cache; standard pages linked and briefly paraphrased, not copied."
+}
