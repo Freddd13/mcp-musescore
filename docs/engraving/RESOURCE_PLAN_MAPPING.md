@@ -15,8 +15,8 @@
 | 条目与原始链接 | 10月18日取得（后续补核见下） | 待做或边界 |
 | --- | --- | --- |
 | 星出和宏[净书页](https://www.kazuhirohoshide.com/studio/engraving) | 已读页面正文，核实Finale + Illustrator、自制Pavane及6/7mm钢琴样本链接 | 后续正常取得两份PDF，已看全部8页；见[外部实践](EXTERNAL_PRACTICE.md)。未找到系统教程不等于没有 |
-| Kokecola [准备篇](https://note.com/kokecola/n/n5203d1df81ca) | 已读正文，作者明确是个人方法；涉及模板、纸幅与谱表尺寸 | 图片尚未成功显示；不照搬其具体尺寸为用户默认 |
-| Kokecola [输入篇](https://note.com/kokecola/n/n67b13d01c746) | 已读正文，分输入与净书、分对象处理 | 未看完截图；作者关闭部分自动避碰不能当本项目全局设置建议 |
+| Kokecola [准备篇](https://note.com/kokecola/n/n5203d1df81ca) | 已读正文；续看初版来源谱图；涉及模板、纸幅与谱表尺寸 | 其余设置截图未补齐；不照搬具体尺寸为用户默认 |
+| Kokecola [输入篇](https://note.com/kokecola/n/n67b13d01c746) | 已读正文；续看音符完成、全部元素完成两图 | 其余界面截图未看完；凌乱图包含关闭部分自动调整的状态，不能当本项目全局设置建议或默认引擎比较 |
 | Kokecola [净书篇](https://note.com/kokecola/n/n6df2c29e9942) | 已读正文；同日续学取得并实际看过梁、变音、休止、间距、综合调整、成品、默认对照7图 | 图例与原生实验见[间距取舍](SPACING_DECISIONS.md)。正文省略的详细规则仍须其它依据；准备/输入篇截图不因此算已读 |
 | Legatissimo- [主页](https://space.bilibili.com/372657607/) | 动态页读取失败；后续核实首条作品页面的署名与账号链接 | 核实主页及每条作品署名；成品不能证明做过哪些人工操作 |
 | [À la manière de…](https://www.bilibili.com/video/BV1mz421b77e/) | 已读公开页面说明，核实Legatissimo署名、IMSLP发布与演奏者信息 | 视频画面未看，IMSLP源谱未取得；不据此声称了解其调整过程 |
@@ -28,7 +28,7 @@
 | [Behind Bars官方目录](https://behindbarsnotation.co.uk/contents/)及用户本地书 | 已有实际图页阅读，见[教材笔记](BEHIND_BARS_NOTES.md) | 用户规划写704页，本地文件实际696页；以实际PDF/印刷映射定位，不用总页数猜章页 |
 | [MOLA](https://mola-inc.org/resources/11631) | 已核官网简体中文PDF链接及16页文件；正文PDF p3–8可读 | 已实际看PDF p3–12，其中图例1–7；乐团分谱尺寸不能直接当独奏钢琴下限 |
 | [MPA](https://www.mpa.org/permission-forms-informational-pdfs/) | 已核20页PDF，前言和少量正文可提取 | 多数规则在图页；截图工具未返回可见图片，不能称看过全部图页 |
-| [LilyPond 2.26 essay](https://lilypond.org/doc/v2.26/Documentation/essay/index.html) | 已读光学间距与候选评比文字，前批另有谱例研究 | 继续对照本地稳定脉冲复现，不能把候选评分当已获用户校准 |
+| [LilyPond 2.26 essay](https://lilypond.org/doc/v2.26/Documentation/essay/index.html) | 已读相关正文，续看光学间距/加线/光学尺寸六图并读两份间距源码 | 未在本机编译或做同输入双引擎对照；间距两图也非固定撑满预算比较，不能把候选评分当已获用户校准 |
 | [MuseScore 3中文排版手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting) | 已定向读换行、拉伸、重置与样式复用正文，另有本地源码证据 | 继续核Evolution差异；不能先全谱重置清掉人工判断 |
 | [YMD基础课](https://ymdmusic.jp/academy/seminar-engraving) | 已读官网介绍/纲要、公开谱例链接 | 没有获取付费授课内容，不将课程介绍列为已学会的技术 |
 | 藤井大河 [Dorico初始设置](https://note.com/fujii_taiga_m/n/nca8f66de9948) | 已读2024-12-04文章正文，涉及重音、跨系统弧、间距比例、小节号 | 截图未看；具体默认/功能需官方版本文档核查。作者喜好不等于规范 |
@@ -49,6 +49,6 @@
 
 ## 先学什么、怎样避免收集代替理解
 
-Kokecola净书篇的7张关键图已补看，后续把其可见调整与规范条件、官谱和独立原生样例比较；准备/输入篇截图仍待补。上面的请求失败记录保留为此前访问状态，不代表续学后仍全部缺图。不得从综合调整图把所有收益归给单一参数。
+Kokecola净书篇的7张关键图已补看，准备/输入篇又补初版来源、音符完成及全部元素完成三图；其余界面截图仍待补。上面的请求失败记录保留为此前访问状态，不代表续学后仍全部缺图。不得从综合调整图把所有收益归给单一参数。LilyPond新取得图与配套源码的实际判断见[外部实践](EXTERNAL_PRACTICE.md)及[补读证据](practice_followup_evidence.json)。
 
 随后将MOLA、MPA与Gould逐项区分适用范围；再读可追溯的B站实践。每次形成“情境—读者要看什么—怎么排—为什么—替代代价—例外”，配原生副本候选后才交用户评价。无需先购买课程、安装新软件或让用户审一整套规则。

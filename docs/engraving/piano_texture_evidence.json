@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-19",
+  "scope": "Conditional piano notation study and one original native counterexample; goal remains active.",
+  "sources": {
+    "book": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256_before": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "printed_pages_fully_read_and_visually_viewed": [
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338
+      ],
+      "mapping": "PDF page = printed page + 20 in this local edition.",
+      "note": "Includes re-reading previously studied portions; not a claim to 26 newly encountered pages or full-book mastery."
+    },
+    "references": [
+      {
+        "id": "A056",
+        "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Here - Mahoutsukai no Yome - Opening Theme.pdf",
+        "sha256_before": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+        "pages_revisited": [
+          8
+        ],
+        "sha256_after": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+        "unchanged": true
+      },
+      {
+        "id": "A063",
+        "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Imagination - Haikyu!! - Opening Theme.pdf",
+        "sha256_before": "fea4dc1410d349e5b5d7d9b4f73757f3a284adc5c6010a4805bbbae05c0f771b",
+        "pages_revisited": [
+          3
+        ],
+        "sha256_after": "fea4dc1410d349e5b5d7d9b4f73757f3a284adc5c6010a4805bbbae05c0f771b",
+        "unchanged": true
+      }
+    ],
+    "user_pdf": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256_before": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "sha256_after": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "pages_revisited": [
+        8
+      ]
+    }
+  },
+  "native": {
+    "source_musicxml_roundtrip_equal": true,
+    "only_native_difference": "Two visible=0 flags on upper-staff voice 2 rests, m1 quarter rest and m3 half rest.",
+    "svg_counts": {
+      "shown": {
+        "null": 3,
+        "Text": 2,
+        "InstrumentName": 1,
+        "BarLine": 10,
+        "StaffLines": 10,
+        "Stem": 22,
+        "Note": 26,
+        "Clef": 2,
+        "TimeSig": 4,
+        "Rest": 3,
+        "NoteDot": 1,
+        "Page": 1,
+        "Bracket": 1
+      },
+      "hidden": {
+        "null": 3,
+        "Text": 2,
+        "InstrumentName": 1,
+        "BarLine": 10,
+        "StaffLines": 10,
+        "Stem": 22,
+        "Note": 26,
+        "Clef": 2,
+        "TimeSig": 4,
+        "Rest": 1,
+        "NoteDot": 1,
+        "Page": 1,
+        "Bracket": 1
+      }
+    },
+    "host_path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\msvc.install_repair_current_x64\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "fec7e2cef61ed4b4d6b639b8cc42630bbb97153670e6c24433c455a6ed23cd77",
+    "written_notes": 26,
+    "logical_rests": 3,
+    "events": 29,
+    "interpretation": "Hidden variant is a deliberately unsuitable editorial example for two continuing independent parts, not a proposed improvement.",
+    "verification_scope": "Exact MusicXML written pitch, onset, duration, staff and voice match for this fixture. Native XML differs only in two rest visibility flags. No audio-file comparison or general counterpoint validator.",
+    "cropping": "Both native PNGs composited onto white then cropped to the same rectangle; all musical ink retained, no symbol moved."
+  },
+  "self_authored_assets": [
+    {
+      "path": "docs/engraving/fixtures/voices-rests-source.musicxml",
+      "sha256": "cfb31d61767031695726c448ca33803290bcbf8c36fb923fa96984fbf6db7dc6",
+      "bytes": 8507
+    },
+    {
+      "path": "docs/engraving/fixtures/voices-rests-shown.mscx",
+      "sha256": "3002c41abdab22d38114b2afc4fe97dd5a154aacf545da75fa4774d1d1b9d42f",
+      "bytes": 11496
+    },
+    {
+      "path": "docs/engraving/fixtures/voices-rests-hidden.mscx",
+      "sha256": "41732c47c75958850d4f0158eda1002d55b0302fb2833e7597368f35281ab0c8",
+      "bytes": 11536
+    },
+    {
+      "path": "docs/engraving/fixtures/voices-rests-shown.png",
+      "sha256": "da8d7d148468cf3e0539aaa143c177ded8f84395d2539a9bad504e4351571302",
+      "bytes": 22279
+    },
+    {
+      "path": "docs/engraving/fixtures/voices-rests-hidden.png",
+      "sha256": "2392598b3cf6fd20ac394a09c9e52a2b54f6304b3c014b608e395e5fd24f61a3",
+      "bytes": 21708
+    }
+  ],
+  "private_directory": "tmp/engraving/piano-2026-10-19",
+  "user_mscz_or_current_gui_opened": false,
+  "software_plugin_or_mcp_changed": false,
+  "source_protection_and_roundtrip_checks_prove_mastery": false
+}

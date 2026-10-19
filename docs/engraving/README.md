@@ -12,12 +12,13 @@
 
 ## 阅读入口
 
+- [PIANO_TEXTURE_STUDY.md](PIANO_TEXTURE_STUDY.md)：手／声部／谱表的区别、可省与不可省的休止、用户四谱表的阅读理由、指法与踏板的条件反例；含“数据不变但视觉提示变差”的原创原生对照。
 - [CURVES_STUDY.md](CURVES_STUDY.md)：tie与slur的读法、端点与层次、允许交叉和跨行续接；含官谱／用户PDF分析及自制原生谱的连接保护验证。
 - [JUDGMENT_GUIDE.md](JUDGMENT_GUIDE.md)：八类音乐情境的正面判断、间距的五种原因、怎样应用到用户工程及开发先后。
 - [COMPLETION_REVIEW.md](COMPLETION_REVIEW.md)：本轮完成范围、来源访问限制、原件保护和后续任务边界。
 
 - [CROSS_STAFF_STUDY.md](CROSS_STAFF_STUDY.md)：副梁、休止、括号、slur与八度范围为何需要联合判断，含教材条件与官谱定位。
-- [EXTERNAL_PRACTICE.md](EXTERNAL_PRACTICE.md)：星出和宏6/7mm同曲对照、MOLA适用范围和Dorico 6.2控制层次；区分观察与推论。
+- [EXTERNAL_PRACTICE.md](EXTERNAL_PRACTICE.md)：星出和宏6/7mm同曲对照、MOLA适用范围、Dorico控制层次，以及LilyPond光学间距/加线/尺寸的实际图与源码核查；区分观察、实现机制和未做的对照。
 - [PREFERENCES.md](PREFERENCES.md)：明确偏好、未确认取舍、怎样让用户验收少量候选，以及跨任务怎样读取/应用知识。
 - [BEAM_STEM_STUDY.md](BEAM_STEM_STUDY.md)：梁坡、干长、梁与谱线/加线的黑白关系；结合新官谱与Gould p17–26解释出版观感，并区分现可调项和待验证开发方案。
 - [SPACING_STUDY.md](SPACING_STUDY.md)：横向间距的规范、更多谱例、用户m50–52测量、原生25%变幅复现与开发假说；[spacing_evidence.json](spacing_evidence.json)保存证据，[fixtures](fixtures/README.md)保存自制谱与复现方法。
