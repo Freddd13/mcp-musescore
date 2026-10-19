@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-20",
+  "scope": "Correct A109 flag diagnosis, compare original quarter/eighth triplets against tied subdivision in native MuseScore. Same-agent judgment, no new user preference.",
+  "references": [
+    {
+      "id": "A109",
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Secret Base - Anohana The Flower We Saw That Day - Ending Theme.pdf",
+      "registered_and_current_source_sha256": "5dba052a64488780524f50528c505c000967541cfa5905ba98100287a9fcc26d",
+      "complete_pages_revisited": [
+        1,
+        2,
+        3
+      ],
+      "cached_images": [
+        {
+          "page": 1,
+          "sha256": "09d880f91d2520054d425391f68aeb5f040614e35952b067ca78b2807ca8604a"
+        },
+        {
+          "page": 2,
+          "sha256": "d38dec21a5127a7ae3996e7c81d6bd81f8d3cf92a672dce8fdd46d726a3f84e5"
+        },
+        {
+          "page": 3,
+          "sha256": "5819ba224393922f1a2dda7143dfe86c1b3711fda844c3467af7ec8e6d556834"
+        }
+      ],
+      "new_historical_corpus_page_count_claimed": false
+    },
+    {
+      "id": "A074",
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kigeki - SPY×FAMILY - Ending Theme.pdf",
+      "registered_and_current_source_sha256": "1fa9a0532c3d63043e2e771b46de2199ba724cea30a09c4e6bb9d8831cc4986e",
+      "complete_pages_revisited": [
+        1,
+        2
+      ],
+      "cached_images": [
+        {
+          "page": 1,
+          "sha256": "a5cf573ec76de408af2704f0f7110c3414014286d13512abe9f7f26da4b2050f"
+        },
+        {
+          "page": 2,
+          "sha256": "29e0465744e95aaae46c5de1bd90fd8b6ddf2fed4de63574a11b43ac0e92e7ba"
+        }
+      ],
+      "new_historical_corpus_page_count_claimed": false
+    }
+  ],
+  "book": {
+    "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "registered_and_current_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "printed_pages_fully_revisited": [
+      210,
+      215
+    ],
+    "pdf_page_offset": 20,
+    "new_book_page_count_claimed": false
+  },
+  "preparation": {
+    "license": "CC0-1.0",
+    "scope": "Original two-bar long-short triplet mechanism study, not a transcription of Secret Base.",
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "fonts_explicit": [
+      "Leland",
+      "Leland Text"
+    ],
+    "spatium_mm": 1.57,
+    "fixed_width_control": "lastSystemFillLimit=0 with same A4 printable width; verify actual rendered staff/system span.",
+    "variants": [
+      "long-short",
+      "split-beam"
+    ],
+    "intended": "Both contain 8 genuine 3:2 eighth-based groups. m1 shows numeral, m2 hides numeral and bracket plus sim.; split-beam divides each long quarter into two tied eighths, preserving attacks but adding subdivision."
+  },
+  "results": [
+    {
+      "variant": "long-short",
+      "written_note_count": 24,
+      "tie_starts": 0,
+      "genuine_tuplets": 8,
+      "native_and_musicxml_written_events_equal": true,
+      "coalesced_24_attacks_match_independent_recipe": true,
+      "each_staff_bar_quarters": "4",
+      "midi_note_on_count": 24,
+      "midi_sha256": "0e99d62faffc4f39f9ba29be4928a32cdf31c0dddebfbac4b7afdfd567405f87",
+      "complete_midi_bytes_equal": true,
+      "svg_classes": {
+        "BarLine": 8,
+        "StaffLines": 10,
+        "Stem": 24,
+        "Hook": 8,
+        "Note": 24,
+        "Clef": 2,
+        "TimeSig": 4,
+        "Tuplet": 12,
+        "StaffText": 1,
+        "Bracket": 1
+      },
+      "native_sha256": "0df2ef3de193ae920e992c1d7da8f315b9ba0a76e86271080f54ad516725c110",
+      "png_sha256": "4acc1700b79d497ca8c5acfd0130b529bc3dcba1036c158d633e1690b95003bf",
+      "staff_line_points": [
+        "354.885,368.362 2763.98,368.362",
+        "354.885,390.614 2763.98,390.614",
+        "354.885,412.866 2763.98,412.866",
+        "354.885,435.118 2763.98,435.118",
+        "354.885,457.37 2763.98,457.37",
+        "354.885,602.008 2763.98,602.008",
+        "354.885,624.26 2763.98,624.26",
+        "354.885,646.512 2763.98,646.512",
+        "354.885,668.764 2763.98,668.764",
+        "354.885,691.016 2763.98,691.016"
+      ],
+      "all_staff_geometry_equal_to_source": true
+    },
+    {
+      "variant": "split-beam",
+      "written_note_count": 32,
+      "tie_starts": 8,
+      "genuine_tuplets": 8,
+      "native_and_musicxml_written_events_equal": true,
+      "coalesced_24_attacks_match_independent_recipe": true,
+      "each_staff_bar_quarters": "4",
+      "midi_note_on_count": 24,
+      "midi_sha256": "0e99d62faffc4f39f9ba29be4928a32cdf31c0dddebfbac4b7afdfd567405f87",
+      "complete_midi_bytes_equal": true,
+      "svg_classes": {
+        "BarLine": 8,
+        "StaffLines": 10,
+        "TieSegment": 8,
+        "Stem": 32,
+        "Note": 32,
+        "Clef": 2,
+        "TimeSig": 4,
+        "Beam": 8,
+        "Tuplet": 4,
+        "StaffText": 1,
+        "Bracket": 1
+      },
+      "native_sha256": "cd32fd7334b7ea492314f645dc3a5cc70754784f06cb14acf22b763a3d5d5dc3",
+      "png_sha256": "692e1ec853ceaf76d097108207547d604d5c92e00dd5c4b1aa22c56f0d210c4d",
+      "staff_line_points": [
+        "354.885,368.362 2763.98,368.362",
+        "354.885,390.614 2763.98,390.614",
+        "354.885,412.866 2763.98,412.866",
+        "354.885,435.118 2763.98,435.118",
+        "354.885,457.37 2763.98,457.37",
+        "354.885,602.008 2763.98,602.008",
+        "354.885,624.26 2763.98,624.26",
+        "354.885,646.512 2763.98,646.512",
+        "354.885,668.764 2763.98,668.764",
+        "354.885,691.016 2763.98,691.016"
+      ],
+      "all_staff_geometry_equal_to_source": true
+    },
+    {
+      "variant": "long-short-resaved",
+      "written_note_count": 24,
+      "tie_starts": 0,
+      "genuine_tuplets": 8,
+      "native_and_musicxml_written_events_equal": true,
+      "coalesced_24_attacks_match_independent_recipe": true,
+      "each_staff_bar_quarters": "4",
+      "midi_note_on_count": 24,
+      "midi_sha256": "0e99d62faffc4f39f9ba29be4928a32cdf31c0dddebfbac4b7afdfd567405f87",
+      "complete_midi_bytes_equal": true,
+      "svg_classes": {
+        "BarLine": 8,
+        "StaffLines": 10,
+        "Stem": 24,
+        "Hook": 8,
+        "Note": 24,
+        "Clef": 2,
+        "TimeSig": 4,
+        "Tuplet": 12,
+        "StaffText": 1,
+        "Bracket": 1
+      },
+      "native_sha256": "a7a7420faeff20e9955965065cc3c7e22a157fc41f2be42bd372de5234629db4",
+      "png_sha256": "4acc1700b79d497ca8c5acfd0130b529bc3dcba1036c158d633e1690b95003bf",
+      "staff_line_points": [
+        "354.885,368.362 2763.98,368.362",
+        "354.885,390.614 2763.98,390.614",
+        "354.885,412.866 2763.98,412.866",
+        "354.885,435.118 2763.98,435.118",
+        "354.885,457.37 2763.98,457.37",
+        "354.885,602.008 2763.98,602.008",
+        "354.885,624.26 2763.98,624.26",
+        "354.885,646.512 2763.98,646.512",
+        "354.885,668.764 2763.98,668.764",
+        "354.885,691.016 2763.98,691.016"
+      ],
+      "all_staff_geometry_equal_to_source": true
+    }
+  ],
+  "strict_source_transform": {
+    "only_input_changes": "Each upper quarter becomes two tied eighths and BeamMode=begin on the first; every other XML node equal after exact inverse.",
+    "inverse_full_tree_equal": true
+  },
+  "native_save_reload": {
+    "variant": "long-short",
+    "tuplets_display_modes_and_simile_preserved": true,
+    "written_events_and_attacks_preserved": true,
+    "svg_identical_except_filename_title": true,
+    "png_pixels_identical": true,
+    "complete_musicxml_bytes_identical": true,
+    "complete_midi_bytes_identical": true
+  },
+  "judgment": {
+    "prefer_for_this_established_repetitive_pattern": "long-short, retains eight fewer heads and ties; split alternative useful to expose the subdivision but is a notation rewrite.",
+    "scope_of_simile_in_official_full_score": "Not established for every later group; local arithmetic and opening context support only the documented readings.",
+    "A074_contrast": "Two written sixteenths mapped to triplet eighth+sixteenth; performance relation is distinct from this fixture genuine tuplets.",
+    "not_a_host_beaming_defect": true,
+    "no_reading_speed_printing_or_user_aesthetic_acceptance_claimed": true
+  },
+  "public_original_CC0_files": [
+    {
+      "path": "docs/engraving/fixtures/long-short-triplets.mscx",
+      "sha256": "0df2ef3de193ae920e992c1d7da8f315b9ba0a76e86271080f54ad516725c110"
+    },
+    {
+      "path": "docs/engraving/fixtures/long-short-triplets.png",
+      "sha256": "0cf45ae47b1e5bd302281cea44edbe9e4ca08c66f0a865fd4358f1c90a0567ae"
+    },
+    {
+      "path": "docs/engraving/fixtures/long-short-split-beams.mscx",
+      "sha256": "cd32fd7334b7ea492314f645dc3a5cc70754784f06cb14acf22b763a3d5d5dc3"
+    },
+    {
+      "path": "docs/engraving/fixtures/long-short-split-beams.png",
+      "sha256": "f6e7361d71fb860f895605dadd69683132ef6527222d5c0933777e8c0e9410cd"
+    }
+  ],
+  "private_audit_script": "tmp/engraving/flag-reading-2026-10-20/audit.py",
+  "private_audit_sha256": "920ba7e71267499d1f9ed10f93aace5ea74d2bf5f24e1e31b2f981fc2e024b0f",
+  "no_software_or_reference_file_edits": true
+}

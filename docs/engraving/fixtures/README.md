@@ -1,5 +1,14 @@
 # 独立净书复现谱例
 
+## 长短三连音：保留长音，还是拆开换完整连梁
+
+2026-10-20新增原创两小节4/4双谱表，CC0，无官谱／用户音乐转写。固定Leland／Leland Text、spatium 1.57mm、A4和同一满行宽度预算（lastSystemFillLimit=0仅作控制）。上部每拍一个真实3:2八分单位组，下部普通四分作参照；m1示范数字3，m2真实组不变但隐藏数字／括号并写sim.。
+
+- [保留长短](long-short-triplets.mscx)／[图](long-short-triplets.png)：四分＋八分，本例对已建立重复型倾向保留。
+- [拆长音共梁](long-short-split-beams.mscx)／[图](long-short-split-beams.png)：每个四分拆为两个tie八分再与短音共梁，多8个头／8条tie；用于说明细分的备选，不是纯梁几何或通用改善。
+
+两版书写音符24／32，按tie合并均24个实际起音；真实组8个、每小节4拍、完整MIDI一致。全部StaffLines及页面尺寸相同，其它时间列／干向会重新布局；保留版单独做过原生重载，SVG／PNG／MIDI及MusicXML保持。图只将180dpi原生PNG合白底、同框裁去页边，保留整行两手，未缩放／移动符号。详见[节拍阅读](../RHYTHM_READING.md)与[证据](../flag_reading_evidence.json)，导出方式同本页下文，使用独立路径／配置。未作用户审美／打印／试奏验收；教材、官谱不在本CC0许可中。
+
 ## 指法归属、替指与同指多音
 
 2026-10-20新增原创四小节3/4双谱表，CC0，无参考旋律摘录；固定Leland／Leland Text、spatium 1.57mm，指法沿用宿主文本样式。20音、19个Note下Fingering、一个3:2组：m1和弦纵排，m2持音5→4替指，m3连音数与指法，m4同一拇指取E4／F4。仅作记谱／净书练习，不承诺最佳生理手型。
