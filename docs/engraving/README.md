@@ -8,6 +8,8 @@
 
 随后[弧线专题](CURVES_STUDY.md)增加实曲m113–114线宽候选：保留长弧和文字，单独减轻密集和弦Tie黑度。音乐、音符／梁／Slur及8页结构保持，第8页两个标记有极小位置连动；它说明应先查有效样式与层次，不必先换字体或搬文字。数值仍未获用户／打印认可。
 
+本轮新增[节拍阅读](RHYTHM_READING.md)，实际看过Gould p153–173全部21页图文，补内梁、休止、切分与速度关系；放大复核纠正A128 m29起音数。[梁干专题](BEAM_STEM_STUDY.md)新增原生自动／全局平梁对照和第四层断点导入丢失的具体复现。前者保护已有合理自动处理，后者记录软件限制供以后适配；本次不开发接口／本体。
+
 持续任务：[全目录学习与资源整理](CONTINUOUS_STUDY.md)。已清点并渲染全部146份PDF、1,135页；本轮已审视全部146份谱1,135页，近读379页，见[逐谱一](corpus/READING_001.md)、[逐谱二](corpus/READING_002.md)、[逐谱三](corpus/READING_003.md)、[逐谱四](corpus/READING_004.md)、[逐谱五](corpus/READING_005.md)、[逐谱六](corpus/READING_006.md)、[逐谱七](corpus/READING_007.md)、[逐谱八](corpus/READING_008.md)、[逐谱九](corpus/READING_009.md)、[逐谱十](corpus/READING_010.md)、[逐谱十一](corpus/READING_011.md)、[逐谱十二](corpus/READING_012.md)、[逐谱十三](corpus/READING_013.md)、[逐谱十四](corpus/READING_014.md)、[逐谱十五](corpus/READING_015.md)、[逐谱十六](corpus/READING_016.md)、[逐谱十七](corpus/READING_017.md)、[逐谱十八](corpus/READING_018.md)、[逐谱十九](corpus/READING_019.md)、[逐谱二十](corpus/READING_020.md)、[逐谱二十一](corpus/READING_021.md)、[逐谱二十二](corpus/READING_022.md)、[逐谱二十三](corpus/READING_023.md)、[逐谱二十四](corpus/READING_024.md)、[逐谱二十五](corpus/READING_025.md)、[154页串烧的13章](corpus/READING_MEDLEY_200.md)及[覆盖记录](corpus/reviews.json)。新增[附点、变音与连音的判断](NOTATION_DETAILS.md)、[资源核实目录](RESOURCE_RESEARCH.md)与[规划落实](RESOURCE_PLAN_MAPPING.md)。本轮全目录阅读完成；全页审视与近读分别记录，不等于逐音校对。综合判断和后续应用见[JUDGMENT_GUIDE](JUDGMENT_GUIDE.md)，范围与限制见[完成核查](COMPLETION_REVIEW.md)。缓存已迁E盘，位置见[CACHE_LOCATIONS](CACHE_LOCATIONS.md)。
 
 当前优先阅读：[具体情境的净书判断](JUDGMENT_GUIDE.md)、[个人偏好与应用方法](PREFERENCES.md)、[横向间距专题](SPACING_STUDY.md)。用户进一步明确：需要持续学习并形成具体的审美判断、建议与后续自动净书能力，不以规则数量/技术检查替代。横向专题最初增加5份官谱、8个定位观察和一个自制原生复现，后续候选见上；HS编号与以下35个正式E案例分开记录。
@@ -16,6 +18,7 @@
 
 ## 阅读入口
 
+- [RHYTHM_READING.md](RHYTHM_READING.md)：主／内梁、短副梁、普通与整小节休止、跨拍持续、切分例外及换拍关系；解释为什么有时保留、有时才建议改记法。
 - [USER_SPACING_APPLICATION.md](USER_SPACING_APPLICATION.md)：《如果有来生》m49–52实际副本的两类调整、失败尝试、共同时间轴与整页连带效果；技术成功与阅读收益分开。
 - [SPACING_CANDIDATES.md](SPACING_CANDIDATES.md)：同版心原生间距候选、含变音的拒绝案例及密集谱2+2分行备选；解释收益、空间代价和控制范围。
 - [PIANO_TEXTURE_STUDY.md](PIANO_TEXTURE_STUDY.md)：手／声部／谱表的区别、可省与不可省的休止、用户四谱表的阅读理由、指法与踏板的条件反例；含“数据不变但视觉提示变差”的原创原生对照。

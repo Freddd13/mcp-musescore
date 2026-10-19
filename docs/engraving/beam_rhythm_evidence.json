@@ -1,0 +1,607 @@
+{
+  "date": "2026-10-19",
+  "scope": "Original eight-measure 2/4 fixture, upper stems explicitly UP. No cross-staff, tuplets, manual beam handles or accidental packing test. MusicXML import and native slope comparison are separate checks.",
+  "source_protection": "User/reference PDFs and MSCZ not used as writable input; original fixture only.",
+  "host": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\msvc.install_repair_current_x64\\bin\\MuseScore3Evo.exe",
+  "host_sha256": "fec7e2cef61ed4b4d6b639b8cc42630bbb97153670e6c24433c455a6ed23cd77",
+  "native_input_pair_only_difference": "Style/beamNoSlope 0 versus 1; entire other parsed XML identical.",
+  "music_event_check": {
+    "events": 86,
+    "native_pair_events_exact_equal": true,
+    "source_import_flat_equal_after_only_recorded_resolution": true,
+    "recorded_import_resolution": "Only lower staff MusicXML voice label 2 -> 5 and unspecified stem -> up; exact values asserted. No general voice remapping or stem omission.",
+    "fields": [
+      "part",
+      "measure",
+      "staff",
+      "voice",
+      "onset",
+      "duration",
+      "pitch spelling",
+      "type",
+      "dots",
+      "stem"
+    ]
+  },
+  "native_pair_musicxml_equal_after_layout_exclusions": true,
+  "native_pair_all_beam_tags_equal": true,
+  "source_musicxml_import_notation_preserved": false,
+  "source_import_fourth_beam_differences": [
+    {
+      "measure": 7,
+      "upper_attack_index": 2,
+      "expected": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "end"
+      },
+      "native": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "continue"
+      }
+    },
+    {
+      "measure": 7,
+      "upper_attack_index": 3,
+      "expected": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "begin"
+      },
+      "native": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "continue"
+      }
+    },
+    {
+      "measure": 7,
+      "upper_attack_index": 6,
+      "expected": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "end"
+      },
+      "native": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "continue"
+      }
+    },
+    {
+      "measure": 7,
+      "upper_attack_index": 7,
+      "expected": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "begin"
+      },
+      "native": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "continue"
+      }
+    },
+    {
+      "measure": 8,
+      "upper_attack_index": 2,
+      "expected": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "end"
+      },
+      "native": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "continue"
+      }
+    },
+    {
+      "measure": 8,
+      "upper_attack_index": 3,
+      "expected": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "begin"
+      },
+      "native": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "continue"
+      }
+    },
+    {
+      "measure": 8,
+      "upper_attack_index": 6,
+      "expected": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "end"
+      },
+      "native": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "continue"
+      }
+    },
+    {
+      "measure": 8,
+      "upper_attack_index": 7,
+      "expected": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "begin"
+      },
+      "native": {
+        "1": "continue",
+        "2": "continue",
+        "3": "continue",
+        "4": "continue"
+      }
+    }
+  ],
+  "beam_level_begin_counts": {
+    "source_expected_segments": 44,
+    "native_exported_segments": 40,
+    "native_svg_beam_paths": 40
+  },
+  "geometry_classes_equal": {
+    "Note": true,
+    "Rest": true,
+    "BarLine": true,
+    "StaffLines": true
+  },
+  "auto_groups": [
+    {
+      "measure": 1,
+      "group": 1,
+      "outer_beam_rise_sp": -1.26618,
+      "outer_beam_vertical_thickness_sp": 0.50535,
+      "outer_beam_perpendicular_thickness_sp": 0.49999,
+      "outer_beam_horizontal_width_pt": 37.8832,
+      "max_drawn_stem_extent_sp": 3.58997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 3.75
+    },
+    {
+      "measure": 1,
+      "group": 2,
+      "outer_beam_rise_sp": 1.26613,
+      "outer_beam_vertical_thickness_sp": 0.50535,
+      "outer_beam_perpendicular_thickness_sp": 0.49999,
+      "outer_beam_horizontal_width_pt": 37.8828,
+      "max_drawn_stem_extent_sp": 3.58997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 3.75
+    },
+    {
+      "measure": 2,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 37.82,
+      "max_drawn_stem_extent_sp": 4.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 5.0
+    },
+    {
+      "measure": 2,
+      "group": 2,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 37.82,
+      "max_drawn_stem_extent_sp": 4.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 5.0
+    },
+    {
+      "measure": 3,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 38.404,
+      "max_drawn_stem_extent_sp": 4.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 5.0
+    },
+    {
+      "measure": 3,
+      "group": 2,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 38.406,
+      "max_drawn_stem_extent_sp": 3.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 4.0
+    },
+    {
+      "measure": 4,
+      "group": 1,
+      "outer_beam_rise_sp": -1.26514,
+      "outer_beam_vertical_thickness_sp": 0.50476,
+      "outer_beam_perpendicular_thickness_sp": 0.50004,
+      "outer_beam_horizontal_width_pt": 40.39,
+      "max_drawn_stem_extent_sp": 4.58997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 4.08332
+    },
+    {
+      "measure": 4,
+      "group": 2,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 40.392,
+      "max_drawn_stem_extent_sp": 7.58997,
+      "min_stem_extent_from_closest_head_sp": 3.25,
+      "max_stem_extent_from_closest_head_sp": 6.25
+    },
+    {
+      "measure": 5,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.50018,
+      "outer_beam_perpendicular_thickness_sp": 0.50018,
+      "outer_beam_horizontal_width_pt": 67.4664,
+      "max_drawn_stem_extent_sp": 5.58961,
+      "min_stem_extent_from_closest_head_sp": 3.7496,
+      "max_stem_extent_from_closest_head_sp": 5.7496
+    },
+    {
+      "measure": 6,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.50018,
+      "outer_beam_perpendicular_thickness_sp": 0.50018,
+      "outer_beam_horizontal_width_pt": 67.4656,
+      "max_drawn_stem_extent_sp": 5.58961,
+      "min_stem_extent_from_closest_head_sp": 3.7496,
+      "max_stem_extent_from_closest_head_sp": 5.7496
+    },
+    {
+      "measure": 7,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.50018,
+      "outer_beam_perpendicular_thickness_sp": 0.50018,
+      "outer_beam_horizontal_width_pt": 68.526,
+      "max_drawn_stem_extent_sp": 4.5897,
+      "min_stem_extent_from_closest_head_sp": 4.74969,
+      "max_stem_extent_from_closest_head_sp": 4.74969
+    },
+    {
+      "measure": 8,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.50018,
+      "outer_beam_perpendicular_thickness_sp": 0.50018,
+      "outer_beam_horizontal_width_pt": 55.75,
+      "max_drawn_stem_extent_sp": 6.58997,
+      "min_stem_extent_from_closest_head_sp": 4.74996,
+      "max_stem_extent_from_closest_head_sp": 6.74996
+    }
+  ],
+  "flat_groups": [
+    {
+      "measure": 1,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 37.8832,
+      "max_drawn_stem_extent_sp": 4.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 5.0
+    },
+    {
+      "measure": 1,
+      "group": 2,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 37.8828,
+      "max_drawn_stem_extent_sp": 4.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 5.0
+    },
+    {
+      "measure": 2,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 37.82,
+      "max_drawn_stem_extent_sp": 4.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 5.0
+    },
+    {
+      "measure": 2,
+      "group": 2,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 37.82,
+      "max_drawn_stem_extent_sp": 4.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 5.0
+    },
+    {
+      "measure": 3,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 38.404,
+      "max_drawn_stem_extent_sp": 4.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 5.0
+    },
+    {
+      "measure": 3,
+      "group": 2,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 38.406,
+      "max_drawn_stem_extent_sp": 3.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 4.0
+    },
+    {
+      "measure": 4,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 40.39,
+      "max_drawn_stem_extent_sp": 5.83997,
+      "min_stem_extent_from_closest_head_sp": 3.0,
+      "max_stem_extent_from_closest_head_sp": 5.0
+    },
+    {
+      "measure": 4,
+      "group": 2,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.5,
+      "outer_beam_perpendicular_thickness_sp": 0.5,
+      "outer_beam_horizontal_width_pt": 40.392,
+      "max_drawn_stem_extent_sp": 7.58997,
+      "min_stem_extent_from_closest_head_sp": 3.25,
+      "max_stem_extent_from_closest_head_sp": 6.25
+    },
+    {
+      "measure": 5,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.50018,
+      "outer_beam_perpendicular_thickness_sp": 0.50018,
+      "outer_beam_horizontal_width_pt": 67.4664,
+      "max_drawn_stem_extent_sp": 5.58961,
+      "min_stem_extent_from_closest_head_sp": 3.7496,
+      "max_stem_extent_from_closest_head_sp": 5.7496
+    },
+    {
+      "measure": 6,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.50018,
+      "outer_beam_perpendicular_thickness_sp": 0.50018,
+      "outer_beam_horizontal_width_pt": 67.4656,
+      "max_drawn_stem_extent_sp": 5.58961,
+      "min_stem_extent_from_closest_head_sp": 3.7496,
+      "max_stem_extent_from_closest_head_sp": 5.7496
+    },
+    {
+      "measure": 7,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.50018,
+      "outer_beam_perpendicular_thickness_sp": 0.50018,
+      "outer_beam_horizontal_width_pt": 68.526,
+      "max_drawn_stem_extent_sp": 4.5897,
+      "min_stem_extent_from_closest_head_sp": 4.74969,
+      "max_stem_extent_from_closest_head_sp": 4.74969
+    },
+    {
+      "measure": 8,
+      "group": 1,
+      "outer_beam_rise_sp": 0.0,
+      "outer_beam_vertical_thickness_sp": 0.50018,
+      "outer_beam_perpendicular_thickness_sp": 0.50018,
+      "outer_beam_horizontal_width_pt": 55.75,
+      "max_drawn_stem_extent_sp": 6.58997,
+      "min_stem_extent_from_closest_head_sp": 4.74996,
+      "max_stem_extent_from_closest_head_sp": 6.74996
+    }
+  ],
+  "beam_thickness_precision": "Rounded SVG coordinates; normal thickness checked within 0.001sp of 0.5sp, not exact float equality. At large Y the export has 0.01 SVG-unit quantisation.",
+  "render": {
+    "pages": 1,
+    "systems": 2,
+    "crop_pixels": [
+      60,
+      240,
+      1435,
+      820
+    ],
+    "dpi": 180,
+    "white_background_only_no_symbol_movement": true
+  },
+  "not_verified": [
+    "Native save/reload stability",
+    "Print/performance/user preference",
+    "General beam algorithm correctness",
+    "Plugin/MCP access",
+    "Binary-source commit identity"
+  ],
+  "visual_review": [
+    "Both full native pages and both complete music crops viewed.",
+    "A128 page 1 full page and m29-35 context crop viewed.",
+    "A015 page 1 full page viewed."
+  ],
+  "license": "CC0 for these original fixture sources and native music images only, not book/reference scores.",
+  "book": {
+    "read_only_source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256_before": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "printed_pages_text_and_images_reviewed": [
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173
+    ],
+    "pdf_pages_text_and_images_reviewed": [
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193
+    ],
+    "previous_geometry_pages_rereviewed": [
+      17,
+      19,
+      22,
+      24
+    ],
+    "printed_pages_rendered_but_not_fully_read_or_viewed": [
+      174,
+      175,
+      176,
+      177,
+      178
+    ],
+    "page_mapping": "For this checked source: PDF page = printed page + 20.",
+    "copyright_book_text_and_images_not_committed": true
+  },
+  "references": [
+    {
+      "id": "A015",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Attack on Titan (Main Theme) - Attack on Titan - Soundtrack.pdf",
+      "sha256_before": "e29f2240030db93fad0fc52d84e68a2c83b458b4ee8e6aa5b0f28b2f3c757695",
+      "sha256_after": "e29f2240030db93fad0fc52d84e68a2c83b458b4ee8e6aa5b0f28b2f3c757695",
+      "viewed_pdf_pages": [
+        1
+      ],
+      "cached_image": "tmp/engraving/corpus/A015/page-1.jpg",
+      "specific_observation": "Full-bar rests versus ordinary rhythmic rests"
+    },
+    {
+      "id": "A128",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\The Song of Aether - Short Piano Composition in C# Minor.pdf",
+      "sha256_before": "51778876e470071763f9e5e7234dba5dd7f13d65ba695252c2b9d6874e40f280",
+      "sha256_after": "51778876e470071763f9e5e7234dba5dd7f13d65ba695252c2b9d6874e40f280",
+      "viewed_pdf_pages": [
+        1
+      ],
+      "cached_image": "tmp/engraving/corpus/A128/page-1.jpg",
+      "specific_observation": "m20 2+2+2, m29 rest+five attacks, m30 complete six attacks 3+3; earlier m29 wording corrected."
+    }
+  ],
+  "read_only_source_inspection": {
+    "binary_source_identity_verified": false,
+    "files": [
+      {
+        "core_relative_path": "libmscore/beam.h",
+        "sha256": "7506042d88601d7ae2e7087954692165dc1774c488bed964fd6cfd3802749ce2",
+        "lookup": "Beam::Mode"
+      },
+      {
+        "core_relative_path": "libmscore/beam.cpp",
+        "sha256": "72398d3e00cee865d77ea8c39bd9f1572c7eac87b858d12aab8a05f981d76cbd",
+        "lookup": "Beam::slopeZero / beamLevel break handling"
+      },
+      {
+        "core_relative_path": "importexport/musicxml/importmxmlpass2.cpp",
+        "sha256": "1f6b267a4ceb791ecfe400e3f9b8893b240cda567278bbb03efaed603e14960c",
+        "lookup": "computeBeamMode"
+      },
+      {
+        "core_relative_path": "importexport/musicxml/exportxml.cpp",
+        "sha256": "3b07d873489db6495f6767a9e40368c2f3ab2daa6448a35f5c80e95e3202e8be",
+        "lookup": "beam layer export"
+      }
+    ],
+    "core_head_at_inspection": "e4a48d14994aa690c3fc0b3d0bf5debfd470640f"
+  },
+  "svg_units_per_pt": 5,
+  "measurement_scope": "Only this fixed-clef, natural-pitch, upper-stem fixture. Drawn Stem extent and closest-note-head-centre-to-stem-end distance are distinct. Closest-head Ys checked against native SVG heads; no general chord/beam parser.",
+  "artifacts": [
+    {
+      "repository_path": "docs/engraving/fixtures/beam-shape-source.musicxml",
+      "sha256": "b427030029588b3e21ac4f8855f396e6310c92c8ed1daa1ab0d1c83d64851541"
+    },
+    {
+      "repository_path": "docs/engraving/fixtures/beam-shape-auto.mscx",
+      "sha256": "e351a05f3f619b5a6ceffaf1aaf891bbf2b15e675c6f675358ead89fa0fac17b"
+    },
+    {
+      "repository_path": "docs/engraving/fixtures/beam-shape-all-flat.mscx",
+      "sha256": "40cddd3b69df6eac29e38a172ed9c3071b9bf88aef596971289e4a14357efdca"
+    },
+    {
+      "repository_path": "docs/engraving/fixtures/beam-shape-auto.png",
+      "sha256": "4e98d1cedaa99b814f0e965f7c85f2b19a26735123e78f68f40f17f63fd4d425"
+    },
+    {
+      "repository_path": "docs/engraving/fixtures/beam-shape-all-flat.png",
+      "sha256": "a71df1cc4b47f6aa808c8ac8522d8f770f76398b9598c953de724d8248533706"
+    }
+  ],
+  "case_analysis": "BEAM_STEM_STUDY.md and RHYTHM_READING.md",
+  "private_reproduction_directory": "tmp/engraving/beaming-2026-10-19/",
+  "source_code_or_plugin_changed": false
+}

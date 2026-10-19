@@ -38,3 +38,13 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - 密集相邻和弦：[源谱](dense-spacing-source.mscx)、[复制设置](dense-spacing-copied-settings.mscx)、[仅在m2换行](dense-spacing-two-systems.mscx)及相应[源图](dense-spacing-source.png)、[3+1图](dense-spacing-copied-settings.png)、[2+2图](dense-spacing-two-systems.png)。各67个事件读回一致；2+2仅差一次LayoutBreak，所用垂直预算比原单行多，不能混作同一行的比较。
 
 事件核对限这些每谱表单声部、无连音/附点/曲线的练习；不代表一般多声部归一化或碰撞校验器。原生导出方式同本页前述命令，输入替换为相应自制谱，使用独立配置与输出目录。具体试验数值只供复现，不当作通用净书默认值。
+
+## 梁的坡度与导入层级：两个不同问题
+
+[beam-shape-source.musicxml](beam-shape-source.musicxml)是原创八小节双谱表练习，CC0；[原生自动版](beam-shape-auto.mscx)和[全局平梁版](beam-shape-all-flat.mscx)除`Style/beamNoSlope` 0／1外完整XML相同，固定Leland／Leland Text。上部故意固定上干、四小节一系统、关闭页面纵向伸展，均是本fixture的控制条件，不是用户审美或真实乐曲默认值。原生PNG为[自动版](beam-shape-auto.png)和[平梁版](beam-shape-all-flat.png)，同一裁框保留两系统全部音乐，只合白底，未移动符号。
+
+两原生版86个事件、MusicXML非布局内容及全部beam标签一致；Note／Rest／BarLine／StaffLines几何相同。自动版已按部分凹形、同音首尾、重复型等条件使用平梁，全局平梁会拉长普通上／下行组的一端。理由、干长与斜梁厚度测量见[梁干专题](../BEAM_STEM_STUDY.md)；[证据](../beam_rhythm_evidence.json)记录精度、范围与未做项目。
+
+**MusicXML原输入与原生导入结果并非记法完全等同。** m7／8第四层要求单独断开的end／begin在导入后丢失，第三层仍保留。源输入共有44个梁层分段起点，原生导出及SVG为40；具体8个标签差异已记录。音高／时值等保持，下谱表单线voice标签2→5及未指定干向→up单独核对。不能由两个原生版互相一致反推导入无损，也不能以MusicXML往返作为一般原工程的完整保护。
+
+复现坡度对照可直接按本页导出命令运行两个`.mscx`；复现导入限制则先把原始`.musicxml`导成独立`.mscx`，再导出独立MusicXML，检查m7／8第2、3、6、7个起音的`beam number="4"`。本轮没有修改宿主或为第四层制作视觉补丁。源码／宿主哈希、正文页和参考谱复核见证据；原书、官谱和用户音乐不在本fixture许可中。
