@@ -635,5 +635,35 @@
     "initial_23_tests_not_claimed_rerun": true,
     "independent_behavior_or_aesthetic_evaluation_claimed": false,
     "global_installation_or_app_discovery_performed": false
+  },
+  "follow_up_integrated_review": {
+    "date": "2026-10-20",
+    "scope": "Overview routing and native-review prose updated; path-resolution algorithm, main SKILL.md and UI metadata unchanged.",
+    "check": {
+      "topic": "overview",
+      "external_cwd": "C:\\Windows",
+      "exit_code": 0,
+      "result": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "overview",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_REVIEW.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\FOUNDATION_REVIEW.md"
+        ]
+      }
+    },
+    "script_sha256": "6c7e614aaf230eacbcde29c44163ba767d12937179428d877c78a71fa736d33b",
+    "native_reference_sha256": "becae2c7bbf2c136d46dd8c130b1325fda1a5878bf9f896c4e3c77cc21423f49",
+    "evidence": "integrated_review_evidence.json",
+    "initial_23_tests_not_claimed_rerun": true,
+    "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
+    "global_installation_or_app_discovery_performed": false
   }
 }

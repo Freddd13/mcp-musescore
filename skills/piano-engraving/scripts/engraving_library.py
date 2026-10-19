@@ -9,7 +9,7 @@ import sys
 
 COMMON = ("README.md", "PREFERENCES.md", "JUDGMENT_GUIDE.md")
 TOPICS = {
-    "overview": ("FOUNDATION_REVIEW.md",),
+    "overview": ("INTEGRATED_REVIEW.md", "FOUNDATION_REVIEW.md"),
     "spacing": ("SPACING_DECISIONS.md", "ACCIDENTAL_SPACING.md", "USER_SPACING_APPLICATION.md", "SPACING_CANDIDATES.md", "SPACING_STUDY.md"),
     "rhythm": ("RHYTHM_READING.md", "NOTATION_DETAILS.md"),
     "beams": ("BEAM_STEM_STUDY.md", "RHYTHM_READING.md"),

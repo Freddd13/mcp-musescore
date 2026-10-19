@@ -1,0 +1,450 @@
+{
+  "date": "2026-10-20",
+  "scope": "Same-agent integrated diagnosis and private real-score candidate, with deterministic supplementary official page selection; not blinded or independent behavioral evaluation.",
+  "protected_inputs": {
+    "user_pdf": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+    "user_pdf_sha256_before": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+    "user_pdf_sha256_after": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+    "native_render_source": "tmp\\engraving\\page-flow-2026-10-19\\native\\baseline-7.png",
+    "native_png_sha256": "bdd7c57d78fcd2d3989acf2989e9261557cf01dd445a8abf697001e010beea2f",
+    "scope": "PDF and native project are distinct baselines, not proven objectwise identical."
+  },
+  "native_input": {
+    "source": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\page-flow-2026-10-19\\source-baseline.mscz",
+    "source_sha256_before": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "source_sha256_after": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "candidate_sha256": "89d263f2f158ad5025545732a5826c9c2063501a3ac0b1e89ad4e2c18c751d43",
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "native_change": "Only add visible=0 to staff1 measure146 system TextLine with ritMode=1 ritPlay=1. All other XML and ZIP entry bytes preserved.",
+    "prior_baseline_svg_png_musicxml": "tmp/engraving/page-flow-2026-10-19/native/",
+    "midi_baseline_new_this_study": true
+  },
+  "source_sha256_verified_after": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+  "native_change_only": {
+    "path": "Score/Staff[id=1]/Measure[index146]/voice/Spanner/TextLine",
+    "added": "visible=0",
+    "preserved_explicit": [
+      "ritMode=1",
+      "ritPlay=1",
+      "beginText",
+      "continueText",
+      "lineStyle",
+      "Segment offsets",
+      "next/prev locations",
+      "hidden Tempo and existing StaffText"
+    ],
+    "all_other_native_xml_structure_identical": true,
+    "all_other_zip_entry_bytes_identical": true
+  },
+  "guide_read_only": {
+    "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\personal\\USER_GUIDE.md",
+    "sha256_when_recorded": "673cf07f37b7ee505f5cc2e31f2b6a57a071f7aad67d7b1332045afbab06ee30",
+    "section": "6. 渐慢 rit. 与恢复速度 a tempo; hide display retains playing per guide, independently checked here in frozen host MIDI."
+  },
+  "original_pdf_observation": "The unchanged user PDF page7 shows a single rit.; candidate concerns current project copy re-export in frozen host, not an edit or proved correction of the PDF.",
+  "references": {
+    "algorithm": "Hash order of eligible 5–10-page scores, internal pages absent from initial full_page_detail_viewed list, distinct scores; fixed seed integrated-2026-10-20. Not a blinded or independent evaluation.",
+    "selection": [
+      {
+        "id": "A008",
+        "pdf_page": 6,
+        "rank": "01283778757289f0f9c6be307a8d1bdaabd6da13aa99c5e5620afb55548b7ef9",
+        "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\A Link to the Past Medley.pdf",
+        "inventory_sha256": "799a9feb8ef881714ca3dec870f1a36711e922a8127421502414e6ea1c19f298",
+        "not_in_first_batch_detail_list": true,
+        "previous_all_page_screening_acknowledged": true,
+        "sha256_before": "799a9feb8ef881714ca3dec870f1a36711e922a8127421502414e6ea1c19f298",
+        "sha256_after": "799a9feb8ef881714ca3dec870f1a36711e922a8127421502414e6ea1c19f298",
+        "viewed_image": "tmp\\engraving\\corpus\\A008\\page-6.jpg",
+        "image_sha256": "04d2b10faccdcf2018780596bfc4c5760276c1e2a392a78d5cbe0886b2e640a4",
+        "complete_page_actually_viewed": true
+      },
+      {
+        "id": "A075",
+        "pdf_page": 5,
+        "rank": "019b5f6e2aa6ed397337834ae9ffa7a95fe314985043308b57e55a8f4f2dfdbf",
+        "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Killy Killy Joker - Selector Infected WIXOSS - Opening Theme.pdf",
+        "inventory_sha256": "72eabc758e015d50ae95267d35e74e0d4f66708150072f74fd55638794d153ec",
+        "not_in_first_batch_detail_list": true,
+        "previous_all_page_screening_acknowledged": true,
+        "sha256_before": "72eabc758e015d50ae95267d35e74e0d4f66708150072f74fd55638794d153ec",
+        "sha256_after": "72eabc758e015d50ae95267d35e74e0d4f66708150072f74fd55638794d153ec",
+        "viewed_image": "tmp\\engraving\\corpus\\A075\\page-5.jpg",
+        "image_sha256": "654b98d72308b65c9372b99dc2069fe89c00250a9df9549e85dcee87eda12bf4",
+        "complete_page_actually_viewed": true,
+        "additional_context_pages_viewed": [
+          {
+            "pdf_page": 4,
+            "image": "tmp/engraving/corpus/A075/page-4.jpg",
+            "sha256": "6f0a52d982b346c6c0c0fb2875c7da9e4667ec69bded81b2040718c0348d9746"
+          },
+          {
+            "pdf_page": 6,
+            "image": "tmp/engraving/corpus/A075/page-6.jpg",
+            "sha256": "373d839bdaba0ed403f9f151f99a491819bd2b5b8b12df7c017b6f3c01bc6837"
+          }
+        ]
+      }
+    ]
+  },
+  "book": {
+    "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256_before": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "revisited_printed_pages": [
+      159,
+      160
+    ],
+    "pdf_page_offset": 20,
+    "full_images_prepared_not_alone_proof_of_review": true,
+    "complete_text_and_figures_actually_revisited": [
+      159,
+      160
+    ],
+    "page_images": [
+      {
+        "printed_page": 159,
+        "private_image": "tmp\\engraving\\integrated-review-2026-10-20\\book-159.jpg",
+        "sha256": "9048e28e9c0de68ef36e2bf34e7ab9fe8356ad752529cd8dde3d8d7742629de7"
+      },
+      {
+        "printed_page": 160,
+        "private_image": "tmp\\engraving\\integrated-review-2026-10-20\\book-160.jpg",
+        "sha256": "50bcbe5fd8fcdafe5f66f8df0f3ab00ab97e6f81561273f7d34b21aa2490d869"
+      }
+    ]
+  },
+  "layout": {
+    "page_count": 8,
+    "system_count": 38,
+    "page_ends": [
+      32,
+      56,
+      69,
+      93,
+      110,
+      129,
+      146,
+      155
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "complete_svg_equal_to_baseline": true,
+        "removed_by_class": {},
+        "added_by_class": {},
+        "reload_svg_and_png_equal": true,
+        "disabled_control_svg_equal": true,
+        "baseline_svg_sha256": "af9778217ebdf72040de61de93959e4d64f0cf4ae9ace4fd725f8112f3efcca0",
+        "candidate_svg_sha256": "21ee0719f9ebd1b5515bf074ef14c5534d7261231eb2c9bb269661a0ab5db624",
+        "candidate_png_sha256": "0bd17d393ee6b9619ebe8e1f0fc6871a9ecd76e1d55e6c792fe3acbf6674fd2b"
+      },
+      {
+        "page": 2,
+        "complete_svg_equal_to_baseline": true,
+        "removed_by_class": {},
+        "added_by_class": {},
+        "reload_svg_and_png_equal": true,
+        "disabled_control_svg_equal": true,
+        "baseline_svg_sha256": "442b3504f229061bc8b9af4b583cbc1212662383ac778b9c7a2640669cc94fe8",
+        "candidate_svg_sha256": "d6a8bf6da722bd6dd35def281fb90cae600f5fe350d50f7b3fe821a11b5a97b9",
+        "candidate_png_sha256": "824730fb7fed7ea6605023e1d5841793883eba97592e41c8510d33d3523a89eb"
+      },
+      {
+        "page": 3,
+        "complete_svg_equal_to_baseline": true,
+        "removed_by_class": {},
+        "added_by_class": {},
+        "reload_svg_and_png_equal": true,
+        "disabled_control_svg_equal": true,
+        "baseline_svg_sha256": "a56350f19991fc4a1f1e62f6dc28115580e2e70563545daa9c4e52e98eb84af2",
+        "candidate_svg_sha256": "bc672dfd10c2e985939dae5ac0e13aad68887590f47d7bed01c9a7b650c17da0",
+        "candidate_png_sha256": "9a380c94002b3a524cf9ed6cdba79eadfcfdef6c3b574eb6bd063148bcf4c0e3"
+      },
+      {
+        "page": 4,
+        "complete_svg_equal_to_baseline": true,
+        "removed_by_class": {},
+        "added_by_class": {},
+        "reload_svg_and_png_equal": true,
+        "disabled_control_svg_equal": true,
+        "baseline_svg_sha256": "351e9eacf3e92b671839afe4dce9457f6cd62a1f764d912966ad5ef7e5b4cc35",
+        "candidate_svg_sha256": "1522275db0f9342e2096dbb32da19f69f72e3e6dda9225d8874f89c6282f4a7f",
+        "candidate_png_sha256": "424e62fd515cb53796c507fbbc4431385474465a714b1feeb27758c5df6e99e1"
+      },
+      {
+        "page": 5,
+        "complete_svg_equal_to_baseline": true,
+        "removed_by_class": {},
+        "added_by_class": {},
+        "reload_svg_and_png_equal": true,
+        "disabled_control_svg_equal": true,
+        "baseline_svg_sha256": "a6deda6d35e428f85429e97054515d30258a58c8f50673986380c22f7743111b",
+        "candidate_svg_sha256": "fb0c553ad9327825e28459e10ad7ae774c62ed1efee0c2610ac1e3154e81da38",
+        "candidate_png_sha256": "8e8263b7b3c06243ac5a930869400ddcedae6c2deb0f774863d447a45022a774"
+      },
+      {
+        "page": 6,
+        "complete_svg_equal_to_baseline": true,
+        "removed_by_class": {},
+        "added_by_class": {},
+        "reload_svg_and_png_equal": true,
+        "disabled_control_svg_equal": true,
+        "baseline_svg_sha256": "b007da30e4ebcdfbb45253197c0ff72798a9ff7b71df720ba4b14435c5fd9eb1",
+        "candidate_svg_sha256": "e338f11ed9751589688eae66383599468d5c90a2cdfa37069167d7661c8686ee",
+        "candidate_png_sha256": "11fe1c6c40f405fd4e38775eaaf53ec50bef06ca3629769c1a814fd0cb759897"
+      },
+      {
+        "page": 7,
+        "complete_svg_equal_to_baseline": false,
+        "removed_by_class": {
+          "TextLineSegment": 2
+        },
+        "added_by_class": {},
+        "reload_svg_and_png_equal": true,
+        "disabled_control_svg_equal": true,
+        "baseline_svg_sha256": "a384f4962aa110fe001c6dcfe14d550ba8938726a6d7e5d525afcf19e52c8e3b",
+        "candidate_svg_sha256": "732ae845f45eef183dcc189327da28175a1a054e02778bf268bcf56c61aedd26",
+        "candidate_png_sha256": "6fc59cdd317b2221b7e44611e2d10544cbe954aa6c0e79313834e75b64f6d690"
+      },
+      {
+        "page": 8,
+        "complete_svg_equal_to_baseline": true,
+        "removed_by_class": {},
+        "added_by_class": {},
+        "reload_svg_and_png_equal": true,
+        "disabled_control_svg_equal": true,
+        "baseline_svg_sha256": "29d198cfb05ebd572e39a45d2ab6d701d29d8a3055d0747aafc99438d479f5dc",
+        "candidate_svg_sha256": "c656ff6aed26b6a685a27ec3c5370b8ef1675a1d82e0df43820e736fba9c8661",
+        "candidate_png_sha256": "7bb51f4acaa879b8b50ea34ffbf9a95a4760d639ae1b2b406024e490b74c9c8c"
+      }
+    ]
+  },
+  "musicxml": {
+    "full_tree_equal_after_listed_layout_and_date_normalization": true,
+    "ignored_attributes": [
+      "bezier-offset",
+      "bezier-offset2",
+      "bezier-x",
+      "bezier-x2",
+      "bezier-y",
+      "bezier-y2",
+      "default-x",
+      "default-y",
+      "relative-x",
+      "relative-y",
+      "measure width"
+    ],
+    "encoding_date_only_metadata_normalization": true,
+    "no_blocks_ignored": true,
+    "rit_words_count": 1,
+    "private_ritMode_ritPlay_not_represented": true
+  },
+  "midi": {
+    "full_bytes_equal_baseline_candidate_resaved": true,
+    "rit_window_global_quarters_excluding_end": [
+      "889/2",
+      "446"
+    ],
+    "measure_bounds_from_full_musicxml_duration_walk": {
+      "146": [
+        "443",
+        "446"
+      ],
+      "147": [
+        "446",
+        "449"
+      ]
+    },
+    "results": [
+      {
+        "variant": "baseline",
+        "ppq": 480,
+        "midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+        "total_tempo_events": 391,
+        "rit_window_event_count_excluding_end": 360,
+        "first_in_window": {
+          "track": 0,
+          "tick": 213360,
+          "quarter": "889/2",
+          "microseconds_per_quarter": 571587,
+          "bpm": 104.97089681885697
+        },
+        "last_before_end": {
+          "track": 0,
+          "tick": 214078,
+          "quarter": "107039/240",
+          "microseconds_per_quarter": 714038,
+          "bpm": 84.02914130620499
+        },
+        "at_next_measure": [
+          {
+            "track": 0,
+            "tick": 214080,
+            "quarter": "446",
+            "microseconds_per_quarter": 666667,
+            "bpm": 89.9999550000225
+          }
+        ],
+        "all_tempo_events_digest": "7eeacdb960c0c3a862d6f912f2458e648fe4260de89238516c122f16f8f5533f",
+        "channel_event_count": 4963
+      },
+      {
+        "variant": "rit-display-hidden",
+        "ppq": 480,
+        "midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+        "total_tempo_events": 391,
+        "rit_window_event_count_excluding_end": 360,
+        "first_in_window": {
+          "track": 0,
+          "tick": 213360,
+          "quarter": "889/2",
+          "microseconds_per_quarter": 571587,
+          "bpm": 104.97089681885697
+        },
+        "last_before_end": {
+          "track": 0,
+          "tick": 214078,
+          "quarter": "107039/240",
+          "microseconds_per_quarter": 714038,
+          "bpm": 84.02914130620499
+        },
+        "at_next_measure": [
+          {
+            "track": 0,
+            "tick": 214080,
+            "quarter": "446",
+            "microseconds_per_quarter": 666667,
+            "bpm": 89.9999550000225
+          }
+        ],
+        "all_tempo_events_digest": "7eeacdb960c0c3a862d6f912f2458e648fe4260de89238516c122f16f8f5533f",
+        "channel_event_count": 4963
+      },
+      {
+        "variant": "rit-display-resaved",
+        "ppq": 480,
+        "midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+        "total_tempo_events": 391,
+        "rit_window_event_count_excluding_end": 360,
+        "first_in_window": {
+          "track": 0,
+          "tick": 213360,
+          "quarter": "889/2",
+          "microseconds_per_quarter": 571587,
+          "bpm": 104.97089681885697
+        },
+        "last_before_end": {
+          "track": 0,
+          "tick": 214078,
+          "quarter": "107039/240",
+          "microseconds_per_quarter": 714038,
+          "bpm": 84.02914130620499
+        },
+        "at_next_measure": [
+          {
+            "track": 0,
+            "tick": 214080,
+            "quarter": "446",
+            "microseconds_per_quarter": 666667,
+            "bpm": 89.9999550000225
+          }
+        ],
+        "all_tempo_events_digest": "7eeacdb960c0c3a862d6f912f2458e648fe4260de89238516c122f16f8f5533f",
+        "channel_event_count": 4963
+      },
+      {
+        "variant": "rejected-play-disabled",
+        "ppq": 480,
+        "midi_sha256": "93f0aac86d9916f5dcfec6fbd5e43467e3ea2e891a6e0f8541debee6dca7a344",
+        "total_tempo_events": 32,
+        "rit_window_event_count_excluding_end": 1,
+        "first_in_window": {
+          "track": 0,
+          "tick": 213360,
+          "quarter": "889/2",
+          "microseconds_per_quarter": 571429,
+          "bpm": 104.99992125005906
+        },
+        "last_before_end": {
+          "track": 0,
+          "tick": 213360,
+          "quarter": "889/2",
+          "microseconds_per_quarter": 571429,
+          "bpm": 104.99992125005906
+        },
+        "at_next_measure": [
+          {
+            "track": 0,
+            "tick": 214080,
+            "quarter": "446",
+            "microseconds_per_quarter": 666667,
+            "bpm": 89.9999550000225
+          }
+        ],
+        "all_tempo_events_digest": "b9d9d0ae06d7eadd24968f89414e7eafbd202acae00bfba4f41c8858285df5f4",
+        "channel_event_count": 4963
+      }
+    ],
+    "disabled_control_has_identical_channel_events_but_different_tempo_events": true,
+    "same_print_different_playback_control": "All eight SVGs of play-disabled rejected control equal to active hidden candidate, excluding title."
+  },
+  "resaved_config": {
+    "ritMode": "1",
+    "ritPlay": "1",
+    "visible": "0",
+    "segment_visible": "0"
+  },
+  "preview": {
+    "crop_png_pixels": [
+      65,
+      1611,
+      1433,
+      1994
+    ],
+    "baseline": "tmp\\engraving\\integrated-review-2026-10-20\\native\\baseline-last-system.png",
+    "candidate": "tmp\\engraving\\integrated-review-2026-10-20\\native\\candidate-last-system.png",
+    "processing": "White composite and identical full two-staff system crop only; no glyph edits.",
+    "baseline_sha256": "3603bef4313bbe56ad5e02a6bc0c09fcfb3a459aebead3af0c0cf0958dcd9e64",
+    "candidate_sha256": "8ae0f20f50c92a1da7136632026bb212a2e502dad99a26921a1e49511a5844c1",
+    "complete_crop_actually_viewed": true
+  },
+  "reviewed_complete_native_pages_this_study": {
+    "baseline": [
+      7,
+      8
+    ],
+    "candidate": [
+      7,
+      8
+    ]
+  },
+  "reviewed_user_pdf_pages": [
+    7
+  ],
+  "not_performed": [
+    "Current GUI score operation",
+    "Original MSCZ reopening or writing",
+    "Printed-page aesthetic or performance trial",
+    "Audio waveform/listening verification",
+    "Full note-by-note official score proofreading",
+    "All rhythm/hand/pedal intent verification",
+    "Any Muse/MCP/plugin adaptation"
+  ],
+  "rest_followup_not_modified": {
+    "staff": 3,
+    "measures": [
+      133,
+      134,
+      135
+    ],
+    "condition": "Dotted half rests fill voice1 6/8 bars; m135 has Slur receive references. Conventional whole-bar rest is a notation-review candidate, not blindly substituted here."
+  },
+  "private_scripts": {
+    "native_candidate.py": "27b87d09ea6f75450cff64fd7419abf0949577f9a5544dce6b220371fee24d4c",
+    "midi_inspect.py": "7bf5001bc0586333c4ac0e186303b6f60a1bf86e3a0589f51741df66a271a1fb",
+    "audit.py": "c6603ff86b614482497a08cb9ae7e67ef2a5cc24fa9b7524777feb151ed54e72"
+  },
+  "copyright_scope": "Only analysis, hashes, configuration and layout metadata committed; private score images/MIDI/MSCZ and book pages remain ignored."
+}
