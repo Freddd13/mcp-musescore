@@ -1,0 +1,66 @@
+"""Approved actual-resource representative links after visual/page review.
+
+All eight boards, the nine low-match comparisons and thirteen source contexts
+were inspected. Links are clerical transcription of that review, not approval
+inferred from similarity. F0223's notehead proposal is explicitly rejected.
+K0131/K0161/K0263 roles were corrected from their actual pages in the parent
+role table. This is not a universal encoding or every occurrence's semantics.
+"""
+from .reviewed_corpus_keys import roles as family_roles
+
+RESOURCES_SHA='1cb99cba0955391ff1f4d962a34b35d2132e7cd4e519577153d4b3f811dad2d6'
+PROPOSALS_SHA='e3b5f86ca5f9215901a49294a7bafea99ccb2fc05e7f5f181a0cf49da5de9e56'
+CONTEXT_SHA='3a5c604a06c0679cbfd546506815b921d3442a66c892773bc7211b2edb211e4f'
+WAVE_CONTEXT_SHA='36f00a0a3862b228132557b7365a25ecd4038a299428d57e60b86030b531c9ed'
+
+# F0001 through F0347, in order; independently reviewed catalogue instances.
+APPROVED_BASELINE_GROUPS = """
+K0001 K0002 K0003 K0004 K0005 K0006 K0007 K0008 K0009 K0010 K0011 K0012 K0013 K0014 K0015 K0016
+K0017 K0018 K0019 K0020 K0021 K0022 K0023 K0024 K0025 K0026 K0027 K0028 K0029 K0033 K0034 K0035
+K0036 K0038 K0040 K0044 K0045 K0046 K0047 K0049 K0050 K0051 K0054 K0055 K0056 K0058 K0063 K0061
+K0037 K0042 K0048 K0052 K0057 K0060 K0064 K0065 K0067 K0043 K0039 K0263 K0059 K0062 K0053 K0030
+K0031 K0032 K0041 K0339 K0066 K0068 K0069 K0070 K0071 K0072 K0073 K0074 K0075 K0076 K0077 K0078
+K0079 K0080 K0081 K0082 K0083 K0084 K0085 K0086 K0087 K0088 K0089 K0090 K0091 K0092 K0093 K0094
+K0095 K0096 K0097 K0102 K0103 K0105 K0107 K0109 K0112 K0101 K0106 K0113 K0100 K0104 K0110 K0164
+K0098 K0099 K0108 K0111 K0114 K0115 K0116 K0117 K0118 K0119 K0120 K0121 K0122 K0123 K0124 K0125
+K0126 K0127 K0128 K0129 K0130 K0131 K0132 K0133 K0134 K0135 K0136 K0137 K0138 K0139 K0140 K0141
+K0142 K0143 K0144 K0145 K0146 K0147 K0148 K0149 K0150 K0151 K0152 K0153 K0154 K0155 K0159 K0160
+K0156 K0157 K0158 K0161 K0162 K0163 K0165 K0166 K0167 K0169 K0171 K0168 K0170 K0172 K0173 K0174
+K0175 K0176 K0177 K0178 K0131 K0180 K0181 K0268 K0182 K0183 K0184 K0185 K0186 K0187 K0188 K0189
+K0190 K0191 K0192 K0193 K0194 K0195 K0196 K0197 K0198 K0199 K0200 K0201 K0206 K0204 K0205 K0202
+K0203 K0208 K0207 K0209 K0210 K0211 K0212 K0213 K0214 K0215 K0216 K0220 K0218 K0219 K0220 K0221
+K0222 K0223 K0224 K0225 K0226 K0227 K0228 K0229 K0230 K0231 K0232 K0233 K0234 K0337 K0236 K0237
+K0238 K0239 K0240 K0241 K0242 K0243 K0244 K0245 K0246 K0247 K0248 K0249 K0250 K0251 K0252 K0253
+K0254 K0255 K0256 K0257 K0258 K0259 K0260 K0261 K0262 K0263 K0264 K0265 K0266 K0267 K0269 K0012
+K0270 K0273 K0271 K0272 K0274 K0275 K0276 K0277 K0278 K0279 K0280 K0281 K0282 K0284 K0283 K0285
+K0286 K0287 K0288 K0289 K0290 K0164 K0291 K0292 K0293 K0294 K0295 K0296 K0297 K0298 K0299 K0179
+K0300 K0220 K0303 K0302 K0304 K0306 K0307 K0308 K0309 K0310 K0311 K0312 K0313 K0314 K0315 K0316
+K0317 K0318 K0319 K0320 K0321 K0322 K0323 K0324 K0325 K0326 K0327 K0328 K0329 K0330 K0331 K0332
+K0333 K0334 K0335 K0336 K0337 K0338 K0339 K0340 K0341 K0342 K0343
+""".split()
+
+
+def roles():
+    assert len(APPROVED_BASELINE_GROUPS)==347
+    parent=family_roles()
+    result={'F%04d'%(i+1):parent[key] for i,key in enumerate(APPROVED_BASELINE_GROUPS)}
+    assert result['F0060']==result['F0164']==result['F0266']==['wiggleTrill']
+    assert result['F0134']==result['F0181']==result['F0223']==['wiggleGlissando']
+    return result
+
+
+CONTEXT_NOTES={
+ 'F0060':'Horizontal continuation after tr: trill wave, not glissando.',
+ 'F0068':'Descending repeated wavy glissando with gliss. text.',
+ 'F0134':'A007 p3: diagonal glissando. Corrects old K0131 quarter-rest label.',
+ 'F0181':'Descending diagonal glissando; old automatic quarter-rest proposal rejected.',
+ 'F0220':'Ascending diagonal glissando; isolated component is not a rest.',
+ 'F0223':'Ascending glissando with gliss. text; noteheadBlack proposal rejected.',
+ 'F0238':'Ascending repeated wave before a tied chord.',
+ 'F0272':'Ordinary forte under a beamed figure; no new dynamic role.',
+ 'F0277':'Descending repeated glissando ending above the following chord.',
+ 'F0306':'Ascending repeated glissando between chord positions.',
+ 'F0052':'A002 p2: ascending wavy glissando, unlike horizontal trill on p7.',
+ 'F0164':'A015 p3: horizontal continuation after tr, not glissando.',
+ 'F0266':'A069 p3: horizontal continuation after tr, not glissando.',
+}

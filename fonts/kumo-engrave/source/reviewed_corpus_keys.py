@@ -63,7 +63,7 @@ def roles():
     add('restWhole restHalf','79')
     add('restWholeLegerLine','66')
     add('restHalfLegerLine','54')
-    add('restQuarter','20 57 131 134 218 231 303 330')
+    add('restQuarter','20 57 134 218 231 303 330')
     add('rest8th','26 64 84 137 333')
     add('rest16th','67 81 140 208 247 284')
     add('rest32nd','92')
@@ -105,7 +105,11 @@ def roles():
     add('ottava','63 309')
     add('ottavaAlta','80 226 310')
     add('wiggleArpeggiatoUp wiggleArpeggiatoDown','13 46 311')
-    add('wiggleGlissando','52 150 161 179 184 189 197 217 220 235 258 262 263 265 274 283 301 305 337 339')
+    # Actual-resource follow-up: A007 p3's K0131 is part of a diagonal gliss,
+    # whereas K0161/K0263 are horizontal continuation after tr. A same-looking
+    # waveform or U+007E is not enough to infer the native element's role.
+    add('wiggleTrill','161 263')
+    add('wiggleGlissando','52 131 150 179 184 189 197 217 220 235 258 262 265 274 283 301 305 337 339')
     add('brace braceSmall braceLarge braceLarger','308')
     assert set(result) == {'K%04d'%i for i in range(1,344)}, sorted({'K%04d'%i for i in range(1,344)}-set(result))
     return result

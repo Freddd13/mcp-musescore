@@ -1,4 +1,17 @@
-# Kumo 音乐字体研究与历史原型
+# Kumo Score Study 0.500 与历史原型
+
+**2026-10-19交付：字体制作与所给146份／1,135页官谱的音乐符号覆盖已完成。** 处理112个码位，97个含三次曲线，完整保留Leland底库；实际资源扫描覆盖422个资源、8,502资源／编码键和854,812源字符。347个可见代表对应105个已有角色，空白、隐藏组和全路径谱均已有结案证据。范围与逐项核查见 [FONT_DELIVERY](FONT_DELIVERY.md)。
+
+直接参照 [CURRENT_USAGE](CURRENT_USAGE.md)：本机包 `dist/kumo-score-study-0.500-complete-local.zip`。它补全资料、保留原0.500的两份OTF／JSON，已安装0.500者无需重复装字体。新安装时把 **Kumo Score Study** 与 **Kumo Score Study Text** 两个完整文件夹放到Evolution的Score Fonts目录，重启并在独立谱副本同时选择两家族；保持原谱距和字号。不需要重装MCP、skill或Windows字体。
+
+**专用滑音需包含接口的0.71构建。** 当前安装目录程序的普通字体及mf／八度等实谱尺寸已重新通过，但仍走旧滑音回退。另已备好 `dist/Evolution-0.71-font-study/`：先退出正在运行的Evolution，再双击其中 `Start-Font-Study.cmd`，即可用已预配置字体的独立0.71本机试用构建。原安装和原配置保持；该副本的实际配置、专用滑音与整页像素均已核验。
+
+当前Music为502字形、Text为266字形。未处理的底库轮廓／度量保持，mf、8／8va与踏板实际大小保护通过。原PDF／MSCZ未改。额外swing等入口见 [TEXT_EXTRAS](TEXT_EXTRAS.md)，字体更新方式见 [CURRENT_USAGE](CURRENT_USAGE.md)。完成覆盖不代表恢复原厂完整字体程序或已获用户对每个字形的审美认可；净书布局由另一任务继续处理。
+
+资料补全包的最终SHA清单、覆盖检查及当前宿主尺寸结果见 [DELIVERY_VERIFICATION](DELIVERY_VERIFICATION.md)。
+
+<details>
+<summary>历史原型、阶段进展与当时的验证方法（当前交付以上文为准）</summary>
 
 2026-10-19逐PDF覆盖：全部5,723候选键已取样，5,606个可见键的343代表及16处原页已核对，104目标均已有；117空白键的全部544源位置结案。全目录9,591非普通文字键已完成分区。仍0.500，实际大小保持，无需重装。下一步只查18个多subset家族的原始字体名／编码变化，范围见[PER_PDF_KEY_COVERAGE](PER_PDF_KEY_COVERAGE.md)。
 
@@ -104,3 +117,6 @@ python fonts/kumo-engrave/review_ex.py --proofs "上述输出目录" --fonts fon
 新版底库来源和 SHA-256 见 `LELAND_BASELINE.json`，Leland 原版权、OFL 许可及保留名称记录在 `vendor/leland/LICENSE.txt`。两个底库的许可分别随所属家族分发；新家族名是 Kumo Piano。
 
 完整方向见 [字体计划](../../docs/FONT_PLAN.md)；净书线提供情境和阅读规则，见 [净书计划](../../docs/ENGRAVING_PLAN.md)。
+
+
+</details>

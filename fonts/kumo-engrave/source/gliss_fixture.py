@@ -46,4 +46,6 @@ def gliss_musicxml():
         value(ET.SubElement(measure,'backup'),'duration',32)
         note=ET.SubElement(measure,'note');ET.SubElement(note,'rest',measure='yes')
         value(note,'duration',32);value(note,'voice',2);value(note,'staff',2)
-    return ET.tostring(tree,encoding='utf-8',xml_declaration=True)
+    # ElementTree.tostring gained xml_declaration in Python 3.8. Keep the
+    # native proof usable with the same Python 3.7 runtime as the font tools.
+    return b"<?xml version='1.0' encoding='utf-8'?>\n"+ET.tostring(tree,encoding='utf-8')

@@ -1,5 +1,7 @@
 # 0.480：修正文字类音乐符号偏小
 
+2026-10-19交付补记：当前安装目录的新EXE（SHA fec7e2ce…）已完成21组原生验证，5类实际尺寸与已校正0.500完全相同，证据`dist/current-size-audit-202/`、`current-host-audit-203.json`。专用滑音另由已验证0.71试用构建提供；字形与OTF未改。使用见[CURRENT_USAGE](CURRENT_USAGE.md)，完整交付见[FONT_DELIVERY](FONT_DELIVERY.md)。
+
 2026-10-19。用户提醒此前预览的mf、八度等比原来小。本次实际确认：**力度缩小是本项目的Text适配错误，不能归因用户原谱字号。** 0.470将同一音乐轮廓以相同EM尺寸写入Music和Text，两种使用路径的尺寸约定不同。此前原字符/最终Music OTF对照通过，不能证明Text放回谱面的实际大小正确。
 
 ## 同一谱距下的实测

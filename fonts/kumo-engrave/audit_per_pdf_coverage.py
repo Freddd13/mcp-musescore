@@ -97,7 +97,7 @@ def run(args):
     args.output.mkdir(parents=True,exist_ok=False)
     (args.output/'coverage.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print('9591 non-text keys partitioned: 5723 candidates + 3866 hidden + 2 U+0000')
-    print('5606 visible keys / 343 reviewed representatives / 104 targets already present')
+    print('5606 visible keys / 343 reviewed representatives / %d targets already present'%len(targets))
     print('117 blank keys / all 544 source positions accounted; fonts unchanged')
     print('Next: raw subset variants in 18 family/PDF pairs; no completion claim yet')
 
