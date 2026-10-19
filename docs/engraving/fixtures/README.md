@@ -1,5 +1,16 @@
 # 独立净书复现谱例
 
+## 跨表琶音：成员、分组与下表降号
+
+2026-10-20原创两小节4/4双谱表，CC0，无参考音乐转写；固定Leland／Leland Text、spatium 1.57mm、A4满行预算（控制条件，非出版模板）。m1低部C2以tie延续到m2；m2下部E♭3／G♭3／B♭3、上部E4／G4／B♭4另起。8头、2休止、7实际起音。文字明确拍上展开，原生间隔70ms，不是一般时序规范。
+
+- [自动跨表](arpeggio-continuous.mscx)／[图](arpeggio-continuous.png)：成员正确，下表降号与线相交。
+- [局部留白](arpeggio-continuous-clear.mscx)／[图](arpeggio-continuous-clear.png)：本例改善候选，仅共同Segment leadingSpace=1.4sp＋线offset=(-1.4,0)sp，保住对齐／成员，非全局预设。
+- [两组展开](arpeggio-separate.mscx)／[图](arpeggio-separate.png)：独立动作的正例，两手同时开始、各自展开，非连续版的等价美化；保留变音造成的两线错列。
+- [拉长拒绝版](arpeggio-extent-rejected.mscx)／[图](arpeggio-extent-rejected.png)：仅在留白版加userLen2=4.5sp，线达到延续低音，误示成员，完整MIDI相同仍拒绝。
+
+三种受控修改可逆回原XML；四版计量事件、tie、StaffLines／页预算保持。自动／留白／拉长完整MIDI一致，两组版不同。留白版单独做过原生重载，SVG除标题说明、PNG像素、MusicXML／MIDI保持；实际连续版MusicXML重导入却丢下表琶音和原生时序，不能替代原工程。详见[跨谱表专题](../CROSS_STAFF_STUDY.md)与[证据](../arpeggio_reading_evidence.json)。四PNG为180dpi原生渲染，仅合白底、同框裁页边，保留两小节完整两手；未移动／缩放符号。复现沿用下文CLI，输出与配置用独立路径；未做用户／打印／音响验收，官谱／教材不在CC0许可中。
+
 ## 装饰音与小字形计量音：相同头数仍能改错音乐
 
 2026-10-20新增原创两小节4/4，CC0，无参考音乐转写；固定Leland／Leland Text、spatium 1.57mm和相同A4满行预算（控制条件，非稀疏终行推荐）。[保留版](grace-identity-source.mscx)／[图](grace-identity-source.png)在m1第二拍G4前放三个grace16；[计量改写反例](grace-as-measured-rejected.mscx)／[图](grace-as-measured-rejected.png)将它们改成普通small十六分，同时把G4改成十六分以保持拍数。后者不是等价美化，不采用。

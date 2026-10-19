@@ -2,6 +2,8 @@
 
 更新：2026-10-20。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
 
+琶音续学见[跨表动作与成员](CROSS_STAFF_STUDY.md)：一根连续线与两根独立线的演奏分组不同；A089 p6的线也有理由不包延续低音。原创原生例用共同留白＋线偏移解下表降号相交，保留成员及对齐；拉长线虽同MIDI仍拒绝。候选原生重载保持，MusicXML实际却漏下表展开，已存复现，未开发软件补丁或新增用户审美定论。
+
 指法续学见[归属与附属符号](FINGERING_STUDY.md)：原创四小节保留合理的和弦堆叠与连音分类，拒绝碰到小节线的局部挪位和删替指／同指多音符号。实际MusicXML往返仍有20音、19指法，却把字形名称印成字母；原生重载保留，交换文件不能据数量替代。已补部分E35原生情境，未新增用户指法或软件功能。
 
 连音续学见[简洁与层级](TUPLET_READING.md)：把Sparkle的条件省写、lit的5／6变化和异分同步分别解释；原创四小节只省重复处数字，局部抬外层括号，解决其穿内层5的实际干扰。60音、13组及嵌套时值、完整MIDI、原生重载保持；全删数字版则拒绝。补齐Gould p208–209表图，数字与音头数、合成比例与层级分开读取。
@@ -52,7 +54,7 @@
 - [JUDGMENT_GUIDE.md](JUDGMENT_GUIDE.md)：八类音乐情境的正面判断、间距的五种原因、怎样应用到用户工程及开发先后。
 - [COMPLETION_REVIEW.md](COMPLETION_REVIEW.md)：本轮完成范围、来源访问限制、原件保护和后续任务边界。
 
-- [CROSS_STAFF_STUDY.md](CROSS_STAFF_STUDY.md)：副梁、休止、括号、slur与八度范围为何需要联合判断，含教材条件与官谱定位。
+- [CROSS_STAFF_STUDY.md](CROSS_STAFF_STUDY.md)：副梁、休止、括号、slur、八度及琶音的联合判断；含连续／独立展开、延续低音、降号避让的原生保留／拒绝例和MusicXML成员丢失实测。
 - [EXTERNAL_PRACTICE.md](EXTERNAL_PRACTICE.md)：星出和宏6/7mm同曲对照、MOLA适用范围、Dorico控制层次，以及LilyPond光学间距/加线/尺寸的实际图与源码核查；区分观察、实现机制和未做的对照。
 - [PREFERENCES.md](PREFERENCES.md)：明确偏好、未确认取舍、怎样让用户验收少量候选，以及跨任务怎样读取/应用知识。
 - [BEAM_STEM_STUDY.md](BEAM_STEM_STUDY.md)：梁坡、干长、梁与谱线/加线的黑白关系；结合新官谱与Gould p17–26解释出版观感，并区分现可调项和待验证开发方案。

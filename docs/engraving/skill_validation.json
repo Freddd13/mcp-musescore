@@ -1085,5 +1085,63 @@
     "initial_23_tests_not_claimed_rerun": true,
     "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
     "global_installation_or_app_discovery_performed": false
+  },
+  "follow_up_arpeggio_reading": {
+    "date": "2026-10-20",
+    "scope": "Existing cross-staff route reaches arpeggio membership/grouping study; native review reference updated only",
+    "locator_probe": {
+      "cwd": "C:/Windows",
+      "requested_topic": "cross-staff",
+      "exit_code": 0,
+      "output": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "cross-staff",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CROSS_STAFF_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+        ]
+      },
+      "new_study_reachable_from_existing_reference": true,
+      "invalid_crossstaff_alias_initially_rejected_then_correct_documented_topic_used": true
+    },
+    "script_sha256": "6c7e614aaf230eacbcde29c44163ba767d12937179428d877c78a71fa736d33b",
+    "native_reference_sha256": "1cab0c2f3efffe1ebb19b3517c8b3c5b81021a384d968b0b4d3701d635f65e83",
+    "evidence": "arpeggio_reading_evidence.json",
+    "changed_markdown_links": [
+      {
+        "path": "docs/engraving/CROSS_STAFF_STUDY.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/RULES_EXPANDED.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/BEHIND_BARS_NOTES.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/README.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/fixtures/README.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "local_links_resolve": true
+      }
+    ],
+    "initial_23_tests_not_claimed_rerun": true,
+    "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
+    "global_installation_or_app_discovery_performed": false
   }
 }

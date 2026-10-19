@@ -1,0 +1,800 @@
+{
+  "date": "2026-10-20",
+  "scope": "Original arpeggio membership and grouping study; no MuseScore, MCP, plugin or font development",
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "hash_same_before_and_after_exports": true,
+    "source_commit_correspondence_proven": false
+  },
+  "source_read_only": {
+    "head": "ec901d3559c4a7dd143c86390393e88ee2f59a27",
+    "files": [
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\arpeggio.cpp",
+        "sha256": "cd50c8c667c7d335666707a90631f433d030c7329bd59ae7dd1710aa962225ed"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\chord.cpp",
+        "sha256": "4bf70cd2b25d0a0415c55afc0229e0550c308926731b5ef0467b96ac2dc0ed65"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\playbacktiming.cpp",
+        "sha256": "89495d73cdead7a38d16f3b4c8776351b2d9314a8b7c4e3d33b8464c2ab3086b"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\property.cpp",
+        "sha256": "b74ebc253d3e19abf55ef0d3a7206bd4e76b1732e26d378e58d51696c8441ecd"
+      }
+    ],
+    "interpretation": "Current source context only; actual output establishes binary behavior"
+  },
+  "references": {
+    "book": {
+      "printed_pages_full_text_and_images_viewed": [
+        131,
+        132,
+        133
+      ],
+      "pdf_pages": [
+        151,
+        152,
+        153
+      ],
+      "p131_is_reread_p132_full_figure_gap_filled_p133_continuation_completed": true
+    },
+    "official": {
+      "id": "A089",
+      "relative_path": "Michishirube - Violet Evergarden - Ending Theme.pdf",
+      "pdf_page": 6,
+      "location": "Final system, final spread chord and tied bass from preceding bar",
+      "private_high_resolution_crop": "tmp/engraving/arpeggio-reading-2026-10-20/A089-ending-context.png",
+      "crop_at_scale_5_xyxy": [
+        180,
+        3300,
+        2820,
+        4080
+      ],
+      "visible_fact": "Single continuous sign spans new chords in both staves and stops above the lower held head, which is visibly tied from the preceding measure",
+      "inference_boundary": "PDF does not establish internal voice objects or exact playback timing"
+    },
+    "musicxml_primary": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/arpeggiate/"
+  },
+  "input": {
+    "music": "Original CC0 two-bar 4/4 piano; eight written notes, two rests, one logical C2 tie; no reference music copied",
+    "fonts": [
+      "Leland",
+      "Leland Text"
+    ],
+    "spatium_mm": 1.57,
+    "page": "A4, full-width final system is a control, not a publication recommendation",
+    "on_beat_instruction": "Spreads begin on the beat",
+    "explicit_timing_mode": 1,
+    "interval_ms": 70,
+    "metric_events": [
+      {
+        "staff": 1,
+        "measure": 1,
+        "voice_zero_based": 0,
+        "kind": "Rest",
+        "duration_type": "measure",
+        "duration": "4/4",
+        "notes": []
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "voice_zero_based": 0,
+        "kind": "Chord",
+        "duration_type": "whole",
+        "duration": null,
+        "notes": [
+          {
+            "pitch": "64",
+            "tpc": "18",
+            "tie_start": false,
+            "tie_stop": false
+          },
+          {
+            "pitch": "67",
+            "tpc": "15",
+            "tie_start": false,
+            "tie_stop": false
+          },
+          {
+            "pitch": "70",
+            "tpc": "12",
+            "tie_start": false,
+            "tie_stop": false
+          }
+        ]
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "voice_zero_based": 0,
+        "kind": "Rest",
+        "duration_type": "measure",
+        "duration": "4/4",
+        "notes": []
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "voice_zero_based": 1,
+        "kind": "Chord",
+        "duration_type": "whole",
+        "duration": null,
+        "notes": [
+          {
+            "pitch": "36",
+            "tpc": "14",
+            "tie_start": true,
+            "tie_stop": false
+          }
+        ]
+      },
+      {
+        "staff": 2,
+        "measure": 2,
+        "voice_zero_based": 0,
+        "kind": "Chord",
+        "duration_type": "whole",
+        "duration": null,
+        "notes": [
+          {
+            "pitch": "51",
+            "tpc": "11",
+            "tie_start": false,
+            "tie_stop": false
+          },
+          {
+            "pitch": "54",
+            "tpc": "8",
+            "tie_start": false,
+            "tie_stop": false
+          },
+          {
+            "pitch": "58",
+            "tpc": "12",
+            "tie_start": false,
+            "tie_stop": false
+          }
+        ]
+      },
+      {
+        "staff": 2,
+        "measure": 2,
+        "voice_zero_based": 1,
+        "kind": "Chord",
+        "duration_type": "whole",
+        "duration": null,
+        "notes": [
+          {
+            "pitch": "36",
+            "tpc": "14",
+            "tie_start": false,
+            "tie_stop": true
+          }
+        ]
+      }
+    ]
+  },
+  "controlled_changes": {
+    "arpeggio-continuous-clear": {
+      "from": "arpeggio-continuous",
+      "only_changes": [
+        "upper m2 Arpeggio offset=(-1.4,0)sp",
+        "shared m2 Segment leadingSpace=1.4sp"
+      ],
+      "inverse_xml_exact_after_indentation_normalization": true,
+      "reading_judgment": "Useful local candidate: sign clears lower accidental columns while retaining all members and common axis; no global preset"
+    },
+    "arpeggio-separate": {
+      "from": "arpeggio-continuous",
+      "only_changes": [
+        "upper Arpeggio span2 becomes span1",
+        "lower voice0 receives an independent upward Arpeggio with same timing fields"
+      ],
+      "inverse_xml_exact_after_indentation_normalization": true,
+      "reading_judgment": "Different musical grouping; valid only when two independent spreads are intended, not equivalent cosmetic candidate"
+    },
+    "arpeggio-extent-rejected": {
+      "from": "arpeggio-continuous-clear",
+      "only_changes": [
+        "Arpeggio userLen2=4.5sp"
+      ],
+      "inverse_xml_exact_after_indentation_normalization": true,
+      "reading_judgment": "Rejected: sign now reaches the already-held bass and suggests wrong membership despite identical playback"
+    }
+  },
+  "midi": {
+    "arpeggio-continuous": {
+      "ppq": 480,
+      "tempos": [
+        {
+          "track": 0,
+          "tick": 0,
+          "quarter": "0",
+          "microseconds_per_quarter": 500000,
+          "bpm": 120.0
+        }
+      ],
+      "note_on_tick_pitch": [
+        [
+          0,
+          36
+        ],
+        [
+          1920,
+          51
+        ],
+        [
+          1987,
+          54
+        ],
+        [
+          2054,
+          58
+        ],
+        [
+          2121,
+          64
+        ],
+        [
+          2188,
+          67
+        ],
+        [
+          2256,
+          70
+        ]
+      ]
+    },
+    "arpeggio-continuous-clear": {
+      "ppq": 480,
+      "tempos": [
+        {
+          "track": 0,
+          "tick": 0,
+          "quarter": "0",
+          "microseconds_per_quarter": 500000,
+          "bpm": 120.0
+        }
+      ],
+      "note_on_tick_pitch": [
+        [
+          0,
+          36
+        ],
+        [
+          1920,
+          51
+        ],
+        [
+          1987,
+          54
+        ],
+        [
+          2054,
+          58
+        ],
+        [
+          2121,
+          64
+        ],
+        [
+          2188,
+          67
+        ],
+        [
+          2256,
+          70
+        ]
+      ]
+    },
+    "arpeggio-separate": {
+      "ppq": 480,
+      "tempos": [
+        {
+          "track": 0,
+          "tick": 0,
+          "quarter": "0",
+          "microseconds_per_quarter": 500000,
+          "bpm": 120.0
+        }
+      ],
+      "note_on_tick_pitch": [
+        [
+          0,
+          36
+        ],
+        [
+          1920,
+          51
+        ],
+        [
+          1920,
+          64
+        ],
+        [
+          1987,
+          54
+        ],
+        [
+          1987,
+          67
+        ],
+        [
+          2054,
+          58
+        ],
+        [
+          2054,
+          70
+        ]
+      ]
+    },
+    "arpeggio-extent-rejected": {
+      "ppq": 480,
+      "tempos": [
+        {
+          "track": 0,
+          "tick": 0,
+          "quarter": "0",
+          "microseconds_per_quarter": 500000,
+          "bpm": 120.0
+        }
+      ],
+      "note_on_tick_pitch": [
+        [
+          0,
+          36
+        ],
+        [
+          1920,
+          51
+        ],
+        [
+          1987,
+          54
+        ],
+        [
+          2054,
+          58
+        ],
+        [
+          2121,
+          64
+        ],
+        [
+          2188,
+          67
+        ],
+        [
+          2256,
+          70
+        ]
+      ]
+    },
+    "arpeggio-clear-resaved": {
+      "ppq": 480,
+      "tempos": [
+        {
+          "track": 0,
+          "tick": 0,
+          "quarter": "0",
+          "microseconds_per_quarter": 500000,
+          "bpm": 120.0
+        }
+      ],
+      "note_on_tick_pitch": [
+        [
+          0,
+          36
+        ],
+        [
+          1920,
+          51
+        ],
+        [
+          1987,
+          54
+        ],
+        [
+          2054,
+          58
+        ],
+        [
+          2121,
+          64
+        ],
+        [
+          2188,
+          67
+        ],
+        [
+          2256,
+          70
+        ]
+      ]
+    },
+    "arpeggio-musicxml-imported": {
+      "ppq": 480,
+      "tempos": [
+        {
+          "track": 0,
+          "tick": 0,
+          "quarter": "0",
+          "microseconds_per_quarter": 500000,
+          "bpm": 120.0
+        }
+      ],
+      "note_on_tick_pitch": [
+        [
+          0,
+          36
+        ],
+        [
+          1920,
+          51
+        ],
+        [
+          1920,
+          54
+        ],
+        [
+          1920,
+          58
+        ],
+        [
+          1920,
+          64
+        ],
+        [
+          1983,
+          67
+        ],
+        [
+          2046,
+          70
+        ]
+      ]
+    }
+  },
+  "midi_bytes_equal": {
+    "continuous_clear_extent_rejected_and_clear_native_reload": true,
+    "separate_vs_continuous": false,
+    "musicxml_imported_vs_continuous": false
+  },
+  "graphics": {
+    "all_four_native_variants_have_identical_StaffLines_and_page_budget": true,
+    "note_axes_svg": {
+      "arpeggio-continuous": {
+        "m1_held_note_x_svg": 538.502,
+        "m2_all_seven_heads_x_svg": 1680.73,
+        "all_m2_heads_share_axis": true
+      },
+      "arpeggio-continuous-clear": {
+        "m1_held_note_x_svg": 538.502,
+        "m2_all_seven_heads_x_svg": 1711.88,
+        "all_m2_heads_share_axis": true
+      },
+      "arpeggio-separate": {
+        "m1_held_note_x_svg": 538.502,
+        "m2_all_seven_heads_x_svg": 1697.66,
+        "all_m2_heads_share_axis": true
+      },
+      "arpeggio-extent-rejected": {
+        "m1_held_note_x_svg": 538.502,
+        "m2_all_seven_heads_x_svg": 1711.88,
+        "all_m2_heads_share_axis": true
+      }
+    },
+    "m2_shared_axis_shift_base_to_clear_svg": 31.15000000000009,
+    "calibration_svg_units_per_sp": 22.251968503937007,
+    "separate_signs_x_svg": [
+      1625.34,
+      1659.21
+    ],
+    "separate_signs_difference_sp_approx": 1.5221125265392834,
+    "visually_reviewed": [
+      "arpeggio-continuous",
+      "arpeggio-continuous-clear",
+      "arpeggio-separate",
+      "arpeggio-extent-rejected",
+      "arpeggio-musicxml-imported"
+    ],
+    "visual_overlap_control": "Automatic continuous sign intersects lower accidental ink in this input; clear candidate opens the required corridor, held bass excluded",
+    "path_count_warning": "One logical wavy sign emits several SVG glyph paths; not one sign per path",
+    "not_claimed": [
+      "general collision detector",
+      "all other geometry unchanged",
+      "user aesthetic acceptance",
+      "print or audio audition"
+    ]
+  },
+  "native_reload_clear": {
+    "source": "arpeggio-continuous-clear.mscx",
+    "saved": "tmp\\engraving\\arpeggio-reading-2026-10-20\\native\\arpeggio-clear-resaved.mscx",
+    "metric_events_and_tie_preserved": true,
+    "span_offset_leading_space_and_timing_fields_preserved": true,
+    "svg_equal_except_title_desc": true,
+    "png_pixels_equal": true,
+    "musicxml_bytes_equal": true,
+    "midi_bytes_equal": true
+  },
+  "musicxml": {
+    "exports": {
+      "arpeggio-continuous": {
+        "version": "4.0",
+        "members": [
+          {
+            "staff": "1",
+            "step": "E",
+            "alter": null,
+            "octave": "4",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-29.60",
+                "default-y": "-14.56"
+              }
+            ]
+          },
+          {
+            "staff": "1",
+            "step": "G",
+            "alter": null,
+            "octave": "4",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-29.60",
+                "default-y": "-14.56"
+              }
+            ]
+          },
+          {
+            "staff": "1",
+            "step": "B",
+            "alter": "-1",
+            "octave": "4",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-29.60",
+                "default-y": "-14.56"
+              }
+            ]
+          }
+        ]
+      },
+      "arpeggio-continuous-clear": {
+        "version": "4.0",
+        "members": [
+          {
+            "staff": "1",
+            "step": "E",
+            "alter": null,
+            "octave": "4",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-29.60",
+                "default-y": "-14.56",
+                "relative-x": "-14.00"
+              }
+            ]
+          },
+          {
+            "staff": "1",
+            "step": "G",
+            "alter": null,
+            "octave": "4",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-29.60",
+                "default-y": "-14.56",
+                "relative-x": "-14.00"
+              }
+            ]
+          },
+          {
+            "staff": "1",
+            "step": "B",
+            "alter": "-1",
+            "octave": "4",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-29.60",
+                "default-y": "-14.56",
+                "relative-x": "-14.00"
+              }
+            ]
+          }
+        ]
+      },
+      "arpeggio-separate": {
+        "version": "4.0",
+        "members": [
+          {
+            "staff": "1",
+            "step": "E",
+            "alter": null,
+            "octave": "4",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-29.60",
+                "default-y": "-14.56"
+              }
+            ]
+          },
+          {
+            "staff": "1",
+            "step": "G",
+            "alter": null,
+            "octave": "4",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-29.60",
+                "default-y": "-14.56"
+              }
+            ]
+          },
+          {
+            "staff": "1",
+            "step": "B",
+            "alter": "-1",
+            "octave": "4",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-29.60",
+                "default-y": "-14.56"
+              }
+            ]
+          },
+          {
+            "staff": "2",
+            "step": "E",
+            "alter": "-1",
+            "octave": "3",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-44.82",
+                "default-y": "10.44"
+              }
+            ]
+          },
+          {
+            "staff": "2",
+            "step": "G",
+            "alter": "-1",
+            "octave": "3",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-44.82",
+                "default-y": "10.44"
+              }
+            ]
+          },
+          {
+            "staff": "2",
+            "step": "B",
+            "alter": "-1",
+            "octave": "3",
+            "arpeggiate": [
+              {
+                "direction": "up",
+                "default-x": "-44.82",
+                "default-y": "10.44"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "continuous_lower_members_omitted_in_actual_export": true,
+    "separate_export_omits_group_number_and_unbroken": true,
+    "actual_continuous_import": {
+      "written_events_and_tie_preserved_after_explicit_whole_rest_fraction_normalization": true,
+      "measure_rest_duration_spellings": [
+        {
+          "staff": 1,
+          "measure": 1,
+          "source": "4/4",
+          "imported": "1/1",
+          "fraction_equivalent": true
+        },
+        {
+          "staff": 2,
+          "measure": 1,
+          "source": "4/4",
+          "imported": "1/1",
+          "fraction_equivalent": true
+        }
+      ],
+      "arpeggio_count": 1,
+      "span": 1,
+      "timing_mode_default": 0,
+      "explicit_70ms_lost": true,
+      "lower_staff_has_no_arpeggio": true,
+      "figure_review": "Actual native import is a short upper-staff sign, lower chord no sign; page and spacing also change"
+    },
+    "format_limitation_claimed": false,
+    "cause_boundary": "Changed MIDI after import combines membership loss and missing native timing fields; not attributed to grouping alone"
+  },
+  "published_original_fixtures": [
+    {
+      "path": "docs/engraving/fixtures/arpeggio-continuous.mscx",
+      "sha256": "69d272c2cc99fddad6d81f236afe9a9ab79414d9cc9ef02adac05cb6b4934e38"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-continuous.png",
+      "sha256": "46f27708cce31a0ddf3684a9ca6a1142e57d8f0cdacfec31d35f33f6dc69c8e0"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-continuous-clear.mscx",
+      "sha256": "79b73048bb2e4e4dd885dc1fab3712c10885551f7f8dfb7f1eba8b0b8ac4d072"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-continuous-clear.png",
+      "sha256": "e2702f3fc90b5d0b27349ae3a2f991399d6e66db023689790f6accb604429e23"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-separate.mscx",
+      "sha256": "a03e32c925304e9b9d56047ec5f1348e0daea71fbc201be3a26128243ff62d8e"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-separate.png",
+      "sha256": "2982117c08773512784a887e2f5317519df3cc49c2047d9d5446dd12e9f9a417"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-extent-rejected.mscx",
+      "sha256": "ac9bafb117135688e5a6fb8e32f2b51e40d8f6f1f8a5ea9b231ab749fb2fbf28"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-extent-rejected.png",
+      "sha256": "ea353228b14255c823e6de527da8ae0482ea3eb179e7909928b2ce0cadadffee"
+    }
+  ],
+  "protection": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Michishirube - Violet Evergarden - Ending Theme.pdf",
+      "current_sha256": "a86101b56a9529be5937fd1c63b41b9df2d968d969f7e558f946c38bd371c9a3",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "current_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "current_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "equals_prior_read_only_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "current_sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "equals_prior_read_only_baseline": true
+    }
+  ],
+  "not_performed": [
+    "source core modifications",
+    "plugin or MCP development",
+    "current GUI operation",
+    "MusicXML repair",
+    "separate MusicXML roundtrip",
+    "complete arpeggio chapter coverage",
+    "global skill installation",
+    "new user preference inference"
+  ]
+}
