@@ -51,6 +51,12 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 
 复现坡度对照可直接按本页导出命令运行两个`.mscx`；复现导入限制则先把原始`.musicxml`导成独立`.mscx`，再导出独立MusicXML，检查m7／8第2、3、6、7个起音的`beam number="4"`。本轮没有修改宿主或为第四层制作视觉补丁。源码／宿主哈希、正文页和参考谱复核见证据；原书、官谱和用户音乐不在本fixture许可中。
 
+## 双部二度的附点归属与变化同音自动样张
+
+[自动版](seconds-dots-automatic.mscx)／[图](seconds-dots-automatic.png)与[m2换列候选](seconds-dots-between.mscx)／[图](seconds-dots-between.png)为原创八小节3/4，CC0，无参考摘录；固定Leland／Leland Text及版心，m4后换行。m1–6分别保留普通／交叠和单部／双部带点，m7／8观察双部及单和弦的C／C♯。仅m2候选增加两个Chord offset（上干部x=-1.4，下干部x=2.5，y=0），让点隔开两部；不是全局错位预设。
+
+29音、19附点、MusicXML非布局、MIDI及候选保存重载均按此情境核查；两张PNG同裁框保留完整两系统。最终使用固定新宿主`7b4e6f…aa25`，不能与此前`fec7e2…cd77`的输出拼成参数对照；按本页原生CLI重画时记录实际宿主。理由、额外占宽和未做的斜接／分叉干候选见[二度归属](../SECONDS_OWNERSHIP.md)及[证据](../seconds_ownership_evidence.json)。
+
 ## 同音异时值与附点：按情境共头
 
 以下是独立原创四小节3/4练习，CC0，无用户／官谱摘录；同一Leland／Leland Text和版心。上表两voice，下表一voice，31个音符、8个逻辑附点：

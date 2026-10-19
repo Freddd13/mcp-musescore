@@ -555,5 +555,22 @@
     "worked_example": "Existing private score m89/99/101/103, same agent, no original edits.",
     "evidence": "unison_dots_evidence.json",
     "independent_behavior_test_or_user_approval_claimed": false
+  },
+  "follow_up_seconds_ownership": {
+    "date": "2026-10-19",
+    "scope": "Knowledge and native-review reference update only; SKILL.md, UI metadata and locator code unchanged.",
+    "native_reference_sha256": "b283e6aa9b7bd127a689c40056e953daaf88ec56e4630584f6a0c375f809b131",
+    "topic_reference_paths": {
+      "notation": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md"
+      ],
+      "piano": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+      ]
+    },
+    "new_study_reachable_from_both_topics": true,
+    "evidence": "seconds_ownership_evidence.json",
+    "no_independent_behavior_or_aesthetic_evaluation_claimed": true
   }
 }
