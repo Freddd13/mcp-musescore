@@ -44,6 +44,7 @@
 - [UNISON_DOTS_STUDY.md](UNISON_DOTS_STUDY.md)：分头／共头的情境、附点归属、隐藏音头与播放角色；用户工程保留判断和三版原创原生对照。
 - [ACCIDENTAL_SPACING.md](ACCIDENTAL_SPACING.md)：变音列的轮廓与归属、调号反例、参数的前方占宽作用、四条件原生实验和二度外框中心误判。
 - [RHYTHM_READING.md](RHYTHM_READING.md)：主／内梁、休止、持续、切分与换拍；旗尾须先核省略连音，拆长值换梁与swing解释分别判断，含原创原生保留／拆写对照。
+- [NOTATION_DETAILS.md](NOTATION_DETAILS.md)：附点、变音、连音与装饰音；续核“拍上开始、图形在前、正常音列对齐”并存，原创原生区分grace、小字形计量音和cue身份，不用音数／合拍替代音乐保护。
 - [USER_SPACING_APPLICATION.md](USER_SPACING_APPLICATION.md)：《如果有来生》m49–52实际副本的两类调整、失败尝试、共同时间轴与整页连带效果；技术成功与阅读收益分开。
 - [SPACING_CANDIDATES.md](SPACING_CANDIDATES.md)：同版心原生间距候选、含变音的拒绝案例及密集谱2+2分行备选；解释收益、空间代价和控制范围。
 - [PIANO_TEXTURE_STUDY.md](PIANO_TEXTURE_STUDY.md)：手／声部／谱表的区别、可省与不可省的休止、用户四谱表的阅读理由、指法与踏板的条件反例；含“数据不变但视觉提示变差”的原创原生对照。
