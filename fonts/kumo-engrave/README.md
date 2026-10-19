@@ -1,5 +1,7 @@
 # Kumo Score Study 0.500 与历史原型
 
+**实谱评审更新：0.500尚未达到用户期望的观感，暂不作为完成的替换方案推荐。** 本次确认真实原生Leland的8页在换字体后变成9页，括号名称分支已复现；八度数字8只有真实原版约61%，此前改名Control尺寸基线不足。mf约96%的结论仍成立。覆盖完成与实用／审美验收分开，见 [APPEARANCE_REVIEW](APPEARANCE_REVIEW.md)；下文保留此次评审前的交付与历史记录。
+
 **2026-10-19交付：字体制作与所给146份／1,135页官谱的音乐符号覆盖已完成。** 处理112个码位，97个含三次曲线，完整保留Leland底库；实际资源扫描覆盖422个资源、8,502资源／编码键和854,812源字符。347个可见代表对应105个已有角色，空白、隐藏组和全路径谱均已有结案证据。范围与逐项核查见 [FONT_DELIVERY](FONT_DELIVERY.md)。
 
 直接参照 [CURRENT_USAGE](CURRENT_USAGE.md)：本机包 `dist/kumo-score-study-0.500-complete-local.zip`。它补全资料、保留原0.500的两份OTF／JSON，已安装0.500者无需重复装字体。新安装时把 **Kumo Score Study** 与 **Kumo Score Study Text** 两个完整文件夹放到Evolution的Score Fonts目录，重启并在独立谱副本同时选择两家族；保持原谱距和字号。不需要重装MCP、skill或Windows字体。

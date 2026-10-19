@@ -1,5 +1,7 @@
 # 使用 Kumo Score Study 0.500
 
+**当前评审状态：暂不建议作为完成版本替换原谱。** 用户未感到明显观感改善；真实原字体对照还发现八度数字偏小及8→9页的括号兼容问题。旧包和试用副本保留，范围、尺寸结论的更正及下一步见 [APPEARANCE_REVIEW](APPEARANCE_REVIEW.md)。下列安装方法可用于继续试验。
+
 本机个人音乐字体，以所给 Animenz 官谱为参考，处理112个码位，保留完整Leland底库及未改字形。音乐字体502字形、配套Text字体266字形。全目录覆盖说明见 [FONT_DELIVERY](FONT_DELIVERY.md)；独立于MCP和skill安装。
 
 ## 安装和选择
