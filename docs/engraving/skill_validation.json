@@ -1293,5 +1293,66 @@
     "initial_23_tests_not_claimed_rerun": true,
     "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
     "global_installation_or_app_discovery_performed": false
+  },
+  "follow_up_page_hierarchy": {
+    "date": "2026-10-20",
+    "scope": "Added concise page hierarchy and PDF geometry guidance in SKILL.md; existing layout route reaches new case through PAGE_FLOW_STUDY. Locator and UI metadata unchanged.",
+    "locator_probe_from_C_Windows": {
+      "repository": "E:\\programming\\funcodes\\mcp-musescore",
+      "repository_resolution": "skill-realpath",
+      "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+      "topic": "layout",
+      "start_here": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+      ],
+      "references": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PAGE_FLOW_STUDY.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_DECISIONS.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\EXTERNAL_PRACTICE.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CASES.md"
+      ]
+    },
+    "new_study_reachable_from_existing_route": true,
+    "script_sha256": "6c7e614aaf230eacbcde29c44163ba767d12937179428d877c78a71fa736d33b",
+    "skill_main_sha256": "77c52e67018cd7732453707bba171642273794c3b72ba2d2f49c9470c979484c",
+    "evidence": "page_hierarchy_evidence.json",
+    "changed_markdown_links": [
+      {
+        "path": "docs/engraving/PAGE_HIERARCHY.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/PAGE_FLOW_STUDY.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/BEHIND_BARS_NOTES.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/README.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "docs/engraving/FOUNDATION_REVIEW.md",
+        "local_links_resolve": true
+      },
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "local_links_resolve": true
+      }
+    ],
+    "initial_23_tests_not_claimed_rerun": true,
+    "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
+    "global_installation_or_app_discovery_performed": false,
+    "system_quick_validate": {
+      "result": "passed",
+      "runtime": "project .venv/Scripts/python.exe",
+      "yaml_version": "6.0.3",
+      "initial_bundled_python_attempt": "failed because PyYAML unavailable; existing project venv reused without dependency installation",
+      "scope": "Frontmatter/naming/scaffold validation only; not independent decision quality testing"
+    }
   }
 }

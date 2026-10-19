@@ -1,0 +1,520 @@
+{
+  "date": "2026-10-20",
+  "previous_goal_turn": "progress: committed and pushed 235ee22 with user page 4 pedal study",
+  "scope": "Page hierarchy, staff versus inter-system whitespace, scale and navigation; read-only research, no edition changes",
+  "book": {
+    "full_text_and_images_printed": [
+      481,
+      482,
+      483,
+      484,
+      485,
+      486,
+      487,
+      488,
+      489,
+      490
+    ],
+    "pdf_pages": [
+      501,
+      502,
+      503,
+      504,
+      505,
+      506,
+      507,
+      508,
+      509,
+      510
+    ],
+    "prior_notes_already_recorded_full_images": [
+      488,
+      489,
+      490
+    ],
+    "earlier_new_coverage_claim_not_assumed": true,
+    "locator_only_not_full_figure_reading": {
+      "printed": [
+        562,
+        563,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574
+      ],
+      "reason": "part-preparation chapter locator; not used to claim mastery or completed cue study"
+    }
+  },
+  "official_full_pages_revisited": {
+    "A035": [
+      3,
+      4
+    ],
+    "A037": [
+      5,
+      6
+    ],
+    "A007": [
+      6,
+      7
+    ]
+  },
+  "official_corpus_near_read_counter_not_incremented": true,
+  "user_full_pages_revisited": [
+    3,
+    4
+  ],
+  "geometry_method": {
+    "library": "pdfplumber",
+    "pdf_points_per_inch": 72,
+    "staff_line_detection": "Union same-Y horizontal segments within 0.03pt; visible interval coverage >70% page width; groups of five with individual steps between 3 and 5.5pt; grouped into systems after complete visual review",
+    "outer_measurement": "staff-line boundaries, not symbol ink bounds; upper and lower symbols and footer excluded from this metric by definition",
+    "not_a_general_PDF_geometry_or_collision_detector": true,
+    "A037_negative_off_page_lines": "Wholly outside page long lines excluded; matches 60/50 visible staff strokes in images, rather than 110/100 raw. No claim this removes arbitrary PDF clipping complexities.",
+    "blank_band_method": "Read-only 144dpi PDFium render, threshold 127. Longest completely white shared horizontal strip across 3.5%-96% page width, within each adjacent-system staff-line corridor. Raster diagnostic for these specimens, not an ink silhouette, nearest-neighbor distance or general collision score; resolution 0.5pt.",
+    "zero_blank_band_example": {
+      "id": "A035",
+      "page": 3,
+      "between_systems": [
+        1,
+        2
+      ],
+      "full_page_and_unscaled_crop_viewed": true,
+      "finding": "No shared full-width white band does not establish a collision: hairpin, continued 8va, high notes and curves occupy different X regions. Do not turn the scalar into a spacing target."
+    }
+  },
+  "measurements": [
+    {
+      "id": "A035",
+      "page": 3,
+      "paper_mm": [
+        210.016,
+        297.011
+      ],
+      "staff_height_median_mm": 6.0113,
+      "staff_height_median_pt": 17.03998,
+      "system_count": 6,
+      "between_system_clearances_pt": [
+        57.35998,
+        57.36001,
+        57.48001,
+        57.48001,
+        57.36003
+      ],
+      "top_staff_line_pt": 72.11996,
+      "bottom_staff_line_pt": 767.63997,
+      "whole_outside_long_lines_excluded": 0,
+      "staff_inner_clearances_per_system_pt": [
+        [
+          34.08
+        ],
+        [
+          34.08
+        ],
+        [
+          34.08
+        ],
+        [
+          33.96002
+        ],
+        [
+          34.08
+        ],
+        [
+          34.08
+        ]
+      ],
+      "shared_blank_band_widths_144dpi_pt": [
+        0.0,
+        6.0,
+        12.0,
+        16.0,
+        4.5
+      ]
+    },
+    {
+      "id": "A035",
+      "page": 4,
+      "paper_mm": [
+        210.016,
+        297.011
+      ],
+      "staff_height_median_mm": 6.0113,
+      "staff_height_median_pt": 17.03999,
+      "system_count": 5,
+      "between_system_clearances_pt": [
+        88.92,
+        88.79997,
+        88.92,
+        89.04003
+      ],
+      "top_staff_line_pt": 72.11996,
+      "bottom_staff_line_pt": 768.11998,
+      "whole_outside_long_lines_excluded": 0,
+      "staff_inner_clearances_per_system_pt": [
+        [
+          34.08
+        ],
+        [
+          34.08
+        ],
+        [
+          34.07996
+        ],
+        [
+          34.08
+        ],
+        [
+          33.96002
+        ]
+      ],
+      "shared_blank_band_widths_144dpi_pt": [
+        61.5,
+        58.5,
+        56.0,
+        51.5
+      ]
+    },
+    {
+      "id": "A037",
+      "page": 5,
+      "paper_mm": [
+        185.208,
+        261.938
+      ],
+      "staff_height_median_mm": 5.4268,
+      "staff_height_median_pt": 15.3831,
+      "system_count": 6,
+      "between_system_clearances_pt": [
+        51.7826,
+        51.7827,
+        51.891,
+        51.8909,
+        51.7826
+      ],
+      "top_staff_line_pt": 65.1086,
+      "bottom_staff_line_pt": 692.9998,
+      "whole_outside_long_lines_excluded": 50,
+      "staff_inner_clearances_per_system_pt": [
+        [
+          30.7663
+        ],
+        [
+          30.7663
+        ],
+        [
+          30.7662
+        ],
+        [
+          30.6579
+        ],
+        [
+          30.7663
+        ],
+        [
+          30.7663
+        ]
+      ],
+      "shared_blank_band_widths_144dpi_pt": [
+        2.0,
+        8.0,
+        15.0,
+        8.5,
+        0.5
+      ]
+    },
+    {
+      "id": "A037",
+      "page": 6,
+      "paper_mm": [
+        185.208,
+        261.938
+      ],
+      "staff_height_median_mm": 5.4268,
+      "staff_height_median_pt": 15.3831,
+      "system_count": 5,
+      "between_system_clearances_pt": [
+        80.2739,
+        80.1654,
+        80.2739,
+        80.3823
+      ],
+      "top_staff_line_pt": 65.1086,
+      "bottom_staff_line_pt": 693.4332,
+      "whole_outside_long_lines_excluded": 50,
+      "staff_inner_clearances_per_system_pt": [
+        [
+          30.7663
+        ],
+        [
+          30.7662
+        ],
+        [
+          30.7662
+        ],
+        [
+          30.7662
+        ],
+        [
+          30.6579
+        ]
+      ],
+      "shared_blank_band_widths_144dpi_pt": [
+        29.5,
+        23.0,
+        40.5,
+        52.5
+      ]
+    },
+    {
+      "id": "A007",
+      "page": 6,
+      "paper_mm": [
+        210.0,
+        297.0
+      ],
+      "staff_height_median_mm": 5.969,
+      "staff_height_median_pt": 16.92,
+      "system_count": 6,
+      "between_system_clearances_pt": [
+        61.44,
+        63.36,
+        63.72,
+        48.0,
+        54.0
+      ],
+      "top_staff_line_pt": 75.36,
+      "bottom_staff_line_pt": 766.8,
+      "whole_outside_long_lines_excluded": 0,
+      "staff_inner_clearances_per_system_pt": [
+        [
+          29.64
+        ],
+        [
+          29.64
+        ],
+        [
+          32.64
+        ],
+        [
+          36.6
+        ],
+        [
+          37.08
+        ],
+        [
+          32.16
+        ]
+      ],
+      "shared_blank_band_widths_144dpi_pt": [
+        8.0,
+        11.0,
+        9.0,
+        6.5,
+        18.5
+      ]
+    },
+    {
+      "id": "A007",
+      "page": 7,
+      "paper_mm": [
+        210.0,
+        297.0
+      ],
+      "staff_height_median_mm": 6.0113,
+      "staff_height_median_pt": 17.04,
+      "system_count": 6,
+      "between_system_clearances_pt": [
+        53.04,
+        58.68,
+        59.64,
+        81.96,
+        74.64
+      ],
+      "top_staff_line_pt": 75.36,
+      "bottom_staff_line_pt": 766.68,
+      "whole_outside_long_lines_excluded": 0,
+      "staff_inner_clearances_per_system_pt": [
+        [
+          29.64
+        ],
+        [
+          25.32
+        ],
+        [
+          28.44
+        ],
+        [
+          25.32
+        ],
+        [
+          25.32
+        ],
+        [
+          25.44
+        ]
+      ],
+      "shared_blank_band_widths_144dpi_pt": [
+        13.0,
+        11.5,
+        9.0,
+        16.5,
+        4.0
+      ]
+    },
+    {
+      "id": "USER",
+      "page": 3,
+      "paper_mm": [
+        209.903,
+        297.039
+      ],
+      "staff_height_median_mm": 6.28,
+      "staff_height_median_pt": 17.80157,
+      "system_count": 5,
+      "between_system_clearances_pt": [
+        82.12283,
+        82.12283,
+        82.12284,
+        82.12283
+      ],
+      "top_staff_line_pt": 64.8913,
+      "bottom_staff_line_pt": 753.52936,
+      "whole_outside_long_lines_excluded": 0,
+      "staff_inner_clearances_per_system_pt": [
+        [
+          37.73381
+        ],
+        [
+          32.84913
+        ],
+        [
+          32.84913
+        ],
+        [
+          35.66747
+        ],
+        [
+          43.03144
+        ]
+      ],
+      "shared_blank_band_widths_144dpi_pt": [
+        43.5,
+        35.5,
+        32.0,
+        21.0
+      ]
+    },
+    {
+      "id": "USER",
+      "page": 4,
+      "paper_mm": [
+        209.903,
+        297.039
+      ],
+      "staff_height_median_mm": 6.28,
+      "staff_height_median_pt": 17.80157,
+      "system_count": 5,
+      "between_system_clearances_pt": [
+        73.83441,
+        73.83441,
+        73.83441,
+        73.83441
+      ],
+      "top_staff_line_pt": 62.33387,
+      "bottom_staff_line_pt": 773.57843,
+      "whole_outside_long_lines_excluded": 0,
+      "staff_inner_clearances_per_system_pt": [
+        [
+          45.48442
+        ],
+        [
+          44.56232
+        ],
+        [
+          31.15286
+        ],
+        [
+          36.2123
+        ],
+        [
+          31.15286,
+          31.52485
+        ]
+      ],
+      "shared_blank_band_widths_144dpi_pt": [
+        20.5,
+        11.0,
+        21.0,
+        28.0
+      ]
+    }
+  ],
+  "protection": [
+    {
+      "id": "A035",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Dango Daikazoku  - CLANNAD - Ending Theme.pdf",
+      "sha256": "2350a407c21323009e7770f4b32bcd30bc40af0221f620326c3071c70c5c24a7",
+      "matches_prior_inventory_or_baseline": true,
+      "unchanged_after_analysis": true
+    },
+    {
+      "id": "A037",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Departures - Guilty Crown - 1st Ending Theme.pdf",
+      "sha256": "d3969bde440269e6daadcd2f6c3a09c705cd33f96915ddc9de987addd742db28",
+      "matches_prior_inventory_or_baseline": true,
+      "unchanged_after_analysis": true
+    },
+    {
+      "id": "A007",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\A Cruel Angel's Thesis - Neon Genesis Evangelion - Opening Theme.pdf",
+      "sha256": "ec49b475bbe8c7ad5d3b7a5667998228ac9d8c3c4440ecfe17ca11f9300e4926",
+      "matches_prior_inventory_or_baseline": true,
+      "unchanged_after_analysis": true
+    },
+    {
+      "id": "USER",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "matches_prior_inventory_or_baseline": true,
+      "unchanged_after_analysis": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "matches_prior_baseline": true,
+      "unchanged_after_analysis": true
+    }
+  ],
+  "not_performed": [
+    "original PDF or MSCZ modification",
+    "native layout trial",
+    "GUI operation",
+    "MCP/plugin/core development",
+    "global skill install",
+    "blind reader or user preference test",
+    "actual-size printing or page-turn performance",
+    "publisher-intent reconstruction"
+  ],
+  "private_book_images": "tmp/engraving/system-boundaries-2026-10-20/book-501.jpg through book-510.jpg",
+  "private_official_images": "tmp/engraving/corpus/<ID>/page-<N>.jpg",
+  "raw_music_or_book_images_in_Git": false,
+  "interpretation": {
+    "A035_A037": "Staff inner clearances remain about two staff heights as six systems become five, keeping top and bottom staff levels near the preceding page and distributing extra budget mainly between systems. Continuity does not prove facing-page configuration or the publisher editing process.",
+    "A007": "Both within-system and between-system spacing vary. In the last page lower 8va, pedal, N/tempo and upper 8va occupy different exterior lanes.",
+    "USER": "Raw between-system staff clearance is equal within each selected page, while shared visible blank bands vary. This is a screening reason to compare local grouping, not proof the defaults alone caused it or that all visible blank bands should become equal.",
+    "scale": "A037 is a smaller PDF paper and approximately 5.43mm staff; A035/A007 about 6mm, user about 6.28mm. Do not assume equal screen widths mean equal printing or turn this into a global size recommendation."
+  },
+  "private_crop_review": [
+    "tmp/engraving/system-boundaries-2026-10-20/A035-p3-boundary.png",
+    "tmp/engraving/system-boundaries-2026-10-20/A007-p7-boundary.png"
+  ]
+}
