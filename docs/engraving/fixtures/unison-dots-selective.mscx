@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <Score>
+    <Division>480</Division>
+    <Style>
+      <Spatium>1.57</Spatium>
+      <musicalSymbolFont>Leland</musicalSymbolFont>
+      <musicalTextFont>Leland Text</musicalTextFont>
+      <pageWidth>8.26772</pageWidth>
+      <pageHeight>11.6929</pageHeight>
+      <pageOddLeftMargin>0.59</pageOddLeftMargin>
+      <pageEvenLeftMargin>0.59</pageEvenLeftMargin>
+      <pagePrintableWidth>7.08772</pagePrintableWidth>
+      <measureSpacing>1.2</measureSpacing>
+      <minNoteDistance>0.2</minNoteDistance>
+    <enableVerticalSpread>0</enableVerticalSpread></Style>
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>std</name>
+          <lines>5</lines>
+        </StaffType>
+        <bracket type="1" span="2" col="0" />
+      </Staff>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>std</name>
+          <lines>5</lines>
+        </StaffType>
+        <defaultClef>F</defaultClef>
+      </Staff>
+      <trackName>Piano</trackName>
+      <Instrument>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <instrumentId>keyboard.piano</instrumentId>
+        <Channel>
+          <program value="0" />
+          <controller ctrl="7" value="100" />
+          <synti>Fluid</synti>
+        </Channel>
+      </Instrument>
+    </Part>
+    <Staff id="1">
+      <Measure><voice><Clef><concertClefType>G</concertClefType><transposingClefType>G</transposingClefType></Clef><TimeSig><sigN>3</sigN><sigD>4</sigD></TimeSig><Chord><dots>1</dots><durationType>quarter</durationType><Note><pitch>72</pitch><tpc>14</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>74</pitch><tpc>16</tpc></Note></Chord><Chord><durationType>quarter</durationType><Note><pitch>76</pitch><tpc>18</tpc></Note></Chord></voice><voice><Chord><durationType>quarter</durationType><Note><pitch>72</pitch><tpc>14</tpc></Note></Chord><Chord><durationType>quarter</durationType><Note><pitch>71</pitch><tpc>19</tpc></Note></Chord><Chord><durationType>quarter</durationType><Note><pitch>69</pitch><tpc>17</tpc></Note></Chord></voice></Measure><Measure><voice><Chord><dots>1</dots><durationType>quarter</durationType><Note><pitch>71</pitch><tpc>19</tpc><headType>quarter</headType></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>72</pitch><tpc>14</tpc></Note></Chord><Chord><durationType>quarter</durationType><Note><pitch>74</pitch><tpc>16</tpc></Note></Chord></voice><voice><Chord><durationType>eighth</durationType><Note><pitch>71</pitch><tpc>19</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>65</pitch><tpc>13</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>69</pitch><tpc>17</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>65</pitch><tpc>13</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>67</pitch><tpc>15</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>65</pitch><tpc>13</tpc></Note></Chord></voice></Measure><Measure><voice><Chord><dots>1</dots><durationType>quarter</durationType><Note><pitch>69</pitch><tpc>17</tpc><headType>quarter</headType></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>71</pitch><tpc>19</tpc></Note></Chord><Chord><durationType>quarter</durationType><Note><pitch>72</pitch><tpc>14</tpc></Note></Chord></voice><voice><Chord><durationType>eighth</durationType><Note><pitch>69</pitch><tpc>17</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>64</pitch><tpc>18</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>67</pitch><tpc>15</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>64</pitch><tpc>18</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>65</pitch><tpc>13</tpc></Note></Chord><Chord><durationType>eighth</durationType><Note><pitch>64</pitch><tpc>18</tpc></Note></Chord></voice></Measure><Measure><voice><Chord><dots>1</dots><durationType>half</durationType><Note><pitch>84</pitch><tpc>14</tpc></Note></Chord></voice><voice><Chord><durationType>half</durationType><Note><pitch>84</pitch><tpc>14</tpc></Note></Chord><Chord><durationType>quarter</durationType><Note><pitch>83</pitch><tpc>19</tpc></Note></Chord></voice></Measure></Staff>
+    <Staff id="2">
+      <Measure><voice><Clef><concertClefType>F</concertClefType><transposingClefType>F</transposingClefType></Clef><TimeSig><sigN>3</sigN><sigD>4</sigD></TimeSig><Chord><dots>1</dots><durationType>half</durationType><Note><pitch>48</pitch><tpc>14</tpc></Note></Chord></voice></Measure><Measure><voice><Chord><dots>1</dots><durationType>half</durationType><Note><pitch>50</pitch><tpc>16</tpc></Note></Chord></voice></Measure><Measure><voice><Chord><dots>1</dots><durationType>half</durationType><Note><pitch>52</pitch><tpc>18</tpc></Note></Chord></voice></Measure><Measure><voice><Chord><dots>1</dots><durationType>half</durationType><Note><pitch>53</pitch><tpc>13</tpc></Note></Chord></voice></Measure></Staff>
+  </Score>
+</museScore>

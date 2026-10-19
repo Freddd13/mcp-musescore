@@ -50,3 +50,13 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 **MusicXML原输入与原生导入结果并非记法完全等同。** m7／8第四层要求单独断开的end／begin在导入后丢失，第三层仍保留。源输入共有44个梁层分段起点，原生导出及SVG为40；具体8个标签差异已记录。音高／时值等保持，下谱表单线voice标签2→5及未指定干向→up单独核对。不能由两个原生版互相一致反推导入无损，也不能以MusicXML往返作为一般原工程的完整保护。
 
 复现坡度对照可直接按本页导出命令运行两个`.mscx`；复现导入限制则先把原始`.musicxml`导成独立`.mscx`，再导出独立MusicXML，检查m7／8第2、3、6、7个起音的`beam number="4"`。本轮没有修改宿主或为第四层制作视觉补丁。源码／宿主哈希、正文页和参考谱复核见证据；原书、官谱和用户音乐不在本fixture许可中。
+
+## 同音异时值与附点：按情境共头
+
+以下是独立原创四小节3/4练习，CC0，无用户／官谱摘录；同一Leland／Leland Text和版心。上表两voice，下表一voice，31个音符、8个逻辑附点：
+
+- [分头基线](unison-dots-separate.mscx)／[图](unison-dots-separate.png)：自动头型，四处异时值同音各自分头。
+- [选择性共头](unison-dots-selective.mscx)／[图](unison-dots-selective.png)：只给m2／3上部首音加`headType=quarter`；用于反复梁组中可考虑的共头候选，未获用户选择。
+- [全部共头](unison-dots-all-shared.mscx)／[图](unison-dots-all-shared.png)：再覆盖m1／4。本例不推荐将孤立交会也合头，不是所有共头的错误模板。
+
+三版原生XML仅差上述headType节点；事件、附点、voice／谱表等与当前MusicXML对应，预期的显式normal／filled头型标签单独核对，其余非布局内容相同。MIDI逐字节相同，31条SVG Note绘制命令对应31／29／27个独立墨迹位置；选择性版保存重载保持。PNG只合白底、同裁框保留完整两手。原生导出方式同本页命令，使用独立配置及输出；这些检查不证明三版一样易读。完整理由和范围见[同音附点专题](../UNISON_DOTS_STUDY.md)及[证据](../unison_dots_evidence.json)。

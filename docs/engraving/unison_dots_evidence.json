@@ -1,0 +1,732 @@
+{
+  "date": "2026-10-19",
+  "scope": "Conditional unison head sharing and dot ownership; same-agent application to existing private score plus original native fixtures. No MuseScore/MCP/plugin adaptation.",
+  "book": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256_now": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "full_cached_pages_revisited_this_round": [
+      307,
+      308
+    ],
+    "related_pages_previously_viewed": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "mapping": "Printed +20 = PDF page in this edition.",
+    "images": [
+      {
+        "path": "tmp/engraving/piano-2026-10-19/book-307.jpg",
+        "sha256": "6f71c686e801535afbf60d5e99f87f63601c0141d99c344f13ffd3782924abbc"
+      },
+      {
+        "path": "tmp/engraving/piano-2026-10-19/book-308.jpg",
+        "sha256": "ccb528893c2b226ce7b6e1251c7c9c6f5e60c8eca39cb8b1e657f3f9a161f15b"
+      }
+    ],
+    "no_new_full_book_or_all_unison_case_mastery_claim": true
+  },
+  "private_real_score_application": {
+    "existing_private_copy": "tmp\\engraving\\user-spacing-2026-10-19\\source-readonly-copy.mscz",
+    "copy_sha256_before": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "copy_sha256_after": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "root_entry": "如果有来生-release5.mscx",
+    "root_sha256": "a6f27955210f12ef2f46d7e8ae319082c84f8e56a1f292465ff2c2efbde6b8e0",
+    "root_bytes_equal_prior_inspection": true,
+    "cases": [
+      {
+        "measure_1based": 89,
+        "native_staff_id": "4",
+        "part": "P2",
+        "part_staff_1based": 2,
+        "notes": [
+          {
+            "native_voice_index": 0,
+            "midi_pitch": 57,
+            "tpc": "17",
+            "duration_type": "eighth",
+            "dots": 0,
+            "explicit_note_visible": null,
+            "explicit_note_play": "0",
+            "explicit_dot_position": null,
+            "explicit_stem_direction": null
+          },
+          {
+            "native_voice_index": 1,
+            "midi_pitch": 57,
+            "tpc": "17",
+            "duration_type": "quarter",
+            "dots": 1,
+            "explicit_note_visible": null,
+            "explicit_note_play": null,
+            "explicit_dot_position": "up",
+            "explicit_stem_direction": "up"
+          }
+        ]
+      },
+      {
+        "measure_1based": 99,
+        "native_staff_id": "4",
+        "part": "P2",
+        "part_staff_1based": 2,
+        "notes": [
+          {
+            "native_voice_index": 0,
+            "midi_pitch": 30,
+            "tpc": "20",
+            "duration_type": "16th",
+            "dots": 0,
+            "explicit_note_visible": "0",
+            "explicit_note_play": null,
+            "explicit_dot_position": null,
+            "explicit_stem_direction": null
+          },
+          {
+            "native_voice_index": 1,
+            "midi_pitch": 30,
+            "tpc": "20",
+            "duration_type": "half",
+            "dots": 1,
+            "explicit_note_visible": null,
+            "explicit_note_play": "0",
+            "explicit_dot_position": null,
+            "explicit_stem_direction": null
+          }
+        ]
+      },
+      {
+        "measure_1based": 101,
+        "native_staff_id": "4",
+        "part": "P2",
+        "part_staff_1based": 2,
+        "notes": [
+          {
+            "native_voice_index": 0,
+            "midi_pitch": 35,
+            "tpc": "19",
+            "duration_type": "16th",
+            "dots": 0,
+            "explicit_note_visible": "0",
+            "explicit_note_play": null,
+            "explicit_dot_position": null,
+            "explicit_stem_direction": null
+          },
+          {
+            "native_voice_index": 1,
+            "midi_pitch": 35,
+            "tpc": "19",
+            "duration_type": "half",
+            "dots": 1,
+            "explicit_note_visible": null,
+            "explicit_note_play": "0",
+            "explicit_dot_position": null,
+            "explicit_stem_direction": null
+          }
+        ]
+      },
+      {
+        "measure_1based": 103,
+        "native_staff_id": "4",
+        "part": "P2",
+        "part_staff_1based": 2,
+        "notes": [
+          {
+            "native_voice_index": 0,
+            "midi_pitch": 31,
+            "tpc": "15",
+            "duration_type": "16th",
+            "dots": 0,
+            "explicit_note_visible": "0",
+            "explicit_note_play": null,
+            "explicit_dot_position": null,
+            "explicit_stem_direction": null
+          },
+          {
+            "native_voice_index": 1,
+            "midi_pitch": 31,
+            "tpc": "15",
+            "duration_type": "half",
+            "dots": 1,
+            "explicit_note_visible": null,
+            "explicit_note_play": "0",
+            "explicit_dot_position": null,
+            "explicit_stem_direction": null
+          }
+        ]
+      }
+    ],
+    "musicxml_visibility_lesson": "Parent note print-object defaults alone do not imply a visible head; exported notehead none matches native Note visible=0 in m99/101/103.",
+    "original_user_files_opened_or_modified_this_round": false,
+    "baseline_musicxml_sha256": "2fc3266b440b376a7e60a17a90f6caff4f61ed625b8c7993a7d822be8436f33e",
+    "native_visibility_cross_check": [
+      {
+        "measure": 99,
+        "note_element_print_object_default": "yes",
+        "notehead_text": "none",
+        "native_note_visible": "0"
+      },
+      {
+        "measure": 101,
+        "note_element_print_object_default": "yes",
+        "notehead_text": "none",
+        "native_note_visible": "0"
+      },
+      {
+        "measure": 103,
+        "note_element_print_object_default": "yes",
+        "notehead_text": "none",
+        "native_note_visible": "0"
+      }
+    ],
+    "native_layouts_reviewed": [
+      {
+        "page": 4,
+        "measures_focused": [
+          89
+        ]
+      },
+      {
+        "page": 5,
+        "measures_focused": [
+          99,
+          101,
+          103
+        ]
+      }
+    ],
+    "images_visually_reviewed": [
+      {
+        "path": "tmp/engraving/dot-voices-2026-10-19/user-baseline-page-4.png",
+        "sha256": "3b289f2a61a3c6cd61cf651360bb870a9a44550e9bef907813089d6d6359ce9f"
+      },
+      {
+        "path": "tmp/engraving/dot-voices-2026-10-19/user-baseline-page-5.png",
+        "sha256": "1e0e09fe8ebc1e6d92395cd4f1206e19a5bb1ac8de623c8a6f53e220cf815cac"
+      },
+      {
+        "path": "tmp/engraving/dot-voices-2026-10-19/user-m89-low-detail.png",
+        "sha256": "48e9cec76790533080cbd51fe2d3bc2a8b8599f4b5eeb429c83380646efa4acd"
+      },
+      {
+        "path": "tmp/engraving/dot-voices-2026-10-19/user-m99-low-detail.png",
+        "sha256": "b72bfb46c45d751c10483bbe5e2880ffad75558380812b8d1fc0d64a66b55b4c"
+      }
+    ],
+    "decisions": "Preserve m89 separate heads and m99/101/103 hidden-short-head plus visible-long-head arrangement; do not delete based on pitch duplication or play=0.",
+    "no_private_score_candidate_or_native_playback_change": true
+  },
+  "host": {
+    "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\msvc.install_repair_current_x64\\bin\\MuseScore3Evo.exe",
+    "sha256": "fec7e2cef61ed4b4d6b639b8cc42630bbb97153670e6c24433c455a6ed23cd77",
+    "svg_description": "Generated by MuseScore 3.7.0",
+    "not_proven_exact_current_source_commit": true
+  },
+  "conditions": {
+    "music_font": "Leland",
+    "text_font": "Leland Text",
+    "spatium_mm": 1.57,
+    "paper_mm": [
+      210,
+      297
+    ],
+    "printable_width_inches": 7.08772,
+    "meter": "3/4",
+    "measures": 4,
+    "upper_voices": 2,
+    "lower_voices": 1,
+    "pages": 1,
+    "systems": 1,
+    "svg_units_per_pt": 5,
+    "png_dpi": 180,
+    "png_processing": "White alpha composite; identical frame retaining both staves and all music, no individual symbol movement."
+  },
+  "variants": [
+    {
+      "name": "separate",
+      "forced_head_type_in_upper_voice1_measures": [],
+      "svg_class_counts": {
+        "BarLine": 12,
+        "StaffLines": 10,
+        "LedgerLine": 5,
+        "Stem": 31,
+        "Hook": 3,
+        "Note": 31,
+        "Clef": 2,
+        "TimeSig": 4,
+        "Beam": 6,
+        "NoteDot": 8,
+        "Bracket": 1
+      },
+      "staff_ys_svg": [
+        368.362,
+        390.614,
+        412.866,
+        435.118,
+        457.37,
+        602.008,
+        624.26,
+        646.512,
+        668.764,
+        691.016
+      ],
+      "crop_png_pixels": [
+        65,
+        69,
+        1423,
+        405
+      ]
+    },
+    {
+      "name": "selective-share",
+      "forced_head_type_in_upper_voice1_measures": [
+        2,
+        3
+      ],
+      "svg_class_counts": {
+        "BarLine": 12,
+        "StaffLines": 10,
+        "LedgerLine": 5,
+        "Stem": 31,
+        "Hook": 3,
+        "Note": 31,
+        "Clef": 2,
+        "TimeSig": 4,
+        "Beam": 6,
+        "NoteDot": 8,
+        "Bracket": 1
+      },
+      "staff_ys_svg": [
+        368.362,
+        390.614,
+        412.866,
+        435.118,
+        457.37,
+        602.008,
+        624.26,
+        646.512,
+        668.764,
+        691.016
+      ],
+      "crop_png_pixels": [
+        65,
+        69,
+        1423,
+        405
+      ]
+    },
+    {
+      "name": "share-every-unison",
+      "forced_head_type_in_upper_voice1_measures": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "svg_class_counts": {
+        "BarLine": 12,
+        "StaffLines": 10,
+        "LedgerLine": 5,
+        "Stem": 31,
+        "Hook": 3,
+        "Note": 31,
+        "Clef": 2,
+        "TimeSig": 4,
+        "Beam": 6,
+        "NoteDot": 8,
+        "Bracket": 1
+      },
+      "staff_ys_svg": [
+        368.362,
+        390.614,
+        412.866,
+        435.118,
+        457.37,
+        602.008,
+        624.26,
+        646.512,
+        668.764,
+        691.016
+      ],
+      "crop_png_pixels": [
+        65,
+        69,
+        1423,
+        405
+      ]
+    }
+  ],
+  "checks": {
+    "results": [
+      {
+        "variant": "separate",
+        "events": 31,
+        "voice_mapping": "Native upper voices 1/2 -> MusicXML 1/2; native lower voice1 -> MusicXML5 (verified in this fixture).",
+        "native_xml_only_expected_headType_changes": true,
+        "written_pitch_duration_type_dots_voice_staff_and_onsets_match_export": true,
+        "musicxml_expected_explicit_normal_head_overrides_in_measures": [],
+        "musicxml_other_nonlayout_identical_after_exact_expected_head_override_check": true,
+        "midi_bytes_identical": true,
+        "midi_sha256": "3b6b9f154f4ce320f37bafc2c1ea1db2d464a198999527f3f3d90d1c097f893e",
+        "drawn_note_elements": 31,
+        "distinct_head_ink_positions": 31,
+        "drawn_dot_elements": 8,
+        "first_unisons": [
+          {
+            "measure": 1,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 2,
+            "head_origins_pt": [
+              [
+                108.128,
+                80.348
+              ],
+              [
+                114.3572,
+                80.348
+              ]
+            ],
+            "dot_origin_pt": [
+              122.3666,
+              80.348
+            ]
+          },
+          {
+            "measure": 2,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 2,
+            "head_origins_pt": [
+              [
+                216.546,
+                82.5732
+              ],
+              [
+                222.774,
+                82.5732
+              ]
+            ],
+            "dot_origin_pt": [
+              230.784,
+              80.348
+            ]
+          },
+          {
+            "measure": 3,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 2,
+            "head_origins_pt": [
+              [
+                340.312,
+                84.7984
+              ],
+              [
+                346.542,
+                84.7984
+              ]
+            ],
+            "dot_origin_pt": [
+              354.55,
+              84.7984
+            ]
+          },
+          {
+            "measure": 4,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 2,
+            "head_origins_pt": [
+              [
+                465.636,
+                64.7716
+              ],
+              [
+                471.866,
+                64.7716
+              ]
+            ],
+            "dot_origin_pt": [
+              479.876,
+              62.5464
+            ]
+          }
+        ]
+      },
+      {
+        "variant": "selective-share",
+        "events": 31,
+        "voice_mapping": "Native upper voices 1/2 -> MusicXML 1/2; native lower voice1 -> MusicXML5 (verified in this fixture).",
+        "native_xml_only_expected_headType_changes": true,
+        "written_pitch_duration_type_dots_voice_staff_and_onsets_match_export": true,
+        "musicxml_expected_explicit_normal_head_overrides_in_measures": [
+          2,
+          3
+        ],
+        "musicxml_other_nonlayout_identical_after_exact_expected_head_override_check": true,
+        "midi_bytes_identical": true,
+        "midi_sha256": "3b6b9f154f4ce320f37bafc2c1ea1db2d464a198999527f3f3d90d1c097f893e",
+        "drawn_note_elements": 31,
+        "distinct_head_ink_positions": 29,
+        "drawn_dot_elements": 8,
+        "first_unisons": [
+          {
+            "measure": 1,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 2,
+            "head_origins_pt": [
+              [
+                108.128,
+                80.348
+              ],
+              [
+                114.3572,
+                80.348
+              ]
+            ],
+            "dot_origin_pt": [
+              122.3666,
+              80.348
+            ]
+          },
+          {
+            "measure": 2,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 1,
+            "head_origins_pt": [
+              [
+                223.71,
+                82.5732
+              ],
+              [
+                223.71,
+                82.5732
+              ]
+            ],
+            "dot_origin_pt": [
+              231.718,
+              80.348
+            ]
+          },
+          {
+            "measure": 3,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 1,
+            "head_origins_pt": [
+              [
+                340.312,
+                84.7984
+              ],
+              [
+                340.312,
+                84.7984
+              ]
+            ],
+            "dot_origin_pt": [
+              348.322,
+              84.7984
+            ]
+          },
+          {
+            "measure": 4,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 2,
+            "head_origins_pt": [
+              [
+                458.474,
+                64.7716
+              ],
+              [
+                464.702,
+                64.7716
+              ]
+            ],
+            "dot_origin_pt": [
+              472.712,
+              62.5464
+            ]
+          }
+        ]
+      },
+      {
+        "variant": "share-every-unison",
+        "events": 31,
+        "voice_mapping": "Native upper voices 1/2 -> MusicXML 1/2; native lower voice1 -> MusicXML5 (verified in this fixture).",
+        "native_xml_only_expected_headType_changes": true,
+        "written_pitch_duration_type_dots_voice_staff_and_onsets_match_export": true,
+        "musicxml_expected_explicit_normal_head_overrides_in_measures": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "musicxml_other_nonlayout_identical_after_exact_expected_head_override_check": true,
+        "midi_bytes_identical": true,
+        "midi_sha256": "3b6b9f154f4ce320f37bafc2c1ea1db2d464a198999527f3f3d90d1c097f893e",
+        "drawn_note_elements": 31,
+        "distinct_head_ink_positions": 27,
+        "drawn_dot_elements": 8,
+        "first_unisons": [
+          {
+            "measure": 1,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 1,
+            "head_origins_pt": [
+              [
+                108.128,
+                80.348
+              ],
+              [
+                108.128,
+                80.348
+              ]
+            ],
+            "dot_origin_pt": [
+              116.1374,
+              80.348
+            ]
+          },
+          {
+            "measure": 2,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 1,
+            "head_origins_pt": [
+              [
+                216.546,
+                82.5732
+              ],
+              [
+                216.546,
+                82.5732
+              ]
+            ],
+            "dot_origin_pt": [
+              224.556,
+              80.348
+            ]
+          },
+          {
+            "measure": 3,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 1,
+            "head_origins_pt": [
+              [
+                340.312,
+                84.7984
+              ],
+              [
+                340.312,
+                84.7984
+              ]
+            ],
+            "dot_origin_pt": [
+              348.322,
+              84.7984
+            ]
+          },
+          {
+            "measure": 4,
+            "same_pitch_heads": 2,
+            "distinct_ink_positions": 1,
+            "head_origins_pt": [
+              [
+                465.636,
+                64.7716
+              ],
+              [
+                465.636,
+                64.7716
+              ]
+            ],
+            "dot_origin_pt": [
+              473.646,
+              62.5464
+            ]
+          }
+        ]
+      }
+    ],
+    "selective_native_save_reload_complete_svg_png_and_events_identical": true,
+    "scope": "Original four measures, two voices on upper staff plus one lower voice; dots and unisons, no tuplets/spanners/graces/accidentals. No general collision or listening test."
+  },
+  "self_authored_assets": [
+    {
+      "path": "docs/engraving/fixtures/unison-dots-separate.mscx",
+      "sha256": "4a71aaa6e8e7843c4d91acaa12c09458fb7604a810d03501635099c7eb1d0fdc",
+      "license": "CC0 original exercise, no private or reference-score music transcribed"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-separate.png",
+      "sha256": "9b42c044f5dbe9c3d8d86fdc9ec8b608490b0e11bd4e4f6d67efa74eec99bc4f",
+      "license": "CC0 original exercise, no private or reference-score music transcribed"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-selective.mscx",
+      "sha256": "2a4d3cc17c32efc2ff0ffaabfd76e03f4c508d1d7017cb12087e4cea270a37ec",
+      "license": "CC0 original exercise, no private or reference-score music transcribed"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-selective.png",
+      "sha256": "1561bfb4f0111fdd29c5e3a2cd35f22b7368fbd2997a1a7e4bf4c202418598df",
+      "license": "CC0 original exercise, no private or reference-score music transcribed"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-all-shared.mscx",
+      "sha256": "67730d01e447c32827c762273886e9b67cb85a109242402f1ec7c7a19b6fd520",
+      "license": "CC0 original exercise, no private or reference-score music transcribed"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-all-shared.png",
+      "sha256": "a3f999bae9e13d646eebb84a1130df146509b1d1779368e36558c9f0950aee66",
+      "license": "CC0 original exercise, no private or reference-score music transcribed"
+    }
+  ],
+  "source_code_read_only": [
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\layout.cpp",
+      "sha256": "088655bf2da4a12bb2f6ea4c35ff82cffe5b07bfaaaf174ff54543a3a345933a",
+      "scope": "Unison sharing conditions, dot adjustment and displaced voice geometry, approximately lines390-680."
+    },
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\note.cpp",
+      "sha256": "ceac71d01e1db33c9d24e9ebad7918271ae97cd957a4bfcbbac8d64c336f0471",
+      "scope": "headType serialization/read lookup only."
+    },
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\property.cpp",
+      "sha256": "b74ebc253d3e19abf55ef0d3a7206bd4e76b1732e26d378e58d51696c8441ecd",
+      "scope": "headType enum/text name mapping only."
+    }
+  ],
+  "visual_judgments": {
+    "all_three_full_system_pngs_viewed": true,
+    "selective_share": "Conditional candidate in m2/3 repeated beamed pattern; not user accepted or proven globally better.",
+    "share_every_unison": "Not recommended in this original context: m1/4 isolated unequal-duration joins benefit from separate heads. Not a universal prohibition.",
+    "no_verified_dot_collision_or_missing_dot_bug_claimed": true,
+    "not_tested": [
+      "Printing",
+      "Piano performance/listening",
+      "Independent aesthetic evaluation",
+      "General collision detection",
+      "Altered unisons",
+      "Only-one-voice-dotted seconds",
+      "Different size heads",
+      "Complex cross-staff polyphony"
+    ]
+  },
+  "skill_lessons": [
+    "Keep logical note, visible head and playback status separate.",
+    "AUTO versus explicitly equivalent headType can change native sharing; do not strip as harmless defaults.",
+    "MusicXML parent print-object alone does not prove head visibility.",
+    "Count distinct glyph ink positions when checking sharing; SVG Note element counts can remain unchanged.",
+    "Equal MIDI or event streams do not establish equally clear notation."
+  ],
+  "protection": {
+    "existing_user_copy_hash_verified_unchanged": true,
+    "current_gui_not_used": true,
+    "book_read_only": true,
+    "only_original_fixture_music_images_in_git": true,
+    "no_plugin_mcp_or_musescore_core_code_modified": true,
+    "user_original_score_pdf_mscz_not_reopened_this_round": true
+  }
+}

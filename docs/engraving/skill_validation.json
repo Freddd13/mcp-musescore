@@ -536,5 +536,24 @@
     "passed_cases": 2,
     "script_sha256": "c4711d9155972044ea1b68e33bd7b1fc1869c19d2e9623e6c048b0748a08a99f",
     "global_installation_or_app_discovery_performed": false
+  },
+  "follow_up_unison_study": {
+    "date": "2026-10-19",
+    "scope": "Reference prose and maintained knowledge only; main SKILL.md, UI metadata and locator behavior unchanged.",
+    "native_reference_path": "skills/piano-engraving/references/native-review.md",
+    "native_reference_sha256": "de78597976ff534d15e83d36be13c48d085d51061a1f25668abb40a1492b9fab",
+    "topic_reference_paths": {
+      "notation": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md"
+      ],
+      "piano": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+      ]
+    },
+    "new_study_link_found_from_both_topics": true,
+    "worked_example": "Existing private score m89/99/101/103, same agent, no original edits.",
+    "evidence": "unison_dots_evidence.json",
+    "independent_behavior_test_or_user_approval_claimed": false
   }
 }
