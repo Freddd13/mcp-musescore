@@ -1,5 +1,7 @@
 # 净书skill初版：检验了什么
 
+2026-10-20[整谱应用](WHOLE_SCORE_REVIEW.md)发现并纠正首处定义未被利用的实际失败：S.P.在用户p1及原生文字已定义，不能继续等待用户释名。skill增加先查作品定义、区分名称／范围／播放的方法；复看8页并列整谱优先级，既有MIDI无CC66也限制了播放保护的解释。不是新独立盲评、组合候选或软件适配，技术测试与当前解释分记。
+
 2026-10-19。skill入口：[piano-engraving](../../skills/piano-engraving/SKILL.md)；安装／更新：[ENGRAVING_SKILL](../ENGRAVING_SKILL.md)。这是格式、定位器和同会话实际演练的记录，不是独立agent盲测、审美评分或全谱自动改写验收。
 
 ## 工具与引用的实际检查

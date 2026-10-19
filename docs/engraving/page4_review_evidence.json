@@ -952,5 +952,17 @@
     "automatic conversion of all retakes into continuous notches",
     "global skill installation"
   ],
-  "source_music_images_and_book_not_in_Git": true
+  "source_music_images_and_book_not_in_Git": true,
+  "later_context_correction": {
+    "date": "2026-10-20",
+    "reference": "WHOLE_SCORE_REVIEW.md",
+    "historical_test_results_and_initial_interpretation_retained": true,
+    "supersedes_current_use_of_unknown_name_fields": [
+      "selection.SP_text_untouched_and_meaning_unconfirmed"
+    ],
+    "current_name_status": "User PDF p1 and original MSCZ explicitly define Sost. Ped.(S.P.); name is resolved for this score, with no need to ask user again.",
+    "remaining_scope": "Individual captures/releases, coordination with damper and outer-curve meaning still need specific context.",
+    "playback_limit": "Reused pinned baseline MIDI has 310 CC64 events, zero CC66 events; byte equality preserves existing events, not proven sostenuto performance.",
+    "new_native_trial_or_adoption_claimed": false
+  }
 }

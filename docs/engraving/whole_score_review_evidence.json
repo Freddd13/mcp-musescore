@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-20",
+  "previous_goal_turn": "progress: dynamics/articulation study, original fixture and markings skill route pushed as 79fb546",
+  "scope": "Full eight-page user-score review; resolve a missed first-use definition and distinguish remaining notation/playback uncertainty. No new layout trial or software adaptation.",
+  "review": {
+    "original_pdf_full_pages_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "original_PDF_render": "PDFium scale2, private JPEG; unscaled p1 second-system crop inspected",
+    "user_score_is_previously_familiar": true,
+    "independent_blind_or_user_aesthetic_test": false,
+    "official_corpus_count_not_incremented": true,
+    "book_printed_full_text_and_images_revisited": [
+      335,
+      336,
+      337
+    ]
+  },
+  "correction": {
+    "previous_KB_status": "S.P. meaning unconfirmed / user clarification awaited",
+    "current_status": "This score explicitly defines Sost. Ped.(S.P.) on PDF p1; exact StaffText in original MSCZ corroborates the abbreviation. No further user definition is needed.",
+    "definition_scope": "This particular score; not a universal expansion for S.P.",
+    "name_vs_actions": "Name resolved, individual captures/releases and combination with damper still require context",
+    "native_first_definition": {
+      "staff_id_one_based": "3",
+      "measure_index_one_based": 7,
+      "voice_zero_based": 0,
+      "quarter_offset": "3/2",
+      "type": "StaffText",
+      "manual_x_offset_sp": "6.32176"
+    },
+    "software_container_scope_is_not_human_playing_scope": true
+  },
+  "markers": [
+    {
+      "staff": "3",
+      "measure": 7,
+      "voice_zero_based": 0,
+      "type": "StaffText",
+      "text": "Sost. Ped.(S.P.)"
+    },
+    {
+      "staff": "3",
+      "measure": 32,
+      "voice_zero_based": 0,
+      "type": "StaffText",
+      "text": "(S.P.)"
+    },
+    {
+      "staff": "3",
+      "measure": 113,
+      "voice_zero_based": 0,
+      "type": "StaffText",
+      "text": "(S.P.)"
+    },
+    {
+      "staff": "3",
+      "measure": 132,
+      "voice_zero_based": 0,
+      "type": "StaffText",
+      "text": "(S.P. for A octave)"
+    },
+    {
+      "staff": "4",
+      "measure": 68,
+      "voice_zero_based": 0,
+      "type": "StaffText",
+      "text": "(S.P.)"
+    },
+    {
+      "staff": "4",
+      "measure": 68,
+      "voice_zero_based": 0,
+      "type": "StaffText",
+      "text": "(S.P.)"
+    },
+    {
+      "staff": "4",
+      "measure": 72,
+      "voice_zero_based": 0,
+      "type": "StaffText",
+      "text": "(S.P.)"
+    }
+  ],
+  "reused_native_export": {
+    "export_file": "tmp\\engraving\\page-reading-2026-10-20\\native\\baseline.musicxml",
+    "same_fixed_host_context": "page4_review_evidence.json",
+    "SP_words": [
+      {
+        "part_index_zero_based": 1,
+        "measure": 7,
+        "staff_local": "1",
+        "quarter_onset_within_measure": "3/2",
+        "text": "Sost. Ped.(S.P.)",
+        "words_attributes": {
+          "default-y": "-40.00",
+          "relative-x": "63.22",
+          "relative-y": "-29.24",
+          "font-style": "italic"
+        }
+      },
+      {
+        "part_index_zero_based": 1,
+        "measure": 32,
+        "staff_local": "1",
+        "quarter_onset_within_measure": "5/2",
+        "text": "(S.P.)",
+        "words_attributes": {
+          "relative-x": "-1.74",
+          "relative-y": "18.85",
+          "font-style": "italic"
+        }
+      },
+      {
+        "part_index_zero_based": 1,
+        "measure": 68,
+        "staff_local": "2",
+        "quarter_onset_within_measure": "3/4",
+        "text": "(S.P.)",
+        "words_attributes": {
+          "default-y": "2.25",
+          "relative-x": "30.72",
+          "relative-y": "36.68",
+          "font-style": "italic"
+        }
+      },
+      {
+        "part_index_zero_based": 1,
+        "measure": 68,
+        "staff_local": "2",
+        "quarter_onset_within_measure": "5/2",
+        "text": "(S.P.)",
+        "words_attributes": {
+          "default-y": "-40.00",
+          "relative-x": "6.04",
+          "relative-y": "-36.44",
+          "font-style": "italic"
+        }
+      },
+      {
+        "part_index_zero_based": 1,
+        "measure": 72,
+        "staff_local": "2",
+        "quarter_onset_within_measure": "3/4",
+        "text": "(S.P.)",
+        "words_attributes": {
+          "default-y": "0.13",
+          "relative-x": "30.96",
+          "relative-y": "31.73",
+          "font-style": "italic"
+        }
+      },
+      {
+        "part_index_zero_based": 1,
+        "measure": 113,
+        "staff_local": "1",
+        "quarter_onset_within_measure": "9/4",
+        "text": "(S.P.)",
+        "words_attributes": {
+          "default-y": "-40.00",
+          "relative-x": "17.48",
+          "relative-y": "-168.44",
+          "font-style": "italic"
+        }
+      },
+      {
+        "part_index_zero_based": 1,
+        "measure": 132,
+        "staff_local": "1",
+        "quarter_onset_within_measure": "1/2",
+        "text": "(S.P. for A octave)",
+        "words_attributes": {
+          "relative-x": "28.32",
+          "relative-y": "57.59",
+          "font-style": "italic"
+        }
+      }
+    ],
+    "MIDI_path": "tmp\\engraving\\page-reading-2026-10-20\\native\\baseline.mid",
+    "controller_counts": {
+      "121": 3,
+      "100": 6,
+      "101": 6,
+      "6": 3,
+      "7": 3,
+      "10": 3,
+      "91": 3,
+      "93": 3,
+      "64": 310
+    },
+    "CC66_events": 0,
+    "CC64_events": 310,
+    "meaning": "No CC66 observed in this MIDI export; this does not assess all acoustic sustain or imply every MuseScore score lacks sostenuto support.",
+    "native_MSCZ_sha256_matches_original": true,
+    "musicxml_sha256": "c935802f6a91126dd7dc350b30a68a4e247af5524c95523bb67ff909872a8699",
+    "MIDI_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+    "provenance": "page4_review_evidence.json; prior pinned host 7b4e6fbf, not rerendered this turn",
+    "no_new_native_render_claimed": true
+  },
+  "protocol_reference": {
+    "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\audio\\midi\\event.h",
+    "sha256": "ca38595aa57d9331c96c9699ad18ff0572e127ba4196f43351821a7ef1161fd9",
+    "line": "CTRL_SOSTENUTO          = 0x42,",
+    "decimal_controller": 66,
+    "scope": "Current source enum supports protocol mapping; no claim this file identifies prior renderer commit"
+  },
+  "changed_interpretation_m132_135": {
+    "SP_text_names_A_octave": true,
+    "source_chord_contains_outer_A_octave": true,
+    "two_opposite_Slur_starts_at_same_chord_and_end_at_m135_voice0_rest": true,
+    "interpretation": "Sostenuto-related outer-octave continuation is better supported; exact release semantics and any notation substitution remain unproven",
+    "no_new_rest_or_slur_edits": true
+  },
+  "whole_score_decisions": {
+    "preserve": [
+      "m41 mf then pp timing",
+      "m58-65 beam and phrase layers and metre transition",
+      "m89-93 echo staff and entry lane",
+      "m98-105 independent motion, tuplets, hidden-head roles and phrase continuity",
+      "m148-149 four-staff motion versus held background and final state changes"
+    ],
+    "compare_separately": [
+      "m50/52 whole-bar grain candidate",
+      "independent Tie weight around m113-115",
+      "consistent damper notation style after scope review"
+    ],
+    "version_specific": "Duplicate rit. is present in the current native export, not the original PDF; do not claim to repair that PDF",
+    "notation_question": "m132-135 auxiliary rests/outer curves now have an explicit sostenuto context; no automatic conversion"
+  },
+  "protection": [
+    {
+      "id": "user_pdf",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "matches_prior_read_only_baseline": true
+    },
+    {
+      "id": "user_mscz",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "matches_prior_read_only_baseline": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "matches_prior_read_only_baseline": true
+    }
+  ],
+  "not_performed": [
+    "original PDF or MSCZ write",
+    "GUI operations",
+    "new or combined engraving candidate",
+    "new native export/save test",
+    "MIDI controller insertion",
+    "audio/physical pedal reconstruction",
+    "printing or user preference evaluation",
+    "MCP/plugin/core development",
+    "global skill install"
+  ],
+  "reference_score_or_book_images_in_Git": false
+}
