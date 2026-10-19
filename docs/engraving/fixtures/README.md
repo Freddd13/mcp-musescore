@@ -1,5 +1,16 @@
 # 独立净书复现谱例
 
+## 连音省写与嵌套：保留分法，分开标记层级
+
+2026-10-20新增原创四小节4/4双谱表，CC0，无参考音乐摘录，固定Leland／Leland Text、spatium 1.57mm、上干和两小节一系统。干向及断行只是本练习的控制条件。m1建立四组三连八分，m2重复；m3换成3／5／普通二分／3；m4外层3:2的最后一份内含5:4，再接二分休止。
+
+- [全显示基线](tuplets-all-shown.mscx)／[图](tuplets-all-shown.png)：m4自动外层括号穿过内层5，是本例要处理的实际干扰。
+- [只省重复数字](tuplets-selective.mscx)／[图](tuplets-selective.png)：只将m2四个Tuplet的numberType改2；中间控制，m4干扰尚在。
+- [省写并分开嵌套](tuplets-selective-clear.mscx)／[图](tuplets-selective-clear.png)：在上一版上，只给m4外层增加p1／p2，均x=0、y=-1.2sp；本例倾向的候选，非全局数值规则或用户已采用方案。
+- [全隐藏反例](tuplets-all-hidden.mscx)／[图](tuplets-all-hidden.png)：隐藏全部数字和括号，播放不变却失去引入／变化／嵌套信息，不作通用美化。
+
+60音、1休止、13个真实Tuplet与嵌套时值已按独立有理数配方、原生栈及MusicXML核对；完整MIDI相同。只有Tuplet图元改变，候选原生保存重载SVG／PNG／MIDI保持。m4局部括号移动没有反映在本次导出的MusicXML整小节树中，勿以该格式往返代替原生工程。四张图仅合白底、同框裁页边，保留两系统完整音乐，未缩放／移动符号。具体阅读理由及限度见[连音应用](../TUPLET_READING.md)与[证据](../tuplet_reading_evidence.json)；原生导出命令同本页下文，使用独立配置及输出目录。参考谱和教材不在本CC0许可中。
+
 ## 提示变音与来路：行中、跨行、简单反复
 
 2026-10-20新增原创六小节3/4双谱表，CC0。[自动版](accidental-state-automatic.mscx)／[图](accidental-state-automatic.png)、[选择性提示](accidental-state-selective.mscx)／[图](accidental-state-selective.png)、[额外给行中tie重复版](accidental-state-extra-tied.mscx)／[图](accidental-state-extra-tied.png)。m1–2同系统，m3–4跨系统，m5–6两次反复。选择版只在m4 tie接收F♯加普通升号、m5反复起点C加括起还原；额外版再给m2行中tie接收C♯加升号。后者是反例，不作通用美化。

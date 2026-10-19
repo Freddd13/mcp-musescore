@@ -1,0 +1,334 @@
+{
+  "date": "2026-10-20",
+  "scope": "Targeted tuplet reading and original native fixture; same-agent judgment, no user aesthetic approval or blind evaluation.",
+  "book": {
+    "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256_before": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "prepared_printed_pages": [
+      208,
+      209,
+      216,
+      217
+    ],
+    "pdf_page_offset": 20,
+    "preparation_is_not_visual_review": true,
+    "full_text_and_images_actually_read_this_turn": [
+      208,
+      209
+    ],
+    "full_page_revisits_this_turn": [
+      213,
+      214,
+      215
+    ],
+    "prepared_but_not_image_reviewed": [
+      216,
+      217
+    ],
+    "note": "p216 extracts blank, p217 chapter title; not counted as substantive reading. p208/209 figures fill a previously explicit gap, not whole-book completion."
+  },
+  "official_revisits": [
+    {
+      "id": "A116",
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Sparkle - Your Name. - Insert Song.pdf",
+      "sha256_matches_inventory_and_render_cache": "159c94df82a862a8255608fad78310823944d0aa648c0dcee681bad03f45eda1",
+      "full_pages_revisited": [
+        {
+          "pdf_page": 1,
+          "cache": "tmp\\engraving\\corpus\\A116\\page-1.jpg",
+          "sha256": "8fbd98394264414203ddc25f5474744da9c0a82d4f22d4c9f1a5a6c759f7d927"
+        },
+        {
+          "pdf_page": 6,
+          "cache": "tmp\\engraving\\corpus\\A116\\page-6.jpg",
+          "sha256": "2fd890a6092c44bf54fdc535e35014f318ec7bc437b47d32e518485d82a0f211"
+        }
+      ],
+      "new_corpus_count_claimed": false
+    },
+    {
+      "id": "A006",
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\5 Variations about the theme 「lit」 - A Silent Voice - Soundtrack.pdf",
+      "sha256_matches_inventory_and_render_cache": "e515b90def855e9f9cd0772dd2d603350ad387f519e71b23c302416eadf35819",
+      "full_pages_revisited": [
+        {
+          "pdf_page": 2,
+          "cache": "tmp\\engraving\\corpus\\A006\\page-2.jpg",
+          "sha256": "f119811e904f762409a9ff16591691fd0b459aa464fb2510d2757956fa012b0d"
+        }
+      ],
+      "new_corpus_count_claimed": false
+    },
+    {
+      "id": "A081",
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kuusou Mesorogiwi - Mirai Nikki - 1st Opening Theme.pdf",
+      "sha256_matches_inventory_and_render_cache": "8673fa684bfd0b84877a19dfdcfa94b03bfc49031f6369eb7e21fafa65163d44",
+      "full_pages_revisited": [
+        {
+          "pdf_page": 5,
+          "cache": "tmp\\engraving\\corpus\\A081\\page-5.jpg",
+          "sha256": "bc29b18af9d720de8924420093322793fe070ace051da69c144a12aa73faed20"
+        }
+      ],
+      "new_corpus_count_claimed": false
+    }
+  ],
+  "fixture": {
+    "source": "Original four-bar piano study; no user or official music copied.",
+    "license": "CC0-1.0",
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "host_sha256_before_after": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "variants": {
+      "all-shown": {
+        "input": "tmp\\engraving\\tuplet-reading-2026-10-20\\native\\all-shown.mscx",
+        "sha256": "22a297fcafa0cf7d8a79f7d60ccaac205a41669877b9226baea0db4215175d0a"
+      },
+      "selective": {
+        "input": "tmp\\engraving\\tuplet-reading-2026-10-20\\native\\selective.mscx",
+        "sha256": "2f66fe56701590500d8d343e6e60609c43cc5236aad017071316b34fbe441998"
+      },
+      "all-hidden": {
+        "input": "tmp\\engraving\\tuplet-reading-2026-10-20\\native\\all-hidden.mscx",
+        "sha256": "7d5114966e108adb52744e07f75d652e1e37d60be94058bdbbced9cf54bab60c"
+      },
+      "selective-clear": {
+        "input": "tmp\\engraving\\tuplet-reading-2026-10-20\\native\\selective-clear.mscx",
+        "sha256": "1f1a1181dd232b71499b18334be7e266968bcb947043ec59ee241d495a25b2d0",
+        "change_vs_selective": "Only outer m4 Tuplet p1=(0,-1.2) and p2=(0,-1.2) in spatia. No other native field change."
+      }
+    },
+    "intended": "m1 establishes four equal triplet eighth groups; m2 repeats same pattern, candidate omits only its four numerals; m3 explicitly restores changed 3/5/ordinary/3 pattern; m4 contains outer 3:2 quarter subdivision with inner 5:4 sixteenth group and half rest.",
+    "expected_notes": 60,
+    "expected_rests": 1,
+    "expected_tuplets": 13,
+    "baseline_timing_not_yet_independently_verified": false,
+    "recipe_independently_verified_here": true
+  },
+  "independent_recipe_verified": {
+    "note_count": 60,
+    "rest_count": 1,
+    "events_count": 61,
+    "tuplet_count": 13,
+    "nested_group_m4": {
+      "outer": "3:2 quarter-based, duration 2 quarters",
+      "inner": "5:4 sixteenth-based within outer final third",
+      "inner_each_actual_duration_quarters": "2/15",
+      "combined_musicxml_time_modification": "15:8"
+    },
+    "every_staff_bar_effective_duration_quarters": 4,
+    "voice_mapping": "native staff1 voice1 -> MusicXML voice1; native staff2 voice1 -> MusicXML voice5; explicit this fixture only"
+  },
+  "results": [
+    {
+      "variant": "all-shown",
+      "input_sha256": "22a297fcafa0cf7d8a79f7d60ccaac205a41669877b9226baea0db4215175d0a",
+      "exact_native_known_deltas_only": true,
+      "events_match_independent_recipe": true,
+      "native_tuplet_timing_and_nesting_groups_equal": true,
+      "midi_full_bytes_equal_to_baseline": true,
+      "midi_sha256": "2b627f11cb97ce7c4276df04d739bdf0ee199dcea0484bb4369cc795fab84f46",
+      "musicxml_full_tree_equal_after_explicit_display_delta_and_listed_layout_normalization": true,
+      "musicxml_tuplet_start_count": 13,
+      "musicxml_hidden_numeral_count": 0,
+      "svg_removed_by_class": {},
+      "svg_added_by_class": {},
+      "non_tuplet_svg_elements_and_order_equal": true,
+      "preview": "tmp\\engraving\\tuplet-reading-2026-10-20\\native\\all-shown-preview.png"
+    },
+    {
+      "variant": "selective",
+      "input_sha256": "2f66fe56701590500d8d343e6e60609c43cc5236aad017071316b34fbe441998",
+      "exact_native_known_deltas_only": true,
+      "events_match_independent_recipe": true,
+      "native_tuplet_timing_and_nesting_groups_equal": true,
+      "midi_full_bytes_equal_to_baseline": true,
+      "midi_sha256": "2b627f11cb97ce7c4276df04d739bdf0ee199dcea0484bb4369cc795fab84f46",
+      "musicxml_full_tree_equal_after_explicit_display_delta_and_listed_layout_normalization": true,
+      "musicxml_tuplet_start_count": 13,
+      "musicxml_hidden_numeral_count": 4,
+      "svg_removed_by_class": {
+        "Tuplet": 4
+      },
+      "svg_added_by_class": {},
+      "non_tuplet_svg_elements_and_order_equal": true,
+      "preview": "tmp\\engraving\\tuplet-reading-2026-10-20\\native\\selective-preview.png"
+    },
+    {
+      "variant": "selective-clear",
+      "input_sha256": "1f1a1181dd232b71499b18334be7e266968bcb947043ec59ee241d495a25b2d0",
+      "exact_native_known_deltas_only": true,
+      "events_match_independent_recipe": true,
+      "native_tuplet_timing_and_nesting_groups_equal": true,
+      "midi_full_bytes_equal_to_baseline": true,
+      "midi_sha256": "2b627f11cb97ce7c4276df04d739bdf0ee199dcea0484bb4369cc795fab84f46",
+      "musicxml_full_tree_equal_after_explicit_display_delta_and_listed_layout_normalization": true,
+      "musicxml_tuplet_start_count": 13,
+      "musicxml_hidden_numeral_count": 4,
+      "svg_removed_by_class": {
+        "Tuplet": 7
+      },
+      "svg_added_by_class": {
+        "Tuplet": 3
+      },
+      "non_tuplet_svg_elements_and_order_equal": true,
+      "preview": "tmp\\engraving\\tuplet-reading-2026-10-20\\native\\selective-clear-preview.png"
+    },
+    {
+      "variant": "all-hidden",
+      "input_sha256": "7d5114966e108adb52744e07f75d652e1e37d60be94058bdbbced9cf54bab60c",
+      "exact_native_known_deltas_only": true,
+      "events_match_independent_recipe": true,
+      "native_tuplet_timing_and_nesting_groups_equal": true,
+      "midi_full_bytes_equal_to_baseline": true,
+      "midi_sha256": "2b627f11cb97ce7c4276df04d739bdf0ee199dcea0484bb4369cc795fab84f46",
+      "musicxml_full_tree_equal_after_explicit_display_delta_and_listed_layout_normalization": true,
+      "musicxml_tuplet_start_count": 13,
+      "musicxml_hidden_numeral_count": 13,
+      "svg_removed_by_class": {
+        "Tuplet": 15
+      },
+      "svg_added_by_class": {},
+      "non_tuplet_svg_elements_and_order_equal": true,
+      "preview": "tmp\\engraving\\tuplet-reading-2026-10-20\\native\\all-hidden-preview.png"
+    }
+  ],
+  "final_candidate_reload": {
+    "nested_structure_and_all_events_preserved": true,
+    "p1_p2_y_spatium": "-1.2",
+    "svg_excluding_title_equal": true,
+    "png_pixels_equal": true,
+    "midi_full_bytes_equal": true,
+    "musicxml_equal_after_listed_layout_and_date_normalization": true
+  },
+  "native_bracket_geometry_observation": {
+    "baseline": "Outer bracket line crosses inner numeral 5 in this fixed-host fixture.",
+    "candidate_vs_selective": "Only outer numeral and its two bracket polylines move; all other SVG objects and their order unchanged.",
+    "change": "outer p1/p2 y=-1.2 sp; no global style or text deletion",
+    "musicxml_raw_measure4_entire_tree_equal_despite_visible_bracket_move": true,
+    "not_claimed": "No MusicXML reimport or general roundtrip-loss test performed; identical exported m4 cannot prove native geometry preserved."
+  },
+  "source_read_only": {
+    "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\tuplet.cpp",
+    "sha256": "e14405d79bef99eff24d3b16a253ddf3a16f8a79ce8da93181f36db7ae723263",
+    "locations": [
+      "Tuplet::layout number creation at 194-214",
+      "bracket choice at 281-302",
+      "readProperties p1/p2 and ratio at 838-900"
+    ],
+    "source_not_proven_binary_commit": true
+  },
+  "layout": {
+    "pages": 1,
+    "systems": 2,
+    "measures_per_system": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "fixed_music_fonts": [
+      "Leland",
+      "Leland Text"
+    ],
+    "explicit_chord_stem_direction": "up",
+    "spatium_mm": 1.57,
+    "all_other_styles_from_existing_original_fixture_template": true
+  },
+  "musicxml_normalized_geometry_attributes": [
+    "bezier-offset",
+    "bezier-offset2",
+    "bezier-x",
+    "bezier-x2",
+    "bezier-y",
+    "bezier-y2",
+    "default-x",
+    "default-y",
+    "relative-x",
+    "relative-y",
+    "measure width"
+  ],
+  "musicxml_metadata_normalized": [
+    "encoding-date"
+  ],
+  "no_musicxml_blocks_ignored": true,
+  "visual_review": [
+    "All three initial variants full two-system previews",
+    "Full baseline native page",
+    "Final selective-clear full two-system preview",
+    "Enlarged original m4 showed actual line crossing 5; resize for analysis only, published previews unresized"
+  ],
+  "published_original_files": [
+    {
+      "path": "docs\\engraving\\fixtures\\tuplets-all-shown.mscx",
+      "sha256": "a70d17b9bd3060b622c3b49cb2092444b9d011f3a133f4db24dd7b434deb4513",
+      "license": "CC0-1.0",
+      "processing": "XML line endings normalized to LF; parsed tree identical"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\tuplets-all-shown.png",
+      "sha256": "5ded77859d7291644066a09d3bdd698b4c0cf9a8ac3ec2b1ae55757a9765a4be",
+      "license": "CC0-1.0",
+      "processing": "native PNG white composite and identical crop only"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\tuplets-selective.mscx",
+      "sha256": "ed7a52b7d51a4d319d4271a72ba3d84333e4e2687fc9f29fb687cc9dbd1a5564",
+      "license": "CC0-1.0",
+      "processing": "XML line endings normalized to LF; parsed tree identical"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\tuplets-selective.png",
+      "sha256": "40dbc850526d313c7a9fc946dd61dc0c88e43deb51bb4c9195c35aa1fa9fc5bc",
+      "license": "CC0-1.0",
+      "processing": "native PNG white composite and identical crop only"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\tuplets-selective-clear.mscx",
+      "sha256": "b575f02782314251d97bbced994f38e36c9c7dc082f5e9c94ce91a14f8a49a09",
+      "license": "CC0-1.0",
+      "processing": "XML line endings normalized to LF; parsed tree identical"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\tuplets-selective-clear.png",
+      "sha256": "05eada60d2fa680abc05841dd0292db82e2fdc0faa295334f2cc0b34b5fcf706",
+      "license": "CC0-1.0",
+      "processing": "native PNG white composite and identical crop only"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\tuplets-all-hidden.mscx",
+      "sha256": "66c0d54b1d70592eb4505807cd416e172564c58ff8e5ea3b1c9516ebf6ce39ca",
+      "license": "CC0-1.0",
+      "processing": "XML line endings normalized to LF; parsed tree identical"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\tuplets-all-hidden.png",
+      "sha256": "743079a09838bd5db38393fbc596a57af4d160fbc2370e4348410567d9f331d8",
+      "license": "CC0-1.0",
+      "processing": "native PNG white composite and identical crop only"
+    }
+  ],
+  "private_scripts": {
+    "fixture.py": "66b1cfca05c64383fa63ef14ec0ef03b51896b70310929ab77c9a53a51f675a1",
+    "clear_nesting.py": "3b2708926589abc7b711e4780149dd5eee60f506df37adceee665765ecf5e6e8",
+    "audit.py": "4ba1e0f5d3b2adb860ac06639c9415f137c01487743cb6a6e6e80451587562f8"
+  },
+  "not_performed": [
+    "Editing any original reference or user score",
+    "GUI operation",
+    "MuseScore/MCP/plugin implementation",
+    "MusicXML reimport",
+    "Listening or printing or reading-speed experiment",
+    "Independent evaluator or user approval of this fixture"
+  ],
+  "decisions": {
+    "selective": "Conditionally useful display simplification after identical pattern is established; m3 changed ratios and m4 hierarchy remain explicit.",
+    "selective-clear": "Preferred worked example here: preserve same omission plus local bracket separation; not a global -1.2 sp rule.",
+    "all-hidden": "Rejected as general beautification: loses introduced ratios and nested scope despite identical events/MIDI."
+  },
+  "copyright_scope": "Original fixture sources and native renders CC0; official/book images and music remain private ignored cache."
+}
