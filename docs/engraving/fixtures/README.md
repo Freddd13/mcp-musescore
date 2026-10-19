@@ -28,3 +28,13 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 [voices-rests-source.musicxml](voices-rests-source.musicxml)为原创四小节双谱表练习，CC0。上谱表是两条持续独立的线，下表是低音；第二部在m1先停一拍、m3先停两拍。[保留版](voices-rests-shown.mscx)与[隐藏版](voices-rests-hidden.mscx)仅差这两个Rest的`visible=0`，固定Leland/Leland Text。隐藏版是此织体下不合适的编辑反例，不是改善候选；不能据此反向规定所有临时附加旋律都须显示休止。
 
 两版29个事件含26个音头和3个逻辑休止，重新导出MusicXML核对音高、起点、时值、谱表及voice均同源练习一致。SVG可见Rest由3减为1。未做音频文件比较。[保留图](voices-rests-shown.png)与[隐藏图](voices-rests-hidden.png)均由当前宿主180dpi原生PNG合白底、使用同一裁框保留完整音乐，没有移动符号。完整理由见[钢琴织体专题](../PIANO_TEXTURE_STUDY.md)，宿主哈希与保护检查见[piano_texture_evidence.json](../piano_texture_evidence.json)。导出方式同本页前述命令，替换为相应自制输入，并使用独立配置和输出目录。
+
+## 实际间距候选与迁移反例
+
+以下均为原创自制音乐及其原生渲染，CC0，不包含用户或官谱音乐；完整条件见[间距候选](../SPACING_CANDIDATES.md)，哈希及限定核查见[spacing_candidates_evidence.json](../spacing_candidates_evidence.json)。保持真实内置Leland/Leland Text和同一版心。所有PNG仅合白底并裁去无关页边，未移动音乐符号。
+
+- 极简：原输入为本页的[mixed-subdivision.mscx](mixed-subdivision.mscx)，[原排法图](mixed-subdivision-original.png)与[候选图](mixed-subdivision-balanced.png)对应；[候选原生谱](mixed-subdivision-balanced.mscx)仅改3个共同Segment前置间距和4个小节stretch。43个事件读回一致，16个共同起音同X，原生保存重载后几何/像素一致。
+- 变音/双音：[源谱](chromatic-spacing-source.mscx)、[尝试](chromatic-spacing-attempt.mscx)及[源图](chromatic-spacing-source.png)、[尝试图](chromatic-spacing-attempt.png)。51个事件读回一致；复制极简设置没有解决末端宽间隔，不作为改善方案。
+- 密集相邻和弦：[源谱](dense-spacing-source.mscx)、[复制设置](dense-spacing-copied-settings.mscx)、[仅在m2换行](dense-spacing-two-systems.mscx)及相应[源图](dense-spacing-source.png)、[3+1图](dense-spacing-copied-settings.png)、[2+2图](dense-spacing-two-systems.png)。各67个事件读回一致；2+2仅差一次LayoutBreak，所用垂直预算比原单行多，不能混作同一行的比较。
+
+事件核对限这些每谱表单声部、无连音/附点/曲线的练习；不代表一般多声部归一化或碰撞校验器。原生导出方式同本页前述命令，输入替换为相应自制谱，使用独立配置与输出目录。具体试验数值只供复现，不当作通用净书默认值。

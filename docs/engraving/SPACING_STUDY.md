@@ -2,6 +2,8 @@
 
 2026-10-19续学修正与新证据见[SPACING_DECISIONS](SPACING_DECISIONS.md)：A102证明官谱也会让低部步长服从复杂层的局部空间；当前宿主四条件复现区分整体松紧与组内分配。旧批结果仍按当时宿主保留，不能混称同一版本实验。
 
+同日进一步应用见[SPACING_CANDIDATES](SPACING_CANDIDATES.md)：极简原创谱已形成稳定脉冲的原生候选，并通过共同起点及保存重绘核查；含变音/和弦的迁移未成功，另比较密集例的分行备选。下文“尚无改善候选”等为当时批次状态，不代表仍只有复现；当前亦未改用户工程或实现自动净书。
+
 2026-10-10。主目标是积累排法和判断能力，见 [PREFERENCES.md](PREFERENCES.md)。本次没有修改用户PDF、MSCZ、插件、字体或软件本体；新增5份官谱的29页发现材料，近读8页，重读用户PDF第2页，教材9个图页。HS01–HS08是横向专题定位，不冒充此前E01–E35之外已验收的自动规则。
 
 原图、9幅教材图、8幅专题裁图与自制原生探针均保留本机隔离目录。私人图集：`E:\programming\funcodes\mcp-musescore\tmp\engraving\legacy-2026-10-08\engraving_spacing\atlas.html`。仓库只存分析、索引与自制fixture，不提交参考谱/书籍页或全文。精确路径、选择区域、测量和8个源文件保护见 [spacing_evidence.json](spacing_evidence.json)；结构、几何、链接与保护核查见 [spacing_verification.json](spacing_verification.json)。后者只验证研究证据与基线，不代表改善算法或审美已经验收。
