@@ -1,0 +1,822 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "scope": "Reading/knowledge/skill and original native fixtures only. No protected original editing or Muse/MCP/plugin development.",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "aff4fc8",
+    "evidence": "Committed whole-page ninelie reading, rule qualification and native octave control."
+  },
+  "source_book": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "printed_full_pages_viewed": [
+      315,
+      316,
+      317,
+      318,
+      319,
+      323
+    ],
+    "pdf_full_pages_viewed": [
+      335,
+      336,
+      337,
+      338,
+      339,
+      343
+    ],
+    "coverage_qualification": "Includes prior full reading and fuller recording of319/323; not six wholly new pages."
+  },
+  "official_full_page_revisits": [
+    {
+      "id": "A045",
+      "page": 11,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf"
+    },
+    {
+      "id": "A013",
+      "page": 5,
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Ao no Sumika - Jujutsu Kaisen Season 2 - Opening Theme.pdf",
+      "sha256": "9cae9243b3dc47deebe2ae6a36502afe5040dade13f192add7eb5f5a3bf48909"
+    }
+  ],
+  "historical_379_page_count_unchanged": true,
+  "reading_decisions": [
+    {
+      "location": "A045p11 T",
+      "decision": "Preserve stable central common beams for alternating thick chords; do not split the texture into two automatic rest-filled layers.",
+      "qualification": "PDF-only role/reading explanation, not internal voice reconstruction or engraver testimony."
+    },
+    {
+      "location": "A013p5 final system",
+      "decision": "Preserve rising shared-beam contour and6 groups; octave/loco and outer slur have separate scopes.",
+      "qualification": "No native alternative or per-stem measurement of the official source."
+    },
+    {
+      "location": "Original near-centre mixed cross-staff single line",
+      "decision": "Prefer same-gap flat beams with short rests by following lower-staff notes; retain sloped wider alternative.",
+      "qualification": "Conditional agent judgment; no user aesthetic approval or global-score preset."
+    },
+    {
+      "location": "Original m2 beat2 middle16th rest",
+      "decision": "Reject the deliberate display displacement into a filled beam despite identical complete MIDI.",
+      "qualification": "Does not forbid all centred common rests."
+    }
+  ],
+  "native_host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_not_inferred": true
+  },
+  "fixture": {
+    "bars": 2,
+    "metre": "4/4",
+    "notes": 26,
+    "visible16th_rests": 2,
+    "hidden_support_measure_rests": 2,
+    "common_primary_beam_groups": 8,
+    "actual_beam_fill_paths": 17,
+    "music_font": "Leland",
+    "music_text_font": "Leland Text",
+    "spatium_mm": 1.57,
+    "public_artifacts": [
+      {
+        "path": "docs/engraving/fixtures/cross-beam-baseline.mscx",
+        "sha256": "280f9e976ccdf74065d37f32dac029aef879b910616262f39e9ae123d30ec105",
+        "license": "CC0-1.0"
+      },
+      {
+        "path": "docs/engraving/fixtures/cross-beam-baseline.png",
+        "sha256": "944b4a846cfdabc56ea2178fc05dc852a69600d32e65eafa28b21127af9d0ee3",
+        "license": "CC0-1.0"
+      },
+      {
+        "path": "docs/engraving/fixtures/cross-beam-flat-guided.mscx",
+        "sha256": "3d0b710f1b7dde6a20efafbdf7cfdb43052fbece2681e399db392f28a37b1b0f",
+        "license": "CC0-1.0"
+      },
+      {
+        "path": "docs/engraving/fixtures/cross-beam-flat-guided.png",
+        "sha256": "2b47a245423269a24fd51dbdef6b4505012b3ec7d2a97e7f145518614425125c",
+        "license": "CC0-1.0"
+      },
+      {
+        "path": "docs/engraving/fixtures/cross-beam-sloped-guided.mscx",
+        "sha256": "98b899bda5177ffb448e1ed8d9260f97c583b7322c2919c630d804f7362a12fa",
+        "license": "CC0-1.0"
+      },
+      {
+        "path": "docs/engraving/fixtures/cross-beam-sloped-guided.png",
+        "sha256": "639cfe25654e818b66eba3dc921e4ca0cc34eb187f183db8956c561b334f9277",
+        "license": "CC0-1.0"
+      },
+      {
+        "path": "docs/engraving/fixtures/cross-beam-rest-cut-rejected.mscx",
+        "sha256": "3f38ed55fcc023b44cf285a18d17065f3e771b74f52b57bb6d1e3da918e3249c",
+        "license": "CC0-1.0"
+      },
+      {
+        "path": "docs/engraving/fixtures/cross-beam-rest-cut-rejected.png",
+        "sha256": "8445e7cfad4d46dfb463b4b7c136686c9ecbd47146db45d916e5faaac1958b83",
+        "license": "CC0-1.0"
+      }
+    ],
+    "all_notes_original_CC0": true,
+    "no_reference_transcription": true
+  },
+  "geometry": {
+    "tight": {
+      "staff_edge_gap_sp": 4.000000000000011,
+      "stem_count": 26,
+      "minimum_head_origin_to_end_sp": 0.75,
+      "median_head_origin_to_end_sp": 1.633875606687043,
+      "reference_lengths_below_2_5_sp": 22,
+      "rest_transforms": [
+        "matrix(0.890079,0,0,0.890079,1661.43,412.866)",
+        "matrix(0.890079,0,0,0.890079,2058.78,412.866)"
+      ]
+    },
+    "normal": {
+      "staff_edge_gap_sp": 6.500000000000015,
+      "stem_count": 26,
+      "minimum_head_origin_to_end_sp": 2.0,
+      "median_head_origin_to_end_sp": 2.8838756066870452,
+      "reference_lengths_below_2_5_sp": 5,
+      "rest_transforms": [
+        "matrix(0.890079,0,0,0.890079,1661.43,412.866)",
+        "matrix(0.890079,0,0,0.890079,2058.78,412.866)"
+      ]
+    },
+    "roomy": {
+      "staff_edge_gap_sp": 10.000000000000021,
+      "stem_count": 26,
+      "minimum_head_origin_to_end_sp": 3.7500000000000075,
+      "median_head_origin_to_end_sp": 4.633898076577397,
+      "reference_lengths_below_2_5_sp": 0,
+      "rest_transforms": [
+        "matrix(0.890079,0,0,0.890079,1661.43,412.866)",
+        "matrix(0.890079,0,0,0.890079,2058.78,412.866)"
+      ]
+    },
+    "balanced": {
+      "staff_edge_gap_sp": 8.000000000000016,
+      "stem_count": 26,
+      "minimum_head_origin_to_end_sp": 2.7500000000000053,
+      "median_head_origin_to_end_sp": 3.633898076577392,
+      "reference_lengths_below_2_5_sp": 0,
+      "rest_transforms": [
+        "matrix(0.890079,0,0,0.890079,1661.43,412.866)",
+        "matrix(0.890079,0,0,0.890079,2058.78,412.866)"
+      ]
+    },
+    "flat": {
+      "staff_edge_gap_sp": 6.500000000000015,
+      "stem_count": 26,
+      "minimum_head_origin_to_end_sp": 2.5000000000000027,
+      "median_head_origin_to_end_sp": 3.00000000000001,
+      "reference_lengths_below_2_5_sp": 0,
+      "rest_transforms": [
+        "matrix(0.890079,0,0,0.890079,1661.43,412.866)",
+        "matrix(0.890079,0,0,0.890079,2058.78,412.866)"
+      ]
+    },
+    "rest-guided": {
+      "staff_edge_gap_sp": 8.000000000000016,
+      "stem_count": 26,
+      "minimum_head_origin_to_end_sp": 2.7500000000000053,
+      "median_head_origin_to_end_sp": 3.633898076577392,
+      "reference_lengths_below_2_5_sp": 0,
+      "rest_transforms": [
+        "matrix(0.890079,0,0,0.890079,1661.43,679.89)",
+        "matrix(0.890079,0,0,0.890079,2058.78,679.89)"
+      ]
+    },
+    "rest-through-beam-control": {
+      "staff_edge_gap_sp": 8.000000000000016,
+      "stem_count": 26,
+      "minimum_head_origin_to_end_sp": 2.7500000000000053,
+      "median_head_origin_to_end_sp": 3.633898076577392,
+      "reference_lengths_below_2_5_sp": 0,
+      "rest_transforms": [
+        "matrix(0.890079,0,0,0.890079,1661.43,412.866)",
+        "matrix(0.890079,0,0,0.890079,2058.78,563.067)"
+      ]
+    },
+    "flat-guided": {
+      "staff_edge_gap_sp": 6.500000000000015,
+      "stem_count": 26,
+      "minimum_head_origin_to_end_sp": 2.5000000000000027,
+      "median_head_origin_to_end_sp": 3.00000000000001,
+      "reference_lengths_below_2_5_sp": 0,
+      "rest_transforms": [
+        "matrix(0.890079,0,0,0.890079,1661.43,646.512)",
+        "matrix(0.890079,0,0,0.890079,2058.78,646.512)"
+      ]
+    },
+    "rest-cut-control": {
+      "staff_edge_gap_sp": 6.500000000000015,
+      "stem_count": 26,
+      "minimum_head_origin_to_end_sp": 2.5000000000000027,
+      "median_head_origin_to_end_sp": 3.00000000000001,
+      "reference_lengths_below_2_5_sp": 0,
+      "rest_transforms": [
+        "matrix(0.890079,0,0,0.890079,1661.43,646.512)",
+        "matrix(0.890079,0,0,0.890079,2058.78,546.239)"
+      ]
+    }
+  },
+  "geometry_measurement_scope": "26 single black noteheads matched one-to-one to Stem starts, then notehead pitch-reference y to stem endpoint; direct SVG root children, no inherited transforms. Not general optical contour/chord measurement or automatic beauty threshold.",
+  "geometry_graphics_checks": {
+    "compact_vs_baseline_only_beams_stems_rests_graphics_differ": true,
+    "rest_move_vs_flat_only_rests_graphics_differ": true,
+    "all_measured_note_stem_beam_staff_svg_nodes_direct_children": true,
+    "common_png_crop": [
+      50,
+      70,
+      1450,
+      500
+    ],
+    "all_visible_ink_in_crop": true
+  },
+  "music_and_rejection_checks": {
+    "variants": {
+      "normal": {
+        "note_count": 26,
+        "visible_logical_rest_count": 2,
+        "hidden_support_measure_rests": 2,
+        "all_note_fields_except_explicit_layout_equal": true,
+        "source_expected_time_pitch_duration_destination_equal": true,
+        "positive_midi_onsets_pitch_equal_to_source": true,
+        "whole_midi_bytes_equal_to_normal": true
+      },
+      "tight": {
+        "note_count": 26,
+        "visible_logical_rest_count": 2,
+        "hidden_support_measure_rests": 2,
+        "all_note_fields_except_explicit_layout_equal": true,
+        "source_expected_time_pitch_duration_destination_equal": true,
+        "positive_midi_onsets_pitch_equal_to_source": true,
+        "whole_midi_bytes_equal_to_normal": true
+      },
+      "roomy": {
+        "note_count": 26,
+        "visible_logical_rest_count": 2,
+        "hidden_support_measure_rests": 2,
+        "all_note_fields_except_explicit_layout_equal": true,
+        "source_expected_time_pitch_duration_destination_equal": true,
+        "positive_midi_onsets_pitch_equal_to_source": true,
+        "whole_midi_bytes_equal_to_normal": true
+      },
+      "balanced": {
+        "note_count": 26,
+        "visible_logical_rest_count": 2,
+        "hidden_support_measure_rests": 2,
+        "all_note_fields_except_explicit_layout_equal": true,
+        "source_expected_time_pitch_duration_destination_equal": true,
+        "positive_midi_onsets_pitch_equal_to_source": true,
+        "whole_midi_bytes_equal_to_normal": true
+      },
+      "flat": {
+        "note_count": 26,
+        "visible_logical_rest_count": 2,
+        "hidden_support_measure_rests": 2,
+        "all_note_fields_except_explicit_layout_equal": true,
+        "source_expected_time_pitch_duration_destination_equal": true,
+        "positive_midi_onsets_pitch_equal_to_source": true,
+        "whole_midi_bytes_equal_to_normal": true
+      },
+      "rest-guided": {
+        "note_count": 26,
+        "visible_logical_rest_count": 2,
+        "hidden_support_measure_rests": 2,
+        "all_note_fields_except_explicit_layout_equal": true,
+        "source_expected_time_pitch_duration_destination_equal": true,
+        "positive_midi_onsets_pitch_equal_to_source": true,
+        "whole_midi_bytes_equal_to_normal": true
+      },
+      "rest-through-beam-control": {
+        "note_count": 26,
+        "visible_logical_rest_count": 2,
+        "hidden_support_measure_rests": 2,
+        "all_note_fields_except_explicit_layout_equal": true,
+        "source_expected_time_pitch_duration_destination_equal": true,
+        "positive_midi_onsets_pitch_equal_to_source": true,
+        "whole_midi_bytes_equal_to_normal": true
+      },
+      "flat-guided": {
+        "note_count": 26,
+        "visible_logical_rest_count": 2,
+        "hidden_support_measure_rests": 2,
+        "all_note_fields_except_explicit_layout_equal": true,
+        "source_expected_time_pitch_duration_destination_equal": true,
+        "positive_midi_onsets_pitch_equal_to_source": true,
+        "whole_midi_bytes_equal_to_normal": true
+      },
+      "rest-cut-control": {
+        "note_count": 26,
+        "visible_logical_rest_count": 2,
+        "hidden_support_measure_rests": 2,
+        "all_note_fields_except_explicit_layout_equal": true,
+        "source_expected_time_pitch_duration_destination_equal": true,
+        "positive_midi_onsets_pitch_equal_to_source": true,
+        "whole_midi_bytes_equal_to_normal": true
+      }
+    },
+    "musicxml_visible_rest_records": {
+      "normal": [
+        {
+          "bar": 2,
+          "onset": "4",
+          "duration": "1/4",
+          "pitch": null,
+          "staff": "1",
+          "voice": "1",
+          "print_object": null,
+          "raw_attributes": {
+            "default-x": "13.00",
+            "default-y": "-20.00"
+          },
+          "full_xml": "<note default-x=\"13.00\" default-y=\"-20.00\">\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        </note>\n      ",
+          "xml": "<note>\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        </note>\n      "
+        },
+        {
+          "bar": 2,
+          "onset": "11/2",
+          "duration": "1/4",
+          "pitch": null,
+          "staff": "1",
+          "voice": "1",
+          "print_object": null,
+          "raw_attributes": {
+            "default-x": "191.57",
+            "default-y": "-20.00"
+          },
+          "full_xml": "<note default-x=\"191.57\" default-y=\"-20.00\">\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        </note>\n      ",
+          "xml": "<note>\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        </note>\n      "
+        }
+      ],
+      "flat-guided": [
+        {
+          "bar": 2,
+          "onset": "4",
+          "duration": "1/4",
+          "pitch": null,
+          "staff": "1",
+          "voice": "1",
+          "print_object": null,
+          "raw_attributes": {
+            "default-x": "13.00",
+            "default-y": "-125.00"
+          },
+          "full_xml": "<note default-x=\"13.00\" default-y=\"-125.00\">\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        </note>\n      ",
+          "xml": "<note>\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        </note>\n      "
+        },
+        {
+          "bar": 2,
+          "onset": "11/2",
+          "duration": "1/4",
+          "pitch": null,
+          "staff": "1",
+          "voice": "1",
+          "print_object": null,
+          "raw_attributes": {
+            "default-x": "191.57",
+            "default-y": "-125.00"
+          },
+          "full_xml": "<note default-x=\"191.57\" default-y=\"-125.00\">\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        </note>\n      ",
+          "xml": "<note>\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        </note>\n      "
+        }
+      ],
+      "rest-cut-control": [
+        {
+          "bar": 2,
+          "onset": "4",
+          "duration": "1/4",
+          "pitch": null,
+          "staff": "1",
+          "voice": "1",
+          "print_object": null,
+          "raw_attributes": {
+            "default-x": "13.00",
+            "default-y": "-125.00"
+          },
+          "full_xml": "<note default-x=\"13.00\" default-y=\"-125.00\">\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        </note>\n      ",
+          "xml": "<note>\n        <rest />\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">begin</beam>\n        <beam number=\"2\">begin</beam>\n        </note>\n      "
+        },
+        {
+          "bar": 2,
+          "onset": "11/2",
+          "duration": "1/4",
+          "pitch": null,
+          "staff": "1",
+          "voice": "1",
+          "print_object": null,
+          "raw_attributes": {
+            "default-x": "191.57",
+            "default-y": "-79.94"
+          },
+          "full_xml": "<note default-x=\"191.57\" default-y=\"-79.94\">\n        <rest>\n          <display-step>D</display-step>\n          <display-octave>6</display-octave>\n          </rest>\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        </note>\n      ",
+          "xml": "<note>\n        <rest>\n          <display-step>D</display-step>\n          <display-octave>6</display-octave>\n          </rest>\n        <duration>2</duration>\n        <voice>1</voice>\n        <type>16th</type>\n        <staff>1</staff>\n        <beam number=\"1\">continue</beam>\n        <beam number=\"2\">continue</beam>\n        </note>\n      "
+        }
+      ]
+    },
+    "expected_xml_rest_display_differences": "Guided staffMove keeps staff1/voice1 but changes default-y. Intentional offset controls can additionally export rest/display-step and display-octave; only these two display children on the target16th rest were excluded, never actual pitch/voice/beam/duration. No MusicXML reimport claimed.",
+    "rejected_rest_cut": {
+      "only_one_rest_display_changed": true,
+      "all_other_svg_elements_equal_except_title": true,
+      "actual_rest_boundary_point_page": [
+        2089.3069504551004,
+        529.6890490898
+      ],
+      "strictly_inside_real_filled_beam": true,
+      "nominal_beam_y_band": [
+        524.126,
+        535.252
+      ]
+    },
+    "source_expected_note_count": 26,
+    "no_musicxml_reimport_or_listening_printing_user_preference_test": true
+  },
+  "native_save_reload": {
+    "flat-guided": {
+      "one_page": true,
+      "rest_staffmove_both_preserved": true,
+      "svg_equal_except_title": true,
+      "rgba_dimensions_and_raw_bytes_equal": true,
+      "whole_midi_bytes_equal": true,
+      "musicxml_all_event_rows_including_positions_equal": true
+    },
+    "rest-guided": {
+      "one_page": true,
+      "rest_staffmove_both_preserved": true,
+      "svg_equal_except_title": true,
+      "rgba_dimensions_and_raw_bytes_equal": true,
+      "whole_midi_bytes_equal": true,
+      "musicxml_all_event_rows_including_positions_equal": true
+    },
+    "rgba_difference_control": {
+      "different_opaque_rgb_pixels": true,
+      "rgba_difference_default_getbbox": null,
+      "rgb_difference_getbbox": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "previous_ninelie_raw_rgba_recheck_equal": true
+  },
+  "source_input_differences_reversed_to_baseline": {
+    "flat_guided": "Only Style beamNoSlope plus two Rest staffMove=1.",
+    "sloped_guided": "Only Style akkoladeDistance6.5->8 plus two Rest staffMove=1."
+  },
+  "commands": {
+    "initial": {
+      "count": 12,
+      "all_exit_zero": true,
+      "entries": [
+        {
+          "name": "normal",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "normal",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "normal",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "normal",
+          "format": "mid",
+          "exit_code": 0
+        },
+        {
+          "name": "tight",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "tight",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "tight",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "tight",
+          "format": "mid",
+          "exit_code": 0
+        },
+        {
+          "name": "roomy",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "roomy",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "roomy",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "roomy",
+          "format": "mid",
+          "exit_code": 0
+        }
+      ]
+    },
+    "variants": {
+      "count": 16,
+      "all_exit_zero": true,
+      "entries": [
+        {
+          "name": "balanced",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "balanced",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "balanced",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "balanced",
+          "format": "mid",
+          "exit_code": 0
+        },
+        {
+          "name": "flat",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "flat",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "flat",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "flat",
+          "format": "mid",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-guided",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-guided",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-guided",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-guided",
+          "format": "mid",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-through-beam-control",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-through-beam-control",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-through-beam-control",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-through-beam-control",
+          "format": "mid",
+          "exit_code": 0
+        }
+      ]
+    },
+    "final": {
+      "count": 8,
+      "all_exit_zero": true,
+      "entries": [
+        {
+          "name": "flat-guided",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "flat-guided",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "flat-guided",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "flat-guided",
+          "format": "mid",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-cut-control",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-cut-control",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-cut-control",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-cut-control",
+          "format": "mid",
+          "exit_code": 0
+        }
+      ]
+    },
+    "reload": {
+      "count": 10,
+      "all_exit_zero": true,
+      "entries": [
+        {
+          "name": "flat-guided",
+          "format": "mscx",
+          "exit_code": 0
+        },
+        {
+          "name": "flat-guided",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "flat-guided",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "flat-guided",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "flat-guided",
+          "format": "mid",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-guided",
+          "format": "mscx",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-guided",
+          "format": "svg",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-guided",
+          "format": "png",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-guided",
+          "format": "musicxml",
+          "exit_code": 0
+        },
+        {
+          "name": "rest-guided",
+          "format": "mid",
+          "exit_code": 0
+        }
+      ]
+    }
+  },
+  "private_records": [
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\read.py",
+      "sha256": "6ba76471277d532190238b2b0eeeb4ee327f418edff461cf35919803f3d2645b"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\official-sources.json",
+      "sha256": "a64e78c761656ed0d6ab84f5161e8e9ed42dd815e2843865d794a093a54fc138"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\build.py",
+      "sha256": "759e1c775b60c3f6d094437d3ca149486bec7c2359efe486bdec5c1e4be7fe6d"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\variants.py",
+      "sha256": "e7c49b2f37966e1296a729c2bb93f797f70a45fd58f984c9363d7b879952b3a9"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\finish-candidates.py",
+      "sha256": "c219a04377b539b4251d889e57a4e9222ad2686fba77ddcddb250a2a7705e4d8"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\verify.py",
+      "sha256": "680b2de61ec70cf4827685e855699331abe851c62907b435577111396affa170"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\head-reference-geometry.json",
+      "sha256": "442d548807f701cbb07f1e8d69afd3eef6b406e4577c4cd8caf883f419cb8ae4"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\reload.py",
+      "sha256": "b55aa511372faf3a8977109f501e97781421eb9c8c3c3893f093d4b65318eeca"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\checks.json",
+      "sha256": "aac308655c8ebfb4ff4484162a8aa9532bf12f14fc17dfc1f97510816043006a"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\reload-checks.json",
+      "sha256": "33288ebe0f2c7c7f724ec42509eae9a55c74793ad0912cc69af2b7f35a35b5d3"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-staff-beams-2026-10-20\\rest-cut-target.json",
+      "sha256": "96a1f7aa749720c5683596dc5ffd8163813e420ec3982befc437d630f3bd965c"
+    }
+  ],
+  "protected_originals": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Ao no Sumika - Jujutsu Kaisen Season 2 - Opening Theme.pdf",
+      "sha256": "9cae9243b3dc47deebe2ae6a36502afe5040dade13f192add7eb5f5a3bf48909",
+      "unchanged": true
+    }
+  ],
+  "initial_assumptions_corrected": [
+    "Raw Stem line length was separated from notehead pitch-reference length before comparing with2.5sp guidance.",
+    "Expected MusicXML staff2 after native rest staffMove was corrected: staff1/voice1 stays, default-y records the visual move. No export loss or reimport preservation inferred.",
+    "Only intentional rest offset controls may add display-step/octave; narrowly excluded these target display children, not real pitch/voice/duration/beam.",
+    "The earlier6.75sp trial was visually near beams but not used as collision proof; final reject places an actual glyph boundary strictly inside a filled beam and was rechecked.",
+    "RGBA getbbox comparison can miss RGB differences at equal alpha; final native images and previous ninelie images checked by dimensions/raw RGBA bytes."
+  ],
+  "limits": [
+    "No MusicXML reimport.",
+    "No printing, listening or user aesthetic adoption.",
+    "No official source engine object/voice reconstruction.",
+    "No whole-user-score reflow or native single-direction-beam alternative.",
+    "No complex tuplet/independent-part cross-staff validation.",
+    "No universal claim all native defaults or all cross-staff notation fail."
+  ],
+  "global_skill_installation": false,
+  "software_adaptation": false,
+  "independent_agent_blind_evaluation": false
+}

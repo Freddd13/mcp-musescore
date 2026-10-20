@@ -2507,5 +2507,80 @@
       }
     ],
     "initial_validator_encoding_retry": "Windows default GBK cannot read UTF8 skill; Python -X utf8 passed."
+  },
+  "follow_up_cross_staff_beams": {
+    "date": "2026-10-20",
+    "quick_validate": "Skill is valid!",
+    "routes_checked": {
+      "cross-staff": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "cross-staff",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CROSS_STAFF_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+        ]
+      },
+      "beams": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "beams",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_STEM_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md"
+        ]
+      }
+    },
+    "locator_algorithm_changed": false,
+    "all19_routes_not_rerun": true,
+    "changed_markdown_files_checked": [
+      "docs/engraving/CROSS_STAFF_STUDY.md",
+      "docs/engraving/README.md",
+      "docs/engraving/BEAM_STEM_STUDY.md",
+      "docs/engraving/PIANO_TEXTURE_STUDY.md",
+      "docs/engraving/BEHIND_BARS_NOTES.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "docs/engraving/fixtures/README.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/native-review.md"
+    ],
+    "local_links_checked": 431,
+    "public_original_artifacts_checked": 8,
+    "protected_original_hashes_checked": 5,
+    "all_four_final_public_pngs_visually_reviewed": true,
+    "candidate_native_save_reload": true,
+    "notehead_reference_stem_measurement": true,
+    "rest_cut_actual_geometric_intersection_control": true,
+    "rgba_positive_difference_and_raw_byte_check": true,
+    "global_installation": false,
+    "software_adaptation": false,
+    "independent_blind_or_user_aesthetic_test": false,
+    "skill_files": [
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "sha256": "28db66111949e8d96bac723154807c5ec72718d51d84e7dce93d787bccd68773"
+      },
+      {
+        "path": "skills/piano-engraving/scripts/engraving_library.py",
+        "sha256": "09b341134ff5e729c86e0eed20a8ebc0ef38d83cf1b382c74803971716f12e9f"
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "sha256": "906fd3b1f7761b55ee1242e59ffa49f0c53ce06ec482736983c5ad859ad5ddeb"
+      }
+    ]
   }
 }

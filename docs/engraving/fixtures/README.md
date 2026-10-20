@@ -1,5 +1,16 @@
 # 独立净书复现谱例
 
+## 跨表共同梁、短干与拍内休止
+
+2026-10-20原创CC0两小节4/4，26音、2个可见十六分休止及2个隐藏空表整休止容器；单线跨手，含八分／十六分／三十二分混合，非独立对位。固定Leland／Leland Text、spatium 1.57mm、同一水平预算，无官谱转写。
+
+- [斜梁对照](cross-beam-baseline.mscx)／[图](cross-beam-baseline.png)：显式表边距6.5sp，最短音头谱位参考点→干端2sp，两处短休止在上表。
+- [紧凑平梁与休止位置](cross-beam-flat-guided.mscx)／[图](cross-beam-flat-guided.png)：同表距、最短2.5sp；两Rest设staffMove1，靠近随后下表音。本短例倾向此版，非用户偏好或全谱平梁预设。
+- [稍宽斜梁与休止位置](cross-beam-sloped-guided.mscx)／[图](cross-beam-sloped-guided.png)：表边距8sp、最短2.75sp；保坡度但多占高，另一可行备选。
+- [切梁休止拒绝版](cross-beam-rest-cut-rejected.mscx)／[图](cross-beam-rest-cut-rejected.png)：仅改紧凑版拍中Rest的自动放置／y偏移，实际字形边界点进入填充梁，其它SVG图元保持；同完整MIDI仍拒绝，不是禁止所有中央休止。
+
+九份探针／候选（其中以上四版随库保存）保26个预期起音与完整MIDI，所有音符非位置XML字段保持；两候选另经原生保存重载，SVG除标题、原始RGBA像素及MusicXML事件记录保持。XML的Rest仍staff1／voice1而default-y改变，不能仅据staff判移位丢失；本轮没有XML导回、试听、打印或偏好评测。图为180dpi原生合白底，同框(50,70,1450,500)，完整保留全部墨迹，无符号搬移／缩放。见[条件与理由](../CROSS_STAFF_STUDY.md#8-续读中部梁不是把所有东西放在中间)及[证据](../cross_staff_beams_evidence.json)；教材／官谱不属于本CC0材料。
+
 ## 同一谱表的八度作用域
 
 2026-10-20原创CC0两小节4/4，16个写出音，固定Leland／Leland Text、spatium 1.57mm与同一满行宽度。上层E6／F6长值后接四分，内层C4／D4全音符，低表四分作时间参照；没有转写官谱，也没有模拟参考中的接收tie。

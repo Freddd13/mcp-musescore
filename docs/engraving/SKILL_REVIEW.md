@@ -1,5 +1,7 @@
 # 净书skill初版：检验了什么
 
+2026-10-20[跨表共同梁应用](CROSS_STAFF_STUDY.md#10-原创原生例加表距与平梁是两种不同代价)补cross-staff／beams入口已有参考中的缺口：平梁与表距、参考点干长、副梁换侧及短休止位置分判；同MIDI的切梁休止拒绝。两候选原生重载保持，原始RGBA字节检验另有阳性差异控制；XML logical staff不等于可见归属。结果见follow_up_cross_staff_beams，不称独立审美评测或软件适配。
+
 2026-10-20[整页判断迁移](INTEGRATED_READING_NINELIE.md)接入overview／octaves两个既有入口，维持19个topic。skill补同表八度的默认范围、混写例外和孤立高音／分表的取舍，避免复制参考外形；原创16音控制验证仅看计数／原生pitch会漏实际八度改变，分表版原生重载保持。具体验证见follow_up_integrated_ninelie；无安装、用户审美认可或软件适配。
 
 2026-10-20[持音提示](SUSTAIN_CONTINUATION.md)加入piano／curves，维持19个入口。skill补中途／结束边界、手持／中踏板／无声按键／新攻击及捕捉子集的判断；原创提示的原生保存与XML正反例验证cue、大小、括号和play不能混同。用户原记法保留；34起音并未掩盖XML释音／控制／续行文字变化。格式、当前19路由、链接和六个原创样本另核，结果见follow_up_sustain_continuation，非独立盲评或用户审美认可。
