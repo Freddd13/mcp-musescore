@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-20",
+  "study": "Free passages, held backgrounds, synchronization and performer signals",
+  "book": {
+    "printed_full_page_reading": [
+      609,
+      610,
+      611,
+      612,
+      613,
+      614,
+      615,
+      616,
+      617,
+      618,
+      619,
+      620,
+      621
+    ],
+    "pdf_full_page_reading": [
+      629,
+      630,
+      631,
+      632,
+      633,
+      634,
+      635,
+      636,
+      637,
+      638,
+      639,
+      640,
+      641
+    ],
+    "title_contents_only_not_counted": [
+      607,
+      608
+    ],
+    "independent_repetition": "Only the opening on p621; later pages not read in this batch."
+  },
+  "protected_inputs": [
+    {
+      "label": "user_pdf",
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256_before_and_after": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "label": "user_native",
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256_before_and_after": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "label": "book",
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256_before_and_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "id": "A056",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Here - Mahoutsukai no Yome - Opening Theme.pdf",
+      "sha256": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+      "page": 8,
+      "sha256_after_reading": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+      "unchanged": true
+    },
+    {
+      "id": "A083",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Last Stardust - Fate stay night：Unlimited Blade Works - Insert Song.pdf",
+      "sha256": "5769f7eff1b179ed44dc9b3fc12285a4d9a8dcf4387d1c8d5bf173be1723786b",
+      "page": 6,
+      "sha256_after_reading": "5769f7eff1b179ed44dc9b3fc12285a4d9a8dcf4387d1c8d5bf173be1723786b",
+      "unchanged": true
+    }
+  ],
+  "native_part_containers": [
+    {
+      "part_ordinal_1based": 1,
+      "staff_ids": [
+        "1",
+        "2"
+      ],
+      "track_name": "钢琴",
+      "instrument_name": "钢琴"
+    },
+    {
+      "part_ordinal_1based": 2,
+      "staff_ids": [
+        "3",
+        "4"
+      ],
+      "track_name": "Piano",
+      "instrument_name": null
+    },
+    {
+      "part_ordinal_1based": 3,
+      "staff_ids": [
+        "5",
+        "6"
+      ],
+      "track_name": "钢琴",
+      "instrument_name": "钢琴"
+    }
+  ],
+  "held_note_tie_connections": [
+    {
+      "native_staff_id": "5",
+      "members": 3,
+      "from_container": 148,
+      "to_container": 149,
+      "next_prev_and_native_pitch_pairs_match": true
+    },
+    {
+      "native_staff_id": "6",
+      "members": 2,
+      "from_container": 148,
+      "to_container": 149,
+      "next_prev_and_native_pitch_pairs_match": true
+    }
+  ],
+  "musicxml_confirmation": {
+    "starts_in_m148": 5,
+    "stops_in_m149": 5
+  },
+  "fermata_note_locators_in_existing_musicxml": [
+    {
+      "part": "P2",
+      "staff": "1",
+      "voice": "1",
+      "onset_q": "1",
+      "duration_q": "3",
+      "nominal_end_q": "4"
+    },
+    {
+      "part": "P3",
+      "staff": "1",
+      "voice": "1",
+      "onset_q": "0",
+      "duration_q": "4",
+      "nominal_end_q": "4"
+    },
+    {
+      "part": "P3",
+      "staff": "2",
+      "voice": "5",
+      "onset_q": "0",
+      "duration_q": "4",
+      "nominal_end_q": "4"
+    }
+  ],
+  "time_scope": "q is a nominal notation/layout locator, not a prescribed clock for senza misura; no performer-release or independent playback-clock claim.",
+  "source_fermata_properties": [
+    {
+      "native_staff_id": "3",
+      "stored_timeStretch": 1.5
+    },
+    {
+      "native_staff_id": "5",
+      "stored_timeStretch": 2.0
+    },
+    {
+      "native_staff_id": "6",
+      "stored_timeStretch": 2.0
+    }
+  ],
+  "cross_staff_context": [
+    {
+      "staff_id": "3",
+      "measure": 148,
+      "chord_count": 0,
+      "staff_move_values": {},
+      "rests": [
+        {
+          "visible": "0",
+          "duration_type": "measure"
+        }
+      ]
+    },
+    {
+      "staff_id": "4",
+      "measure": 148,
+      "chord_count": 21,
+      "staff_move_values": {
+        "0": 9,
+        "-1": 12
+      },
+      "rests": [
+        {
+          "visible": null,
+          "duration_type": "quarter"
+        }
+      ]
+    }
+  ],
+  "hidden_tempo_count_in_staff1_measure_containers147to149": 14,
+  "data_probe_correction": "Initial direct-Tie-only probe was a false negative. Native ties use Spanner type=Tie with next/prev locations here. Corrected private extraction and verified next/prev pairs.",
+  "existing_export": {
+    "source": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\glissando-reading-2026-10-20\\native\\baseline.musicxml",
+    "sha256": "c935802f6a91126dd7dc350b30a68a4e247af5524c95523bb67ff909872a8699",
+    "source_baseline_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "reused_only": true
+  },
+  "decisions": [
+    "Preserve the four-staff activity/background separation, five cross-bar ties and different fermata x positions in user m148-149.",
+    "Keep m150 / O metre and tempo return cues; do not restore hidden 4/4 or hidden local measure rest.",
+    "A056 p8: sustained upper material and a piacere lower run use two staves for different texture requirements.",
+    "A083 p6: local ad lib passage and a tempo return can remain on the same system.",
+    "Do not import ensemble conductor/performer signals into a solo piano passage merely for appearance.",
+    "Wavy line after a group with repeat ad lib can denote independent group repetition, not ordinary single-main-note trill."
+  ],
+  "unresolved": [
+    "Exact hand/pedal implementation and releases",
+    "Whether an actual compact alternative outperforms this four-staff context",
+    "Full independent repetition section after its opening"
+  ],
+  "new_native_exports": 0,
+  "new_layout_candidates": 0,
+  "new_midi_or_audition": false,
+  "printing": false,
+  "original_inputs_unchanged": true,
+  "historical_official_corpus_count_incremented": false,
+  "software_adaptation": false,
+  "gui_operations": false,
+  "new_user_preference": false,
+  "private_cache": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\free-passage-2026-10-20",
+  "copyrighted_pages_or_score_images_committed": false
+}
