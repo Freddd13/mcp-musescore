@@ -1,5 +1,15 @@
 # 独立净书复现谱例
 
+## 选择延音踏板的跨行持音提醒
+
+2026-10-20原创CC0八小节4/4、双谱表，m1的A2／A3由选择延音踏板保持到m8边界，手在四分长度后释放，m5不重奏该八度。范围用TextLine显示，未模拟CC66／实际留声；同一Leland／Leland Text和两系统预算，不是用户片段转写。
+
+- [无重述基线](sustain-baseline.mscx)／[图](sustain-baseline.png)：范围可读，需要回看初始音高。
+- [括起小提示](sustain-bracket-reminder.mscx)／[图](sustain-bracket-reminder.png)：只将m5整休止换为两个不播放的括起小音头；是提醒记法提议，非纯几何移动。
+- [普通音头控制](sustain-ordinary-note-control.mscx)／[图](sustain-ordinary-note-control.png)：相同位置改普通全音符但仍设不播放，原生MIDI相同而图面易误读，导回MusicXML还多出两个起音，故本例不采用。
+
+原生三版均34次NoteOn；提醒版保存重载图／MIDI保持。提醒的cue与括号在实际XML往返保住，但释音、初始化控制和续行文字仍变化；不能称整个交换无损。构造时TextLine锚点及附点顺序的无效尝试另存私有缓存，最终核实际线条及单个时值。完整依据、原生保护与用户实曲保留判断见[专题](../SUSTAIN_CONTINUATION.md)和[证据](../sustain_continuation_evidence.json)；教材／官谱不属于本CC0材料。
+
 ## 颤音的可见范围与连续／重奏
 
 2026-10-20原创四小节4/4双谱表，CC0，无参考音乐转写；26书面音、一个跨行逻辑Trill、一个tie连接、两个独立tr奏法。m2 F5全音符连m3 F5二分，波线到m3第三拍G♯5；m4两个E5二分分别起颤。固定Leland／Leland Text和两行预算，非出版模板。

@@ -2331,5 +2331,104 @@
         "sha256": "7b88c16cddf037bd1bff3e3bcb783735c3bd02131de2e891f1a0e8294476c937"
       }
     ]
+  },
+  "follow_up_sustain_continuation": {
+    "date": "2026-10-20",
+    "study": "SUSTAIN_CONTINUATION.md",
+    "quick_validate": "Skill is valid!",
+    "external_cwd": "C:\\Windows",
+    "all_current_topics_checked": 19,
+    "all_current_topic_names_checked": [
+      "overview",
+      "spacing",
+      "rhythm",
+      "tempo",
+      "beams",
+      "curves",
+      "markings",
+      "ornaments",
+      "glissandi",
+      "octaves",
+      "navigation",
+      "piano",
+      "cross-staff",
+      "notation",
+      "layout",
+      "sources",
+      "cases",
+      "baseline",
+      "implementation"
+    ],
+    "selected_routes": {
+      "piano": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "piano",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SUSTAIN_CONTINUATION.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OCTAVE_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\FREE_PASSAGE_READING.md"
+        ]
+      },
+      "curves": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "curves",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CURVES_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OUTPUT_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SUSTAIN_AND_RESTS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SUSTAIN_CONTINUATION.md"
+        ]
+      }
+    },
+    "changed_markdown_target_files_checked": [
+      "docs/engraving/SUSTAIN_CONTINUATION.md",
+      "docs/engraving/README.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/BEHIND_BARS_NOTES.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "docs/engraving/SUSTAIN_AND_RESTS.md",
+      "docs/engraving/PIANO_TEXTURE_STUDY.md",
+      "docs/engraving/WHOLE_SCORE_REVIEW.md",
+      "docs/engraving/fixtures/README.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/native-review.md"
+    ],
+    "public_original_artifact_hashes_checked": 6,
+    "native_save_reload": true,
+    "actual_musicxml_roundtrips": 2,
+    "individual_dotted_rest_duration_and_expected_textline_rendering_checked": true,
+    "no_claim_of_full_musicxml_playback_or_layout_preservation": true,
+    "global_skill_installation": false,
+    "software_adaptation": false,
+    "independent_blind_or_user_aesthetic_test": false,
+    "skill_files": [
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "sha256": "102e2a98345ebeda5bdfeb10a05d967bdc9063c16137d013a117d606724f7233"
+      },
+      {
+        "path": "skills/piano-engraving/scripts/engraving_library.py",
+        "sha256": "b4bd689f01cf71b62cf5feb4e03c8c893a7121382ea82ca131062316a96af9e3"
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "sha256": "15b76c6defde1c8696d848d3ec1119ed1ea20fa57f1fa7aed53c2bd8ee118436"
+      }
+    ]
   }
 }

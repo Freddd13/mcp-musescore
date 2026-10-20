@@ -1,0 +1,357 @@
+{
+  "date": "2026-10-20",
+  "previous_goal_turn": "progress: m86 spacing transfer, native checks and skill update committed/pushed as eda6770",
+  "scope": "Study sustained-note reminders and boundary conditions; keep actual user m132-135 unchanged, validate alternatives on original CC0 music",
+  "book_full_text_and_figures_revisited_printed": [
+    72,
+    73,
+    336,
+    337,
+    338
+  ],
+  "book_pdf_pages": [
+    92,
+    93,
+    356,
+    357,
+    358
+  ],
+  "protected_inputs": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    }
+  ],
+  "official_revisits": [
+    {
+      "id": "A021",
+      "page": 4,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bloody Stream - JoJo's Bizarre Adventure.pdf",
+      "sha256": "bbc5adf41772e9d7071757aaa377978d415238a1783b2b85932a7bd10c09cdcb"
+    },
+    {
+      "id": "A056",
+      "page": 8,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Here - Mahoutsukai no Yome - Opening Theme.pdf",
+      "sha256": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600"
+    },
+    {
+      "id": "A059",
+      "page": 5,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Homura - Demon Slayer the Movie Mugen Train - Theme Song.pdf",
+      "sha256": "ec06b84eba010c5bcdd6c70e6726b900601e9985f2642a4df362cfe9d52a4986"
+    }
+  ],
+  "historical_official_or_book_counts_incremented": false,
+  "author_intent_source": "Direct user clarification: 选择性延音踏板保持 A 八度，长弧表示持续",
+  "user_score_current_decision": {
+    "source_chord_native_pitches": [
+      69,
+      73,
+      76,
+      81
+    ],
+    "target_is_outer_A_octave_not_all_four_notes": true,
+    "two_opposite_Slur_connections": "m132 q1/2 -> m135 q0",
+    "boundary_is_not_unconditionally_mid_sustain": true,
+    "finger_release_and_precise_capture_release_not_inferred": true,
+    "no_user_score_trial_or_edit": true
+  },
+  "original_fixture": {
+    "license": "CC0",
+    "written_bars": 8,
+    "meter": "4/4",
+    "two_systems": "m1-4 / m5-8",
+    "target": "A2/A3 struck at m1, fingers freed after the quarter, selective pedal intended through m8 boundary, no new A2/A3 strike at m5",
+    "source_caveat": "TextLine is a notation indication; all exports have zero CC64/66, no real sostenuto audio simulation claimed",
+    "m5_baseline_rest_replaced_by_two_nonplaying_notes_in_reminder": true,
+    "classification": "Notation reminder proposal, not a pure geometric change"
+  },
+  "native_trials": {
+    "baseline": {
+      "note_on_count": 34,
+      "cc64_or_66": [],
+      "midi_sha256": "74e90766aa7231300b8b6584b0833de7b518fe7def5073d02abbe39e9fd3834a",
+      "musicxml_m5_lower": [
+        "<note default-x=\"163.16\" default-y=\"-115.00\">\n        <rest measure=\"yes\" />\n        <duration>4</duration>\n        <voice>5</voice>\n        <staff>2</staff>\n        </note>\n      "
+      ],
+      "svg_classes": {
+        "MeasureNumber": 2,
+        "BarLine": 22,
+        "StaffLines": 20,
+        "LedgerLine": 12,
+        "Stem": 33,
+        "Note": 34,
+        "Clef": 4,
+        "TimeSig": 4,
+        "Rest": 8,
+        "TextLineSegment": 5,
+        "NoteDot": 1,
+        "Bracket": 2
+      },
+      "pages": 1,
+      "m5_lower_midi_attacks": []
+    },
+    "bracket-reminder": {
+      "note_on_count": 34,
+      "cc64_or_66": [],
+      "midi_sha256": "74e90766aa7231300b8b6584b0833de7b518fe7def5073d02abbe39e9fd3834a",
+      "musicxml_m5_lower": [
+        "<note default-x=\"64.10\" default-y=\"-140.00\">\n        <cue />\n        <pitch>\n          <step>A</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>whole</type>\n        <notehead parentheses=\"yes\">normal</notehead>\n        <staff>2</staff>\n        </note>\n      ",
+        "<note default-x=\"64.10\" default-y=\"-105.00\">\n        <cue />\n        <chord />\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>whole</type>\n        <notehead parentheses=\"yes\">normal</notehead>\n        <staff>2</staff>\n        </note>\n      "
+      ],
+      "svg_classes": {
+        "MeasureNumber": 2,
+        "BarLine": 22,
+        "StaffLines": 20,
+        "LedgerLine": 12,
+        "Stem": 33,
+        "Note": 36,
+        "Clef": 4,
+        "TimeSig": 4,
+        "Rest": 7,
+        "Symbol": 4,
+        "TextLineSegment": 5,
+        "NoteDot": 1,
+        "Bracket": 2
+      },
+      "pages": 1,
+      "m5_lower_midi_attacks": []
+    },
+    "ordinary-note-control": {
+      "note_on_count": 34,
+      "cc64_or_66": [],
+      "midi_sha256": "74e90766aa7231300b8b6584b0833de7b518fe7def5073d02abbe39e9fd3834a",
+      "musicxml_m5_lower": [
+        "<note default-x=\"61.36\" default-y=\"-140.00\">\n        <pitch>\n          <step>A</step>\n          <octave>2</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>whole</type>\n        <staff>2</staff>\n        </note>\n      ",
+        "<note default-x=\"61.36\" default-y=\"-105.00\">\n        <chord />\n        <pitch>\n          <step>A</step>\n          <octave>3</octave>\n          </pitch>\n        <duration>4</duration>\n        <voice>5</voice>\n        <type>whole</type>\n        <staff>2</staff>\n        </note>\n      "
+      ],
+      "svg_classes": {
+        "MeasureNumber": 2,
+        "BarLine": 22,
+        "StaffLines": 20,
+        "LedgerLine": 12,
+        "Stem": 33,
+        "Note": 36,
+        "Clef": 4,
+        "TimeSig": 4,
+        "Rest": 7,
+        "TextLineSegment": 5,
+        "NoteDot": 1,
+        "Bracket": 2
+      },
+      "pages": 1,
+      "m5_lower_midi_attacks": []
+    }
+  },
+  "native_reload_and_interchange": {
+    "bracket-reminder": {
+      "note_on_count": 34,
+      "m5_lower_attacks": [],
+      "midi_sha256": "74e90766aa7231300b8b6584b0833de7b518fe7def5073d02abbe39e9fd3834a"
+    },
+    "reminder-resaved": {
+      "note_on_count": 34,
+      "m5_lower_attacks": [],
+      "midi_sha256": "74e90766aa7231300b8b6584b0833de7b518fe7def5073d02abbe39e9fd3834a",
+      "saved_reminder": {
+        "small": "1",
+        "play_values": [
+          "0",
+          "0"
+        ],
+        "note_parenthesis_symbols": [
+          "noteheadParenthesisLeft",
+          "noteheadParenthesisRight",
+          "noteheadParenthesisLeft",
+          "noteheadParenthesisRight"
+        ]
+      }
+    },
+    "bracket-reminder-xml": {
+      "note_on_count": 34,
+      "m5_lower_attacks": [],
+      "midi_sha256": "9e6135fcd3dfe5a8ec0bff9aeffabbaf828bc5df2d1365c37aa7f02773e80c35",
+      "saved_reminder": {
+        "small": "1",
+        "play_values": [
+          "0",
+          "0"
+        ],
+        "note_parenthesis_symbols": [
+          "noteheadParenthesisLeft",
+          "noteheadParenthesisRight",
+          "noteheadParenthesisLeft",
+          "noteheadParenthesisRight"
+        ]
+      }
+    },
+    "ordinary-note-control-xml": {
+      "note_on_count": 36,
+      "m5_lower_attacks": [
+        [
+          2,
+          7680,
+          [
+            45,
+            80
+          ]
+        ],
+        [
+          2,
+          7680,
+          [
+            57,
+            80
+          ]
+        ]
+      ],
+      "midi_sha256": "db4e54703fb4b58ebd27d51b5fdc2068ca5c36a6e1866ad12c81457d1ed301cd",
+      "saved_reminder": {
+        "small": null,
+        "play_values": [
+          null,
+          null
+        ],
+        "note_parenthesis_symbols": []
+      }
+    },
+    "native_reload": {
+      "svg_equal": true,
+      "pixels_equal": true,
+      "midi_equal": true
+    }
+  },
+  "semantic_validation": {
+    "native_source_only_m5_rest_to_reminder_change": true,
+    "musicxml_validation": {
+      "baseline": {
+        "bar_durations_quarters": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "whole_musicxml_equal_after_reversing_only_m5_reminder_and_layout": true
+      },
+      "bracket-reminder": {
+        "bar_durations_quarters": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "whole_musicxml_equal_after_reversing_only_m5_reminder_and_layout": true
+      },
+      "ordinary-note-control": {
+        "bar_durations_quarters": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "whole_musicxml_equal_after_reversing_only_m5_reminder_and_layout": true
+      },
+      "reminder-resaved": {
+        "bar_durations_quarters": [
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4",
+          "4"
+        ],
+        "whole_musicxml_equal_after_reversing_only_m5_reminder_and_layout": true
+      }
+    },
+    "cue_xml_reimport_positive_note_on_stream_equal": true,
+    "cue_xml_reimport_entire_midi_equal": false,
+    "observed_other_midi_changes": "Initial controls/pan and note-off lengths differ; see xml-midi-differences.json, no CC64/66 in either cue sample. Do not claim full playback preservation across MusicXML."
+  },
+  "xml_interchange_other_differences": {
+    "cue_note_on_stream_equal": true,
+    "cue_full_midi_equal": false,
+    "other_changes_include": "Earlier note-off times and different initial controls/pan",
+    "removed_event_count": 36,
+    "added_event_count": 35,
+    "cc64_or66_after_cue_import": [],
+    "continuation_text_after_import": "Actual view lacks the native (Sost. Ped.) continuation label; geometry differs, no complete layout preservation claimed"
+  },
+  "standards_urls": [
+    "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/cue/",
+    "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/type/"
+  ],
+  "fixture_construction_controls": {
+    "TextLine_inside_Chord_attempt": "No TextLineSegment rendered; preserved initial-anchor-attempt, moved connection records to voice time position, not classified as engine incapability",
+    "dots_after_durationType_attempt": "A dotted half-rest was read as two quarters and followed by an autofill quarter; preserved late-dots-attempt. Final source places dots before durationType and final MusicXML confirms one three-quarter rest",
+    "validity_requirement": "Expected object presence and intended individual durations checked, not only total bar duration or MIDI count",
+    "release_hook": "Final endHookHeight=-1.2 points the release hook toward the staff; previous downward generic TextLine hook outputs retained in down-hook-attempt."
+  },
+  "public_original_artifacts": [
+    {
+      "path": "docs/engraving/fixtures/sustain-baseline.mscx",
+      "sha256": "e52c2cb8abe1ffae14ca2a2f23862c9dc577526e835cac8e2144bfd5928f8377"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-baseline.png",
+      "sha256": "b5ad32b18cfde314dc9f3f8a08afdcbd25a13a4f3b5b03d8ccc93eaab5fb3e78"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-bracket-reminder.mscx",
+      "sha256": "f618712d69bf36766fd473daf532bcf0c3e87a5930d6c7f29cda2e219f6a8b63"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-bracket-reminder.png",
+      "sha256": "7472322a943aab26b57e8696af0cf092d6c2a2487ff2a0728a8007785b29f7e0"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-ordinary-note-control.mscx",
+      "sha256": "6f598794bad554a8461fb5cc6793732c822818217fd7b53ee54b0e08b2f5dddf"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-ordinary-note-control.png",
+      "sha256": "56814604110e25a8570d3546b9a70fc832a8bced6cdc233121976520bf191db0"
+    }
+  ],
+  "limits": [
+    "No user-score rewrite or new pedal controller",
+    "No physical pedal, listening or print test",
+    "No global font/skill installation or GUI operation",
+    "No MuseScore/MCP/plugin/core adaptation",
+    "No inference that all parentheses or sost. words indicate middle pedal",
+    "No independent blind or user aesthetic validation"
+  ],
+  "private_cache": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\sustain-continuation-2026-10-20",
+  "book_score_images_or_user_music_committed": false,
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_not_inferred": true
+  },
+  "musicxml_export_version": "4.0"
+}
