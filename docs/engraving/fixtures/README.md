@@ -1,5 +1,15 @@
 # 独立净书复现谱例
 
+## 同一谱表的八度作用域
+
+2026-10-20原创CC0两小节4/4，16个写出音，固定Leland／Leland Text、spatium 1.57mm与同一满行宽度。上层E6／F6长值后接四分，内层C4／D4全音符，低表四分作时间参照；没有转写官谱，也没有模拟参考中的接收tie。
+
+- [实际音高双表](octave-scope-at-pitch.mscx)／[图](octave-scope-at-pitch.png)：本孤立高音例倾向保留加线。
+- [短八度错误控制](octave-scope-unsafe-staff-ottava.mscx)／[图](octave-scope-unsafe-staff-ottava.png)：只降低上层并加原生Ottava，内层D4字段／图面位置不动，实际却变D5，故拒绝；不是宿主错误证明。
+- [分表八度版](octave-scope-separate-staff.mscx)／[图](octave-scope-separate-staff.png)：高层独立，保全部实际音乐，但增加一表，不是本例更美观的结论。
+
+三版各16次NoteOn。实际音高／分表版的XML时间／实际音高／时长及合并轨道MIDI音符事件保持；轨道配置不同，不称完整MIDI字节相同。分表版另经原生保存重载，一页、SVG除标题、RGBA像素、完整MIDI及音乐XML记录保持。图为原生180dpi合白底，同框(50,50,1450,650)完整保留谱表，无符号缩放／搬动。无MusicXML导回、试听、打印或偏好评测。见[整页判断及规范](../INTEGRATED_READING_NINELIE.md)和[证据](../integrated_reading_ninelie_evidence.json)。教材／官谱不属于本CC0材料。
+
 ## 选择延音踏板的跨行持音提醒
 
 2026-10-20原创CC0八小节4/4、双谱表，m1的A2／A3由选择延音踏板保持到m8边界，手在四分长度后释放，m5不重奏该八度。范围用TextLine显示，未模拟CC66／实际留声；同一Leland／Leland Text和两系统预算，不是用户片段转写。

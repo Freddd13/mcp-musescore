@@ -1,0 +1,531 @@
+{
+  "date": "2026-10-20",
+  "schema_version": 1,
+  "scope": "Whole-page supplementary reading, rule recheck and original octave-scope native fixture; no original editing or software adaptation.",
+  "selection_base_commit": "71087fe",
+  "directory_rescan_and_predetermined_selection": {
+    "date": "2026-10-20",
+    "utc_scan_time": "2026-10-20T09:43:34.839321+00:00",
+    "original_inventory_date": "2026-10-18T13:22:39.069089+08:00",
+    "source_root": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱",
+    "current_pdf_count": 146,
+    "same_hash_count": 146,
+    "new": [],
+    "missing": [],
+    "changed": [],
+    "all_original_inventory_hashes_match": true,
+    "selection_method": "From historical overview-only pages, exclude IDs explicitly cited in current top-level engraving Markdown; sort deterministic SHA256 of id/page/date token before opening page or its reading note. Not independent blind testing: full-page screening occurred historically.",
+    "pool_size": 366,
+    "explicitly_referenced_score_ids_excluded": 64,
+    "selected_page": {
+      "id": "A098",
+      "page": 4,
+      "order_key": "01577b74ce2486b6743ccb70b76f31934e03a55fde7fcbad08fe38a5c9934687",
+      "historical_review": "READING_017.md",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\ninelie - Kabaneri of the Iron Fortress - Ending Theme.pdf",
+      "source_sha256": "6ac7b6bf62664a3c43850139e2f543c8f293e7c5fba996492739d7fa935ac718",
+      "filename": "ninelie - Kabaneri of the Iron Fortress - Ending Theme.pdf",
+      "total_pages": 6
+    }
+  },
+  "reading_order": [
+    "Predetermined A098 p4 selected from 366 historical overview-only eligible pages before image/old note reading.",
+    "Viewed full p4 and saved initial-reading.md.",
+    "Read READING_017 (previous A098 detail pages p2/p6); viewed p4 enlarged panels, full context p3/p5.",
+    "Revisited full Gould printed324/325/490, PDF344/345/510.",
+    "Made and evaluated original native fixtures; recorded changed decision."
+  ],
+  "first_pass_snapshot": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\initial-reading.md",
+    "sha256": "16995b97cce129957a5e16756d49484b2bfad2e1069dcba7dc64d7efe2c0a8da",
+    "qualification": "First pass already noted registry/boundary unknown; subsequent correction makes the concurrent loco/ottava issue specific, not a claim first pass asserted fully proven scope."
+  },
+  "supplemental_detail_pages": [
+    {
+      "id": "A098",
+      "page": 4,
+      "historical_note": "corpus/READING_017.md",
+      "historical_detail_pages": [
+        2,
+        6
+      ]
+    }
+  ],
+  "context_revisits": [
+    {
+      "id": "A098",
+      "pages": [
+        3,
+        5
+      ]
+    }
+  ],
+  "historical_detail_count_unchanged": 379,
+  "new_book_coverage_claimed": false,
+  "independent_blind_or_user_aesthetic_test": false,
+  "decisions": [
+    {
+      "location": "A098p4 F and G",
+      "decision": "Preserve system-internal entries; do not force new systems.",
+      "reason": "Labels, double bars, dynamics and texture supply navigation; changing lines costs global spacing budget.",
+      "limit": "No alternative layout/turning test of the source."
+    },
+    {
+      "location": "A098p4 dense figures versus slow layers",
+      "decision": "Preserve groups and layer roles; spacing priority is locally dense part per beat, with alignment and distortion checked across layers.",
+      "limit": "No precise source-tick reconstruction or equality claim."
+    },
+    {
+      "location": "A098p4 system4 short8va before G and receiving lower ties",
+      "decision": "Change provisional preserve to explicit registry/scope editorial recheck.",
+      "reason": "Short line/stem direction alone do not establish voice-only ottava; Gould324/325 require clear concurrent loco/ottava scope.",
+      "limit": "PDF alone does not prove intended source pitch, engine voice identity or wrong music."
+    },
+    {
+      "location": "A098p4 to p5",
+      "decision": "Preserve receiving context; do not infer physical turn from PDF adjacency.",
+      "limit": "Conventional even-left/odd-right p4/5 facing conditional on actual medium; no playing/turning test."
+    }
+  ],
+  "native_host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_not_inferred": true
+  },
+  "fixture_check_results": {
+    "all_written_note_counts": {
+      "at-pitch": 16,
+      "unsafe-staff-ottava": 16,
+      "separate-staff": 16
+    },
+    "all_positive_note_on_counts": {
+      "at-pitch": 16,
+      "unsafe-staff-ottava": 16,
+      "separate-staff": 16
+    },
+    "clear_layouts_musicxml_timeline_pitch_duration_equal": true,
+    "clear_layouts_merged_midi_onset_pitch_duration_velocity_equal": true,
+    "unsafe_musicxml_removed": [
+      [
+        "4",
+        62,
+        "4"
+      ]
+    ],
+    "unsafe_musicxml_added": [
+      [
+        "4",
+        74,
+        "4"
+      ]
+    ],
+    "unsafe_midi_removed": [
+      [
+        "4",
+        62,
+        "1919/480",
+        80
+      ]
+    ],
+    "unsafe_midi_added": [
+      [
+        "4",
+        74,
+        "1919/480",
+        80
+      ]
+    ],
+    "midi_comparison_scope": "Sorted all channel note onset/pitch/duration/velocity; track/channel identities intentionally omitted for changed staff allocation; not whole MIDI byte equality."
+  },
+  "unsafe_input_difference_verified": "Only upper note89->77 plus the start/stop half-measure Ottava in that voice. Lower written pitch unchanged; effective native MusicXML/MIDI lower62->74.",
+  "safe_separate_staff_reload": {
+    "one_page": true,
+    "native_saved_and_reloaded": true,
+    "svg_equal_except_title": true,
+    "png_rgba_pixels_equal": true,
+    "whole_midi_bytes_equal": true,
+    "musicxml_onset_pitch_duration_equal": true
+  },
+  "fixture_limits": [
+    "Not a transcription or software reconstruction of A098; no receiving tie in this fixture.",
+    "All three versions have16 positive NoteOn; actual pitch differences still matter.",
+    "Baseline versus separate-staff comparison normalizes staff/track allocation, compares complete note onset/pitch/duration/velocity, not whole MIDI bytes.",
+    "No MusicXML reimport, listening, printing or user approval.",
+    "No universal claim about every native software version or custom voice-only octave solutions."
+  ],
+  "rendering": {
+    "native_resolution_dpi": 180,
+    "png_white_composite": true,
+    "common_crop": [
+      50,
+      50,
+      1450,
+      650
+    ],
+    "all_staves_and_both_bars_preserved": true,
+    "symbol_repositioning_or_rescaling": false
+  },
+  "public_original_artifacts": [
+    {
+      "path": "docs/engraving/fixtures/octave-scope-at-pitch.mscx",
+      "sha256": "151ea6502d059c6339461b890af4f3061816f70cffc1382317a99323210d2ff1",
+      "license": "CC0-1.0",
+      "origin": "Original music; native render, no source score notes or images."
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-at-pitch.png",
+      "sha256": "ed1d87bff6a9fb06d1c62d922618fe434adb32c91781abc205fa041eb2b6c292",
+      "license": "CC0-1.0",
+      "origin": "Original music; native render, no source score notes or images."
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-unsafe-staff-ottava.mscx",
+      "sha256": "0f424a36bc4c5c3e001261e61e5c86940702300422fd40b67665333c68ba2420",
+      "license": "CC0-1.0",
+      "origin": "Original music; native render, no source score notes or images."
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-unsafe-staff-ottava.png",
+      "sha256": "59a8983f5921e303ff21a4620a4ab86a065e2d74c9df218becb74a0c8c93c7fb",
+      "license": "CC0-1.0",
+      "origin": "Original music; native render, no source score notes or images."
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-separate-staff.mscx",
+      "sha256": "ed9e941b1c4008a7fce329b9e335735206da8b81745be8b4b5987ec64acc8365",
+      "license": "CC0-1.0",
+      "origin": "Original music; native render, no source score notes or images."
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-separate-staff.png",
+      "sha256": "a9770ecbfee79d7187867fce093fb1933c1d0e9d338850772a966997451f811c",
+      "license": "CC0-1.0",
+      "origin": "Original music; native render, no source score notes or images."
+    }
+  ],
+  "protected_originals": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\ninelie - Kabaneri of the Iron Fortress - Ending Theme.pdf",
+      "sha256": "6ac7b6bf62664a3c43850139e2f543c8f293e7c5fba996492739d7fa935ac718",
+      "unchanged": true
+    }
+  ],
+  "private_commands": {
+    "fixture_exports": [
+      {
+        "name": "at-pitch",
+        "format": "svg",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-at-pitch-svg",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\at-pitch.svg",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\at-pitch.mscx"
+        ]
+      },
+      {
+        "name": "at-pitch",
+        "format": "png",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-at-pitch-png",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\at-pitch.png",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\at-pitch.mscx"
+        ]
+      },
+      {
+        "name": "at-pitch",
+        "format": "musicxml",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-at-pitch-musicxml",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\at-pitch.musicxml",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\at-pitch.mscx"
+        ]
+      },
+      {
+        "name": "at-pitch",
+        "format": "mid",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-at-pitch-mid",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\at-pitch.mid",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\at-pitch.mscx"
+        ]
+      },
+      {
+        "name": "unsafe-staff-ottava",
+        "format": "svg",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-unsafe-staff-ottava-svg",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\unsafe-staff-ottava.svg",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\unsafe-staff-ottava.mscx"
+        ]
+      },
+      {
+        "name": "unsafe-staff-ottava",
+        "format": "png",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-unsafe-staff-ottava-png",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\unsafe-staff-ottava.png",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\unsafe-staff-ottava.mscx"
+        ]
+      },
+      {
+        "name": "unsafe-staff-ottava",
+        "format": "musicxml",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-unsafe-staff-ottava-musicxml",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\unsafe-staff-ottava.musicxml",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\unsafe-staff-ottava.mscx"
+        ]
+      },
+      {
+        "name": "unsafe-staff-ottava",
+        "format": "mid",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-unsafe-staff-ottava-mid",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\unsafe-staff-ottava.mid",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\unsafe-staff-ottava.mscx"
+        ]
+      },
+      {
+        "name": "separate-staff",
+        "format": "svg",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-separate-staff-svg",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff.svg",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff.mscx"
+        ]
+      },
+      {
+        "name": "separate-staff",
+        "format": "png",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-separate-staff-png",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff.png",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff.mscx"
+        ]
+      },
+      {
+        "name": "separate-staff",
+        "format": "musicxml",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-separate-staff-musicxml",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff.musicxml",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff.mscx"
+        ]
+      },
+      {
+        "name": "separate-staff",
+        "format": "mid",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\fixture-config-separate-staff-mid",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff.mid",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff.mscx"
+        ]
+      }
+    ],
+    "reload": [
+      {
+        "format": "mscx",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\reload-config-mscx",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff-resaved.mscx",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff.mscx"
+        ]
+      },
+      {
+        "format": "svg",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\reload-config-svg",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff-resaved.svg",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff-resaved.mscx"
+        ]
+      },
+      {
+        "format": "png",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\reload-config-png",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff-resaved.png",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff-resaved.mscx"
+        ]
+      },
+      {
+        "format": "musicxml",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\reload-config-musicxml",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff-resaved.musicxml",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff-resaved.mscx"
+        ]
+      },
+      {
+        "format": "mid",
+        "exit_code": 0,
+        "command": [
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+          "-s",
+          "-m",
+          "-c",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\reload-config-mid",
+          "-r",
+          "180",
+          "-o",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff-resaved.mid",
+          "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\native\\separate-staff-resaved.mscx"
+        ]
+      }
+    ]
+  },
+  "private_attempts_preserved": [
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\geometry.py",
+      "result": "pymupdf not installed; no geometry result used. PDFium rendering used instead."
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\integrated-reading-2026-10-20\\finalize.py",
+      "result": "Initial validator subprocess used Windows locale GBK and could not read the UTF8 skill; resumed validation with explicit Python -X utf8. Not a skill validation rejection."
+    }
+  ],
+  "software_changes": false,
+  "mcp_plugin_changes": false,
+  "global_skill_installation": false
+}

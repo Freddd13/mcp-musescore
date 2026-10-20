@@ -1,5 +1,7 @@
 # 净书skill初版：检验了什么
 
+2026-10-20[整页判断迁移](INTEGRATED_READING_NINELIE.md)接入overview／octaves两个既有入口，维持19个topic。skill补同表八度的默认范围、混写例外和孤立高音／分表的取舍，避免复制参考外形；原创16音控制验证仅看计数／原生pitch会漏实际八度改变，分表版原生重载保持。具体验证见follow_up_integrated_ninelie；无安装、用户审美认可或软件适配。
+
 2026-10-20[持音提示](SUSTAIN_CONTINUATION.md)加入piano／curves，维持19个入口。skill补中途／结束边界、手持／中踏板／无声按键／新攻击及捕捉子集的判断；原创提示的原生保存与XML正反例验证cue、大小、括号和play不能混同。用户原记法保留；34起音并未掩盖XML释音／控制／续行文字变化。格式、当前19路由、链接和六个原创样本另核，结果见follow_up_sustain_continuation，非独立盲评或用户审美认可。
 
 2026-10-20[实曲间距迁移](SPACING_TRANSFER.md)接入既有spacing，维持19个topic。skill补必要构型／余宽／整行预算和参数非单调的判断，原生参考补同页数仍重排、实际共同轴／目标播放覆盖及保守包络边界。此次同agent五个试排及一个重载候选不是用户审美或独立行为评测；当前格式、全部19入口及改动链接复核见follow_up_spacing_transfer。

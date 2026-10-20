@@ -2430,5 +2430,82 @@
         "sha256": "15b76c6defde1c8696d848d3ec1119ed1ea20fa57f1fa7aed53c2bd8ee118436"
       }
     ]
+  },
+  "follow_up_integrated_ninelie": {
+    "date": "2026-10-20",
+    "quick_validate": "Skill is valid!",
+    "topic_count": 19,
+    "all_routes_from_external_cwd_without_env_override": true,
+    "selected_routes": {
+      "overview": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "overview",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_REVIEW.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_NINELIE.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\FOUNDATION_REVIEW.md"
+        ]
+      },
+      "octaves": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "octaves",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OCTAVE_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_NINELIE.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PAGE_FLOW_STUDY.md"
+        ]
+      }
+    },
+    "changed_markdown_files_checked": [
+      "docs/engraving/INTEGRATED_READING_NINELIE.md",
+      "docs/engraving/README.md",
+      "docs/engraving/OCTAVE_READING.md",
+      "docs/engraving/JUDGMENT_GUIDE.md",
+      "docs/engraving/BEHIND_BARS_NOTES.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "docs/engraving/fixtures/README.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/native-review.md",
+      "docs/engraving/corpus/INDEX.md"
+    ],
+    "local_markdown_links_checked": 568,
+    "public_original_artifact_hashes_checked": 6,
+    "protected_source_hashes_checked": 4,
+    "all_three_fixture_pngs_visually_inspected": true,
+    "actual_pitch_and_wrong_octave_control": true,
+    "safe_separate_staff_save_reload": true,
+    "software_adaptation": false,
+    "global_skill_installation": false,
+    "independent_blind_or_user_aesthetic_test": false,
+    "skill_files": [
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "sha256": "33b69b102a5ded3f074e548488a229cde2e7f81de0df1ce754d36cfcabb0990b"
+      },
+      {
+        "path": "skills/piano-engraving/scripts/engraving_library.py",
+        "sha256": "09b341134ff5e729c86e0eed20a8ebc0ef38d83cf1b382c74803971716f12e9f"
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "sha256": "71170c648f06dcb2e3d236b0452bce460af94812ce1621062a2e28fa11a36540"
+      }
+    ],
+    "initial_validator_encoding_retry": "Windows default GBK cannot read UTF8 skill; Python -X utf8 passed."
   }
 }
