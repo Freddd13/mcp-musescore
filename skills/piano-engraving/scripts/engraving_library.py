@@ -16,6 +16,7 @@ TOPICS = {
     "curves": ("CURVES_STUDY.md",),
     "markings": ("DYNAMICS_ARTICULATION.md", "CURVES_STUDY.md"),
     "ornaments": ("TRILL_READING.md", "NOTATION_DETAILS.md"),
+    "glissandi": ("GLISSANDO_READING.md", "CROSS_STAFF_STUDY.md"),
     "piano": ("PIANO_TEXTURE_STUDY.md",),
     "cross-staff": ("CROSS_STAFF_STUDY.md", "PIANO_TEXTURE_STUDY.md"),
     "notation": ("ACCIDENTAL_CONTEXT.md", "NOTATION_DETAILS.md", "ACCIDENTAL_SPACING.md", "TRILL_READING.md"),

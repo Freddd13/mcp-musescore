@@ -1657,5 +1657,91 @@
       "baseline",
       "implementation"
     ]
+  },
+  "follow_up_glissando_reading": {
+    "date": "2026-10-20",
+    "scope": "Added glissandi topic; resolver algorithm and UI metadata unchanged. All current topic paths exercised from C:/Windows.",
+    "routing": {
+      "glissandi": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "glissandi",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\GLISSANDO_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CROSS_STAFF_STUDY.md"
+        ]
+      },
+      "cross-staff": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "cross-staff",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CROSS_STAFF_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md"
+        ]
+      }
+    },
+    "all_current_topic_names_checked": [
+      "overview",
+      "spacing",
+      "rhythm",
+      "beams",
+      "curves",
+      "markings",
+      "ornaments",
+      "glissandi",
+      "piano",
+      "cross-staff",
+      "notation",
+      "layout",
+      "sources",
+      "cases",
+      "baseline",
+      "implementation"
+    ],
+    "all_current_topics_checked": 16,
+    "changed_markdown_links": [
+      "docs/engraving/BEHIND_BARS_NOTES.md",
+      "docs/engraving/CASES.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/CROSS_STAFF_STUDY.md",
+      "docs/engraving/GLISSANDO_READING.md",
+      "docs/engraving/NOTATION_DETAILS.md",
+      "docs/engraving/README.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/native-review.md"
+    ],
+    "skill_files": [
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "sha256": "91914317bbca111572a93de6a3e6009064f1ffea6b137f0356da03a8112e6cc7"
+      },
+      {
+        "path": "skills/piano-engraving/scripts/engraving_library.py",
+        "sha256": "8ce73da3f6f1ef5f83223e663d0b41e77c8745360c0899b383b90a6fc782cf22"
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "sha256": "1c9fcea5a16c947aef36a61d3fcd28610b08efa060c2625097e165e2163d9f00"
+      }
+    ],
+    "same_agent_application": true,
+    "independent_blind_or_aesthetic_evaluation": false,
+    "global_skill_installation": false,
+    "historical_23_case_suite_rerun": false,
+    "quick_validate": "passed using existing repository .venv PyYAML; no dependency installation"
   }
 }

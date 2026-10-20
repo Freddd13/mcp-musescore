@@ -1,0 +1,373 @@
+{
+  "date": "2026-10-20",
+  "previous_goal_turn": "progress: trill study, original native control and ornaments routing pushed as e9e2f83",
+  "scope": "Glissando endpoint/direction/key set study and one real-score native style alternative; no software adaptation",
+  "book": {
+    "full_text_and_images_printed": [
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      326
+    ],
+    "pdf_page_offset": 20,
+    "p140_and_p326_revisited": true,
+    "p141_146_previously_locator_only_now_full_images": true,
+    "p326_non_gliss_cluster_material_seen_not_claimed_full_cluster_study": true,
+    "p327_331_text_locator_only_this_turn": true,
+    "p146_vibrato_intro_seen_not_full_topic": true
+  },
+  "official_pages_revisited": {
+    "A105": [
+      8
+    ],
+    "A047": [
+      4
+    ],
+    "A010": [
+      3
+    ]
+  },
+  "user_original_PDF_pages_viewed": [
+    6
+  ],
+  "historical_corpus_counts_not_incremented": true,
+  "user_context": [
+    {
+      "measure": 113,
+      "q": "3/2",
+      "staff_local": "1",
+      "voice_export": "3",
+      "pitch": [
+        "A",
+        "0",
+        "4"
+      ],
+      "written_type": "eighth",
+      "duration_q": "3/4",
+      "dot_count": 1,
+      "notehead": "normal",
+      "ties": [
+        "start"
+      ],
+      "glissando": [
+        {
+          "line-type": "wavy",
+          "number": "1",
+          "type": "start",
+          "default-y": "-44.43",
+          "relative-x": "-14.01",
+          "text": "gliss."
+        }
+      ]
+    },
+    {
+      "type": "StaffText direction",
+      "measure": 113,
+      "q": "9/4",
+      "text": "(S.P.)",
+      "staff_local": "1"
+    },
+    {
+      "measure": 113,
+      "q": "9/4",
+      "staff_local": "2",
+      "voice_export": "3",
+      "pitch": [
+        "A",
+        "0",
+        "1"
+      ],
+      "written_type": "eighth",
+      "duration_q": "3/4",
+      "dot_count": 1,
+      "notehead": "x",
+      "ties": [],
+      "glissando": [
+        {
+          "line-type": "wavy",
+          "number": "1",
+          "type": "stop",
+          "text": null
+        }
+      ]
+    }
+  ],
+  "interpretation_boundaries": {
+    "cross_head_with_internal_A1_does_not_alone_prove_precise_A1_instruction": true,
+    "cross_head_is_not_a_universal_unknown_pitch_rule": true,
+    "SP_text_anchor_does_not_prove_physical_capture_time": true,
+    "tie_and_gliss_coexistence_not_automatically_rewritten": true
+  },
+  "trial_input": {
+    "root_entry": "如果有来生-release5.mscx",
+    "only_one_root_byte_changed": true,
+    "change": "Glissando/subtype 1 -> 0",
+    "glissandoStyle": "whitekeys unchanged",
+    "source_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "no_font_style_fields_added": true
+  },
+  "archive_other_entries_unchanged": true,
+  "root_inverse_restores_original_XML": true,
+  "font_inputs": {
+    "source_Score_Style_musicalSymbolFont": null,
+    "source_Score_Style_musicalTextFont": null,
+    "no_fields_added_or_font_family_assumed_from_absence": true,
+    "all_note_glyph_graphics_preserved_in_comparison": true
+  },
+  "native_pages": [
+    {
+      "page": 1,
+      "all_non_GlissandoSegment_svg_equal": true,
+      "whole_svg_equal": true,
+      "reload_svg_equal_except_title_desc": true,
+      "reload_png_pixels_equal": true
+    },
+    {
+      "page": 2,
+      "all_non_GlissandoSegment_svg_equal": true,
+      "whole_svg_equal": true,
+      "reload_svg_equal_except_title_desc": true,
+      "reload_png_pixels_equal": true
+    },
+    {
+      "page": 3,
+      "all_non_GlissandoSegment_svg_equal": true,
+      "whole_svg_equal": true,
+      "reload_svg_equal_except_title_desc": true,
+      "reload_png_pixels_equal": true
+    },
+    {
+      "page": 4,
+      "all_non_GlissandoSegment_svg_equal": true,
+      "whole_svg_equal": true,
+      "reload_svg_equal_except_title_desc": true,
+      "reload_png_pixels_equal": true
+    },
+    {
+      "page": 5,
+      "all_non_GlissandoSegment_svg_equal": true,
+      "whole_svg_equal": true,
+      "reload_svg_equal_except_title_desc": true,
+      "reload_png_pixels_equal": true
+    },
+    {
+      "page": 6,
+      "all_non_GlissandoSegment_svg_equal": true,
+      "whole_svg_equal": false,
+      "reload_svg_equal_except_title_desc": true,
+      "reload_png_pixels_equal": true
+    },
+    {
+      "page": 7,
+      "all_non_GlissandoSegment_svg_equal": true,
+      "whole_svg_equal": true,
+      "reload_svg_equal_except_title_desc": true,
+      "reload_png_pixels_equal": true
+    },
+    {
+      "page": 8,
+      "all_non_GlissandoSegment_svg_equal": true,
+      "whole_svg_equal": true,
+      "reload_svg_equal_except_title_desc": true,
+      "reload_png_pixels_equal": true
+    }
+  ],
+  "gliss_graphics": {
+    "wavy_primitives": 18,
+    "straight_primitives": 2,
+    "text_outline_and_rotation_equal": true,
+    "text_position_exactly_equal": false,
+    "text_delta_svg": [
+      -6.450000000000273,
+      1.7039999999999509
+    ],
+    "text_displacement_svg": 6.671290429894606,
+    "text_displacement_sp_approx": 0.2998067532189012,
+    "straight_line_attributes": {
+      "class": "GlissandoSegment",
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke-width": "3.34",
+      "stroke-linejoin": "bevel",
+      "transform": "matrix(0.25526,0.966872,-0.966872,0.25526,2064.41,422.89)",
+      "points": "0,0 348.313,0"
+    },
+    "not_logical_object_or_note_count": true
+  },
+  "playback": {
+    "full_MIDI_bytes_equal": true,
+    "ppq": 480,
+    "note_ons": 2310,
+    "tempo_events": 391,
+    "CC64": 310,
+    "CC66": 0,
+    "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+    "no_audio_or_physical_pedal_validation": true
+  },
+  "exchange": {
+    "actual_musicxml_change": {
+      "baseline": [
+        [
+          "glissando",
+          {
+            "line-type": "wavy",
+            "number": "1",
+            "type": "start",
+            "default-y": "-44.43",
+            "relative-x": "-14.01"
+          },
+          "gliss."
+        ],
+        [
+          "glissando",
+          {
+            "line-type": "wavy",
+            "number": "1",
+            "type": "stop"
+          },
+          null
+        ]
+      ],
+      "straight": [
+        [
+          "slide",
+          {
+            "line-type": "solid",
+            "number": "1",
+            "type": "start",
+            "default-y": "-44.43",
+            "relative-x": "-14.01"
+          },
+          "gliss."
+        ],
+        [
+          "slide",
+          {
+            "line-type": "solid",
+            "number": "1",
+            "type": "stop"
+          },
+          null
+        ]
+      ]
+    },
+    "equal_after_normalizing_only_gliss_slide_tags_and_line_type": true,
+    "native_whitekeys_preserved_on_save": true,
+    "no_MusicXML_reimport_or_third_party_playback_validation": true,
+    "standard_distinguishes_discrete_glissando_from_continuous_slide": true,
+    "shape_only_native_change_not_claimed_semantically_neutral_in_exchange": true
+  },
+  "judgment": "Keep straight line as a local style alternative: lower visual weight with explicit gliss. retained; original wavy line remains valid and user has not adopted the alternative. No endpoint, timing, key-set or notation rewrite.",
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "checked_before_after_every_export": true,
+    "source_commit_correspondence_not_proven": true
+  },
+  "read_only_code_references": [
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\glissando.cpp",
+      "sha256": "672b97772b4a6a5280fc995fafe1e66b922cead13b26b51b2fa69a059382126b",
+      "read_only": true,
+      "not_binary_commit_identity": true
+    },
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\types.h",
+      "sha256": "9077588b432c29ef8bb062d3ec606b4fca24c2d5b4d69fde92df124a5fcdbb39",
+      "read_only": true,
+      "not_binary_commit_identity": true
+    },
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\importexport\\musicxml\\exportxml.cpp",
+      "sha256": "3b07d873489db6495f6767a9e40368c2f3ab2daa6448a35f5c80e95e3202e8be",
+      "read_only": true,
+      "not_binary_commit_identity": true
+    }
+  ],
+  "primary_web_sources": [
+    "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/glissando/",
+    "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/slide/"
+  ],
+  "sources_protected": [
+    {
+      "id": "A105",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Rising Hope - Mahouka Koukou no Rettousei - Opening Theme.pdf",
+      "sha256": "bd840e9a1cc8a7742e919b703b5e90e0011b75a3ca01d95475f31b0505cfb08b",
+      "unchanged": true
+    },
+    {
+      "id": "A047",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Giorno's Theme - JoJo's Bizarre Adventure：Golden Wind - Soundtrack.pdf",
+      "sha256": "7728c56f3c3d449dd07f7e629d53b30f91ad1cf346dd34805a9742b65aed67d9",
+      "unchanged": true
+    },
+    {
+      "id": "A010",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Again - Fullmetal Alchemist Brotherhood - Opening Theme.pdf",
+      "sha256": "6f1af8d0d02173de5d4d4fd714ddca047c75a35bfa52483d5a2c018be241bcd5",
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "id": "user PDF",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "id": "user MSCZ",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    }
+  ],
+  "private_artifacts": [
+    {
+      "path": "tmp/engraving/glissando-reading-2026-10-20/native/baseline.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "path": "tmp/engraving/glissando-reading-2026-10-20/baseline-first-system.png",
+      "sha256": "2f6872301830e24b6930f2cb500ed3db07520af848a414ce5fdb01006a57c70d"
+    },
+    {
+      "path": "tmp/engraving/glissando-reading-2026-10-20/native/straight.mscz",
+      "sha256": "11d7030ae66b169af395117620ce9a66010548373b6f60cf1ea505e5757c3263"
+    },
+    {
+      "path": "tmp/engraving/glissando-reading-2026-10-20/straight-first-system.png",
+      "sha256": "d76db9cfa2a522f429dcdd502b4e6fb29552068a6c943ee502ab730b8b0d386e"
+    }
+  ],
+  "comparison_image": "tmp/engraving/glissando-reading-2026-10-20/comparison.png; upper current native baseline, lower straight alternative; same 180dpi white-background crop, no moving/resizing glyphs",
+  "not_performed": [
+    "original file modification",
+    "GUI actions",
+    "font modification",
+    "MusicXML reimport",
+    "third-party import test",
+    "pedal timing rewrite",
+    "MCP/plugin/core development",
+    "global skill installation",
+    "printing or audition",
+    "new user preference confirmation"
+  ],
+  "original_or_reference_music_or_images_in_Git": false,
+  "native_default_readback": {
+    "resaved_gliss_subtype_raw": null,
+    "straight_default_omitted_on_save": true,
+    "effective_straight_confirmed_by_native_SVG_polyline_and_MusicXML_slide": true
+  },
+  "root_inverse_restores_original_bytes": true,
+  "previous_m113_note_context_matches_fresh_baseline_export": true
+}

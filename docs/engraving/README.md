@@ -2,6 +2,8 @@
 
 更新：2026-10-20。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
 
+滑奏续学见[端点、方向与线形](GLISSANDO_READING.md)：官谱的黑键说明、叉头及声部引导不能互换；用户m113仅换直线形成原生风格备选，八页重载及完整MIDI保持，gliss.标签仍有约0.3sp的连动。实际MusicXML却从glissando变slide，另存交换语义风险，不称全流程无语义变化。新增skill的`glissandi`入口，未改原件或开发适配。
+
 装饰续学见[颤音的范围与续行](TRILL_READING.md)：tr、波线、tie、辅助音和起止小音各管不同信息。Gould p134–140与六个官谱页结合，区分续行提醒的建议和官谱只续波线的实践；原创四小节虽保26音与完整MIDI，提前收线仍误示停止，故拒绝。补skill的`ornaments`入口，原件只读、无软件适配。
 
 [整谱复核与语境更正](WHOLE_SCORE_REVIEW.md)重新看用户全部8页，发现此前漏用的p1明示定义`Sost. Ped.(S.P.)`；名称不再未知，捕捉／释放范围与播放分查。七处原生文字及既有导出互证，MIDI无CC66，不能用CC64保持证明中踏板已实现。更新旧案例判断，并给八页列保留、单项比较及记法问题；无新组合候选或原件／软件修改。
