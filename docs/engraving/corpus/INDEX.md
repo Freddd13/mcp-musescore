@@ -156,3 +156,7 @@
 | A144 | You See BIGGIRL - Attack on Titan Season 2 - Soundtrack.pdf | 6 | 已有逐谱案例 | [READING_025.md](READING_025.md) |
 | A145 | Zankyou Sanka - Demon Slayer Entertainment District Arc - Opening Theme.pdf | 6 | 已有逐谱案例 | [READING_025.md](READING_025.md) |
 | A146 | Zen Zen Zense - Your Name. - Insert Song.pdf | 10 | 已有逐谱案例 | [READING_025.md](READING_025.md) |
+
+## 历史覆盖后的定向续读：A067
+
+2026-10-20，A067《Kakyoin’s Theme》PDF p3作独立skill只读试用，另看p1／2／4上下文，见[整页解释与核查](../INTEGRATED_READING_KAKYOIN.md)。记录跨表慢线、滑奏区别、行中入口、手分配与并存音区；本项不改历史reviews.json的379页近读数。

@@ -2582,5 +2582,111 @@
         "sha256": "906fd3b1f7761b55ee1242e59ffa49f0c53ce06ec482736983c5ad859ad5ddeb"
       }
     ]
+  },
+  "follow_up_forward_reading": {
+    "date": "2026-10-20",
+    "quick_validate": "Skill is valid!",
+    "independent_read_only_forward_sample": "skill_forward_reading_evidence.json",
+    "independent_sample_skill_version": "7e6443f before entrypoint reorganization",
+    "reorganized_entrypoint_independent_retest": false,
+    "preserved_topic_paragraphs_verbatim": 12,
+    "other_core_paragraphs_preserved_verbatim": 20,
+    "readme_prior_text_preserved_in_history": true,
+    "preferences_judgment_guide_native_review_bytes_unchanged": true,
+    "sizes_bytes": {
+      "docs/engraving/README.md": 6852,
+      "skills/piano-engraving/SKILL.md": 8291,
+      "skills/piano-engraving/references/judgment-details.md": 7268
+    },
+    "topic_count": 19,
+    "all_routes_executed_from_external_cwd": true,
+    "only_route_addition": "overview adds INTEGRATED_READING_KAKYOIN.md; flags and lookup algorithm unchanged",
+    "overview_actual_result": {
+      "repository": "E:\\programming\\funcodes\\mcp-musescore",
+      "repository_resolution": "skill-realpath",
+      "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+      "topic": "overview",
+      "start_here": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+      ],
+      "references": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_REVIEW.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_NINELIE.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_KAKYOIN.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\FOUNDATION_REVIEW.md"
+      ]
+    },
+    "copied_package_actual_result": {
+      "repository": "E:\\programming\\funcodes\\mcp-musescore",
+      "repository_resolution": "--repo",
+      "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+      "topic": "overview",
+      "start_here": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+      ],
+      "references": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_REVIEW.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_NINELIE.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_KAKYOIN.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\FOUNDATION_REVIEW.md"
+      ]
+    },
+    "copied_package_relevant_sections_resolved_and_read": [
+      "cross-staff",
+      "free-passage",
+      "interpretation",
+      "layout",
+      "navigation",
+      "octaves",
+      "ornaments",
+      "output",
+      "spacing",
+      "sustain",
+      "tempo"
+    ],
+    "copy_environment_route": true,
+    "invalid_explicit_repo_does_not_fall_back_to_valid_env": true,
+    "copy_outside_repo_without_location_fails": true,
+    "unknown_topic_rejected": true,
+    "incomplete_package_missing_guidance_detected": true,
+    "locator_only_validates_kb_not_skill_supporting_files": true,
+    "markdown_files_checked": [
+      "docs/ENGRAVING_SKILL.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/README.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "docs/engraving/corpus/INDEX.md",
+      "docs/engraving/READING_LOG_2026-10-20.md",
+      "docs/engraving/INTEGRATED_READING_KAKYOIN.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/judgment-details.md"
+    ],
+    "local_links_checked": 427,
+    "protected_source_hashes_checked": 4,
+    "native_render_or_midi_tests_this_batch": false,
+    "global_installation": false,
+    "software_adaptation": false,
+    "skill_files": [
+      {
+        "path": "skills\\piano-engraving\\SKILL.md",
+        "sha256": "7dcc89f78f7a7573a9389686800d3ce51892134e0daf68d648692ec66fa2b6fc"
+      },
+      {
+        "path": "skills\\piano-engraving\\scripts\\engraving_library.py",
+        "sha256": "fa606bd0a85ebb88a6613f34a163874304edfb13826f89b0c9639e8bc790068b"
+      },
+      {
+        "path": "skills\\piano-engraving\\references\\judgment-details.md",
+        "sha256": "268b1a57912e09933fdeca93bb51bfd447d2b30a72a52a47209906ccf9965cb3"
+      },
+      {
+        "path": "skills\\piano-engraving\\references\\native-review.md",
+        "sha256": "906fd3b1f7761b55ee1242e59ffa49f0c53ce06ec482736983c5ad859ad5ddeb"
+      }
+    ]
   }
 }

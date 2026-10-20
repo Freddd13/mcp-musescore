@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-20",
+  "selection": {
+    "base_commit": "7e6443f",
+    "id": "A067",
+    "page": 3,
+    "page_count": 4,
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf",
+    "sha256": "bcfab2581ff47a583bef42e7d6e04f84417c7663a028f7f4f54966805165ccab",
+    "order_hash": "002d45ca1651a5d3e6a048b69ec0270149edf29ab5beeee13a9fa3fa0240c92a",
+    "pool_size": 285,
+    "method": "Hash-sort historical overview-only internal pages, excluding IDs already named in top-level topic documents; selected before viewing page or giving any expected conclusion. Parent historically screened corpus; agent will receive no inherited conversation."
+  },
+  "task": "Read-only whole-page piano engraving analysis using the skill; explain reading benefits, alternatives and important unknowns; protect originals.",
+  "evaluation": {
+    "agent": "/root/engraving_forward_reading",
+    "fork_turns": "none",
+    "expected_answer_or_suspected_bug_supplied": false,
+    "old_per_score_notes_reported_read": false,
+    "raw_artifacts": "Original four-page PDF; existing KB and local textbook accessible read-only.",
+    "skill_version_evaluated": {
+      "base_commit": "7e6443f",
+      "sha256": "28db66111949e8d96bac723154807c5ec72718d51d84e7dce93d787bccd68773"
+    },
+    "actual_reading_reported": {
+      "whole_pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "focus_page": 3,
+      "gould_printed_pages_full_images": [
+        307,
+        324,
+        325,
+        490
+      ]
+    },
+    "parent_review_actual": {
+      "whole_pdf_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "enlarged_regions": [
+        "p3 last system handover",
+        "p3 E entry"
+      ],
+      "gould_printed_pages_full_images": [
+        307,
+        324,
+        325,
+        490
+      ]
+    },
+    "accepted_judgments": [
+      "Retain separate pulse and sustained layers with independent ties and groups.",
+      "Retain grouped contour; necessary accidentals do not imply an equal-spacing defect.",
+      "Long crescendo and local hairpin/accent may carry different scopes.",
+      "Inline E has multiple clear entry cues; a new system would consume layout budget.",
+      "Local hand indications are not equivalent to one staff per hand.",
+      "Dotted cross-staff voice guide differs from the explicitly labelled glissando.",
+      "Do not add upper-voice 8va over concurrent at-pitch material without resolving scope."
+    ],
+    "limits": [
+      "Parent historically overviewed the corpus; not a completely unfamiliar parent sample.",
+      "One preselected page; no no-skill control, timing or statistical accuracy claim.",
+      "No editable official score, native candidate, playback, print or user aesthetic test.",
+      "Agent could use the KB; this tests knowledge application, not rediscovery of all rules.",
+      "Skill entrypoint was reorganized after the evaluation; no second independent behavioral pass claimed."
+    ]
+  },
+  "private_artifacts": [
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\gould-307.png",
+      "sha256": "6c21d51456dd6249edeb441991b6039112b37734a19850a8f7d1321978de2eaa"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\gould-324.png",
+      "sha256": "3dbc8ff47f1661aa42b29cacbf3ff11811159199511990e6aa2f952cd95aec72"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\gould-325.png",
+      "sha256": "385922af429e514500d324e2dc048e0d0f982c4ec881db089ee990d66df3ca80"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\gould-490.png",
+      "sha256": "13dd1a6e3559c38c6dd0ae051d0490fc9d932a7be30dfef419e8b4785f4c7e9c"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\p3-crescendo.png",
+      "sha256": "7bc4365a9b1655d875a92fde420a8fac43a86de05b34aaa346931e2b7e7a9067"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\p3-E.png",
+      "sha256": "476ef77b9579c15b9fc2e243d1166edc132d5de2ccb77fe6ba9f3d0c12b117e4"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\p3-handover.png",
+      "sha256": "6fa3ddd47208cbfe827002318b10a77856f8af286592e021b4534863819d465e"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\page-1.png",
+      "sha256": "d5e7d17fe0414bad95dfbaa72ca9354ade20993f265fc74a9b32e34d72fe5433"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\page-2.png",
+      "sha256": "dfbbde08a897792c46a30fa52380a8885c2c95a292069497c7545bad214dbfa5"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\page-3.png",
+      "sha256": "a49cd8205fd1955a050cb56531f2addabd283bbb970aba762671cc73e8eb9510"
+    },
+    {
+      "path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\page-4.png",
+      "sha256": "34fc75b60acef4468dbdfc656b1d4a92f1efbd1fc60b99e5d586fd4c5acf7639"
+    }
+  ],
+  "protected_sources_after_reading": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf",
+      "sha256": "bcfab2581ff47a583bef42e7d6e04f84417c7663a028f7f4f54966805165ccab",
+      "matches_recorded_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "matches_recorded_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "matches_recorded_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "matches_recorded_baseline": true
+    }
+  ],
+  "entrypoint_reorganization": {
+    "baseline_commit": "7e6443f",
+    "old_readme_sha256": "b6bb89594158a9f80c2fb72e6b31c4680ffd08736b089891225a9c01530fb71e",
+    "readme_history_payload_exact_after_utf8_newline_normalization": true,
+    "moved_paragraphs": [
+      {
+        "old_index": 11,
+        "anchor": "interpretation",
+        "sha256_utf8": "848d9b3e8e86b6f6eac7853eea9484260708eb5808e6aedccb6453bfcb020265",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 12,
+        "anchor": "sustain",
+        "sha256_utf8": "38e5167461518931a00032491b837e86ce4ce9f463a0fc01d22a3c00dcd36d93",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 13,
+        "anchor": "layout",
+        "sha256_utf8": "162242d7086ecff73db67a04239b7ee64d2cbe14e77bdcca45e82cd9b25ca145",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 14,
+        "anchor": "output",
+        "sha256_utf8": "0e754f6ac0398a43c7cd4f9c772659b0b0c2776467654851c6d8229814e6ebe6",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 17,
+        "anchor": "spacing",
+        "sha256_utf8": "284e97a84668be2a2a5244307d27dc7b86dfc78021d969ae4dd6591c850abbf0",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 19,
+        "anchor": "cross-staff",
+        "sha256_utf8": "838b2963f7b52f59bec52a1c6433c17393481239fc88c278e6ca1bb13d568580",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 20,
+        "anchor": "ornaments",
+        "sha256_utf8": "2b1a0dd48a2a212e0f4343abe33922f5225ba97bdd9cd9a7416499beaa39340c",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 21,
+        "anchor": "tempo",
+        "sha256_utf8": "9e7c5b1d4d3280db05fc6a26f07da57e45ffad54822281d5a5a6bdd27a0ffa39",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 22,
+        "anchor": "free-passage",
+        "sha256_utf8": "c531c55816ee2a6e1f485208cdb4eb64d622b694361285b9f0da099f361965b2",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 23,
+        "anchor": "octaves",
+        "sha256_utf8": "d93294279fe9da2a8cf3944f3a693ab771c2e9cec7b13e728b8e98f33a779255",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 24,
+        "anchor": null,
+        "sha256_utf8": "1bfdf30987e4f5b142d2ded33d4f12121ca36371e0bc1a03bbcf9eaacd01c76e",
+        "preserved_verbatim": true
+      },
+      {
+        "old_index": 25,
+        "anchor": "navigation",
+        "sha256_utf8": "ac392670e91dbe73018dfbc9fe7785d78c07aad43832374a2c2abde63a3a6a0a",
+        "preserved_verbatim": true
+      }
+    ],
+    "sizes_bytes": {
+      "docs/engraving/README.md": 6852,
+      "skills/piano-engraving/SKILL.md": 8291,
+      "skills/piano-engraving/references/judgment-details.md": 7268
+    }
+  },
+  "software_adaptation": false,
+  "global_installation": false
+}
