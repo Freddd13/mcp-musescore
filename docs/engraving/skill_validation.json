@@ -2253,5 +2253,83 @@
         "sha256": "a60fdf9eeaef90c76ebef019ee05178a8a61233fc155ff6a53fdb06d3d93f5a5"
       }
     ]
+  },
+  "follow_up_spacing_transfer": {
+    "date": "2026-10-20",
+    "study": "SPACING_TRANSFER.md",
+    "quick_validate": "Skill is valid!",
+    "external_cwd": "C:\\Windows",
+    "all_current_topics_checked": 19,
+    "all_current_topic_names_checked": [
+      "overview",
+      "spacing",
+      "rhythm",
+      "tempo",
+      "beams",
+      "curves",
+      "markings",
+      "ornaments",
+      "glissandi",
+      "octaves",
+      "navigation",
+      "piano",
+      "cross-staff",
+      "notation",
+      "layout",
+      "sources",
+      "cases",
+      "baseline",
+      "implementation"
+    ],
+    "spacing_route": {
+      "repository": "E:\\programming\\funcodes\\mcp-musescore",
+      "repository_resolution": "skill-realpath",
+      "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+      "topic": "spacing",
+      "start_here": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+      ],
+      "references": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_DECISIONS.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_TRANSFER.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\USER_SPACING_APPLICATION.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_CANDIDATES.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_STUDY.md"
+      ]
+    },
+    "changed_markdown_target_files_checked": [
+      "docs/engraving/SPACING_TRANSFER.md",
+      "docs/engraving/README.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "docs/engraving/USER_SPACING_APPLICATION.md",
+      "docs/engraving/SPACING_DECISIONS.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/native-review.md"
+    ],
+    "native_real_score_transfer": true,
+    "native_eight_page_reload": true,
+    "target_midi_playback_coverage_checked": true,
+    "user_aesthetic_adoption": false,
+    "independent_blind_evaluation": false,
+    "global_skill_installation": false,
+    "software_adaptation": false,
+    "skill_files": [
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "sha256": "74bb7a1af4f487eab9509f2a20c1b335c183b7aa84269240dfbf26bad1fe6f20"
+      },
+      {
+        "path": "skills/piano-engraving/scripts/engraving_library.py",
+        "sha256": "6e670308954e2aa64679bcc04184e65ef8e62c48c76d7f952535621c7dce1d8c"
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "sha256": "7b88c16cddf037bd1bff3e3bcb783735c3bd02131de2e891f1a0e8294476c937"
+      }
+    ]
   }
 }

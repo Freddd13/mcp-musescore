@@ -1,0 +1,533 @@
+{
+  "date": "2026-10-20",
+  "previous_goal_turn": "progress: repeat-navigation knowledge, native fixtures and skill reference committed/pushed as 1e85d1d",
+  "scope": "Transfer spacing judgment to a previously untuned real-score fragment m85-88, especially m86; familiar work, same-agent application, not blind evaluation",
+  "protected_inputs": [
+    {
+      "id": "user_pdf",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "id": "user_mscz",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    }
+  ],
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_not_inferred": true
+  },
+  "baseline": {
+    "cache": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\clefs-ottava-2026-10-20\\native",
+    "source_mscz_byte_equal_to_original": true,
+    "source_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "previous_verified_outputs_reused": true
+  },
+  "reading": {
+    "original_pdf_pages_viewed": [
+      4
+    ],
+    "native_full_pages_viewed": [
+      4,
+      5
+    ],
+    "new_book_or_official_corpus_reading_count_claimed": false,
+    "normative_references": "Existing SPACING_DECISIONS.md Gould p39-43/490 and A102 conditional examples"
+  },
+  "variant_results": [
+    {
+      "name": "baseline",
+      "layout_parameters": null,
+      "pages": 8,
+      "bars_with_changed_page_or_system": 0,
+      "first_changed_bar": null,
+      "m86_width_tenths": "364.88",
+      "m86_gaps_pt": [
+        18.851,
+        18.850800000000003,
+        18.851800000000004,
+        29.18800000000001,
+        27.887999999999966
+      ],
+      "m86_max_min_ratio": 1.5483692999766592,
+      "m87_gaps_pt": [
+        18.12800000000002,
+        18.125999999999976,
+        18.126000000000023,
+        22.657999999999994,
+        22.658000000000037
+      ],
+      "other_seven_pages_normalized_svg_equal": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "5": true,
+        "6": true,
+        "7": true,
+        "8": true
+      },
+      "note_rest_semantics_equal": true,
+      "midi_equal": true
+    },
+    {
+      "name": "early-space",
+      "layout_parameters": {
+        "name": "early-space",
+        "measure": 86,
+        "native_staff_id": "4",
+        "after_chord_indices_zero_based": [
+          1,
+          2,
+          3
+        ],
+        "leadingSpace_sp": 1.5,
+        "measure_stretch": null,
+        "only_listed_XML_nodes_changed": true,
+        "only_mscx_zip_member_changed": true,
+        "sha256": "2fe020d29661406e0cda6a4d335b0e1ac88db5c15f5c05fe5d5e9e98f014ebc5"
+      },
+      "pages": 8,
+      "bars_with_changed_page_or_system": 68,
+      "first_changed_bar": [
+        88,
+        {
+          "page": 4,
+          "system_on_page": 5,
+          "width": "1169.68"
+        }
+      ],
+      "m86_width_tenths": "494.23",
+      "m86_gaps_pt": null,
+      "m86_max_min_ratio": null,
+      "m87_gaps_pt": null,
+      "other_seven_pages_normalized_svg_equal": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "5": false,
+        "6": false,
+        "7": false,
+        "8": false
+      },
+      "note_rest_semantics_equal": true,
+      "midi_equal": true
+    },
+    {
+      "name": "redistributed",
+      "layout_parameters": {
+        "name": "redistributed",
+        "measure": 86,
+        "native_staff_id": "4",
+        "after_chord_indices_zero_based": [
+          1,
+          2,
+          3
+        ],
+        "leadingSpace_sp": 1.5,
+        "measure_stretch": 0.7,
+        "only_listed_XML_nodes_changed": true,
+        "only_mscx_zip_member_changed": true,
+        "sha256": "85ac65694f919627d3287240f9e0d9afbffb1727d9f9fb4960cc45a18476e01d"
+      },
+      "pages": 8,
+      "bars_with_changed_page_or_system": 0,
+      "first_changed_bar": null,
+      "m86_width_tenths": "336.15",
+      "m86_gaps_pt": [
+        15.935000000000013,
+        15.934999999999992,
+        15.935599999999999,
+        27.16999999999998,
+        25.86800000000003
+      ],
+      "m86_max_min_ratio": 1.70505177282711,
+      "m87_gaps_pt": [
+        18.823999999999977,
+        18.822000000000024,
+        18.82199999999998,
+        23.52800000000002,
+        23.527999999999974
+      ],
+      "other_seven_pages_normalized_svg_equal": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "5": true,
+        "6": true,
+        "7": true,
+        "8": true
+      },
+      "note_rest_semantics_equal": true,
+      "midi_equal": true
+    },
+    {
+      "name": "aggressive",
+      "layout_parameters": {
+        "name": "aggressive",
+        "measure": 86,
+        "native_staff_id": "4",
+        "after_chord_indices_zero_based": [
+          1,
+          2,
+          3
+        ],
+        "leadingSpace_sp": 3,
+        "measure_stretch": 0.35,
+        "only_listed_XML_nodes_changed": true,
+        "only_mscx_zip_member_changed": true,
+        "sha256": "0c1e4d544164a84d713ef356459c0c6669868b052ad16e68be7803fe596c9c01"
+      },
+      "pages": 8,
+      "bars_with_changed_page_or_system": 0,
+      "first_changed_bar": null,
+      "m86_width_tenths": "372.49",
+      "m86_gaps_pt": [
+        20.915399999999998,
+        20.915399999999998,
+        20.914599999999997,
+        27.78800000000001,
+        26.48599999999997
+      ],
+      "m86_max_min_ratio": 1.328641236265576,
+      "m87_gaps_pt": [
+        17.94199999999996,
+        17.942000000000007,
+        17.942000000000007,
+        22.42800000000002,
+        22.42800000000002
+      ],
+      "other_seven_pages_normalized_svg_equal": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "5": true,
+        "6": true,
+        "7": true,
+        "8": true
+      },
+      "note_rest_semantics_equal": true,
+      "midi_equal": true
+    },
+    {
+      "name": "near-stable",
+      "layout_parameters": {
+        "name": "near-stable",
+        "measure": 86,
+        "native_staff_id": "4",
+        "after_chord_indices_zero_based": [
+          1,
+          2,
+          3
+        ],
+        "leadingSpace_sp": 3.75,
+        "measure_stretch": 0.25,
+        "only_listed_XML_nodes_changed": true,
+        "only_mscx_zip_member_changed": true,
+        "sha256": "235f6196c842f110ffa8e49b8212ef68b46b8748db90b3ae002996c4a618404c"
+      },
+      "pages": 8,
+      "bars_with_changed_page_or_system": 68,
+      "first_changed_bar": [
+        88,
+        {
+          "page": 4,
+          "system_on_page": 5,
+          "width": "1169.68"
+        }
+      ],
+      "m86_width_tenths": "459.74",
+      "m86_gaps_pt": null,
+      "m86_max_min_ratio": null,
+      "m87_gaps_pt": null,
+      "other_seven_pages_normalized_svg_equal": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "5": false,
+        "6": false,
+        "7": false,
+        "8": false
+      },
+      "note_rest_semantics_equal": true,
+      "midi_equal": true
+    },
+    {
+      "name": "strict-probe",
+      "layout_parameters": {
+        "name": "strict-probe",
+        "measure": 86,
+        "native_staff_id": "4",
+        "after_chord_indices_zero_based": [
+          1,
+          2,
+          3
+        ],
+        "leadingSpace_sp": 4.5,
+        "measure_stretch": 0.15,
+        "only_listed_XML_nodes_changed": true,
+        "only_mscx_zip_member_changed": true,
+        "sha256": "4250ae2b8f5329b4f6de791d426077e09537fc39ea1b95d7b8e7ca99bb562273"
+      },
+      "pages": 8,
+      "bars_with_changed_page_or_system": 68,
+      "first_changed_bar": [
+        88,
+        {
+          "page": 4,
+          "system_on_page": 5,
+          "width": "1169.68"
+        }
+      ],
+      "m86_width_tenths": "476.32",
+      "m86_gaps_pt": null,
+      "m86_max_min_ratio": null,
+      "m87_gaps_pt": null,
+      "other_seven_pages_normalized_svg_equal": {
+        "1": true,
+        "2": true,
+        "3": true,
+        "5": false,
+        "6": false,
+        "7": false,
+        "8": false
+      },
+      "note_rest_semantics_equal": true,
+      "midi_equal": true
+    }
+  ],
+  "final_candidate": {
+    "input": "aggressive.mscz",
+    "native_reload": "m86-balanced-resaved.mscz",
+    "status": "Local comparison candidate, not adopted or combined into a complete engraving edition",
+    "musicxml_note_rest_rows": 3203,
+    "native_reload_pages": [
+      {
+        "page": 1,
+        "svg_equal": true,
+        "white_pixels_equal": true
+      },
+      {
+        "page": 2,
+        "svg_equal": true,
+        "white_pixels_equal": true
+      },
+      {
+        "page": 3,
+        "svg_equal": true,
+        "white_pixels_equal": true
+      },
+      {
+        "page": 4,
+        "svg_equal": true,
+        "white_pixels_equal": true
+      },
+      {
+        "page": 5,
+        "svg_equal": true,
+        "white_pixels_equal": true
+      },
+      {
+        "page": 6,
+        "svg_equal": true,
+        "white_pixels_equal": true
+      },
+      {
+        "page": 7,
+        "svg_equal": true,
+        "white_pixels_equal": true
+      },
+      {
+        "page": 8,
+        "svg_equal": true,
+        "white_pixels_equal": true
+      }
+    ],
+    "target_quarter_window": [
+      "263",
+      "266"
+    ],
+    "target_note_on_count": 16,
+    "target_midi_tracks": [
+      3,
+      4
+    ],
+    "midi_original_mix_equal": true,
+    "page4_staff_line_count": 55,
+    "page4_max_staff_line_y_shift_pt": 0.0
+  },
+  "semantic_and_alignment": {
+    "whole_musicxml_preserved_after_explicit_layout_exclusions": {
+      "aggressive": true,
+      "m86-balanced-resaved": true
+    },
+    "excluded": [
+      "print",
+      "encoding-date",
+      "default-x/default-y/relative-x/relative-y",
+      "bezier-*",
+      "measure width",
+      "wedge spread"
+    ],
+    "shared_onsets_svg": [
+      {
+        "name": "baseline",
+        "checks": [
+          {
+            "quarter_offset": "0",
+            "upper_x": 748.922,
+            "lower_x": 748.922,
+            "difference_pt": 0.0
+          },
+          {
+            "quarter_offset": "3/2",
+            "upper_x": 1031.69,
+            "lower_x": 1031.69,
+            "difference_pt": 0.0
+          },
+          {
+            "quarter_offset": "2",
+            "upper_x": 1177.63,
+            "lower_x": 1177.63,
+            "difference_pt": 0.0
+          },
+          {
+            "quarter_offset": "5/2",
+            "upper_x": 1317.07,
+            "lower_x": 1317.07,
+            "difference_pt": 0.0
+          }
+        ]
+      },
+      {
+        "name": "aggressive",
+        "checks": [
+          {
+            "quarter_offset": "0",
+            "upper_x": 743.273,
+            "lower_x": 743.273,
+            "difference_pt": 0.0
+          },
+          {
+            "quarter_offset": "3/2",
+            "upper_x": 1057.0,
+            "lower_x": 1057.0,
+            "difference_pt": 0.0
+          },
+          {
+            "quarter_offset": "2",
+            "upper_x": 1195.94,
+            "lower_x": 1195.94,
+            "difference_pt": 0.0
+          },
+          {
+            "quarter_offset": "5/2",
+            "upper_x": 1328.37,
+            "lower_x": 1328.37,
+            "difference_pt": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  "control_hull_scope": {
+    "algorithm": "Absolute M/L/C/Q/Z path control points transformed by direct matrix, no inherited transform in this sample; conservative hull separation only, not exact ink bounds or a general parser",
+    "four_target_accidentals_only": true,
+    "results": {
+      "baseline": [
+        {
+          "preceding_note_hull_gap_pt": 45.0540865,
+          "following_note_hull_gap_pt": 2.671033517960018
+        },
+        {
+          "preceding_note_hull_gap_pt": 3.336486500000001,
+          "following_note_hull_gap_pt": 2.6692929804600225
+        },
+        {
+          "preceding_note_hull_gap_pt": 3.336486500000001,
+          "following_note_hull_gap_pt": 2.669033517959997
+        },
+        {
+          "preceding_note_hull_gap_pt": 3.336486500000001,
+          "following_note_hull_gap_pt": 2.6692929804600225
+        }
+      ],
+      "redistributed": [
+        {
+          "preceding_note_hull_gap_pt": 36.30628650000001,
+          "following_note_hull_gap_pt": 2.67083351796
+        },
+        {
+          "preceding_note_hull_gap_pt": 3.336486500000001,
+          "following_note_hull_gap_pt": 2.669292980459977
+        },
+        {
+          "preceding_note_hull_gap_pt": 3.3364865000000465,
+          "following_note_hull_gap_pt": 2.669033517959997
+        },
+        {
+          "preceding_note_hull_gap_pt": 3.3364865000000465,
+          "following_note_hull_gap_pt": 2.669292980459977
+        }
+      ],
+      "aggressive": [
+        {
+          "preceding_note_hull_gap_pt": 51.24788650000001,
+          "following_note_hull_gap_pt": 2.669033517959997
+        },
+        {
+          "preceding_note_hull_gap_pt": 3.336486500000001,
+          "following_note_hull_gap_pt": 2.6692929804600225
+        },
+        {
+          "preceding_note_hull_gap_pt": 3.336486500000001,
+          "following_note_hull_gap_pt": 2.669033517959997
+        },
+        {
+          "preceding_note_hull_gap_pt": 3.3364865000000465,
+          "following_note_hull_gap_pt": 2.669292980459977
+        }
+      ]
+    },
+    "fontTools_exact_bounds_attempt": "ModuleNotFoundError; no package installed, exact-bound claim omitted"
+  },
+  "measurement_corrections": [
+    "BarLine endpoint extends about one SVG unit beyond top StaffLine; too-tight match corrected using actual paths",
+    "Crop widened upwards to retain high slur; surrounding ink not erased"
+  ],
+  "comparison": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\spacing-transfer-2026-10-20\\comparison.png",
+    "native_dpi": 180,
+    "identical_crop": [
+      65,
+      1145,
+      1430,
+      1510
+    ],
+    "no_music_glyph_editing_or_scaling": true
+  },
+  "limits": [
+    "No independent blind or user aesthetic choice",
+    "No printing/audio listening/performance test",
+    "No MusicXML reimport",
+    "No general optimality or impossibility proof",
+    "No stacking earlier spacing, pedal, tie-weight, rit. or tail-octave candidates",
+    "No original/GUI/software/font/global configuration change"
+  ],
+  "private_cache": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\spacing-transfer-2026-10-20",
+  "music_images_sources_midi_committed": false,
+  "linear_time_window_scope": {
+    "native_navigation_or_repeat_containers": {
+      "Jump": 0,
+      "Marker": 0,
+      "Volta": 0,
+      "startRepeat": 0,
+      "endRepeat": 0,
+      "MeasureRepeat": 0
+    },
+    "basis": "No native jump or repeat containers; MusicXML duration traversal used to locate q263-266. Target notes are on active tracks3/4."
+  }
+}
