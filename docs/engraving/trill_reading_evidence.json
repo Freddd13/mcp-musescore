@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-20",
+  "previous_goal_turn": "progress: whole-score context corrected and pushed as 46ccf66",
+  "scope": "Trill duration, continuation and ownership; research and original native fixture, no adaptation development",
+  "book": {
+    "full_text_and_images_printed": [
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140
+    ],
+    "pdf_page_offset": 20,
+    "trill_section_complete": true,
+    "p134_arpeggio_continuation_and_p140_gliss_definition_also_seen": true,
+    "p141_152_text_locator_only": true,
+    "mordent_turn_and_all_historical_execution_not_completed": true
+  },
+  "official_full_pages_revisited": {
+    "A021": [
+      1
+    ],
+    "A092": [
+      5,
+      6
+    ],
+    "A043": [
+      6
+    ],
+    "A015": [
+      3,
+      4
+    ]
+  },
+  "official_crops_inspected": [
+    "A092 p5 I across two systems",
+    "A021 p1 end first system"
+  ],
+  "historical_corpus_reading_counts_not_incremented": true,
+  "primary_web_sources": {
+    "wavy_line": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wavy-line/",
+    "trill_mark": "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/trill-mark/",
+    "MuseScore3_ornaments_handbook": "fetch unavailable; not used as read evidence"
+  },
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "checked_before_after_each_export": true,
+    "source_commit_correspondence_not_proven": true
+  },
+  "fixture": {
+    "license": "CC0",
+    "reference_or_user_music_transcribed": false,
+    "measures": 4,
+    "systems": 2,
+    "pages": 1,
+    "native_notes": 26,
+    "logical_Trill": 1,
+    "standalone_trill_articulations": 2,
+    "tie_connections": 1,
+    "source_pitch_onset_duration_and_ties_match_native_MusicXML": true,
+    "voice_mapping": {
+      "staff1:source_voice1": "1",
+      "staff2:source_voice5": "5"
+    },
+    "continuous_range": "m2 q0 through m3 q2; tied F5",
+    "rearticulated_case": "m4 two separate E5 half notes with standalone tr signs"
+  },
+  "control": {
+    "name": "trill-endpoint-rejected",
+    "only_two_Trill_Segment_subtrees_inserted": true,
+    "removing_them_recovers_original_complete_XML_tree": true,
+    "end_off2_x_sp": -12,
+    "same_first_system_trill_graphics": true,
+    "non_trill_svg_all_equal": true,
+    "last_system_glyphs_before": 31,
+    "last_system_glyphs_after": 17,
+    "glyphs_are_not_logical_segments": true,
+    "wave_row_y_before_svg": 983.142,
+    "wave_row_y_after_svg": 983.059,
+    "row_delta_svg": -0.08300000000008367,
+    "row_delta_native_180dpi_pixels": -0.04150000000004184,
+    "last_wave_origin_x_before_svg": 936.66,
+    "last_wave_origin_x_after_svg": 662.515,
+    "full_MIDI_bytes_equal": true,
+    "MusicXML_equal_except_wavy_line_position_attributes": true,
+    "judgment": "Reject early visual termination in the middle of the tied half-note duration, even though logical range, notes and playback are unchanged."
+  },
+  "failed_control_setup": {
+    "initial_default_offset_changed_continuation_y_svg": 1012.16,
+    "source_y": 983.142,
+    "first_nominal_compensation_y": 984.651,
+    "final_y": 983.059,
+    "final_row_residual_is_measured_not_claimed_zero": true,
+    "not_published_as_pure_length_control": true,
+    "effective_offset_required_for_final_control": {
+      "target": 983.142,
+      "actual": 983.059,
+      "final_offset_y": -1.8756,
+      "empirical_slope_svg_per_offset_unit": 21.09481706440159,
+      "initial_default_offset_control_y": 1012.16,
+      "first_analytic_compensation_y": 984.651,
+      "note": "Height was verified by final SVG, not inferred from nominal style units."
+    }
+  },
+  "reload": {
+    "subject": "rejected control, not an adopted style",
+    "SVG_equal_except_title_desc": true,
+    "PNG_pixels_equal": true,
+    "MIDI_bytes_equal": true,
+    "MusicXML_equal": true
+  },
+  "playback": {
+    "ppq": 480,
+    "note_ons": 102,
+    "tempo_events": 1,
+    "MIDI_sha256": "484b66bc7dcefca63cbce9ba61282db924ecdbfb512da5a428952b84f055cf3a",
+    "trill_realizations_generate_more_events_than_written_notes": true,
+    "no_audition_or_historical_execution_validation": true
+  },
+  "protection": [
+    {
+      "id": "A021",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bloody Stream - JoJo's Bizarre Adventure.pdf",
+      "sha256": "bbc5adf41772e9d7071757aaa377978d415238a1783b2b85932a7bd10c09cdcb",
+      "matches_inventory": true
+    },
+    {
+      "id": "A043",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Extra Magic Hour - Amagi Brilliant Park - Opening Theme.pdf",
+      "sha256": "be057219e649d62a5335c090f03293e0d7d8a9044c9faaf299235c3724aebad9",
+      "matches_inventory": true
+    },
+    {
+      "id": "A092",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\My Dearest - Guilty Crown - Opening Theme.pdf",
+      "sha256": "fdc4deecc0d961c9a1aa04314af3e20b209f2e0b607c329d1934bc1be0385bba",
+      "matches_inventory": true
+    },
+    {
+      "id": "A015",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Attack on Titan (Main Theme) - Attack on Titan - Soundtrack.pdf",
+      "sha256": "e29f2240030db93fad0fc52d84e68a2c83b458b4ee8e6aa5b0f28b2f3c757695",
+      "matches_inventory": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "matches_prior_baseline": true
+    },
+    {
+      "id": "user PDF",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "matches_prior_baseline": true
+    },
+    {
+      "id": "user MSCZ",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "matches_prior_baseline": true
+    }
+  ],
+  "rendering": "Native 180dpi PNG, composited on white, identical crop (70,75,1420,740), no moving or resizing score glyphs in images",
+  "not_performed": [
+    "original score modification",
+    "GUI actions",
+    "MusicXML reimport roundtrip",
+    "user aesthetic evaluation",
+    "printing or audition",
+    "MCP/plugin/core development",
+    "global skill installation"
+  ],
+  "source_book_official_music_or_images_in_Git": false,
+  "published_original_fixture_files": [
+    {
+      "path": "docs/engraving/fixtures/trill-source.musicxml",
+      "sha256": "76f73f9b0935b4371545feaa6bde56797de777a9749711c660dbacfbe3ae0342"
+    },
+    {
+      "path": "docs/engraving/fixtures/trill-continuation.mscx",
+      "sha256": "439223e8b3ccaaa858052b19675ba8c2904d8dd463e8275d0fca8ad9a2e883be"
+    },
+    {
+      "path": "docs/engraving/fixtures/trill-continuation.png",
+      "sha256": "37e7fbd5b346a8570b6434649acd01474aae0c25b4a4ceae4bacdd71f75a520d"
+    },
+    {
+      "path": "docs/engraving/fixtures/trill-endpoint-rejected.mscx",
+      "sha256": "863aca5577490764c03837ffdd7991555dc32b24fb32aba00574f5817585f8f5"
+    },
+    {
+      "path": "docs/engraving/fixtures/trill-endpoint-rejected.png",
+      "sha256": "31dd28bf710c4c7685543ae1433b208ba3b32ce483fd289b73077738cb4d803a"
+    }
+  ]
+}

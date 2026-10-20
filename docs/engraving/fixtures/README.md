@@ -1,5 +1,14 @@
 # 独立净书复现谱例
 
+## 颤音的可见范围与连续／重奏
+
+2026-10-20原创四小节4/4双谱表，CC0，无参考音乐转写；26书面音、一个跨行逻辑Trill、一个tie连接、两个独立tr奏法。m2 F5全音符连m3 F5二分，波线到m3第三拍G♯5；m4两个E5二分分别起颤。固定Leland／Leland Text和两行预算，非出版模板。
+
+- [源MusicXML](trill-source.musicxml)、[原生保留版](trill-continuation.mscx)／[图](trill-continuation.png)：新行只续波线，结合tie可读，不宣称优于括起的续行tr提醒。
+- [提前收线拒绝版](trill-endpoint-rejected.mscx)／[图](trill-endpoint-rejected.png)：只插入Trill内两绘制段，末段off2.x为−12sp并保有效高度；在二分音符结束前收线，误示停止。完整MIDI相同仍拒绝。
+
+移除两个Segment可还原完整源XML；非Trill图元和第一行Trill图元精确保持。续行31→17个波纹字形不等于逻辑分段／颤动次数；高度残差约0.083 SVG单位（180dpi约0.042像素）。首版默认offset控制改变高度，不当单因素证据；最终取宿主保存精度后，拒绝版重载SVG／PNG／MusicXML／MIDI保持。源与原生导出的音高、起点、时长、tie经voice映射核对；颤音实际生成102次NoteOn，不要求与26书面音相等。两图原生180dpi，仅白底与同框裁切(70,75,1420,740)，没有符号图片重排。见[专题](../TRILL_READING.md)和[证据](../trill_reading_evidence.json)；CLI沿用下文，用独立配置／路径。未做导回、试听、打印、用户评价或软件适配；官谱／教材不在CC0许可中。
+
 ## 奏法的贴音关系与动态通道
 
 2026-10-20原创四小节4/4双谱表，CC0，无参考音乐转写；26音、22奏法、3动态、1逻辑渐强。固定Leland／Leland Text、spatium1.57mm及两系统预算，非出版预设。m1八分断奏，m2高音tenuto，m3上下干分别断奏／tenuto，m4短重音；输入明确指定相应奏法的上／下方，非全部无条件自动方向。渐强从m2起至m3第三拍，SVG有三个绘制图元，不能据此建三个逻辑范围。

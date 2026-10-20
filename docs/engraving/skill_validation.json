@@ -1571,5 +1571,91 @@
     "initial_23_tests_not_claimed_rerun": true,
     "independent_behavior_or_user_aesthetic_evaluation_claimed": false,
     "new_native_candidate_or_global_installation_claimed": false
+  },
+  "follow_up_trill_reading": {
+    "date": "2026-10-20",
+    "scope": "Added ornaments topic and notation reference; all current topic paths exercised from C:/Windows. No UI metadata or resolver algorithm change.",
+    "routing": {
+      "ornaments": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "ornaments",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\TRILL_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md"
+        ]
+      },
+      "notation": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "notation",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_CONTEXT.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\TRILL_READING.md"
+        ]
+      }
+    },
+    "all_current_topics_checked": 15,
+    "changed_markdown_links": [
+      "docs/engraving/BEHIND_BARS_NOTES.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/NOTATION_DETAILS.md",
+      "docs/engraving/README.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "docs/engraving/fixtures/README.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/native-review.md",
+      "docs/engraving/TRILL_READING.md"
+    ],
+    "skill_files": [
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "sha256": "e9b44e96c0978b01fe7a048cf273cfadc8d8150de83f53a52a91d2e6b08153df"
+      },
+      {
+        "path": "skills/piano-engraving/scripts/engraving_library.py",
+        "sha256": "743efedf7e7d222e00b21267132a76916159d1ee49b0ffd5b529e0eea1354cd6"
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "sha256": "59421e984e23055cf4201dae91f9942fc25faae66a7df78b3a7c0f5eb0e941fe"
+      }
+    ],
+    "same_agent_application": true,
+    "independent_blind_or_aesthetic_evaluation": false,
+    "global_skill_installation": false,
+    "historical_23_case_suite_rerun": false,
+    "quick_validate": "passed using existing repository .venv PyYAML; no dependency installation",
+    "all_current_topic_names_checked": [
+      "overview",
+      "spacing",
+      "rhythm",
+      "beams",
+      "curves",
+      "markings",
+      "ornaments",
+      "piano",
+      "cross-staff",
+      "notation",
+      "layout",
+      "sources",
+      "cases",
+      "baseline",
+      "implementation"
+    ]
   }
 }
