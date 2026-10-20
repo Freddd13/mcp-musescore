@@ -1,0 +1,794 @@
+{
+  "date": "2026-10-20",
+  "previous_goal_turn": "progress: c99bc74 octave application and author sustain intent committed and pushed",
+  "scope": "Deepen repeat-navigation reading and apply to an original native fixture; no software adaptation or user-score editing",
+  "book": {
+    "printed_full_text_and_images_read": [
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240
+    ],
+    "pdf_pages": [
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260
+    ],
+    "scope_detail": "p229 tremolo tail; p230-240 full repeat-sign chapter; p233-239 revisited, not a new claim of first reading; p241+ headings used for location only"
+  },
+  "protected_sources": [
+    {
+      "id": "A016",
+      "page": 3,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+      "sha256": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+      "unchanged": true
+    },
+    {
+      "id": "A028",
+      "page": 4,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Catch the Moment - Sword Art Online Ordinal Scale - Theme Song.pdf",
+      "sha256": "e6333ad05678a310ee9d8aa10b7adf50a9e48f8f757449d3f13cc37d9bdbc824",
+      "unchanged": true
+    },
+    {
+      "id": "A084",
+      "page": 4,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Little Busters! - Little Busters! - Opening Theme.pdf",
+      "sha256": "2ceed13c7cbf7fda41f93b108f47bc46e3dfdf18ddb6bc292f1dcae2f6f6a243",
+      "unchanged": true
+    },
+    {
+      "id": "A005",
+      "page": 6,
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\200 Anime Songs Medley.pdf",
+      "sha256": "de0c99dd322419b5f607234a5a5a22e7f987e9bcd80647e09f7e6e81a5e6b8de",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    }
+  ],
+  "official_corpus_historical_counts_incremented": false,
+  "reference_analyses": [
+    "A016 p3 inline Coda gap, restarted clefs and brace",
+    "A028 p4 new-system Coda with full left alignment",
+    "A084 p4 new-system H/Coda plus register/character instructions; D.S. below staff",
+    "A005 p6 first and second endings, continuous tie approach and open final bracket"
+  ],
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_not_inferred": true
+  },
+  "original_fixture": {
+    "license": "CC0",
+    "staves": 2,
+    "written_bars": 10,
+    "written_notes": 50,
+    "expected_traversal": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      3,
+      4,
+      5,
+      9,
+      10
+    ],
+    "upper_midi_pitches_are_unique_bar_identifiers": [
+      60,
+      62,
+      64,
+      65,
+      67,
+      69,
+      71,
+      72,
+      74,
+      76
+    ],
+    "playback_coverage": "Both staves have NoteOn events; upper register identifies bars, lower has four attacks per bar; no per-voice mute/solo in fixture"
+  },
+  "source_delta_checks": {
+    "line_candidate_only_added_break_after_bar8": true,
+    "gap_candidate_only_added_HBox_before_bar9": true,
+    "gap_width_sp": 6,
+    "gap_createSystemHeader": true,
+    "rejected_only_changed_jumpTo_segno_to_start": true
+  },
+  "variants": {
+    "baseline": {
+      "ppq": 480,
+      "note_ons": 65,
+      "upper_route": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "upper_start_ticks": [
+        [
+          0,
+          60
+        ],
+        [
+          1920,
+          62
+        ],
+        [
+          3840,
+          64
+        ],
+        [
+          5760,
+          65
+        ],
+        [
+          7680,
+          67
+        ],
+        [
+          9600,
+          69
+        ],
+        [
+          11520,
+          71
+        ],
+        [
+          13440,
+          72
+        ],
+        [
+          15360,
+          64
+        ],
+        [
+          17280,
+          65
+        ],
+        [
+          19200,
+          67
+        ],
+        [
+          21120,
+          74
+        ],
+        [
+          23040,
+          76
+        ]
+      ],
+      "midi_sha256": "dda7e644eb3b6b3c4ad409ae8c724db751c82abc63b21ed9e9392d92cfc06cb3",
+      "normalized_svg_sha256": "a0b5ef5b01f82a87ff330e52d00c3dfcfc17e576af4441b08e4c80ecdcd1d492",
+      "note_rest_rows": 50,
+      "note_rest_semantics_sha256": "9d26d093d26ccf714a876a8b1f6f82a56ef956f60c9022833780f3eb60118173",
+      "musicxml_sound_attributes": [
+        {
+          "segno": "segno"
+        },
+        {
+          "tocoda": "codab"
+        },
+        {
+          "dalsegno": "segno"
+        },
+        {
+          "coda": "codab"
+        }
+      ],
+      "musicxml_new_system_count": 2,
+      "staff_line_objects": 20,
+      "native_page_files": [
+        "baseline-1.svg"
+      ]
+    },
+    "coda-new-system": {
+      "ppq": 480,
+      "note_ons": 65,
+      "upper_route": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "upper_start_ticks": [
+        [
+          0,
+          60
+        ],
+        [
+          1920,
+          62
+        ],
+        [
+          3840,
+          64
+        ],
+        [
+          5760,
+          65
+        ],
+        [
+          7680,
+          67
+        ],
+        [
+          9600,
+          69
+        ],
+        [
+          11520,
+          71
+        ],
+        [
+          13440,
+          72
+        ],
+        [
+          15360,
+          64
+        ],
+        [
+          17280,
+          65
+        ],
+        [
+          19200,
+          67
+        ],
+        [
+          21120,
+          74
+        ],
+        [
+          23040,
+          76
+        ]
+      ],
+      "midi_sha256": "dda7e644eb3b6b3c4ad409ae8c724db751c82abc63b21ed9e9392d92cfc06cb3",
+      "normalized_svg_sha256": "d41c88e333c7772196757cab6df3f9e277a9261675b6ddcacf5dbbc47c020722",
+      "note_rest_rows": 50,
+      "note_rest_semantics_sha256": "9d26d093d26ccf714a876a8b1f6f82a56ef956f60c9022833780f3eb60118173",
+      "musicxml_sound_attributes": [
+        {
+          "segno": "segno"
+        },
+        {
+          "tocoda": "codab"
+        },
+        {
+          "dalsegno": "segno"
+        },
+        {
+          "coda": "codab"
+        }
+      ],
+      "musicxml_new_system_count": 3,
+      "staff_line_objects": 30,
+      "native_page_files": [
+        "coda-new-system-1.svg"
+      ]
+    },
+    "rejected-wrong-return": {
+      "ppq": 480,
+      "note_ons": 75,
+      "upper_route": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "upper_start_ticks": [
+        [
+          0,
+          60
+        ],
+        [
+          1920,
+          62
+        ],
+        [
+          3840,
+          64
+        ],
+        [
+          5760,
+          65
+        ],
+        [
+          7680,
+          67
+        ],
+        [
+          9600,
+          69
+        ],
+        [
+          11520,
+          71
+        ],
+        [
+          13440,
+          72
+        ],
+        [
+          15360,
+          60
+        ],
+        [
+          17280,
+          62
+        ],
+        [
+          19200,
+          64
+        ],
+        [
+          21120,
+          65
+        ],
+        [
+          23040,
+          67
+        ],
+        [
+          24960,
+          74
+        ],
+        [
+          26880,
+          76
+        ]
+      ],
+      "midi_sha256": "b90ae94eced4d474e8c9a3d62b536ed9a100bc600c5af097596ae3f863df84a0",
+      "normalized_svg_sha256": "d41c88e333c7772196757cab6df3f9e277a9261675b6ddcacf5dbbc47c020722",
+      "note_rest_rows": 50,
+      "note_rest_semantics_sha256": "9d26d093d26ccf714a876a8b1f6f82a56ef956f60c9022833780f3eb60118173",
+      "musicxml_sound_attributes": [
+        {
+          "segno": "segno"
+        },
+        {
+          "tocoda": "codab"
+        },
+        {
+          "dacapo": "yes"
+        },
+        {
+          "coda": "codab"
+        }
+      ],
+      "musicxml_new_system_count": 3,
+      "staff_line_objects": 30,
+      "native_page_files": [
+        "rejected-wrong-return-1.svg"
+      ]
+    },
+    "coda-resaved": {
+      "ppq": 480,
+      "note_ons": 65,
+      "upper_route": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "upper_start_ticks": [
+        [
+          0,
+          60
+        ],
+        [
+          1920,
+          62
+        ],
+        [
+          3840,
+          64
+        ],
+        [
+          5760,
+          65
+        ],
+        [
+          7680,
+          67
+        ],
+        [
+          9600,
+          69
+        ],
+        [
+          11520,
+          71
+        ],
+        [
+          13440,
+          72
+        ],
+        [
+          15360,
+          64
+        ],
+        [
+          17280,
+          65
+        ],
+        [
+          19200,
+          67
+        ],
+        [
+          21120,
+          74
+        ],
+        [
+          23040,
+          76
+        ]
+      ],
+      "midi_sha256": "dda7e644eb3b6b3c4ad409ae8c724db751c82abc63b21ed9e9392d92cfc06cb3",
+      "normalized_svg_sha256": "d41c88e333c7772196757cab6df3f9e277a9261675b6ddcacf5dbbc47c020722",
+      "note_rest_rows": 50,
+      "note_rest_semantics_sha256": "9d26d093d26ccf714a876a8b1f6f82a56ef956f60c9022833780f3eb60118173",
+      "musicxml_sound_attributes": [
+        {
+          "segno": "segno"
+        },
+        {
+          "tocoda": "codab"
+        },
+        {
+          "dalsegno": "segno"
+        },
+        {
+          "coda": "codab"
+        }
+      ],
+      "musicxml_new_system_count": 3,
+      "staff_line_objects": 30,
+      "native_page_files": [
+        "coda-resaved-1.svg"
+      ]
+    },
+    "coda-gap": {
+      "ppq": 480,
+      "note_ons": 65,
+      "upper_route": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "upper_start_ticks": [
+        [
+          0,
+          60
+        ],
+        [
+          1920,
+          62
+        ],
+        [
+          3840,
+          64
+        ],
+        [
+          5760,
+          65
+        ],
+        [
+          7680,
+          67
+        ],
+        [
+          9600,
+          69
+        ],
+        [
+          11520,
+          71
+        ],
+        [
+          13440,
+          72
+        ],
+        [
+          15360,
+          64
+        ],
+        [
+          17280,
+          65
+        ],
+        [
+          19200,
+          67
+        ],
+        [
+          21120,
+          74
+        ],
+        [
+          23040,
+          76
+        ]
+      ],
+      "midi_sha256": "dda7e644eb3b6b3c4ad409ae8c724db751c82abc63b21ed9e9392d92cfc06cb3",
+      "normalized_svg_sha256": "8030aef4109a6dbd926435c088aeb798fa82ddc821e6cec5f019f0ea3ce016e3",
+      "note_rest_rows": 50,
+      "note_rest_semantics_sha256": "9d26d093d26ccf714a876a8b1f6f82a56ef956f60c9022833780f3eb60118173",
+      "musicxml_sound_attributes": [
+        {
+          "segno": "segno"
+        },
+        {
+          "tocoda": "codab"
+        },
+        {
+          "dalsegno": "segno"
+        },
+        {
+          "coda": "codab"
+        }
+      ],
+      "musicxml_new_system_count": 2,
+      "staff_line_objects": 70,
+      "native_page_files": [
+        "coda-gap-1.svg"
+      ]
+    },
+    "coda-gap-resaved": {
+      "ppq": 480,
+      "note_ons": 65,
+      "upper_route": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "upper_start_ticks": [
+        [
+          0,
+          60
+        ],
+        [
+          1920,
+          62
+        ],
+        [
+          3840,
+          64
+        ],
+        [
+          5760,
+          65
+        ],
+        [
+          7680,
+          67
+        ],
+        [
+          9600,
+          69
+        ],
+        [
+          11520,
+          71
+        ],
+        [
+          13440,
+          72
+        ],
+        [
+          15360,
+          64
+        ],
+        [
+          17280,
+          65
+        ],
+        [
+          19200,
+          67
+        ],
+        [
+          21120,
+          74
+        ],
+        [
+          23040,
+          76
+        ]
+      ],
+      "midi_sha256": "dda7e644eb3b6b3c4ad409ae8c724db751c82abc63b21ed9e9392d92cfc06cb3",
+      "normalized_svg_sha256": "8030aef4109a6dbd926435c088aeb798fa82ddc821e6cec5f019f0ea3ce016e3",
+      "note_rest_rows": 50,
+      "note_rest_semantics_sha256": "9d26d093d26ccf714a876a8b1f6f82a56ef956f60c9022833780f3eb60118173",
+      "musicxml_sound_attributes": [
+        {
+          "segno": "segno"
+        },
+        {
+          "tocoda": "codab"
+        },
+        {
+          "dalsegno": "segno"
+        },
+        {
+          "coda": "codab"
+        }
+      ],
+      "musicxml_new_system_count": 2,
+      "staff_line_objects": 70,
+      "native_page_files": [
+        "coda-gap-resaved-1.svg"
+      ]
+    }
+  },
+  "native_resave": {
+    "line_candidate_svg_pixels_midi_note_rows": true,
+    "gap_candidate_svg_pixels_midi_note_rows": true
+  },
+  "same_picture_control": {
+    "normalized_full_svg_equal": true,
+    "full_page_180dpi_white_pixels_equal": true,
+    "note_rows_equal": true,
+    "but_route_and_musicxml_sound_differ": true,
+    "classification": "Deliberate corrupted control, not a discovered MuseScore bug"
+  },
+  "measurement_correction": "StaffLines object counts rise to 70 for the gap because drawing is segmented; do not divide count by ten to infer systems. MusicXML print boundaries and actual full-page review confirm two systems.",
+  "user_score_scope": {
+    "read_only_native_Jump_Marker_Volta_counts": {
+      "Jump": 0,
+      "Marker": 0,
+      "Volta": 0
+    },
+    "no_jump_layout_changes_applied": true,
+    "author_sustain_intent_not_changed": true
+  },
+  "public_original_artifacts": [
+    {
+      "path": "docs/engraving/fixtures/navigation-baseline.mscx",
+      "sha256": "7288f9980c9acf9ed91de312d0b380158996628e5b7c10cfc452de78154c0ad6"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-baseline.png",
+      "sha256": "84f65f083004cfa4e54b2f5731a7b33fed39a89cfa88bf385b19bf9a9f966b7c"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-coda-gap.mscx",
+      "sha256": "51d3c6cc6e85e3bab930ca27510263d530418ffeb0491ddfac02d4660c8a549e"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-coda-gap.png",
+      "sha256": "10bb4b5efe4fa4ac0e7d5461d61d0b9505897a2f2a0e2ad91c094caca1c71c85"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-coda-new-system.mscx",
+      "sha256": "768f769af3b1e4e93d481aceea192ee844bf904b1b85bc1ea7ff5718dec73d18"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-coda-new-system.png",
+      "sha256": "f666a22c51285c293faafc1b4e6e07e75a562611d2af095bc46103e4457bacd9"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-rejected-wrong-return.mscx",
+      "sha256": "856ebc305a15d29a3c80895bf07b8e7583d4918aefa533c9855f5263862fbb4f"
+    }
+  ],
+  "limits": [
+    "No new first/second-ending playback fixture or nested/multiple-jump test",
+    "No MusicXML reimport of the gap or line candidates",
+    "No printing, audio listening, physical page-turn test or aesthetic user selection",
+    "No modification of original PDFs/MSCZ, GUI, fonts, global skill installation or Muse/MCP/plugin/core adaptation"
+  ],
+  "private_native_cache": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\repeat-navigation-2026-10-20",
+  "comparison": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\repeat-navigation-2026-10-20\\comparison.png",
+    "native_dpi": 180,
+    "same_crop_pixel_dimensions": [
+      1324,
+      607
+    ],
+    "no_music_glyph_editing_or_scaling": true
+  },
+  "public_source_formatting": {
+    "normalized_crlf_to_lf": "fixtures/navigation-coda-gap.mscx",
+    "parsed_xml_identical_to_native_test_input": true,
+    "no_new_native_export_needed_for_line_endings": true
+  }
+}
