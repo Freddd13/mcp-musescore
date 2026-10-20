@@ -2,6 +2,8 @@
 
 更新：2026-10-20。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
 
+换拍续学见[速度关系与停顿](METRE_TEMPO_READING.md)：补Gould p174–190，区分可互换／交替拍号、新旧速度等式体例与延长的承载对象。用户F实际80→120四分速度保持大拍，E却有约2%的等式／播放偏差，分别保留与列项核查；官谱行末引入的慢速不能移到下行主题。新增skill的`tempo`入口，无新导出／候选或软件适配，原件只读。
+
 弧线续核见[裁图、矢量与输出管线](OUTPUT_READING.md)：用户p6的疑似断口未获矢量支持，原PDF／当前路径描边基本一致，同几何Qt PNG与PDFium仍有深浅差异；一条完整拱弧的提取框高度甚至为0。结合官谱续接和Gould复看，保留原曲线，不以裁图或渲染表象生成加粗／补接需求；已补skill的`curves`／`baseline`参考，无新改谱候选或软件开发。
 
 滑奏续学见[端点、方向与线形](GLISSANDO_READING.md)：官谱的黑键说明、叉头及声部引导不能互换；用户m113仅换直线形成原生风格备选，八页重载及完整MIDI保持，gliss.标签仍有约0.3sp的连动。实际MusicXML却从glissando变slide，另存交换语义风险，不称全流程无语义变化。新增skill的`glissandi`入口，未改原件或开发适配。

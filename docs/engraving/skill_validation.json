@@ -1828,5 +1828,91 @@
     "global_skill_installation": false,
     "historical_23_case_suite_rerun": false,
     "quick_validate": "passed using existing repository .venv PyYAML; no dependency installation"
+  },
+  "follow_up_metre_tempo": {
+    "date": "2026-10-20",
+    "study": "METRE_TEMPO_READING.md",
+    "quick_validate": "passed using existing repository .venv PyYAML; no dependency installation",
+    "quick_validate_stdout": "Skill is valid!",
+    "all_current_topics_checked": 17,
+    "all_current_topic_names_checked": [
+      "overview",
+      "spacing",
+      "rhythm",
+      "tempo",
+      "beams",
+      "curves",
+      "markings",
+      "ornaments",
+      "glissandi",
+      "piano",
+      "cross-staff",
+      "notation",
+      "layout",
+      "sources",
+      "cases",
+      "baseline",
+      "implementation"
+    ],
+    "external_working_directory": "C:\\Windows",
+    "selected_route_results": {
+      "tempo": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "tempo",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\METRE_TEMPO_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md"
+        ]
+      },
+      "rhythm": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "rhythm",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\METRE_TEMPO_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md"
+        ]
+      }
+    },
+    "changed_markdown_links_checked": [
+      "docs/engraving/METRE_TEMPO_READING.md",
+      "docs/engraving/README.md",
+      "docs/engraving/RHYTHM_READING.md",
+      "docs/engraving/BEHIND_BARS_NOTES.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/WHOLE_SCORE_REVIEW.md",
+      "docs/engraving/corpus/READING_015.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "skills/piano-engraving/SKILL.md"
+    ],
+    "skill_files": [
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "sha256": "65d75f316c402f4f8624aca849bee8071b5a91d662a9c0d4c31a6c3be52d894f"
+      },
+      {
+        "path": "skills/piano-engraving/scripts/engraving_library.py",
+        "sha256": "dd563cf64b7551dc6325cbdf9279af466e75889d125ece3b91436ca5edd4d698"
+      }
+    ],
+    "same_agent_application": true,
+    "independent_blind_or_aesthetic_evaluation": false,
+    "new_native_export": false,
+    "global_skill_installation": false,
+    "historical_23_case_suite_rerun": false
   }
 }
