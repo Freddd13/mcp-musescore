@@ -1743,5 +1743,90 @@
     "global_skill_installation": false,
     "historical_23_case_suite_rerun": false,
     "quick_validate": "passed using existing repository .venv PyYAML; no dependency installation"
+  },
+  "follow_up_output_reading": {
+    "date": "2026-10-20",
+    "scope": "curves and baseline route to output-reading study; topic set, resolver algorithm and UI metadata unchanged. All current routes checked from external cwd.",
+    "routing": {
+      "curves": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "curves",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CURVES_STUDY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OUTPUT_READING.md"
+        ]
+      },
+      "baseline": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "baseline",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INPUT_HISTORY.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OUTPUT_READING.md"
+        ]
+      }
+    },
+    "all_current_topic_names_checked": [
+      "overview",
+      "spacing",
+      "rhythm",
+      "beams",
+      "curves",
+      "markings",
+      "ornaments",
+      "glissandi",
+      "piano",
+      "cross-staff",
+      "notation",
+      "layout",
+      "sources",
+      "cases",
+      "baseline",
+      "implementation"
+    ],
+    "all_current_topics_checked": 16,
+    "changed_markdown_links": [
+      "docs/engraving/README.md",
+      "docs/engraving/CURVES_STUDY.md",
+      "docs/engraving/INPUT_HISTORY.md",
+      "docs/engraving/BEHIND_BARS_NOTES.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/native-review.md",
+      "docs/engraving/OUTPUT_READING.md"
+    ],
+    "skill_files": [
+      {
+        "path": "skills/piano-engraving/SKILL.md",
+        "sha256": "5331924e11274637095004ff14d42d1a2155b6722bd58c6399660e977131aaca"
+      },
+      {
+        "path": "skills/piano-engraving/scripts/engraving_library.py",
+        "sha256": "4fd58b572392920044b30bd3633fc411c4807cd149d8739f6b9c986e0a0c72bf"
+      },
+      {
+        "path": "skills/piano-engraving/references/native-review.md",
+        "sha256": "e4083a70ea74967fcf8d489ac950425e8891e65945db49974bb1e43280ecf194"
+      }
+    ],
+    "same_agent_application": true,
+    "independent_blind_or_aesthetic_evaluation": false,
+    "global_skill_installation": false,
+    "historical_23_case_suite_rerun": false,
+    "quick_validate": "passed using existing repository .venv PyYAML; no dependency installation"
   }
 }

@@ -13,7 +13,7 @@ TOPICS = {
     "spacing": ("SPACING_DECISIONS.md", "ACCIDENTAL_SPACING.md", "USER_SPACING_APPLICATION.md", "SPACING_CANDIDATES.md", "SPACING_STUDY.md"),
     "rhythm": ("RHYTHM_READING.md", "NOTATION_DETAILS.md"),
     "beams": ("BEAM_STEM_STUDY.md", "RHYTHM_READING.md"),
-    "curves": ("CURVES_STUDY.md",),
+    "curves": ("CURVES_STUDY.md", "OUTPUT_READING.md"),
     "markings": ("DYNAMICS_ARTICULATION.md", "CURVES_STUDY.md"),
     "ornaments": ("TRILL_READING.md", "NOTATION_DETAILS.md"),
     "glissandi": ("GLISSANDO_READING.md", "CROSS_STAFF_STUDY.md"),
@@ -23,7 +23,7 @@ TOPICS = {
     "layout": ("PAGE_FLOW_STUDY.md", "SPACING_DECISIONS.md", "EXTERNAL_PRACTICE.md", "CASES.md"),
     "sources": ("SOURCES.md", "BEHIND_BARS_NOTES.md", "RESOURCE_PLAN_MAPPING.md"),
     "cases": ("corpus/INDEX.md", "CASES.md", "CASES_EXPANDED.md"),
-    "baseline": ("INPUT_HISTORY.md",),
+    "baseline": ("INPUT_HISTORY.md", "OUTPUT_READING.md"),
     "implementation": ("IMPLEMENTATION.md",),
 }
 

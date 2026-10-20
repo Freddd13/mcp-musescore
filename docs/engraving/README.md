@@ -2,6 +2,8 @@
 
 更新：2026-10-20。所属计划：[ENGRAVING_PLAN.md](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN.md](../FONT_PLAN.md)。
 
+弧线续核见[裁图、矢量与输出管线](OUTPUT_READING.md)：用户p6的疑似断口未获矢量支持，原PDF／当前路径描边基本一致，同几何Qt PNG与PDFium仍有深浅差异；一条完整拱弧的提取框高度甚至为0。结合官谱续接和Gould复看，保留原曲线，不以裁图或渲染表象生成加粗／补接需求；已补skill的`curves`／`baseline`参考，无新改谱候选或软件开发。
+
 滑奏续学见[端点、方向与线形](GLISSANDO_READING.md)：官谱的黑键说明、叉头及声部引导不能互换；用户m113仅换直线形成原生风格备选，八页重载及完整MIDI保持，gliss.标签仍有约0.3sp的连动。实际MusicXML却从glissando变slide，另存交换语义风险，不称全流程无语义变化。新增skill的`glissandi`入口，未改原件或开发适配。
 
 装饰续学见[颤音的范围与续行](TRILL_READING.md)：tr、波线、tie、辅助音和起止小音各管不同信息。Gould p134–140与六个官谱页结合，区分续行提醒的建议和官谱只续波线的实践；原创四小节虽保26音与完整MIDI，提前收线仍误示停止，故拒绝。补skill的`ornaments`入口，原件只读、无软件适配。
