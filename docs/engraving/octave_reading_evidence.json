@@ -1,0 +1,794 @@
+{
+  "date": "2026-10-20",
+  "study": "Octave signs, register contour, target membership and empty-staff retention",
+  "book": {
+    "printed_pages_full_visual_reading": [
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      324,
+      325
+    ],
+    "pdf_pages_full_visual_reading": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      344,
+      345
+    ],
+    "coverage": "p324-325 revisited; p34 rest-symbol opening also visible, not the complete subsequent rest chapter."
+  },
+  "reference_reviews": [
+    {
+      "id": "A009",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Adabana Necromancy - Zombie Land Saga - Opening Theme.pdf",
+      "sha256": "8c90eb81d2b5e71011ddaa11ccd7c4542b20ff688650c4abbd7f417cd48a360f",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "A146",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Zen Zen Zense - Your Name. - Insert Song.pdf",
+      "sha256": "d173123d0d3425b97522676435548dbb046a72f9285c673867b9ffb062eaf424",
+      "pages": [
+        8
+      ]
+    }
+  ],
+  "protected_inputs": [
+    {
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "expected": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "expected": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "expected": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Adabana Necromancy - Zombie Land Saga - Opening Theme.pdf",
+      "expected": "8c90eb81d2b5e71011ddaa11ccd7c4542b20ff688650c4abbd7f417cd48a360f",
+      "unchanged": true
+    },
+    {
+      "source": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Zen Zen Zense - Your Name. - Insert Song.pdf",
+      "expected": "d173123d0d3425b97522676435548dbb046a72f9285c673867b9ffb062eaf424",
+      "unchanged": true
+    }
+  ],
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_not_inferred": true
+  },
+  "baseline_identity": {
+    "source_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "fresh_all_eight_svg_pages_match_prior": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true,
+      "5": true,
+      "6": true,
+      "7": true,
+      "8": true
+    }
+  },
+  "intentional_change": {
+    "native_staff_id": "6",
+    "start": "m148 q0",
+    "original_end": "m153 q0",
+    "candidate_end": "m150 q0",
+    "trimmed_containers_without_chords": [
+      150,
+      151,
+      152
+    ],
+    "geometry": "first saved Segment/off2 x -3.13573 -> 0; original vertical offset retained",
+    "non_ottava_input_tree_unchanged": true,
+    "all_other_zip_member_payloads_unchanged": true
+  },
+  "rejected_control": "range-only removes the empty staff but the inherited endpoint offset places its corner before the final target chord; rejected despite unchanged MIDI.",
+  "variant_validation": {
+    "baseline": {
+      "pages_against_baseline": {
+        "1": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "2": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "3": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "4": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "5": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "6": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "7": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "8": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        }
+      },
+      "musicxml_note_and_rest_semantics_equal_excluding_layout": true,
+      "midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "midi_byte_equal": true,
+      "tail_octave_events": [
+        {
+          "part": "P3",
+          "measure": "148",
+          "staff": "2",
+          "q": "0",
+          "type": "up",
+          "size": "8",
+          "number": "1"
+        },
+        {
+          "part": "P3",
+          "measure": "152",
+          "staff": "2",
+          "q": "3",
+          "type": "stop",
+          "size": "8",
+          "number": "1"
+        }
+      ]
+    },
+    "range-only": {
+      "pages_against_baseline": {
+        "1": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "2": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "3": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "4": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "5": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "6": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "7": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "8": {
+          "svg_objects_equal": false,
+          "pixels_equal": false
+        }
+      },
+      "musicxml_note_and_rest_semantics_equal_excluding_layout": true,
+      "midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "midi_byte_equal": true,
+      "tail_octave_events": [
+        {
+          "part": "P3",
+          "measure": "148",
+          "staff": "2",
+          "q": "0",
+          "type": "up",
+          "size": "8",
+          "number": "1"
+        },
+        {
+          "part": "P3",
+          "measure": "149",
+          "staff": "2",
+          "q": "4",
+          "type": "stop",
+          "size": "8",
+          "number": "1"
+        }
+      ]
+    },
+    "range-clean": {
+      "pages_against_baseline": {
+        "1": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "2": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "3": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "4": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "5": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "6": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "7": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "8": {
+          "svg_objects_equal": false,
+          "pixels_equal": false
+        }
+      },
+      "musicxml_note_and_rest_semantics_equal_excluding_layout": true,
+      "midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "midi_byte_equal": true,
+      "tail_octave_events": [
+        {
+          "part": "P3",
+          "measure": "148",
+          "staff": "2",
+          "q": "0",
+          "type": "up",
+          "size": "8",
+          "number": "1"
+        },
+        {
+          "part": "P3",
+          "measure": "149",
+          "staff": "2",
+          "q": "4",
+          "type": "stop",
+          "size": "8",
+          "number": "1"
+        }
+      ]
+    },
+    "range-resaved": {
+      "pages_against_baseline": {
+        "1": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "2": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "3": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "4": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "5": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "6": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "7": {
+          "svg_objects_equal": true,
+          "pixels_equal": true
+        },
+        "8": {
+          "svg_objects_equal": false,
+          "pixels_equal": false
+        }
+      },
+      "musicxml_note_and_rest_semantics_equal_excluding_layout": true,
+      "midi_sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "midi_byte_equal": true,
+      "tail_octave_events": [
+        {
+          "part": "P3",
+          "measure": "148",
+          "staff": "2",
+          "q": "0",
+          "type": "up",
+          "size": "8",
+          "number": "1"
+        },
+        {
+          "part": "P3",
+          "measure": "149",
+          "staff": "2",
+          "q": "4",
+          "type": "stop",
+          "size": "8",
+          "number": "1"
+        }
+      ]
+    }
+  },
+  "native_save_reload": {
+    "1": {
+      "svg_objects_equal": true,
+      "pixels_equal": true
+    },
+    "2": {
+      "svg_objects_equal": true,
+      "pixels_equal": true
+    },
+    "3": {
+      "svg_objects_equal": true,
+      "pixels_equal": true
+    },
+    "4": {
+      "svg_objects_equal": true,
+      "pixels_equal": true
+    },
+    "5": {
+      "svg_objects_equal": true,
+      "pixels_equal": true
+    },
+    "6": {
+      "svg_objects_equal": true,
+      "pixels_equal": true
+    },
+    "7": {
+      "svg_objects_equal": true,
+      "pixels_equal": true
+    },
+    "8": {
+      "svg_objects_equal": true,
+      "pixels_equal": true
+    }
+  },
+  "endpoint_checks": {
+    "range-only": {
+      "lower_line": [
+        478.305,
+        2071.32,
+        1928.19,
+        2071.32
+      ],
+      "last_chord_control_hull_bounds": [
+        [
+          1942.52,
+          1988.8304440898,
+          1975.7171874551,
+          2012.8626660977
+        ],
+        [
+          1942.52,
+          1888.6904440898,
+          1975.7171874551,
+          1912.7226660976999
+        ]
+      ],
+      "corner_beyond_conservative_head_right": false
+    },
+    "range-clean": {
+      "lower_line": [
+        478.305,
+        2071.32,
+        1997.97,
+        2071.32
+      ],
+      "last_chord_control_hull_bounds": [
+        [
+          1942.52,
+          1988.8304440898,
+          1975.7171874551,
+          2012.8626660977
+        ],
+        [
+          1942.52,
+          1888.6904440898,
+          1975.7171874551,
+          1912.7226660976999
+        ]
+      ],
+      "corner_beyond_conservative_head_right": true
+    },
+    "range-resaved": {
+      "lower_line": [
+        478.305,
+        2071.32,
+        1997.97,
+        2071.32
+      ],
+      "last_chord_control_hull_bounds": [
+        [
+          1942.52,
+          1988.8304440898,
+          1975.7171874551,
+          2012.8626660977
+        ],
+        [
+          1942.52,
+          1888.6904440898,
+          1975.7171874551,
+          1912.7226660976999
+        ]
+      ],
+      "corner_beyond_conservative_head_right": true
+    }
+  },
+  "geometry_scope": "Note local control hulls transformed by their matrix to page coordinates, no inherited transform in this sample; conservative membership check plus actual visual review, not a generic ink-box parser.",
+  "musicxml_note_and_rest_rows": 3203,
+  "musicxml_layout_exclusions": [
+    "default-x",
+    "default-y",
+    "relative-x",
+    "relative-y",
+    "bezier-*"
+  ],
+  "midi_original_mix_counts": {
+    "note_on": 2310,
+    "tempos": 391,
+    "cc64": 310,
+    "cc66": 0
+  },
+  "midi_coverage_control": {
+    "purpose": "Diagnostic control only: third Part is also set solo. Proposed engraving candidate preserves original mixer state.",
+    "rows": [
+      {
+        "label": "diagnostic-solo-baseline",
+        "original_channel_solo_fields": [
+          "1",
+          "1",
+          null
+        ],
+        "note_ons_per_track": {
+          "1": 11,
+          "3": 1150,
+          "4": 1149,
+          "5": 3,
+          "6": 2
+        },
+        "note_on_count": 2315,
+        "m148_nominal_start_tick": 215520,
+        "note_ons_at_m148_start": [
+          {
+            "track": 5,
+            "tick": 215520,
+            "note": 73
+          },
+          {
+            "track": 5,
+            "tick": 215520,
+            "note": 76
+          },
+          {
+            "track": 5,
+            "tick": 215520,
+            "note": 85
+          },
+          {
+            "track": 6,
+            "tick": 215520,
+            "note": 33
+          },
+          {
+            "track": 6,
+            "tick": 215520,
+            "note": 49
+          }
+        ],
+        "midi_sha256": "3dd3e837dfecfd7ee6fef5dab4266ed0fba9f8400c5933225d9db6effa6b80a3"
+      },
+      {
+        "label": "diagnostic-solo-candidate",
+        "original_channel_solo_fields": [
+          "1",
+          "1",
+          null
+        ],
+        "note_ons_per_track": {
+          "1": 11,
+          "3": 1150,
+          "4": 1149,
+          "5": 3,
+          "6": 2
+        },
+        "note_on_count": 2315,
+        "m148_nominal_start_tick": 215520,
+        "note_ons_at_m148_start": [
+          {
+            "track": 5,
+            "tick": 215520,
+            "note": 73
+          },
+          {
+            "track": 5,
+            "tick": 215520,
+            "note": 76
+          },
+          {
+            "track": 5,
+            "tick": 215520,
+            "note": 85
+          },
+          {
+            "track": 6,
+            "tick": 215520,
+            "note": 33
+          },
+          {
+            "track": 6,
+            "tick": 215520,
+            "note": 49
+          }
+        ],
+        "midi_sha256": "3dd3e837dfecfd7ee6fef5dab4266ed0fba9f8400c5933225d9db6effa6b80a3"
+      }
+    ],
+    "full_control_midi_equal": true
+  },
+  "pitch_context_examples": {
+    "native_upper_field": 93,
+    "musicxml_upper_performed_pitch": 105,
+    "original_midi_upper": 105,
+    "native_lower_fields": [
+      45,
+      61
+    ],
+    "musicxml_lower_performed_pitches": [
+      33,
+      49
+    ],
+    "diagnostic_midi_lower": [
+      33,
+      49
+    ],
+    "original_mix_lower_attack_absent": true
+  },
+  "standards_urls": [
+    "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/octave-shift/",
+    "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/pitch/"
+  ],
+  "musicxml_export_root_version": "4.0",
+  "false_positive_details": {
+    "pages": {
+      "1": {
+        "pixel_difference_bbox": null,
+        "class_object_multiset_equal": true,
+        "removed_class_counts": {},
+        "added_class_counts": {}
+      },
+      "2": {
+        "pixel_difference_bbox": null,
+        "class_object_multiset_equal": true,
+        "removed_class_counts": {},
+        "added_class_counts": {}
+      },
+      "3": {
+        "pixel_difference_bbox": null,
+        "class_object_multiset_equal": true,
+        "removed_class_counts": {},
+        "added_class_counts": {}
+      },
+      "4": {
+        "pixel_difference_bbox": null,
+        "class_object_multiset_equal": true,
+        "removed_class_counts": {},
+        "added_class_counts": {}
+      },
+      "5": {
+        "pixel_difference_bbox": null,
+        "class_object_multiset_equal": true,
+        "removed_class_counts": {},
+        "added_class_counts": {}
+      },
+      "6": {
+        "pixel_difference_bbox": null,
+        "class_object_multiset_equal": true,
+        "removed_class_counts": {},
+        "added_class_counts": {}
+      },
+      "7": {
+        "pixel_difference_bbox": null,
+        "class_object_multiset_equal": true,
+        "removed_class_counts": {},
+        "added_class_counts": {}
+      },
+      "8": {
+        "pixel_difference_bbox": [
+          77,
+          1023,
+          1397,
+          1646
+        ],
+        "class_object_multiset_equal": false,
+        "removed_class_counts": {
+          "MeasureNumber": 1,
+          "BarLine": 16,
+          "StaffLines": 10,
+          "SlurSegment": 3,
+          "TieSegment": 10,
+          "Arpeggio": 12,
+          "LedgerLine": 22,
+          "Stem": 18,
+          "Hook": 4,
+          "Note": 27,
+          "Clef": 2,
+          "KeySig": 6,
+          "TimeSig": 4,
+          "Rest": 6,
+          "Fermata": 4,
+          "Dynamic": 2,
+          "Tempo": 2,
+          "StaffText": 5,
+          "RehearsalMark": 2,
+          "OttavaSegment": 4,
+          "NoteDot": 21,
+          "Bracket": 1
+        },
+        "added_class_counts": {
+          "MeasureNumber": 1,
+          "BarLine": 8,
+          "StaffLines": 5,
+          "SlurSegment": 3,
+          "TieSegment": 10,
+          "Arpeggio": 12,
+          "LedgerLine": 22,
+          "Stem": 18,
+          "Hook": 4,
+          "Note": 27,
+          "Clef": 1,
+          "KeySig": 3,
+          "TimeSig": 2,
+          "Fermata": 4,
+          "Dynamic": 2,
+          "Tempo": 2,
+          "StaffText": 5,
+          "RehearsalMark": 2,
+          "OttavaSegment": 2,
+          "NoteDot": 21
+        }
+      }
+    },
+    "changed_musicxml_note_rows": 6,
+    "note_examples": [
+      {
+        "key": [
+          "P2",
+          "150",
+          1
+        ],
+        "diff": "--- \n+++ \n@@ -9,7 +9,7 @@\n         <stem>up</stem>\n         <staff>2</staff>\n         <notations>\n-          <slur type=\"start\" bezier-x=\"65.1714\" bezier-y=\"34.4117\" number=\"1\" />\n+          <slur type=\"start\" bezier-x=\"65.9159\" bezier-y=\"34.5089\" number=\"1\" />\n           </notations>\n         </note>\n       "
+      },
+      {
+        "key": [
+          "P2",
+          "151",
+          5
+        ],
+        "diff": "--- \n+++ \n@@ -10,7 +10,7 @@\n         <stem>down</stem>\n         <staff>2</staff>\n         <notations>\n-          <slur type=\"start\" bezier-x=\"26.5048\" bezier-y=\"-18.9218\" number=\"2\" />\n+          <slur type=\"start\" bezier-x=\"26.7875\" bezier-y=\"-19.0261\" number=\"2\" />\n           </notations>\n         </note>\n       "
+      },
+      {
+        "key": [
+          "P2",
+          "151",
+          6
+        ],
+        "diff": "--- \n+++ \n@@ -11,7 +11,7 @@\n         <stem>down</stem>\n         <staff>2</staff>\n         <notations>\n-          <slur type=\"stop\" number=\"2\" bezier-x=\"-23.0874\" bezier-y=\"-22.9676\" />\n+          <slur type=\"stop\" number=\"2\" bezier-x=\"-23.3933\" bezier-y=\"-23.0719\" />\n           </notations>\n         </note>\n       "
+      },
+      {
+        "key": [
+          "P2",
+          "152",
+          2
+        ],
+        "diff": "--- \n+++ \n@@ -10,7 +10,7 @@\n         <stem>up</stem>\n         <staff>2</staff>\n         <notations>\n-          <slur type=\"stop\" number=\"1\" bezier-x=\"-67.3784\" bezier-y=\"29.8601\" />\n+          <slur type=\"stop\" number=\"1\" bezier-x=\"-68.1053\" bezier-y=\"29.9574\" />\n           <fermata type=\"inverted\" />\n           </notations>\n         </note>\n"
+      },
+      {
+        "key": [
+          "P2",
+          "152",
+          3
+        ],
+        "diff": "--- \n+++ \n@@ -11,7 +11,7 @@\n         <stem>down</stem>\n         <staff>2</staff>\n         <notations>\n-          <slur type=\"start\" bezier-x=\"20.1613\" bezier-y=\"-18.902\" number=\"1\" />\n+          <slur type=\"start\" bezier-x=\"20.5382\" bezier-y=\"-19.0534\" number=\"1\" />\n           </notations>\n         </note>\n       "
+      }
+    ]
+  },
+  "startup_diagnostics": {
+    "initial_sandbox_exit": 3221226505,
+    "outside_redirect_exit": 3221226505,
+    "working_probe": {
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\clefs-ottava-2026-10-20\\previous-style-config-uncreated",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\clefs-ottava-2026-10-20\\native\\probe.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\clefs-ottava-2026-10-20\\native\\baseline.mscz"
+      ],
+      "exit_code": 0,
+      "stdout_bytes": 0,
+      "stderr_bytes": 225,
+      "svg_pages": 8,
+      "log_tail": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\clefs-ottava-2026-10-20\\native\\baseline.mscz>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\clefs-ottava-2026-10-20\\native\\probe.svg>\r\n... success!\r\n"
+    },
+    "scope": "Capture-output and previous-style config path combination succeeded; exact initial startup cause not isolated, not classified as a score or software defect."
+  },
+  "mpa_access": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\mpa-foundations-2026-10-20\\mpa-standard-practice.pdf",
+    "exists": true,
+    "python_download": "Confirmed terminal TLS handshake timeout",
+    "windows_download": "Confirmed live session 18486 was cancelled with Ctrl-C; exit 1",
+    "web_pdf_screenshot": "Returned source placeholders without visible pixels; not visually read",
+    "bytes": 278519,
+    "read_error": "PdfStreamError: Stream has ended unexpectedly",
+    "official_url": "https://www.mpa.org/wp-content/uploads/2018/06/standard-practice-engraving.pdf",
+    "usable_pdf": false,
+    "visual_pages_read": 0
+  },
+  "private_artifacts": {
+    "cache": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\clefs-ottava-2026-10-20",
+    "proposed_reloaded_copy": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\clefs-ottava-2026-10-20\\native\\range-resaved.mscz",
+    "comparison": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\clefs-ottava-2026-10-20\\comparison.png",
+    "raw_inputs_or_music_images_committed": false
+  },
+  "comparison": {
+    "dpi": 180,
+    "same_crop": [
+      65,
+      460,
+      1430,
+      1690
+    ],
+    "left": "Current native baseline export",
+    "right": "Range + obsolete endpoint correction",
+    "no_glyph_scaling_or_movement_in_compositing": true
+  },
+  "scope": {
+    "original_pdf_already_lacks_the_extra_staff": true,
+    "new_musicxml_reimport": false,
+    "audio_or_print_test": false,
+    "global_skill_installation": false,
+    "user_adoption": false,
+    "new_user_preference": false,
+    "software_adaptation": false,
+    "gui_operations": false,
+    "historical_official_corpus_counts_incremented": false
+  }
+}

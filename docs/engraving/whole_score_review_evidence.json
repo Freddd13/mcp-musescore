@@ -265,5 +265,29 @@
     "MCP/plugin/core development",
     "global skill install"
   ],
-  "reference_score_or_book_images_in_Git": false
+  "reference_score_or_book_images_in_Git": false,
+  "follow_up_author_intent": {
+    "date": "2026-10-20",
+    "source": "Direct author reply in this Codex conversation",
+    "question_reference": "call_77c52c3c03364bbfaf392f36322c3a86",
+    "location": "如果有来生 m132 (S.P. for A octave), two opposite curves continuing to m135",
+    "author_statement": "选择性延音踏板保持 A 八度，长弧表示持续",
+    "confirmed": [
+      "Selective/sostenuto pedal sustains the A octave",
+      "Both discussed long curves indicate continuation/sustain rather than ordinary phrasing"
+    ],
+    "not_inferred": [
+      "Precise pedal capture/release time",
+      "One curve assigned to each individual A",
+      "Approval of the existing curve geometry",
+      "Approval of hiding rests or either previous diagnostic variant",
+      "A general aesthetic preference",
+      "CC66 playback implementation"
+    ],
+    "supersedes": "Prior current-state uncertainty about whether these two curves are ordinary phrasing or sustain indications; historical native measurements remain unchanged.",
+    "decision": "Preserve original notation; assess any future endpoint/space changes as sustain indications. Previous whole-bar-rest and hidden-rest trials remain unadopted.",
+    "reference": "SUSTAIN_AND_RESTS.md",
+    "new_native_trial": false,
+    "originals_modified": false
+  }
 }
