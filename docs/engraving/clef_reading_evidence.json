@@ -487,7 +487,7 @@
       "sha256": "ff451bcc68e3a9b16459dee2fd2f9f45f44900ef054e86dee2be2359505e9ec3"
     }
   ],
-  "native_export_configs": "Isolated per variant and format; v2 build reused the first attempt’s isolated config paths; reload used fresh v2 paths. No GUI or user config used.",
+  "native_export_configs": "2026-10-22 qualification: per-variant -c arguments were recorded, but pre-created directories/configuration isolation were not verified. This study was not rerun in the reconstructed environment; see NATIVE_EXPORT_ENVIRONMENT.md.",
   "read_only_source_code": [
     {
       "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\clef.cpp",
@@ -505,5 +505,11 @@
     "No general optimal clef algorithm or adaptation implementation."
   ],
   "software_adaptation": false,
-  "global_installation": false
+  "global_installation": false,
+  "native_export_config_audit_2026_10_22": {
+    "previous_claim": "Isolated per variant and format; v2 build reused the first attempt’s isolated config paths; reload used fresh v2 paths. No GUI or user config used.",
+    "current_private_directory_check": "no matching config/cfg/profile directories found",
+    "scope": "directory absence now does not prove every past process configuration; original music, MIDI and drawings remain historical recorded comparisons",
+    "rerun_this_study": false
+  }
 }

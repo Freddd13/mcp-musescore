@@ -213,3 +213,14 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [等音简化拒绝例](spelling-enharmonic-rejected.mscx)／[图](spelling-enharmonic-rejected.png)：相同键却改变音程读法，局部变音从2增到4，下方和弦需要邻位错头。它是记法反例，不能当纯外观压缩。
 
 两版各17条音符与17次MIDI起音对独立配方一致，完整MIDI相同；拼写差别也按预期读回，并未称记法不变。十条谱线几何一致，180dpi原生图只合白底并统一裁框(145,130,1400,376)。功能版原生重载的拼写、SVG、原始RGBA与完整MIDI保持；没有拒绝版重载、交换导回、试听／打印或用户采用。理由和保护边界见[音高拼写](../ACCIDENTAL_SPELLING.md)及[证据](../accidental_spelling_evidence.json)。
+
+## 行首已有留白与显示变音占位
+
+原创CC0四小节4/4、钢琴双表，Leland／Leland Text、1.57mm sp。七个显示控制只增加非必要的USER还原号；固定整行宽、两行各两小节，是诊断材料，不是出版排版模板。
+
+- [基线](leading-base.mscx)；曲首[一个](leading-opening-one.mscx)／[三个](leading-opening-three.mscx)；[曲首对照图](leading-opening-comparison.png)。
+- 后续行首[一个](leading-row-one.mscx)／[三个](leading-row-three.mscx)；[对照图](leading-row-comparison.png)。
+- 行中小节[一个](leading-inside-one.mscx)／[三个](leading-inside-three.mscx)；[对照图](leading-inside-comparison.png)。
+- 正确首ChordRest Segment的[单符号留白控制](leading-one-reserve.mscx)和[三个超额压缩拒绝例](leading-three-overreserve-rejected.mscx)；[四层对照图](leading-reserve-controls.png)。前者本例可行但未作用户采用，后者虽共同头列／MIDI相同仍挤到拍号。
+
+九个输入各40音对独立配方，完整MIDI相同；两局部控制实际保存重载。单符号版SVG图元及原始RGBA完全相同，三符号版一个还原号的SVG x因精度变化0.001单位，RGBA相同。PNG均原生180dpi合白、统一裁框，不移动或缩放谱面符号。没有交换导回、实曲迁移、试听或打印。理由、首次Segment目标构造错误和实际配置环境见[行首研究](../LEADING_RESERVE.md)及[证据](../leading_reserve_evidence.json)。
