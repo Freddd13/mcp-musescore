@@ -2,7 +2,7 @@
 
 这些段落从 skill 正文移到这里，保留条件、反例与来源。只读当前问题对应的小节；随后用定位器返回的知识库文件追到具体谱例。相同外形不代表相同音乐角色，旧实验数值也不是通用预设。
 
-目录：[作品定义](#interpretation) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [跨表](#cross-staff) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [八度](#octaves) · [导航](#navigation)
+目录：[作品定义](#interpretation) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [跨表](#cross-staff) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
 
 <a id="interpretation"></a>
 
@@ -57,6 +57,12 @@
 ## 自由段与等待
 
 自由段先分省拍号、局部自由、senza misura与独立速度，再读活动／持续层及返回点。陪伴长值可代表等待，不因延长号x不同拆音移齐；工程隐藏计量／速度不直接等于读者须看见的拍号／节拍。跨表音可画在空容器上，Part也不等同演奏者；原生连接按实际版本结构核对。`piano`／`tempo`中的`FREE_PASSAGE_READING.md`有用户尾页保留证据及官谱对照。波线还可能指音组自由反复，先看材料和说明，不能一概识别为trill。
+
+<a id="clefs"></a>
+
+## 换谱号与连续音程轮廓
+
+换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
 

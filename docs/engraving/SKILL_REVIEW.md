@@ -75,3 +75,9 @@ skill能够把阅读任务、相关规范、具体例子和候选保护连起来
 [A067 p3试读](INTEGRATED_READING_KAKYOIN.md)首次补入无继承对话、未提供预期答案的独立agent只读样本。它从原PDF与当前知识库作出分层、交接、行中E和八度范围判断，主agent实际回看全部4页及Gould p307、324–325、490后接受主要解释。细节、选页方式及证据边界单列，不能将前文历史“尚未执行独立评测”读作本日最新状态；此前同agent原生试验仍不是独立评测。
 
 随后将skill的12段专题提醒原文移到[按问题读取的参考](../../skills/piano-engraving/references/judgment-details.md)，正文保留目的、约束、作品定义原则与候选方法。各段的条件、反例、作者确认均保留；README完整旧文留在[入口快照](READING_LOG_2026-10-20.md)，当前入口改为问题检索。overview增加本次实例，19个topic及原CLI行为保留。行为试读用的是整理前skill，整理后的格式、段落保留与复制包引用分别验证，结果见[skill_validation.json](skill_validation.json)的follow_up_forward_reading。没有全局安装、原谱改动或软件适配。
+
+## 2026-10-20：谱号的实际读法保护
+
+[换号专题](CLEF_READING.md)新增clefs并接入piano，当前20个topic。skill详细提醒补乐句／拍／休止条件，保留《lit》的合理高频换号，拒绝以单音阈值或隐藏Clef作为自动美化。四版同35起音的原生例说明数据保持仍可丢识谱参照，保留版重载保持；本轮为主agent学习／原生试验，没有重复独立行为或用户审美评测。
+
+原生参考另补手工输入的实际失败：dots／durationType顺序与LayoutBreak父层不对时，图面／音数和各版相同不足以保护预期音乐。先拒绝错误初版，再用独立实际时值和2+2分行核最终例。格式、20路由及本轮文档／原创文件检查见[skill_validation.json](skill_validation.json)的follow_up_clef_reading；无全局安装或软件适配。

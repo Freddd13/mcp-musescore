@@ -2688,5 +2688,105 @@
         "sha256": "906fd3b1f7761b55ee1242e59ffa49f0c53ce06ec482736983c5ad859ad5ddeb"
       }
     ]
+  },
+  "follow_up_clef_reading": {
+    "date": "2026-10-20",
+    "quick_validate": "Skill is valid!",
+    "topic_count": 20,
+    "all_routes_from_external_cwd_executed": true,
+    "clefs_route": {
+      "repository": "E:\\programming\\funcodes\\mcp-musescore",
+      "repository_resolution": "skill-realpath",
+      "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+      "topic": "clefs",
+      "start_here": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+      ],
+      "references": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CLEF_READING.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OCTAVE_READING.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_CONTEXT.md"
+      ]
+    },
+    "piano_route": {
+      "repository": "E:\\programming\\funcodes\\mcp-musescore",
+      "repository_resolution": "skill-realpath",
+      "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+      "topic": "piano",
+      "start_here": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+      ],
+      "references": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CLEF_READING.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SUSTAIN_CONTINUATION.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OCTAVE_READING.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\FREE_PASSAGE_READING.md"
+      ]
+    },
+    "copied_package_clefs_route_actual": {
+      "repository": "E:\\programming\\funcodes\\mcp-musescore",
+      "repository_resolution": "--repo",
+      "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+      "topic": "clefs",
+      "start_here": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+      ],
+      "references": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CLEF_READING.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OCTAVE_READING.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_CONTEXT.md"
+      ]
+    },
+    "new_copied_guidance_resolved": true,
+    "previous_12_moved_paragraphs_preserved_verbatim": true,
+    "markdown_files_checked": [
+      "docs/ENGRAVING_PLAN.md",
+      "docs/engraving/BEHIND_BARS_NOTES.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/PIANO_TEXTURE_STUDY.md",
+      "docs/engraving/README.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "docs/engraving/fixtures/README.md",
+      "docs/engraving/CLEF_READING.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/judgment-details.md",
+      "skills/piano-engraving/references/native-review.md"
+    ],
+    "local_links_including_images_checked": 426,
+    "protected_source_hashes_checked": 6,
+    "public_original_artifact_hashes_and_crop_pixels_checked": 8,
+    "independent_expected_music_and_layout": true,
+    "native_retained_version_save_reload": true,
+    "first_hand_authored_input_rejected_and_corrected": true,
+    "independent_behavior_test_this_batch": false,
+    "user_aesthetic_adoption": false,
+    "musicxml_reimport": false,
+    "global_installation": false,
+    "software_adaptation": false,
+    "skill_files": [
+      {
+        "path": "skills\\piano-engraving\\SKILL.md",
+        "sha256": "39ab52286a01e2ebf47b113a4b77598a31a5a20ab0546fe3af17a5766e9e2ce0"
+      },
+      {
+        "path": "skills\\piano-engraving\\scripts\\engraving_library.py",
+        "sha256": "04850a50ca2d93d020cb83478ef5663c592c0e95ca44620ac429ef26687bd7ea"
+      },
+      {
+        "path": "skills\\piano-engraving\\references\\judgment-details.md",
+        "sha256": "c1aed769e7488249e300e198e65df9dcb411650f7f71d7e92365bc1ca81e783d"
+      },
+      {
+        "path": "skills\\piano-engraving\\references\\native-review.md",
+        "sha256": "5c57952b58d42a4b8c61360dc6f25d797ba5a149acee7bd83fb050c43a193a2d"
+      }
+    ]
   }
 }

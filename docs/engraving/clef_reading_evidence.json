@@ -1,0 +1,509 @@
+{
+  "date": "2026-10-20",
+  "topic": "Clef changes, phrase contour and visible reading state",
+  "reading": {
+    "gould_printed_full_pages": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      43,
+      303,
+      304
+    ],
+    "book_pdf_page_offset": 20,
+    "book_annotation_icons_suppressed_for_reading_only": true,
+    "official_pages": {
+      "A006": [
+        2,
+        3
+      ],
+      "A067": [
+        1,
+        2
+      ],
+      "A146": [
+        8
+      ]
+    },
+    "user_pdf_pages": [
+      2,
+      3,
+      8
+    ],
+    "historical_corpus_counts_modified": false
+  },
+  "user_native_clefs_read": [
+    {
+      "staff_id": "4",
+      "measure_ordinal": 41,
+      "voice_ordinal": 1,
+      "event_index": 6,
+      "clef_xml": "<Clef>\n            <concertClefType>G</concertClefType>\n            <transposingClefType>G</transposingClefType>\n            </Clef>\n          ",
+      "previous_tag": "Rest",
+      "next_tag": "BarLine"
+    },
+    {
+      "staff_id": "4",
+      "measure_ordinal": 49,
+      "voice_ordinal": 1,
+      "event_index": 10,
+      "clef_xml": "<Clef>\n            <concertClefType>F</concertClefType>\n            <transposingClefType>F</transposingClefType>\n            </Clef>\n          ",
+      "previous_tag": "Chord",
+      "next_tag": null
+    },
+    {
+      "staff_id": "4",
+      "measure_ordinal": 53,
+      "voice_ordinal": 1,
+      "event_index": 6,
+      "clef_xml": "<Clef>\n            <concertClefType>G</concertClefType>\n            <transposingClefType>G</transposingClefType>\n            </Clef>\n          ",
+      "previous_tag": "Chord",
+      "next_tag": "Beam"
+    },
+    {
+      "staff_id": "4",
+      "measure_ordinal": 55,
+      "voice_ordinal": 1,
+      "event_index": 8,
+      "clef_xml": "<Clef>\n            <concertClefType>F</concertClefType>\n            <transposingClefType>F</transposingClefType>\n            </Clef>\n          ",
+      "previous_tag": "Chord",
+      "next_tag": null
+    },
+    {
+      "staff_id": "4",
+      "measure_ordinal": 148,
+      "voice_ordinal": 1,
+      "event_index": 14,
+      "clef_xml": "<Clef>\n            <concertClefType>G</concertClefType>\n            <transposingClefType>G</transposingClefType>\n            </Clef>\n          ",
+      "previous_tag": "Chord",
+      "next_tag": "Tuplet"
+    }
+  ],
+  "protected_sources_after_reading": [
+    {
+      "id": "A006",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\5 Variations about the theme 「lit」 - A Silent Voice - Soundtrack.pdf",
+      "sha256": "e515b90def855e9f9cd0772dd2d603350ad387f519e71b23c302416eadf35819",
+      "baseline_match": true
+    },
+    {
+      "id": "A067",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf",
+      "sha256": "bcfab2581ff47a583bef42e7d6e04f84417c7663a028f7f4f54966805165ccab",
+      "baseline_match": true
+    },
+    {
+      "id": "A146",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Zen Zen Zense - Your Name. - Insert Song.pdf",
+      "sha256": "d173123d0d3425b97522676435548dbb046a72f9285c673867b9ffb062eaf424",
+      "baseline_match": true
+    },
+    {
+      "id": "user-pdf",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "baseline_match": true
+    },
+    {
+      "id": "user-mscz",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "baseline_match": true
+    },
+    {
+      "id": "gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "baseline_match": true
+    }
+  ],
+  "native_verification": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "variants": {
+      "boundaries": {
+        "positive_midi_attacks": 35,
+        "whole_midi_bytes_equal_baseline": true,
+        "source_xml_except_clef_nodes_equal": true,
+        "musicxml_notes_rests_timing_staff_voice_beams_equal": true,
+        "source_clef_count": 4,
+        "musicxml_clefs": [
+          {
+            "measure": "1",
+            "offset_quarters": "0",
+            "number": "1",
+            "sign": "G",
+            "line": "2",
+            "print_object": null
+          },
+          {
+            "measure": "1",
+            "offset_quarters": "0",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          },
+          {
+            "measure": "1",
+            "offset_quarters": "2",
+            "number": "2",
+            "sign": "G",
+            "line": "2",
+            "print_object": null
+          },
+          {
+            "measure": "3",
+            "offset_quarters": "0",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          }
+        ],
+        "svg_classes": {
+          "MeasureNumber": 2,
+          "BarLine": 14,
+          "StaffLines": 20,
+          "LedgerLine": 11,
+          "Stem": 27,
+          "Hook": 1,
+          "Note": 35,
+          "Clef": 6,
+          "TimeSig": 4,
+          "Rest": 1,
+          "Beam": 11,
+          "NoteDot": 12,
+          "Bracket": 2
+        },
+        "png_dimensions": [
+          1488,
+          2105
+        ],
+        "png_pages": 1,
+        "midi_sha256": "0a24ea2e4f932e57039ca0d15fa2bfd38a96da3c6421c1ef2440b3765d7a1cc3"
+      },
+      "late-in-group": {
+        "positive_midi_attacks": 35,
+        "whole_midi_bytes_equal_baseline": true,
+        "source_xml_except_clef_nodes_equal": true,
+        "musicxml_notes_rests_timing_staff_voice_beams_equal": true,
+        "source_clef_count": 4,
+        "musicxml_clefs": [
+          {
+            "measure": "1",
+            "offset_quarters": "0",
+            "number": "1",
+            "sign": "G",
+            "line": "2",
+            "print_object": null
+          },
+          {
+            "measure": "1",
+            "offset_quarters": "0",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          },
+          {
+            "measure": "1",
+            "offset_quarters": "5/2",
+            "number": "2",
+            "sign": "G",
+            "line": "2",
+            "print_object": null
+          },
+          {
+            "measure": "3",
+            "offset_quarters": "0",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          }
+        ],
+        "svg_classes": {
+          "MeasureNumber": 2,
+          "BarLine": 14,
+          "StaffLines": 20,
+          "LedgerLine": 13,
+          "Stem": 27,
+          "Hook": 1,
+          "Note": 35,
+          "Clef": 6,
+          "TimeSig": 4,
+          "Rest": 1,
+          "Beam": 11,
+          "NoteDot": 12,
+          "Bracket": 2
+        },
+        "png_dimensions": [
+          1488,
+          2105
+        ],
+        "png_pages": 1,
+        "midi_sha256": "0a24ea2e4f932e57039ca0d15fa2bfd38a96da3c6421c1ef2440b3765d7a1cc3"
+      },
+      "frequent": {
+        "positive_midi_attacks": 35,
+        "whole_midi_bytes_equal_baseline": true,
+        "source_xml_except_clef_nodes_equal": true,
+        "musicxml_notes_rests_timing_staff_voice_beams_equal": true,
+        "source_clef_count": 8,
+        "musicxml_clefs": [
+          {
+            "measure": "1",
+            "offset_quarters": "0",
+            "number": "1",
+            "sign": "G",
+            "line": "2",
+            "print_object": null
+          },
+          {
+            "measure": "1",
+            "offset_quarters": "0",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          },
+          {
+            "measure": "1",
+            "offset_quarters": "2",
+            "number": "2",
+            "sign": "G",
+            "line": "2",
+            "print_object": null
+          },
+          {
+            "measure": "2",
+            "offset_quarters": "5/2",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          },
+          {
+            "measure": "3",
+            "offset_quarters": "2",
+            "number": "2",
+            "sign": "G",
+            "line": "2",
+            "print_object": null
+          },
+          {
+            "measure": "3",
+            "offset_quarters": "5/2",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          },
+          {
+            "measure": "4",
+            "offset_quarters": "1/2",
+            "number": "2",
+            "sign": "G",
+            "line": "2",
+            "print_object": null
+          },
+          {
+            "measure": "4",
+            "offset_quarters": "2",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          }
+        ],
+        "svg_classes": {
+          "MeasureNumber": 2,
+          "BarLine": 14,
+          "StaffLines": 20,
+          "LedgerLine": 2,
+          "Stem": 27,
+          "Hook": 1,
+          "Note": 35,
+          "Clef": 10,
+          "TimeSig": 4,
+          "Rest": 1,
+          "Beam": 11,
+          "NoteDot": 12,
+          "Bracket": 2
+        },
+        "png_dimensions": [
+          1488,
+          2105
+        ],
+        "png_pages": 1,
+        "midi_sha256": "0a24ea2e4f932e57039ca0d15fa2bfd38a96da3c6421c1ef2440b3765d7a1cc3"
+      },
+      "hidden-change": {
+        "positive_midi_attacks": 35,
+        "whole_midi_bytes_equal_baseline": true,
+        "source_xml_except_clef_nodes_equal": true,
+        "musicxml_notes_rests_timing_staff_voice_beams_equal": true,
+        "source_clef_count": 4,
+        "musicxml_clefs": [
+          {
+            "measure": "1",
+            "offset_quarters": "0",
+            "number": "1",
+            "sign": "G",
+            "line": "2",
+            "print_object": null
+          },
+          {
+            "measure": "1",
+            "offset_quarters": "0",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          },
+          {
+            "measure": "1",
+            "offset_quarters": "2",
+            "number": "2",
+            "sign": "G",
+            "line": "2",
+            "print_object": "no"
+          },
+          {
+            "measure": "3",
+            "offset_quarters": "0",
+            "number": "2",
+            "sign": "F",
+            "line": "4",
+            "print_object": null
+          }
+        ],
+        "svg_classes": {
+          "MeasureNumber": 2,
+          "BarLine": 14,
+          "StaffLines": 20,
+          "LedgerLine": 11,
+          "Stem": 27,
+          "Hook": 1,
+          "Note": 35,
+          "Clef": 5,
+          "TimeSig": 4,
+          "Rest": 1,
+          "Beam": 11,
+          "NoteDot": 12,
+          "Bracket": 2
+        },
+        "png_dimensions": [
+          1488,
+          2105
+        ],
+        "png_pages": 1,
+        "midi_sha256": "0a24ea2e4f932e57039ca0d15fa2bfd38a96da3c6421c1ef2440b3765d7a1cc3"
+      }
+    },
+    "positive_note_count": 35,
+    "independent_expected_music_36_rows_including_rest": true,
+    "actual_systems_measures": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "native_reload": {
+      "musicxml_note_rows_equal": true,
+      "whole_midi_bytes_equal": true,
+      "svg_except_title_equal": true,
+      "raw_rgba_dimensions_and_bytes_equal": true,
+      "musicxml_clef_order_staff_sign_visibility_equal": true
+    },
+    "musicxml_reimport_tested": false,
+    "user_aesthetic_adoption": false,
+    "independent_midi_onsets_and_pitches_match_recipe_all_variants": true
+  },
+  "first_attempt_rejected": {
+    "directory": "tmp\\engraving\\clef-changes-2026-10-20\\native",
+    "causes": [
+      "Hand-authored dots after durationType displayed a dot but retained a half-note actual duration; host supplied rests.",
+      "LayoutBreak was incorrectly placed inside voice; intended 2+2 layout did not occur.",
+      "Boundary clef moved to prior measure end in corrected native serialization."
+    ],
+    "not_evidence_of_host_engraving_failure": true,
+    "corrected_outputs_directory": "tmp\\engraving\\clef-changes-2026-10-20\\native-v2",
+    "independent_expected_music_and_layout_added_before_acceptance": true
+  },
+  "images": {
+    "native_png_dpi": 180,
+    "full_page_size": [
+      1488,
+      2105
+    ],
+    "white_composite": true,
+    "common_crop_pixels": [
+      76,
+      122,
+      1412,
+      733
+    ],
+    "geometry_moved_or_scaled": false
+  },
+  "public_original_artifacts": [
+    {
+      "path": "docs\\engraving\\fixtures\\clef-boundaries.mscx",
+      "sha256": "212d9b06602dd1dca1ce326628962d87acba997ac74f8819edce19b9ab37bcdd"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\clef-boundaries.png",
+      "sha256": "c8ebe707a59c7dafc436fc6d017b652b63983d7f23feacf09a5b611f4cc06d2c"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\clef-late-in-group-rejected.mscx",
+      "sha256": "8fd6ad78e7cbd1acd2ec93bbd73309c059f69fa150037f0b07b31f40c7de6c54"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\clef-late-in-group-rejected.png",
+      "sha256": "582cdac877a93f8c2b59d502edd72ff99158aa77e19cec0452f2f982ddf5357a"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\clef-frequent-rejected.mscx",
+      "sha256": "b70dd65483cf0aab84fb7e6f7eda43da96bf2f48a8076117d6224a273ab86947"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\clef-frequent-rejected.png",
+      "sha256": "4c8fb8866f7d412ee716051177e935e6ec5a28b07aecf67eb6ba86c9337556b5"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\clef-hidden-change-rejected.mscx",
+      "sha256": "407270edc980800969d9837c56268d66f646ff98f12e568164a4a09746d86634"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\clef-hidden-change-rejected.png",
+      "sha256": "ff451bcc68e3a9b16459dee2fd2f9f45f44900ef054e86dee2be2359505e9ec3"
+    }
+  ],
+  "native_export_configs": "Isolated per variant and format; v2 build reused the first attempt’s isolated config paths; reload used fresh v2 paths. No GUI or user config used.",
+  "read_only_source_code": [
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\clef.cpp",
+      "sha256": "3bf290e548cbc3ed25fc342bf2d9badc1e556089036d05243e596a19c249101d"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\style.cpp",
+      "sha256": "605bb4d4849e6925fdea219732710cbfb6aefcd8b09347cd188cf58a88ca97b7"
+    }
+  ],
+  "limits": [
+    "Read-only official PDFs do not prove internal voices or publisher intent.",
+    "No actual sound, print or user aesthetic adoption.",
+    "No MusicXML reimport; exported clef preservation is not an exchange roundtrip claim.",
+    "No general optimal clef algorithm or adaptation implementation."
+  ],
+  "software_adaptation": false,
+  "global_installation": false
+}

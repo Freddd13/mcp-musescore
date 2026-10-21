@@ -183,3 +183,14 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [全部共头](unison-dots-all-shared.mscx)／[图](unison-dots-all-shared.png)：再覆盖m1／4。本例不推荐将孤立交会也合头，不是所有共头的错误模板。
 
 三版原生XML仅差上述headType节点；事件、附点、voice／谱表等与当前MusicXML对应，预期的显式normal／filled头型标签单独核对，其余非布局内容相同。MIDI逐字节相同，31条SVG Note绘制命令对应31／29／27个独立墨迹位置；选择性版保存重载保持。PNG只合白底、同裁框保留完整两手。原生导出方式同本页命令，使用独立配置及输出；这些检查不证明三版一样易读。完整理由和范围见[同音附点专题](../UNISON_DOTS_STUDY.md)及[证据](../unison_dots_evidence.json)。
+
+## 谱号位置、轮廓与必要的可见参照
+
+以下均为原创四小节3/4钢琴练习，CC0，无参考／用户音乐摘录；固定Leland／Leland Text、1.57mm sp，2+2分行。PNG由固定宿主180dpi原生输出合白底，四图统一裁框`(76,122,1412,733)`，保留全部两手及两系统，没有移动或缩放符号。
+
+- [边界换号保留版](clef-boundaries.mscx)／[图](clef-boundaries.png)：m1休止后新组前换G，m2末预告F，下行直接F；m4短暂加线保留。
+- [组中延后拒绝例](clef-late-in-group-rejected.mscx)／[图](clef-late-in-group-rejected.png)：只将m1换号延后一个八分，切开原可完整识别的二音组。
+- [单音阈值频繁换号拒绝例](clef-frequent-rejected.mscx)／[图](clef-frequent-rejected.png)：少了加线，却反复改变音程参照；不代表所有频繁换号都错。
+- [隐藏必要换号拒绝例](clef-hidden-change-rejected.mscx)／[图](clef-hidden-change-rejected.png)：后续音头仍依隐藏G定位，读者却只看到F；相同播放不能保护识谱。
+
+四版XML除Clef节点外相同，实际MusicXML36条音休止及35个MIDI起音的时间／音高另与独立配方一致，完整MIDI相同。保留版原生保存重载的图形、原始RGBA、音乐、谱号和MIDI保持；没有MusicXML导回、试听或用户采用。首版输入构造错误保留在私有目录，未发布为有效练习或软件缺陷。具体理由、原生CLI、保护范围见[CLEF_READING](../CLEF_READING.md)及[证据](../clef_reading_evidence.json)。

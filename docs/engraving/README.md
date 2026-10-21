@@ -19,13 +19,15 @@
 | 附点、连音、震音与装饰 | [记谱细节](NOTATION_DETAILS.md)、[连音](TUPLET_READING.md)、[颤音](TRILL_READING.md) |
 | 滑奏与跨表动作 | [滑奏](GLISSANDO_READING.md)、[跨表琶音／共同梁](CROSS_STAFF_STUDY.md) |
 | 换拍、变速、延长和自由等待 | [拍与速度](METRE_TEMPO_READING.md)、[自由段](FREE_PASSAGE_READING.md) |
-| 八度、加线、范围与空表 | [八度阅读](OCTAVE_READING.md)、[同表原位材料的反例](INTEGRATED_READING_NINELIE.md) |
+| 谱号、八度、加线、范围与空表 | [换谱号](CLEF_READING.md)、[八度阅读](OCTAVE_READING.md)、[同表原位材料的反例](INTEGRATED_READING_NINELIE.md) |
 | 反复、跳转、提示变音与状态恢复 | [导航](REPEAT_NAVIGATION.md)、[变音实际来路](ACCIDENTAL_CONTEXT.md) |
 | 分行、页面密度与翻页 | [行页](PAGE_FLOW_STUDY.md)、[空间层级](PAGE_HIERARCHY.md)、[外部实践](EXTERNAL_PRACTICE.md) |
 | 查规范、原谱和历史案例 | [来源](SOURCES.md)、[Gould已核章节](BEHIND_BARS_NOTES.md)、[资源落实](RESOURCE_PLAN_MAPPING.md)、[官谱索引](corpus/INDEX.md)、[E案例](CASES.md)及[扩大案例](CASES_EXPANDED.md) |
 | 查当前能力、输入与验证边界 | [实现研究](IMPLEMENTATION.md)、[输入历史](INPUT_HISTORY.md)、[skill试用记录](SKILL_REVIEW.md)、[原创原生例](fixtures/README.md) |
 
 ## 最近形成的可迁移判断
+
+[换谱号研究](CLEF_READING.md)解释了保持音程轮廓与减少加线的冲突：休止后新材料、乐句、拍线和小节起点各有放置条件；《lit》的叠层使局部频繁换号有理由。原创四小节保留边界换号，拒绝按单音阈值频繁切换、组中延后和隐藏谱号；四版同35次起音，读法仍不同。已核独立音乐配方和保留版原生重载，不为用户工程改谱或开发适配。
 
 [Kakyoin’s Theme整页试读](INTEGRATED_READING_KAKYOIN.md)在未提供预期答案的独立分析中，调用已有知识解释了慢声部跨表、双手接替、行中段首和不同层的八度范围。主agent回看原页与Gould后保留主要判断；没有为整齐给叠层上部随手加8va。这是当前skill的只读行为样本，不是用户审美认可、原生优化完成或全面能力证明。
 

@@ -28,6 +28,7 @@ python <skill目录>/scripts/engraving_library.py --topic spacing
 | 力度、发夹、断奏、重音、表情文字 | `markings` | 作用层与时间、动态通道与贴音距离；分别判断省写条件 |
 | 颤音、辅助音、装饰小音与收尾 | `ornaments` | 起音／辅助音／收尾、持续／重奏、波线与tie及续行；其它装饰按来源补查；[装饰提醒](references/judgment-details.md#ornaments) |
 | 滑奏、特殊端点、跨行斜线 | `glissandi` | 动作与声部引导、键集合与线形、数值音高与可见含义；原生／交换分验 |
+| 换谱号、加线与音程轮廓 | `clefs` | 连续材料、进入与休止、预告和有效谱号；[换号提醒](references/judgment-details.md#clefs) |
 | 八度线、音区轮廓、续行与loco | `octaves` | 作用谱表／目标音、范围与线尾、加线取舍及空表的连带效果；[八度提醒](references/judgment-details.md#octaves) |
 | 反复、结尾房子、D.S.／Coda／Fine | `navigation` | 每种实际来路、目标／出口／续接、落点留白与状态恢复；显示和展开路线分查；[导航提醒](references/judgment-details.md#navigation) |
 | 声部、手、跨表梁／休止、踏板、指法 | `piano`、`cross-staff` | 音乐角色不等于voice容器；共同梁、短干与拍内休止另判；[跨表](references/judgment-details.md#cross-staff)、[持音](references/judgment-details.md#sustain)、[自由段](references/judgment-details.md#free-passage) |
