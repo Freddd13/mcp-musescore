@@ -1,0 +1,455 @@
+{
+  "date": "2026-10-21",
+  "base_commit": "f17376ea735d73d26f713ecc14fd9553253b938b",
+  "purpose": "Learn complete-score piano engraving relationships, not generate a default style or develop software adaptation.",
+  "selection": {
+    "criteria": "4-6 pages, some historical overview-only pages, ID not named in top-level topical Markdown; sort detail proportion, detail count, ID.",
+    "source": {
+      "id": "A011",
+      "relative_path": "Akuma no Ko - Attack on Titan - The Final Season Part 2 - Ending Theme.pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Akuma no Ko - Attack on Titan - The Final Season Part 2 - Ending Theme.pdf",
+      "sha256": "b27c7c0adf8d4ef2ce5cacdce9a0232b196986d86a1e97f4bed3d5b275834cdc",
+      "bytes": 164758,
+      "pages": 6,
+      "metadata": {
+        "/CreationDate": "D:20221010191631",
+        "/Creator": "PDFium",
+        "/Producer": "PDFium"
+      },
+      "page_sizes_pt": [
+        [
+          595.22,
+          842.0
+        ]
+      ],
+      "inventory_status": "readable"
+    },
+    "historical_review": {
+      "id": "A011",
+      "source_sha256": "b27c7c0adf8d4ef2ce5cacdce9a0232b196986d86a1e97f4bed3d5b275834cdc",
+      "date": "2026-10-18",
+      "all_pages_screened": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "full_page_detail_viewed": [
+        3,
+        6
+      ],
+      "overview_only_pages": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "note": "READING_003.md",
+      "topics": [
+        "八度线局部绕让",
+        "状态终点与层次"
+      ],
+      "analysis_status": "documented_context_and_cases",
+      "limits": [
+        "Not a note-by-note musical proofreading.",
+        "No original editable project, author workflow or software voice IDs inferred from PDF.",
+        "No improved layout or user aesthetic acceptance claimed."
+      ]
+    },
+    "same_parent_previously_screened_corpus": true,
+    "independent_or_blind_or_representative_test": false
+  },
+  "actual_visual_reading": {
+    "full_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "system_regions": [
+      "p1-intro",
+      "p1-A",
+      "p2-B-close",
+      "p2-transition",
+      "p2-C",
+      "p3-D-E",
+      "p4-F",
+      "p4-G",
+      "p4-transition",
+      "p5-H",
+      "p6-rit-J",
+      "p6-K-ending"
+    ],
+    "additional_actual_details": [
+      "C-first-half-detail.png",
+      "C-run-end-beams.png",
+      "p2-system2-right-edge.png",
+      "p2-system3-left-continuation.png"
+    ],
+    "first_pass_recorded_before_old_prose_note_was_opened": true,
+    "gould_printed_full_image_revisits": [
+      307,
+      308,
+      310,
+      311,
+      489,
+      490
+    ],
+    "gould_pdf_page_offset": 20,
+    "new_book_page_count_claim": false,
+    "historical_corpus_counts_modified": false
+  },
+  "decisions": [
+    {
+      "location": "p1 introduction / A / p3 E / p6 J-K",
+      "status": "visible relationships and reading inference",
+      "lesson": "Follow the slow theme as it moves between staves and layers; hand, staff and voice are different. Do not turn an empty staff into proof of an idle hand."
+    },
+    {
+      "location": "p2 C systems 4-6 / p5 H systems 1-3",
+      "status": "visible figures and measured PDF geometry",
+      "lesson": "Corresponding recurring material keeps the same internal barline locations and pair gaps. Adjacent rows are not one uniform grid."
+    },
+    {
+      "location": "C first bar, fast layer first two quarter beats",
+      "status": "notation read from enlarged image, exact arithmetic; not source-object or MIDI evidence",
+      "lesson": "A thirty-second rest plus thirteen thirty-seconds and a final sixteenth. One visible shared head and coincident glyph records must not become guessed extra attacks."
+    },
+    {
+      "location": "p4 F first two systems",
+      "status": "visible material and measured coincident internal barlines, interpreted alongside Gould 489",
+      "lesson": "Line-finding risk needs complete row silhouettes and entry differences; neither coordinate equality nor a general rule proves a necessary edit here."
+    },
+    {
+      "location": "p4 G / p3 E / p6 ending",
+      "status": "visible cues with unresolved source scope",
+      "lesson": "Separate dotted voice-leading, slurs, ties, octave scope, pedal and tempo. Line geometry alone does not identify exact internal voice or playback."
+    },
+    {
+      "location": "p2 system 2 to 3",
+      "status": "visible open line end, cross-line tie, notation duration and vector check",
+      "lesson": "A 4/4 bar is split after two quarter beats. Both rows contain 2.5 bar equivalents; visible spans are not separate source measures, and a line break does not reset accidental or counting state. Native capability untested."
+    }
+  ],
+  "layout": {
+    "method": "pdfplumber full-width straight staff lines and full-pair vertical barline strokes, checked against complete images. Frame measures are not ink clearances or original style settings.",
+    "system_counts": [
+      5,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "visible_bar_spans_reviewed_by_system": [
+      [
+        4,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    ],
+    "initial_stroke_heuristic_not_used_as_semantic_bar_count": true,
+    "correction": "Merge double-bar strokes; exclude courtesy key/time-signature area after the last music bar. Counts are visible bar spans, not source measure IDs.",
+    "C_H_corresponding_lines": [
+      {
+        "C_pdf_page": 2,
+        "C_system": 4,
+        "H_pdf_page": 5,
+        "H_system": 1,
+        "middle_barline_x_pt": 308.592,
+        "inside_pair_gap_pt": 38.25,
+        "inside_pair_gap_sp": 8.994708994708999
+      },
+      {
+        "C_pdf_page": 2,
+        "C_system": 5,
+        "H_pdf_page": 5,
+        "H_system": 2,
+        "middle_barline_x_pt": 334.8,
+        "inside_pair_gap_pt": 40.37399999999991,
+        "inside_pair_gap_sp": 9.50423728813553
+      },
+      {
+        "C_pdf_page": 2,
+        "C_system": 6,
+        "H_pdf_page": 5,
+        "H_system": 3,
+        "middle_barline_x_pt": 312.3,
+        "inside_pair_gap_pt": 36.125999999999976,
+        "inside_pair_gap_sp": 8.504237288135608
+      }
+    ],
+    "C_H_pair_gap_numeric_comparison_tolerance_pt": 1e-09,
+    "printed_staff_height_mm_range": [
+      5.994399999999986,
+      6.000750000000036
+    ],
+    "inside_pair_gap_sp_range": [
+      5.993650793650787,
+      9.50423728813553
+    ],
+    "between_system_line_gap_pt_range": [
+      46.403999999999996,
+      77.02199999999999
+    ],
+    "F_first_two_systems_internal_barlines_equal": true,
+    "F_first_two_systems_internal_barlines_x_pt": [
+      228.366,
+      393.588
+    ],
+    "metrics_are_not_aesthetic_scores_or_user_presets": true,
+    "incomplete_bar_fragments": {
+      "pdf_page": 2,
+      "previous_system": 2,
+      "continuation_system": 3,
+      "meter": "4/4",
+      "split_after_quarter_units": 2,
+      "first_fragment_reading": "dotted quarter plus two sixteenths = two quarter beats",
+      "continuation_completes_remaining_quarter_units": 2,
+      "previous_system_has_no_right_edge_barline": true,
+      "first_continuation_internal_barline_x_pt": 200.214,
+      "cross_line_ties_visually_checked": true,
+      "both_systems_visible_musical_capacity": "2.5 complete-bar equivalents",
+      "visible_spans_are_not_distinct_logical_measures": true,
+      "native_within_measure_break_capability_tested": false
+    }
+  },
+  "C_fast_layer_measurement": {
+    "read_from_image": "one thirty-second rest, thirteen thirty-second notes, final sixteenth note = two quarter-note beats; the final inner beam stops before the final stem.",
+    "manually_identified_14_visible_fast_heads": [
+      {
+        "pdf_x": 94.34252548217773,
+        "top_y": 435.03515625,
+        "glyph_width_pt": 5.229057312011719,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 102.31653213500977,
+        "top_y": 437.15924072265625,
+        "glyph_width_pt": 5.229057312011719,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 110.4525260925293,
+        "top_y": 439.28314208984375,
+        "glyph_width_pt": 5.229057312011719,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 118.4265251159668,
+        "top_y": 441.4251403808594,
+        "glyph_width_pt": 5.229057312011719,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 126.58053588867188,
+        "top_y": 443.5491638183594,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 134.53652954101562,
+        "top_y": 445.67315673828125,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 142.51052856445312,
+        "top_y": 447.7972412109375,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 152.7885284423828,
+        "top_y": 449.9208679199219,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 2
+      },
+      {
+        "pdf_x": 160.74453735351562,
+        "top_y": 452.045166015625,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 168.89852905273438,
+        "top_y": 454.1691589355469,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 176.87252807617188,
+        "top_y": 456.29315185546875,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 185.00852966308594,
+        "top_y": 458.4172668457031,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 192.98252868652344,
+        "top_y": 460.5411682128906,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      },
+      {
+        "pdf_x": 200.95652770996094,
+        "top_y": 462.6651611328125,
+        "glyph_width_pt": 5.22906494140625,
+        "glyph_height_pt": 4.7403564453125,
+        "coincident_text_glyph_records": 1
+      }
+    ],
+    "all_13_adjacent_head_centre_distances_pt": [
+      7.974006652832031,
+      8.135993957519531,
+      7.9739990234375,
+      8.154010772705078,
+      7.95599365234375,
+      7.9739990234375,
+      10.277999877929688,
+      7.9560089111328125,
+      8.15399169921875,
+      7.9739990234375,
+      8.136001586914062,
+      7.9739990234375,
+      7.9739990234375
+    ],
+    "ordinary_gaps_range_pt": [
+      7.95599365234375,
+      8.154010772705078
+    ],
+    "ordinary_gap_median_pt": 7.9739990234375,
+    "between_beam_groups_gap_pt": 10.277999877929688,
+    "larger_gap_position": "new short group and an upper slower octave event; one visible head has up/down roles and coincident glyph records.",
+    "font_character_centres_not_logical_voice_or_midi_data": true,
+    "no_unique_software_or_hand_adjustment_cause_proven": true
+  },
+  "source_metadata_not_used_to_infer_authoring_application_or_font": true,
+  "protected_sources_after_reading": [
+    {
+      "id": "A011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Akuma no Ko - Attack on Titan - The Final Season Part 2 - Ending Theme.pdf",
+      "sha256": "b27c7c0adf8d4ef2ce5cacdce9a0232b196986d86a1e97f4bed3d5b275834cdc",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "user-pdf",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "user-mscz",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "recorded_baseline_match": true
+    }
+  ],
+  "private_reproduction_directory": "tmp/engraving/whole-score-b-2026-10-21",
+  "boundaries": {
+    "originals_edited": false,
+    "copyright_images_fonts_or_book_text_committed": false,
+    "original_editable_project_available": false,
+    "note_by_note_full_score_proofreading": false,
+    "native_layout_candidate_or_score_reconstruction": false,
+    "midi_audio_print_or_performance_validation": false,
+    "new_user_preference_or_adoption": false,
+    "new_independent_agent_test": false,
+    "musescore_mcp_plugin_core_adaptation": false,
+    "global_skill_installation": false
+  },
+  "publication_validation": {
+    "date": "2026-10-21",
+    "targeted_routes": [
+      {
+        "topic": "piano",
+        "case_reached_via": "docs/engraving/PIANO_TEXTURE_STUDY.md"
+      },
+      {
+        "topic": "layout",
+        "case_reached_via": "docs/engraving/PAGE_FLOW_STUDY.md"
+      }
+    ],
+    "case_linked_from_common_entry": true,
+    "locator_code_and_20_topics_unchanged": true,
+    "not_all_20_topics_retested": true,
+    "changed_markdown_local_links_checked": 287,
+    "supporting_anchor_ids_remain_unique": true,
+    "public_measurements_match_reviewed_private_records": true,
+    "not_independent_behavior_or_native_layout_or_user_aesthetic_validation": true,
+    "changed_markdown_files_checked": 11,
+    "skill_format_result": "Skill is valid!",
+    "protected_source_hashes_rechecked": 4,
+    "main_skill_sha256": "70464eb4618fc83768c87724450d06e009e78a0b1bd4f583208294844aa45b09",
+    "judgment_reference_sha256": "bf04a118daf164a1fc4e4a6f73372cdcfc100cce69df6ed019bed6e8eeb5fd8b"
+  }
+}
