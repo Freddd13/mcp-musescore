@@ -52,3 +52,5 @@ Gould主文件新增完整图页p39–43、87–88、489–490；5份官谱为Ag
 再次核查[Dorico part nine](https://blog.dorico.com/2014/12/development-diary-part-nine/)、[part 11](https://blog.dorico.com/2015/06/development-diary-part-11/)、[6.2间距层次](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_c.html)、[跨谱表符干光学选项](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_beaming/notation_reference_beaming_cross_staff_optical_changing_to_t.html)（检索正文可读，直接打开cache miss）与[LilyPond光学间距](https://lilypond.org/doc/v2.25/Documentation/essay/optical-spacing)。旧设计/竞争比较与当前文档区分，本次未运行Dorico作同曲测试。
 
 只读本机 `libmscore/measure.cpp`、`segment.cpp`、`shape.cpp`、`layout.cpp`、`style.cpp`，源码定位见专题；自制fixture在 [fixtures](fixtures/README.md)，原生SVG标记MuseScore 3.7.0。源码HEAD与安装二进制的精确对应未确认，不将其称为该源码提交的完整构建回归。原始文件保护和无改善候选状态均有记录。
+
+2026-10-22补[LilyPond 2.26间距模型](SPACING_MODELS.md)：本机缓存包含五页官方说明／内部参考、18对谱例与生成音乐片段，另重读Dorico Pro 6.2选项。源码对比揭示音区、两个光学属性、ragged-right及显式取消占宽等比较条件；A102 p6–8用于回查阅读任务，所有原图仅作私有研究。未读取LilyPond引擎构建源码或运行其二进制。
