@@ -15,7 +15,7 @@
 | 拍组、切分、梁层级与干长 | [节拍阅读](RHYTHM_READING.md)、[梁干](BEAM_STEM_STUDY.md)、[跨表梁与休止](CROSS_STAFF_STUDY.md) |
 | 快慢层、手与谱表不一致 | [钢琴织体](PIANO_TEXTURE_STUDY.md)、[Akuma no Ko整首](INTEGRATED_READING_AKUMA.md)、[同音附点](UNISON_DOTS_STUDY.md)、[二度归属](SECONDS_OWNERSHIP.md) |
 | tie／slur与持续、续行或疑似断口 | [弧线](CURVES_STUDY.md)、[持续与休止](SUSTAIN_AND_RESTS.md)、[持音提示](SUSTAIN_CONTINUATION.md)、[输出核查](OUTPUT_READING.md) |
-| 力度、奏法、文字与指法归属 | [力度与奏法](DYNAMICS_ARTICULATION.md)、[指法](FINGERING_STUDY.md) |
+| 力度、奏法、文字与指法归属 | [力度与奏法](DYNAMICS_ARTICULATION.md)、[Connect的省写与分层](INTEGRATED_READING_CONNECT.md)、[指法](FINGERING_STUDY.md) |
 | 符头、休止、附点、连音与装饰 | [符号阅读](SYMBOL_READING.md)、[记谱细节](NOTATION_DETAILS.md)、[连音](TUPLET_READING.md)、[颤音](TRILL_READING.md) |
 | 滑奏与跨表动作 | [滑奏](GLISSANDO_READING.md)、[跨表琶音／共同梁](CROSS_STAFF_STUDY.md) |
 | 换拍、变速、延长和自由等待 | [拍与速度](METRE_TEMPO_READING.md)、[自由段](FREE_PASSAGE_READING.md) |
