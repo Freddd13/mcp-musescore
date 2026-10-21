@@ -25,7 +25,7 @@ python <skill目录>/scripts/engraving_library.py --topic spacing
 | 速度等式、变速／恢复、延长与断开 | `tempo` | 新旧单位与体例、实际生效点、严格同步与自由等待分别读；[速度](references/judgment-details.md#tempo)／[自由段](references/judgment-details.md#free-passage) |
 | 梁坡、符干、线重、加线 | `beams` | 靠梁音头、梁层级、干长及斜向厚度，已有自动处理 |
 | tie／slur、端点、续弧、文字通道 | `curves` | 逻辑连接与绘制片段、归属、允许交叉及样式缺省；先按问题查[作品定义](references/judgment-details.md#interpretation)、[持音](references/judgment-details.md#sustain)或[输出](references/judgment-details.md#output) |
-| 力度、发夹、断奏、重音、表情文字 | `markings` | 作用层与时间、动态通道与贴音距离；分别判断省写条件 |
+| 力度、发夹、断奏、重音、表情文字 | `markings` | 作用层与时间、动态通道与贴音距离；分别判断省写条件；[力度提醒](references/judgment-details.md#markings) |
 | 颤音、辅助音、装饰小音与收尾 | `ornaments` | 起音／辅助音／收尾、持续／重奏、波线与tie及续行；其它装饰按来源补查；[装饰提醒](references/judgment-details.md#ornaments) |
 | 滑奏、特殊端点、跨行斜线 | `glissandi` | 动作与声部引导、键集合与线形、数值音高与可见含义；原生／交换分验 |
 | 换谱号、加线与音程轮廓 | `clefs` | 连续材料、进入与休止、预告和有效谱号；[换号提醒](references/judgment-details.md#clefs) |

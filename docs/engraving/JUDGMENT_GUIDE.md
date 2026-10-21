@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-22：[unlasting](INTEGRATED_READING_UNLASTING.md)把应保留的独立力度入口与应比较的弧穿梁分开；长文字先读完整短语及延续，词的X坐标不自动是新音乐事件。
+
 2026-10-22：[间距模型](SPACING_MODELS.md)先区分稳定跟读、光学均衡与线性时间尺；源码里的音区、占宽保护及ragged-right也决定比较是否成立。模式名或更小头距方差不能单独证明改进。
 
 2026-10-22整曲续读：[The Rumbling／unravel](INTEGRATED_READING_RUMBLING_UNRAVEL.md)先核实际时值与休止份数，再看头距；含休止连音先查梁是否覆盖全组，不能按Rest标签决定括号。重复材料可稳定布局，邻行仍各按内容预算。

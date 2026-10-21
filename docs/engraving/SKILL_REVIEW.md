@@ -117,3 +117,9 @@ skill能够把阅读任务、相关规范、具体例子和候选保护连起来
 [MPA对照](MPA_READING.md)补完整图版，skill正文加入一段来源分歧的判断：先查范围、专门条件和作品说明，真实体例分歧保留备选。通过既有sources／spacing／notation入口读取，定位器与20个topic未增加；没有把整份小册复制进skill。
 
 本批实际核三条入口、改变文档的本地链接与skill格式，[证据](mpa_reading_evidence.json)另记完整下载、实际图页、源哈希及边界。没有重跑全20条、复制安装包或独立行为评测；也没有原生候选、播放／打印验收、全局安装或软件适配。
+
+## 2026-10-22：unlasting的分层与实际疑点
+
+调用markings／curves入口后，主agent复读完整六页及局部／Gould，保留不同时间进入的mf／ff和p sub.／pp，优先指出H前弧穿梁，另列L的完整短语候选，见[应用记录](INTEGRATED_READING_UNLASTING.md)。已读旧笔记和专题，故不是独立或陌生盲测；没有以“保留一切”或凑错误数量代替判断。
+
+正文markings行增加按需提醒链接，参考补动态过程／入口与跨表弧条件；定位器及20个topic保持。当前路由、链接和元数据验证见[证据](unlasting_reading_evidence.json)，不代表已原生修改、播放／打印验收、用户采用或全谱自动净书。

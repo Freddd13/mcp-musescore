@@ -2,7 +2,7 @@
 
 这些段落从 skill 正文移到这里，保留条件、反例与来源。只读当前问题对应的小节；随后用定位器返回的知识库文件追到具体谱例。相同外形不代表相同音乐角色，旧实验数值也不是通用预设。
 
-目录：[作品定义](#interpretation) · [符号](#symbols) · [拼写](#spelling) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [跨表](#cross-staff) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
+目录：[作品定义](#interpretation) · [符号](#symbols) · [拼写](#spelling) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [跨表](#cross-staff) · [力度](#markings) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
 
 <a id="interpretation"></a>
 
@@ -57,9 +57,17 @@
 
 间距先分必要构型、时间列余宽与整行预算。局部leadingSpace和stretch不按数值直接相加，也不保证单调改善；相同页数仍可能重排后半首。`spacing`中的`SPACING_TRANSFER.md`以实曲变音／三连共存片段保住变音净空、重分普通间隔，保留必要不均匀，并拒绝前部更紧和后文重排版。比较时还看末次起音到小节末，五个相邻距离或更小比率不能代替完整音乐／行页及阅读收益。
 
+<a id="markings"></a>
+
+## 力度进程与不同入口
+
+先认同一动态进程，再决定哪些标记应共用通道。`markings`的unlasting实例有同表mf／ff和休止前后p sub.／pp：位置不齐可正在表达不同层与时点，不合并／移齐。长限定短语与延续线一起读，分散词的X不自动是新力度或速度事件；起点给全短语及新行提醒可作候选，不能冒充一律禁止分词的规范。几何、逻辑范围与播放scope分查。
+
 <a id="cross-staff"></a>
 
 ## 跨表梁、短干与休止
+
+参考谱也须检查实际墨迹。`cross-staff`／`curves`连接unlasting H前的弧穿梁：先比较全组一侧及所属干端的路径，保护连接与两部，不能以全局抬高保证解决；发夹不得已穿干的例外不通用于slur／梁。没有原生替代或软件定位时，交付具体诊断与候选，不宣称宿主缺陷已证。
 
 跨表先分单线跨手与独立两部，再比较共同梁两方向短端、坡度、副梁和表距；不要见短干便全谱加行距或抹平。拍内短休止可邻近后续音所在表，整拍／独立部另判；中央共同休止可行，但不应切梁或挤占已繁忙的动态通道。`cross-staff`的`CROSS_STAFF_STUDY.md`第8–12节有同距平梁／稍宽斜梁及同MIDI拒绝例；该例全局Style仅用于短练习，不能直接推广全曲。
 

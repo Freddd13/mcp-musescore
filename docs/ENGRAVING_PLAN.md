@@ -209,3 +209,5 @@ MCP 的后续接口候选为 get_engraving_state 与 preview_engraving；具体�
 2026-10-22继续[两首整曲阅读](engraving/INTEGRATED_READING_RUMBLING_UNRAVEL.md)：将混合时值休止、共同书面时位、再现布局、震音省写和多层持续连成实际读法；复核Gould p200–207，更新项目skill的判断参考。原PDF／教材只读，本轮没有新增宿主候选、字体或适配开发；目标继续进行。
 
 2026-10-22续学[间距目标与模型](engraving/SPACING_MODELS.md)：将严格时间比例、可读构型、光学均衡和整行预算分别判断，核官方图／源码的比较条件，再回到A102具体材料。更新知识库和项目skill参考；本轮不安装新排版软件、不做接口适配或原谱修改，目标继续进行。
+
+2026-10-22整首续读[unlasting](engraving/INTEGRATED_READING_UNLASTING.md)：明确保留不同部／不同时间的力度，找到H前弧穿梁的优先候选，另权衡跨行分词的长程渐弱。Gould条件与实际印图合读，知识库及skill按需参考同步；本批没有原生替代版或软件适配，目标继续。
