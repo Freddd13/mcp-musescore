@@ -2,7 +2,7 @@
 
 这些段落从 skill 正文移到这里，保留条件、反例与来源。只读当前问题对应的小节；随后用定位器返回的知识库文件追到具体谱例。相同外形不代表相同音乐角色，旧实验数值也不是通用预设。
 
-目录：[作品定义](#interpretation) · [符号](#symbols) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [跨表](#cross-staff) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
+目录：[作品定义](#interpretation) · [符号](#symbols) · [拼写](#spelling) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [跨表](#cross-staff) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
 
 <a id="interpretation"></a>
 
@@ -15,6 +15,12 @@
 ## 字形和谱位的身份
 
 符头形状、休止与谱线的关系都参与读法，不按duration／MIDI不变就判外观安全。`notation`／`rhythm`中的`SYMBOL_READING.md`连接空心头、线重、加线及普通五线谱休止的条件：整／二分矩形休止的立／挂关系要保住；同拍内几个休止可局部同高，独立部与跨梁又可纵移。原创半sp上移反例保9次起音和完整MIDI仍似全休止，整sp控制不等于本例需要抬高。核目标谱线及有效基准，不按offset是否整数批量修改；特殊谱型、其它Rest字形和cue另查。
+
+<a id="spelling"></a>
+
+## 音名、变音与等音换写
+
+变音多不等于拼写错。`notation`中的`ACCIDENTAL_SPELLING.md`以Idol／IRIS OUT和原创原生例说明：重升可保持和声三度或邻音组形；只换两个tpc，17次起音和完整MIDI相同，却多出确认符号并形成邻位错头。半音阶上行升／下行降是条件惯例，不能压过和声或全句一致性。等音换写单列为记法提议，不当作无损压缩；读回后续符号和行页，不能从12个MIDI音级重建原拼写。通常同一人同表的手／voice切换也不自动重置变音，其它制度与范围先查本谱说明。
 
 <a id="sustain"></a>
 

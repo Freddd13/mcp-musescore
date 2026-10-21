@@ -1,0 +1,650 @@
+{
+  "date": "2026-10-21",
+  "base_commit": "f7b2ea6",
+  "purpose": "Understand spelling, reading cost and layout consequences; integrate into the existing engraving skill without software adaptation.",
+  "actual_reading": {
+    "gould_printed_full_images": [
+      77,
+      78,
+      79,
+      85,
+      86,
+      87
+    ],
+    "gould_pdf_page_offset": 20,
+    "gould_revisited_printed_pages": [
+      85,
+      86,
+      87
+    ],
+    "chapter_or_contents_localization_only": [
+      74,
+      75,
+      76
+    ],
+    "reference_full_pdf_pages": {
+      "A062": [
+        1,
+        2,
+        3
+      ],
+      "A065": [
+        1,
+        2,
+        3
+      ]
+    },
+    "close_regions": [
+      "A062 p2 system 1 B first bar lower staff",
+      "A062 p2 system 3 C context",
+      "A065 p2 systems 1-2 C lower neighbor figures"
+    ],
+    "historical_corpus_counts_modified": false,
+    "same_agent_learning_not_independent_test": true
+  },
+  "reference_sources": [
+    {
+      "id": "A062",
+      "relative_path": "Idol - Oshi no Ko - Opening Theme.pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Idol - Oshi no Ko - Opening Theme.pdf",
+      "sha256": "e4aab892d6d3838c923a8c393171b3ea254d1bbbc845f19435f720bce5fce122",
+      "bytes": 164583,
+      "pages": 6,
+      "metadata": {
+        "/CreationDate": "D:20230503123723",
+        "/Creator": "PDFium",
+        "/Producer": "PDFium"
+      },
+      "page_sizes_pt": [
+        [
+          595.22,
+          842.0
+        ]
+      ],
+      "inventory_status": "readable"
+    },
+    {
+      "id": "A065",
+      "relative_path": "IRIS OUT - Chainsaw Man_ Reze Arc - OP.pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\IRIS OUT - Chainsaw Man_ Reze Arc - OP.pdf",
+      "sha256": "5a2f42b9a95344c2d9a3d5796a148066df482283a699d53d9a54e17b40fef335",
+      "bytes": 191092,
+      "pages": 5,
+      "metadata": {},
+      "page_sizes_pt": [
+        [
+          595.22,
+          842.0
+        ]
+      ],
+      "inventory_status": "readable"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "location": "A062 p2 B first bar lower staff",
+      "visible_reading": "F-double-sharp octave with D-sharp; written D-sharp to F-double-sharp is a major third.",
+      "decision": "retain local spelling; G-natural substitution would write a diminished fourth. No entire-score harmonic or playback claim."
+    },
+    {
+      "location": "A065 p2 C first bar lower staff",
+      "visible_reading": "G-sharp2 F-double-sharp2 G-sharp2 neighbor figure, recurring shape in the accompaniment.",
+      "decision": "retain recognizable lower-neighbor spelling; not a universal rule against enharmonic respelling."
+    }
+  ],
+  "native_host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_not_inferred": true
+  },
+  "fixture": {
+    "license": "CC0-1.0",
+    "original_music": true,
+    "time_signature": "4/4",
+    "bars": 2,
+    "staves": 2,
+    "page": "A4",
+    "spatium_mm": 1.57,
+    "music_font": "Leland",
+    "text_font": "Leland Text",
+    "key_fifths": 5,
+    "key_mode_tag_absent": true,
+    "intended_harmonic_context": "G-sharp minor dominant seventh to tonic, determined by authored notes rather than fifths alone.",
+    "source_changes": [
+      {
+        "staff": 1,
+        "measure": 1,
+        "chord_ordinal": 2,
+        "midi_pitch": 79,
+        "tpc_before": 27,
+        "tpc_after": 15
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "chord_ordinal": 1,
+        "note_ordinal": 2,
+        "midi_pitch": 55,
+        "tpc_before": 27,
+        "tpc_after": 15
+      }
+    ],
+    "source_except_two_tpc_values_equal": true,
+    "independent_expected_notated_recipe": [
+      [
+        1,
+        1,
+        "0",
+        "1",
+        75,
+        "D",
+        1,
+        5
+      ],
+      [
+        1,
+        1,
+        "1",
+        "1",
+        79,
+        "F",
+        2,
+        5
+      ],
+      [
+        1,
+        1,
+        "2",
+        "1",
+        80,
+        "G",
+        1,
+        5
+      ],
+      [
+        1,
+        1,
+        "3",
+        "1",
+        82,
+        "A",
+        1,
+        5
+      ],
+      [
+        2,
+        1,
+        "0",
+        "4",
+        80,
+        "G",
+        1,
+        5
+      ],
+      [
+        1,
+        2,
+        "0",
+        "2",
+        51,
+        "D",
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        "0",
+        "2",
+        55,
+        "F",
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        "0",
+        "2",
+        58,
+        "A",
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        "0",
+        "2",
+        61,
+        "C",
+        1,
+        4
+      ],
+      [
+        1,
+        2,
+        "2",
+        "2",
+        44,
+        "G",
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        "2",
+        "2",
+        47,
+        "B",
+        0,
+        2
+      ],
+      [
+        1,
+        2,
+        "2",
+        "2",
+        51,
+        "D",
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        "2",
+        "2",
+        56,
+        "G",
+        1,
+        3
+      ],
+      [
+        2,
+        2,
+        "0",
+        "4",
+        44,
+        "G",
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        "0",
+        "4",
+        47,
+        "B",
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        "0",
+        "4",
+        51,
+        "D",
+        1,
+        3
+      ],
+      [
+        2,
+        2,
+        "0",
+        "4",
+        56,
+        "G",
+        1,
+        3
+      ]
+    ],
+    "independent_expected_midi_onsets_and_pitches": [
+      [
+        "0",
+        51
+      ],
+      [
+        "0",
+        55
+      ],
+      [
+        "0",
+        58
+      ],
+      [
+        "0",
+        61
+      ],
+      [
+        "0",
+        75
+      ],
+      [
+        "1",
+        79
+      ],
+      [
+        "2",
+        44
+      ],
+      [
+        "2",
+        47
+      ],
+      [
+        "2",
+        51
+      ],
+      [
+        "2",
+        56
+      ],
+      [
+        "2",
+        80
+      ],
+      [
+        "3",
+        82
+      ],
+      [
+        "4",
+        44
+      ],
+      [
+        "4",
+        47
+      ],
+      [
+        "4",
+        51
+      ],
+      [
+        "4",
+        56
+      ],
+      [
+        "4",
+        80
+      ]
+    ],
+    "variants": {
+      "functional": {
+        "expected_17_musicxml_notes": true,
+        "expected_17_actual_midi_attacks": true,
+        "whole_midi_equal": true,
+        "midi_sha256": "c954a3623d64b86c0516df78a79fee054f7b1a00edd4b4ae2419ff31ee721760",
+        "local_accidental_glyphs": 2,
+        "key_signature_glyphs": 10,
+        "lower_first_chord_written_pitch_and_export_position": [
+          {
+            "music": [
+              1,
+              2,
+              "0",
+              "2",
+              51,
+              "D",
+              1,
+              3
+            ],
+            "voice": "5",
+            "printed_accidental": null,
+            "default_x": "156.73",
+            "default_y": "-125.00"
+          },
+          {
+            "music": [
+              1,
+              2,
+              "0",
+              "2",
+              55,
+              "F",
+              2,
+              3
+            ],
+            "voice": "5",
+            "printed_accidental": "double-sharp",
+            "default_x": "156.73",
+            "default_y": "-115.00"
+          },
+          {
+            "music": [
+              1,
+              2,
+              "0",
+              "2",
+              58,
+              "A",
+              1,
+              3
+            ],
+            "voice": "5",
+            "printed_accidental": null,
+            "default_x": "156.73",
+            "default_y": "-105.00"
+          },
+          {
+            "music": [
+              1,
+              2,
+              "0",
+              "2",
+              61,
+              "C",
+              1,
+              4
+            ],
+            "voice": "5",
+            "printed_accidental": null,
+            "default_x": "156.73",
+            "default_y": "-95.00"
+          }
+        ]
+      },
+      "respelling-rejected": {
+        "expected_17_musicxml_notes": true,
+        "expected_17_actual_midi_attacks": true,
+        "whole_midi_equal": true,
+        "midi_sha256": "c954a3623d64b86c0516df78a79fee054f7b1a00edd4b4ae2419ff31ee721760",
+        "local_accidental_glyphs": 4,
+        "key_signature_glyphs": 10,
+        "lower_first_chord_written_pitch_and_export_position": [
+          {
+            "music": [
+              1,
+              2,
+              "0",
+              "2",
+              51,
+              "D",
+              1,
+              3
+            ],
+            "voice": "5",
+            "printed_accidental": null,
+            "default_x": "164.47",
+            "default_y": "-125.00"
+          },
+          {
+            "music": [
+              1,
+              2,
+              "0",
+              "2",
+              55,
+              "G",
+              0,
+              3
+            ],
+            "voice": "5",
+            "printed_accidental": "natural",
+            "default_x": "152.57",
+            "default_y": "-110.00"
+          },
+          {
+            "music": [
+              1,
+              2,
+              "0",
+              "2",
+              58,
+              "A",
+              1,
+              3
+            ],
+            "voice": "5",
+            "printed_accidental": null,
+            "default_x": "164.47",
+            "default_y": "-105.00"
+          },
+          {
+            "music": [
+              1,
+              2,
+              "0",
+              "2",
+              61,
+              "C",
+              1,
+              4
+            ],
+            "voice": "5",
+            "printed_accidental": null,
+            "default_x": "164.47",
+            "default_y": "-95.00"
+          }
+        ]
+      }
+    },
+    "written_pitch_changes_are_intentional_and_not_layout_preservation": true,
+    "both_one_page_one_system": true,
+    "ten_staff_line_geometries_equal": true,
+    "preview": {
+      "native_png_dpi": 180,
+      "common_pixel_crop": [
+        145,
+        130,
+        1400,
+        376
+      ],
+      "white_composite_only": true,
+      "no_music_symbol_moved_or_scaled": true
+    },
+    "retained_native_reload": {
+      "notation_equal": true,
+      "whole_midi_equal": true,
+      "svg_except_title_equal": true,
+      "raw_rgba_equal": true
+    },
+    "rejected_native_reload": false,
+    "musicxml_reimport": false,
+    "audio_print_performance_or_user_adoption": false
+  },
+  "published_original_files": [
+    {
+      "path": "docs/engraving/fixtures/spelling-functional.mscx",
+      "sha256": "cccb29c003ef54ab3b3e834eac7b915a70affb2c30a15ca7fc2847e2b1247377",
+      "license": "CC0-1.0",
+      "original_not_reference_music": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spelling-functional.png",
+      "sha256": "c12dbbb1186b0f9ff1ccee45a754f4fa00ae8dd19054bce02bffbc1e43da10b4",
+      "license": "CC0-1.0",
+      "original_not_reference_music": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spelling-enharmonic-rejected.mscx",
+      "sha256": "b7d388aa649fc59ba5e80cb10f45744708033189267f08c6d27384695945491b",
+      "license": "CC0-1.0",
+      "original_not_reference_music": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spelling-enharmonic-rejected.png",
+      "sha256": "02b41a65260247f899cfd2e2ddcbd1e00ac05ce34336e8b05cbfe2bcde036321",
+      "license": "CC0-1.0",
+      "original_not_reference_music": true
+    }
+  ],
+  "protected_sources_after_reading": [
+    {
+      "id": "A062",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Idol - Oshi no Ko - Opening Theme.pdf",
+      "sha256": "e4aab892d6d3838c923a8c393171b3ea254d1bbbc845f19435f720bce5fce122",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "A065",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\IRIS OUT - Chainsaw Man_ Reze Arc - OP.pdf",
+      "sha256": "5a2f42b9a95344c2d9a3d5796a148066df482283a699d53d9a54e17b40fef335",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "user-pdf",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "user-mscz",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "recorded_baseline_match": true
+    }
+  ],
+  "private_reproduction_directory": "tmp/engraving/accidental-spelling-2026-10-21",
+  "boundaries": {
+    "copyright_pdf_or_book_images_committed": false,
+    "originals_edited": false,
+    "software_mcp_plugin_core_adaptation": false,
+    "font_development": false,
+    "new_user_preference": false,
+    "global_skill_installation": false
+  },
+  "targeted_library_and_skill_validation": {
+    "date": "2026-10-21",
+    "targeted_routes": [
+      {
+        "topic": "notation",
+        "references": [
+          "docs/engraving/SYMBOL_READING.md",
+          "docs/engraving/ACCIDENTAL_SPELLING.md",
+          "docs/engraving/ACCIDENTAL_CONTEXT.md",
+          "docs/engraving/NOTATION_DETAILS.md",
+          "docs/engraving/ACCIDENTAL_SPACING.md",
+          "docs/engraving/TRILL_READING.md"
+        ]
+      },
+      {
+        "topic": "spacing",
+        "references": [
+          "docs/engraving/SPACING_DECISIONS.md",
+          "docs/engraving/SPACING_TRANSFER.md",
+          "docs/engraving/ACCIDENTAL_SPACING.md",
+          "docs/engraving/USER_SPACING_APPLICATION.md",
+          "docs/engraving/SPACING_CANDIDATES.md",
+          "docs/engraving/SPACING_STUDY.md"
+        ]
+      }
+    ],
+    "not_all_20_topics_retested": true,
+    "changed_markdown_local_links_checked": 381,
+    "supporting_anchor_ids_unique": true,
+    "skill_spelling_link_resolves_to_unique_explicit_anchor": true,
+    "published_original_hashes_verified": 4,
+    "not_an_independent_behavior_or_user_preference_test": true,
+    "skill_format": "quick_validate.py: Skill is valid"
+  }
+}

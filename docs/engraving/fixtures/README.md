@@ -204,3 +204,12 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [整sp位置控制](rest-reading-whole-space-control.mscx)／[图](rest-reading-whole-space-control.png)：只上移1sp，仍立在线上；此单部没有抬高需要，控制不当推荐候选。
 
 三版11条音休止与9次MIDI起音的时间／音高对独立配方一致，完整MIDI相同；SVG除目标Rest／标题外相同。半sp拒绝版实际原生重载的图形、原始RGBA、音乐及MIDI保持，没有MusicXML导回、音响／打印或用户采用。完整理由、源码许可范围和坐标核查见[SYMBOL_READING](../SYMBOL_READING.md)及[证据](../symbol_reading_evidence.json)。
+
+## 拼写、确认符号与邻位错头
+
+原创CC0两小节4/4、五升调号的钢琴练习；固定Leland／Leland Text、1.57mm sp、A4，均1页1系统。两版仅两颗Note的tpc由F重升变G还原，数值pitch、时值、结构与其它原生字段不变。
+
+- [功能拼写](spelling-functional.mscx)／[图](spelling-functional.png)：属七三度叠置、旋律相邻级进；本语境保留。
+- [等音简化拒绝例](spelling-enharmonic-rejected.mscx)／[图](spelling-enharmonic-rejected.png)：相同键却改变音程读法，局部变音从2增到4，下方和弦需要邻位错头。它是记法反例，不能当纯外观压缩。
+
+两版各17条音符与17次MIDI起音对独立配方一致，完整MIDI相同；拼写差别也按预期读回，并未称记法不变。十条谱线几何一致，180dpi原生图只合白底并统一裁框(145,130,1400,376)。功能版原生重载的拼写、SVG、原始RGBA与完整MIDI保持；没有拒绝版重载、交换导回、试听／打印或用户采用。理由和保护边界见[音高拼写](../ACCIDENTAL_SPELLING.md)及[证据](../accidental_spelling_evidence.json)。

@@ -88,6 +88,12 @@ skill能够把阅读任务、相关规范、具体例子和候选保护连起来
 
 三版原生源仅一个Rest纵向offset不同，独立实际音乐及MIDI配方、仅目标图元改变和拒绝版重载已核。当前格式、路由、复制包、文档链接和原创文件核查见[skill_validation.json](skill_validation.json)的follow_up_symbol_reading。此为主agent学习与原生验证，没有新的独立行为评测、用户审美采用、全局安装或软件适配。
 
+## 2026-10-21：拼写与同MIDI反例
+
+后续[音高拼写](ACCIDENTAL_SPELLING.md)接入notation，保留20个topic；按需提醒新增拼写锚点，并从原生核查页连接同MIDI反例。原创两小节仅改两个tpc，17次实际起音保持，却增加确认符号和邻位错头；识别为记法变化，不能当作无损净书。功能版原生重载的拼写、图形、原始RGBA及完整MIDI保持，没有新的独立行为评测或用户审美采用。
+
+本批实际核notation／spacing两路由、九份改变的Markdown中381个本地链接、参考锚点唯一性、skill格式和四个原创文件哈希；五份保护源哈希另在发布前匹配。没有重跑全20条或复制安装包。[证据](accidental_spelling_evidence.json)区分书页复看、官谱局部和原生实际范围；软件适配、全局安装及字体仍不在本次执行范围。
+
 ## 2026-10-21：整首重现、swing与straight
 
 [Kaikai Kitan六页](INTEGRATED_READING_KAIKAI.md)补入overview；tempo／rhythm经拍与速度专题进入同一实例，保留20个topic及原CLI定位行为。按需速度参考增加分类提醒：小音符等式可能解释长短演奏，书写、演奏和播放分查，不能把2:1直接变为横距，或删掉两边相同的straight恢复。
