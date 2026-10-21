@@ -22,7 +22,7 @@
 | 谱号、八度、加线、范围与空表 | [换谱号](CLEF_READING.md)、[八度阅读](OCTAVE_READING.md)、[同表原位材料的反例](INTEGRATED_READING_NINELIE.md) |
 | 反复、跳转、变音拼写与状态恢复 | [导航](REPEAT_NAVIGATION.md)、[变音实际来路](ACCIDENTAL_CONTEXT.md)、[拼写与等音](ACCIDENTAL_SPELLING.md) |
 | 分行、页面密度与翻页 | [行页](PAGE_FLOW_STUDY.md)、[空间层级](PAGE_HIERARCHY.md)、[外部实践](EXTERNAL_PRACTICE.md) |
-| 查规范、原谱和历史案例 | [来源](SOURCES.md)、[Gould已核章节](BEHIND_BARS_NOTES.md)、[资源落实](RESOURCE_PLAN_MAPPING.md)、[官谱索引](corpus/INDEX.md)、[E案例](CASES.md)及[扩大案例](CASES_EXPANDED.md) |
+| 查规范、原谱和历史案例 | [来源](SOURCES.md)、[Gould已核章节](BEHIND_BARS_NOTES.md)、[MPA图版复核](MPA_READING.md)、[资源落实](RESOURCE_PLAN_MAPPING.md)、[官谱索引](corpus/INDEX.md)、[E案例](CASES.md)及[扩大案例](CASES_EXPANDED.md) |
 | 查当前能力、输入与验证边界 | [实现研究](IMPLEMENTATION.md)、[输入历史](INPUT_HISTORY.md)、[skill试用记录](SKILL_REVIEW.md)、[原创原生例](fixtures/README.md) |
 
 ## 最近形成的可迁移判断
