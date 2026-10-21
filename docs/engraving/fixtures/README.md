@@ -194,3 +194,13 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [隐藏必要换号拒绝例](clef-hidden-change-rejected.mscx)／[图](clef-hidden-change-rejected.png)：后续音头仍依隐藏G定位，读者却只看到F；相同播放不能保护识谱。
 
 四版XML除Clef节点外相同，实际MusicXML36条音休止及35个MIDI起音的时间／音高另与独立配方一致，完整MIDI相同。保留版原生保存重载的图形、原始RGBA、音乐、谱号和MIDI保持；没有MusicXML导回、试听或用户采用。首版输入构造错误保留在私有目录，未发布为有效练习或软件缺陷。具体理由、原生CLI、保护范围见[CLEF_READING](../CLEF_READING.md)及[证据](../clef_reading_evidence.json)。
+
+## 矩形休止的立／挂：位置与读法
+
+以下为原创两小节4/4、双谱表练习，CC0，无参考／用户音乐摘录。固定Leland／Leland Text、1.57mm sp；m1上表整小节休止，m2先二分休止再二分音符，下表八个四分音符。PNG由180dpi原生输出合白底，同裁框保留全部两手，没有移动或缩放音乐符号。
+
+- [常规位置](rest-reading-baseline.mscx)／[图](rest-reading-baseline.png)：全休止挂在线下，二分休止立在线上。
+- [半sp拒绝例](rest-reading-half-space-rejected.mscx)／[图](rest-reading-half-space-rejected.png)：只上移m2半休止0.5sp，实际仍两拍，却呈全休止式悬挂。
+- [整sp位置控制](rest-reading-whole-space-control.mscx)／[图](rest-reading-whole-space-control.png)：只上移1sp，仍立在线上；此单部没有抬高需要，控制不当推荐候选。
+
+三版11条音休止与9次MIDI起音的时间／音高对独立配方一致，完整MIDI相同；SVG除目标Rest／标题外相同。半sp拒绝版实际原生重载的图形、原始RGBA、音乐及MIDI保持，没有MusicXML导回、音响／打印或用户采用。完整理由、源码许可范围和坐标核查见[SYMBOL_READING](../SYMBOL_READING.md)及[证据](../symbol_reading_evidence.json)。

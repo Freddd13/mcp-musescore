@@ -2788,5 +2788,114 @@
         "sha256": "5c57952b58d42a4b8c61360dc6f25d797ba5a149acee7bd83fb050c43a193a2d"
       }
     ]
+  },
+  "follow_up_symbol_reading": {
+    "date": "2026-10-21",
+    "quick_validate": "Skill is valid!",
+    "topic_count": 20,
+    "targeted_routes_executed_from_external_cwd": {
+      "notation": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "notation",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SYMBOL_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_CONTEXT.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\TRILL_READING.md"
+        ]
+      },
+      "rhythm": {
+        "repository": "E:\\programming\\funcodes\\mcp-musescore",
+        "repository_resolution": "skill-realpath",
+        "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+        "topic": "rhythm",
+        "start_here": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+        ],
+        "references": [
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\METRE_TEMPO_READING.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md",
+          "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SYMBOL_READING.md"
+        ]
+      }
+    },
+    "all20_routes_not_rerun": true,
+    "locator_algorithm_unchanged": true,
+    "copy_notation_route_actual": {
+      "repository": "E:\\programming\\funcodes\\mcp-musescore",
+      "repository_resolution": "--repo",
+      "knowledge_base": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving",
+      "topic": "notation",
+      "start_here": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md"
+      ],
+      "references": [
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SYMBOL_READING.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_CONTEXT.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\NOTATION_DETAILS.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\ACCIDENTAL_SPACING.md",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\TRILL_READING.md"
+      ]
+    },
+    "copy_symbols_guidance_resolves": true,
+    "previous_12_topic_paragraphs_preserved_verbatim": true,
+    "markdown_files_checked": [
+      "docs/engraving/SYMBOL_READING.md",
+      "docs/engraving/BEHIND_BARS_NOTES.md",
+      "docs/engraving/BEAM_STEM_STUDY.md",
+      "docs/engraving/RHYTHM_READING.md",
+      "docs/engraving/FOUNDATION_REVIEW.md",
+      "docs/engraving/CONTINUOUS_STUDY.md",
+      "docs/engraving/SKILL_REVIEW.md",
+      "docs/engraving/fixtures/README.md",
+      "docs/engraving/README.md",
+      "skills/piano-engraving/SKILL.md",
+      "skills/piano-engraving/references/judgment-details.md",
+      "skills/piano-engraving/references/native-review.md"
+    ],
+    "local_links_including_images_checked": 449,
+    "protected_source_hashes_checked": 4,
+    "public_original_file_hashes_checked": 6,
+    "published_pngs_exact_white_composite_common_crop": true,
+    "independent_11_musicxml_rows_and_9_midi_attacks": true,
+    "rejected_half_space_native_reload": true,
+    "native_geometry_changes_only_target_rest": true,
+    "independent_agent_evaluation_this_batch": false,
+    "musicxml_reimport": false,
+    "audio_print_or_user_adoption": false,
+    "font_design": false,
+    "global_installation": false,
+    "software_adaptation": false,
+    "skill_files": [
+      {
+        "path": "skills\\piano-engraving\\SKILL.md",
+        "sha256": "27ffc4761dbce6d053ed65102b0e13a737ed7b18763c1c00f528ffcc9841aa13"
+      },
+      {
+        "path": "skills\\piano-engraving\\scripts\\engraving_library.py",
+        "sha256": "85bad02817ad9e0e93d63940044d9d4070ba64959b4129d2ca616bc54ed02be5"
+      },
+      {
+        "path": "skills\\piano-engraving\\references\\judgment-details.md",
+        "sha256": "4a341a60dfecb346cba35f13fc83ba892a5685247920724c3f27c201fa03af52"
+      },
+      {
+        "path": "skills\\piano-engraving\\references\\native-review.md",
+        "sha256": "e4c41b40b3b4eaa75bca84ee25a8e7ed34e1d28ef1de0066f0186bdb46b7516f"
+      }
+    ]
   }
 }

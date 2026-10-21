@@ -81,3 +81,9 @@ skill能够把阅读任务、相关规范、具体例子和候选保护连起来
 [换号专题](CLEF_READING.md)新增clefs并接入piano，当前20个topic。skill详细提醒补乐句／拍／休止条件，保留《lit》的合理高频换号，拒绝以单音阈值或隐藏Clef作为自动美化。四版同35起音的原生例说明数据保持仍可丢识谱参照，保留版重载保持；本轮为主agent学习／原生试验，没有重复独立行为或用户审美评测。
 
 原生参考另补手工输入的实际失败：dots／durationType顺序与LayoutBreak父层不对时，图面／音数和各版相同不足以保护预期音乐。先拒绝错误初版，再用独立实际时值和2+2分行核最终例。格式、20路由及本轮文档／原创文件检查见[skill_validation.json](skill_validation.json)的follow_up_clef_reading；无全局安装或软件适配。
+
+## 2026-10-21：字形和谱位的读法约束
+
+[基础符号](SYMBOL_READING.md)接入notation／rhythm，保持20个topic。正文仍只作路由，条件与原生反例在按需参考中读取；保留此前作者含义与所有专题段落。普通五线谱矩形休止的立／挂关系不能被自由offset破坏，也不能反过来将所有offset吸到整数；cue、staffMove与其它谱型按实际基准核对。
+
+三版原生源仅一个Rest纵向offset不同，独立实际音乐及MIDI配方、仅目标图元改变和拒绝版重载已核。当前格式、路由、复制包、文档链接和原创文件核查见[skill_validation.json](skill_validation.json)的follow_up_symbol_reading。此为主agent学习与原生验证，没有新的独立行为评测、用户审美采用、全局安装或软件适配。

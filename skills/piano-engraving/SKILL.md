@@ -32,7 +32,7 @@ python <skill目录>/scripts/engraving_library.py --topic spacing
 | 八度线、音区轮廓、续行与loco | `octaves` | 作用谱表／目标音、范围与线尾、加线取舍及空表的连带效果；[八度提醒](references/judgment-details.md#octaves) |
 | 反复、结尾房子、D.S.／Coda／Fine | `navigation` | 每种实际来路、目标／出口／续接、落点留白与状态恢复；显示和展开路线分查；[导航提醒](references/judgment-details.md#navigation) |
 | 声部、手、跨表梁／休止、踏板、指法 | `piano`、`cross-staff` | 音乐角色不等于voice容器；共同梁、短干与拍内休止另判；[跨表](references/judgment-details.md#cross-staff)、[持音](references/judgment-details.md#sustain)、[自由段](references/judgment-details.md#free-passage) |
-| 变音、附点、连音、装饰音 | `notation` | 适用条件、例外、作用范围与必要说明 |
+| 符头、休止、变音、附点、连音、装饰音 | `notation` | 字形与谱位的含义、适用条件、例外和范围；[符号提醒](references/judgment-details.md#symbols) |
 | 分行、分页、密度、翻页 | `layout` | 内容预算、导航、手是否空闲；固定小节数并非默认答案；[页面提醒](references/judgment-details.md#layout) |
 | 规范查证、官谱定位、宿主差异 | `sources`、`cases`、`baseline` | 用来源和案例定位复查；不把历史结果当当前实测 |
 

@@ -2,7 +2,7 @@
 
 本库用于解释出版谱为什么这样排，并据此对当前钢琴谱作出保留、建议或副本候选。关注拍组、声部、手、持续、标记归属与导航的阅读收益；整齐不能单由等距、统一线高或固定小节数定义。
 
-更新：2026-10-20。所属计划：[ENGRAVING_PLAN](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN](../FONT_PLAN.md)。当前可用于只读诊断及少量有依据的原生副本比较；尚未完成全谱自动净书、全部规范的掌握或个人细微审美的确认。本阶段不开发 MuseScore／MCP／插件适配。
+更新：2026-10-21。所属计划：[ENGRAVING_PLAN](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN](../FONT_PLAN.md)。当前可用于只读诊断及少量有依据的原生副本比较；尚未完成全谱自动净书、全部规范的掌握或个人细微审美的确认。本阶段不开发 MuseScore／MCP／插件适配。
 
 ## 阅读入口
 
@@ -16,7 +16,7 @@
 | 快慢层、手与谱表不一致 | [钢琴织体](PIANO_TEXTURE_STUDY.md)、[同音附点](UNISON_DOTS_STUDY.md)、[二度归属](SECONDS_OWNERSHIP.md) |
 | tie／slur与持续、续行或疑似断口 | [弧线](CURVES_STUDY.md)、[持续与休止](SUSTAIN_AND_RESTS.md)、[持音提示](SUSTAIN_CONTINUATION.md)、[输出核查](OUTPUT_READING.md) |
 | 力度、奏法、文字与指法归属 | [力度与奏法](DYNAMICS_ARTICULATION.md)、[指法](FINGERING_STUDY.md) |
-| 附点、连音、震音与装饰 | [记谱细节](NOTATION_DETAILS.md)、[连音](TUPLET_READING.md)、[颤音](TRILL_READING.md) |
+| 符头、休止、附点、连音与装饰 | [符号阅读](SYMBOL_READING.md)、[记谱细节](NOTATION_DETAILS.md)、[连音](TUPLET_READING.md)、[颤音](TRILL_READING.md) |
 | 滑奏与跨表动作 | [滑奏](GLISSANDO_READING.md)、[跨表琶音／共同梁](CROSS_STAFF_STUDY.md) |
 | 换拍、变速、延长和自由等待 | [拍与速度](METRE_TEMPO_READING.md)、[自由段](FREE_PASSAGE_READING.md) |
 | 谱号、八度、加线、范围与空表 | [换谱号](CLEF_READING.md)、[八度阅读](OCTAVE_READING.md)、[同表原位材料的反例](INTEGRATED_READING_NINELIE.md) |
@@ -26,6 +26,8 @@
 | 查当前能力、输入与验证边界 | [实现研究](IMPLEMENTATION.md)、[输入历史](INPUT_HISTORY.md)、[skill试用记录](SKILL_REVIEW.md)、[原创原生例](fixtures/README.md) |
 
 ## 最近形成的可迁移判断
+
+[符号阅读](SYMBOL_READING.md)把符头、线重、加线与休止的形状／谱位连起来：书中同拍休止局部同高的图文曾被文字提取漏掉，现已核实。原创两小节仅将二分休止上移半sp，实际两拍与完整MIDI保持，却看似全休止；反例原生重载也保持。因此可优化留白的前提还包括识谱参照，不按无碰撞／数据不变即采用，也不把整数offset当全谱规则。
 
 [换谱号研究](CLEF_READING.md)解释了保持音程轮廓与减少加线的冲突：休止后新材料、乐句、拍线和小节起点各有放置条件；《lit》的叠层使局部频繁换号有理由。原创四小节保留边界换号，拒绝按单音阈值频繁切换、组中延后和隐藏谱号；四版同35次起音，读法仍不同。已核独立音乐配方和保留版原生重载，不为用户工程改谱或开发适配。
 

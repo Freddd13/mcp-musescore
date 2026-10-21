@@ -2,7 +2,7 @@
 
 这些段落从 skill 正文移到这里，保留条件、反例与来源。只读当前问题对应的小节；随后用定位器返回的知识库文件追到具体谱例。相同外形不代表相同音乐角色，旧实验数值也不是通用预设。
 
-目录：[作品定义](#interpretation) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [跨表](#cross-staff) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
+目录：[作品定义](#interpretation) · [符号](#symbols) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [跨表](#cross-staff) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
 
 <a id="interpretation"></a>
 
@@ -10,7 +10,14 @@
 
 遇缩写／脚注先查本谱首次出现、前言和局部限定。作品已有明确定义时采用，不反复让用户解释，也不让通用缩写歧义压过该定义；名称已知、动作范围和播放是否实现分别记录。作者后来确认的音乐功能应更新旧假说，软件对象类型不能压过该说明。`curves`中的`SUSTAIN_AND_RESTS.md`记录本谱A八度由选择延音踏板保持、两条Slur表示持续的作者确认：不按普通分句处理或因同端点去重，精确释放／逐条对应仍不擅补，也不将含义说明记成线形偏好或采用候选。不以MIDI相同代替这些判断。
 
+<a id="symbols"></a>
+
+## 字形和谱位的身份
+
+符头形状、休止与谱线的关系都参与读法，不按duration／MIDI不变就判外观安全。`notation`／`rhythm`中的`SYMBOL_READING.md`连接空心头、线重、加线及普通五线谱休止的条件：整／二分矩形休止的立／挂关系要保住；同拍内几个休止可局部同高，独立部与跨梁又可纵移。原创半sp上移反例保9次起音和完整MIDI仍似全休止，整sp控制不等于本例需要抬高。核目标谱线及有效基准，不按offset是否整数批量修改；特殊谱型、其它Rest字形和cue另查。
+
 <a id="sustain"></a>
+
 
 ## 持音、提示与结束边界
 
