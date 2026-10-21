@@ -123,3 +123,9 @@ skill能够把阅读任务、相关规范、具体例子和候选保护连起来
 调用markings／curves入口后，主agent复读完整六页及局部／Gould，保留不同时间进入的mf／ff和p sub.／pp，优先指出H前弧穿梁，另列L的完整短语候选，见[应用记录](INTEGRATED_READING_UNLASTING.md)。已读旧笔记和专题，故不是独立或陌生盲测；没有以“保留一切”或凑错误数量代替判断。
 
 正文markings行增加按需提醒链接，参考补动态过程／入口与跨表弧条件；定位器及20个topic保持。当前路由、链接和元数据验证见[证据](unlasting_reading_evidence.json)，不代表已原生修改、播放／打印验收、用户采用或全谱自动净书。
+
+## 2026-10-22：跨表弧的建议经过原生练习
+
+[原创两部短谱](CROSS_STAFF_SLUR_ROUTING.md)把此前H前诊断落实为候选与反例：翻方向仍穿梁，干侧虽避梁仍有阅读代价，最终头到头外绕经保存重载保持。局部关闭autoplace不是冻结原形，参考新增有效肩部／端点的判断，不设置全局关自动排版的要求。
+
+本轮主agent构造与评估，非独立或陌生任务；既有curves／cross-staff入口连接新例，不增加topic或定位器行为。当前验证见[证据](cross_staff_slur_routing_evidence.json)，不代表官谱／用户工程已优化、全部碰撞已测或个人审美已确认。

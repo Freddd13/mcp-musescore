@@ -1,0 +1,887 @@
+{
+  "date": "2026-10-22",
+  "topic": "cross-staff slur route, endpoint ownership and effective manual geometry",
+  "private_cache": "tmp\\engraving\\cross-slur-routing-2026-10-22",
+  "preparation": {
+    "date": "2026-10-22",
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "runtime_files_checked_before": 1936,
+    "runtime_manifest_path": "tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets-manifest.json",
+    "runtime_manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+    "config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\cross-slur-routing-2026-10-22\\isolated-config",
+    "config_existed_before_export": true,
+    "cases": [
+      "auto",
+      "up",
+      "down"
+    ],
+    "recipe": [
+      {
+        "logical_staff": 1,
+        "measure": 1,
+        "onset_quarter": "0",
+        "duration_quarter": "1/4",
+        "pitch": 84,
+        "display_staff": 1
+      },
+      {
+        "logical_staff": 1,
+        "measure": 1,
+        "onset_quarter": "1/4",
+        "duration_quarter": "1/4",
+        "pitch": 81,
+        "display_staff": 1
+      },
+      {
+        "logical_staff": 1,
+        "measure": 1,
+        "onset_quarter": "1/2",
+        "duration_quarter": "1/4",
+        "pitch": 79,
+        "display_staff": 1
+      },
+      {
+        "logical_staff": 1,
+        "measure": 1,
+        "onset_quarter": "3/4",
+        "duration_quarter": "1/4",
+        "pitch": 76,
+        "display_staff": 1
+      },
+      {
+        "logical_staff": 1,
+        "measure": 1,
+        "onset_quarter": "1",
+        "duration_quarter": "1/4",
+        "pitch": 74,
+        "display_staff": 2
+      },
+      {
+        "logical_staff": 1,
+        "measure": 1,
+        "onset_quarter": "5/4",
+        "duration_quarter": "1/4",
+        "pitch": 72,
+        "display_staff": 2
+      },
+      {
+        "logical_staff": 1,
+        "measure": 1,
+        "onset_quarter": "3/2",
+        "duration_quarter": "1/4",
+        "pitch": 69,
+        "display_staff": 2
+      },
+      {
+        "logical_staff": 1,
+        "measure": 1,
+        "onset_quarter": "7/4",
+        "duration_quarter": "1/4",
+        "pitch": 65,
+        "display_staff": 2
+      },
+      {
+        "logical_staff": 1,
+        "measure": 2,
+        "onset_quarter": "0",
+        "duration_quarter": "2",
+        "pitch": 72,
+        "display_staff": 1
+      },
+      {
+        "logical_staff": 2,
+        "measure": 1,
+        "onset_quarter": "0",
+        "duration_quarter": "1/2",
+        "pitch": 60,
+        "display_staff": 2
+      },
+      {
+        "logical_staff": 2,
+        "measure": 1,
+        "onset_quarter": "1/2",
+        "duration_quarter": "1/2",
+        "pitch": 64,
+        "display_staff": 2
+      },
+      {
+        "logical_staff": 2,
+        "measure": 1,
+        "onset_quarter": "1",
+        "duration_quarter": "1/2",
+        "pitch": 67,
+        "display_staff": 1
+      },
+      {
+        "logical_staff": 2,
+        "measure": 1,
+        "onset_quarter": "3/2",
+        "duration_quarter": "1/2",
+        "pitch": 71,
+        "display_staff": 1
+      },
+      {
+        "logical_staff": 2,
+        "measure": 2,
+        "onset_quarter": "0",
+        "duration_quarter": "2",
+        "pitch": 60,
+        "display_staff": 2
+      }
+    ],
+    "notes": 14,
+    "meter": "2/4, two complete independent logical staff lines",
+    "input_hashes": {
+      "auto": "c3a4e93a6a092b9676d9e15179e7819a459e71ec7dd65e74ce7c2fc4e4464755",
+      "up": "8ce7556bd0e2e71027155bb7c88f7926c8d09e206810696d74a942c6a2e9ad27",
+      "down": "821bbc0a3ad67eb3a42af15d0d06c6e2f48a490870cb913dfbf01a5e1f6b3a0d"
+    },
+    "purpose": "evaluate existing native curve paths without software adaptation; initial direction comparison, no assumed defect"
+  },
+  "native_cases": {
+    "auto": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        303.831
+      ],
+      "slur_end_svg": [
+        1618.19,
+        704.367
+      ],
+      "beam_ink_gaps_svg_units": [
+        76.54074979413436,
+        -0.78,
+        -0.78
+      ],
+      "beam_contacts_within_stroke_and_error": 2,
+      "curve_linearization_error_bound_svg_units": 3.091962010095524e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    },
+    "up": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        303.831
+      ],
+      "slur_end_svg": [
+        1618.19,
+        704.367
+      ],
+      "beam_ink_gaps_svg_units": [
+        76.54074979413436,
+        -0.78,
+        -0.78
+      ],
+      "beam_contacts_within_stroke_and_error": 2,
+      "curve_linearization_error_bound_svg_units": 3.091962010095524e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    },
+    "down": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        343.885
+      ],
+      "slur_end_svg": [
+        1618.19,
+        744.42
+      ],
+      "beam_ink_gaps_svg_units": [
+        -0.78,
+        -0.78,
+        -0.78
+      ],
+      "beam_contacts_within_stroke_and_error": 3,
+      "curve_linearization_error_bound_svg_units": 2.819116408100297e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    },
+    "stem-end": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        272.834
+      ],
+      "slur_end_svg": [
+        1632.66,
+        465.314
+      ],
+      "beam_ink_gaps_svg_units": [
+        179.57844268051193,
+        64.18382796434358,
+        47.49846792099151
+      ],
+      "beam_contacts_within_stroke_and_error": 0,
+      "curve_linearization_error_bound_svg_units": 2.742829464309965e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    },
+    "head-right-only": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        303.831
+      ],
+      "slur_end_svg": [
+        1638.22,
+        704.367
+      ],
+      "beam_ink_gaps_svg_units": [
+        88.107309966759,
+        -0.78,
+        -0.78
+      ],
+      "beam_contacts_within_stroke_and_error": 2,
+      "curve_linearization_error_bound_svg_units": 3.133966353740095e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    },
+    "head-wrap": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        243.289
+      ],
+      "slur_end_svg": [
+        1638.22,
+        643.825
+      ],
+      "beam_ink_gaps_svg_units": [
+        169.7106826552825,
+        5.025440697312142,
+        -0.78
+      ],
+      "beam_contacts_within_stroke_and_error": 1,
+      "curve_linearization_error_bound_svg_units": 5.037099584687891e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    },
+    "stem-end-manual": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        303.831
+      ],
+      "slur_end_svg": [
+        1632.66,
+        496.311
+      ],
+      "beam_ink_gaps_svg_units": [
+        135.17321409431162,
+        33.19358856930601,
+        16.508228525953832
+      ],
+      "beam_contacts_within_stroke_and_error": 0,
+      "curve_linearization_error_bound_svg_units": 2.717907645685826e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    },
+    "head-wrap-manual": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        303.831
+      ],
+      "slur_end_svg": [
+        1638.22,
+        704.367
+      ],
+      "beam_ink_gaps_svg_units": [
+        16.24084869488352,
+        -0.78,
+        -0.78
+      ],
+      "beam_contacts_within_stroke_and_error": 2,
+      "curve_linearization_error_bound_svg_units": 4.822793981239259e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    },
+    "head-wrap-wide": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        303.831
+      ],
+      "slur_end_svg": [
+        1638.22,
+        704.367
+      ],
+      "beam_ink_gaps_svg_units": [
+        32.023225673241114,
+        -0.78,
+        -0.78
+      ],
+      "beam_contacts_within_stroke_and_error": 2,
+      "curve_linearization_error_bound_svg_units": 5.6121555079508386e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    },
+    "head-wrap-shaped": {
+      "all_14_notes_match_independent_recipe": true,
+      "natural_pitch_spelling_and_beam_groups_match_recipe": true,
+      "slur_logical_start_stop_match": true,
+      "display_staff_tags_match_recipe": true,
+      "source_only_planned_slur_drawing_fields_differ": true,
+      "non_slur_svg_draws_exactly_equal": true,
+      "full_midi_exactly_equal": true,
+      "all_14_MIDI_attacks_match_recipe": true,
+      "slur_start_svg": [
+        552.959,
+        303.831
+      ],
+      "slur_end_svg": [
+        1638.22,
+        704.367
+      ],
+      "beam_ink_gaps_svg_units": [
+        176.3394828958391,
+        21.635670045524932,
+        12.205552362884186
+      ],
+      "beam_contacts_within_stroke_and_error": 0,
+      "curve_linearization_error_bound_svg_units": 6.019581436191647e-05,
+      "geometry_method": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+    }
+  },
+  "retained_for_original_fixture": "head-wrap-shaped",
+  "other_controls": "preserved privately; stem-end avoids beams but is not selected as primary visual solution",
+  "public_artifacts": {
+    "auto": {
+      "path": "docs\\engraving\\fixtures\\cross-slur-auto.mscx",
+      "sha256": "c3a4e93a6a092b9676d9e15179e7819a459e71ec7dd65e74ce7c2fc4e4464755",
+      "byte_identical_to_native_tested_input": true
+    },
+    "stem-end-manual": {
+      "path": "docs\\engraving\\fixtures\\cross-slur-stem-control.mscx",
+      "sha256": "64bc7f56b94b68d74eb42fab3b8762c15930ce86ee2f5513c90a11d3d1427be7",
+      "byte_identical_to_native_tested_input": true
+    },
+    "head-wrap-shaped": {
+      "path": "docs\\engraving\\fixtures\\cross-slur-head-route.mscx",
+      "sha256": "c57cd21892a4b8522d5d0b2f0733dda7a44d2635a4aa7d55917ee3995670e9c4",
+      "byte_identical_to_native_tested_input": true
+    },
+    "comparison": {
+      "path": "docs\\engraving\\fixtures\\cross-slur-routing-comparison.png",
+      "sha256": "0f7530a32a60817234d5fd3fadcc8c720880383e305ad4ee38a61a1607101ae7",
+      "origin": "native 180 dpi PNG, white compositing and common crop only; labels added outside music",
+      "crop_pixels": [
+        138,
+        71,
+        1406,
+        411
+      ],
+      "rows": [
+        "auto",
+        "stem-end-manual",
+        "head-wrap-shaped"
+      ]
+    }
+  },
+  "native_artifact_hashes": [
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\auto.mscx",
+      "sha256": "c3a4e93a6a092b9676d9e15179e7819a459e71ec7dd65e74ce7c2fc4e4464755"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\down.mscx",
+      "sha256": "821bbc0a3ad67eb3a42af15d0d06c6e2f48a490870cb913dfbf01a5e1f6b3a0d"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\auto-1.png",
+      "sha256": "225cf93bf5a78904b4a2f577ff29cd4b74b934aa68db2b197e7c5c6c1cadeaf9"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\auto-1.svg",
+      "sha256": "51474505211b9af1e76f9f5e1068632d31f5af083043124923ed80b468874c31"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\auto-full-comparison-system.png",
+      "sha256": "ab002a3302b94b5f0c09dac1e617089123d849a2df5a1be213cd4f1b7c83757f"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\auto-system.png",
+      "sha256": "b9164c4d1b5a8d15e66475c75db0c012a9a2e84130e431d4196fb60e94c57422"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\auto-verified-system.png",
+      "sha256": "ab002a3302b94b5f0c09dac1e617089123d849a2df5a1be213cd4f1b7c83757f"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\auto-white.png",
+      "sha256": "7813e663f3a42b040d74955580f519ff301f835ee5455687f6317c0a0663e911"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\auto.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\auto.musicxml",
+      "sha256": "f458a56e5d3acf97284a468d6531aecf142bf33642c98e0684907dc177619bdd"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\directions-comparison.png",
+      "sha256": "d93b4f92b3b01735810d2900eb0e9146337fa395e804ea29db7e028fe6b82504"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\down-1.png",
+      "sha256": "0da0c05995e67ee8a213f616fe842062e9ee8b33ae0f13a7c72572c227065a09"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\down-1.svg",
+      "sha256": "a2ac6d5a15fc6c90bb79d4250de023be13c312a3ea992fd26a84619967307a96"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\down-full-comparison-system.png",
+      "sha256": "631f2f15cc7ddb890260144e62ebab0da8638cff81f1ed50b66600f69a556683"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\down-system.png",
+      "sha256": "7f00634bd3bdb4992aafc8542379a2594a69bf55f3fa5c246ca9a08aaa5525e2"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\down-white.png",
+      "sha256": "d67d3daaebb62bad874484ebcc6003887dd66fa21c9791ae14e6f6a419addc3c"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\down.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\down.musicxml",
+      "sha256": "3a7210610c26d2b9052583ca4f7a87e2ca57a61ed02d6499d928295334a286c7"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-right-only-1.png",
+      "sha256": "869115db4794109df60a716f47e31ea682a81b83aeaa99de3ad16cc5305a150f"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-right-only-1.svg",
+      "sha256": "b9fa4a0ccc1d12c44f8e99e3798249f26a8208872266c360ea6fc12d3f3f1206"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-right-only-full-comparison-system.png",
+      "sha256": "773ef45a7104954a9a7c951147c922b06d738278bf85de4954f2b4811c12d7ac"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-right-only-white.png",
+      "sha256": "859720324d805aac4b65f7ff75f47d7baf3008b9d7fd2ff6624d0d9be9c388ed"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-right-only.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-right-only.musicxml",
+      "sha256": "a2701d4c5f1f8f9618e9e385912753e246e6aa5c8d6ec2251a42dea7c7d1b1c2"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-1.png",
+      "sha256": "8293e8ed03aa14be67e3c244d6a5814318ba0c75a20990999cfc8f69a464c983"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-1.svg",
+      "sha256": "ab13dde6e37082ce94f2efa481af1fc352d00c8714a67a6ca22b3fdbc6173581"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-full-comparison-system.png",
+      "sha256": "e890c69d03aa047dd4924551ceb72efc4fabbe7667f78aba9414b988918064a6"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-manual-1.png",
+      "sha256": "aa69a65feb469f8a8edeb5776e54c32a6cfbfdcb214e6b1d4d35fc4db6183ed5"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-manual-1.svg",
+      "sha256": "4539d1aaa08ca36646b2ec83f5dffaf38a4148c5bca9db8cd9be8e3af741bd00"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-manual-verified-system.png",
+      "sha256": "933980acaf32beab0ab33fae436f403d28ed677bcd8b51b3fc29808e55aee03b"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-manual-white.png",
+      "sha256": "cc8b3ccbf9fcfc9c96233ffc19b40214bc548e9842e25330a404df1443a116c6"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-manual.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-manual.musicxml",
+      "sha256": "087234814e4f8fda54b12135d45e01688998fd4f8afe2f14aa66a49f83421802"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-1.png",
+      "sha256": "96675175b55f1f6123397b00918407b60eae08ad3a77bf4e09aac67dfe461b3f"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-1.svg",
+      "sha256": "8dc3d00d1dabd863beb4dda212fb3fbe16a8ecf4802a8356b1b746e85ab3fcaa"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-reload-1.png",
+      "sha256": "96675175b55f1f6123397b00918407b60eae08ad3a77bf4e09aac67dfe461b3f"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-reload-1.svg",
+      "sha256": "2e8d47f7df5596b89b63acd7b4611aeecf34bee003871830ba94e69a63df7b4f"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-reload.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-reload.musicxml",
+      "sha256": "1bf2433a8f96a6832be29e83a7e4dc3c28de2f16e47fca07f3e8a14727598f42"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-verified-system.png",
+      "sha256": "baf9a4468bba39b6c4da0688aedda85ed41b884eccceb1e1922e1a28f566326b"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-white.png",
+      "sha256": "b8e4f001fe1cda06134d35503cc8061ba146ffee7763c0d0dea81b33e9142206"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped.musicxml",
+      "sha256": "1bf2433a8f96a6832be29e83a7e4dc3c28de2f16e47fca07f3e8a14727598f42"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-white.png",
+      "sha256": "34c03986362563a00f69f7261bc1d9f95e04bc4f6e999fadeef21e4dcd051b40"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-wide-1.png",
+      "sha256": "c46ea8c71ed084e9e11cdf82779f478f3a52e100241266359f824925aac7a389"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-wide-1.svg",
+      "sha256": "3fd77eacb6bf9236f5109c0778a04c80567404ec8728bf24744ef5f103dc6e2a"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-wide-verified-system.png",
+      "sha256": "ec808e39406630323e4be04fc9a392980a7724e876a30b45dff8ecf63f04336a"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-wide-white.png",
+      "sha256": "ea7efc2a5321fa5e3bc30d142144b9e1dcd9dde45fc9075e31caffffdf6045c2"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-wide.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-wide.musicxml",
+      "sha256": "349f7e21a5f2aa001b2003a1406c84ac392e1f87e5b28aad9077d267f93fc7b5"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap.musicxml",
+      "sha256": "7a2a0f9ef2db646ad99a2ffc72206162817b29d280a07e0de23353c605603d7c"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\manual-routing-comparison.png",
+      "sha256": "0f7530a32a60817234d5fd3fadcc8c720880383e305ad4ee38a61a1607101ae7"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\manual-routing-first-comparison.png",
+      "sha256": "628bb57f854f52e7a4d4fd8b25b7cbb58e2532b281a9a6e05f66af0ac9e745e0"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\manual-routing-wide-comparison.png",
+      "sha256": "0c282b5ecbad9cd88af0e5ab7008ee90a95317a73838b57015efee8f8e461deb"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\routing-comparison.png",
+      "sha256": "096c4f3545f8d5b6e64f0af15c79da48acd7be53e1b51484769a1aa368ee8775"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-1.png",
+      "sha256": "d6ec54ec176fcf47f48865f0dd2a6396648140eb626db08464a5ad598f62da24"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-1.svg",
+      "sha256": "e043d83754395e3387f6ac8c7acc6b81ec8e00fda5df625d0d31bab68937a7a4"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-full-comparison-system.png",
+      "sha256": "e12ea8eb93c7c1127eb1b2d12bf2612983f914eef72de099d2e8b5ae50ea056d"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-manual-1.png",
+      "sha256": "ccc074a1e020dfe56bf054aaa302e6d9de50e6a3918ad9ecb465512bab09cbcd"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-manual-1.svg",
+      "sha256": "803278e56de4f4c1ea89c5a6c1b5f87dcb8b5564c67ad39bfc4e003f2361d1ae"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-manual-verified-system.png",
+      "sha256": "09f0fa793be4a251e0031b504a0e7fafec5c5d19d3529e7918841271e39fd7ad"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-manual-white.png",
+      "sha256": "035e31f13d19e649d3c0d730fe8682f6ebc2a327dea3104d5f6c9bc08c1aa8e3"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-manual.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-manual.musicxml",
+      "sha256": "b8a7d5522857ca5e087a42aef2e44bc66a377b10253df21373c7a12d7f2a1817"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end-white.png",
+      "sha256": "cb4174ed276af78d0120362764a9c0831d16edf9ad18eb0d0dfe38476218ed4e"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\stem-end.musicxml",
+      "sha256": "941d3138b96964122fb66f7363af936cb5a47400d543adc77b441dd861b28a74"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\up-1.png",
+      "sha256": "225cf93bf5a78904b4a2f577ff29cd4b74b934aa68db2b197e7c5c6c1cadeaf9"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\up-1.svg",
+      "sha256": "21c89ca310a8840677c0f695dae4679fb4f559ace5a9b70170466430f5dc5bb0"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\up-full-comparison-system.png",
+      "sha256": "ab002a3302b94b5f0c09dac1e617089123d849a2df5a1be213cd4f1b7c83757f"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\up-system.png",
+      "sha256": "b9164c4d1b5a8d15e66475c75db0c012a9a2e84130e431d4196fb60e94c57422"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\up-white.png",
+      "sha256": "7813e663f3a42b040d74955580f519ff301f835ee5455687f6317c0a0663e911"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\up.mid",
+      "sha256": "22494934e6f1aa66b1ab0d75e38ec8d1501ab42ab5c2cbd858a795c210c79241"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\up.musicxml",
+      "sha256": "7a9bcb7ec9002d5e85a54aa92facb473dd0585a96b68473a9d39a26f241aba20"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\head-right-only.mscx",
+      "sha256": "b355b1eadbb6d1f6de322f69fd3e9f366af277bc0bf064344d031c7b3bdbc4a3"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\head-wrap-manual.mscx",
+      "sha256": "46a7874123583b8729f39b7014fd752d7ecf84b704c18e98fac92bbe78b393dd"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\head-wrap-shaped-saved.mscx",
+      "sha256": "35bed0e60275a8f7af86bb31f34f7f73ac42f8920ad5e02effd07758c7f5caa9"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\head-wrap-shaped.mscx",
+      "sha256": "c57cd21892a4b8522d5d0b2f0733dda7a44d2635a4aa7d55917ee3995670e9c4"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\head-wrap-wide.mscx",
+      "sha256": "7c1b549c69320541f78f502e1cd1da20ad0030b7ec765464707f7a5f3b79b2ec"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\head-wrap.mscx",
+      "sha256": "16aefc679a44748c1fb7b023f0f150f25bed6b50d598eb67daa7283130213bcc"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\stem-end-manual.mscx",
+      "sha256": "64bc7f56b94b68d74eb42fab3b8762c15930ce86ee2f5513c90a11d3d1427be7"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\stem-end.mscx",
+      "sha256": "d76063cd7a092cf9c674c45339ed2e8d88d8b77007395445d0338b6f43bd2715"
+    },
+    {
+      "path": "tmp\\engraving\\cross-slur-routing-2026-10-22\\up.mscx",
+      "sha256": "8ce7556bd0e2e71027155bb7c88f7926c8d09e206810696d74a942c6a2e9ad27"
+    }
+  ],
+  "reload": {
+    "date": "2026-10-22",
+    "case": "head-wrap-shaped",
+    "saved_points_sp": {
+      "o2": [
+        3.318,
+        -9.123
+      ],
+      "o3": [
+        17.878,
+        -9.123
+      ],
+      "o4": [
+        0.9,
+        0
+      ]
+    },
+    "saved_segment_autoplace_false": true,
+    "all_classed_svg_draws_exact": true,
+    "raw_RGBA_same_dimensions_and_bytes": true,
+    "full_midi_exact": true,
+    "all_14_musicxml_notes_voice_staff_duration_beams_and_slur_endpoints_same": true,
+    "runtime_files_checked_after": 1936,
+    "precreated_config_is_directory": true,
+    "config_generated_global_menu": true,
+    "saved_file": "tmp\\engraving\\cross-slur-routing-2026-10-22\\head-wrap-shaped-saved.mscx",
+    "saved_sha256": "35bed0e60275a8f7af86bb31f34f7f73ac42f8920ad5e02effd07758c7f5caa9",
+    "steps": [
+      {
+        "step": "save",
+        "returncode": 0,
+        "log": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-reload-save.log"
+      },
+      {
+        "step": "svg",
+        "returncode": 0,
+        "log": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-reload-svg.log"
+      },
+      {
+        "step": "png",
+        "returncode": 0,
+        "log": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-reload-png.log"
+      },
+      {
+        "step": "musicxml",
+        "returncode": 0,
+        "log": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-reload-musicxml.log"
+      },
+      {
+        "step": "mid",
+        "returncode": 0,
+        "log": "tmp\\engraving\\cross-slur-routing-2026-10-22\\exports\\head-wrap-shaped-reload-mid.log"
+      }
+    ]
+  },
+  "actual_geometry": {
+    "staff_space_measured_from_native_lines_svg_units": 22.25200000000001,
+    "retained_minimum_slur_to_beam_ink_gap_sp": 0.5485148464355645,
+    "retained_maximum_slur_ink_x_svg_units_approx": 1679.4679175486517,
+    "right_barline_near_ink_x_svg_units": 1755.905,
+    "retained_slur_to_right_barline_horizontal_clearance_sp_approx": 3.435065722242865,
+    "negative_recorded_gap_is_contact_flag_not_penetration_depth": true,
+    "linearization_error_and_export_rounding": "4096 subdivisions per actual cubic edge; straight beam polygons; slur stroke radius deducted; export coordinate rounding separately .002 SVG unit allowance"
+  },
+  "source_lookup": [
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\slur.cpp",
+      "sha256_as_read": "39e098e913650546ce8c001c24e0cfbc9ccdbb856dfd8a99d8d46407f04de8a5"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\slurtie.cpp",
+      "sha256_as_read": "f7dc0071ae1506dfcdfd2acd2df50682b6a099c6d6126cedf2064454abae929f"
+    }
+  ],
+  "source_binary_build_correspondence_verified": false,
+  "viewed_native_images": [
+    "exports/directions-comparison.png",
+    "exports/routing-comparison.png",
+    "exports/manual-routing-first-comparison.png",
+    "exports/manual-routing-wide-comparison.png",
+    "exports/manual-routing-comparison.png"
+  ],
+  "view_scope_note": "first raw alpha PNGs rendered against black in viewer; judgments used white native comparisons; final repeat image bytes remain equal",
+  "publication_scope": "three original CC0 MSCX inputs and one comparison PNG; no reference music or book image copied",
+  "limits": [
+    "not a transcription or optimized version of unlasting",
+    "no original PDF/MSCZ opened or modified in this batch",
+    "no MuseScore/MCP/plugin/core/font adaptation or global skill installation",
+    "no MusicXML reimport, listening, print, user preference adoption or comprehensive collision test",
+    "targeted actual-ink slur/three-beam test; independent musical recipe and complete MIDI cover all 14 played notes",
+    "only retained head-wrap-shaped candidate was saved/reloaded; other trials not claimed reload-tested"
+  ],
+  "publication_validation": {
+    "date": "2026-10-22",
+    "changed_markdown_files": 12,
+    "existing_local_links": 442,
+    "target_anchors_checked": 7,
+    "public_original_artifact_hashes_checked": 4,
+    "cached_native_artifact_hashes_checked": 84,
+    "public_mscx_parsed": 3,
+    "both_cubic_edges_checked_for_right_boundary": true,
+    "routes": {
+      "curves": "existing paths valid; topic links to native case",
+      "cross-staff": "existing paths valid; topic links to native case"
+    },
+    "skill_metadata_validation": "Skill is valid!",
+    "utf8_lf_and_diff_whitespace": true,
+    "no_original_pdf_mscz_or_private_cache_in_changes": true,
+    "limits": "publication/path/metadata/hash checks supplement actual native recipe, geometry, image and reload verification; not independent behavior, user preference, all-score or print proof"
+  }
+}

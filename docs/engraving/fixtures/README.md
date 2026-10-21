@@ -224,3 +224,14 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - 正确首ChordRest Segment的[单符号留白控制](leading-one-reserve.mscx)和[三个超额压缩拒绝例](leading-three-overreserve-rejected.mscx)；[四层对照图](leading-reserve-controls.png)。前者本例可行但未作用户采用，后者虽共同头列／MIDI相同仍挤到拍号。
 
 九个输入各40音对独立配方，完整MIDI相同；两局部控制实际保存重载。单符号版SVG图元及原始RGBA完全相同，三符号版一个还原号的SVG x因精度变化0.001单位，RGBA相同。PNG均原生180dpi合白、统一裁框，不移动或缩放谱面符号。没有交换导回、实曲迁移、试听或打印。理由、首次Segment目标构造错误和实际配置环境见[行首研究](../LEADING_RESERVE.md)及[证据](../leading_reserve_evidence.json)。
+
+## 跨表弧的路径、干端与有效手动形状
+
+原创CC0两小节2/4、两条完整独立部，固定Leland／Leland Text、1.57mm sp。下降十六分线和上行八分线分别跨表，不包含官谱／用户音乐。
+
+- [自动基线](cross-slur-auto.mscx)：尾部穿过两条梁。
+- [干侧控制](cross-slur-stem-control.mscx)：避梁但归属／轮廓有代价，本例不作主候选。
+- [保留的头到头外绕](cross-slur-head-route.mscx)：只改该Slur的局部绘制点和自动避碰。
+- [同框三层原生图](cross-slur-routing-comparison.png)：180dpi输出合白底、共同裁框，不移动或缩放符号；英文标签在音乐之外。
+
+实际全部十条件保14音、拼写、显示谱表、梁、连接及完整MIDI，非Slur绘图相同；保留版原生保存重载的图形／RGBA／音乐／MIDI相同。其余尝试保存在忽略目录；没有交换导回、打印或用户采用。具体阅读取舍与自动避碰连动见[跨表弧研究](../CROSS_STAFF_SLUR_ROUTING.md)，这些点位不作通用预设。
