@@ -205,3 +205,5 @@ MCP 的后续接口候选为 get_engraving_state 与 preview_engraving；具体�
 净书线提供实际谱例、阅读需求和验收条件；字体线提供字形、字宽、外框、锚点、建议线宽与版本变化。净书规则不绑定某一个字体名字。对照时分别改变字形和布局，避免无法判断收益来源。字体线独立进度见 [FONT_PLAN.md](FONT_PLAN.md)。
 
 2026-10-22续学：[行首留白](engraving/LEADING_RESERVE.md)用原创原生例验证已有预算的容量与边界，区分共同时间列、实际前沿及整行重分，并将超额压缩保留为反例。另[更正配置隔离依据](engraving/NATIVE_EXPORT_ENVIRONMENT.md)，不将失败输入或启动环境问题判为净书引擎缺陷。当前继续学习与积累；尚未做实曲迁移或适配开发。
+
+2026-10-22继续[两首整曲阅读](engraving/INTEGRATED_READING_RUMBLING_UNRAVEL.md)：将混合时值休止、共同书面时位、再现布局、震音省写和多层持续连成实际读法；复核Gould p200–207，更新项目skill的判断参考。原PDF／教材只读，本轮没有新增宿主候选、字体或适配开发；目标继续进行。
