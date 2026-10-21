@@ -10,7 +10,7 @@
 
 | 当前要判断什么 | 从这里进入 |
 | --- | --- |
-| 整页里哪些值得改、哪些该保留 | [用户整谱](WHOLE_SCORE_REVIEW.md)、[综合应用](INTEGRATED_REVIEW.md)、[ninelie](INTEGRATED_READING_NINELIE.md)、[Kakyoin’s Theme独立试读](INTEGRATED_READING_KAKYOIN.md) |
+| 整页里哪些值得改、哪些该保留 | [用户整谱](WHOLE_SCORE_REVIEW.md)、[综合应用](INTEGRATED_REVIEW.md)、[ninelie](INTEGRATED_READING_NINELIE.md)、[Kakyoin’s Theme独立试读](INTEGRATED_READING_KAKYOIN.md)、[Kaikai Kitan整首](INTEGRATED_READING_KAIKAI.md) |
 | 同值音忽宽忽窄、左右手与变音占位 | [间距取舍](SPACING_DECISIONS.md)、[变音列](ACCIDENTAL_SPACING.md)、[实曲迁移](SPACING_TRANSFER.md)；其它原生比较见[用户应用](USER_SPACING_APPLICATION.md)与[候选](SPACING_CANDIDATES.md) |
 | 拍组、切分、梁层级与干长 | [节拍阅读](RHYTHM_READING.md)、[梁干](BEAM_STEM_STUDY.md)、[跨表梁与休止](CROSS_STAFF_STUDY.md) |
 | 快慢层、手与谱表不一致 | [钢琴织体](PIANO_TEXTURE_STUDY.md)、[同音附点](UNISON_DOTS_STUDY.md)、[二度归属](SECONDS_OWNERSHIP.md) |
@@ -37,7 +37,7 @@
 
 ## 本批最重要的认识
 
-出版观感来自不同信息有清楚、稳定的视觉线索，让读者一次识别一组、一层或一种动作。必要变音、异分同步与密集和弦会合理改变局部空间；稳定轮廓和完整时间对齐需要一起判断。段落标记可在行中，空白也可能承担导航或进入准备。
+出版观感来自不同信息有清楚、稳定的视觉线索，让读者一次识别一组、一层或一种动作。必要变音、异分同步与密集和弦会合理改变局部空间；稳定轮廓和完整时间对齐需要一起判断。段落标记可在行中，空白也可能承担导航或进入准备。[Kaikai Kitan整首对照](INTEGRATED_READING_KAIKAI.md)将相似材料、H的分层、行中B／I／J及首尾不同拍数组连起来；E的十六分长短说明和F恢复又表明，不能把swing演奏比例直接变成横距比例或真实变速。
 
 音乐字体影响字形、重量、字宽和连接；梁坡、弧线、标记通道、时间分配和分页还由记谱与布局决定。当前固定字体研究布局，不以换字体代替诊断。参考谱的排法提供可讨论的阅读效果，不证明出版者亲自采用了某种设计推理，也不能免除规范核查。
 

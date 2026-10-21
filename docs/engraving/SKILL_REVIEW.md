@@ -87,3 +87,9 @@ skill能够把阅读任务、相关规范、具体例子和候选保护连起来
 [基础符号](SYMBOL_READING.md)接入notation／rhythm，保持20个topic。正文仍只作路由，条件与原生反例在按需参考中读取；保留此前作者含义与所有专题段落。普通五线谱矩形休止的立／挂关系不能被自由offset破坏，也不能反过来将所有offset吸到整数；cue、staffMove与其它谱型按实际基准核对。
 
 三版原生源仅一个Rest纵向offset不同，独立实际音乐及MIDI配方、仅目标图元改变和拒绝版重载已核。当前格式、路由、复制包、文档链接和原创文件核查见[skill_validation.json](skill_validation.json)的follow_up_symbol_reading。此为主agent学习与原生验证，没有新的独立行为评测、用户审美采用、全局安装或软件适配。
+
+## 2026-10-21：整首重现、swing与straight
+
+[Kaikai Kitan六页](INTEGRATED_READING_KAIKAI.md)补入overview；tempo／rhythm经拍与速度专题进入同一实例，保留20个topic及原CLI定位行为。按需速度参考增加分类提醒：小音符等式可能解释长短演奏，书写、演奏和播放分查，不能把2:1直接变为横距，或删掉两边相同的straight恢复。
+
+本轮实际核overview／tempo／rhythm三条路由、七份改变的Markdown共168个本地链接、显式案例锚点、skill格式与四份保护源哈希；没有重跑全20条、复制安装包或独立行为评测。[证据](kaikai_reading_evidence.json)记录实际范围。整页阅读误疑裁切后，由原始像素裁图撤回，作为判断校正保存；没有新原生候选、用户偏好选择、全局安装或软件适配。

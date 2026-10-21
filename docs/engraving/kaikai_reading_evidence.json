@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-21",
+  "base_commit": "e5ad545",
+  "purpose": "Whole-score learning and integration into the maintained skill; no software adaptation.",
+  "selection": {
+    "criteria": "4-6 pages, some historical overview-only pages, ID not cited in top-level topical Markdown; sort by historical close-read proportion, count, then ID.",
+    "selected_id": "A003",
+    "source": {
+      "id": "A003",
+      "relative_path": "062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf",
+      "sha256": "3983329ffbfa429c00f84d7c68911a325dddf0a9fcc524124ee0d2334e59c3d4",
+      "bytes": 441714,
+      "pages": 6,
+      "metadata": {
+        "/Author": "dell",
+        "/CreationDate": "D:20220427160638+09'00'",
+        "/ModDate": "D:20220427160638+09'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "Kaikai Kitan (by Animenz).musx"
+      },
+      "page_sizes_pt": [
+        [
+          595.32,
+          841.92
+        ]
+      ],
+      "inventory_status": "readable"
+    },
+    "historical_batch": {
+      "id": "A003",
+      "source_sha256": "3983329ffbfa429c00f84d7c68911a325dddf0a9fcc524124ee0d2334e59c3d4",
+      "date": "2026-10-18",
+      "all_pages_screened": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "full_page_detail_viewed": [
+        4,
+        6
+      ],
+      "overview_only_pages": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "note": "READING_001.md",
+      "topics": [
+        "八度线续段",
+        "部分延音",
+        "谱号变化"
+      ],
+      "analysis_status": "documented_context_and_cases",
+      "limits": [
+        "Not a note-by-note musical proofreading.",
+        "No original editable project, author workflow or software voice IDs inferred from PDF.",
+        "No improved layout or user aesthetic acceptance claimed."
+      ]
+    },
+    "limits": "Same parent previously screened the corpus; the old prose also reports an earlier HS07 reading of p2. Not blind, independent, representative, or all-new pages."
+  },
+  "actual_visual_reading": {
+    "full_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "systems_or_regions": [
+      "p1 introduction",
+      "p1 lead-in and inline B",
+      "p2 C and continuation",
+      "p4 G and continuation",
+      "p3 E and swing example",
+      "p3 inline F and straight cancellation",
+      "p5 inline I",
+      "p5 inline J",
+      "p6 ending and last bar"
+    ],
+    "first_pass_recorded_before_old_note_was_opened": true,
+    "newly_rendered_pdfium_scales": [
+      2.2,
+      4
+    ],
+    "poppler_full_pages": [
+      2,
+      3,
+      4
+    ],
+    "poppler_max_pixel_dimension": 1853,
+    "gould_cached_full_image_revisits_printed_pages": [
+      185,
+      186,
+      187
+    ],
+    "gould_pdf_page_offset": 20,
+    "gould_keyword_search_is_localization_not_reading": true,
+    "gould_keyword_search_did_not_establish_swing_rules": true,
+    "historic_corpus_counts_modified": false
+  },
+  "reading_conclusions": [
+    {
+      "location": "C p2 systems 4-5 / G p4 systems 2-3",
+      "status": "visible comparison and reading inference",
+      "lesson": "Preserve recognizable groups and layers across recurrence; reread changed lower texture and chords instead of copying coordinates. No complete note-for-note identity claim."
+    },
+    {
+      "location": "H p4 system 6 / p5 system 1",
+      "status": "visible layering and reading inference",
+      "lesson": "Slower upper-stem material, lower-stem short-note filling, ties and longer slurs give separate tracking cues; equal ink density is not the objective."
+    },
+    {
+      "location": "E and F p3",
+      "status": "visible symbol reading, context, exact duration arithmetic; playback unverified",
+      "lesson": "Sixteenth swing explanation and straight cancellation are distinct from a tempo change; performed ratio is not a head-spacing ratio."
+    },
+    {
+      "location": "inline B / I / J",
+      "status": "visible layout and alternative-cost inference",
+      "lesson": "Keeping transition and entry together preserves context. New-system alternatives were not rendered."
+    },
+    {
+      "location": "p1 first bar / p6 penultimate and final bars",
+      "status": "visible count and rest reading",
+      "lesson": "Three versus four triplet groups in differing metres. Final upper whole-bar rest coexists with a lower eighth-note attack then eighth, quarter and half rests; not a fully silent piano bar."
+    }
+  ],
+  "swing_example_arithmetic": {
+    "left_pair_whole_note_units": "1/8",
+    "right_group_whole_note_units": "1/8",
+    "right_internal_illustrated_ratio": "2:1",
+    "changes_to_tempo_or_spacing_performed": false
+  },
+  "withdrawn_clipping_suspicion": {
+    "status": "rejected; complete clefs and braces visible in original-pixel crops and full-height left-edge strips",
+    "initial_first_pass_page_list_was_unreliable": true,
+    "same_whole_page_images_were_misread_after_second_renderer": true,
+    "page_boxes_match_media_crop_on_all_six_pages": true,
+    "pdfium_object_probe_reported_zero_outside_horizontal_objects_but_was_not_sufficient_alone": true,
+    "safe_bitmap_copy_equals_original_saved_pixels": [
+      {
+        "page": 2,
+        "original_size": [
+          1310,
+          1853
+        ],
+        "safe_size": [
+          1310,
+          1853
+        ],
+        "same_pixels": true,
+        "difference_box": null,
+        "crop": [
+          0,
+          940,
+          250,
+          1180
+        ]
+      },
+      {
+        "page": 3,
+        "original_size": [
+          1310,
+          1853
+        ],
+        "safe_size": [
+          1310,
+          1853
+        ],
+        "same_pixels": true,
+        "difference_box": null,
+        "crop": [
+          0,
+          905,
+          250,
+          1175
+        ]
+      },
+      {
+        "page": 4,
+        "original_size": [
+          1310,
+          1853
+        ],
+        "safe_size": [
+          1310,
+          1853
+        ],
+        "same_pixels": true,
+        "difference_box": null,
+        "crop": [
+          0,
+          350,
+          250,
+          635
+        ]
+      },
+      {
+        "page": 5,
+        "original_size": [
+          1310,
+          1853
+        ],
+        "safe_size": [
+          1310,
+          1853
+        ],
+        "same_pixels": true,
+        "difference_box": null,
+        "crop": [
+          0,
+          690,
+          250,
+          890
+        ]
+      },
+      {
+        "page": 6,
+        "original_size": [
+          1310,
+          1853
+        ],
+        "safe_size": [
+          1310,
+          1853
+        ],
+        "same_pixels": true,
+        "difference_box": null,
+        "crop": [
+          0,
+          920,
+          250,
+          1160
+        ]
+      }
+    ],
+    "renderer_bug_font_defect_or_source_clipping_established": false,
+    "poppler_font_type_warnings_do_not_establish_cause": true
+  },
+  "primary_online_source": {
+    "url": "https://musescore.org/en/handbook/3/swing",
+    "title": "MuseScore 3 Handbook: Swing",
+    "read": "2026-10-21",
+    "use": "Separate playback, visual marking, scope and straight cancellation; no current-fork implementation claim."
+  },
+  "protected_sources_after_reading": [
+    {
+      "id": "A003",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf",
+      "sha256": "3983329ffbfa429c00f84d7c68911a325dddf0a9fcc524124ee0d2334e59c3d4",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "user-pdf",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "recorded_baseline_match": true
+    },
+    {
+      "id": "user-mscz",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "recorded_baseline_match": true
+    }
+  ],
+  "private_reproduction_directory": "tmp/engraving/whole-score-2026-10-21",
+  "boundaries": {
+    "originals_edited": false,
+    "copyright_images_or_text_committed": false,
+    "native_candidate_or_reconstruction": false,
+    "midi_or_audio_validation": false,
+    "print_or_performance_test": false,
+    "new_independent_agent_evaluation": false,
+    "user_aesthetic_adoption": false,
+    "global_skill_installation": false,
+    "musescore_mcp_plugin_core_adaptation": false
+  },
+  "targeted_validation": {
+    "date": "2026-10-21",
+    "targeted_routes": [
+      {
+        "topic": "overview",
+        "references": [
+          "docs/engraving/INTEGRATED_REVIEW.md",
+          "docs/engraving/INTEGRATED_READING_NINELIE.md",
+          "docs/engraving/INTEGRATED_READING_KAKYOIN.md",
+          "docs/engraving/INTEGRATED_READING_KAIKAI.md",
+          "docs/engraving/FOUNDATION_REVIEW.md"
+        ]
+      },
+      {
+        "topic": "tempo",
+        "references": [
+          "docs/engraving/METRE_TEMPO_READING.md",
+          "docs/engraving/FREE_PASSAGE_READING.md",
+          "docs/engraving/RHYTHM_READING.md"
+        ]
+      },
+      {
+        "topic": "rhythm",
+        "references": [
+          "docs/engraving/RHYTHM_READING.md",
+          "docs/engraving/METRE_TEMPO_READING.md",
+          "docs/engraving/NOTATION_DETAILS.md",
+          "docs/engraving/SYMBOL_READING.md"
+        ]
+      }
+    ],
+    "not_all_20_topics_retested": true,
+    "changed_markdown_local_links_checked": 168,
+    "explicit_swing_anchor_verified": true,
+    "protected_sources_match": 4,
+    "private_images_in_git": false,
+    "not_behavior_or_aesthetic_validation": true,
+    "skill_format": "quick_validate.py: Skill is valid",
+    "copyright_render_path_confirmed_ignored": true
+  }
+}
