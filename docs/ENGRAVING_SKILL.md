@@ -1,6 +1,6 @@
 # 钢琴净书skill：使用、关联与更新
 
-2026-10-19。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
+2026-10-23。当前可用研究版为**[0.1.0／engraving-v0.1.0](ENGRAVING_RELEASES.md)**；学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
 
 ## 怎样使用
 
@@ -22,7 +22,7 @@
 
 ## 本地发现与维护方式
 
-OpenAI官方说明：本地技能从项目`.agents/skills`及用户`~/.agents/skills`等位置发现，支持链接技能目录；技能变化通常自动检测，未显示时可重启。详见[官方Build skills](https://learn.chatgpt.com/docs/build-skills#where-to-save-skills)。以下只关联这个净书skill，不调用原项目MCP安装器或改动MCP配置。
+OpenAI官方说明：本地技能从项目`.agents/skills`及用户`~/.agents/skills`等位置发现，支持符号链接技能目录。详见[官方Build skills](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。以下只关联这个净书skill，不调用原项目MCP安装器或改动MCP配置。2026-10-23检查上述用户位置及旧`~/.codex/skills`同名位置均未发现安装；本次验证的是项目内入口可用，没有宣称当前App已发现此skill。
 
 在Windows上可把用户技能目录中的一个目录联接指向本项目skill，避免复制后维护两份。以下命令在同名目标已存在时停止，不删除或覆盖任何内容：
 

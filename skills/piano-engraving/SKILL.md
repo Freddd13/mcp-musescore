@@ -1,6 +1,8 @@
 ---
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
+metadata:
+  version: "0.1.0"
 ---
 
 # 钢琴净书
@@ -16,6 +18,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing
 ```
 
 先读`start_here`中的`README.md`和`PREFERENCES.md`（本轮已读过则不重复）；`JUDGMENT_GUIDE.md`按相关情境读取，再选当前问题的专题。项目目录可用`--repo <路径>`明确指定，或沿用`MCP_MUSESCORE_DIR`；目录联接／符号链接安装会定位真实源目录。复制安装且离开项目时，须提供这个库的位置。定位失败应说明缺少哪部分，继续可独立完成的分析，不能声称已读库。
+
+库入口链接当前发布范围与进度。学习尚未完成时仍可使用已核知识；未完成的材料、未经验证的推测须保留状态。需要汇报进度时按账本列本轮增量、累计X/Y及剩余项；使用固定版本时使skill和库来自同一checkout，不混用旧skill与另一版案例。
 
 | 当前问题 | 定位器topic | 重点 |
 | --- | --- | --- |

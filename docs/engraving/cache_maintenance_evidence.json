@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-23",
+  "scope": "Only two existing frozen native-runtime cache subtrees; no original score or book files.",
+  "method": "compact.exe /C /S:<explicit runtime subtree> /I /Q; compare SHA-256 and path set before/after",
+  "storage_api": "GetCompressedFileSizeW; summed per path, not deduplicated by hardlink identity; not volume-free-space delta",
+  "cache_before": {
+    "files": 9775,
+    "logical_bytes": 2323686224,
+    "on_disk_bytes": 2323686224,
+    "on_disk_unknown_files": 0
+  },
+  "cache_after_observation": {
+    "files": 9781,
+    "logical_bytes": 2324170038,
+    "on_disk_bytes": 2182880811,
+    "on_disk_unknown_files": 0
+  },
+  "cache_inventory_errors": [],
+  "affected_batch_observations": [
+    {
+      "batch": "leading-reserve-2026-10-21",
+      "files": 2136,
+      "logical_bytes": 227453820,
+      "windows_storage_before": 227453820,
+      "windows_storage_after": 142678738,
+      "reduction_bytes": 84775082
+    },
+    {
+      "batch": "seconds-ownership-2026-10-19",
+      "files": 465,
+      "logical_bytes": 167799342,
+      "windows_storage_before": 167799342,
+      "windows_storage_after": 111285197,
+      "reduction_bytes": 56514145
+    }
+  ],
+  "reduction_bytes": 141289227,
+  "content_verification": {
+    "files": 2346,
+    "sha256_and_path_sets_identical": true,
+    "deleted_files": 0,
+    "compression": [
+      {
+        "root": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets",
+        "returncode": 0
+      },
+      {
+        "root": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf",
+        "returncode": 0
+      }
+    ]
+  },
+  "private_hash_manifest": "tmp\\engraving\\status-report-2026-10-23\\runtime-cache-hashes-before.json",
+  "private_hash_manifest_sha256": "0bc75da0f129a3ad5b9d07092582d95e7c57a963631d8bd8fd1d639025dfebad",
+  "private_inventory_before": "tmp\\engraving\\cache-inventory-2026-10-23-before.json",
+  "private_inventory_after": "tmp\\engraving\\cache-inventory-2026-10-23-after.json",
+  "retention_policy": {
+    "new_batch_review_threshold_mib": 100,
+    "whole_cache_logical_review_threshold_gib": 3,
+    "automatic_deletion": false,
+    "reuse_existing_runtime": true
+  }
+}

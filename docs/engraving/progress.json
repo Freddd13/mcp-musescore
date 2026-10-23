@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "scope_revision": 1,
+  "as_of": "2026-10-23",
+  "goal_status": "active",
+  "goal": "理解全部新官谱及已有资料的排版理由，形成可迁移判断、持续可用的知识库与skill；后续自动净书适配本阶段不做。",
+  "counting_policy": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+  "scope_policy": "24首为固定的下一轮深化批次，不替代146份的全目录目标。其余122份仍须问题回查；未解问题继续研读。调整范围需记版本、原因与新增分母，不以删除难项完成任务。",
+  "corpus": {
+    "inventory": "corpus/inventory.json",
+    "first_pass": "corpus/reviews.json",
+    "planned_scores": 146,
+    "planned_pages": 1135,
+    "closeout_definition": "逐份复核首轮笔记的排法理由、适用条件、矛盾与未解问题；有缺口则追原页／规范，记录保留、改进或未知。不是再生成一套图。",
+    "closeout_completed_ids": []
+  },
+  "deep_reading": {
+    "planned_scores": 24,
+    "completion_definition": "全曲复读＋具体阅读任务和关键例解释＋规范／相似材料核查＋替代代价及边界＋可追溯记录；局部研究不作整曲完成。",
+    "scores": [
+      {
+        "id": "A003",
+        "title": "062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf",
+        "pages": 6,
+        "status": "complete",
+        "reading_task": "组形、再现、swing与段落入口",
+        "note": "INTEGRATED_READING_KAIKAI.md",
+        "evidence": "kaikai_reading_evidence.json"
+      },
+      {
+        "id": "A011",
+        "title": "Akuma no Ko - Attack on Titan - The Final Season Part 2 - Ending Theme.pdf",
+        "pages": 6,
+        "status": "complete",
+        "reading_task": "主题角色、跨手与行内分配",
+        "note": "INTEGRATED_READING_AKUMA.md",
+        "evidence": "akuma_reading_evidence.json"
+      },
+      {
+        "id": "A031",
+        "title": "Connect - Puella Magi Madoka☆Magica - Opening Theme.pdf",
+        "pages": 8,
+        "status": "complete",
+        "reading_task": "力度省写、连音与同表多层",
+        "note": "INTEGRATED_READING_CONNECT.md",
+        "evidence": "connect_reading_evidence.json"
+      },
+      {
+        "id": "A127",
+        "title": "The Rumbling - Attack on Titan The Final Season Part 2 - Opening Theme.pdf",
+        "pages": 4,
+        "status": "complete",
+        "reading_task": "密集和弦、异分与状态恢复",
+        "note": "INTEGRATED_READING_RUMBLING_UNRAVEL.md",
+        "evidence": "integrated_reading_rumbling_unravel_evidence.json"
+      },
+      {
+        "id": "A138",
+        "title": "unravel - Tokyo Ghoul - Opening Theme.pdf",
+        "pages": 6,
+        "status": "complete",
+        "reading_task": "异分范围、震音与再现",
+        "note": "INTEGRATED_READING_RUMBLING_UNRAVEL.md",
+        "evidence": "integrated_reading_rumbling_unravel_evidence.json"
+      },
+      {
+        "id": "A137",
+        "title": "unlasting - Sword Art Online Alicization War of Underworld - Ending Theme.pdf",
+        "pages": 6,
+        "status": "complete",
+        "reading_task": "动态进入、弧穿梁与跨行文字",
+        "note": "INTEGRATED_READING_UNLASTING.md",
+        "evidence": "unlasting_reading_evidence.json"
+      },
+      {
+        "id": "A091",
+        "title": "Mixed Nuts - SPY×FAMILY - Opening Theme.pdf",
+        "pages": 5,
+        "status": "complete",
+        "reading_task": "熟悉节奏、显拍与五连音",
+        "note": "INTEGRATED_READING_MIXED_NUTS.md",
+        "evidence": "mixed_nuts_reading_evidence.json"
+      },
+      {
+        "id": "A092",
+        "title": "My Dearest - Guilty Crown - Opening Theme.pdf",
+        "pages": 10,
+        "status": "complete",
+        "reading_task": "装饰约定、12对11与共同到达",
+        "note": "INTEGRATED_READING_MY_DEAREST.md",
+        "evidence": "my_dearest_reading_evidence.json"
+      },
+      {
+        "id": "A098",
+        "title": "ninelie - Kabaneri of the Iron Fortress - Ending Theme.pdf",
+        "pages": 6,
+        "status": "pending",
+        "reading_task": "补完ninelie整曲；同表原位／八度叠层",
+        "prior_partial_or_topical_note": "INTEGRATED_READING_NINELIE.md"
+      },
+      {
+        "id": "A067",
+        "title": "Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf",
+        "pages": 4,
+        "status": "pending",
+        "reading_task": "补完Kakyoin整曲；慢线跨手与范围",
+        "prior_partial_or_topical_note": "INTEGRATED_READING_KAKYOIN.md"
+      },
+      {
+        "id": "A102",
+        "title": "Owari no Sekai Kara - from the album - Owari no Hoshi no Love Song -.pdf",
+        "pages": 8,
+        "status": "pending",
+        "reading_task": "Owari no Sekai Kara；密集变音、复杂细分与长小节拆行",
+        "prior_partial_or_topical_note": "SPACING_DECISIONS.md"
+      },
+      {
+        "id": "A006",
+        "title": "5 Variations about the theme 「lit」 - A Silent Voice - Soundtrack.pdf",
+        "pages": 5,
+        "status": "pending",
+        "reading_task": "lit五变奏；换号、轮廓与同主题不同织体",
+        "prior_partial_or_topical_note": "CLEF_READING.md"
+      },
+      {
+        "id": "A008",
+        "title": "A Link to the Past Medley.pdf",
+        "pages": 9,
+        "status": "pending",
+        "reading_task": "A Link to the Past；组曲导航、页布局与对开",
+        "prior_partial_or_topical_note": "PAGE_FLOW_STUDY.md"
+      },
+      {
+        "id": "A009",
+        "title": "Adabana Necromancy - Zombie Land Saga - Opening Theme.pdf",
+        "pages": 7,
+        "status": "pending",
+        "reading_task": "Adabana Necromancy；八度、空白与翻页",
+        "prior_partial_or_topical_note": "PAGE_FLOW_STUDY.md"
+      },
+      {
+        "id": "A056",
+        "title": "Here - Mahoutsukai no Yome - Opening Theme.pdf",
+        "pages": 9,
+        "status": "pending",
+        "reading_task": "Here；双踏板、共鸣与自由尾声",
+        "prior_partial_or_topical_note": "SUSTAIN_CONTINUATION.md"
+      },
+      {
+        "id": "A083",
+        "title": "Last Stardust - Fate stay night：Unlimited Blade Works - Insert Song.pdf",
+        "pages": 6,
+        "status": "pending",
+        "reading_task": "Last Stardust；有节奏／自由段的共同进入",
+        "prior_partial_or_topical_note": "FREE_PASSAGE_READING.md"
+      },
+      {
+        "id": "A047",
+        "title": "Giorno's Theme - JoJo's Bizarre Adventure：Golden Wind - Soundtrack.pdf",
+        "pages": 5,
+        "status": "pending",
+        "reading_task": "Giorno；D.S.／Coda、变音来路与滑奏",
+        "prior_partial_or_topical_note": "REPEAT_NAVIGATION.md"
+      },
+      {
+        "id": "A085",
+        "title": "Madoka Magica - Piano Suite Medley.pdf",
+        "pages": 10,
+        "status": "pending",
+        "reading_task": "Madoka组曲；换拍、速度等式与段落容量",
+        "prior_partial_or_topical_note": "METRE_TEMPO_READING.md"
+      },
+      {
+        "id": "A089",
+        "title": "Michishirube - Violet Evergarden - Ending Theme.pdf",
+        "pages": 6,
+        "status": "pending",
+        "reading_task": "Michishirube；跨表琶音、持音成员与留白",
+        "prior_partial_or_topical_note": "CROSS_STAFF_STUDY.md"
+      },
+      {
+        "id": "A109",
+        "title": "Secret Base - Anohana The Flower We Saw That Day - Ending Theme.pdf",
+        "pages": 6,
+        "status": "pending",
+        "reading_task": "Secret Base；复合拍、长短组与simile",
+        "prior_partial_or_topical_note": "RHYTHM_READING.md"
+      },
+      {
+        "id": "A106",
+        "title": "Sadness and Sorrow - Fantasy on a theme from the soundtrack of Naruto.pdf",
+        "pages": 8,
+        "status": "pending",
+        "reading_task": "Sadness and Sorrow；震音省写与慢背景",
+        "prior_partial_or_topical_note": "NOTATION_DETAILS.md"
+      },
+      {
+        "id": "A021",
+        "title": "Bloody Stream - JoJo's Bizarre Adventure.pdf",
+        "pages": 5,
+        "status": "pending",
+        "reading_task": "Bloody Stream；开放弧、颤音与持续边界",
+        "prior_partial_or_topical_note": "TRILL_READING.md"
+      },
+      {
+        "id": "A113",
+        "title": "Sincerely - Violet Evergarden Opening Theme.pdf",
+        "pages": 9,
+        "status": "pending",
+        "reading_task": "Sincerely；密度变化、梁干、符号与标记层次",
+        "prior_partial_or_topical_note": "CASES.md"
+      },
+      {
+        "id": "A146",
+        "title": "Zen Zen Zense - Your Name. - Insert Song.pdf",
+        "pages": 10,
+        "status": "pending",
+        "reading_task": "Zen Zen Zense；慢速进入、八度尾端与结束布局",
+        "prior_partial_or_topical_note": "OCTAVE_READING.md"
+      }
+    ]
+  },
+  "gould": {
+    "planned_pdf_pages": 696,
+    "source_note": "BEHIND_BARS_NOTES.md",
+    "read_printed_ranges": [
+      [
+        5,
+        43
+      ],
+      [
+        47,
+        58
+      ],
+      [
+        60,
+        73
+      ],
+      [
+        77,
+        88
+      ],
+      [
+        92,
+        93
+      ],
+      [
+        101,
+        122
+      ],
+      [
+        125,
+        146
+      ],
+      [
+        153,
+        190
+      ],
+      [
+        194,
+        194
+      ],
+      [
+        200,
+        215
+      ],
+      [
+        219,
+        240
+      ],
+      [
+        303,
+        338
+      ],
+      [
+        481,
+        494
+      ],
+      [
+        557,
+        562
+      ],
+      [
+        609,
+        621
+      ]
+    ],
+    "verified_pdf_offset": 20,
+    "counting_note": "保守并集：仅纳入笔记明确完整看过图文的页；不自动从缓存图片／OCR推阅读，不纳入只定位或仅部分图的旧页。每个已核页的本机映射为印刷页＋20；复读去重。",
+    "remaining_plan": "完成本地全书逐页阅读覆盖；先补共性、键盘、布局与自由段缺口，再读其它编制的适用界限。书读完仍需谱例迁移，不据此宣称规则全部掌握。"
+  },
+  "resources": {
+    "source_note": "RESOURCE_PLAN_MAPPING.md",
+    "planned_items": 25,
+    "completion_definition": "完成该行明确的公开材料范围；YMD／ICS只核公开纲要／样本，不代表学过付费课程。未取得项保留，不以链接代替内容。",
+    "items": [
+      {
+        "id": "R01",
+        "scope": "Hoshide：净书页及6／7mm两版全部8页",
+        "status": "complete"
+      },
+      {
+        "id": "R02",
+        "scope": "Kokecola准备篇：正文及全部相关设置图",
+        "status": "partial"
+      },
+      {
+        "id": "R03",
+        "scope": "Kokecola输入篇：正文及全部相关流程图",
+        "status": "partial"
+      },
+      {
+        "id": "R04",
+        "scope": "Kokecola净书篇：正文及7张关键前后图",
+        "status": "complete"
+      },
+      {
+        "id": "R05",
+        "scope": "Legatissimo：作者身份与公开作品关联",
+        "status": "partial"
+      },
+      {
+        "id": "R06",
+        "scope": "À la manière de：成品谱与署名／版本",
+        "status": "partial"
+      },
+      {
+        "id": "R07",
+        "scope": "第一叙事曲：版本与净书实图",
+        "status": "unread"
+      },
+      {
+        "id": "R08",
+        "scope": "Imaginary Polonaise：采谱／净书实图",
+        "status": "unread"
+      },
+      {
+        "id": "R09",
+        "scope": "Por Una Cabeza：MuseScore成品实图",
+        "status": "unread"
+      },
+      {
+        "id": "R10",
+        "scope": "廿十七：定位正确作者及可得材料",
+        "status": "unverified"
+      },
+      {
+        "id": "R11",
+        "scope": "萌象的J哥：连梁视频",
+        "status": "unread"
+      },
+      {
+        "id": "R12",
+        "scope": "萌象的J哥：页面视频",
+        "status": "unread"
+      },
+      {
+        "id": "R13",
+        "scope": "萌象的J哥：多声部视频",
+        "status": "unread"
+      },
+      {
+        "id": "R14",
+        "scope": "萌象的J哥：跨表琶音视频",
+        "status": "partial"
+      },
+      {
+        "id": "R15",
+        "scope": "萌象的J哥：符号模板视频",
+        "status": "unread"
+      },
+      {
+        "id": "R16",
+        "scope": "Behind Bars：本地696页；共性／钢琴／排版优先",
+        "status": "partial"
+      },
+      {
+        "id": "R17",
+        "scope": "MOLA：16页完整公开指南",
+        "status": "partial"
+      },
+      {
+        "id": "R18",
+        "scope": "MPA：20页完整公开指南",
+        "status": "complete"
+      },
+      {
+        "id": "R19",
+        "scope": "LilyPond：essay及定向间距文档／谱例／源码",
+        "status": "partial"
+      },
+      {
+        "id": "R20",
+        "scope": "MuseScore 3排版手册：相关章节及Evolution差异",
+        "status": "partial"
+      },
+      {
+        "id": "R21",
+        "scope": "YMD：公开纲要及一页钢琴样本",
+        "status": "complete"
+      },
+      {
+        "id": "R22",
+        "scope": "藤井大河：正文及配套Dorico设置图",
+        "status": "partial"
+      },
+      {
+        "id": "R23",
+        "scope": "ICS：公开课程纲要的范围核实",
+        "status": "complete"
+      },
+      {
+        "id": "R24",
+        "scope": "LilyPond snippets：定向键盘／多声部源码及对应图",
+        "status": "partial"
+      },
+      {
+        "id": "R25",
+        "scope": "Mutopia：贡献规则、作品504两页及源码／许可",
+        "status": "complete"
+      }
+    ]
+  },
+  "skill_transfer": {
+    "planned_scenarios": 8,
+    "completion_definition": "预选实际问题，不提供预期答案；用skill输出判断后回看原图、音乐与规范，核误报、理由及边界。可只读；有候选才做原生保护。首例独立agent，其余不得冒称独立盲测。",
+    "scenarios": [
+      {
+        "id": "T01",
+        "task": "同表多层、跨手与音区范围",
+        "status": "complete",
+        "reference": "INTEGRATED_READING_KAKYOIN.md"
+      },
+      {
+        "id": "T02",
+        "task": "陌生片段的变音／两手横距诊断",
+        "status": "pending",
+        "reference": "SPACING_TRANSFER.md"
+      },
+      {
+        "id": "T03",
+        "task": "熟悉节奏、切分、异分共同时间点",
+        "status": "pending",
+        "reference": "RHYTHM_READING.md"
+      },
+      {
+        "id": "T04",
+        "task": "换谱号／八度／加线的取舍",
+        "status": "pending",
+        "reference": "CLEF_READING.md"
+      },
+      {
+        "id": "T05",
+        "task": "梁弧、力度与文字的归属及误报",
+        "status": "pending",
+        "reference": "CURVES_STUDY.md"
+      },
+      {
+        "id": "T06",
+        "task": "符号、装饰、拼写与记法建议的边界",
+        "status": "pending",
+        "reference": "NOTATION_DETAILS.md"
+      },
+      {
+        "id": "T07",
+        "task": "反复、持续、踏板与自由等待",
+        "status": "pending",
+        "reference": "REPEAT_NAVIGATION.md"
+      },
+      {
+        "id": "T08",
+        "task": "完整相邻页的综合诊断与换页取舍",
+        "status": "pending",
+        "reference": "PAGE_FLOW_STUDY.md"
+      }
+    ]
+  },
+  "user_score": {
+    "planned_integrated_rounds": 1,
+    "completed_integrated_rounds": 0,
+    "milestones": [
+      {
+        "id": "U01",
+        "task": "全8页阅读与音乐含义／输入核查",
+        "status": "complete",
+        "reference": "WHOLE_SCORE_REVIEW.md"
+      },
+      {
+        "id": "U02",
+        "task": "独立副本局部候选与保护验证",
+        "status": "complete",
+        "reference": "USER_SPACING_APPLICATION.md"
+      },
+      {
+        "id": "U03",
+        "task": "重新读当前输入，组合少量明确收益的候选",
+        "status": "pending",
+        "reference": "INTEGRATED_REVIEW.md"
+      },
+      {
+        "id": "U04",
+        "task": "组合后整谱原生重载、音乐／范围／页布局核查",
+        "status": "pending",
+        "reference": "WHOLE_SCORE_REVIEW.md"
+      }
+    ]
+  },
+  "release": {
+    "version": "0.1.0",
+    "tag": "engraving-v0.1.0",
+    "stage": "usable-research",
+    "source_skill": "../../skills/piano-engraving/SKILL.md",
+    "release_notes": "../ENGRAVING_RELEASES.md",
+    "planned_topics": 20
+  }
+}
