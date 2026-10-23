@@ -4,7 +4,9 @@
 
 ## 发布后的工作分支更新
 
-2026-10-23补完[ninelie六页](engraving/INTEGRATED_READING_NINELIE.md)，累计整曲深化9/24首；新增Gould10页实质图文及2页标题／目录查阅，连音与替代记法知识接入现有skill入口。本轮未另打版本标签，0.1.0快照保持；当前checkout可直接使用新知识。工作分支的分析需同时记录实际Git提交和最近发布标签，不能只用skill元数据版本代表全部后续案例。较大批次更新再发布下一版。
+2026-10-23补完[ninelie六页](engraving/INTEGRATED_READING_NINELIE.md)，该批累计整曲深化9/24首；新增Gould10页实质图文及2页标题／目录查阅，连音与替代记法知识接入现有skill入口。本轮未另打版本标签，0.1.0快照保持；当前checkout可直接使用新知识。工作分支的分析需同时记录实际Git提交和最近发布标签，不能只用skill元数据版本代表全部后续案例。较大批次更新再发布下一版。
+
+同日再合入[Kakyoin整曲](engraving/INTEGRATED_READING_KAKYOIN.md)、[MOLA全文及译文核对](engraving/MOLA_READING.md)和[变音边界](engraving/ACCIDENTAL_EDGE_CASES.md)，累计10/24首、7/25项公开范围。Gould292/696覆盖中，288页实质图文、4页标题／目录；新补5页实质，另4页是旧记录补录，不能当本次新学习。当前skill按需入口已接入这些判断，历史发布标签不变。
 
 ## 0.1.0 — 2026-10-23
 

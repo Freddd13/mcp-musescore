@@ -1,0 +1,575 @@
+{
+  "date": "2026-10-23",
+  "scope": "Complete-context second reading of A067 after the 2026-10-20 independent page-3 skill sample; read-only research, no new blind evaluation or native candidate.",
+  "temporary_parallel_authorization": {
+    "date": "2026-10-23",
+    "cutoff_local": "17:00 Asia/Shanghai",
+    "no_further_delegation": true
+  },
+  "sources": {
+    "score": {
+      "id": "A067",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf",
+      "sha256_before": "bcfab2581ff47a583bef42e7d6e04f84417c7663a028f7f4f54966805165ccab",
+      "sha256_after": "bcfab2581ff47a583bef42e7d6e04f84417c7663a028f7f4f54966805165ccab",
+      "matches_recorded_inventory_baseline": true,
+      "pdf_pages": 4,
+      "printed_pages_match_pdf": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "book": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "pdf_pages": 696,
+      "sha256_at_text_reading_start": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "matches_recorded_baseline": true,
+      "checked_pdf_page_offset": 20
+    }
+  },
+  "actual_reading": {
+    "score_whole_pdf_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "score_whole_page_count": 4,
+    "score_local_regions_count": 7,
+    "book_printed_full_technical_pages": [
+      115,
+      153,
+      155,
+      169,
+      170,
+      307,
+      324,
+      325,
+      560
+    ],
+    "book_physical_pdf_full_pages": [
+      135,
+      173,
+      175,
+      189,
+      190,
+      327,
+      344,
+      345,
+      580
+    ],
+    "book_full_technical_pages_count": 9,
+    "book_first_time_unique_pages_this_round": [],
+    "book_first_time_unique_pages_count": 0,
+    "book_chapter_title_or_contents_pages_count": 0,
+    "total_images_actually_viewed": 20,
+    "score_historical_whole_page_coverage_revisited": true,
+    "historical_corpus_379_near_read_count_not_incremented": true,
+    "book_old_page_evidence": [
+      "beam_rhythm_evidence.json",
+      "dynamics_articulation_evidence.json",
+      "skill_forward_reading_evidence.json",
+      "mixed_nuts_reading_evidence.json",
+      "page_flow_evidence.json",
+      "BEHIND_BARS_NOTES.md"
+    ]
+  },
+  "score_full_images_reused": [
+    {
+      "page": 1,
+      "path": "tmp\\engraving\\corpus\\A067\\page-1.jpg",
+      "size": [
+        1800,
+        2547
+      ],
+      "sha256": "aaed0fb485f5d0020cee8b2d84f6cd56b26f0d300b6ba6fd79cbfb14dda0efb7",
+      "actually_viewed_full_page_this_round": true
+    },
+    {
+      "page": 2,
+      "path": "tmp\\engraving\\corpus\\A067\\page-2.jpg",
+      "size": [
+        1800,
+        2547
+      ],
+      "sha256": "9fb577bc48a69abd87f399fcc05d322bd746238795f5d6dc0a4a2717c3c89d08",
+      "actually_viewed_full_page_this_round": true
+    },
+    {
+      "page": 3,
+      "path": "tmp\\engraving\\corpus\\A067\\page-3.jpg",
+      "size": [
+        1800,
+        2547
+      ],
+      "sha256": "2d4a290f314578104021a1a49420f6dccadcf155df04525d46c603642d6a45d0",
+      "actually_viewed_full_page_this_round": true
+    },
+    {
+      "page": 4,
+      "path": "tmp\\engraving\\corpus\\A067\\page-4.jpg",
+      "size": [
+        1800,
+        2547
+      ],
+      "sha256": "3d8a5a0dd29a21205c720e7da51121061c51d1ecf91875ea3f260403e3778bea",
+      "actually_viewed_full_page_this_round": true
+    }
+  ],
+  "score_local_images": [
+    {
+      "name": "p1-intro",
+      "page": 1,
+      "source_render": "tmp\\engraving\\corpus\\A067\\page-1.jpg",
+      "crop_pixels": [
+        55,
+        535,
+        1740,
+        1120
+      ],
+      "path": "tmp\\engraving\\kakyoin-whole-2026-10-23\\p1-intro.png",
+      "sha256": "0020b7fbfa509b7daa8450edf5ac794902fa065aed7386637488b98a642df1d6",
+      "actually_viewed_this_round": true
+    },
+    {
+      "name": "p1-A-pedal",
+      "page": 1,
+      "source_render": "tmp\\engraving\\corpus\\A067\\page-1.jpg",
+      "crop_pixels": [
+        55,
+        1125,
+        1740,
+        1750
+      ],
+      "path": "tmp\\engraving\\kakyoin-whole-2026-10-23\\p1-A-pedal.png",
+      "sha256": "8fca75123d4f478b37c38602be698c18c960478c5deb62967a5667d5c68fcad7",
+      "actually_viewed_this_round": true
+    },
+    {
+      "name": "p2-B-layer",
+      "page": 2,
+      "source_render": "tmp\\engraving\\corpus\\A067\\page-2.jpg",
+      "crop_pixels": [
+        55,
+        50,
+        1740,
+        805
+      ],
+      "path": "tmp\\engraving\\kakyoin-whole-2026-10-23\\p2-B-layer.png",
+      "sha256": "74fb0bab3ce4389b5849744d6550337bf266d059905520f1b00f3e9271a19335",
+      "actually_viewed_this_round": true
+    },
+    {
+      "name": "p2-C-D",
+      "page": 2,
+      "source_render": "tmp\\engraving\\corpus\\A067\\page-2.jpg",
+      "crop_pixels": [
+        55,
+        1480,
+        1740,
+        2400
+      ],
+      "path": "tmp\\engraving\\kakyoin-whole-2026-10-23\\p2-C-D.png",
+      "sha256": "0656d4933dc9585f4c75545f01601bcb3f4226ab83ff7a6491368b866b10cb0b",
+      "actually_viewed_this_round": true
+    },
+    {
+      "name": "p4-upper-layer",
+      "page": 4,
+      "source_render": "tmp\\engraving\\corpus\\A067\\page-4.jpg",
+      "crop_pixels": [
+        55,
+        95,
+        1740,
+        900
+      ],
+      "path": "tmp\\engraving\\kakyoin-whole-2026-10-23\\p4-upper-layer.png",
+      "sha256": "fea18b12ef755a3860488738a751e4e534c300ebf19405ea9e713af7204eeabd",
+      "actually_viewed_this_round": true
+    },
+    {
+      "name": "p4-F-meno",
+      "page": 4,
+      "source_render": "tmp\\engraving\\corpus\\A067\\page-4.jpg",
+      "crop_pixels": [
+        55,
+        900,
+        1740,
+        1620
+      ],
+      "path": "tmp\\engraving\\kakyoin-whole-2026-10-23\\p4-F-meno.png",
+      "sha256": "11cb651cc6c0e9510aab309090b9c870336c551b53bf9e961b0e62803fe13893",
+      "actually_viewed_this_round": true
+    },
+    {
+      "name": "p4-G-end",
+      "page": 4,
+      "source_render": "tmp\\engraving\\corpus\\A067\\page-4.jpg",
+      "crop_pixels": [
+        55,
+        1660,
+        1740,
+        2400
+      ],
+      "path": "tmp\\engraving\\kakyoin-whole-2026-10-23\\p4-G-end.png",
+      "sha256": "5b71d64f429a8fcfbc9fe74ba8d17b7208bbef4cb11640883fe9df7b93cf4fb6",
+      "actually_viewed_this_round": true
+    }
+  ],
+  "book_full_images_reused": [
+    {
+      "printed_page": 115,
+      "pdf_page": 135,
+      "cache_path": "tmp\\engraving\\dynamic-articulation-2026-10-20\\book-135.jpg",
+      "cache_sha256": "73612d55e7d05688a637178efb58b95c5fc818b83c273d89a18585461c084e99",
+      "actually_viewed_full_page": true,
+      "technical_page": true,
+      "new_unique_page": false
+    },
+    {
+      "printed_page": 153,
+      "pdf_page": 173,
+      "cache_path": "tmp\\engraving\\beaming-2026-10-19\\book-173.jpg",
+      "cache_sha256": "26c4a59d62593b7bc23ea21f9d0a1e10d470747e43dda079cce4643852741739",
+      "actually_viewed_full_page": true,
+      "technical_page": true,
+      "new_unique_page": false
+    },
+    {
+      "printed_page": 155,
+      "pdf_page": 175,
+      "cache_path": "tmp\\engraving\\beaming-2026-10-19\\book-175.jpg",
+      "cache_sha256": "4c28e7c6b20d24d312ce7ca70ebbeca768c29aac9524c4944a5116f084eaed9f",
+      "actually_viewed_full_page": true,
+      "technical_page": true,
+      "new_unique_page": false
+    },
+    {
+      "printed_page": 169,
+      "pdf_page": 189,
+      "cache_path": "tmp\\engraving\\integrated-mixed-nuts-2026-10-22\\Gould-p169.png",
+      "cache_sha256": "5a35d0c9a6e8fae684ff24d58ff75746dff755ae5b495b15823ddde116630fb9",
+      "actually_viewed_full_page": true,
+      "technical_page": true,
+      "new_unique_page": false
+    },
+    {
+      "printed_page": 170,
+      "pdf_page": 190,
+      "cache_path": "tmp\\engraving\\integrated-mixed-nuts-2026-10-22\\Gould-p170.png",
+      "cache_sha256": "6928a86a3e4c933d4670c2db1c973c488552e15d468763ea5e30f084a5f15efd",
+      "actually_viewed_full_page": true,
+      "technical_page": true,
+      "new_unique_page": false
+    },
+    {
+      "printed_page": 307,
+      "pdf_page": 327,
+      "cache_path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\gould-307.png",
+      "cache_sha256": "6c21d51456dd6249edeb441991b6039112b37734a19850a8f7d1321978de2eaa",
+      "actually_viewed_full_page": true,
+      "technical_page": true,
+      "new_unique_page": false
+    },
+    {
+      "printed_page": 324,
+      "pdf_page": 344,
+      "cache_path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\gould-324.png",
+      "cache_sha256": "3dbc8ff47f1661aa42b29cacbf3ff11811159199511990e6aa2f952cd95aec72",
+      "actually_viewed_full_page": true,
+      "technical_page": true,
+      "new_unique_page": false
+    },
+    {
+      "printed_page": 325,
+      "pdf_page": 345,
+      "cache_path": "tmp\\engraving\\skill-forward-2026-10-20\\agent-reading\\gould-325.png",
+      "cache_sha256": "385922af429e514500d324e2dc048e0d0f982c4ec881db089ee990d66df3ca80",
+      "actually_viewed_full_page": true,
+      "technical_page": true,
+      "new_unique_page": false
+    },
+    {
+      "printed_page": 560,
+      "pdf_page": 580,
+      "cache_path": "tmp\\engraving\\page-flow-2026-10-19\\book-580.jpg",
+      "cache_sha256": "81aa1d7966466e5740afb8c019e8b71f453c6e73e6a7713135f1ca7762a126e6",
+      "actually_viewed_full_page": true,
+      "technical_page": true,
+      "new_unique_page": false
+    }
+  ],
+  "B_first_bar": {
+    "page": 2,
+    "system": 1,
+    "bar": 1,
+    "head_x_pt": [
+      67.644,
+      81.63,
+      95.796,
+      109.8,
+      123.966,
+      137.952,
+      151.938,
+      166.104
+    ],
+    "tenuto_x_pt": [
+      67.644,
+      109.8,
+      151.938
+    ],
+    "head_font": "CHPCHP+Chaconne",
+    "head_size": 16.2899,
+    "gaps_pt": [
+      13.98599999999999,
+      14.166000000000011,
+      14.00399999999999,
+      14.165999999999997,
+      13.986000000000004,
+      13.98599999999999,
+      14.166000000000025
+    ],
+    "max_min_ratio": 1.0128700128700154,
+    "scope": "Seven adjacent within-bar intervals of the upper repeated eight quaver chords, excluding the longer last-quaver to next-bar span and the sustained melody.",
+    "notated_chords": 8,
+    "quaver_beaming_visually_checked": [
+      4,
+      4
+    ],
+    "tenuto_chord_indices_1_based": [
+      1,
+      4,
+      7
+    ],
+    "cyclic_tenuto_location_intervals_quavers": [
+      3,
+      3,
+      2
+    ],
+    "tenuto_may_indicate_duration_separation_or_stress_not_fixed_velocity": true,
+    "not_a_whole_score_uniformity_or_engine_comparison": true
+  },
+  "page4_system_capacity": [
+    {
+      "pdf_page": 4,
+      "system": 1,
+      "through_grand_staff_barline_top_pdf_pt": 72.054,
+      "boundary_x_pdf_pt_including_system_start": [
+        36.234,
+        224.118,
+        391.644,
+        558.918
+      ],
+      "number_of_complete_measures": 3,
+      "double_barline_extra_stroke_not_double_counted": [],
+      "method": "Full-page and local visual review; vertical PDF line segments required to start at the same staff-line top and span both staves, excluding the duplicate stroke of an end double barline. Cross-staff stems have different starts/ends."
+    },
+    {
+      "pdf_page": 4,
+      "system": 2,
+      "through_grand_staff_barline_top_pdf_pt": 203.796,
+      "boundary_x_pdf_pt_including_system_start": [
+        36.234,
+        220.41,
+        376.056,
+        558.918
+      ],
+      "number_of_complete_measures": 3,
+      "double_barline_extra_stroke_not_double_counted": [
+        556.794
+      ],
+      "method": "Full-page and local visual review; vertical PDF line segments required to start at the same staff-line top and span both staves, excluding the duplicate stroke of an end double barline. Cross-staff stems have different starts/ends."
+    },
+    {
+      "pdf_page": 4,
+      "system": 3,
+      "through_grand_staff_barline_top_pdf_pt": 320.67,
+      "boundary_x_pdf_pt_including_system_start": [
+        36.234,
+        119.286,
+        188.532,
+        246.078,
+        315.324,
+        373.41,
+        442.638,
+        501.606,
+        558.918
+      ],
+      "number_of_complete_measures": 8,
+      "double_barline_extra_stroke_not_double_counted": [],
+      "method": "Full-page and local visual review; vertical PDF line segments required to start at the same staff-line top and span both staves, excluding the duplicate stroke of an end double barline. Cross-staff stems have different starts/ends."
+    },
+    {
+      "pdf_page": 4,
+      "system": 4,
+      "through_grand_staff_barline_top_pdf_pt": 452.07,
+      "boundary_x_pdf_pt_including_system_start": [
+        36.234,
+        113.094,
+        187.812,
+        240.066,
+        309.294,
+        378.18,
+        440.874,
+        494.352,
+        558.918
+      ],
+      "number_of_complete_measures": 8,
+      "double_barline_extra_stroke_not_double_counted": [
+        556.794
+      ],
+      "method": "Full-page and local visual review; vertical PDF line segments required to start at the same staff-line top and span both staves, excluding the duplicate stroke of an end double barline. Cross-staff stems have different starts/ends."
+    },
+    {
+      "pdf_page": 4,
+      "system": 5,
+      "through_grand_staff_barline_top_pdf_pt": 583.812,
+      "boundary_x_pdf_pt_including_system_start": [
+        36.234,
+        226.602,
+        398.016,
+        558.918
+      ],
+      "number_of_complete_measures": 3,
+      "double_barline_extra_stroke_not_double_counted": [],
+      "method": "Full-page and local visual review; vertical PDF line segments required to start at the same staff-line top and span both staves, excluding the duplicate stroke of an end double barline. Cross-staff stems have different starts/ends."
+    }
+  ],
+  "judgments": [
+    {
+      "location": "p2 system 1 B first measure",
+      "decision": "retain",
+      "fact": "Eight repeated quaver chords have 4+4 beaming; tenuto occurs at attacks 1, 4, 7 while an independent slower melodic line continues.",
+      "reading_benefit": "Half-bar counting, local touch pattern and sustained melody can remain separate visible layers.",
+      "alternative_cost": "Rebeaming to every articulation location repeats one layer while weakening the existing metre reference.",
+      "sources_printed": [
+        115,
+        153,
+        155,
+        169,
+        170
+      ],
+      "boundary": "Tenuto placement does not prove a unique stress, duration or velocity interpretation."
+    },
+    {
+      "location": "p1 A systems 3 to 5",
+      "decision": "retain conditional shorthand",
+      "fact": "Explicit Ped./release groups precede simile; explicit pedal groups return near changed accompaniment and ties, and another pattern is established before later simile.",
+      "reading_benefit": "Reduces repeated instructions after a recognizable model while refreshing the model where the material changes.",
+      "alternative_cost": "Global removal or indefinite propagation of simile erases local changes; independent excerpting may justify a reminder.",
+      "sources_topics": [
+        "PIANO_TEXTURE_STUDY.md",
+        "INTEGRATED_READING_CONNECT.md"
+      ],
+      "boundary": "Pedal meaning inferred from placement and preceding groups; no internal scope, exact physical foot timing or playback inferred."
+    },
+    {
+      "location": "p3 final system into p4 first two systems",
+      "decision": "retain at-pitch concurrent layers",
+      "fact": "A slower line transfers into the upper staff under high fast figuration; p4 keeps both layers with ledger lines, ties and local hand brackets.",
+      "reading_benefit": "Maintains the simultaneous pitch relationships and the traceable slower line.",
+      "alternative_cost": "Adding upper-voice-only 8va without explicit scope would create the at-pitch/transposed ambiguity; separate staff uses vertical and page budget.",
+      "sources_printed": [
+        307,
+        324,
+        325
+      ],
+      "boundary": "No editable score or complete independent sounding-pitch verification; publisher intent unproven."
+    },
+    {
+      "location": "p4 system 2 final 10-note descending group",
+      "decision": "retain pending a concrete beam-routing improvement",
+      "fact": "The descending group crosses to the lower staff while its beam remains continuously above, creating long stems for the low notes.",
+      "reading_benefit": "Keeps the descending group and its boundary visually traceable.",
+      "alternative_cost": "A fixed ordinary stem length would require rerouting or dividing the beam and reconsidering the sustained chord and curves nearby.",
+      "sources_topics": [
+        "CROSS_STAFF_STUDY.md"
+      ],
+      "boundary": "Full clearance/minimum-stem geometry and a rerouted native candidate have not been tested; a long stem is not by itself an error."
+    },
+    {
+      "location": "p4 systems 1 to 5",
+      "decision": "retain content-dependent capacity",
+      "fact": "System measure counts are 3, 3, 8, 8, 3 under unchanged C metre; long cross-staff stems and double-line strokes have not been counted as extra measures.",
+      "reading_benefit": "Fast figuration and interacting layers receive horizontal space; long harmonic spans do not waste a whole system per four sparse bars.",
+      "alternative_cost": "Fixed four-measure lines could overexpand sparse material and remove vertical budget from dense runs.",
+      "boundary": "No replacement rendering; no claim of uniquely optimal page count or measured improvement."
+    },
+    {
+      "location": "p4 F first three two-measure groups",
+      "decision": "retain sustain versus rearticulation",
+      "fact": "Some tones sustain while the bass in the second measure is written with two minim attacks.",
+      "reading_benefit": "Shows which tones remain and which are newly struck.",
+      "alternative_cost": "Replacing the second-measure bass minims with a single semibreve would alter the visible rhythm/action.",
+      "boundary": "No full note-by-note music transcription or playback inference."
+    },
+    {
+      "location": "p4 G entry",
+      "decision": "retain sequential markers",
+      "fact": "sub.f at the opening chord, mp at the later fast-group entry, and cresc. later have distinct visible anchors.",
+      "reading_benefit": "Separates successive entry states rather than forcing all markings into one onset.",
+      "alternative_cost": "Alignment, consolidation or deletion would obscure the temporal change.",
+      "boundary": "PDF does not establish software dynamic scope or exact MIDI values."
+    },
+    {
+      "location": "p3 to p4 page boundary",
+      "decision": "performance-condition review, not declared error",
+      "fact": "The slower line ties across the boundary; an eighth rest in the fast layer does not silence the bass and sustained layers.",
+      "nominal_eighth_rest_seconds_at_quarter_140": 0.21428571428571427,
+      "reading_benefit": "Protects the difference between one layer stopping and a physically usable page-turn window.",
+      "alternative_cost": "Treating a short rest or sustained sound as free hands could make a print layout unusable.",
+      "sources_printed": [
+        560
+      ],
+      "boundary": "Under first-music-page-right duplex convention this boundary is a physical turn; medium, hand occupancy, pedal sustain and actual performance not verified."
+    }
+  ],
+  "old_conclusions_checked": [
+    "p1 pulse and sustained-layer separation with 8vb continuation",
+    "conditional A pedal shorthand",
+    "p3 dotted voice-leading guide distinguished from explicit glissando",
+    "inline E has multiple structural cues",
+    "F/Meno/G states remain distinct"
+  ],
+  "old_wording_clarification": "READING_012 described F lower-staff smaller actions; in the sustained F context these include repeated minims against upper sustained semibreves, not another fast run.",
+  "limits": [
+    "No new independent blind skill sample.",
+    "No editable official score, native candidate, automatic change, host/core/MCP/plugin edit, print or audition.",
+    "No user aesthetic confirmation or claim all engraving knowledge is mastered.",
+    "No whole-score note-by-note collation or proven publisher decision process.",
+    "Private score/textbook images and extracted textbook text not published."
+  ],
+  "cache_policy": {
+    "private_dir": "tmp/engraving/kakyoin-whole-2026-10-23",
+    "whole_page_images_reused": 13,
+    "new_private_crops": 7,
+    "new_full_page_renders": 0,
+    "source_PDF_copies": 0,
+    "runtime_copies": 0,
+    "files_deleted": 0
+  },
+  "updated_files": [
+    "docs/engraving/INTEGRATED_READING_KAKYOIN.md",
+    "docs/engraving/kakyoin_whole_reading_evidence.json"
+  ],
+  "git_commit_by_subagent": false,
+  "root_integration_review": {
+    "date": "2026-10-23",
+    "agent_delivery_accepted_after_review": true,
+    "scope": "Read entire delivered analysis, checked ledger roles and spot-viewed the following raw images. Not a second independent evaluation or claim that root re-viewed every agent image.",
+    "images_actually_viewed": [
+      {
+        "path": "tmp/engraving/kakyoin-whole-2026-10-23/p2-B-layer.png",
+        "sha256": "74fb0bab3ce4389b5849744d6550337bf266d059905520f1b00f3e9271a19335"
+      },
+      {
+        "path": "tmp/engraving/corpus/A067/page-4.jpg",
+        "sha256": "3d8a5a0dd29a21205c720e7da51121061c51d1ecf91875ea3f260403e3778bea"
+      }
+    ],
+    "changes": "Integrated conditional judgments into existing routes, updated X/Y and historical correction separately; no native score changes."
+  }
+}

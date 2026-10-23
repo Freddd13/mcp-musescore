@@ -13,13 +13,19 @@
     "planned_pages": 1135,
     "closeout_definition": "逐份复核首轮笔记的排法理由、适用条件、矛盾与未解问题；有缺口则追原页／规范，记录保留、改进或未知。不是再生成一套图。",
     "closeout_completed_ids": [
-      "A098"
+      "A098",
+      "A067"
     ],
     "closeout_records": {
       "A098": {
         "note": "INTEGRATED_READING_NINELIE.md",
         "evidence": "ninelie_whole_reading_evidence.json",
         "unresolved": "Simultaneous loco/ottava scope remains an editorial question; closeout is a review, not zero remaining questions."
+      },
+      "A067": {
+        "note": "INTEGRATED_READING_KAKYOIN.md",
+        "evidence": "kakyoin_whole_reading_evidence.json",
+        "unresolved": "Native alternatives, complete pitch collation and actual p3-to-p4 turning conditions remain unverified."
       }
     }
   },
@@ -113,9 +119,11 @@
         "id": "A067",
         "title": "Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf",
         "pages": 4,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "补完Kakyoin整曲；慢线跨手与范围",
-        "prior_partial_or_topical_note": "INTEGRATED_READING_KAKYOIN.md"
+        "prior_partial_or_topical_note": "INTEGRATED_READING_KAKYOIN.md",
+        "note": "INTEGRATED_READING_KAKYOIN.md",
+        "evidence": "kakyoin_whole_reading_evidence.json"
       },
       {
         "id": "A102",
@@ -241,19 +249,11 @@
       ],
       [
         47,
-        58
-      ],
-      [
-        60,
         73
       ],
       [
         77,
-        88
-      ],
-      [
-        92,
-        93
+        98
       ],
       [
         101,
@@ -296,8 +296,26 @@
     "counting_note": "保守并集：完整实质图文页与实际查看的章首页／目录分列；两者仅用于逐页查阅覆盖，不以标题目录增加技术学习成果。缓存和OCR不推定已读，复读去重。已核技术页映射为印刷页＋20。",
     "remaining_plan": "完成本地全书逐页阅读覆盖；先补共性、键盘、布局与自由段缺口，再读其它编制的适用界限。书读完仍需谱例迁移，不据此宣称规则全部掌握。",
     "read_non_substantive_pdf_pages": [
+      119,
+      120,
       519,
       520
+    ],
+    "ledger_reconciliations": [
+      {
+        "registered_on": "2026-10-23",
+        "historical_reading_date": "2026-10-19",
+        "printed_pages": [
+          59,
+          89,
+          90,
+          91
+        ],
+        "original_evidence": "accidental_spacing_evidence.json",
+        "original_field": "book.printed_pages_text_and_full_figures_reviewed",
+        "reconciliation": "accidental_edge_cases_evidence.json",
+        "new_learning_pages": 0
+      }
     ]
   },
   "resources": {
@@ -388,7 +406,9 @@
       {
         "id": "R17",
         "scope": "MOLA：16页完整公开指南",
-        "status": "partial"
+        "status": "complete",
+        "note": "MOLA_READING.md",
+        "evidence": "mola_reading_evidence.json"
       },
       {
         "id": "R18",
@@ -526,14 +546,24 @@
   },
   "last_study_batch": {
     "date": "2026-10-23",
-    "score_id": "A098",
-    "note": "INTEGRATED_READING_NINELIE.md",
-    "evidence": "ninelie_whole_reading_evidence.json",
+    "scope": "Reviewed Kakyoin whole-score reading, MOLA completion and Gould accidental edge cases",
+    "notes": [
+      "INTEGRATED_READING_KAKYOIN.md",
+      "MOLA_READING.md",
+      "ACCIDENTAL_EDGE_CASES.md"
+    ],
+    "evidence": [
+      "kakyoin_whole_reading_evidence.json",
+      "mola_reading_evidence.json",
+      "accidental_edge_cases_evidence.json"
+    ],
     "new_deep_scores": 1,
-    "new_deep_pages": 6,
+    "new_deep_pages": 4,
     "new_all_score_closeouts": 1,
-    "new_substantive_book_pages": 10,
+    "new_substantive_book_pages": 5,
+    "historical_substantive_ledger_correction": 4,
     "new_title_or_contents_pages": 2,
+    "new_complete_resource_scopes": 1,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidates": 0
   }

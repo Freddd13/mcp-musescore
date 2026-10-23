@@ -1,0 +1,516 @@
+{
+  "date": "2026-10-23",
+  "purpose": "Bounded Gould p59 and p89-100 complete reading, source-conditions review, and reconciliation of omitted historical full-page evidence; no engraving software changes.",
+  "clock_checks_utc": [
+    "2026-10-23 05:21:04 UTC",
+    "2026-10-23 05:22:44 UTC",
+    "2026-10-23 05:24:08 UTC",
+    "2026-10-23 05:25:15 UTC"
+  ],
+  "temporary_parallel_cutoff_utc": "2026-10-23 09:00:00 UTC",
+  "source": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "pdf_total_pages": 696,
+    "sha256_before": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "unchanged_from_prior_registered_source": true,
+    "edition": "Elaine Gould, Behind Bars, Faber Music, 2011; user-provided local PDF",
+    "mapping_for_verified_pages": "PDF ordinal (1-based) = printed page sequence +20; 99/100 have no printed numeral but position and chapter title/contents verified"
+  },
+  "reading_scope": {
+    "requested_printed_page_sequences": [
+      59,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100
+    ],
+    "requested_page_images_actually_read": 13,
+    "requested_page_images_total": 13,
+    "substantive_pages_read_this_turn_including_revisits": [
+      59,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+    ],
+    "new_substantive_pages": [
+      94,
+      95,
+      96,
+      97,
+      98
+    ],
+    "existing_technical_revisits_in_requested_range": [
+      59,
+      89,
+      90,
+      91,
+      92,
+      93
+    ],
+    "new_paratext_only_sequences": [
+      99,
+      100
+    ],
+    "additional_existing_full_page_context_revisits": [
+      60,
+      83
+    ],
+    "filename_disambiguation_only_not_claimed_new_learning": [
+      114,
+      115,
+      116
+    ],
+    "no_full_book_or_all_accidental_practice_mastery_claim": true
+  },
+  "historical_ledger_reconciliation": {
+    "scope": "Known omissions in conservative ledger, not a claim the ledger had captured all prior reading.",
+    "old_coverage_to_register_if_still_missing": [
+      59,
+      89,
+      90,
+      91
+    ],
+    "old_evidence_date": "2026-10-19",
+    "old_evidence_file": "docs/engraving/accidental_spacing_evidence.json",
+    "old_evidence_field": "book.printed_pages_text_and_full_figures_reviewed",
+    "corroborating_notes": [
+      "docs/engraving/BEHIND_BARS_NOTES.md 2026-10-19 accidental follow-up",
+      "docs/engraving/ACCIDENTAL_SPACING.md",
+      "docs/engraving/NOTATION_DETAILS.md section 9",
+      "docs/engraving/unison_dots_evidence.json:book.related_pages_previously_viewed"
+    ],
+    "already_ledgered_requested_old_pages": [
+      92,
+      93
+    ],
+    "first_reading_dates_or_old_json_not_rewritten": true,
+    "shared_progress_file_not_modified_by_this_subagent": true,
+    "integration_deltas_must_be_deduplicated_against_current_root_state": {
+      "historical_substantive_registration": 4,
+      "new_substantive": 5,
+      "new_paratext": 2
+    }
+  },
+  "images": [
+    {
+      "printed_page": 59,
+      "pdf_page_1based": 79,
+      "path": "tmp/engraving/accidental-layout-2026-10-19/book-079.jpg",
+      "bytes": 132088,
+      "sha256": "3579436d227492f017421b2032c33d5319e3d5bf07987bd794626d79fe13ebce",
+      "pixels": [
+        738,
+        1106
+      ],
+      "rendered_this_preparation": false,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Dotted unisons; one part dotted and alternative placement, continued p60",
+      "new_substantive_coverage": false,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": "docs/engraving/accidental_spacing_evidence.json:book.printed_pages_text_and_full_figures_reviewed"
+    },
+    {
+      "printed_page": 89,
+      "pdf_page_1based": 109,
+      "path": "tmp/engraving/accidental-layout-2026-10-19/book-109.jpg",
+      "bytes": 125912,
+      "sha256": "165dae8e5774c4500929788a48224eb41909a7b062fe65cd1ee4d340744b469b",
+      "pixels": [
+        738,
+        1106
+      ],
+      "rendered_this_preparation": false,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Three-or-more-note chord accidental order, close/wide groups",
+      "new_substantive_coverage": false,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": "docs/engraving/accidental_spacing_evidence.json:book.printed_pages_text_and_full_figures_reviewed"
+    },
+    {
+      "printed_page": 90,
+      "pdf_page_1based": 110,
+      "path": "tmp/engraving/accidental-layout-2026-10-19/book-110.jpg",
+      "bytes": 149775,
+      "sha256": "bd58462bcacda60cb9c2fd8381860ac1099a8c7fe283c3160a3178cf2411005e",
+      "pixels": [
+        738,
+        1106
+      ],
+      "rendered_this_preparation": false,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Octave accidentals, adjacent/displaced notes, double-stemmed writing",
+      "new_substantive_coverage": false,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": "docs/engraving/accidental_spacing_evidence.json:book.printed_pages_text_and_full_figures_reviewed"
+    },
+    {
+      "printed_page": 91,
+      "pdf_page_1based": 111,
+      "path": "tmp/engraving/accidental-layout-2026-10-19/book-111.jpg",
+      "bytes": 137579,
+      "sha256": "567fa35f2209f9c9ee08091d70ac4a731dbf51c8f1f8230abf71ff9a224a3b52",
+      "pixels": [
+        738,
+        1106
+      ],
+      "rendered_this_preparation": false,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Overlapping parts, altered-unison ownership, conventional key signature placement",
+      "new_substantive_coverage": false,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": "docs/engraving/accidental_spacing_evidence.json:book.printed_pages_text_and_full_figures_reviewed"
+    },
+    {
+      "printed_page": 92,
+      "pdf_page_1based": 112,
+      "path": "tmp/engraving/accidental-layout-2026-10-19/book-112.jpg",
+      "bytes": 149393,
+      "sha256": "2f388acd6147271901521aeec3e2393b82562053e505e4eb1628b5563236d1f1",
+      "pixels": [
+        738,
+        1106
+      ],
+      "rendered_this_preparation": false,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Key signature spacing and traditional cancellation",
+      "new_substantive_coverage": false,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": "docs/engraving/accidental_spacing_evidence.json:book.printed_pages_text_and_full_figures_reviewed"
+    },
+    {
+      "printed_page": 93,
+      "pdf_page_1based": 113,
+      "path": "tmp/engraving/accidental-state-2026-10-20/book-93.jpg",
+      "bytes": 205101,
+      "sha256": "33d5f726258a67bd2734230aae247f339100078a5e1ce995708728fa0a434cc2",
+      "pixels": [
+        1134,
+        1700
+      ],
+      "rendered_this_preparation": false,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "System-break cancellation, contemporary practice, simultaneous clef change, non-tonal/polytonal signatures",
+      "new_substantive_coverage": false,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": "docs/engraving/accidental_state_evidence.json:book.complete_text_and_figures_actually_reviewed"
+    },
+    {
+      "printed_page": 94,
+      "pdf_page_1based": 114,
+      "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-094.jpg",
+      "bytes": 285059,
+      "sha256": "3c2dfc1c31e8035e443a03612c2d128afb9d55b0c1c4b81b550aa8ab910d668e",
+      "pixels": [
+        1150,
+        1725
+      ],
+      "rendered_this_preparation": true,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Independent signatures per staff, unconventional signatures, microtone definition, arrows",
+      "new_substantive_coverage": true,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": null
+    },
+    {
+      "printed_page": 95,
+      "pdf_page_1based": 115,
+      "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-095.jpg",
+      "bytes": 264254,
+      "sha256": "5fed4a84b386ba1cefe57332a583e76654729228ab09a64044dcb032503d7b11",
+      "pixels": [
+        1150,
+        1725
+      ],
+      "rendered_this_preparation": true,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Quarter-tone arrows, explicit base accidental, spelling and direction",
+      "new_substantive_coverage": true,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": null
+    },
+    {
+      "printed_page": 96,
+      "pdf_page_1based": 116,
+      "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-096.jpg",
+      "bytes": 371228,
+      "sha256": "0ff72605c91237dd1deb5ed2c8d052832d094e9b42f0bad79d6ca205e2bdec96",
+      "pixels": [
+        1150,
+        1725
+      ],
+      "rendered_this_preparation": true,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Relative arrow meaning, fixed symbols, other microtones and symbol placement",
+      "new_substantive_coverage": true,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": null
+    },
+    {
+      "printed_page": 97,
+      "pdf_page_1based": 117,
+      "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-097.jpg",
+      "bytes": 367343,
+      "sha256": "c3b920a649910d8115460022a15ce2bd8b30e01609c16cbd6d3a44abd6fcac2c",
+      "pixels": [
+        1150,
+        1725
+      ],
+      "rendered_this_preparation": true,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Compact recognizable symbols, Xenakis cello excerpt, arrow definition consistency",
+      "new_substantive_coverage": true,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": null
+    },
+    {
+      "printed_page": 98,
+      "pdf_page_1based": 118,
+      "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-098.jpg",
+      "bytes": 107978,
+      "sha256": "1d66e2c445d23414d833b66eba1493385744acfa165d186618c3336365660063",
+      "pixels": [
+        1150,
+        1725
+      ],
+      "rendered_this_preparation": true,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Cancelling microtonal alteration under conventional accidental practice",
+      "new_substantive_coverage": true,
+      "paratext_only": false,
+      "printed_numeral_visible": true,
+      "previous_full_reading_evidence": null
+    },
+    {
+      "printed_page": 99,
+      "pdf_page_1based": 119,
+      "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-099.jpg",
+      "bytes": 55747,
+      "sha256": "57889e5edaf0de311813ade3021ac1470899395efd1b44d00d8456a5653a4897",
+      "pixels": [
+        1150,
+        1725
+      ],
+      "rendered_this_preparation": true,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Dynamics and Articulation chapter title; printed sequence inferred, numeral not printed",
+      "new_substantive_coverage": false,
+      "paratext_only": true,
+      "printed_numeral_visible": false,
+      "previous_full_reading_evidence": null
+    },
+    {
+      "printed_page": 100,
+      "pdf_page_1based": 120,
+      "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-100.jpg",
+      "bytes": 46354,
+      "sha256": "c2c9de1c4a541b8e6d935af22a7fffc6a3f3be21a793183c1011b2ccb8afc453",
+      "pixels": [
+        1150,
+        1725
+      ],
+      "rendered_this_preparation": true,
+      "entire_text_and_image_actually_read_this_turn": true,
+      "role": "Next chapter contents; printed sequence inferred, numeral not printed",
+      "new_substantive_coverage": false,
+      "paratext_only": true,
+      "printed_numeral_visible": false,
+      "previous_full_reading_evidence": null
+    }
+  ],
+  "additional_context_images": [
+    {
+      "printed_page": 60,
+      "pdf_page_1based": 80,
+      "path": "tmp/engraving/curves-2026-10-19/book-60.jpg",
+      "bytes": 224241,
+      "sha256": "b59cc65f5c7953dffb24f3bcef555713f9bf00ae6154794c0833b752c1062bf5",
+      "entire_text_and_image_actually_read_this_turn": true,
+      "existing_prior_reading_range": true,
+      "new_substantive_coverage": false,
+      "reason": "Complete p59 continuation and compare ledger-line/dot ownership"
+    },
+    {
+      "printed_page": 83,
+      "pdf_page_1based": 103,
+      "path": "tmp/engraving/accidental-state-2026-10-20/book-83.jpg",
+      "bytes": 223386,
+      "sha256": "ff998be23b432fe2aa3891aef3a0e1af495856c59d295b427e77304beca52bc1",
+      "entire_text_and_image_actually_read_this_turn": true,
+      "existing_prior_reading_range": true,
+      "new_substantive_coverage": false,
+      "reason": "Distinguish cautionary above-note alternative from essential microtonal modification"
+    }
+  ],
+  "judgments": [
+    {
+      "id": "EDGE-ACCIDENTAL-ORDER",
+      "printed_pages": [
+        89,
+        90,
+        91,
+        92
+      ],
+      "reader_task": "Match accidentals to heads and preserve compact recognizable pitch groups.",
+      "judgment": "Alternating high/low order, octave alignment and direction-following displaced-head exceptions are contextual. Key signatures remain a different patterned reading unit.",
+      "existing_analysis_result": "Reinforces ACCIDENTAL_SPACING; no new native or software-defect conclusion."
+    },
+    {
+      "id": "EDGE-ALTERED-UNISON",
+      "printed_pages": [
+        90,
+        91
+      ],
+      "reader_task": "Keep one part accidental from seeming to cancel another tied pitch.",
+      "judgment": "Visible ownership exceptions do not establish independent accidental state for all keyboard voices.",
+      "existing_analysis_result": "ACCIDENTAL_CONTEXT and SPELLING general shared-state conditions remain intact."
+    },
+    {
+      "id": "EDGE-STAFF-KEY-SIGNATURE",
+      "printed_pages": [
+        93,
+        94
+      ],
+      "reader_task": "Know each staff pitch background in non-tonal/polytonal or unconventional-signature music.",
+      "judgment": "A multi-staff instrument may use independent signatures per staff. Verify scope and actual role; do not repair solely because staves differ or force every signature into a common major/minor key.",
+      "exception": "Does not authorize generating custom signatures to reduce symbols in a conventional piano score, or independent signatures per internal voice."
+    },
+    {
+      "id": "EDGE-MICROTONE-BASE",
+      "printed_pages": [
+        94,
+        95,
+        96
+      ],
+      "reader_task": "Know the base accidental and size/direction of pitch modification.",
+      "judgment": "Arrow direction alone is not a cent definition. In the stated quarter-tone system it modifies its attached accidental rather than replacing its value.",
+      "exception": "No new notation is prescribed for ordinary fixed-pitch piano; tuning data does not prove a matching written symbol convention."
+    },
+    {
+      "id": "EDGE-SYMBOL-CHANNEL",
+      "printed_pages": [
+        83,
+        96,
+        97
+      ],
+      "reader_task": "Recognize an essential pitch modifier without confusing it with fingering or a playing direction.",
+      "judgment": "Compact, distinguishable left-side pitch modifiers preserve ownership and short-duration grouping. The above-note cautionary alternative at p83 has a different nonessential role.",
+      "existing_analysis_result": "No real conflict found with NOTATION_DETAILS cautionary condition; full p83 revisited."
+    },
+    {
+      "id": "EDGE-MICROTONE-STATE",
+      "printed_pages": [
+        97,
+        98
+      ],
+      "reader_task": "Keep symbol definition and return to ordinary pitch unambiguous.",
+      "judgment": "One microtonal-arrow vocabulary should not silently change subdivisions. Under conventional accidental practice an ordinary accidental must cancel the microtonal state.",
+      "exception": "Work-defined systems and instrument implementation still require separate evidence; no current software or sound test."
+    },
+    {
+      "id": "EDGE-DOTTED-UNISON",
+      "printed_pages": [
+        59,
+        60
+      ],
+      "reader_task": "See which layer sustains and which moves, including dot and ledger-line ownership.",
+      "judgment": "Shared heads require absolutely clear rhythms; the book even questions its own terse example. Separate heads and multiple ordering options retain valid clarity/width trade-offs.",
+      "existing_analysis_result": "UNISON_DOTS_STUDY and NOTATION_DETAILS section 9 already carry the conditions; no old musical judgment correction found."
+    }
+  ],
+  "existing_documents_reviewed": [
+    "ACCIDENTAL_CONTEXT.md",
+    "ACCIDENTAL_SPELLING.md",
+    "ACCIDENTAL_SPACING.md",
+    "UNISON_DOTS_STUDY.md",
+    "NOTATION_DETAILS.md",
+    "BEHIND_BARS_NOTES.md"
+  ],
+  "existing_documents_or_old_evidence_not_modified": true,
+  "private_cache": {
+    "directory": "tmp/engraving/accidental-edge-cases-2026-10-23",
+    "new_full_page_images": 7,
+    "existing_requested_images_reused": 6,
+    "existing_context_images_reused": 2,
+    "render_library_for_new_images": "pypdfium2",
+    "scale": 2.6,
+    "annotations_drawn_for_new_images": false,
+    "new_image_format": "JPEG quality 94",
+    "raw_source_or_page_images_not_committed": true,
+    "original_pdf_copies_created": 0,
+    "host_copies_created": 0,
+    "files_deleted": 0,
+    "total_bytes_at_evidence_generation": 1530746
+  },
+  "not_performed": [
+    "original book or score editing",
+    "new official-score reading",
+    "new native fixture or rendering",
+    "GUI operation",
+    "MIDI/MusicXML or sound validation",
+    "ordinary piano microtonal notation addition",
+    "current global microtonal standard survey",
+    "unread instrument-specific cross-references",
+    "printing/performance test",
+    "new user preference conclusion",
+    "software adaptation",
+    "Git commit by subagent"
+  ],
+  "root_integration_review": {
+    "date": "2026-10-23",
+    "agent_delivery_accepted_after_review": true,
+    "scope": "Read entire delivered analysis, checked ledger roles and spot-viewed the following raw images. Not a second independent evaluation or claim that root re-viewed every agent image.",
+    "images_actually_viewed": [
+      {
+        "path": "tmp/engraving/accidental-layout-2026-10-19/book-079.jpg",
+        "sha256": "3579436d227492f017421b2032c33d5319e3d5bf07987bd794626d79fe13ebce"
+      },
+      {
+        "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-094.jpg",
+        "sha256": "3c2dfc1c31e8035e443a03612c2d128afb9d55b0c1c4b81b550aa8ab910d668e"
+      },
+      {
+        "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-095.jpg",
+        "sha256": "5fed4a84b386ba1cefe57332a583e76654729228ab09a64044dcb032503d7b11"
+      },
+      {
+        "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-096.jpg",
+        "sha256": "0ff72605c91237dd1deb5ed2c8d052832d094e9b42f0bad79d6ca205e2bdec96"
+      },
+      {
+        "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-097.jpg",
+        "sha256": "c3b920a649910d8115460022a15ce2bd8b30e01609c16cbd6d3a44abd6fcac2c"
+      },
+      {
+        "path": "tmp/engraving/accidental-edge-cases-2026-10-23/book-printed-098.jpg",
+        "sha256": "1d66e2c445d23414d833b66eba1493385744acfa165d186618c3336365660063"
+      }
+    ],
+    "changes": "Integrated conditional judgments into existing routes, updated X/Y and historical correction separately; no native score changes."
+  }
+}

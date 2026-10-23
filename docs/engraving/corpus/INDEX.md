@@ -162,3 +162,5 @@
 ## 历史覆盖后的定向续读：A067
 
 2026-10-20，A067《Kakyoin’s Theme》PDF p3作独立skill只读试用，另看p1／2／4上下文，见[整页解释与核查](../INTEGRATED_READING_KAKYOIN.md)。记录跨表慢线、滑奏区别、行中入口、手分配与并存音区；本项不改历史reviews.json的379页近读数。
+
+2026-10-23，A067已补完4/4页整曲回查，见[整曲解释](../INTEGRATED_READING_KAKYOIN.md)及[证据](../kakyoin_whole_reading_evidence.json)：梁与奏法分工、条件省写、同表原位层、3／8小节容量和翻页未知分别解释。不是第二次独立skill评测，历史379页近读与reviews.json保持。

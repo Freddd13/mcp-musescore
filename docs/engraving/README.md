@@ -8,13 +8,13 @@
 
 查看[当前进度与后续完整计划](STATUS_AND_ROADMAP.md)，区分已形成的能力、本阶段继续学习／候选验证和以后才启动的软件适配。
 
-**现在可用：[0.1.0发布记录与直接试用](../ENGRAVING_RELEASES.md)。** 工作分支持续积累，较大更新保留净书版本标签；[进度账本](progress.json)固定各阶段分母。首轮146/146份，下一轮整曲深化9/24首；数量表示覆盖，不表示已完全掌握。
+**现在可用：[0.1.0发布记录与直接试用](../ENGRAVING_RELEASES.md)。** 工作分支持续积累，较大更新保留净书版本标签；[进度账本](progress.json)固定各阶段分母。首轮146/146份，下一轮整曲深化10/24首；数量表示覆盖，不表示已完全掌握。
 
 先读[个人方向与作者说明](PREFERENCES.md)，再按当前问题选[判断指南](JUDGMENT_GUIDE.md)中的相关情境和下表专题，追到实际页／系统／小节。无需先读全部材料。后续任务可使用[净书skill](../../skills/piano-engraving/SKILL.md)；[使用与更新](../ENGRAVING_SKILL.md)说明知识库关联方式。
 
 | 当前要判断什么 | 从这里进入 |
 | --- | --- |
-| 整页里哪些值得改、哪些该保留 | [用户整谱](WHOLE_SCORE_REVIEW.md)、[综合应用](INTEGRATED_REVIEW.md)、[ninelie](INTEGRATED_READING_NINELIE.md)、[Kakyoin’s Theme独立试读](INTEGRATED_READING_KAKYOIN.md)、[Kaikai Kitan整首](INTEGRATED_READING_KAIKAI.md) |
+| 整页里哪些值得改、哪些该保留 | [用户整谱](WHOLE_SCORE_REVIEW.md)、[综合应用](INTEGRATED_REVIEW.md)、[ninelie](INTEGRATED_READING_NINELIE.md)、[Kakyoin’s Theme整曲与历史试读](INTEGRATED_READING_KAKYOIN.md)、[Kaikai Kitan整首](INTEGRATED_READING_KAIKAI.md) |
 | 同值音忽宽忽窄、左右手与变音占位 | [间距取舍](SPACING_DECISIONS.md)、[变音列](ACCIDENTAL_SPACING.md)、[实曲迁移](SPACING_TRANSFER.md)；其它原生比较见[用户应用](USER_SPACING_APPLICATION.md)与[候选](SPACING_CANDIDATES.md) |
 | 拍组、切分、梁层级与干长 | [节拍阅读](RHYTHM_READING.md)、[梁干](BEAM_STEM_STUDY.md)、[跨表梁与休止](CROSS_STAFF_STUDY.md) |
 | 快慢层、手与谱表不一致 | [钢琴织体](PIANO_TEXTURE_STUDY.md)、[Akuma no Ko整首](INTEGRATED_READING_AKUMA.md)、[同音附点](UNISON_DOTS_STUDY.md)、[二度归属](SECONDS_OWNERSHIP.md) |
@@ -24,12 +24,16 @@
 | 滑奏与跨表动作 | [滑奏](GLISSANDO_READING.md)、[跨表琶音／共同梁](CROSS_STAFF_STUDY.md) |
 | 换拍、变速、延长和自由等待 | [拍与速度](METRE_TEMPO_READING.md)、[自由段](FREE_PASSAGE_READING.md) |
 | 谱号、八度、加线、范围与空表 | [换谱号](CLEF_READING.md)、[八度阅读](OCTAVE_READING.md)、[同表原位材料的反例](INTEGRATED_READING_NINELIE.md) |
-| 反复、跳转、变音拼写与状态恢复 | [导航](REPEAT_NAVIGATION.md)、[变音实际来路](ACCIDENTAL_CONTEXT.md)、[拼写与等音](ACCIDENTAL_SPELLING.md) |
+| 反复、跳转、变音拼写与状态恢复 | [导航](REPEAT_NAVIGATION.md)、[变音实际来路](ACCIDENTAL_CONTEXT.md)、[拼写与等音](ACCIDENTAL_SPELLING.md)、[特殊调号／变音边界](ACCIDENTAL_EDGE_CASES.md) |
 | 分行、页面密度与翻页 | [行页](PAGE_FLOW_STUDY.md)、[空间层级](PAGE_HIERARCHY.md)、[外部实践](EXTERNAL_PRACTICE.md) |
-| 查规范、原谱和历史案例 | [来源](SOURCES.md)、[Gould已核章节](BEHIND_BARS_NOTES.md)、[MPA图版复核](MPA_READING.md)、[资源落实](RESOURCE_PLAN_MAPPING.md)、[官谱索引](corpus/INDEX.md)、[E案例](CASES.md)及[扩大案例](CASES_EXPANDED.md) |
+| 查规范、原谱和历史案例 | [来源](SOURCES.md)、[Gould已核章节](BEHIND_BARS_NOTES.md)、[MPA图版复核](MPA_READING.md)、[MOLA全文／译文复核](MOLA_READING.md)、[资源落实](RESOURCE_PLAN_MAPPING.md)、[官谱索引](corpus/INDEX.md)、[E案例](CASES.md)及[扩大案例](CASES_EXPANDED.md) |
 | 查当前能力、输入与验证边界 | [实现研究](IMPLEMENTATION.md)、[输入历史](INPUT_HISTORY.md)、[skill试用记录](SKILL_REVIEW.md)、[原创原生例](fixtures/README.md) |
 
 ## 最近形成的可迁移判断
+
+[Kakyoin四页整曲](INTEGRATED_READING_KAKYOIN.md)补梁的4+4计数与tenuto位置3+3+2分工、条件性踏板省写、必要长干及3／8小节行容量；F的二分重奏不并成长音，G的先后力度不拉齐。本轮是全曲回查，不是第二次独立skill评测。
+
+[MOLA完整16页](MOLA_READING.md)核中英文的页码、每行状态和纸幅译文，并解释提示、等待、恢复定位及最终渲染的用处。乐团分谱尺寸不是独奏钢琴硬阈值。[变音边界](ACCIDENTAL_EDGE_CASES.md)补特殊调号、符号定义与取消，避免把必要音高修饰移成似指法的上方数字；不为普通钢琴制造微分音。
 
 [ninelie六页整曲](INTEGRATED_READING_NINELIE.md#8-2026-10-23把局部放回整首)补A／I的休止频率、J的真实单位与近稳定局部间距、C的预先进入和K的指示。保留组形与不同锚点，八度旧疑问未被再现自动消除；没有新增原生候选。
 

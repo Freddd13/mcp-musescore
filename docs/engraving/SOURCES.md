@@ -54,3 +54,5 @@ Gould主文件新增完整图页p39–43、87–88、489–490；5份官谱为Ag
 只读本机 `libmscore/measure.cpp`、`segment.cpp`、`shape.cpp`、`layout.cpp`、`style.cpp`，源码定位见专题；自制fixture在 [fixtures](fixtures/README.md)，原生SVG标记MuseScore 3.7.0。源码HEAD与安装二进制的精确对应未确认，不将其称为该源码提交的完整构建回归。原始文件保护和无改善候选状态均有记录。
 
 2026-10-22补[LilyPond 2.26间距模型](SPACING_MODELS.md)：本机缓存包含五页官方说明／内部参考、18对谱例与生成音乐片段，另重读Dorico Pro 6.2选项。源码对比揭示音区、两个光学属性、ragged-right及显式取消占宽等比较条件；A102 p6–8用于回查阅读任务，所有原图仅作私有研究。未读取LilyPond引擎构建源码或运行其二进制。
+
+2026-10-23补[MOLA全文与中英差异](MOLA_READING.md)，简体中文16页完整看图，官方英文仅核PDF p5、7、8，Gould483–485复看。另[变音边界](ACCIDENTAL_EDGE_CASES.md)新读印刷p94–98，标题／目录与4页旧漏账分别记录；普通钢琴不自动采用特殊音高制度。原文件及教材图仅在私有缓存。

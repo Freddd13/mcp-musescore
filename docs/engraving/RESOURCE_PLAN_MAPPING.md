@@ -1,5 +1,7 @@
 # 用户所给资源规划：落实顺序与证据范围
 
+2026-10-23完成[MOLA简体中文16/16页](MOLA_READING.md)：正文／图例PDF p3–12全部复读，补齐封面、空白、出版物目录及署名；新增技术页0。另核官方英文p5、7、8，发现页码左右、line误作voice及纸幅端点的译文差异。R17范围闭合；不等于16页英文通读或其它MOLA出版物已读。Gould新补与旧补录见[变音边界](ACCIDENTAL_EDGE_CASES.md)，不混算成MOLA成绩。
+
 2026-10-21补齐MPA：完整官方20页PDF已取得并逐页看图，[复核笔记](MPA_READING.md)区分简表、专章和作品说明；此前下载／截图失败属于历史状态。其余视频、课程或缺图项未因此改变阅读等级。
 
 2026-10-19汇总。用户已在本对话粘贴“钢琴谱净书资源与教程调研”正文，规划正文已取得。此前只读授权持续有效；Chrome和内置浏览器连接超时、对话接口占位符不再是取得正文的阻碍。正文中的作者、链接和结论属于待核线索，不直接冒充已阅读证据；原有图片搜索缩略图不作为教程谱例。
@@ -28,7 +30,7 @@
 | 廿十七 | 名称线索仍未可靠定位 | 不使用同名账号冒认；保留为尚未核实的来源 |
 | 萌象的J哥：连梁[视频](https://www.bilibili.com/video/BV14Z4y1f7bG/)、页面[视频](https://www.bilibili.com/video/BV1k34y1B7Jc/)、声部[视频](https://www.bilibili.com/video/BV19r4y177GY/)、琶音[视频](https://www.bilibili.com/video/BV1F44y1L7u8/)、符号[视频](https://www.bilibili.com/video/BV1uu411d7Fq/) | 用户所给线索 | 核具体视频、版本和操作；操作会做不等于知道何时应该做 |
 | [Behind Bars官方目录](https://behindbarsnotation.co.uk/contents/)及用户本地书 | 已有实际图页阅读，见[教材笔记](BEHIND_BARS_NOTES.md) | 用户规划写704页，本地文件实际696页；以实际PDF/印刷映射定位，不用总页数猜章页 |
-| [MOLA](https://mola-inc.org/resources/11631) | 已核官网简体中文PDF链接及16页文件；正文PDF p3–8可读 | 已实际看PDF p3–12，其中图例1–7；乐团分谱尺寸不能直接当独奏钢琴下限 |
+| [MOLA](https://mola-inc.org/resources/11631) | 已核官网简体中文PDF链接及16页文件；正文PDF p3–8可读 | 2026-10-23补齐16/16页；技术p3–12为复读，英文只核3页，见[MOLA复核](MOLA_READING.md)。乐团分谱尺寸不能直接当独奏钢琴下限 |
 | [MPA](https://www.mpa.org/permission-forms-informational-pdfs/) | 已核20页PDF，前言和少量正文可提取 | 2026-10-21已补看全部20页图版，见[MPA复核](MPA_READING.md)；未做全部规则的原生验证 |
 | [LilyPond 2.26 essay](https://lilypond.org/doc/v2.26/Documentation/essay/index.html) | 已读相关正文，续看光学间距/加线/光学尺寸六图并读两份间距源码 | 未在本机编译或做同输入双引擎对照；间距两图也非固定撑满预算比较，不能把候选评分当已获用户校准 |
 | [MuseScore 3中文排版手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting) | 已定向读换行、拉伸、重置与样式复用正文，另有本地源码证据 | 继续核Evolution差异；不能先全谱重置清掉人工判断 |

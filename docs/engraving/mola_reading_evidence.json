@@ -1,0 +1,567 @@
+{
+  "date": "2026-10-23",
+  "purpose": "Complete this one Simplified Chinese MOLA booklet, re-read technical pages, verify translation risks against official English and existing Gould pages; no software adaptation.",
+  "clock_checks_utc": [
+    "2026-10-23 05:07:55 UTC",
+    "2026-10-23 05:10:19 UTC",
+    "2026-10-23 05:13:19 UTC"
+  ],
+  "temporary_parallel_cutoff_utc": "2026-10-23 09:00:00 UTC",
+  "source_web_verification": {
+    "official_entry": "https://mola-inc.org/resources/11631",
+    "date_checked": "2026-10-23",
+    "guide_edition_on_entry": "Edited in 2017, v. 4",
+    "english_upload_on_entry": "2017-05-17",
+    "simplified_chinese_upload_on_entry": "2020-04-02",
+    "edition_not_inferred_from_upload_or_pdf_creation_date": true
+  },
+  "simplified_chinese": {
+    "path": "tmp/engraving/resources-2026-10-18/mola-zh.pdf",
+    "bytes": 3378956,
+    "sha256": "002a990b9fe02246a705814575bc8914f70a3b61dd2f774b8ce6926362eb7de8",
+    "pages": 16,
+    "metadata": {
+      "/Author": "Paul Beck",
+      "/CreationDate": "D:20190401134122-04'00'",
+      "/Creator": "Writer",
+      "/ModDate": "D:20200402093740-04'00'",
+      "/Producer": "LibreOffice 6.2"
+    },
+    "official_pdf": "https://mola-inc.s3.eu-west-1.amazonaws.com/files/h6k0QEfKSAZvs70PO0CWV47aN8E2zTIe8tnVeAl1.pdf",
+    "known_historical_sha256_matches_current": true,
+    "sha256_after_reading": "002a990b9fe02246a705814575bc8914f70a3b61dd2f774b8ce6926362eb7de8",
+    "all_pdf_pages_actually_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "prior_actual_visual_coverage_pdf_pages": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "newly_completed_pdf_page_coverage": [
+      1,
+      2,
+      13,
+      14,
+      15,
+      16
+    ],
+    "technical_text_and_figure_pdf_pages_revisited": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "newly_completed_technical_page_coverage": [],
+    "blank_pdf_pages": [
+      2,
+      14,
+      15
+    ],
+    "images": [
+      {
+        "pdf_page": 1,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-01.jpg",
+        "sha256": "ced7d18bdd3628c71bc05887f6f33b0151b1029dfa8efce0b87518e2a314db24",
+        "bytes": 106958,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "cover; Simplified Chinese language label"
+      },
+      {
+        "pdf_page": 2,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-02.jpg",
+        "sha256": "a2beff3ffb839afd86e0346a165993ad156511bd7eaa8c8975d90bfb2527f4bf",
+        "bytes": 120428,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "blank"
+      },
+      {
+        "pdf_page": 3,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-03.jpg",
+        "sha256": "190e33194c6015b5b049b3fcfbf65fe68f33845893184c3c3a6ea6caaae9c1ea",
+        "bytes": 308953,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 1; foreword and scope"
+      },
+      {
+        "pdf_page": 4,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-04.jpg",
+        "sha256": "f69cf4cb22ae1325c3a8391ec05ab0c2009b536c181731e8f898ca3f8f545e5b",
+        "bytes": 349238,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 2; full-score performance-material guidance"
+      },
+      {
+        "pdf_page": 5,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-05.jpg",
+        "sha256": "8b633e5b19a3a18f2bddfe242b723421596202e3b094dab01101ac889fdc1e4e",
+        "bytes": 448376,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 3; parts, navigation, cues, doubling, instruments"
+      },
+      {
+        "pdf_page": 6,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-06.jpg",
+        "sha256": "048effc52148e33bc4b4fd533ad7fffd9430c1c10b02f4bd765bf84910bb2cfc",
+        "bytes": 442067,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 4; covers, front matter, special instructions"
+      },
+      {
+        "pdf_page": 7,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-07.jpg",
+        "sha256": "1bbb99f2da08517614fe63b62a03174e599a6e3d062f4fceab2c6555f9046d6d",
+        "bytes": 457608,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 5; formatting, sizes, page turns, system reading load"
+      },
+      {
+        "pdf_page": 8,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-08.jpg",
+        "sha256": "6d3cb199b56fca943d0eac123015ca5f16354004ce74b35c2e13bf41ff2d875b",
+        "bytes": 434787,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 6; proofreading, paper and binding"
+      },
+      {
+        "pdf_page": 9,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-09.jpg",
+        "sha256": "e401fe67138ccc01c0a31e50f97452ae851b02909ec746d6eb6c38ed618007c8",
+        "bytes": 172617,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 7; examples 1 and 2"
+      },
+      {
+        "pdf_page": 10,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-10.jpg",
+        "sha256": "6297c7235cb9a30d53414bfe1a19c87c7d6fb72103285f70ad05c1ced8d98955",
+        "bytes": 145626,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 8; examples 3, 4 and 5"
+      },
+      {
+        "pdf_page": 11,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-11.jpg",
+        "sha256": "50dc98512314c36049cb9926abe9774435b3b631388001e95cccf0bbc15a5c81",
+        "bytes": 494141,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 9; example 6"
+      },
+      {
+        "pdf_page": 12,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-12.jpg",
+        "sha256": "3b6109cf8f765b452f5b751f0b91ee9c1f433f47f6db6f5bb26420fcebd8c48a",
+        "bytes": 247982,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 10; example 7 and references"
+      },
+      {
+        "pdf_page": 13,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-13.jpg",
+        "sha256": "6ff3fcc12a5f969f54dc292e268cbdb86eeccf22bdccf4296354c2a5dee954db",
+        "bytes": 214708,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "printed 11; other MOLA publication descriptions, not their full contents"
+      },
+      {
+        "pdf_page": 14,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-14.jpg",
+        "sha256": "6d855bec9f020bbebf0b92bab39d5d3718e91c6efbb9bb30567a17fe5ac7b0b0",
+        "bytes": 30027,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "blank"
+      },
+      {
+        "pdf_page": 15,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-15.jpg",
+        "sha256": "a2beff3ffb839afd86e0346a165993ad156511bd7eaa8c8975d90bfb2527f4bf",
+        "bytes": 120428,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "blank"
+      },
+      {
+        "pdf_page": 16,
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-16.jpg",
+        "sha256": "601a02987bd83bf5062e9692b8396c1a3d0454f08b5837f7c13dfc6f5e9298b9",
+        "bytes": 284441,
+        "pixels": [
+          1200,
+          1553
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "newly_rendered_this_turn": false,
+        "page_role": "back cover; editorial credits for 1993/2001/2006/2017"
+      }
+    ]
+  },
+  "english_translation_cross_check": {
+    "path": "tmp/engraving/mola-reading-2026-10-23/mola-2017-official-en.pdf",
+    "bytes": 3427468,
+    "sha256": "5b5cc21d2e0ddf46362a52bd5c88a04e6cfb8d51d7c75110173196008d7d28b3",
+    "pages": 16,
+    "metadata": {
+      "/Author": "Paul Beck",
+      "/Creator": "Writer",
+      "/Producer": "LibreOffice 5.3",
+      "/CreationDate": "D:20170414132231-04'00'"
+    },
+    "official_pdf": "https://mola-inc.s3.eu-west-1.amazonaws.com/files/mola3/MOLA-Guidelines-for-Music-Preparation.pdf",
+    "all_pdf_pages_actually_viewed": [
+      5,
+      7,
+      8
+    ],
+    "not_full_english_reading": true,
+    "images": [
+      {
+        "pdf_page": 5,
+        "path": "tmp/engraving/mola-reading-2026-10-23/en-page-05.png",
+        "sha256": "144a75900000ad1dd419818ef54e4dd0fd2e7267968fd5b90b28da76a436b175",
+        "bytes": 275093,
+        "pixels": [
+          1224,
+          1584
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "printed_page": 3,
+        "render_library": "pypdfium2",
+        "render_scale": 2
+      },
+      {
+        "pdf_page": 7,
+        "path": "tmp/engraving/mola-reading-2026-10-23/en-page-07.png",
+        "sha256": "0f8a2c170b599b1cf01fefeba82e0cfee8e5f16bf139d662f876f9d34f1ed74f",
+        "bytes": 267538,
+        "pixels": [
+          1224,
+          1584
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "printed_page": 5,
+        "render_library": "pypdfium2",
+        "render_scale": 2
+      },
+      {
+        "pdf_page": 8,
+        "path": "tmp/engraving/mola-reading-2026-10-23/en-page-08.png",
+        "sha256": "724695edcdcf18caee6358cefb9ca08e4350cee4b20e877aa88a7044e762b6f8",
+        "bytes": 287323,
+        "pixels": [
+          1224,
+          1584
+        ],
+        "entire_image_actually_viewed_this_turn": true,
+        "printed_page": 6,
+        "render_library": "pypdfium2",
+        "render_scale": 2
+      }
+    ]
+  },
+  "gould_cross_check": {
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "source_sha256_rechecked": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "matches_prior_record": true,
+    "prior_evidence": "docs/engraving/page_hierarchy_evidence.json",
+    "images": [
+      {
+        "pdf_page": 503,
+        "printed_page": 483,
+        "path": "tmp/engraving/system-boundaries-2026-10-20/book-503.jpg",
+        "sha256": "4e40ea5709a39df2e7f997f49521f5072454f083b9ea98533277cfd52fde454a",
+        "bytes": 72471,
+        "entire_image_actually_viewed_this_turn": true,
+        "existing_prior_reading_range": true,
+        "new_reading_page_count_delta": 0
+      },
+      {
+        "pdf_page": 504,
+        "printed_page": 484,
+        "path": "tmp/engraving/system-boundaries-2026-10-20/book-504.jpg",
+        "sha256": "ddfd1bc11acd0d6e72a46e810fd29834859c7ab0018b0cb8412f902559aed899",
+        "bytes": 171577,
+        "entire_image_actually_viewed_this_turn": true,
+        "existing_prior_reading_range": true,
+        "new_reading_page_count_delta": 0
+      },
+      {
+        "pdf_page": 505,
+        "printed_page": 485,
+        "path": "tmp/engraving/system-boundaries-2026-10-20/book-505.jpg",
+        "sha256": "d61a516df86ced7086ae6695b4c6c8571501f361cc00c3af24c3eee1f7595394",
+        "bytes": 185449,
+        "entire_image_actually_viewed_this_turn": true,
+        "existing_prior_reading_range": true,
+        "new_reading_page_count_delta": 0
+      }
+    ],
+    "new_unique_page_count_delta": 0,
+    "not_entire_pagination_chapter_or_book": true
+  },
+  "translation_findings": [
+    {
+      "zh_pdf_page": 7,
+      "zh_printed_page": 5,
+      "en_pdf_page": 7,
+      "en_printed_page": 5,
+      "paragraph": "Formatting first paragraph",
+      "finding": "Chinese upper corners reversed relative to official English: for ordinary double-sided binding English places odd right-hand page numbers upper right, even left-hand numbers upper left.",
+      "supporting_revisited_gould_printed_pages": [
+        483,
+        484
+      ],
+      "condition": "Distinguish physical recto/verso and printed page numbering from PDF ordinal. Not an unconditional validation of one-sided or tablet numbering."
+    },
+    {
+      "zh_pdf_page": 5,
+      "zh_printed_page": 3,
+      "en_pdf_page": 5,
+      "en_printed_page": 3,
+      "paragraph": "Parts first and second paragraphs",
+      "finding": "English each line is not internal polyphonic voice. The measure-number paragraph applies to parts by comparison with full score; Chinese wording obscures this.",
+      "condition": "Do not add clefs to every internal voice, omit line context, or confuse cautionary symbols with effective state changes."
+    },
+    {
+      "zh_pdf_page": 8,
+      "zh_printed_page": 6,
+      "en_pdf_page": 8,
+      "en_printed_page": 6,
+      "paragraph": "Paper and Binding, Parts first paragraph",
+      "finding": "English A4-to-B4 endpoints are inclusive. Chinese strict-between wording is also inconsistent with its following A4 minimum sentence.",
+      "condition": "This is orchestral part delivery guidance, not a universal solo piano paper-size test."
+    }
+  ],
+  "usable_judgments": [
+    {
+      "id": "MOLA-ENTRY-STATE",
+      "source_pdf_pages": [
+        5,
+        10
+      ],
+      "figure": 3,
+      "reader_task": "Prepare a state change before a line turn, then recover current clef/key/meter and position.",
+      "action": "Inspect both cautionary context and actual next-line state; distinguish rest count from bar-range navigation.",
+      "exception": "Internal voices are not lines; not every rest or layer needs duplicated cues."
+    },
+    {
+      "id": "MOLA-REST-NAVIGATION",
+      "source_pdf_pages": [
+        5,
+        10
+      ],
+      "figure": 4,
+      "reader_task": "Stay oriented during a long rest and recognize a real audible entry cue.",
+      "action": "Retain meaningful changes and landmarks; check performer, hand and external audible context before proposing cue material.",
+      "exception": "One idle piano staff does not mean the performer rests; do not duplicate already visible other-hand material automatically."
+    },
+    {
+      "id": "MOLA-ACTION-AND-STATE",
+      "source_pdf_pages": [
+        5,
+        10
+      ],
+      "figure": 5,
+      "reader_task": "Have time to prepare an action and identify the active instrument/state at entry.",
+      "action": "Separate preparation from effective range in diagnosis.",
+      "exception": "Analogy does not authorize adding piano hand changes, pedal directives or shortening held notes."
+    },
+    {
+      "id": "MOLA-FINAL-RENDER",
+      "source_pdf_pages": [
+        8,
+        12
+      ],
+      "figure": 7,
+      "reader_task": "Read ownership and placement after layout or extraction changes.",
+      "action": "Check final native rendered labels and linework as well as semantic anchors.",
+      "exception": "A source bad example does not establish that the current MuseScore runtime has the same defect."
+    },
+    {
+      "id": "MOLA-READING-LOAD",
+      "source_pdf_pages": [
+        7
+      ],
+      "reader_task": "Follow similar material at a reasonably predictable visual pace.",
+      "action": "Ask why similar systems change density; preserve local symbol and cross-part timing needs.",
+      "exception": "No fixed bar count, head equality, page grid or universal spacing score follows from this paragraph."
+    },
+    {
+      "id": "MOLA-PERFORMANCE-CONDITION",
+      "source_pdf_pages": [
+        7,
+        8
+      ],
+      "reader_task": "Actually see, locate and turn the printed performance material.",
+      "action": "Carry reader type, distance, stand sharing, medium, two-hand tasks and real page turns as conditions.",
+      "exception": "Orchestral staff/paper/line-count requirements are not blanket solo piano thresholds; harp pedaling is not piano pedaling."
+    }
+  ],
+  "source_relation_limits": {
+    "MOLA_vs_Gould_sizes": "Different use contexts must be aligned before calling recommendations contradictory; orchestral keyboard parts still require explicit delivery conditions.",
+    "MOLA_8va_vs_keyboard_usage": "General caution is not a universal ban; this task has not validated every orchestral keyboard exception.",
+    "MOLA_does_not_resolve_MPA_bar_length_note_difference": true,
+    "MPA_document_not_newly_visually_read_this_turn": true
+  },
+  "private_cache": {
+    "directory": "tmp/engraving/mola-reading-2026-10-23",
+    "existing_chinese_pages_reused": 16,
+    "new_chinese_page_images": 0,
+    "new_english_pdfs": 1,
+    "new_english_full_page_images": 3,
+    "existing_gould_page_images_reused": 3,
+    "host_or_original_score_copies_created": 0,
+    "files_deleted": 0,
+    "bytes_in_private_directory_before_publication_script_output": 4286807,
+    "raw_source_documents_and_images_not_committed": true
+  },
+  "not_performed": [
+    "full English booklet visual reading",
+    "other MOLA publications",
+    "new original score reading or source editing",
+    "GUI operation",
+    "native layout candidate",
+    "MIDI or MusicXML validation",
+    "printing, binding or performance page-turn test",
+    "user preference inference",
+    "MCP/plugin/core adaptation",
+    "Git commit by subagent"
+  ],
+  "root_integration_review": {
+    "date": "2026-10-23",
+    "agent_delivery_accepted_after_review": true,
+    "scope": "Read entire delivered analysis, checked ledger roles and spot-viewed the following raw images. Not a second independent evaluation or claim that root re-viewed every agent image.",
+    "images_actually_viewed": [
+      {
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-05.jpg",
+        "sha256": "8b633e5b19a3a18f2bddfe242b723421596202e3b094dab01101ac889fdc1e4e"
+      },
+      {
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-07.jpg",
+        "sha256": "1bbb99f2da08517614fe63b62a03174e599a6e3d062f4fceab2c6555f9046d6d"
+      },
+      {
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-08.jpg",
+        "sha256": "6d3cb199b56fca943d0eac123015ca5f16354004ce74b35c2e13bf41ff2d875b"
+      },
+      {
+        "path": "tmp/engraving/resources-2026-10-18/mola-zh-10.jpg",
+        "sha256": "6297c7235cb9a30d53414bfe1a19c87c7d6fb72103285f70ad05c1ced8d98955"
+      },
+      {
+        "path": "tmp/engraving/mola-reading-2026-10-23/en-page-05.png",
+        "sha256": "144a75900000ad1dd419818ef54e4dd0fd2e7267968fd5b90b28da76a436b175"
+      },
+      {
+        "path": "tmp/engraving/mola-reading-2026-10-23/en-page-07.png",
+        "sha256": "0f8a2c170b599b1cf01fefeba82e0cfee8e5f16bf139d662f876f9d34f1ed74f"
+      },
+      {
+        "path": "tmp/engraving/mola-reading-2026-10-23/en-page-08.png",
+        "sha256": "724695edcdcf18caee6358cefb9ca08e4350cee4b20e877aa88a7044e762b6f8"
+      }
+    ],
+    "changes": "Integrated conditional judgments into existing routes, updated X/Y and historical correction separately; no native score changes."
+  }
+}
