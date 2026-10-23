@@ -20,7 +20,8 @@
       "A008",
       "A009",
       "A056",
-      "A083"
+      "A083",
+      "A047"
     ],
     "closeout_records": {
       "A098": {
@@ -62,6 +63,11 @@
         "note": "INTEGRATED_READING_LAST_STARDUST.md",
         "evidence": "last_stardust_reading_evidence.json",
         "unresolved": "Local a tempo and later Tempo I differ; untied long chords cannot automatically merge, exact free-passage actions and physical turns remain conditional."
+      },
+      "A047": {
+        "note": "INTEGRATED_READING_GIORNO.md",
+        "evidence": "giorno_whole_reading_evidence.json",
+        "unresolved": "Known static navigation revisited; no full pitch collation, actual jump playback, per-group spacing measurements, exact hand/gliss endpoints, native alternative or certified physical turns."
       }
     }
   },
@@ -225,9 +231,11 @@
         "id": "A047",
         "title": "Giorno's Theme - JoJo's Bizarre Adventure：Golden Wind - Soundtrack.pdf",
         "pages": 5,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "Giorno；D.S.／Coda、变音来路与滑奏",
-        "prior_partial_or_topical_note": "REPEAT_NAVIGATION.md"
+        "prior_partial_or_topical_note": "REPEAT_NAVIGATION.md",
+        "note": "INTEGRATED_READING_GIORNO.md",
+        "evidence": "giorno_whole_reading_evidence.json"
       },
       {
         "id": "A085",
@@ -632,22 +640,22 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "Snapshot engraving-v0.3.0 includes16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. T02 is root-only preselected read-only application; not independent/blind, no new native candidate or software adaptation."
+    "working_branch_note": "Snapshot engraving-v0.3.0 stays at16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. Subsequent A047 whole reading makes the working branch17/24,110/164 and9/146 closeouts; no new book coverage, transfer scenario, native candidate or software adaptation."
   },
   "last_study_batch": {
     "date": "2026-10-23",
-    "scope": "T02 preselected read-only spacing application on A132p4 with source/time/geometry/normative review",
-    "new_deep_scores": 0,
-    "new_deep_pages": 0,
-    "new_all_score_closeouts": 0,
+    "scope": "Root-only known A047 five-page whole-score context review, seven crops and17 old complete Gould pages",
+    "new_deep_scores": 1,
+    "new_deep_pages": 5,
+    "new_all_score_closeouts": 1,
     "new_complete_resource_scopes": 0,
     "new_unique_ledger_book_pages": 0,
     "book_full_image_evidence_repairs": 0,
-    "new_skill_transfer_scenarios": 1,
+    "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "SKILL_TRANSFER_SPACING.md"
+      "INTEGRATED_READING_GIORNO.md"
     ],
-    "review_evidence": "skill_transfer_spacing_evidence.json"
+    "review_evidence": "giorno_whole_reading_evidence.json"
   }
 }

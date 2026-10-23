@@ -1,10 +1,12 @@
 # 净书知识库与skill发布记录
 
+0.3.0之后的工作分支续学：新增[Giorno整曲](engraving/INTEGRATED_READING_GIORNO.md)一首／五页，当前17/24首、110/164页，问题回查9/146。17个Gould页均为复读，311/696与迁移2/8保持；没有新原生候选或软件适配。本条描述发布后的checkout，0.3.0标签及下方历史快照保持。
+
 知识库在学习过程中即可使用。版本表示一组可追溯、已经检查的知识与工作流程，不表示所有材料已学完，也不表示具备自动改好整谱的能力。当前学习范围与X/Y进度见[进度报告](engraving/STATUS_AND_ROADMAP.md)。
 
 ## 0.3.0 — 2026-10-23
 
-2026-10-23再接入[Link组曲](engraving/INTEGRATED_READING_LINK_MEDLEY.md)、[Adabana](engraving/INTEGRATED_READING_ADABANA.md)、[Here](engraving/INTEGRATED_READING_HERE.md)、[Last Stardust](engraving/INTEGRATED_READING_LAST_STARDUST.md)四首／31页，随后补读Gould19个新实质页。当前checkout累计16/24首、105/164页，问题回查8/146；Gould311/696，资料9/25；随后完成T02，迁移覆盖2/8。行页、八度、踏板、自由段及[时间—空间](engraving/TIME_SPACE_AND_REPETITION.md)的条件判断已接入skill，未新增原生候选或软件适配。
+2026-10-23再接入[Link组曲](engraving/INTEGRATED_READING_LINK_MEDLEY.md)、[Adabana](engraving/INTEGRATED_READING_ADABANA.md)、[Here](engraving/INTEGRATED_READING_HERE.md)、[Last Stardust](engraving/INTEGRATED_READING_LAST_STARDUST.md)四首／31页，随后补读Gould19个新实质页。该发布快照累计16/24首、105/164页，问题回查8/146；Gould311/696，资料9/25；随后完成T02，迁移覆盖2/8。行页、八度、踏板、自由段及[时间—空间](engraving/TIME_SPACE_AND_REPETITION.md)的条件判断已接入skill，未新增原生候选或软件适配。
 
 Git标签：engraving-v0.3.0。四首整曲的[批次核查](engraving/whole_context_batch_2026_10_23_evidence.json)、教材及T02的各自证据保持，[0.3.0发布核查](engraving/release_0_3_0_evidence.json)记录当前累计、调用检查与来源保护。0.2.0原生例沿用原验证，未重跑全部原生实验；当前版本不新增原生候选、软件适配或用户审美采用。下面0.2.0及其标签／证据不改写。
 
