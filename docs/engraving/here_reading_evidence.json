@@ -1,0 +1,655 @@
+{
+  "date": "2026-10-23",
+  "scope": "A056 Here complete-context engraving reread; read-only learning with existing score/Gould page caches; no software adaptation.",
+  "sources": {
+    "score": {
+      "id": "A056",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Here - Mahoutsukai no Yome - Opening Theme.pdf",
+      "physical_pdf_pages": 9,
+      "printed_pages_match_physical_pdf": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "mediabox_pt": [
+        0.0,
+        0.0,
+        595.32,
+        841.92
+      ],
+      "sha256_at_source_render_check": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+      "sha256_after": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+      "cached_render_source_sha256": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+      "matches_existing_cache_and_inventory_baseline": true,
+      "existing_render_manifest_visual_review_flag": false,
+      "manifest_flag_note": "Old render-generation flag remains false; actual full-page review is independently recorded here. Original manifest not modified."
+    },
+    "book": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "physical_pdf_pages": 696,
+      "sha256_at_selected_text_read": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "matches_existing_baseline": true,
+      "verified_mapping_pdf_page_equals_printed_plus": 20
+    }
+  },
+  "actual_reading": {
+    "score_whole_physical_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "score_whole_unique_count": 9,
+    "score_local_unique_image_count": 16,
+    "book_full_substantive_printed_pages": [
+      332,
+      333,
+      334,
+      335,
+      336,
+      337,
+      338,
+      610,
+      611
+    ],
+    "book_full_physical_pdf_pages": [
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      630,
+      631
+    ],
+    "book_reread_substantive_count": 9,
+    "book_first_time_new_unique_pages": [],
+    "book_first_time_new_unique_count": 0,
+    "book_chapter_title_or_contents_count": 0,
+    "distinct_images_actually_viewed": 34,
+    "repeated_displays_not_added_to_count": true,
+    "sequence": "Whole cached score pages read, necessary crop images examined, then full old A056 corpus and sustain/texture material checked; old priorities and short search excerpts already known, not a blind test. Two crops initially clipped tempo text and were corrected and actually re-viewed; only final distinct assets counted. Two source-PDF high-resolution crops resolved open versus complete ties. Nine existing Gould technical pages read in full image and extracted text.",
+    "legacy_READ010_close_pages": [
+      1,
+      2,
+      8
+    ],
+    "historical_corpus_379_close_page_count_not_incremented": true
+  },
+  "whole_score_images_reused": [
+    {
+      "physical_pdf_page": 1,
+      "printed_page": 1,
+      "path": "tmp/engraving/corpus/A056/page-1.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "61f2feebd06ecba1dd371fa763244e7f345bf0d5bfe72347fd73d64808a31ff5",
+      "actually_viewed_full_page": true
+    },
+    {
+      "physical_pdf_page": 2,
+      "printed_page": 2,
+      "path": "tmp/engraving/corpus/A056/page-2.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "262888fcd7aa745f9daeea0ceaf379c95f1856ec447bbc0803e6592f025f9a46",
+      "actually_viewed_full_page": true
+    },
+    {
+      "physical_pdf_page": 3,
+      "printed_page": 3,
+      "path": "tmp/engraving/corpus/A056/page-3.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "92b54cf09cd743f367218011b0376a0d638f9811d91c5b7e011272d0d55b484b",
+      "actually_viewed_full_page": true
+    },
+    {
+      "physical_pdf_page": 4,
+      "printed_page": 4,
+      "path": "tmp/engraving/corpus/A056/page-4.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "d1f85ac077ad065b2350cfb824fdc6819323bd03e73e6bd826177427b5ae8d1a",
+      "actually_viewed_full_page": true
+    },
+    {
+      "physical_pdf_page": 5,
+      "printed_page": 5,
+      "path": "tmp/engraving/corpus/A056/page-5.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "2c69f648af893e6de9233dae14e60237f20e516123959c395345ff8f0ddd4358",
+      "actually_viewed_full_page": true
+    },
+    {
+      "physical_pdf_page": 6,
+      "printed_page": 6,
+      "path": "tmp/engraving/corpus/A056/page-6.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "38e2bf9ea845bf7f7f592960b8456af27d7a7f6d25e5564c2d3e708ec3640b8f",
+      "actually_viewed_full_page": true
+    },
+    {
+      "physical_pdf_page": 7,
+      "printed_page": 7,
+      "path": "tmp/engraving/corpus/A056/page-7.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "47fab326768703c0a39e0bc9e7113b43adfe5f3bfb579817b478d70cddf4d868",
+      "actually_viewed_full_page": true
+    },
+    {
+      "physical_pdf_page": 8,
+      "printed_page": 8,
+      "path": "tmp/engraving/corpus/A056/page-8.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "b79121da9016fb1c1c87fd300181e5bca5e60f18b44e8450e9c69708fbb66531",
+      "actually_viewed_full_page": true
+    },
+    {
+      "physical_pdf_page": 9,
+      "printed_page": 9,
+      "path": "tmp/engraving/corpus/A056/page-9.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "50171baeac63796562b4fec82d46fd590471543e4f09b3161a864e4a6c9b486e",
+      "actually_viewed_full_page": true
+    }
+  ],
+  "local_score_images": [
+    {
+      "name": "p1-opening-and-first-free",
+      "physical_pdf_page": 1,
+      "path": "tmp/engraving/here-whole-2026-10-23/p1-opening-and-first-free.png",
+      "box_on_1800px_source": [
+        90,
+        280,
+        1720,
+        1290
+      ],
+      "sha256": "c42b678fc9844de4331720a7a079ce20998cb64c54e7caa6dfb194055d9a8931",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p2-C-tempo-unit",
+      "physical_pdf_page": 2,
+      "path": "tmp/engraving/here-whole-2026-10-23/p2-C-tempo-unit.png",
+      "box_on_1800px_source": [
+        1100,
+        1240,
+        1720,
+        1580
+      ],
+      "sha256": "771a827adbae393b806d8c721fa05a2d743491e9faa4ad002b9424bbdeaabb00",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p3-E-tempo-and-layers",
+      "physical_pdf_page": 3,
+      "path": "tmp/engraving/here-whole-2026-10-23/p3-E-tempo-and-layers.png",
+      "box_on_1800px_source": [
+        100,
+        1250,
+        1720,
+        1670
+      ],
+      "sha256": "c8923d58281ff911c308bac61c7f03e4b7cba1285da86745448e092883a02a68",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p4-rh-and-local-dynamics",
+      "physical_pdf_page": 4,
+      "path": "tmp/engraving/here-whole-2026-10-23/p4-rh-and-local-dynamics.png",
+      "box_on_1800px_source": [
+        100,
+        480,
+        1720,
+        1270
+      ],
+      "sha256": "01f4d2020a9757017e90aeffa74932aab8a5407466b44b4b0c76f96e3f475001",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p6-J-holding-versus-moving",
+      "physical_pdf_page": 6,
+      "path": "tmp/engraving/here-whole-2026-10-23/p6-J-holding-versus-moving.png",
+      "box_on_1800px_source": [
+        100,
+        90,
+        1720,
+        560
+      ],
+      "sha256": "ec0ea93f3ef487091947828cd487e223164c45a33642dd441856b32aed37559d",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p6-K-layer-rests",
+      "physical_pdf_page": 6,
+      "path": "tmp/engraving/here-whole-2026-10-23/p6-K-layer-rests.png",
+      "box_on_1800px_source": [
+        100,
+        1290,
+        1720,
+        2050
+      ],
+      "sha256": "9db5e02a4e50e0985af874a662cf7eb7cab46efb71e372036d3a958249c8c1c9",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p7-L-and-return-to-76",
+      "physical_pdf_page": 7,
+      "path": "tmp/engraving/here-whole-2026-10-23/p7-L-and-return-to-76.png",
+      "box_on_1800px_source": [
+        100,
+        120,
+        1720,
+        880
+      ],
+      "sha256": "17479633067b6f1eed40853265c35540b498a0b2f4fe858fd41b107d45fcb8a9",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p7-M-N-contrast",
+      "physical_pdf_page": 7,
+      "path": "tmp/engraving/here-whole-2026-10-23/p7-M-N-contrast.png",
+      "box_on_1800px_source": [
+        100,
+        900,
+        1720,
+        2410
+      ],
+      "sha256": "19f76e97d2ce3c237f4985e6549b004d7e47f3045a3cdb2f33866dc5af037955",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p8-two-pedals-full-context",
+      "physical_pdf_page": 8,
+      "path": "tmp/engraving/here-whole-2026-10-23/p8-two-pedals-full-context.png",
+      "box_on_1800px_source": [
+        100,
+        910,
+        1720,
+        1320
+      ],
+      "sha256": "256e2fb5c70c9e4f4708fae3710b9b718fcff891e6e4e834f77e4d95896c6b40",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p8-two-pedals-start",
+      "physical_pdf_page": 8,
+      "path": "tmp/engraving/here-whole-2026-10-23/p8-two-pedals-start.png",
+      "box_on_1800px_source": [
+        560,
+        930,
+        1330,
+        1310
+      ],
+      "sha256": "8bbf355002dcdaea1cac2d260a9cf32809c6e283c6c5296ae6de372ee3fc618b",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p8-two-pedals-release",
+      "physical_pdf_page": 8,
+      "path": "tmp/engraving/here-whole-2026-10-23/p8-two-pedals-release.png",
+      "box_on_1800px_source": [
+        1260,
+        925,
+        1710,
+        1320
+      ],
+      "sha256": "321215b1d6dd8ffa13b3c0e9303e460d89aa013cd68a5a53309c20ba10b3d6d8",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p8-O-free-and-in-tempo",
+      "physical_pdf_page": 8,
+      "path": "tmp/engraving/here-whole-2026-10-23/p8-O-free-and-in-tempo.png",
+      "box_on_1800px_source": [
+        100,
+        1330,
+        1720,
+        2030
+      ],
+      "sha256": "31124fcfc5e71285773fc2cd4bc4a1509c0f609e922cc146542110122f199edb",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p9-P-hand-held-lines",
+      "physical_pdf_page": 9,
+      "path": "tmp/engraving/here-whole-2026-10-23/p9-P-hand-held-lines.png",
+      "box_on_1800px_source": [
+        100,
+        100,
+        1720,
+        880
+      ],
+      "sha256": "69ffabd7cc8562b3f6f6ebb9d5044a593e1191712573904f6b76819b13a34646",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p9-Q-return-and-final-pedal",
+      "physical_pdf_page": 9,
+      "path": "tmp/engraving/here-whole-2026-10-23/p9-Q-return-and-final-pedal.png",
+      "box_on_1800px_source": [
+        100,
+        900,
+        1720,
+        2450
+      ],
+      "sha256": "3d92cd4027bd0ee89bf258ea4fb56bad100ab8f9a7127ae3ac753ed3c6b5c075",
+      "actually_viewed": true,
+      "construction": "Crop of reused pdftoppm page JPEG; no symbol movement"
+    },
+    {
+      "name": "p8-pedal-chord-open-ties-highres",
+      "physical_pdf_page": 8,
+      "path": "tmp/engraving/here-whole-2026-10-23/p8-pedal-chord-open-ties-highres.png",
+      "box_on_1800px_source": [
+        570,
+        970,
+        860,
+        1320
+      ],
+      "sha256": "03f835cd17b801f7a3ce386df84ea32ffa0dbbf1a412c317c472ecb37a580e1e",
+      "actually_viewed": true,
+      "construction": "pypdfium2 scale=5 then crop; no symbol movement"
+    },
+    {
+      "name": "p8-top-ties-and-held-layer-highres",
+      "physical_pdf_page": 8,
+      "path": "tmp/engraving/here-whole-2026-10-23/p8-top-ties-and-held-layer-highres.png",
+      "box_on_1800px_source": [
+        560,
+        930,
+        1710,
+        1140
+      ],
+      "sha256": "78f916a797f8b3a8c06d34726dfaed5d505494de0da0696e3bfb7d0fe430b873",
+      "actually_viewed": true,
+      "construction": "pypdfium2 scale=5 then crop; no symbol movement"
+    }
+  ],
+  "book_images_reused": [
+    {
+      "printed_page": 332,
+      "physical_pdf_page": 352,
+      "path": "tmp/engraving/piano-2026-10-19/book-332.jpg",
+      "sha256": "e258c4a2eaefb8646706e4efe58d744a23794a3d6ecca5500e78894da64bfd49",
+      "actual_full_text_and_image_read": true,
+      "already_read_before_this_batch": true,
+      "classification": "substantive technical page"
+    },
+    {
+      "printed_page": 333,
+      "physical_pdf_page": 353,
+      "path": "tmp/engraving/piano-2026-10-19/book-333.jpg",
+      "sha256": "51194422923056e8c233ceb7b3f996644ddbb1d38112596fc97ce6e476854b30",
+      "actual_full_text_and_image_read": true,
+      "already_read_before_this_batch": true,
+      "classification": "substantive technical page"
+    },
+    {
+      "printed_page": 334,
+      "physical_pdf_page": 354,
+      "path": "tmp/engraving/piano-2026-10-19/book-334.jpg",
+      "sha256": "b92cdbc5360cdcfcd4c2acd3973c835d2670dccae4c2c37828318d5c35940f24",
+      "actual_full_text_and_image_read": true,
+      "already_read_before_this_batch": true,
+      "classification": "substantive technical page"
+    },
+    {
+      "printed_page": 335,
+      "physical_pdf_page": 355,
+      "path": "tmp/engraving/piano-2026-10-19/book-335.jpg",
+      "sha256": "221c6362903f42542cd1ca82e90f6378fc7115049a2a432ffc0d3b020d78226a",
+      "actual_full_text_and_image_read": true,
+      "already_read_before_this_batch": true,
+      "classification": "substantive technical page"
+    },
+    {
+      "printed_page": 336,
+      "physical_pdf_page": 356,
+      "path": "tmp/engraving/piano-2026-10-19/book-336.jpg",
+      "sha256": "e5a6181fa3f47bbd8b0397ffcba0f60c2e51ff34b164c41e973a721f99c1a8ed",
+      "actual_full_text_and_image_read": true,
+      "already_read_before_this_batch": true,
+      "classification": "substantive technical page"
+    },
+    {
+      "printed_page": 337,
+      "physical_pdf_page": 357,
+      "path": "tmp/engraving/piano-2026-10-19/book-337.jpg",
+      "sha256": "f829990ad08fe0abe3be5c36c330297de27cd14c3635709a4a36a2b2969ae286",
+      "actual_full_text_and_image_read": true,
+      "already_read_before_this_batch": true,
+      "classification": "substantive technical page"
+    },
+    {
+      "printed_page": 338,
+      "physical_pdf_page": 358,
+      "path": "tmp/engraving/piano-2026-10-19/book-338.jpg",
+      "sha256": "5737ec84962436bc3fcdcf5c28e21a22be38134c4366e6ceca4d3dbce5a40f8b",
+      "actual_full_text_and_image_read": true,
+      "already_read_before_this_batch": true,
+      "classification": "substantive technical page"
+    },
+    {
+      "printed_page": 610,
+      "physical_pdf_page": 630,
+      "path": "tmp/engraving/free-passage-2026-10-20/book-p610.jpg",
+      "sha256": "632240becc97781808764e07ef53ef193acd4ea9c694d5c0325fc4a39227e054",
+      "actual_full_text_and_image_read": true,
+      "already_read_before_this_batch": true,
+      "classification": "substantive technical page"
+    },
+    {
+      "printed_page": 611,
+      "physical_pdf_page": 631,
+      "path": "tmp/engraving/free-passage-2026-10-20/book-p611.jpg",
+      "sha256": "03596d1a50819437319af4ef6d22075f934ed7e0cec042b80510b80e033fb069",
+      "actual_full_text_and_image_read": true,
+      "already_read_before_this_batch": true,
+      "classification": "substantive technical page"
+    }
+  ],
+  "old_material_rechecked": [
+    {
+      "path": "docs/engraving/corpus/READING_010.md",
+      "finding": "Pulse units, inline C, O approximate sign and a piacere/in tempo recovery retained; local scope refined by full context."
+    },
+    {
+      "path": "docs/engraving/SUSTAIN_CONTINUATION.md",
+      "finding": "Independent sustain/control protection retained; lower open ties and middle star-Ped pair now explicit, full ties not equated to necessarily manual holding."
+    },
+    {
+      "path": "docs/engraving/PIANO_TEXTURE_STUDY.md",
+      "finding": "sus. naming concern retained and extended to duration-line/vertical-order/glyph conventions; mere two-level release display is not proof of fully resolved pedal identity."
+    }
+  ],
+  "judgments": [
+    {
+      "location": "p1 opening and second system",
+      "decision": "retain distinct metre, fermata, free passage and new-speed entries",
+      "reading_benefit": "Keeps waiting, active running and renewed regular pulse distinct.",
+      "alternative_cost": "A single equal-seconds spacing or completion-to-normal-bar rule would manufacture timing precision.",
+      "limit": "No native ticks or performed duration established."
+    },
+    {
+      "location": "p2 C / p3 E / p8 O / p9 P-Q",
+      "decision": "keep actual pulse units and approximate versus exact speed signs",
+      "reading_benefit": "C and E explicitly show quaver=quaver; O is approximately quarter=100, while P and Q use dotted quarters 48 and 76.",
+      "alternative_cost": "Copying bare BPM numbers, resetting at system breaks or merging all free/rubato passages changes the reading.",
+      "limit": "No complete performed tempo map or publisher source state inferred."
+    },
+    {
+      "location": "p4 systems2-3 / p6 J / p9 P",
+      "decision": "preserve local dynamic, hand and line ownership",
+      "reading_benefit": "p/mp and p/pp distinguish concurrent layers; r.h./l.h. brackets identify local hand help without moving the whole voice.",
+      "alternative_cost": "Uniform alignment, upper-staff-only melody assumptions or one-hand-per-staff assignment conceals roles.",
+      "limit": "PDF cannot recover source voice IDs or complete hand choreography."
+    },
+    {
+      "location": "p6 K",
+      "decision": "retain useful rest entry information in the moving layer",
+      "reading_benefit": "Moving-layer stops remain distinct from slow dyads and lower sustain or activity.",
+      "alternative_cost": "Deleting rests simply because another layer supplies pulse weakens late-entry/stop recognition.",
+      "limit": "Not a rule to fill every software voice with visible rests."
+    },
+    {
+      "location": "p8 system3 initial lower chord and following low note",
+      "decision": "distinguish three open ties after initial lower chord and one later open tie from upper complete ties",
+      "reading_benefit": "Signals continuing resonance while freeing the moving notation from receiving-note clutter; upper full ties preserve sustained pitch relation across the run.",
+      "alternative_cost": "All-short ties can lose upper continuation, while filling lower long durations can imply hand occupation and crowd the run.",
+      "source_printed": [
+        337,
+        338
+      ],
+      "limit": "Complete ties do not prove manual holding; open ties do not prove a precise captured pitch set. No diamond silent-depression action is indicated in this passage."
+    },
+    {
+      "location": "p8 system3 pedal sequence",
+      "decision": "preserve two labels, middle star-Ped pair and final two stars; do not auto-deduplicate or assign each release by row height alone",
+      "reading_benefit": "The middle clearing/reactivation marking and final dual release are different visible information.",
+      "alternative_cost": "Single pedal state or one final star loses a potentially distinct control; guessed endpoint assignment fabricates action.",
+      "source_printed": [
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "limit": "No work-specific legend or source object mapping establishes exact capture, release or middle retake ownership. User S.P. definition from a different score is not imported."
+    },
+    {
+      "location": "p8 system3 potential editorial comparison",
+      "decision": "consider explicit names, independent Sost. Ped. duration line, damper notation and clear vertical ordering only after action is known",
+      "reading_benefit": "Reduces sus./sost. confusion and makes overlapping control endpoints easier to associate.",
+      "alternative_cost": "More lines and local height can affect O and whole-page budget.",
+      "source_printed": [
+        332,
+        333,
+        334,
+        335,
+        336
+      ],
+      "limit": "Unrendered future candidate; not applied to source. Current graphic Ped. reuse and absent Sost. extension are not assumed to be an approved best practice."
+    },
+    {
+      "location": "p8 O, subsequent a piacere and in tempo 2/4 to common time",
+      "decision": "preserve explicit recovery bridge and waiting layer",
+      "reading_benefit": "Short 2/4 states recovery while lower whole-bar rest and later common-time layers have different jobs.",
+      "alternative_cost": "Removing 2/4 or distributing every sustained accompaniment as pointwise solo alignment changes the reading.",
+      "source_printed": [
+        610,
+        611,
+        337
+      ],
+      "limit": "Textbook instrumental accompaniment analogy is conditional; manual piano durations are not thereby arbitrary. Free wording does not automatically cancel existing metre."
+    },
+    {
+      "location": "p9 a tempo / ppp sostenuto and final Ped.",
+      "decision": "do not convert expressive sostenuto into a pedal command",
+      "reading_benefit": "Separates character, dynamic and timed note/rest structure from a later explicit Ped. activation/release.",
+      "alternative_cost": "Keyword-to-controller mapping adds an unconfirmed action.",
+      "limit": "No exact playback or implied discretionary pedalling established."
+    },
+    {
+      "location": "p4 systems2-3 / p7 L-M-N / p9 row budget",
+      "decision": "retain context-dependent measure capacity and inline section starts",
+      "reading_benefit": "p4 has 3 versus 2 bars; p7 L first row 6 versus M/N rows 3 each; p9 first row5, fourth/fifth4 each, final5. Different density, layers and endpoints get room.",
+      "alternative_cost": "Fixed four-bar grid or mandatory new line at every rehearsal mark redistributes transitions and page count.",
+      "limit": "Counts are visible structural observations, not automatic cast-off targets or a proof of unique optimality."
+    },
+    {
+      "location": "p6-to7, p7-to8 and p8-to9 page boundaries",
+      "decision": "do not infer a free-hand page turn from a rest, sustain or fermata alone",
+      "reading_benefit": "Retains continuing N activity and cross-page connections; p8 ending/new P is a possible structural boundary only.",
+      "alternative_cost": "Moving page breaks under an unverified hands-free assumption can harm practical performance.",
+      "limit": "Binding, duplex order, release choreography, printing and actual turn feasibility unverified."
+    }
+  ],
+  "parent_review_shortcuts": {
+    "pedal_whole_context": "tmp/engraving/here-whole-2026-10-23/p8-two-pedals-full-context.png",
+    "lower_open_ties_highres": "tmp/engraving/here-whole-2026-10-23/p8-pedal-chord-open-ties-highres.png",
+    "upper_four_complete_ties_highres": "tmp/engraving/here-whole-2026-10-23/p8-top-ties-and-held-layer-highres.png",
+    "middle_and_final_release_marks": "tmp/engraving/here-whole-2026-10-23/p8-two-pedals-release.png",
+    "O_recovery": "tmp/engraving/here-whole-2026-10-23/p8-O-free-and-in-tempo.png",
+    "P_layer_and_hand_context": "tmp/engraving/here-whole-2026-10-23/p9-P-hand-held-lines.png"
+  },
+  "limits": [
+    "Not a blind skill test or full note-by-note/pitch-spelling collation.",
+    "No editable official score, native controller, exact capture set, release tick, voice ID or performed timing recovered.",
+    "No native candidate, user-score edit, GUI operation, audition, print or user preference confirmation.",
+    "A full tie is not proof of exclusively manual holding; an open tie is not proof of one specified pedal capture action.",
+    "No universal equal-spacing, fixed bars-per-row or highest-note melody rule inferred.",
+    "No source-engine cause or MuseScore defect proved from this finished PDF.",
+    "No new first-read Gould pages; historical directory and close-page totals not inflated."
+  ],
+  "cache_policy": {
+    "private_directory": "tmp/engraving/here-whole-2026-10-23",
+    "existing_full_score_page_files_reused": 9,
+    "existing_full_Gould_page_files_reused": 9,
+    "new_saved_full_page_renders": 0,
+    "local_crop_files": 16,
+    "high_resolution_source_render_crop_files": 2,
+    "source_PDF_copies": 0,
+    "runtime_copies": 0,
+    "deleted_files": 0,
+    "temporary_full_highres_render_kept_on_disk": false
+  },
+  "public_files_created": [
+    "docs/engraving/INTEGRATED_READING_HERE.md",
+    "docs/engraving/here_reading_evidence.json"
+  ],
+  "software_or_skill_shared_progress_changed_by_subagent": false,
+  "git_commit_by_subagent": false,
+  "evidence_written_utc": "2026-10-23T07:38:48.893783+00:00"
+}

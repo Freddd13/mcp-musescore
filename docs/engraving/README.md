@@ -8,7 +8,7 @@
 
 查看[当前进度与后续完整计划](STATUS_AND_ROADMAP.md)，区分已形成的能力、本阶段继续学习／候选验证和以后才启动的软件适配。
 
-**现在可用：[0.2.0发布记录与直接试用](../ENGRAVING_RELEASES.md)。** 工作分支持续积累，较大更新保留净书版本标签；[进度账本](progress.json)固定各阶段分母。首轮146/146份，下一轮整曲深化12/24首；数量表示覆盖，不表示已完全掌握。
+**现在可用：[0.2.0发布记录与直接试用](../ENGRAVING_RELEASES.md)。** 工作分支持续积累，较大更新保留净书版本标签；[进度账本](progress.json)固定各阶段分母。首轮146/146份，下一轮整曲深化16/24首（105/164页）；数量表示覆盖，不表示已完全掌握。
 
 先读[个人方向与作者说明](PREFERENCES.md)，再按当前问题选[判断指南](JUDGMENT_GUIDE.md)中的相关情境和下表专题，追到实际页／系统／小节。无需先读全部材料。后续任务可使用[净书skill](../../skills/piano-engraving/SKILL.md)；[使用与更新](../ENGRAVING_SKILL.md)说明知识库关联方式。
 
@@ -30,6 +30,10 @@
 | 查当前能力、输入与验证边界 | [实现研究](IMPLEMENTATION.md)、[输入历史](INPUT_HISTORY.md)、[skill试用记录](SKILL_REVIEW.md)、[原创原生例](fixtures/README.md) |
 
 ## 最近形成的可迁移判断
+
+[Link组曲九页](INTEGRATED_READING_LINK_MEDLEY.md)区分结构标签、提前引入、伴奏准备、旋律进入与真实物理翻页；上表四小节休止不证明当前页末可翻。[Adabana七页](INTEGRATED_READING_ADABANA.md)补一个4/4拆成两行的2＋2拍及八度真实终点：出版实例与Gould例外条件分开，末角不吸到G段。
+
+[Here九页](INTEGRATED_READING_HERE.md)核完整tie、开放留声弧、中间换踏板和末端双星；双层控制应保留，简称、范围和各次释放归属仍可澄清。[Last Stardust六页](INTEGRATED_READING_LAST_STARDUST.md)区分局部a tempo与后来Tempo I，未tie相连的长和弦不自动并音，non Ped结尾也不能靠假定踏板删持续。这四首是已知材料综合复读，不增加独立skill评测或教材首次覆盖。
 
 [五连间距原生比较](FIVE_FOUR_SPACING_STUDY.md)有三档宽度及一个局部候选：共同时间本来正确，另一表的中间进入仍可使一格变宽；保住两组边界及两手关系，候选更稳。120mm版原生保存重载保持，但offset依赖当次布局，窄版仍换行，不作全谱预设。
 

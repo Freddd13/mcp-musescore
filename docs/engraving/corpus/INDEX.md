@@ -166,3 +166,5 @@
 2026-10-23，A067已补完4/4页整曲回查，见[整曲解释](../INTEGRATED_READING_KAKYOIN.md)及[证据](../kakyoin_whole_reading_evidence.json)：梁与奏法分工、条件省写、同表原位层、3／8小节容量和翻页未知分别解释。不是第二次独立skill评测，历史379页近读与reviews.json保持。
 
 2026-10-23补[A102八页](../INTEGRATED_READING_OWARI.md)与[A006五页](../INTEGRATED_READING_LIT.md)整曲回查，解释第二处拆小节、参照细分改变、同刻与不同刻、变奏密度和比例疑问；原有逐谱笔记及379页历史数保持，不计为新的独立skill评测。
+
+2026-10-23再完成[A008 Link组曲九页](../INTEGRATED_READING_LINK_MEDLEY.md)、[A009 Adabana七页](../INTEGRATED_READING_ADABANA.md)、[A056 Here九页](../INTEGRATED_READING_HERE.md)、[A083 Last Stardust六页](../INTEGRATED_READING_LAST_STARDUST.md)综合回查。补准备／进入／物理页界、拆行条件、八度终点、双踏板及局部速度恢复；历史首轮及379页近读不增，实际迁移评测不增。

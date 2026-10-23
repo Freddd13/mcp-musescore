@@ -2,7 +2,7 @@
 
 2026-10-23当前汇报：[进度与后续完整计划](engraving/STATUS_AND_ROADMAP.md)。它集中说明现状、近期优先问题、知识／skill迁移、用户谱候选和后续软件路线；下文保留各日期的原计划与积累，历史能力描述以较新专题和当时实际检查为准。
 
-同日补充执行约定：[进度账本](engraving/progress.json)固定分母与完成条件，当前首轮146/146份、整曲深化12/24首；24首之后仍回查全部146份的未解问题，不替代完整目标。[0.1.0可用研究版](ENGRAVING_RELEASES.md)保留知识／skill快照，学习未完也可试用；较大更新继续发布。缓存复用、单批增长及无损压缩记录见[材料位置](engraving/CACHE_LOCATIONS.md)，不批量堆积渲染／运行时副本，不擅自删除材料。
+同日补充执行约定：[进度账本](engraving/progress.json)固定分母与完成条件，当前首轮146/146份、整曲深化16/24首（105/164页，尚余8首／59页）；24首之后仍回查全部146份的未解问题，不替代完整目标。[0.2.0可用研究版](ENGRAVING_RELEASES.md)保留知识／skill快照，学习未完也可试用；较大更新继续发布。缓存复用、单批增长及无损压缩记录见[材料位置](engraving/CACHE_LOCATIONS.md)，不批量堆积渲染／运行时副本，不擅自删除材料。
 
 2026-10-20[整谱复核](engraving/WHOLE_SCORE_REVIEW.md)重新看用户8页并纠正一处语境遗漏：p1已定义S.P.=Sost. Ped.，不再让用户解释名称，后续捕捉／释放、辅助弧与实际播放另核。七处文字和既有MIDI复核支持整谱优先级，旧候选没有叠加为成品；本轮仍只做学习、知识库与skill，不启动软件适配。
 
@@ -225,3 +225,5 @@ MCP 的后续接口候选为 get_engraving_state 与 preview_engraving；具体�
 2026-10-23[十二对十一原生研究](engraving/POLYRHYTHM_SPACING_STUDY.md)落实近期独立复现：默认共同起止正确，换号空间和联合时间轴的非线性弹性／最低宽度分判；简单加两列留白未改善，移头和藏谱号拒绝。四份CC0输入、33音精确时值／MIDI及两版原生重载可追溯，知识与skill参考同步；后续换宽度再迁移，不做软件适配。
 
 2026-10-23[ninelie六页综合续读](engraving/INTEGRATED_READING_NINELIE.md#8-2026-10-23把局部放回整首)补完当前深化批次首曲，累计9/24首；同表八度仍待核。Gould补10页实质图文，另2页标题／目录分列，知识及skill参考持续可用，未启动适配。
+
+2026-10-23继续完成[Link组曲](engraving/INTEGRATED_READING_LINK_MEDLEY.md)、[Adabana](engraving/INTEGRATED_READING_ADABANA.md)、[Here](engraving/INTEGRATED_READING_HERE.md)、[Last Stardust](engraving/INTEGRATED_READING_LAST_STARDUST.md)共四首／31页整曲回查。累计16/24首、105/164页；教材均为旧页复读，Gould仍292/696，资料仍9/25，迁移试用仍1/8。重点是范围、进入和物理翻页条件，不能把出版惯例全部升级为规范；知识／skill已接入，原件只读，适配开发仍留后续。当前checkout在0.2.0标签之后，标签快照保持，不改旧发布证据。

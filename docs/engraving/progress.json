@@ -16,7 +16,11 @@
       "A098",
       "A067",
       "A102",
-      "A006"
+      "A006",
+      "A008",
+      "A009",
+      "A056",
+      "A083"
     ],
     "closeout_records": {
       "A098": {
@@ -38,6 +42,26 @@
         "note": "INTEGRATED_READING_LIT.md",
         "evidence": "lit_whole_reading_evidence.json",
         "unresolved": "PDF notation/role questions and actual physical-turn conditions remain conditional; no native full-score alternative or full pitch collation."
+      },
+      "A008": {
+        "note": "INTEGRATED_READING_LINK_MEDLEY.md",
+        "evidence": "link_medley_reading_evidence.json",
+        "unresolved": "Actual binding/hand availability and global reflow are unverified; preparation and melody entry are not the current page-edge turn window."
+      },
+      "A009": {
+        "note": "INTEGRATED_READING_ADABANA.md",
+        "evidence": "adabana_reading_evidence.json",
+        "unresolved": "Nine bars across two systems do not directly fit Gould splitting examples; no native complete-bar alternative, full pitch collation or certified self-turn."
+      },
+      "A056": {
+        "note": "INTEGRATED_READING_HERE.md",
+        "evidence": "here_reading_evidence.json",
+        "unresolved": "Open ties, complete ties and three release stars are distinguished; exact pedal capture/release assignment remains unknown, no native replacement."
+      },
+      "A083": {
+        "note": "INTEGRATED_READING_LAST_STARDUST.md",
+        "evidence": "last_stardust_reading_evidence.json",
+        "unresolved": "Local a tempo and later Tempo I differ; untied long chords cannot automatically merge, exact free-passage actions and physical turns remain conditional."
       }
     }
   },
@@ -161,33 +185,41 @@
         "id": "A008",
         "title": "A Link to the Past Medley.pdf",
         "pages": 9,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "A Link to the Past；组曲导航、页布局与对开",
-        "prior_partial_or_topical_note": "PAGE_FLOW_STUDY.md"
+        "prior_partial_or_topical_note": "PAGE_FLOW_STUDY.md",
+        "note": "INTEGRATED_READING_LINK_MEDLEY.md",
+        "evidence": "link_medley_reading_evidence.json"
       },
       {
         "id": "A009",
         "title": "Adabana Necromancy - Zombie Land Saga - Opening Theme.pdf",
         "pages": 7,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "Adabana Necromancy；八度、空白与翻页",
-        "prior_partial_or_topical_note": "PAGE_FLOW_STUDY.md"
+        "prior_partial_or_topical_note": "PAGE_FLOW_STUDY.md",
+        "note": "INTEGRATED_READING_ADABANA.md",
+        "evidence": "adabana_reading_evidence.json"
       },
       {
         "id": "A056",
         "title": "Here - Mahoutsukai no Yome - Opening Theme.pdf",
         "pages": 9,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "Here；双踏板、共鸣与自由尾声",
-        "prior_partial_or_topical_note": "SUSTAIN_CONTINUATION.md"
+        "prior_partial_or_topical_note": "SUSTAIN_CONTINUATION.md",
+        "note": "INTEGRATED_READING_HERE.md",
+        "evidence": "here_reading_evidence.json"
       },
       {
         "id": "A083",
         "title": "Last Stardust - Fate stay night：Unlimited Blade Works - Insert Song.pdf",
         "pages": 6,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "Last Stardust；有节奏／自由段的共同进入",
-        "prior_partial_or_topical_note": "FREE_PASSAGE_READING.md"
+        "prior_partial_or_topical_note": "FREE_PASSAGE_READING.md",
+        "note": "INTEGRATED_READING_LAST_STARDUST.md",
+        "evidence": "last_stardust_reading_evidence.json"
       },
       {
         "id": "A047",
@@ -581,25 +613,26 @@
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
-    "planned_topics": 20
+    "planned_topics": 20,
+    "working_branch_note": "Current checkout adds four reviewed studies after engraving-v0.2.0:16/24,105/164. Immutable release snapshot remains12/24,74/164; record actual Git commit when using later knowledge."
   },
   "last_study_batch": {
     "date": "2026-10-23",
-    "scope": "Reviewed Owari/lit whole-score readings, Kokecola workflow completion, conditional Dorico supplement and native five-four spacing candidate",
-    "new_deep_scores": 2,
-    "new_deep_pages": 13,
-    "new_all_score_closeouts": 2,
-    "new_complete_resource_scopes": 2,
+    "scope": "Root-reviewed Link Medley, Adabana, Here and Last Stardust whole-context studies after immutable 0.2.0 release",
+    "new_deep_scores": 4,
+    "new_deep_pages": 31,
+    "new_all_score_closeouts": 4,
+    "new_complete_resource_scopes": 0,
     "new_unique_ledger_book_pages": 0,
-    "book_full_image_evidence_repairs": 2,
+    "book_full_image_evidence_repairs": 0,
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 1,
+    "new_native_candidate_scenarios": 0,
     "notes": [
-      "INTEGRATED_READING_OWARI.md",
-      "INTEGRATED_READING_LIT.md",
-      "KOKE_COLA_WORKFLOW.md",
-      "DORICO_EDITORIAL_PRACTICE.md",
-      "FIVE_FOUR_SPACING_STUDY.md"
-    ]
+      "INTEGRATED_READING_LINK_MEDLEY.md",
+      "INTEGRATED_READING_ADABANA.md",
+      "INTEGRATED_READING_HERE.md",
+      "INTEGRATED_READING_LAST_STARDUST.md"
+    ],
+    "review_evidence": "whole_context_batch_2026_10_23_evidence.json"
   }
 }
