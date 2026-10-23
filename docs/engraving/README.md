@@ -8,7 +8,7 @@
 
 查看[当前进度与后续完整计划](STATUS_AND_ROADMAP.md)，区分已形成的能力、本阶段继续学习／候选验证和以后才启动的软件适配。
 
-**现在可用：[0.1.0发布记录与直接试用](../ENGRAVING_RELEASES.md)。** 工作分支持续积累，较大更新保留净书版本标签；[进度账本](progress.json)固定各阶段分母。首轮146/146份，下一轮整曲深化10/24首；数量表示覆盖，不表示已完全掌握。
+**现在可用：[0.2.0发布记录与直接试用](../ENGRAVING_RELEASES.md)。** 工作分支持续积累，较大更新保留净书版本标签；[进度账本](progress.json)固定各阶段分母。首轮146/146份，下一轮整曲深化12/24首；数量表示覆盖，不表示已完全掌握。
 
 先读[个人方向与作者说明](PREFERENCES.md)，再按当前问题选[判断指南](JUDGMENT_GUIDE.md)中的相关情境和下表专题，追到实际页／系统／小节。无需先读全部材料。后续任务可使用[净书skill](../../skills/piano-engraving/SKILL.md)；[使用与更新](../ENGRAVING_SKILL.md)说明知识库关联方式。
 
@@ -30,6 +30,12 @@
 | 查当前能力、输入与验证边界 | [实现研究](IMPLEMENTATION.md)、[输入历史](INPUT_HISTORY.md)、[skill试用记录](SKILL_REVIEW.md)、[原创原生例](fixtures/README.md) |
 
 ## 最近形成的可迁移判断
+
+[五连间距原生比较](FIVE_FOUR_SPACING_STUDY.md)有三档宽度及一个局部候选：共同时间本来正确，另一表的中间进入仍可使一格变宽；保住两组边界及两手关系，候选更稳。120mm版原生保存重载保持，但offset依赖当次布局，窄版仍换行，不作全谱预设。
+
+[Owari八页](INTEGRATED_READING_OWARI.md)补第二次fp拆小节、三连到普通十六分的参照改变与6对3真实共同点；[lit五页](INTEGRATED_READING_LIT.md)解释变奏间不同密度／路线、末7组的五头加长休止，并保留非显式比例的记法疑问。
+
+[Kokecola准备／输入全文与22处图](KOKE_COLA_WORKFLOW.md)补内容、计量／路线及空间预算的依赖，通用工具示意不当作品数据。[Dorico条件补记](DORICO_EDITORIAL_PRACTICE.md)仍缺原图；时值比与同值组内不匀分判，不把个人设置当规范。
 
 [Kakyoin四页整曲](INTEGRATED_READING_KAKYOIN.md)补梁的4+4计数与tenuto位置3+3+2分工、条件性踏板省写、必要长干及3／8小节行容量；F的二分重奏不并成长音，G的先后力度不拉齐。本轮是全曲回查，不是第二次独立skill评测。
 

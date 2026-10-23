@@ -14,7 +14,9 @@
     "closeout_definition": "逐份复核首轮笔记的排法理由、适用条件、矛盾与未解问题；有缺口则追原页／规范，记录保留、改进或未知。不是再生成一套图。",
     "closeout_completed_ids": [
       "A098",
-      "A067"
+      "A067",
+      "A102",
+      "A006"
     ],
     "closeout_records": {
       "A098": {
@@ -26,6 +28,16 @@
         "note": "INTEGRATED_READING_KAKYOIN.md",
         "evidence": "kakyoin_whole_reading_evidence.json",
         "unresolved": "Native alternatives, complete pitch collation and actual p3-to-p4 turning conditions remain unverified."
+      },
+      "A102": {
+        "note": "INTEGRATED_READING_OWARI.md",
+        "evidence": "owari_reading_evidence.json",
+        "unresolved": "PDF notation/role questions and actual physical-turn conditions remain conditional; no native full-score alternative or full pitch collation."
+      },
+      "A006": {
+        "note": "INTEGRATED_READING_LIT.md",
+        "evidence": "lit_whole_reading_evidence.json",
+        "unresolved": "PDF notation/role questions and actual physical-turn conditions remain conditional; no native full-score alternative or full pitch collation."
       }
     }
   },
@@ -129,17 +141,21 @@
         "id": "A102",
         "title": "Owari no Sekai Kara - from the album - Owari no Hoshi no Love Song -.pdf",
         "pages": 8,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "Owari no Sekai Kara；密集变音、复杂细分与长小节拆行",
-        "prior_partial_or_topical_note": "SPACING_DECISIONS.md"
+        "prior_partial_or_topical_note": "SPACING_DECISIONS.md",
+        "note": "INTEGRATED_READING_OWARI.md",
+        "evidence": "owari_reading_evidence.json"
       },
       {
         "id": "A006",
         "title": "5 Variations about the theme 「lit」 - A Silent Voice - Soundtrack.pdf",
         "pages": 5,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "lit五变奏；换号、轮廓与同主题不同织体",
-        "prior_partial_or_topical_note": "CLEF_READING.md"
+        "prior_partial_or_topical_note": "CLEF_READING.md",
+        "note": "INTEGRATED_READING_LIT.md",
+        "evidence": "lit_whole_reading_evidence.json"
       },
       {
         "id": "A008",
@@ -316,6 +332,22 @@
         "reconciliation": "accidental_edge_cases_evidence.json",
         "new_learning_pages": 0
       }
+    ],
+    "coverage_evidence_repairs": [
+      {
+        "date": "2026-10-23",
+        "printed_pages": [
+          208,
+          209
+        ],
+        "physical_pdf_pages": [
+          228,
+          229
+        ],
+        "note": "Old ledger continuous range already included these pages while the dated source note said text-only. Complete image reading now fills this gap without another cumulative increment or backdating.",
+        "evidence": "lit_whole_reading_evidence.json",
+        "unique_ledger_delta": 0
+      }
     ]
   },
   "resources": {
@@ -331,12 +363,16 @@
       {
         "id": "R02",
         "scope": "Kokecola准备篇：正文及全部相关设置图",
-        "status": "partial"
+        "status": "complete",
+        "note": "KOKE_COLA_WORKFLOW.md",
+        "evidence": "kokecola_workflow_evidence.json"
       },
       {
         "id": "R03",
         "scope": "Kokecola输入篇：正文及全部相关流程图",
-        "status": "partial"
+        "status": "complete",
+        "note": "KOKE_COLA_WORKFLOW.md",
+        "evidence": "kokecola_workflow_evidence.json"
       },
       {
         "id": "R04",
@@ -433,7 +469,10 @@
       {
         "id": "R22",
         "scope": "藤井大河：正文及配套Dorico设置图",
-        "status": "partial"
+        "status": "partial",
+        "note": "DORICO_EDITORIAL_PRACTICE.md",
+        "evidence": "dorico_editorial_practice_evidence.json",
+        "remaining": "Author images not actually viewed, reliable figure total unknown, exact 2024 version/defaults unverified."
       },
       {
         "id": "R23",
@@ -537,8 +576,8 @@
     ]
   },
   "release": {
-    "version": "0.1.0",
-    "tag": "engraving-v0.1.0",
+    "version": "0.2.0",
+    "tag": "engraving-v0.2.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
@@ -546,25 +585,21 @@
   },
   "last_study_batch": {
     "date": "2026-10-23",
-    "scope": "Reviewed Kakyoin whole-score reading, MOLA completion and Gould accidental edge cases",
-    "notes": [
-      "INTEGRATED_READING_KAKYOIN.md",
-      "MOLA_READING.md",
-      "ACCIDENTAL_EDGE_CASES.md"
-    ],
-    "evidence": [
-      "kakyoin_whole_reading_evidence.json",
-      "mola_reading_evidence.json",
-      "accidental_edge_cases_evidence.json"
-    ],
-    "new_deep_scores": 1,
-    "new_deep_pages": 4,
-    "new_all_score_closeouts": 1,
-    "new_substantive_book_pages": 5,
-    "historical_substantive_ledger_correction": 4,
-    "new_title_or_contents_pages": 2,
-    "new_complete_resource_scopes": 1,
+    "scope": "Reviewed Owari/lit whole-score readings, Kokecola workflow completion, conditional Dorico supplement and native five-four spacing candidate",
+    "new_deep_scores": 2,
+    "new_deep_pages": 13,
+    "new_all_score_closeouts": 2,
+    "new_complete_resource_scopes": 2,
+    "new_unique_ledger_book_pages": 0,
+    "book_full_image_evidence_repairs": 2,
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidates": 0
+    "new_native_candidate_scenarios": 1,
+    "notes": [
+      "INTEGRATED_READING_OWARI.md",
+      "INTEGRATED_READING_LIT.md",
+      "KOKE_COLA_WORKFLOW.md",
+      "DORICO_EDITORIAL_PRACTICE.md",
+      "FIVE_FOUR_SPACING_STUDY.md"
+    ]
   }
 }

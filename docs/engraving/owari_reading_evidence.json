@@ -1,0 +1,2143 @@
+{
+  "date": "2026-10-23",
+  "scope": "Complete-context review of A102 Owari no Sekai Kara, including prior spacing observations, new fp split continuation, changing reference subdivisions and local octave-start boundary; read-only learning, no software adaptation.",
+  "sources": {
+    "score": {
+      "id": "A102",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Owari no Sekai Kara - from the album - Owari no Hoshi no Love Song -.pdf",
+      "physical_pdf_pages": 8,
+      "printed_pages_match_physical_pdf": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "sha256_at_start": "baae71eacfddd0bd72be8925c1ae1be519a8ce6f860641688e0ffddc148fe825",
+      "sha256_after": "baae71eacfddd0bd72be8925c1ae1be519a8ce6f860641688e0ffddc148fe825",
+      "matches_inventory_baseline": true
+    },
+    "book": {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "physical_pdf_pages": 696,
+      "sha256_at_text_reading_start": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "sha256_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "matches_recorded_baseline": true,
+      "verified_local_mapping_pdf_page_equals_printed_plus": 20
+    }
+  },
+  "actual_reading": {
+    "whole_score_physical_pdf_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "whole_score_page_count": 8,
+    "score_local_images_count": 15,
+    "book_full_substantive_printed_pages": [
+      39,
+      40,
+      43,
+      200,
+      201,
+      202,
+      489,
+      490
+    ],
+    "book_full_physical_pdf_pages": [
+      59,
+      60,
+      63,
+      220,
+      221,
+      222,
+      509,
+      510
+    ],
+    "book_full_substantive_pages_count": 8,
+    "book_new_first_time_unique_pages": [],
+    "book_new_first_time_unique_count": 0,
+    "book_chapter_title_or_contents_count": 0,
+    "total_images_actually_viewed": 31,
+    "previously_read_octave_conditions_324_325_referenced_but_not_counted_as_current_reread": true,
+    "historical_corpus_379_near_read_count_not_incremented": true,
+    "sequence": "Eight full cached pages and twelve ordinary local crops viewed; initial observations saved; complete old corpus/spacing analyses then read; two high-detail crops plus fp continuation and eight textbook pages checked. Parent priorities and search snippets were already known; not a blind test."
+  },
+  "initial_observation_record": {
+    "path": "tmp\\engraving\\owari-whole-2026-10-23\\initial-reading-before-old-notes.json",
+    "sha256": "b117757df1c176a8de2a33ba9e4166849d53d505f2031d0b6fc7f952c06e1d20"
+  },
+  "full_score_images_reused": [
+    {
+      "pdf_page": 1,
+      "path": "tmp\\engraving\\corpus\\A102\\page-1.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "89d7fccd5283f286463d307be5144d65504efc92ab9a4930cecb794aebe4cdfb",
+      "actually_viewed_full_page": true
+    },
+    {
+      "pdf_page": 2,
+      "path": "tmp\\engraving\\corpus\\A102\\page-2.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "e4e5f37ef3c493005a916e3b6dc3300403188574fe27d3b690d96428b82e7604",
+      "actually_viewed_full_page": true
+    },
+    {
+      "pdf_page": 3,
+      "path": "tmp\\engraving\\corpus\\A102\\page-3.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "7294b943f54eef335d480dc7b8a3277b528ab5513eb900f0c9fc19e22bd9d359",
+      "actually_viewed_full_page": true
+    },
+    {
+      "pdf_page": 4,
+      "path": "tmp\\engraving\\corpus\\A102\\page-4.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "7b4511d8cd2b5a5d39a555e1829923c0353ebb73dcb8c915f40ace800fa169f6",
+      "actually_viewed_full_page": true
+    },
+    {
+      "pdf_page": 5,
+      "path": "tmp\\engraving\\corpus\\A102\\page-5.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "e9db402a37488e80134da19d56a0784c48fc41b65d57327fab3b2d6da6f8c879",
+      "actually_viewed_full_page": true
+    },
+    {
+      "pdf_page": 6,
+      "path": "tmp\\engraving\\corpus\\A102\\page-6.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "a031c869e8ed5a8867715aa19275d51b3011ef0d228ce5cbe56ac78902f0d284",
+      "actually_viewed_full_page": true
+    },
+    {
+      "pdf_page": 7,
+      "path": "tmp\\engraving\\corpus\\A102\\page-7.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "363a35c525e36b1c2af7b05a852e340f5a8c21d5a86d77f3be4948584fbd32cd",
+      "actually_viewed_full_page": true
+    },
+    {
+      "pdf_page": 8,
+      "path": "tmp\\engraving\\corpus\\A102\\page-8.jpg",
+      "dimensions": [
+        1800,
+        2546
+      ],
+      "sha256": "8f2807c218973c5bef489252e897774fe3a86bbfb115a7449b57a03a06ecd0e6",
+      "actually_viewed_full_page": true
+    }
+  ],
+  "local_score_images": [
+    {
+      "name": "p1-intro-rit-entry",
+      "pdf_page": 1,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-1.jpg",
+      "crop_pixels": [
+        50,
+        570,
+        1740,
+        1270
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p1-intro-rit-entry.png",
+      "sha256": "432b0f111d55a16dc5d3f77a779875b05ee3c4bbfb3a866d49efaa6ddc7b61e6",
+      "actually_viewed": true
+    },
+    {
+      "name": "p2-layered-pulse",
+      "pdf_page": 2,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-2.jpg",
+      "crop_pixels": [
+        50,
+        1260,
+        1740,
+        1635
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p2-layered-pulse.png",
+      "sha256": "b7db419cc0cc96b29dbbd96c33ef7c6c067f1439052a0d26eeb696dfb707b4bd",
+      "actually_viewed": true
+    },
+    {
+      "name": "p2-end-register-and-return",
+      "pdf_page": 2,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-2.jpg",
+      "crop_pixels": [
+        50,
+        1635,
+        1740,
+        2380
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p2-end-register-and-return.png",
+      "sha256": "561b203a0c08229e13346dc13a588b3826fbe2b4048bdc7c15905a73c5104078",
+      "actually_viewed": true
+    },
+    {
+      "name": "p3-fast-pattern-and-marcato",
+      "pdf_page": 3,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-3.jpg",
+      "crop_pixels": [
+        50,
+        480,
+        1740,
+        1235
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p3-fast-pattern-and-marcato.png",
+      "sha256": "33de826ba8c37508361f77091ebf85fa248177e8c23dd7a34343a7515d31c5c4",
+      "actually_viewed": true
+    },
+    {
+      "name": "p4-short-8va-layers",
+      "pdf_page": 4,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-4.jpg",
+      "crop_pixels": [
+        50,
+        505,
+        1740,
+        1200
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p4-short-8va-layers.png",
+      "sha256": "0d3009eeeae72999b892d39ca1a66a86a9d63f48b71c4c86d27d7a5489f4bf9c",
+      "actually_viewed": true
+    },
+    {
+      "name": "p5-key-transition",
+      "pdf_page": 5,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-5.jpg",
+      "crop_pixels": [
+        50,
+        900,
+        1740,
+        1590
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p5-key-transition.png",
+      "sha256": "ccb6aa79f52ae60917a487940787295d89b847af4748c074abb30e182833934d",
+      "actually_viewed": true
+    },
+    {
+      "name": "p6-descent-rit-115",
+      "pdf_page": 6,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-6.jpg",
+      "crop_pixels": [
+        50,
+        95,
+        1740,
+        890
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p6-descent-rit-115.png",
+      "sha256": "f80957610a647ed90de078508f4e8178ce385cd68a5f7816f91d7c631a7f510d",
+      "actually_viewed": true
+    },
+    {
+      "name": "p6-125-preparation",
+      "pdf_page": 6,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-6.jpg",
+      "crop_pixels": [
+        50,
+        1270,
+        1740,
+        2010
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p6-125-preparation.png",
+      "sha256": "346a1cb4339f932551ea08f078827439d5338708b7ce2053cb5e8ac4fb90ace5",
+      "actually_viewed": true
+    },
+    {
+      "name": "p7-tuplets-and-shared-time",
+      "pdf_page": 7,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-7.jpg",
+      "crop_pixels": [
+        50,
+        95,
+        1740,
+        1030
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p7-tuplets-and-shared-time.png",
+      "sha256": "2197873108997eab20f8359d68afb340cb2befee54c7104d783d4831538b1d6f",
+      "actually_viewed": true
+    },
+    {
+      "name": "p7-maestoso-layers",
+      "pdf_page": 7,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-7.jpg",
+      "crop_pixels": [
+        50,
+        1090,
+        1740,
+        1950
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p7-maestoso-layers.png",
+      "sha256": "d011e8cca1c19772ed41cbbea7ebd46bd1abae7d8c3d9ea2770743509fd0db85",
+      "actually_viewed": true
+    },
+    {
+      "name": "p8-split-measures",
+      "pdf_page": 8,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-8.jpg",
+      "crop_pixels": [
+        50,
+        90,
+        1740,
+        950
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p8-split-measures.png",
+      "sha256": "0f484233acff4c511bb27472fb45cd8264ce48a1f6ce81cac9a66cb8e52b0c81",
+      "actually_viewed": true
+    },
+    {
+      "name": "p8-ending-entry-and-close",
+      "pdf_page": 8,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-8.jpg",
+      "crop_pixels": [
+        50,
+        1480,
+        1740,
+        2360
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p8-ending-entry-and-close.png",
+      "sha256": "aebfd8dec03d807cb4f4f3bccf84ff1c66891fc2f8bf50f01728a7a287877bc5",
+      "actually_viewed": true
+    },
+    {
+      "name": "p7-bar2-beam-detail",
+      "pdf_page": 7,
+      "pdf_crop_box_from_top": [
+        190,
+        40,
+        361,
+        160
+      ],
+      "render_scale_pixels_per_pdf_point": 5,
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p7-bar2-beam-detail.png",
+      "sha256": "6194280cd2250e5c44857ac186d9ae4594817c670f5abf14721ad172cb13e874",
+      "new_full_page_file": false,
+      "actually_viewed": true
+    },
+    {
+      "name": "p4-short-8va-detail",
+      "pdf_page": 4,
+      "pdf_crop_box_from_top": [
+        75,
+        287,
+        173,
+        395
+      ],
+      "render_scale_pixels_per_pdf_point": 5,
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p4-short-8va-detail.png",
+      "sha256": "d1c7401a5cb3a2113823350e7734f4b73ed29d638ab889c5a35eac35c2085a61",
+      "new_full_page_file": false,
+      "actually_viewed": true
+    },
+    {
+      "name": "p8-fp-split-continuation",
+      "pdf_page": 8,
+      "source_render": "tmp\\engraving\\corpus\\A102\\page-8.jpg",
+      "crop_pixels": [
+        50,
+        1000,
+        1740,
+        1960
+      ],
+      "path": "tmp\\engraving\\owari-whole-2026-10-23\\p8-fp-split-continuation.png",
+      "sha256": "8924fc564708ee9c68be74c1330cd1e67f47e3eba167a892966000d98ada5ef8",
+      "actually_viewed": true
+    }
+  ],
+  "full_book_images_reused": [
+    {
+      "printed_page": 39,
+      "physical_pdf_page": 59,
+      "path": "tmp\\engraving\\mpa-2026-10-21\\gould-39.png",
+      "sha256": "f61a61daa40ff91d02221e2eab34fdeeda4ac982d37eee3366d4952d1ad2ff80",
+      "actually_viewed_full_image": true,
+      "substantive_technical_page": true,
+      "first_time_unique_page": false
+    },
+    {
+      "printed_page": 40,
+      "physical_pdf_page": 60,
+      "path": "tmp\\engraving\\mpa-2026-10-21\\gould-40.png",
+      "sha256": "80a83293322bc0e19b7e7d261173d4755c0bb601a844a61d2d542f1f47fba01e",
+      "actually_viewed_full_image": true,
+      "substantive_technical_page": true,
+      "first_time_unique_page": false
+    },
+    {
+      "printed_page": 43,
+      "physical_pdf_page": 63,
+      "path": "tmp\\engraving\\mpa-2026-10-21\\gould-43.png",
+      "sha256": "97882ba933ecd8ff5e4188ba696b87c0473fc8c25bedb6e386298b3d218c842b",
+      "actually_viewed_full_image": true,
+      "substantive_technical_page": true,
+      "first_time_unique_page": false
+    },
+    {
+      "printed_page": 200,
+      "physical_pdf_page": 220,
+      "path": "tmp\\engraving\\integrated-my-dearest-2026-10-23\\Gould-p200.png",
+      "sha256": "288d116a8f2f7e46723f65a91cdb0a28dacbd5face514ddbe46bbe24af748d1c",
+      "actually_viewed_full_image": true,
+      "substantive_technical_page": true,
+      "first_time_unique_page": false
+    },
+    {
+      "printed_page": 201,
+      "physical_pdf_page": 221,
+      "path": "tmp\\engraving\\integrated-my-dearest-2026-10-23\\Gould-p201.png",
+      "sha256": "000c749ca4bcf9baad5ccd98910b4df2de14390bbfc497ed7a73c52b32834970",
+      "actually_viewed_full_image": true,
+      "substantive_technical_page": true,
+      "first_time_unique_page": false
+    },
+    {
+      "printed_page": 202,
+      "physical_pdf_page": 222,
+      "path": "tmp\\engraving\\integrated-my-dearest-2026-10-23\\Gould-p202.png",
+      "sha256": "9aa686565b8745db6787f99cb7704b84b1cd8705dac4bbd4f2f43d1b873e04bc",
+      "actually_viewed_full_image": true,
+      "substantive_technical_page": true,
+      "first_time_unique_page": false
+    },
+    {
+      "printed_page": 489,
+      "physical_pdf_page": 509,
+      "path": "tmp\\engraving\\system-boundaries-2026-10-20\\book-509.jpg",
+      "sha256": "a54c179b052d301f8dff2eb06a7606628dd0abaf687b58a96ab5c01c0fa71cc4",
+      "actually_viewed_full_image": true,
+      "substantive_technical_page": true,
+      "first_time_unique_page": false
+    },
+    {
+      "printed_page": 490,
+      "physical_pdf_page": 510,
+      "path": "tmp\\engraving\\system-boundaries-2026-10-20\\book-510.jpg",
+      "sha256": "0f6df8b1c4c2edfaed0e24aac96ad68ffc95bebaef60b3920187d6f01f986fa5",
+      "actually_viewed_full_image": true,
+      "substantive_technical_page": true,
+      "first_time_unique_page": false
+    }
+  ],
+  "same_file_font_resource_check": [
+    {
+      "pdf_page": 3,
+      "F1_object_id": 7,
+      "BaseFont": "/CIDFont+F1",
+      "Subtype": "/Type0",
+      "Encoding": "/Identity-H"
+    },
+    {
+      "pdf_page": 4,
+      "F1_object_id": 7,
+      "BaseFont": "/CIDFont+F1",
+      "Subtype": "/Type0",
+      "Encoding": "/Identity-H"
+    },
+    {
+      "pdf_page": 5,
+      "F1_object_id": 7,
+      "BaseFont": "/CIDFont+F1",
+      "Subtype": "/Type0",
+      "Encoding": "/Identity-H"
+    },
+    {
+      "pdf_page": 7,
+      "F1_object_id": 7,
+      "BaseFont": "/CIDFont+F1",
+      "Subtype": "/Type0",
+      "Encoding": "/Identity-H"
+    },
+    {
+      "pdf_page": 8,
+      "F1_object_id": 7,
+      "BaseFont": "/CIDFont+F1",
+      "Subtype": "/Type0",
+      "Encoding": "/Identity-H"
+    }
+  ],
+  "geometry_method": "Source-file CIDFont+F1 U+F0CF normal-side solid-notehead drawing origins, visually checked in the selected regions. All inspected pages share F1 indirect font object 7 and the same source music-head size. Origins are not ink centres; chords deduplicated by written time position within each selected layer; no cross-file PUA assumption.",
+  "measurement_details": {
+    "repeated_upper_pattern": [
+      {
+        "pdf_page": 3,
+        "system": 2,
+        "bar_within_system": 3,
+        "upper_staff_top_pdf_pt": 197.52,
+        "heads": [
+          {
+            "x": 293.40001,
+            "head_tops": [
+              189.51158
+            ]
+          },
+          {
+            "x": 301.44001,
+            "head_tops": [
+              195.87156
+            ]
+          },
+          {
+            "x": 309.48001,
+            "head_tops": [
+              200.19157
+            ]
+          },
+          {
+            "x": 317.40001,
+            "head_tops": [
+              195.87156
+            ]
+          },
+          {
+            "x": 325.55999,
+            "head_tops": [
+              189.51158
+            ]
+          },
+          {
+            "x": 333.71999,
+            "head_tops": [
+              195.87156
+            ]
+          },
+          {
+            "x": 341.75999,
+            "head_tops": [
+              200.19157
+            ]
+          },
+          {
+            "x": 349.67999,
+            "head_tops": [
+              195.87156
+            ]
+          },
+          {
+            "x": 357.84,
+            "head_tops": [
+              189.51158
+            ]
+          },
+          {
+            "x": 365.88,
+            "head_tops": [
+              195.87156
+            ]
+          },
+          {
+            "x": 373.8,
+            "head_tops": [
+              200.19157
+            ]
+          },
+          {
+            "x": 381.84,
+            "head_tops": [
+              195.87156
+            ]
+          },
+          {
+            "x": 390.0,
+            "head_tops": [
+              189.51158
+            ]
+          },
+          {
+            "x": 398.03998,
+            "head_tops": [
+              195.87156
+            ]
+          },
+          {
+            "x": 406.08,
+            "head_tops": [
+              200.19157
+            ]
+          },
+          {
+            "x": 414.0,
+            "head_tops": [
+              195.87156
+            ]
+          }
+        ],
+        "relative_head_top_from_staffline": [
+          -8.0084,
+          -1.6484,
+          2.6716,
+          -1.6484,
+          -8.0084,
+          -1.6484,
+          2.6716,
+          -1.6484,
+          -8.0084,
+          -1.6484,
+          2.6716,
+          -1.6484,
+          -8.0084,
+          -1.6484,
+          2.6716,
+          -1.6484
+        ],
+        "internal_gaps_pt": [
+          8.04,
+          8.04,
+          7.92,
+          8.15998,
+          8.16,
+          8.04,
+          7.92,
+          8.16001,
+          8.04,
+          7.92,
+          8.04,
+          8.16,
+          8.03998,
+          8.04002,
+          7.92
+        ],
+        "internal_max_min": 1.030304292929293,
+        "barline_to_barline_width_pt": 136.68
+      },
+      {
+        "pdf_page": 5,
+        "system": 1,
+        "bar_within_system": 4,
+        "upper_staff_top_pdf_pt": 72.12,
+        "heads": [
+          {
+            "x": 417.96002,
+            "head_tops": [
+              64.11158
+            ]
+          },
+          {
+            "x": 426.84,
+            "head_tops": [
+              70.47158
+            ]
+          },
+          {
+            "x": 435.48001,
+            "head_tops": [
+              74.67158
+            ]
+          },
+          {
+            "x": 444.35998,
+            "head_tops": [
+              70.47158
+            ]
+          },
+          {
+            "x": 453.24001,
+            "head_tops": [
+              64.11158
+            ]
+          },
+          {
+            "x": 461.88002,
+            "head_tops": [
+              70.47158
+            ]
+          },
+          {
+            "x": 470.75999,
+            "head_tops": [
+              74.67158
+            ]
+          },
+          {
+            "x": 479.40001,
+            "head_tops": [
+              70.47158
+            ]
+          },
+          {
+            "x": 488.27998,
+            "head_tops": [
+              64.11158
+            ]
+          },
+          {
+            "x": 497.16,
+            "head_tops": [
+              70.47158
+            ]
+          },
+          {
+            "x": 505.92,
+            "head_tops": [
+              74.67158
+            ]
+          },
+          {
+            "x": 514.67999,
+            "head_tops": [
+              70.47158
+            ]
+          },
+          {
+            "x": 523.56001,
+            "head_tops": [
+              64.11158
+            ]
+          },
+          {
+            "x": 532.32001,
+            "head_tops": [
+              70.47158
+            ]
+          },
+          {
+            "x": 541.08,
+            "head_tops": [
+              74.67158
+            ]
+          },
+          {
+            "x": 549.84,
+            "head_tops": [
+              70.47158
+            ]
+          }
+        ],
+        "relative_head_top_from_staffline": [
+          -8.0084,
+          -1.6484,
+          2.5516,
+          -1.6484,
+          -8.0084,
+          -1.6484,
+          2.5516,
+          -1.6484,
+          -8.0084,
+          -1.6484,
+          2.5516,
+          -1.6484,
+          -8.0084,
+          -1.6484,
+          2.5516,
+          -1.6484
+        ],
+        "internal_gaps_pt": [
+          8.87998,
+          8.64001,
+          8.87997,
+          8.88003,
+          8.64001,
+          8.87997,
+          8.64002,
+          8.87997,
+          8.88002,
+          8.76,
+          8.75999,
+          8.88002,
+          8.76,
+          8.75999,
+          8.76
+        ],
+        "internal_max_min": 1.027780060439745,
+        "barline_to_barline_width_pt": 148.8
+      }
+    ],
+    "p7_five_seven": {
+      "five_heads": [
+        {
+          "x": 256.32001,
+          "head_tops": [
+            70.47158,
+            74.67158,
+            78.99157
+          ]
+        },
+        {
+          "x": 263.88,
+          "head_tops": [
+            78.99157
+          ]
+        },
+        {
+          "x": 271.32001,
+          "head_tops": [
+            76.83157
+          ]
+        },
+        {
+          "x": 279.0,
+          "head_tops": [
+            74.67158
+          ]
+        },
+        {
+          "x": 286.44001,
+          "head_tops": [
+            72.51157
+          ]
+        }
+      ],
+      "seven_heads": [
+        {
+          "x": 294.0,
+          "head_tops": [
+            70.47158
+          ]
+        },
+        {
+          "x": 300.96,
+          "head_tops": [
+            68.31157
+          ]
+        },
+        {
+          "x": 309.48001,
+          "head_tops": [
+            66.15158
+          ]
+        },
+        {
+          "x": 319.2,
+          "head_tops": [
+            64.11158
+          ]
+        },
+        {
+          "x": 328.92,
+          "head_tops": [
+            61.95158
+          ]
+        },
+        {
+          "x": 338.75999,
+          "head_tops": [
+            59.79157
+          ]
+        },
+        {
+          "x": 348.48001,
+          "head_tops": [
+            57.63158
+          ]
+        }
+      ],
+      "lower_second_half_12triplet_notes_last6": [
+        {
+          "x": 256.32001,
+          "head_tops": [
+            142.71157
+          ]
+        },
+        {
+          "x": 268.92,
+          "head_tops": [
+            134.19157
+          ]
+        },
+        {
+          "x": 281.51999,
+          "head_tops": [
+            127.83157
+          ]
+        },
+        {
+          "x": 294.0,
+          "head_tops": [
+            125.79157
+          ]
+        },
+        {
+          "x": 312.71999,
+          "head_tops": [
+            123.63157
+          ]
+        },
+        {
+          "x": 335.51999,
+          "head_tops": [
+            119.31157
+          ]
+        }
+      ],
+      "five_group_filled_beams": [
+        {
+          "x0": 256.32000750000003,
+          "x1": 286.9199985,
+          "top": 93.35995824999998,
+          "bottom": 95.51995675
+        },
+        {
+          "x0": 256.32000750000003,
+          "x1": 286.9199985,
+          "top": 90.119959,
+          "bottom": 92.27995675
+        }
+      ],
+      "seven_group_filled_beams": [
+        {
+          "x0": 294.0,
+          "x1": 348.95999925,
+          "top": 82.67995450000001,
+          "bottom": 86.999956
+        },
+        {
+          "x0": 294.0,
+          "x1": 348.95999925,
+          "top": 79.5599575,
+          "bottom": 83.75995599999999
+        }
+      ],
+      "five_beam_count": 2,
+      "seven_beam_count": 2,
+      "reading": "Half-note chord at q0 ties into five-group receiving chord at q2. Two-beam 5:4 and 7:4 semiquaver groups occupy q2..3 and q3..4 by conventional ratio and same-column lower triplet onsets; PDF ratios are inferred, not native fields."
+    },
+    "p4_short_octave": {
+      "half_dyad_and_fast_voice_quaver_rest_x_pt": 111.96,
+      "octave_sign_glyph_x_pt": 120.36,
+      "first_fast_head_x_pt": 122.64,
+      "last_fast_head_x_pt": 159.0,
+      "next_main_dyad_x_pt": 169.8,
+      "visible_end_hook_candidates": [
+        {
+          "x0": 163.7999955,
+          "x1": 163.7999955,
+          "top": 289.0799575,
+          "bottom": 295.55994625000005
+        }
+      ],
+      "reading": "The half-note dyad starts before the short octave span; fast voice rests a quaver and then enters. This is not a blanket resolution of all mixed same-staff octave cases; following onsets and each endpoint remain local.",
+      "notated_local_timeline_in_quarter_units": {
+        "status": "Read from visible values and complete measure; not native ticks/voice fields or verified playback.",
+        "slower_line": [
+          {
+            "x_pt": 89.16,
+            "onset": "0",
+            "duration": "1/2",
+            "kind": "single quaver"
+          },
+          {
+            "x_pt": 100.2,
+            "onset": "1/2",
+            "duration": "1/2",
+            "kind": "quaver dyad"
+          },
+          {
+            "x_pt": 111.96,
+            "onset": "1",
+            "duration": "2",
+            "kind": "minim dyad"
+          },
+          {
+            "x_pt": 169.8,
+            "onset": "3",
+            "duration": "1",
+            "kind": "quarter dyad after visible octave end"
+          }
+        ],
+        "fast_layer": [
+          {
+            "x_pt": 111.96,
+            "onset": "1",
+            "duration": "1/2",
+            "kind": "quaver rest"
+          },
+          {
+            "x_pt": 122.64,
+            "onset": "3/2",
+            "duration": "1/4"
+          },
+          {
+            "x_pt": 131.16,
+            "onset": "7/4",
+            "duration": "1/4"
+          },
+          {
+            "x_pt": 140.88,
+            "onset": "2",
+            "duration": "1/4"
+          },
+          {
+            "x_pt": 150.6,
+            "onset": "9/4",
+            "duration": "1/4"
+          },
+          {
+            "x_pt": 159.0,
+            "onset": "5/2",
+            "duration": "1/2"
+          }
+        ],
+        "visible_short_octave_end_hook_x_pt": 163.7999955,
+        "not_a_resolution_of_ninelie_or_other_same_staff_octave_cases": true
+      }
+    },
+    "p8_fp_split": {
+      "system3_after_fp_upper_time_positions": [
+        {
+          "x": 437.64002,
+          "head_tops": [
+            388.59158,
+            403.47156
+          ]
+        },
+        {
+          "x": 465.48001,
+          "head_tops": [
+            407.79156
+          ]
+        },
+        {
+          "x": 475.92,
+          "head_tops": [
+            405.63156
+          ]
+        },
+        {
+          "x": 486.24001,
+          "head_tops": [
+            403.47156
+          ]
+        },
+        {
+          "x": 496.67999,
+          "head_tops": [
+            399.27157
+          ]
+        },
+        {
+          "x": 507.11998,
+          "head_tops": [
+            403.47156
+          ]
+        },
+        {
+          "x": 517.56001,
+          "head_tops": [
+            405.63156
+          ]
+        },
+        {
+          "x": 528.0,
+          "head_tops": [
+            407.79156
+          ]
+        },
+        {
+          "x": 538.32001,
+          "head_tops": [
+            403.47156
+          ]
+        },
+        {
+          "x": 548.75999,
+          "head_tops": [
+            399.27157
+          ]
+        }
+      ],
+      "system3_after_fp_lower_time_positions": [
+        {
+          "x": 437.64002,
+          "head_tops": [
+            462.99159
+          ]
+        },
+        {
+          "x": 451.43999,
+          "head_tops": [
+            454.47156
+          ]
+        },
+        {
+          "x": 465.48001,
+          "head_tops": [
+            443.91159
+          ]
+        },
+        {
+          "x": 481.08,
+          "head_tops": [
+            454.47156
+          ]
+        },
+        {
+          "x": 496.67999,
+          "head_tops": [
+            462.99159
+          ]
+        },
+        {
+          "x": 512.27998,
+          "head_tops": [
+            454.47156
+          ]
+        },
+        {
+          "x": 528.0,
+          "head_tops": [
+            443.91159
+          ]
+        },
+        {
+          "x": 543.59999,
+          "head_tops": [
+            454.47156
+          ]
+        }
+      ],
+      "system4_before_barline_upper_time_positions": [
+        {
+          "x": 87.72,
+          "head_tops": [
+            549.87156
+          ]
+        },
+        {
+          "x": 99.12,
+          "head_tops": [
+            556.2316
+          ]
+        },
+        {
+          "x": 110.4,
+          "head_tops": [
+            560.55156
+          ]
+        },
+        {
+          "x": 121.92,
+          "head_tops": [
+            562.59158
+          ]
+        },
+        {
+          "x": 133.32,
+          "head_tops": [
+            556.2316
+          ]
+        },
+        {
+          "x": 144.6,
+          "head_tops": [
+            549.87156
+          ]
+        },
+        {
+          "x": 156.0,
+          "head_tops": [
+            545.67158
+          ]
+        },
+        {
+          "x": 167.27999,
+          "head_tops": [
+            547.71156
+          ]
+        },
+        {
+          "x": 178.68,
+          "head_tops": [
+            549.87156
+          ]
+        },
+        {
+          "x": 190.2,
+          "head_tops": [
+            556.2316
+          ]
+        },
+        {
+          "x": 201.48001,
+          "head_tops": [
+            549.87156
+          ]
+        },
+        {
+          "x": 212.88,
+          "head_tops": [
+            545.67158
+          ]
+        }
+      ],
+      "system4_before_barline_lower_time_positions": [
+        {
+          "x": 87.72,
+          "head_tops": [
+            620.07159
+          ]
+        },
+        {
+          "x": 104.75999,
+          "head_tops": [
+            611.55156
+          ]
+        },
+        {
+          "x": 121.92,
+          "head_tops": [
+            600.99159
+          ]
+        },
+        {
+          "x": 138.96,
+          "head_tops": [
+            611.55156
+          ]
+        },
+        {
+          "x": 156.0,
+          "head_tops": [
+            620.07159
+          ]
+        },
+        {
+          "x": 173.04,
+          "head_tops": [
+            611.55156
+          ]
+        },
+        {
+          "x": 190.2,
+          "head_tops": [
+            600.99159
+          ]
+        },
+        {
+          "x": 207.24001,
+          "head_tops": [
+            611.55156
+          ]
+        }
+      ],
+      "upper_time_position_counts": [
+        10,
+        12
+      ],
+      "lower_time_position_counts": [
+        8,
+        8
+      ],
+      "first_half_quarter_units": "1/2 + 3*(1/6) + 6*(1/6) = 2 in upper voice; two groups of four ordinary semiquavers = 2 below",
+      "second_half_quarter_units": "two six-note semiquaver tuplets of one quarter each = 2 above; two groups of four ordinary semiquavers = 2 below"
+    },
+    "p8_system4_next_full_measure_6_against3": {
+      "upper_time_positions": [
+        {
+          "x": 230.40001,
+          "head_tops": [
+            541.35158
+          ]
+        },
+        {
+          "x": 244.08,
+          "head_tops": [
+            545.67158
+          ]
+        },
+        {
+          "x": 257.75999,
+          "head_tops": [
+            547.71156
+          ]
+        },
+        {
+          "x": 271.55999,
+          "head_tops": [
+            549.87156
+          ]
+        },
+        {
+          "x": 285.24001,
+          "head_tops": [
+            545.67158
+          ]
+        },
+        {
+          "x": 298.8,
+          "head_tops": [
+            541.35158
+          ]
+        },
+        {
+          "x": 312.48001,
+          "head_tops": [
+            534.99159
+          ]
+        },
+        {
+          "x": 326.16,
+          "head_tops": [
+            541.35158
+          ]
+        },
+        {
+          "x": 339.84,
+          "head_tops": [
+            545.67158
+          ]
+        },
+        {
+          "x": 353.63999,
+          "head_tops": [
+            547.71156
+          ]
+        },
+        {
+          "x": 367.2,
+          "head_tops": [
+            541.35158
+          ]
+        },
+        {
+          "x": 380.88,
+          "head_tops": [
+            534.99159
+          ]
+        },
+        {
+          "x": 394.56001,
+          "head_tops": [
+            530.79156
+          ]
+        },
+        {
+          "x": 408.24001,
+          "head_tops": [
+            532.83159
+          ]
+        },
+        {
+          "x": 421.80002,
+          "head_tops": [
+            534.99159
+          ]
+        },
+        {
+          "x": 435.72002,
+          "head_tops": [
+            541.35158
+          ]
+        },
+        {
+          "x": 449.27998,
+          "head_tops": [
+            534.99159
+          ]
+        },
+        {
+          "x": 462.96002,
+          "head_tops": [
+            530.79156
+          ]
+        },
+        {
+          "x": 476.64002,
+          "head_tops": [
+            526.47156
+          ]
+        },
+        {
+          "x": 490.32001,
+          "head_tops": [
+            530.79156
+          ]
+        },
+        {
+          "x": 503.88002,
+          "head_tops": [
+            532.83159
+          ]
+        },
+        {
+          "x": 517.67999,
+          "head_tops": [
+            534.99159
+          ]
+        },
+        {
+          "x": 531.35998,
+          "head_tops": [
+            530.79156
+          ]
+        },
+        {
+          "x": 545.03998,
+          "head_tops": [
+            526.47156
+          ]
+        }
+      ],
+      "lower_time_positions": [
+        {
+          "x": 230.40001,
+          "head_tops": [
+            590.3116,
+            605.19157
+          ]
+        },
+        {
+          "x": 257.75999,
+          "head_tops": [
+            592.47156,
+            607.35158
+          ]
+        },
+        {
+          "x": 285.24001,
+          "head_tops": [
+            592.47156,
+            607.35158
+          ]
+        },
+        {
+          "x": 312.48001,
+          "head_tops": [
+            594.51158,
+            609.39155
+          ]
+        },
+        {
+          "x": 339.84,
+          "head_tops": [
+            594.51158,
+            609.39155
+          ]
+        },
+        {
+          "x": 367.2,
+          "head_tops": [
+            596.67158,
+            611.55156
+          ]
+        },
+        {
+          "x": 394.56001,
+          "head_tops": [
+            596.67158,
+            611.55156
+          ]
+        },
+        {
+          "x": 421.80002,
+          "head_tops": [
+            598.83159,
+            613.71156
+          ]
+        },
+        {
+          "x": 449.27998,
+          "head_tops": [
+            600.99159,
+            615.87156
+          ]
+        },
+        {
+          "x": 476.64002,
+          "head_tops": [
+            600.99159,
+            615.87156
+          ]
+        },
+        {
+          "x": 503.88002,
+          "head_tops": [
+            603.03157,
+            617.91159
+          ]
+        },
+        {
+          "x": 531.35998,
+          "head_tops": [
+            603.03157,
+            617.91159
+          ]
+        }
+      ],
+      "same_time_alignment": [
+        {
+          "lower_attack_index_zero_based": 0,
+          "upper_attack_index_zero_based": 0,
+          "upper_x_pt": 230.40001,
+          "lower_x_pt": 230.40001,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 1,
+          "upper_attack_index_zero_based": 2,
+          "upper_x_pt": 257.75999,
+          "lower_x_pt": 257.75999,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 2,
+          "upper_attack_index_zero_based": 4,
+          "upper_x_pt": 285.24001,
+          "lower_x_pt": 285.24001,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 3,
+          "upper_attack_index_zero_based": 6,
+          "upper_x_pt": 312.48001,
+          "lower_x_pt": 312.48001,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 4,
+          "upper_attack_index_zero_based": 8,
+          "upper_x_pt": 339.84,
+          "lower_x_pt": 339.84,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 5,
+          "upper_attack_index_zero_based": 10,
+          "upper_x_pt": 367.2,
+          "lower_x_pt": 367.2,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 6,
+          "upper_attack_index_zero_based": 12,
+          "upper_x_pt": 394.56001,
+          "lower_x_pt": 394.56001,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 7,
+          "upper_attack_index_zero_based": 14,
+          "upper_x_pt": 421.80002,
+          "lower_x_pt": 421.80002,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 8,
+          "upper_attack_index_zero_based": 16,
+          "upper_x_pt": 449.27998,
+          "lower_x_pt": 449.27998,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 9,
+          "upper_attack_index_zero_based": 18,
+          "upper_x_pt": 476.64002,
+          "lower_x_pt": 476.64002,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 10,
+          "upper_attack_index_zero_based": 20,
+          "upper_x_pt": 503.88002,
+          "lower_x_pt": 503.88002,
+          "difference_pt": 0.0
+        },
+        {
+          "lower_attack_index_zero_based": 11,
+          "upper_attack_index_zero_based": 22,
+          "upper_x_pt": 531.35998,
+          "lower_x_pt": 531.35998,
+          "difference_pt": 0.0
+        }
+      ],
+      "max_absolute_same_time_difference_pt": 0.0,
+      "reading": "Within each quarter, lower triplet onsets coincide with upper sextuplet indices 0/2/4. This is a different common-onset pattern from coprime 5:3 or 7:3."
+    },
+    "repeated_upper_pattern_vertical_correspondence": {
+      "max_absolute_relative_head_top_difference_pt": 0.1200000000000001,
+      "matching_written_staff_position_shape_within_0_2_pt_export_tolerance": true,
+      "complete_pitch_spelling_or_voice_identity_not_verified": true
+    },
+    "p7_system2_last_bar_lower_changes": {
+      "upper_groups": [
+        {
+          "x": 310.2,
+          "tops": [
+            227.43158
+          ]
+        },
+        {
+          "x": 319.08,
+          "tops": [
+            229.59158
+          ]
+        },
+        {
+          "x": 327.96,
+          "tops": [
+            231.75158
+          ]
+        },
+        {
+          "x": 336.71999,
+          "tops": [
+            233.91157
+          ]
+        },
+        {
+          "x": 345.59999,
+          "tops": [
+            231.75158
+          ]
+        },
+        {
+          "x": 354.48001,
+          "tops": [
+            229.59158
+          ]
+        },
+        {
+          "x": 363.36001,
+          "tops": [
+            227.43158
+          ]
+        },
+        {
+          "x": 372.24001,
+          "tops": [
+            225.39158
+          ]
+        },
+        {
+          "x": 381.24001,
+          "tops": [
+            227.43158
+          ]
+        },
+        {
+          "x": 390.11998,
+          "tops": [
+            229.59158
+          ]
+        },
+        {
+          "x": 399.0,
+          "tops": [
+            231.75158
+          ]
+        },
+        {
+          "x": 407.88002,
+          "tops": [
+            229.59158
+          ]
+        },
+        {
+          "x": 416.75999,
+          "tops": [
+            227.43158
+          ]
+        },
+        {
+          "x": 425.51999,
+          "tops": [
+            225.39158
+          ]
+        },
+        {
+          "x": 434.40001,
+          "tops": [
+            223.23157
+          ]
+        },
+        {
+          "x": 443.27998,
+          "tops": [
+            225.39158
+          ]
+        },
+        {
+          "x": 452.16,
+          "tops": [
+            227.43158
+          ]
+        },
+        {
+          "x": 461.03998,
+          "tops": [
+            229.59158
+          ]
+        },
+        {
+          "x": 469.92,
+          "tops": [
+            227.43158
+          ]
+        },
+        {
+          "x": 478.80002,
+          "tops": [
+            225.39158
+          ]
+        },
+        {
+          "x": 487.56001,
+          "tops": [
+            223.23157
+          ]
+        },
+        {
+          "x": 496.67999,
+          "tops": [
+            235.95157
+          ]
+        },
+        {
+          "x": 505.56001,
+          "tops": [
+            233.91157
+          ]
+        },
+        {
+          "x": 514.32001,
+          "tops": [
+            231.75158
+          ]
+        },
+        {
+          "x": 523.19998,
+          "tops": [
+            229.59158
+          ]
+        },
+        {
+          "x": 532.08,
+          "tops": [
+            227.43158
+          ]
+        },
+        {
+          "x": 540.96002,
+          "tops": [
+            225.39158
+          ]
+        },
+        {
+          "x": 549.84,
+          "tops": [
+            223.23157
+          ]
+        }
+      ],
+      "lower_groups": [
+        {
+          "x": 310.2,
+          "tops": [
+            297.63158
+          ]
+        },
+        {
+          "x": 325.44001,
+          "tops": [
+            289.11157
+          ]
+        },
+        {
+          "x": 341.16,
+          "tops": [
+            282.75158
+          ]
+        },
+        {
+          "x": 357.0,
+          "tops": [
+            278.55158
+          ]
+        },
+        {
+          "x": 372.24001,
+          "tops": [
+            297.63158
+          ]
+        },
+        {
+          "x": 387.59999,
+          "tops": [
+            289.11157
+          ]
+        },
+        {
+          "x": 403.43999,
+          "tops": [
+            282.75158
+          ]
+        },
+        {
+          "x": 419.16,
+          "tops": [
+            278.55158
+          ]
+        },
+        {
+          "x": 434.40001,
+          "tops": [
+            297.63158
+          ]
+        },
+        {
+          "x": 449.64002,
+          "tops": [
+            289.11157
+          ]
+        },
+        {
+          "x": 465.48001,
+          "tops": [
+            282.75158
+          ]
+        },
+        {
+          "x": 481.19998,
+          "tops": [
+            278.55158
+          ]
+        },
+        {
+          "x": 496.67999,
+          "tops": [
+            297.63158
+          ]
+        }
+      ],
+      "upper_written_time_positions": 28,
+      "lower_written_time_positions": 13,
+      "reading": "Four 7:4 semiquaver groups above, but three ordinary four-semiquaver groups plus a quarter note below; do not carry the previous repeated triplet pattern into this measure."
+    },
+    "p8_prior_spacing_cases_remeasured": [
+      {
+        "name": "system1_plain_measure",
+        "x_pt": [
+          87.72,
+          99.48,
+          111.12,
+          123.0,
+          134.75999,
+          146.4,
+          158.16,
+          169.8,
+          181.68,
+          193.32001,
+          205.08,
+          216.71999,
+          228.59999,
+          240.36001,
+          252.0,
+          263.75999,
+          275.40001,
+          287.28001,
+          299.04,
+          310.67999,
+          322.44001,
+          334.08,
+          345.96,
+          357.71999
+        ],
+        "internal_gap_min_max_pt": [
+          11.63999,
+          11.88
+        ]
+      },
+      {
+        "name": "system1_chromatic_first_half",
+        "x_pt": [
+          377.40001,
+          392.64002,
+          407.64002,
+          422.88002,
+          438.0,
+          453.24001,
+          468.24001,
+          483.48001,
+          498.59999,
+          513.84,
+          528.96002,
+          544.19998
+        ],
+        "internal_gap_min_max_pt": [
+          15.0,
+          15.24001
+        ]
+      },
+      {
+        "name": "system2_chromatic_second_half",
+        "x_pt": [
+          86.28,
+          102.24001,
+          118.2,
+          134.16,
+          150.12,
+          166.08,
+          182.04,
+          198.0,
+          213.96,
+          229.92,
+          245.88,
+          261.84
+        ],
+        "internal_gap_min_max_pt": [
+          15.95999,
+          15.96001
+        ]
+      }
+    ],
+    "p8_first_four_system_barline_check": [
+      {
+        "pdf_page": 8,
+        "system": 1,
+        "barline_x_pt_including_system_start": [
+          36.24,
+          369.59999
+        ],
+        "right_end_has_barline": false
+      },
+      {
+        "pdf_page": 8,
+        "system": 2,
+        "barline_x_pt_including_system_start": [
+          36.24,
+          278.04,
+          558.96002
+        ],
+        "right_end_has_barline": true
+      },
+      {
+        "pdf_page": 8,
+        "system": 3,
+        "barline_x_pt_including_system_start": [
+          36.24,
+          429.84
+        ],
+        "right_end_has_barline": false
+      },
+      {
+        "pdf_page": 8,
+        "system": 4,
+        "barline_x_pt_including_system_start": [
+          36.24,
+          224.40001,
+          558.96002
+        ],
+        "right_end_has_barline": true
+      }
+    ],
+    "p7_prior_piecewise_interpolation_rechecked": [
+      {
+        "group": "five",
+        "lower_index": 1,
+        "upper_local_index_fraction": "5/3",
+        "predicted_x_pt": 268.84001,
+        "actual_x_pt": 268.92,
+        "absolute_error_pt": 0.07999
+      },
+      {
+        "group": "five",
+        "lower_index": 2,
+        "upper_local_index_fraction": "10/3",
+        "predicted_x_pt": 281.48,
+        "actual_x_pt": 281.51999,
+        "absolute_error_pt": 0.03999
+      },
+      {
+        "group": "seven",
+        "lower_index": 1,
+        "upper_local_index_fraction": "7/3",
+        "predicted_x_pt": 312.72001,
+        "actual_x_pt": 312.71999,
+        "absolute_error_pt": 2e-05
+      },
+      {
+        "group": "seven",
+        "lower_index": 2,
+        "upper_local_index_fraction": "14/3",
+        "predicted_x_pt": 335.47999,
+        "actual_x_pt": 335.51999,
+        "absolute_error_pt": 0.04
+      }
+    ],
+    "exact_relative_coordinate_arrays_equal": false
+  },
+  "fp_triplet_beam_check": [
+    {
+      "kind": "curves",
+      "x0": 470.27998,
+      "x1": 491.51999,
+      "top": 390.23996,
+      "bottom": 394.55997
+    },
+    {
+      "kind": "curves",
+      "x0": 470.27998,
+      "x1": 491.51999,
+      "top": 393.47997,
+      "bottom": 397.67995
+    }
+  ],
+  "old_case_recheck": {
+    "prior_note": "corpus/READING_018.md",
+    "prior_spacing_note": "SPACING_DECISIONS.md",
+    "prior_spacing_models_note": "SPACING_MODELS.md",
+    "prior_evidence": "spacing_decisions_evidence.json",
+    "p7_five_max_abs_origin_difference_from_old_record_pt": 1.1499999970965291e-05,
+    "p7_seven_max_abs_origin_difference_from_old_record_pt": 2.5750000020252628e-05,
+    "prior_interpolation_checks_recomputed": true,
+    "p8_first_split_and_three_gap_ranges_recomputed": true,
+    "second_fp_split_is_new_contextual_extension_not_correction_of_previous_first_split": true,
+    "no_prior_waveform_stability_claim_interpreted_as_all_triplets": true
+  },
+  "judgments": [
+    {
+      "location": "p1 opening and second-system 150 entry",
+      "decision": "retain pickup, connections and inline transition",
+      "reading_benefit": "Short pickup, chordal melody and accompaniment keep distinct functions; rit./fermata and new speed each have their own entry.",
+      "alternative_cost": "Filling anacrusis to a full bar or imposing a line at each marker changes reading or redistributes other material.",
+      "boundary": "No exact playback or editorial source-object inference."
+    },
+    {
+      "location": "p3 system2 bar3 versus p5 system1 bar4",
+      "decision": "retain recognizable groups without copying physical widths",
+      "reading_benefit": "Sixteen-note written contours remain recognizable with stable within-bar groups, while different rows retain their own width budget.",
+      "alternative_cost": "Copying all coordinates/stretch from one recurrence ignores neighboring or lower-staff changes.",
+      "sources_printed": [
+        40
+      ],
+      "boundary": "Source pitch spellings, all voices and playback are not proved equivalent; small 0.12pt relative vertical export difference is retained."
+    },
+    {
+      "location": "p6 125 accompaniment and later triplets",
+      "decision": "protect actual subdivision transition",
+      "reading_benefit": "Ordinary quavers establish accompaniment before cantabile; explicit later triplets define a different unit.",
+      "alternative_cost": "Propagating triplets backwards or absorbing late melody entry into the tempo anchor changes time/role reading.",
+      "boundary": "PDF notation, not actual performed strict timing."
+    },
+    {
+      "location": "p7 first system second measure",
+      "decision": "retain five/seven groups and shared quarter boundaries",
+      "reading_benefit": "Half-note sustain, tie reception and subsequent two-beam 5/7 groups preserve complete metre and local complex shape; lower triplets occupy true relative positions.",
+      "alternative_cost": "Counting three chord heads or tie receivers as new sequential attacks, misreading the staff line as a third beam, or snapping all heads to nearby lower notes corrupts the reading.",
+      "sources_printed": [
+        200,
+        201,
+        202,
+        490
+      ],
+      "boundary": "5:4/7:4 conventional semiquaver ratios inferred from visible units, full four quarters and counterpart alignment, not native fields."
+    },
+    {
+      "location": "p7 second system last measure",
+      "decision": "do not continue former triplet model",
+      "reading_benefit": "Upper four seven-note groups coexist with lower three ordinary four-semiquaver groups and final quarter; a familiar wave has changed its unit.",
+      "alternative_cost": "Assuming 12 lower triplet positions would mismatch the actual 13 written positions.",
+      "boundary": "No source voice or MIDI reconstruction."
+    },
+    {
+      "location": "p8 systems1 to4",
+      "decision": "retain two conditional split-measure units, consider navigation reminders only as an unrendered candidate",
+      "reading_benefit": "Both a chromatic middle measure and the fp measure span whole-beat halves, sharing density across two rows each.",
+      "alternative_cost": "Counting row fragments as full measures resets time/accidentals; forcing whole measures changes horizontal and vertical budget.",
+      "sources_printed": [
+        489,
+        490
+      ],
+      "boundary": "Source omits textbook-style continuation reminders; publisher intent, uniquely optimal cast-off and current-host split-bar implementation not verified."
+    },
+    {
+      "location": "p8 fp split",
+      "decision": "two quarters each side even with unequal upper head counts",
+      "reading_benefit": "Upper first fragment has quaver + three sixteenths in 3:2 + six sixteenths in 6:4; lower eight ordinary semiquavers independently confirm two beats. Next row gives two sextuplet beats above eight semiquavers.",
+      "alternative_cost": "Extending prior 36/36 head-count balance to this case ignores its actual 10/12 upper partial positions and 34/36 row totals.",
+      "boundary": "Ratios conventional/read from complete counterpart, not native score timing."
+    },
+    {
+      "location": "p8 system4 full measure after the continuation",
+      "decision": "retain true six-versus-three common positions",
+      "reading_benefit": "Every lower triplet onset aligns with an even-index upper sextuplet position; all twelve source drawing origins coincide.",
+      "alternative_cost": "Borrowing the coprime 5:3/7:3 internal noncoincidence rule would misdiagnose this configuration.",
+      "sources_printed": [
+        201,
+        202,
+        490
+      ],
+      "boundary": "No verified performed timing or native playback."
+    },
+    {
+      "location": "p8 low- versus high-accidental burden",
+      "decision": "preserve necessary symbol configuration before comparing free space",
+      "reading_benefit": "Denser chromatic groups need readable symbols; satisfying true minimum space and distributing remaining width are separate questions.",
+      "alternative_cost": "Uniform maximal-gap spreading can overexpand, while independent minimum-only placement can destabilize the group; no accidental is removed merely for spacing.",
+      "sources_printed": [
+        39,
+        40,
+        43,
+        490
+      ],
+      "boundary": "No same-input native alternative or isolated engine-cause conclusion."
+    },
+    {
+      "location": "p4 system3 first measure short octave span",
+      "decision": "local boundary-aware preserve pending editable-source/pitch verification",
+      "reading_benefit": "A minim dyad starts before the fast-layer quaver rest and following octave-marked run; visible hook ends before the next slow dyad. Held overlap differs from two fresh simultaneous entries.",
+      "alternative_cost": "Blanket mixed-scope alarm or upper-voice-only octave editing ignores starts and endpoints.",
+      "sources_previously_read_printed": [
+        324,
+        325
+      ],
+      "boundary": "Text X is not a native tick; no claim all sustained overlaps are unambiguous and no resolution borrowed for ninelie. Other isolated octave signs and full sounding-register intent remain unverified."
+    }
+  ],
+  "parent_review_shortcuts": {
+    "second_fp_split_image": "tmp/engraving/owari-whole-2026-10-23/p8-fp-split-continuation.png",
+    "first_split_image": "tmp/engraving/owari-whole-2026-10-23/p8-split-measures.png",
+    "short_octave_full_context_image": "tmp/engraving/owari-whole-2026-10-23/p4-short-8va-layers.png",
+    "short_octave_high_detail_image": "tmp/engraving/owari-whole-2026-10-23/p4-short-8va-detail.png",
+    "timing_basis": "See measurement_details.p8_fp_split and p4_short_octave.notated_local_timeline_in_quarter_units."
+  },
+  "limits": [
+    "Not a blind or independent skill evaluation.",
+    "No complete note-by-note/pitch-spelling collation or editable official score.",
+    "No native score candidate, host/MCP/plugin/core edit, print, audition or user aesthetic choice.",
+    "No universal equal-spacing or fixed-measures-per-row preference inferred.",
+    "PDF geometry cannot prove publisher decision process, source algorithm, internal voice, playback timing or every scope.",
+    "Historical corpus close-page and Gould unique first-reading counts unchanged by these rereads."
+  ],
+  "cache_policy": {
+    "private_directory": "tmp/engraving/owari-whole-2026-10-23",
+    "existing_full_page_files_reused": 16,
+    "new_ordinary_cache_crops": 13,
+    "new_high_detail_crop_files": 2,
+    "new_saved_full_page_renders": 0,
+    "source_PDF_copies": 0,
+    "runtime_copies": 0,
+    "deleted_files": 0
+  },
+  "software_adaptation": false,
+  "public_files_created": [
+    "docs/engraving/INTEGRATED_READING_OWARI.md",
+    "docs/engraving/owari_reading_evidence.json"
+  ],
+  "git_commit_by_subagent": false
+}

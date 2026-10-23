@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-23",
+  "resource_id": "R22",
+  "resource_state": "partial",
+  "scope": "Complete readable author-article text, bounded official-documentation checks and conditional piano engraving interpretation. Article images remain unavailable and uncounted.",
+  "clock_checks_utc": [
+    "2026-10-23 05:43:37 UTC",
+    "2026-10-23 05:44:40 UTC",
+    "2026-10-23 05:46:59 UTC",
+    "2026-10-23 05:50:43 UTC",
+    "2026-10-23 05:55:13 UTC"
+  ],
+  "temporary_parallel_cutoff_utc": "2026-10-23 09:00:00 UTC",
+  "author_article": {
+    "url": "https://note.com/fujii_taiga_m/n/nca8f66de9948",
+    "title": "〖Dorico〗 変えるべき初期設定 約4選〖Finale to Dorico〗",
+    "author": "藤井大河",
+    "published_displayed": "2024-12-04 20:45",
+    "subject_text_fully_read": true,
+    "subject_text_start": "author introduction before four-setting overview",
+    "subject_text_end": "summary, explicit nonmandatory qualification, and lesson link",
+    "sections_read": [
+      "accent placement",
+      "cross-system slur and tie endpoints, including l.v. and historical MuseScore note",
+      "note spacing, ratio definition and discussion of Finale/Sibelius tables",
+      "rehearsal marks and bar numbers, including Finale remark",
+      "summary saying changes are not compulsory"
+    ],
+    "explicit_software_version_in_obtained_text": null,
+    "article_images_actually_viewed": 0,
+    "reliably_enumerated_article_image_total": null,
+    "unknown_image_denominator_not_fabricated": true,
+    "article_image_urls_available_from_obtained_body": false,
+    "all_text_not_substituted_for_image_reading": true,
+    "embedded_video_url": "https://www.youtube.com/embed/bBeHV0RZ7pQ?rel=0",
+    "embedded_video_watched": false,
+    "raw_html_cached": false,
+    "raw_article_or_image_hash_not_claimed": true
+  },
+  "normal_access_attempts": [
+    {
+      "target": "primary note author article",
+      "method": "web tool public page read",
+      "result": "complete subject text readable, including captions that refer to figures, but article figure links not exposed"
+    },
+    {
+      "target": "https://note.com/fujii_taiga_m/n/nca8f66de9948",
+      "method": "one ordinary HTTPS GET with standard User-Agent and 15-second timeout",
+      "result": "connection timed out; no HTML file written",
+      "private_record": "tmp/engraving/dorico-practice-2026-10-23/article-fetch.json"
+    },
+    {
+      "target": "in-app browser connection and enabled browser inventory",
+      "method": "documented read-only browser APIs",
+      "result": "iab unavailable; enabled browser list empty; no tab was created and no native app was operated"
+    },
+    {
+      "target": "https://note.com/api/v3/notes/nca8f66de9948",
+      "method": "one public same-publisher note data request through web tool",
+      "result": "not accessible; no further data-endpoint attempts"
+    },
+    {
+      "target": "https://www.youtube.com/embed/bBeHV0RZ7pQ?rel=0",
+      "method": "one click on author-page embedded video link",
+      "result": "web cache miss; no video frames viewed"
+    }
+  ],
+  "official_documentation_read": [
+    {
+      "name": "Allowing/Disallowing articulations inside the staff",
+      "product": "Dorico Pro",
+      "version": "6.2",
+      "url": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_articulations/notation_reference_articulations_inside_staff_allowing_disallowing_t.html",
+      "reading_level": "official indexed procedure excerpt; direct page fetch returned cache miss",
+      "verified_documented_scope": "per-articulation-type project-wide allow/disallow control in engraving options",
+      "not_verified": "initial setting for a specific installed version or project; rendered effect"
+    },
+    {
+      "name": "Note spacing options",
+      "product": "Dorico Pro",
+      "version": "6.2",
+      "url": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_page_layout_options_r.html",
+      "reading_level": "complete relevant topic body, excluding global navigation contents",
+      "verified_documented_scope": "quarter-note baseline, short-note minimum and duration ratio are distinct controls; other spacing/justification conditions also exist",
+      "not_verified": "author's 1.41 as current numerical default, all parameter runtime values, or cross-engine outcome"
+    },
+    {
+      "name": "Note spacing",
+      "product": "Dorico Pro",
+      "version": "6.2",
+      "url": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_c.html?contentId=rdwA96F4qGsJ~xLN4OmmVA",
+      "reading_level": "complete topic body",
+      "verified_documented_scope": "layout, section and individual rhythmic-position/voice-column levels; guidance to consider broader settings before individual note displacement",
+      "not_verified": "arbitrary duration-to-space lookup-table presence or absence"
+    },
+    {
+      "name": "Hiding/Showing bar numbers",
+      "product": "Dorico Pro",
+      "version": "6.2",
+      "url": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_bar_numbers/notation_reference_bar_numbers_hiding_showing_frequency_changing_t.html",
+      "reading_level": "complete topic body, excluding global navigation contents",
+      "verified_documented_scope": "per-layout frequency and visibility controls",
+      "not_verified": "all author-described 2024 rehearsal-mark/bar-number suppression combinations"
+    },
+    {
+      "name": "Positions of rehearsal marks",
+      "product": "Dorico Pro",
+      "version": "6.2",
+      "url": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_rehearsal_marks/notation_reference_rehearsal_marks_positions_c.html",
+      "reading_level": "complete topic text, excluding global navigation contents; illustration not viewed",
+      "verified_documented_scope": "system-attached placement and relations to tempo/staff; graphical movement does not change rhythmic attachment",
+      "not_verified": "author source-score sample or preferred universal mark font size"
+    },
+    {
+      "name": "Slurs over system and frame breaks",
+      "product": "Dorico Pro",
+      "version": "6.2",
+      "url": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_slurs/notation_reference_slurs_system_frame_breaks_c.html?contentId=AOYi1yAFmpe9mq5aSAg7cA",
+      "reading_level": "complete topic text; illustrative image not viewed",
+      "verified_documented_scope": "split drawn parts, contour-related vertical endpoint positions, nested-slur separation and separate graphical editing",
+      "not_verified": "author's horizontal end-gap default or zero preference; tie or l.v. control behavior"
+    },
+    {
+      "name": "Engraving options for slurs",
+      "product": "Dorico Pro",
+      "version": "6.2",
+      "url": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_slurs/notation_reference_slurs_project_wide_engraving_options_c.html?contentId=bDIeRMRJnjMbL1CrrNAwnA",
+      "reading_level": "complete short topic text",
+      "verified_documented_scope": "project-wide appearance/position controls and cross-staff collision settings are documented generally",
+      "not_verified": "exact author-mentioned endpoint field, its initial value or real rendering"
+    }
+  ],
+  "historical_version_verification_limits": {
+    "attempted_pro_5_pdf": "https://archive.steinberg.help/dorico_pro/v5/en/Dorico_Pro_5_Operation_Manual_en.pdf",
+    "pro_5_pdf_result": "403 Forbidden from web fetch; not acquired or read",
+    "pro_5_1_web_pages_result": "not accessible; no full contemporary-version documentation acquired",
+    "other_edition_old_search_snippets_not_used_to_verify_pro_behavior": true,
+    "author_software_version_not_inferred_from_publication_date": true,
+    "6_2_documentation_not_presented_as_2024_runtime_or_latest_installed_version": true,
+    "historical_or_current_defaults_not_measured": true
+  },
+  "conditional_judgments": [
+    {
+      "id": "DORICO-PRACTICE-ACCENT",
+      "reader_task": "recognize accent shape while retaining note/voice ownership",
+      "candidate_benefit": "outside placement may reduce staff-line and notehead interference",
+      "cost_or_exception": "greater distance and exterior-lane competition; no universal violation for inside-staff placement",
+      "evidence_type": "author preference, current documented control, and project contextual interpretation; no author figure reviewed"
+    },
+    {
+      "id": "DORICO-PRACTICE-CONTINUATION",
+      "reader_task": "follow actual slur/tie/sustain continuation over a line turn",
+      "candidate_benefit": "a more explicit endpoint near the system boundary may improve continuity",
+      "cost_or_exception": "must preserve role, endpoint, contour and nested layers; l.v. not automatically governed by normal tie controls",
+      "evidence_type": "author direction and current documented slur segmentation/vertical rules; precise horizontal zero-gap effect unverified"
+    },
+    {
+      "id": "DORICO-PRACTICE-RATIO",
+      "reader_task": "read duration hierarchy separately from local required symbol spacing",
+      "candidate_benefit": "a different duration ratio changes the ideal contrast between long and short values",
+      "cost_or_exception": "larger ratio can narrow shorter values relative to fixed quarter baseline; does not solve every same-duration joint-column irregularity",
+      "evidence_type": "definition-level mathematical illustration plus existing spacing studies; no engine experiment"
+    },
+    {
+      "id": "DORICO-PRACTICE-NAVIGATION",
+      "reader_task": "locate a shared rehearsal/recording/reference position quickly",
+      "candidate_benefit": "keeping an appropriate bar number at a rehearsal mark can avoid back-counting",
+      "cost_or_exception": "number/letter hierarchy, density and actual solo/ensemble navigation task still matter; no all-bar labeling or universal 20-point font rule",
+      "evidence_type": "author preference, current layout/attachment documentation, and conditional reading interpretation"
+    }
+  ],
+  "ratio_illustration": {
+    "type": "definition-only ideal spacing model, not Dorico execution",
+    "fixed_quarter_baseline": 1,
+    "candidate_ratios_from_article_not_verified_defaults": [
+      1.41,
+      1.62
+    ],
+    "rows": [
+      {
+        "ratio": 1.41,
+        "eighth": 0.7092198581560284,
+        "quarter": 1,
+        "half": 1.41
+      },
+      {
+        "ratio": 1.62,
+        "eighth": 0.6172839506172839,
+        "quarter": 1,
+        "half": 1.62
+      }
+    ],
+    "excluded_from_model": [
+      "glyph widths",
+      "accidentals and dot reserve",
+      "minimum spacing",
+      "other-staff event axis",
+      "optical corrections",
+      "system justification"
+    ],
+    "not_an_empirical_beauty_score_or_native_output_prediction": true
+  },
+  "remaining_required_material": [
+    "article figure URLs and a reliable figure inventory",
+    "actual viewing of all relevant author figures",
+    "exact article software version where recoverable",
+    "appropriate-version verification for exact defaults/fields if used operationally"
+  ],
+  "private_cache": {
+    "directory": "tmp/engraving/dorico-practice-2026-10-23",
+    "new_article_images": 0,
+    "new_image_bytes": 0,
+    "new_html_or_manual_pdf_files": 0,
+    "original_book_or_score_copies": 0,
+    "host_copies": 0,
+    "deleted_files": 0,
+    "raw_article_figures_or_full_text_not_committed": true,
+    "total_task_cache_bytes": 3310
+  },
+  "not_performed": [
+    "article or official illustration visual comparison",
+    "embedded video viewing",
+    "Dorico, Finale or Sibelius execution",
+    "MuseScore native reproduction of historical 0.10sp report",
+    "new Gould pages",
+    "native engraving candidate",
+    "MIDI, audio, printing or performance test",
+    "new user preference inference",
+    "MCP/plugin/core adaptation",
+    "shared entry/progress/skill changes",
+    "Git commit by subagent"
+  ],
+  "delivery_checks": {
+    "json_parsed": true,
+    "local_links_valid": true,
+    "ideal_ratio_arithmetic_checked": true,
+    "not_a_native_or_user_readability_validation": true
+  }
+}

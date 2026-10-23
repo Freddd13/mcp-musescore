@@ -1,0 +1,669 @@
+{
+  "date": "2026-10-23",
+  "scope": "Complete both Kokecola preparation/input public article bodies and all embedded body images relevant to the workflow; distinguish personal Finale method, generic tool illustration and transferable piano engraving judgment.",
+  "clock_checks_utc": [
+    "2026-10-23 05:30:07 UTC",
+    "2026-10-23 05:31:20 UTC",
+    "2026-10-23 05:34:07 UTC",
+    "2026-10-23 05:34:58 UTC",
+    "2026-10-23 05:36:33 UTC"
+  ],
+  "temporary_parallel_cutoff_utc": "2026-10-23 09:00:00 UTC",
+  "articles": [
+    {
+      "resource_id": "R02",
+      "name": "prepare",
+      "url": "https://note.com/kokecola/n/n5203d1df81ca",
+      "title": "finaleを使った楽譜浄書の個人的やりかた (1/3) 準備編",
+      "author": "Kokecola",
+      "published_displayed": "2020-05-23 19:51",
+      "primary_author_body_fully_read_via_web_tool": true,
+      "read_body_start": "introductory personal-method qualification before サンプル曲",
+      "read_body_end": "preparation complete and next-article link, before platform Download/support/footer content",
+      "body_sections_read": [
+        "サンプル曲",
+        "使用ソフト",
+        "ファイルの準備",
+        "内容の消去",
+        "タイトルなどのテキストを書き換え",
+        "レイアウトや五線の設定",
+        "編成の設定",
+        "小節の追加"
+      ],
+      "body_images_actually_viewed": 5,
+      "body_images_total": 5,
+      "old_body_images_revisited": 1,
+      "new_body_image_file_count": 4
+    },
+    {
+      "resource_id": "R03",
+      "name": "input",
+      "url": "https://note.com/kokecola/n/n67b13d01c746",
+      "title": "finaleを使った楽譜浄書の個人的やりかた (2/3) 入力編",
+      "author": "Kokecola",
+      "published_displayed": "2020-05-24 19:19",
+      "primary_author_body_fully_read_via_web_tool": true,
+      "read_body_start": "prepared-score state and input-order explanation",
+      "read_body_end": "input complete, disabled automatic adjustments/display-thickness explanation and third-article link, before platform Download/support/footer content",
+      "body_sections_read": [
+        "拍子と調号",
+        "練習番号",
+        "特殊な小節線",
+        "リピートなどの指示",
+        "音符・休符",
+        "歌詞、コード",
+        "速度など全体への指示",
+        "アーティキュレーション",
+        "スラー",
+        "強弱記号、松葉",
+        "発想記号",
+        "変形図形",
+        "その他テキストなど",
+        "入力完了"
+      ],
+      "body_images_actually_viewed": 17,
+      "body_images_total": 17,
+      "old_body_images_revisited": 2,
+      "new_body_image_file_count": 15
+    }
+  ],
+  "coverage_counting": {
+    "complete_article_bodies": 2,
+    "planned_article_bodies": 2,
+    "all_body_image_positions_actually_viewed": 22,
+    "planned_body_image_positions": 22,
+    "distinct_image_sha256_count": 21,
+    "duplicate_positions": [
+      {
+        "positions": [
+          "prepare body image 5",
+          "input body image 1"
+        ],
+        "sha256": "d66c42d4269f01b83eb6b6027808bfebcc7bfcdc8717f8662ee4ad790d93aa89",
+        "reason": "Different official URLs but byte-identical prepared empty-score illustration; not counted as two distinct images."
+      }
+    ],
+    "old_unique_images_reused": 3,
+    "new_image_files": 19,
+    "new_distinct_image_sha256_count": 18,
+    "headline_art_avatars_and_platform_recommendations_excluded": true,
+    "no_missing_workflow_body_images": true,
+    "coverage_does_not_imply_all_Finale_operations_or_complete_source_score_verified": true
+  },
+  "access_record": {
+    "primary_author_article_texts": "Both complete public bodies readable through web tool.",
+    "normal_raw_html_get": "One direct normal GET to preparation page timed out before response; no HTML file produced and no repeated HTML workaround.",
+    "web_asset_cache": "19 clicks identified exact primary body-image URLs but web cache returned cache miss.",
+    "normal_public_CDN_get": "Each of those 19 exact public image URLs succeeded once through ordinary HTTPS; no login, CAPTCHA or access-control bypass.",
+    "raw_html_or_complete_article_text_not_committed_or_claimed_hashed": true
+  },
+  "images": [
+    {
+      "article": "prepare",
+      "body_image_ordinal": 1,
+      "role": "source-score",
+      "url": "https://assets.st-note.com/production/uploads/images/26424751/picture_pc_249d9c57377bcecdb079e0c323918236.png",
+      "path": "tmp/engraving/piano-2026-10-19/practice/prepare-source.png",
+      "existing_cache_reused": true,
+      "download_attempts_this_task": 0,
+      "pixels": [
+        1240,
+        1754
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "1512a8b06f20991840a92ff84d6c3b3681911af7ea3ba1eaddf62a1d3d7b2b1e",
+      "bytes": 56194,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "1512a8b06f20991840a92ff84d6c3b3681911af7ea3ba1eaddf62a1d3d7b2b1e",
+      "prior_actual_reading_evidence": "docs/engraving/practice_followup_evidence.json",
+      "image_type": "score/source or intermediate page, not full editable project"
+    },
+    {
+      "article": "prepare",
+      "body_image_ordinal": 2,
+      "role": "existing-template",
+      "url": "https://assets.st-note.com/production/uploads/images/26484707/picture_pc_ef953bf2a1208e3dfb49651f3b038a4c.png",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/prepare-02-existing-template.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        266,
+        46
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "fb6e917a322aeee650721d9ded968034e7a431452c660ca883564af9f2dc8cc3",
+      "bytes": 3428,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "fb6e917a322aeee650721d9ded968034e7a431452c660ca883564af9f2dc8cc3",
+      "prior_actual_reading_evidence": null,
+      "image_type": "file-copy illustration"
+    },
+    {
+      "article": "prepare",
+      "body_image_ordinal": 3,
+      "role": "instrumentation",
+      "url": "https://assets.st-note.com/production/uploads/images/26425316/picture_pc_2794fc36ac7245a07b31f5b54954e3b5.png",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/prepare-03-instrumentation.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        1043,
+        570
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "616fd7b9a3fca53b23d87ed551fbaa06cd7892d9948ab1eb70b06c3cd7004fe9",
+      "bytes": 73521,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "616fd7b9a3fca53b23d87ed551fbaa06cd7892d9948ab1eb70b06c3cd7004fe9",
+      "prior_actual_reading_evidence": null,
+      "image_type": "Score Manager instrumentation dialog"
+    },
+    {
+      "article": "prepare",
+      "body_image_ordinal": 4,
+      "role": "empty-score",
+      "url": "https://assets.st-note.com/production/uploads/images/26425121/picture_pc_69303e145d39eeea7ded85d9936f0ae3.png",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/prepare-04-empty-score.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        644,
+        862
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "7dfa341ffc26d4180962139456ab4ce1352a2f228f949bd2332ac40b0cb4022b",
+      "bytes": 2067,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "7dfa341ffc26d4180962139456ab4ce1352a2f228f949bd2332ac40b0cb4022b",
+      "prior_actual_reading_evidence": null,
+      "image_type": "score/source or intermediate page, not full editable project"
+    },
+    {
+      "article": "prepare",
+      "body_image_ordinal": 5,
+      "role": "add-measures",
+      "url": "https://assets.st-note.com/production/uploads/images/26425541/picture_pc_ae37ca058c947e0f3b6b2fb5dd56c7cd.png",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/prepare-05-add-measures.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        644,
+        862
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "d66c42d4269f01b83eb6b6027808bfebcc7bfcdc8717f8662ee4ad790d93aa89",
+      "bytes": 9953,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "d66c42d4269f01b83eb6b6027808bfebcc7bfcdc8717f8662ee4ad790d93aa89",
+      "prior_actual_reading_evidence": null,
+      "image_type": "score/source or intermediate page, not full editable project"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 1,
+      "role": "prepared-score",
+      "url": "https://assets.st-note.com/production/uploads/images/26555696/picture_pc_429502b16bd5e5bc69dc2f2676f64c9e.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-01-prepared-score.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        644,
+        862
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "d66c42d4269f01b83eb6b6027808bfebcc7bfcdc8717f8662ee4ad790d93aa89",
+      "bytes": 9953,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "d66c42d4269f01b83eb6b6027808bfebcc7bfcdc8717f8662ee4ad790d93aa89",
+      "prior_actual_reading_evidence": null,
+      "image_type": "score/source or intermediate page, not full editable project"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 2,
+      "role": "meter-key-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26556950/picture_pc_cb3c8efffe36e6e2a3ac60c4c392491e.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-02-meter-key-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        69,
+        29
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "01c5549dce484e559e9d5ccd5cd17109ffe6347e4ec3eba07cfc71372fef5c38",
+      "bytes": 489,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "01c5549dce484e559e9d5ccd5cd17109ffe6347e4ec3eba07cfc71372fef5c38",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 3,
+      "role": "rehearsal-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26558102/picture_pc_de421f95b5cd87c03f9c4dce8b0a125e.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-03-rehearsal-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        370,
+        101
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "a552779178c9a718b84f96cbd2d1a9f7a682e85b4072800e4f174fe74e75c6c9",
+      "bytes": 2545,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "a552779178c9a718b84f96cbd2d1a9f7a682e85b4072800e4f174fe74e75c6c9",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 4,
+      "role": "barline-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26556894/picture_pc_b9c3ddaeeeddc6170fce774694c12c81.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-04-barline-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        279,
+        149
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "d1b6c01de2b4ba15d3e13e27155c23d9a7998acb781086e00f75588cee40801a",
+      "bytes": 678,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "d1b6c01de2b4ba15d3e13e27155c23d9a7998acb781086e00f75588cee40801a",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 5,
+      "role": "repeat-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26556471/picture_pc_9e2c7aa74b8d2846793ddc7026834cd2.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-05-repeat-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        36,
+        29
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "33d07818d50d352bf77814d605cb0e23f40f29cf38aad5a9ad7564d2a88718d6",
+      "bytes": 224,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "33d07818d50d352bf77814d605cb0e23f40f29cf38aad5a9ad7564d2a88718d6",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 6,
+      "role": "structure-entered",
+      "url": "https://assets.st-note.com/production/uploads/images/26426435/picture_pc_025e97487317e38f1f018221bce3a165.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-06-structure-entered.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        644,
+        862
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "315d6ca784ddb99c2cefc52b18b4dd34c3ac7d8f02e9edeccd603a4a07d55eef",
+      "bytes": 11010,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "315d6ca784ddb99c2cefc52b18b4dd34c3ac7d8f02e9edeccd603a4a07d55eef",
+      "prior_actual_reading_evidence": null,
+      "image_type": "score/source or intermediate page, not full editable project"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 7,
+      "role": "note-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26557045/picture_pc_b3c0fdc3c362299fb03a654ad6eef0c1.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-07-note-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        36,
+        29
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "671292073dde194494e0b56d73f42afb85beb24dc367fd3ff87dcdc87061fea1",
+      "bytes": 446,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "671292073dde194494e0b56d73f42afb85beb24dc367fd3ff87dcdc87061fea1",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 8,
+      "role": "midi-keyboard",
+      "url": "https://assets.st-note.com/production/uploads/images/26426766/picture_pc_7678e574a2d068cc9c19a67f17442482.jpg?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-08-midi-keyboard.jpg",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        800,
+        600
+      ],
+      "format": "JPEG",
+      "downloaded_or_reused": true,
+      "sha256": "601030b24d1d1eeae91d51d11edbae4f75f227ab0a2e0218c22499d6790320fe",
+      "bytes": 104587,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "601030b24d1d1eeae91d51d11edbae4f75f227ab0a2e0218c22499d6790320fe",
+      "prior_actual_reading_evidence": null,
+      "image_type": "input hardware photograph"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 9,
+      "role": "notes-complete",
+      "url": "https://assets.st-note.com/production/uploads/images/26512877/picture_pc_f99ccb730d0a4a535ddaa430cb3bd381.png",
+      "path": "tmp/engraving/piano-2026-10-19/practice/input-notes.png",
+      "existing_cache_reused": true,
+      "download_attempts_this_task": 0,
+      "pixels": [
+        642,
+        861
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "bb6b8f1e6041fdd2a11d02e94fbaaeb59a28b1a3297668ece423ea8527539a91",
+      "bytes": 79917,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "bb6b8f1e6041fdd2a11d02e94fbaaeb59a28b1a3297668ece423ea8527539a91",
+      "prior_actual_reading_evidence": "docs/engraving/practice_followup_evidence.json",
+      "image_type": "score/source or intermediate page, not full editable project"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 10,
+      "role": "lyrics-chords-tools",
+      "url": "https://assets.st-note.com/production/uploads/images/26557117/picture_pc_42b106980f3b17c740b9d74f35d85eee.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-10-lyrics-chords-tools.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        79,
+        29
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "bd3d6408b7f29c55183b59e3bded9640e31427247981807252334cc0be7a90da",
+      "bytes": 644,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "bd3d6408b7f29c55183b59e3bded9640e31427247981807252334cc0be7a90da",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 11,
+      "role": "tempo-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26557926/picture_pc_7f891f78bc6c6657e9b21f62bec715fc.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-11-tempo-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        323,
+        36
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "91d28ab28af61518ba8de6f75583884c212c9a770c095401751b1ee2a47f005c",
+      "bytes": 4031,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "91d28ab28af61518ba8de6f75583884c212c9a770c095401751b1ee2a47f005c",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 12,
+      "role": "articulation-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26557187/picture_pc_5f7ffbdf2e9078b3c76403d9da6680ed.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-12-articulation-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        36,
+        29
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "cebb2afe058c72464c1380f2cfb0fa4d21c2fa0599ccbfad992af053aa65d95b",
+      "bytes": 407,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "cebb2afe058c72464c1380f2cfb0fa4d21c2fa0599ccbfad992af053aa65d95b",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 13,
+      "role": "slur-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26557223/picture_pc_22b0f46666c4781fa86fb1ac8c72fe14.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-13-slur-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        36,
+        29
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "39fd6b6a361dbc03d441e8a5ae556105ece66abc53592bacfabe8281627559b3",
+      "bytes": 373,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "39fd6b6a361dbc03d441e8a5ae556105ece66abc53592bacfabe8281627559b3",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 14,
+      "role": "dynamics-hairpin-tools",
+      "url": "https://assets.st-note.com/production/uploads/images/26557352/picture_pc_a93208e312805105141dd85f21db0403.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-14-dynamics-hairpin-tools.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        107,
+        30
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "beb25ec882949796b496d1129f64b0126bc86e0eeb0e8fc1f9c16c207fb54100",
+      "bytes": 791,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "beb25ec882949796b496d1129f64b0126bc86e0eeb0e8fc1f9c16c207fb54100",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 15,
+      "role": "expression-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26556408/picture_pc_95d3a65c345f00aa0ccd80ea26d10923.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-15-expression-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        36,
+        29
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "6088dcf3ee0c692c7173bc2475b0b5d626e99e73bf544a951c40f40281680e3c",
+      "bytes": 401,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "6088dcf3ee0c692c7173bc2475b0b5d626e99e73bf544a951c40f40281680e3c",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 16,
+      "role": "smart-shape-tool",
+      "url": "https://assets.st-note.com/production/uploads/images/26556348/picture_pc_273925da12f8300ea8829a3e345d3528.png?width=1200",
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-16-smart-shape-tool.png",
+      "existing_cache_reused": false,
+      "download_attempts_this_task": 1,
+      "pixels": [
+        36,
+        29
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "a2bdfab4934926d9ab41a14ed7fc9724af488aa591aa3c28871f07a43757ef94",
+      "bytes": 428,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "a2bdfab4934926d9ab41a14ed7fc9724af488aa591aa3c28871f07a43757ef94",
+      "prior_actual_reading_evidence": null,
+      "image_type": "tool icon or generic demonstration; not full parameter dialog"
+    },
+    {
+      "article": "input",
+      "body_image_ordinal": 17,
+      "role": "all-elements-complete",
+      "url": "https://assets.st-note.com/production/uploads/images/26427316/picture_pc_9a23ea0c0fc71387ee0f28142a012730.png",
+      "path": "tmp/engraving/piano-2026-10-19/practice/input-all.png",
+      "existing_cache_reused": true,
+      "download_attempts_this_task": 0,
+      "pixels": [
+        644,
+        862
+      ],
+      "format": "PNG",
+      "downloaded_or_reused": true,
+      "sha256": "bacff00937d4915579607c598e1dca0357ad0499756f930647effc207d2aa00d",
+      "bytes": 36369,
+      "complete_image_actually_viewed_this_turn": true,
+      "sha256_after_reading": "bacff00937d4915579607c598e1dca0357ad0499756f930647effc207d2aa00d",
+      "prior_actual_reading_evidence": "docs/engraving/practice_followup_evidence.json",
+      "image_type": "score/source or intermediate page, not full editable project"
+    }
+  ],
+  "gould_context_revisit": {
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "source_sha256_now": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "printed_page": 484,
+    "pdf_page_1based": 504,
+    "image": "tmp/engraving/system-boundaries-2026-10-20/book-504.jpg",
+    "image_sha256": "ddfd1bc11acd0d6e72a46e810fd29834859c7ab0018b0cb8412f902559aed899",
+    "complete_image_and_text_actually_revisited": true,
+    "existing_coverage_not_new_book_reading": true,
+    "reason": "First complete bar rather than upbeat is bar 1; supports checking pickup numbering but not copying Finale internal representation."
+  },
+  "specific_image_checks": [
+    {
+      "position": "input body image 11",
+      "finding": "Generic tempo/tool illustration shows Andante quarter=72 with rit. and a tempo; it is not the actual piece tempo.",
+      "comparison_position": "input body image 17",
+      "comparison_finding": "Actual input-stage score image shows M.M. quarter=100."
+    },
+    {
+      "position": "input body image 3",
+      "finding": "A/B/C rehearsal-letter illustration is generic; author explicitly says the sample piece has no such marks."
+    },
+    {
+      "position": "prepare body image 3",
+      "finding": "Piano entry and hidden staff name shown in Score Manager; this is not a complete set of all layout parameter dialogs."
+    },
+    {
+      "position": "input body image 9",
+      "finding": "Colored layer editing view is not a printed-score color specification."
+    },
+    {
+      "position": "input body image 17",
+      "finding": "Author identifies unfinished layout with some automatic adjustments disabled; apparent slur thickness has a display explanation. Not default engine or font-weight comparison."
+    }
+  ],
+  "transferable_judgments": [
+    {
+      "id": "WORKFLOW-KNOWN-TEMPLATE",
+      "basis": "Author method plus project semantic protection experience",
+      "reason": "Reuse can reduce setup effort, but an apparently blank page need not prove inherited playback, tuning, hidden settings or metadata belong to the new task.",
+      "boundary": "Risk to inspect, not a defect found in the author file. Never apply new-score clearing instructions to an existing protected user score."
+    },
+    {
+      "id": "WORKFLOW-BUDGET-AND-LOCAL",
+      "basis": "Author paper/staff setup followed by later fine layout, existing PAGE_HIERARCHY and EXTERNAL_PRACTICE",
+      "reason": "Establish physical budget early; place final local spacing after actual objects are known.",
+      "boundary": "No universal staff size or fixed page-count preset inferred; no physical print trial."
+    },
+    {
+      "id": "WORKFLOW-STRUCTURE-FIRST",
+      "basis": "Author input process plus existing notation/navigation studies",
+      "reason": "Meter, key and routes affect later event positions and state. Prepare them before expensive local placement where practical.",
+      "boundary": "Not a mandate to re-enter complete scores or copy Finale pickup internals into MuseScore."
+    },
+    {
+      "id": "WORKFLOW-TWO-READING-DIRECTIONS",
+      "basis": "Author staff/layer batch input plus existing piano-texture and joint-time evidence",
+      "reason": "Horizontal continuity and simultaneous vertical coordination need separate checks.",
+      "boundary": "Reduced tool switching is a personal efficiency strategy, not controlled timing or a replacement for musical validation."
+    },
+    {
+      "id": "WORKFLOW-TOOLS-VS-FUNCTION",
+      "basis": "Finale tool categories shown in input article plus existing sustain/dynamics studies",
+      "reason": "Software tool grouping does not establish musical scope, pedal identity, span duration or playback role.",
+      "boundary": "Do not map all global-looking instructions to full-instrument playback or replace user-confirmed S.P. semantics."
+    },
+    {
+      "id": "WORKFLOW-AUTOMATIC-ADJUSTMENT",
+      "basis": "Author unfinished-state caveat and native comparison principles",
+      "reason": "All marks must be included before judging final spacing; a deliberately unfinished view is not evidence against engine defaults.",
+      "boundary": "No blanket disabling of MuseScore collision avoidance, no keyboard purchase or Finale installation prerequisite."
+    }
+  ],
+  "not_acquired_or_not_verified": [
+    "author editable Finale project",
+    "unshown other score pages",
+    "parameter dialogs not present in the article",
+    "download attachment identity or content",
+    "independent first-edition bibliographic identification",
+    "exact Finale software version",
+    "native operation execution",
+    "all pitch/rhythm/voice correctness",
+    "playback, MIDI or exchange results",
+    "print or input-speed experiment"
+  ],
+  "private_cache": {
+    "directory": "tmp/engraving/kokecola-workflow-2026-10-23",
+    "new_image_file_bytes": 225976,
+    "all_referenced_body_image_bytes_including_reused_and_one_duplicate_file": 398456,
+    "total_task_cache_bytes_at_evidence_generation": 258530,
+    "new_original_book_or_score_copies": 0,
+    "new_host_copies": 0,
+    "deleted_files": 0,
+    "copyrighted_article_images_or_full_text_not_committed": true
+  },
+  "project_mutation_scope": {
+    "new_documents": [
+      "docs/engraving/KOKE_COLA_WORKFLOW.md",
+      "docs/engraving/kokecola_workflow_evidence.json"
+    ],
+    "shared_entry_progress_skill_or_old_evidence_changed": false,
+    "original_pdf_mscz_book_or_current_gui_changed": false,
+    "software_adaptation": false,
+    "git_commit_by_subagent": false
+  }
+}

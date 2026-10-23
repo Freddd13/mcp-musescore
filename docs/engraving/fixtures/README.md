@@ -247,3 +247,11 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [同框三层原生图](cross-slur-routing-comparison.png)：180dpi输出合白底、共同裁框，不移动或缩放符号；英文标签在音乐之外。
 
 实际全部十条件保14音、拼写、显示谱表、梁、连接及完整MIDI，非Slur绘图相同；保留版原生保存重载的图形／RGBA／音乐／MIDI相同。其余尝试保存在忽略目录；没有交换导回、打印或用户采用。具体阅读取舍与自动避碰连动见[跨表弧研究](../CROSS_STAFF_SLUR_ROUTING.md)，这些点位不作通用预设。
+
+## 五连内部进入与局部脉冲间距
+
+原创CC0两小节2/4、21音及2休止，固定Leland／Leland Text和空间条件。两5:4三十二分组与另一表q3/4进入共存。
+
+- [默认](five-four-spacing-default.mscx)／[局部候选](five-four-spacing-pulse-candidate.mscx)／[原生同框图](five-four-spacing-comparison.png)。
+- 默认共同时间本已正确，候选只重分两五组的共同区域，保护组端点、普通三十二分及末十六分的区别，并同步调整下方位置。
+- 发布120mm两版各实际保存重载，SVG绘图、原始RGBA、MusicXML除日期及完整MIDI保持。三宽度研究、改变音乐的诊断和首次构造失败见[专题](../FIVE_FOUR_SPACING_STUDY.md)及[证据](../five_four_spacing_evidence.json)。offset依赖当次宽度，不解决窄版最低小节预算；未作用户采用、试听／打印或实曲迁移。

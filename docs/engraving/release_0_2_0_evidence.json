@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-23",
+  "version": "0.2.0",
+  "tag": "engraving-v0.2.0",
+  "progress_snapshot": {
+    "as_of": "2026-10-23",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      12,
+      24
+    ],
+    "deep_pages": [
+      74,
+      164
+    ],
+    "all_score_closeout": [
+      4,
+      146
+    ],
+    "gould_pages_conservative": [
+      292,
+      696
+    ],
+    "gould_substantive_pages": 288,
+    "gould_title_or_contents_pages": 4,
+    "public_resource_scopes": [
+      9,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      1,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ],
+    "user_milestones": [
+      2,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.2.0"
+  },
+  "review_scope": "Root read complete delivered analyses, spot-viewed the following raw examples, personally completed lit review, checked evidence roles and native output files. Not a second independent skill evaluation.",
+  "root_spot_images_actually_viewed": [
+    {
+      "path": "tmp/engraving/corpus/A102/page-8.jpg",
+      "sha256": "8f2807c218973c5bef489252e897774fe3a86bbfb115a7449b57a03a06ecd0e6"
+    },
+    {
+      "path": "tmp/engraving/owari-whole-2026-10-23/p8-fp-split-continuation.png",
+      "sha256": "8924fc564708ee9c68be74c1330cd1e67f47e3eba167a892966000d98ada5ef8"
+    },
+    {
+      "path": "tmp/engraving/owari-whole-2026-10-23/p4-short-8va-layers.png",
+      "sha256": "0d3009eeeae72999b892d39ca1a66a86a9d63f48b71c4c86d27d7a5489f4bf9c"
+    },
+    {
+      "path": "tmp/engraving/owari-whole-2026-10-23/p4-short-8va-detail.png",
+      "sha256": "d1c7401a5cb3a2113823350e7734f4b73ed29d638ab889c5a35eac35c2085a61"
+    },
+    {
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/prepare-03-instrumentation.png",
+      "sha256": "616fd7b9a3fca53b23d87ed551fbaa06cd7892d9948ab1eb70b06c3cd7004fe9"
+    },
+    {
+      "path": "tmp/engraving/kokecola-workflow-2026-10-23/input-11-tempo-tool.png",
+      "sha256": "91d28ab28af61518ba8de6f75583884c212c9a770c095401751b1ee2a47f005c"
+    },
+    {
+      "path": "tmp/engraving/piano-2026-10-19/practice/input-all.png",
+      "sha256": "bacff00937d4915579607c598e1dca0357ad0499756f930647effc207d2aa00d"
+    },
+    {
+      "path": "tmp/engraving/five-four-spacing-2026-10-23/exports/canonical-comparison-w120.png",
+      "sha256": "e6af54e808fc97451a10a1fc0fe420187176dca8c0e20357d0596d976836378d"
+    }
+  ],
+  "root_full_lit_reading": "lit_whole_reading_evidence.json",
+  "native_verification": {
+    "source_differences_only_11_Chord_offsets": true,
+    "notes": 21,
+    "rests": 2,
+    "both_versions_saved_reload_SVG_RGBA_XML_except_date_MIDI_exact": true,
+    "candidate_default_full_MIDI_exact": true,
+    "fresh_native_render_run_by_root": false,
+    "agent_independent_recipe_checks_reviewed": true
+  },
+  "publication_assets": [
+    {
+      "path": "docs\\engraving\\fixtures\\five-four-spacing-default.mscx",
+      "sha256": "37e2779ba90cb9be885bc8f5cec821e1ac195f660dec88787fb5f340beb56516"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\five-four-spacing-pulse-candidate.mscx",
+      "sha256": "7d9e8f59db5a9126ed7e72905914969a25b8b9c749bf2ef32a33e3ae4434581f"
+    },
+    {
+      "path": "docs\\engraving\\fixtures\\five-four-spacing-comparison.png",
+      "sha256": "e6af54e808fc97451a10a1fc0fe420187176dca8c0e20357d0596d976836378d"
+    }
+  ],
+  "limits": [
+    "No aesthetic adoption, listening or printing",
+    "No new independent skill transfer case",
+    "No full user-score combined engraving",
+    "No MuseScore/MCP/plugin adaptation",
+    "Dorico original images remain unavailable",
+    "Historical ledger correction and complete-image evidence repair separated from first reading"
+  ],
+  "source_protection": "Original scores and textbook hashes match registered source baselines; no originals edited."
+}

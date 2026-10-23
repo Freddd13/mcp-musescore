@@ -1,0 +1,49 @@
+# Dorico四项设置文章：偏好要变成有条件的候选
+
+2026-10-23。已完整重读藤井大河的[2024-12-04原文](https://note.com/fujii_taiga_m/n/nca8f66de9948)，从介绍、四项设置、补充说明读到总结。**R22仍为partial：正文可读，配图尚未实际查看，图总数未可靠枚举；嵌入视频也未看。** 正文提到图示不等于本线见过图，更不能据此比较其上下两图。正常原文HTML读取超时，当前无可用浏览器连接，未绕访问限制。[证据](dorico_editorial_practice_evidence.json)保存范围、访问结果及官方文档核对。
+
+作者结尾明确这些并非必须更改，最终可自行选择。文章未在已取得正文中明确Dorico版本；本轮没有运行Dorico，也未把2024年的描述称为当前实测默认。对照实际取得的Dorico Pro **6.2文档**，只能证明文档所述能力及条件，不能补证当年的界面状态。
+
+## 1. 四项建议为什么可能有用，又要付出什么
+
+| 作者提出的方向 | 可讨论的阅读收益：本线解释 | 必须保留的条件与代价 |
+| --- | --- | --- |
+| 重音放到谱表外 | 重音形状远离谱线和密集头，可能更醒目、字形更完整 | 离头更远，又占用弧线／其它标记的外侧空间；需核所属部与上下层次。不是“任何重音在表内都违规” |
+| 跨行slur／tie收尾靠齐系统末端 | 续行提示更接近视线换行的位置，边界更整齐 | 仍须看原连接、音区走向、外层弧和最后一音；slur、tie、开放持续提示的功能不同，不能只按一条边界统一拉长 |
+| 调整时值间距比 | 相邻长短值的视觉反差可以更贴合个人的跟读习惯 | 参数改变的是时值层级关系；不保证连续同值音更匀，也不保证更松或更易读，需看最低占宽、共同时间列和整行预算 |
+| 排练标记处保留小节定位 | 排练、录音或对照版本时，不必从别处倒数找到该位置 | 字母与数字须分清身份、保持层次，避免堆叠。独奏谱的实际导航任务与多人排练可不同，不由此给每小节加号或套统一字号 |
+
+以上是可以比较的候选理由，不是对未见原图的效果评定。用户的细微审美仍需具体同曲、同字体候选确认。
+
+## 2. 官方文档实际核到了什么
+
+**重音：可以选择，不代表只有一种正确。** 6.2官方[允许／禁止奏法进入谱表](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_articulations/notation_reference_articulations_inside_staff_allowing_disallowing_t.html)的索引正文列出按奏法类型、项目级控制的选项。本次直接页面请求未取得完整页，用的是可读的官方步骤摘录；未验证特定工程的初始勾选或实际结果。将来应结合本库[力度与奏法](DYNAMICS_ARTICULATION.md)的归属与弧内外条件判断，不能据菜单有选项便升级成规范。
+
+**弧线：还要考虑曲线在换行前后传递什么。** 6.2官方[跨系统／框的slur](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_slurs/notation_reference_slurs_system_frame_breaks_c.html?contentId=AOYi1yAFmpe9mq5aSAg7cA)说明续段高度会参考前后乐句轮廓，多层弧另有竖向分层，也可分别修改各段。该页没有补证作者所说水平末端间隔设为0的具体默认值。作者对l.v.尾端与旧MuseScore 3外伸量的描述仍是其当时观察，本轮没有验证，不能变成当前两软件的通用缺陷。已有[弧线研究](CURVES_STUDY.md)与[持续提示](SUSTAIN_CONTINUATION.md)继续区分逻辑范围和绘制段。
+
+**间距：至少分开基准、比例与下限。** 6.2官方[间距选项](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_page_layout_options_r.html)分别列四分音符基准、短音最低空间、时值比例及其它占位／撑满控制；[间距层级](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_c.html?contentId=rdwA96F4qGsJ~xLN4OmmVA)又区分全布局、分段和个别时间位置，建议先看较大范围再逐音移动。它支持分层诊断，不证明某个比例是出版质量的充分条件。
+
+**定位：图形对齐与实际音乐位置分开。** 6.2[小节号显示](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_bar_numbers/notation_reference_bar_numbers_hiding_showing_frequency_changing_t.html)可按布局选择显示频率及相关选项；[排练标记位置](https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_rehearsal_marks/notation_reference_rehearsal_marks_positions_c.html)说明图形移动不改变节奏附着位置，并讨论与速度标记及谱表的关系。本轮未独立核实作者2024年所述隐藏小节号的全部触发组合，也未验证其Finale字号建议；不能将它们写成所有输入都应修复的错误。
+
+本轮尝试的5代Pro手册URL返回403，5.1相关网页未取得，故没有用6.2文档伪装成对当年版本的验证。未读取其它产品的旧手册来替代Pro当年行为。
+
+## 3. 时值比例变大，为什么不等于“整体更宽、更整齐”
+
+文章中的1.41与1.62可当候选值讨论，但没有在本轮核成两软件的当前默认。以下只按“时值翻倍时理想空间乘以r”的定义推导，固定四分音符基准为1；不是运行Dorico，也没有比较未看的原文图。
+
+| 理想间距模型 | 八分值 | 四分值 | 二分值 |
+| --- | ---: | ---: | ---: |
+| r=1.41 | 约0.709 | 1 | 1.41 |
+| r=1.62 | 约0.617 | 1 | 1.62 |
+
+较大比例让长短值的对比更强：相对于同一四分基准，长值更宽、短值反而更窄。实际排版还受头宽、变音、短音下限、其它层时点和撑满约束，最终头间距离不能直接用此表预测；调整基准后又是另一条件。“更接近黄金比”因此不是本项目应采用它的规范理由。
+
+用户关心的同值音因变音／两手关系忽宽忽窄，尤其要与这个时值层级问题分开。只换全局比例未必解决联合事件轴的弹性或最低占宽。已有[间距模型](SPACING_MODELS.md)、[十二对十一](POLYRHYTHM_SPACING_STUDY.md)和[变音列](ACCIDENTAL_SPACING.md)提供不同机制的具体证据，不能用一个软件名或比例标签覆盖它们。
+
+原文对Finale换算表、Sibelius不同时值比及Dorico当时缺少对应功能的描述，也未在本轮逐产品验证。当前已核文档列出某些控制，不足以证明所有未提到的能力都不存在。
+
+## 4. 现在如何用，哪些仍留待补齐
+
+当前可将四个方向用作检查问题：重音是否认得清且归属明确，续弧是否能顺利换行，时值层级与局部占位是否被混成一件事，定位标记是否让人容易找到位置。已有合理排法允许保留；需要修改时先做少量具体候选，看完整两手、相邻系统及页面代价。
+
+R22仍缺可实际查看的原文图、可靠图总数及其确切软件版本，不能列为已完成图文学习。未来原页能正常访问时再补，不为完成计数反复请求超时来源或自行补画所谓原图。本文没有新增教材页、原生候选、用户偏好、播放／打印验收或MuseScore／MCP／插件适配；原PDF与MSCZ保持。
