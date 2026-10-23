@@ -135,3 +135,9 @@ skill能够把阅读任务、相关规范、具体例子和候选保护连起来
 [Mixed Nuts五页](INTEGRATED_READING_MIXED_NUTS.md)保留D／H简明长值，同时解释B／F第三拍tie的用途；末小节完整计数后校正原“8组”。主agent已知旧笔记，非独立盲测；更正来源角色，不把发现一处旧错概括成其它图文已完全校对。
 
 正文rhythm行增加按需提醒，参考补完整拍位／熟悉型条件；既有rhythm／notation专题连接新例，20个topic及定位行为保持。当前引用、分数与元数据验证见[证据](mixed_nuts_reading_evidence.json)，不是原生改排、导航播放、用户选择或全谱自动净书验收。
+
+## 2026-10-23：异分的真正共同点与参考谱局部疑点
+
+[My Dearest整曲](INTEGRATED_READING_MY_DEAREST.md)复核旧装饰判断后，将新增分析集中到P段七处12／11运行：内部不同步，首处共同到达约错列0.83sp，后六处对齐；换号占宽与S的不同进入另判。已有小音原生例不计为本轮结果。
+
+仅补按需参考，既有spacing／rhythm／notation可从相关专题找到新例，20个topic及定位器保持。当前来源／视图哈希、七处图形计数／同型头坐标、分数一致性、链接及skill元数据核查见[证据](my_dearest_reading_evidence.json)；不是独立盲评、原生替代验收、软件定位或用户审美选择。
