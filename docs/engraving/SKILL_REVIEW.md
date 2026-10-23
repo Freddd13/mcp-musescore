@@ -169,3 +169,9 @@ Owari／lit整曲及Kokecola两篇配图已接入旧专题；五连原生例补�
 Link组曲／Adabana通过layout、octaves接入，Here通过piano／curves，Last Stardust通过tempo／piano接入；按需提醒补例外条件、三颗实际释放星及未知归属、局部a tempo和原速的差别。定位器仍20个topic，正文不复制全部案例。
 
 本批是已知作品复读及主任务图证复核，不是新的独立评测；实际迁移仍1/8。引用／锚点、账本和20次实际定位命令核查见[本批证据](whole_context_batch_2026_10_23_evidence.json)，不替代原生候选、用户选择或全谱验收。0.2.0标签及其发布证据保持原快照，当前使用应同时记实际Git提交。
+
+## 0.2.0后：时间含义与独立反复的误报边界
+
+Gould新读19页接入FREE_PASSAGE_READING、SPACING_MODELS及TRILL_READING，现有tempo／piano／spacing／ornaments入口可追到新专题。按需参考增加立即／完成循环后退出、同步子组、固定／分段比例和普通稳定间距的区别；正文及20个topic保持。
+
+三个熟悉片段的保留回查不增加迁移1/8成绩。原件哈希、20次定位和本批引用校验属于可调用性与资料保护；没有原生替代、试听、打印或个人偏好采用。

@@ -66,3 +66,7 @@ MIDI实际有102次NoteOn，颤音生成的事件多于26个书面音。相同�
 当前可先比较局部避让、说明位置与条件性续行提醒。合并Trill、增删tie、改变起音／辅助音、拆时值或写出震音都另列记法提议。软件侧将来至少要分别读到逻辑范围、各系统绘制段、tie连接及辅助音身份；本次只保存需求与反例，不开发接口。
 
 格式参考也要分类：[MusicXML trill-mark](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/trill-mark/)表示tr字样；[wavy-line](https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/wavy-line/)另有start／stop／continue及编号来表示延伸。这不证明任一宿主完整往返它们，本轮没有做导回测试。交换格式、字形外观、演奏实践与可见范围的保护各有证据，不能互相替代。
+
+## 2026-10-23：字形相同，不代表反复单位相同
+
+[自由反复续读](TIME_SPACE_AND_REPETITION.md)的Gould p621–626把整个音组的独立反复与单主音颤音分开。波线可借颤音线字形制作，直／波续线又可在作品明确定义后区分立即退出和完成当前循环再退出；这些都是上下文及指令，不由字形或对象类型自动推断。当前只补分类与退出边界，没有新增颤音原生／交换实验。

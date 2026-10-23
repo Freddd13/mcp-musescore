@@ -337,7 +337,7 @@
       ],
       [
         609,
-        621
+        640
       ]
     ],
     "verified_pdf_offset": 20,
@@ -379,6 +379,21 @@
         "note": "Old ledger continuous range already included these pages while the dated source note said text-only. Complete image reading now fills this gap without another cumulative increment or backdating.",
         "evidence": "lit_whole_reading_evidence.json",
         "unique_ledger_delta": 0
+      }
+    ],
+    "reading_batches": [
+      {
+        "date": "2026-10-23",
+        "evidence": "time_space_repetition_evidence.json",
+        "new_substantive_printed_range": [
+          622,
+          640
+        ],
+        "new_unique_pages": 19,
+        "reread_printed_pages": [
+          621
+        ],
+        "new_ancillary_pages": 0
       }
     ]
   },
@@ -614,25 +629,22 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "Current checkout adds four reviewed studies after engraving-v0.2.0:16/24,105/164. Immutable release snapshot remains12/24,74/164; record actual Git commit when using later knowledge."
+    "working_branch_note": "Current checkout after engraving-v0.2.0 adds four reviewed whole-score studies (16/24,105/164) and19 new substantive Gould pages (311/696). Immutable release snapshot remains12/24,74/164 and292/696; record actual Git commit for later knowledge."
   },
   "last_study_batch": {
     "date": "2026-10-23",
-    "scope": "Root-reviewed Link Medley, Adabana, Here and Last Stardust whole-context studies after immutable 0.2.0 release",
-    "new_deep_scores": 4,
-    "new_deep_pages": 31,
-    "new_all_score_closeouts": 4,
+    "scope": "Gould independent repetition and time-space notation with known-score conditional review",
+    "new_deep_scores": 0,
+    "new_deep_pages": 0,
+    "new_all_score_closeouts": 0,
     "new_complete_resource_scopes": 0,
-    "new_unique_ledger_book_pages": 0,
+    "new_unique_ledger_book_pages": 19,
     "book_full_image_evidence_repairs": 0,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "INTEGRATED_READING_LINK_MEDLEY.md",
-      "INTEGRATED_READING_ADABANA.md",
-      "INTEGRATED_READING_HERE.md",
-      "INTEGRATED_READING_LAST_STARDUST.md"
+      "TIME_SPACE_AND_REPETITION.md"
     ],
-    "review_evidence": "whole_context_batch_2026_10_23_evidence.json"
+    "review_evidence": "time_space_repetition_evidence.json"
   }
 }

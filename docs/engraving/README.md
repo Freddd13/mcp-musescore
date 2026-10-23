@@ -31,6 +31,8 @@
 
 ## 最近形成的可迁移判断
 
+[时间—空间与独立反复](TIME_SPACE_AND_REPETITION.md)补Gould19个新实质页：同速独立／同步子组不抹掉对应，立即退出／完成当前循环后退出不混用；普通稳定间距与距离直接计时也不是一回事。回看三个已知自由段保留原读法，不借新式记法强换无干、平梁或循环框；Gould现311/696，迁移试用不增。
+
 [Link组曲九页](INTEGRATED_READING_LINK_MEDLEY.md)区分结构标签、提前引入、伴奏准备、旋律进入与真实物理翻页；上表四小节休止不证明当前页末可翻。[Adabana七页](INTEGRATED_READING_ADABANA.md)补一个4/4拆成两行的2＋2拍及八度真实终点：出版实例与Gould例外条件分开，末角不吸到G段。
 
 [Here九页](INTEGRATED_READING_HERE.md)核完整tie、开放留声弧、中间换踏板和末端双星；双层控制应保留，简称、范围和各次释放归属仍可澄清。[Last Stardust六页](INTEGRATED_READING_LAST_STARDUST.md)区分局部a tempo与后来Tempo I，未tie相连的长和弦不自动并音，non Ped结尾也不能靠假定踏板删持续。这四首是已知材料综合复读，不增加独立skill评测或教材首次覆盖。

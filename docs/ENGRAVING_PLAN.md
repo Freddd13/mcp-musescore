@@ -227,3 +227,5 @@ MCP 的后续接口候选为 get_engraving_state 与 preview_engraving；具体�
 2026-10-23[ninelie六页综合续读](engraving/INTEGRATED_READING_NINELIE.md#8-2026-10-23把局部放回整首)补完当前深化批次首曲，累计9/24首；同表八度仍待核。Gould补10页实质图文，另2页标题／目录分列，知识及skill参考持续可用，未启动适配。
 
 2026-10-23继续完成[Link组曲](engraving/INTEGRATED_READING_LINK_MEDLEY.md)、[Adabana](engraving/INTEGRATED_READING_ADABANA.md)、[Here](engraving/INTEGRATED_READING_HERE.md)、[Last Stardust](engraving/INTEGRATED_READING_LAST_STARDUST.md)共四首／31页整曲回查。累计16/24首、105/164页；教材均为旧页复读，Gould仍292/696，资料仍9/25，迁移试用仍1/8。重点是范围、进入和物理翻页条件，不能把出版惯例全部升级为规范；知识／skill已接入，原件只读，适配开发仍留后续。当前checkout在0.2.0标签之后，标签快照保持，不改旧发布证据。
+
+2026-10-23续学[独立反复与时间—空间](engraving/TIME_SPACE_AND_REPETITION.md)，新增Gould19个完整实质图文页、累计311/696，余385页；官谱仍16/24，资料9/25、迁移1/8及用户组合0/1不增。区分退出方式、同步子组、横距含义和局部尺度，已接入现有skill。17:00并行授权已到期，查三个子代理均已结束，后续恢复单代理；学习目标继续。

@@ -4,7 +4,7 @@
 
 ## 0.2.0之后：工作分支继续可用
 
-2026-10-23再接入[Link组曲](engraving/INTEGRATED_READING_LINK_MEDLEY.md)、[Adabana](engraving/INTEGRATED_READING_ADABANA.md)、[Here](engraving/INTEGRATED_READING_HERE.md)、[Last Stardust](engraving/INTEGRATED_READING_LAST_STARDUST.md)四首／31页。当前checkout累计16/24首、105/164页，问题回查8/146；Gould292/696、资料9/25及迁移1/8不增。对行页、八度、踏板和自由段的条件判断已接入skill，未新增原生候选或软件适配。
+2026-10-23再接入[Link组曲](engraving/INTEGRATED_READING_LINK_MEDLEY.md)、[Adabana](engraving/INTEGRATED_READING_ADABANA.md)、[Here](engraving/INTEGRATED_READING_HERE.md)、[Last Stardust](engraving/INTEGRATED_READING_LAST_STARDUST.md)四首／31页，随后补读Gould19个新实质页。当前checkout累计16/24首、105/164页，问题回查8/146；Gould311/696，资料9/25及迁移1/8不增。行页、八度、踏板、自由段及[时间—空间](engraving/TIME_SPACE_AND_REPETITION.md)的条件判断已接入skill，未新增原生候选或软件适配。
 
 这是0.2.0后的知识更新，尚未另打标签；使用当前checkout即可取得，须同时记录实际Git提交。[本批核查](engraving/whole_context_batch_2026_10_23_evidence.json)单独保存，下面0.2.0及其标签／证据不改写。
 
@@ -66,3 +66,7 @@ Git标签：`engraving-v0.1.0`。这是净书线首次单独标记的可用研�
 完成一批综合研读、增加有应用价值的方法，或纠正会改变建议的判断时，发布新的净书标签，记录新增能力、纠错、实际验证和限制。细小修订可用补丁版本；不为每张临时图建发布包。发布时核skill可调用、知识引用可达、原件保护和必要的原生验证，更新进度与剩余范围。
 
 关联安装跟随项目更新，无需每次重装；复制安装才需同步变更文件。标签保留可复现快照；需要并存固定版时使用独立checkout，让skill和知识库来自同一版本。Git中仅保留知识、证据摘要和允许分发的原创样本，私有谱图／书页及整套运行时留在忽略缓存中。
+
+### 0.2.0后续教材补读
+
+同日工作分支再接入[时间—空间与独立反复](engraving/TIME_SPACE_AND_REPETITION.md)，Gould新增19个实质图文页，累计311/696；官谱仍16/24、105/164。补退出方式、同步关系及比例范围的判断，并回查三个已知片段；未新增迁移评测、原生候选或软件适配。此记录属于0.2.0以后的checkout更新，历史标签及发布证据保持，尚未另打版本。
