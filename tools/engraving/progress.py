@@ -73,6 +73,12 @@ def summary() -> dict:
     checked = data["corpus"]["closeout_completed_ids"]
     if len(checked) != len(set(checked)) or not set(checked).issubset(scores):
         raise ValueError("Invalid all-score closeout IDs")
+    closeout_records = data["corpus"].get("closeout_records", {})
+    if set(closeout_records) != set(checked):
+        raise ValueError("Every completed closeout needs a note and evidence record")
+    for record in closeout_records.values():
+        reference(record["note"])
+        reference(record["evidence"])
     gould = data["gould"]
     reference(gould["source_note"])
     book_pages: set[int] = set()
@@ -81,7 +87,12 @@ def summary() -> dict:
         if end < start or not pages or book_pages.intersection(pages):
             raise ValueError("Book page ranges reversed or overlapping")
         book_pages.update(pages)
-    if min(book_pages) < 1 or max(book_pages) > gould["planned_pdf_pages"]:
+    ancillary_list = gould.get("read_non_substantive_pdf_pages", [])
+    ancillary = set(ancillary_list)
+    if len(ancillary) != len(ancillary_list) or ancillary.intersection(book_pages):
+        raise ValueError("Duplicate or substantively counted chapter-title/contents page")
+    all_book_pages = book_pages | ancillary
+    if min(all_book_pages) < 1 or max(all_book_pages) > gould["planned_pdf_pages"]:
         raise ValueError("Book pages outside the planned source")
     resources = data["resources"]
     resource_done = check_items(resources["items"], resources["planned_items"])
@@ -110,7 +121,8 @@ def summary() -> dict:
             "deep_scores": [deep_done, deep["planned_scores"]],
             "deep_pages": [deep_pages, sum(s["pages"] for s in deep["scores"])],
             "all_score_closeout": [len(checked), planned_scores],
-            "gould_pages_conservative": [len(book_pages), gould["planned_pdf_pages"]],
+            "gould_pages_conservative": [len(all_book_pages), gould["planned_pdf_pages"]],
+            "gould_substantive_pages": len(book_pages), "gould_title_or_contents_pages": len(ancillary),
             "public_resource_scopes": [resource_done, resources["planned_items"]],
             "skill_transfer_scenarios": [transfer_done, transfer["planned_scenarios"]],
             "user_integrated_rounds": [user["completed_integrated_rounds"], user["planned_integrated_rounds"]],

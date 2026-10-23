@@ -12,7 +12,16 @@
     "planned_scores": 146,
     "planned_pages": 1135,
     "closeout_definition": "逐份复核首轮笔记的排法理由、适用条件、矛盾与未解问题；有缺口则追原页／规范，记录保留、改进或未知。不是再生成一套图。",
-    "closeout_completed_ids": []
+    "closeout_completed_ids": [
+      "A098"
+    ],
+    "closeout_records": {
+      "A098": {
+        "note": "INTEGRATED_READING_NINELIE.md",
+        "evidence": "ninelie_whole_reading_evidence.json",
+        "unresolved": "Simultaneous loco/ottava scope remains an editorial question; closeout is a review, not zero remaining questions."
+      }
+    }
   },
   "deep_reading": {
     "planned_scores": 24,
@@ -94,9 +103,11 @@
         "id": "A098",
         "title": "ninelie - Kabaneri of the Iron Fortress - Ending Theme.pdf",
         "pages": 6,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "补完ninelie整曲；同表原位／八度叠层",
-        "prior_partial_or_topical_note": "INTEGRATED_READING_NINELIE.md"
+        "prior_partial_or_topical_note": "INTEGRATED_READING_NINELIE.md",
+        "note": "INTEGRATED_READING_NINELIE.md",
+        "evidence": "ninelie_whole_reading_evidence.json"
       },
       {
         "id": "A067",
@@ -257,11 +268,7 @@
         190
       ],
       [
-        194,
-        194
-      ],
-      [
-        200,
+        193,
         215
       ],
       [
@@ -274,7 +281,7 @@
       ],
       [
         481,
-        494
+        498
       ],
       [
         557,
@@ -286,8 +293,12 @@
       ]
     ],
     "verified_pdf_offset": 20,
-    "counting_note": "保守并集：仅纳入笔记明确完整看过图文的页；不自动从缓存图片／OCR推阅读，不纳入只定位或仅部分图的旧页。每个已核页的本机映射为印刷页＋20；复读去重。",
-    "remaining_plan": "完成本地全书逐页阅读覆盖；先补共性、键盘、布局与自由段缺口，再读其它编制的适用界限。书读完仍需谱例迁移，不据此宣称规则全部掌握。"
+    "counting_note": "保守并集：完整实质图文页与实际查看的章首页／目录分列；两者仅用于逐页查阅覆盖，不以标题目录增加技术学习成果。缓存和OCR不推定已读，复读去重。已核技术页映射为印刷页＋20。",
+    "remaining_plan": "完成本地全书逐页阅读覆盖；先补共性、键盘、布局与自由段缺口，再读其它编制的适用界限。书读完仍需谱例迁移，不据此宣称规则全部掌握。",
+    "read_non_substantive_pdf_pages": [
+      519,
+      520
+    ]
   },
   "resources": {
     "source_note": "RESOURCE_PLAN_MAPPING.md",
@@ -512,5 +523,18 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20
+  },
+  "last_study_batch": {
+    "date": "2026-10-23",
+    "score_id": "A098",
+    "note": "INTEGRATED_READING_NINELIE.md",
+    "evidence": "ninelie_whole_reading_evidence.json",
+    "new_deep_scores": 1,
+    "new_deep_pages": 6,
+    "new_all_score_closeouts": 1,
+    "new_substantive_book_pages": 10,
+    "new_title_or_contents_pages": 2,
+    "new_skill_transfer_scenarios": 0,
+    "new_native_candidates": 0
   }
 }
