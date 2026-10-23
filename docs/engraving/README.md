@@ -6,6 +6,8 @@
 
 ## 阅读入口
 
+查看[当前进度与后续完整计划](STATUS_AND_ROADMAP.md)，区分已形成的能力、本阶段继续学习／候选验证和以后才启动的软件适配。
+
 先读[个人方向与作者说明](PREFERENCES.md)，再按当前问题选[判断指南](JUDGMENT_GUIDE.md)中的相关情境和下表专题，追到实际页／系统／小节。无需先读全部材料。后续任务可使用[净书skill](../../skills/piano-engraving/SKILL.md)；[使用与更新](../ENGRAVING_SKILL.md)说明知识库关联方式。
 
 | 当前要判断什么 | 从这里进入 |
