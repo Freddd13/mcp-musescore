@@ -219,3 +219,5 @@ MCP 的后续接口候选为 get_engraving_state 与 preview_engraving；具体�
 2026-10-22[Mixed Nuts整首续读](engraving/INTEGRATED_READING_MIXED_NUTS.md)把熟悉节奏少写与关键拍点保留tie放在同曲判断，复看Gould p166–171，纠正末尾5组／8va混同。知识库和skill按需提醒同步；本轮只读，无原生候选、播放验证或软件适配，学习目标继续。
 
 2026-10-23[My Dearest十页续读](engraving/INTEGRATED_READING_MY_DEAREST.md)在已验证的装饰约定之外，核P段七处12／11共同跨度与到达位置：首处约错列0.83sp，后六处对齐，记录为局部候选。换号空间、异分内部位置及S独立进入分判，知识库和skill参考同步；原谱只读，无原生改排或适配开发，目标继续。
+
+2026-10-23[十二对十一原生研究](engraving/POLYRHYTHM_SPACING_STUDY.md)落实近期独立复现：默认共同起止正确，换号空间和联合时间轴的非线性弹性／最低宽度分判；简单加两列留白未改善，移头和藏谱号拒绝。四份CC0输入、33音精确时值／MIDI及两版原生重载可追溯，知识与skill参考同步；后续换宽度再迁移，不做软件适配。

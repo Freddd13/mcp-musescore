@@ -1,5 +1,17 @@
 # 独立净书复现谱例
 
+## 十二对十一与联合时间轴间距
+
+2026-10-23原创CC0两小节4/4、33音及两个八分休止，固定Leland／Leland Text、1.57mm sp、A4满行预算；音符独立设计，不是官谱转写。上方十二个普通三十二分、下方11:6十六分在同一时段运行，后者中途换谱号。
+
+- [默认保留](poly12-11-auto.mscx)：共同开始与到达正确；未证明间距最佳。
+- [隐藏谱号诊断](poly12-11-hidden-clef-diagnostic.mscx)：仅隐藏换号，内部音高解释仍切到高音谱号；不能采用。
+- [单头移位拒绝](poly12-11-arrival-shift-rejected.mscx)：仅下部到达Chord左移5/6sp，同MIDI却误示先后。
+- [两列留白试排](poly12-11-edge-reserve.mscx)：两目标ChordRest列各加1.25sp leadingSpace，主要重分小节预算，本例不采用。
+- [四层原生图](poly12-11-comparison.png)：180dpi合白底、统一裁框保全部墨迹，标签在音乐之外，无符号移位或缩放。
+
+四版33音的原生配方／MusicXML／完整MIDI核查分别记录；默认和留白版原生保存重载的SVG、原始RGBA、MusicXML除日期和MIDI相同。MusicXML分数精确，480 PPQ MIDI有小于半tick的正常舍入。隐藏谱号诊断的内部间距可用非线性弹性加最低宽度重建，但总宽只标定一个整体拉伸量；不证明一般排版最优、运行时分支或源码构建对应。无交换导回、打印、试听或用户采用。详见[研究](../POLYRHYTHM_SPACING_STUDY.md)和[证据](../polyrhythm_spacing_evidence.json)。
+
 ## 跨表共同梁、短干与拍内休止
 
 2026-10-20原创CC0两小节4/4，26音、2个可见十六分休止及2个隐藏空表整休止容器；单线跨手，含八分／十六分／三十二分混合，非独立对位。固定Leland／Leland Text、spatium 1.57mm、同一水平预算，无官谱转写。
