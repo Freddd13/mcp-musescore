@@ -2,7 +2,7 @@
 
 这些段落从 skill 正文移到这里，保留条件、反例与来源。只读当前问题对应的小节；随后用定位器返回的知识库文件追到具体谱例。相同外形不代表相同音乐角色，旧实验数值也不是通用预设。
 
-目录：[作品定义](#interpretation) · [符号](#symbols) · [拼写](#spelling) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [跨表](#cross-staff) · [力度](#markings) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
+目录：[作品定义](#interpretation) · [符号](#symbols) · [拼写](#spelling) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [节奏](#rhythm) · [跨表](#cross-staff) · [力度](#markings) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
 
 <a id="interpretation"></a>
 
@@ -56,6 +56,14 @@
 比较重复材料先读角色、时值和共同列。`layout`／`piano`经专题连接A011整首案例：主题换到下表、快层带短休止／共头／较长末音，C／H对应行的分配复现而相邻行并不统一。不能把所有可见头或PDF字符当独立时点，也不把某处同值间隔的较大比率单独标错。寻行、再现识别、两手同步和实际净空分别解释，旧测量不是新谱的参数模板。
 
 间距先分必要构型、时间列余宽与整行预算。局部leadingSpace和stretch不按数值直接相加，也不保证单调改善；相同页数仍可能重排后半首。`spacing`中的`SPACING_TRANSFER.md`以实曲变音／三连共存片段保住变音净空、重分普通间隔，保留必要不均匀，并拒绝前部更紧和后文重排版。比较时还看末次起音到小节末，五个相邻距离或更小比率不能代替完整音乐／行页及阅读收益。
+
+<a id="rhythm"></a>
+
+## 熟悉节奏与计数边界
+
+判断跨拍先看完整拍位、重音、复杂度和熟悉型；不以跨拍即拆或局部短—长—短即合并。`rhythm`／`notation`的Mixed Nuts例中，D／H保留长值，B／F的第三拍tie接收又有计数用途；少头／少tie不直接等于间距更好。续行和拍内接收也不算新攻击，先核实际书写时间与连接。
+
+同页的5连组、局部8va、弧和尾部休止须按各自角色／范围读；Mixed Nuts旧“8组”已由完整末小节和旗梁细图校正。不要只凭单个数字或紧裁图补Tuplet比例、起音数、全曲swing或软件字段。
 
 <a id="markings"></a>
 

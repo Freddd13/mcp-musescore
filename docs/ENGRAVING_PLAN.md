@@ -213,3 +213,5 @@ MCP 的后续接口候选为 get_engraving_state 与 preview_engraving；具体�
 2026-10-22整首续读[unlasting](engraving/INTEGRATED_READING_UNLASTING.md)：明确保留不同部／不同时间的力度，找到H前弧穿梁的优先候选，另权衡跨行分词的长程渐弱。Gould条件与实际印图合读，知识库及skill按需参考同步；本批没有原生替代版或软件适配，目标继续。
 
 2026-10-22以[原创跨表弧](engraving/CROSS_STAFF_SLUR_ROUTING.md)检验H前诊断方向：保留头到头外绕及不采用的干侧／其它控制，核原生音乐、其它墨迹和保存重载。新经验是局部自动避碰会改变有效形状，关闭也不冻结原曲率；知识库／skill参考同步，当前仍无实曲迁移或适配开发。
+
+2026-10-22[Mixed Nuts整首续读](engraving/INTEGRATED_READING_MIXED_NUTS.md)把熟悉节奏少写与关键拍点保留tie放在同曲判断，复看Gould p166–171，纠正末尾5组／8va混同。知识库和skill按需提醒同步；本轮只读，无原生候选、播放验证或软件适配，学习目标继续。

@@ -21,7 +21,7 @@ python <skill目录>/scripts/engraving_library.py --topic spacing
 | --- | --- | --- |
 | 整页阅读与综合诊断 | `overview` | 分层、入口和多专题取舍；有理由保留原排法 |
 | 疏密、两手对齐、光学间距 | `spacing` | 共同时间列、真实占位、光学轴、整行预算及拒绝案例；[间距提醒](references/judgment-details.md#spacing) |
-| 主／内梁、休止、切分、换拍 | `rhythm` | 拍组与重音意图；重分梁／时值不能冒充几何美化 |
+| 主／内梁、休止、切分、换拍 | `rhythm` | 拍组与重音意图；重分梁／时值不能冒充几何美化；[节奏提醒](references/judgment-details.md#rhythm) |
 | 速度等式、变速／恢复、延长与断开 | `tempo` | 新旧单位与体例、实际生效点、严格同步与自由等待分别读；[速度](references/judgment-details.md#tempo)／[自由段](references/judgment-details.md#free-passage) |
 | 梁坡、符干、线重、加线 | `beams` | 靠梁音头、梁层级、干长及斜向厚度，已有自动处理 |
 | tie／slur、端点、续弧、文字通道 | `curves` | 逻辑连接与绘制片段、归属、允许交叉及样式缺省；先按问题查[作品定义](references/judgment-details.md#interpretation)、[持音](references/judgment-details.md#sustain)或[输出](references/judgment-details.md#output) |

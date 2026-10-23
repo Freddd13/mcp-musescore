@@ -129,3 +129,9 @@ skill能够把阅读任务、相关规范、具体例子和候选保护连起来
 [原创两部短谱](CROSS_STAFF_SLUR_ROUTING.md)把此前H前诊断落实为候选与反例：翻方向仍穿梁，干侧虽避梁仍有阅读代价，最终头到头外绕经保存重载保持。局部关闭autoplace不是冻结原形，参考新增有效肩部／端点的判断，不设置全局关自动排版的要求。
 
 本轮主agent构造与评估，非独立或陌生任务；既有curves／cross-staff入口连接新例，不增加topic或定位器行为。当前验证见[证据](cross_staff_slur_routing_evidence.json)，不代表官谱／用户工程已优化、全部碰撞已测或个人审美已确认。
+
+## 2026-10-22：跨拍记法与旧误读校正
+
+[Mixed Nuts五页](INTEGRATED_READING_MIXED_NUTS.md)保留D／H简明长值，同时解释B／F第三拍tie的用途；末小节完整计数后校正原“8组”。主agent已知旧笔记，非独立盲测；更正来源角色，不把发现一处旧错概括成其它图文已完全校对。
+
+正文rhythm行增加按需提醒，参考补完整拍位／熟悉型条件；既有rhythm／notation专题连接新例，20个topic及定位行为保持。当前引用、分数与元数据验证见[证据](mixed_nuts_reading_evidence.json)，不是原生改排、导航播放、用户选择或全谱自动净书验收。
