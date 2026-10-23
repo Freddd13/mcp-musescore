@@ -2,11 +2,13 @@
 
 知识库在学习过程中即可使用。版本表示一组可追溯、已经检查的知识与工作流程，不表示所有材料已学完，也不表示具备自动改好整谱的能力。当前学习范围与X/Y进度见[进度报告](engraving/STATUS_AND_ROADMAP.md)。
 
-## 0.2.0之后：工作分支继续可用
+## 0.3.0 — 2026-10-23
 
-2026-10-23再接入[Link组曲](engraving/INTEGRATED_READING_LINK_MEDLEY.md)、[Adabana](engraving/INTEGRATED_READING_ADABANA.md)、[Here](engraving/INTEGRATED_READING_HERE.md)、[Last Stardust](engraving/INTEGRATED_READING_LAST_STARDUST.md)四首／31页，随后补读Gould19个新实质页。当前checkout累计16/24首、105/164页，问题回查8/146；Gould311/696，资料9/25及迁移1/8不增。行页、八度、踏板、自由段及[时间—空间](engraving/TIME_SPACE_AND_REPETITION.md)的条件判断已接入skill，未新增原生候选或软件适配。
+2026-10-23再接入[Link组曲](engraving/INTEGRATED_READING_LINK_MEDLEY.md)、[Adabana](engraving/INTEGRATED_READING_ADABANA.md)、[Here](engraving/INTEGRATED_READING_HERE.md)、[Last Stardust](engraving/INTEGRATED_READING_LAST_STARDUST.md)四首／31页，随后补读Gould19个新实质页。当前checkout累计16/24首、105/164页，问题回查8/146；Gould311/696，资料9/25；随后完成T02，迁移覆盖2/8。行页、八度、踏板、自由段及[时间—空间](engraving/TIME_SPACE_AND_REPETITION.md)的条件判断已接入skill，未新增原生候选或软件适配。
 
-这是0.2.0后的知识更新，尚未另打标签；使用当前checkout即可取得，须同时记录实际Git提交。[本批核查](engraving/whole_context_batch_2026_10_23_evidence.json)单独保存，下面0.2.0及其标签／证据不改写。
+Git标签：engraving-v0.3.0。四首整曲的[批次核查](engraving/whole_context_batch_2026_10_23_evidence.json)、教材及T02的各自证据保持，[0.3.0发布核查](engraving/release_0_3_0_evidence.json)记录当前累计、调用检查与来源保护。0.2.0原生例沿用原验证，未重跑全部原生实验；当前版本不新增原生候选、软件适配或用户审美采用。下面0.2.0及其标签／证据不改写。
+
+[T02预选后间距应用](engraving/SKILL_TRANSFER_SPACING.md)为主agent冻结初判后的只读源图／几何／规范回查；不称独立盲测。保留当前所查组织，并限定谱号宽格尚未证明最小预算；无新原生候选。0.3.0可直接使用此知识，历史发布快照及其1/8计数不改写。
 
 ## 0.2.0 — 2026-10-23
 
@@ -69,4 +71,4 @@ Git标签：`engraving-v0.1.0`。这是净书线首次单独标记的可用研�
 
 ### 0.2.0后续教材补读
 
-同日工作分支再接入[时间—空间与独立反复](engraving/TIME_SPACE_AND_REPETITION.md)，Gould新增19个实质图文页，累计311/696；官谱仍16/24、105/164。补退出方式、同步关系及比例范围的判断，并回查三个已知片段；未新增迁移评测、原生候选或软件适配。此记录属于0.2.0以后的checkout更新，历史标签及发布证据保持，尚未另打版本。
+同日工作分支再接入[时间—空间与独立反复](engraving/TIME_SPACE_AND_REPETITION.md)，Gould新增19个实质图文页，累计311/696；官谱仍16/24、105/164。补退出方式、同步关系及比例范围的判断，并回查三个已知片段；未新增迁移评测、原生候选或软件适配。此记录形成于0.2.0后的checkout续学，现纳入0.3.0；历史标签及发布证据保持。

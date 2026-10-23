@@ -551,8 +551,11 @@
       {
         "id": "T02",
         "task": "陌生片段的变音／两手横距诊断",
-        "status": "pending",
-        "reference": "SPACING_TRANSFER.md"
+        "status": "complete",
+        "reference": "SKILL_TRANSFER_SPACING.md",
+        "evidence": "skill_transfer_spacing_evidence.json",
+        "evaluation_mode": "Root-only preselected page with frozen initial before corpus/geometry verification; not independent or blind",
+        "remaining_limit": "One read-only application, no native candidate, aesthetic choice or general accuracy claim"
       },
       {
         "id": "T03",
@@ -623,28 +626,28 @@
     ]
   },
   "release": {
-    "version": "0.2.0",
-    "tag": "engraving-v0.2.0",
+    "version": "0.3.0",
+    "tag": "engraving-v0.3.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "Current checkout after engraving-v0.2.0 adds four reviewed whole-score studies (16/24,105/164) and19 new substantive Gould pages (311/696). Immutable release snapshot remains12/24,74/164 and292/696; record actual Git commit for later knowledge."
+    "working_branch_note": "Snapshot engraving-v0.3.0 includes16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. T02 is root-only preselected read-only application; not independent/blind, no new native candidate or software adaptation."
   },
   "last_study_batch": {
     "date": "2026-10-23",
-    "scope": "Gould independent repetition and time-space notation with known-score conditional review",
+    "scope": "T02 preselected read-only spacing application on A132p4 with source/time/geometry/normative review",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
     "new_complete_resource_scopes": 0,
-    "new_unique_ledger_book_pages": 19,
+    "new_unique_ledger_book_pages": 0,
     "book_full_image_evidence_repairs": 0,
-    "new_skill_transfer_scenarios": 0,
+    "new_skill_transfer_scenarios": 1,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "TIME_SPACE_AND_REPETITION.md"
+      "SKILL_TRANSFER_SPACING.md"
     ],
-    "review_evidence": "time_space_repetition_evidence.json"
+    "review_evidence": "skill_transfer_spacing_evidence.json"
   }
 }

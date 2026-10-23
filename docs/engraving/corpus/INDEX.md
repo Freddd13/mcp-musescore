@@ -168,3 +168,5 @@
 2026-10-23补[A102八页](../INTEGRATED_READING_OWARI.md)与[A006五页](../INTEGRATED_READING_LIT.md)整曲回查，解释第二处拆小节、参照细分改变、同刻与不同刻、变奏密度和比例疑问；原有逐谱笔记及379页历史数保持，不计为新的独立skill评测。
 
 2026-10-23再完成[A008 Link组曲九页](../INTEGRATED_READING_LINK_MEDLEY.md)、[A009 Adabana七页](../INTEGRATED_READING_ADABANA.md)、[A056 Here九页](../INTEGRATED_READING_HERE.md)、[A083 Last Stardust六页](../INTEGRATED_READING_LAST_STARDUST.md)综合回查。补准备／进入／物理页界、拆行条件、八度终点、双踏板及局部速度恢复；历史首轮及379页近读不增，实际迁移评测不增。
+
+2026-10-23 A132 p4作[T02预选后间距应用](../SKILL_TRANSFER_SPACING.md)，另看p1–3／5状态与邻页。未完成8页整曲，不增加固定24首深化或全目录最终回查；历史379页近读保持。初判、规范及共同列证据与旧p3／6／8专题分别记录。

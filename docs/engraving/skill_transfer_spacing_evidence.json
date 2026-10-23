@@ -1,0 +1,787 @@
+{
+  "date": "2026-10-23",
+  "scenario": "T02",
+  "evaluation_mode": "single-agent preselected page application; historical first-pass exposure, no independent agent or blind test",
+  "preselection": {
+    "scenario": "T02",
+    "date": "2026-10-23",
+    "preselection_time_utc": "2026-10-23 09:46 UTC",
+    "pre_batch_commit": "60db724",
+    "source_id": "A132",
+    "source_title": "This Game (2021 ver.) - No Game No Life  - Opening Theme.pdf",
+    "primary_physical_pdf_page": 4,
+    "context_physical_pdf_pages": [
+      3,
+      5
+    ],
+    "selection_method": "Fixed middle page of an eight-page score from the remaining non-deep-reading corpus; selected using title/page inventory before viewing the score or its old corpus note this turn. No known expected diagnosis supplied.",
+    "task": "Use the current piano-engraving skill to identify the main reading tasks and judge whether apparent horizontal irregularity, accidentals and two-staff alignment warrant retention, a conditional local candidate, or a notation question. Read full systems and neighbours first. State evidence and unknowns; then compare old notes, actual geometry and relevant norms, record corrections and false positives.",
+    "historical_exposure": "This corpus received first-pass screening earlier; not first exposure, not independent, not a blind evaluation. Recent detailed A132 study has not been used as an answer key in this turn.",
+    "guardrails": [
+      "No original edits or current GUI operations",
+      "Do not promise native or aesthetic validation from PDF alone",
+      "Do not turn the selected three pages into a whole-score completion",
+      "Do not call timing correct from X coordinates alone",
+      "Freeze initial judgments before consulting the old A132 corpus note"
+    ],
+    "expected_answers": null
+  },
+  "preselection_private_sha256": "3e0bb8ecee368e4936d7514da20a63b8a288a1b5abc23cc39514f8849a038586",
+  "frozen_initial": {
+    "scenario": "T02",
+    "stage": "initial skill application before old A132 note or geometry/normative verification",
+    "source": "A132 This Game2021, primary p4; p3/p5 full context viewed",
+    "not_independent_not_blind": true,
+    "judgments": [
+      {
+        "id": "I01",
+        "location": "p4 system1 first two bars; system4 I",
+        "initial": "Retain lower accompaniment grouping, ties and short/long note distinctions. The slow upper chord does not make all visible lower heads equal-duration attacks. Do not average all head gaps or remove tied receivers.",
+        "needs_check": "Exact durations/normal-side heads before numerical alignment; source metre at first page."
+      },
+      {
+        "id": "I02",
+        "location": "p4 system2, lower continuous fast layer, especially bar3 internal clef",
+        "initial": "Most running groups look orderly; the mid-bar clef needs explicit space. First suspect real symbol occupancy before reporting a spacing-engine defect. A local compensation is only conditional if actual clearance permits it.",
+        "needs_check": "Count heads and actual subdivisions, locate clef relative to time-bearing notes, separate clef reserve from neighbouring interval."
+      },
+      {
+        "id": "I03",
+        "location": "p4 system2 bar1, lower naturals and upper natural chord; system5 bars2-3 upper fast layer",
+        "initial": "Retain accidental meaning and two-staff relations. The upper fast layer late on the page appears relatively stable despite lower changes; use as an internal control, not a whole-page equal-spacing prescription.",
+        "needs_check": "Normal-side head coordinates and full time mapping. No accidental deletion or respelling merely to narrow the bar."
+      },
+      {
+        "id": "I04",
+        "location": "p4 system3 final bar and system4 I",
+        "initial": "The end key-signature reserve and to-Coda text are navigation/state information, not an extra rest. Do not compare this end margin to internal sixteenth gaps or delete the repeated row-start signature.",
+        "needs_check": "Only local visible state is covered; full DS/Coda route not established in this spacing scenario."
+      },
+      {
+        "id": "I05",
+        "location": "entire selected page",
+        "initial": "No clearly harmful horizontal collision or demonstrably wrong common time column identified at full-page view. Prefer justified retention and specific checks over inventing a compulsory edit. Clef-gap redistribution remains an unrendered possibility, not an adopted fix.",
+        "needs_check": "Detail crops, actual geometry and matching engraving conditions may refine the diagnosis. PDF cannot establish editing software or native voice/playback state."
+      }
+    ],
+    "materials_consulted_so_far": [
+      "Current piano-engraving SKILL.md and spacing locator",
+      "JUDGMENT_GUIDE.md",
+      "Maintained README/PREFERENCES and existing general spacing knowledge from prior ongoing turns",
+      "Cached full source pages3,4,5"
+    ],
+    "not_yet_consulted_this_scenario": [
+      "A132 corpus reading note",
+      "Selected-page PDF vector/head measurements",
+      "Specific Gould passages for this page"
+    ],
+    "candidate_status": "No edit or native candidate yet",
+    "preservation": "Originals read-only",
+    "frozen_at_utc": "2026-10-23T10:02:00.578606+00:00"
+  },
+  "frozen_initial_private_sha256": "e0a643baff513f0e67b02623d1b06072109397283cffaebea337c3da590d1791",
+  "order": "Select inventory page; invoke skill/spacing route and general guide; view3/4/5; freeze initial; view initial crops and old note; subsequent geometry, score-state context1/2, normative images and expanded-crop checks; final measurement and conditional judgment.",
+  "source": {
+    "id": "A132",
+    "relative_path": "This Game (2021 ver.) - No Game No Life  - Opening Theme.pdf",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\This Game (2021 ver.) - No Game No Life  - Opening Theme.pdf",
+    "sha256": "7caf9092796796aba242597ab91fbabf4d59c0f7c7ad3220e8a552b57a619881",
+    "bytes": 283405,
+    "pages": 8,
+    "metadata": {
+      "/CreationDate": "D:20230225123358",
+      "/Creator": "PDFium",
+      "/Producer": "PDFium"
+    },
+    "page_sizes_pt": [
+      [
+        595.28,
+        841.89
+      ]
+    ],
+    "inventory_status": "readable"
+  },
+  "source_hash_after": "7caf9092796796aba242597ab91fbabf4d59c0f7c7ad3220e8a552b57a619881",
+  "book": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "hash_after": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "revisited_substantive_printed_pages": [
+      40,
+      41,
+      43,
+      491
+    ],
+    "new_unique_pages": 0
+  },
+  "actual_views": [
+    {
+      "path": "tmp/engraving/corpus/A132/page-3.jpg",
+      "source": "A132",
+      "physical_pdf_page": 3,
+      "role": "full context;1/2 later state check",
+      "sha256": "3cd8798bd0d650129e623e26b50d25cf8fb885864f8d4433c88de2036f4c0d8a",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A132/page-4.jpg",
+      "source": "A132",
+      "physical_pdf_page": 4,
+      "role": "primary full page",
+      "sha256": "0dfd3a816759a5a45890aac44ef72e75a0e96e458e2d610d35c1417778e0299a",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A132/page-5.jpg",
+      "source": "A132",
+      "physical_pdf_page": 5,
+      "role": "full context;1/2 later state check",
+      "sha256": "c96999e852ce59ef2a7cd70c10a40ccd0a6deea5aae67f2c3c14df06eae90f6d",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A132/page-1.jpg",
+      "source": "A132",
+      "physical_pdf_page": 1,
+      "role": "full context;1/2 later state check",
+      "sha256": "8a566cc97a79ed3029fe4d7b12d0d344636fc8ca265bfe7bd2dd385d24970d1c",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A132/page-2.jpg",
+      "source": "A132",
+      "physical_pdf_page": 2,
+      "role": "full context;1/2 later state check",
+      "sha256": "be9e954d8e6aa4a6a97098376157d388188675de7a179c0a347d764e78fdffcb",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp\\engraving\\spacing-transfer-t02-2026-10-23\\s1.png",
+      "source": "A132",
+      "physical_pdf_page": 4,
+      "role": "context crop",
+      "sha256": "07e975faceb946296d211fb9f151c4b1af5652c49026b51aa67e6b33d38a7a68",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp\\engraving\\spacing-transfer-t02-2026-10-23\\s2.png",
+      "source": "A132",
+      "physical_pdf_page": 4,
+      "role": "context crop",
+      "sha256": "d9653fc40c6403bc5d92e960eb8f1ea5aa38195d1ee897e571b98b919242af60",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp\\engraving\\spacing-transfer-t02-2026-10-23\\s5-6.png",
+      "source": "A132",
+      "physical_pdf_page": 4,
+      "role": "initial crop top edge too narrow; expanded and re-viewed, no source fault",
+      "sha256": "5238916d6ec83d6501e5f8cafc47bfcb5b5f3dafd09e3e63c75252dc61db4897",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp\\engraving\\spacing-transfer-t02-2026-10-23\\s5-6-complete.png",
+      "source": "A132",
+      "physical_pdf_page": 4,
+      "role": "context crop",
+      "sha256": "dd82ada5e6de360b5dece7c613f6513dc67ef60bfbf19543b645f305a20beb3c",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp/engraving/integrated-my-dearest-2026-10-23/Gould-p40.png",
+      "source": "Gould",
+      "printed_page": 40,
+      "physical_pdf_page": 60,
+      "role": "complete old technical page",
+      "sha256": "3bca1d815468f11e854ff811fff77782b399767f31be79d4546df20b8cd8c60f",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp/engraving/integrated-my-dearest-2026-10-23/Gould-p41.png",
+      "source": "Gould",
+      "printed_page": 41,
+      "physical_pdf_page": 61,
+      "role": "complete old technical page",
+      "sha256": "e16ec741d477b363353f67d9269d2fd231f4232de1aa615a4d61308ffbaaa4b9",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp/engraving/integrated-my-dearest-2026-10-23/Gould-p43.png",
+      "source": "Gould",
+      "printed_page": 43,
+      "physical_pdf_page": 63,
+      "role": "complete old technical page",
+      "sha256": "7f25fa3d6883bf7551fe59785dff1c95d33a7583ae77751c3f01a9ba94238530",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    },
+    {
+      "path": "tmp/engraving/book-2026-10-19/alignment-text-511.jpg",
+      "source": "Gould",
+      "printed_page": 491,
+      "physical_pdf_page": 511,
+      "role": "complete old technical page",
+      "sha256": "52c180883010f5f67e426d5af311010e31a495613a2bc56d22fd40f7a6ff5e2d",
+      "actually_viewed": true,
+      "reused_or_cropped_without_score_changes": true
+    }
+  ],
+  "view_count": 13,
+  "primary_page": 4,
+  "full_source_pages_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "final_usable_crops": [
+    "s1",
+    "s2",
+    "s5-6-complete"
+  ],
+  "earlier_narrow_crop_retained_privately": true,
+  "measurement": {
+    "page_size_pt": [
+      595.276,
+      841.89
+    ],
+    "head_identity": "Source-local glyph code œ in one registered subset/size, visually checked against full source; no embedded font extraction or universal mapping.",
+    "coordinate_identity": "Text matrix x0 for matching normal-side heads; advance boxes are not ink contours. Bands manually selected only for these disjoint visible layers.",
+    "cases": {
+      "s2b1": {
+        "written_time_step_quarters": "1/4",
+        "x_pt": [
+          66.96382,
+          76.68738,
+          86.27542,
+          95.8804,
+          105.60396,
+          115.32752,
+          125.03414,
+          134.63912,
+          144.36268,
+          153.96766,
+          163.67428,
+          173.39784,
+          183.00282,
+          192.72638,
+          202.31442,
+          212.03798
+        ],
+        "internal_gap_count": 15,
+        "internal_gaps_pt": [
+          9.723560000000006,
+          9.588039999999992,
+          9.604979999999998,
+          9.723560000000006,
+          9.723560000000006,
+          9.706619999999987,
+          9.604979999999998,
+          9.72356000000002,
+          9.604979999999983,
+          9.706620000000015,
+          9.723559999999992,
+          9.604980000000012,
+          9.723559999999992,
+          9.588040000000007,
+          9.723559999999992
+        ],
+        "min_pt": 9.588039999999992,
+        "max_pt": 9.72356000000002,
+        "max_over_min": 1.0141342756183775,
+        "first_last_span_pt": 145.07416,
+        "includes_bar_end_margin": false
+      },
+      "s2b2": {
+        "written_time_step_quarters": "1/4",
+        "x_pt": [
+          230.0452,
+          239.76876,
+          249.23822,
+          258.96178,
+          268.44818,
+          278.1548,
+          287.75978,
+          297.36476,
+          307.08832,
+          316.67636,
+          326.39992,
+          335.88632,
+          345.60988,
+          355.07934,
+          364.8029,
+          374.40788
+        ],
+        "internal_gap_count": 15,
+        "internal_gaps_pt": [
+          9.723559999999992,
+          9.469460000000026,
+          9.723559999999964,
+          9.486400000000003,
+          9.706620000000044,
+          9.604979999999955,
+          9.604980000000012,
+          9.72356000000002,
+          9.588039999999978,
+          9.72356000000002,
+          9.486400000000003,
+          9.723559999999964,
+          9.469460000000026,
+          9.72356000000002,
+          9.604979999999955
+        ],
+        "min_pt": 9.469460000000026,
+        "max_pt": 9.72356000000002,
+        "max_over_min": 1.0268336314847937,
+        "first_last_span_pt": 144.36267999999998,
+        "includes_bar_end_margin": false
+      },
+      "s2b3": {
+        "written_time_step_quarters": "1/4",
+        "x_pt": [
+          392.39816,
+          402.12172,
+          411.84528,
+          421.56884,
+          434.03668,
+          443.64166,
+          453.4838,
+          463.20736,
+          472.93092,
+          482.75612,
+          492.47968,
+          502.20324,
+          512.04538,
+          521.76894,
+          531.4925,
+          541.3177
+        ],
+        "internal_gap_count": 15,
+        "internal_gaps_pt": [
+          9.723559999999964,
+          9.72356000000002,
+          9.72356000000002,
+          12.467839999999967,
+          9.604980000000012,
+          9.842139999999972,
+          9.72356000000002,
+          9.72356000000002,
+          9.825199999999995,
+          9.723559999999964,
+          9.72356000000002,
+          9.842140000000029,
+          9.72356000000002,
+          9.723559999999907,
+          9.825199999999995
+        ],
+        "min_pt": 9.604980000000012,
+        "max_pt": 12.467839999999967,
+        "max_over_min": 1.2980599647266264,
+        "first_last_span_pt": 148.91953999999993,
+        "includes_bar_end_margin": false
+      },
+      "s5b2": {
+        "written_time_step_quarters": "1/4",
+        "x_pt": [
+          215.88336,
+          226.3184,
+          236.77038,
+          247.08684,
+          257.52188,
+          267.71976,
+          278.1548,
+          288.60678,
+          299.04182,
+          309.35828,
+          319.81026,
+          330.2453,
+          340.68034,
+          350.87822,
+          361.3302,
+          371.76524
+        ],
+        "internal_gap_count": 15,
+        "internal_gaps_pt": [
+          10.435039999999987,
+          10.451979999999992,
+          10.316460000000006,
+          10.435040000000015,
+          10.197879999999998,
+          10.435040000000015,
+          10.451979999999992,
+          10.435039999999958,
+          10.316460000000006,
+          10.451980000000049,
+          10.435039999999958,
+          10.435040000000015,
+          10.197879999999998,
+          10.451979999999992,
+          10.435040000000015
+        ],
+        "min_pt": 10.197879999999998,
+        "max_pt": 10.451980000000049,
+        "max_over_min": 1.0249169435215997,
+        "first_last_span_pt": 155.88188,
+        "includes_bar_end_margin": false
+      },
+      "s5b3": {
+        "written_time_step_quarters": "1/4",
+        "x_pt": [
+          390.48394,
+          400.8004,
+          411.23544,
+          421.45026,
+          431.76672,
+          442.20176,
+          452.6368,
+          463.08878,
+          473.40524,
+          483.7217,
+          494.03816,
+          504.49014,
+          514.92518,
+          525.36022,
+          535.5581,
+          546.01008
+        ],
+        "internal_gap_count": 15,
+        "internal_gaps_pt": [
+          10.316460000000006,
+          10.435039999999958,
+          10.214820000000032,
+          10.316460000000006,
+          10.435039999999958,
+          10.435040000000015,
+          10.451979999999992,
+          10.316460000000006,
+          10.316460000000006,
+          10.316460000000006,
+          10.451979999999992,
+          10.435039999999958,
+          10.435040000000072,
+          10.197879999999941,
+          10.451980000000049
+        ],
+        "min_pt": 10.197879999999941,
+        "max_pt": 10.451980000000049,
+        "max_over_min": 1.0249169435216055,
+        "first_last_span_pt": 155.52614,
+        "includes_bar_end_margin": false
+      }
+    },
+    "common_written_position_pairs": [
+      {
+        "case": "s2b1",
+        "quarter_position": 0,
+        "upper_x_pt": 66.96382,
+        "lower_x_pt": 66.96382,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s2b1",
+        "quarter_position": 0.75,
+        "upper_x_pt": 95.8804,
+        "lower_x_pt": 95.8804,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s2b1",
+        "quarter_position": 1,
+        "upper_x_pt": 105.60396,
+        "lower_x_pt": 105.60396,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s2b1",
+        "quarter_position": 1.5,
+        "upper_x_pt": 125.03414,
+        "lower_x_pt": 125.03414,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s2b1",
+        "quarter_position": 2,
+        "upper_x_pt": 144.36268,
+        "lower_x_pt": 144.36268,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s2b1",
+        "quarter_position": 2.5,
+        "upper_x_pt": 163.67428,
+        "lower_x_pt": 163.67428,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s2b1",
+        "quarter_position": 3,
+        "upper_x_pt": 183.00282,
+        "lower_x_pt": 183.00282,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s2b1",
+        "quarter_position": 3.5,
+        "upper_x_pt": 202.31442,
+        "lower_x_pt": 202.31442,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 0,
+        "upper_x_pt": 215.88336,
+        "lower_x_pt": 215.88336,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 0.25,
+        "upper_x_pt": 226.3184,
+        "lower_x_pt": 226.3184,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 0.5,
+        "upper_x_pt": 236.77038,
+        "lower_x_pt": 236.77038,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 0.75,
+        "upper_x_pt": 247.08684,
+        "lower_x_pt": 247.08684,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 1,
+        "upper_x_pt": 257.52188,
+        "lower_x_pt": 257.52188,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 1.5,
+        "upper_x_pt": 278.1548,
+        "lower_x_pt": 278.1548,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 2,
+        "upper_x_pt": 299.04182,
+        "lower_x_pt": 299.04182,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 2.5,
+        "upper_x_pt": 319.81026,
+        "lower_x_pt": 319.81026,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 3,
+        "upper_x_pt": 340.68034,
+        "lower_x_pt": 340.68034,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b2",
+        "quarter_position": 3.5,
+        "upper_x_pt": 361.3302,
+        "lower_x_pt": 361.3302,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 0,
+        "upper_x_pt": 390.48394,
+        "lower_x_pt": 390.48394,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 0.25,
+        "upper_x_pt": 400.8004,
+        "lower_x_pt": 400.8004,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 0.5,
+        "upper_x_pt": 411.23544,
+        "lower_x_pt": 411.23544,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 0.75,
+        "upper_x_pt": 421.45026,
+        "lower_x_pt": 421.45026,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 1,
+        "upper_x_pt": 431.76672,
+        "lower_x_pt": 431.76672,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 1.5,
+        "upper_x_pt": 452.6368,
+        "lower_x_pt": 452.6368,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 2,
+        "upper_x_pt": 473.40524,
+        "lower_x_pt": 473.40524,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 2.5,
+        "upper_x_pt": 494.03816,
+        "lower_x_pt": 494.03816,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 3,
+        "upper_x_pt": 514.92518,
+        "lower_x_pt": 514.92518,
+        "abs_delta_pt": 0.0
+      },
+      {
+        "case": "s5b3",
+        "quarter_position": 3.5,
+        "upper_x_pt": 535.5581,
+        "lower_x_pt": 535.5581,
+        "abs_delta_pt": 0.0
+      }
+    ],
+    "common_pair_count": 28,
+    "max_inspected_common_column_delta_pt": 0.0,
+    "clef": {
+      "source_local_glyph": "&",
+      "x_pt": 424.66462499999994,
+      "size_pt": 12.705000000000041,
+      "falls_between_lower_indices_1_based": [
+        4,
+        5
+      ],
+      "manual_time_boundary_quarters": 1,
+      "metric_box_not_clearance_proof": true
+    },
+    "maximum_gap_spread_arithmetic": {
+      "existing_first_last_span_pt": 148.91953999999993,
+      "clef_adjacent_gap_pt": 12.467839999999967,
+      "if_all_15_internal_gaps_equal_this_gap_span_pt": 187.0175999999995,
+      "span_increase_pt": 38.09805999999958,
+      "span_increase_fraction": 0.2558298259583638,
+      "not_a_rendered_layout_or_proof_of_minimum_clearance": true
+    }
+  },
+  "reconciliation": [
+    {
+      "initial_id": "I01",
+      "result": "retain",
+      "basis": "Mixed written durations and tie receivers are visible; not all heads are equal attacks."
+    },
+    {
+      "initial_id": "I02",
+      "result": "retain observation, limit inference",
+      "basis": "16 fast positions per bar and the clef between4/5 verified; occupancy does not prove current gap is a minimum, Gould43 still favours using available symbol space."
+    },
+    {
+      "initial_id": "I03",
+      "result": "retain within checked scope",
+      "basis": "Five16-head runs and28 common written columns checked, including tie receivers; no claim of whole-page or native correctness."
+    },
+    {
+      "initial_id": "I04",
+      "result": "retain, route outside tested scope",
+      "basis": "Cautionary/local state distinct from time; no full DS/Coda playback analysis."
+    },
+    {
+      "initial_id": "I05",
+      "result": "retain provisional no-compulsory-edit",
+      "basis": "No major horizontal error established in selected checks, but no oracle or complete collation, minimum ink clearance or alternative layout."
+    }
+  ],
+  "old_note_check": {
+    "path": "corpus/READING_023.md",
+    "A132_historical_detail_pages": [
+      3,
+      6,
+      8
+    ],
+    "not_an_independent_p4_spacing_answer_key": true,
+    "different_2014_arrangement_not_used_as_same_input_control": true
+  },
+  "outcome": {
+    "preselected_read_only_scenario_complete": true,
+    "skill_transfer_delta": 1,
+    "cumulative_skill_scenarios": [
+      2,
+      8
+    ],
+    "native_candidate": false,
+    "aesthetic_adoption": false,
+    "accuracy_or_zero_false_negative_claim": false
+  },
+  "limits": [
+    "Not first exposure, independent or blind",
+    "Only selected geometric/time mappings, not full pitch or tie collation",
+    "No source/native edits, new render, MIDI, printing or audition",
+    "No minimum-clearance proof or source-software defect",
+    "No full A1328-page deep reading or all-corpus closeout",
+    "No font extraction or new software adaptation"
+  ],
+  "counting": {
+    "deep_scores_delta": 0,
+    "deep_pages_delta": 0,
+    "all_score_closeouts_delta": 0,
+    "book_pages_delta": 0,
+    "resources_complete_delta": 0,
+    "historical_146_1135_379_unchanged": true,
+    "new_skill_scenario_delta": 1
+  },
+  "cache": {
+    "directory": "tmp\\engraving\\spacing-transfer-t02-2026-10-23",
+    "bytes_before_evidence": 762045,
+    "new_context_crops": 4,
+    "new_full_page_renders": 0,
+    "new_PDF_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "source_images_committed": false
+  },
+  "document": "SKILL_TRANSFER_SPACING.md",
+  "document_sha256": "990e4ad8e7372086fd0f6bcbcd6c9a06594f03c6e416c15eac3dcb8d2d403fcd",
+  "validation": {
+    "source_and_all_view_hashes_match": true,
+    "initial_and_preselection_hashes_match": true,
+    "five_run_geometry_arithmetic_and_28_common_columns_checked": true,
+    "pre_batch_commit": "60db724bb9bc89c44b41a39c6853d8093dd7f4a1",
+    "counter_scope": "Only T02 adds one scenario; no new deep score, book page, resource closure or native candidate.",
+    "not_an_accuracy_or_independent_aesthetic_evaluation": true
+  }
+}

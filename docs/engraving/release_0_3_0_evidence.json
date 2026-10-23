@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-23",
+  "version": "0.3.0",
+  "tag": "engraving-v0.3.0",
+  "progress_snapshot": {
+    "as_of": "2026-10-23",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      16,
+      24
+    ],
+    "deep_pages": [
+      105,
+      164
+    ],
+    "all_score_closeout": [
+      8,
+      146
+    ],
+    "gould_pages_conservative": [
+      311,
+      696
+    ],
+    "gould_substantive_pages": 307,
+    "gould_title_or_contents_pages": 4,
+    "public_resource_scopes": [
+      9,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      2,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ],
+    "user_milestones": [
+      2,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.3.0"
+  },
+  "changes_since_0_2_0": {
+    "whole_score_studies": [
+      "A008",
+      "A009",
+      "A056",
+      "A083"
+    ],
+    "deep_scores_delta": 4,
+    "deep_pages_delta": 31,
+    "new_Gould_substantive_pages": 19,
+    "new_preselected_skill_scenarios": [
+      "T02"
+    ],
+    "new_native_candidates": 0,
+    "software_adaptation": false
+  },
+  "batch_evidence": [
+    {
+      "path": "whole_context_batch_2026_10_23_evidence.json",
+      "sha256": "512ba1bf016fa1f51e459358ca62219699db9ce374fa96bef22189aba9c6a7d3"
+    },
+    {
+      "path": "time_space_repetition_evidence.json",
+      "sha256": "705e120ba4a824fdeb3fd929391560e1e3691b5922393cfcea4199d995c60340"
+    },
+    {
+      "path": "skill_transfer_spacing_evidence.json",
+      "sha256": "5745154a472b394eb56b5c1093cf7ae9bb2b05b659d25877f0c243e589bf168d"
+    }
+  ],
+  "current_score_source_hashes_verified": [
+    {
+      "id": "A008",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\A Link to the Past Medley.pdf",
+      "sha256": "799a9feb8ef881714ca3dec870f1a36711e922a8127421502414e6ea1c19f298",
+      "pages": 9,
+      "root_hash_verified_unchanged": true
+    },
+    {
+      "id": "A009",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Adabana Necromancy - Zombie Land Saga - Opening Theme.pdf",
+      "sha256": "8c90eb81d2b5e71011ddaa11ccd7c4542b20ff688650c4abbd7f417cd48a360f",
+      "pages": 7,
+      "root_hash_verified_unchanged": true
+    },
+    {
+      "id": "A056",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Here - Mahoutsukai no Yome - Opening Theme.pdf",
+      "sha256": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+      "pages": 9,
+      "root_hash_verified_unchanged": true
+    },
+    {
+      "id": "A083",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Last Stardust - Fate stay night：Unlimited Blade Works - Insert Song.pdf",
+      "sha256": "5769f7eff1b179ed44dc9b3fc12285a4d9a8dcf4387d1c8d5bf173be1723786b",
+      "pages": 6,
+      "root_hash_verified_unchanged": true
+    },
+    {
+      "id": "A132",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\This Game (2021 ver.) - No Game No Life  - Opening Theme.pdf",
+      "sha256": "7caf9092796796aba242597ab91fbabf4d59c0f7c7ad3220e8a552b57a619881"
+    }
+  ],
+  "book_current_hash_verified": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+  "native_assets": {
+    "unchanged_from_0_2_0": [
+      {
+        "path": "docs\\engraving\\fixtures\\five-four-spacing-default.mscx",
+        "sha256": "37e2779ba90cb9be885bc8f5cec821e1ac195f660dec88787fb5f340beb56516"
+      },
+      {
+        "path": "docs\\engraving\\fixtures\\five-four-spacing-pulse-candidate.mscx",
+        "sha256": "7d9e8f59db5a9126ed7e72905914969a25b8b9c749bf2ef32a33e3ae4434581f"
+      },
+      {
+        "path": "docs\\engraving\\fixtures\\five-four-spacing-comparison.png",
+        "sha256": "e6af54e808fc97451a10a1fc0fe420187176dca8c0e20357d0596d976836378d"
+      }
+    ],
+    "old_validation": "release_0_2_0_evidence.json",
+    "fresh_native_render_this_release": false,
+    "meaning": "Inputs and published comparison unchanged; original per-case validation retains its limits, not a fresh whole-library regression."
+  },
+  "usability": {
+    "actual_topic_locator_calls": 20,
+    "skill_version": "0.3.0",
+    "user_level_install_lookup": [
+      {
+        "path": "C:\\Users\\Fred\\.agents\\skills\\piano-engraving",
+        "exists": false
+      },
+      {
+        "path": "C:\\Users\\Fred\\.codex\\skills\\piano-engraving",
+        "exists": false
+      }
+    ],
+    "direct_SKILL_path_usable_with_this_checkout": true
+  },
+  "limits": [
+    "T02 root-only preselected application, not independent or blind",
+    "No accuracy, zero-miss, print, audition or user aesthetic adoption claim",
+    "No full A132 deep reading, all-corpus closeout or user combined-score round",
+    "Gould and external resources remain incomplete",
+    "No MuseScore/MCP/plugin/font adaptation"
+  ],
+  "temporary_parallel_authorization": "Expired2026-10-23 at17:00Asia/Shanghai; current work root-only.",
+  "source_protection": "Read-only originals; no reference pages, embedded fonts or whole runtimes added to Git.",
+  "validation": {
+    "owned_files": 15,
+    "local_links": 482,
+    "anchors": 26,
+    "all_20_topic_routes_reached_files": true,
+    "immutable_0_2_0_certificate_and_native_assets_unchanged": true,
+    "scope": "Metadata, references, provenance, counters and current publication assets; judgment evidence remains the actual score/normative review."
+  }
+}
