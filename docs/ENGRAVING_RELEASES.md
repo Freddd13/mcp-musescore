@@ -1,5 +1,7 @@
 # 净书知识库与skill发布记录
 
+2026-10-24工作分支接入[Bloody Stream五页](engraving/INTEGRATED_READING_BLOODY_STREAM.md)，深化22/24、145/164，回查14/146；Gould331/696，资料10/25、迁移2/8保持。跨表干列与五连拍预算的实测可由spacing／ornaments调用；skill同步简化判断汇报要求。原件只读，无新原生候选或适配；0.3.0历史快照保持。
+
 2026-10-24工作分支接入[Sadness and Sorrow八页整曲](engraving/INTEGRATED_READING_SADNESS.md)及cue的九页新规范：深化21/24、140/164，回查13/146，Gould324/696；资料10/25、迁移2/8保持。notation入口可直接调用本例，提示／替代专题补角色与计数条件。无新原生候选或适配；0.3.0历史标签／元数据／证据不改写。
 
 2026-10-24工作分支接入[Secret Base六页及分谱边界](engraving/INTEGRATED_READING_SECRET_BASE.md)，深化20/24首、132/164页，回查12/146；Gould新读四页，315/696，资料10/25与迁移2/8保持。rhythm入口现可调用本例。无新原生候选或适配；0.3.0标签、元数据及历史发布证据保持，不另建缓存包。
