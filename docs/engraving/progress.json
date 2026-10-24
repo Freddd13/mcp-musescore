@@ -28,7 +28,9 @@
       "A106",
       "A021",
       "A113",
-      "A146"
+      "A146",
+      "A001",
+      "A004"
     ],
     "closeout_records": {
       "A098": {
@@ -110,6 +112,16 @@
         "note": "INTEGRATED_READING_ZEN_ZEN_ZENSE.md",
         "evidence": "zenzenzense_whole_reading_evidence.json",
         "unresolved": "K8va/slur crossing is priority native candidate; final8vb tail lower-priority style candidate. No full pitch/every-tuplet/ottava playback audit,exact hand/pedal or certified physical turn."
+      },
+      "A001": {
+        "note": "INTEGRATED_READING_GRACE_PRICE.md",
+        "evidence": "grace_price_closeout_evidence.json",
+        "unresolved": "Preserve differentiated rests,hand/role cues,tempo stages and note-target/duration boundaries. No full pitch/ratio/hand/pedal/playback audit,native alternative or actual turn/print proof."
+      },
+      "A004": {
+        "note": "INTEGRATED_READING_GRACE_PRICE.md",
+        "evidence": "grace_price_closeout_evidence.json",
+        "unresolved": "Preserve differentiated rests,hand/role cues,tempo stages and note-target/duration boundaries. No full pitch/ratio/hand/pedal/playback audit,native alternative or actual turn/print proof."
       }
     }
   },
@@ -401,7 +413,7 @@
       ],
       [
         591,
-        598
+        606
       ],
       [
         609,
@@ -417,7 +429,9 @@
       519,
       520,
       609,
-      610
+      610,
+      627,
+      628
     ],
     "ledger_reconciliations": [
       {
@@ -579,6 +593,32 @@
           190
         ],
         "new_ancillary_pages": 0
+      },
+      {
+        "date": "2026-10-24",
+        "evidence": "grace_price_closeout_evidence.json",
+        "new_substantive_printed_range": [
+          599,
+          606
+        ],
+        "new_unique_pages": 10,
+        "reread_printed_pages": [
+          305,
+          306,
+          307,
+          309,
+          311,
+          312,
+          30,
+          325,
+          184,
+          190
+        ],
+        "new_ancillary_pages": 2,
+        "new_ancillary_pdf_pages": [
+          627,
+          628
+        ]
       }
     ]
   },
@@ -820,24 +860,24 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged."
+    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged. SubsequentA001/A004whole question closeouts5pages make18/146; Gould8new technical+2ancillary makes357/696=349+8. Fixed24/24and164/164,resources10/25,transfer2/8unchanged.0.4.0release snapshot/tag/certificate remain immutable."
   },
   "last_study_batch": {
     "date": "2026-10-24",
-    "scope": "Single-agent A14610pages,16details,2high-resolution regions,11old Gould and8new technical pages",
-    "new_deep_scores": 1,
-    "new_deep_pages": 10,
-    "new_all_score_closeouts": 1,
-    "new_complete_resource_scopes": 0,
-    "new_unique_ledger_book_pages": 8,
+    "scope": "Root-only A001/A004whole question closeouts:5complete pages,11high-resolution systems,10old Gould,8new technical+2ancillary pages",
+    "new_deep_scores": 0,
+    "new_deep_pages": 0,
+    "new_all_score_closeouts": 2,
+    "new_all_score_closeout_pages": 5,
+    "new_unique_ledger_book_pages": 10,
     "new_substantive_book_pages": 8,
-    "new_ancillary_book_pages": 0,
-    "book_full_image_evidence_repairs": 0,
+    "new_ancillary_book_pages": 2,
+    "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "INTEGRATED_READING_ZEN_ZEN_ZENSE.md"
+      "INTEGRATED_READING_GRACE_PRICE.md"
     ],
-    "review_evidence": "zenzenzense_whole_reading_evidence.json"
+    "review_evidence": "grace_price_closeout_evidence.json"
   }
 }
