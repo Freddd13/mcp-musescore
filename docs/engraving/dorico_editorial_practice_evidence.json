@@ -235,5 +235,18 @@
     "local_links_valid": true,
     "ideal_ratio_arithmetic_checked": true,
     "not_a_native_or_user_readability_validation": true
+  },
+  "followup_2026_10_24": {
+    "article_body_reread_via_web": true,
+    "article_image_urls_exposed": false,
+    "article_images_viewed": 0,
+    "article_image_denominator": null,
+    "ordinary_curl_result": "connection timeout; returncode28; malformed first shell call excluded as network evidence",
+    "ordinary_urllib_result": "URLError timed out; no HTML cached",
+    "browser_inventory_result": "getState timed out and kernel reset; no inventory returned; no tab created",
+    "private_curl_record": "tmp/engraving/dorico-figures-2026-10-24/fetch.json",
+    "private_urllib_record": "tmp/engraving/lilypond-snippets-2026-10-24/supplement.json",
+    "resource_status_unchanged": "partial",
+    "other_private_conversations_accessed": false
   }
 }

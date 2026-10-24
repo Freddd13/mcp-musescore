@@ -1,0 +1,403 @@
+{
+  "date": "2026-10-24",
+  "base_commit": "7023661a1db2afaf835d48711e0f8b4833ea9465",
+  "resource_id": "R24",
+  "resource_state": "complete",
+  "completion_scope": "Nine fixed directed cases: five keyboard and four simultaneous-note examples, all corresponding images and complete generated .ly files read. Not whole LSR or complete chapters.",
+  "selected_scope": {
+    "fixed_at": "2026-10-24T15:04:30.310419+00:00",
+    "selected": {
+      "keyboards": [
+        "Creating slurs across voices",
+        "Cross-staff chords - beaming problems workaround",
+        "Cross-staff tremolos",
+        "Fine-tuning pedal brackets",
+        "Indicating cross-staff chords with arpeggio bracket"
+      ],
+      "simultaneous-notes": [
+        "Forcing horizontal shift of notes",
+        "Making an object invisible with the &rsquo;transparent property",
+        "Moving dotted notes in polyphony",
+        "Suppressing warnings for clashing note columns"
+      ]
+    },
+    "count": 9,
+    "reason": "five historical keyboard cases and four simultaneous-note cases; horizontal-shift and dotted-note cases kept separate"
+  },
+  "documentation_version": "2.24.4 as displayed by these pages",
+  "snippet_source_declared_versions": [
+    "2.23.13"
+  ],
+  "license": "The snippets index and all nine .ly headers explicitly state public domain. No blanket license claim for downloaded C++/other manuals.",
+  "license_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/index.html",
+  "source_pages": [
+    {
+      "url": "https://lilypond.org/doc/v2.24/Documentation/snippets/keyboards",
+      "name": "keyboards",
+      "bytes": 314189,
+      "sha256": "7d2956eebf38156a4cbfa1cde025754e8f17125a21fcad2e2ebb7650d79bf03e"
+    },
+    {
+      "url": "https://lilypond.org/doc/v2.24/Documentation/snippets/simultaneous-notes",
+      "name": "simultaneous-notes",
+      "bytes": 194222,
+      "sha256": "a83bc090b767208e8e685419ac3720ffd7ee0482ce7e30c5337e7cdf418eafb0"
+    }
+  ],
+  "items": [
+    {
+      "id": "LS01",
+      "title": "Creating slurs across voices",
+      "chapter_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/keyboards",
+      "text_cache": "tmp/engraving/lilypond-snippets-2026-10-24/01-section.txt",
+      "image_url": "https://lilypond.org/doc/v2.24/Documentation/96/lily-b71fc3ff.png",
+      "source_url": "https://lilypond.org/doc/v2.24/Documentation/96/lily-b71fc3ff.ly",
+      "slug": "lily-b71fc3ff",
+      "image_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS01.png",
+      "image_sha256": "30b9bc756c6bf1b274151591f1f18e48a1852482cd8abb8ea99fb8508c2951dd",
+      "image_bytes": 9320,
+      "source_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS01.ly",
+      "source_sha256": "bed3fcac0b18e548b977a4cd6b7b4ad4eb0e9accb6ee32416ee3ee605b56f667",
+      "source_bytes": 3938,
+      "pixels": [
+        306,
+        73
+      ],
+      "viewed": true,
+      "source_read": true,
+      "view_method": "view_image original; LS03-LS09 additionally inspected at 3x nearest-neighbor"
+    },
+    {
+      "id": "LS02",
+      "title": "Cross-staff chords - beaming problems workaround",
+      "chapter_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/keyboards",
+      "text_cache": "tmp/engraving/lilypond-snippets-2026-10-24/02-section.txt",
+      "image_url": "https://lilypond.org/doc/v2.24/Documentation/49/lily-d9a038c1.png",
+      "source_url": "https://lilypond.org/doc/v2.24/Documentation/49/lily-d9a038c1.ly",
+      "slug": "lily-d9a038c1",
+      "image_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS02.png",
+      "image_sha256": "4ba18a1fc999ab5015cab3fd3608fe6b85a3d67237bc7f5e70c3cd05f8b6e931",
+      "image_bytes": 7532,
+      "source_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS02.ly",
+      "source_sha256": "ae96b002429a6ec8d8cbcb51682b856e1655573760d28dcfbadea60cae27618c",
+      "source_bytes": 3963,
+      "pixels": [
+        216,
+        106
+      ],
+      "viewed": true,
+      "source_read": true,
+      "view_method": "view_image original; LS03-LS09 additionally inspected at 3x nearest-neighbor"
+    },
+    {
+      "id": "LS03",
+      "title": "Cross-staff tremolos",
+      "chapter_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/keyboards",
+      "text_cache": "tmp/engraving/lilypond-snippets-2026-10-24/03-section.txt",
+      "image_url": "https://lilypond.org/doc/v2.24/Documentation/08/lily-7631fc1e.png",
+      "source_url": "https://lilypond.org/doc/v2.24/Documentation/08/lily-7631fc1e.ly",
+      "slug": "lily-7631fc1e",
+      "image_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS03.png",
+      "image_sha256": "fe5c93c64a345463876e70a4e3ca3da9015233e54a8e70248f5f4d3c4663cc50",
+      "image_bytes": 9008,
+      "source_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS03.ly",
+      "source_sha256": "9ad5bc9a7bb28a6e28dfc74c917560a379c9ebe7a0f2ce695840e7ece88e6a11",
+      "source_bytes": 4031,
+      "pixels": [
+        144,
+        130
+      ],
+      "viewed": true,
+      "source_read": true,
+      "view_method": "view_image original; LS03-LS09 additionally inspected at 3x nearest-neighbor"
+    },
+    {
+      "id": "LS04",
+      "title": "Fine-tuning pedal brackets",
+      "chapter_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/keyboards",
+      "text_cache": "tmp/engraving/lilypond-snippets-2026-10-24/04-section.txt",
+      "image_url": "https://lilypond.org/doc/v2.24/Documentation/af/lily-99c0703c.png",
+      "source_url": "https://lilypond.org/doc/v2.24/Documentation/af/lily-99c0703c.ly",
+      "slug": "lily-99c0703c",
+      "image_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS04.png",
+      "image_sha256": "56207b4ac9bf2202b15fbaebd6fb62cc3883ab53b8b9acce63880f5eb7857acd",
+      "image_bytes": 9993,
+      "source_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS04.ly",
+      "source_sha256": "9a72397eb31ef7b0a0c0da10fe2adbbb26dfa9ed1e1b7a5e721591183d807391",
+      "source_bytes": 2717,
+      "pixels": [
+        634,
+        80
+      ],
+      "viewed": true,
+      "source_read": true,
+      "view_method": "view_image original; LS03-LS09 additionally inspected at 3x nearest-neighbor"
+    },
+    {
+      "id": "LS05",
+      "title": "Indicating cross-staff chords with arpeggio bracket",
+      "chapter_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/keyboards",
+      "text_cache": "tmp/engraving/lilypond-snippets-2026-10-24/05-section.txt",
+      "image_url": "https://lilypond.org/doc/v2.24/Documentation/96/lily-04b4b8a6.png",
+      "source_url": "https://lilypond.org/doc/v2.24/Documentation/96/lily-04b4b8a6.ly",
+      "slug": "lily-04b4b8a6",
+      "image_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS05.png",
+      "image_sha256": "9712729ae823f51c39c8bd0fd6fb47f97c01148af175ba8356f5d97fc0f41684",
+      "image_bytes": 13913,
+      "source_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS05.ly",
+      "source_sha256": "9e2ac244f65edc05d44cc738575f2229439116adbbec0a6941afe7556bbf69d4",
+      "source_bytes": 5668,
+      "pixels": [
+        242,
+        165
+      ],
+      "viewed": true,
+      "source_read": true,
+      "view_method": "view_image original; LS03-LS09 additionally inspected at 3x nearest-neighbor"
+    },
+    {
+      "id": "LS06",
+      "title": "Forcing horizontal shift of notes",
+      "chapter_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/simultaneous-notes",
+      "text_cache": "tmp/engraving/lilypond-snippets-2026-10-24/06-section.txt",
+      "image_url": "https://lilypond.org/doc/v2.24/Documentation/db/lily-32ded791.png",
+      "source_url": "https://lilypond.org/doc/v2.24/Documentation/db/lily-32ded791.ly",
+      "slug": "lily-32ded791",
+      "image_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS06.png",
+      "image_sha256": "d1bc4e679ae7962a3a4ca6a1121f36d497c7aa0f8d9463235d45c91365e0ad83",
+      "image_bytes": 5510,
+      "source_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS06.ly",
+      "source_sha256": "4620d091b36c847c3736f5fed4bf08af92da7bc4d6b065730d00d5122bfb66a8",
+      "source_bytes": 3856,
+      "pixels": [
+        151,
+        70
+      ],
+      "viewed": true,
+      "source_read": true,
+      "view_method": "view_image original; LS03-LS09 additionally inspected at 3x nearest-neighbor"
+    },
+    {
+      "id": "LS07",
+      "title": "Making an object invisible with the ’transparent property",
+      "chapter_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/simultaneous-notes",
+      "text_cache": "tmp/engraving/lilypond-snippets-2026-10-24/07-section.txt",
+      "image_url": "https://lilypond.org/doc/v2.24/Documentation/55/lily-8152ed4f.png",
+      "source_url": "https://lilypond.org/doc/v2.24/Documentation/55/lily-8152ed4f.ly",
+      "slug": "lily-8152ed4f",
+      "image_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS07.png",
+      "image_sha256": "d8934eea8c4da2a40ead5a61159a28f903acd5b8e614576cebb331d4c6af2e0a",
+      "image_bytes": 5939,
+      "source_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS07.ly",
+      "source_sha256": "f729598bd6e54032288f285adf5cc16faf0a8ccaf8d53903c7f65bec10e2a020",
+      "source_bytes": 5817,
+      "pixels": [
+        143,
+        64
+      ],
+      "viewed": true,
+      "source_read": true,
+      "view_method": "view_image original; LS03-LS09 additionally inspected at 3x nearest-neighbor"
+    },
+    {
+      "id": "LS08",
+      "title": "Moving dotted notes in polyphony",
+      "chapter_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/simultaneous-notes",
+      "text_cache": "tmp/engraving/lilypond-snippets-2026-10-24/08-section.txt",
+      "image_url": "https://lilypond.org/doc/v2.24/Documentation/f9/lily-3464d6ed.png",
+      "source_url": "https://lilypond.org/doc/v2.24/Documentation/f9/lily-3464d6ed.ly",
+      "slug": "lily-3464d6ed",
+      "image_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS08.png",
+      "image_sha256": "7c09f471afd4edf09b84613896d7e6e735283b4504d70ebeea3113d0c497d7ef",
+      "image_bytes": 6015,
+      "source_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS08.ly",
+      "source_sha256": "d014a65ccf40d3ace0a40d8d0bacb213fbd51609cd763297b118d188afe33b3a",
+      "source_bytes": 4181,
+      "pixels": [
+        383,
+        61
+      ],
+      "viewed": true,
+      "source_read": true,
+      "view_method": "view_image original; LS03-LS09 additionally inspected at 3x nearest-neighbor"
+    },
+    {
+      "id": "LS09",
+      "title": "Suppressing warnings for clashing note columns",
+      "chapter_url": "https://lilypond.org/doc/v2.24/Documentation/snippets/simultaneous-notes",
+      "text_cache": "tmp/engraving/lilypond-snippets-2026-10-24/09-section.txt",
+      "image_url": "https://lilypond.org/doc/v2.24/Documentation/46/lily-0f83d345.png",
+      "source_url": "https://lilypond.org/doc/v2.24/Documentation/46/lily-0f83d345.ly",
+      "slug": "lily-0f83d345",
+      "image_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS09.png",
+      "image_sha256": "fc3994c86b380c7493eaec8107904a688e62755ebf185677c5c0c9775537cf2d",
+      "image_bytes": 5200,
+      "source_cache": "tmp/engraving/lilypond-snippets-2026-10-24/LS09.ly",
+      "source_sha256": "360eb8557ae3e61599829cf5879b98a8e8ffae39d952bd9237548ba4a4d67831",
+      "source_bytes": 5676,
+      "pixels": [
+        134,
+        67
+      ],
+      "viewed": true,
+      "source_read": true,
+      "view_method": "view_image original; LS03-LS09 additionally inspected at 3x nearest-neighbor"
+    }
+  ],
+  "auxiliary_source_checks": [
+    {
+      "name": "note-column-interface.html",
+      "url": "https://lilypond.org/doc/v2.24/Documentation/internals/note_002dcolumn_002dinterface",
+      "sha256": "1bc3bb3f1b5b2ea318002c4df346b145af3043d8edace665fb63022ac046713d",
+      "read_scope": "complete relevant interface properties, excluding global navigation",
+      "private_cache": "tmp/engraving/lilypond-snippets-2026-10-24/note-column-interface.html"
+    },
+    {
+      "name": "pedal-interface.html",
+      "url": "https://lilypond.org/doc/v2.24/Documentation/internals/piano_002dpedal_002dbracket_002dinterface",
+      "sha256": "f4b4e8badafa384ae2671c1a135cc44159b249f96dd9747c87f42f16eeb65c20",
+      "read_scope": "complete relevant interface properties, excluding global navigation",
+      "private_cache": "tmp/engraving/lilypond-snippets-2026-10-24/pedal-interface.html"
+    },
+    {
+      "name": "index.html",
+      "url": "https://lilypond.org/doc/v2.24/Documentation/snippets/index.html",
+      "sha256": "1260067947d6ba308c61ad76efe53aa55e590df35a589853d7975d007b9f905d",
+      "read_scope": "introductory version/license/conversion text",
+      "private_cache": "tmp/engraving/lilypond-snippets-2026-10-24/index.html"
+    },
+    {
+      "name": "note-collision.cc",
+      "url": "https://gitlab.com/lilypond/lilypond/-/raw/v2.24.4/lily/note-collision.cc",
+      "sha256": "ffedc95058984f42ffa7fd3c60a99ec2bf200f31d0585d560ab80aa58c60773c",
+      "read_scope": "calc_positioning_done lines 365-450 and forced_shift lines 580-595; other matched width comments 274-326; not complete C++ file",
+      "private_cache": "tmp/engraving/lilypond-snippets-2026-10-24/note-collision.cc"
+    }
+  ],
+  "new_judgments": [
+    "Hidden notes as slur anchors and hidden stems with visible tie endpoints are different constructions; neither warrants deleting events.",
+    "Cross-staff common stems, alternate tremolo objects and same-hand chord brackets convey different relationships; inspect members rather than software object names.",
+    "Pedal endpoint graphics may extend beyond unchanged On/Off events and confuse reading; MIDI equality alone would not accept them.",
+    "force-hshift snippet staff-space unit statement conflicts with same-version internals; official tagged C++ multiplies the forced value by selected notehead width.",
+    "Ordinary high/low dotted seconds and crossed voices require different side choices; a single prefer-dotted-right global policy is insufficient."
+  ],
+  "manual_checks": {
+    "selected_cases": 9,
+    "keyboard_cases": 5,
+    "simultaneous_cases": 4,
+    "official_images_actually_viewed": 9,
+    "complete_ly_files_actually_read": 9,
+    "additional_zoom_derivatives": 7,
+    "source_cc_complete_file_read": false,
+    "source_cc_targeted_lines_read": true
+  },
+  "study_boundaries": {
+    "compiled_lilypond": false,
+    "native_musescore_runs": 0,
+    "new_book_pages": 0,
+    "new_whole_score_closeouts": 0,
+    "new_skill_transfer_scenarios": 0,
+    "original_pdf_mscz_book_opened_or_written": false,
+    "font_work": false,
+    "mcp_plugin_core_adaptation": false,
+    "runtime_playback_verified": false,
+    "aesthetic_user_choice": false,
+    "deleted_files": 0
+  },
+  "public_note": "LILYPOND_KEYBOARD_CASES.md",
+  "cache": {
+    "checked_at_utc": "2026-10-24T15:18:37.748630+00:00",
+    "batch_logical_bytes_before_validation_output": 1123039,
+    "all_engraving_logical_bytes_before_validation_output": 2427224843,
+    "figures_and_sources_bytes": 112277,
+    "raw_copyright_material_in_git": false,
+    "original_pdf_or_runtime_copies": 0,
+    "deleted_files": 0
+  },
+  "validation": {
+    "checked_at_utc": "2026-10-24T15:18:37.925410+00:00",
+    "progress": {
+      "as_of": "2026-10-24",
+      "scope_revision": 1,
+      "goal_status": "active",
+      "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+      "first_pass_scores": [
+        146,
+        146
+      ],
+      "first_pass_pages": [
+        1135,
+        1135
+      ],
+      "historical_detail_pages": 379,
+      "deep_scores": [
+        24,
+        24
+      ],
+      "deep_pages": [
+        164,
+        164
+      ],
+      "all_score_closeout": [
+        20,
+        146
+      ],
+      "gould_pages_conservative": [
+        372,
+        696
+      ],
+      "gould_substantive_pages": 359,
+      "gould_non_substantive_pages": 13,
+      "gould_title_or_contents_pages": 13,
+      "public_resource_scopes": [
+        11,
+        25
+      ],
+      "skill_transfer_scenarios": [
+        5,
+        8
+      ],
+      "user_integrated_rounds": [
+        0,
+        1
+      ],
+      "user_milestones": [
+        2,
+        4
+      ],
+      "skill_topics": [
+        20,
+        20
+      ],
+      "release": "engraving-v0.4.0"
+    },
+    "images_hash_checked": 9,
+    "complete_sources_hash_checked": 9,
+    "all20_locator_topics_executed": true,
+    "new_note_resolves_in_topics": [
+      "spacing",
+      "curves",
+      "piano",
+      "cross-staff",
+      "sources"
+    ],
+    "skill_format": "Skill is valid!",
+    "local_links": 329,
+    "local_anchors": 7,
+    "explicit_paths_match": 15,
+    "historical_certificates_unchanged": {
+      "release_0_2_0_evidence.json": "eae472601c90c90763f6b175f8af65ba02cea1514384cd96126764e97061ba81",
+      "release_0_3_0_evidence.json": "4340bb9f354bb7fd3f65f08dee3baeefda1e0a5eb3cf42f263aa92146470fdfd",
+      "release_0_4_0_evidence.json": "b28867de7b3bfb4d62342acfad20fdd2c321e76a402986b81ec31500f1d90927"
+    },
+    "historical_tags_unchanged": {
+      "engraving-v0.1.0": "f72bb2b313d27c392d7c5a203b593f7f6ea8a24b",
+      "engraving-v0.2.0": "15fb76d0574bcbfb0002c547f66ad4a49671390b",
+      "engraving-v0.3.0": "df675cd8385d10670e7558b986eb93c9ff752ad8",
+      "engraving-v0.4.0": "a4fa5cfe7a911d53e7f1b68a2aeccdadcce7015d"
+    },
+    "one_resource_status_increment_only": true,
+    "native_runs": 0,
+    "no_source_pdfs_opened": true
+  }
+}

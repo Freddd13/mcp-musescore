@@ -869,7 +869,11 @@
       {
         "id": "R24",
         "scope": "LilyPond snippets：定向键盘／多声部源码及对应图",
-        "status": "partial"
+        "status": "complete",
+        "note": "LILYPOND_KEYBOARD_CASES.md",
+        "evidence": "lilypond_keyboard_cases_evidence.json",
+        "closed_scope": "Five keyboard and four simultaneous-note directed cases:9images,9complete generated .ly files;not all LSR or complete chapters;not compiled.",
+        "remaining_limit": "Native/round-trip experiments and other snippets remain outside this directed reading scope."
       },
       {
         "id": "R25",
@@ -981,25 +985,23 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged. SubsequentA001/A004whole question closeouts5pages make18/146; Gould8new technical+2ancillary makes357/696=349+8. Fixed24/24and164/164,resources10/25,transfer2/8unchanged.0.4.0release snapshot/tag/certificate remain immutable. SubsequentT03root-only rhythm scenario evaluated with material initial count/beam correction; transfer3/8. Gould3new ancillary leaves make360/696=349technical+11ancillary; no new technical coverage,deep/corpus closeout,resource or native increment.0.4.0snapshot unchanged. SubsequentT04clef/ottava application plusA012whole closeout6pages:transfer4/8,all-corpus19/146. Gould6new technical pages641-646make366/696=355+11. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no new native/adaptation. SubsequentT05andA014whole6page closeout:transfer5/8,corpus20/146. Gould372/696=359substantive+13ancillary;new3technical+1terms table+2ancillary. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no native/adaptation."
+    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged. SubsequentA001/A004whole question closeouts5pages make18/146; Gould8new technical+2ancillary makes357/696=349+8. Fixed24/24and164/164,resources10/25,transfer2/8unchanged.0.4.0release snapshot/tag/certificate remain immutable. SubsequentT03root-only rhythm scenario evaluated with material initial count/beam correction; transfer3/8. Gould3new ancillary leaves make360/696=349technical+11ancillary; no new technical coverage,deep/corpus closeout,resource or native increment.0.4.0snapshot unchanged. SubsequentT04clef/ottava application plusA012whole closeout6pages:transfer4/8,all-corpus19/146. Gould6new technical pages641-646make366/696=355+11. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no new native/adaptation. SubsequentT05andA014whole6page closeout:transfer5/8,corpus20/146. Gould372/696=359substantive+13ancillary;new3technical+1terms table+2ancillary. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no native/adaptation. Subsequent R24 fixed directed nine snippets (5keyboard+4simultaneous),9figures and9complete generated sources read;resources11/25. Official tagged source checked for force-hshift width units. Corpus20/146,Gould372/696,transfer5/8,fixed24/24 and historical0.4.0 snapshot unchanged;no native/adaptation."
   },
   "last_study_batch": {
     "date": "2026-10-24",
-    "scope": "T05p3preselected then A014six-page closeout;15system details,12old book,3new technical,1new terms table and2ancillary pages",
+    "scope": "R24 nine directed source/image pairs and targeted unit check; bounded R22 image access retry still partial",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
-    "new_all_score_closeouts": 1,
-    "new_all_score_closeout_pages": 6,
-    "new_unique_ledger_book_pages": 6,
-    "new_substantive_book_pages": 4,
-    "new_reference_table_pages": 1,
-    "new_ancillary_book_pages": 2,
-    "new_complete_resource_scopes": 0,
-    "new_skill_transfer_scenarios": 1,
+    "new_all_score_closeouts": 0,
+    "new_unique_ledger_book_pages": 0,
+    "new_substantive_book_pages": 0,
+    "new_ancillary_book_pages": 0,
+    "new_complete_resource_scopes": 1,
+    "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "SKILL_TRANSFER_MARKINGS.md"
+      "LILYPOND_KEYBOARD_CASES.md"
     ],
-    "review_evidence": "skill_transfer_markings_evidence.json"
+    "review_evidence": "lilypond_keyboard_cases_evidence.json"
   }
 }
