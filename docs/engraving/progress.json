@@ -24,7 +24,8 @@
       "A047",
       "A085",
       "A089",
-      "A109"
+      "A109",
+      "A106"
     ],
     "closeout_records": {
       "A098": {
@@ -86,6 +87,11 @@
         "note": "INTEGRATED_READING_SECRET_BASE.md",
         "evidence": "secret_base_whole_reading_evidence.json",
         "unresolved": "No full pitch/every omitted-tuplet or ottava playback collation, exact hand/pedal timing, native alternative, print or certified self-turn. F empty-staff rest assessment remains conditional; known fixture not rerun."
+      },
+      "A106": {
+        "note": "INTEGRATED_READING_SADNESS.md",
+        "evidence": "sadness_whole_reading_evidence.json",
+        "unresolved": "No full pitch/every short-value tremolo/tuplet collation, complete ottava playback, exact Q repetition-to-hold expression, hand/pedal, spacing budget, native alternative or certified self-turn."
       }
     }
   },
@@ -289,9 +295,11 @@
         "id": "A106",
         "title": "Sadness and Sorrow - Fantasy on a theme from the soundtrack of Naruto.pdf",
         "pages": 8,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "Sadness and Sorrow；震音省写与慢背景",
-        "prior_partial_or_topical_note": "NOTATION_DETAILS.md"
+        "prior_partial_or_topical_note": "NOTATION_DETAILS.md",
+        "note": "INTEGRATED_READING_SADNESS.md",
+        "evidence": "sadness_whole_reading_evidence.json"
       },
       {
         "id": "A021",
@@ -365,7 +373,7 @@
       ],
       [
         557,
-        566
+        575
       ],
       [
         609,
@@ -443,6 +451,28 @@
           312,
           325,
           490,
+          560
+        ],
+        "new_ancillary_pages": 0
+      },
+      {
+        "date": "2026-10-24",
+        "evidence": "sadness_whole_reading_evidence.json",
+        "new_substantive_printed_range": [
+          567,
+          575
+        ],
+        "new_unique_pages": 9,
+        "reread_printed_pages": [
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          312,
+          325,
           560
         ],
         "new_ancillary_pages": 0
@@ -687,22 +717,22 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "Snapshot engraving-v0.3.0 stays at16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. Subsequent A047 and A085 whole readings make the working branch18/24,120/164 and10/146 closeouts; no new book coverage, transfer scenario, native candidate or software adaptation. Oct24 R19 essay/targeted-spacing reading scope closes, resources10/25; no new score/book/transfer/native counts. See lily_essay_reading_evidence.json. A089 six-page whole study makes19/24,126/164 and11/146 closeouts. Gould311/696/resources10/25/transfer2/8 unchanged; three entry-summary number typos corrected. A109 whole study adds1score/6pages and4new Gould pages: working20/24,132/164,12/146 closeouts and315/696(311substantive+4ancillary); resources10/25 andtransfer2/8 stay. Snapshot0.3.0 remains immutable."
+    "working_branch_note": "Snapshot engraving-v0.3.0 stays at16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. Subsequent A047 and A085 whole readings make the working branch18/24,120/164 and10/146 closeouts; no new book coverage, transfer scenario, native candidate or software adaptation. Oct24 R19 essay/targeted-spacing reading scope closes, resources10/25; no new score/book/transfer/native counts. See lily_essay_reading_evidence.json. A089 six-page whole study makes19/24,126/164 and11/146 closeouts. Gould311/696/resources10/25/transfer2/8 unchanged; three entry-summary number typos corrected. A109 whole study adds1score/6pages and4new Gould pages: working20/24,132/164,12/146 closeouts and315/696(311substantive+4ancillary); resources10/25 andtransfer2/8 stay. Snapshot0.3.0 remains immutable. A1068page whole study plus9new Gould pages makes21/24,140/164,13/146 closeouts and324/696(320substantive+4ancillary). Resource10/25 andtransfer2/8 unchanged; no native/adaptation increment or release-tag rewrite."
   },
   "last_study_batch": {
     "date": "2026-10-24",
-    "scope": "Single-agent known A109 whole-score reading,13 new context crops,8 old complete Gould pages and4 new complete technical pages",
+    "scope": "Single-agent known A1068page whole reading,19detail crops,10old complete Gould pages and9new technical pages",
     "new_deep_scores": 1,
-    "new_deep_pages": 6,
+    "new_deep_pages": 8,
     "new_all_score_closeouts": 1,
     "new_complete_resource_scopes": 0,
-    "new_unique_ledger_book_pages": 4,
+    "new_unique_ledger_book_pages": 9,
     "book_full_image_evidence_repairs": 0,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "INTEGRATED_READING_SECRET_BASE.md"
+      "INTEGRATED_READING_SADNESS.md"
     ],
-    "review_evidence": "secret_base_whole_reading_evidence.json"
+    "review_evidence": "sadness_whole_reading_evidence.json"
   }
 }
