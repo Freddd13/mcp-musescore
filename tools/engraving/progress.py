@@ -90,7 +90,7 @@ def summary() -> dict:
     ancillary_list = gould.get("read_non_substantive_pdf_pages", [])
     ancillary = set(ancillary_list)
     if len(ancillary) != len(ancillary_list) or ancillary.intersection(book_pages):
-        raise ValueError("Duplicate or substantively counted chapter-title/contents page")
+        raise ValueError("Duplicate or substantively counted ancillary page")
     all_book_pages = book_pages | ancillary
     if min(all_book_pages) < 1 or max(all_book_pages) > gould["planned_pdf_pages"]:
         raise ValueError("Book pages outside the planned source")
@@ -122,7 +122,10 @@ def summary() -> dict:
             "deep_pages": [deep_pages, sum(s["pages"] for s in deep["scores"])],
             "all_score_closeout": [len(checked), planned_scores],
             "gould_pages_conservative": [len(all_book_pages), gould["planned_pdf_pages"]],
-            "gould_substantive_pages": len(book_pages), "gould_title_or_contents_pages": len(ancillary),
+            "gould_substantive_pages": len(book_pages),
+            "gould_non_substantive_pages": len(ancillary),
+            # Historical alias retained for existing coverage consumers; includes blank leaves.
+            "gould_title_or_contents_pages": len(ancillary),
             "public_resource_scopes": [resource_done, resources["planned_items"]],
             "skill_transfer_scenarios": [transfer_done, transfer["planned_scenarios"]],
             "user_integrated_rounds": [user["completed_integrated_rounds"], user["planned_integrated_rounds"]],
