@@ -1,5 +1,15 @@
 # 净书知识库与skill发布记录
 
+## 0.4.0 — 2026-10-24
+
+固定深化批现24/24首、164/164页；全目录问题回查16/146，Gould347/696（341实质＋6标题目录），公开资料规定范围10/25，skill迁移2/8。24首批次结束后继续130份回查、349页教材、15项资料缺口及六类迁移，完整学习目标保持。
+
+相较0.3.0，新增Giorno、Madoka组曲、Michishirube、Secret Base、Sadness and Sorrow、Bloody Stream、Sincerely、Zen Zen Zense八首／59页综合研究，以及LilyPond essay规定范围闭合；Gould增加34实质页和两个标题目录页。知识与skill已可按问题调用：跨表头距与干距的区别、连音的整拍／组内预算、密度对应的行／表距、八度折角和真正穿线分别判断。近期具体例见[Zen Zen Zense](engraving/INTEGRATED_READING_ZEN_ZEN_ZENSE.md)。
+
+Git标签：engraving-v0.4.0。[发布核查](engraving/release_0_4_0_evidence.json)记录累计、24首当前来源哈希、20个实际定位调用及沿用原生资产。新增迁移／原生候选均为0，用户组合轮仍0/1；0.2.0原创例沿用各自原验证，本版未重跑全部原生实验。原件只读，本阶段没有MCP／插件／本体或字体适配。历史标签和证据保留。
+
+直接使用方法见下文；关联安装只需更新项目，知识／skill更新无需重配MCP。私有PDF和教材图不随标签分发。
+
 2026-10-24工作分支接入[Sincerely九页整曲](engraving/INTEGRATED_READING_SINCERELY.md)：深化23/24、154/164，回查15/146；Gould339/696（333实质＋6标题目录），资料10/25、迁移2/8保持。beams与行页专题可调用空间预算和角色判断；无新原生候选或适配，0.3.0历史快照保持。固定24首批次结束后整理下一次知识／skill发布。
 
 2026-10-24工作分支接入[Bloody Stream五页](engraving/INTEGRATED_READING_BLOODY_STREAM.md)，深化22/24、145/164，回查14/146；Gould331/696，资料10/25、迁移2/8保持。跨表干列与五连拍预算的实测可由spacing／ornaments调用；skill同步简化判断汇报要求。原件只读，无新原生候选或适配；0.3.0历史快照保持。

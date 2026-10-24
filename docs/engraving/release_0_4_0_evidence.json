@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-24",
+  "version": "0.4.0",
+  "tag": "engraving-v0.4.0",
+  "progress_snapshot": {
+    "as_of": "2026-10-24",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      16,
+      146
+    ],
+    "gould_pages_conservative": [
+      347,
+      696
+    ],
+    "gould_substantive_pages": 341,
+    "gould_title_or_contents_pages": 6,
+    "public_resource_scopes": [
+      10,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      2,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ],
+    "user_milestones": [
+      2,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.4.0"
+  },
+  "changes_since_0_3_0": {
+    "whole_score_studies": [
+      "A047",
+      "A085",
+      "A089",
+      "A109",
+      "A106",
+      "A021",
+      "A113",
+      "A146"
+    ],
+    "deep_scores_delta": 8,
+    "deep_pages_delta": 59,
+    "all_score_closeouts_delta": 8,
+    "new_Gould_substantive_pages": 34,
+    "new_Gould_ancillary_pages": 2,
+    "new_complete_resource_scopes": [
+      "R19"
+    ],
+    "new_skill_transfer_scenarios": 0,
+    "new_native_candidates": 0,
+    "software_adaptation": false
+  },
+  "batch_evidence": [
+    {
+      "path": "giorno_whole_reading_evidence.json",
+      "sha256": "c9791c6291c169181d79e82140cb5adac74443df03d9095ede00a5766af48a31"
+    },
+    {
+      "path": "madoka_whole_reading_evidence.json",
+      "sha256": "9d6fb47195e6c2aef7b2d382e407bc847dcc1cfec7e74d0a0074968701b57dff"
+    },
+    {
+      "path": "michishirube_whole_reading_evidence.json",
+      "sha256": "7e913a9a473b7edd4cafabf1c631f3d65dcc48c07335df489ddbb20510b22681"
+    },
+    {
+      "path": "secret_base_whole_reading_evidence.json",
+      "sha256": "c7944bfb9b4f694ce348a6750c1b4e06d65142d9f65e6802741362daf548ce2f"
+    },
+    {
+      "path": "sadness_whole_reading_evidence.json",
+      "sha256": "418fdb45bd942d9c3f0926500040771788d0c56411914d822cc1bcb45276c5e5"
+    },
+    {
+      "path": "bloody_stream_whole_reading_evidence.json",
+      "sha256": "1f401edf10e46982b70f72043ac2d56646ebe32f0e43db9022d0c2e60d8f2d14"
+    },
+    {
+      "path": "sincerely_whole_reading_evidence.json",
+      "sha256": "7bdb1f66584a95d228795ce470c5f498f8d54a35d57e5bb7d9f667f5f50fb612"
+    },
+    {
+      "path": "zenzenzense_whole_reading_evidence.json",
+      "sha256": "f9e186297948e45ee48c7e721cf77597c56e452be99f3494e078c4dd192143fd"
+    },
+    {
+      "path": "lily_essay_reading_evidence.json",
+      "sha256": "85b39c998c4ee896bab0ee471f9a83a3092e1cf0023998ec46054aaf7df770f8"
+    }
+  ],
+  "current_score_source_hashes_verified": [
+    {
+      "id": "A003",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf",
+      "sha256": "3983329ffbfa429c00f84d7c68911a325dddf0a9fcc524124ee0d2334e59c3d4",
+      "pages": 6,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A011",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Akuma no Ko - Attack on Titan - The Final Season Part 2 - Ending Theme.pdf",
+      "sha256": "b27c7c0adf8d4ef2ce5cacdce9a0232b196986d86a1e97f4bed3d5b275834cdc",
+      "pages": 6,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A031",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Connect - Puella Magi Madoka☆Magica - Opening Theme.pdf",
+      "sha256": "f1d642c27f1180f359015797f5e721925046d040c6fd9d2600d6b00788355f70",
+      "pages": 8,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A127",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\The Rumbling - Attack on Titan The Final Season Part 2 - Opening Theme.pdf",
+      "sha256": "4ec194bb0a2336ee5159a2e8af61e97ac885bb6f33d26a9ca9d091b8bb754eb4",
+      "pages": 4,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A138",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\unravel - Tokyo Ghoul - Opening Theme.pdf",
+      "sha256": "8e10d08451d3e7f647ff2a8e8ca1b8fd46e751350bfcbf512fd87a92f758a8a4",
+      "pages": 6,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A137",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\unlasting - Sword Art Online Alicization War of Underworld - Ending Theme.pdf",
+      "sha256": "ba9876a02a5429c832920d9a14a18ae3a313a27018f24c3b741fbd0ba30827c9",
+      "pages": 6,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A091",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Mixed Nuts - SPY×FAMILY - Opening Theme.pdf",
+      "sha256": "a90ec5f84ac02781135891e067565e25971752bdd965150b039b4d4687d5aad4",
+      "pages": 5,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A092",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\My Dearest - Guilty Crown - Opening Theme.pdf",
+      "sha256": "fdc4deecc0d961c9a1aa04314af3e20b209f2e0b607c329d1934bc1be0385bba",
+      "pages": 10,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A098",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\ninelie - Kabaneri of the Iron Fortress - Ending Theme.pdf",
+      "sha256": "6ac7b6bf62664a3c43850139e2f543c8f293e7c5fba996492739d7fa935ac718",
+      "pages": 6,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A067",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kakyoin's Theme - JoJo’s Bizarre Adventure：Stardust Crusaders - Soundtrack.pdf",
+      "sha256": "bcfab2581ff47a583bef42e7d6e04f84417c7663a028f7f4f54966805165ccab",
+      "pages": 4,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A102",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Owari no Sekai Kara - from the album - Owari no Hoshi no Love Song -.pdf",
+      "sha256": "baae71eacfddd0bd72be8925c1ae1be519a8ce6f860641688e0ffddc148fe825",
+      "pages": 8,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A006",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\5 Variations about the theme 「lit」 - A Silent Voice - Soundtrack.pdf",
+      "sha256": "e515b90def855e9f9cd0772dd2d603350ad387f519e71b23c302416eadf35819",
+      "pages": 5,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A008",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\A Link to the Past Medley.pdf",
+      "sha256": "799a9feb8ef881714ca3dec870f1a36711e922a8127421502414e6ea1c19f298",
+      "pages": 9,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A009",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Adabana Necromancy - Zombie Land Saga - Opening Theme.pdf",
+      "sha256": "8c90eb81d2b5e71011ddaa11ccd7c4542b20ff688650c4abbd7f417cd48a360f",
+      "pages": 7,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A056",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Here - Mahoutsukai no Yome - Opening Theme.pdf",
+      "sha256": "e244e96808b91f6f3ed3a0dc59b30c39534d616a72464a5cc67fa3da7dbb3600",
+      "pages": 9,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A083",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Last Stardust - Fate stay night：Unlimited Blade Works - Insert Song.pdf",
+      "sha256": "5769f7eff1b179ed44dc9b3fc12285a4d9a8dcf4387d1c8d5bf173be1723786b",
+      "pages": 6,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A047",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Giorno's Theme - JoJo's Bizarre Adventure：Golden Wind - Soundtrack.pdf",
+      "sha256": "7728c56f3c3d449dd07f7e629d53b30f91ad1cf346dd34805a9742b65aed67d9",
+      "pages": 5,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A085",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Madoka Magica - Piano Suite Medley.pdf",
+      "sha256": "8a603a4602c9bdaf54420da947d06302337bacb1b247bfb5b5818b4934fdbda7",
+      "pages": 10,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A089",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Michishirube - Violet Evergarden - Ending Theme.pdf",
+      "sha256": "a86101b56a9529be5937fd1c63b41b9df2d968d969f7e558f946c38bd371c9a3",
+      "pages": 6,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A109",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Secret Base - Anohana The Flower We Saw That Day - Ending Theme.pdf",
+      "sha256": "5dba052a64488780524f50528c505c000967541cfa5905ba98100287a9fcc26d",
+      "pages": 6,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A106",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Sadness and Sorrow - Fantasy on a theme from the soundtrack of Naruto.pdf",
+      "sha256": "d90de774d8503b7dc33a105fbf621ed6a4a5c899795417ff276670ed46f01b46",
+      "pages": 8,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A021",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bloody Stream - JoJo's Bizarre Adventure.pdf",
+      "sha256": "bbc5adf41772e9d7071757aaa377978d415238a1783b2b85932a7bd10c09cdcb",
+      "pages": 5,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A113",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Sincerely - Violet Evergarden Opening Theme.pdf",
+      "sha256": "e9dc32eddcd18df30310564566f0512725e64924c02c04ea6c20ad30d976b990",
+      "pages": 9,
+      "current_source_hash_and_page_count_verified": true
+    },
+    {
+      "id": "A146",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Zen Zen Zense - Your Name. - Insert Song.pdf",
+      "sha256": "d173123d0d3425b97522676435548dbb046a72f9285c673867b9ffb062eaf424",
+      "pages": 10,
+      "current_source_hash_and_page_count_verified": true
+    }
+  ],
+  "book_current_hash_verified": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+  "native_assets": {
+    "unchanged_from_0_3_0": [
+      {
+        "path": "docs\\engraving\\fixtures\\five-four-spacing-default.mscx",
+        "sha256": "37e2779ba90cb9be885bc8f5cec821e1ac195f660dec88787fb5f340beb56516"
+      },
+      {
+        "path": "docs\\engraving\\fixtures\\five-four-spacing-pulse-candidate.mscx",
+        "sha256": "7d9e8f59db5a9126ed7e72905914969a25b8b9c749bf2ef32a33e3ae4434581f"
+      },
+      {
+        "path": "docs\\engraving\\fixtures\\five-four-spacing-comparison.png",
+        "sha256": "e6af54e808fc97451a10a1fc0fe420187176dca8c0e20357d0596d976836378d"
+      }
+    ],
+    "old_validation": "release_0_2_0_evidence.json",
+    "fresh_native_render_this_release": false,
+    "meaning": "Published files unchanged. Original per-case scope retained; no fresh whole-library regression or new user adoption."
+  },
+  "usability": {
+    "actual_topic_locator_calls": 20,
+    "skill_version": "0.4.0",
+    "user_level_install_lookup": {
+      "C:\\Users\\Fred\\.codex\\skills\\piano-engraving\\SKILL.md": false,
+      "C:\\Users\\Fred\\.agents\\skills\\piano-engraving\\SKILL.md": false
+    },
+    "direct_SKILL_path_usable_with_this_checkout": true
+  },
+  "historical_release_certificates_unchanged": {
+    "release_0_2_0_evidence.json": "eae472601c90c90763f6b175f8af65ba02cea1514384cd96126764e97061ba81",
+    "release_0_3_0_evidence.json": "4340bb9f354bb7fd3f65f08dee3baeefda1e0a5eb3cf42f263aa92146470fdfd"
+  },
+  "historical_tags": {
+    "engraving-v0.1.0": "f72bb2b313d27c392d7c5a203b593f7f6ea8a24b",
+    "engraving-v0.2.0": "15fb76d0574bcbfb0002c547f66ad4a49671390b",
+    "engraving-v0.3.0": "df675cd8385d10670e7558b986eb93c9ff752ad8"
+  },
+  "limits": [
+    "Fixed24 batch complete,all146 remain scope;130closeouts outstanding",
+    "Gould349pages and15resource scopes remain incomplete",
+    "Skill transfer2/8,T01independent,T02root preselected/frozen; six remain",
+    "User combined-score application0/1; no aesthetic,print,audition or general accuracy claim",
+    "No new native candidates or MuseScore/MCP/plugin/font adaptation"
+  ],
+  "temporary_parallel_authorization": "Expired2026-10-23 17:00Asia/Shanghai; root-only current work.",
+  "source_protection": "Read-only originals; private reference PDFs/images/fonts/runtimes are not included in Git.",
+  "storage": {
+    "checked_at_utc": "2026-10-24T06:55:05.684220+00:00",
+    "a146_batch_logical_bytes_before_validation_output": 7801457,
+    "all_engraving_cache_logical_bytes": 2412252900,
+    "total_review_line_bytes": 3221225472,
+    "batch_review_line_bytes": 104857600,
+    "files_deleted": 0
+  },
+  "validation": {
+    "owned_files": 18,
+    "all24_current_source_hashes_and_page_counts": true,
+    "all20_topic_routes_reached_files": true,
+    "skill_format": "Skill is valid!",
+    "historical_certificates_and_tags_unchanged": true,
+    "three_native_publication_assets_unchanged": true,
+    "scope": "Publication provenance,metadata,links,counters and routes; judgment evidence remains actual score/normative reading.",
+    "local_links": 367,
+    "local_anchors": 29,
+    "explicit_change_manifest_matched": true,
+    "tracked_deletions": 0
+  }
+}
