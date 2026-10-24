@@ -23,7 +23,8 @@
       "A083",
       "A047",
       "A085",
-      "A089"
+      "A089",
+      "A109"
     ],
     "closeout_records": {
       "A098": {
@@ -80,6 +81,11 @@
         "note": "INTEGRATED_READING_MICHISHIRUBE.md",
         "evidence": "michishirube_whole_reading_evidence.json",
         "unresolved": "No full pitch/every-tuplet or octave-scope collation, exact hand/pedal timing, native alternative, actual physical turn or print proof; old arpeggio case rechecked rather than new."
+      },
+      "A109": {
+        "note": "INTEGRATED_READING_SECRET_BASE.md",
+        "evidence": "secret_base_whole_reading_evidence.json",
+        "unresolved": "No full pitch/every omitted-tuplet or ottava playback collation, exact hand/pedal timing, native alternative, print or certified self-turn. F empty-staff rest assessment remains conditional; known fixture not rerun."
       }
     }
   },
@@ -273,9 +279,11 @@
         "id": "A109",
         "title": "Secret Base - Anohana The Flower We Saw That Day - Ending Theme.pdf",
         "pages": 6,
-        "status": "pending",
-        "reading_task": "Secret Base；复合拍、长短组与simile",
-        "prior_partial_or_topical_note": "RHYTHM_READING.md"
+        "status": "complete",
+        "reading_task": "Secret Base；4/4三连细分、组单位改变与simile",
+        "prior_partial_or_topical_note": "RHYTHM_READING.md",
+        "note": "INTEGRATED_READING_SECRET_BASE.md",
+        "evidence": "secret_base_whole_reading_evidence.json"
       },
       {
         "id": "A106",
@@ -357,7 +365,7 @@
       ],
       [
         557,
-        562
+        566
       ],
       [
         609,
@@ -416,6 +424,26 @@
         "new_unique_pages": 19,
         "reread_printed_pages": [
           621
+        ],
+        "new_ancillary_pages": 0
+      },
+      {
+        "date": "2026-10-24",
+        "evidence": "secret_base_whole_reading_evidence.json",
+        "new_substantive_printed_range": [
+          563,
+          566
+        ],
+        "new_unique_pages": 4,
+        "reread_printed_pages": [
+          210,
+          215,
+          305,
+          307,
+          312,
+          325,
+          490,
+          560
         ],
         "new_ancillary_pages": 0
       }
@@ -659,22 +687,22 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "Snapshot engraving-v0.3.0 stays at16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. Subsequent A047 and A085 whole readings make the working branch18/24,120/164 and10/146 closeouts; no new book coverage, transfer scenario, native candidate or software adaptation. Oct24 R19 essay/targeted-spacing reading scope closes, resources10/25; no new score/book/transfer/native counts. See lily_essay_reading_evidence.json. A089 six-page whole study makes19/24,126/164 and11/146 closeouts. Gould311/696/resources10/25/transfer2/8 unchanged; three entry-summary number typos corrected."
+    "working_branch_note": "Snapshot engraving-v0.3.0 stays at16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. Subsequent A047 and A085 whole readings make the working branch18/24,120/164 and10/146 closeouts; no new book coverage, transfer scenario, native candidate or software adaptation. Oct24 R19 essay/targeted-spacing reading scope closes, resources10/25; no new score/book/transfer/native counts. See lily_essay_reading_evidence.json. A089 six-page whole study makes19/24,126/164 and11/146 closeouts. Gould311/696/resources10/25/transfer2/8 unchanged; three entry-summary number typos corrected. A109 whole study adds1score/6pages and4new Gould pages: working20/24,132/164,12/146 closeouts and315/696(311substantive+4ancillary); resources10/25 andtransfer2/8 stay. Snapshot0.3.0 remains immutable."
   },
   "last_study_batch": {
     "date": "2026-10-24",
-    "scope": "Single-agent known A089 whole-score reading,20 new crops,one reused ending detail,19 old complete Gould pages and one PDF-only spacing observation",
+    "scope": "Single-agent known A109 whole-score reading,13 new context crops,8 old complete Gould pages and4 new complete technical pages",
     "new_deep_scores": 1,
     "new_deep_pages": 6,
     "new_all_score_closeouts": 1,
     "new_complete_resource_scopes": 0,
-    "new_unique_ledger_book_pages": 0,
+    "new_unique_ledger_book_pages": 4,
     "book_full_image_evidence_repairs": 0,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "INTEGRATED_READING_MICHISHIRUBE.md"
+      "INTEGRATED_READING_SECRET_BASE.md"
     ],
-    "review_evidence": "michishirube_whole_reading_evidence.json"
+    "review_evidence": "secret_base_whole_reading_evidence.json"
   }
 }
