@@ -26,7 +26,8 @@
       "A089",
       "A109",
       "A106",
-      "A021"
+      "A021",
+      "A113"
     ],
     "closeout_records": {
       "A098": {
@@ -98,6 +99,11 @@
         "note": "INTEGRATED_READING_BLOODY_STREAM.md",
         "evidence": "bloody_stream_whole_reading_evidence.json",
         "unresolved": "Trill extension and explicit D.C. al Coda are editorial candidates. No native replacement, every-pitch/tuplet collation, exact F release or actual page-turn proof."
+      },
+      "A113": {
+        "note": "INTEGRATED_READING_SINCERELY.md",
+        "evidence": "sincerely_whole_reading_evidence.json",
+        "unresolved": "Known whole reading and capacity/geometry cross-check; no full pitch/tuplet/ottava playback audit, exact hand/pedal/repetition-rate recipe, native alternative or certified physical turns."
       }
     }
   },
@@ -321,9 +327,11 @@
         "id": "A113",
         "title": "Sincerely - Violet Evergarden Opening Theme.pdf",
         "pages": 9,
-        "status": "pending",
+        "status": "complete",
         "reading_task": "Sincerely；密度变化、梁干、符号与标记层次",
-        "prior_partial_or_topical_note": "CASES.md"
+        "prior_partial_or_topical_note": "CASES.md",
+        "note": "INTEGRATED_READING_SINCERELY.md",
+        "evidence": "sincerely_whole_reading_evidence.json"
       },
       {
         "id": "A146",
@@ -381,7 +389,7 @@
       ],
       [
         557,
-        582
+        588
       ],
       [
         609,
@@ -395,7 +403,9 @@
       119,
       120,
       519,
-      520
+      520,
+      609,
+      610
     ],
     "ledger_reconciliations": [
       {
@@ -508,6 +518,32 @@
           337
         ],
         "new_ancillary_pages": 0
+      },
+      {
+        "date": "2026-10-24",
+        "evidence": "sincerely_whole_reading_evidence.json",
+        "new_substantive_printed_range": [
+          583,
+          588
+        ],
+        "new_unique_pages": 8,
+        "reread_printed_pages": [
+          21,
+          22,
+          23,
+          223,
+          224,
+          225,
+          229,
+          312,
+          325,
+          337
+        ],
+        "new_ancillary_pages": 2,
+        "new_ancillary_pdf_pages": [
+          609,
+          610
+        ]
       }
     ]
   },
@@ -749,22 +785,24 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "Snapshot engraving-v0.3.0 stays at16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. Subsequent A047 and A085 whole readings make the working branch18/24,120/164 and10/146 closeouts; no new book coverage, transfer scenario, native candidate or software adaptation. Oct24 R19 essay/targeted-spacing reading scope closes, resources10/25; no new score/book/transfer/native counts. See lily_essay_reading_evidence.json. A089 six-page whole study makes19/24,126/164 and11/146 closeouts. Gould311/696/resources10/25/transfer2/8 unchanged; three entry-summary number typos corrected. A109 whole study adds1score/6pages and4new Gould pages: working20/24,132/164,12/146 closeouts and315/696(311substantive+4ancillary); resources10/25 andtransfer2/8 stay. Snapshot0.3.0 remains immutable. A1068page whole study plus9new Gould pages makes21/24,140/164,13/146 closeouts and324/696(320substantive+4ancillary). Resource10/25 andtransfer2/8 unchanged; no native/adaptation increment or release-tag rewrite. A0215page whole reading and7new Gould pages makes22/24,145/164,14/146 closeouts and331/696(327substantive+4ancillary). Resource10/25 andtransfer2/8 unchanged. Cross-staff stem-spacing counterexample and two-level beat budgeting linked to usable skill; release tags preserved."
+    "working_branch_note": "Snapshot engraving-v0.3.0 stays at16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. Subsequent A047 and A085 whole readings make the working branch18/24,120/164 and10/146 closeouts; no new book coverage, transfer scenario, native candidate or software adaptation. Oct24 R19 essay/targeted-spacing reading scope closes, resources10/25; no new score/book/transfer/native counts. See lily_essay_reading_evidence.json. A089 six-page whole study makes19/24,126/164 and11/146 closeouts. Gould311/696/resources10/25/transfer2/8 unchanged; three entry-summary number typos corrected. A109 whole study adds1score/6pages and4new Gould pages: working20/24,132/164,12/146 closeouts and315/696(311substantive+4ancillary); resources10/25 andtransfer2/8 stay. Snapshot0.3.0 remains immutable. A1068page whole study plus9new Gould pages makes21/24,140/164,13/146 closeouts and324/696(320substantive+4ancillary). Resource10/25 andtransfer2/8 unchanged; no native/adaptation increment or release-tag rewrite. A0215page whole reading and7new Gould pages makes22/24,145/164,14/146 closeouts and331/696(327substantive+4ancillary). Resource10/25 andtransfer2/8 unchanged. Cross-staff stem-spacing counterexample and two-level beat budgeting linked to usable skill; release tags preserved. A1139page whole reading adds23/24,154/164,15/146 closeouts; Gould6technical+2ancillary makes339/696(333+6). Resource10/25 andtransfer2/8 unchanged. Capacity/vertical spacing and performer-scope distinctions linked to beams/layout knowledge; historical tags unchanged."
   },
   "last_study_batch": {
     "date": "2026-10-24",
-    "scope": "Single-agent A021 whole5pages,13details,1fresh last page,12old Gould pages,7new technical pages; head/stem and beat spacing measured",
+    "scope": "Single-agent A1139pages,16details,3high-resolution regions,10old Gould pages and6new technical+2ancillary pages",
     "new_deep_scores": 1,
-    "new_deep_pages": 5,
+    "new_deep_pages": 9,
     "new_all_score_closeouts": 1,
     "new_complete_resource_scopes": 0,
-    "new_unique_ledger_book_pages": 7,
+    "new_unique_ledger_book_pages": 8,
+    "new_substantive_book_pages": 6,
+    "new_ancillary_book_pages": 2,
     "book_full_image_evidence_repairs": 0,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "INTEGRATED_READING_BLOODY_STREAM.md"
+      "INTEGRATED_READING_SINCERELY.md"
     ],
-    "review_evidence": "bloody_stream_whole_reading_evidence.json"
+    "review_evidence": "sincerely_whole_reading_evidence.json"
   }
 }

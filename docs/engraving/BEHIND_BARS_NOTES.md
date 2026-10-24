@@ -202,3 +202,9 @@ p625–627核退出方式、同速对应与同步子组；p630–638将少墨迹
 首次完整读图印刷p576–582／PDF p596–602，共7个实质页；累计327实质＋4标题／目录＝331/696，余365页。p576–577补cue通道及独立计量，p578–580补写出重复、统一排练结构与tacet条件，p580–582补抽取后变音／拼写、合并分谱及有限divisi合表。详见[提示专题](EDITORIAL_ALTERNATIVES.md)、[导航](REPEAT_NAVIGATION.md)和[Bloody Stream整曲](INTEGRATED_READING_BLOODY_STREAM.md)。下一页p583，未宣布part preparation全章完成。
 
 本批另完整复看旧p72–73、134–140、238–239、337十二页，分别核干向／梁、颤音持续、D.C. al Coda与钢琴留声提示，不重计覆盖。[38张不同图的记录](bloody_stream_whole_reading_evidence.json)包含五页原谱、13局部、一次新末页核查、12旧页及7新页。
+
+## 2026-10-24：合并演奏分谱、divisi与打击乐
+
+首次完整读图印刷p583–588／PDF p603–608六个实质页；另实际查看PDF p609–610的下一章标题／目录（顺序位置p589–590），只计辅助覆盖。累计333实质＋6标题目录＝339/696，余357页。新增技术内容为玩家身份、各自指示、系统内稳定轨道、弦乐divisi／solo展开及打击乐共享谱／cue／翻页条件，见[提示专题](EDITORIAL_ALTERNATIVES.md)；电声正文p591尚未读。
+
+与[Sincerely九页](INTEGRATED_READING_SINCERELY.md)同时完整复看旧p21–23、223–225、229、312、325、337十页。46张不同图的[证据](sincerely_whole_reading_evidence.json)将六新实质与两辅助页分开，未将缓存或字号字符码当阅读事实；C双梁、N的ppp经实际高分辨率核查，旧结论保持。
