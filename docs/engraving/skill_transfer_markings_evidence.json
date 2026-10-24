@@ -1,0 +1,2248 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "scenario": "T05",
+  "base_commit": "57f25d8c59f23078c0fff855b0269376b04f4dcc",
+  "goal_status": "active",
+  "registration": {
+    "scenario": "T05",
+    "registered_at_utc": "2026-10-24T11:38:11.504148+00:00",
+    "base_commit": "57f25d8c59f23078c0fff855b0269376b04f4dcc",
+    "selection": {
+      "id": "A014",
+      "relative_path": "Ashes on the Fire - Attack on Titan The Final Season - Soundtrack.pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Ashes on the Fire - Attack on Titan The Final Season - Soundtrack.pdf",
+      "sha256": "726e807e5d9205ef6a732c5bcc144ed058fbfc82d7ce8c0af6312d917ce214ff",
+      "bytes": 159836,
+      "pages": 6,
+      "metadata": {
+        "/CreationDate": "D:20221011085353",
+        "/Creator": "PDFium",
+        "/Producer": "PDFium"
+      },
+      "page_sizes_pt": [
+        [
+          595.22,
+          842.0
+        ]
+      ],
+      "inventory_status": "readable"
+    },
+    "preselected_page_sequence": [
+      3,
+      6,
+      2
+    ],
+    "selection_reason": "Next short non-fixed non-closeout score after A012; A013was exposed at the end of the previous corpus-note lookup. Central p3 first,then6or2only if it lacks beam/curve/marking relationships. No current A014case note or expected solution supplied.",
+    "user_task": "用piano-engraving skill只读判断梁、弧、力度／奏法／文字的归属；先指出保留与值得改的位置及阅读理由，再核相邻上下文和规范，不为统一高度或减少线条改音乐。",
+    "evaluation_mode": "Root-only preselection then frozen initial; historically first-pass-known corpus,not independent or blind.",
+    "generic_read_before_initial": [
+      "skills/piano-engraving/SKILL.md",
+      "docs/engraving/README.md",
+      "docs/engraving/PREFERENCES.md",
+      "docs/engraving/JUDGMENT_GUIDE.md",
+      "docs/engraving/DYNAMICS_ARTICULATION.md",
+      "docs/engraving/CURVES_STUDY.md"
+    ],
+    "deferred_until_initial_frozen": [
+      "A014old case/corpus notes",
+      "neighbouring full pages",
+      "new high-resolution details",
+      "source PDF text/geometry",
+      "original Gould page images"
+    ],
+    "initial_skill_sha256": "32f115c9806a34b90b923faa2592da7f67a5631dbb3cb1afe1091cc7cab2e549",
+    "first_preselected_image": {
+      "path": "tmp/engraving/corpus/A014/page-3.jpg",
+      "sha256": "78bcb925f91e5c96ad7dd31ff6c942b11417f2bb14af52d9c9785f2501ef063e"
+    }
+  },
+  "frozen_initial": {
+    "frozen_at_utc": "2026-10-24T11:45:25.898915+00:00",
+    "path": "tmp/engraving/skill-transfer-markings-2026-10-24/INITIAL_ASSESSMENT.md",
+    "sha256": "837bd93495da146a417e8b07e1b8602a30a43c6c668c0e9e6a1579393c64f4da",
+    "raw_pages_viewed": [
+      3
+    ],
+    "case_specific_verification_started": false,
+    "text": "# T05冻结初判：A014《Ashes on the Fire》第3页\n\n仅看预选完整p3及当前skill、通用弧线／力度知识，尚未读A014旧笔记、邻页、新细图、源文本几何或原教材图。历史首轮已看过本曲；本次由主代理预选后核查，不称独立盲测。后核修正另存。\n\n判断：保留E的突然弱奏、长保持与下部连续运动，F的突然强奏和层内tie／手提示，G的短组与逐音奏法。当前完整页未发现足以确定必须搬移的标记碰撞，不为对齐力度基线或减少线条重排全页。\n\nE的pp sub.与Ped.分处不同通道，前者给突然变化，后者起持续共鸣；上部贴头长弧与下部逐小节动作弧任务不同。两个保持和弦之间多条弧不能因外形重复删成一条slur。第二系统的渐强跨后两小节，末处上表转休止、下部仍活动且有低八度／重音；应核真实渐强终点和承接，不能只按上表最后一头把它提前截短。\n\nF的ff sub.在段落入口，l.h.靠上表内层下降运行。上部慢和弦有局部tie，下部又有自己的低音及重音；这些位置让读者辨认同时活动的不同层。若把ff sub.、l.h.与所有重音统一到双表几何中心，会削弱所属材料的区别。部分持续不能全并成整和弦持续，也不能让外层动作弧代替具体音的tie。\n\nF／G重复型中的短横、重音和梁形各有任务。短横不必全部拉到同一高度；先认它贴哪音、在头侧还是干侧、是否会与加线混。G下表频繁换号、slur和较短重音共存，上表同时有慢旋律与快运动，不应因层数多就全抬到谱外。F下降快音附近的细竖线和干／梁层也须放大分辨，缩图不先锁定为新增voice提示或碰撞。\n\n末系统的sfz在较后小节，需核是新攻击强调还是新整体力度，不能从缩图和字串决定播放scope。当前拍号／速度须从前文确认；本轮没有工程，不根据字样高低推内部track。只在确认某处失去归属或实际穿线后，才比较小范围文字／弧形候选，并保持原逻辑连接与时间。\n"
+  },
+  "evaluation_mode": "Root-only preselected p3then frozen initial on historically first-pass-known score;not independent or blind.",
+  "source": {
+    "id": "A014",
+    "relative_path": "Ashes on the Fire - Attack on Titan The Final Season - Soundtrack.pdf",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Ashes on the Fire - Attack on Titan The Final Season - Soundtrack.pdf",
+    "sha256": "726e807e5d9205ef6a732c5bcc144ed058fbfc82d7ce8c0af6312d917ce214ff",
+    "bytes": 159836,
+    "pages": 6,
+    "metadata": {
+      "/CreationDate": "D:20221011085353",
+      "/Creator": "PDFium",
+      "/Producer": "PDFium"
+    },
+    "page_sizes_pt": [
+      [
+        595.22,
+        842.0
+      ]
+    ],
+    "inventory_status": "readable"
+  },
+  "source_protection": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Ashes on the Fire - Attack on Titan The Final Season - Soundtrack.pdf",
+      "expected_sha256": "726e807e5d9205ef6a732c5bcc144ed058fbfc82d7ce8c0af6312d917ce214ff"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "expected_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "images": [
+    {
+      "page": 1,
+      "path": "tmp/engraving/corpus/A014/page-1.jpg",
+      "sha256": "089a551f3073c2755c945a73063235f2bfe51b2ecef2f6332a27e69cecc50817",
+      "source_id": "A014",
+      "role": "whole-score context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 2,
+      "path": "tmp/engraving/corpus/A014/page-2.jpg",
+      "sha256": "c7c7df1399bd860c5db2f77f83c33e095d781cede2087796ea93c7847024e603",
+      "source_id": "A014",
+      "role": "whole-score context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "path": "tmp/engraving/corpus/A014/page-3.jpg",
+      "sha256": "78bcb925f91e5c96ad7dd31ff6c942b11417f2bb14af52d9c9785f2501ef063e",
+      "source_id": "A014",
+      "role": "preselected initial then context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 4,
+      "path": "tmp/engraving/corpus/A014/page-4.jpg",
+      "sha256": "2cfdf505753098c62928dff7dc8e025a0a5ec0b984d90415d69d7abb56c9e871",
+      "source_id": "A014",
+      "role": "whole-score context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 5,
+      "path": "tmp/engraving/corpus/A014/page-5.jpg",
+      "sha256": "de2d444a099eab4d25237baec5da66543fb35156a7ff62e7f1559aad86c94189",
+      "source_id": "A014",
+      "role": "whole-score context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 6,
+      "path": "tmp/engraving/corpus/A014/page-6.jpg",
+      "sha256": "8a80eee2c62b15d3e1a9d91aabc486f7f6eefd05fd6b0d2c24d0d57f145c6d06",
+      "source_id": "A014",
+      "role": "whole-score context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 1,
+      "system": 1,
+      "source_box_pt": [
+        30,
+        151.07,
+        565,
+        311.09
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p1-s1.jpg",
+      "sha256": "b13ef45e4524f43a53b5340f826db65804c788e82473cad172219d0710201b0c",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 1,
+      "source_box_pt": [
+        30,
+        23.049999999999997,
+        565,
+        174.56
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p3-s1.jpg",
+      "sha256": "139a1e4af4d20e1cc8ab0240232ca70252878da13d5885957f2c714c73d8bf1e",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 2,
+      "source_box_pt": [
+        30,
+        131.41,
+        565,
+        282.94
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p3-s2.jpg",
+      "sha256": "c59b8c475dee1ef238cb57e32b301d061f931f54674e58751d200cf1f55a8d1b",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 3,
+      "source_box_pt": [
+        30,
+        260.69,
+        565,
+        424.96
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p3-s3.jpg",
+      "sha256": "1f5ad2080ca79d7a402f4400bffe1c33f878bf7e40a143914c082dc958b32363",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 4,
+      "source_box_pt": [
+        30,
+        401.47,
+        565,
+        565.74
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p3-s4.jpg",
+      "sha256": "ae0cfd22fef12a5e524eea4a741f73bef21b124dcd995c46f1851c335438891f",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 5,
+      "source_box_pt": [
+        30,
+        534.99,
+        565,
+        686.52
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p3-s5.jpg",
+      "sha256": "6fa193c7e7176e69de5f2c70174584ba7e8395a4da48376dafe750a8d6f6b584",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 6,
+      "source_box_pt": [
+        30,
+        661.42,
+        565,
+        812.95
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p3-s6.jpg",
+      "sha256": "5d00a74967a64760b98e4354f88e11566dc19edfcb22c3bf4110f5dc75b7f475",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 4,
+      "system": 1,
+      "source_box_pt": [
+        30,
+        23.049999999999997,
+        565,
+        174.56
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p4-s1.jpg",
+      "sha256": "583e5fe87e05ff42630449d3126bd03a8d27f2c5fbc993954ab12e4e06348c50",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 5,
+      "system": 1,
+      "source_box_pt": [
+        30,
+        23.049999999999997,
+        565,
+        174.56
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p5-s1.jpg",
+      "sha256": "b9e17bce7977440b75259b450918e5eafc2beb74bd4aea969164db56d0801c31",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 6,
+      "system": 1,
+      "source_box_pt": [
+        30,
+        23.049999999999997,
+        565,
+        174.56
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p6-s1.jpg",
+      "sha256": "ae6ccac7b0a73ff603c1151c31de3dd402d6252eb1c2dc5b01aa13ed97f26a84",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 6,
+      "system": 6,
+      "source_box_pt": [
+        30,
+        652.93,
+        565,
+        812.95
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p6-s6.jpg",
+      "sha256": "2827bf04369f9d88b9b83c4e79d2c011d8d454b163f98f799373c8ad24195da0",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 4,
+      "system": 3,
+      "source_box_pt": [
+        30,
+        243.51999999999998,
+        565,
+        435.4
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p4-s3.jpg",
+      "sha256": "27e671bd5cdaa5e8273d6487854cf63793aeeecd3104d28632121c4e388238b1",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 4,
+      "system": 4,
+      "source_box_pt": [
+        30,
+        383.94,
+        565,
+        580.08
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p4-s4.jpg",
+      "sha256": "2275e736d072455d21c057007b2229f766713783c20260006761aeb7e8574a85",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 5,
+      "system": 3,
+      "source_box_pt": [
+        30,
+        272.73,
+        565,
+        424.26
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p5-s3.jpg",
+      "sha256": "f2d54ac9fa9973a810cb5241ceb4bf622ac2bec38d13f3ced949d2c692bfccad",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 5,
+      "system": 4,
+      "source_box_pt": [
+        30,
+        393.33,
+        565,
+        551.21
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/p5-s4.jpg",
+      "sha256": "f6544a3de72d34712cf8fc07597ba9fe892cca9a2dde8ed636ba8b01d7f7339b",
+      "source_id": "A014",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 305,
+      "pdf_page": 325,
+      "path": "tmp/engraving/piano-2026-10-19/book-305.jpg",
+      "sha256": "7982d32357d6e1795759859e274a416290c658ec5ec155fb6e3050354c80ff16",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 306,
+      "pdf_page": 326,
+      "path": "tmp/engraving/piano-2026-10-19/book-306.jpg",
+      "sha256": "6e95af22c08bdc024077fdc4bb48944505fd52cb0d71e06cab105655e71377c7",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 310,
+      "pdf_page": 330,
+      "path": "tmp/engraving/piano-2026-10-19/book-310.jpg",
+      "sha256": "d36d75ef5cfc3d92927d39a30fe9d3d7569649c4a336ac3371619eb906092704",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/piano-2026-10-19/book-311.jpg",
+      "sha256": "c10955116a7870a97c87ab5507272c8d373df616058ec9f90d0b5d82da93ecbe",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 315,
+      "pdf_page": 335,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-315.jpg",
+      "sha256": "d05be9460b4eb7d2831b98f2e8b81f94f6febe32d7d5749db9efc8b140379aa9",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 316,
+      "pdf_page": 336,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-316.jpg",
+      "sha256": "46d00b51fe6e828ee06f44b84352b07ca1e37e83ee1d5fbe970e170db3f00eee",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 323,
+      "pdf_page": 343,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-323.jpg",
+      "sha256": "66518d033c3bab5a2ae91666d77d943a04435dc6e47ff70b592eaf2a400af865",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 104,
+      "pdf_page": 124,
+      "path": "tmp/engraving/dynamic-articulation-2026-10-20/book-124.jpg",
+      "sha256": "f575bf49d5820b0c4d5aad36b867771c96558a5e7aae4639a384699232f45a68",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 105,
+      "pdf_page": 125,
+      "path": "tmp/engraving/dynamic-articulation-2026-10-20/book-125.jpg",
+      "sha256": "2f32d9da97ff61a7fb053400606d8637af8c608999ec5bbc357ad69f3d39e195",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 119,
+      "pdf_page": 139,
+      "path": "tmp/engraving/dynamic-articulation-2026-10-20/book-139.jpg",
+      "sha256": "defa4f75ae0f6d848ad25a5c81844e9340c15c33e4dda3a888c0545ff887000d",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 121,
+      "pdf_page": 141,
+      "path": "tmp/engraving/dynamic-articulation-2026-10-20/book-141.jpg",
+      "sha256": "97bdbe0c03e9e029942b691dbf80f0dc56359de4d4ef857181a6e2c60c0cddfb",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 42,
+      "pdf_page": 62,
+      "path": "tmp/engraving/study-2026-10-19/book-42.jpg",
+      "sha256": "15cf35d8ae11284e579e502a1a1ad999bc24421dfee91876cc7c014d9a9db4ec",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "pdf_page": 667,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/book-p647.jpg",
+      "sha256": "266f05b099f08cde1e266cc36b0c7e753f5a6a721710a5dbbdd8d0531a4795a6",
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "printed_page": 647,
+      "role": "new complete technical page"
+    },
+    {
+      "source_id": "Gould",
+      "pdf_page": 668,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/book-p648.jpg",
+      "sha256": "cdd4852efd4494bfcf5dd5787ce2f65416d10ae9b48293ca1859544823349e4a",
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "printed_page": 648,
+      "role": "new complete technical page"
+    },
+    {
+      "source_id": "Gould",
+      "pdf_page": 669,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/book-p649.jpg",
+      "sha256": "79c9f82e37312697b98c0d05511a50f727636cdf5cea9d0d5b6b46c82c96ce2b",
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "printed_page": 649,
+      "role": "new complete technical page"
+    },
+    {
+      "source_id": "Gould",
+      "pdf_page": 670,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/book-p650.jpg",
+      "sha256": "45a88c03c3c5b6639ce79d00c627f287fa0990f537a8fb1a5af107f3ed16cd58",
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "substantive": false,
+      "nominal_printed_position": 650,
+      "role": "blank"
+    },
+    {
+      "source_id": "Gould",
+      "pdf_page": 671,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/book-p651.jpg",
+      "sha256": "241a4ed5eea8b1fd1a93654f0faeefba79264ac894b551b12fb0ee4dad532ed4",
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "substantive": false,
+      "nominal_printed_position": 651,
+      "role": "appendix title"
+    },
+    {
+      "source_id": "Gould",
+      "pdf_page": 672,
+      "path": "tmp/engraving/skill-transfer-markings-2026-10-24/book-p652.jpg",
+      "sha256": "88054639494f0c10cda8b8b41073b6856129bc025ca518f544803965e4898069",
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "printed_page": 652,
+      "role": "new substantive reference table"
+    }
+  ],
+  "initial_to_verified": [
+    {
+      "initial": "PreserveE/F/Groles;verify crescendo endpoint at upper rest/lower motion.",
+      "verified": "Crescendo ends near common m62q3/2column of upper rest and lower octave;preserve.",
+      "assessment": "Preserve judgment retained;range narrowed by actual common column,not all later low attacks."
+    },
+    {
+      "initial": "Ffine verticals need enlarged identification.",
+      "verified": "Incomplete hand brackets withl.h. select last4sixteenths fromq2;preserve crossing the beam group.",
+      "assessment": "Uncertain identity resolved;not recorded as initially identified object."
+    },
+    {
+      "initial": "Gtenutos need ownership/beam-side check;no blanket baseline alignment.",
+      "verified": "Three tenutos already shareYat stem side onq3/2,2,5/2;preserve.",
+      "assessment": "Conditional same-height example;not a claim that current flat markers were erroneous."
+    }
+  ],
+  "manual_source_geometry_and_reading": {
+    "manual_capacity_source_boundaries": [
+      {
+        "page": 1,
+        "path": "tmp/engraving/corpus/A014/page-1.jpg",
+        "sha256": "089a551f3073c2755c945a73063235f2bfe51b2ecef2f6332a27e69cecc50817",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 200.07,
+            "bottom_pt": 268.09,
+            "raw_boundary_x_pt": [
+              36.234,
+              145.854,
+              196.488,
+              247.14,
+              297.792,
+              371.286,
+              463.716,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                145.854
+              ],
+              [
+                196.488
+              ],
+              [
+                247.14
+              ],
+              [
+                297.792
+              ],
+              [
+                371.286
+              ],
+              [
+                463.716
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 7,
+            "first_bar_number": 1
+          },
+          {
+            "top_pt": 322.27,
+            "bottom_pt": 392.4,
+            "raw_boundary_x_pt": [
+              36.234,
+              157.536,
+              263.61,
+              362.25,
+              460.89,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                157.536
+              ],
+              [
+                263.61
+              ],
+              [
+                362.25
+              ],
+              [
+                460.89
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "written_positions": 5,
+            "first_bar_number": 8
+          },
+          {
+            "top_pt": 444.46,
+            "bottom_pt": 514.6,
+            "raw_boundary_x_pt": [
+              36.234,
+              168.696,
+              268.038,
+              364.55400000000003,
+              461.052,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                168.696
+              ],
+              [
+                268.038
+              ],
+              [
+                364.55400000000003
+              ],
+              [
+                461.052
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 5,
+            "first_bar_number": 13
+          },
+          {
+            "top_pt": 574.79,
+            "bottom_pt": 647.05,
+            "raw_boundary_x_pt": [
+              36.234,
+              168.876,
+              276.012,
+              382.428,
+              384.552,
+              465.84000000000003,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                168.876
+              ],
+              [
+                276.012
+              ],
+              [
+                382.428,
+                384.552
+              ],
+              [
+                465.84000000000003
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 5,
+            "first_bar_number": 18
+          },
+          {
+            "top_pt": 710.42,
+            "bottom_pt": 769.95,
+            "raw_boundary_x_pt": [
+              36.234,
+              144.252,
+              226.782,
+              309.294,
+              391.82399999999996,
+              476.4599999999999,
+              558.9179999999999
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                144.252
+              ],
+              [
+                226.782
+              ],
+              [
+                309.294
+              ],
+              [
+                391.82399999999996
+              ],
+              [
+                476.4599999999999
+              ],
+              [
+                558.9179999999999
+              ]
+            ],
+            "written_positions": 6,
+            "first_bar_number": 23
+          }
+        ]
+      },
+      {
+        "page": 2,
+        "path": "tmp/engraving/corpus/A014/page-2.jpg",
+        "sha256": "c7c7df1399bd860c5db2f77f83c33e095d781cede2087796ea93c7847024e603",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.05,
+            "bottom_pt": 131.56,
+            "raw_boundary_x_pt": [
+              36.234,
+              143.73,
+              225.71999999999997,
+              307.71,
+              389.7,
+              471.69,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                143.73
+              ],
+              [
+                225.71999999999997
+              ],
+              [
+                307.71
+              ],
+              [
+                389.7
+              ],
+              [
+                471.69
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 6,
+            "first_bar_number": 29
+          },
+          {
+            "top_pt": 204.68,
+            "bottom_pt": 264.2,
+            "raw_boundary_x_pt": [
+              36.234,
+              178.974,
+              299.916,
+              302.04,
+              430.596,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                178.974
+              ],
+              [
+                299.916,
+                302.04
+              ],
+              [
+                430.596
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 35
+          },
+          {
+            "top_pt": 324.56,
+            "bottom_pt": 386.21,
+            "raw_boundary_x_pt": [
+              36.234,
+              189.936,
+              311.598,
+              434.322,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                189.936
+              ],
+              [
+                311.598
+              ],
+              [
+                434.322
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 39
+          },
+          {
+            "top_pt": 449.95,
+            "bottom_pt": 513.7,
+            "raw_boundary_x_pt": [
+              36.234,
+              189.936,
+              311.598,
+              434.322,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                189.936
+              ],
+              [
+                311.598
+              ],
+              [
+                434.322
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 43
+          },
+          {
+            "top_pt": 578.68,
+            "bottom_pt": 642.46,
+            "raw_boundary_x_pt": [
+              36.234,
+              188.874,
+              309.654,
+              311.778,
+              435.384,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                188.874
+              ],
+              [
+                309.654,
+                311.778
+              ],
+              [
+                435.384
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 47
+          },
+          {
+            "top_pt": 706.18,
+            "bottom_pt": 769.95,
+            "raw_boundary_x_pt": [
+              36.234,
+              189.936,
+              310.896,
+              438.39,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                189.936
+              ],
+              [
+                310.896
+              ],
+              [
+                438.39
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 51
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "path": "tmp/engraving/corpus/A014/page-3.jpg",
+        "sha256": "78bcb925f91e5c96ad7dd31ff6c942b11417f2bb14af52d9c9785f2501ef063e",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.05,
+            "bottom_pt": 131.56,
+            "raw_boundary_x_pt": [
+              36.234,
+              183.384,
+              308.592,
+              433.782,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                183.384
+              ],
+              [
+                308.592
+              ],
+              [
+                433.782
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 55
+          },
+          {
+            "top_pt": 180.41,
+            "bottom_pt": 239.94,
+            "raw_boundary_x_pt": [
+              36.234,
+              188.172,
+              314.604,
+              441.054,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                188.172
+              ],
+              [
+                314.604
+              ],
+              [
+                441.054
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 59
+          },
+          {
+            "top_pt": 309.69,
+            "bottom_pt": 381.96,
+            "raw_boundary_x_pt": [
+              36.234,
+              187.992,
+              314.262,
+              439.452,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                187.992
+              ],
+              [
+                314.262
+              ],
+              [
+                439.452
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 63
+          },
+          {
+            "top_pt": 450.47,
+            "bottom_pt": 522.74,
+            "raw_boundary_x_pt": [
+              36.234,
+              187.11,
+              312.48,
+              437.86800000000005,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                187.11
+              ],
+              [
+                312.48
+              ],
+              [
+                437.86800000000005
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 67
+          },
+          {
+            "top_pt": 583.99,
+            "bottom_pt": 643.52,
+            "raw_boundary_x_pt": [
+              36.234,
+              181.26,
+              312.138,
+              431.65799999999996,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                181.26
+              ],
+              [
+                312.138
+              ],
+              [
+                431.65799999999996
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 71
+          },
+          {
+            "top_pt": 710.42,
+            "bottom_pt": 769.95,
+            "raw_boundary_x_pt": [
+              36.234,
+              182.322,
+              314.262,
+              434.844,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                182.322
+              ],
+              [
+                314.262
+              ],
+              [
+                434.844
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 75
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "path": "tmp/engraving/corpus/A014/page-4.jpg",
+        "sha256": "2cfdf505753098c62928dff7dc8e025a0a5ec0b984d90415d69d7abb56c9e871",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.05,
+            "bottom_pt": 131.56,
+            "raw_boundary_x_pt": [
+              36.234,
+              198.972,
+              330.192,
+              332.31600000000003,
+              438.03000000000003,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                198.972
+              ],
+              [
+                330.192,
+                332.31600000000003
+              ],
+              [
+                438.03000000000003
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 79
+          },
+          {
+            "top_pt": 185.02,
+            "bottom_pt": 244.55,
+            "raw_boundary_x_pt": [
+              36.234,
+              181.98,
+              302.21999999999997,
+              432.018,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                181.98
+              ],
+              [
+                302.21999999999997
+              ],
+              [
+                432.018
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 83
+          },
+          {
+            "top_pt": 292.52,
+            "bottom_pt": 392.4,
+            "raw_boundary_x_pt": [
+              36.234,
+              181.26,
+              300.798,
+              429.894,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                181.26
+              ],
+              [
+                300.798
+              ],
+              [
+                429.894
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 87
+          },
+          {
+            "top_pt": 432.94,
+            "bottom_pt": 537.08,
+            "raw_boundary_x_pt": [
+              36.234,
+              180.198,
+              301.158,
+              429.012,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                180.198
+              ],
+              [
+                301.158
+              ],
+              [
+                429.012
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 91
+          },
+          {
+            "top_pt": 594.09,
+            "bottom_pt": 655.72,
+            "raw_boundary_x_pt": [
+              36.234,
+              185.346,
+              299.556,
+              426.70799999999997,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                185.346
+              ],
+              [
+                299.556
+              ],
+              [
+                426.70799999999997
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 95
+          },
+          {
+            "top_pt": 708.3,
+            "bottom_pt": 769.95,
+            "raw_boundary_x_pt": [
+              36.234,
+              184.806,
+              298.494,
+              425.106,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                184.806
+              ],
+              [
+                298.494
+              ],
+              [
+                425.106
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 99
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "path": "tmp/engraving/corpus/A014/page-5.jpg",
+        "sha256": "de2d444a099eab4d25237baec5da66543fb35156a7ff62e7f1559aad86c94189",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.05,
+            "bottom_pt": 131.56,
+            "raw_boundary_x_pt": [
+              36.234,
+              183.222,
+              307.17,
+              433.962,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                183.222
+              ],
+              [
+                307.17
+              ],
+              [
+                433.962
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 103
+          },
+          {
+            "top_pt": 196.0,
+            "bottom_pt": 255.53,
+            "raw_boundary_x_pt": [
+              36.234,
+              184.284,
+              309.474,
+              437.508,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                184.284
+              ],
+              [
+                309.474
+              ],
+              [
+                437.508
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 107
+          },
+          {
+            "top_pt": 321.73,
+            "bottom_pt": 381.26,
+            "raw_boundary_x_pt": [
+              36.234,
+              144.252,
+              226.782,
+              309.294,
+              394.28999999999996,
+              476.81999999999994,
+              558.9179999999999
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                144.252
+              ],
+              [
+                226.782
+              ],
+              [
+                309.294
+              ],
+              [
+                394.28999999999996
+              ],
+              [
+                476.81999999999994
+              ],
+              [
+                558.9179999999999
+              ]
+            ],
+            "written_positions": 6,
+            "first_bar_number": 111
+          },
+          {
+            "top_pt": 442.33,
+            "bottom_pt": 508.21,
+            "raw_boundary_x_pt": [
+              36.234,
+              164.79,
+              270.702,
+              272.826,
+              415.908,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                164.79
+              ],
+              [
+                270.702,
+                272.826
+              ],
+              [
+                415.908
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 117
+          },
+          {
+            "top_pt": 566.46,
+            "bottom_pt": 638.73,
+            "raw_boundary_x_pt": [
+              36.234,
+              186.93,
+              306.468,
+              432.72,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                186.93
+              ],
+              [
+                306.468
+              ],
+              [
+                432.72
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 121
+          },
+          {
+            "top_pt": 697.68,
+            "bottom_pt": 769.95,
+            "raw_boundary_x_pt": [
+              36.234,
+              190.998,
+              313.902,
+              316.026,
+              431.136,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                190.998
+              ],
+              [
+                313.902,
+                316.026
+              ],
+              [
+                431.136
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 125
+          }
+        ]
+      },
+      {
+        "page": 6,
+        "path": "tmp/engraving/corpus/A014/page-6.jpg",
+        "sha256": "8a80eee2c62b15d3e1a9d91aabc486f7f6eefd05fd6b0d2c24d0d57f145c6d06",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.05,
+            "bottom_pt": 131.56,
+            "raw_boundary_x_pt": [
+              36.234,
+              181.26,
+              308.592,
+              428.13,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                181.26
+              ],
+              [
+                308.592
+              ],
+              [
+                428.13
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 129
+          },
+          {
+            "top_pt": 200.97,
+            "bottom_pt": 260.48,
+            "raw_boundary_x_pt": [
+              36.234,
+              184.446,
+              310.896,
+              436.80600000000004,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                184.446
+              ],
+              [
+                310.896
+              ],
+              [
+                436.80600000000004
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 133
+          },
+          {
+            "top_pt": 321.73,
+            "bottom_pt": 383.38,
+            "raw_boundary_x_pt": [
+              36.234,
+              192.78,
+              323.82,
+              475.21799999999996,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                192.78
+              ],
+              [
+                323.82
+              ],
+              [
+                475.21799999999996
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 137
+          },
+          {
+            "top_pt": 441.45,
+            "bottom_pt": 505.21,
+            "raw_boundary_x_pt": [
+              36.234,
+              186.048,
+              310.356,
+              434.682,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                186.048
+              ],
+              [
+                310.356
+              ],
+              [
+                434.682
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 141
+          },
+          {
+            "top_pt": 573.71,
+            "bottom_pt": 637.49,
+            "raw_boundary_x_pt": [
+              36.234,
+              227.484,
+              393.228,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                227.484
+              ],
+              [
+                393.228
+              ],
+              [
+                558.918
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 145
+          },
+          {
+            "top_pt": 701.93,
+            "bottom_pt": 769.95,
+            "raw_boundary_x_pt": [
+              36.234,
+              215.622,
+              217.746,
+              294.42600000000004,
+              371.10600000000005,
+              482.31000000000006,
+              555.39,
+              558.162
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                215.622,
+                217.746
+              ],
+              [
+                294.42600000000004
+              ],
+              [
+                371.10600000000005
+              ],
+              [
+                482.31000000000006
+              ],
+              [
+                555.39,
+                558.162
+              ]
+            ],
+            "written_positions": 5,
+            "first_bar_number": 148
+          }
+        ]
+      }
+    ],
+    "full_bars": 152,
+    "systems": 35,
+    "section_labels": [
+      {
+        "letter": "A",
+        "page": 1,
+        "system": 3,
+        "bar": 13,
+        "x_pt": 57.906,
+        "top_pt": 421.2537,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "B",
+        "page": 1,
+        "system": 4,
+        "bar": 21,
+        "x_pt": 379.494,
+        "top_pt": 548.0456,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.743999999999971
+      },
+      {
+        "letter": "C",
+        "page": 2,
+        "system": 2,
+        "bar": 37,
+        "x_pt": 297.324,
+        "top_pt": 181.49360000000001,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "D",
+        "page": 2,
+        "system": 5,
+        "bar": 49,
+        "x_pt": 306.54,
+        "top_pt": 555.4976,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.743999999999971
+      },
+      {
+        "letter": "E",
+        "page": 3,
+        "system": 1,
+        "bar": 55,
+        "x_pt": 58.266,
+        "top_pt": 47.42959999999994,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "F",
+        "page": 3,
+        "system": 3,
+        "bar": 63,
+        "x_pt": 54.36,
+        "top_pt": 286.50559999999996,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "G",
+        "page": 3,
+        "system": 5,
+        "bar": 71,
+        "x_pt": 54.018,
+        "top_pt": 560.8076,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "H",
+        "page": 4,
+        "system": 1,
+        "bar": 81,
+        "x_pt": 326.898,
+        "top_pt": 47.267600000000016,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "I",
+        "page": 4,
+        "system": 5,
+        "bar": 95,
+        "x_pt": 55.962,
+        "top_pt": 570.8877,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "J",
+        "page": 5,
+        "system": 1,
+        "bar": 103,
+        "x_pt": 55.242,
+        "top_pt": 48.85159999999996,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "K",
+        "page": 5,
+        "system": 3,
+        "bar": 111,
+        "x_pt": 53.658,
+        "top_pt": 298.5476,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "L",
+        "page": 5,
+        "system": 4,
+        "bar": 119,
+        "x_pt": 265.446,
+        "top_pt": 419.1296,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "M",
+        "page": 5,
+        "system": 6,
+        "bar": 127,
+        "x_pt": 307.242,
+        "top_pt": 674.4956999999999,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744
+      },
+      {
+        "letter": "N",
+        "page": 6,
+        "system": 3,
+        "bar": 137,
+        "x_pt": 57.906,
+        "top_pt": 298.5476,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744000000000028
+      },
+      {
+        "letter": "O",
+        "page": 6,
+        "system": 4,
+        "bar": 141,
+        "x_pt": 56.484,
+        "top_pt": 418.24760000000003,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.743999999999971
+      },
+      {
+        "letter": "P",
+        "page": 6,
+        "system": 6,
+        "bar": 149,
+        "x_pt": 212.85,
+        "top_pt": 678.7437,
+        "font": "NKFDOP+CenturyNo1SB-Bold",
+        "size": 12.744
+      }
+    ],
+    "manual_section_starts": {
+      "A": 13,
+      "B": 21,
+      "C": 37,
+      "D": 49,
+      "E": 55,
+      "F": 63,
+      "G": 71,
+      "H": 81,
+      "I": 95,
+      "J": 103,
+      "K": 111,
+      "L": 119,
+      "M": 127,
+      "N": 137,
+      "O": 141,
+      "P": 149
+    },
+    "F_hand_handoff": {
+      "bar": 63,
+      "manual_durations": "one sixteenth rest then11sixteenths in6/8;left hand takes final4heads",
+      "fast_head_x_pt": [
+        77.202,
+        86.94,
+        96.516,
+        106.254,
+        115.812,
+        125.55,
+        136.71,
+        146.988,
+        156.726,
+        166.284,
+        176.022
+      ],
+      "fast_head_quarter_offsets": [
+        "1/4",
+        "1/2",
+        "3/4",
+        "1",
+        "5/4",
+        "3/2",
+        "7/4",
+        "2",
+        "9/4",
+        "5/2",
+        "11/4"
+      ],
+      "hand_bracket_vertical_strokes": [
+        {
+          "x0": 143.262,
+          "x1": 143.262,
+          "top": 323.8739999999999,
+          "bottom": 345.1139999999999,
+          "linewidth": 0.443
+        },
+        {
+          "x0": 184.35600000000002,
+          "x1": 184.35600000000002,
+          "top": 328.644,
+          "bottom": 347.778,
+          "linewidth": 0.443
+        }
+      ],
+      "left_hand_first_head_offset_quarters": "2",
+      "left_hand_heads": 4,
+      "interpretation": "Incomplete downward hand brackets with l.h.;not extra stems or collision debris;handoff inside second sixteenth beam group."
+    },
+    "G_tenuto": {
+      "bar": 72,
+      "manual_durations": "eighth rest,four sixteenths,six sixteenths;separate upper dotted-half hold",
+      "pairs": [
+        {
+          "quarter_offset": "3/2",
+          "head_x_pt": 248.094,
+          "head_glyph_top_pt": 573.8504201000001,
+          "tenuto_reference_top_pt": 597.323508
+        },
+        {
+          "quarter_offset": "2",
+          "head_x_pt": 268.632,
+          "head_glyph_top_pt": 575.9743201,
+          "tenuto_reference_top_pt": 597.323508
+        },
+        {
+          "quarter_offset": "5/2",
+          "head_x_pt": 289.17,
+          "head_glyph_top_pt": 578.0984201,
+          "tenuto_reference_top_pt": 597.323508
+        }
+      ],
+      "judgment": "Preserve same-height stem-side tenutos on alternating heads of second compound beat;not a global head-side alignment rule."
+    },
+    "E_crescendo": {
+      "bars": [
+        61,
+        62
+      ],
+      "curve": {
+        "x0": 323.01,
+        "x1": 504.882,
+        "top": 200.78999999999996,
+        "bottom": 205.75799999999992,
+        "linewidth": 0.426,
+        "pts": [
+          [
+            504.882,
+            200.78999999999996
+          ],
+          [
+            323.01,
+            203.274
+          ],
+          [
+            504.882,
+            205.75799999999992
+          ]
+        ]
+      },
+      "upper_rest_and_lower_octave_column_x_pt": 502.5601,
+      "quarter_offset_in_bar62": "3/2",
+      "tail_after_common_column_pt": 2.321900000000028,
+      "judgment": "Preserve rise to lower octaves at upper rest;do not truncate at last upper attack or extend automatically through all following low notes."
+    },
+    "manual_context_findings": [
+      "B/m21andH/m81pp sub.at new inner eighth movement after tied opening chord,not automatically at section start.",
+      "m118last two eighth low octaves receiveff sub.beforeL/m119TempoI;preserve distinct entry points.",
+      "p4systems3-4use3staves and separatepp/mp cues;do not merge by equal dynamic text or brace.",
+      "Ncross-head/gliss endpoint requires its own definition;new approximate-pitch chapter does not define it."
+    ]
+  },
+  "whole_score_closeout": {
+    "id": "A014",
+    "full_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "prior_note": "corpus/READING_003.md#A014",
+    "old_questions": [
+      "E/Fsustained ink and attack density differ;preserve precise ties and separate motion.",
+      "F/J/Lrepeat beam and hand groups remain predictable;do not trace every pitch with beam or force fixed gaps.",
+      "K/Ldensity,staff space andtempo/dynamic entry points change;preserve content-dependent layout."
+    ],
+    "unresolved": "Ncross-head/gliss endpoint definition,complete pitch/ratio/playback andphysical turns/print unverified;no native replacement."
+  },
+  "new_book_scope": {
+    "new_technical_printed_pages": [
+      647,
+      648,
+      649
+    ],
+    "new_reference_table_printed_pages": [
+      652
+    ],
+    "new_substantive_pages": 4,
+    "new_ancillary_pdf_pages": [
+      670,
+      671
+    ],
+    "new_ancillary_pages": 2,
+    "note": "Four substantive pages include one terminology table;not four new engraving-rule pages. Physical670blank,671appendix title."
+  },
+  "new_book_reading": "Choices:seamless continuation,either/or,parameter limits,optional additional material andinserts require explicit conditions. Terms652:EnglishB/Bflat differs fromGermanH/B;do not rewrite rehearsal letters or infer Xdefinition.",
+  "deltas": {
+    "fixed_deep_scores": 0,
+    "fixed_deep_pages": 0,
+    "all_corpus_closeouts": 1,
+    "closeout_pages": 6,
+    "skill_scenarios": 1,
+    "resources": 0,
+    "native_runs": 0,
+    "software_adaptation": false
+  },
+  "recorded_at_utc": "2026-10-24T13:29:22.195997+00:00",
+  "validation": {
+    "checked_at_utc": "2026-10-24T13:49:26.211948+00:00",
+    "progress": {
+      "as_of": "2026-10-24",
+      "scope_revision": 1,
+      "goal_status": "active",
+      "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+      "first_pass_scores": [
+        146,
+        146
+      ],
+      "first_pass_pages": [
+        1135,
+        1135
+      ],
+      "historical_detail_pages": 379,
+      "deep_scores": [
+        24,
+        24
+      ],
+      "deep_pages": [
+        164,
+        164
+      ],
+      "all_score_closeout": [
+        20,
+        146
+      ],
+      "gould_pages_conservative": [
+        372,
+        696
+      ],
+      "gould_substantive_pages": 359,
+      "gould_non_substantive_pages": 13,
+      "gould_title_or_contents_pages": 13,
+      "public_resource_scopes": [
+        10,
+        25
+      ],
+      "skill_transfer_scenarios": [
+        5,
+        8
+      ],
+      "user_integrated_rounds": [
+        0,
+        1
+      ],
+      "user_milestones": [
+        2,
+        4
+      ],
+      "skill_topics": [
+        20,
+        20
+      ],
+      "release": "engraving-v0.4.0"
+    },
+    "source_hashes_rechecked": 2,
+    "frozen_initial_hashes_rechecked": 1,
+    "actual_image_hashes_rechecked": 39,
+    "full_score_pages": 6,
+    "fresh_complete_system_details": 15,
+    "old_complete_book_pages": 12,
+    "new_substantive_book_pages": 4,
+    "new_reference_table_pages": 1,
+    "new_ancillary_book_pages": 2,
+    "source_systems": 35,
+    "source_full_bars": 152,
+    "source_section_labels": 16,
+    "source_boundaries_and_glyphs_reexecuted": true,
+    "F_left_hand_handoff_heads": 4,
+    "G_same_height_tenutos": 3,
+    "E_upper_rest_and_lower_octave_common_column": true,
+    "all20_locator_topics_executed": true,
+    "markings_and_beams_resolve_case": true,
+    "skill_format": "Skill is valid!",
+    "local_links": 505,
+    "local_anchors": 14,
+    "explicit_change_manifest_matched": true,
+    "tracked_deletions": 0,
+    "historical_certificates_unchanged": {
+      "release_0_2_0_evidence.json": "eae472601c90c90763f6b175f8af65ba02cea1514384cd96126764e97061ba81",
+      "release_0_3_0_evidence.json": "4340bb9f354bb7fd3f65f08dee3baeefda1e0a5eb3cf42f263aa92146470fdfd",
+      "release_0_4_0_evidence.json": "b28867de7b3bfb4d62342acfad20fdd2c321e76a402986b81ec31500f1d90927"
+    },
+    "historical_tags": {
+      "engraving-v0.1.0": "f72bb2b313d27c392d7c5a203b593f7f6ea8a24b",
+      "engraving-v0.2.0": "15fb76d0574bcbfb0002c547f66ad4a49671390b",
+      "engraving-v0.3.0": "df675cd8385d10670e7558b986eb93c9ff752ad8",
+      "engraving-v0.4.0": "a4fa5cfe7a911d53e7f1b68a2aeccdadcce7015d"
+    },
+    "batch_cache_logical_bytes_before_validation_output": 3539013,
+    "all_engraving_cache_logical_bytes": 2426156365,
+    "native_runs": 0,
+    "software_adaptation": false,
+    "coverage_not_mastery_or_accuracy": true
+  }
+}

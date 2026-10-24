@@ -31,7 +31,8 @@
       "A146",
       "A001",
       "A004",
-      "A012"
+      "A012",
+      "A014"
     ],
     "closeout_records": {
       "A098": {
@@ -128,6 +129,11 @@
         "note": "SKILL_TRANSFER_CLEFS.md",
         "evidence": "skill_transfer_clefs_evidence.json",
         "unresolved": "m56local loco needs native comparison;no full pitch/ratio/hand/pedal/playback audit or physical turn/print proof. Under-staff8va reader direction established by Gouldp28."
+      },
+      "A014": {
+        "note": "SKILL_TRANSFER_MARKINGS.md",
+        "evidence": "skill_transfer_markings_evidence.json",
+        "unresolved": "Ncross-head/gliss endpoint definition,complete pitch/ratio/playback andphysical turns/print unverified;no native replacement."
       }
     }
   },
@@ -423,7 +429,11 @@
       ],
       [
         609,
-        646
+        649
+      ],
+      [
+        652,
+        652
       ]
     ],
     "verified_pdf_offset": 20,
@@ -440,7 +450,9 @@
       609,
       610,
       627,
-      628
+      628,
+      670,
+      671
     ],
     "ledger_reconciliations": [
       {
@@ -683,6 +695,42 @@
           324,
           325
         ]
+      },
+      {
+        "date": "2026-10-24",
+        "evidence": "skill_transfer_markings_evidence.json",
+        "new_substantive_printed_ranges": [
+          [
+            647,
+            649
+          ],
+          [
+            652,
+            652
+          ]
+        ],
+        "new_substantive_pages": 4,
+        "new_reference_table_pages": 1,
+        "new_unique_pages": 6,
+        "new_ancillary_pages": 2,
+        "new_ancillary_pdf_pages": [
+          670,
+          671
+        ],
+        "reread_printed_pages": [
+          305,
+          306,
+          310,
+          311,
+          315,
+          316,
+          323,
+          104,
+          105,
+          119,
+          121,
+          42
+        ]
       }
     ]
   },
@@ -870,8 +918,11 @@
       {
         "id": "T05",
         "task": "梁弧、力度与文字的归属及误报",
-        "status": "pending",
-        "reference": "CURVES_STUDY.md"
+        "status": "complete",
+        "reference": "SKILL_TRANSFER_MARKINGS.md",
+        "evidence": "skill_transfer_markings_evidence.json",
+        "evaluation_mode": "Root-only preselected p3then frozen initial on historically first-pass-known score;not independent or blind.",
+        "remaining_limit": "One read-only application;uncertain bracket identity resolved during verification;no native replacement,user aesthetic choice or accuracy claim"
       },
       {
         "id": "T06",
@@ -930,24 +981,25 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged. SubsequentA001/A004whole question closeouts5pages make18/146; Gould8new technical+2ancillary makes357/696=349+8. Fixed24/24and164/164,resources10/25,transfer2/8unchanged.0.4.0release snapshot/tag/certificate remain immutable. SubsequentT03root-only rhythm scenario evaluated with material initial count/beam correction; transfer3/8. Gould3new ancillary leaves make360/696=349technical+11ancillary; no new technical coverage,deep/corpus closeout,resource or native increment.0.4.0snapshot unchanged. SubsequentT04clef/ottava application plusA012whole closeout6pages:transfer4/8,all-corpus19/146. Gould6new technical pages641-646make366/696=355+11. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no new native/adaptation."
+    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged. SubsequentA001/A004whole question closeouts5pages make18/146; Gould8new technical+2ancillary makes357/696=349+8. Fixed24/24and164/164,resources10/25,transfer2/8unchanged.0.4.0release snapshot/tag/certificate remain immutable. SubsequentT03root-only rhythm scenario evaluated with material initial count/beam correction; transfer3/8. Gould3new ancillary leaves make360/696=349technical+11ancillary; no new technical coverage,deep/corpus closeout,resource or native increment.0.4.0snapshot unchanged. SubsequentT04clef/ottava application plusA012whole closeout6pages:transfer4/8,all-corpus19/146. Gould6new technical pages641-646make366/696=355+11. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no new native/adaptation. SubsequentT05andA014whole6page closeout:transfer5/8,corpus20/146. Gould372/696=359substantive+13ancillary;new3technical+1terms table+2ancillary. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no native/adaptation."
   },
   "last_study_batch": {
     "date": "2026-10-24",
-    "scope": "T04preselected A012p3,then six-page whole question closeout;12complete-system details,13old book and6new technical pages",
+    "scope": "T05p3preselected then A014six-page closeout;15system details,12old book,3new technical,1new terms table and2ancillary pages",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 1,
     "new_all_score_closeout_pages": 6,
     "new_unique_ledger_book_pages": 6,
-    "new_substantive_book_pages": 6,
-    "new_ancillary_book_pages": 0,
+    "new_substantive_book_pages": 4,
+    "new_reference_table_pages": 1,
+    "new_ancillary_book_pages": 2,
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 1,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "SKILL_TRANSFER_CLEFS.md"
+      "SKILL_TRANSFER_MARKINGS.md"
     ],
-    "review_evidence": "skill_transfer_clefs_evidence.json"
+    "review_evidence": "skill_transfer_markings_evidence.json"
   }
 }
