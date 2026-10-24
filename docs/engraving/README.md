@@ -1,12 +1,14 @@
 # 钢琴净书研究：规范、案例与实现依据
 
-最新续学[Madoka组曲十页](INTEGRATED_READING_MADOKA.md)：独立休止与突出旋律的附加干分判；段前准备、跨换拍tie和两手延迟进入各有位置，行容量随拍号及活动密度变化。累计18/24首、120/164页，回查10/146；14个教材页均复读，Gould311/696、迁移2/8保持。已接现有skill，0.3.0标签保持。
+2026-10-24补齐[LilyPond净书原理](AUTOMATED_ENGRAVING_JUDGMENT.md)：21/21正文／书目网页、55/55不同图及32份片段，另核一个共用include。结合既有定向间距阅读，R19范围闭合，资料10/25；官谱18/24、Gould321/696、迁移2/8保持。新补候选评分的证据限制、出版变体及无碰撞仍难读的判断，已接skill；没有新原生候选或软件适配。
+
+上一批续学[Madoka组曲十页](INTEGRATED_READING_MADOKA.md)：独立休止与突出旋律的附加干分判；段前准备、跨换拍tie和两手延迟进入各有位置，行容量随拍号及活动密度变化。累计18/24首、120/164页，回查10/146；14个教材页均复读，Gould311/696、迁移2/8保持。已接现有skill，0.3.0标签保持。
 
 前一批补入[Giorno五页整曲](INTEGRATED_READING_GIORNO.md)：对照主题加厚、切分、梁弧分工与密度变化，复核行中入口／跨页返回，并区分末尾交接与双滑奏。该批后累计17/24首、110/164页，回查9/146；17个教材页均复读，Gould311/696、迁移2/8保持。0.3.0发布快照及证据不改写。
 
 本库用于解释出版谱为什么这样排，并据此对当前钢琴谱作出保留、建议或副本候选。关注拍组、声部、手、持续、标记归属与导航的阅读收益；整齐不能单由等距、统一线高或固定小节数定义。
 
-更新：2026-10-23。所属计划：[ENGRAVING_PLAN](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN](../FONT_PLAN.md)。当前可用于只读诊断及少量有依据的原生副本比较；尚未完成全谱自动净书、全部规范的掌握或个人细微审美的确认。本阶段不开发 MuseScore／MCP／插件适配。
+更新：2026-10-24。所属计划：[ENGRAVING_PLAN](../ENGRAVING_PLAN.md)；字体线：[FONT_PLAN](../FONT_PLAN.md)。当前可用于只读诊断及少量有依据的原生副本比较；尚未完成全谱自动净书、全部规范的掌握或个人细微审美的确认。本阶段不开发 MuseScore／MCP／插件适配。
 
 ## 阅读入口
 
@@ -19,7 +21,7 @@
 | 当前要判断什么 | 从这里进入 |
 | --- | --- |
 | 整页里哪些值得改、哪些该保留 | [用户整谱](WHOLE_SCORE_REVIEW.md)、[综合应用](INTEGRATED_REVIEW.md)、[ninelie](INTEGRATED_READING_NINELIE.md)、[Kakyoin’s Theme整曲与历史试读](INTEGRATED_READING_KAKYOIN.md)、[Kaikai Kitan整首](INTEGRATED_READING_KAIKAI.md) |
-| 同值音忽宽忽窄、左右手与变音占位 | [间距取舍](SPACING_DECISIONS.md)、[变音列](ACCIDENTAL_SPACING.md)、[实曲迁移](SPACING_TRANSFER.md)；其它原生比较见[用户应用](USER_SPACING_APPLICATION.md)与[候选](SPACING_CANDIDATES.md) |
+| 同值音忽宽忽窄、左右手与变音占位 | [候选判断](AUTOMATED_ENGRAVING_JUDGMENT.md)、[间距取舍](SPACING_DECISIONS.md)、[变音列](ACCIDENTAL_SPACING.md)、[实曲迁移](SPACING_TRANSFER.md)；其它原生比较见[用户应用](USER_SPACING_APPLICATION.md)与[候选](SPACING_CANDIDATES.md) |
 | 拍组、切分、梁层级与干长 | [节拍阅读](RHYTHM_READING.md)、[梁干](BEAM_STEM_STUDY.md)、[跨表梁与休止](CROSS_STAFF_STUDY.md) |
 | 快慢层、手与谱表不一致 | [钢琴织体](PIANO_TEXTURE_STUDY.md)、[Akuma no Ko整首](INTEGRATED_READING_AKUMA.md)、[同音附点](UNISON_DOTS_STUDY.md)、[二度归属](SECONDS_OWNERSHIP.md) |
 | tie／slur与持续、续行或疑似断口 | [弧线](CURVES_STUDY.md)、[持续与休止](SUSTAIN_AND_RESTS.md)、[持音提示](SUSTAIN_CONTINUATION.md)、[输出核查](OUTPUT_READING.md) |

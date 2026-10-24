@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope_revision": 1,
-  "as_of": "2026-10-23",
+  "as_of": "2026-10-24",
   "goal_status": "active",
   "goal": "理解全部新官谱及已有资料的排版理由，形成可迁移判断、持续可用的知识库与skill；后续自动净书适配本阶段不做。",
   "counting_policy": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
@@ -517,7 +517,10 @@
       {
         "id": "R19",
         "scope": "LilyPond：essay及定向间距文档／谱例／源码",
-        "status": "partial"
+        "status": "complete",
+        "note": "AUTOMATED_ENGRAVING_JUDGMENT.md",
+        "evidence": "lily_essay_reading_evidence.json",
+        "remaining_limit": "Reading scope closed, not entire manuals/mastery. No compilation or scorer validation; spacing-default discrepancy remains recorded; R24 stays partial."
       },
       {
         "id": "R20",
@@ -648,22 +651,22 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "Snapshot engraving-v0.3.0 stays at16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. Subsequent A047 and A085 whole readings make the working branch18/24,120/164 and10/146 closeouts; no new book coverage, transfer scenario, native candidate or software adaptation."
+    "working_branch_note": "Snapshot engraving-v0.3.0 stays at16/24 deep scores,105/164 pages,311/696 Gould pages and2/8 skill scenarios. Subsequent A047 and A085 whole readings make the working branch18/24,120/164 and10/146 closeouts; no new book coverage, transfer scenario, native candidate or software adaptation. Oct24 R19 essay/targeted-spacing reading scope closes, resources10/25; no new score/book/transfer/native counts. See lily_essay_reading_evidence.json."
   },
   "last_study_batch": {
-    "date": "2026-10-23",
-    "scope": "Single-agent known A085 ten-page whole-score review,12 new crops,one reused tempo detail and14 old complete Gould pages",
-    "new_deep_scores": 1,
-    "new_deep_pages": 10,
-    "new_all_score_closeouts": 1,
-    "new_complete_resource_scopes": 0,
+    "date": "2026-10-24",
+    "scope": "Single-agent complete essay body/bibliography and figures/source reading, linked to prior targeted spacing scope",
+    "new_deep_scores": 0,
+    "new_deep_pages": 0,
+    "new_all_score_closeouts": 0,
+    "new_complete_resource_scopes": 1,
     "new_unique_ledger_book_pages": 0,
     "book_full_image_evidence_repairs": 0,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "INTEGRATED_READING_MADOKA.md"
+      "AUTOMATED_ENGRAVING_JUDGMENT.md"
     ],
-    "review_evidence": "madoka_whole_reading_evidence.json"
+    "review_evidence": "lily_essay_reading_evidence.json"
   }
 }

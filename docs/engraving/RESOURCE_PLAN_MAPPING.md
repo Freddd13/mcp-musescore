@@ -32,7 +32,7 @@
 | [Behind Bars官方目录](https://behindbarsnotation.co.uk/contents/)及用户本地书 | 已有实际图页阅读，见[教材笔记](BEHIND_BARS_NOTES.md) | 用户规划写704页，本地文件实际696页；以实际PDF/印刷映射定位，不用总页数猜章页 |
 | [MOLA](https://mola-inc.org/resources/11631) | 已核官网简体中文PDF链接及16页文件；正文PDF p3–8可读 | 2026-10-23补齐16/16页；技术p3–12为复读，英文只核3页，见[MOLA复核](MOLA_READING.md)。乐团分谱尺寸不能直接当独奏钢琴下限 |
 | [MPA](https://www.mpa.org/permission-forms-informational-pdfs/) | 已核20页PDF，前言和少量正文可提取 | 2026-10-21已补看全部20页图版，见[MPA复核](MPA_READING.md)；未做全部规则的原生验证 |
-| [LilyPond 2.26 essay](https://lilypond.org/doc/v2.26/Documentation/essay/index.html) | 已读相关正文，续看光学间距/加线/光学尺寸六图并读两份间距源码 | 未在本机编译或做同输入双引擎对照；间距两图也非固定撑满预算比较，不能把候选评分当已获用户校准 |
+| [LilyPond 2.26 essay](https://lilypond.org/doc/v2.26/Documentation/essay/index.html) | 2026-10-24补齐正文／书目21网页、55不同图、32份片段及一个共用include，结合旧18张定向间距图／源码，R19范围闭合 | 见[候选判断](AUTOMATED_ENGRAVING_JUDGMENT.md)。不含书目原著；未编译或核当前评分器，三项分数为手写示意标签，R24独立范围仍partial |
 | [MuseScore 3中文排版手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting) | 已定向读换行、拉伸、重置与样式复用正文，另有本地源码证据 | 继续核Evolution差异；不能先全谱重置清掉人工判断 |
 | [YMD基础课](https://ymdmusic.jp/academy/seminar-engraving) | 已读官网介绍/纲要、公开谱例链接 | 没有获取付费授课内容，不将课程介绍列为已学会的技术 |
 | 藤井大河 [Dorico初始设置](https://note.com/fujii_taiga_m/n/nca8f66de9948) | 已读2024-12-04文章正文，涉及重音、跨系统弧、间距比例、小节号 | 截图未看；具体默认/功能需官方版本文档核查。作者喜好不等于规范 |
