@@ -1,0 +1,2134 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "scenario": "T04",
+  "base_commit": "4a3e3f6fbfc9f1956f777d6212107532afd09e21",
+  "goal_status": "active",
+  "registration": {
+    "scenario": "T04",
+    "registered_at_utc": "2026-10-24T10:18:27.325347+00:00",
+    "base_commit": "4a3e3f6fbfc9f1956f777d6212107532afd09e21",
+    "selection": {
+      "id": "A012",
+      "relative_path": "aLIEz - Aldnoah.Zero - 2nd Ending Theme.pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\aLIEz - Aldnoah.Zero - 2nd Ending Theme.pdf",
+      "sha256": "3d3b7e91e01e8a1e36e82455aa7ad741e5bb588f287820a248f5e9d002a891d5",
+      "bytes": 326999,
+      "pages": 6,
+      "metadata": {
+        "/Author": "dell",
+        "/CreationDate": "D:20220422163336+09'00'",
+        "/ModDate": "D:20220422163336+09'00'",
+        "/Producer": "Microsoft: Print To PDF",
+        "/Title": "aLIEz (by Animenz).musx"
+      },
+      "page_sizes_pt": [
+        [
+          595.32,
+          841.92
+        ]
+      ],
+      "inventory_status": "readable"
+    },
+    "preselected_page_sequence": [
+      3,
+      6,
+      2
+    ],
+    "selection_reason": "Next short6page score outside fixed24and completed whole-score closeouts after T03sourceA010; A011was fixed/deep and exposed in general notes. Start centralp3,tryp6thenp2only if raw page lacks relevant clef/ottava/ledger choice; no case note or expected answer provided.",
+    "user_task": "使用piano-engraving skill，只读判断本页换谱号、加线和八度线的取舍；给出有理由的保留／建议，区分连续音区轮廓、其它层占位和实际范围。先存初判，再核原图、上下文和规范。",
+    "evaluation_mode": "Root-only,preselected then initial frozen; historically first-pass-known corpus,not independent or blind.",
+    "initial_generic_material_read": [
+      "skills/piano-engraving/SKILL.md",
+      "docs/engraving/README.md",
+      "docs/engraving/PREFERENCES.md",
+      "docs/engraving/JUDGMENT_GUIDE.md",
+      "docs/engraving/CLEF_READING.md",
+      "docs/engraving/OCTAVE_READING.md"
+    ],
+    "initial_skill_sha256": "32f115c9806a34b90b923faa2592da7f67a5631dbb3cb1afe1091cc7cab2e549",
+    "verification_deferred": [
+      "A012old corpus/topical case notes",
+      "Source text and geometry",
+      "Neighbouring full pages and fresh details",
+      "Original Gould page images"
+    ],
+    "first_preselected_image": {
+      "path": "tmp/engraving/corpus/A012/page-3.jpg",
+      "sha256": "3cd12af5e829425ec5314b310ff47da034ebff5133d5f7678628db1125eca332"
+    }
+  },
+  "frozen_initial": {
+    "frozen_at_utc": "2026-10-24T10:20:16.700802+00:00",
+    "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/INITIAL_ASSESSMENT.md",
+    "sha256": "e1d71130bd9695ee33dafd7ff044a6ba5101789dc672e07266c202a57443992f",
+    "raw_pages_viewed": [
+      3
+    ],
+    "case_specific_verification_started": false,
+    "text": "# T04冻结初判：A012《aLIEz》第3页\n\n仅查看预选完整p3，以及当前skill／通用换号和八度知识。此时未读A012旧笔记、邻页、PDF文本／几何或Gould原图。历史首轮看过本曲；本次为主代理预选后应用，不是独立盲测。之后的修正另记。\n\n判断：保留当前上下层的音区与反复换号，暂不以加线数量或换号次数提出改谱。下表第四至第六系统的高低谱号切换有可见目的：低点或独立低层与较高中间活动交替，同一段上表还被旋律／和弦占用。强把所有高音搬到上表可能混乱归属；低音谱号通写运行可能加重高点的加线，整段高音谱号又可能加重低点。需要放大确认各次切换具体保护了哪段，不能仅凭全页密集的谱号判差。\n\n上表E后段与F段有多处高点，仍保留实际加线与八度和弦的轮廓。本页未见明确的8va长线；不能由“有高音”推导必须补线。若连续高区很长，可比较八度记法，但须核同表其它低层和整个动作的边界；当前先保留，后查实际最高／最低位置与邻段。\n\n值得专查的位置是第四系统第一小节：下表低部独立起音、休止、高音谱号、运行及中途回低音谱号靠得较近，另一层在下方也有休止。须确认换号生效处和两层同时参照；不能把“休止后换号”当作可统一移动到小节线的指令。同一梁组内换号会增加坐标切换，但若保另一低层的进入，可能有必要。后查有无更清楚的材料边界，再决定建议。\n\nF起两手同时有连续材料，低部小音／短值入口在高音谱号前、运行后又见低音谱号。它们是否装饰小音、哪些是主要值以及是否跨梁，不在当前缩图锁定。页末还留低音谱号提醒下一页，需看p4实际入口，不能当作重复无用的谱号删去。\n\n本轮候选条件：先保持全部音高、持续和归属；只在确认某次换号切断完整音型且有更清楚边界时另提记法方案。不能隐藏谱号换取更均匀间距，也不按单音阈值自动改号。本页未提出已验证的替代排版。\n"
+  },
+  "evaluation_mode": "Root-only preselected page3, frozen before case verification; historically first-pass-known score, not independent or blind.",
+  "source": {
+    "id": "A012",
+    "relative_path": "aLIEz - Aldnoah.Zero - 2nd Ending Theme.pdf",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\aLIEz - Aldnoah.Zero - 2nd Ending Theme.pdf",
+    "sha256": "3d3b7e91e01e8a1e36e82455aa7ad741e5bb588f287820a248f5e9d002a891d5",
+    "bytes": 326999,
+    "pages": 6,
+    "metadata": {
+      "/Author": "dell",
+      "/CreationDate": "D:20220422163336+09'00'",
+      "/ModDate": "D:20220422163336+09'00'",
+      "/Producer": "Microsoft: Print To PDF",
+      "/Title": "aLIEz (by Animenz).musx"
+    },
+    "page_sizes_pt": [
+      [
+        595.32,
+        841.92
+      ]
+    ],
+    "inventory_status": "readable"
+  },
+  "source_protection": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\aLIEz - Aldnoah.Zero - 2nd Ending Theme.pdf",
+      "expected_sha256": "3d3b7e91e01e8a1e36e82455aa7ad741e5bb588f287820a248f5e9d002a891d5"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "expected_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "images": [
+    {
+      "page": 1,
+      "path": "tmp/engraving/corpus/A012/page-1.jpg",
+      "sha256": "15755ee843d07d31fbbc1c228a96e90cd53fc79e798a88817519e7cde98c946f",
+      "source_id": "A012",
+      "role": "whole-score verification context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 2,
+      "path": "tmp/engraving/corpus/A012/page-2.jpg",
+      "sha256": "50aae9e55c63dc6b6d7afa0114afa9400ea6f52bac11508c91718dc0ea79ca9c",
+      "source_id": "A012",
+      "role": "whole-score verification context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "path": "tmp/engraving/corpus/A012/page-3.jpg",
+      "sha256": "3cd12af5e829425ec5314b310ff47da034ebff5133d5f7678628db1125eca332",
+      "source_id": "A012",
+      "role": "preselected initial then context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 4,
+      "path": "tmp/engraving/corpus/A012/page-4.jpg",
+      "sha256": "d74347ece8df338342a5eb3572fcf3ee5e7e1aef490faf6615a93040e9f4050c",
+      "source_id": "A012",
+      "role": "whole-score verification context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 5,
+      "path": "tmp/engraving/corpus/A012/page-5.jpg",
+      "sha256": "1afb6587982054473b74f0ed4d1e045f4710f430f32a75c1ade58b1d86718b5c",
+      "source_id": "A012",
+      "role": "whole-score verification context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 6,
+      "path": "tmp/engraving/corpus/A012/page-6.jpg",
+      "sha256": "24f20d0cad633011c755298a4160670410afadb828eca313547bc722b11cb315",
+      "source_id": "A012",
+      "role": "whole-score verification context",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 1,
+      "system": 1,
+      "source_box_pt": [
+        30,
+        167.0,
+        565,
+        327.16
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p1-s1.jpg",
+      "sha256": "02242a053122b287c11be6da16de8f414fbc52f4f3e125ed834aac2bfd5c948a",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 3,
+      "source_box_pt": [
+        30,
+        274.04,
+        565,
+        434.2
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p3-s3.jpg",
+      "sha256": "130e5fca805fe01d2d40ed0c08cce6b74a464c9ab4d79577d10c2c1b1c0f7946",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 4,
+      "source_box_pt": [
+        30,
+        399.56,
+        565,
+        559.72
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p3-s4.jpg",
+      "sha256": "df450ae8da83e8056380446ec0d2cf50d7095aeaa52880812e973ded3ceaadff",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 5,
+      "source_box_pt": [
+        30,
+        525.08,
+        565,
+        685.24
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p3-s5.jpg",
+      "sha256": "2f5ce3ae295f4e1a5f68eb336158193f473de6ec46514f3ec434e6fc7d399dcb",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 3,
+      "system": 6,
+      "source_box_pt": [
+        30,
+        650.48,
+        565,
+        810.76
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p3-s6.jpg",
+      "sha256": "d5fcb4db70da67b0a855610a1e086795eccfe40acbf18cf10e69bec64b4a601e",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 4,
+      "system": 1,
+      "source_box_pt": [
+        30,
+        23.120000000000005,
+        565,
+        183.28
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p4-s1.jpg",
+      "sha256": "35ca1ac9d1190d38847ff612766bd3a51594f70b69fb98e4bf05a0683201f06f",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 4,
+      "system": 6,
+      "source_box_pt": [
+        30,
+        650.48,
+        565,
+        810.76
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p4-s6.jpg",
+      "sha256": "6cc575796fa93390ee30d90445e3afd40e53b69adc225bb58731d585aa5973f5",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 5,
+      "system": 1,
+      "source_box_pt": [
+        30,
+        23.120000000000005,
+        565,
+        183.28
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p5-s1.jpg",
+      "sha256": "eda8a9018126b5885d2a28d3dea9d9f9518dbfb113bd0603e391492130af9552",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 5,
+      "system": 3,
+      "source_box_pt": [
+        30,
+        274.04,
+        565,
+        434.2
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p5-s3.jpg",
+      "sha256": "48c01ccfc80ab47c111b0f63196bc1e84c3448114b5326921d6744c1c5506132",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 6,
+      "system": 1,
+      "source_box_pt": [
+        30,
+        23.120000000000005,
+        565,
+        183.28
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p6-s1.jpg",
+      "sha256": "7a21d6da0927be19d4a419e39c2cfbcbc29952e2e7ab0f7dc3a7507eea014fb6",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 6,
+      "system": 5,
+      "source_box_pt": [
+        30,
+        525.08,
+        565,
+        685.24
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p6-s5.jpg",
+      "sha256": "c5b793ef3416024e7768ffdf22cd0f11b4cf8cb61184b1fbbf32d1e3e454a4ad",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "page": 6,
+      "system": 6,
+      "source_box_pt": [
+        30,
+        650.48,
+        565,
+        810.76
+      ],
+      "scale": 4,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/p6-s6.jpg",
+      "sha256": "13affaadfb1dd70bd998553789cd366847e63228d1dcccb325bb7733d0d3cb5a",
+      "source_id": "A012",
+      "role": "fresh complete-system region",
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 7,
+      "pdf_page": 27,
+      "path": "tmp/engraving/clef-changes-2026-10-20/book-27-without-annotation-icons.png",
+      "sha256": "2a49cfd290c4af599bca377f2bf656ef846368219f9985c028d5644075357467",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 8,
+      "pdf_page": 28,
+      "path": "tmp/engraving/clef-changes-2026-10-20/book-28-without-annotation-icons.png",
+      "sha256": "b7fb40dc3497a1b9093c0485c8b9a41b053b9ef498c140b2787869f89576e920",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 9,
+      "pdf_page": 29,
+      "path": "tmp/engraving/clef-changes-2026-10-20/book-29-without-annotation-icons.png",
+      "sha256": "0c269ebdf0539d22b669e07b6484e16afbff433e806bbd2c6f691dc07ce5f141",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 303,
+      "pdf_page": 323,
+      "path": "tmp/engraving/clef-changes-2026-10-20/book-323-without-annotation-icons.png",
+      "sha256": "2d7f30206b73abebdaa368efcedd5f75215f54c848de7da030d9aece3f303c01",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 304,
+      "pdf_page": 324,
+      "path": "tmp/engraving/clef-changes-2026-10-20/book-324-without-annotation-icons.png",
+      "sha256": "86b88fa0eac1f547557b49be7b4ba974bd1bb69bd0b5aa10dd519a4a2382827f",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 28,
+      "pdf_page": 48,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p28.jpg",
+      "sha256": "29cb51b943789802c36e0cc7f5039853ad97a862ad5a4455874bc3c2c86f92e0",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 29,
+      "pdf_page": 49,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p29.jpg",
+      "sha256": "8a425f2836374150104420acefd3e3344c637f6cba802e659da1e9429f650fb4",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 30,
+      "pdf_page": 50,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p30.jpg",
+      "sha256": "7284744425ae348c9508819e503beb430b4f630c1fc5679d754c30eeed6d1799",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 32,
+      "pdf_page": 52,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p32.jpg",
+      "sha256": "9e46b3c359fbf35faf09f36b3dc2c8ae60341e215cc1b12c442df833891d6ed4",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 33,
+      "pdf_page": 53,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p33.jpg",
+      "sha256": "976c66a3936ef2854bed4a6331b465c285bac52a9d3eb3d9a5bc3dc8da0e19a6",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 34,
+      "pdf_page": 54,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p34.jpg",
+      "sha256": "25a265b167ad25dc8352d1b0fb8f67fd932ecc098458c2e8bdddb9d999ff3f28",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 324,
+      "pdf_page": 344,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p324.jpg",
+      "sha256": "0312d04e27272e06b5e8a7107d2f94ce05c3a2da0aac85e44ac8dc777296e150",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 325,
+      "pdf_page": 345,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p325.jpg",
+      "sha256": "d91248adaef495947c61800e3339e9a0bd7eebb14a1d79b5f7a799b1910b6282",
+      "role": "complete technical page reread",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": false
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 641,
+      "pdf_page": 661,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/book-p641.jpg",
+      "sha256": "aec31cb11f7ebd71a1e44a50ce9f35751f0883b62183abb39fd77f5f39c0cb23",
+      "role": "new complete technical page",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": true
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 642,
+      "pdf_page": 662,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/book-p642.jpg",
+      "sha256": "e9137eb5116bad8431a08f5e6e3c23ebbd8690729ef70f6d71d3bff1d553ebe3",
+      "role": "new complete technical page",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": true
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 643,
+      "pdf_page": 663,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/book-p643.jpg",
+      "sha256": "77b5b777e741f2677334983dad5cab3b551c34489ea6ab2594ad2744d495892e",
+      "role": "new complete technical page",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": true
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 644,
+      "pdf_page": 664,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/book-p644.jpg",
+      "sha256": "72b081ee65f2a626fc69dae5c0fe83c288830d452a74fde1f733efdf6d5e4a76",
+      "role": "new complete technical page",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": true
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 645,
+      "pdf_page": 665,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/book-p645.jpg",
+      "sha256": "170d8acb1d091c9a85d753da2d815d4fd45375d8d0a768c7e0f0d4c7e1e05d2b",
+      "role": "new complete technical page",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": true
+    },
+    {
+      "source_id": "Gould",
+      "printed_page": 646,
+      "pdf_page": 666,
+      "path": "tmp/engraving/skill-transfer-clefs-2026-10-24/book-p646.jpg",
+      "sha256": "06b36ddd852d75e06e7c5db5bf6bf3a4f175bade153d16ae089c467f1d0038e2",
+      "role": "new complete technical page",
+      "substantive": true,
+      "actually_viewed": true,
+      "new_ledger_coverage": true
+    }
+  ],
+  "initial_to_verified": [
+    {
+      "initial": "Preservep3clefs/ledger distribution; uncertain small/short lower F entry.",
+      "verified": "Preserve;F/m49has16normal-size sixteenth heads,firstC3then15head run underGclef,thenFclef before nextbar.",
+      "assessment": "Primary preserve judgment retained; ambiguous note identity resolved, no initial pitch ratio was locked."
+    },
+    {
+      "initial": "Page-end bass clef might be useful for next page; inspect.",
+      "verified": "p4starts with low lower-staff entry; preserve pre-page bass reference."
+    }
+  ],
+  "verification_context_new_finding": "m56same written B5 repeats after 8va tail; recommend comparing local loco per Gouldp34. This is a context finding beyond frozen p3input,not an initial detection claim.",
+  "manual_source_geometry_and_reading": {
+    "manual_capacity_source_boundaries": [
+      {
+        "page": 1,
+        "path": "tmp/engraving/corpus/A012/page-1.jpg",
+        "sha256": "15755ee843d07d31fbbc1c228a96e90cd53fc79e798a88817519e7cde98c946f",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 216.0,
+            "bottom_pt": 284.16,
+            "raw_boundary_x_pt": [
+              36.24,
+              188.879997,
+              307.55999025,
+              426.35998499999994,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                188.879997
+              ],
+              [
+                307.55999025
+              ],
+              [
+                426.35998499999994
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 1
+          },
+          {
+            "top_pt": 337.08,
+            "bottom_pt": 405.24,
+            "raw_boundary_x_pt": [
+              36.24,
+              167.04000075,
+              283.0800015,
+              399.24000525,
+              556.800018,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                167.04000075
+              ],
+              [
+                283.0800015
+              ],
+              [
+                399.24000525
+              ],
+              [
+                556.800018,
+                558.96002175
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 5
+          },
+          {
+            "top_pt": 458.16,
+            "bottom_pt": 526.32,
+            "raw_boundary_x_pt": [
+              36.24,
+              188.16000375000002,
+              315.24000524999997,
+              433.43998725,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                188.16000375000002
+              ],
+              [
+                315.24000524999997
+              ],
+              [
+                433.43998725
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 9
+          },
+          {
+            "top_pt": 579.0,
+            "bottom_pt": 647.16,
+            "raw_boundary_x_pt": [
+              36.24,
+              221.63999175,
+              392.2799835,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                221.63999175
+              ],
+              [
+                392.2799835
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 13
+          },
+          {
+            "top_pt": 690.36,
+            "bottom_pt": 758.52,
+            "raw_boundary_x_pt": [
+              36.24,
+              222.36000825,
+              224.400009,
+              392.64001500000006,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                222.36000825,
+                224.400009
+              ],
+              [
+                392.64001500000006
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 16
+          }
+        ]
+      },
+      {
+        "page": 2,
+        "path": "tmp/engraving/corpus/A012/page-2.jpg",
+        "sha256": "50aae9e55c63dc6b6d7afa0114afa9400ea6f52bac11508c91718dc0ea79ca9c",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.12,
+            "bottom_pt": 140.28,
+            "raw_boundary_x_pt": [
+              36.24,
+              225.0,
+              376.9199985,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                225.0
+              ],
+              [
+                376.9199985
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 19
+          },
+          {
+            "top_pt": 197.52,
+            "bottom_pt": 265.8,
+            "raw_boundary_x_pt": [
+              36.24,
+              224.28000674999998,
+              375.48001125,
+              556.800018,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                224.28000674999998
+              ],
+              [
+                375.48001125
+              ],
+              [
+                556.800018,
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 22
+          },
+          {
+            "top_pt": 323.04,
+            "bottom_pt": 391.2,
+            "raw_boundary_x_pt": [
+              36.24,
+              224.400009,
+              393.7200165,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                224.400009
+              ],
+              [
+                393.7200165
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 25
+          },
+          {
+            "top_pt": 448.56,
+            "bottom_pt": 516.72,
+            "raw_boundary_x_pt": [
+              36.24,
+              219.0,
+              385.800018,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                219.0
+              ],
+              [
+                385.800018
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 28
+          },
+          {
+            "top_pt": 574.08,
+            "bottom_pt": 642.24,
+            "raw_boundary_x_pt": [
+              36.24,
+              233.51998874999998,
+              390.48001124999996,
+              392.64001500000006,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                233.51998874999998
+              ],
+              [
+                390.48001124999996,
+                392.64001500000006
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 31
+          },
+          {
+            "top_pt": 699.48,
+            "bottom_pt": 767.76,
+            "raw_boundary_x_pt": [
+              36.24,
+              220.91999850000002,
+              382.44000975,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                220.91999850000002
+              ],
+              [
+                382.44000975
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 34
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "path": "tmp/engraving/corpus/A012/page-3.jpg",
+        "sha256": "3cd12af5e829425ec5314b310ff47da034ebff5133d5f7678628db1125eca332",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.12,
+            "bottom_pt": 140.28,
+            "raw_boundary_x_pt": [
+              36.24,
+              227.51998874999998,
+              393.24000525,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                227.51998874999998
+              ],
+              [
+                393.24000525
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 37
+          },
+          {
+            "top_pt": 197.52,
+            "bottom_pt": 265.8,
+            "raw_boundary_x_pt": [
+              36.24,
+              236.16000375,
+              238.32000750000003,
+              385.91999849999996,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                236.16000375,
+                238.32000750000003
+              ],
+              [
+                385.91999849999996
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 40
+          },
+          {
+            "top_pt": 323.04,
+            "bottom_pt": 391.2,
+            "raw_boundary_x_pt": [
+              36.24,
+              235.08000149999998,
+              406.08000150000004,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                235.08000149999998
+              ],
+              [
+                406.08000150000004
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 43
+          },
+          {
+            "top_pt": 448.56,
+            "bottom_pt": 516.72,
+            "raw_boundary_x_pt": [
+              36.24,
+              231.36000825,
+              394.91999849999996,
+              556.800018,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                231.36000825
+              ],
+              [
+                394.91999849999996
+              ],
+              [
+                556.800018,
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 46
+          },
+          {
+            "top_pt": 574.08,
+            "bottom_pt": 642.24,
+            "raw_boundary_x_pt": [
+              36.24,
+              233.28000674999998,
+              389.88002025,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                233.28000674999998
+              ],
+              [
+                389.88002025
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 49
+          },
+          {
+            "top_pt": 699.48,
+            "bottom_pt": 767.76,
+            "raw_boundary_x_pt": [
+              36.24,
+              232.44000975,
+              395.51998875000004,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                232.44000975
+              ],
+              [
+                395.51998875000004
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 52
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "path": "tmp/engraving/corpus/A012/page-4.jpg",
+        "sha256": "d74347ece8df338342a5eb3572fcf3ee5e7e1aef490faf6615a93040e9f4050c",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.12,
+            "bottom_pt": 140.28,
+            "raw_boundary_x_pt": [
+              36.24,
+              224.16000375,
+              409.6799925,
+              411.83999625,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                224.16000375
+              ],
+              [
+                409.6799925,
+                411.83999625
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 55
+          },
+          {
+            "top_pt": 197.52,
+            "bottom_pt": 265.8,
+            "raw_boundary_x_pt": [
+              36.24,
+              231.95999924999998,
+              400.08000150000004,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                231.95999924999998
+              ],
+              [
+                400.08000150000004
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 58
+          },
+          {
+            "top_pt": 323.04,
+            "bottom_pt": 391.2,
+            "raw_boundary_x_pt": [
+              36.24,
+              223.2000045,
+              393.24000525,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                223.2000045
+              ],
+              [
+                393.24000525
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 61
+          },
+          {
+            "top_pt": 448.56,
+            "bottom_pt": 516.72,
+            "raw_boundary_x_pt": [
+              36.24,
+              190.5600015,
+              192.71999325000002,
+              366.83999625,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                190.5600015,
+                192.71999325000002
+              ],
+              [
+                366.83999625
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 64
+          },
+          {
+            "top_pt": 574.08,
+            "bottom_pt": 642.24,
+            "raw_boundary_x_pt": [
+              36.24,
+              230.879997,
+              400.43998725,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                230.879997
+              ],
+              [
+                400.43998725
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 67
+          },
+          {
+            "top_pt": 699.48,
+            "bottom_pt": 767.76,
+            "raw_boundary_x_pt": [
+              36.24,
+              232.7999955,
+              381.71999325,
+              556.800018,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                232.7999955
+              ],
+              [
+                381.71999325
+              ],
+              [
+                556.800018,
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 70
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "path": "tmp/engraving/corpus/A012/page-5.jpg",
+        "sha256": "1afb6587982054473b74f0ed4d1e045f4710f430f32a75c1ade58b1d86718b5c",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.12,
+            "bottom_pt": 140.28,
+            "raw_boundary_x_pt": [
+              36.24,
+              227.879997,
+              396.24000525,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                227.879997
+              ],
+              [
+                396.24000525
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 73
+          },
+          {
+            "top_pt": 197.52,
+            "bottom_pt": 265.8,
+            "raw_boundary_x_pt": [
+              36.24,
+              248.879997,
+              404.03997825,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                248.879997
+              ],
+              [
+                404.03997825
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 76
+          },
+          {
+            "top_pt": 323.04,
+            "bottom_pt": 391.2,
+            "raw_boundary_x_pt": [
+              36.24,
+              213.95999924999998,
+              389.51998875000004,
+              391.56001275,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                213.95999924999998
+              ],
+              [
+                389.51998875000004,
+                391.56001275
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 79
+          },
+          {
+            "top_pt": 448.56,
+            "bottom_pt": 516.72,
+            "raw_boundary_x_pt": [
+              36.24,
+              237.0,
+              404.88002025,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                237.0
+              ],
+              [
+                404.88002025
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 82
+          },
+          {
+            "top_pt": 574.08,
+            "bottom_pt": 642.24,
+            "raw_boundary_x_pt": [
+              36.24,
+              234.24000524999997,
+              402.599991,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                234.24000524999997
+              ],
+              [
+                402.599991
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 85
+          },
+          {
+            "top_pt": 699.48,
+            "bottom_pt": 767.76,
+            "raw_boundary_x_pt": [
+              36.24,
+              220.91999850000002,
+              223.08000149999998,
+              391.08000150000004,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                220.91999850000002,
+                223.08000149999998
+              ],
+              [
+                391.08000150000004
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 88
+          }
+        ]
+      },
+      {
+        "page": 6,
+        "path": "tmp/engraving/corpus/A012/page-6.jpg",
+        "sha256": "24f20d0cad633011c755298a4160670410afadb828eca313547bc722b11cb315",
+        "actually_viewed": true,
+        "systems": [
+          {
+            "top_pt": 72.12,
+            "bottom_pt": 140.28,
+            "raw_boundary_x_pt": [
+              36.24,
+              223.2000045,
+              406.3200075,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                223.2000045
+              ],
+              [
+                406.3200075
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 91
+          },
+          {
+            "top_pt": 197.52,
+            "bottom_pt": 265.8,
+            "raw_boundary_x_pt": [
+              36.24,
+              226.2000045,
+              377.400009,
+              556.800018,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                226.2000045
+              ],
+              [
+                377.400009
+              ],
+              [
+                556.800018,
+                558.96002175
+              ]
+            ],
+            "written_positions": 3,
+            "first_bar_number": 94
+          },
+          {
+            "top_pt": 323.04,
+            "bottom_pt": 391.2,
+            "raw_boundary_x_pt": [
+              36.24,
+              186.359997,
+              318.0,
+              444.11997975,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                186.359997
+              ],
+              [
+                318.0
+              ],
+              [
+                444.11997975
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 97
+          },
+          {
+            "top_pt": 448.56,
+            "bottom_pt": 516.72,
+            "raw_boundary_x_pt": [
+              36.24,
+              182.75999475,
+              310.7999955,
+              433.199982,
+              556.800018,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                182.75999475
+              ],
+              [
+                310.7999955
+              ],
+              [
+                433.199982
+              ],
+              [
+                556.800018,
+                558.96002175
+              ]
+            ],
+            "written_positions": 4,
+            "first_bar_number": 101
+          },
+          {
+            "top_pt": 574.08,
+            "bottom_pt": 642.24,
+            "raw_boundary_x_pt": [
+              36.24,
+              155.16000375000002,
+              250.91999850000002,
+              346.55999025,
+              453.599991,
+              558.96002175
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                155.16000375000002
+              ],
+              [
+                250.91999850000002
+              ],
+              [
+                346.55999025
+              ],
+              [
+                453.599991
+              ],
+              [
+                558.96002175
+              ]
+            ],
+            "written_positions": 5,
+            "first_bar_number": 105
+          },
+          {
+            "top_pt": 699.48,
+            "bottom_pt": 767.76,
+            "raw_boundary_x_pt": [
+              36.24,
+              165.60000225,
+              271.7999955,
+              378.120003,
+              432.0,
+              504.83999625,
+              555.48001125,
+              558.1199797500001
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.24
+              ],
+              [
+                165.60000225
+              ],
+              [
+                271.7999955
+              ],
+              [
+                378.120003
+              ],
+              [
+                432.0
+              ],
+              [
+                504.83999625
+              ],
+              [
+                555.48001125,
+                558.1199797500001
+              ]
+            ],
+            "written_positions": 6,
+            "first_bar_number": 110
+          }
+        ]
+      }
+    ],
+    "full_bars": 115,
+    "systems": 35,
+    "section_labels": [
+      {
+        "letter": "A",
+        "page": 1,
+        "system": 3,
+        "bar": 9,
+        "x_pt": 56.04000075,
+        "top_pt": 438.27566152475,
+        "font": "CIDFont+F2",
+        "size": 12.00045074999997
+      },
+      {
+        "letter": "B",
+        "page": 1,
+        "system": 5,
+        "bar": 17,
+        "x_pt": 217.67999249999997,
+        "top_pt": 670.47564277475,
+        "font": "CIDFont+F2",
+        "size": 12.000450749999999
+      },
+      {
+        "letter": "C",
+        "page": 2,
+        "system": 3,
+        "bar": 25,
+        "x_pt": 52.679998499999996,
+        "top_pt": 303.2756615247499,
+        "font": "CIDFont+F2",
+        "size": 12.000450750000027
+      },
+      {
+        "letter": "D",
+        "page": 2,
+        "system": 5,
+        "bar": 33,
+        "x_pt": 385.56001275,
+        "top_pt": 548.91563002475,
+        "font": "CIDFont+F2",
+        "size": 12.00045074999997
+      },
+      {
+        "letter": "E",
+        "page": 3,
+        "system": 2,
+        "bar": 41,
+        "x_pt": 231.71999325000002,
+        "top_pt": 177.75564952474997,
+        "font": "CIDFont+F2",
+        "size": 12.000450750000027
+      },
+      {
+        "letter": "F",
+        "page": 3,
+        "system": 5,
+        "bar": 49,
+        "x_pt": 52.4399985,
+        "top_pt": 554.1956592747499,
+        "font": "CIDFont+F2",
+        "size": 12.00045074999997
+      },
+      {
+        "letter": "G",
+        "page": 4,
+        "system": 1,
+        "bar": 57,
+        "x_pt": 404.88002025,
+        "top_pt": 52.23564877474996,
+        "font": "CIDFont+F2",
+        "size": 12.000450750000027
+      },
+      {
+        "letter": "H",
+        "page": 4,
+        "system": 4,
+        "bar": 65,
+        "x_pt": 185.39999775,
+        "top_pt": 421.95565402475,
+        "font": "CIDFont+F2",
+        "size": 12.00045074999997
+      },
+      {
+        "letter": "I",
+        "page": 5,
+        "system": 1,
+        "bar": 73,
+        "x_pt": 47.88,
+        "top_pt": 52.23564877474996,
+        "font": "CIDFont+F2",
+        "size": 12.000450750000027
+      },
+      {
+        "letter": "J",
+        "page": 5,
+        "system": 3,
+        "bar": 81,
+        "x_pt": 386.400009,
+        "top_pt": 303.2756615247499,
+        "font": "CIDFont+F2",
+        "size": 12.000450750000027
+      },
+      {
+        "letter": "K",
+        "page": 5,
+        "system": 6,
+        "bar": 89,
+        "x_pt": 216.120003,
+        "top_pt": 679.71564877475,
+        "font": "CIDFont+F2",
+        "size": 12.000450749999999
+      },
+      {
+        "letter": "L",
+        "page": 6,
+        "system": 3,
+        "bar": 97,
+        "x_pt": 54.71999925,
+        "top_pt": 303.2756615247499,
+        "font": "CIDFont+F2",
+        "size": 12.000450750000027
+      },
+      {
+        "letter": "M",
+        "page": 6,
+        "system": 5,
+        "bar": 105,
+        "x_pt": 48.360002249999994,
+        "top_pt": 554.1956592747499,
+        "font": "CIDFont+F2",
+        "size": 12.00045074999997
+      }
+    ],
+    "F_m49_lower_first_sixteenth_and_run": [
+      {
+        "quarter_offset": "0/4",
+        "x_pt": 67.19999849999999,
+        "origin_top_pt": 635.75999075,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "F",
+        "written_letter_octave": "C3",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "1/4",
+        "x_pt": 92.879997,
+        "origin_top_pt": 644.2799795000001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "D4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "2/4",
+        "x_pt": 100.31999625,
+        "origin_top_pt": 642.1199757500001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "E4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "3/4",
+        "x_pt": 109.2000045,
+        "origin_top_pt": 652.800014,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "G3",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "4/4",
+        "x_pt": 118.2000045,
+        "origin_top_pt": 633.599987,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "B4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "5/4",
+        "x_pt": 125.64000300000001,
+        "origin_top_pt": 642.1199757500001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "E4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "6/4",
+        "x_pt": 132.95999925,
+        "origin_top_pt": 644.2799795000001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "D4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "7/4",
+        "x_pt": 143.52000075,
+        "origin_top_pt": 642.1199757500001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "E4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "8/4",
+        "x_pt": 157.2000045,
+        "origin_top_pt": 644.2799795000001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "D4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "9/4",
+        "x_pt": 166.08000149999998,
+        "origin_top_pt": 652.800014,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "G3",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "10/4",
+        "x_pt": 175.08000149999998,
+        "origin_top_pt": 642.1199757500001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "E4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "11/4",
+        "x_pt": 182.52000075,
+        "origin_top_pt": 644.2799795000001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "D4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "12/4",
+        "x_pt": 189.83999624999998,
+        "origin_top_pt": 633.599987,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "B4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "13/4",
+        "x_pt": 197.28000674999998,
+        "origin_top_pt": 642.1199757500001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "E4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "14/4",
+        "x_pt": 204.71999325000002,
+        "origin_top_pt": 644.2799795000001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "D4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      },
+      {
+        "quarter_offset": "15/4",
+        "x_pt": 215.16000375,
+        "origin_top_pt": 642.1199757500001,
+        "same_size_pt": 16.320599249999987,
+        "active_clef": "G",
+        "written_letter_octave": "E4",
+        "note": "Letter/register only; first post-clef D has printed natural; full accidental/playback collation not claimed."
+      }
+    ],
+    "F_m49_clefs": [
+      {
+        "sign": "G",
+        "x_pt": 79.4399985
+      },
+      {
+        "sign": "F",
+        "x_pt": 222.95999924999998
+      }
+    ],
+    "F_m49_lower_staff_lines_pt": [
+      625.08,
+      629.4,
+      633.6,
+      637.8,
+      642.12
+    ],
+    "m56_octave_tail": {
+      "vertical_tail": {
+        "x0": 332.28000675,
+        "x1": 332.28000675,
+        "top": 45.71999525000001,
+        "bottom": 52.1999945
+      },
+      "last_shifted_head_x": 326.51998875,
+      "first_unshifted_repeated_head_x": 340.6799925,
+      "four_same_written_B5_references": 4,
+      "manual_tie_reading": "First pair within shifted region,second pair after tail; no tie connecting across the octave change.",
+      "candidate": "Add loco near first unshifted repeated B5 to make the actual octave return explicit; compare placement before adoption."
+    },
+    "M_m106_to108_lower_octave": {
+      "printed_chars": [
+        {
+          "text": "",
+          "x0": 159.83999624999998,
+          "top": 666.318866075,
+          "fontname": "CIDFont+F1",
+          "size": 17.04067500000002
+        },
+        {
+          "text": "",
+          "x0": 162.83999624999998,
+          "top": 648.9916304757501,
+          "fontname": "CIDFont+F1",
+          "size": 16.320599249999987
+        },
+        {
+          "text": "",
+          "x0": 163.08000149999998,
+          "top": 653.8389005749999,
+          "fontname": "CIDFont+F1",
+          "size": 17.04067500000002
+        }
+      ],
+      "tail": {
+        "x0": 450.35998499999994,
+        "x1": 450.35998499999994,
+        "top": 658.9199945,
+        "bottom": 665.15999975
+      },
+      "manual_reading": "8va below lower staff means ottava bassa by Gouldp28; printed direction is interpretable, internal object/playback not inferred.",
+      "bar_boundaries_pt": [
+        36.24,
+        155.16000375000002,
+        250.91999850000002,
+        346.55999025,
+        453.599991,
+        558.96002175
+      ]
+    },
+    "manual_section_starts": {
+      "A": 9,
+      "B": 17,
+      "C": 25,
+      "D": 33,
+      "E": 41,
+      "F": 49,
+      "G": 57,
+      "H": 65,
+      "I": 73,
+      "J": 81,
+      "K": 89,
+      "L": 97,
+      "M": 105
+    }
+  },
+  "whole_score_closeout": {
+    "id": "A012",
+    "full_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "prior_note": "corpus/READING_003.md#A012",
+    "old_questions": [
+      {
+        "question": "p5three-line octave continuation and Jboundary",
+        "judgment": "Preserve continuation;tail in m80before connecting run and J/m81."
+      },
+      {
+        "question": "Jrepeated accompaniment beam contour",
+        "judgment": "Preserve predictable grouping and roles;do not redraw every pitch contour or impose flat beams."
+      },
+      {
+        "question": "Munder-staff8va direction",
+        "judgment": "Ottava bassa under Gouldp28;reader meaning established, internal object/playback not inferred."
+      }
+    ],
+    "unresolved": "m56loco placement needs native comparison;no full pitch/ratio/playback audit or physical-turn/print proof."
+  },
+  "new_book_scope": {
+    "printed_pages": [
+      641,
+      642,
+      643,
+      644,
+      645,
+      646
+    ],
+    "pdf_pages": [
+      661,
+      662,
+      663,
+      664,
+      665,
+      666
+    ],
+    "new_substantive_pages": 6,
+    "new_ancillary_pages": 0,
+    "summary": "Approximate-pitch definitions and range references; alternative-material/order frames, scope, repetition and exit instructions."
+  },
+  "deltas": {
+    "fixed_deep_scores": 0,
+    "fixed_deep_pages": 0,
+    "all_corpus_closeouts": 1,
+    "closeout_pages": 6,
+    "skill_scenarios": 1,
+    "resources": 0,
+    "native_runs": 0,
+    "software_adaptation": false
+  },
+  "recorded_at_utc": "2026-10-24T11:02:58.476555+00:00",
+  "validation": {
+    "checked_at_utc": "2026-10-24T11:14:08.551221+00:00",
+    "progress": {
+      "as_of": "2026-10-24",
+      "scope_revision": 1,
+      "goal_status": "active",
+      "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+      "first_pass_scores": [
+        146,
+        146
+      ],
+      "first_pass_pages": [
+        1135,
+        1135
+      ],
+      "historical_detail_pages": 379,
+      "deep_scores": [
+        24,
+        24
+      ],
+      "deep_pages": [
+        164,
+        164
+      ],
+      "all_score_closeout": [
+        19,
+        146
+      ],
+      "gould_pages_conservative": [
+        366,
+        696
+      ],
+      "gould_substantive_pages": 355,
+      "gould_non_substantive_pages": 11,
+      "gould_title_or_contents_pages": 11,
+      "public_resource_scopes": [
+        10,
+        25
+      ],
+      "skill_transfer_scenarios": [
+        4,
+        8
+      ],
+      "user_integrated_rounds": [
+        0,
+        1
+      ],
+      "user_milestones": [
+        2,
+        4
+      ],
+      "skill_topics": [
+        20,
+        20
+      ],
+      "release": "engraving-v0.4.0"
+    },
+    "source_hashes_rechecked": 2,
+    "frozen_initial_hashes_rechecked": 1,
+    "actual_image_hashes_rechecked": 37,
+    "full_score_pages": 6,
+    "fresh_complete_system_details": 12,
+    "old_complete_book_pages": 13,
+    "new_substantive_book_pages": 6,
+    "new_ancillary_book_pages": 0,
+    "source_systems": 35,
+    "source_full_bars": 115,
+    "source_section_labels": 13,
+    "source_boundaries_and_glyphs_reexecuted": true,
+    "F_first_bar_normal_sixteenth_heads": 16,
+    "m56_octave_tail_between_same_written_notes": true,
+    "all20_locator_topics_executed": true,
+    "clefs_and_octaves_resolve_case": true,
+    "skill_format": "Skill is valid!",
+    "local_links": 479,
+    "local_anchors": 15,
+    "explicit_change_manifest_matched": true,
+    "tracked_deletions": 0,
+    "historical_certificates_unchanged": {
+      "release_0_2_0_evidence.json": "eae472601c90c90763f6b175f8af65ba02cea1514384cd96126764e97061ba81",
+      "release_0_3_0_evidence.json": "4340bb9f354bb7fd3f65f08dee3baeefda1e0a5eb3cf42f263aa92146470fdfd",
+      "release_0_4_0_evidence.json": "b28867de7b3bfb4d62342acfad20fdd2c321e76a402986b81ec31500f1d90927"
+    },
+    "historical_tags": {
+      "engraving-v0.1.0": "f72bb2b313d27c392d7c5a203b593f7f6ea8a24b",
+      "engraving-v0.2.0": "15fb76d0574bcbfb0002c547f66ad4a49671390b",
+      "engraving-v0.3.0": "df675cd8385d10670e7558b986eb93c9ff752ad8",
+      "engraving-v0.4.0": "a4fa5cfe7a911d53e7f1b68a2aeccdadcce7015d"
+    },
+    "batch_cache_logical_bytes_before_validation_output": 4369721,
+    "all_engraving_cache_logical_bytes": 2422614163,
+    "native_runs": 0,
+    "software_adaptation": false,
+    "coverage_not_mastery_or_accuracy": true
+  }
+}

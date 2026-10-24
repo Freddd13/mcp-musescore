@@ -1,5 +1,7 @@
 # 小音符、替代方案与提示声部
 
+2026-10-24新读p643–646的选择材料／顺序，见[时间—空间续记](TIME_SPACE_AND_REPETITION.md#approximate-choices)。备选轨道要让选哪条、怎样返回、重复／退出及谁协调清楚；局部条件在框内，共用条件在框外。它与普通ossia、入场cue和排练段号分别判，《aLIEz》A–M框字母不因此改成任选顺序。
+
 2026-10-23完整读图Gould印刷p495–498／本机PDF p515–518。来源及实际页图见[ninelie续读证据](ninelie_whole_reading_evidence.json)；这里只归纳教材条件，没有在官谱中确认新的ossia，也没有做原生／交换／播放试验。
 
 ## 先认演奏任务，再认字形
