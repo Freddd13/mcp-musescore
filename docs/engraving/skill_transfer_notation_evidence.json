@@ -1,0 +1,2492 @@
+{
+  "date": "2026-10-25",
+  "base_commit": "0998433deb45807ffb1bb1d41005e327ce3fc5b5",
+  "scenario": "T06",
+  "scope": "Preselected p4 then frozen initial, verified against five complete A016pages,11system regions and18book pages; one table additionally rotated for reading. Root-only, historically first-pass-known; not independent/blind.",
+  "registration": {
+    "scenario": "T06",
+    "registered_at_utc": "2026-10-25T08:24:00.756665+00:00",
+    "base_commit": "0998433deb45807ffb1bb1d41005e327ce3fc5b5",
+    "selection": {
+      "id": "A016",
+      "relative_path": "Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+      "sha256": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+      "bytes": 161754,
+      "pages": 5,
+      "metadata": {
+        "/CreationDate": "D:20221010191207",
+        "/Creator": "PDFium",
+        "/Producer": "PDFium"
+      },
+      "page_sizes_pt": [
+        [
+          595.22,
+          842.0
+        ]
+      ],
+      "inventory_status": "readable"
+    },
+    "preselected_page_sequence": [
+      4,
+      2,
+      1
+    ],
+    "selection_reason": "Next short non-closeout score in ordered inventory after A014; A015 has appeared in generic trill reference. Page4 selected before image or old score notes. Page2 then1 only if page4 offers no relevant notation question.",
+    "user_task": "按piano-engraving只读判断符号、装饰、拼写与记法建议的边界。先读完整两手及上下文，提出具体保留或建议及阅读理由，再查来源。不以小头、同键、少符号或相同MIDI推断等价。",
+    "evaluation_mode": "Root-only preselected then frozen initial. Corpus historically first-pass-known; not independent or blind.",
+    "generic_read_before_initial": [
+      "skills/piano-engraving/SKILL.md",
+      "docs/engraving/README.md",
+      "docs/engraving/PREFERENCES.md",
+      "docs/engraving/JUDGMENT_GUIDE.md",
+      "docs/engraving/ACCIDENTAL_SPELLING.md",
+      "docs/engraving/NOTATION_DETAILS.md",
+      "docs/engraving/TRILL_READING.md"
+    ],
+    "deferred_until_initial_frozen": [
+      "A016old corpus notes",
+      "neighbouring full pages",
+      "new high-resolution details",
+      "source PDF text and geometry",
+      "new Gould page images"
+    ],
+    "initial_skill_sha256": "32f115c9806a34b90b923faa2592da7f67a5631dbb3cb1afe1091cc7cab2e549",
+    "first_preselected_image": {
+      "path": "tmp/engraving/corpus/A016/page-4.jpg",
+      "sha256": "f3c743c6833e18d87a19817680161c8827ca0a4acfb436edcb5d110c133036ff"
+    }
+  },
+  "frozen_initial": {
+    "frozen_at_utc": "2026-10-25T08:25:47.285971+00:00",
+    "path": "tmp/engraving/skill-transfer-notation-2026-10-25/initial.md",
+    "sha256": "b7de33fc1e672fc44099391d4f4ad3b665de14bb8d9dd6328cc64821eed2b5ea",
+    "text": "# T06 冻结初判：A016 p4\n\n仅看预选完整p4图，未读本曲旧笔记、相邻页、PDF文字／坐标或本轮教材原图。使用现有piano-engraving及通用记法／拼写／颤音知识；主agent预选，历史首轮已知谱，不能作独立盲测。\n\n1. 页下半a tempo后的下降运行，优先读为计量连音而非不占拍的装饰。可见正常大小的头、三层梁、10括号与后面的5；跨表维持动作路线。保留其计量与组边界，不能用“缩小／改grace以节省空间”处理。10和5的实际跨度、各包含哪些休止和头，当前倍率未充分核清，待高清及共同拍位确认，不先按头数补比例。\n2. H前短值进入、H后的旋律装点仍有正常头、明确的梁与tie。保留短音与保持音的区别，不因音短、梁多就归入grace，也不为减黑合并有再攻击的音。可见上表前景长值与另层短休止并存；这些休止先按各自角色保留。\n3. a tempo处仍一升，I起换三升。运行中及段首另有局部升号，应回读换调前后的音程轮廓和状态；本页尚无足够理由提出等音换写或删必要符号。换成同键音名会改变级进／和弦形状及后续确认，不能归作纯外观压缩。旧调和新调的过渡边界不可仅按三升符号在页面上的X位置猜播放。\n4. H的una corda与稍后a tempo的tre corde是相应弱音踏板状态转换，保留两者；不解释为用户S.P.中踏板或普通延音开关。tre corde文字在下方有清楚通道，图形整齐不能压过真实转换时点。\n5. 目前没有需要立即判错的记法或必须移动的符号。优先核10／5、跨表运行和变音来路，允许保留本页主要构型。未看原工程，实际voice、tuplet分母与软踏板播放均未确认；本次仅只读建议。\n\n后续核查重点：10组的休止／音头计数及各组实际拍长；I前后同音的升号确认；H前后正常短音与真grace的判别；完整相邻页的持续与落点。\n"
+  },
+  "generic_reference_scope_note": "Registration lists files consulted before initial; only relevant sections were read,not a full-read claim for every generic file.",
+  "source": {
+    "id": "A016",
+    "relative_path": "Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "sha256": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+    "bytes": 161754,
+    "pages": 5,
+    "metadata": {
+      "/CreationDate": "D:20221010191207",
+      "/Creator": "PDFium",
+      "/Producer": "PDFium"
+    },
+    "page_sizes_pt": [
+      [
+        595.22,
+        842.0
+      ]
+    ],
+    "inventory_status": "readable"
+  },
+  "source_protection": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+      "expected_sha256": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "expected_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "images": [
+    {
+      "role": "complete score page reread",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A016/page-1.jpg",
+      "sha256": "e2a8840ae0c01b3e9ffe4bbaa86e8f5a44b2fb570be98ed90d387ccd37cdcd51",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A016/page-2.jpg",
+      "sha256": "ddd3830a2fc30126d1e40c642b83c06293f8650f0292dda8cd9cf4f87b726e2c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A016/page-3.jpg",
+      "sha256": "a25c924757567bb0156a3e2349438639db06bb5f638ff79526d55e24690daf80",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A016/page-4.jpg",
+      "sha256": "f3c743c6833e18d87a19817680161c8827ca0a4acfb436edcb5d110c133036ff",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A016/page-5.jpg",
+      "sha256": "06f9c4ea5b95b3a27bad0a16c1a91500dce48977b0820ae80b224c45cc098abf",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p4-s1.jpg",
+      "sha256": "c9e59d2c321b58475506770b2d5fc4bc80caa2676ce30c608135fc85886fdad5",
+      "crop_pt": [
+        25,
+        39.054,
+        565,
+        170.792
+      ],
+      "pixels": [
+        2700,
+        657
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p4-s2.jpg",
+      "sha256": "228d1e90391944a5701ffb467316228746253e52d47e7a60a4c7169c91883be5",
+      "crop_pt": [
+        25,
+        171.498,
+        565,
+        301.13
+      ],
+      "pixels": [
+        2700,
+        647
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p4-s3.jpg",
+      "sha256": "3869fb91568aad1a23fe6711fdd2acde1e4d2d76a5a4f4c8280b5cc9667e4ce0",
+      "crop_pt": [
+        25,
+        285.726,
+        565,
+        413.216
+      ],
+      "pixels": [
+        2700,
+        637
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p4-s4.jpg",
+      "sha256": "4c42fd685058f2a9ae20fbf259b7ae6f723192bab96bc993403aeca880aa4d30",
+      "crop_pt": [
+        25,
+        397.47,
+        565,
+        524.96
+      ],
+      "pixels": [
+        2700,
+        636
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p4-s5.jpg",
+      "sha256": "57943617be7a2a9ebce3995c78be7434048cb116862dedef9748ba7a3fd43859",
+      "crop_pt": [
+        25,
+        508.02,
+        565,
+        667.52
+      ],
+      "pixels": [
+        2700,
+        796
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p4-s6.jpg",
+      "sha256": "8a873ab6b7dac4eaca6aff319b85c9131df329acc4000d8892fccaefa0cf790f",
+      "crop_pt": [
+        25,
+        664.68,
+        565,
+        804.932
+      ],
+      "pixels": [
+        2700,
+        700
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p2-s6.jpg",
+      "sha256": "faca63d6c7ee93cfd6f4f91922afba8de52987196670e60663afe97c7ae6d6b7",
+      "crop_pt": [
+        25,
+        673.176,
+        565,
+        804.932
+      ],
+      "pixels": [
+        2700,
+        658
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p3-s5.jpg",
+      "sha256": "001fd3dc6e2716fa513b7b0666a4be19e41a4b40950c6cf778e8cc95668cebd6",
+      "crop_pt": [
+        25,
+        536.466,
+        565,
+        672.47
+      ],
+      "pixels": [
+        2700,
+        679
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p5-s6.jpg",
+      "sha256": "52ed6d1129843961b46fb6cf340c0981d481f9d3aef40dabe73c515e9296dfb5",
+      "crop_pt": [
+        25,
+        668.928,
+        565,
+        804.932
+      ],
+      "pixels": [
+        2700,
+        679
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p1-s1.jpg",
+      "sha256": "03aa4995cb9807f9690ac8676b63e3123e58c117351aecbc7a060049b04d2b56",
+      "crop_pt": [
+        25,
+        167.07,
+        565,
+        318.074
+      ],
+      "pixels": [
+        2700,
+        754
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/p2-s2.jpg",
+      "sha256": "cec4ad189b7839af1471cdffd8fa35528b6c746eab8a88a01fd568a60b88eee3",
+      "crop_pt": [
+        25,
+        149.244,
+        565,
+        298.124
+      ],
+      "pixels": [
+        2700,
+        743
+      ],
+      "actually_viewed": true,
+      "role": "fresh complete-system region"
+    },
+    {
+      "printed_page": 147,
+      "pdf_page": 167,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-printed-147.jpg",
+      "sha256": "55fca23e4fb80308979f6c556c876b425f80fab04ad084f247bcc53cb7d04a93",
+      "pixels": [
+        841,
+        1261
+      ],
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "role": "complete new ledger book page",
+      "substantive": true,
+      "reference_table": false
+    },
+    {
+      "pdf_page": 168,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-printed-148.jpg",
+      "sha256": "df09ab374950edc0746b51e70d78fa92025af616940e1f54c83b389fa828fd2c",
+      "pixels": [
+        841,
+        1261
+      ],
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "role": "new blank/title/contents auxiliary page",
+      "nominal_printed_slot": 148,
+      "substantive": false
+    },
+    {
+      "pdf_page": 169,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-printed-149.jpg",
+      "sha256": "54c9a6f62bbcbafde3567d9d14c4740a2634c0257e922bf49f90d4c52ccedaa8",
+      "pixels": [
+        841,
+        1261
+      ],
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "role": "new blank/title/contents auxiliary page",
+      "nominal_printed_slot": 149,
+      "substantive": false
+    },
+    {
+      "pdf_page": 170,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-printed-150.jpg",
+      "sha256": "b750b89d5e8873d4dc1d3777ffec28a5a1d228c1f59f87c79ce23fbcbc4c4354",
+      "pixels": [
+        841,
+        1261
+      ],
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "role": "new blank/title/contents auxiliary page",
+      "nominal_printed_slot": 150,
+      "substantive": false
+    },
+    {
+      "printed_page": 151,
+      "pdf_page": 171,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-printed-151.jpg",
+      "sha256": "a26e2f29681b45b601d52d6119729c97672ec811a274bfb6527819d83eee3939",
+      "pixels": [
+        841,
+        1261
+      ],
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "role": "complete new ledger book page",
+      "substantive": true,
+      "reference_table": false
+    },
+    {
+      "printed_page": 152,
+      "pdf_page": 172,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-printed-152.jpg",
+      "sha256": "5f0d3e270c1eb212293122860811918c1fb5aed58e2dfe945afa7ffcf4d1d0d1",
+      "pixels": [
+        841,
+        1261
+      ],
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "role": "complete new ledger book page",
+      "substantive": true,
+      "reference_table": false
+    },
+    {
+      "printed_page": 653,
+      "pdf_page": 673,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-printed-653.jpg",
+      "sha256": "7d3f11e6f52e9f7b62e81b93806913b8c1671dc6cf2cc800629bd6b9f69416a2",
+      "pixels": [
+        841,
+        1261
+      ],
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "role": "complete new ledger book page",
+      "substantive": true,
+      "reference_table": true
+    },
+    {
+      "printed_page": 79,
+      "pdf_page": 99,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-79.jpg",
+      "sha256": "ae83de1d474c04bea7a4c12d01f9845df3c7d6667aecf550fa6d8f6390766de7",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 125,
+      "pdf_page": 145,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-125.jpg",
+      "sha256": "b50a0aca638ee13d970868393e74f743afb0ad7d5aad9336d5d348a83e5f4cb1",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 204,
+      "pdf_page": 224,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-204.jpg",
+      "sha256": "9be6d72e5d5ace18bb745988d6bc4e2c8cc48607f353ad2dc7cce0e226a0bd31",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 209,
+      "pdf_page": 229,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-209.jpg",
+      "sha256": "40d9afea994775ce57c3db34522b2f56fe5f6567ac59064b475ce00d1ffcbc11",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 336,
+      "pdf_page": 356,
+      "path": "tmp/engraving/piano-2026-10-19/book-336.jpg",
+      "sha256": "e5a6181fa3f47bbd8b0397ffcba0f60c2e51ff34b164c41e973a721f99c1a8ed",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/piano-2026-10-19/book-337.jpg",
+      "sha256": "f829990ad08fe0abe3be5c36c330297de27cd14c3635709a4a36a2b2969ae286",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 489,
+      "pdf_page": 509,
+      "path": "tmp/engraving/whole-score-b-2026-10-21/book-489.png",
+      "sha256": "9cc516adbe38ee660bd6c83c5f748217dd6dac66a701282a26e89864f9444311",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/whole-score-b-2026-10-21/book-490.png",
+      "sha256": "c18aba18344097dc3c0d934c32e8eda5c9f9cee3980388f637ec3cb0da1b2c10",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 610,
+      "pdf_page": 630,
+      "path": "tmp/engraving/free-passage-2026-10-20/book-p610.jpg",
+      "sha256": "632240becc97781808764e07ef53ef193acd4ea9c694d5c0325fc4a39227e054",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "printed_page": 611,
+      "pdf_page": 631,
+      "path": "tmp/engraving/free-passage-2026-10-20/book-p611.jpg",
+      "sha256": "03596d1a50819437319af4ef6d22075f934ed7e0cec042b80510b80e033fb069",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "role": "complete old book page reread",
+      "substantive": true
+    },
+    {
+      "role": "90degree orientation derivative of existing table",
+      "printed_page": 653,
+      "pdf_page": 673,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-printed-653-readable.jpg",
+      "sha256": "b2ccf6520de6a1bb8085fea59d9cb5bec347a98f223e6ea6b59c63b82b306982",
+      "actually_viewed": true,
+      "new_ledger_coverage": false,
+      "derivative_of": "book-printed-653.jpg"
+    }
+  ],
+  "manual_source_geometry_and_reading": {
+    "manual_page_system_intervals": [
+      {
+        "page": 1,
+        "systems": [
+          {
+            "top_pt": 200.07,
+            "bottom_pt": 268.074,
+            "staff_top_lines": [
+              200.07,
+              204.318,
+              208.584,
+              212.832,
+              217.08
+            ],
+            "staff_bottom_lines": [
+              251.082,
+              255.33,
+              259.578,
+              263.826,
+              268.074
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              234.396,
+              395.01,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                234.396
+              ],
+              [
+                395.01
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              234.396,
+              395.01,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "1"
+          },
+          {
+            "top_pt": 326.34,
+            "bottom_pt": 387.954,
+            "staff_top_lines": [
+              326.34,
+              330.588,
+              334.836,
+              339.084,
+              343.332
+            ],
+            "staff_bottom_lines": [
+              370.962,
+              375.21,
+              379.458,
+              383.706,
+              387.954
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              226.962,
+              229.086,
+              393.588,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                226.962,
+                229.086
+              ],
+              [
+                393.588
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              226.962,
+              393.588,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "4"
+          },
+          {
+            "top_pt": 446.22,
+            "bottom_pt": 507.852,
+            "staff_top_lines": [
+              446.22,
+              450.468,
+              454.716,
+              458.964,
+              463.23
+            ],
+            "staff_bottom_lines": [
+              490.842,
+              495.09,
+              499.356,
+              503.604,
+              507.852
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              225.18,
+              392.526,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                225.18
+              ],
+              [
+                392.526
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              225.18,
+              392.526,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "7"
+          },
+          {
+            "top_pt": 566.28,
+            "bottom_pt": 636.408,
+            "staff_top_lines": [
+              566.28,
+              570.528,
+              574.794,
+              579.042,
+              583.29
+            ],
+            "staff_bottom_lines": [
+              619.416,
+              623.664,
+              627.912,
+              632.16,
+              636.408
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              225.0,
+              391.284,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                225.0
+              ],
+              [
+                391.284
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              225.0,
+              391.284,
+              556.794
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "10"
+          },
+          {
+            "top_pt": 701.928,
+            "bottom_pt": 769.932,
+            "staff_top_lines": [
+              701.928,
+              706.176,
+              710.424,
+              714.69,
+              718.938
+            ],
+            "staff_bottom_lines": [
+              752.94,
+              757.188,
+              761.436,
+              765.684,
+              769.932
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              225.54,
+              392.346,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                225.54
+              ],
+              [
+                392.346
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              225.54,
+              392.346,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "13"
+          }
+        ]
+      },
+      {
+        "page": 2,
+        "systems": [
+          {
+            "top_pt": 72.054,
+            "bottom_pt": 133.668,
+            "staff_top_lines": [
+              72.054,
+              76.302,
+              80.55,
+              84.798,
+              89.046
+            ],
+            "staff_bottom_lines": [
+              116.676,
+              120.924,
+              125.172,
+              129.42,
+              133.668
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              225.54,
+              392.346,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                225.54
+              ],
+              [
+                392.346
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              225.54,
+              392.346,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "16"
+          },
+          {
+            "top_pt": 197.244,
+            "bottom_pt": 263.124,
+            "staff_top_lines": [
+              197.244,
+              201.492,
+              205.74,
+              209.988,
+              214.236
+            ],
+            "staff_bottom_lines": [
+              246.114,
+              250.362,
+              254.61,
+              258.876,
+              263.124
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              222.876,
+              381.366,
+              383.49,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                222.876
+              ],
+              [
+                381.366,
+                383.49
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              222.876,
+              381.366,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "19"
+          },
+          {
+            "top_pt": 323.334,
+            "bottom_pt": 382.824,
+            "staff_top_lines": [
+              323.334,
+              327.582,
+              331.83,
+              336.078,
+              340.326
+            ],
+            "staff_bottom_lines": [
+              365.832,
+              370.08,
+              374.328,
+              378.576,
+              382.824
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              223.596,
+              393.948,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                223.596
+              ],
+              [
+                393.948
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              223.596,
+              393.948,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "22"
+          },
+          {
+            "top_pt": 448.164,
+            "bottom_pt": 507.672,
+            "staff_top_lines": [
+              448.164,
+              452.412,
+              456.678,
+              460.926,
+              465.174
+            ],
+            "staff_bottom_lines": [
+              490.662,
+              494.928,
+              499.176,
+              503.424,
+              507.672
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              225.72,
+              387.396,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                225.72
+              ],
+              [
+                387.396
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              225.72,
+              387.396,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "25"
+          },
+          {
+            "top_pt": 576.018,
+            "bottom_pt": 639.774,
+            "staff_top_lines": [
+              576.018,
+              580.266,
+              584.532,
+              588.78,
+              593.028
+            ],
+            "staff_bottom_lines": [
+              622.782,
+              627.03,
+              631.278,
+              635.526,
+              639.774
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              221.994,
+              224.118,
+              370.386,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                221.994,
+                224.118
+              ],
+              [
+                370.386
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              221.994,
+              370.386,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "28"
+          },
+          {
+            "top_pt": 706.176,
+            "bottom_pt": 769.932,
+            "staff_top_lines": [
+              706.176,
+              710.424,
+              714.69,
+              718.938,
+              723.186
+            ],
+            "staff_bottom_lines": [
+              752.94,
+              757.188,
+              761.436,
+              765.684,
+              769.932
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              347.202,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                347.202
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              347.202,
+              556.794
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "31"
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "systems": [
+          {
+            "top_pt": 72.054,
+            "bottom_pt": 131.544,
+            "staff_top_lines": [
+              72.054,
+              76.302,
+              80.55,
+              84.798,
+              89.046
+            ],
+            "staff_bottom_lines": [
+              114.552,
+              118.8,
+              123.048,
+              127.296,
+              131.544
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              188.352,
+              308.592,
+              439.092,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                188.352
+              ],
+              [
+                308.592
+              ],
+              [
+                439.092
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              188.352,
+              308.592,
+              439.092,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "33"
+          },
+          {
+            "top_pt": 190.512,
+            "bottom_pt": 250.02,
+            "staff_top_lines": [
+              190.512,
+              194.76,
+              199.008,
+              203.256,
+              207.522
+            ],
+            "staff_bottom_lines": [
+              233.01,
+              237.258,
+              241.506,
+              245.772,
+              250.02
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              197.028,
+              318.852,
+              442.638,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                197.028
+              ],
+              [
+                318.852
+              ],
+              [
+                442.638
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              197.028,
+              318.852,
+              442.638,
+              556.794
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "37"
+          },
+          {
+            "top_pt": 310.572,
+            "bottom_pt": 372.204,
+            "staff_top_lines": [
+              310.572,
+              314.82,
+              319.068,
+              323.334,
+              327.582
+            ],
+            "staff_bottom_lines": [
+              355.194,
+              359.46,
+              363.708,
+              367.956,
+              372.204
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              225.54,
+              392.346,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                225.54
+              ],
+              [
+                392.346
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              225.54,
+              392.346,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "41"
+          },
+          {
+            "top_pt": 439.668,
+            "bottom_pt": 503.424,
+            "staff_top_lines": [
+              439.668,
+              443.916,
+              448.164,
+              452.412,
+              456.678
+            ],
+            "staff_bottom_lines": [
+              486.414,
+              490.662,
+              494.928,
+              499.176,
+              503.424
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              226.062,
+              393.408,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                226.062
+              ],
+              [
+                393.408
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              226.062,
+              393.408,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "44"
+          },
+          {
+            "top_pt": 569.466,
+            "bottom_pt": 637.47,
+            "staff_top_lines": [
+              569.466,
+              573.714,
+              577.98,
+              582.228,
+              586.476
+            ],
+            "staff_bottom_lines": [
+              620.478,
+              624.726,
+              628.974,
+              633.222,
+              637.47
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              197.55,
+              326.592,
+              328.716,
+              353.034,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                197.55
+              ],
+              [
+                326.592,
+                328.716
+              ],
+              [
+                353.034
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              197.55,
+              326.592,
+              353.034,
+              556.794
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            "start_bar_cursor": "47"
+          },
+          {
+            "top_pt": 701.928,
+            "bottom_pt": 769.932,
+            "staff_top_lines": [
+              701.928,
+              706.176,
+              710.424,
+              714.69,
+              718.938
+            ],
+            "staff_bottom_lines": [
+              752.94,
+              757.188,
+              761.436,
+              765.684,
+              769.932
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              224.838,
+              392.706,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                224.838
+              ],
+              [
+                392.706
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              224.838,
+              392.706,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "50"
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "systems": [
+          {
+            "top_pt": 72.054,
+            "bottom_pt": 135.792,
+            "staff_top_lines": [
+              72.054,
+              76.302,
+              80.55,
+              84.798,
+              89.046
+            ],
+            "staff_bottom_lines": [
+              118.8,
+              123.048,
+              127.296,
+              131.544,
+              135.792
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              224.298,
+              391.644,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                224.298
+              ],
+              [
+                391.644
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              224.298,
+              391.644,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "53"
+          },
+          {
+            "top_pt": 204.498,
+            "bottom_pt": 266.13,
+            "staff_top_lines": [
+              204.498,
+              208.746,
+              213.012,
+              217.26,
+              221.508
+            ],
+            "staff_bottom_lines": [
+              249.138,
+              253.386,
+              257.634,
+              261.882,
+              266.13
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              233.154,
+              396.432,
+              398.556,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                233.154
+              ],
+              [
+                396.432,
+                398.556
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              233.154,
+              396.432,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "56"
+          },
+          {
+            "top_pt": 318.726,
+            "bottom_pt": 378.216,
+            "staff_top_lines": [
+              318.726,
+              322.974,
+              327.222,
+              331.47,
+              335.718
+            ],
+            "staff_bottom_lines": [
+              361.224,
+              365.472,
+              369.72,
+              373.968,
+              378.216
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              225.9,
+              391.104,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                225.9
+              ],
+              [
+                391.104
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              225.9,
+              391.104,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "59"
+          },
+          {
+            "top_pt": 430.47,
+            "bottom_pt": 489.96,
+            "staff_top_lines": [
+              430.47,
+              434.718,
+              438.966,
+              443.214,
+              447.462
+            ],
+            "staff_bottom_lines": [
+              472.968,
+              477.216,
+              481.464,
+              485.712,
+              489.96
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              199.854,
+              352.854,
+              494.874
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                199.854
+              ],
+              [
+                352.854
+              ],
+              [
+                494.874
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              199.854,
+              352.854,
+              494.874,
+              559.224
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1",
+              "1/2"
+            ],
+            "start_bar_cursor": "62"
+          },
+          {
+            "top_pt": 556.02,
+            "bottom_pt": 632.52,
+            "staff_top_lines": [
+              556.02,
+              560.268,
+              564.516,
+              568.764,
+              573.012
+            ],
+            "staff_bottom_lines": [
+              615.51,
+              619.758,
+              624.006,
+              628.272,
+              632.52
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              216.504,
+              218.628,
+              397.656,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                216.504,
+                218.628
+              ],
+              [
+                397.656
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              216.504,
+              397.656,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1/2",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "131/2"
+          },
+          {
+            "top_pt": 697.68,
+            "bottom_pt": 769.932,
+            "staff_top_lines": [
+              697.68,
+              701.928,
+              706.176,
+              710.424,
+              714.69
+            ],
+            "staff_bottom_lines": [
+              752.94,
+              757.188,
+              761.436,
+              765.684,
+              769.932
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              232.614,
+              393.948,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                232.614
+              ],
+              [
+                393.948
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              232.614,
+              393.948,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "68"
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "systems": [
+          {
+            "top_pt": 72.054,
+            "bottom_pt": 148.554,
+            "staff_top_lines": [
+              72.054,
+              76.302,
+              80.55,
+              84.798,
+              89.046
+            ],
+            "staff_bottom_lines": [
+              131.544,
+              135.792,
+              140.04,
+              144.288,
+              148.554
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              224.298,
+              386.154,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                224.298
+              ],
+              [
+                386.154
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              224.298,
+              386.154,
+              556.794
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "71"
+          },
+          {
+            "top_pt": 210.708,
+            "bottom_pt": 278.694,
+            "staff_top_lines": [
+              210.708,
+              214.956,
+              219.204,
+              223.452,
+              227.7
+            ],
+            "staff_bottom_lines": [
+              261.702,
+              265.95,
+              270.198,
+              274.446,
+              278.694
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              232.272,
+              394.29,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                232.272
+              ],
+              [
+                394.29
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              232.272,
+              394.29,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "74"
+          },
+          {
+            "top_pt": 337.32,
+            "bottom_pt": 401.058,
+            "staff_top_lines": [
+              337.32,
+              341.568,
+              345.816,
+              350.064,
+              354.312
+            ],
+            "staff_bottom_lines": [
+              384.066,
+              388.314,
+              392.562,
+              396.81,
+              401.058
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              221.472,
+              394.83,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                221.472
+              ],
+              [
+                394.83
+              ],
+              [
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              221.472,
+              394.83,
+              558.918
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "77"
+          },
+          {
+            "top_pt": 466.938,
+            "bottom_pt": 530.694,
+            "staff_top_lines": [
+              466.938,
+              471.186,
+              475.434,
+              479.7,
+              483.948
+            ],
+            "staff_bottom_lines": [
+              513.684,
+              517.95,
+              522.198,
+              526.446,
+              530.694
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              284.328,
+              468.666,
+              556.794,
+              558.918
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                284.328
+              ],
+              [
+                468.666
+              ],
+              [
+                556.794,
+                558.918
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              284.328,
+              468.666,
+              556.794
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "80"
+          },
+          {
+            "top_pt": 583.992,
+            "bottom_pt": 643.5,
+            "staff_top_lines": [
+              583.992,
+              588.24,
+              592.488,
+              596.736,
+              601.002
+            ],
+            "staff_bottom_lines": [
+              626.49,
+              630.738,
+              634.986,
+              639.252,
+              643.5
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              227.844,
+              388.098,
+              548.352
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                227.844
+              ],
+              [
+                388.098
+              ],
+              [
+                548.352
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              227.844,
+              388.098,
+              548.352
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "83"
+          },
+          {
+            "top_pt": 701.928,
+            "bottom_pt": 769.932,
+            "staff_top_lines": [
+              701.928,
+              706.176,
+              710.424,
+              714.69,
+              718.938
+            ],
+            "staff_bottom_lines": [
+              752.94,
+              757.188,
+              761.436,
+              765.684,
+              769.932
+            ],
+            "raw_boundary_x_pt": [
+              36.234,
+              229.968,
+              465.66,
+              555.39,
+              558.162
+            ],
+            "boundary_clusters_x_pt": [
+              [
+                36.234
+              ],
+              [
+                229.968
+              ],
+              [
+                465.66
+              ],
+              [
+                555.39,
+                558.162
+              ]
+            ],
+            "interval_edges_pt": [
+              36.234,
+              229.968,
+              465.66,
+              555.39
+            ],
+            "manual_written_bar_portions": [
+              "1",
+              "1",
+              "1"
+            ],
+            "start_bar_cursor": "86"
+          }
+        ]
+      }
+    ],
+    "written_bar_count": 88,
+    "horizontal_rows": 29,
+    "separate_grand_staff_segments": 30,
+    "labels": [
+      {
+        "letter": "A",
+        "bar": 5,
+        "page": 1,
+        "x_pt": 223.83,
+        "top_pt": 303.31759999999997
+      },
+      {
+        "letter": "B",
+        "bar": 13,
+        "page": 1,
+        "x_pt": 55.08,
+        "top_pt": 677.8617
+      },
+      {
+        "letter": "C",
+        "bar": 21,
+        "page": 2,
+        "x_pt": 377.712,
+        "top_pt": 174.22159999999997
+      },
+      {
+        "letter": "D",
+        "bar": 29,
+        "page": 2,
+        "x_pt": 218.88,
+        "top_pt": 553.0136
+      },
+      {
+        "letter": "E",
+        "bar": 33,
+        "page": 3,
+        "x_pt": 54.36,
+        "top_pt": 49.031600000000026
+      },
+      {
+        "letter": "F",
+        "bar": 41,
+        "page": 3,
+        "x_pt": 55.422,
+        "top_pt": 287.56759999999997
+      },
+      {
+        "letter": "G",
+        "bar": 50,
+        "page": 3,
+        "x_pt": 55.08,
+        "top_pt": 678.9237
+      },
+      {
+        "letter": "H",
+        "bar": 58,
+        "page": 4,
+        "x_pt": 393.12,
+        "top_pt": 177.06560000000002
+      },
+      {
+        "letter": "I",
+        "bar": 66,
+        "page": 4,
+        "x_pt": 214.452,
+        "top_pt": 525.0236
+      },
+      {
+        "letter": "J",
+        "bar": 74,
+        "page": 5,
+        "x_pt": 65.16,
+        "top_pt": 185.38159999999993
+      },
+      {
+        "letter": "K",
+        "bar": 83,
+        "page": 5,
+        "x_pt": 63.576,
+        "top_pt": 558.6836
+      }
+    ],
+    "manual_section_bars": {
+      "A": 5,
+      "B": 13,
+      "C": 21,
+      "D": 29,
+      "E": 33,
+      "F": 41,
+      "G": 50,
+      "H": 58,
+      "I": 66,
+      "J": 74,
+      "K": 83
+    },
+    "split_bar": {
+      "bar": 65,
+      "first_part": "p4row4: quarter fermata plus quarter rest",
+      "first_part_quarters": 2,
+      "continuation": "p4row5 at a tempo",
+      "continuation_quarters": 2,
+      "open_system_right_edge_x_pt": 559.224,
+      "last_full_boundary_before_open_edge": 494.874,
+      "no_ending_vertical_barline": true,
+      "continuation_bar_count_not_restarted": true
+    },
+    "descending_run": {
+      "bar": 65,
+      "written_quarter_start": 2,
+      "ten_group": {
+        "ratio_inferred_from_written_context": "10:8 in thirty-seconds",
+        "one_thirty_second_rest": true,
+        "note_heads": 9,
+        "x_pt": [
+          74.898,
+          83.232,
+          94.914,
+          103.068,
+          107.136,
+          115.452,
+          123.246,
+          132.102,
+          139.896
+        ],
+        "actual_note_quarter_offsets_in_bar": [
+          "21/10",
+          "11/5",
+          "23/10",
+          "12/5",
+          "5/2",
+          "13/5",
+          "27/10",
+          "14/5",
+          "29/10"
+        ],
+        "total_quarters": "1"
+      },
+      "five_group": {
+        "ratio_inferred_from_written_context": "5:4 in thirty-seconds",
+        "note_heads": 5,
+        "x_pt": [
+          147.87,
+          155.826,
+          163.62,
+          172.296,
+          180.27
+        ],
+        "actual_quarter_offsets_in_bar": [
+          "3",
+          "31/10",
+          "16/5",
+          "33/10",
+          "17/5"
+        ],
+        "total_quarters": "1/2"
+      },
+      "following_normal_eighth": {
+        "x_pt": 188.064,
+        "quarter_offset": "7/2",
+        "duration_quarters": "1/2"
+      },
+      "lower_beam_ranges": [
+        [
+          152.658,
+          185.508
+        ],
+        [
+          152.658,
+          185.508
+        ],
+        [
+          152.658,
+          193.302
+        ]
+      ],
+      "all_black_head_font_size": 16.2899,
+      "not_source_internal_tuplet_ids": true
+    },
+    "final_run": {
+      "bar": 87,
+      "black_heads": 24,
+      "written_beam_layers": 2,
+      "printed_metre": "common time",
+      "lower_notes": "whole-note chord tied from preceding 3/4 and into final bar",
+      "ordinary_sixteenth_sum_quarters_if_read_strictly": 6,
+      "notated_bar_quarters": 4,
+      "normal_head_matrix_size": 16.2899,
+      "run_head_matrix_size": 12.222,
+      "relative_matrix_scale": 0.7502808488695449,
+      "no_tuplet_number_in_run_visible": true,
+      "interpretation": "Prefer free closing cadenza reading in this context; exact metric ratio remains unproved. Preserve sustained lower layer; do not automatically fill24:16 or treat as nonplaying cue."
+    },
+    "manual_written_route": {
+      "D_S_at": 48,
+      "segno_target": 21,
+      "to_coda_after": 27,
+      "coda_target": 49,
+      "initial_segment": [
+        1,
+        48
+      ],
+      "return_segment": [
+        21,
+        27
+      ],
+      "final_segment": [
+        49,
+        88
+      ],
+      "not_playback_verified": true
+    }
+  },
+  "review_of_initial": [
+    {
+      "claim": "Preserve measured10/5run and do not convert to grace",
+      "outcome": "Supported and made precise",
+      "basis": "m65 split2+2quarters;10rest+9heads in1quarter;5heads inhalfquarter plus normal eighth outside5."
+    },
+    {
+      "claim": "Preserve normal short notes and ties nearH",
+      "outcome": "Supported",
+      "basis": "Normal-size measured foreground and explicit rests/ties; no new object IDs inferred."
+    },
+    {
+      "claim": "Preserve accidentals before new key",
+      "outcome": "Supported",
+      "basis": "Gsharp in descending B-A-Gsharp-E and Csharp octaves precede Ithree-sharp key signature; no respelling candidate."
+    },
+    {
+      "claim": "una corda/tre corde as corresponding soft-pedal controls",
+      "outcome": "Supported and localized",
+      "basis": "H58and m65second half;Gould336-337;precise playback not inferred."
+    },
+    {
+      "claim": "No immediate notation error in initialp4",
+      "outcome": "Qualified",
+      "basis": "m65split causes real continuation burden; full-bar alternative or reminder can be compared. Native comparison not yet made."
+    }
+  ],
+  "post_initial_correction": {
+    "location": "p5m87,outside frozenp4initial",
+    "incorrect_interim_claim": "24normal-sized sixteenths; prioritize missing ratio",
+    "actual_evidence": {
+      "normal_head_matrix_size": 16.2899,
+      "closing_head_matrix_size": 12.222,
+      "scale": 0.7502808488695449,
+      "heads": 24
+    },
+    "revised_judgment": "Prefer free closing cadenza interpretation with smorzando, sustained background and final endpoint; do not automatically fill24:16. Optional freedom instruction can clarify; exact intended timing remains unproved.",
+    "original_initial_preserved": true,
+    "not_counted_as_an_all_correct_trial": true
+  },
+  "book": {
+    "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "pdf_offset": 20,
+    "old_complete_pages_reread": [
+      79,
+      125,
+      204,
+      207,
+      209,
+      336,
+      337,
+      489,
+      490,
+      610,
+      611
+    ],
+    "new_technical_printed_pages": [
+      147,
+      151,
+      152
+    ],
+    "new_reference_table_printed_pages": [
+      653
+    ],
+    "new_auxiliary_pdf_pages": [
+      168,
+      169,
+      170
+    ],
+    "new_ledger_pages": 7,
+    "full_book_mastery_claimed": false
+  },
+  "all_score_closeout": {
+    "id": "A016",
+    "whole_pages": 5,
+    "old_questions_reviewed": [
+      "soft pedal and restoration",
+      "D.S./Coda gap and true route",
+      "10/5run width and layer synchrony"
+    ],
+    "remaining": "m87exact timing/freedom is not author-defined; native alternatives and actual page-turn conditions unverified. Closeout means question review,not zero unknowns."
+  },
+  "not_performed": [
+    "original PDF or MSCZ writes",
+    "native MuseScore execution",
+    "MIDI/audio/print test",
+    "new font work",
+    "MCP/plugin/core adaptation",
+    "independent blind evaluation",
+    "new user aesthetic preference",
+    "file deletion"
+  ],
+  "validation": {
+    "checked_at_utc": "2026-10-25T08:56:35.876993+00:00",
+    "progress": {
+      "as_of": "2026-10-25",
+      "scope_revision": 1,
+      "goal_status": "active",
+      "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+      "first_pass_scores": [
+        146,
+        146
+      ],
+      "first_pass_pages": [
+        1135,
+        1135
+      ],
+      "historical_detail_pages": 379,
+      "deep_scores": [
+        24,
+        24
+      ],
+      "deep_pages": [
+        164,
+        164
+      ],
+      "all_score_closeout": [
+        21,
+        146
+      ],
+      "gould_pages_conservative": [
+        379,
+        696
+      ],
+      "gould_substantive_pages": 363,
+      "gould_non_substantive_pages": 16,
+      "gould_title_or_contents_pages": 16,
+      "public_resource_scopes": [
+        11,
+        25
+      ],
+      "skill_transfer_scenarios": [
+        6,
+        8
+      ],
+      "user_integrated_rounds": [
+        0,
+        1
+      ],
+      "user_milestones": [
+        2,
+        4
+      ],
+      "skill_topics": [
+        20,
+        20
+      ],
+      "release": "engraving-v0.4.0"
+    },
+    "source_hashes_rechecked": 2,
+    "frozen_initial_hashes_rechecked": 1,
+    "actual_image_hashes_rechecked": 35,
+    "whole_score_pages_reread": 5,
+    "fresh_system_details": 11,
+    "old_complete_book_pages": 11,
+    "new_technical_book_pages": 3,
+    "new_reference_table_pages": 1,
+    "new_auxiliary_book_pages": 3,
+    "source_geometry_reexecuted": true,
+    "written_bars": 88,
+    "horizontal_rows": 29,
+    "separate_grand_staff_segments": 30,
+    "ten_group_rest_plus_nine": true,
+    "five_group_followed_by_normal_eighth": true,
+    "closing_head_matrix_size_correction": {
+      "normal": 16.2899,
+      "small": 12.222
+    },
+    "all20_locator_topics_executed": true,
+    "notation_and_ornaments_resolve_case": true,
+    "skill_format": "Skill is valid!",
+    "local_links": 495,
+    "local_anchors": 18,
+    "explicit_paths_match": 18,
+    "historical_certificates_unchanged": {
+      "release_0_2_0_evidence.json": "eae472601c90c90763f6b175f8af65ba02cea1514384cd96126764e97061ba81",
+      "release_0_3_0_evidence.json": "4340bb9f354bb7fd3f65f08dee3baeefda1e0a5eb3cf42f263aa92146470fdfd",
+      "release_0_4_0_evidence.json": "b28867de7b3bfb4d62342acfad20fdd2c321e76a402986b81ec31500f1d90927"
+    },
+    "historical_tags_unchanged": {
+      "engraving-v0.1.0": "f72bb2b313d27c392d7c5a203b593f7f6ea8a24b",
+      "engraving-v0.2.0": "15fb76d0574bcbfb0002c547f66ad4a49671390b",
+      "engraving-v0.3.0": "df675cd8385d10670e7558b986eb93c9ff752ad8",
+      "engraving-v0.4.0": "a4fa5cfe7a911d53e7f1b68a2aeccdadcce7015d"
+    },
+    "batch_cache_logical_bytes_before_validation_output": 4252374,
+    "all_engraving_cache_logical_bytes": 2431462757,
+    "native_runs": 0,
+    "software_adaptation": false,
+    "coverage_not_mastery_or_accuracy": true
+  }
+}
