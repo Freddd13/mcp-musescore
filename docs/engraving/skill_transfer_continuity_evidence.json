@@ -1,0 +1,1682 @@
+{
+  "date": "2026-10-25",
+  "base_commit": "dd53423aede10a92ba6cbfa2b2713be5c5836493",
+  "scenario": "T07",
+  "scope": "Two root-only preselected/frozen initial passes on historically first-pass-known scores: A019p1then whole9pages; A084p6then whole6pages. Actual navigation added because A019has no route. Not independent/blind.",
+  "registration": {
+    "scenario": "T07",
+    "registered_at_utc": "2026-10-25T09:01:33.076573+00:00",
+    "base_commit": "dd53423aede10a92ba6cbfa2b2713be5c5836493",
+    "selection": {
+      "id": "A019",
+      "relative_path": "Bios - Guilty Crown - Soundtrack.pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bios - Guilty Crown - Soundtrack.pdf",
+      "sha256": "938e22a7c51ebda1572b1afbab70300c5582f084a7750cddfdb82421fd487e48",
+      "bytes": 224473,
+      "pages": 9,
+      "metadata": {
+        "/CreationDate": "D:20220327134948",
+        "/Creator": "PDFium",
+        "/Producer": "PDFium"
+      },
+      "page_sizes_pt": [
+        [
+          595.22,
+          842.0
+        ]
+      ],
+      "inventory_status": "readable"
+    },
+    "preselected_page_sequence": [
+      1,
+      9,
+      5
+    ],
+    "selection_reason": "A018-A020 inventory/review topic metadata checked only;A019 selected for sustain/pedal role questions. Page1 first before image/old note. Page9then5only if first page lacks a relevant question.",
+    "selection_metadata_seen": [
+      "A019topic:secco与踏板",
+      "A019topic:半音化与手提示"
+    ],
+    "task": "用piano-engraving只读判断持续、踏板、自由等待及导航的真实作用和范围。先决定保留或建议，核各层读法和入口；再查完整前后文与规范。",
+    "evaluation_mode": "Root-only preselection/frozen initial on historically first-pass-known corpus;not independent/blind. Metadata informed selection;no expected answer or old case note supplied.",
+    "generic_sources_consulted_before_initial": [
+      "skills/piano-engraving/SKILL.md",
+      "docs/engraving/README.md",
+      "docs/engraving/PREFERENCES.md",
+      "docs/engraving/JUDGMENT_GUIDE.md",
+      "docs/engraving/REPEAT_NAVIGATION.md",
+      "docs/engraving/SUSTAIN_CONTINUATION.md",
+      "docs/engraving/FREE_PASSAGE_READING.md"
+    ],
+    "deferred_until_initial_frozen": [
+      "A019old corpus note",
+      "neighbouring full pages",
+      "source text/geometry",
+      "new detailed crops",
+      "original book pages"
+    ],
+    "initial_skill_sha256": "32f115c9806a34b90b923faa2592da7f67a5631dbb3cb1afe1091cc7cab2e549",
+    "first_image": {
+      "path": "tmp/engraving/corpus/A019/page-1.jpg",
+      "sha256": "bd25f4fa812cee60a9f1e9aff8ce433230eb6cfefb59a549588788f8df18c314"
+    }
+  },
+  "frozen_initial": {
+    "frozen_at_utc": "2026-10-25T09:03:21.252441+00:00",
+    "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/initial.md",
+    "sha256": "e45fc1c389bb64b6c1b891c2026054e50e00d27bbe57745676db3f95c51e6076",
+    "text": "# T07 冻结初判：A019 p1\n\n只看预选p1完整图。选择时只用了目录及旧review的主题元数据，未读本曲旧笔记、后页、PDF文字／坐标或本轮书页。主agent预选，历史首轮已知谱；不作独立盲测。\n\n1. 保留初段旋律的长slur与叠层白头的分工。旋律向前运动，较长和声另有时值；不能按“几个弧看着重复”删线或把保持头并成前景的新攻击。下表整休止只说明该表的谱面状态，不能据此判某只手空着。\n2. A首小节下表有两种持续：上方多音长弧向后面休止区延伸，低音另以完整tie接下小节。前者先按持续提示核，保留末端及休止；后者维持明确的同音接收。不要把休止删除或补普通同音头来“修复”开放弧。手持／踏板捕捉／自然余响的精确方式，本页未说明到足以定死。\n3. 第四行的Ped.与后面的释放星号先保留局部范围。该处有跨两手的实际运动和持续，不能自动把Ped线延到B的新段，也不能从上部slur终点推脚的释放。后续需要核它在这首曲里是否是省写转折，以及secco等其它状态的来路。\n4. A之后下表r.h.及括形交代手别，保持层与运行可在同表并存。保持手分配、低层持续和休止的关系，不因空白或同一谱表就重分手／voice。换调前预告与B的正式调号帮助提前准备；不按重复字形清理。\n5. 本页没有看到D.S.／反复或明确自由等待指令，普通长slur和保持不能据此读成自由时值或翻页窗口。当前主要保留既有分层，重点复核A的开放持续和Ped范围；后页若有导航／自由指示，再按完整路线判断。\n"
+  },
+  "navigation_registration": {
+    "registered_at_utc": "2026-10-25T09:24:58.765666+00:00",
+    "selection": {
+      "id": "A084",
+      "relative_path": "Little Busters! - Little Busters! - Opening Theme.pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Little Busters! - Little Busters! - Opening Theme.pdf",
+      "sha256": "2ceed13c7cbf7fda41f93b108f47bc46e3dfdf18ddb6bc292f1dcae2f6f6a243",
+      "bytes": 365449,
+      "pages": 6,
+      "metadata": {
+        "/CreationDate": "D:20230129203652",
+        "/Creator": "PDFium",
+        "/Producer": "PDFium"
+      },
+      "page_sizes_pt": [
+        [
+          595.32,
+          841.92
+        ]
+      ],
+      "inventory_status": "readable"
+    },
+    "preselected_page": 6,
+    "reason": "A084 topics metadata includes D.S.and Coda; choose final page before old note, PDF text, geometry or expected route.",
+    "evaluation_mode": "root-only; historically first-pass-known; prior topic knowledge; not independent/blind",
+    "image": {
+      "path": "tmp/engraving/corpus/A084/page-6.jpg",
+      "sha256": "0f0c8f8753d5fe5cb15d11575e3e4494a6d1a96d98de10a443017365dea5148a"
+    }
+  },
+  "navigation_frozen_initial": {
+    "frozen_at_utc": "2026-10-25T09:25:57.827130+00:00",
+    "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/navigation-initial.md",
+    "sha256": "b2b6810a9a589eacc4103a8e5ce1531780eb46e74ba278879eb8418e890b18ed",
+    "text": "# T07导航补充初判：A084 p6\n\n先看预选末页完整图，尚未看本轮其它页／旧笔记／PDF文字坐标。历史首轮读过本谱，当前为主agent回查，非独立盲测。\n\n1. 本页从K前一小节继续到L与末尾，没有看到D.S.或To Coda；不能仅凭“末页”补出此前路线。要找实际跳出、落点和调号／谱号来路后才能决定导航是否清楚。\n2. 保留本页八度的续行括号和局部末角，不能按L段号重置全部范围；L首和弦与后来运行并不都由同一条线覆盖。\n3. 末尾有完整tie的和弦、sfz后的p、rit.及高音落点延长，保持各自时点。不能把两个长和弦当重奏，也不能为了对称把力度或延长号全移成同一列。\n4. 末尾踏板未见释放星，现按延续留响核，不自动补一个精确Off时刻；本页白头、弧与rit.也不能证明此前所有小节均可自由伸缩。\n"
+  },
+  "generic_reference_scope_note": "Registration generic paths mean relevant sections consulted,not all files reread fully.",
+  "source_protection": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bios - Guilty Crown - Soundtrack.pdf",
+      "expected_sha256": "938e22a7c51ebda1572b1afbab70300c5582f084a7750cddfdb82421fd487e48"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Little Busters! - Little Busters! - Opening Theme.pdf",
+      "expected_sha256": "2ceed13c7cbf7fda41f93b108f47bc46e3dfdf18ddb6bc292f1dcae2f6f6a243"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "expected_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "images": [
+    {
+      "role": "complete score page reread",
+      "score_id": "A019",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A019/page-1.jpg",
+      "sha256": "bd25f4fa812cee60a9f1e9aff8ce433230eb6cfefb59a549588788f8df18c314",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A019",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A019/page-2.jpg",
+      "sha256": "001db9b2cacaba4f05edd3ad22e48cdb3f02cafcbfa2bff3237fafaabe86fc2f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A019",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A019/page-3.jpg",
+      "sha256": "4e940a77f80ef16386964cea796caab7ea3e6dc0e6346078e274e49bcf3274ad",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A019",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A019/page-4.jpg",
+      "sha256": "5fffcbcac2de524f67cadfc1f6f9bf60153be5a5a8898e78e3ef4cd6b1344f7f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A019",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A019/page-5.jpg",
+      "sha256": "5cb450a4e3768fb37c56df50fecda1a316f45d0f6e3cae1e311e7ef4351d563b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A019",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A019/page-6.jpg",
+      "sha256": "ddb20f5c6b7aa4cbfba3f765269ee581248b42ca8291a1af9e9df7ffc1539315",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A019",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A019/page-7.jpg",
+      "sha256": "b244a9be59ecd8a3312b3d3859df27b96b68b20ef35618fee6059a92d5191767",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A019",
+      "page": 8,
+      "path": "tmp/engraving/corpus/A019/page-8.jpg",
+      "sha256": "e5e2323fb1f49dc66ec812ef084e43718aa21062a0f95b1c91ff3517c32ef037",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A019",
+      "page": 9,
+      "path": "tmp/engraving/corpus/A019/page-9.jpg",
+      "sha256": "0736621c50b529d0873faf9a9fe44590dc73c062c72ff2154862721513140600",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A084",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A084/page-1.jpg",
+      "sha256": "ee986c0f1d30067a15ba6d9f599e590d2940dd625d1df16a01d104ec07149ae1",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A084",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A084/page-2.jpg",
+      "sha256": "074f2aaefa0dd8bb88af8bd006674f1b114150e4b1b5bcb13a0b5d6960a59f56",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A084",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A084/page-3.jpg",
+      "sha256": "144b3265412f89f360d525d6c79ab43a9c2125627cc2166048abbc2f6af9304f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A084",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A084/page-4.jpg",
+      "sha256": "29d4b1aea4620a2127743e94bd0b6a1e14a33ee36632c4ce73a7e895d5dce525",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A084",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A084/page-5.jpg",
+      "sha256": "1f8523f15e44ffed64a8d4a1e7fa1e28f5ee7196b7ef321d40fae0ca524df85c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete score page reread",
+      "score_id": "A084",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A084/page-6.jpg",
+      "sha256": "0f0c8f8753d5fe5cb15d11575e3e4494a6d1a96d98de10a443017365dea5148a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p1-s3.jpg",
+      "sha256": "aae7adae6e7a0af9c92181f340578b5e94d8e9ad47d72dfd00f030eb562da145",
+      "crop_pt": [
+        25,
+        390.966,
+        565,
+        542.4739999999999
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        651
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p1-s4.jpg",
+      "sha256": "9e8add772be20f544839e4b70a919eeb7acc5bdc7feee264f50e708cf8685ae4",
+      "crop_pt": [
+        25,
+        514.212,
+        565,
+        672.11
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        678
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p3-s1.jpg",
+      "sha256": "c66c14cc56d5a752a4a7574fde21f0ce9206ac8d46ad93623dde637698c3d39a",
+      "crop_pt": [
+        25,
+        24.054000000000002,
+        565,
+        177.686
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        660
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p3-s2.jpg",
+      "sha256": "aa9ea38350ad8863773e5e6f5a8e9fec8bcc44faa661d4df2289ddbfe128e281",
+      "crop_pt": [
+        25,
+        145.698,
+        565,
+        301.472
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        669
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p3-s3.jpg",
+      "sha256": "61e49e759654a223c65c97278f4a47393311405d8017eaee973c935881e24e2f",
+      "crop_pt": [
+        25,
+        270.186,
+        565,
+        425.96
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        670
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p3-s6.jpg",
+      "sha256": "be1d651dec5f31b3bb09442119887c8bfacc355ceee5adb746701b4c8781498f",
+      "crop_pt": [
+        25,
+        656.772,
+        565,
+        814.13
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        676
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p5-s4.jpg",
+      "sha256": "e8117ead7381cbe5f275115240c986d059d8d0b4ed4239dac1b9ce96bab5b55a",
+      "crop_pt": [
+        25,
+        421.242,
+        565,
+        574.892
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        660
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p6-s4.jpg",
+      "sha256": "b088640f96a9764db1c52d5d9c3eb0a869cd8c30122793918d62393a01236f9f",
+      "crop_pt": [
+        25,
+        404.25,
+        565,
+        555.758
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        651
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 7,
+      "system": 1,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p7-s1.jpg",
+      "sha256": "8ca1ea3f4fb3ed4486a8a2dd9555d6c1b42a5bd0803aa9f32b937b8728cf7267",
+      "crop_pt": [
+        25,
+        24.054000000000002,
+        565,
+        175.562
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        651
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 7,
+      "system": 4,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p7-s4.jpg",
+      "sha256": "aa315d9f94c5e1b114bbb17321906534d78cb6fd088754a323fadfaead1dd22b",
+      "crop_pt": [
+        25,
+        393.27,
+        565,
+        553.274
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        687
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 8,
+      "system": 3,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p8-s3.jpg",
+      "sha256": "12a5f1efc2f72c8628260be3801450e4f7307d5769ebe51a7be3be21707cd405",
+      "crop_pt": [
+        25,
+        325.968,
+        565,
+        481.742
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        669
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 9,
+      "system": 1,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p9-s1.jpg",
+      "sha256": "58c24b6a6ea5a993b37834bd8e0225ec8781607171d067bf55fca9bdc3401c6e",
+      "crop_pt": [
+        25,
+        24.054000000000002,
+        565,
+        175.562
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        651
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "fresh full-system context",
+      "page": 9,
+      "system": 5,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/p9-s5.jpg",
+      "sha256": "40c8b30cf69037259f4a459bbd362436dc0ce7a10b09e69633c4ce53469df179",
+      "crop_pt": [
+        25,
+        662.424,
+        565,
+        813.95
+      ],
+      "scale": 4.3,
+      "pixels": [
+        2322,
+        651
+      ],
+      "score_id": "A019",
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 72,
+      "pdf_page": 92,
+      "path": "tmp/engraving/curves-2026-10-19/book-72.jpg",
+      "sha256": "d77e42e2f5b6c76705c3544e9ccbf37b5d165c3208def1545b99bbe75625d000",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 73,
+      "pdf_page": 93,
+      "path": "tmp/engraving/curves-2026-10-19/book-73.jpg",
+      "sha256": "c19a47bc3a81003f291244df93a34a40a1cef7a6a05ab18fb61087e9838b63b3",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 222,
+      "pdf_page": 242,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-222.jpg",
+      "sha256": "e731e7d59aec9e0ad75fc4078123aa147ae81e36ce4b3b6c593138dff1bb40da",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 223,
+      "pdf_page": 243,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-243.jpg",
+      "sha256": "30e655895b4acd72ebcb6891b57a04950a75cb3e02489ec574779ea77c9a2649",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 332,
+      "pdf_page": 352,
+      "path": "tmp/engraving/piano-2026-10-19/book-332.jpg",
+      "sha256": "e258c4a2eaefb8646706e4efe58d744a23794a3d6ecca5500e78894da64bfd49",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 333,
+      "pdf_page": 353,
+      "path": "tmp/engraving/piano-2026-10-19/book-333.jpg",
+      "sha256": "51194422923056e8c233ceb7b3f996644ddbb1d38112596fc97ce6e476854b30",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 336,
+      "pdf_page": 356,
+      "path": "tmp/engraving/piano-2026-10-19/book-336.jpg",
+      "sha256": "e5a6181fa3f47bbd8b0397ffcba0f60c2e51ff34b164c41e973a721f99c1a8ed",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/piano-2026-10-19/book-337.jpg",
+      "sha256": "f829990ad08fe0abe3be5c36c330297de27cd14c3635709a4a36a2b2969ae286",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "pdf_page": 261,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-241.jpg",
+      "sha256": "0baa84def34e075905a450631fda061044c59b1fe8cfc1cc52aadc71705438ca",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": false,
+      "nominal_printed_slot": 241,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "pdf_page": 262,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-242.jpg",
+      "sha256": "df09ab374950edc0746b51e70d78fa92025af616940e1f54c83b389fa828fd2c",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": false,
+      "nominal_printed_slot": 242,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "pdf_page": 263,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-243.jpg",
+      "sha256": "be741492c63b679bf3286301d323518c87d3822e57245448a66a49d3796c768f",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": false,
+      "nominal_printed_slot": 243,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "pdf_page": 264,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-244.jpg",
+      "sha256": "3d5ccded192e7ec23b9cc2a7e83b8bdd3ca17dae607328137ad8f9c36b61521a",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": false,
+      "nominal_printed_slot": 244,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "printed_page": 245,
+      "pdf_page": 265,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-245.jpg",
+      "sha256": "c93048766b3cff0075e632f689559836c7ceb61c6b45878f6affee30133f33d0",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "printed_page": 246,
+      "pdf_page": 266,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-246.jpg",
+      "sha256": "14e5ee2422c787a1d284b58cb28b2f35fa20b4340972518ed81884b4ab65f2df",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "printed_page": 247,
+      "pdf_page": 267,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-247.jpg",
+      "sha256": "b2d6dbce1a294209a867476edf35247ab871c8abb6611ada28a842663c9abeeb",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "printed_page": 248,
+      "pdf_page": 268,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-248.jpg",
+      "sha256": "c125df3250801d9bdea4d46b35161d8af28dda8fa55a4268a260e89800f3ad1c",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "printed_page": 249,
+      "pdf_page": 269,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-249.jpg",
+      "sha256": "64e0fed7ac5fb6e69585043eb06d3fff0c8d674403e5e8aa6260247d9b100020",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "new book coverage page",
+      "printed_page": 250,
+      "pdf_page": 270,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-250.jpg",
+      "sha256": "4c98f5d35d1c6b96e29e1bbdd57d20d8df38ece21b8f3f40676067f380a807a0",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 224,
+      "pdf_page": 244,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-244.jpg",
+      "sha256": "e6542c37848737e8c50ef4b21429b2401fc21c66a7040a3547e0ce48b7f218a8",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 225,
+      "pdf_page": 245,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-245.jpg",
+      "sha256": "084ce6edced7f0b701688734ea5279453167fe91fbe9069bfa769386dae2d4fd",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 334,
+      "pdf_page": 354,
+      "path": "tmp/engraving/piano-2026-10-19/book-334.jpg",
+      "sha256": "b92cdbc5360cdcfcd4c2acd3973c835d2670dccae4c2c37828318d5c35940f24",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 237,
+      "pdf_page": 257,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-237.jpg",
+      "sha256": "a42b7944f4bf0aaa42b138b3595cd2be23d6b886a52c7662d2012ee4858c1d60",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 238,
+      "pdf_page": 258,
+      "path": "tmp/engraving/repeat-navigation-2026-10-20/book-p238.jpg",
+      "sha256": "330075b55b814867ac343c2ad6f6aaa14752ce77bbd7d3c3aebf5663e4ab29bd",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 239,
+      "pdf_page": 259,
+      "path": "tmp/engraving/repeat-navigation-2026-10-20/book-p239.jpg",
+      "sha256": "4493853c9302e49a1365174120a4da0280067985e8a0259ec8e23db84bb26220",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "old complete book page reread",
+      "printed_page": 240,
+      "pdf_page": 260,
+      "path": "tmp/engraving/repeat-navigation-2026-10-20/book-p240.jpg",
+      "sha256": "a73e6a89cf3704a0ed3519e6f20aeeaeeba1a3a78e5ce35c0fa4830f75e80a4f",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "substantive": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "A084 navigation complete-system context",
+      "score_id": "A084",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/nav-p2-s4.jpg",
+      "sha256": "c72020cc99512ff2ccc7180edd35183a6388fb63c49cc22a0711e6159ed40af6",
+      "crop_pt": [
+        25,
+        400.56,
+        565,
+        560.72
+      ],
+      "scale": 4.3,
+      "actually_viewed": true
+    },
+    {
+      "role": "A084 navigation complete-system context",
+      "score_id": "A084",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/nav-p3-s2.jpg",
+      "sha256": "df301e52fc7000e6c1f1d9a27ff3f89995a81a3e41aa06f6c37e5011ac07343e",
+      "crop_pt": [
+        25,
+        149.52,
+        565,
+        309.8
+      ],
+      "scale": 4.3,
+      "actually_viewed": true
+    },
+    {
+      "role": "A084 navigation complete-system context",
+      "score_id": "A084",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/nav-p4-s2.jpg",
+      "sha256": "998c7b6b7057a9653feac8153d64e9b06696fb1471940d777d8e11270f93c59e",
+      "crop_pt": [
+        25,
+        149.52,
+        565,
+        309.8
+      ],
+      "scale": 4.3,
+      "actually_viewed": true
+    },
+    {
+      "role": "A084 navigation complete-system context",
+      "score_id": "A084",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/nav-p4-s3.jpg",
+      "sha256": "cb456eec3df2ddb16febd51e2fa6732361d5169c3850cd071a023cc377800fbc",
+      "crop_pt": [
+        25,
+        275.04,
+        565,
+        435.2
+      ],
+      "scale": 4.3,
+      "actually_viewed": true
+    },
+    {
+      "role": "A084 navigation complete-system context",
+      "score_id": "A084",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/nav-p4-s5.jpg",
+      "sha256": "af7c96f3bc9245af30cd8d15698a083dd5b94aa64ed49f90086d5760c3cae66a",
+      "crop_pt": [
+        25,
+        526.08,
+        565,
+        686.24
+      ],
+      "scale": 4.3,
+      "actually_viewed": true
+    },
+    {
+      "role": "A084 navigation complete-system context",
+      "score_id": "A084",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/nav-p6-s5.jpg",
+      "sha256": "d40b81f05196e828303dae5d88d8176fdc768ca0668ac14ffbab3226496b43d0",
+      "crop_pt": [
+        25,
+        652.08,
+        565,
+        812.24
+      ],
+      "scale": 4.3,
+      "actually_viewed": true
+    }
+  ],
+  "manual_source_geometry_and_reading": {
+    "written_bar_count": 163,
+    "horizontal_systems": 51,
+    "page_intervals": [
+      [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      [
+        4,
+        3,
+        3,
+        4,
+        3,
+        3
+      ],
+      [
+        4,
+        3,
+        3,
+        3,
+        3,
+        4
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        2,
+        3,
+        3,
+        2
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      [
+        3,
+        3,
+        4,
+        4,
+        4
+      ]
+    ],
+    "system_bar_ranges": [
+      {
+        "page": 1,
+        "system": 1,
+        "first_bar": 1,
+        "last_bar": 4,
+        "intervals": 4
+      },
+      {
+        "page": 1,
+        "system": 2,
+        "first_bar": 5,
+        "last_bar": 8,
+        "intervals": 4
+      },
+      {
+        "page": 1,
+        "system": 3,
+        "first_bar": 9,
+        "last_bar": 12,
+        "intervals": 4
+      },
+      {
+        "page": 1,
+        "system": 4,
+        "first_bar": 13,
+        "last_bar": 16,
+        "intervals": 4
+      },
+      {
+        "page": 1,
+        "system": 5,
+        "first_bar": 17,
+        "last_bar": 20,
+        "intervals": 4
+      },
+      {
+        "page": 2,
+        "system": 1,
+        "first_bar": 21,
+        "last_bar": 24,
+        "intervals": 4
+      },
+      {
+        "page": 2,
+        "system": 2,
+        "first_bar": 25,
+        "last_bar": 27,
+        "intervals": 3
+      },
+      {
+        "page": 2,
+        "system": 3,
+        "first_bar": 28,
+        "last_bar": 30,
+        "intervals": 3
+      },
+      {
+        "page": 2,
+        "system": 4,
+        "first_bar": 31,
+        "last_bar": 34,
+        "intervals": 4
+      },
+      {
+        "page": 2,
+        "system": 5,
+        "first_bar": 35,
+        "last_bar": 37,
+        "intervals": 3
+      },
+      {
+        "page": 2,
+        "system": 6,
+        "first_bar": 38,
+        "last_bar": 40,
+        "intervals": 3
+      },
+      {
+        "page": 3,
+        "system": 1,
+        "first_bar": 41,
+        "last_bar": 44,
+        "intervals": 4
+      },
+      {
+        "page": 3,
+        "system": 2,
+        "first_bar": 45,
+        "last_bar": 47,
+        "intervals": 3
+      },
+      {
+        "page": 3,
+        "system": 3,
+        "first_bar": 48,
+        "last_bar": 50,
+        "intervals": 3
+      },
+      {
+        "page": 3,
+        "system": 4,
+        "first_bar": 51,
+        "last_bar": 53,
+        "intervals": 3
+      },
+      {
+        "page": 3,
+        "system": 5,
+        "first_bar": 54,
+        "last_bar": 56,
+        "intervals": 3
+      },
+      {
+        "page": 3,
+        "system": 6,
+        "first_bar": 57,
+        "last_bar": 60,
+        "intervals": 4
+      },
+      {
+        "page": 4,
+        "system": 1,
+        "first_bar": 61,
+        "last_bar": 63,
+        "intervals": 3
+      },
+      {
+        "page": 4,
+        "system": 2,
+        "first_bar": 64,
+        "last_bar": 66,
+        "intervals": 3
+      },
+      {
+        "page": 4,
+        "system": 3,
+        "first_bar": 67,
+        "last_bar": 69,
+        "intervals": 3
+      },
+      {
+        "page": 4,
+        "system": 4,
+        "first_bar": 70,
+        "last_bar": 72,
+        "intervals": 3
+      },
+      {
+        "page": 4,
+        "system": 5,
+        "first_bar": 73,
+        "last_bar": 75,
+        "intervals": 3
+      },
+      {
+        "page": 4,
+        "system": 6,
+        "first_bar": 76,
+        "last_bar": 78,
+        "intervals": 3
+      },
+      {
+        "page": 5,
+        "system": 1,
+        "first_bar": 79,
+        "last_bar": 81,
+        "intervals": 3
+      },
+      {
+        "page": 5,
+        "system": 2,
+        "first_bar": 82,
+        "last_bar": 84,
+        "intervals": 3
+      },
+      {
+        "page": 5,
+        "system": 3,
+        "first_bar": 85,
+        "last_bar": 87,
+        "intervals": 3
+      },
+      {
+        "page": 5,
+        "system": 4,
+        "first_bar": 88,
+        "last_bar": 90,
+        "intervals": 3
+      },
+      {
+        "page": 5,
+        "system": 5,
+        "first_bar": 91,
+        "last_bar": 93,
+        "intervals": 3
+      },
+      {
+        "page": 5,
+        "system": 6,
+        "first_bar": 94,
+        "last_bar": 96,
+        "intervals": 3
+      },
+      {
+        "page": 6,
+        "system": 1,
+        "first_bar": 97,
+        "last_bar": 99,
+        "intervals": 3
+      },
+      {
+        "page": 6,
+        "system": 2,
+        "first_bar": 100,
+        "last_bar": 102,
+        "intervals": 3
+      },
+      {
+        "page": 6,
+        "system": 3,
+        "first_bar": 103,
+        "last_bar": 104,
+        "intervals": 2
+      },
+      {
+        "page": 6,
+        "system": 4,
+        "first_bar": 105,
+        "last_bar": 107,
+        "intervals": 3
+      },
+      {
+        "page": 6,
+        "system": 5,
+        "first_bar": 108,
+        "last_bar": 110,
+        "intervals": 3
+      },
+      {
+        "page": 6,
+        "system": 6,
+        "first_bar": 111,
+        "last_bar": 112,
+        "intervals": 2
+      },
+      {
+        "page": 7,
+        "system": 1,
+        "first_bar": 113,
+        "last_bar": 115,
+        "intervals": 3
+      },
+      {
+        "page": 7,
+        "system": 2,
+        "first_bar": 116,
+        "last_bar": 118,
+        "intervals": 3
+      },
+      {
+        "page": 7,
+        "system": 3,
+        "first_bar": 119,
+        "last_bar": 121,
+        "intervals": 3
+      },
+      {
+        "page": 7,
+        "system": 4,
+        "first_bar": 122,
+        "last_bar": 124,
+        "intervals": 3
+      },
+      {
+        "page": 7,
+        "system": 5,
+        "first_bar": 125,
+        "last_bar": 127,
+        "intervals": 3
+      },
+      {
+        "page": 7,
+        "system": 6,
+        "first_bar": 128,
+        "last_bar": 130,
+        "intervals": 3
+      },
+      {
+        "page": 8,
+        "system": 1,
+        "first_bar": 131,
+        "last_bar": 133,
+        "intervals": 3
+      },
+      {
+        "page": 8,
+        "system": 2,
+        "first_bar": 134,
+        "last_bar": 136,
+        "intervals": 3
+      },
+      {
+        "page": 8,
+        "system": 3,
+        "first_bar": 137,
+        "last_bar": 139,
+        "intervals": 3
+      },
+      {
+        "page": 8,
+        "system": 4,
+        "first_bar": 140,
+        "last_bar": 142,
+        "intervals": 3
+      },
+      {
+        "page": 8,
+        "system": 5,
+        "first_bar": 143,
+        "last_bar": 145,
+        "intervals": 3
+      },
+      {
+        "page": 9,
+        "system": 1,
+        "first_bar": 146,
+        "last_bar": 148,
+        "intervals": 3
+      },
+      {
+        "page": 9,
+        "system": 2,
+        "first_bar": 149,
+        "last_bar": 151,
+        "intervals": 3
+      },
+      {
+        "page": 9,
+        "system": 3,
+        "first_bar": 152,
+        "last_bar": 155,
+        "intervals": 4
+      },
+      {
+        "page": 9,
+        "system": 4,
+        "first_bar": 156,
+        "last_bar": 159,
+        "intervals": 4
+      },
+      {
+        "page": 9,
+        "system": 5,
+        "first_bar": 160,
+        "last_bar": 163,
+        "intervals": 4
+      }
+    ],
+    "section_label_locators": [
+      {
+        "label": "A",
+        "page": 1,
+        "system": 3,
+        "bar": 9,
+        "x": 63.756
+      },
+      {
+        "label": "B",
+        "page": 1,
+        "system": 5,
+        "bar": 17,
+        "x": 65.7
+      },
+      {
+        "label": "C",
+        "page": 2,
+        "system": 4,
+        "bar": 33,
+        "x": 299.988
+      },
+      {
+        "label": "D",
+        "page": 3,
+        "system": 1,
+        "bar": 41,
+        "x": 53.118
+      },
+      {
+        "label": "E",
+        "page": 3,
+        "system": 3,
+        "bar": 49,
+        "x": 232.866
+      },
+      {
+        "label": "F",
+        "page": 3,
+        "system": 6,
+        "bar": 57,
+        "x": 52.776
+      },
+      {
+        "label": "G",
+        "page": 4,
+        "system": 2,
+        "bar": 65,
+        "x": 227.736
+      },
+      {
+        "label": "H",
+        "page": 4,
+        "system": 5,
+        "bar": 73,
+        "x": 74.196
+      },
+      {
+        "label": "I",
+        "page": 5,
+        "system": 4,
+        "bar": 89,
+        "x": 221.886
+      },
+      {
+        "label": "J",
+        "page": 6,
+        "system": 1,
+        "bar": 97,
+        "x": 60.03
+      },
+      {
+        "label": "K",
+        "page": 6,
+        "system": 4,
+        "bar": 105,
+        "x": 63.576
+      },
+      {
+        "label": "L",
+        "page": 7,
+        "system": 1,
+        "bar": 113,
+        "x": 41.616
+      },
+      {
+        "label": "M",
+        "page": 7,
+        "system": 4,
+        "bar": 122,
+        "x": 71.19
+      },
+      {
+        "label": "N",
+        "page": 8,
+        "system": 3,
+        "bar": 138,
+        "x": 224.712
+      },
+      {
+        "label": "O",
+        "page": 9,
+        "system": 1,
+        "bar": 146,
+        "x": 52.416
+      },
+      {
+        "label": "P",
+        "page": 9,
+        "system": 3,
+        "bar": 152,
+        "x": 62.154
+      }
+    ],
+    "manual_reading": {
+      "Bios_A_open_curves_to_rest_and_separate_complete_bass_tie": true,
+      "Bios_D_secco_under_complete_upper_ties": true,
+      "Bios_I_first_two_bars_each_pedal_pairs": 1,
+      "Bios_K_first_two_bars_each_pedal_beginnings": 3,
+      "Bios_K_first_two_bars_each_release_stars": 2,
+      "Bios_final_tremolo": {
+        "written_dotted_half_heads": 2,
+        "tremolo_beams": 3,
+        "pair_total_quarters": 3,
+        "following_quarter": 1
+      },
+      "Bios_final_fermatas": {
+        "same_final_bar": true
+      },
+      "Little_Busters_route": {
+        "segno": [
+          2,
+          4,
+          "D"
+        ],
+        "to_coda": [
+          3,
+          2,
+          "row end"
+        ],
+        "dal_segno": [
+          4,
+          2,
+          "row end"
+        ],
+        "coda": [
+          4,
+          3,
+          "H"
+        ],
+        "return_time_signature": "6/4 then4/4",
+        "jump_time_signature": "4/4",
+        "return_key_sharps": 5,
+        "coda_key_sharps": 4,
+        "first_pass": "ToCoda ignored until D.S.",
+        "second_pass": "D through ToCoda then H; skip E-G on return"
+      },
+      "native_playback_verified": false
+    }
+  },
+  "review_of_initial": [
+    {
+      "claim": "A019p1long slurs,held layers and empty staff differ",
+      "outcome": "Supported by whole context",
+      "basis": "D and O tie-held upper chords coexist with lower secco; F r.h.motion while upper rests."
+    },
+    {
+      "claim": "A019Aopen continuation to rest differs from complete bass tie",
+      "outcome": "Made precise with Gould72-73and337",
+      "basis": "Long open tie indicates full written duration to rest; no invented normal receiving heads or exact pedal method."
+    },
+    {
+      "claim": "A019local pedal not extended to B",
+      "outcome": "Supported",
+      "basis": "m15Ped.andm16release near lower half-rest; later D/I/K/O show different local patterns."
+    },
+    {
+      "claim": "A019no visible p1navigation or free timing",
+      "outcome": "Supported and qualified by later context",
+      "basis": "Whole9pages have no D.S./Coda; m161adlib.tremolo has notated3+1quarter span,not global free meter."
+    },
+    {
+      "claim": "A084p6alone cannot reconstruct earlier route",
+      "outcome": "Supported;actual route established only after other pages",
+      "basis": "D/Segno p2s4→ToCoda p3s2→D.S.p4s2→return D→ToCoda→H p4s3; restore6/4andfive-sharp key at D;four-sharp key at H."
+    },
+    {
+      "claim": "A084preserve octave boundaries,ties,distinct dynamics and ending pedal",
+      "outcome": "Supported with complete context",
+      "basis": "H backgrounds vs mf melody; octave line ends before upper receiving chord; final tied chord,sfz,p,rit.and ascent endpoints remain distinct."
+    }
+  ],
+  "book": {
+    "source": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "pdf_offset": 20,
+    "old_complete_pages_reread": [
+      72,
+      73,
+      222,
+      223,
+      224,
+      225,
+      237,
+      238,
+      239,
+      240,
+      332,
+      333,
+      334,
+      336,
+      337
+    ],
+    "new_technical_printed_pages": [
+      245,
+      246,
+      247,
+      248,
+      249,
+      250
+    ],
+    "new_auxiliary_pdf_pages": [
+      261,
+      262,
+      263,
+      264
+    ],
+    "new_ledger_pages": 10,
+    "full_book_mastery_claimed": false
+  },
+  "all_score_closeouts": [
+    {
+      "id": "A019",
+      "whole_pages": 9,
+      "old_questions_reviewed": [
+        "secco to conPed.local boundaries",
+        "E mf versus ff roles",
+        "L chromaticism versus Mkey and hand brackets"
+      ],
+      "remaining": "Precise pedal/hand method,full pitch/playback collation,native alternatives and physical turns unverified;KlastPed.boundary remains an exact-control question."
+    },
+    {
+      "id": "A084",
+      "whole_pages": 6,
+      "old_questions_reviewed": [
+        "nonpedal to ped.at A",
+        "D.S./Coda actual route and H/octave state",
+        "K/L chromaticism and final cross-staff ascent"
+      ],
+      "remaining": "Static route checked;internal target objects,expanded playback,full pitch/ratio collation,native alternatives and actual turn/print remain unverified."
+    }
+  ],
+  "not_performed": [
+    "original PDF/MSCZ or book writes",
+    "native MuseScore execution",
+    "expanded route playback,MIDI/audio or print",
+    "font work",
+    "MCP/plugin/core adaptation",
+    "independent blind evaluation",
+    "new user aesthetic preference",
+    "deletion"
+  ],
+  "validation": {
+    "checked_at_utc": "2026-10-25T09:36:36.676381+00:00",
+    "progress": {
+      "as_of": "2026-10-25",
+      "scope_revision": 1,
+      "goal_status": "active",
+      "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+      "first_pass_scores": [
+        146,
+        146
+      ],
+      "first_pass_pages": [
+        1135,
+        1135
+      ],
+      "historical_detail_pages": 379,
+      "deep_scores": [
+        24,
+        24
+      ],
+      "deep_pages": [
+        164,
+        164
+      ],
+      "all_score_closeout": [
+        23,
+        146
+      ],
+      "gould_pages_conservative": [
+        389,
+        696
+      ],
+      "gould_substantive_pages": 369,
+      "gould_non_substantive_pages": 20,
+      "gould_title_or_contents_pages": 20,
+      "public_resource_scopes": [
+        11,
+        25
+      ],
+      "skill_transfer_scenarios": [
+        7,
+        8
+      ],
+      "user_integrated_rounds": [
+        0,
+        1
+      ],
+      "user_milestones": [
+        2,
+        4
+      ],
+      "skill_topics": [
+        20,
+        20
+      ],
+      "release": "engraving-v0.4.0"
+    },
+    "source_hashes_rechecked": 3,
+    "frozen_initial_hashes_rechecked": 2,
+    "actual_image_hashes_rechecked": 59,
+    "whole_score_pages_reread": 15,
+    "system_detail_regions": 19,
+    "old_complete_book_pages": 15,
+    "new_technical_book_pages": 6,
+    "new_auxiliary_book_pages": 4,
+    "source_geometry_reexecuted": true,
+    "A019written_bars": 163,
+    "A019systems": 51,
+    "A084static_route_reviewed": true,
+    "A084expanded_playback_verified": false,
+    "all20_locator_topics_executed": true,
+    "new_case_resolves_for": [
+      "piano",
+      "curves",
+      "navigation",
+      "tempo"
+    ],
+    "skill_format": "Skill is valid!",
+    "local_links": 479,
+    "local_anchors": 16,
+    "explicit_paths_match": 17,
+    "historical_certificates_unchanged": {
+      "release_0_2_0_evidence.json": "eae472601c90c90763f6b175f8af65ba02cea1514384cd96126764e97061ba81",
+      "release_0_3_0_evidence.json": "4340bb9f354bb7fd3f65f08dee3baeefda1e0a5eb3cf42f263aa92146470fdfd",
+      "release_0_4_0_evidence.json": "b28867de7b3bfb4d62342acfad20fdd2c321e76a402986b81ec31500f1d90927"
+    },
+    "historical_tags_unchanged": {
+      "engraving-v0.1.0": "f72bb2b313d27c392d7c5a203b593f7f6ea8a24b",
+      "engraving-v0.2.0": "15fb76d0574bcbfb0002c547f66ad4a49671390b",
+      "engraving-v0.3.0": "df675cd8385d10670e7558b986eb93c9ff752ad8",
+      "engraving-v0.4.0": "a4fa5cfe7a911d53e7f1b68a2aeccdadcce7015d"
+    },
+    "batch_cache_logical_bytes_before_validation_output": 5488948,
+    "all_engraving_cache_logical_bytes": 2436956867,
+    "native_runs": 0,
+    "software_adaptation": false,
+    "coverage_not_mastery_or_accuracy": true
+  }
+}

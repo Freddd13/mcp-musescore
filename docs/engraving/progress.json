@@ -33,7 +33,9 @@
       "A004",
       "A012",
       "A014",
-      "A016"
+      "A016",
+      "A019",
+      "A084"
     ],
     "closeout_records": {
       "A098": {
@@ -140,6 +142,16 @@
         "note": "SKILL_TRANSFER_NOTATION.md",
         "evidence": "skill_transfer_notation_evidence.json",
         "unresolved": "m87exact timing/freedom is not author-defined; native alternatives and actual page-turn conditions unverified. Closeout means question review,not zero unknowns."
+      },
+      "A019": {
+        "note": "SKILL_TRANSFER_CONTINUITY.md",
+        "evidence": "skill_transfer_continuity_evidence.json",
+        "unresolved": "Precise pedal/hand method,full pitch/playback collation,native alternatives and physical turns unverified;KlastPed.boundary remains an exact-control question."
+      },
+      "A084": {
+        "note": "SKILL_TRANSFER_CONTINUITY.md",
+        "evidence": "skill_transfer_continuity_evidence.json",
+        "unresolved": "Static route checked;internal target objects,expanded playback,full pitch/ratio collation,native alternatives and actual turn/print remain unverified."
       }
     }
   },
@@ -418,6 +430,10 @@
         240
       ],
       [
+        245,
+        250
+      ],
+      [
         303,
         338
       ],
@@ -454,6 +470,10 @@
       236,
       237,
       238,
+      261,
+      262,
+      263,
+      264,
       519,
       520,
       609,
@@ -740,6 +760,40 @@
           121,
           42
         ]
+      },
+      {
+        "date": "2026-10-25",
+        "evidence": "skill_transfer_continuity_evidence.json",
+        "new_substantive_printed_range": [
+          245,
+          250
+        ],
+        "new_unique_pages": 10,
+        "new_substantive_pages": 6,
+        "new_ancillary_pages": 4,
+        "new_ancillary_pdf_pages": [
+          261,
+          262,
+          263,
+          264
+        ],
+        "reread_printed_pages": [
+          72,
+          73,
+          222,
+          223,
+          224,
+          225,
+          237,
+          238,
+          239,
+          240,
+          332,
+          333,
+          334,
+          336,
+          337
+        ]
       }
     ]
   },
@@ -949,8 +1003,11 @@
       {
         "id": "T07",
         "task": "反复、持续、踏板与自由等待",
-        "status": "pending",
-        "reference": "REPEAT_NAVIGATION.md"
+        "status": "complete",
+        "reference": "SKILL_TRANSFER_CONTINUITY.md",
+        "evidence": "skill_transfer_continuity_evidence.json",
+        "evaluation_mode": "Root-only two preselected/frozen initial passes;A019p1andA084p6,then full context;historically first-pass-known,not independent/blind.",
+        "remaining_limit": "Representative pedal/sustain/adlib.and actual D.S./Coda route checked read-only;no expanded playback,native/aesthetic/print verification or general accuracy claim."
       },
       {
         "id": "T08",
@@ -997,25 +1054,25 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged. SubsequentA001/A004whole question closeouts5pages make18/146; Gould8new technical+2ancillary makes357/696=349+8. Fixed24/24and164/164,resources10/25,transfer2/8unchanged.0.4.0release snapshot/tag/certificate remain immutable. SubsequentT03root-only rhythm scenario evaluated with material initial count/beam correction; transfer3/8. Gould3new ancillary leaves make360/696=349technical+11ancillary; no new technical coverage,deep/corpus closeout,resource or native increment.0.4.0snapshot unchanged. SubsequentT04clef/ottava application plusA012whole closeout6pages:transfer4/8,all-corpus19/146. Gould6new technical pages641-646make366/696=355+11. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no new native/adaptation. SubsequentT05andA014whole6page closeout:transfer5/8,corpus20/146. Gould372/696=359substantive+13ancillary;new3technical+1terms table+2ancillary. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no native/adaptation. Subsequent R24 fixed directed nine snippets (5keyboard+4simultaneous),9figures and9complete generated sources read;resources11/25. Official tagged source checked for force-hshift width units. Corpus20/146,Gould372/696,transfer5/8,fixed24/24 and historical0.4.0 snapshot unchanged;no native/adaptation. SubsequentT06plusA016five-page question closeout:transfer6/8,corpus21/146. Gould379/696=363substantive+16ancillary;new3technical,1terms-table,3auxiliary. Post-initial closing-run size mistake corrected using actual glyph matrices and free-section context. Resources11/25,fixed24/24and historical0.4.0snapshot unchanged;no native/adaptation."
+    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged. SubsequentA001/A004whole question closeouts5pages make18/146; Gould8new technical+2ancillary makes357/696=349+8. Fixed24/24and164/164,resources10/25,transfer2/8unchanged.0.4.0release snapshot/tag/certificate remain immutable. SubsequentT03root-only rhythm scenario evaluated with material initial count/beam correction; transfer3/8. Gould3new ancillary leaves make360/696=349technical+11ancillary; no new technical coverage,deep/corpus closeout,resource or native increment.0.4.0snapshot unchanged. SubsequentT04clef/ottava application plusA012whole closeout6pages:transfer4/8,all-corpus19/146. Gould6new technical pages641-646make366/696=355+11. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no new native/adaptation. SubsequentT05andA014whole6page closeout:transfer5/8,corpus20/146. Gould372/696=359substantive+13ancillary;new3technical+1terms table+2ancillary. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no native/adaptation. Subsequent R24 fixed directed nine snippets (5keyboard+4simultaneous),9figures and9complete generated sources read;resources11/25. Official tagged source checked for force-hshift width units. Corpus20/146,Gould372/696,transfer5/8,fixed24/24 and historical0.4.0 snapshot unchanged;no native/adaptation. SubsequentT06plusA016five-page question closeout:transfer6/8,corpus21/146. Gould379/696=363substantive+16ancillary;new3technical,1terms-table,3auxiliary. Post-initial closing-run size mistake corrected using actual glyph matrices and free-section context. Resources11/25,fixed24/24and historical0.4.0snapshot unchanged;no native/adaptation. SubsequentT07two frozen initial passes plusA019nine/A084six-page closeouts:transfer7/8,corpus23/146. Gould389/696=369substantive+20ancillary;new6technical+4auxiliary. Actual D.S.route has6/4return and distinct five/four-sharp states;Biossecco,pedal and tremolo span separated. Resources11/25,fixed24/24and historical0.4.0snapshot unchanged;no native/adaptation."
   },
   "last_study_batch": {
     "date": "2026-10-25",
-    "scope": "T06p4preselected/frozen;A016whole five-page closeout and closing-run size correction;11system regions,11old book pages,3new technical,1newtable,3auxiliary",
+    "scope": "T07two preselected/frozen passes;A019nine andA084six complete-page closeouts;19system details,15old book,6new technical,4auxiliary",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
-    "new_all_score_closeouts": 1,
-    "new_all_score_closeout_pages": 5,
-    "new_unique_ledger_book_pages": 7,
-    "new_substantive_book_pages": 4,
-    "new_reference_table_pages": 1,
-    "new_ancillary_book_pages": 3,
+    "new_all_score_closeouts": 2,
+    "new_all_score_closeout_pages": 15,
+    "new_unique_ledger_book_pages": 10,
+    "new_substantive_book_pages": 6,
+    "new_reference_table_pages": 0,
+    "new_ancillary_book_pages": 4,
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 1,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "SKILL_TRANSFER_NOTATION.md"
+      "SKILL_TRANSFER_CONTINUITY.md"
     ],
-    "review_evidence": "skill_transfer_notation_evidence.json"
+    "review_evidence": "skill_transfer_continuity_evidence.json"
   }
 }

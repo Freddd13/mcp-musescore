@@ -30,6 +30,8 @@
 
 <a id="sustain"></a>
 
+`piano`／`curves`／`tempo`的`SKILL_TRANSFER_CONTINUITY.md`补T07：干奏下可有手持长和弦，开放弧到休止与完整tie接收分读；I与K踏板模式分别建立，simile不能跨模式复制。ad lib.两音震音的两个附点二分共同占三拍，再接一拍；不顺次相加或由三梁指定攻击次数。
+
 
 ## 持音、提示与结束边界
 
@@ -166,6 +168,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`navigation`的`SKILL_TRANSFER_CONTINUITY.md`补实际D.S.：Little Busters!返回D恢复五升与6/4，随后4/4；再次到To Coda跳H，H重列四升。按每次真实来路读状态和提示，出口后的首遍预告不提前作用到出口小节；静态路径与工程展开播放分别验证。
 
 ## 反复路线与状态恢复
 
