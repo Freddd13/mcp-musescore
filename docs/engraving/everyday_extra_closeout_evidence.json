@@ -1,0 +1,3577 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "a2866d157bcd8c0e4a38fb2da4e535b1bbceae51",
+  "note": "INTEGRATED_READING_EVERYDAY_EXTRA.md",
+  "previous_goal_turn_classification": "progress:a2866d1published A040/A041closeouts and505/696book coverage. Latest heartbeat only verified no running children;continuation immediately resumes safe reading. Current pull ff-only reports up to date.",
+  "scope": "Solo A042/A043known-score whole question closeouts;no new native/independent transfer/software adaptation.",
+  "source_protection": [
+    {
+      "id": "A042",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Everyday World - Oregairu Zoku - Ending Theme.pdf",
+      "sha256": "c1eda02db59df97c9e8552ccde6e6290efdb4e3f088eae40b91c0bbb00569ff7",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A043",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Extra Magic Hour - Amagi Brilliant Park - Opening Theme.pdf",
+      "sha256": "be057219e649d62a5335c090f03293e0d7d8a9044c9faaf299235c3724aebad9",
+      "pages": 8,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A042",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A042/page-1.jpg",
+      "sha256": "8bd0c84b973ddfcdfaa977f0887b0bfe39b60f41a27c45da0cdf98ac13c9fd5f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A042",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A042/page-2.jpg",
+      "sha256": "22b9af1c9b7491ad302689b880da58117b4233bd5ab56c429246cda398efb24a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A042",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A042/page-3.jpg",
+      "sha256": "87f932fe338e6aabc5b68200d28de34dac348392ab6f84caa0a49780c8933a37",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A042",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A042/page-4.jpg",
+      "sha256": "c05a2d6175fc2825509e2478ce958f251b68d7952365037a00cd9ce5fa308a87",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A042",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A042/page-5.jpg",
+      "sha256": "7be9efb4130989486d898673ce0b55a8deb85614ec879f9775fb8a822f33ed21",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A042",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A042/page-6.jpg",
+      "sha256": "a2e99270add592f5ba2c5ebf3815495f7e331545dcd4b0d5d8f01f976158e50d",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A043",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A043/page-1.jpg",
+      "sha256": "7ede738d02e6e1c7379c1bf03fa273cf4b3a0164fe7187e0099149506910f4c3",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A043",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A043/page-2.jpg",
+      "sha256": "23b7b3c5413b8fd392418d0a58aa1406ef36776d5f3c1dd6e7d58f0a95166da6",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A043",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A043/page-3.jpg",
+      "sha256": "a1a8184019bb724908c8a9235a50c309bfeec0ae0189686adfb4291e96d0e58b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A043",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A043/page-4.jpg",
+      "sha256": "0e1b6b275c4453618d979cf359677ae13087c95e52b8e7ff2760f63f392680e6",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A043",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A043/page-5.jpg",
+      "sha256": "b1b2eae1f60798b445b2804223808ff951dd0ca0bdde8faec06779e3ebe7f5f4",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A043",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A043/page-6.jpg",
+      "sha256": "c443cfb59ceaf5b1aa1c50cd5e5613b85fb2f43fbe27afc9ebc5cfef06e5aee9",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A043",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A043/page-7.jpg",
+      "sha256": "9c235dd2e338510edbe1dab5d016aa2703712b6ade8083075f14257dfa268420",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A043",
+      "page": 8,
+      "path": "tmp/engraving/corpus/A043/page-8.jpg",
+      "sha256": "1f40416d4fcaf05b6fe7918669e99e0d19a4fab51b1f2fc44a546da3f2167009",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 391,
+      "pdf_page": 411,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-391.jpg",
+      "sha256": "97dab5fe7100438caa17a1a681aef1faa7c1ee859168819d16d142f6cfc90e2c",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true,
+      "ancillary_role": "chapter-title"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 392,
+      "pdf_page": 412,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-392.jpg",
+      "sha256": "660d811ff1ce1080def3ba0b2395047b7457c315dbb5309813cf68464bbe600f",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true,
+      "ancillary_role": "chapter-contents"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 393,
+      "pdf_page": 413,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-393.jpg",
+      "sha256": "8d38b00356a8d082ad40dad1fd516519ef0b23d7d7d2314f100152cf9837ce4c",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 394,
+      "pdf_page": 414,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-394.jpg",
+      "sha256": "f39cd6fa69ea0c5f87830461289271d2ddfe6885eb46ee3e9ea58966d7111565",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 395,
+      "pdf_page": 415,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-395.jpg",
+      "sha256": "50a880894fed959be13a7210efa5e6ff8b478b2a39b23ee082b1c6a950223129",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 396,
+      "pdf_page": 416,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-396.jpg",
+      "sha256": "dd7e7256a0a06a83b075f223ede6e6f08660c88fea8ecab9f6c41e439f909662",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 397,
+      "pdf_page": 417,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-397.jpg",
+      "sha256": "40c4445f79362a3356aa08d26e36a23fdc708bc2c268b3b3862b3c06de999390",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 398,
+      "pdf_page": 418,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-398.jpg",
+      "sha256": "3c60b371b74d49f5270679de90e94c40d2f89b8a87c72a3ec357c0fa3d4f7f77",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 399,
+      "pdf_page": 419,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-399.jpg",
+      "sha256": "907f03a51d8258bb3e4edcccd8a8008c1d05de5760fb1c41eea000bdcb7f3cda",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 400,
+      "pdf_page": 420,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-400.jpg",
+      "sha256": "f9010f6b29e8ef8f011aeff1729504e71daf126cd8282a7a1cc7d935d9b534b2",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 401,
+      "pdf_page": 421,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-401.jpg",
+      "sha256": "b7c1b29091989b9bd0cc0329aa380e8039208f27c11c02670ba42e330f4abe9a",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 402,
+      "pdf_page": 422,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-402.jpg",
+      "sha256": "0db3d1c7ff6d166e0729aaca1d58dabd5f171fdbffb8ed00c53bc6db701c6610",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        22,
+        167.93628677140612,
+        571.32001,
+        331.7263921131186
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p1-s1.jpg",
+      "sha256": "0c9394e5e19ecbe62b291c0bff3590784b6c67cc0f047863b34e30f28a5dbe7a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 1,
+      "system": 2,
+      "crop_pt": [
+        22,
+        288.96642606441475,
+        571.32001,
+        452.75653140612724
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p1-s2.jpg",
+      "sha256": "7bfdcb899c4a4d1c892313a1484db76535dac7b8c4bb5b7ab1ae0d115fddff08",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 2,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088990070699126,
+        571.32001,
+        187.87909541241163
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p2-s1.jpg",
+      "sha256": "2e135f46adcd9b39294ccdd36ffc0eba4e2cc401074bfae5dd60591efcf511a3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 2,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.4067455773763,
+        571.32001,
+        564.3621926394344
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p2-s4.jpg",
+      "sha256": "e5049d677546bf6c7a8448ffd27ce7e2d853257fe92ca9196d9f8ccf7a20b868",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 2,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357695993716,
+        571.32001,
+        689.8565583817754
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p2-s5.jpg",
+      "sha256": "62337e6deac11142d61482c0a501f6d9fb53d05f1b79e3949e65cba42265b253",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 3,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088990070699126,
+        571.32001,
+        187.87909541241163
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p3-s1.jpg",
+      "sha256": "0851d8229a1d355a7c5e3416c04eeaa0fa9e7bb908ab749362aa7313255f8be7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 3,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647936213669,
+        571.32001,
+        815.3509241241163
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p3-s6.jpg",
+      "sha256": "6803648059a9f8f3a4bd1b3f2b713a6e5e1f0b063a765b057858576b369fc052",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 4,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088990070699126,
+        571.32001,
+        187.87909541241163
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p4-s1.jpg",
+      "sha256": "a77f8d66d89a2178a8b7c0fc7146a886c9df8fba38669dc4b4a9f25858521967",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 4,
+      "system": 2,
+      "crop_pt": [
+        22,
+        149.41801409269442,
+        571.32001,
+        313.5388028750982
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p4-s2.jpg",
+      "sha256": "e8532e6ee8970dd3891f228b955febe399d865b46c650a5f713bcb0c384e5eb0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 4,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.4067455773763,
+        571.32001,
+        564.3621926394344
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p4-s4.jpg",
+      "sha256": "96c6d51720ff307cac40b44c93d587441ff252b5448b4fbb05d5e81e5828cfe8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 4,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357695993716,
+        571.32001,
+        689.8565583817754
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p4-s5.jpg",
+      "sha256": "f4783de159e2a6057a61ea6154d2e29dc30872645dad8299bccaff58f31c5461",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 4,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647936213669,
+        571.32001,
+        815.3509241241163
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p4-s6.jpg",
+      "sha256": "d252343335630c428c18e578c0dd42c0d50307060a55791936069d626c6c4915",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 5,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.7470381146897,
+        571.32001,
+        438.8678268970935
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p5-s3.jpg",
+      "sha256": "acce8326b622e601f38e311d3dde805cde30789da7180404737621447c426488",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 5,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.4067455773763,
+        571.32001,
+        564.3621926394344
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p5-s4.jpg",
+      "sha256": "8951573e04a11a5dbfec497f3a8221cfc9530e54b4cbcdb7236206dcf8c8d3ac",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 6,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.4067455773763,
+        571.32001,
+        564.3621926394344
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p6-s4.jpg",
+      "sha256": "69413f90fd4ffd78d6f783c41b78ca3cb058770c9a9afd8f5b3dcfbc9455f15f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 6,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357695993716,
+        571.32001,
+        689.8565583817754
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p6-s5.jpg",
+      "sha256": "a91087bd46eabf440c1460502b222ae3ece02a5b2aef62985b8295262ead5ac8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A042",
+      "page": 6,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647936213669,
+        571.32001,
+        815.3509241241163
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A042-p6-s6.jpg",
+      "sha256": "a8d7624f93fa7cd241803b3cfa97960aa6d9628fd3309a1e890da06598e8e3e1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        22,
+        167.93627651217597,
+        571.32,
+        331.72637863315003
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p1-s1.jpg",
+      "sha256": "9525a7b303a5f01d63e8361b88524b30023baaac266691a9e549eb4a6ff0ec33",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 1,
+      "system": 2,
+      "crop_pt": [
+        22,
+        288.9664100549882,
+        571.32,
+        452.75651217596226
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p1-s2.jpg",
+      "sha256": "4c621907a83a595457d50977be9e5a4f26acea4186208ed4a5961b45f365bd34",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 1,
+      "system": 4,
+      "crop_pt": [
+        22,
+        530.6959937156323,
+        571.32,
+        694.8167792615868
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p1-s4.jpg",
+      "sha256": "f0ac8bf588dc4c36b33a1659bb2b03a055d6f6f2ab394947c2a0c992828385c9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 2,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p2-s3.jpg",
+      "sha256": "69bb6fc534013e3533297d30723b8b82071f1048aea51edd38780984311e8bd0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p3-s3.jpg",
+      "sha256": "ec5595c098035827ca2236634c4deb34d6afe61998219b350f86b1ff3bc388e7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 3,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.40672427337,
+        571.32,
+        564.3621681068341
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p3-s4.jpg",
+      "sha256": "95352bec308734320247c18c72587e1f0ff34434e7d1f123e66499c114511703",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 4,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p4-s3.jpg",
+      "sha256": "def05054a999b5b16d99f31f8c7563629d7188c85b79e02eff2f22ed53535642",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 4,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.40672427337,
+        571.32,
+        564.3621681068341
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p4-s4.jpg",
+      "sha256": "670233c5bd4ce7831350ac8be0a3a9aef297bf72d021b66b71da64c8f5bb05d5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 4,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357423409269,
+        571.32,
+        689.8565278868814
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p4-s5.jpg",
+      "sha256": "c1ffd18f74776dbb461f414fe1d08a2c3f1e63609a40cc7b618fc3d58d8ff4ec",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 5,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.40672427337,
+        571.32,
+        564.3621681068341
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p5-s4.jpg",
+      "sha256": "382315af7d26809915d1f7b24663f05a84af706ccf64e507efcc79860d858806",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 5,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647604084838,
+        571.32,
+        815.3508876669284
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p5-s6.jpg",
+      "sha256": "8e781c5d1def560a26aa28306d37ea94e0925739047549debeb90ab13c326a66",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 6,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088986645718776,
+        571.32,
+        187.87908876669283
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p6-s1.jpg",
+      "sha256": "d2f669d79bca9c156f71dd3373ca6f4c708bc85f817c5f853cc69cf8858e8f6d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 6,
+      "system": 2,
+      "crop_pt": [
+        22,
+        149.41800471327574,
+        571.32,
+        313.53879025923015
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p6-s2.jpg",
+      "sha256": "da08c5886c974265a4e06ca78bb87a1080b69063396d3badf7f7ed78a4639fdc",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 6,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p6-s3.jpg",
+      "sha256": "478458118c23e2456f7e5ffb0f90bb1ad6c29f0c3bff99f110834d6747f2362c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 6,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.40672427337,
+        571.32,
+        564.3621681068341
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p6-s4.jpg",
+      "sha256": "58ea4d79ced24789ed2b71cfb88f320daa02d231a24c61a18ee689cc56f52720",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 6,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357423409269,
+        571.32,
+        689.8565278868814
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p6-s5.jpg",
+      "sha256": "12dff5ac3a063b1a77d51894072b8d4f1e427de7aaf884c75c4bc7dadb01e1ff",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 6,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647604084838,
+        571.32,
+        815.3508876669284
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p6-s6.jpg",
+      "sha256": "402a5c1571480be1f8b3596253d2fc9bccb88505e20266f1ac4162a084e460b7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 7,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088986645718776,
+        571.32,
+        187.87908876669283
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p7-s1.jpg",
+      "sha256": "d3854b140a61367ef91abbdf94f2dd403e715ed94565efc43dd556eb8ee00138",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 7,
+      "system": 4,
+      "crop_pt": [
+        22,
+        494.65150039277296,
+        571.32,
+        658.7722859387275
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p7-s4.jpg",
+      "sha256": "cf27b585f1088f6353e78567b187d233c5ab289f28ae7516d0cfafa2318332ba",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 7,
+      "system": 5,
+      "crop_pt": [
+        22,
+        651.7261272584446,
+        571.32,
+        815.846912804399
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p7-s5.jpg",
+      "sha256": "3f0f35777ea287ad9548abe2bc076a619406fcb97825f075fdbc11399ae0d2aa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 8,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088986645718776,
+        571.32,
+        187.87908876669283
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p8-s1.jpg",
+      "sha256": "5b492089620f36efa9a6c56b3bac9c3305c82b5195f3efb34214c9721b368278",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 8,
+      "system": 3,
+      "crop_pt": [
+        22,
+        337.9075569520817,
+        571.32,
+        501.6976590730558
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p8-s3.jpg",
+      "sha256": "2d403c334070314f1f84a1eae884c78cb002b999913d158edd4b2c4cc1800b65",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 8,
+      "system": 4,
+      "crop_pt": [
+        22,
+        494.65150039277296,
+        571.32,
+        658.7722859387275
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p8-s4.jpg",
+      "sha256": "800f4eee29666305a96885f68c1816855afe9110c1a119f6e2d04ad8522c0a4c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A043",
+      "page": 8,
+      "system": 5,
+      "crop_pt": [
+        22,
+        651.7261272584446,
+        571.32,
+        815.846912804399
+      ],
+      "path": "tmp/engraving/everyday-extra-2026-10-27/A043-p8-s5.jpg",
+      "sha256": "1783afe09b65849dd313f66e33f15dc78671eb9fb2c3161258d1de9607aa0db0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 39,
+      "pdf_page": 59,
+      "path": "tmp/engraving/study-2026-10-19/book-39.jpg",
+      "sha256": "e54e35ecab84ac4044f4d55a70626b0f836dd16361a2fd442484c1a71923480d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 164,
+      "pdf_page": 184,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-164.jpg",
+      "sha256": "2da13a9cc92a09b2de7a8b8afc3d77bef4b12d4958fe965a48ab92e46ae8756d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 165,
+      "pdf_page": 185,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-165.jpg",
+      "sha256": "e78c826f65db74b7346d92eabb0b1e84c0ae4f813f1c21a995d7e06b7939a8c6",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 194,
+      "pdf_page": 214,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-194.jpg",
+      "sha256": "3d180cf3da2ebe8a5f7b4d18e0578b9c831733c48d40ecc140b8511a3f91cb0c",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 195,
+      "pdf_page": 215,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-195.jpg",
+      "sha256": "868d9b99849e641731ad27404e6be4f78988ff4ca8a91e27a45e56c297f26faf",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-200.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-307-reread.jpg",
+      "sha256": "b52e28888c02d2fc9046d3e632095e4be18cb53ca82755423eeeab20391f5d95",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 308,
+      "pdf_page": 328,
+      "path": "tmp/engraving/fingering-2026-10-20/book-308.jpg",
+      "sha256": "4a6e8fd2666ce018049dfc9107a65f121d2f0a188ab8b884b4c5cfa1b8fc3902",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-337.jpg",
+      "sha256": "4c517306cf30f5e24bb647c614fb38d0d2f10e611db454b5f72789c81480367d",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    }
+  ],
+  "whole_reviews": {
+    "A042": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "systems": 35,
+      "staves_per_system": 2
+    },
+    "A043": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "systems": 45,
+      "staves_per_system": 2
+    }
+  },
+  "selected_music_checks": {
+    "arithmetic_checks": [
+      {
+        "location": "A042p4s1fast-route",
+        "quarters": [
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "6",
+        "interpretation": "Ordinary eighth/two16th chords;16th rest;14upper+8lower32nds;quarter rest;two eighths. Held half chord independent."
+      },
+      {
+        "location": "A042p6s6unbarred-run-only",
+        "quarters": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "5",
+        "interpretation": "16th rest then19sixteenths,seven lower/twelve upper;whole fermata destination separate. This is NOT a4/4bar checksum."
+      },
+      {
+        "location": "A043p6s4Kfast-route-only",
+        "quarters": [
+          "1",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "5",
+        "interpretation": "Quarter rest,three6:4sixteenth groups,four ordinary16ths before unbarred continuation. Does not force K into4/4."
+      },
+      {
+        "location": "A043p6s2lower-triplets",
+        "quarters": [
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Four eighth-triplet beats;upper quarter line independent."
+      },
+      {
+        "location": "A043p8s3regular-upper-fullbar",
+        "quarters": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Ordinary sixteen16ths before5groups."
+      },
+      {
+        "location": "A043p8s4five-group1",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group2",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group3",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group4",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group5",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group6",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group7",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group8",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group9",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group10",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group11",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4five-group12",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s5five-group1",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s5five-group2",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s5five-group3",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s5five-group4",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "1",
+        "interpretation": "5:4sixteenths equal one beat;lower ordinary eighth at beat half lies between upper third/fourth."
+      },
+      {
+        "location": "A043p8s4bar1",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Four5:4sixteenth groups vs eight ordinary eighths;20to8,not20to6."
+      },
+      {
+        "location": "A043p8s4bar2",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Four5:4sixteenth groups vs eight ordinary eighths;20to8,not20to6."
+      },
+      {
+        "location": "A043p8s4bar3",
+        "quarters": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Four5:4sixteenth groups vs eight ordinary eighths;20to8,not20to6."
+      }
+    ],
+    "source_measurements": [
+      {
+        "id": "A043",
+        "page": 8,
+        "system": 4,
+        "source_upper_heads": [
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              75.36000225,
+              530.2799395000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              85.08000150000001,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              93.36000225,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              100.4399985,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              107.64000300000001,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              114.72000524999999,
+              560.03993425
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              121.5600015,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              128.879997,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              135.72000524999999,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              144.24000525,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              154.08000149999998,
+              530.2799395000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              163.7999955,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              172.08000149999998,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              179.04000075,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              186.120003,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              193.2000045,
+              560.03993425
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              200.28000674999998,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              207.24000524999997,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              214.32000750000003,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              222.83999625,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              239.16000375,
+              530.2799395000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              248.879997,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              257.16000375,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              264.24000524999997,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              271.32000750000003,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              278.400009,
+              560.03993425
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              285.36000824999996,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              292.67999249999997,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              299.51998875,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              308.04000075,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              317.75999475000003,
+              530.2799395000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              327.599991,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              335.879997,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              342.83999625,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              349.9199985,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              357.0,
+              560.03993425
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              364.0800015,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              370.9199985,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              378.120003,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              386.51998875000004,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              403.08000150000004,
+              530.2799395000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              412.800018,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              421.08000150000004,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              428.2799835,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              435.35998499999994,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              442.43998725,
+              560.03993425
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              449.2799835,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              456.35998499999994,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              463.43998725,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              471.96002175,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              481.800018,
+              530.2799395000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              491.51998875000004,
+              536.6399710000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              499.800018,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              506.75999475,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              513.599991,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              520.800018,
+              560.03993425
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              527.8800202499999,
+              551.51994475
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              534.7200164999999,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              541.800018,
+              545.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              550.3200075,
+              536.6399710000001
+            ]
+          }
+        ],
+        "source_lower_heads": [
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              75.36000225,
+              615.3599409999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              96.95999925000001,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              114.72000524999999,
+              585.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              114.72000524999999,
+              591.95997775
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              114.72000524999999,
+              596.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              132.359997,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              154.08000149999998,
+              615.3599409999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              175.68000375,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              193.2000045,
+              585.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              193.2000045,
+              591.95997775
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              193.2000045,
+              596.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              210.71999325000002,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              239.16000375,
+              615.3599409999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              260.75999475000003,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              278.400009,
+              585.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              278.400009,
+              591.95997775
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              278.400009,
+              596.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              296.16000375,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              317.75999475000003,
+              615.3599409999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              339.48001125,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              357.0,
+              585.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              357.0,
+              591.95997775
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              357.0,
+              596.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              374.51998875,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              403.08000150000004,
+              619.5599687499999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              424.3200075,
+              604.6799485
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              442.43998725,
+              589.799974
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              442.43998725,
+              596.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              442.43998725,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              459.96002175,
+              604.6799485
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              481.800018,
+              619.5599687499999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              503.400009,
+              604.6799485
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              520.800018,
+              589.799974
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              520.800018,
+              596.15995975
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              520.800018,
+              600.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              538.3200075,
+              604.6799485
+            ]
+          }
+        ],
+        "upper_origin_x": [
+          75.360002,
+          85.080002,
+          93.360002,
+          100.439999,
+          107.640003,
+          114.720005,
+          121.560001,
+          128.879997,
+          135.720005,
+          144.240005,
+          154.080001,
+          163.799995,
+          172.080001,
+          179.040001,
+          186.120003,
+          193.200005,
+          200.280007,
+          207.240005,
+          214.320008,
+          222.839996,
+          239.160004,
+          248.879997,
+          257.160004,
+          264.240005,
+          271.320008,
+          278.400009,
+          285.360008,
+          292.679992,
+          299.519989,
+          308.040001,
+          317.759995,
+          327.599991,
+          335.879997,
+          342.839996,
+          349.919999,
+          357.0,
+          364.080001,
+          370.919999,
+          378.120003,
+          386.519989,
+          403.080002,
+          412.800018,
+          421.080002,
+          428.279984,
+          435.359985,
+          442.439987,
+          449.279984,
+          456.359985,
+          463.439987,
+          471.960022,
+          481.800018,
+          491.519989,
+          499.800018,
+          506.759995,
+          513.599991,
+          520.800018,
+          527.88002,
+          534.720016,
+          541.800018,
+          550.320007
+        ],
+        "lower_origin_x": [
+          75.360002,
+          96.959999,
+          114.720005,
+          132.359997,
+          154.080001,
+          175.680004,
+          193.200005,
+          210.719993,
+          239.160004,
+          260.759995,
+          278.400009,
+          296.160004,
+          317.759995,
+          339.480011,
+          357.0,
+          374.519989,
+          403.080002,
+          424.320007,
+          442.439987,
+          459.960022,
+          481.800018,
+          503.400009,
+          520.800018,
+          538.320007
+        ],
+        "groups": [
+          {
+            "x": [
+              75.360002,
+              85.080002,
+              93.360002,
+              100.439999,
+              107.640003
+            ],
+            "gaps": [
+              9.72,
+              8.28,
+              7.079997,
+              7.200004
+            ],
+            "lower_midpoint_x": 96.959999,
+            "lower_midpoint_fraction_between_heads_3_4": 0.508474
+          },
+          {
+            "x": [
+              114.720005,
+              121.560001,
+              128.879997,
+              135.720005,
+              144.240005
+            ],
+            "gaps": [
+              6.839996,
+              7.319996,
+              6.840008,
+              8.52
+            ],
+            "lower_midpoint_x": 132.359997,
+            "lower_midpoint_fraction_between_heads_3_4": 0.508771
+          },
+          {
+            "x": [
+              154.080001,
+              163.799995,
+              172.080001,
+              179.040001,
+              186.120003
+            ],
+            "gaps": [
+              9.719994,
+              8.280006,
+              6.96,
+              7.080002
+            ],
+            "lower_midpoint_x": 175.680004,
+            "lower_midpoint_fraction_between_heads_3_4": 0.517242
+          },
+          {
+            "x": [
+              193.200005,
+              200.280007,
+              207.240005,
+              214.320008,
+              222.839996
+            ],
+            "gaps": [
+              7.080002,
+              6.959998,
+              7.080003,
+              8.519988
+            ],
+            "lower_midpoint_x": 210.719993,
+            "lower_midpoint_fraction_between_heads_3_4": 0.491524
+          },
+          {
+            "x": [
+              239.160004,
+              248.879997,
+              257.160004,
+              264.240005,
+              271.320008
+            ],
+            "gaps": [
+              9.719993,
+              8.280007,
+              7.080001,
+              7.080003
+            ],
+            "lower_midpoint_x": 260.759995,
+            "lower_midpoint_fraction_between_heads_3_4": 0.508473
+          },
+          {
+            "x": [
+              278.400009,
+              285.360008,
+              292.679992,
+              299.519989,
+              308.040001
+            ],
+            "gaps": [
+              6.959999,
+              7.319984,
+              6.839997,
+              8.520012
+            ],
+            "lower_midpoint_x": 296.160004,
+            "lower_midpoint_fraction_between_heads_3_4": 0.508774
+          },
+          {
+            "x": [
+              317.759995,
+              327.599991,
+              335.879997,
+              342.839996,
+              349.919999
+            ],
+            "gaps": [
+              9.839996,
+              8.280006,
+              6.959999,
+              7.080003
+            ],
+            "lower_midpoint_x": 339.480011,
+            "lower_midpoint_fraction_between_heads_3_4": 0.517243
+          },
+          {
+            "x": [
+              357.0,
+              364.080001,
+              370.919999,
+              378.120003,
+              386.519989
+            ],
+            "gaps": [
+              7.080001,
+              6.839998,
+              7.200004,
+              8.399986
+            ],
+            "lower_midpoint_x": 374.519989,
+            "lower_midpoint_fraction_between_heads_3_4": 0.499998
+          },
+          {
+            "x": [
+              403.080002,
+              412.800018,
+              421.080002,
+              428.279984,
+              435.359985
+            ],
+            "gaps": [
+              9.720016,
+              8.279984,
+              7.199982,
+              7.080001
+            ],
+            "lower_midpoint_x": 424.320007,
+            "lower_midpoint_fraction_between_heads_3_4": 0.450002
+          },
+          {
+            "x": [
+              442.439987,
+              449.279984,
+              456.359985,
+              463.439987,
+              471.960022
+            ],
+            "gaps": [
+              6.839997,
+              7.080001,
+              7.080002,
+              8.520035
+            ],
+            "lower_midpoint_x": 459.960022,
+            "lower_midpoint_fraction_between_heads_3_4": 0.50848
+          },
+          {
+            "x": [
+              481.800018,
+              491.519989,
+              499.800018,
+              506.759995,
+              513.599991
+            ],
+            "gaps": [
+              9.719971,
+              8.280029,
+              6.959977,
+              6.839996
+            ],
+            "lower_midpoint_x": 503.400009,
+            "lower_midpoint_fraction_between_heads_3_4": 0.517242
+          },
+          {
+            "x": [
+              520.800018,
+              527.88002,
+              534.720016,
+              541.800018,
+              550.320007
+            ],
+            "gaps": [
+              7.080002,
+              6.839996,
+              7.080002,
+              8.519989
+            ],
+            "lower_midpoint_x": 538.320007,
+            "lower_midpoint_fraction_between_heads_3_4": 0.508473
+          }
+        ]
+      },
+      {
+        "id": "A043",
+        "page": 8,
+        "system": 5,
+        "source_upper_heads": [
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              75.47999925,
+              687.3599409999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              85.4399985,
+              693.7199724999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              95.15999775,
+              702.23996125
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              104.75999475,
+              702.23996125
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              114.47999924999999,
+              708.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              124.4399985,
+              717.1199357500001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              134.16000375000002,
+              708.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              144.120003,
+              702.23996125
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              153.47999925,
+              702.23996125
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              163.4399985,
+              693.7199724999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              173.39999775,
+              687.3599409999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              183.120003,
+              693.7199724999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              193.08000149999998,
+              702.23996125
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              202.44000975,
+              702.23996125
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              212.400009,
+              708.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              222.120003,
+              717.1199357500001
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              231.95999924999998,
+              708.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              241.7999955,
+              702.23996125
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              251.28000674999998,
+              702.23996125
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987,
+            "origin": [
+              261.120003,
+              693.7199724999999
+            ]
+          }
+        ],
+        "source_lower_heads": [
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              75.47999925,
+              774.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              100.2000045,
+              759.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              124.4399985,
+              744.7199724999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              124.4399985,
+              751.0799575
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              124.4399985,
+              755.399965
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              149.04000075,
+              759.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              173.39999775,
+              774.47996725
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              197.75999475000003,
+              759.599947
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              222.120003,
+              744.7199724999999
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              222.120003,
+              751.0799575
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              222.120003,
+              755.399965
+            ]
+          },
+          {
+            "text": "",
+            "font": "CIDFont+F1",
+            "size": 16.32059925,
+            "origin": [
+              246.71999325000002,
+              759.599947
+            ]
+          }
+        ],
+        "upper_origin_x": [
+          75.479999,
+          85.439999,
+          95.159998,
+          104.759995,
+          114.479999,
+          124.439999,
+          134.160004,
+          144.120003,
+          153.479999,
+          163.439999,
+          173.399998,
+          183.120003,
+          193.080001,
+          202.44001,
+          212.400009,
+          222.120003,
+          231.959999,
+          241.799995,
+          251.280007,
+          261.120003
+        ],
+        "lower_origin_x": [
+          75.479999,
+          100.200005,
+          124.439999,
+          149.040001,
+          173.399998,
+          197.759995,
+          222.120003,
+          246.719993
+        ],
+        "groups": [
+          {
+            "x": [
+              75.479999,
+              85.439999,
+              95.159998,
+              104.759995,
+              114.479999
+            ],
+            "gaps": [
+              9.96,
+              9.719999,
+              9.599997,
+              9.720004
+            ],
+            "lower_midpoint_x": 100.200005,
+            "lower_midpoint_fraction_between_heads_3_4": 0.525001
+          },
+          {
+            "x": [
+              124.439999,
+              134.160004,
+              144.120003,
+              153.479999,
+              163.439999
+            ],
+            "gaps": [
+              9.720005,
+              9.959999,
+              9.359996,
+              9.96
+            ],
+            "lower_midpoint_x": 149.040001,
+            "lower_midpoint_fraction_between_heads_3_4": 0.525641
+          },
+          {
+            "x": [
+              173.399998,
+              183.120003,
+              193.080001,
+              202.44001,
+              212.400009
+            ],
+            "gaps": [
+              9.720005,
+              9.959998,
+              9.360009,
+              9.959999
+            ],
+            "lower_midpoint_x": 197.759995,
+            "lower_midpoint_fraction_between_heads_3_4": 0.499999
+          },
+          {
+            "x": [
+              222.120003,
+              231.959999,
+              241.799995,
+              251.280007,
+              261.120003
+            ],
+            "gaps": [
+              9.839996,
+              9.839996,
+              9.480012,
+              9.839996
+            ],
+            "lower_midpoint_x": 246.719993,
+            "lower_midpoint_fraction_between_heads_3_4": 0.518986
+          }
+        ]
+      }
+    ],
+    "source_count_checks": {
+      "A042_p4_s1_upper": [
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            166.5600015,
+            61.43999450000001
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            176.75999475,
+            63.59999825
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            186.83999624999998,
+            67.79999750000002
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            196.91999850000002,
+            74.15999375000001
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            207.0,
+            76.3199975
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            217.08000149999998,
+            78.47999525
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            227.28000674999998,
+            67.79999750000002
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            237.36000825,
+            74.15999375000001
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            247.44000975,
+            76.3199975
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            257.400009,
+            78.47999525
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            267.48001125,
+            82.67999450000002
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            277.55999025,
+            89.03999675
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            287.63999175000004,
+            91.1999945
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            297.71999325,
+            93.35999824999999
+          ]
+        }
+      ],
+      "A042_p4_s1_lower": [
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            307.9199985,
+            123.119999
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            318.0,
+            129.47999525
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            328.0800015,
+            131.639999
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            338.16000375,
+            133.79999150000003
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            348.24000524999997,
+            137.999996
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            358.44000975,
+            144.35999300000003
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            368.28000675,
+            146.51999675000002
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 16.320599249999987,
+          "origin": [
+            378.48001125,
+            148.67999974999998
+          ]
+        }
+      ],
+      "A042_p6_s6_ending": [
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450750000008,
+          "origin": [
+            257.51998875,
+            765.48000725
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450750000008,
+          "origin": [
+            268.67999249999997,
+            754.800014
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450750000008,
+          "origin": [
+            279.71999325,
+            759.1199757500001
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450750000008,
+          "origin": [
+            290.879997,
+            750.599987
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450750000008,
+          "origin": [
+            302.04000075,
+            754.800014
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450750000008,
+          "origin": [
+            313.2000045,
+            746.2799795000001
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450750000008,
+          "origin": [
+            324.36000824999996,
+            750.599987
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450750000008,
+          "origin": [
+            335.400009,
+            716.51998475
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450750000008,
+          "origin": [
+            346.55999025,
+            720.83999225
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450749999994,
+          "origin": [
+            357.71999325,
+            710.15999975
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450749999994,
+          "origin": [
+            368.879997,
+            714.48000725
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450749999994,
+          "origin": [
+            380.04000075,
+            705.96001775
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450749999994,
+          "origin": [
+            391.199982,
+            710.15999975
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.24045074999998,
+          "origin": [
+            402.11997975,
+            701.6400110000001
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.240450749999994,
+          "origin": [
+            413.2799835,
+            705.96001775
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.24045074999998,
+          "origin": [
+            424.56001275,
+            695.2799795000001
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.24045074999998,
+          "origin": [
+            435.7200165,
+            699.48000725
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.24045074999998,
+          "origin": [
+            446.88002025,
+            691.0799975
+          ]
+        },
+        {
+          "text": "",
+          "font": "CIDFont+F1",
+          "size": 12.24045074999998,
+          "origin": [
+            457.800018,
+            695.2799795000001
+          ]
+        }
+      ]
+    },
+    "spacing_comparison": {
+      "p8s4_first20_span_pt": 147.479994,
+      "p8s5_first20_span_pt": 185.640004,
+      "wide_to_narrow_ratio": 1.258747,
+      "scope": "Same upper motif and lower eighth framework,different whole-system capacity;not a controlled native alternative."
+    },
+    "scope": "Selected source glyphs and visual time recipes,not engine voice/playback or full pitch collation."
+  },
+  "reading_decisions": {
+    "spacing": "A043p8s4twelve5groups retain repeatable contour. Lower eighth midpoint lies between upper heads3/4in a narrow gap;extra time event does not necessarily expand gap. Same20headmotif later spans185.64vs147.48pt with nearuniform9.36-9.96gaps;preserve both under different line budgets.",
+    "six_four": "A042p4s1one full6/4bar;14upper+8lower ordinary32nds with independent held layers;whole-system budget justified.",
+    "ending": "A042finalrun is16threst+19sixteenths(7lower/12upper),then separate whole fermata. Initial thumbnail15head/lastfastfermata reading corrected;unbarred ending not forced into4/4.",
+    "free": "A043Kpartial route quarterrest+3sixletgroups+4ordinary16ths gives5symbolic quarter units before unbarred continuation. Adlib on next row;trill whole then run and inlineL/a tempo distinct;exact freedom remains open.",
+    "roles": "Delayed rests,held layers,hand brackets,received ties and octave boundaries preserve separate objects;E/I/Nreceivers and final new low attack not normalized.",
+    "strings": "393-402complete figures/text plus393table read. Clefs/stringnumbers/open0,double/multiple stopping,sharedheads,two staves,bow slur and legato stay instrument-specific."
+  },
+  "book": {
+    "new_substantive_printed_range": [
+      393,
+      402
+    ],
+    "new_substantive_pages": 10,
+    "new_reference_table_pages": 1,
+    "new_unique_pages": 12,
+    "new_ancillary_pages": 2,
+    "new_ancillary_printed_positions": [
+      391,
+      392
+    ],
+    "new_ancillary_pdf_pages": [
+      411,
+      412
+    ],
+    "reread_printed_pages": [
+      39,
+      40,
+      164,
+      165,
+      194,
+      195,
+      200,
+      307,
+      308,
+      311,
+      337,
+      490
+    ],
+    "physical_offset": 20,
+    "scope": "Beginning of Strings chapter through bowing techniques opening;not whole chapter."
+  },
+  "unresolved": [
+    "Full pitch/internal voice/playback audit",
+    "Exact free-cadence timing,hand/pedal control and A042isolated lower8va convention",
+    "Native alternatives,print proof and physical turns"
+  ],
+  "not_performed": [
+    "original edits",
+    "new native/independent transfer",
+    "font work",
+    "software adaptation",
+    "deletion"
+  ],
+  "validation": {
+    "status": "passed",
+    "source_hash_and_page_checks": 3,
+    "actually_viewed_images_hashed": 79,
+    "whole_score_pages": 14,
+    "whole_systems": 80,
+    "selected_duration_recipes": 24,
+    "original_head_origins_verified": 169,
+    "five_group_midpoint_geometry_recomputed": 16,
+    "skill_routes_executed": 20,
+    "new_case_routes_linked": 7,
+    "local_markdown_links_checked": 631,
+    "new_book_substantive_pages": 10,
+    "new_book_ancillary_pages": 2,
+    "new_whole_question_closeouts": 2,
+    "original_files_written": 0,
+    "files_deleted": 0,
+    "new_native_or_adaptation": 0,
+    "release_0_6_0_tag_and_certificate_unchanged": true,
+    "all_material_goal": "active"
+  },
+  "cache": {
+    "measured_at_utc": "2026-10-26T20:11:55.200398+00:00",
+    "batch_logical_bytes": 10108212,
+    "total_logical_bytes": 2527704696,
+    "total_on_disk_bytes": 2386415469,
+    "reused_images": 24,
+    "new_images": 55,
+    "original_pdf_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Logical lengths,not volume delta;inventory precedes final small records."
+  }
+}

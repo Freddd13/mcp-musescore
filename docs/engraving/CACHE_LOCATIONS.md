@@ -64,3 +64,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-27 Lazy／Eien批次缓存约8.12MiB，总净书缓存约2.334GiB逻辑长度；复用23张图，新增51张。74张实际查看图含32系统及一处两行连读；旧book-142实为p122，本批另读真正p142，未删除／重计覆盖。无原PDF／运行时副本或清点错误；低于100MiB／3GiB检查线，[精确字节和时点](lazy_eien_closeout_evidence.json)先于最终小记录。
 
 2026-10-27 EONIAN／Euterpe批次缓存约10.67MiB，总净书缓存约2.345GiB逻辑长度；复用23张，新增63张。86张实际查看图含39系统、两局部、34教材页；旧194／195名实为174／175已更正记录并另读实际页。无原PDF／运行时副本、删除或清点错误；低于100MiB／3GiB检查线，[字节和时点](eonian_euterpe_closeout_evidence.json)先于最终小记录。
+
+2026-10-27 Everyday／Extra批次缓存约9.64MiB，总净书缓存约2.354GiB逻辑长度；79张实际阅读图复用24张、新增55张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[字节和时点](everyday_extra_closeout_evidence.json)先于最终小记录。

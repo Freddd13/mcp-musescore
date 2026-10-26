@@ -81,6 +81,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_EVERYDAY_EXTRA.md`核五连对八分：后半拍位于快音第3／4之间，却未撑宽该格；同20头在下行宽约26%又近均匀。先看实际占位与行预算，保护两手顺序，不按中间事件数直接判宽格。
+
 `spacing`的`INTEGRATED_READING_EONIAN_EUTERPE.md`量54头重复疏密及加线净空：压最短会碰线，拉最宽又需额外37.44pt，保留。EONIAN中小节三音轻微长短列候选；下层复杂不直接证明更细中间时间点或唯一成因。
 
 `spacing`的`INTEGRATED_READING_LAZY_EIEN.md`实测普通16分与续行6组近稳定，按各自单位／行预算保留。Lazy半音运行比例缺失，10:6／9:6仅条件重建，不能按几何步长生成已确认时间。
@@ -128,6 +130,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_EVERYDAY_EXTRA.md`核整行6/4的14上＋8下32分；末尾19个跨表16分后另有全音符延长。无竖线长段、独立持音、ad lib.与行中a tempo先分清，再谈拍数；不可自动补删凑4/4。
 
 `rhythm`／`notation`的`INTEGRATED_READING_EONIAN_EUTERPE.md`核普通前导、五次起音的六份、tie接收、6／7／普通32分／三连及5／4跨表。八分休止旁的slur不作第二梁；两音震音每对两头各写完整时长，不能相加。
 
