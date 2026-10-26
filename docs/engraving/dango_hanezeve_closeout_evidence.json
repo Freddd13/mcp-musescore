@@ -1,0 +1,928 @@
+{
+  "date": "2026-10-26",
+  "base_commit": "0dfc7906a6ea8aec995e2647a85ca3bd892f24a3",
+  "note": "INTEGRATED_READING_DANGO_HANEZEVE.md",
+  "scope": "Root-only whole question reviews of historically first-pass-known scores;not independent/blind,not new fixed transfer scenarios.",
+  "source_protection": [
+    {
+      "id": "A035",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Dango Daikazoku  - CLANNAD - Ending Theme.pdf",
+      "sha256": "2350a407c21323009e7770f4b32bcd30bc40af0221f620326c3071c70c5c24a7",
+      "pages": 4,
+      "read_only": true
+    },
+    {
+      "id": "A055",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Hanezeve Caradhina - Made in Abyss - Soundtrack.pdf",
+      "sha256": "c708c045dc722834b7eb8f65231b4ac3d6286b45b4dc812559cb0c5acec0eb68",
+      "pages": 3,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A035",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A035/page-1.jpg",
+      "sha256": "2e6806143c5437149d7d7b0af41b80b61af02b8aaa4982e35f0aec25b1b61929",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A035",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A035/page-2.jpg",
+      "sha256": "7e97d570a0cecb5430b6a01fc2a44af48927b801847112c7bed4594ab82d8dcd",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A035",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A035/page-3.jpg",
+      "sha256": "c85efa45f2b06c437434e4fe683ffa5ac9c78c733e3cf18c1733d9113df74eb4",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A035",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A035/page-4.jpg",
+      "sha256": "8ad1dbec9e31cea6dbb30dbdfacbfd24dbc663a3e7f1bfae38e479d755d9e9d0",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A055",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A055/page-1.jpg",
+      "sha256": "34c29febba7af6507132c97a954977086fc2b362e385adefb8d716e48c3a8aa3",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A055",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A055/page-2.jpg",
+      "sha256": "cd719937430d8b12fe3e0d2d84a65cee0cd0fa7e2ed868a6c1b805820e51b9fd",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A055",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A055/page-3.jpg",
+      "sha256": "7ef8f78621389713c6e8845aeb0c08b0ea5eb459391ba3d80523facae605e124",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 525,
+      "pdf_page": 545,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-525.jpg",
+      "sha256": "0c0775a6a75cbd231067f9444916bef780488297785658f96c10e7d25d0f268d",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 526,
+      "pdf_page": 546,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-526.jpg",
+      "sha256": "79995a8365ce647f1a0b70ed502eb638e68162222adaaba76dcf86310e357db7",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 527,
+      "pdf_page": 547,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-527.jpg",
+      "sha256": "357f8b37f68832344414e20d041dff8ec0e72c44bb3aa1c4bbd2dacfacbfc518",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 528,
+      "pdf_page": 548,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-528.jpg",
+      "sha256": "42a2a6da333f4c668e93b3b6b7569c59cf57f6b01de0687a13d5c49b3b60bd68",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 529,
+      "pdf_page": 549,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-529.jpg",
+      "sha256": "a0bcaab6da41e1dfcaf820c0da3adf5ac919e53bca2e8116d96c33d588b9184a",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 530,
+      "pdf_page": 550,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-530.jpg",
+      "sha256": "0e2d2aed78a30ebeb5c33174f96a46e83a0a83c3dcf6d9e9f74cc91da34e5f7d",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 531,
+      "pdf_page": 551,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-531.jpg",
+      "sha256": "b3004fa102150a0c75d2141bf187de9d1eeee0953c724c95cd1c0472d56a5504",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 532,
+      "pdf_page": 552,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-532.jpg",
+      "sha256": "e9a772175476cf1aaccc75d32e6212d2ebfb2292a82f8c89757bb721219064ea",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 28,
+      "pdf_page": 48,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p28.jpg",
+      "sha256": "29cb51b943789802c36e0cc7f5039853ad97a862ad5a4455874bc3c2c86f92e0",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 31,
+      "pdf_page": 51,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p31.jpg",
+      "sha256": "fef7464b1ca1d9b3af967aaf59d589fd2c65d84c5cb7402f53b70558719d4e78",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 72,
+      "pdf_page": 92,
+      "path": "tmp/engraving/curves-2026-10-19/book-72.jpg",
+      "sha256": "d77e42e2f5b6c76705c3544e9ccbf37b5d165c3208def1545b99bbe75625d000",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 108,
+      "pdf_page": 128,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-108-current.jpg",
+      "sha256": "4069bbab6fd84c3b6548ad50af526495d8fa2c0bfb67847927e319e470e4c67b",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "reason": "Fresh render from verified printed-page +20 mapping; older filename was ambiguous."
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 121,
+      "pdf_page": 141,
+      "path": "tmp/engraving/curves-2026-10-19/book-121.jpg",
+      "sha256": "cb4f788e79f7981cb8684ab37f98b9c9572ba5bc32a3464a8ff7ab4926143bc8",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 184,
+      "pdf_page": 204,
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/book-184-current.jpg",
+      "sha256": "502d965cc59583087801c1c6a6052afda2f8ca027ebc39fbc6760e0fe0e8e263",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "reason": "Fresh render from verified printed-page +20 mapping; older filename was ambiguous."
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/piano-2026-10-19/book-307.jpg",
+      "sha256": "6f71c686e801535afbf60d5e99f87f63601c0141d99c344f13ffd3782924abbc",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 310,
+      "pdf_page": 330,
+      "path": "tmp/engraving/piano-2026-10-19/book-310.jpg",
+      "sha256": "d36d75ef5cfc3d92927d39a30fe9d3d7569649c4a336ac3371619eb906092704",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/piano-2026-10-19/book-311.jpg",
+      "sha256": "c10955116a7870a97c87ab5507272c8d373df616058ec9f90d0b5d82da93ecbe",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 489,
+      "pdf_page": 509,
+      "path": "tmp/engraving/study-2026-10-19/book-489.jpg",
+      "sha256": "eb70e2f7228f0f7f059526cf137325a5450bd72b873aa5b1e018274f18940dd6",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/whole-score-b-2026-10-21/book-490.png",
+      "sha256": "c18aba18344097dc3c0d934c32e8eda5c9f9cee3980388f637ec3cb0da1b2c10",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 1,
+      "system": 1,
+      "box_pt": [
+        25,
+        160.0,
+        570.32,
+        326.04
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p1-s1.jpg",
+      "sha256": "75ca8343b120372fc40fd578d4fea592fc63e2e6ff121d9f75f47f9d195f7f2f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 1,
+      "system": 2,
+      "box_pt": [
+        25,
+        289.04,
+        570.32,
+        447.12
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p1-s2.jpg",
+      "sha256": "077390fa3c16f8978a4db9fbac983cd8bebbad330e6170c3e98327a6245b6a2c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 1,
+      "system": 4,
+      "box_pt": [
+        25,
+        531.2,
+        570.32,
+        689.04
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p1-s4.jpg",
+      "sha256": "1b8a735bf98325528b82487cbfb539374d782ed11ad35c01d24db52b4b6e1377",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 1,
+      "system": 5,
+      "box_pt": [
+        25,
+        652.04,
+        570.32,
+        810.12
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p1-s5.jpg",
+      "sha256": "51728dbc240a7575cbd6640b64c117f8db3435cd18946294f5e9f64ba700027a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 2,
+      "system": 1,
+      "box_pt": [
+        25,
+        16.120000000000005,
+        570.32,
+        182.16
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p2-s1.jpg",
+      "sha256": "a9985de9fbce0c7abef6c5fba13414787f0e4cce4cac37330f8dfe4a01e3d7ce",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 3,
+      "system": 2,
+      "box_pt": [
+        25,
+        145.16,
+        570.32,
+        307.68
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p3-s2.jpg",
+      "sha256": "3252d6a36141ca63599e0612d8356ee68f900514b64dc3fd2eaf96222493f715",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 4,
+      "system": 1,
+      "box_pt": [
+        25,
+        16.120000000000005,
+        570.32,
+        182.16
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p4-s1.jpg",
+      "sha256": "f75323b7c274b46b2b8a0517324d24ff50d9af07791dac1a80c09e28f4b14511",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 4,
+      "system": 3,
+      "box_pt": [
+        25,
+        330.04,
+        570.32,
+        496.08
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p4-s3.jpg",
+      "sha256": "b84c3b25290740a8949e2a86a45e4daf253be2ec003197ffceed0d49d1d0f97d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 4,
+      "system": 4,
+      "box_pt": [
+        25,
+        487.0,
+        570.32,
+        653.04
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p4-s4.jpg",
+      "sha256": "2ee5cd9eceb0a9bf6ce26ecb4f6b6aa8d401b3c9fef7e1cffea50bc197219094",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A035",
+      "page": 4,
+      "system": 5,
+      "box_pt": [
+        25,
+        644.08,
+        570.32,
+        810.12
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A035-p4-s5.jpg",
+      "sha256": "eed56d94e5823c6394720dfb4ccc2584428a82e75d3daccc1ec67fabb48d16f2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A055",
+      "page": 1,
+      "system": 1,
+      "box_pt": [
+        25,
+        122.358,
+        500.0,
+        255.774
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A055-p1-s1.jpg",
+      "sha256": "038f66dea2c5f77298801bd59621ac947a807cb2a816fe4a4f136ac4b086cae6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A055",
+      "page": 1,
+      "system": 2,
+      "box_pt": [
+        25,
+        228.834,
+        500.0,
+        344.014
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A055-p1-s2.jpg",
+      "sha256": "dcefb8d74a72820d8c4b081e83b66202d762eaceeefab15a3a1275237c8809bf",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A055",
+      "page": 1,
+      "system": 3,
+      "box_pt": [
+        25,
+        311.233,
+        500.0,
+        433.377
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A055-p1-s3.jpg",
+      "sha256": "4170994316bf2ee397b34a479534a910d21225aab7a101b2ea08614bd8aa6a1a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A055",
+      "page": 1,
+      "system": 4,
+      "box_pt": [
+        25,
+        399.49,
+        500.0,
+        538.144
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A055-p1-s4.jpg",
+      "sha256": "03e833947ad5bf2e35c8602cdb96fd02427222acb0f0157fd313250e53c2eea3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A055",
+      "page": 2,
+      "system": 2,
+      "box_pt": [
+        25,
+        114.52083333333333,
+        500.0,
+        250.54166666666666
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A055-p2-s2.jpg",
+      "sha256": "8a5911629d6d9c2581d9e7e7909118c1220cce3e28c5de3fa4527f842d79e7da",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A055",
+      "page": 3,
+      "system": 3,
+      "box_pt": [
+        25,
+        262.542,
+        500.0,
+        415.485
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A055-p3-s3.jpg",
+      "sha256": "822d81119108a54e0d00473685747c0a93dcd5897827c1c7f29145af637b74cd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A055",
+      "page": 3,
+      "system": 6,
+      "box_pt": [
+        25,
+        592.546,
+        500.0,
+        712.5
+      ],
+      "path": "tmp/engraving/dango-hanezeve-2026-10-26/A055-p3-s6.jpg",
+      "sha256": "8d41f2dd00eb4b1f95fb390609b75ed34c63e31ace702741c4d459e4f5925d8c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 88,
+      "pdf_page": 108,
+      "path": "tmp/engraving/accidental-layout-2026-10-19/book-108.jpg",
+      "sha256": "735845a0532a5ac9e81e29e6891f4d0bc6cea5eb4818d49b2e4f9643cf63341f",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "cache_filename_correction": "Filename suggests 108; visible printed footer is 88."
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 164,
+      "pdf_page": 184,
+      "path": "tmp/engraving/beaming-2026-10-19/book-184.jpg",
+      "sha256": "1c306aa387ca457803edf947650ce290a783f6f63f1f19cce6d7a150a0cf14b1",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "cache_filename_correction": "Filename suggests 184; visible printed footer is 164."
+    }
+  ],
+  "whole_reviews": {
+    "A035": {
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        5
+      ],
+      "systems": 22,
+      "questions_reviewed": [
+        "Bare motif and added accompaniment",
+        "Same five-head motif at opening and return across different line budgets",
+        "Gtie receivers,new chord,tempo text and melody entrance",
+        "Eafter fermata without assumed tempo reset",
+        "Closing partial reception and new attacks"
+      ],
+      "unresolved": [
+        "Full pitch/every duration and octava/pedal collation",
+        "Precise native tempo anchors and playback",
+        "Physical turn/print and same-input native replacement"
+      ]
+    },
+    "A055": {
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "systems_by_page": [
+        6,
+        7,
+        6
+      ],
+      "systems": 19,
+      "questions_reviewed": [
+        "3/4motif4heads3attacks",
+        "A4/4and two-sixteenth/eighth accompaniment",
+        "Bdistinct melodic rests versus helper stems",
+        "Croles and dynamics,D/Ekey changes",
+        "loco precedes G;H3/4with newly sustained lower background"
+      ],
+      "unresolved": [
+        "Every pitch/rhythm,ornament/ottava/hand scope and playback",
+        "Cause of overlapping raw PDF horizontal objects on p2",
+        "Native substitution and physical printing/turn"
+      ]
+    }
+  },
+  "selected_music_checks": {
+    "A035_repeated_five_head_motif": {
+      "written_durations_quarters": [
+        "1/2",
+        "1/2",
+        "1",
+        "1",
+        "1"
+      ],
+      "total_quarters": "4",
+      "compared_motifs": [
+        {
+          "page": 1,
+          "system": 1,
+          "bar_in_system": 1,
+          "x": [
+            88.68,
+            99.24,
+            110.04,
+            127.44,
+            144.6
+          ],
+          "top_offset": [
+            -1.648,
+            0.512,
+            -5.848,
+            -5.848,
+            -8.008
+          ],
+          "gaps_pt": [
+            10.56,
+            10.8,
+            17.4,
+            17.16
+          ]
+        },
+        {
+          "page": 1,
+          "system": 1,
+          "bar_in_system": 3,
+          "x": [
+            245.64,
+            256.32,
+            267.12,
+            284.52,
+            301.68
+          ],
+          "top_offset": [
+            -1.648,
+            0.512,
+            -5.848,
+            -5.848,
+            -8.008
+          ],
+          "gaps_pt": [
+            10.68,
+            10.8,
+            17.4,
+            17.16
+          ]
+        },
+        {
+          "page": 1,
+          "system": 1,
+          "bar_in_system": 5,
+          "x": [
+            408.0,
+            418.68,
+            429.48,
+            446.88,
+            464.04
+          ],
+          "top_offset": [
+            -1.648,
+            0.512,
+            -5.848,
+            -5.848,
+            -8.008
+          ],
+          "gaps_pt": [
+            10.68,
+            10.8,
+            17.4,
+            17.16
+          ]
+        },
+        {
+          "page": 4,
+          "system": 3,
+          "bar_in_system": 1,
+          "x": [
+            77.28,
+            90.72,
+            104.28,
+            126.0,
+            147.84
+          ],
+          "top_offset": [
+            -1.648,
+            0.392,
+            -5.968,
+            -5.968,
+            -8.128
+          ],
+          "gaps_pt": [
+            13.44,
+            13.56,
+            21.72,
+            21.84
+          ]
+        },
+        {
+          "page": 4,
+          "system": 3,
+          "bar_in_system": 3,
+          "x": [
+            271.92,
+            285.36,
+            298.8,
+            320.64,
+            342.48
+          ],
+          "top_offset": [
+            -1.648,
+            0.392,
+            -5.968,
+            -5.968,
+            -8.128
+          ],
+          "gaps_pt": [
+            13.44,
+            13.44,
+            21.84,
+            21.84
+          ]
+        },
+        {
+          "page": 4,
+          "system": 3,
+          "bar_in_system": 5,
+          "x": [
+            466.56,
+            480.0,
+            493.44,
+            515.28,
+            536.88
+          ],
+          "top_offset": [
+            -1.648,
+            0.392,
+            -5.968,
+            -5.968,
+            -8.128
+          ],
+          "gaps_pt": [
+            13.44,
+            13.44,
+            21.84,
+            21.6
+          ]
+        }
+      ],
+      "return_to_opening_total_internal_span_ratio": 1.2585714285714285,
+      "same_character_and_font_within_source": true,
+      "measurement": "PDF same black-head origin gaps;not ink clearance or performed seconds",
+      "selected_line_bar_counts_visually_checked": {
+        "opening_p1s1": 6,
+        "return_p4s3": 5,
+        "next_p4s4": 6
+      },
+      "exact_editorial_reason_for_line_capacity_unverified": true
+    },
+    "A055_intro": {
+      "written_durations_quarters": [
+        "1/4",
+        "1/4",
+        "1/2",
+        "2"
+      ],
+      "total_quarters": "3",
+      "heads": 4,
+      "attacks": 3,
+      "tie_from_eighth_to_half": true,
+      "bars": 8
+    },
+    "A055_H": {
+      "bars": 8,
+      "lower_dotted_half_background_added": true,
+      "poco_meno_not_assumed_equal_opening_BPM": true
+    },
+    "A035_G": {
+      "upper_initial_chord_received": true,
+      "new_dotted_quarter_chord_at_quarter_offset": "1/2",
+      "a_tempo_visually_near_new_chord": true,
+      "melody_and_p_entrance_at_quarter_offset": "2",
+      "native_anchor_unverified": true
+    },
+    "A055_B": {
+      "melody_initial_rest_quarters": [
+        "1",
+        "1/2"
+      ],
+      "melody_enters_at_quarter_offset": "3/2",
+      "rest_deletion_not_recommended": true
+    },
+    "A035_final": {
+      "upper_chord_contains_tied_and_new_pitches": true,
+      "whole_chord_attack_merge_rejected": true
+    }
+  },
+  "book": {
+    "new_substantive_printed_range": [
+      525,
+      532
+    ],
+    "new_substantive_pages": 8,
+    "new_ancillary_pages": 0,
+    "reread_printed_pages": [
+      28,
+      31,
+      72,
+      88,
+      108,
+      121,
+      164,
+      184,
+      307,
+      310,
+      311,
+      489,
+      490
+    ],
+    "physical_offset": 20,
+    "scope": "Full pages/figures;multi-player stave sharing/part extraction versus keyboard exceptions. p532brass paragraph continues,not whole chapter complete."
+  },
+  "extraction_guards": {
+    "system_counts": "Actual whole pages;A055p2raw vector groups rejected and cached raster five-line groups cross-checked.",
+    "vector_glyph_mapping": "Per-file visual mapping only:A035CIDFont+F1 U+F0CF black head;A055Chaconne cid145 black/cid188 half. No font bytes extracted.",
+    "bar_counts": "Three A035line counts and A055intro/H manually verified. Raw barline clusters are not a whole-score measure count;double lines/cautionary changes can add candidates.",
+    "old_cache_names": "Two old cached filenames108/184 actually show printed88/164;retained and separately read. Fresh108/184from source physical128/204 visually footer-checked;no additional coverage credit."
+  },
+  "decisions": [
+    "Preserve stable motif shape while allowing line-level scale changes",
+    "Do not add blanket phrase slurs to bare theme",
+    "Preserve tie receivers and new attacks within one final chord",
+    "Preserve Gseparate structural/tempo/melody entrance positions",
+    "Preserve Bexplicit independent rests;keyboard helper-stem exception not universal",
+    "Apply ensemble shared-staff rules only with subject/context"
+  ],
+  "not_performed": [
+    "original edits",
+    "native rendering candidate",
+    "new fixed transfer assessment",
+    "font work",
+    "MCP/plugin/core adaptation",
+    "user aesthetic or physical print approval",
+    "file deletion"
+  ],
+  "validation": {
+    "status": "passed",
+    "sources_hash_and_pages_checked": 3,
+    "actually_viewed_image_hashes_checked": 45,
+    "all20_skill_routes_executed": true,
+    "local_markdown_links_checked": 485,
+    "unchanged": [
+      "first-pass counts",
+      "fixed deep24/24and164/164",
+      "resources11/25",
+      "fixed transfer8/8",
+      "user integrated0/1",
+      "release0.5.0snapshot metadata"
+    ],
+    "new_closeouts": 2,
+    "new_substantive_book_pages": 8,
+    "new_native_candidates": 0,
+    "original_files_written": 0,
+    "deleted_files": 0,
+    "cache_filename_corrections": 2,
+    "cache_errors": 0
+  },
+  "cache": {
+    "batch_logical_bytes": 5011057,
+    "total_logical_bytes": 2462597981,
+    "total_on_disk_bytes": 2321308754,
+    "batch_review_threshold_bytes": 104857600,
+    "total_review_threshold_bytes": 3221225472,
+    "reused_images": 18,
+    "new_complete_book_pages": 8,
+    "corrected_old_book_renders": 2,
+    "new_complete_system_details": 17,
+    "original_PDF_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "measure": "Logical file length sum;Windows report separately,not volume delta. Snapshot precedes final small validation records."
+  }
+}
