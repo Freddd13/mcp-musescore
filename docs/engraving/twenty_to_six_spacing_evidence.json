@@ -1,0 +1,2533 @@
+{
+  "date": "2026-10-26",
+  "base_commit": "3d155ec26af62ecbdff765835d5edb9c34fe6ec8",
+  "scope": "Original CC0 20-to-6 rhythm-mechanism study,independent pitches and context;no source score transcription or software adaptation",
+  "note": "TWENTY_TO_SIX_SPACING_STUDY.md",
+  "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+  "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+  "runtime_manifest": "tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets-manifest.json",
+  "runtime_manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+  "runtime_files_verified_before": 1936,
+  "runtime_files_verified_after": 1936,
+  "private_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\twenty-six-spacing-2026-10-26\\config",
+  "private_config_precreated": true,
+  "actual_workspace_configuration_created": true,
+  "native_CLI_successful_calls": 54,
+  "call_breakdown": {
+    "full_output_conditions": 10,
+    "full_output_calls": 40,
+    "SVG_only_budget_probes": 2,
+    "canonical_first_saves": 2,
+    "canonical_resave_and_exports": 10
+  },
+  "independent_recipe": [
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "0",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 72,
+      "tpc": 14,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "1/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 76,
+      "tpc": 18,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "2/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 74,
+      "tpc": 16,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "3/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 79,
+      "tpc": 15,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "4/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 77,
+      "tpc": 13,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "1",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 74,
+      "tpc": 16,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "6/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 77,
+      "tpc": 13,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "7/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 76,
+      "tpc": 18,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "8/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 81,
+      "tpc": 17,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "9/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 79,
+      "tpc": 15,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "2",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 76,
+      "tpc": 18,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "11/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 79,
+      "tpc": 15,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "12/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 77,
+      "tpc": 13,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "13/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 83,
+      "tpc": 19,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "14/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 81,
+      "tpc": 17,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "3",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 74,
+      "tpc": 16,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "16/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 79,
+      "tpc": 15,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "17/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 77,
+      "tpc": 13,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "18/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 76,
+      "tpc": 18,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "19/5",
+      "duration_quarter": "1/5",
+      "written_type": "16th",
+      "pitch": 72,
+      "tpc": 14,
+      "tuplet_5_to_4": true
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "0",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 67,
+      "tpc": 15,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "1",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 65,
+      "tpc": 13,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 64,
+      "tpc": 18,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 60,
+      "tpc": 14,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "0",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 48,
+      "tpc": 14,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "1",
+      "duration_quarter": "1/2",
+      "written_type": "eighth",
+      "pitch": 52,
+      "tpc": 18,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "3/2",
+      "duration_quarter": "1/2",
+      "written_type": "eighth",
+      "pitch": 53,
+      "tpc": 13,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 43,
+      "tpc": 15,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "3",
+      "duration_quarter": "1/2",
+      "written_type": "eighth",
+      "pitch": 45,
+      "tpc": 17,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "7/2",
+      "duration_quarter": "1/2",
+      "written_type": "eighth",
+      "pitch": 47,
+      "tpc": 19,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 2,
+      "onset_quarter": "0",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 48,
+      "tpc": 14,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 2,
+      "onset_quarter": "1",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 43,
+      "tpc": 15,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 2,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 41,
+      "tpc": 13,
+      "tuplet_5_to_4": false
+    },
+    {
+      "kind": "note",
+      "staff": 1,
+      "measure": 2,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 36,
+      "tpc": 14,
+      "tuplet_5_to_4": false
+    }
+  ],
+  "cases": {
+    "default-w100": {
+      "width_mm": 100,
+      "condition": "default",
+      "system_count": 2,
+      "system_starts_measure": [
+        1,
+        2
+      ],
+      "internal16_gaps_sp": [
+        2.350844867877046,
+        2.3508448678770515,
+        2.3508448678770515,
+        2.350844867877046,
+        2.3508448678770515,
+        2.350844867877046,
+        2.9993708430702957,
+        2.350889807657739,
+        2.3507999280963534,
+        2.3507999280963534,
+        2.3507999280963534,
+        2.3507999280963534,
+        2.3507999280963534,
+        2.3507999280963534,
+        2.999280963508905,
+        2.3507999280963534
+      ],
+      "internal16_max_over_min": 1.2758937105715953,
+      "all19_gaps": {
+        "gaps_sp": [
+          2.350844867877046,
+          2.3508448678770515,
+          2.3508448678770515,
+          2.350844867877046,
+          2.3508448678770515,
+          2.3508448678770515,
+          2.350844867877046,
+          2.9993708430702957,
+          2.350889807657739,
+          2.3507999280963636,
+          2.3507999280963534,
+          2.3507999280963534,
+          2.3507999280963534,
+          2.3507999280963534,
+          2.351249325903302,
+          2.3507999280963534,
+          2.3507999280963534,
+          2.999280963508905,
+          2.3507999280963534
+        ],
+        "min_sp": 2.3507999280963534,
+        "max_sp": 2.9993708430702957,
+        "max_over_min": 1.2758937105715953
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": 0.0,
+          "whole_beat_midpoint_error_sp": -5.109061554989047e-15
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": 1.0218123109978093e-14,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "05fd00843777ff90528749a5c44ba845c03d813809bb0ef6353a7602b6b5efe9",
+      "first20_upper_head_x_sp": [
+        24.305186050692125,
+        26.656030918569172,
+        29.006875786446223,
+        31.357720654323277,
+        33.708565522200324,
+        36.059410390077375,
+        38.410255257954425,
+        40.76110012583147,
+        43.760470968901764,
+        46.11136077655951,
+        48.46216070465587,
+        50.81296063275222,
+        53.16376056084857,
+        55.51456048894493,
+        57.86536041704128,
+        60.216609742944584,
+        62.56740967104094,
+        64.91820959913728,
+        67.9174905626462,
+        70.26829049074254
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692125,
+        36.059410390077375,
+        42.260785547366616,
+        48.46216070465587,
+        60.216609742944584,
+        66.41785008089175
+      ]
+    },
+    "default-w140": {
+      "width_mm": 140,
+      "condition": "default",
+      "system_count": 1,
+      "system_starts_measure": [
+        1
+      ],
+      "internal16_gaps_sp": [
+        2.5511864102103123,
+        2.5511864102103172,
+        2.5511864102103172,
+        2.5511864102103172,
+        2.5511864102103172,
+        2.5511864102103172,
+        3.188792018694947,
+        2.5512313499910153,
+        2.55123134999101,
+        2.55123134999101,
+        2.55123134999101,
+        2.55123134999101,
+        2.55123134999101,
+        2.55123134999101,
+        3.188926838037031,
+        2.55123134999101
+      ],
+      "internal16_max_over_min": 1.2499779809403049,
+      "all19_gaps": {
+        "gaps_sp": [
+          2.5511864102103123,
+          2.5511864102103172,
+          2.5511864102103172,
+          2.5511864102103172,
+          2.55123134999101,
+          2.5511864102103172,
+          2.5511864102103172,
+          3.188792018694947,
+          2.5512313499910153,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          3.188926838037031,
+          2.55123134999101
+        ],
+        "min_sp": 2.5511864102103123,
+        "max_sp": 3.188926838037031,
+        "max_over_min": 1.2499779809403049
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": 0.00011234945173712784,
+          "whole_beat_midpoint_error_sp": 6.740967103921126e-05
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": 0.0,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "7d9a4a1882273533de0351eca61bcfccb28ff4afeaaaaac77a8eaaccd8350f61",
+      "first20_upper_head_x_sp": [
+        24.305186050692065,
+        26.856372460902378,
+        29.407558871112695,
+        31.95874528132301,
+        34.50993169153333,
+        37.06116304152434,
+        39.61234945173466,
+        42.16353586194497,
+        45.35232788063992,
+        47.90355923063093,
+        50.454790580621946,
+        53.00602193061296,
+        55.557253280603966,
+        58.10848463059498,
+        60.659715980585986,
+        63.210947330577,
+        65.76217868056801,
+        68.31341003055901,
+        71.50233686859605,
+        74.05356821858706
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692065,
+        37.06116304152434,
+        43.75804422074418,
+        50.454790580621946,
+        63.210947330577,
+        69.90787344957754
+      ]
+    },
+    "default-w180": {
+      "width_mm": 180,
+      "condition": "default",
+      "system_count": 1,
+      "system_starts_measure": [
+        1
+      ],
+      "internal16_gaps_sp": [
+        3.1847024986518044,
+        3.184747438432497,
+        3.184747438432497,
+        3.1847474384325025,
+        3.1847024986518044,
+        3.184927197555279,
+        3.9807657738630184,
+        3.184882257774576,
+        3.184882257774576,
+        3.184882257774586,
+        3.1844328599676377,
+        3.184882257774586,
+        3.184432859967648,
+        3.184882257774576,
+        3.9807657738630184,
+        3.184882257774586
+      ],
+      "internal16_max_over_min": 1.250070561670901,
+      "all19_gaps": {
+        "gaps_sp": [
+          3.1847024986518044,
+          3.184747438432497,
+          3.184747438432497,
+          3.1847474384325025,
+          3.184747438432497,
+          3.1847024986518044,
+          3.184927197555279,
+          3.9807657738630184,
+          3.184882257774576,
+          3.184432859967648,
+          3.184882257774576,
+          3.184882257774586,
+          3.1844328599676377,
+          3.184882257774586,
+          3.184882257774576,
+          3.184432859967648,
+          3.184882257774576,
+          3.9807657738630184,
+          3.184882257774586
+        ],
+        "min_sp": 3.1844328599676377,
+        "max_sp": 3.9807657738630184,
+        "max_over_min": 1.250070561670901
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": 0.0,
+          "whole_beat_midpoint_error_sp": 0.00015728923242993534
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": 0.0,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "f5b9dfba567c2d56ff975919ac0b1dbab2f7e6aa56872b4219079958d594cfe7",
+      "first20_upper_head_x_sp": [
+        24.305186050692065,
+        27.48988854934387,
+        30.674635987776366,
+        33.859383426208865,
+        37.04413086464137,
+        40.22887830307386,
+        43.413580801725665,
+        46.59850799928095,
+        50.57927377314397,
+        53.76415603091854,
+        56.94858889088619,
+        60.13347114866077,
+        63.31835340643535,
+        66.50278626640299,
+        69.68766852417757,
+        72.87255078195216,
+        76.0569836419198,
+        79.24186589969437,
+        83.22263167355739,
+        86.40751393133198
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692065,
+        40.22887830307386,
+        48.588890886212454,
+        56.94858889088619,
+        72.87255078195216,
+        81.23224878662589
+      ]
+    },
+    "pulse-w100": {
+      "width_mm": 100,
+      "condition": "local pulse candidate",
+      "system_count": 2,
+      "system_starts_measure": [
+        1,
+        2
+      ],
+      "internal16_gaps_sp": [
+        2.4191083947510355,
+        2.419108394751041,
+        2.4191083947510355,
+        2.419108394751041,
+        2.4191083947510355,
+        2.4191533345317335,
+        2.419108394751041,
+        2.4191083947510355,
+        2.4191083947510355,
+        2.4191083947510355,
+        2.4191083947510457,
+        2.4191083947510355,
+        2.4191083947510355,
+        2.4191083947510457,
+        2.4191083947510355,
+        2.4191083947510355
+      ],
+      "internal16_max_over_min": 1.0000185770016736,
+      "all19_gaps": {
+        "gaps_sp": [
+          2.4191083947510355,
+          2.419108394751041,
+          2.4191083947510355,
+          2.419108394751041,
+          2.419108394751041,
+          2.4191083947510355,
+          2.4191533345317335,
+          2.419108394751041,
+          2.4191083947510355,
+          2.4191083947510457,
+          2.4191083947510355,
+          2.4191083947510355,
+          2.4191083947510457,
+          2.4191083947510355,
+          2.4191083947510355,
+          2.4191083947510355,
+          2.4191083947510457,
+          2.4191083947510355,
+          2.4191083947510355
+        ],
+        "min_sp": 2.4191083947510355,
+        "max_sp": 2.4191533345317335,
+        "max_over_min": 1.0000185770016736
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": 0.0,
+          "whole_beat_midpoint_error_sp": 2.2469890346403813e-05
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": -0.00022469890347425625,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "1349fadbeaec83068eeb203cbf58ce734e58aa331c35f311a6af062015edde3f",
+      "first20_upper_head_x_sp": [
+        24.305186050692125,
+        26.724294445443164,
+        29.143402840194202,
+        31.562511234945237,
+        33.981619629696276,
+        36.40072802444732,
+        38.81983641919835,
+        41.23898975373009,
+        43.65809814848113,
+        46.077206543232165,
+        48.49631493798321,
+        50.91542333273424,
+        53.334531727485285,
+        55.75364012223633,
+        58.17274851698736,
+        60.5918569117384,
+        63.01096530648943,
+        65.43007370124047,
+        67.84918209599151,
+        70.26829049074254
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692125,
+        36.40072802444732,
+        42.44854395110561,
+        48.49631493798321,
+        60.5918569117384,
+        66.63940319971252
+      ]
+    },
+    "pulse-w140": {
+      "width_mm": 140,
+      "condition": "local pulse candidate",
+      "system_count": 1,
+      "system_starts_measure": [
+        1
+      ],
+      "internal16_gaps_sp": [
+        2.612079813050507,
+        2.612124752831205,
+        2.6120798130505123,
+        2.612124752831205,
+        2.612124752831205,
+        2.612079813050507,
+        2.6105968002876137,
+        2.6123494517346795,
+        2.611900053927741,
+        2.6123494517346693,
+        2.611900053927741,
+        2.6119000539277306,
+        2.6119000539277306,
+        2.611900053927741,
+        2.611001258313854,
+        2.611900053927741
+      ],
+      "internal16_max_over_min": 1.000671360451707,
+      "all19_gaps": {
+        "gaps_sp": [
+          2.612079813050507,
+          2.612124752831205,
+          2.6120798130505123,
+          2.612124752831205,
+          2.6120348732698195,
+          2.612124752831205,
+          2.612079813050507,
+          2.6105968002876137,
+          2.6123494517346795,
+          2.6119000539277306,
+          2.611900053927741,
+          2.6123494517346693,
+          2.611900053927741,
+          2.6119000539277306,
+          2.6123494517346795,
+          2.6119000539277306,
+          2.611900053927741,
+          2.611001258313854,
+          2.611900053927741
+        ],
+        "min_sp": 2.6105968002876137,
+        "max_sp": 2.6123494517346795,
+        "max_over_min": 1.000671360451707
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": -2.2469890346403755e-05,
+          "whole_beat_midpoint_error_sp": -4.493978069280751e-05
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": 0.0,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "d6883c69b92f6bb55e545ed94f6a2817e501af511fbc903566b4b9836b0b9148",
+      "first20_upper_head_x_sp": [
+        24.305186050692065,
+        26.91726586374257,
+        29.529390616573778,
+        32.14147042962429,
+        34.75359518245549,
+        37.36563005572531,
+        39.97775480855652,
+        42.589834621607025,
+        45.20043142189464,
+        47.81278087362932,
+        50.42468092755705,
+        53.03658098148479,
+        55.64893043321946,
+        58.2608304871472,
+        60.87273054107493,
+        63.48507999280961,
+        66.09698004673734,
+        68.70888010066508,
+        71.31988135897893,
+        73.93178141290667
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692065,
+        37.36563005572531,
+        43.89511055186049,
+        50.42468092755705,
+        63.48507999280961,
+        70.01438072982201
+      ]
+    },
+    "pulse-w180": {
+      "width_mm": 180,
+      "condition": "local pulse candidate",
+      "system_count": 1,
+      "system_starts_measure": [
+        1
+      ],
+      "internal16_gaps_sp": [
+        3.2611450656120735,
+        3.261145065612079,
+        3.261145065612079,
+        3.261100125831386,
+        3.261145065612079,
+        3.260830487147219,
+        3.259482293726404,
+        3.2612798849541673,
+        3.260830487147219,
+        3.261279884954157,
+        3.2612798849541673,
+        3.260830487147219,
+        3.261279884954157,
+        3.2612798849541673,
+        3.2590328959194657,
+        3.261279884954157
+      ],
+      "internal16_max_over_min": 1.0006894649751819,
+      "all19_gaps": {
+        "gaps_sp": [
+          3.2611450656120735,
+          3.261145065612079,
+          3.261145065612079,
+          3.261100125831386,
+          3.261145065612079,
+          3.261145065612079,
+          3.260830487147219,
+          3.259482293726404,
+          3.2612798849541673,
+          3.261279884954157,
+          3.260830487147219,
+          3.261279884954157,
+          3.2612798849541673,
+          3.260830487147219,
+          3.261279884954157,
+          3.261279884954157,
+          3.2612798849541673,
+          3.2590328959194657,
+          3.261279884954157
+        ],
+        "min_sp": 3.2590328959194657,
+        "max_sp": 3.2612798849541673,
+        "max_over_min": 1.0006894649751819
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": 0.00022469890346403756,
+          "whole_beat_midpoint_error_sp": -6.740967104432032e-05
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": 0.0,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "d533e4cea5ed38fb44fc8bb0c51a1a23c86665ce822beb7206641b86f1d8b7a7",
+      "first20_upper_head_x_sp": [
+        24.305186050692065,
+        27.566331116304138,
+        30.827476181916218,
+        34.088621247528295,
+        37.349721373359685,
+        40.61086643897176,
+        43.87201150458384,
+        47.132841991731055,
+        50.39232428545746,
+        53.65360417041163,
+        56.91488405536579,
+        60.175714542513006,
+        63.43699442746716,
+        66.69827431242133,
+        69.95910479956855,
+        73.2203846845227,
+        76.48166456947686,
+        79.74294445443103,
+        83.0019773503505,
+        86.26325723530465
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692065,
+        40.61086643897176,
+        48.76280783749773,
+        56.91488405536579,
+        73.2203846845227,
+        81.37246090239077
+      ]
+    },
+    "budget-pulse-w140": {
+      "width_mm": 140,
+      "condition": "local pulse with measure-budget compensation",
+      "system_count": 1,
+      "system_starts_measure": [
+        1
+      ],
+      "internal16_gaps_sp": [
+        2.6183713823476484,
+        2.6183713823476533,
+        2.6183264425669606,
+        2.6183713823476533,
+        2.6183713823476533,
+        2.6183713823476484,
+        2.6184163221283514,
+        2.6186410210318156,
+        2.618191623224877,
+        2.6186410210318156,
+        2.618191623224877,
+        2.618191623224877,
+        2.6186410210318156,
+        2.618191623224877,
+        2.6186410210318156,
+        2.618191623224877
+      ],
+      "internal16_max_over_min": 1.0001716443529007,
+      "all19_gaps": {
+        "gaps_sp": [
+          2.6183713823476484,
+          2.6183713823476533,
+          2.6183264425669606,
+          2.6183713823476533,
+          2.6183264425669606,
+          2.6183713823476533,
+          2.6183713823476484,
+          2.6184163221283514,
+          2.6186410210318156,
+          2.618191623224877,
+          2.618191623224877,
+          2.6186410210318156,
+          2.618191623224877,
+          2.618191623224877,
+          2.618191623224877,
+          2.6186410210318156,
+          2.618191623224877,
+          2.6186410210318156,
+          2.618191623224877
+        ],
+        "min_sp": 2.618191623224877,
+        "max_sp": 2.6186410210318156,
+        "max_over_min": 1.0001716443529007
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": -2.2469890346403755e-05,
+          "whole_beat_midpoint_error_sp": -6.740967104432032e-05
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": -0.00022469890346403756,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "88e358a201664a6d8813f7d782662ea113bc2ed97e0aea1f4813450463363c4c",
+      "first20_upper_head_x_sp": [
+        24.305186050692065,
+        26.92355743303971,
+        29.541928815387365,
+        32.160255257954326,
+        34.77862664030198,
+        37.39695308286894,
+        40.015324465216594,
+        42.63369584756424,
+        45.252112169692595,
+        47.87075319072441,
+        50.48894481394929,
+        53.10713643717416,
+        55.72577745820598,
+        58.343969081430856,
+        60.96216070465574,
+        63.58035232788061,
+        66.19899334891242,
+        68.8171849721373,
+        71.43582599316912,
+        74.05401761639399
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692065,
+        37.39695308286894,
+        43.94288153873807,
+        50.48894481394929,
+        63.58035232788061,
+        70.12628078374975
+      ]
+    },
+    "budget-pulse-w180": {
+      "width_mm": 180,
+      "condition": "local pulse with measure-budget compensation",
+      "system_count": 1,
+      "system_starts_measure": [
+        1
+      ],
+      "internal16_gaps_sp": [
+        3.2686050692072586,
+        3.268560129426566,
+        3.268560129426566,
+        3.2685601294265707,
+        3.268560129426566,
+        3.2683803703037944,
+        3.2689196476721185,
+        3.26847024986518,
+        3.26847024986518,
+        3.2684702498651697,
+        3.2689196476721185,
+        3.26847024986518,
+        3.2689196476721185,
+        3.26847024986518,
+        3.26847024986518,
+        3.26847024986518
+      ],
+      "internal16_max_over_min": 1.0001649983500158,
+      "all19_gaps": {
+        "gaps_sp": [
+          3.2686050692072586,
+          3.268560129426566,
+          3.268560129426566,
+          3.2685601294265707,
+          3.268560129426566,
+          3.268560129426566,
+          3.2683803703037944,
+          3.2689196476721185,
+          3.26847024986518,
+          3.26847024986518,
+          3.26847024986518,
+          3.2684702498651697,
+          3.2689196476721185,
+          3.26847024986518,
+          3.26847024986518,
+          3.2689196476721185,
+          3.26847024986518,
+          3.26847024986518,
+          3.26847024986518
+        ],
+        "min_sp": 3.2683803703037944,
+        "max_sp": 3.2689196476721185,
+        "max_over_min": 1.0001649983500158
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": 0.0,
+          "whole_beat_midpoint_error_sp": 0.0
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": -0.00022469890346403756,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "a6ed4f65ec49c7b4c96a5c3665103cba4f5455e293e1cc0f7d02a734175c5b70",
+      "first20_upper_head_x_sp": [
+        24.305186050692065,
+        27.573791119899322,
+        30.84235124932589,
+        34.110911378752455,
+        37.37947150817902,
+        40.64803163760559,
+        43.91659176703216,
+        47.184972137335954,
+        50.45389178500807,
+        53.72236203487325,
+        56.99083228473843,
+        60.25930253460361,
+        63.52777278446878,
+        66.7966924321409,
+        70.06516268200608,
+        73.33363293187126,
+        76.60255257954337,
+        79.87102282940856,
+        83.13949307927373,
+        86.40796332913892
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692065,
+        40.64803163760559,
+        48.81943196117201,
+        56.99083228473843,
+        73.33363293187126,
+        81.50503325543768
+      ]
+    },
+    "canonical-default-w140": {
+      "width_mm": 140,
+      "condition": "canonical native saved default",
+      "system_count": 1,
+      "system_starts_measure": [
+        1
+      ],
+      "internal16_gaps_sp": [
+        2.5511864102103123,
+        2.5511864102103172,
+        2.5511864102103172,
+        2.5511864102103172,
+        2.5511864102103172,
+        2.5511864102103172,
+        3.188792018694947,
+        2.5512313499910153,
+        2.55123134999101,
+        2.55123134999101,
+        2.55123134999101,
+        2.55123134999101,
+        2.55123134999101,
+        2.55123134999101,
+        3.188926838037031,
+        2.55123134999101
+      ],
+      "internal16_max_over_min": 1.2499779809403049,
+      "all19_gaps": {
+        "gaps_sp": [
+          2.5511864102103123,
+          2.5511864102103172,
+          2.5511864102103172,
+          2.5511864102103172,
+          2.55123134999101,
+          2.5511864102103172,
+          2.5511864102103172,
+          3.188792018694947,
+          2.5512313499910153,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          2.55123134999101,
+          3.188926838037031,
+          2.55123134999101
+        ],
+        "min_sp": 2.5511864102103123,
+        "max_sp": 3.188926838037031,
+        "max_over_min": 1.2499779809403049
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": 0.00011234945173712784,
+          "whole_beat_midpoint_error_sp": 6.740967103921126e-05
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": 0.0,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "first20_upper_head_x_sp": [
+        24.305186050692065,
+        26.856372460902378,
+        29.407558871112695,
+        31.95874528132301,
+        34.50993169153333,
+        37.06116304152434,
+        39.61234945173466,
+        42.16353586194497,
+        45.35232788063992,
+        47.90355923063093,
+        50.454790580621946,
+        53.00602193061296,
+        55.557253280603966,
+        58.10848463059498,
+        60.659715980585986,
+        63.210947330577,
+        65.76217868056801,
+        68.31341003055901,
+        71.50233686859605,
+        74.05356821858706
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692065,
+        37.06116304152434,
+        43.75804422074418,
+        50.454790580621946,
+        63.210947330577,
+        69.90787344957754
+      ]
+    },
+    "canonical-candidate-w140": {
+      "width_mm": 140,
+      "condition": "canonical native saved local pulse with measure-budget compensation",
+      "system_count": 1,
+      "system_starts_measure": [
+        1
+      ],
+      "internal16_gaps_sp": [
+        2.6183713823476484,
+        2.6183264425669606,
+        2.6183713823476533,
+        2.6183713823476533,
+        2.6183713823476533,
+        2.6183713823476484,
+        2.6184163221283514,
+        2.6186410210318156,
+        2.618191623224877,
+        2.618191623224877,
+        2.6186410210318156,
+        2.618191623224877,
+        2.6186410210318156,
+        2.618191623224877,
+        2.618191623224877,
+        2.6186410210318156
+      ],
+      "internal16_max_over_min": 1.0001716443529007,
+      "all19_gaps": {
+        "gaps_sp": [
+          2.6183713823476484,
+          2.6183264425669606,
+          2.6183713823476533,
+          2.6183713823476533,
+          2.6183264425669606,
+          2.6183713823476533,
+          2.6183713823476484,
+          2.6184163221283514,
+          2.6186410210318156,
+          2.618191623224877,
+          2.618191623224877,
+          2.618191623224877,
+          2.6186410210318156,
+          2.618191623224877,
+          2.618191623224877,
+          2.6186410210318156,
+          2.618191623224877,
+          2.618191623224877,
+          2.6186410210318156
+        ],
+        "min_sp": 2.618191623224877,
+        "max_sp": 2.6186410210318156,
+        "max_over_min": 1.0001716443529007
+      },
+      "common_quarters_errors_sp": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "intermediate_entries": [
+        {
+          "onset_quarter": "3/2",
+          "between_upper_indices": [
+            7,
+            8
+          ],
+          "adjacent_midpoint_error_sp": -6.740967103921126e-05,
+          "whole_beat_midpoint_error_sp": -0.00011234945173712784
+        },
+        {
+          "onset_quarter": "7/2",
+          "between_upper_indices": [
+            17,
+            18
+          ],
+          "adjacent_midpoint_error_sp": 1.0218123109978068e-14,
+          "whole_beat_midpoint_not_compared": "Next visible head is in next measure,possibly another system;barline reserve differs from internal time allocation."
+        }
+      ],
+      "independent_musicxml_recipe_checked": true,
+      "MIDI34exact_onsets_at480ppq": true,
+      "actual_notated_pitch_checked": true,
+      "beams_and_tuplets_checked": true,
+      "source_sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "first20_upper_head_x_sp": [
+        24.305186050692065,
+        26.92355743303971,
+        29.541883875606672,
+        32.160255257954326,
+        34.77862664030198,
+        37.39695308286894,
+        40.015324465216594,
+        42.63369584756424,
+        45.252112169692595,
+        47.87075319072441,
+        50.48894481394929,
+        53.10713643717416,
+        55.72532806039904,
+        58.343969081430856,
+        60.96216070465574,
+        63.58035232788061,
+        66.19899334891242,
+        68.8171849721373,
+        71.43537659536219,
+        74.05401761639399
+      ],
+      "first6_lower_head_x_sp": [
+        24.305186050692065,
+        37.39695308286894,
+        43.94283659895738,
+        50.48894481394929,
+        63.58035232788061,
+        70.12628078374975
+      ]
+    }
+  },
+  "initial_offsets": [
+    {
+      "case": "pulse-w100",
+      "base_case": "default-w100",
+      "region_quarters": [
+        "0",
+        "19/5"
+      ],
+      "fixed_upper_head_indices": [
+        0,
+        19
+      ],
+      "fixed_first_lower": true,
+      "next_measure_unchanged": true,
+      "target19gap_sp": 2.4191107600026536,
+      "offsets": [
+        {
+          "staff": 0,
+          "chord_index": 1,
+          "onset_quarter": "1/5",
+          "offset_sp": 0.0682658921,
+          "original_x": 593.15,
+          "target_x": 594.669052631579
+        },
+        {
+          "staff": 0,
+          "chord_index": 2,
+          "onset_quarter": "2/5",
+          "offset_sp": 0.136531784,
+          "original_x": 645.461,
+          "target_x": 648.499105263158
+        },
+        {
+          "staff": 0,
+          "chord_index": 3,
+          "onset_quarter": "3/5",
+          "offset_sp": 0.204797676,
+          "original_x": 697.772,
+          "target_x": 702.3291578947369
+        },
+        {
+          "staff": 0,
+          "chord_index": 4,
+          "onset_quarter": "4/5",
+          "offset_sp": 0.273063569,
+          "original_x": 750.083,
+          "target_x": 756.1592105263157
+        },
+        {
+          "staff": 0,
+          "chord_index": 5,
+          "onset_quarter": "1",
+          "offset_sp": 0.341329461,
+          "original_x": 802.394,
+          "target_x": 809.9892631578948
+        },
+        {
+          "staff": 0,
+          "chord_index": 6,
+          "onset_quarter": "6/5",
+          "offset_sp": 0.409595353,
+          "original_x": 854.705,
+          "target_x": 863.8193157894736
+        },
+        {
+          "staff": 0,
+          "chord_index": 7,
+          "onset_quarter": "7/5",
+          "offset_sp": 0.477861245,
+          "original_x": 907.016,
+          "target_x": 917.6493684210526
+        },
+        {
+          "staff": 0,
+          "chord_index": 8,
+          "onset_quarter": "8/5",
+          "offset_sp": -0.102398838,
+          "original_x": 973.758,
+          "target_x": 971.4794210526316
+        },
+        {
+          "staff": 0,
+          "chord_index": 9,
+          "onset_quarter": "9/5",
+          "offset_sp": -0.0341778858,
+          "original_x": 1026.07,
+          "target_x": 1025.3094736842104
+        },
+        {
+          "staff": 0,
+          "chord_index": 10,
+          "onset_quarter": "2",
+          "offset_sp": 0.0341329461,
+          "original_x": 1078.38,
+          "target_x": 1079.1395263157895
+        },
+        {
+          "staff": 0,
+          "chord_index": 11,
+          "onset_quarter": "11/5",
+          "offset_sp": 0.102443778,
+          "original_x": 1130.69,
+          "target_x": 1132.9695789473685
+        },
+        {
+          "staff": 0,
+          "chord_index": 12,
+          "onset_quarter": "12/5",
+          "offset_sp": 0.17075461,
+          "original_x": 1183.0,
+          "target_x": 1186.7996315789474
+        },
+        {
+          "staff": 0,
+          "chord_index": 13,
+          "onset_quarter": "13/5",
+          "offset_sp": 0.239065442,
+          "original_x": 1235.31,
+          "target_x": 1240.6296842105262
+        },
+        {
+          "staff": 0,
+          "chord_index": 14,
+          "onset_quarter": "14/5",
+          "offset_sp": 0.307376274,
+          "original_x": 1287.62,
+          "target_x": 1294.459736842105
+        },
+        {
+          "staff": 0,
+          "chord_index": 15,
+          "onset_quarter": "3",
+          "offset_sp": 0.375237708,
+          "original_x": 1339.94,
+          "target_x": 1348.2897894736843
+        },
+        {
+          "staff": 0,
+          "chord_index": 16,
+          "onset_quarter": "16/5",
+          "offset_sp": 0.44354854,
+          "original_x": 1392.25,
+          "target_x": 1402.1198421052632
+        },
+        {
+          "staff": 0,
+          "chord_index": 17,
+          "onset_quarter": "17/5",
+          "offset_sp": 0.511859372,
+          "original_x": 1444.56,
+          "target_x": 1455.949894736842
+        },
+        {
+          "staff": 0,
+          "chord_index": 18,
+          "onset_quarter": "18/5",
+          "offset_sp": -0.0683108319,
+          "original_x": 1511.3,
+          "target_x": 1509.7799473684208
+        },
+        {
+          "staff": 1,
+          "chord_index": 1,
+          "onset_quarter": "1",
+          "offset_sp": 0.341329461,
+          "original_x": 802.394,
+          "target_x": 809.9892631578948
+        },
+        {
+          "staff": 1,
+          "chord_index": 2,
+          "onset_quarter": "3/2",
+          "offset_sp": 0.187731203,
+          "original_x": 940.387,
+          "target_x": 944.5643947368421
+        },
+        {
+          "staff": 1,
+          "chord_index": 3,
+          "onset_quarter": "2",
+          "offset_sp": 0.0341329461,
+          "original_x": 1078.38,
+          "target_x": 1079.1395263157895
+        },
+        {
+          "staff": 1,
+          "chord_index": 4,
+          "onset_quarter": "3",
+          "offset_sp": 0.375237708,
+          "original_x": 1339.94,
+          "target_x": 1348.2897894736843
+        },
+        {
+          "staff": 1,
+          "chord_index": 5,
+          "onset_quarter": "7/2",
+          "offset_sp": 0.22177427,
+          "original_x": 1477.93,
+          "target_x": 1482.8649210526314
+        }
+      ],
+      "max_abs_offset_sp": 0.511859372,
+      "limits": "Width-specific;no full beat4boundary/next-system linearity claim;all actual quarter shared and intermediate entries moved together."
+    },
+    {
+      "case": "pulse-w140",
+      "base_case": "default-w140",
+      "region_quarters": [
+        "0",
+        "19/5"
+      ],
+      "fixed_upper_head_indices": [
+        0,
+        19
+      ],
+      "fixed_first_lower": true,
+      "next_measure_unchanged": true,
+      "target19gap_sp": 2.61833590357342,
+      "offsets": [
+        {
+          "staff": 0,
+          "chord_index": 1,
+          "onset_quarter": "1/5",
+          "offset_sp": 0.0671494934,
+          "original_x": 597.608,
+          "target_x": 599.1022105263158
+        },
+        {
+          "staff": 0,
+          "chord_index": 2,
+          "onset_quarter": "2/5",
+          "offset_sp": 0.134298987,
+          "original_x": 654.377,
+          "target_x": 657.3654210526316
+        },
+        {
+          "staff": 0,
+          "chord_index": 3,
+          "onset_quarter": "3/5",
+          "offset_sp": 0.20144848,
+          "original_x": 711.146,
+          "target_x": 715.6286315789473
+        },
+        {
+          "staff": 0,
+          "chord_index": 4,
+          "onset_quarter": "4/5",
+          "offset_sp": 0.268597973,
+          "original_x": 767.915,
+          "target_x": 773.8918421052631
+        },
+        {
+          "staff": 0,
+          "chord_index": 5,
+          "onset_quarter": "1",
+          "offset_sp": 0.335702527,
+          "original_x": 824.685,
+          "target_x": 832.1550526315789
+        },
+        {
+          "staff": 0,
+          "chord_index": 6,
+          "onset_quarter": "6/5",
+          "offset_sp": 0.40285202,
+          "original_x": 881.454,
+          "target_x": 890.4182631578947
+        },
+        {
+          "staff": 0,
+          "chord_index": 7,
+          "onset_quarter": "7/5",
+          "offset_sp": 0.470001514,
+          "original_x": 938.223,
+          "target_x": 948.6814736842105
+        },
+        {
+          "staff": 0,
+          "chord_index": 8,
+          "onset_quarter": "8/5",
+          "offset_sp": -0.100454601,
+          "original_x": 1009.18,
+          "target_x": 1006.9446842105262
+        },
+        {
+          "staff": 0,
+          "chord_index": 9,
+          "onset_quarter": "9/5",
+          "offset_sp": -0.0333500478,
+          "original_x": 1065.95,
+          "target_x": 1065.207894736842
+        },
+        {
+          "staff": 0,
+          "chord_index": 10,
+          "onset_quarter": "2",
+          "offset_sp": 0.0337545058,
+          "original_x": 1122.72,
+          "target_x": 1123.4711052631578
+        },
+        {
+          "staff": 0,
+          "chord_index": 11,
+          "onset_quarter": "11/5",
+          "offset_sp": 0.100859059,
+          "original_x": 1179.49,
+          "target_x": 1181.7343157894736
+        },
+        {
+          "staff": 0,
+          "chord_index": 12,
+          "onset_quarter": "12/5",
+          "offset_sp": 0.167963613,
+          "original_x": 1236.26,
+          "target_x": 1239.9975263157894
+        },
+        {
+          "staff": 0,
+          "chord_index": 13,
+          "onset_quarter": "13/5",
+          "offset_sp": 0.235068167,
+          "original_x": 1293.03,
+          "target_x": 1298.2607368421052
+        },
+        {
+          "staff": 0,
+          "chord_index": 14,
+          "onset_quarter": "14/5",
+          "offset_sp": 0.30217272,
+          "original_x": 1349.8,
+          "target_x": 1356.523947368421
+        },
+        {
+          "staff": 0,
+          "chord_index": 15,
+          "onset_quarter": "3",
+          "offset_sp": 0.369277274,
+          "original_x": 1406.57,
+          "target_x": 1414.7871578947368
+        },
+        {
+          "staff": 0,
+          "chord_index": 16,
+          "onset_quarter": "16/5",
+          "offset_sp": 0.436381827,
+          "original_x": 1463.34,
+          "target_x": 1473.0503684210526
+        },
+        {
+          "staff": 0,
+          "chord_index": 17,
+          "onset_quarter": "17/5",
+          "offset_sp": 0.503486381,
+          "original_x": 1520.11,
+          "target_x": 1531.3135789473681
+        },
+        {
+          "staff": 0,
+          "chord_index": 18,
+          "onset_quarter": "18/5",
+          "offset_sp": -0.0671045536,
+          "original_x": 1591.07,
+          "target_x": 1589.5767894736841
+        },
+        {
+          "staff": 1,
+          "chord_index": 1,
+          "onset_quarter": "1",
+          "offset_sp": 0.335702527,
+          "original_x": 824.685,
+          "target_x": 832.1550526315789
+        },
+        {
+          "staff": 1,
+          "chord_index": 2,
+          "onset_quarter": "3/2",
+          "offset_sp": 0.184661107,
+          "original_x": 973.704,
+          "target_x": 977.8130789473685
+        },
+        {
+          "staff": 1,
+          "chord_index": 3,
+          "onset_quarter": "2",
+          "offset_sp": 0.0337545058,
+          "original_x": 1122.72,
+          "target_x": 1123.4711052631578
+        },
+        {
+          "staff": 1,
+          "chord_index": 4,
+          "onset_quarter": "3",
+          "offset_sp": 0.369277274,
+          "original_x": 1406.57,
+          "target_x": 1414.7871578947368
+        },
+        {
+          "staff": 1,
+          "chord_index": 5,
+          "onset_quarter": "7/2",
+          "offset_sp": 0.218190914,
+          "original_x": 1555.59,
+          "target_x": 1560.4451842105261
+        }
+      ],
+      "max_abs_offset_sp": 0.503486381,
+      "limits": "Width-specific;no full beat4boundary/next-system linearity claim;all actual quarter shared and intermediate entries moved together."
+    },
+    {
+      "case": "pulse-w180",
+      "base_case": "default-w180",
+      "region_quarters": [
+        "0",
+        "19/5"
+      ],
+      "fixed_upper_head_indices": [
+        0,
+        19
+      ],
+      "fixed_first_lower": true,
+      "next_measure_unchanged": true,
+      "target19gap_sp": 3.268543572665258,
+      "offsets": [
+        {
+          "staff": 0,
+          "chord_index": 1,
+          "onset_quarter": "1/5",
+          "offset_sp": 0.083841074,
+          "original_x": 611.705,
+          "target_x": 613.5706315789474
+        },
+        {
+          "staff": 0,
+          "chord_index": 2,
+          "onset_quarter": "2/5",
+          "offset_sp": 0.167637208,
+          "original_x": 682.572,
+          "target_x": 686.3022631578948
+        },
+        {
+          "staff": 0,
+          "chord_index": 3,
+          "onset_quarter": "3/5",
+          "offset_sp": 0.251433342,
+          "original_x": 753.439,
+          "target_x": 759.0338947368421
+        },
+        {
+          "staff": 0,
+          "chord_index": 4,
+          "onset_quarter": "4/5",
+          "offset_sp": 0.335229477,
+          "original_x": 824.306,
+          "target_x": 831.7655263157894
+        },
+        {
+          "staff": 0,
+          "chord_index": 5,
+          "onset_quarter": "1",
+          "offset_sp": 0.419025611,
+          "original_x": 895.173,
+          "target_x": 904.4971578947368
+        },
+        {
+          "staff": 0,
+          "chord_index": 6,
+          "onset_quarter": "6/5",
+          "offset_sp": 0.502866685,
+          "original_x": 966.039,
+          "target_x": 977.2287894736842
+        },
+        {
+          "staff": 0,
+          "chord_index": 7,
+          "onset_quarter": "7/5",
+          "offset_sp": 0.58648306,
+          "original_x": 1036.91,
+          "target_x": 1049.9604210526315
+        },
+        {
+          "staff": 0,
+          "chord_index": 8,
+          "onset_quarter": "8/5",
+          "offset_sp": -0.125739141,
+          "original_x": 1125.49,
+          "target_x": 1122.692052631579
+        },
+        {
+          "staff": 0,
+          "chord_index": 9,
+          "onset_quarter": "9/5",
+          "offset_sp": -0.0420778262,
+          "original_x": 1196.36,
+          "target_x": 1195.4236842105263
+        },
+        {
+          "staff": 0,
+          "chord_index": 10,
+          "onset_quarter": "2",
+          "offset_sp": 0.0420328865,
+          "original_x": 1267.22,
+          "target_x": 1268.1553157894737
+        },
+        {
+          "staff": 0,
+          "chord_index": 11,
+          "onset_quarter": "11/5",
+          "offset_sp": 0.125694201,
+          "original_x": 1338.09,
+          "target_x": 1340.886947368421
+        },
+        {
+          "staff": 0,
+          "chord_index": 12,
+          "onset_quarter": "12/5",
+          "offset_sp": 0.209355516,
+          "original_x": 1408.96,
+          "target_x": 1413.6185789473684
+        },
+        {
+          "staff": 0,
+          "chord_index": 13,
+          "onset_quarter": "13/5",
+          "offset_sp": 0.293466229,
+          "original_x": 1479.82,
+          "target_x": 1486.3502105263158
+        },
+        {
+          "staff": 0,
+          "chord_index": 14,
+          "onset_quarter": "14/5",
+          "offset_sp": 0.377127544,
+          "original_x": 1550.69,
+          "target_x": 1559.0818421052631
+        },
+        {
+          "staff": 0,
+          "chord_index": 15,
+          "onset_quarter": "3",
+          "offset_sp": 0.460788859,
+          "original_x": 1621.56,
+          "target_x": 1631.8134736842103
+        },
+        {
+          "staff": 0,
+          "chord_index": 16,
+          "onset_quarter": "16/5",
+          "offset_sp": 0.544899571,
+          "original_x": 1692.42,
+          "target_x": 1704.545105263158
+        },
+        {
+          "staff": 0,
+          "chord_index": 17,
+          "onset_quarter": "17/5",
+          "offset_sp": 0.628560886,
+          "original_x": 1763.29,
+          "target_x": 1777.276736842105
+        },
+        {
+          "staff": 0,
+          "chord_index": 18,
+          "onset_quarter": "18/5",
+          "offset_sp": -0.0836613149,
+          "original_x": 1851.87,
+          "target_x": 1850.0083684210526
+        },
+        {
+          "staff": 1,
+          "chord_index": 1,
+          "onset_quarter": "1",
+          "offset_sp": 0.419025611,
+          "original_x": 895.173,
+          "target_x": 904.4971578947368
+        },
+        {
+          "staff": 1,
+          "chord_index": 2,
+          "onset_quarter": "3/2",
+          "offset_sp": 0.230371959,
+          "original_x": 1081.2,
+          "target_x": 1086.3262368421051
+        },
+        {
+          "staff": 1,
+          "chord_index": 3,
+          "onset_quarter": "2",
+          "offset_sp": 0.0420328865,
+          "original_x": 1267.22,
+          "target_x": 1268.1553157894737
+        },
+        {
+          "staff": 1,
+          "chord_index": 4,
+          "onset_quarter": "3",
+          "offset_sp": 0.460788859,
+          "original_x": 1621.56,
+          "target_x": 1631.8134736842103
+        },
+        {
+          "staff": 1,
+          "chord_index": 5,
+          "onset_quarter": "7/2",
+          "offset_sp": 0.272449786,
+          "original_x": 1807.58,
+          "target_x": 1813.6425526315788
+        }
+      ],
+      "max_abs_offset_sp": 0.628560886,
+      "limits": "Width-specific;no full beat4boundary/next-system linearity claim;all actual quarter shared and intermediate entries moved together."
+    }
+  ],
+  "budget_compensation": [
+    {
+      "case": "budget-pulse-w140",
+      "base_case": "default-w140",
+      "pulse_initial_case": "pulse-w140",
+      "probe_case": "budget-probe-w140",
+      "probe_stretch": 1.01,
+      "original_context_x": 1743.08,
+      "initial_pulse_context_x": 1740.37,
+      "probe_context_x": 1746.17,
+      "secant_estimated_stretch": 1.00467241,
+      "probe_native_returncode": 0,
+      "probe_svg": "exports\\budget-probe-w140-1.svg",
+      "scope": "One measured scalar compensates row allocation;independent note/pulse targets remain from baseline,not fit separately per gap."
+    },
+    {
+      "case": "budget-pulse-w180",
+      "base_case": "default-w180",
+      "pulse_initial_case": "pulse-w180",
+      "probe_case": "budget-probe-w180",
+      "probe_stretch": 1.01,
+      "original_context_x": 2026.54,
+      "initial_pulse_context_x": 2023.16,
+      "probe_context_x": 2030.37,
+      "secant_estimated_stretch": 1.00468793,
+      "probe_native_returncode": 0,
+      "probe_svg": "exports\\budget-probe-w180-1.svg",
+      "scope": "One measured scalar compensates row allocation;independent note/pulse targets remain from baseline,not fit separately per gap."
+    }
+  ],
+  "candidate_verification": {
+    "candidate_checks": {
+      "pulse-w100": {
+        "internal16_max_over_min": 1.0000185770016736,
+        "all19_max_over_min": 1.0000185770016736,
+        "minimum_head_horizontal_clearance_lower_bound_sp": 1.1191098552939054,
+        "head_cubic_hull_width_sp": 1.29999853945713,
+        "maximum_fixed_endpoint_error_sp": 0.0,
+        "maximum_context_head_error_sp": 0.0,
+        "maximum_barline_coordinate_error_sp": 0.0,
+        "unrelated_classed_SVG_drawings_equal": true,
+        "four_true_quarters_aligned": true,
+        "two_intermediate_entries_adjacent_midpoints_error_max_sp": 0.00022469890347425625,
+        "system_count": 2,
+        "scope": "This two-bar simple no-accidental fixture;not global collision proof or a preset."
+      },
+      "budget-pulse-w140": {
+        "internal16_max_over_min": 1.0001716443529007,
+        "all19_max_over_min": 1.0001716443529007,
+        "minimum_head_horizontal_clearance_lower_bound_sp": 1.3181930837677502,
+        "head_cubic_hull_width_sp": 1.2999985394571267,
+        "maximum_fixed_endpoint_error_sp": 0.00044939780693829324,
+        "maximum_context_head_error_sp": 0.00044939780693829324,
+        "maximum_barline_coordinate_error_sp": 0.00044939780693829324,
+        "unrelated_classed_SVG_drawings_equal": true,
+        "four_true_quarters_aligned": true,
+        "two_intermediate_entries_adjacent_midpoints_error_max_sp": 0.00022469890346403756,
+        "system_count": 1,
+        "scope": "This two-bar simple no-accidental fixture;not global collision proof or a preset."
+      },
+      "budget-pulse-w180": {
+        "internal16_max_over_min": 1.0001649983500158,
+        "all19_max_over_min": 1.0001649983500158,
+        "minimum_head_horizontal_clearance_lower_bound_sp": 1.9683818308466676,
+        "head_cubic_hull_width_sp": 1.2999985394571267,
+        "maximum_fixed_endpoint_error_sp": 0.00044939780693829324,
+        "maximum_context_head_error_sp": 0.00044939780694851136,
+        "maximum_barline_coordinate_error_sp": 0.00044939780693829324,
+        "unrelated_classed_SVG_drawings_equal": true,
+        "four_true_quarters_aligned": true,
+        "two_intermediate_entries_adjacent_midpoints_error_max_sp": 0.00022469890346403756,
+        "system_count": 1,
+        "scope": "This two-bar simple no-accidental fixture;not global collision proof or a preset."
+      },
+      "canonical-candidate-w140": {
+        "internal16_max_over_min": 1.0001716443529007,
+        "all19_max_over_min": 1.0001716443529007,
+        "maximum_fixed_endpoint_error_sp": 0.00044939780693829324,
+        "maximum_context_head_error_sp": 0.00044939780693829324
+      }
+    },
+    "independent_midi_checks": {
+      "default-w100": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      },
+      "default-w140": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      },
+      "default-w180": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      },
+      "pulse-w100": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      },
+      "pulse-w140": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      },
+      "pulse-w180": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      },
+      "budget-pulse-w140": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      },
+      "budget-pulse-w180": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      },
+      "canonical-default-w140": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      },
+      "canonical-candidate-w140": {
+        "independent_recipe_34ons_and_offs_pitch_time_duration_minus_one_tick_velocity80": true,
+        "complete_MIDI_sha256": "6d122885df1361f3179a4a90e1f2bc304e2f96023eee6a1b2a2da9b5cfda3145"
+      }
+    },
+    "all10conditions_native_MusicXML_recipe_and_pitch_and_beams_checked": true,
+    "source_changes_only23Chord_offsets_and_optional1Measure_stretch": true,
+    "maximum_original_note_count": 34,
+    "comparison_common_crop_pixels": [
+      152,
+      64,
+      1123,
+      432
+    ],
+    "comparison_original_render_scale_preserved": true,
+    "tuplets_visible_after_crop_manual_review_pending": false,
+    "runtime_files_verified_after": 1936,
+    "runtime_copies": 0,
+    "final_comparison_and_other_widths_actually_viewed": true
+  },
+  "canonical_reload": {
+    "date": "2026-10-26",
+    "cases": [
+      "canonical-default-w140",
+      "canonical-candidate-w140"
+    ],
+    "native_save_reload": true,
+    "all_classed_SVG_draws_exact": true,
+    "raw_RGBA_dimensions_bytes_exact": true,
+    "complete_MIDI_bytes_exact": true,
+    "MusicXML_complete_except_date_exact": true,
+    "source_offsets_preserved": true,
+    "processes": [
+      {
+        "case": "canonical-default-w140",
+        "step": "save",
+        "returncode": 0,
+        "outputs": [
+          "canonical-default-w140-resaved.mscx"
+        ]
+      },
+      {
+        "case": "canonical-default-w140",
+        "step": "svg",
+        "returncode": 0,
+        "outputs": [
+          "exports/canonical-default-w140-reload-1.svg"
+        ]
+      },
+      {
+        "case": "canonical-default-w140",
+        "step": "png",
+        "returncode": 0,
+        "outputs": [
+          "exports/canonical-default-w140-reload-1.png"
+        ]
+      },
+      {
+        "case": "canonical-default-w140",
+        "step": "musicxml",
+        "returncode": 0,
+        "outputs": [
+          "exports/canonical-default-w140-reload.musicxml"
+        ]
+      },
+      {
+        "case": "canonical-default-w140",
+        "step": "mid",
+        "returncode": 0,
+        "outputs": [
+          "exports/canonical-default-w140-reload.mid"
+        ]
+      },
+      {
+        "case": "canonical-candidate-w140",
+        "step": "save",
+        "returncode": 0,
+        "outputs": [
+          "canonical-candidate-w140-resaved.mscx"
+        ]
+      },
+      {
+        "case": "canonical-candidate-w140",
+        "step": "svg",
+        "returncode": 0,
+        "outputs": [
+          "exports/canonical-candidate-w140-reload-1.svg"
+        ]
+      },
+      {
+        "case": "canonical-candidate-w140",
+        "step": "png",
+        "returncode": 0,
+        "outputs": [
+          "exports/canonical-candidate-w140-reload-1.png"
+        ]
+      },
+      {
+        "case": "canonical-candidate-w140",
+        "step": "musicxml",
+        "returncode": 0,
+        "outputs": [
+          "exports/canonical-candidate-w140-reload.musicxml"
+        ]
+      },
+      {
+        "case": "canonical-candidate-w140",
+        "step": "mid",
+        "returncode": 0,
+        "outputs": [
+          "exports/canonical-candidate-w140-reload.mid"
+        ]
+      }
+    ]
+  },
+  "publication_files": [
+    {
+      "path": "fixtures/twenty-to-six-default.mscx",
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "bytes": 13007,
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "fixtures/twenty-to-six-pulse-candidate.mscx",
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "bytes": 13991,
+      "license": "CC0-1.0"
+    },
+    {
+      "path": "fixtures/twenty-to-six-comparison.png",
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c",
+      "bytes": 43551,
+      "license": "CC0-1.0"
+    }
+  ],
+  "measurement_corrections": [
+    {
+      "issue": "First context crops clipped top of some tuplet numerals",
+      "correction": "Wider common vertical crop;final comparison actually viewed;original native pages retained"
+    },
+    {
+      "issue": "Lastbeat midpoint was initially measured to next-measure head,including a possible new system",
+      "correction": "Removed invalid wholebeat comparison;keep actual within-group adjacent-head interpolation"
+    }
+  ],
+  "remaining": [
+    "Accidentals,chords,extra voices and markings not tested",
+    "100mmstilltwo systems;no minimum-width algorithm change",
+    "No native source build identity proof or run-time branch trace",
+    "No MusicXML reimport,audition,print,user aesthetic acceptance or real-score migration"
+  ],
+  "no_original_score_writes": true,
+  "new_runtime_copies": 0,
+  "deletions": 0,
+  "new_Gould_or_corpus_or_resource_coverage": 0,
+  "new_fixed_transfer_scenarios": 0,
+  "new_native_candidate_scenarios": 1,
+  "software_adaptation": false,
+  "validation": {
+    "status": "passed",
+    "checked_at_utc": "2026-10-26T06:03:14.986223+00:00",
+    "progress_snapshot": {
+      "as_of": "2026-10-26",
+      "scope_revision": 1,
+      "goal_status": "active",
+      "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+      "first_pass_scores": [
+        146,
+        146
+      ],
+      "first_pass_pages": [
+        1135,
+        1135
+      ],
+      "historical_detail_pages": 379,
+      "deep_scores": [
+        24,
+        24
+      ],
+      "deep_pages": [
+        164,
+        164
+      ],
+      "all_score_closeout": [
+        26,
+        146
+      ],
+      "gould_pages_conservative": [
+        403,
+        696
+      ],
+      "gould_substantive_pages": 383,
+      "gould_non_substantive_pages": 20,
+      "gould_title_or_contents_pages": 20,
+      "public_resource_scopes": [
+        11,
+        25
+      ],
+      "skill_transfer_scenarios": [
+        8,
+        8
+      ],
+      "user_integrated_rounds": [
+        0,
+        1
+      ],
+      "user_milestones": [
+        2,
+        4
+      ],
+      "skill_topics": [
+        20,
+        20
+      ],
+      "release": "engraving-v0.5.0"
+    },
+    "native_CLI_successful_calls": 54,
+    "ten_full_output_conditions_independent_recipe_checked": true,
+    "actual_34NoteOn_and_off_pitch_onset_duration_and_velocity_checked": true,
+    "canonical_pair_resave_SVG_RGBA_XML_and_MIDI_exact": true,
+    "published_final_comparison_actually_viewed": true,
+    "final_head_common_points_midpoints_context_and_barline_checks": true,
+    "runtime_files_before_after": 1936,
+    "all20_skill_routes_executed": true,
+    "skill_format": "Skill is valid!",
+    "local_links": 525,
+    "local_anchors": 9,
+    "controlled_paths": 16,
+    "historical_release_snapshots_and_tag_unchanged": true,
+    "no_original_writes_or_deletions": true,
+    "cache_batch_logical_bytes": 1819597,
+    "total_cache_logical_bytes": 2449802252,
+    "software_adaptation": false,
+    "scope": "Original simple fixture and these widths;not complex-score robustness,print/audition,user taste or automatic engraving completion"
+  },
+  "first_native_save_diagnostics": [
+    {
+      "source": "default-w140",
+      "saved": "canonical-default-w140",
+      "transformed_glyph_paths_linear_scales_and_colors_equal": true,
+      "remaining_absolute_paths_coordinate_error_below0_001sp": true,
+      "native_saved_omits_default_font_and_some_style_tags": true,
+      "changed_classed_drawings": 0,
+      "maximum_first_save_coordinate_change_sp": 0.0,
+      "changed_RGBA_pixels": 0,
+      "maximum_channel_delta": 0,
+      "scope": "First save differs slightly for candidate;publication starts after this save,subsequent resave exact. Not evidence of a font substitution."
+    },
+    {
+      "source": "budget-pulse-w140",
+      "saved": "canonical-candidate-w140",
+      "transformed_glyph_paths_linear_scales_and_colors_equal": true,
+      "remaining_absolute_paths_coordinate_error_below0_001sp": true,
+      "native_saved_omits_default_font_and_some_style_tags": true,
+      "changed_classed_drawings": 14,
+      "maximum_first_save_coordinate_change_sp": 0.00044939780693829345,
+      "changed_RGBA_pixels": 93,
+      "maximum_channel_delta": 2,
+      "scope": "First save differs slightly for candidate;publication starts after this save,subsequent resave exact. Not evidence of a font substitution."
+    }
+  ]
+}

@@ -255,3 +255,14 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [默认](five-four-spacing-default.mscx)／[局部候选](five-four-spacing-pulse-candidate.mscx)／[原生同框图](five-four-spacing-comparison.png)。
 - 默认共同时间本已正确，候选只重分两五组的共同区域，保护组端点、普通三十二分及末十六分的区别，并同步调整下方位置。
 - 发布120mm两版各实际保存重载，SVG绘图、原始RGBA、MusicXML除日期及完整MIDI保持。三宽度研究、改变音乐的诊断和首次构造失败见[专题](../FIVE_FOUR_SPACING_STUDY.md)及[证据](../five_four_spacing_evidence.json)。offset依赖当次宽度，不解决窄版最低小节预算；未作用户采用、试听／打印或实曲迁移。
+
+
+## 20对6：局部脉冲与小节预算
+
+原创CC0两小节4/4、双表34音，上方四组5:4十六分，下方六个入口0／1／1½／2／3／3½拍，第二小节两表各四个四分。固定Leland／Leland Text、1.57mm sp、140mm版心。
+
+- [默认](twenty-to-six-default.mscx)／[局部候选](twenty-to-six-pulse-candidate.mscx)／[同框图](twenty-to-six-comparison.png)。
+- 候选重分q0到q3.8内部，联动两手23个Chord偏移，再补第一小节stretch；不是单参数因果或全局等距默认。
+- 两份发布输入都经过原生保存，再次重载的SVG／原始RGBA／完整MIDI／MusicXML除日期精确保持。四个5及完整两手和后续小节均在图内。
+
+三宽度、初步移位的连带变化、两探针和限定检查见[研究](../TWENTY_TO_SIX_SPACING_STUDY.md)与[证据](../twenty_to_six_spacing_evidence.json)。没有参考音乐摘录、实际工程迁移、打印或用户采用；100mm内部候选仍两行。
