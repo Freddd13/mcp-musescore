@@ -78,3 +78,7 @@ Segno在m3，To Coda在m5末，D.S. al Coda在m8末，Coda从m9开始。应走`1
 A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239建议明确D.C. al Coda。静态路线1–61→1–36→62–106，包含p3→p1、p2→p4回找。此建议保留原结构，尚未测试工程播放。
 
 2026-10-25[T07／Little Busters!完整回查](SKILL_TRANSFER_CONTINUITY.md#6-little-busters纸面下一行与实际下一步)补真实D.S.路径：p4第二系统末返回p2行中D／Segno（五升、6/4、f），随后4/4；再次到p3 To Coda才跳p4 H（四升）。首遍仍走E–G。出口后预告调号与Coda正式调号各有任务，不能据纸面左邻清理；H已有可辨独立入口，内缩只作条件性比较。静态路线完成，未核工程播放目标。
+
+## 2026-10-26：Coda易找，回到segno仍可能跨页
+
+[Catch the Moment静态路线](INTEGRATED_READING_CATCH_CHANGE.md#5-短八度线与导航线尾不能吸到最顺眼的边界)由p4第5系统D.S.回p2行中D，再到p3第5系统第2小节末To Coda，跳p4末行Coda。单列一行并重列表头帮助落点搜索；D／出口处在行中仍有自己的定位任务。可条件比较Coda轻微缩进或显著留白，不能用当前D.S.与Coda同页就证明可自翻。Gould p239允许复杂路线考虑写出，代价是增页与重分；本轮不展开音乐，也未核实际跳转播放。

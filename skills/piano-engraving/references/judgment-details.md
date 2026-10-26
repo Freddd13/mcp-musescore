@@ -32,6 +32,8 @@
 
 <a id="sustain"></a>
 
+`piano`的`INTEGRATED_READING_CATCH_CHANGE.md`补低部休止／踏板释放以后，上表完整tie和手持层仍可继续；末尾两条旧低音链旁还有新的二分攻击。逐层核接收、新攻击和释放；斜虚线落向已有tie链，不据此补一颗新攻击或换成gliss.。
+
 `piano`／`curves`／`tempo`的`SKILL_TRANSFER_CONTINUITY.md`补T07：干奏下可有手持长和弦，开放弧到休止与完整tie接收分读；I与K踏板模式分别建立，simile不能跨模式复制。ad lib.两音震音的两个附点二分共同占三拍，再接一拍；不顺次相加或由三梁指定攻击次数。
 
 
@@ -104,6 +106,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`rhythm`的`INTEGRATED_READING_CATCH_CHANGE.md`核Change J：首小节八分休止后14头，只有开头三颗十六分三连，接普通细分；后续变13头与9头。先数这次的梁、数字、末值，再比步长；相似大弧不传播连音比例。三拍弱起也不补成四拍。
 
 `rhythm`经`INTEGRATED_READING_BUTTERFLY_SILENCE.md`核局部六连只占一次拱形的一段、9括形包括起首休止，以及64普通六十四分的华彩名义4拍。先核梁层、端点、普通侧翼和Rest；自由表情不自动改成超长连音。延长落点、Meno和拾音又可先后出现，不把它们全部吸到小节线。
 
@@ -190,6 +194,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`navigation`／`octaves`的`INTEGRATED_READING_CATCH_CHANGE.md`把短8va的首音后终点、D.S.返回D、To Coda出口与另行Coda分读。线尾不吸到段号／行末；D.S.与Coda同页不消除回p2的翻纸路线。保留原断行，必要时另比落点留白。
 
 `navigation`的`SKILL_TRANSFER_CONTINUITY.md`补实际D.S.：Little Busters!返回D恢复五升与6/4，随后4/4；再次到To Coda跳H，H重列四升。按每次真实来路读状态和提示，出口后的首遍预告不提前作用到出口小节；静态路径与工程展开播放分别验证。
 

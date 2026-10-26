@@ -42,7 +42,9 @@
       "A026",
       "A027",
       "A035",
-      "A055"
+      "A055",
+      "A028",
+      "A029"
     ],
     "closeout_records": {
       "A098": {
@@ -194,6 +196,16 @@
         "note": "INTEGRATED_READING_DANGO_HANEZEVE.md",
         "evidence": "dango_hanezeve_closeout_evidence.json",
         "unresolved": "Whole question review,not full pitch/every rhythm/ottava/hand/pedal/playback collation;native alternative and actual print/turn not done. A055p2raw PDF drawing cause unknown."
+      },
+      "A028": {
+        "note": "INTEGRATED_READING_CATCH_CHANGE.md",
+        "evidence": "catch_change_closeout_evidence.json",
+        "unresolved": "Whole question review with selected duration/origin checks,not full pitch/every ratio/ottava/playback or author hand/pedal release audit. Native alternatives and actual physical turn/print unverified."
+      },
+      "A029": {
+        "note": "INTEGRATED_READING_CATCH_CHANGE.md",
+        "evidence": "catch_change_closeout_evidence.json",
+        "unresolved": "Whole question review with selected duration/origin checks,not full pitch/every ratio/ottava/playback or author hand/pedal release audit. Native alternatives and actual physical turn/print unverified."
       }
     }
   },
@@ -485,7 +497,7 @@
       ],
       [
         501,
-        532
+        540
       ],
       [
         557,
@@ -943,6 +955,32 @@
           489,
           490
         ]
+      },
+      {
+        "date": "2026-10-26",
+        "evidence": "catch_change_closeout_evidence.json",
+        "new_substantive_printed_range": [
+          533,
+          540
+        ],
+        "new_unique_pages": 8,
+        "new_substantive_pages": 8,
+        "new_reference_table_pages": 1,
+        "new_ancillary_pages": 0,
+        "reread_printed_pages": [
+          28,
+          72,
+          73,
+          200,
+          239,
+          307,
+          311,
+          324,
+          325,
+          337,
+          489,
+          490
+        ]
       }
     ]
   },
@@ -1216,27 +1254,30 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged. SubsequentA001/A004whole question closeouts5pages make18/146; Gould8new technical+2ancillary makes357/696=349+8. Fixed24/24and164/164,resources10/25,transfer2/8unchanged.0.4.0release snapshot/tag/certificate remain immutable. SubsequentT03root-only rhythm scenario evaluated with material initial count/beam correction; transfer3/8. Gould3new ancillary leaves make360/696=349technical+11ancillary; no new technical coverage,deep/corpus closeout,resource or native increment.0.4.0snapshot unchanged. SubsequentT04clef/ottava application plusA012whole closeout6pages:transfer4/8,all-corpus19/146. Gould6new technical pages641-646make366/696=355+11. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no new native/adaptation. SubsequentT05andA014whole6page closeout:transfer5/8,corpus20/146. Gould372/696=359substantive+13ancillary;new3technical+1terms table+2ancillary. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no native/adaptation. Subsequent R24 fixed directed nine snippets (5keyboard+4simultaneous),9figures and9complete generated sources read;resources11/25. Official tagged source checked for force-hshift width units. Corpus20/146,Gould372/696,transfer5/8,fixed24/24 and historical0.4.0 snapshot unchanged;no native/adaptation. SubsequentT06plusA016five-page question closeout:transfer6/8,corpus21/146. Gould379/696=363substantive+16ancillary;new3technical,1terms-table,3auxiliary. Post-initial closing-run size mistake corrected using actual glyph matrices and free-section context. Resources11/25,fixed24/24and historical0.4.0snapshot unchanged;no native/adaptation. SubsequentT07two frozen initial passes plusA019nine/A084six-page closeouts:transfer7/8,corpus23/146. Gould389/696=369substantive+20ancillary;new6technical+4auxiliary. Actual D.S.route has6/4return and distinct five/four-sharp states;Biossecco,pedal and tremolo span separated. Resources11/25,fixed24/24and historical0.4.0snapshot unchanged;no native/adaptation. SubsequentT08A025eight-page closeout:transfer8/8,corpus24/146;Gould395/696=375substantive+20ancillary,new6technical. Final upper tie oversight corrected. Release0.5.0collects eight new closeouts45pages,six root-only evaluated transfer scenarios,R24and48book coverage pages since0.4.0. This is coverage,not all-correct/mastery;user0/1and all-material goal remain active. No new native or adaptation. After0.5.0: A023/A024whole question closeouts10pages make26/146;Gouldp507-514eight technical pages make403/696=383+20. CorrectBOYrhythm unit andBlumenkranzDarticulation description;0.5.0tag/certificate unchanged. Fixed24/24,resources11/25,transfer8/8,user0/1unchanged;no native/adaptation. Subsequent20-to-6original native spacing study adds1joint local candidate at3widths;10fulloutputconditions,2budgetprobes,54CLIcalls,canonical pair resave verified. Chordoffset-only reflow corrected by measured first-barstretch. Reading26/146,Gould403/696,resources11/25,transfer8/8,user0/1unchanged;no adaptation or old snapshot change. Subsequent20-to-6occupancy extension:single-accidental guarded candidate retained,second-cluster baseline retained,uniform-target attempt rejected for context reallocation,not an invented collision.10fulloutputconditions,1SVGprobe,53CLIcalls;single canonical pair native resaved. Reading26/146,Gould403/696,resources11/25,transfer8/8,user0/1unchanged;no adaptation or old release snapshot change. SubsequentButter-Fly/Call of Silence whole question closeouts14pages make28/146;Gouldp515-524ten technical pages make413/696=393+20. Distinguish measured75%heads,Gnormal heads,tuplet rest membership,ordinary flank values and nominally metered cadenza;score compression is not automatically a performance layout. Fixed24/24and164/164,resources11/25,transfer8/8,user0/1and0.5.0snapshot unchanged;no native/adaptation. SubsequentDango/Hanezeve whole question closeouts7pages make30/146;Gouldp525-532eight technical pages make421/696=401+20. Stable motif shape under different line budgets,received versus new attacks,independent rests and ensemble/keyboard shared-stem conditions preserved. Two old cache filenames corrected by printed footer without new credit. Fixed24/24and164/164,resources11/25,transfer8/8,user0/1and0.5.0snapshot unchanged;no native/adaptation. SubsequentR20handbook work defines8target text sections/14unique figures;text8/8,figures0/14,8source mechanisms checked. Five original Spacing controls30native calls show broader expansion with quarter/eighth ratio~1.6;0.8/1sameRGBA,1.2/1.62save-reload stable. R20remains partial;counts30/146,Gould421/696,resources11/25,transfer8/8,user0/1and0.5.0snapshot unchanged;no new engraving candidate/adaptation."
+    "working_branch_note": "0.4.0 snapshot:24/24 fixed deep scores,164/164pages,16/146all-corpus closeouts; Gould347/696=341substantive+6ancillary; resources10/25,transfer2/8,user integrated0/1. All146 remain the goal. Eight whole studies59pages,R19 closure and36book coverage pages since0.3.0; no new native candidate or adaptation. Historical release tags/certificates unchanged. SubsequentA001/A004whole question closeouts5pages make18/146; Gould8new technical+2ancillary makes357/696=349+8. Fixed24/24and164/164,resources10/25,transfer2/8unchanged.0.4.0release snapshot/tag/certificate remain immutable. SubsequentT03root-only rhythm scenario evaluated with material initial count/beam correction; transfer3/8. Gould3new ancillary leaves make360/696=349technical+11ancillary; no new technical coverage,deep/corpus closeout,resource or native increment.0.4.0snapshot unchanged. SubsequentT04clef/ottava application plusA012whole closeout6pages:transfer4/8,all-corpus19/146. Gould6new technical pages641-646make366/696=355+11. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no new native/adaptation. SubsequentT05andA014whole6page closeout:transfer5/8,corpus20/146. Gould372/696=359substantive+13ancillary;new3technical+1terms table+2ancillary. Fixed24/24,resources10/25,user0/1and0.4.0snapshot unchanged;no native/adaptation. Subsequent R24 fixed directed nine snippets (5keyboard+4simultaneous),9figures and9complete generated sources read;resources11/25. Official tagged source checked for force-hshift width units. Corpus20/146,Gould372/696,transfer5/8,fixed24/24 and historical0.4.0 snapshot unchanged;no native/adaptation. SubsequentT06plusA016five-page question closeout:transfer6/8,corpus21/146. Gould379/696=363substantive+16ancillary;new3technical,1terms-table,3auxiliary. Post-initial closing-run size mistake corrected using actual glyph matrices and free-section context. Resources11/25,fixed24/24and historical0.4.0snapshot unchanged;no native/adaptation. SubsequentT07two frozen initial passes plusA019nine/A084six-page closeouts:transfer7/8,corpus23/146. Gould389/696=369substantive+20ancillary;new6technical+4auxiliary. Actual D.S.route has6/4return and distinct five/four-sharp states;Biossecco,pedal and tremolo span separated. Resources11/25,fixed24/24and historical0.4.0snapshot unchanged;no native/adaptation. SubsequentT08A025eight-page closeout:transfer8/8,corpus24/146;Gould395/696=375substantive+20ancillary,new6technical. Final upper tie oversight corrected. Release0.5.0collects eight new closeouts45pages,six root-only evaluated transfer scenarios,R24and48book coverage pages since0.4.0. This is coverage,not all-correct/mastery;user0/1and all-material goal remain active. No new native or adaptation. After0.5.0: A023/A024whole question closeouts10pages make26/146;Gouldp507-514eight technical pages make403/696=383+20. CorrectBOYrhythm unit andBlumenkranzDarticulation description;0.5.0tag/certificate unchanged. Fixed24/24,resources11/25,transfer8/8,user0/1unchanged;no native/adaptation. Subsequent20-to-6original native spacing study adds1joint local candidate at3widths;10fulloutputconditions,2budgetprobes,54CLIcalls,canonical pair resave verified. Chordoffset-only reflow corrected by measured first-barstretch. Reading26/146,Gould403/696,resources11/25,transfer8/8,user0/1unchanged;no adaptation or old snapshot change. Subsequent20-to-6occupancy extension:single-accidental guarded candidate retained,second-cluster baseline retained,uniform-target attempt rejected for context reallocation,not an invented collision.10fulloutputconditions,1SVGprobe,53CLIcalls;single canonical pair native resaved. Reading26/146,Gould403/696,resources11/25,transfer8/8,user0/1unchanged;no adaptation or old release snapshot change. SubsequentButter-Fly/Call of Silence whole question closeouts14pages make28/146;Gouldp515-524ten technical pages make413/696=393+20. Distinguish measured75%heads,Gnormal heads,tuplet rest membership,ordinary flank values and nominally metered cadenza;score compression is not automatically a performance layout. Fixed24/24and164/164,resources11/25,transfer8/8,user0/1and0.5.0snapshot unchanged;no native/adaptation. SubsequentDango/Hanezeve whole question closeouts7pages make30/146;Gouldp525-532eight technical pages make421/696=401+20. Stable motif shape under different line budgets,received versus new attacks,independent rests and ensemble/keyboard shared-stem conditions preserved. Two old cache filenames corrected by printed footer without new credit. Fixed24/24and164/164,resources11/25,transfer8/8,user0/1and0.5.0snapshot unchanged;no native/adaptation. SubsequentR20handbook work defines8target text sections/14unique figures;text8/8,figures0/14,8source mechanisms checked. Five original Spacing controls30native calls show broader expansion with quarter/eighth ratio~1.6;0.8/1sameRGBA,1.2/1.62save-reload stable. R20remains partial;counts30/146,Gould421/696,resources11/25,transfer8/8,user0/1and0.5.0snapshot unchanged;no new engraving candidate/adaptation. SubsequentA028/A029whole question closeouts13pages make32/146;Gouldp533-540eight substantive pages(including1wind-band reference table)make429/696=409+20. J14/13/9head variants,three-quarter pickup,stable ordinary run gaps,short ottava endpoints,static D.S.route and new low ending attack checked. Fixed24/24and164/164,resources11/25,transfer8/8,user0/1and0.5.0snapshot unchanged;no native/adaptation."
   },
   "last_study_batch": {
     "date": "2026-10-26",
-    "scope": "R20eight target handbook text sections,14unavailable figures,eight source mechanisms and five native parameter controls30CLI;not a new engraving candidate.",
+    "scope": "Solo A028/A029whole question closeouts13pages,selected written rhythm/spacing/sustain/ottava/navigation checks;Gould8new substantive pages incl1reference table and12reread pages.",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
-    "new_all_score_closeouts": 0,
-    "new_all_score_closeout_pages": 0,
-    "new_all_score_closeout_ids": [],
-    "new_unique_ledger_book_pages": 0,
-    "new_substantive_book_pages": 0,
-    "new_reference_table_pages": 0,
+    "new_all_score_closeouts": 2,
+    "new_all_score_closeout_pages": 13,
+    "new_all_score_closeout_ids": [
+      "A028",
+      "A029"
+    ],
+    "new_unique_ledger_book_pages": 8,
+    "new_substantive_book_pages": 8,
+    "new_reference_table_pages": 1,
     "new_ancillary_book_pages": 0,
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "notes": [
-      "MUSESCORE3_LAYOUT_READING.md"
+      "INTEGRATED_READING_CATCH_CHANGE.md"
     ],
-    "review_evidence": "musescore3_layout_reading_evidence.json",
+    "review_evidence": "catch_change_closeout_evidence.json",
     "software_adaptation": false
   }
 }

@@ -52,3 +52,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-26本批团子大家族／Hanezeve缓存约4.78MiB；总净书缓存约2.293GiB逻辑长度。复用18张图，新存17处系统、八张新教材及两张页码纠正后的旧页；没有原PDF／运行时副本或删除。低于100MiB／3GiB检查线，清点先于最终验证小记录；完整尺寸见[本批证据](dango_hanezeve_closeout_evidence.json)。
 
 2026-10-26手册／Spacing批次缓存约0.53MiB，总净书缓存约2.294GiB逻辑长度。复用1936文件运行时，无新宿主或原谱副本；仅五份原创小输入、30次导出／重载及必要记录，未删除文件。14官方图请求失败只存小型状态记录；清点先于最终验证记录，仍低于100MiB／3GiB检查线，见[证据](musescore3_layout_reading_evidence.json)。
+
+2026-10-26 Catch／Change批次清点：本批约7.69MiB，全部净书缓存约2.302GiB逻辑长度；复用13张整页，新增27张系统／扩大上下文图及20张教材图（8新、12复读）。无原PDF／运行时副本、删除或扫描错误，低于100MiB／3GiB检查线；时点和精确字节见[本批证据](catch_change_closeout_evidence.json)，清点先于最后小记录。
