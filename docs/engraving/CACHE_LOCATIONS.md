@@ -56,3 +56,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-26 Catch／Change批次清点：本批约7.69MiB，全部净书缓存约2.302GiB逻辑长度；复用13张整页，新增27张系统／扩大上下文图及20张教材图（8新、12复读）。无原PDF／运行时副本、删除或扫描错误，低于100MiB／3GiB检查线；时点和精确字节见[本批证据](catch_change_closeout_evidence.json)，清点先于最后小记录。
 
 2026-10-27 COLORS／crossing批次清点：本批约9.43MiB，总净书缓存约2.311GiB逻辑长度。复用19张图，新增19张系统、27张教材整页和六张复杂图放大；无原PDF／运行时副本、删除或扫描错误，低于既定100MiB／3GiB检查线。完整字节与时点见[证据](colors_crossing_closeout_evidence.json)，清点先于最后小记录。
+
+2026-10-27 Cry／Daisy批次缓存约8.21MiB，总净书缓存约2.319GiB逻辑长度；复用18张图，新增50张（23系统、25教材整页、两放大图）。无原PDF／运行时副本、删除或扫描错误，低于100MiB／3GiB检查线；[时点和精确字节](cry_daisy_closeout_evidence.json)先于最后小记录。

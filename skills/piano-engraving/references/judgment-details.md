@@ -12,6 +12,8 @@
 
 <a id="symbols"></a>
 
+`notation`的`INTEGRATED_READING_CRY_DAISY.md`把震音两端按共同持续计量；内部／预置钢琴的结果音、键与触弦动作分开。管风琴Ped.、8′／16′及manual说明按乐器语境读，不成为普通钢琴的踏板缺省。
+
 `notation`／`piano`的`INTEGRATED_READING_BUTTERFLY_SILENCE.md`补F约75%小头的3拍计量、G正常头与小头华彩：字号本身不决定grace、cue或播放，大小头同刻的PDF绘图也不直接等于两次攻击。小头、缩谱表及指挥总谱压成一表各有用途；先确认实际演奏者与阅读任务。
 
 ## 字形和谱位的身份
@@ -70,6 +72,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`spacing`的`INTEGRATED_READING_CRY_DAISY.md`比较同源同字号25头：跨度差约14%，局部六／七组仍稳定，保留按行容量变化。先把首组六连中的休止归组，再评局部突变，不固定全曲步长。
 
 `spacing`的`INTEGRATED_READING_COLORS_CROSSING.md`提供三次重复七连：同一格因下层中间进入稍宽，组形仍稳定，可保留；更匀候选仍须保该列。缩写震音要辨整段持续及是否无定量，不能按两头或假定播放次数估宽。
 
@@ -141,6 +145,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`piano`／`cross-staff`的`INTEGRATED_READING_CRY_DAISY.md`保留F慢线附加干和说明晚进入的首拍休止；允许省写不等于应删。局部r.h.／l.h.、括号路线音及跨表梁分别说明手、提示与运动，不改整表归属或增加攻击。
+
 ## 跨表梁、短干与休止
 
 `CROSS_STAFF_SLUR_ROUTING.md`有原创原生保留／未采用例：干侧零梁接触仍须看整组归属，头到头外绕需要真实空间。局部autoplace关闭不冻结原有效曲率，需补肩部并核最终墨迹，不能只复制已有offset或全谱关自动排版。保留例保护14音、其它绘图及完整MIDI且重载成立，不是实曲迁移或所有弧的预设。
@@ -156,6 +162,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
 
 <a id="tempo"></a>
+
+`tempo`的`INTEGRATED_READING_CRY_DAISY.md`区分A前长短解释、H均分、J重设，与p4先a tempo准备再J的不同位置。解释后的半拍总量不变，不按2:1播放比例生成头距，也不再处理已明确的连音。
 
 `tempo`的`INTEGRATED_READING_DANGO_HANEZEVE.md`把G段号的tie接收、半拍后新和弦附近的a tempo及第三拍p旋律入口分读；保留先后，不吸齐到小节线。再现／延长本身不证明恢复速度；条件性补明须先确认音乐意图。
 

@@ -97,3 +97,7 @@ Gould p187–190区分额外断开、对音／休止的延长及严格计量的�
 ## 2026-10-27：同材料再现，不复制速度来路
 
 [COLORS／crossing field](INTEGRATED_READING_COLORS_CROSSING.md)区分Poco meno引入、Tempo I恢复和riten.后的局部a tempo；K像H也不能顺手恢复H前Poco meno。crossing p7第1系统临时3/4下层五连一拍＋低音一拍＋休止一拍，上层先tie接收；O再回C，不补成四拍或按所有头作新攻击。N前non rit.和两层先后进入也不由长空白改成自由等待。
+
+## 2026-10-27：恢复速度与恢复细分解释分别定位
+
+[Cry Baby](INTEGRATED_READING_CRY_DAISY.md)p4先più lento，后poco rit.与lunga，下一系统先有a tempo准备小节，再到J重列十六分长短等式。保留这些不同时间位置；半拍中的2:1解释不自动改变四分BPM。Gould p185–187复核的是变速等式位置，不作为swing专条。首处解释已在A前末拍附近，不能按段号自动移锚。
