@@ -77,3 +77,7 @@ p116允许在明确建立模式后用stacc. sempre、marcato sempre或sim.省重
 ## 2026-10-27：不同入口先保时间与层次
 
 [Departures C](INTEGRATED_READING_DEPARTURES.md#5-力度和速度位置不齐常有音乐理由)首轮“两处mp”已纠正：上层快速背景pp，中间／下层mp；上层又先接tie再开始新快音。保留分层及迟早，不按文本近似去重。departure!E／F的sfz先于p／mf运动、DeparturesF前的meno mosso／pp先于段号，均先核X归属，再作Y避碰／通道整理。
+
+## 2026-10-27：提前进入不吸附字母段首
+
+[吹雪／无限城](INTEGRATED_READING_FUBUKI_CASTLE.md)：A046 D前f、J前pp、L前下表mp及M前f各自进入；上表六连也先于L。A048 cantabile在p4s3第二小节最后两个八分开始，伴随型下一小节才变。保准备与层次，不统一到段号；G的p／mp与H附近p／mf分别辨认。

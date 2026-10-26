@@ -68,3 +68,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-27 Everyday／Extra批次缓存约9.64MiB，总净书缓存约2.354GiB逻辑长度；79张实际阅读图复用24张、新增55张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[字节和时点](everyday_extra_closeout_evidence.json)先于最终小记录。
 
 2026-10-27 Fate／Frieren批次缓存约17.07MiB，总净书缓存约2.371GiB逻辑长度；120张实际阅读图复用32张、新增88张。原PDF／运行时没有副本、删除或清点错误，低于100MiB／3GiB检查线；[精确字节与时点](fate_frieren_closeout_evidence.json)先于最终小记录。
+
+2026-10-27吹雪／无限城批次缓存约13.21MiB，总净书缓存约2.384GiB逻辑长度；99张实际阅读图复用27张、新增72张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确字节与时点](fubuki_castle_closeout_evidence.json)先于最终小记录。

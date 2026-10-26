@@ -57,6 +57,8 @@
 
 <a id="layout"></a>
 
+`INTEGRATED_READING_FUBUKI_CASTLE.md`分别核3＋1跨页、2＋2同页拆小节。先读完整计量和真实行末线，再比较同页容纳或续接提示；加提示不能独自消除跨页操作代价。
+
 `layout`的`INTEGRATED_READING_LAZY_EIEN.md`核同一4/4在两行各写两拍，右端无小节线、另一手也对应。先合逻辑小节再量宽度；优先比较续行提示，整小节版需连相邻行重排。
 
 `overview`／`layout`的`SKILL_TRANSFER_PAGES.md`补T08：纸面p4／5可同一对开，真实D.S.却需回p3再去p5。先列实际来路和媒介；写出返回16小节、约增四系统是条件性纸谱候选。延长、事件间隔与空手窗口分查，行中H／J／K不为齐头先重排。
@@ -80,6 +82,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_FUBUKI_CASTLE.md`的K内部十六分近稳，跨小节距离另含小节线与下层变音预算。分组内、拍间、边界和重复材料检查，不拿全行方差直接选候选。
 
 `INTEGRATED_READING_FATE_FRIEREN.md`的交替和弦头位一宽一窄，实际干轴近等距。先确定读者跟随的光学参照；相反干向不能按同一头x均分。
 
@@ -132,6 +136,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_FUBUKI_CASTLE.md`的七连后是梁外普通四分；三连尾组却与普通八分共主梁。完整梁与部分梁各判范围，不能按一串黑头直接套连音比例。
 
 `INTEGRATED_READING_EVERYDAY_EXTRA.md`核整行6/4的14上＋8下32分；末尾19个跨表16分后另有全音符延长。无竖线长段、独立持音、ad lib.与行中a tempo先分清，再谈拍数；不可自动补删凑4/4。
 

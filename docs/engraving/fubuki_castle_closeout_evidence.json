@@ -1,0 +1,4238 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "9f36c80cbfcf3e958f96941cd1955d07b0430966",
+  "note": "INTEGRATED_READING_FUBUKI_CASTLE.md",
+  "previous_goal_turn_classification": "Progress: 9f36c80 published A044/A045 optical axes, shared-beam clearance, navigation and continuation research. Heartbeat verified only root remained; no expired parallel authority used.",
+  "scope": "Solo known-score whole question reviews A046/A048; pulse spacing, split bars, voice roles, tuplet scopes, open resonance and tremolo. No new native alternative, independent transfer or software adaptation.",
+  "source_protection": [
+    {
+      "id": "A046",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Fubuki - Kantai Collection - Ending Song.pdf",
+      "sha256": "4b059965757792a4013ef38a2c809a476b48b580385df8e9055503d6785cb532",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A048",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Go Shiina - Entrance to Infinity Castle (Demon Slayer_ Hashira Training Arc - OST).pdf",
+      "sha256": "22bf39532ddcb95fe433d4432b8ea064f6156af7c270755733b4cb471b92b154",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A046",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A046/page-1.jpg",
+      "sha256": "95898f6675108539e0fbeedc2db0ee79988ebbc4cea6d3d8b6e546992380d70c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A046",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A046/page-2.jpg",
+      "sha256": "4f9ca8b8bfd4e00a0bdc30b36e813b543622c212958ff98f607e04e7564459d1",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A046",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A046/page-3.jpg",
+      "sha256": "653bfdabdcb477bb3930a5422cfa835a129a611fec6c48777aeaedf34104159c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A046",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A046/page-4.jpg",
+      "sha256": "db8153ecc7df743cd4321266ef25503f809128a53071958db2e95091f189a8bf",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A046",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A046/page-5.jpg",
+      "sha256": "460c65d3b556b8aaca271d1f4ce685210ae2dbe751655a79731e62197c39af22",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A046",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A046/page-6.jpg",
+      "sha256": "fe68ef1bea3f6aa3a6d6654a9f1128d7a87b1c43056c17904b9d12bd34af3ff8",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A046",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A046/page-7.jpg",
+      "sha256": "14f118684550e36e13f34e73bed7205f253d0401b224c852bef6d42aaaaea8bf",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A048",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A048/page-1.jpg",
+      "sha256": "90ebd64c78c37ae7ff64f939b93ada146ce6642d7204f725a1543872fae19223",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A048",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A048/page-2.jpg",
+      "sha256": "0e0184722be3f68edbbf3471142efbb67a3ae1da886d2b57fe4598cefd00160b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A048",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A048/page-3.jpg",
+      "sha256": "41981fe43857c5fd0c2df7796956c940a09f5100d7612d6adbef77cd885112e7",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A048",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A048/page-4.jpg",
+      "sha256": "728f0373507459a210e3dfd1ad41f81f17086e87c4a9202a48f434df7cd8c38e",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A048",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A048/page-5.jpg",
+      "sha256": "72875d0ac173a9fcf1ba5702ed2d6945c133b44dcdc9a0870961c8709df568c2",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A048",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A048/page-6.jpg",
+      "sha256": "707fc3fbdd178c334e4b46cf13abee156c59ff1be7b2def2c23da2fc391c5ede",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A048",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A048/page-7.jpg",
+      "sha256": "7073aa2966badf01cea7f94753eaa619dce249db9feaca1d6baeb707768dff7a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 413,
+      "pdf_page": 433,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-413.jpg",
+      "sha256": "6840b7f4b9a9d61f9096385253d8e8684ca03d9c922ac541794fc8c28c6f1651",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 414,
+      "pdf_page": 434,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-414.jpg",
+      "sha256": "3e1e1d2beb3c4c748cef29e8791fec4d4b53c02e680bc0dc6858ed54218f7600",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 415,
+      "pdf_page": 435,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-415.jpg",
+      "sha256": "e54d67ca63b2313dc7e0f273721dd93716f429c0aeffd1865a02cb60b7a3ed9a",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 416,
+      "pdf_page": 436,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-416.jpg",
+      "sha256": "a4300c91ac1791ed782ce343583e0ac2b04677ec6a2cfc40f7eddaffd9443a3b",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 417,
+      "pdf_page": 437,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-417.jpg",
+      "sha256": "505f62193114b2c3a2205f9bf7ed106e618139b13952302dd3fd881b7ffb6bb9",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 418,
+      "pdf_page": 438,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-418.jpg",
+      "sha256": "5e757ac2298001283dd64b28837cd38ee9d4ce55c386f0a52a418a30d4dddaf1",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 419,
+      "pdf_page": 439,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-419.jpg",
+      "sha256": "13d7d2c9659771cb1c517d2392c079ea66111ec16bcd6045d5ef3ac97d5b2c64",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 420,
+      "pdf_page": 440,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-420.jpg",
+      "sha256": "a0ee2c259f5a0b793f2a597c7e76a641dad5b5dd02c15ab59526acf795578110",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 421,
+      "pdf_page": 441,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-421.jpg",
+      "sha256": "1bdee8e9508b7484174b7d4b57531b8f93ed70e5c854329c8fb98e0d88cddc5c",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 422,
+      "pdf_page": 442,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-422.jpg",
+      "sha256": "01241f0def74d1316b885119ecf3f9d084dc625d1ae0ed0de00338902a9b3385",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 423,
+      "pdf_page": 443,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-423.jpg",
+      "sha256": "e1998024e7be523ca7378f4be1383c4c4804320a6a051d4ba3a4a902ab4c3ab0",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 424,
+      "pdf_page": 444,
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/book-424.jpg",
+      "sha256": "a4c5577a3536dced76187c8d4128db6a9d70ba87d7bcb9f5b6628fb702ff5082",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        20,
+        148.47839748625296,
+        503.0,
+        296.2840730557738
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p1-s1.jpg",
+      "sha256": "f1fbe385efce3d54f70b264051702654cc5b156c7fde4fbf7c4cfcd90e238dda",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 1,
+      "system": 2,
+      "crop_pt": [
+        20,
+        256.6745875883739,
+        503.0,
+        404.33444619010214
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p1-s2.jpg",
+      "sha256": "9fee9400526547c6e7e336d88d771dadfc0a562a5941ba93bbe410b67c3f27ed",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 1,
+      "system": 3,
+      "crop_pt": [
+        20,
+        364.57914375490964,
+        503.0,
+        512.2390023566379
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p1-s3.jpg",
+      "sha256": "2891b15fd73b587f4b88b046b0a9ea375a85a9f81fdfdfa140c0d68c53933f53",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 2,
+      "system": 1,
+      "crop_pt": [
+        20,
+        20.15946582875098,
+        503.0,
+        167.81932443047918
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p2-s1.jpg",
+      "sha256": "3081ab00f6faf28ec32f102d212eadc280b5a87498b9ac5696c866f36635884e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 2,
+      "system": 3,
+      "crop_pt": [
+        20,
+        244.13432835820896,
+        503.0,
+        391.7941869599372
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p2-s3.jpg",
+      "sha256": "d25818c957f082dc8f6a114339b155f9d59491760c4e7ff82bc912c41ab940c3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 2,
+      "system": 5,
+      "crop_pt": [
+        20,
+        468.10919088766695,
+        503.0,
+        615.7690494893951
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p2-s5.jpg",
+      "sha256": "82e5ecfe05d8738c314ae65afe691f585ed5525393c8a476fa6fd8cea6198187",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 3,
+      "system": 2,
+      "crop_pt": [
+        20,
+        132.14689709347996,
+        503.0,
+        279.80675569520815
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p3-s2.jpg",
+      "sha256": "4f8cb30387d348c9e2218af400ec01df89b5b5ff8d6ea3f4883cef89d8173dee",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        20,
+        244.13432835820896,
+        503.0,
+        391.7941869599372
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p3-s3.jpg",
+      "sha256": "b86e8f4e8ac4bdd3eba6958be73ef6ab81ae4c6d9a9adca38b9a9dea984db1c5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 3,
+      "system": 5,
+      "crop_pt": [
+        20,
+        468.10919088766695,
+        503.0,
+        615.7690494893951
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p3-s5.jpg",
+      "sha256": "faadce1c20dade67c6f3da803299490ec49693bd82a854f07aae91b0f14960a1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 3,
+      "system": 6,
+      "crop_pt": [
+        20,
+        580.0966221523959,
+        503.0,
+        727.7564807541241
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p3-s6.jpg",
+      "sha256": "3691fba2a2b4fd865b90d6c32a4ea144f71a29a6fd7deb06d648d611ec0d94de",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 4,
+      "system": 2,
+      "crop_pt": [
+        20,
+        132.14689709347996,
+        503.0,
+        279.80675569520815
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p4-s2.jpg",
+      "sha256": "d4adb24e0502d7c93aedb37a0f3410da7d16c26bd7ef661705448f9afaa916b1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 4,
+      "system": 3,
+      "crop_pt": [
+        20,
+        244.13432835820896,
+        503.0,
+        391.7941869599372
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p4-s3.jpg",
+      "sha256": "b0297b2b8b048161e7d33a14bdb0559a85748336a3cd5933c519836292cd74a6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 4,
+      "system": 4,
+      "crop_pt": [
+        20,
+        356.12175962293793,
+        503.0,
+        503.78161822466615
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p4-s4.jpg",
+      "sha256": "0750e0d316ab97522ba200760bc9bf106ee59a130d5c574b42c64b433cfa3bed",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 5,
+      "system": 1,
+      "crop_pt": [
+        20,
+        20.15946582875098,
+        503.0,
+        167.81932443047918
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p5-s1.jpg",
+      "sha256": "23ddac74beee47fec130a802cd4d0d68a6943453c1039766fc66fd3352ce9155",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 5,
+      "system": 2,
+      "crop_pt": [
+        20,
+        132.14689709347996,
+        503.0,
+        279.80675569520815
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p5-s2.jpg",
+      "sha256": "0b07fb3ef51c24ee44ae735faf88ba1f660807eb2b00dd1def500393129d8c7f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 5,
+      "system": 3,
+      "crop_pt": [
+        20,
+        244.13432835820896,
+        503.0,
+        391.7941869599372
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p5-s3.jpg",
+      "sha256": "cc5a0194dd5e38bd17b32cc3cdab81665a8dc060f51edda615bc3af1bb95d255",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 5,
+      "system": 4,
+      "crop_pt": [
+        20,
+        356.12175962293793,
+        503.0,
+        503.78161822466615
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p5-s4.jpg",
+      "sha256": "1fe1c6dfdd2063c3f1964736f3599e7791197872d6941711757f794c551db9a3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 5,
+      "system": 5,
+      "crop_pt": [
+        20,
+        468.10919088766695,
+        503.0,
+        615.7690494893951
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p5-s5.jpg",
+      "sha256": "f6a0b4fc730f2a11484d16788d095ae05db7a373726ba9dac8289682a1da9466",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 5,
+      "system": 6,
+      "crop_pt": [
+        20,
+        580.0966221523959,
+        503.0,
+        727.7564807541241
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p5-s6.jpg",
+      "sha256": "26f67d24147659cea4e282ae83e34811e35d542a2c8c0816af7a931cbf6fcba1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 6,
+      "system": 1,
+      "crop_pt": [
+        20,
+        20.15946582875098,
+        503.0,
+        167.81932443047918
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p6-s1.jpg",
+      "sha256": "bf92337e26b3abf7c787945b33b86c498b6f099c9f4a742c3e3a5ee26e5bb40c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 6,
+      "system": 2,
+      "crop_pt": [
+        20,
+        132.14689709347996,
+        503.0,
+        279.80675569520815
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p6-s2.jpg",
+      "sha256": "b89ebdcf779a8bb0bd98f9c073d41c33782ddc8211a63dcd9e508fbd2134108a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 6,
+      "system": 3,
+      "crop_pt": [
+        20,
+        244.13432835820896,
+        503.0,
+        391.7941869599372
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p6-s3.jpg",
+      "sha256": "22d7ec2a8d3eb63d7cffedce063ae16b6ea362236951fe2b97a55f96d9d71f32",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 6,
+      "system": 5,
+      "crop_pt": [
+        20,
+        468.10919088766695,
+        503.0,
+        615.7690494893951
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p6-s5.jpg",
+      "sha256": "a5fb5c981a037b181554fac20a443862f91b255d577f26c7ebcfbae6383ebaf8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 6,
+      "system": 6,
+      "crop_pt": [
+        20,
+        580.0966221523959,
+        503.0,
+        727.7564807541241
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p6-s6.jpg",
+      "sha256": "43641c9f22fcf22e5ff52744bdd2e6de5a989df321a2f860b775fcc8355802c6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 7,
+      "system": 1,
+      "crop_pt": [
+        20,
+        20.15946582875098,
+        503.0,
+        167.81932443047918
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p7-s1.jpg",
+      "sha256": "7b36b8e66e9212ea9c4c913fdf6463fdf6de397ee5706b3468ee16d4bf4ad53c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 7,
+      "system": 4,
+      "crop_pt": [
+        20,
+        440.4039670070699,
+        503.0,
+        588.0638256087981
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p7-s4.jpg",
+      "sha256": "6860e0eb4aa97b96cfe47abd0c7db30d8a38559df498ab2a325145c9803085ec",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 7,
+      "system": 5,
+      "crop_pt": [
+        20,
+        580.3882560879812,
+        503.0,
+        728.3397486252945
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p7-s5.jpg",
+      "sha256": "cf4c919735bfbdcb0d948327fd2c0d70a6f8655a5f498017992f0aaeb10dcf19",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 1,
+      "system": 2,
+      "crop_pt": [
+        20,
+        273.6921868865332,
+        573.22,
+        430.77620730270905
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p1-s2.jpg",
+      "sha256": "5dc5743bc956e33e958dd0ff44b1d3f597e66c6ab7eecf63b9e367517bf9a437",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 1,
+      "system": 4,
+      "crop_pt": [
+        20,
+        532.5402434236356,
+        573.22,
+        681.0290537887711
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p1-s4.jpg",
+      "sha256": "79191529467fc1d9aba3de8e624cae69648064b9b97a758708682e7bdc955c9f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 1,
+      "system": 5,
+      "crop_pt": [
+        20,
+        666.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p1-s5.jpg",
+      "sha256": "c919885e4e0cceb88430e88f67fb6d3035de7db30ed88ad0c60e137db4da0fd6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 2,
+      "system": 1,
+      "crop_pt": [
+        20,
+        27.736945425991365,
+        573.22,
+        182.8374558303887
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p2-s1.jpg",
+      "sha256": "058fc53dbaaacb57c1dc6f1402959115fe45658bf9d7b5029ea8f5a59cae0376",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 2,
+      "system": 2,
+      "crop_pt": [
+        20,
+        165.2603062426384,
+        573.22,
+        316.0632116215155
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p2-s2.jpg",
+      "sha256": "430dab2061441bbb0777930d1cd629a294775f9a7a950012e89a7b518d4da0f1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 2,
+      "system": 5,
+      "crop_pt": [
+        20,
+        544.441303494307,
+        573.22,
+        692.9301138594425
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p2-s5.jpg",
+      "sha256": "0bc7253d67100e27d749bb7a76bd63f834f5ec79a317e85f2b663372b465a82a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 2,
+      "system": 6,
+      "crop_pt": [
+        20,
+        663.9477817039655,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p2-s6.jpg",
+      "sha256": "bac67cfc607d3d17a1f0b3243acd155963c8a4cdacdab34615ab14675f6102ce",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 3,
+      "system": 1,
+      "crop_pt": [
+        20,
+        27.736945425991365,
+        573.22,
+        176.5563407930899
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p3-s1.jpg",
+      "sha256": "9e28393687b225b89ab726b60536ab9180aebe7f37969734964503c6dc99436a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        20,
+        276.33686690223794,
+        573.22,
+        427.13977228111503
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p3-s3.jpg",
+      "sha256": "18d4d6e884084aac19decfd242a0a904e92bc0c2da5ea36661d8ce2ecce45369",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 3,
+      "system": 4,
+      "crop_pt": [
+        20,
+        410.554377699254,
+        573.22,
+        559.0431880643895
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p3-s4.jpg",
+      "sha256": "b920ad12ae96c26d33daa6627a8fd9925df2ca9886d8eea59c7cf16cfabbc6a8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 3,
+      "system": 5,
+      "crop_pt": [
+        20,
+        536.5072634471928,
+        573.22,
+        683.0125638005496
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p3-s5.jpg",
+      "sha256": "da06b14d222c2ab639a4347679e54d6dc04d24256191454177428fde1883696d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 3,
+      "system": 6,
+      "crop_pt": [
+        20,
+        666.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p3-s6.jpg",
+      "sha256": "1245c7e11d3ed8fcb42836a7aabeac154a56a770d623838b6ea11ede571cfa64",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 4,
+      "system": 1,
+      "crop_pt": [
+        20,
+        27.736945425991365,
+        573.22,
+        174.24224577934825
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p4-s1.jpg",
+      "sha256": "f341083117a753a2ae1c57328863729eebf81276f8c9831ff9d151ec7eaf3bcf",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 4,
+      "system": 2,
+      "crop_pt": [
+        20,
+        158.97919120533962,
+        573.22,
+        305.31919905771497
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p4-s2.jpg",
+      "sha256": "1607e24906154d730e1fefd989dc477628781d15d959dbccc7f78ce836a96697",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 4,
+      "system": 3,
+      "crop_pt": [
+        20,
+        276.33686690223794,
+        573.22,
+        433.4208873184138
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p4-s3.jpg",
+      "sha256": "00884f0b3073d3816cd32710e169a13272a95be7313a5e3df1ceb330c1941331",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 4,
+      "system": 4,
+      "crop_pt": [
+        20,
+        410.8849627012171,
+        573.22,
+        567.968983117393
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p4-s4.jpg",
+      "sha256": "89d13d033814b683dc39db8e5a1e74e3f19ac2916956895187843379267fcf04",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 4,
+      "system": 6,
+      "crop_pt": [
+        20,
+        666.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p4-s6.jpg",
+      "sha256": "39dd59a6f49235f8fdd53a60348c9e3713e26eff3dee6e439f6c397cd6d5d793",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 5,
+      "system": 1,
+      "crop_pt": [
+        20,
+        27.736945425991365,
+        573.22,
+        174.24224577934825
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p5-s1.jpg",
+      "sha256": "0c31221315dc698f2e2ccf00174eb1ab71f47e4e81498442e42191968ef49c20",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 5,
+      "system": 2,
+      "crop_pt": [
+        20,
+        159.6403612092658,
+        573.22,
+        306.1456615626227
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p5-s2.jpg",
+      "sha256": "aca9d40329c252b3f306377da98d2c888493720e716d2402805aeda644ed119a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 5,
+      "system": 5,
+      "crop_pt": [
+        20,
+        533.531998429525,
+        573.22,
+        682.0208087946604
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p5-s5.jpg",
+      "sha256": "8abd4ac4b7db12c46147d50ac8b0419c776801cb067ef3056a44d9ae08d75d0a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 6,
+      "system": 3,
+      "crop_pt": [
+        20,
+        271.3780918727915,
+        573.22,
+        417.88339222614843
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p6-s3.jpg",
+      "sha256": "35693b04a20c9afd0abbf79ef12026015d37b3cdf1c2248a2608ea8d4fc6dde5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 6,
+      "system": 4,
+      "crop_pt": [
+        20,
+        397.0003926187672,
+        573.22,
+        546.6462504907735
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p6-s4.jpg",
+      "sha256": "91bbb4a72f678e1da886f4c62efa92971eeb01d56f0a86ea426ad39cd7bb95ee",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 6,
+      "system": 5,
+      "crop_pt": [
+        20,
+        534.3584609344326,
+        573.22,
+        683.0125638005496
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p6-s5.jpg",
+      "sha256": "ed43b9ddfe723dc1b16eb1bf681b508101a1af760be402d92250def5b7577a9c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 6,
+      "system": 6,
+      "crop_pt": [
+        20,
+        666.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p6-s6.jpg",
+      "sha256": "d6f1b06466e6fa785d1e289e299fc15ffc6b7cc6d3d5f02e136c1576a087303a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 7,
+      "system": 3,
+      "crop_pt": [
+        20,
+        268.73341185708676,
+        573.22,
+        419.5363172359639
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p7-s3.jpg",
+      "sha256": "93f19d4a5842f3291468c84164534b909eb3e4b7cecbf9c0537f22f6414d3643",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 7,
+      "system": 4,
+      "crop_pt": [
+        20,
+        400.9674126423243,
+        573.22,
+        552.7620730270908
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p7-s4.jpg",
+      "sha256": "0c7314dfa351b6180615bccc9a76cc1dd49b03c80233b08f616750c87e635685",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 7,
+      "system": 5,
+      "crop_pt": [
+        20,
+        537.3337259521005,
+        573.22,
+        683.8390263054574
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p7-s5.jpg",
+      "sha256": "80b656107937f27ccca6cd1ddf858100749bb5c8347a4a4b91686057fca7d693",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A048",
+      "page": 7,
+      "system": 6,
+      "crop_pt": [
+        20,
+        666.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p7-s6.jpg",
+      "sha256": "7e398e5de1b49e60916eac13bcbe46a4cfd484eae97dda2daf4540236b601950",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 32,
+      "pdf_page": 52,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-32.jpg",
+      "sha256": "717acc426d839f08ad56f9e2cc1b842f659011246ad351b158620cbfe7daee67",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 39,
+      "pdf_page": 59,
+      "path": "tmp/engraving/study-2026-10-19/book-39.jpg",
+      "sha256": "e54e35ecab84ac4044f4d55a70626b0f836dd16361a2fd442484c1a71923480d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 57,
+      "pdf_page": 77,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-57.jpg",
+      "sha256": "7fca92dec600bb67c9042eda74052162dd6a5ccbb8ef122d78038f973b8952c3",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 156,
+      "pdf_page": 176,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-156.jpg",
+      "sha256": "c2e0d3fcae7598272ac1565a4da866cf6f7149a7056c11a4c5d6b628eed98f02",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-307-reread.jpg",
+      "sha256": "b52e28888c02d2fc9046d3e632095e4be18cb53ca82755423eeeab20391f5d95",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-337.jpg",
+      "sha256": "4c517306cf30f5e24bb647c614fb38d0d2f10e611db454b5f72789c81480367d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 489,
+      "pdf_page": 509,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-489.jpg",
+      "sha256": "ac045d65331dc657d6377b966383dc95e7322b8a53c1ecbf27ca34956324cf6d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A046",
+      "page": 4,
+      "system": 1,
+      "crop_pt": [
+        20,
+        20.15946582875098,
+        503.0,
+        167.81932443047918
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A046-p4-s1.jpg",
+      "sha256": "7b3d54a227eb87921663efd0423ddbb4ba85b3434c38fb51ad5db79eb7c426c9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "focused-scope-detail",
+      "id": "A048",
+      "page": 5,
+      "system": 1,
+      "crop_pt": [
+        215,
+        90,
+        397,
+        160
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p5-s1-scope.jpg",
+      "sha256": "ad146f6f40e5d91edcb78eb5acd9b93f508971988d1274c0fcdb002cf427a67c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "focused-scope-detail",
+      "id": "A048",
+      "page": 5,
+      "system": 2,
+      "crop_pt": [
+        57,
+        230,
+        224,
+        281
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p5-s2-scope.jpg",
+      "sha256": "d88a896c1b5be56378e894cafb6276031724ff3d2a887e1b7ee5121d10b770ab",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "focused-scope-detail",
+      "id": "A048",
+      "page": 7,
+      "system": 5,
+      "crop_pt": [
+        70,
+        605,
+        135,
+        656
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p7-s5-scope.jpg",
+      "sha256": "417c6033dfe7a4be960ab9282328bb7d518fd41d959cf0ce469a7ce7f0040de6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "focused-scope-detail",
+      "id": "A048",
+      "page": 7,
+      "system": 6,
+      "crop_pt": [
+        215,
+        685,
+        420,
+        805
+      ],
+      "path": "tmp/engraving/fubuki-castle-2026-10-27/A048-p7-s6-scope.jpg",
+      "sha256": "2d025a5364190b7474181ca86d13de48e3da5a4879366851ad5545ed89d30abe",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 226,
+      "pdf_page": 246,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-226-reread.jpg",
+      "sha256": "439cd645c958578efa84776b9b5c3ecb302834e70ce19060e4aa9b7c21b4c8e5",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 227,
+      "pdf_page": 247,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-227-reread.jpg",
+      "sha256": "2540fb5ae81a6ebccfef49416a43b58123df7d77f140b9d38f9527c9945e840f",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    }
+  ],
+  "whole_reviews": {
+    "A046": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        5
+      ],
+      "systems": 40,
+      "staves_per_system": 2,
+      "media_box_pt": [
+        525.0,
+        742.5
+      ]
+    },
+    "A048": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "systems": 41,
+      "staves_per_system": 2,
+      "media_box_pt": [
+        595.22,
+        842.0
+      ]
+    }
+  },
+  "selected_music_checks": {
+    "arithmetic_checks": [
+      {
+        "where": "A046 opening pickup",
+        "quarter_units": [
+          "3/4",
+          "1/4"
+        ],
+        "total_quarters": "1",
+        "interpretation": "dotted8 plus16; lower quarter rest"
+      },
+      {
+        "where": "A046 p3s6 final bar first portion",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1"
+        ],
+        "total_quarters": "3",
+        "interpretation": "two5:4 32nd groups, four ordinary32, two ordinary16, eight ordinary32; fifth/denominator ratios inferred from complete4/4"
+      },
+      {
+        "where": "A046 p3s6 to p4s1 complete bar",
+        "quarter_units": [
+          "3",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "no line-end barline; next-page eight32 plus four lower16 finish beat4"
+      },
+      {
+        "where": "A046 p5s1 first portion",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1"
+        ],
+        "total_quarters": "2",
+        "interpretation": "eighth chord plus12 ordinary32; no right barline"
+      },
+      {
+        "where": "A046 p5s2 second portion",
+        "quarter_units": [
+          "1",
+          "3/4",
+          "1/4"
+        ],
+        "total_quarters": "2",
+        "interpretation": "eight32 then slow dotted8+16; independent fast tail six32+16 totals final beat"
+      },
+      {
+        "where": "A046 fast cross-staff tail",
+        "quarter_units": [
+          "3/4",
+          "1/4"
+        ],
+        "total_quarters": "1",
+        "interpretation": "six ordinary32 then ordinary16; duplicate shared head is not another attack"
+      },
+      {
+        "where": "A046 p6s1 last-bar lower run",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "six6:4 16ths then three3:2 eighths; repeated; beam levels differ"
+      },
+      {
+        "where": "A046 p6s2 short bar",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "2",
+        "interpretation": "two groups, each three triplet16ths then ordinary eighth;3 only covers initial three"
+      },
+      {
+        "where": "A046 K lower moving layer",
+        "quarter_units": [
+          "1/2",
+          "3/2",
+          "1/2",
+          "3/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "eighth+dottedquarter repeated; separate half-note chord layer totals4 independently"
+      },
+      {
+        "where": "A048 F p3s4 first-bar slow melody",
+        "quarter_units": [
+          "2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "half chord then four eighths"
+      },
+      {
+        "where": "A048 F p3s4 first-bar fast layer",
+        "quarter_units": [
+          "1/4",
+          "3/4",
+          "1",
+          "1/2",
+          "1/2",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "16rest+three16, four16,two16+8rest,quarterrest; not additional elapsed time beyond melody"
+      },
+      {
+        "where": "A048 p5s1 bar2 lower",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "7:4 16ths, separate ordinary quarter,6:4 16ths,four ordinary32 then ordinary eighth; source beam endpoints verify separate quarter"
+      },
+      {
+        "where": "A048 p5s2 bar1 lower",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "same7:4 plus quarter,6:4,three triplet16 then ordinary eighth;3 covers only part of shared primary beam"
+      },
+      {
+        "where": "A048 p7s5 short bar",
+        "quarter_units": [
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "2",
+        "interpretation": "quarter-head two-note tremolo pair occupies one quarter,then eighth and eighthrest; detached strokes are intentional"
+      },
+      {
+        "where": "A048 p7s6 upper release",
+        "quarter_units": [
+          "1",
+          "1",
+          "2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "quarter with open resonance arcs then quarterrest and halfrest; no receiving head at arc end"
+      },
+      {
+        "where": "A048 p7s6 lower tremolo entrance",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "3"
+        ],
+        "total_quarters": "4",
+        "interpretation": "eighth octave,four ordinary32, dotted-half-head tremolo pair occupying3quarters; next whole-head pair occupies4quarters"
+      }
+    ],
+    "source_count_checks": [
+      {
+        "label": "A046 page split two quintuplets",
+        "id": "A046",
+        "page": 3,
+        "system": 6,
+        "box_pt": [
+          225,
+          610,
+          333,
+          626
+        ],
+        "heads": [
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              230.8936,
+              620.4467
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              243.2083,
+              620.4467
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              253.2742,
+              618.5192
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.564000000000007,
+            "origin": [
+              263.2331,
+              614.7713
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              274.7982,
+              620.4467
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              287.1129,
+              620.4467
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              297.2859,
+              618.5192
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.564000000000007,
+            "origin": [
+              307.2447,
+              614.7713
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              318.8098,
+              620.4467
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              331.1245,
+              620.4467
+            ]
+          }
+        ],
+        "count": 10
+      },
+      {
+        "label": "A046 page split four32 plus two16",
+        "id": "A046",
+        "page": 3,
+        "system": 6,
+        "box_pt": [
+          338,
+          610,
+          405,
+          626
+        ],
+        "heads": [
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              341.2975,
+              618.5192
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.564000000000007,
+            "origin": [
+              352.0059,
+              614.7713
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              364.3206,
+              620.4467
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              377.4919,
+              620.4467
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              388.4146,
+              618.5192
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.564000000000007,
+            "origin": [
+              402.4426,
+              614.7713
+            ]
+          }
+        ],
+        "count": 6
+      },
+      {
+        "label": "A046 page split final eight32",
+        "id": "A046",
+        "page": 3,
+        "system": 6,
+        "box_pt": [
+          415,
+          610,
+          495,
+          627
+        ],
+        "heads": [
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.564000000000007,
+            "origin": [
+              418.2911,
+              614.7713
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              429.2137,
+              618.5192
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              441.5284,
+              620.4467
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              452.4509,
+              618.5192
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              463.1594,
+              620.4467
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              473.1182,
+              622.3742
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              482.0062,
+              624.1947
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999993,
+            "origin": [
+              491.0013,
+              622.3742
+            ]
+          }
+        ],
+        "count": 8
+      },
+      {
+        "label": "A046 next-page final beat",
+        "id": "A046",
+        "page": 4,
+        "system": 1,
+        "box_pt": [
+          58,
+          60,
+          138,
+          77
+        ],
+        "heads": [
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              60.8438,
+              64.35820000000001
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              71.4452,
+              66.17859999999996
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              82.1536,
+              68.10609999999997
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              92.7549,
+              73.78160000000003
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              103.6775,
+              73.78160000000003
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              114.2789,
+              71.96119999999996
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              124.9873,
+              68.10609999999997
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              135.9099,
+              68.10609999999997
+            ]
+          }
+        ],
+        "count": 8
+      },
+      {
+        "label": "A046 same-page split ascending twelve32",
+        "id": "A046",
+        "page": 5,
+        "system": 1,
+        "box_pt": [
+          410,
+          45,
+          495,
+          92
+        ],
+        "heads": [
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              413.2581,
+              88.98749999999995
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              420.8611,
+              85.2396
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              428.1429,
+              81.38459999999998
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              435.3175,
+              79.45709999999997
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              442.5992,
+              75.70910000000003
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              449.4526,
+              71.96119999999996
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              456.4131,
+              68.10609999999997
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              463.1594,
+              66.17859999999996
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              470.1198,
+              62.4307
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              477.4016,
+              58.682699999999954
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              485.0045,
+              54.82770000000005
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              492.6075,
+              52.90009999999995
+            ]
+          }
+        ],
+        "count": 12
+      },
+      {
+        "label": "A046 same-page split descending eight32",
+        "id": "A046",
+        "page": 5,
+        "system": 2,
+        "box_pt": [
+          60,
+          155,
+          133,
+          190
+        ],
+        "heads": [
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              64.1634,
+              161.16240000000005
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              73.801,
+              162.9828
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              83.3315,
+              166.83780000000002
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              92.9691,
+              172.51329999999996
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              102.3925,
+              174.44079999999997
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              111.923,
+              176.26120000000003
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              121.4535,
+              180.11630000000002
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              130.8769,
+              185.7917
+            ]
+          }
+        ],
+        "count": 8
+      },
+      {
+        "label": "A048 J seven16 plus separate quarter",
+        "id": "A048",
+        "page": 5,
+        "system": 1,
+        "box_pt": [
+          220,
+          117,
+          274,
+          136
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              221.184,
+              118.79960000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              228.438,
+              120.92359999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              235.692,
+              123.04759999999999
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              243.144,
+              125.17160000000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              250.398,
+              127.29570000000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              257.652,
+              129.41959999999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              264.924,
+              131.54359999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              272.358,
+              133.6676
+            ]
+          }
+        ],
+        "count": 8
+      },
+      {
+        "label": "A048 J six16 group",
+        "id": "A048",
+        "page": 5,
+        "system": 1,
+        "box_pt": [
+          306,
+          107,
+          349,
+          120
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              307.062,
+              108.16160000000002
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              315.216,
+              110.30359999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              323.352,
+              112.42759999999998
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              331.506,
+              114.55160000000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              339.642,
+              116.6757
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              347.796,
+              118.79960000000005
+            ]
+          }
+        ],
+        "count": 6
+      },
+      {
+        "label": "A048 J four32 plus final8",
+        "id": "A048",
+        "page": 5,
+        "system": 1,
+        "box_pt": [
+          354,
+          113,
+          385,
+          125
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              355.932,
+              123.04759999999999
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              362.664,
+              120.92359999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              369.576,
+              118.79960000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              376.308,
+              116.6757
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              383.04,
+              114.55160000000001
+            ]
+          }
+        ],
+        "count": 5
+      },
+      {
+        "label": "A048 J next-row triplet16 plus ordinary8",
+        "id": "A048",
+        "page": 5,
+        "system": 2,
+        "box_pt": [
+          188,
+          247,
+          214,
+          256
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              189.306,
+              254.9696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              196.92,
+              252.8456
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              204.534,
+              250.72159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "IFMHLK+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              212.148,
+              248.59770000000003
+            ]
+          }
+        ],
+        "count": 4
+      },
+      {
+        "label": "A046 K three bars ordinary16",
+        "id": "A046",
+        "page": 6,
+        "system": 3,
+        "box_pt": [
+          55,
+          280,
+          495,
+          315
+        ],
+        "heads": [
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              58.596,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              67.484,
+              295.8743
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              76.372,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              85.1529,
+              295.8743
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              94.0409,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              102.9289,
+              295.8743
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              111.7098,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              120.5978,
+              295.8743
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              129.4858,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              138.1596,
+              295.8743
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              147.0476,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              155.9356,
+              295.8743
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              164.7165,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              173.6045,
+              295.8743
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              182.4925,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              191.2734,
+              295.8743
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              208.08532399999999,
+              290.198284
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              216.9737,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              225.9687,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              234.8567,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              243.8518,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              252.6327,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              261.7349,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              270.5158,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              279.618,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              288.3989,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              297.2868,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              306.2819,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              315.1699,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              324.165,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              333.053,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              342.0481,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              357.58176000000003,
+              290.203436
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              366.3562,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              375.2442,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              384.1322,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              393.0201,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              401.8011,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              410.6891,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              419.5771,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              428.5721,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              437.4601,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              446.2411,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              455.129,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              464.017,
+              290.1989
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              472.905,
+              297.8018
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              481.6859,
+              303.4773
+            ]
+          },
+          {
+            "text": "",
+            "font": "IWDXHC+CIDFont+F1",
+            "size": 14.563999999999965,
+            "origin": [
+              490.5739,
+              297.8018
+            ]
+          }
+        ],
+        "count": 48
+      }
+    ],
+    "split_boundaries": [
+      {
+        "id": "A046",
+        "page": 3,
+        "system": 6,
+        "barlines": [
+          {
+            "kind": "line",
+            "points": [
+              [
+                33.2161,
+                624.1947
+              ],
+              [
+                33.2161,
+                685.1257
+              ]
+            ],
+            "x0": 33.2161,
+            "x1": 33.2161,
+            "top": 624.1947,
+            "bottom": 685.1257,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                223.9332,
+                624.1947
+              ],
+              [
+                223.9332,
+                685.1257
+              ]
+            ],
+            "x0": 223.9332,
+            "x1": 223.9332,
+            "top": 624.1947,
+            "bottom": 685.1257,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          }
+        ]
+      },
+      {
+        "id": "A046",
+        "page": 4,
+        "system": 1,
+        "barlines": [
+          {
+            "kind": "line",
+            "points": [
+              [
+                33.2161,
+                64.35820000000001
+              ],
+              [
+                33.2161,
+                125.18219999999997
+              ]
+            ],
+            "x0": 33.2161,
+            "x1": 33.2161,
+            "top": 64.35820000000001,
+            "bottom": 125.18219999999997,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                146.7254,
+                64.35820000000001
+              ],
+              [
+                146.7254,
+                125.18219999999997
+              ]
+            ],
+            "x0": 146.7254,
+            "x1": 146.7254,
+            "top": 64.35820000000001,
+            "bottom": 125.18219999999997,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                331.8741,
+                64.35820000000001
+              ],
+              [
+                331.8741,
+                125.18219999999997
+              ]
+            ],
+            "x0": 331.8741,
+            "x1": 331.8741,
+            "top": 64.35820000000001,
+            "bottom": 125.18219999999997,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                499.6751,
+                64.35820000000001
+              ],
+              [
+                499.6751,
+                125.18219999999997
+              ]
+            ],
+            "x0": 499.6751,
+            "x1": 499.6751,
+            "top": 64.35820000000001,
+            "bottom": 125.18219999999997,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          }
+        ]
+      },
+      {
+        "id": "A046",
+        "page": 5,
+        "system": 1,
+        "barlines": [
+          {
+            "kind": "line",
+            "points": [
+              [
+                33.2161,
+                64.35820000000001
+              ],
+              [
+                33.2161,
+                125.18219999999997
+              ]
+            ],
+            "x0": 33.2161,
+            "x1": 33.2161,
+            "top": 64.35820000000001,
+            "bottom": 125.18219999999997,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                246.4209,
+                64.35820000000001
+              ],
+              [
+                246.4209,
+                125.18219999999997
+              ]
+            ],
+            "x0": 246.4209,
+            "x1": 246.4209,
+            "top": 64.35820000000001,
+            "bottom": 125.18219999999997,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                389.3783,
+                64.35820000000001
+              ],
+              [
+                389.3783,
+                125.18219999999997
+              ]
+            ],
+            "x0": 389.3783,
+            "x1": 389.3783,
+            "top": 64.35820000000001,
+            "bottom": 125.18219999999997,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          }
+        ]
+      },
+      {
+        "id": "A046",
+        "page": 5,
+        "system": 2,
+        "barlines": [
+          {
+            "kind": "line",
+            "points": [
+              [
+                33.2161,
+                176.26120000000003
+              ],
+              [
+                33.2161,
+                237.1922
+              ]
+            ],
+            "x0": 33.2161,
+            "x1": 33.2161,
+            "top": 176.26120000000003,
+            "bottom": 237.1922,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                212.6893,
+                176.26120000000003
+              ],
+              [
+                212.6893,
+                237.1922
+              ]
+            ],
+            "x0": 212.6893,
+            "x1": 212.6893,
+            "top": 176.26120000000003,
+            "bottom": 237.1922,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                483.077,
+                176.26120000000003
+              ],
+              [
+                483.077,
+                237.1922
+              ]
+            ],
+            "x0": 483.077,
+            "x1": 483.077,
+            "top": 176.26120000000003,
+            "bottom": 237.1922,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                484.8975,
+                176.26120000000003
+              ],
+              [
+                484.8975,
+                237.1922
+              ]
+            ],
+            "x0": 484.8975,
+            "x1": 484.8975,
+            "top": 176.26120000000003,
+            "bottom": 237.1922,
+            "width": 0.535,
+            "fill": false,
+            "stroke": true
+          }
+        ]
+      }
+    ],
+    "beam_scope_checks": [
+      {
+        "id": "A048",
+        "page": 5,
+        "system": 1,
+        "box_pt": [
+          219,
+          96,
+          274,
+          120
+        ],
+        "filled_polygons": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                225.972,
+                104.976
+              ],
+              [
+                270.16200000000003,
+                109.24199999999996
+              ],
+              [
+                270.16200000000003,
+                111.29399999999998
+              ],
+              [
+                225.972,
+                107.02800000000002
+              ]
+            ],
+            "x0": 225.972,
+            "x1": 270.16200000000003,
+            "top": 104.976,
+            "bottom": 111.29399999999998,
+            "width": 0,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                225.972,
+                108.16200000000003
+              ],
+              [
+                270.16200000000003,
+                112.428
+              ],
+              [
+                270.16200000000003,
+                114.48000000000002
+              ],
+              [
+                225.972,
+                110.21400000000006
+              ]
+            ],
+            "x0": 225.972,
+            "x1": 270.16200000000003,
+            "top": 108.16200000000003,
+            "bottom": 114.48000000000002,
+            "width": 0,
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      },
+      {
+        "id": "A048",
+        "page": 5,
+        "system": 1,
+        "box_pt": [
+          305,
+          120,
+          385,
+          155
+        ],
+        "filled_polygons": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                307.062,
+                126.32399999999996
+              ],
+              [
+                348.246,
+                130.572
+              ],
+              [
+                348.246,
+                132.6239999999999
+              ],
+              [
+                307.062,
+                128.37599999999998
+              ]
+            ],
+            "x0": 307.062,
+            "x1": 348.246,
+            "top": 126.32399999999996,
+            "bottom": 132.6239999999999,
+            "width": 0,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                307.062,
+                123.13800000000003
+              ],
+              [
+                348.246,
+                127.38600000000008
+              ],
+              [
+                348.246,
+                129.438
+              ],
+              [
+                307.062,
+                125.19000000000005
+              ]
+            ],
+            "x0": 307.062,
+            "x1": 348.246,
+            "top": 123.13800000000003,
+            "bottom": 129.438,
+            "width": 0,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                355.932,
+                138.00599999999997
+              ],
+              [
+                383.49,
+                133.75799999999992
+              ],
+              [
+                383.49,
+                135.80999999999995
+              ],
+              [
+                355.932,
+                140.058
+              ]
+            ],
+            "x0": 355.932,
+            "x1": 383.49,
+            "top": 133.75799999999992,
+            "bottom": 140.058,
+            "width": 0,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                355.932,
+                134.82000000000005
+              ],
+              [
+                376.75800000000004,
+                131.63400000000001
+              ],
+              [
+                376.75800000000004,
+                133.68600000000004
+              ],
+              [
+                355.932,
+                136.87200000000007
+              ]
+            ],
+            "x0": 355.932,
+            "x1": 376.75800000000004,
+            "top": 131.63400000000001,
+            "bottom": 136.87200000000007,
+            "width": 0,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                355.932,
+                131.63400000000001
+              ],
+              [
+                376.75800000000004,
+                128.44799999999998
+              ],
+              [
+                376.75800000000004,
+                130.5
+              ],
+              [
+                355.932,
+                133.68600000000004
+              ]
+            ],
+            "x0": 355.932,
+            "x1": 376.75800000000004,
+            "top": 128.44799999999998,
+            "bottom": 133.68600000000004,
+            "width": 0,
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      },
+      {
+        "id": "A048",
+        "page": 5,
+        "system": 2,
+        "box_pt": [
+          187,
+          258,
+          214,
+          272
+        ],
+        "filled_polygons": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                189.306,
+                266.74199999999996
+              ],
+              [
+                212.598,
+                262.4939999999999
+              ],
+              [
+                212.598,
+                264.54599999999994
+              ],
+              [
+                189.306,
+                268.794
+              ]
+            ],
+            "x0": 189.306,
+            "x1": 212.598,
+            "top": 262.4939999999999,
+            "bottom": 268.794,
+            "width": 0,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                189.306,
+                263.55600000000004
+              ],
+              [
+                204.984,
+                260.73
+              ],
+              [
+                204.984,
+                262.78200000000004
+              ],
+              [
+                189.306,
+                265.60800000000006
+              ]
+            ],
+            "x0": 189.306,
+            "x1": 204.984,
+            "top": 260.73,
+            "bottom": 265.60800000000006,
+            "width": 0,
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      },
+      {
+        "id": "A046",
+        "page": 5,
+        "system": 2,
+        "box_pt": [
+          138,
+          201,
+          204,
+          216
+        ],
+        "filled_polygons": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                140.5145,
+                208.70780000000002
+              ],
+              [
+                202.0875,
+                210.63580000000002
+              ],
+              [
+                202.0875,
+                212.56280000000004
+              ],
+              [
+                140.5145,
+                210.63580000000002
+              ],
+              [
+                140.5145,
+                208.70780000000002
+              ]
+            ],
+            "x0": 140.5145,
+            "x1": 202.0875,
+            "top": 208.70780000000002,
+            "bottom": 212.56280000000004,
+            "width": 0.428,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                140.5145,
+                205.92359999999996
+              ],
+              [
+                202.0875,
+                207.74360000000001
+              ],
+              [
+                202.0875,
+                209.6716
+              ],
+              [
+                140.5145,
+                207.85159999999996
+              ],
+              [
+                140.5145,
+                205.92359999999996
+              ]
+            ],
+            "x0": 140.5145,
+            "x1": 202.0875,
+            "top": 205.92359999999996,
+            "bottom": 209.6716,
+            "width": 0.428,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                140.5145,
+                203.03229999999996
+              ],
+              [
+                173.6035,
+                203.99630000000002
+              ],
+              [
+                173.6035,
+                205.92329999999993
+              ],
+              [
+                140.5145,
+                204.95929999999998
+              ],
+              [
+                140.5145,
+                203.03229999999996
+              ]
+            ],
+            "x0": 140.5145,
+            "x1": 173.6035,
+            "top": 203.03229999999996,
+            "bottom": 205.92329999999993,
+            "width": 0.428,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                182.5986,
+                212.88400000000001
+              ],
+              [
+                192.5576,
+                213.20500000000004
+              ],
+              [
+                192.5576,
+                215.13300000000004
+              ],
+              [
+                182.5986,
+                214.812
+              ],
+              [
+                182.5986,
+                212.88400000000001
+              ]
+            ],
+            "x0": 182.5986,
+            "x1": 192.5576,
+            "top": 212.88400000000001,
+            "bottom": 215.13300000000004,
+            "width": 0.428,
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      }
+    ],
+    "spacing": {
+      "where": "A046 p6s3 K",
+      "bars": [
+        {
+          "bar_on_row": 1,
+          "head_origins": [
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                58.596,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                67.484,
+                295.8743
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                76.372,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                85.1529,
+                295.8743
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                94.0409,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                102.9289,
+                295.8743
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                111.7098,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                120.5978,
+                295.8743
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                129.4858,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                138.1596,
+                295.8743
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                147.0476,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                155.9356,
+                295.8743
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                164.7165,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                173.6045,
+                295.8743
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                182.4925,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                191.2734,
+                295.8743
+              ]
+            }
+          ],
+          "gaps_pt": [
+            8.887999999999998,
+            8.888000000000005,
+            8.780900000000003,
+            8.887999999999991,
+            8.888000000000005,
+            8.780900000000003,
+            8.888000000000005,
+            8.888000000000005,
+            8.6738,
+            8.887999999999977,
+            8.888000000000005,
+            8.780900000000003,
+            8.888000000000005,
+            8.888000000000005,
+            8.780900000000003
+          ],
+          "min_pt": 8.6738,
+          "max_pt": 8.888000000000005,
+          "mean_pt": 8.845160000000002
+        },
+        {
+          "bar_on_row": 2,
+          "head_origins": [
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                208.08532399999999,
+                290.198284
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                216.9737,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                225.9687,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                234.8567,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                243.8518,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                252.6327,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                261.7349,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                270.5158,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                279.618,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                288.3989,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                297.2868,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                306.2819,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                315.1699,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                324.165,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                333.053,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                342.0481,
+                297.8018
+              ]
+            }
+          ],
+          "gaps_pt": [
+            8.888376000000022,
+            8.995000000000005,
+            8.887999999999977,
+            8.995100000000008,
+            8.780900000000003,
+            9.102199999999982,
+            8.780900000000031,
+            9.102199999999982,
+            8.780900000000031,
+            8.887900000000002,
+            8.99509999999998,
+            8.887999999999977,
+            8.995100000000036,
+            8.887999999999977,
+            8.99509999999998
+          ],
+          "min_pt": 8.780900000000003,
+          "max_pt": 9.102199999999982,
+          "mean_pt": 8.930851733333332
+        },
+        {
+          "bar_on_row": 3,
+          "head_origins": [
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                357.58176000000003,
+                290.203436
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                366.3562,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                375.2442,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                384.1322,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                393.0201,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                401.8011,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                410.6891,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                419.5771,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                428.5721,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                437.4601,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                446.2411,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                455.129,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                464.017,
+                290.1989
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                472.905,
+                297.8018
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                481.6859,
+                303.4773
+              ]
+            },
+            {
+              "text": "",
+              "font": "IWDXHC+CIDFont+F1",
+              "size": 14.563999999999965,
+              "origin": [
+                490.5739,
+                297.8018
+              ]
+            }
+          ],
+          "gaps_pt": [
+            8.77443999999997,
+            8.887999999999977,
+            8.888000000000034,
+            8.887900000000002,
+            8.781000000000006,
+            8.887999999999977,
+            8.887999999999977,
+            8.995000000000005,
+            8.888000000000034,
+            8.781000000000006,
+            8.887900000000002,
+            8.887999999999977,
+            8.887999999999977,
+            8.780900000000031,
+            8.887999999999977
+          ],
+          "min_pt": 8.77443999999997,
+          "max_pt": 8.995000000000005,
+          "mean_pt": 8.866142666666663
+        }
+      ],
+      "within_bar_gap_min_pt": 8.6738,
+      "within_bar_gap_max_pt": 9.102199999999982,
+      "between_bar_origin_gaps_pt": [
+        16.811923999999976,
+        15.533660000000054
+      ],
+      "decision": "Keep steady internal16th axes; barline and lower-layer accidentals occupy separate boundary budget. Do not equalize all line-wide head gaps."
+    },
+    "corrections": [
+      "A048 J seven group covers first seven16ths only; next black head is a separate quarter, not an eighth inside shared beam. No7:6 inference.",
+      "A048 final upper arcs are open resonance arcs, not ordinary ties to receivers.",
+      "A048 p7s5 first lower detached strokes are two-note tremolo, not grace notes.",
+      "A046 same-page continuation fast tail contains six32 plus one16; duplicate shared head and cross-staff stem offsets must not increase count."
+    ]
+  },
+  "reading_decisions": {
+    "spacing": "A046 K p6s3 ordinary16ths keep8.674-9.102pt internal head-origin steps; boundary gaps16.812/15.534pt carry barline and lower accidental budget. Diagnose internal,beat,boundary and repeated-pattern consistency separately.",
+    "page_flow": "A046 p3s6 to p4s1 is4/4 split3+1quarters with no right barline. Prefer same-page alternatives; actual physical turn medium unverified. p5s1 to s2 is same-page2+2; retain provisional split,compare continuation cue. Do not fabricate2/4.",
+    "voices": "A048 F/L opposing stems,shared heads and selective fast-layer rests retain reading roles; M l.h. and dotted route retain cross-staff hand guidance. Auxiliary-stem rest omission is conditional.",
+    "tuplets": "J seven7:4 16ths followed by separate ordinary quarter; six6:4 plus four32/eighth or triplet16/eighth tails. Partial-primary-beam3 candidates for short brackets perGould200; full-beam7/6 retain no bracket.",
+    "markings": "A046 D/J/L/M and A048 cantabile have real anticipatory entries. Local dynamics,octave lines,tempo words and structural letters do not share one forced start.",
+    "ending": "A048 final upper arcs are open resonance with no receiving heads; lower written32nds,tremolo shorthand and later tie receivers differ. Quarter-head tremolo pair in2/4 is deliberate detached-stroke convention. Exact resonance release not inferred.",
+    "strings": "413-424 natural/artificial harmonics,position/sounding cues and scope; cue density and encoding roles transferable, instrument-specific head conventions not universal piano rules."
+  },
+  "book": {
+    "new_substantive_printed_range": [
+      413,
+      424
+    ],
+    "new_substantive_pages": 12,
+    "new_reference_table_pages": 4,
+    "reference_table_printed_pages": [
+      415,
+      416,
+      417,
+      420
+    ],
+    "new_unique_pages": 12,
+    "new_ancillary_pages": 0,
+    "new_ancillary_pdf_pages": [],
+    "reread_printed_pages": [
+      32,
+      39,
+      40,
+      57,
+      156,
+      200,
+      226,
+      227,
+      307,
+      311,
+      337,
+      489,
+      490
+    ],
+    "physical_offset": 20,
+    "scope": "Strings continuation: percussion,natural/artificial harmonics,cues,glissandi,half-stopped harmonics;scordatura opening only. Chapter still incomplete."
+  },
+  "unresolved": [
+    "A046 physical page-turn/display medium and native recasting benefit",
+    "A048 exact resonance-release instruction",
+    "Full pitch/internal voice/playback audit",
+    "Native bracket/continuation alternatives and print proof"
+  ],
+  "not_performed": [
+    "original edits",
+    "new native/independent transfer",
+    "font extraction or development",
+    "software adaptation",
+    "deletion"
+  ],
+  "validation": {
+    "status": "passed",
+    "source_hash_and_page_checks": 3,
+    "actually_viewed_images_hashed": 99,
+    "whole_score_pages": 14,
+    "whole_systems": 81,
+    "selected_duration_recipe_arithmetic": 16,
+    "original_head_origins_verified": 123,
+    "scope_beam_polygons_verified": 13,
+    "split_system_barline_vectors_verified": 13,
+    "whole_seven_scope_and_partial_three_scope_rechecked": true,
+    "K_internal_spacing_recomputed": true,
+    "skill_routes_executed": 20,
+    "new_case_routes_linked": 9,
+    "local_markdown_links_checked": 765,
+    "new_book_substantive_pages": 12,
+    "reference_table_pages_included": 4,
+    "new_book_ancillary_pages": 0,
+    "new_whole_question_reviews": 2,
+    "original_files_written": 0,
+    "files_deleted": 0,
+    "new_native_or_adaptation": 0,
+    "release_0_7_0_tag_and_certificate_unchanged": true,
+    "all_material_goal": "active"
+  },
+  "cache": {
+    "measured_at_utc": "2026-10-26T21:42:18.421298+00:00",
+    "batch_logical_bytes": 13852415,
+    "total_logical_bytes": 2559540337,
+    "total_on_disk_bytes": 2418251110,
+    "reused_images": 27,
+    "new_images": 72,
+    "original_pdf_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Logical lengths,not volume delta; inventory precedes final small records."
+  }
+}
