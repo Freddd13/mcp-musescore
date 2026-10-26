@@ -36,6 +36,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_GOD_POKEMON.md`的H与I改变低音持续、低八度、休止、踏板及手。相似材料用于检查一致性前先核音乐差异；不能直接复制再现或假定演奏等效。
+
 `curves`／`piano`／`cross-staff`的`INTEGRATED_READING_EONIAN_EUTERPE.md`保长低音与延迟短型、慢层和快线／手括形。吉他的同音双弦、技术slur、制音、泛音与定弦各有动作定义；相同音高／外形不提供自动去重或同一执行依据。
 
 `curves`／`piano`的`INTEGRATED_READING_LAZY_EIEN.md`保开放余响、完整tie、legato与短动作弧的区别。竖琴制音小音指停止哪根弦，等音双弦仍是两个动作对象；播放相同／无起音不提供自动去重依据。
@@ -82,6 +84,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_GOD_POKEMON.md`的五连对八分保近稳快层，下层中间进入未撑洞，普通16略宽。可作为同构原生例的正向参照；不能推制作软件或把几何等距当单独目标。
 
 `INTEGRATED_READING_FUBUKI_CASTLE.md`的K内部十六分近稳，跨小节距离另含小节线与下层变音预算。分组内、拍间、边界和重复材料检查，不拿全行方差直接选候选。
 
@@ -198,6 +202,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
 
 <a id="tempo"></a>
+
+`INTEGRATED_READING_GOD_POKEMON.md`中标题、拍速、调号与弱起各有时点；Sea拍速先于标题，Cycling先速度后弱起。按真实进入保留锚点，不为标题齐头搬动状态。
 
 `tempo`的`INTEGRATED_READING_CRY_DAISY.md`区分A前长短解释、H均分、J重设，与p4先a tempo准备再J的不同位置。解释后的半拍总量不变，不按2:1播放比例生成头距，也不再处理已明确的连音。
 
