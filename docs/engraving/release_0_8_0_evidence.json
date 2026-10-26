@@ -1,0 +1,488 @@
+{
+  "date": "2026-10-27",
+  "version": "0.8.0",
+  "tag": "engraving-v0.8.0",
+  "publication_base_commit": "eb68e91680d7a870501f185335e76a6ff8b26cce",
+  "previous_release": {
+    "version": "0.7.0",
+    "tag_commit": "46416e726e971653f971d9bca88ceacf8144a212",
+    "certificate_sha256": "6ab9ed7486abc0fd9852d0ae9984b818cdd19e1105580c9d8f45e91fe658fa5f"
+  },
+  "progress_snapshot": {
+    "as_of": "2026-10-27",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      54,
+      146
+    ],
+    "gould_pages_conservative": [
+      575,
+      696
+    ],
+    "gould_substantive_pages": 534,
+    "gould_non_substantive_pages": 41,
+    "gould_title_or_contents_pages": 41,
+    "public_resource_scopes": [
+      11,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ],
+    "user_milestones": [
+      2,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.8.0"
+  },
+  "changes_since_0_7_0": {
+    "new_all_score_closeouts": 10,
+    "new_whole_score_pages": 84,
+    "new_Gould_substantive_pages": 56,
+    "new_Gould_ancillary_pages": 2,
+    "new_complete_resource_scopes": 0,
+    "new_fixed_skill_transfer_scenarios": 0,
+    "new_native_candidate_scenarios": 0
+  },
+  "sources_checked": [
+    {
+      "id": "A044",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Fate stay night：Heaven's Feel Medley.pdf",
+      "sha256": "ece28338df44905816da0cf9174af8b899b2fb2ab210e412c793ca69ae5bd015",
+      "pages": 11,
+      "read_only": true
+    },
+    {
+      "id": "A045",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "pages": 14,
+      "read_only": true
+    },
+    {
+      "id": "A046",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Fubuki - Kantai Collection - Ending Song.pdf",
+      "sha256": "4b059965757792a4013ef38a2c809a476b48b580385df8e9055503d6785cb532",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A048",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Go Shiina - Entrance to Infinity Castle (Demon Slayer_ Hashira Training Arc - OST).pdf",
+      "sha256": "22bf39532ddcb95fe433d4432b8ea064f6156af7c270755733b4cb471b92b154",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A049",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\God knows… - The Melancholy of Haruhi Suzumiya - Insert Song.pdf",
+      "sha256": "c11233b1cb530b9454b886955964d1c3be4fa58c1ccf583726bb99d638850091",
+      "pages": 8,
+      "read_only": true
+    },
+    {
+      "id": "A050",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Gotta catch ’em all!&Pokémon Red and Blue Medley.pdf",
+      "sha256": "b43f80bd055a686233cb7bc1dc4a598986dfdfe3d7f686fef0a5789b95516d32",
+      "pages": 13,
+      "read_only": true
+    },
+    {
+      "id": "A051",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Grand escape - Weathering with you - Insert Song.pdf",
+      "sha256": "fda8fc4ac017586d1b8a9f296345ca234b92b65a4b98e33b28bd1cd7e44a35b8",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A053",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Gurenge - Demon Slayer - Opening Theme.pdf",
+      "sha256": "803c3d8e649fdadb17aa345a82f022c2846c698c27623bfcc2e04839e2abd9fe",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A054",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Hacking to the Gate - Steins;Gate - Opening Theme.pdf",
+      "sha256": "1f764123f5ef39e671b9275964780de325af06e0c5d7965251ddb73abb818136",
+      "pages": 6,
+      "read_only": true
+    }
+  ],
+  "book_source_checked": {
+    "id": "Gould2011",
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "pages": 696,
+    "read_only": true
+  },
+  "study_evidence_hashes": [
+    {
+      "path": "fate_frieren_closeout_evidence.json",
+      "sha256": "113d0c34f87b04981d314283a31f5dec7a531ab91d69d6d38e0c9b658a94137c",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_page_checks": 3,
+        "actually_viewed_images_hashed": 120,
+        "whole_score_pages": 25,
+        "whole_systems": 149,
+        "selected_duration_recipe_arithmetic": 14,
+        "original_head_origins_verified": 109,
+        "original_stem_vectors_verified": 20,
+        "beam_rectangles_verified": 3,
+        "beam_group_polygon_checks": 2,
+        "staff_line_strips_verified": 5,
+        "repeat_signs_by_staff_verified": 12,
+        "unique_start_repeat_locations": 2,
+        "optical_axes_and_beam_staff_contact_recomputed": true,
+        "Z_relative_pitch_sets_rechecked": true,
+        "skill_routes_executed": 20,
+        "new_case_routes_linked": 8,
+        "local_markdown_links_checked": 680,
+        "new_book_substantive_pages": 10,
+        "new_book_ancillary_pages": 0,
+        "new_whole_question_reviews": 2,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "new_native_or_adaptation": 0,
+        "release_0_7_0_tag_and_certificate_unchanged": true,
+        "all_material_goal": "active"
+      }
+    },
+    {
+      "path": "fubuki_castle_closeout_evidence.json",
+      "sha256": "25d7d1176ad53ca15b509cf0600e50d2a469a0010231cc5df1f0576206303348",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_page_checks": 3,
+        "actually_viewed_images_hashed": 99,
+        "whole_score_pages": 14,
+        "whole_systems": 81,
+        "selected_duration_recipe_arithmetic": 16,
+        "original_head_origins_verified": 123,
+        "scope_beam_polygons_verified": 13,
+        "split_system_barline_vectors_verified": 13,
+        "whole_seven_scope_and_partial_three_scope_rechecked": true,
+        "K_internal_spacing_recomputed": true,
+        "skill_routes_executed": 20,
+        "new_case_routes_linked": 9,
+        "local_markdown_links_checked": 765,
+        "new_book_substantive_pages": 12,
+        "reference_table_pages_included": 4,
+        "new_book_ancillary_pages": 0,
+        "new_whole_question_reviews": 2,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "new_native_or_adaptation": 0,
+        "release_0_7_0_tag_and_certificate_unchanged": true,
+        "all_material_goal": "active"
+      }
+    },
+    {
+      "path": "god_pokemon_closeout_evidence.json",
+      "sha256": "415164e91ef4c3e9d4783e268be35afe29ce151042758352d191ab16caa040a4",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_page_checks": 3,
+        "actually_viewed_images_hashed": 108,
+        "whole_score_pages": 21,
+        "whole_systems": 124,
+        "selected_duration_recipe_arithmetic": 19,
+        "source_character_origin_checks": 93,
+        "scope_vectors_verified": 6,
+        "partial_primary_beams_rechecked": true,
+        "quintuplet_spacing_recomputed": true,
+        "partial_final_tie_receivers_rechecked": true,
+        "skill_routes_executed": 20,
+        "new_case_routes_linked": 11,
+        "local_markdown_links_checked": 726,
+        "new_book_substantive_pages": 10,
+        "reference_table_pages_included": 1,
+        "new_book_ancillary_pages": 2,
+        "new_whole_question_reviews": 2,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "new_native_or_adaptation": 0,
+        "release_0_7_0_tag_and_certificate_unchanged": true,
+        "all_material_goal": "active"
+      }
+    },
+    {
+      "path": "grand_great_closeout_evidence.json",
+      "sha256": "8b44b8bb3042ff729b2ad392892fd7e10d95c9563707dd63b850925f74260aee",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_page_checks": 3,
+        "actually_viewed_images_hashed": 87,
+        "whole_score_pages": 12,
+        "whole_systems": 71,
+        "selected_duration_recipe_arithmetic": 17,
+        "source_character_origin_checks": 202,
+        "source_vectors_verified": 29,
+        "cross_staff_8_stem_axes_recomputed": true,
+        "octave_3_routes_dash_and_geometry_verified": true,
+        "nine_and_five_two_beam_scopes_rechecked": true,
+        "chromatic_triplet_spacing_recomputed": true,
+        "skill_routes_executed": 20,
+        "new_case_routes_linked": 10,
+        "new_vocal_reference_routes_linked": 1,
+        "local_markdown_links_checked": 794,
+        "new_book_substantive_pages": 12,
+        "reference_table_pages_included": 0,
+        "new_book_ancillary_pages": 0,
+        "new_whole_question_reviews": 2,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "new_native_or_adaptation": 0,
+        "release_0_7_0_tag_and_certificate_unchanged": true,
+        "all_material_goal": "active"
+      }
+    },
+    {
+      "path": "gurenge_hacking_closeout_evidence.json",
+      "sha256": "8660614983e434edac36651650a6ed618eb1e744818064f4bcb006ed8be3cec1",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_page_checks": 3,
+        "actually_viewed_images_hashed": 88,
+        "whole_score_pages": 12,
+        "whole_system_rows": 69,
+        "system_fragments": 70,
+        "selected_duration_recipe_arithmetic": 16,
+        "source_character_origin_checks": 190,
+        "source_vectors_verified": 8,
+        "detached_short_tremolo_strokes_checked": true,
+        "within_bar_spacing_measurements": 112,
+        "skill_routes_executed": 20,
+        "new_case_routes_linked": 11,
+        "local_markdown_links_checked": 865,
+        "new_book_substantive_pages": 12,
+        "new_ancillary_or_formal_table_pages": 0,
+        "new_whole_question_reviews": 2,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "new_native_or_adaptation": 0,
+        "release_0_7_0_tag_and_certificate_unchanged": true,
+        "all_material_goal": "active"
+      }
+    }
+  ],
+  "public_native_artifacts_checked": [
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-comparison.png",
+      "sha256": "e7e1ed14f8bde83ab11a8b720d4ebbfed79ee60eedcceae65f30777ac6f22b02",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-default.mscx",
+      "sha256": "137f7fa6296adcc9a57cc769ec0a7f11cdd4107e2bfe3c01b7d06e00deaccc93",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-uniform-rejected.mscx",
+      "sha256": "05613fe6a3f46f1220bb1bff3e87cfb6504dd4f66c1e31c3b99dde9cd8d4303c",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-comparison.png",
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-default.mscx",
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-pulse-candidate.mscx",
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-candidate.mscx",
+      "sha256": "9595459dcd6a8d79adccff31af0998fbffcf613c5f49aa13e17e6fe9795badff",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-comparison.png",
+      "sha256": "a3bfd34a884ff6db9b71ecabe11d3eb90dfda971b617b02b4151b17e3c045cbc",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-default.mscx",
+      "sha256": "55718a3d194aadab49bd1fed9ec2d8a44a2ca18e1ba41eac99b3172fdec2ff48",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+      "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+      "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+      "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+      "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+      "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+      "unchanged_from_0_7_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c",
+      "unchanged_from_0_7_0": true
+    }
+  ],
+  "skill_routes": [
+    {
+      "topic": "overview",
+      "references": 7
+    },
+    {
+      "topic": "spacing",
+      "references": 26
+    },
+    {
+      "topic": "rhythm",
+      "references": 20
+    },
+    {
+      "topic": "tempo",
+      "references": 13
+    },
+    {
+      "topic": "beams",
+      "references": 9
+    },
+    {
+      "topic": "curves",
+      "references": 14
+    },
+    {
+      "topic": "markings",
+      "references": 8
+    },
+    {
+      "topic": "ornaments",
+      "references": 4
+    },
+    {
+      "topic": "glissandi",
+      "references": 4
+    },
+    {
+      "topic": "clefs",
+      "references": 4
+    },
+    {
+      "topic": "octaves",
+      "references": 13
+    },
+    {
+      "topic": "navigation",
+      "references": 12
+    },
+    {
+      "topic": "piano",
+      "references": 24
+    },
+    {
+      "topic": "cross-staff",
+      "references": 11
+    },
+    {
+      "topic": "notation",
+      "references": 18
+    },
+    {
+      "topic": "layout",
+      "references": 17
+    },
+    {
+      "topic": "sources",
+      "references": 8
+    },
+    {
+      "topic": "cases",
+      "references": 3
+    },
+    {
+      "topic": "baseline",
+      "references": 3
+    },
+    {
+      "topic": "implementation",
+      "references": 1
+    }
+  ],
+  "native_validation_reexecuted_for_release": false,
+  "scope": "Source/package checks and actual image records verify release coverage,not aesthetic mastery/current installed-host compatibility. No original edits,software adaptation,font work or deletion.",
+  "not_done": [
+    "all-material goal completion",
+    "full-score automatic engraving",
+    "user integrated round completion",
+    "new independent transfer/native candidates",
+    "exact hand/pedal/playback/physical turn and print proof"
+  ],
+  "validation": {
+    "status": "passed",
+    "original_score_sources_hash_and_pages_checked": 10,
+    "original_score_pages": 84,
+    "study_evidence_files_hashed": 5,
+    "study_viewed_image_records_hashed": 502,
+    "unique_image_paths_hashed": 463,
+    "public_native_artifact_hashes_checked": 15,
+    "skill_routes_executed": 20,
+    "local_markdown_links_checked": 394,
+    "current_skill_metadata": "0.8.0",
+    "prior_certificate_and_tag_unchanged": true,
+    "native_validation_reexecuted": false,
+    "all_material_goal_still_active": true
+  }
+}
