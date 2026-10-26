@@ -36,6 +36,8 @@
 
 <a id="sustain"></a>
 
+`curves`／`piano`的`INTEGRATED_READING_LAZY_EIEN.md`保开放余响、完整tie、legato与短动作弧的区别。竖琴制音小音指停止哪根弦，等音双弦仍是两个动作对象；播放相同／无起音不提供自动去重依据。
+
 `piano`／`notation`的`INTEGRATED_READING_COLORS_CROSSING.md`把排练缩谱减密与独奏净书分开：供读cue、替代执行、持续与必弹活动层须先识别用途。不能依据缩谱规范删独奏音、cue化或不播放；L的明确等待、D的三层入口和短拍tie接收仍保留。
 
 `piano`的`INTEGRATED_READING_CATCH_CHANGE.md`补低部休止／踏板释放以后，上表完整tie和手持层仍可继续；末尾两条旧低音链旁还有新的二分攻击。逐层核接收、新攻击和释放；斜虚线落向已有tie链，不据此补一颗新攻击或换成gliss.。
@@ -52,6 +54,8 @@
 持续提醒先分中途续行与结束边界，再分手持、中踏板已保持、无声按键与新攻击。括起持音还可能说明手已释放；菱形无声按键不能按“同样没有起音”互换。`piano`／`curves`中的`SUSTAIN_CONTINUATION.md`保留用户m135不加提示的判断，并用原创例区分字形大小、括号、cue身份和play设置；捕捉子集不等于挂接的全部和弦。增加提示是记法提议，原生与交换分别核查，不能仅由括号／sost.字串识别踏板。
 
 <a id="layout"></a>
+
+`layout`的`INTEGRATED_READING_LAZY_EIEN.md`核同一4/4在两行各写两拍，右端无小节线、另一手也对应。先合逻辑小节再量宽度；优先比较续行提示，整小节版需连相邻行重排。
 
 `overview`／`layout`的`SKILL_TRANSFER_PAGES.md`补T08：纸面p4／5可同一对开，真实D.S.却需回p3再去p5。先列实际来路和媒介；写出返回16小节、约增四系统是条件性纸谱候选。延长、事件间隔与空手窗口分查，行中H／J／K不为齐头先重排。
 
@@ -74,6 +78,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`spacing`的`INTEGRATED_READING_LAZY_EIEN.md`实测普通16分与续行6组近稳定，按各自单位／行预算保留。Lazy半音运行比例缺失，10:6／9:6仅条件重建，不能按几何步长生成已确认时间。
 
 `spacing`的`INTEGRATED_READING_DEPARTURES.md`对照两个13组：窄处变音前宽格明显，宽处近稳，先比较整行重分／符号占位。末头多一个降号，不能标为同输入；有理由列候选，不直接归因引擎。
 
@@ -118,6 +124,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`rhythm`／`beams`的`INTEGRATED_READING_LAZY_EIEN.md`保四个普通16分梁组与1／7／13重音，八分3＋3＋2不必改梁；六连第一组八分和弦＋四16分只有五次起音。
 
 `rhythm`／`beams`的`INTEGRATED_READING_DEPARTURES.md`实见15／16双梁组后各接一个单梁八分。数字不管整条主梁；先澄清括号范围，比例15:14／16:14只在末八分普通、全小节四拍的假设下成立，不生成已确认播放值。
 

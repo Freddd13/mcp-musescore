@@ -60,3 +60,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-27 Cry／Daisy批次缓存约8.21MiB，总净书缓存约2.319GiB逻辑长度；复用18张图，新增50张（23系统、25教材整页、两放大图）。无原PDF／运行时副本、删除或扫描错误，低于100MiB／3GiB检查线；[时点和精确字节](cry_daisy_closeout_evidence.json)先于最后小记录。
 
 2026-10-27 Departures批次缓存约7.56MiB，总净书缓存约2.326GiB逻辑长度；复用22张图，新增48张（29系统、17教材整页、两处梁端）。无原PDF／运行时副本、删除或清点错误；低于100MiB／3GiB检查线，[精确字节及时间](departures_closeout_evidence.json)先于最终小记录。
+
+2026-10-27 Lazy／Eien批次缓存约8.12MiB，总净书缓存约2.334GiB逻辑长度；复用23张图，新增51张。74张实际查看图含32系统及一处两行连读；旧book-142实为p122，本批另读真正p142，未删除／重计覆盖。无原PDF／运行时副本或清点错误；低于100MiB／3GiB检查线，[精确字节和时点](lazy_eien_closeout_evidence.json)先于最终小记录。
