@@ -1,0 +1,1297 @@
+{
+  "date": "2026-10-26",
+  "base_commit": "92c9b4e5ea663e24420c1d77267b1d2b995850c4",
+  "note": "MUSESCORE3_LAYOUT_READING.md",
+  "scope": "R20targeted handbook texts and Evolution source audit plus original native parameter probe;not a native engraving candidate or adaptation.",
+  "handbook": {
+    "original_scope": "MuseScore3layout chapters and Evolution differences",
+    "scope_expansion_date": "2026-10-26",
+    "scope_reason": "Unpack previously unenumerated related chapters into fixed text/figure targets;resource remains partial,all25resources retained.",
+    "primary_print_url": "https://musescore.org/en/print/book/export/html/278625?toc=1",
+    "Chinese_old_version_url": "https://musescore.org/zh-hans/handbook/3/layout-and-formatting",
+    "English_old_url": "https://musescore.org/en/handbook/3/layout-and-formatting",
+    "English_observed_redirect": "https://handbook.musescore.org/formatting/page-layout-concepts",
+    "snapshot_scope": "Current web-tool cached rendered text,not saved full HTML;line ranges locate the read sections in this snapshot,not book page counts.",
+    "text_sections_total": 8,
+    "text_sections_read": 8,
+    "sections": [
+      {
+        "name": "Layout and formatting",
+        "snapshot_lines": [
+          6794,
+          7305
+        ],
+        "text_read": true,
+        "unique_figures": 7
+      },
+      {
+        "name": "Measure and horizontal spacing",
+        "snapshot_lines": [
+          7306,
+          7361
+        ],
+        "text_read": true,
+        "unique_figures": 0
+      },
+      {
+        "name": "Page settings",
+        "snapshot_lines": [
+          7362,
+          7406
+        ],
+        "text_read": true,
+        "unique_figures": 1
+      },
+      {
+        "name": "Breaks and spacers",
+        "snapshot_lines": [
+          7407,
+          7502
+        ],
+        "text_read": true,
+        "unique_figures": 2
+      },
+      {
+        "name": "Frames",
+        "snapshot_lines": [
+          7503,
+          7656
+        ],
+        "text_read": true,
+        "unique_figures": 2
+      },
+      {
+        "name": "Align elements",
+        "snapshot_lines": [
+          7736,
+          7741
+        ],
+        "text_read": true,
+        "unique_figures": 0
+      },
+      {
+        "name": "Automatic placement",
+        "snapshot_lines": [
+          7952,
+          8063
+        ],
+        "text_read": true,
+        "unique_figures": 0
+      },
+      {
+        "name": "Beams:Local relayout only",
+        "snapshot_lines": [
+          3215,
+          3224
+        ],
+        "text_read": true,
+        "unique_figures": 2
+      }
+    ],
+    "unique_images_total": 14,
+    "unique_images_actually_viewed": 0,
+    "image_positions_total": 15,
+    "figures": [
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2018-02/score_layout.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2023-12/one_spatium.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2023-10/hspacing_wordprocessor_analogy.PNG",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2018-12/add_remove_system_breaks.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2023-10/ms3_style.PNG",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/arpeggio_and_strum_symbols.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2021-11/style_lyrics_dialog_en.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2017-11/page_settings_0.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2020-01/MS_breaks_spacers_grey_color.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/section_break_0.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/Horizontal_Frame_0.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/inspector_vertical_frame.PNG",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2017-11/normal_layout_100dpi.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      },
+      {
+        "url": "https://musescore.org/sites/musescore.org/files/2017-11/local_relayout_100dpi.png",
+        "attempt": "Web tool direct image link",
+        "result": "Cache miss",
+        "actually_viewed": false
+      }
+    ],
+    "normal_HTML_access": [
+      {
+        "name": "layout-zh",
+        "url": "https://musescore.org/zh-hans/handbook/3/layout-and-formatting",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "page-zh",
+        "url": "https://musescore.org/zh-hans/handbook/3/page-settings",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "breaks-zh",
+        "url": "https://musescore.org/zh-hans/handbook/3/breaks-and-spacers",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "measure-zh",
+        "url": "https://musescore.org/zh-hans/handbook/3/measure",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "auto-zh",
+        "url": "https://musescore.org/zh-hans/handbook/3/automatic-placement",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "name": "fujii",
+        "url": "https://note.com/fujii_taiga_m/n/nca8f66de9948",
+        "error": "<urlopen error timed out>"
+      }
+    ],
+    "status": "partial"
+  },
+  "code": {
+    "repository": "E:\\programming\\funcodes\\muse3_dev\\MuseScore",
+    "HEAD": "0e320db5d9a77bb47b62922f26bdb71991759819",
+    "files": [
+      {
+        "path": "libmscore/measure.cpp",
+        "sha256": "4a271597c8180ba6978c204fba722241ff85761de2cab528b9bd23924654a8f4",
+        "git_blob_sha256": "4a271597c8180ba6978c204fba722241ff85761de2cab528b9bd23924654a8f4"
+      },
+      {
+        "path": "libmscore/layout.cpp",
+        "sha256": "088655bf2da4a12bb2f6ea4c35ff82cffe5b07bfaaaf174ff54543a3a345933a",
+        "git_blob_sha256": "088655bf2da4a12bb2f6ea4c35ff82cffe5b07bfaaaf174ff54543a3a345933a"
+      },
+      {
+        "path": "libmscore/beam.cpp",
+        "sha256": "72398d3e00cee865d77ea8c39bd9f1572c7eac87b858d12aab8a05f981d76cbd",
+        "git_blob_sha256": "72398d3e00cee865d77ea8c39bd9f1572c7eac87b858d12aab8a05f981d76cbd"
+      },
+      {
+        "path": "libmscore/cmd.cpp",
+        "sha256": "67a5eff2f7544619d1bb8645204e830d03716b3e5a282b4c7a90d4dcf01d8780",
+        "git_blob_sha256": "67a5eff2f7544619d1bb8645204e830d03716b3e5a282b4c7a90d4dcf01d8780"
+      },
+      {
+        "path": "libmscore/style.cpp",
+        "sha256": "17b401e6c77e437c09d8558a37457c86e6e9543b8caabde505ec499c00712905",
+        "git_blob_sha256": "17b401e6c77e437c09d8558a37457c86e6e9543b8caabde505ec499c00712905"
+      },
+      {
+        "path": "libmscore/scoreElement.cpp",
+        "sha256": "c64d8b98e37c33f7f504338ea5643647f42f178006b2b3599e6f889785a383a3",
+        "git_blob_sha256": "c64d8b98e37c33f7f504338ea5643647f42f178006b2b3599e6f889785a383a3"
+      },
+      {
+        "path": "libmscore/textbase.cpp",
+        "sha256": "64fdf047a5bf243ab3df01a45943c128bb2236b21716324f9ae8b6b8b6f9f706",
+        "git_blob_sha256": "64fdf047a5bf243ab3df01a45943c128bb2236b21716324f9ae8b6b8b6f9f706"
+      },
+      {
+        "path": "libmscore/mscore.cpp",
+        "sha256": "f3714445ed9ffe5de42d95084bf33d61cfcd37e9c69592c6ef6d6212e97992bb",
+        "git_blob_sha256": "f3714445ed9ffe5de42d95084bf33d61cfcd37e9c69592c6ef6d6212e97992bb"
+      },
+      {
+        "path": "libmscore/mscore.h",
+        "sha256": "b2c89c38723944a355df708cf8a15320e662828dc8f02b784dcf73562b51ea2c",
+        "git_blob_sha256": "b2c89c38723944a355df708cf8a15320e662828dc8f02b784dcf73562b51ea2c"
+      },
+      {
+        "path": "mscore/scoreview.cpp",
+        "sha256": "0ee62c76185d7b918b057554f1de991f4f04e4e861d6fb741c8da888fa95d1e7",
+        "git_blob_sha256": "0ee62c76185d7b918b057554f1de991f4f04e4e861d6fb741c8da888fa95d1e7"
+      },
+      {
+        "path": "mscore/editstyle.cpp",
+        "sha256": "a1c4003f4e536a186585f9d74715e06291ec214d44be106e1106479e53fdef14",
+        "git_blob_sha256": "a1c4003f4e536a186585f9d74715e06291ec214d44be106e1106479e53fdef14"
+      },
+      {
+        "path": "mscore/editstyle.ui",
+        "sha256": "896a17f2564e4d150d2b4f23beb7dea787d19cc4334d41b592082df03e6aeaab",
+        "git_blob_sha256": "896a17f2564e4d150d2b4f23beb7dea787d19cc4334d41b592082df03e6aeaab"
+      },
+      {
+        "path": "mscore/pagesettings.cpp",
+        "sha256": "b06a445a17957f2f8c75412e8926d9ed091e1958c0c6b72c26cc00d5bdc3f2b0",
+        "git_blob_sha256": "b06a445a17957f2f8c75412e8926d9ed091e1958c0c6b72c26cc00d5bdc3f2b0"
+      },
+      {
+        "path": "mscore/shortcut.cpp",
+        "sha256": "1c342ec9e290df4157f3b690f86ea832ed5f8b02c1f48c636c68ec1506bcca0d",
+        "git_blob_sha256": "1c342ec9e290df4157f3b690f86ea832ed5f8b02c1f48c636c68ec1506bcca0d"
+      },
+      {
+        "path": "mscore/inspector/inspectorBeam.cpp",
+        "sha256": "03796dd7b668be72ff2df8f52e6e85d4d81ac64e541858ede4fe8a86784d42e8",
+        "git_blob_sha256": "03796dd7b668be72ff2df8f52e6e85d4d81ac64e541858ede4fe8a86784d42e8"
+      },
+      {
+        "path": "libmscore/element.cpp",
+        "sha256": "cef63d352a563ed3011f27331868b1e32fe6e5bae40c5aa7356c7b55f7a4bb9c",
+        "git_blob_sha256": "cef63d352a563ed3011f27331868b1e32fe6e5bae40c5aa7356c7b55f7a4bb9c"
+      },
+      {
+        "path": "libmscore/chord.cpp",
+        "sha256": "4bf70cd2b25d0a0415c55afc0229e0550c308926731b5ef0467b96ac2dc0ed65",
+        "git_blob_sha256": "4bf70cd2b25d0a0415c55afc0229e0550c308926731b5ef0467b96ac2dc0ed65"
+      }
+    ],
+    "file_count": 17,
+    "working_file_matches_HEAD_except_line_endings": true,
+    "read_only": true,
+    "targeted_mechanisms": [
+      {
+        "id": "M1",
+        "topic": "Spacing product/clamp versus logarithmic spring weights",
+        "locations": [
+          "libmscore/measure.cpp:3682-3743",
+          "libmscore/measure.cpp:4187-4210"
+        ],
+        "mode": "source plus five native controls"
+      },
+      {
+        "id": "M2",
+        "topic": "Selected measure stretch increment/reset",
+        "locations": [
+          "libmscore/cmd.cpp:1994-2019",
+          "libmscore/cmd.cpp:2078-2099"
+        ],
+        "mode": "source only"
+      },
+      {
+        "id": "M3",
+        "topic": "CtrlR selected reset versus all-position scan",
+        "locations": [
+          "mscore/scoreview.cpp:2973-2991",
+          "libmscore/cmd.cpp:2214-2245",
+          "libmscore/element.cpp:252-260",
+          "libmscore/chord.cpp:2945-2950",
+          "libmscore/beam.cpp:2345-2360",
+          "libmscore/scoreElement.cpp:515-519"
+        ],
+        "mode": "source only"
+      },
+      {
+        "id": "M4",
+        "topic": "Text override reset current-style fallback/all-page scope",
+        "locations": [
+          "libmscore/cmd.cpp:2144-2173",
+          "libmscore/textbase.cpp:2897-2923",
+          "libmscore/scoreElement.cpp:218-227"
+        ],
+        "mode": "source only;no undo behavior validation"
+      },
+      {
+        "id": "M5",
+        "topic": "Style/page reset subsets and configurable default style",
+        "locations": [
+          "mscore/editstyle.cpp:1143-1174",
+          "mscore/pagesettings.cpp:275-281",
+          "libmscore/style.cpp:2654-2672",
+          "libmscore/style.cpp:4329-4346",
+          "libmscore/mscore.cpp:306-318"
+        ],
+        "mode": "source only"
+      },
+      {
+        "id": "M6",
+        "topic": "Beam reset versus rhythmic regrouping",
+        "locations": [
+          "libmscore/cmd.cpp:2104-2132",
+          "libmscore/cmd.cpp:2180-2207",
+          "mscore/shortcut.cpp:780-819"
+        ],
+        "mode": "source only"
+      },
+      {
+        "id": "M7",
+        "topic": "Per-beam DISTRIBUTE only moves internal group ChordRests",
+        "locations": [
+          "mscore/inspector/inspectorBeam.cpp:23-35",
+          "libmscore/beam.cpp:1541-1545",
+          "libmscore/layout.cpp:2137-2193"
+        ],
+        "mode": "source only;no new local-relayout native pair"
+      },
+      {
+        "id": "M8",
+        "topic": "Ordinary versus multimeasure-rest minimum widths/UI mapping",
+        "locations": [
+          "mscore/editstyle.cpp:146-147",
+          "mscore/editstyle.cpp:172-175",
+          "libmscore/style.cpp:154",
+          "libmscore/style.cpp:436",
+          "mscore/editstyle.ui:4160-4169"
+        ],
+        "mode": "source only"
+      }
+    ],
+    "targeted_mechanisms_source_checked": 8,
+    "native_binary_build_commit_identity_confirmed": false
+  },
+  "native": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "runtime_manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+    "runtime_manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+    "runtime_files_verified_before": 1936,
+    "runtime_files_verified_after": 1936,
+    "private_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\handbook3-layout-2026-10-26\\native-config",
+    "private_config_precreated": true,
+    "actual_workspace_configuration_created": true,
+    "conditions": 5,
+    "successful_CLI_calls": 30,
+    "original_4format_exports": 20,
+    "native_save_reload_calls": 10,
+    "same_input_except_measureSpacing": true,
+    "original_recipe": [
+      {
+        "written_type": "quarter",
+        "onset_quarter": "0",
+        "duration_quarter": "1",
+        "pitch": 72,
+        "tpc": 14
+      },
+      {
+        "written_type": "eighth",
+        "onset_quarter": "1",
+        "duration_quarter": "1/2",
+        "pitch": 72,
+        "tpc": 14
+      },
+      {
+        "written_type": "eighth",
+        "onset_quarter": "3/2",
+        "duration_quarter": "1/2",
+        "pitch": 72,
+        "tpc": 14
+      },
+      {
+        "written_type": "half",
+        "onset_quarter": "2",
+        "duration_quarter": "2",
+        "pitch": 72,
+        "tpc": 14
+      },
+      {
+        "written_type": "whole",
+        "onset_quarter": "4",
+        "duration_quarter": "4",
+        "pitch": 72,
+        "tpc": 14
+      }
+    ],
+    "lower_full_measure_rest_quarters": "8",
+    "font_input": {
+      "musicalSymbolFont": "Leland",
+      "musicalTextFont": "Leland Text",
+      "spatium_mm": 1.57
+    },
+    "physical_page_width_mm": 210,
+    "printable_width_mm": 180,
+    "lastSystemFillLimit": 1,
+    "minMeasureWidth": 0,
+    "actual_output_analysis": {
+      "factor-080": {
+        "measureSpacing": 0.8,
+        "note_origins": [
+          {
+            "x": 540.839,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 681.614,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 769.599,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 857.583,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "7597843de33e9080ae8559a7b54f68c19e6078f251646b2efa94a06026876300"
+          },
+          {
+            "x": 1049.01,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "0b37933bed86fbf205e18b5462b23fc57ad688e23a4f15dcad5390013d0ca64c"
+          }
+        ],
+        "gaps_sp": [
+          6.326397627179579,
+          3.9540266043501724,
+          3.9539816645694743,
+          8.602687398885497
+        ],
+        "quarter_over_eighth_first_three_same_black_glyph": 1.599988634426322,
+        "measure_width_musicxml_tenths": 434.32,
+        "staff_sp_svg_units": 22.251999999999995,
+        "svg_viewbox_width": 2976.38,
+        "svg_physical_width": "210mm",
+        "native_PNG_size": [
+          1488,
+          2105
+        ],
+        "PNG_RGBA_sha256": "34c89a4526d8c91fdd8d5d77e1902a936a227248286379310659081312306d4b",
+        "MIDI_sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec",
+        "native_PNG_crop_box": [
+          150,
+          119,
+          689,
+          413
+        ],
+        "input_sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+        "musicxml_independent_five_note_recipe_verified": true,
+        "MIDI_five_exact_onsets_verified": true
+      },
+      "factor-100": {
+        "measureSpacing": 1.0,
+        "note_origins": [
+          {
+            "x": 540.839,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 681.614,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 769.599,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 857.583,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "7597843de33e9080ae8559a7b54f68c19e6078f251646b2efa94a06026876300"
+          },
+          {
+            "x": 1049.01,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "0b37933bed86fbf205e18b5462b23fc57ad688e23a4f15dcad5390013d0ca64c"
+          }
+        ],
+        "gaps_sp": [
+          6.326397627179579,
+          3.9540266043501724,
+          3.9539816645694743,
+          8.602687398885497
+        ],
+        "quarter_over_eighth_first_three_same_black_glyph": 1.599988634426322,
+        "measure_width_musicxml_tenths": 434.32,
+        "staff_sp_svg_units": 22.251999999999995,
+        "svg_viewbox_width": 2976.38,
+        "svg_physical_width": "210mm",
+        "native_PNG_size": [
+          1488,
+          2105
+        ],
+        "PNG_RGBA_sha256": "34c89a4526d8c91fdd8d5d77e1902a936a227248286379310659081312306d4b",
+        "MIDI_sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec",
+        "native_PNG_crop_box": [
+          150,
+          119,
+          689,
+          413
+        ],
+        "input_sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+        "musicxml_independent_five_note_recipe_verified": true,
+        "MIDI_five_exact_onsets_verified": true
+      },
+      "factor-120": {
+        "measureSpacing": 1.2,
+        "note_origins": [
+          {
+            "x": 540.839,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 711.708,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 818.502,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 925.296,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "7597843de33e9080ae8559a7b54f68c19e6078f251646b2efa94a06026876300"
+          },
+          {
+            "x": 1158.1,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "0b37933bed86fbf205e18b5462b23fc57ad688e23a4f15dcad5390013d0ca64c"
+          }
+        ],
+        "gaps_sp": [
+          7.678815387380907,
+          4.799298939421176,
+          4.799298939421181,
+          10.462160704655757
+        ],
+        "quarter_over_eighth_first_three_same_black_glyph": 1.599986890649287,
+        "measure_width_musicxml_tenths": 507.02,
+        "staff_sp_svg_units": 22.251999999999995,
+        "svg_viewbox_width": 2976.38,
+        "svg_physical_width": "210mm",
+        "native_PNG_size": [
+          1488,
+          2105
+        ],
+        "PNG_RGBA_sha256": "196423e87636622a0908569c48c322029163fa04a9fd3d95b401b21b6faeeed8",
+        "MIDI_sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec",
+        "native_PNG_crop_box": [
+          150,
+          119,
+          770,
+          413
+        ],
+        "input_sha256": "6c43635e4cbbf6135dffdad901606489e764daccc6e6fabe9b729c076c94ed36",
+        "musicxml_independent_five_note_recipe_verified": true,
+        "MIDI_five_exact_onsets_verified": true
+      },
+      "factor-162": {
+        "measureSpacing": 1.62,
+        "note_origins": [
+          {
+            "x": 540.839,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 774.907,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 921.2,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 1067.49,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "7597843de33e9080ae8559a7b54f68c19e6078f251646b2efa94a06026876300"
+          },
+          {
+            "x": 1387.2,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "0b37933bed86fbf205e18b5462b23fc57ad688e23a4f15dcad5390013d0ca64c"
+          }
+        ],
+        "gaps_sp": [
+          10.518964587452814,
+          6.574375337048357,
+          6.574240517706273,
+          14.36769728563725
+        ],
+        "quarter_over_eighth_first_three_same_black_glyph": 1.5999945315223554,
+        "measure_width_musicxml_tenths": 659.67,
+        "staff_sp_svg_units": 22.251999999999995,
+        "svg_viewbox_width": 2976.38,
+        "svg_physical_width": "210mm",
+        "native_PNG_size": [
+          1488,
+          2105
+        ],
+        "PNG_RGBA_sha256": "709edffb40efbf778a48e4908632a452e778632c6b6c058a0c75af9c45ce81d5",
+        "MIDI_sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec",
+        "native_PNG_crop_box": [
+          150,
+          119,
+          939,
+          413
+        ],
+        "input_sha256": "215c2df34dcc9153c138938aa3896104a54c752f8322a627ecd91299c7f79f62",
+        "musicxml_independent_five_note_recipe_verified": true,
+        "MIDI_five_exact_onsets_verified": true
+      },
+      "factor-200": {
+        "measureSpacing": 2.0,
+        "note_origins": [
+          {
+            "x": 540.839,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 832.086,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 1014.12,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          },
+          {
+            "x": 1196.15,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "7597843de33e9080ae8559a7b54f68c19e6078f251646b2efa94a06026876300"
+          },
+          {
+            "x": 1594.47,
+            "y": 401.74,
+            "scale": 0.890079,
+            "glyph_sha256": "0b37933bed86fbf205e18b5462b23fc57ad688e23a4f15dcad5390013d0ca64c"
+          }
+        ],
+        "gaps_sp": [
+          13.08857630774762,
+          8.180568038827971,
+          8.1803882797052,
+          17.900413445982384
+        ],
+        "quarter_over_eighth_first_three_same_black_glyph": 1.599959348253623,
+        "measure_width_musicxml_tenths": 797.79,
+        "staff_sp_svg_units": 22.251999999999995,
+        "svg_viewbox_width": 2976.38,
+        "svg_physical_width": "210mm",
+        "native_PNG_size": [
+          1488,
+          2105
+        ],
+        "PNG_RGBA_sha256": "abf96c38b0df13d3cc26af2fad21389e566ea074cd9cef3395254573abc72e37",
+        "MIDI_sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec",
+        "native_PNG_crop_box": [
+          150,
+          119,
+          1093,
+          413
+        ],
+        "input_sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+        "musicxml_independent_five_note_recipe_verified": true,
+        "MIDI_five_exact_onsets_verified": true
+      }
+    },
+    "reload_checks": [
+      {
+        "name": "factor-120",
+        "svg_classed_draws_equal": true,
+        "PNG_dimensions_and_RGBA_equal": true,
+        "complete_MIDI_equal": true,
+        "MusicXML_except_encoding_date_equal": true,
+        "saved_sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3"
+      },
+      {
+        "name": "factor-162",
+        "svg_classed_draws_equal": true,
+        "PNG_dimensions_and_RGBA_equal": true,
+        "complete_MIDI_equal": true,
+        "MusicXML_except_encoding_date_equal": true,
+        "saved_sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287"
+      }
+    ],
+    "processes": [
+      {
+        "case": "factor-080",
+        "format": "svg",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080-1.svg"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080-svg.log"
+      },
+      {
+        "case": "factor-080",
+        "format": "png",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080-1.png"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080-png.log"
+      },
+      {
+        "case": "factor-080",
+        "format": "musicxml",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080.musicxml"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080-musicxml.log"
+      },
+      {
+        "case": "factor-080",
+        "format": "mid",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080.mid"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080-mid.log"
+      },
+      {
+        "case": "factor-100",
+        "format": "svg",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100-1.svg"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100-svg.log"
+      },
+      {
+        "case": "factor-100",
+        "format": "png",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100-1.png"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100-png.log"
+      },
+      {
+        "case": "factor-100",
+        "format": "musicxml",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100.musicxml"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100-musicxml.log"
+      },
+      {
+        "case": "factor-100",
+        "format": "mid",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100.mid"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100-mid.log"
+      },
+      {
+        "case": "factor-120",
+        "format": "svg",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-1.svg"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-svg.log"
+      },
+      {
+        "case": "factor-120",
+        "format": "png",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-1.png"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-png.log"
+      },
+      {
+        "case": "factor-120",
+        "format": "musicxml",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120.musicxml"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-musicxml.log"
+      },
+      {
+        "case": "factor-120",
+        "format": "mid",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120.mid"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-mid.log"
+      },
+      {
+        "case": "factor-162",
+        "format": "svg",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-1.svg"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-svg.log"
+      },
+      {
+        "case": "factor-162",
+        "format": "png",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-1.png"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-png.log"
+      },
+      {
+        "case": "factor-162",
+        "format": "musicxml",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162.musicxml"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-musicxml.log"
+      },
+      {
+        "case": "factor-162",
+        "format": "mid",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162.mid"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-mid.log"
+      },
+      {
+        "case": "factor-200",
+        "format": "svg",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200-1.svg"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200-svg.log"
+      },
+      {
+        "case": "factor-200",
+        "format": "png",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200-1.png"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200-png.log"
+      },
+      {
+        "case": "factor-200",
+        "format": "musicxml",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200.musicxml"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200-musicxml.log"
+      },
+      {
+        "case": "factor-200",
+        "format": "mid",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200.mid"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200-mid.log"
+      },
+      {
+        "case": "factor-120",
+        "step": "save",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/factor-120-saved.mscx"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload-save.log"
+      },
+      {
+        "case": "factor-120",
+        "step": "svg",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload-1.svg"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload-svg.log"
+      },
+      {
+        "case": "factor-120",
+        "step": "png",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload-1.png"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload-png.log"
+      },
+      {
+        "case": "factor-120",
+        "step": "musicxml",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload.musicxml"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload-musicxml.log"
+      },
+      {
+        "case": "factor-120",
+        "step": "mid",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload.mid"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload-mid.log"
+      },
+      {
+        "case": "factor-162",
+        "step": "save",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/factor-162-saved.mscx"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload-save.log"
+      },
+      {
+        "case": "factor-162",
+        "step": "svg",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload-1.svg"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload-svg.log"
+      },
+      {
+        "case": "factor-162",
+        "step": "png",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload-1.png"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload-png.log"
+      },
+      {
+        "case": "factor-162",
+        "step": "musicxml",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload.musicxml"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload-musicxml.log"
+      },
+      {
+        "case": "factor-162",
+        "step": "mid",
+        "returncode": 0,
+        "outputs": [
+          "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload.mid"
+        ],
+        "log": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload-mid.log"
+      }
+    ],
+    "output_hashes": [
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080-1.svg",
+        "sha256": "572ad5f6e07bcd5ddc45af0f276d34e15ac19de17abe189514aac163642e51b1"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080-1.png",
+        "sha256": "1cd3a792f1cef6c2d43e983662c12b19374fa88303c8d9c4fdedb25281358310"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080.musicxml",
+        "sha256": "f71f96f439bacd60f499ea3954fd09e0fb9109aef71448dcbc6796574296c50b"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-080.mid",
+        "sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100-1.svg",
+        "sha256": "ac16d76968d493c62f1ddb72fccc8126479f63d3bbf738f72158b26e12fa22e2"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100-1.png",
+        "sha256": "1cd3a792f1cef6c2d43e983662c12b19374fa88303c8d9c4fdedb25281358310"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100.musicxml",
+        "sha256": "f71f96f439bacd60f499ea3954fd09e0fb9109aef71448dcbc6796574296c50b"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-100.mid",
+        "sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-1.svg",
+        "sha256": "53f280c6e21585173074d8b81dfb4f418d43c6435803915162df515a82fe7c04"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-1.png",
+        "sha256": "74683841a4f60642c8393166c066947bf6178c87c2bb270e9679bee47dd5616c"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120.musicxml",
+        "sha256": "bd349a0232443e8662be3418cd780755006a530ebfaa0c64e1b65f9c04b7fa2f"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120.mid",
+        "sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-1.svg",
+        "sha256": "32fcb8a65d2535d4b6a1dd9384e0bbbac4556efe86b2c5d7aa9c91e71c1074f4"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-1.png",
+        "sha256": "96194a219537d3998ccd5f6afbbf3d31a2b40e7b4b727fb1c3974b15d83d0609"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162.musicxml",
+        "sha256": "cc71601c1d6e3cb73543c8f191256beadac51c2839a084ea2b3b92de19fcea14"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162.mid",
+        "sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200-1.svg",
+        "sha256": "62066fe5227bc7841a7e30e6a5d709fb6d5bd76df0df53bbf73e75da12895443"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200-1.png",
+        "sha256": "d2c0508d741b28f148a9ce6bc7b42996172d15410989b49223399bc30d985113"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200.musicxml",
+        "sha256": "4437edcbbe07bbe0f56a238fe1881ee641fc0b7e7950aaf8a3ce36c3483d60bb"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-200.mid",
+        "sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/factor-120-saved.mscx",
+        "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload-1.svg",
+        "sha256": "8cae09f4261b4dc3aaf6afcc58986baf0a1a4b63e4f098f5591a42ac47c92c29"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload-1.png",
+        "sha256": "74683841a4f60642c8393166c066947bf6178c87c2bb270e9679bee47dd5616c"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload.musicxml",
+        "sha256": "bd349a0232443e8662be3418cd780755006a530ebfaa0c64e1b65f9c04b7fa2f"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-120-reload.mid",
+        "sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/factor-162-saved.mscx",
+        "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload-1.svg",
+        "sha256": "d7535fd991e8b8891a3fbad4292107432b565ebc8ab1e5e204134e5e9fa595bf"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload-1.png",
+        "sha256": "96194a219537d3998ccd5f6afbbf3d31a2b40e7b4b727fb1c3974b15d83d0609"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload.musicxml",
+        "sha256": "cc71601c1d6e3cb73543c8f191256beadac51c2839a084ea2b3b92de19fcea14"
+      },
+      {
+        "path": "tmp/engraving/handbook3-layout-2026-10-26/exports/factor-162-reload.mid",
+        "sha256": "cdfa788c3caadb0f96447c0b3b035a22c689971f3aaeea71c16a7e34c6e64eec"
+      }
+    ],
+    "actually_viewed_visual": {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c",
+      "native_full_systems_shown": 5,
+      "common_physical_scale": true,
+      "actually_viewed": true,
+      "composition": "Native PNG to white,whole-system crops,labels outside notation;no music movement/scaling."
+    },
+    "public_inputs": [
+      {
+        "name": "factor-080",
+        "measureSpacing": 0.8,
+        "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+        "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+        "private_source": "tmp/engraving/handbook3-layout-2026-10-26/factor-080.mscx",
+        "private_source_sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+        "line_endings_normalized": false,
+        "native_save_reload_verified": false
+      },
+      {
+        "name": "factor-100",
+        "measureSpacing": 1.0,
+        "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+        "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+        "private_source": "tmp/engraving/handbook3-layout-2026-10-26/factor-100.mscx",
+        "private_source_sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+        "line_endings_normalized": false,
+        "native_save_reload_verified": false
+      },
+      {
+        "name": "factor-120",
+        "measureSpacing": 1.2,
+        "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+        "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+        "private_source": "tmp/engraving/handbook3-layout-2026-10-26/factor-120-saved.mscx",
+        "private_source_sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+        "line_endings_normalized": false,
+        "native_save_reload_verified": true
+      },
+      {
+        "name": "factor-162",
+        "measureSpacing": 1.62,
+        "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+        "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+        "private_source": "tmp/engraving/handbook3-layout-2026-10-26/factor-162-saved.mscx",
+        "private_source_sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+        "line_endings_normalized": false,
+        "native_save_reload_verified": true
+      },
+      {
+        "name": "factor-200",
+        "measureSpacing": 2.0,
+        "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+        "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+        "private_source": "tmp/engraving/handbook3-layout-2026-10-26/factor-200.mscx",
+        "private_source_sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+        "line_endings_normalized": false,
+        "native_save_reload_verified": false
+      }
+    ],
+    "new_runtime_copies": 0,
+    "new_original_score_copies": 0,
+    "new_engraving_candidates": 0
+  },
+  "decisions": [
+    "Do not map EvolutionmeasureSpacing numeric values directly to Dorico duration-spacing ratio",
+    "Keep budget,temporal weights,shape minimum and optical notehead positions separate",
+    "Never replace scoped selected reset with all-page/all-style resets",
+    "Beam-local respace is not a joint rhythmic-column operation",
+    "Preserve ordinary/MM-rest width distinction"
+  ],
+  "not_performed": [
+    "manual figures reading",
+    "new corpus/Gould coverage",
+    "reset-command runtime or undo validation",
+    "new local-relayout pair",
+    "user score edit",
+    "MCP/plugin/core adaptation",
+    "font work",
+    "file deletion",
+    "physical print/user preference evaluation"
+  ],
+  "validation": {
+    "status": "passed",
+    "unchanged_counts": {
+      "corpus": "30/146",
+      "Gould": "421/696=401+20",
+      "resources": "11/25",
+      "fixed_transfer": "8/8",
+      "user_integrated": "0/1"
+    },
+    "handbook_scope": "8/8text sections,0/14official figures;R20partial",
+    "source_files_hash_and_HEAD_checked": 17,
+    "source_mechanisms_checked": 8,
+    "native_CLI_successes": 30,
+    "native_conditions": 5,
+    "native_saved_reloaded_conditions": 2,
+    "public_input_hashes_checked": 5,
+    "actually_viewed_native_comparison_hash_checked": true,
+    "all20_skill_routes_executed": true,
+    "local_markdown_links_checked": 601,
+    "LF_checked_for_changed_text": true,
+    "runtime_files_hash_checked": 1936,
+    "no_source_repository_edits": true,
+    "original_score_files_used": 0,
+    "new_engraving_candidates": 0,
+    "files_deleted": 0
+  },
+  "cache": {
+    "batch_logical_bytes": 559006,
+    "total_logical_bytes": 2463183828,
+    "total_on_disk_bytes": 2321894601,
+    "batch_review_threshold_bytes": 104857600,
+    "total_review_threshold_bytes": 3221225472,
+    "new_runtime_copies": 0,
+    "source_PDF_or_score_copies": 0,
+    "files_deleted": 0,
+    "measure": "Logical lengths plus separate Windows per-path storage report;snapshot precedes final helper records,not volume delta."
+  }
+}

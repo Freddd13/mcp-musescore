@@ -275,3 +275,11 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - 密集版38次音符起音、九个必要符号：[保留默认](twenty-to-six-cluster-default.mscx)／[拒绝的均匀目标](twenty-to-six-cluster-uniform-rejected.mscx)／[同框图](twenty-to-six-cluster-comparison.png)。两份仅原生四格式导出核查，未认证保存重载。必要占位仍在，拒绝版把后续头推右约3.175sp。
 
 [研究与理由](../TWENTY_TO_SIX_OCCUPANCY_STUDY.md)、[实际配方及证据](../twenty_to_six_occupancy_evidence.json)。10完整条件、53次成功CLI；没有参考音乐摘录、用户原件改动、实曲迁移、打印或用户采用。
+
+## 全局Spacing的五档参数控制
+
+原创CC0钢琴双表、一小节8/4；上表五个C5为四分／八分／八分／二分／全音符，下表整小节休止。固定Leland／Leland Text、1.57mm sp与180mm版心，末系统不撑满。只改变全局measureSpacing，用于理解控制意义。
+
+- [0.8诊断输入](spacing-factor-080.mscx)／[1.0](spacing-factor-100.mscx)／[1.2](spacing-factor-120.mscx)／[1.62](spacing-factor-162.mscx)／[2.0](spacing-factor-200.mscx)；[五层原生同框图](spacing-factor-comparison.png)。
+- 五版独立配方及五个实际MIDI起点保持，完整MIDI相同；0.8与1.0的原始RGBA相同，界面最低1，0.8仅作诊断。1.2／1.62发布输入已原生保存并重载，SVG／RGBA／完整MIDI／MusicXML除编码日期保持。其余三版仅核四格式导出。
+- 图保完整双表与同一物理比例，文字标签位于音乐之外；只合白底并裁页空白。它是参数控制，不是美化候选、审美选择或全谱预设；[理由与手册缺图](../MUSESCORE3_LAYOUT_READING.md)、[来源及证据](../musescore3_layout_reading_evidence.json)。
