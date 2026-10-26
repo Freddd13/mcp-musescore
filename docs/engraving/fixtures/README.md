@@ -266,3 +266,12 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - 两份发布输入都经过原生保存，再次重载的SVG／原始RGBA／完整MIDI／MusicXML除日期精确保持。四个5及完整两手和后续小节均在图内。
 
 三宽度、初步移位的连带变化、两探针和限定检查见[研究](../TWENTY_TO_SIX_SPACING_STUDY.md)与[证据](../twenty_to_six_spacing_evidence.json)。没有参考音乐摘录、实际工程迁移、打印或用户采用；100mm内部候选仍两行。
+
+## 20对6：单变音与密集二度和弦
+
+接前一无变音练习，仍为原创CC0两小节4/4及四五连／六入口；固定Leland／Leland Text、1.57mm sp、140mm版心。
+
+- 单变音34次音符起音、三个必要符号：[默认](twenty-to-six-single-default.mscx)／[保护占位候选](twenty-to-six-single-candidate.mscx)／[原生同框图](twenty-to-six-single-comparison.png)。两份均原生保存并再次重载验证，候选补第一小节预算，后续变化小于0.001sp。
+- 密集版38次音符起音、九个必要符号：[保留默认](twenty-to-six-cluster-default.mscx)／[拒绝的均匀目标](twenty-to-six-cluster-uniform-rejected.mscx)／[同框图](twenty-to-six-cluster-comparison.png)。两份仅原生四格式导出核查，未认证保存重载。必要占位仍在，拒绝版把后续头推右约3.175sp。
+
+[研究与理由](../TWENTY_TO_SIX_OCCUPANCY_STUDY.md)、[实际配方及证据](../twenty_to_six_occupancy_evidence.json)。10完整条件、53次成功CLI；没有参考音乐摘录、用户原件改动、实曲迁移、打印或用户采用。

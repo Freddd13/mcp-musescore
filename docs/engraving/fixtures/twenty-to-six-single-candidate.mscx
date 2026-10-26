@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="3.02">
+  <programVersion>3.6.3</programVersion>
+  <programRevision></programRevision>
+  <Score>
+    <LayerTag id="0" tag="default"></LayerTag>
+    <currentLayer>0</currentLayer>
+    <Division>480</Division>
+    <Style>
+      <pageWidth>6.69291</pageWidth>
+      <pageHeight>11.6929</pageHeight>
+      <pagePrintableWidth>5.51181</pagePrintableWidth>
+      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+      <akkoladeDistance>8.5</akkoladeDistance>
+      <lastSystemFillLimit>0</lastSystemFillLimit>
+      <showMeasureNumberOne>1</showMeasureNumberOne>
+      <measureNumberInterval>1</measureNumberInterval>
+      <Spatium>1.57</Spatium>
+      </Style>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <metaTag name="arranger"></metaTag>
+    <metaTag name="composer"></metaTag>
+    <metaTag name="copyright"></metaTag>
+    <metaTag name="creationDate">2026-10-26</metaTag>
+    <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="poet"></metaTag>
+    <metaTag name="source">CC0-1.0 independent original piano spacing study with necessary accidentals and optional second-clusters. No reference or user score transcription.</metaTag>
+    <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workTitle"></metaTag>
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>std</name>
+          </StaffType>
+        <bracket type="1" span="2" col="0"/>
+        </Staff>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>std</name>
+          </StaffType>
+        <defaultClef>F</defaultClef>
+        </Staff>
+      <trackName>Piano</trackName>
+      <Instrument id="piano">
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName></trackName>
+        <instrumentId>keyboard.piano</instrumentId>
+        <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Staff id="1">
+      <Measure>
+        <stretch>0.993613</stretch>
+        <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>5</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>5</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.0567152" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.113386" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.170101" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.226771" y="0"/>
+            <BeamMode>end</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>5</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>5</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <offset x="0.283486" y="0"/>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.340157" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.396872" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="-0.0623444" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="-0.00535952" y="0"/>
+            <BeamMode>end</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>5</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>5</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <offset x="0.051176" y="0"/>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.107711" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.11861" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.175146" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.232131" y="0"/>
+            <BeamMode>end</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>4</normalNotes>
+            <actualNotes>5</actualNotes>
+            <baseNote>16th</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>5</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <offset x="0.288666" y="0"/>
+            <BeamMode>begin</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.345202" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.402186" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="-0.0569849" y="0"/>
+            <BeamMode>mid</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <BeamMode>end</BeamMode>
+            <durationType>16th</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      </Staff>
+    <Staff id="2">
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.283486" y="0"/>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.167309" y="0"/>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.051176" y="0"/>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.288666" y="0"/>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <offset x="0.172601" y="0"/>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>43</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>36</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      </Staff>
+    </Score>
+  </museScore>
