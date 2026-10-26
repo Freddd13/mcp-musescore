@@ -1,0 +1,463 @@
+{
+  "date": "2026-10-27",
+  "version": "0.7.0",
+  "tag": "engraving-v0.7.0",
+  "publication_base_commit": "2e7649aa9111e260e591d1f4358dcc5d8e362106",
+  "previous_release": {
+    "version": "0.6.0",
+    "tag_commit": "8528ef038708e6402ab11817c1583973118a8ed5",
+    "certificate_sha256": "5e9e1643d5341ed18be092522e4ec770f2307912200a2171a745d0d67e1379c5"
+  },
+  "progress_snapshot": {
+    "as_of": "2026-10-27",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      44,
+      146
+    ],
+    "gould_pages_conservative": [
+      517,
+      696
+    ],
+    "gould_substantive_pages": 478,
+    "gould_non_substantive_pages": 39,
+    "gould_title_or_contents_pages": 39,
+    "public_resource_scopes": [
+      11,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ],
+    "user_milestones": [
+      2,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.7.0"
+  },
+  "changes_since_0_6_0": {
+    "new_all_score_closeouts": 10,
+    "new_whole_score_pages": 63,
+    "new_Gould_substantive_pages": 56,
+    "new_Gould_ancillary_pages": 16,
+    "new_complete_resource_scopes": 0,
+    "new_fixed_skill_transfer_scenarios": 0,
+    "new_native_candidate_scenarios": 0
+  },
+  "sources_checked": [
+    {
+      "id": "A033",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Cry Baby - Tokyo Revengers - Opening Theme.pdf",
+      "sha256": "dfbfff9cabfa67eea896855f4d1a9ac39e2f803167f79549c078fafc373b023c",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A034",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Daisy - Kyoukai no Kanata - Ending Theme.pdf",
+      "sha256": "96bce648e3b8fa285397d6abe5e8ff9e9748a766ed299fd6f498bef333a621e3",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A036",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\departure! - Hunter × Hunter - Opening Theme.pdf",
+      "sha256": "04cfc95f6e2305cfc52a7cb831309602ae15021589d6ebb69246bb34f5a007e1",
+      "pages": 9,
+      "read_only": true
+    },
+    {
+      "id": "A037",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Departures - Guilty Crown - 1st Ending Theme.pdf",
+      "sha256": "d3969bde440269e6daadcd2f6c3a09c705cd33f96915ddc9de987addd742db28",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A040",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\EONIAN - Expelled from Paradise - Theme song.pdf",
+      "sha256": "9ebee9d51247c7e96b49759418a30dd62e79e3de59686315dd54b347f8cf01f4",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A041",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Euterpe - Guilty Crown - Soundtrack.pdf",
+      "sha256": "972e9d9b8f7e0ad5a2eb09eb402dfdd769acd0a2d761fc71fd469142f8be3038",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A042",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Everyday World - Oregairu Zoku - Ending Theme.pdf",
+      "sha256": "c1eda02db59df97c9e8552ccde6e6290efdb4e3f088eae40b91c0bbb00569ff7",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A043",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Extra Magic Hour - Amagi Brilliant Park - Opening Theme.pdf",
+      "sha256": "be057219e649d62a5335c090f03293e0d7d8a9044c9faaf299235c3724aebad9",
+      "pages": 8,
+      "read_only": true
+    },
+    {
+      "id": "A038",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Don't say lazy - K-ON! - Ending Theme.pdf",
+      "sha256": "f77b2baae91a5df19c5819bd4d5e5f6c1984c4c0b049d3b297da68c096c9d0a5",
+      "pages": 8,
+      "read_only": true
+    },
+    {
+      "id": "A039",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Eien no Fuzai Shoumei - Detective Conan Movie The Scarlet Bullet - Theme Song.pdf",
+      "sha256": "4a168e1174f1bc2fae62f5778053a19caaf26fe58b40644046cc770c82dc91bc",
+      "pages": 5,
+      "read_only": true
+    }
+  ],
+  "study_evidence_hashes": [
+    {
+      "path": "cry_daisy_closeout_evidence.json",
+      "sha256": "eb32a21cfcaffa5138f7656453383dac6f2b068394e1435eb2afa91608f5b67f",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_pages_checks": 3,
+        "actually_viewed_images_hashed": 68,
+        "whole_score_pages": 10,
+        "whole_systems": 58,
+        "skill_routes_executed": 20,
+        "skill_topics_new_case_linked": 7,
+        "local_markdown_links_checked": 635,
+        "selected_rational_recipes_checked": 15,
+        "matched_original_source_heads": 50,
+        "new_score_closeouts": 2,
+        "new_book_substantive_pages": 10,
+        "new_book_ancillary_pages": 8,
+        "reference_table_pages_within_substantive": 1,
+        "new_native_candidates_this_batch": 0,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "current_release_snapshot_tag_and_certificate_unchanged": true,
+        "skill_metadata_unchanged": "0.6.0",
+        "cache_errors": 0,
+        "all_material_goal": "active"
+      }
+    },
+    {
+      "path": "departures_closeout_evidence.json",
+      "sha256": "3eb7775eb086fdf322f3fb79117ce7eb9985bd2979731168d8e9f4fe8bc949b2",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_pages_checks": 3,
+        "actually_viewed_images_hashed": 70,
+        "whole_score_pages": 15,
+        "whole_systems": 87,
+        "selected_duration_recipes": 18,
+        "conditional_boundary_reconstructions": 2,
+        "original_source_head_origins_verified": 59,
+        "skill_routes_executed": 20,
+        "new_case_routes_linked": 7,
+        "local_markdown_links_checked": 586,
+        "new_book_substantive_pages": 8,
+        "new_book_ancillary_pages": 2,
+        "new_whole_question_closeouts": 2,
+        "not_a_general_accuracy_measure": true,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "new_native_or_adaptation": 0,
+        "release_0_6_0_tag_and_certificate_unchanged": true,
+        "all_material_goal": "active"
+      }
+    },
+    {
+      "path": "eonian_euterpe_closeout_evidence.json",
+      "sha256": "61154857a4ca0f33c25e27779ae6fa1e9fc3310ee489cfecd189ef9ce640181d",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_pages_checks": 3,
+        "actually_viewed_images_hashed": 86,
+        "whole_score_pages": 11,
+        "whole_systems": 64,
+        "selected_duration_recipes": 21,
+        "original_head_origins_verified": 90,
+        "source_ledger_line_geometry_verified": true,
+        "compression_and_equalwide_budget_recomputed": true,
+        "skill_routes_executed": 20,
+        "new_case_routes_linked": 7,
+        "local_markdown_links_checked": 603,
+        "new_book_substantive_pages": 17,
+        "new_book_ancillary_pages": 3,
+        "new_whole_question_closeouts": 2,
+        "not_a_general_accuracy_measure": true,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "new_native_or_adaptation": 0,
+        "release_0_6_0_tag_and_certificate_unchanged": true,
+        "all_material_goal": "active"
+      }
+    },
+    {
+      "path": "everyday_extra_closeout_evidence.json",
+      "sha256": "1da6a717a7a393a55a981c620c9b6f25d187ae9da9c3873318e91d3b909c6d8a",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_page_checks": 3,
+        "actually_viewed_images_hashed": 79,
+        "whole_score_pages": 14,
+        "whole_systems": 80,
+        "selected_duration_recipes": 24,
+        "original_head_origins_verified": 169,
+        "five_group_midpoint_geometry_recomputed": 16,
+        "skill_routes_executed": 20,
+        "new_case_routes_linked": 7,
+        "local_markdown_links_checked": 631,
+        "new_book_substantive_pages": 10,
+        "new_book_ancillary_pages": 2,
+        "new_whole_question_closeouts": 2,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "new_native_or_adaptation": 0,
+        "release_0_6_0_tag_and_certificate_unchanged": true,
+        "all_material_goal": "active"
+      }
+    },
+    {
+      "path": "lazy_eien_closeout_evidence.json",
+      "sha256": "f0669cf8b54f4b0e9b306b380ca95b58f2c16a353504fed61a491f0292165504",
+      "validation": {
+        "status": "passed",
+        "source_hash_and_pages_checks": 3,
+        "actually_viewed_images_hashed": 74,
+        "whole_score_pages": 13,
+        "whole_systems": 75,
+        "selected_duration_recipes": 20,
+        "conditional_run_reconstructions": 2,
+        "original_head_origins_verified": 49,
+        "split_bar_line_positions_verified": true,
+        "skill_routes_executed": 20,
+        "new_case_routes_linked": 8,
+        "local_markdown_links_checked": 653,
+        "new_book_substantive_pages": 11,
+        "new_book_ancillary_pages": 1,
+        "new_whole_question_closeouts": 2,
+        "not_a_general_accuracy_measure": true,
+        "original_files_written": 0,
+        "files_deleted": 0,
+        "new_native_or_adaptation": 0,
+        "release_0_6_0_tag_and_certificate_unchanged": true,
+        "all_material_goal": "active"
+      }
+    }
+  ],
+  "public_native_artifacts_checked": [
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-comparison.png",
+      "sha256": "e7e1ed14f8bde83ab11a8b720d4ebbfed79ee60eedcceae65f30777ac6f22b02",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-default.mscx",
+      "sha256": "137f7fa6296adcc9a57cc769ec0a7f11cdd4107e2bfe3c01b7d06e00deaccc93",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-uniform-rejected.mscx",
+      "sha256": "05613fe6a3f46f1220bb1bff3e87cfb6504dd4f66c1e31c3b99dde9cd8d4303c",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-comparison.png",
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-default.mscx",
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-pulse-candidate.mscx",
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-candidate.mscx",
+      "sha256": "9595459dcd6a8d79adccff31af0998fbffcf613c5f49aa13e17e6fe9795badff",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-comparison.png",
+      "sha256": "a3bfd34a884ff6db9b71ecabe11d3eb90dfda971b617b02b4151b17e3c045cbc",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-default.mscx",
+      "sha256": "55718a3d194aadab49bd1fed9ec2d8a44a2ca18e1ba41eac99b3172fdec2ff48",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+      "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+      "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+      "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+      "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+      "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+      "unchanged_from_0_6_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c",
+      "unchanged_from_0_6_0": true
+    }
+  ],
+  "skill_routes": [
+    {
+      "topic": "overview",
+      "references": 7
+    },
+    {
+      "topic": "spacing",
+      "references": 21
+    },
+    {
+      "topic": "rhythm",
+      "references": 15
+    },
+    {
+      "topic": "tempo",
+      "references": 11
+    },
+    {
+      "topic": "beams",
+      "references": 6
+    },
+    {
+      "topic": "curves",
+      "references": 9
+    },
+    {
+      "topic": "markings",
+      "references": 4
+    },
+    {
+      "topic": "ornaments",
+      "references": 4
+    },
+    {
+      "topic": "glissandi",
+      "references": 4
+    },
+    {
+      "topic": "clefs",
+      "references": 4
+    },
+    {
+      "topic": "octaves",
+      "references": 9
+    },
+    {
+      "topic": "navigation",
+      "references": 8
+    },
+    {
+      "topic": "piano",
+      "references": 19
+    },
+    {
+      "topic": "cross-staff",
+      "references": 6
+    },
+    {
+      "topic": "notation",
+      "references": 15
+    },
+    {
+      "topic": "layout",
+      "references": 13
+    },
+    {
+      "topic": "sources",
+      "references": 7
+    },
+    {
+      "topic": "cases",
+      "references": 3
+    },
+    {
+      "topic": "baseline",
+      "references": 3
+    },
+    {
+      "topic": "implementation",
+      "references": 1
+    }
+  ],
+  "native_validation_reexecuted_for_release": false,
+  "scope": "Source/package checks and actual image records verify release coverage,not aesthetic mastery or current installed-host compatibility. No original edits,software adaptation,font work or deletion.",
+  "not_done": [
+    "all-material goal completion",
+    "full-score automatic engraving",
+    "user integrated round completion",
+    "exact free-cadence/hand/pedal execution",
+    "new physical print or aesthetic proof"
+  ],
+  "validation": {
+    "status": "passed",
+    "original_score_sources_hash_and_pages_checked": 10,
+    "original_score_pages": 63,
+    "study_evidence_files_hashed": 5,
+    "study_viewed_image_records_hashed": 377,
+    "public_native_artifact_hashes_checked": 15,
+    "skill_routes_executed": 20,
+    "local_markdown_links_checked": 363,
+    "current_skill_metadata": "0.7.0",
+    "prior_certificate_and_tag_unchanged": true,
+    "native_validation_reexecuted": false,
+    "all_material_goal_still_active": true
+  }
+}
