@@ -180,3 +180,7 @@ p338菱形头在无声按键语境中表示提起对应制音器、保留共鸣�
 ## 2026-10-27：同表不同层与手接管分别保护
 
 [Grand Escape／Great Days](INTEGRATED_READING_GRAND_GREAT.md)：A051两小节反复上部mp／下部p同属上谱表，A的下表mp延迟进入；B高层与下旋律、C／E及H局部手提示各有作用。H上表两个休止配合下部接管，不补成满串；K上部开口留声和下部完整tie分读。A052 M共享梁不抹掉先后时位。
+
+## 2026-10-27：旗尾、共头与附加干须按角色读
+
+[Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A053 F下表附点8休止后是正常字号16及六个8，非grace；上p sub.／下mp、C同音长保持与运动、H／J附加旋律保留。A054 H同位置提示干不生成额外攻击，慢层接收和新音逐头核。

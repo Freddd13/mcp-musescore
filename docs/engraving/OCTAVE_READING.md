@@ -108,3 +108,7 @@ MPA补图本轮未完成：官方20页入口仍可读取，但截图无可见像
 ## 2026-10-27：抬高的续线与真正末钩分清
 
 [Grand Escape／Great Days](INTEGRATED_READING_GRAND_GREAT.md)：A051开头及p3s4竖折，A052 p5s2斜升均连接较高水平线，给高音／重音／弧净空。Gould29有垂直受限条件，充分空间优先水平；保清楚连接，不按折角切scope或增加八度。B／G前真实结束、第二房第二六连组新8va及H／I边界另核。
+
+## 2026-10-27：组内八度起点不等于连音起点
+
+[Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A054 B六连内才开始8va，长尾仍在线内；A053 C局部高组与下干原位旋律并存，下一组／下一行另给。保真正目标范围，不把整连音、整staff或字母段一次移八度。

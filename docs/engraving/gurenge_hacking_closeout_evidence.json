@@ -1,0 +1,3965 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "8f74f614be5bbc85fda960fefdbd8b564257f2c7",
+  "note": "INTEGRATED_READING_GURENGE_HACKING.md",
+  "additional_note": "VOCAL_TEXT_READING.md",
+  "previous_goal_turn_classification": "Progress: 8f74f61 published A051/A052,head-versus-stem spacing and vocal text notes;52/146 and563/696. Current branch pulled up to date;solo only.",
+  "scope": "Whole known-score question reviews,selected rhythm/geometry and vocal-text continuation. No independent transfer,new native candidate,software/font adaptation or original edits.",
+  "source_protection": [
+    {
+      "id": "A053",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Gurenge - Demon Slayer - Opening Theme.pdf",
+      "sha256": "803c3d8e649fdadb17aa345a82f022c2846c698c27623bfcc2e04839e2abd9fe",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A054",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Hacking to the Gate - Steins;Gate - Opening Theme.pdf",
+      "sha256": "1f764123f5ef39e671b9275964780de325af06e0c5d7965251ddb73abb818136",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A053",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A053/page-1.jpg",
+      "sha256": "9de5612dbc81237cea158f646a7f7ce53de3dd10fd4b5371c0196ded9a530f68",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A053",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A053/page-2.jpg",
+      "sha256": "2b1e553478e8e03d320b81ab452d90c110a96586144ea7d87ebdaba0e9dc98c2",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A053",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A053/page-3.jpg",
+      "sha256": "6415628136335ce35b935976fe1767974c4cc7b745d9d5feedc039bdcc4c3c5a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A053",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A053/page-4.jpg",
+      "sha256": "4ea1dbb3a0a62998f2ebfe1f86837ca963f087f86e70cc279d688c23007f14bb",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A053",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A053/page-5.jpg",
+      "sha256": "24785f2025762f72938d667799c59cbb793bf76206976fa249ee2ad9b77191c6",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A053",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A053/page-6.jpg",
+      "sha256": "9e08e50dfd5559874cdcee397933b4f4778eb69d41c0d6f722bb1d300a72fb8a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A054",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A054/page-1.jpg",
+      "sha256": "fc2f31c8c1688f5dc59f7e0242b9e7ab6e3c9d24800a49a032b2d199605bd31f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A054",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A054/page-2.jpg",
+      "sha256": "9b262b14598b1412c1467b4e49110411f1902ed72c18f6a13827c21ff1a20b92",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A054",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A054/page-3.jpg",
+      "sha256": "a1bb64d42ced2d9f6b36f1020d2cee0014258345220423e82bfa0d1bc83d3791",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A054",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A054/page-4.jpg",
+      "sha256": "0c37afe57d8dc5feeca093d73952246fd6ba64c0306471b85adc8dac819e0b48",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A054",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A054/page-5.jpg",
+      "sha256": "e3000f7476d2c19d792275d3ab934533a0a7a79747f7fb6389cb1ca94c244f60",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A054",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A054/page-6.jpg",
+      "sha256": "e3ca3463c63a69b2e3b62e081e7c8bf8afee4a6fae7f90ea5b69f604c299869e",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 449,
+      "pdf_page": 469,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-449.jpg",
+      "sha256": "af4f1853f682d694b75fced407c7c030e86af10bb3d4ea5a32c72aaa3d49a264",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 450,
+      "pdf_page": 470,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-450.jpg",
+      "sha256": "de8cea325b13c777c73f24805d3872058c8a9fe72f23f08b550c40f90e76bf72",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 451,
+      "pdf_page": 471,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-451.jpg",
+      "sha256": "8cf5bd0bbf53eb0479b55dfd79e733578aec5abd303d56faac17a95f5d375015",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 452,
+      "pdf_page": 472,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-452.jpg",
+      "sha256": "757ef8a29e9bb6c22e4796a4efacaae1bb2d6da0b18ebf6cf5e12a8dec583696",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 453,
+      "pdf_page": 473,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-453.jpg",
+      "sha256": "c09f78122687a95b8bba6cafc5c203436015a490b7287c3c9af948a03669bb07",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 454,
+      "pdf_page": 474,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-454.jpg",
+      "sha256": "02ca208bc8baf5b7e02a72cdf8865f11fff99f3e4d1f9bb6b31c3a72374d8d9f",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 455,
+      "pdf_page": 475,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-455.jpg",
+      "sha256": "e4b48983fd152590497f089f1acd081b822900fecf09a89c08298d3a2576668b",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 456,
+      "pdf_page": 476,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-456.jpg",
+      "sha256": "6422438adc28b3d16a8d7e18a7ed1f7b8d500bf572a11f58c091b854f4e0bc71",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 457,
+      "pdf_page": 477,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-457.jpg",
+      "sha256": "add4a2d2e8364cf508153b777ee30f571a57c7444f4f252912fbd014c8a92d96",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 458,
+      "pdf_page": 478,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-458.jpg",
+      "sha256": "95c33838355d90098ff0ca798731cc4146c85ab0ec953286dc5564804b5e9921",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 459,
+      "pdf_page": 479,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-459.jpg",
+      "sha256": "9f3f69413aa99f20cc300be44597afadb93e658061aba68bbb046575e1713bae",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 460,
+      "pdf_page": 480,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-460.jpg",
+      "sha256": "dd8d9c5bf5a38312d8aa2c2e508932bc5963d787db457921fcac0d6efdd88115",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        20,
+        172.21932835820897,
+        573.276,
+        334.00701492537314
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p1-s1.jpg",
+      "sha256": "d375b96fc99afd5462c83fcb7c523050a26a9d2dee1a233e597a5bc8438b326a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 1,
+      "system": 2,
+      "crop_pt": [
+        20,
+        315.06947761194033,
+        573.276,
+        477.18783582089554
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p1-s2.jpg",
+      "sha256": "2200e26c451fbfedc2abfd34ea510d3adcf5c15acabcb84325718e1a545591fd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 1,
+      "system": 3,
+      "crop_pt": [
+        20,
+        482.7199999999999,
+        573.276,
+        640.5396268656716
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p1-s3.jpg",
+      "sha256": "17ac888f0739d69b762c12ae39a744dbf391ea1271d154189bd0ae1a9747ea50",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 1,
+      "system": 4,
+      "crop_pt": [
+        20,
+        654.9999253731344,
+        573.276,
+        812.819552238806
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p1-s4.jpg",
+      "sha256": "bb8354614a9d24ce1441859bdae1ccfd4ead569c465ab7c46a8e7334c88d660f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 2,
+      "system": 2,
+      "crop_pt": [
+        20,
+        171.2273134328358,
+        573.276,
+        329.212276119403
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p2-s2.jpg",
+      "sha256": "8112335ade24f7b41f71aba12b1e26956f9b19de381d30343c8dccecf03db390",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 2,
+      "system": 4,
+      "crop_pt": [
+        20,
+        476.4372388059701,
+        573.276,
+        648.4757462686567
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p2-s4.jpg",
+      "sha256": "7a012ededf51a01b09faec7cc05486959307b9e666fffb9b1cb8d31351050994",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 2,
+      "system": 5,
+      "crop_pt": [
+        20,
+        650.7011940298507,
+        573.276,
+        812.9848880597015
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p2-s5.jpg",
+      "sha256": "4c7c02ef5977edc5ff6070775a0c9c4bae7058f3cd36612d8a6218700af09d73",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 3,
+      "system": 1,
+      "crop_pt": [
+        20,
+        24.73977611940299,
+        573.276,
+        182.55940298507463
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p3-s1.jpg",
+      "sha256": "b180d99c24b625c6aa3c125bcd595fcda9fa108ba85c6566641209699e44442e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        20,
+        272.08216417910444,
+        573.276,
+        425.60305970149255
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p3-s3.jpg",
+      "sha256": "61f454d1f6553c581901eb6eba7424b4800e1fdfbf6f700f544e35b32cd89a10",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 3,
+      "system": 4,
+      "crop_pt": [
+        20,
+        398.06805970149253,
+        573.276,
+        555.8876865671642
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p3-s4.jpg",
+      "sha256": "98fcc0a5c2140787b762ee4e410a4e13e7655a287b73c6e1aa9c8794ad0b3196",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 3,
+      "system": 6,
+      "crop_pt": [
+        20,
+        655.1652611940298,
+        573.276,
+        812.9848880597015
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p3-s6.jpg",
+      "sha256": "2813d235fd2a50947388e2f497ed091158bec3b8ce8c3b7bd23dee8786f45670",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 4,
+      "system": 1,
+      "crop_pt": [
+        20,
+        24.73977611940299,
+        573.276,
+        191.15686567164178
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p4-s1.jpg",
+      "sha256": "04d1bb8fded9086925f92a84d635509f62b849bc7d8000d6c4dd3c956a388948",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 4,
+      "system": 2,
+      "crop_pt": [
+        20,
+        150.39499999999998,
+        573.276,
+        321.4414925373134
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p4-s2.jpg",
+      "sha256": "0da9a1c0c1d6325fc60315c883401e618774039ff2c872f861a23050e7e82fe3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 4,
+      "system": 3,
+      "crop_pt": [
+        20,
+        277.70358208955224,
+        573.276,
+        447.09671641791044
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p4-s3.jpg",
+      "sha256": "70c2f23b1f272905cb84d1d3d40fec0d9d7d1c60252aada8ff0dc2b0e8b1bed0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 4,
+      "system": 5,
+      "crop_pt": [
+        20,
+        525.2113059701492,
+        573.276,
+        681.5429104477612
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p4-s5.jpg",
+      "sha256": "3543b290ae6beb018959d15bc1b1031b31c7cab097af655eae2ab6e80ec925f5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 4,
+      "system": 6,
+      "crop_pt": [
+        20,
+        655.1652611940298,
+        573.276,
+        812.9848880597015
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p4-s6.jpg",
+      "sha256": "7ab3412e2ffd04dad9420f64c66815457b94ceaceae3bda321df2a1179c5c9e5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 5,
+      "system": 1,
+      "crop_pt": [
+        20,
+        24.73977611940299,
+        573.276,
+        183.55141791044775
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p5-s1.jpg",
+      "sha256": "87f0fea871d74741c1f30f3db30ab30e4452dcbf257e7cc5d7f42b1af812e405",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 5,
+      "system": 2,
+      "crop_pt": [
+        20,
+        155.68574626865671,
+        573.276,
+        313.50537313432835
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p5-s2.jpg",
+      "sha256": "de6d5c7ab080d314eaa9a5989928af739be599e6fd494ebb422ab0eef491b866",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 5,
+      "system": 3,
+      "crop_pt": [
+        20,
+        279.3569402985075,
+        573.276,
+        441.4752985074627
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p5-s3.jpg",
+      "sha256": "742fdcadbcc882ff7383b7268ba8d766bccc091a6bef2a6ea4091125ada14f5f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 5,
+      "system": 5,
+      "crop_pt": [
+        20,
+        526.5339925373135,
+        573.276,
+        680.0548880597014
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p5-s5.jpg",
+      "sha256": "6c1f31c16bdce61ea0685d24459618002c521393a32523bb136eb9d328d1f485",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 6,
+      "system": 1,
+      "crop_pt": [
+        20,
+        24.73977611940299,
+        573.276,
+        178.26067164179105
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p6-s1.jpg",
+      "sha256": "adde601575f92977085284fcd43714bd675c8d2e2e322b433747256ca3e3341e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 6,
+      "system": 2,
+      "crop_pt": [
+        20,
+        149.0723134328358,
+        573.276,
+        306.89194029850745
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p6-s2.jpg",
+      "sha256": "a79aa7ce198490444e512a721a65c134a40a9d1e9734f003a7c4c59dd96e017b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 6,
+      "system": 4,
+      "crop_pt": [
+        20,
+        407.32686567164177,
+        573.276,
+        560.8477611940298
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p6-s4.jpg",
+      "sha256": "f60872089d4011f0748e84e53956c5ce08b82b85c61126f48cb618f3f734481f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A053",
+      "page": 6,
+      "system": 6,
+      "crop_pt": [
+        20,
+        659.2986567164179,
+        573.276,
+        812.9848880597015
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p6-s6.jpg",
+      "sha256": "f28575f835dbed108f8591b82b778ee454a11dd256b57e2e375f27d8ceeeeb33",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        20,
+        150.83863368669023,
+        573.22,
+        304.3439340400471
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p1-s1.jpg",
+      "sha256": "530b455db51fb2f521d4076bc05b189aea243ed2c766ce36d33b6e0807651edb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 1,
+      "system": 2,
+      "crop_pt": [
+        20,
+        270.67569689831174,
+        573.22,
+        432.77620730270905
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p1-s2.jpg",
+      "sha256": "f25ca823f0bc736e8177c643c2f6c1dda27022816c13e5afa3e46429a1c278bd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 1,
+      "system": 4,
+      "crop_pt": [
+        20,
+        532.8296034550451,
+        573.22,
+        690.4672163329407
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p1-s4.jpg",
+      "sha256": "49cb7a9ffe82adffa23d4fb5192cb5c653263fc0038cb768f7f259329316aded",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 2,
+      "system": 1,
+      "crop_pt": [
+        20,
+        22.736945425991365,
+        573.22,
+        193.43266588142913
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p2-s1.jpg",
+      "sha256": "37ee3767fe0809b754443a95f9b14a1a6efa53982ffe2f24be0d14db1cf25065",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 2,
+      "system": 3,
+      "crop_pt": [
+        20,
+        288.8578720062819,
+        573.22,
+        459.3882999607381
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p2-s3.jpg",
+      "sha256": "eb2a94118f6a852ed45ba2dd570ed9b8014c9362f6b963d6b9b433fd31d0d63f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 2,
+      "system": 5,
+      "crop_pt": [
+        20,
+        538.4495484884177,
+        573.22,
+        693.9383588535532
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p2-s5.jpg",
+      "sha256": "68fdd73ae7b94127168200da14776d35e6f102b355482ba57f69cc29f72c3cc7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 3,
+      "system": 2,
+      "crop_pt": [
+        20,
+        157.61562622693364,
+        573.22,
+        315.41853160581076
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p3-s2.jpg",
+      "sha256": "4857760c5ec25a88a3263d6a487aa3c9b07930d77a1b828444b08af8bee697c4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        20,
+        279.60149195131527,
+        573.22,
+        441.53670985473104
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p3-s3.jpg",
+      "sha256": "f76077747008e594e6562562326f75774e5248eacf46a00aa32fb101143c80e0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 3,
+      "system": 4,
+      "crop_pt": [
+        20,
+        419.27365528072244,
+        573.22,
+        572.6136631330978
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p3-s4.jpg",
+      "sha256": "1b97956ec06c617a49d426c316da617d5560b8ad5b608bcefad2575471e22f8d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 3,
+      "system": 5,
+      "crop_pt": [
+        20,
+        540.7636435021594,
+        573.22,
+        694.2689438555163
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p3-s5.jpg",
+      "sha256": "13b5493114daaf4f79962058176e65a8f2ed84045c9e019a7e715dbf187914b2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 4,
+      "system": 1,
+      "crop_pt": [
+        20,
+        22.736945425991365,
+        573.22,
+        180.53985080486848
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p4-s1.jpg",
+      "sha256": "b5700761e0fb296e8cd02c234cc989497e30644787e0dad9954222df66510200",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 4,
+      "system": 3,
+      "crop_pt": [
+        20,
+        273.15508441303496,
+        573.22,
+        430.7926972909305
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p4-s3.jpg",
+      "sha256": "c1a824846e8c5d1f3fd9980d89abaa0c066cf45e96e20e19f2e812a5952bb21a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 4,
+      "system": 5,
+      "crop_pt": [
+        20,
+        532.8296034550451,
+        573.22,
+        688.4837063211621
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p4-s5.jpg",
+      "sha256": "84ee1e682220f14b7be17542692218a7ee386f2c3e448633799305c2d6ec9549",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 5,
+      "system": 2,
+      "crop_pt": [
+        20,
+        135.13584609344326,
+        573.22,
+        288.6411464468001
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p5-s2.jpg",
+      "sha256": "6fbcb79f476d0b2b3e59b6eb07781e7d6e94eb02f503d6b3bd0ec4d81b9ecca7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 5,
+      "system": 3,
+      "crop_pt": [
+        20,
+        242.57597173144876,
+        573.22,
+        396.0812720848057
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p5-s3.jpg",
+      "sha256": "1f1a3709f606f9de21d2f5096cfac481e5af1b39fd0e674633777d7eb10061eb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 5,
+      "system": 4,
+      "crop_pt": [
+        20,
+        343.7349823321555,
+        573.22,
+        503.5213977228112
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p5-s4.jpg",
+      "sha256": "c46bd8c780531d5fdf1db04d730d72b7c16f83b0fe1b2d7501f7e3bf01446186",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 5,
+      "system": 5,
+      "crop_pt": [
+        20,
+        447.86925795053,
+        573.22,
+        607.6556733411857
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p5-s5.jpg",
+      "sha256": "efd3d76577acb82a0149f1fb4902b8b0ea1e03a13bc1163d435a8f6ea5a17083",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 5,
+      "system": 6,
+      "crop_pt": [
+        20,
+        555.9705535924617,
+        573.22,
+        709.4758539458186
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p5-s6.jpg",
+      "sha256": "ea0bb5d47f4f9c04fd0b455da6425833e86752adb36a998bdf0d1484f7b8f778",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 5,
+      "system": 7,
+      "crop_pt": [
+        20,
+        665.3941892422458,
+        573.22,
+        814.6018845700825
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p5-s7.jpg",
+      "sha256": "ea580d483f087081673268876a740a134ab630dc938f2b8223d83e1c624d5151",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 6,
+      "system": 1,
+      "crop_pt": [
+        20,
+        23.054000000000002,
+        573.22,
+        176.544
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p6-s1.jpg",
+      "sha256": "03eab2ee04e6d3271594108caf273ac6cd86e426e05a0424c431e1f76a8e0d05",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 6,
+      "system": 2,
+      "crop_pt": [
+        20,
+        145.58,
+        573.22,
+        299.08799999999997
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p6-s2.jpg",
+      "sha256": "2def5cc9fe78a26fad8f1be3b982e25e6a49f21052266c9d3e998a2ea61df2ad",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 6,
+      "system": 3,
+      "crop_pt": [
+        20,
+        263.696,
+        573.22,
+        428.184
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p6-s3.jpg",
+      "sha256": "498c6ab5e251d0d0b28638a089c6ffe83b948f68efd684f54e7fd1335c70d21f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 6,
+      "system": 5,
+      "crop_pt": [
+        20,
+        521.006,
+        573.22,
+        678.762
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p6-s5.jpg",
+      "sha256": "40e7c72d76dc871c217d01a3039df63956c2d9e5a0da8cc165943e66c94fad3a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A054",
+      "page": 6,
+      "system": 6,
+      "crop_pt": [
+        20,
+        661.424,
+        573.22,
+        814.932
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A054-p6-s6.jpg",
+      "sha256": "a9b702f4db52426e8fe0351b21f5cd042497536b9cafabac6b1c9f5c46b7a2f1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 18,
+      "pdf_page": 38,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-18-reread.jpg",
+      "sha256": "1e7e5ed5589694cbbd0082836264ad1c0a4018bbd1c5c79160c9a3698f90d578",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 20,
+      "pdf_page": 40,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-20-reread.jpg",
+      "sha256": "d12faffb55516170c7ef92b6c5d482fe7a89af8a8a4cfb72f80be7a8e7e010e9",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 39,
+      "pdf_page": 59,
+      "path": "tmp/engraving/study-2026-10-19/book-39.jpg",
+      "sha256": "e54e35ecab84ac4044f4d55a70626b0f836dd16361a2fd442484c1a71923480d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 215,
+      "pdf_page": 235,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-215.jpg",
+      "sha256": "7b6c118b53b2466e2dfaa4cf8f0f5cf1e8b472256dd2f994d2552bedd44641a7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 234,
+      "pdf_page": 254,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-234.jpg",
+      "sha256": "e3aadaae1fd46434af9b7b4227662415582516664a2e5295461cf9874307a459",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 235,
+      "pdf_page": 255,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-235.jpg",
+      "sha256": "6aeb6c1f2050b1af48067182383b633f4dfca04e785d4526a24da3644ee65d9d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 334,
+      "pdf_page": 354,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-334-reread.jpg",
+      "sha256": "e5e063854a7e57fe1967b623a8a2f859190980389ca0a4423b3a1c37d199b9b7",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-337.jpg",
+      "sha256": "4c517306cf30f5e24bb647c614fb38d0d2f10e611db454b5f72789c81480367d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "notation-detail",
+      "id": "A053",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        60,
+        308,
+        150,
+        350
+      ],
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/A053-p3-s3-first-beat.jpg",
+      "sha256": "20c0096592a3235c72e58e03a437a6935e6e529349f614a85c63d8317e60117f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 225,
+      "pdf_page": 245,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-225-reread.jpg",
+      "sha256": "9811d8a09f48cf0823f411689e152d3a027872285b561230ee3a4c9accb511a0",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 226,
+      "pdf_page": 246,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-226-reread.jpg",
+      "sha256": "439cd645c958578efa84776b9b5c3ecb302834e70ce19060e4aa9b7c21b4c8e5",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 227,
+      "pdf_page": 247,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-227-reread.jpg",
+      "sha256": "2540fb5ae81a6ebccfef49416a43b58123df7d77f140b9d38f9527c9945e840f",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 228,
+      "pdf_page": 248,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-228-reread.jpg",
+      "sha256": "4e34a2ff64ce168cb7b2eefaefbb0190eab22e9a2c9bb722bf4cbe168835393d",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    }
+  ],
+  "whole_reviews": {
+    "A053": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "system_rows_by_page": [
+        4,
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 33,
+      "staves_per_row": 2,
+      "media_box_pt": [
+        595.276,
+        841.89
+      ],
+      "source_font_names": [
+        "FPDYZK+PalatinoLinotype,Italic",
+        "FPEIMR+FEFA1746424",
+        "FPGJNB+PalatinoLinotype",
+        "FPLGJD+FEFC3BFCF5A",
+        "FPOCZC+FEF30F1091F",
+        "FPRIUO+FEFB46685C0",
+        "FPRTQH+FEF51268FB9",
+        "FPRXQJ+FEFB1EAA1D1",
+        "FPULWB+FEF4410A54D"
+      ],
+      "disjoint_system_fragments": 34,
+      "split_row": "p4 row6 contains one D.S. fragment and two-bar Coda fragment;33horizontal rows,34system fragments"
+    },
+    "A054": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        7,
+        6
+      ],
+      "system_rows": 36,
+      "staves_per_row": 2,
+      "media_box_pt": [
+        595.22,
+        842
+      ],
+      "source_font_names": [
+        "NAAANL+Chaconne",
+        "NAAANM+Chaconne",
+        "NAAAON+CenturyOSMTPro-Italic",
+        "NAAAOO+Chaconne",
+        "NAAAOP+CenturyNo1SB-Bold",
+        "NAACDJ+PalatinoLinotype",
+        "NAACDL+PalatinoLinotype,Italic",
+        "NAACFL+CenturyNo1SB-BoldIta"
+      ],
+      "disjoint_system_fragments": 36,
+      "geometry_correction": "p6 first staff missed by raster under beams;recovered from original five long horizontal lines and visually confirmed"
+    }
+  },
+  "selected_music_checks": {
+    "duration_recipes": [
+      {
+        "label": "A053 opening upper first bar",
+        "quarter_units": [
+          "3/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "2"
+        ],
+        "total_quarters": "4",
+        "reading": "ordinary dotted eighth,sixteenth,two eighths,half receiver"
+      },
+      {
+        "label": "A053 opening lower first bar",
+        "quarter_units": [
+          "3/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "ordinary pulse with tied receivers;written heads are not all new attacks"
+      },
+      {
+        "label": "A053 C upper moving first bar",
+        "quarter_units": [
+          "3/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "2"
+        ],
+        "total_quarters": "4",
+        "reading": "independent downward-stem melody,short upper octave cue remains separate"
+      },
+      {
+        "label": "A053 C upper high first bar",
+        "quarter_units": [
+          "2",
+          "1/2",
+          "1/2",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "halfrest,eighthrest,eighth,quarter;local octave range not all upper-staff notes"
+      },
+      {
+        "label": "A053 p3s3 first upper bar",
+        "quarter_units": [
+          "1/4",
+          "3/4",
+          "2",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "ordinary16,paired dotted-eighth tremolo span,paired-half tremolo span,seven7:8 thirtyseconds. Tremolo endpoints share duration,not additive."
+      },
+      {
+        "label": "A053 p3s3 first lower bar",
+        "quarter_units": [
+          "3/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "1/4",
+          "3/4",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "dotted8,16,two8,16,dotted8,quarter"
+      },
+      {
+        "label": "A053 p3s6 upper final bar",
+        "quarter_units": [
+          "2",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "halfrest and two5:4 sixteenth quintuplets,not one ten-note tuplet"
+      },
+      {
+        "label": "A053 F first lower moving layer",
+        "quarter_units": [
+          "3/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "reading": "dotted8rest,full-sized16 and six8 including tied receiver;first flagged head is not grace"
+      },
+      {
+        "label": "A053 p4s5 G approach first upper bar",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "3"
+        ],
+        "total_quarters": "4",
+        "reading": "eighthrest,three triplet16,and twelve ordinary16"
+      },
+      {
+        "label": "A054 B first upper bar",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "quarter chord,6:4 six16,ordinary quarter outside group,quarterrest"
+      },
+      {
+        "label": "A054 B third upper bar",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "quarterrest,6:4 six16,ordinary quarter,quarterrest"
+      },
+      {
+        "label": "A054 E first lower bar",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "two eighths,five5:4 six16,two quarters;tie receivers preserved"
+      },
+      {
+        "label": "A054 E second lower bar",
+        "quarter_units": [
+          "1/2",
+          "1",
+          "1/2",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "eighth,four ordinary16,eighth,quarter,quarterrest;quintuplet not carried into new rhythm"
+      },
+      {
+        "label": "A054 p5s2 G second upper bar",
+        "quarter_units": [
+          "7/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "reading": "seven ordinary eighths and eighthrest;sfz lower onset belongs to upper rest"
+      },
+      {
+        "label": "A054 p5s7 tremolo bar",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "3"
+        ],
+        "total_quarters": "4",
+        "reading": "eighth,four32,dotted-half tremolo pair shares three beats"
+      },
+      {
+        "label": "A054 H first upper bar",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "reading": "sixteen ordinary16 in four beat groups"
+      }
+    ],
+    "head_origin_checks": [
+      {
+        "label": "A053 F first-row48 sixteenths",
+        "id": "A053",
+        "page": 4,
+        "system": 1,
+        "box_pt": [
+          65,
+          65,
+          548,
+          90
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 48,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              65.048345,
+              71.64920600000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              74.883015,
+              73.8099840000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              84.83679,
+              75.97076199999992
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              94.80758,
+              82.33399799999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              104.64225,
+              86.53645600000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              114.47691999999999,
+              82.33399799999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              124.32860500000001,
+              71.64920600000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              134.28238000000002,
+              73.8099840000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              144.236155,
+              75.97076199999992
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              154.20694500000002,
+              82.33399799999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              164.041615,
+              86.53645600000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              173.99539000000001,
+              82.33399799999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              183.96618,
+              71.64920600000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              193.68174499999998,
+              73.8099840000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              203.63552,
+              75.97076199999992
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              213.48720500000002,
+              82.33399799999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              231.727285,
+              69.62454000000002
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              241.68106000000003,
+              71.64920600000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              251.634835,
+              73.8099840000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              261.60562500000003,
+              78.13153999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              271.440295,
+              84.494776
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              281.15586,
+              78.13153999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              291.12665,
+              69.62454000000002
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              301.080425,
+              71.64920600000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              311.03420000000006,
+              73.8099840000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              320.88588500000003,
+              78.13153999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              330.83966,
+              84.494776
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              340.81045,
+              78.13153999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              350.64512,
+              69.62454000000002
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              360.47979000000004,
+              71.64920600000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              370.331475,
+              73.8099840000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              380.28525,
+              78.13153999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              398.52533,
+              71.64920600000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              408.47910500000006,
+              73.8099840000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              418.449895,
+              75.97076199999992
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              428.284565,
+              82.33399799999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              438.23834,
+              86.53645600000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              448.20913,
+              82.33399799999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              458.04380000000003,
+              71.64920600000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              467.997575,
+              73.8099840000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              477.96836500000006,
+              75.97076199999992
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              487.68393,
+              82.33399799999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              497.63770500000004,
+              86.53645600000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              507.608495,
+              82.33399799999995
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              517.443165,
+              71.64920600000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              527.39694,
+              73.8099840000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              537.36773,
+              75.97076199999992
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              547.2024,
+              82.33399799999995
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A053 F seven full-sized moving heads after dotted eighthrest",
+        "id": "A053",
+        "page": 4,
+        "system": 1,
+        "box_pt": [
+          94,
+          116,
+          204,
+          124
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 7,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              94.80758,
+              116.53213799999992
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              104.64225,
+              116.53213799999992
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              124.32860500000001,
+              118.69291599999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              144.236155,
+              118.69291599999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              164.041615,
+              122.89537400000006
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              183.96618,
+              120.73459600000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              203.63552,
+              122.89537400000006
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A053 seven descending32",
+        "id": "A053",
+        "page": 3,
+        "system": 3,
+        "box_pt": [
+          176,
+          314,
+          222,
+          345
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 7,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              176.51361000000003,
+              314.898364
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              183.96618,
+              321.244586
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              191.401735,
+              325.447044
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              198.83729,
+              329.7686
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              206.40896500000002,
+              336.131836
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              213.84452,
+              340.334294
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              221.280075,
+              344.65585
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A053 two half-tremolo dyads",
+        "id": "A053",
+        "page": 3,
+        "system": 3,
+        "box_pt": [
+          106,
+          314,
+          143,
+          331
+        ],
+        "text": "˙",
+        "unique_origins": false,
+        "count": 4,
+        "heads": [
+          {
+            "text": "˙",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              106.326735,
+              325.447044
+            ]
+          },
+          {
+            "text": "˙",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              106.326735,
+              329.7686
+            ]
+          },
+          {
+            "text": "˙",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              141.956145,
+              314.898364
+            ]
+          },
+          {
+            "text": "˙",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              141.956145,
+              321.244586
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A053 first16 chord",
+        "id": "A053",
+        "page": 3,
+        "system": 3,
+        "box_pt": [
+          65,
+          314,
+          66,
+          331
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 4,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              65.048345,
+              314.898364
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              65.048345,
+              321.244586
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              65.048345,
+              325.447044
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              65.048345,
+              329.7686
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A053 dotted8 tremolo two dyads",
+        "id": "A053",
+        "page": 3,
+        "system": 3,
+        "box_pt": [
+          75,
+          314,
+          91,
+          331
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 4,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              75.95496000000001,
+              325.447044
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              75.95496000000001,
+              329.7686
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.01400000000001,
+            "origin": [
+              90.48577,
+              314.898364
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999953,
+            "origin": [
+              90.48577,
+              321.244586
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A053 two5:4 groups",
+        "id": "A053",
+        "page": 3,
+        "system": 6,
+        "box_pt": [
+          461,
+          700,
+          546,
+          730
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 10,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              461.770085,
+              729.954894
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              470.890125,
+              723.489574
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              480.12927,
+              721.447894
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              489.130205,
+              715.084658
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              498.36935,
+              708.602324
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              509.27596500000004,
+              706.560644
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              518.5321250000001,
+              715.084658
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              527.516045,
+              708.602324
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              536.772205,
+              706.560644
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "FPEIMR+FEFA1746424",
+            "size": 17.013999999999996,
+            "origin": [
+              545.892245,
+              700.197408
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A054 B first sextuplet and quarter tail",
+        "id": "A054",
+        "page": 2,
+        "system": 1,
+        "box_pt": [
+          86,
+          40,
+          143,
+          78
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 7,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              89.24398864,
+              76.30140234999999
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              96.696,
+              72.05359999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              104.13,
+              65.66359999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              111.564,
+              76.30160000000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              118.818,
+              72.05359999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              126.252,
+              65.66359999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              133.704,
+              61.41560000000004
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A054 p5s4 ordinary eighth heads",
+        "id": "A054",
+        "page": 5,
+        "system": 4,
+        "box_pt": [
+          68,
+          380,
+          546,
+          398
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 38,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              68.526,
+              395.0456
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              80.046,
+              388.6736
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              91.548,
+              380.1776
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              103.248,
+              395.0456
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              114.75,
+              388.6736
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              126.252,
+              380.1776
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              137.772,
+              395.0456
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              157.608,
+              388.6736
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              169.11,
+              380.1776
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              180.63,
+              395.0456
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              192.132,
+              388.6736
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              203.814,
+              380.1776
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              215.334,
+              395.0456
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              226.836,
+              388.6736
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              238.356,
+              384.4256
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.289999999999964,
+            "origin": [
+              260.316,
+              380.1776
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              271.818,
+              397.1696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              283.518,
+              392.9216
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              295.02,
+              388.6736
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              306.54,
+              382.3016
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              318.042,
+              397.1696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              329.724,
+              392.9216
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              341.244,
+              388.6736
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.289999999999964,
+            "origin": [
+              363.204,
+              384.4256
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              374.706,
+              397.1696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              386.388,
+              392.9216
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              397.908,
+              388.6736
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              409.59,
+              382.3016
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              421.11,
+              397.1696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              432.6121,
+              392.9216
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              444.294,
+              388.6736
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              475.65,
+              397.1696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              487.332,
+              390.7976
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              498.8521,
+              382.3016
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              510.3541,
+              397.1696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              521.8561,
+              390.7976
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              533.556,
+              382.3016
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              545.058,
+              397.1696
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A054 p5s5 ordinary eighth heads",
+        "id": "A054",
+        "page": 5,
+        "system": 5,
+        "box_pt": [
+          57,
+          484,
+          546,
+          506
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 39,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              57.024,
+              495.0897
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              68.526,
+              486.5936
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              80.226,
+              501.4796
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              91.728,
+              495.0897
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              103.248,
+              486.5936
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              114.75,
+              501.4796
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              126.432,
+              495.0897
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              137.952,
+              490.8416
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.289999999999964,
+            "origin": [
+              159.912,
+              486.5936
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              171.414,
+              501.4796
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              183.096,
+              499.3557
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              194.616,
+              495.0897
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              206.118,
+              488.7177
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              217.638,
+              503.6036
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              229.32,
+              499.3557
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              240.84,
+              495.0897
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.289999999999964,
+            "origin": [
+              262.8,
+              490.8416
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              274.302,
+              505.7277
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              285.984,
+              499.3557
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              297.504,
+              495.0897
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              309.006,
+              488.7177
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              320.526,
+              503.6036
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              332.208,
+              499.3557
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              343.71,
+              495.0897
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              375.066,
+              499.3557
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              386.748,
+              492.9656
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              398.268,
+              484.4696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              409.77,
+              499.3557
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              421.29,
+              492.9656
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              432.972,
+              484.4696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              444.4741,
+              499.3557
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              464.3101,
+              492.9656
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              475.83,
+              484.4696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              487.332,
+              499.3557
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              498.8521,
+              492.9656
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              510.5341,
+              484.4696
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              522.036,
+              499.3557
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              533.556,
+              492.9656
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              545.058,
+              488.7177
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A054 final dotted-half tremolo pair",
+        "id": "A054",
+        "page": 5,
+        "system": 7,
+        "box_pt": [
+          426,
+          701,
+          455,
+          717
+        ],
+        "text": "˙",
+        "unique_origins": false,
+        "count": 2,
+        "heads": [
+          {
+            "text": "˙",
+            "font": "NAAAOO+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              426.2401,
+              716.8137
+            ]
+          },
+          {
+            "text": "˙",
+            "font": "NAAAOO+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              454.572,
+              701.9276
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A054 preceding four32",
+        "id": "A054",
+        "page": 5,
+        "system": 7,
+        "box_pt": [
+          396,
+          701,
+          419,
+          717
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 4,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              396.486,
+              716.8137
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              403.92,
+              701.9276
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              411.372,
+              716.8137
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              418.806,
+              701.9276
+            ]
+          }
+        ]
+      },
+      {
+        "label": "A054 H repeated bar sixteen16",
+        "id": "A054",
+        "page": 6,
+        "system": 2,
+        "box_pt": [
+          56,
+          181,
+          208,
+          187
+        ],
+        "text": "œ",
+        "unique_origins": false,
+        "count": 16,
+        "heads": [
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              56.142,
+              186.08360000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              66.222,
+              181.8356
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              76.32,
+              186.08360000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              86.418,
+              181.8356
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              96.516,
+              186.08360000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              106.596,
+              181.8356
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              116.694,
+              186.08360000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              126.792,
+              181.8356
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              136.89,
+              186.08360000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              146.808,
+              181.8356
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              156.888,
+              186.08360000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              166.986,
+              181.8356
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              177.084,
+              186.08360000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              187.182,
+              181.8356
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              197.262,
+              186.08360000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "NAAANM+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              207.36,
+              181.8356
+            ]
+          }
+        ]
+      }
+    ],
+    "metrics": [
+      {
+        "label": "A053 F 45 internal16th gaps,bar boundaries excluded",
+        "unit": "pt",
+        "n": 45,
+        "minimum": 9.715564999999913,
+        "maximum": 9.970790000000079,
+        "gaps": [
+          9.834670000000003,
+          9.953774999999993,
+          9.970790000000008,
+          9.834670000000003,
+          9.834669999999988,
+          9.851685000000018,
+          9.953775000000007,
+          9.953774999999979,
+          9.970790000000022,
+          9.834669999999988,
+          9.953775000000007,
+          9.970789999999994,
+          9.71556499999997,
+          9.953775000000036,
+          9.851685000000003,
+          9.953775000000036,
+          9.953774999999979,
+          9.970790000000022,
+          9.83466999999996,
+          9.715565000000026,
+          9.970789999999965,
+          9.953775000000007,
+          9.953775000000064,
+          9.851684999999975,
+          9.95377499999995,
+          9.970790000000022,
+          9.834670000000017,
+          9.834670000000017,
+          9.851684999999975,
+          9.953775000000007,
+          9.953775000000064,
+          9.970789999999965,
+          9.83466999999996,
+          9.953775000000007,
+          9.970790000000022,
+          9.834670000000017,
+          9.95377499999995,
+          9.970790000000079,
+          9.715564999999913,
+          9.953775000000064,
+          9.970789999999965,
+          9.834670000000017,
+          9.95377499999995,
+          9.970790000000079,
+          9.83466999999996
+        ]
+      },
+      {
+        "label": "A054 p5s4 ordinary eighth internal gaps,excluding bar boundaries",
+        "unit": "pt",
+        "n": 33,
+        "minimum": 11.501999999999953,
+        "maximum": 11.700000000000003,
+        "gaps": [
+          11.52000000000001,
+          11.501999999999995,
+          11.700000000000003,
+          11.501999999999995,
+          11.501999999999995,
+          11.519999999999996,
+          11.50200000000001,
+          11.519999999999982,
+          11.50200000000001,
+          11.681999999999988,
+          11.52000000000001,
+          11.50200000000001,
+          11.519999999999982,
+          11.50200000000001,
+          11.699999999999989,
+          11.50200000000001,
+          11.520000000000039,
+          11.501999999999953,
+          11.682000000000016,
+          11.520000000000039,
+          11.50200000000001,
+          11.68199999999996,
+          11.520000000000039,
+          11.68199999999996,
+          11.520000000000039,
+          11.502099999999984,
+          11.681899999999985,
+          11.682000000000016,
+          11.520100000000014,
+          11.50200000000001,
+          11.501999999999953,
+          11.69990000000007,
+          11.501999999999953
+        ]
+      },
+      {
+        "label": "A054 p5s5 ordinary eighth internal gaps,excluding bar boundaries",
+        "unit": "pt",
+        "n": 34,
+        "minimum": 11.501899999999921,
+        "maximum": 11.700000000000003,
+        "gaps": [
+          11.501999999999995,
+          11.700000000000003,
+          11.501999999999995,
+          11.52000000000001,
+          11.501999999999995,
+          11.682000000000002,
+          11.519999999999996,
+          11.501999999999981,
+          11.682000000000016,
+          11.52000000000001,
+          11.501999999999981,
+          11.52000000000001,
+          11.681999999999988,
+          11.52000000000001,
+          11.50200000000001,
+          11.68199999999996,
+          11.520000000000039,
+          11.501999999999953,
+          11.520000000000039,
+          11.682000000000016,
+          11.501999999999953,
+          11.682000000000016,
+          11.519999999999982,
+          11.50200000000001,
+          11.520000000000039,
+          11.68199999999996,
+          11.502100000000041,
+          11.519900000000007,
+          11.50200000000001,
+          11.520100000000014,
+          11.682000000000016,
+          11.501899999999921,
+          11.520000000000095,
+          11.501999999999953
+        ]
+      }
+    ],
+    "vector_checks": [
+      {
+        "label": "A053 dotted-eighth tremolo two detached inner strokes",
+        "id": "A053",
+        "page": 3,
+        "system": 3,
+        "stems_x": [
+          75.955,
+          90.486
+        ],
+        "items": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                87.96,
+                338.15999999999997
+              ],
+              [
+                79.2,
+                340.56
+              ],
+              [
+                79.2,
+                342.59999999999997
+              ],
+              [
+                87.96,
+                340.2
+              ],
+              [
+                87.96,
+                338.15999999999997
+              ]
+            ],
+            "x0": 79.2,
+            "x1": 87.96,
+            "top": 338.15999999999997,
+            "bottom": 342.59999999999997,
+            "width": 1.0,
+            "dash": null,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                87.96,
+                334.91999999999996
+              ],
+              [
+                79.2,
+                337.44
+              ],
+              [
+                79.2,
+                339.47999999999996
+              ],
+              [
+                87.96,
+                336.96
+              ],
+              [
+                87.96,
+                334.91999999999996
+              ]
+            ],
+            "x0": 79.2,
+            "x1": 87.96,
+            "top": 334.91999999999996,
+            "bottom": 339.47999999999996,
+            "width": 1.0,
+            "dash": null,
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      },
+      {
+        "label": "A053 half-tremolo three attached strokes",
+        "id": "A053",
+        "page": 3,
+        "system": 3,
+        "items": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                142.32,
+                339.36
+              ],
+              [
+                106.32,
+                344.76
+              ],
+              [
+                106.32,
+                346.8
+              ],
+              [
+                142.32,
+                341.4
+              ],
+              [
+                142.32,
+                339.36
+              ]
+            ],
+            "x0": 106.32,
+            "x1": 142.32,
+            "top": 339.36,
+            "bottom": 346.8,
+            "width": 1.0,
+            "dash": null,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                142.32,
+                336.24
+              ],
+              [
+                106.32,
+                341.52
+              ],
+              [
+                106.32,
+                343.56
+              ],
+              [
+                142.32,
+                338.28
+              ],
+              [
+                142.32,
+                336.24
+              ]
+            ],
+            "x0": 106.32,
+            "x1": 142.32,
+            "top": 336.24,
+            "bottom": 343.56,
+            "width": 1.0,
+            "dash": null,
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                142.32,
+                333.0
+              ],
+              [
+                106.32,
+                338.28
+              ],
+              [
+                106.32,
+                340.32
+              ],
+              [
+                142.32,
+                335.03999999999996
+              ],
+              [
+                142.32,
+                333.0
+              ]
+            ],
+            "x0": 106.32,
+            "x1": 142.32,
+            "top": 333.0,
+            "bottom": 340.32,
+            "width": 1.0,
+            "dash": null,
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      },
+      {
+        "label": "A054 dotted-half tremolo three attached strokes",
+        "id": "A054",
+        "page": 5,
+        "system": 7,
+        "items": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                426.24,
+                734.958
+              ],
+              [
+                455.022,
+                733.896
+              ],
+              [
+                455.022,
+                735.948
+              ],
+              [
+                426.24,
+                737.01
+              ]
+            ],
+            "x0": 426.24,
+            "x1": 455.022,
+            "top": 733.896,
+            "bottom": 737.01,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                426.24,
+                731.772
+              ],
+              [
+                455.022,
+                730.71
+              ],
+              [
+                455.022,
+                732.762
+              ],
+              [
+                426.24,
+                733.8240000000001
+              ]
+            ],
+            "x0": 426.24,
+            "x1": 455.022,
+            "top": 730.71,
+            "bottom": 733.8240000000001,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                426.24,
+                728.586
+              ],
+              [
+                455.022,
+                727.524
+              ],
+              [
+                455.022,
+                729.576
+              ],
+              [
+                426.24,
+                730.638
+              ]
+            ],
+            "x0": 426.24,
+            "x1": 455.022,
+            "top": 727.524,
+            "bottom": 730.638,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      }
+    ],
+    "limitations": "Selected written rhythms/geometries;not complete pitch,event or playback reconstruction. No exact tremolo attack rate inferred."
+  },
+  "reading_decisions": {
+    "tremolo": "A053 p3s3 ordinary16 plus dotted8 two-note tremolo span plus half tremolo span plus seven7:8 thirtyseconds equals4q. Two short inner strokes float between stems;do not parse as ordinary hooks or sum both endpoints. A054 final dotted-half tremolo pair spans3q after1q ordinary lead-in.",
+    "spacing": "A053 F45 within-bar16th gaps9.716-9.971pt,A054 G67 within-bar eighth gaps11.502-11.700pt. Keep stable active layers and genuine lower entries;bar boundaries measured separately. No minimum budget or host failure proved.",
+    "layers": "A053 F full-sized16 after dotted8rest is not grace;retain p sub/mp,local hands and independent backgrounds. A054 upper attached melody stems are not extra attacks;partial ties,dotted routes and open resonance retain roles.",
+    "navigation": "A053 D.S. at p4 last split row returns p3 D,To Coda at p3s4 jumps p4 Coda then p5 H;landing ties and local octave scopes preserved. Exact native expanded playback/physical turn not audited.",
+    "entries": "A054 fp before G barline belongs to preceding last-eighth chord;later lower sfz enters during upper eighthrest. Keep written onset and receiving ties across bars.",
+    "vocal": "449-460 covers alternative text/rhythms,cue directions/rests,shared versus exclusive tuplets,phonetic/sound roles,speech/whisper definitions and non-text effects opening. Context before symbol shape;not universal piano defaults."
+  },
+  "book": {
+    "new_substantive_printed_range": [
+      449,
+      460
+    ],
+    "new_substantive_pages": 12,
+    "new_unique_pages": 12,
+    "new_reference_table_pages": 0,
+    "new_ancillary_pages": 0,
+    "new_ancillary_pdf_pages": [],
+    "reread_printed_pages": [
+      18,
+      20,
+      39,
+      40,
+      200,
+      215,
+      225,
+      226,
+      227,
+      228,
+      234,
+      235,
+      311,
+      334,
+      337
+    ],
+    "physical_offset": 20,
+    "scope": "Complete12 vocal-text/sound substantive pages;no formal numbered table or ancillary. Next461,chapter not yet complete."
+  },
+  "unresolved": [
+    "Short first tremolo write-out/clarifying text and partial-beam tuplet bracket native alternatives",
+    "Minimum accidental/ledger budget and full pitch/voice/playback reconstruction",
+    "Exact pedal/hand execution,physical page turn and print/aesthetic comparison"
+  ],
+  "not_performed": [
+    "original edits",
+    "new native candidate or independent transfer",
+    "font extraction/development or other-thread work",
+    "software adaptation",
+    "deletion"
+  ],
+  "validation": {
+    "status": "passed",
+    "source_hash_and_page_checks": 3,
+    "actually_viewed_images_hashed": 88,
+    "whole_score_pages": 12,
+    "whole_system_rows": 69,
+    "system_fragments": 70,
+    "selected_duration_recipe_arithmetic": 16,
+    "source_character_origin_checks": 190,
+    "source_vectors_verified": 8,
+    "detached_short_tremolo_strokes_checked": true,
+    "within_bar_spacing_measurements": 112,
+    "skill_routes_executed": 20,
+    "new_case_routes_linked": 11,
+    "local_markdown_links_checked": 865,
+    "new_book_substantive_pages": 12,
+    "new_ancillary_or_formal_table_pages": 0,
+    "new_whole_question_reviews": 2,
+    "original_files_written": 0,
+    "files_deleted": 0,
+    "new_native_or_adaptation": 0,
+    "release_0_7_0_tag_and_certificate_unchanged": true,
+    "all_material_goal": "active"
+  },
+  "cache": {
+    "measured_at_utc": "2026-10-26T23:24:53.201264+00:00",
+    "batch_logical_bytes": 13369594,
+    "total_logical_bytes": 2600571793,
+    "total_on_disk_bytes": 2459282566,
+    "reused_images": 23,
+    "new_images": 65,
+    "original_pdf_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Logical lengths,not volume delta;inventory precedes final small records. One228 reread page rendered again because earlier cache lacked complete-page manifest entry;no bulk copies."
+  }
+}

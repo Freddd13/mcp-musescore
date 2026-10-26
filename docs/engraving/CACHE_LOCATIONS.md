@@ -74,3 +74,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-27 God knows／宝可梦批次缓存约12.92MiB，总净书缓存约2.396GiB逻辑长度；108张实际阅读图复用30张、新增78张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确字节与时点](god_pokemon_closeout_evidence.json)先于最终小记录。
 
 2026-10-27 Grand Escape／Great Days批次缓存约13.37MiB，总净书缓存约2.409GiB逻辑长度；87张实际阅读图复用23张、新增64张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确字节与时点](grand_great_closeout_evidence.json)先于最终小记录。
+
+2026-10-27 Gurenge／Hacking批次缓存约12.75MiB，总净书缓存约2.422GiB逻辑长度；88张记录图复用23张、新增65张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确字节及单页复渲说明](gurenge_hacking_closeout_evidence.json)先于最终小记录。

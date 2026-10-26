@@ -148,3 +148,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-27：长句和旧音持续各核接收
 
 [Grand Escape／Great Days](INTEGRATED_READING_GRAND_GREAT.md)：A051 K上方强和弦开放留声无接收头，下面低八度完整tie贯穿至终止；慢线、后进运动和poco riten.保各自作用。A052 M开口留声后两手交替，不能把短弧当虚构接收或把后续音吸齐。Gould337与声乐447延伸线的终点条件不同。
+
+## 2026-10-27：接收与开放留声不能用同一端点规则
+
+[Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A054 G大和弦延续跨小节，末尾开放弧无接收头；A053 To Coda与Coda落点的接收又依跳转路线。分别保持续、分句、声部虚线和实际新音，不把每条弧都闭到附近头。

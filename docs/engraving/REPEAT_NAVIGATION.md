@@ -90,3 +90,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-27：次数文字和相邻房子按各自范围读
 
 [Grand Escape／Great Days](INTEGRATED_READING_GRAND_GREAT.md)：A051四遍文字只管p1s2末两小节；A八小节、D四小节、G四小节各有边界。p5背靠背新反复共两小节加第一／第二房各两小节，第二房开尾符合Gould237条件；保8va与谱号的实际恢复。更明确总遍数措辞列候选，不据纸面宣称播放已核。
+
+## 2026-10-27：跳前tie和落点留白是导航信息
+
+[Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A053 p4末D.S.回p3 D，再由p3s4 To Coda跳p4末Coda，接p5 H。保跳前／落点接收和局部8vb，不顺读E或将Coda全重奏；原生展开与物理翻页仍未核。

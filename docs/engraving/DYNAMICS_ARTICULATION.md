@@ -85,3 +85,7 @@ p116允许在明确建立模式后用stacc. sempre、marcato sempre或sim.省重
 ## 2026-10-27：同谱表力度按层而非只看staff
 
 [Grand Escape／Great Days](INTEGRATED_READING_GRAND_GREAT.md)：A051首次双层mp／p、A下表延后mp、J前下表ff先于段首，各有邻接层。A052 C／G／K的mf／ff随具体动作交替，保先后；声乐437歌词通道要求数字在上方，不能变成钢琴所有标记的统一高度。
+
+## 2026-10-27：fp在接收前，sfz可在另一层休止中进入
+
+[Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A054 G旁fp位于小节线前最后8和弦，后面才接收；较后sfz下层新和弦对应上层8休止。A053 F p sub.／mp分层。保实际进入点，不统一拖到段首或每小节首拍。

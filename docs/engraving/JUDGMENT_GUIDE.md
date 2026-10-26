@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-27[Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：先辨悬空震音短线、普通副梁与端点共时长；保快层稳定、独立慢层和跳前接收。fp／sfz按真实进入，部分连音范围可比较短括号；声乐符号另按具体声音角色解释。
+
 2026-10-27[Grand Escape／Great Days](INTEGRATED_READING_GRAND_GREAT.md)：两表交替先查干轴与实际事件，不均分相反干向的头；八度抬高可有净空依据，歌词基线另有稳定条件。连音省写沿前文追到普通细分改变，重复次数与房子逐段保护；[声乐文字](VOCAL_TEXT_READING.md)单列适用条件。
 
 2026-10-27[God knows／宝可梦](INTEGRATED_READING_GOD_POKEMON.md)：同值快层稳定与另一手中间进入可以兼顾；用再现检查一致性时先排除持续、音高和手的变化。标题／拍速／调号／弱起各读锚点，终止和弦分旧音接收与新攻击；只占共同梁一部分的三连列短括号候选。

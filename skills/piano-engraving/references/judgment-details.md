@@ -85,6 +85,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_GURENGE_HACKING.md`：F普通16及G普通8分别近稳，保下层进入与持续，小节边界另判；逐组选择时间参照，不因慢层复杂就认定需要扩大一格。
+
 `INTEGRATED_READING_GRAND_GREAT.md`的M跨表交替，头距6.894–17.352pt而干轴11.664–12.546pt；保脉冲及先后。先选实际阅读参照，不吸两手为同列或把头x均分。
 
 `INTEGRATED_READING_GOD_POKEMON.md`的五连对八分保近稳快层，下层中间进入未撑洞，普通16略宽。可作为同构原生例的正向参照；不能推制作软件或把几何等距当单独目标。
@@ -142,6 +144,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_GURENGE_HACKING.md`：普通梁旁两条悬空线可缩写附点8两音震音，整对共同占3/4拍；后接二分对与七连另计。先辨重复身份，不按条数或头数顺次相加。
 
 `INTEGRATED_READING_GRAND_GREAT.md`的I先四组三连8建立十二头、后省3，再转普通16；变化处重新给3。九9:8十六分、五5:4十六分及梁外四分分别计量；不得从数字省略或15个头推同一比例。
 
@@ -254,6 +258,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`INTEGRATED_READING_GURENGE_HACKING.md`：D.S.→D→To Coda→Coda→H逐段追，跳前／落点接收一起保；不能为对齐段首把fp移到旧音接收处。
 
 `INTEGRATED_READING_FATE_FRIEREN.md`有房子层级清楚却缺局部起反复的I／Q。先澄清实际返回点，再谈紧凑和避碰；字母不自动提供跳转语义。
 
