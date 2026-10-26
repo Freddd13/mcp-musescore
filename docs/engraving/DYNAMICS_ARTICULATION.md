@@ -1,5 +1,7 @@
 # 力度与奏法：通道可以连续，归属必须贴音
 
+2026-10-26[Blumenkranz再现](INTEGRATED_READING_BOY_BLUMENKRANZ.md#4-blumenkranz同一动机返回为什么不能恢复同一套短奏法)：J接收前行持续，长低音tie与上层释放不同于without Pedal开头，不能按相似音型补回全套点／休止。D旁实际是tenuto横线与短slur，旧记“相邻点”已纠正；non legato与局部短slur亦可并存。
+
 2026-10-24的[T05／Ashes](SKILL_TRANSFER_MARKINGS.md)补同高奏法的正例：G/m72三tenuto在干端侧同Y，头高却不同，保留；不以贴头规则全拉随音高。E/m61–62渐强到上表休止／下表低八度共同列，B/H的pp sub.及L前ff sub.又有各自入口，不吸到段号或最后上部攻击。
 
 2026-10-21补[Connect整首](INTEGRATED_READING_CONNECT.md)：H前两小节发夹、后续simile而数字仍印，是按信息类别判断省写的具体实例。若simile指强弱起伏，便与Gould p109要求写明反复力度型不同；不能因官谱采用就变成推荐规则。D／G的快慢层pp／mp、J的f／mf反复转换及L的pp／ppp又说明，省字、统一基线和去重都须先保护角色与时间。本批只有只读解释，没有新原生候选或播放scope证明。

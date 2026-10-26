@@ -95,6 +95,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`rhythm`／`tempo`的`INTEGRATED_READING_BOY_BLUMENKRANZ.md`纠正BOY：附点十六分＋三十二分解释为3组内八分＋十六分，总量八分、3:1到2:1。先核梁数／单位，不与两颗十六分swing或真正Tuplet混用；显式快组不再套一次解释。C跨行2＋2拍与F／Coda另起谱头分判。`piano`同例的Blumenkranz J保留新持续／奏法，不能由同型再现恢复开头的休止和无踏板。
+
 ## 熟悉节奏与计数边界
 
 `rhythm`中的`SKILL_TRANSFER_RHYTHM.md`记录G五头初判误数为四头后的纠正。短组看不清时先核休止、实际头数与主／副梁层数，再解释分组或比例。动作slur可罩五音，主梁仍按2＋3认拍，断梁处也可保平顺头距；异分与普通层仅在实际相同有理时位配对，tie接收和休止不算新攻击。

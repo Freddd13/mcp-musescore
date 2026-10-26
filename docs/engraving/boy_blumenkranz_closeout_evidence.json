@@ -1,0 +1,963 @@
+{
+  "date": "2026-10-26",
+  "base_commit": "e1f73d827c97a85b6ba4601a7e52391bcf778a84",
+  "scope": "Known first-pass scores,whole question closeouts;root-only,no frozen independent initial or new fixed transfer scenario",
+  "note": "INTEGRATED_READING_BOY_BLUMENKRANZ.md",
+  "source_protection": [
+    {
+      "id": "A023",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Blumenkranz - Kill la Kill - Soundtrack.pdf",
+      "sha256": "3ea87d522d1694c724b7bbabc01c0ed461200711092cbe49b71cd478ee0d0a55",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A024",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\BOY - Ousama Ranking - Opening Theme.pdf",
+      "sha256": "8199f3ad76401252272d7f9117db76a9ab55b225b672ab6c715e90c6cb9cf963",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A023",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A023/page-1.jpg",
+      "sha256": "02a9d81d83c2d997905c5b78bd6a54ab469569472c5bb70b589e242805eef557",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A023",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A023/page-2.jpg",
+      "sha256": "6aff12712509facf14e2ab4a6381e62a82d2c0139adb835d81a2de8d93e57bc8",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A023",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A023/page-3.jpg",
+      "sha256": "7aee6fe7042934d58e68213ce92a93dd59ae46e0d715bcbb682ebc0cbb2ea7f8",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A023",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A023/page-4.jpg",
+      "sha256": "f7fcb59694bfefc86df9ab7639d378f8ae546c1db5c5e6d875d54a1a12b3ba0a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A023",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A023/page-5.jpg",
+      "sha256": "dec08629863e90e3cd799bca770ff72a18d5beca08ef5cbc96ed312a4a3747a9",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A024",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A024/page-1.jpg",
+      "sha256": "10bde07a1075f7070e4e1816d6aca495be506874a04cd56519b30624d8dd54c6",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A024",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A024/page-2.jpg",
+      "sha256": "be0b0b9a80eb9b911dc089ada1797087a3f8026547209101e688cb5a94513a7d",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A024",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A024/page-3.jpg",
+      "sha256": "adcd6f1f4d2f5f794d3b7ab82b2fff0cc55fa91d712a938067592bf3fbe6e2bd",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A024",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A024/page-4.jpg",
+      "sha256": "b4160a73a4c057d05cccf520f1613bdd008a9afac5077b99855a75aa78dd5f4d",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A024",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A024/page-5.jpg",
+      "sha256": "782f0cd82fb199f9192c895bced7e54bca650dc66f51e505f6fd423a15782bae",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 507,
+      "pdf_page": 527,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/book-507.jpg",
+      "sha256": "79645ab03d2a340ebce27c628b9949fb65e5413df5fadb2d36bd4247053106fc",
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 508,
+      "pdf_page": 528,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/book-508.jpg",
+      "sha256": "56fe5bada01b619e9977f373974a5c9a247715e096ef1230a5bd7e0a8c95232c",
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 509,
+      "pdf_page": 529,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/book-509.jpg",
+      "sha256": "1177d2b864a866c7617ce68a640e9f7b9c62c7e2b794518360156f2da40a811a",
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 510,
+      "pdf_page": 530,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/book-510.jpg",
+      "sha256": "7f0fbc72640471b811c140d5a7f2482a8ab70198b7144b075d5ad205739cd328",
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 511,
+      "pdf_page": 531,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/book-511.jpg",
+      "sha256": "0e95e05e4ed9f5f0d284340942cba1b64e94df8c897d02d34ca6339ce16b68b7",
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 512,
+      "pdf_page": 532,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/book-512.jpg",
+      "sha256": "30093103553bd6c432c186c8a722ee3e2ec5ddad65a7b2ad12a340fdb41efc2e",
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 513,
+      "pdf_page": 533,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/book-513.jpg",
+      "sha256": "c3f4644d0ebda5064d2fd017e073f17a1f6346b1c3cecce5d8d5af4456428795",
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 514,
+      "pdf_page": 534,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/book-514.jpg",
+      "sha256": "c8a32e1fae547474a5d20bfb79cb8fd244376073e2ff2e60148d946e511b8a92",
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A023",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A023-p1-s1.jpg",
+      "sha256": "eb20120caacab636247cf592edafc8b0d553de0757a0a8909a02f9e81f351a6f",
+      "crop_pt": [
+        25,
+        173.0,
+        575.3200073242188,
+        332.16
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A023",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A023-p1-s3.jpg",
+      "sha256": "7f782740ee8d0e0f5ca0de092f17fb8cd2bfae3a3cec62894b4534c8b071c83a",
+      "crop_pt": [
+        25,
+        410.0,
+        575.3200073242188,
+        579.24
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A023",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A023-p2-s2.jpg",
+      "sha256": "1bfde8beef6a20a5b4b6d4b96d0e43b42887b77a1beefeeb7410bc5aaa581e27",
+      "crop_pt": [
+        25,
+        186.08,
+        575.3200073242188,
+        345.36
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A023",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A023-p3-s1.jpg",
+      "sha256": "bd195701c7e5419a1fdf837a3dcfdf11c2a65813da7a8c4f945b2c63afa6c520",
+      "crop_pt": [
+        25,
+        29.120000000000005,
+        575.3200073242188,
+        188.28
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A023",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A023-p3-s3.jpg",
+      "sha256": "325faecd988fc9876fbe5cc25caebd6e29c0c8b8b5fd563208452cd2e06a6e1e",
+      "crop_pt": [
+        25,
+        343.04,
+        575.3200073242188,
+        502.2
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A023",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A023-p4-s1.jpg",
+      "sha256": "46fce5aa686ab0f3c16e8a437073884e8a01c19e972a8103f5bdb2f854ad31f5",
+      "crop_pt": [
+        25,
+        29.120000000000005,
+        575.3200073242188,
+        188.28
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A023",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A023-p4-s2.jpg",
+      "sha256": "7743489219869be3c2e748cdac905360e8c53e87a7ed7a8dbc47ecff9bd2c9d9",
+      "crop_pt": [
+        25,
+        186.08,
+        575.3200073242188,
+        345.36
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A023",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A023-p5-s5.jpg",
+      "sha256": "c1f44286dd4cce347182e586302c3fd7774847b2088fb052f8eec0f21f16de71",
+      "crop_pt": [
+        25,
+        657.08,
+        575.3200073242188,
+        816.24
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p1-s1.jpg",
+      "sha256": "e3446bbe30e72d7dee8c610d4aa1874fdba357ab514aff36060916ca160ed9d7",
+      "crop_pt": [
+        25,
+        136.08333333333334,
+        505.0,
+        284.25
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p2-s2.jpg",
+      "sha256": "67d492ac5e92358057b18ce57a52e5b9c9e5f8d185f1552a0a0f963916d074bd",
+      "crop_pt": [
+        25,
+        133.45833333333334,
+        505.0,
+        287.3125
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p3-s1.jpg",
+      "sha256": "c36aaf72e6a739fd85589aa7441826c813995512d934baf60a0f5fb2015fbceb",
+      "crop_pt": [
+        25,
+        21.458333333333343,
+        505.0,
+        169.625
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p3-s2.jpg",
+      "sha256": "7dc4a53110acdaec54b662f3850ac6a7b39c75d7a61a0c2ed9fdf337fb9a2b1a",
+      "crop_pt": [
+        25,
+        132.58333333333334,
+        505.0,
+        282.7916666666667
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p3-s3.jpg",
+      "sha256": "9bdd010f0149f46b6c0e9d81aae4f84f6d44583233ac4aa6ab2f312caf18a44f",
+      "crop_pt": [
+        25,
+        249.54166666666669,
+        505.0,
+        397.70833333333337
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p4-s1.jpg",
+      "sha256": "35d5b64ffb6629ccdd4b52db44fbfe9937d881948ef8da059fe8cadddc15767e",
+      "crop_pt": [
+        25,
+        21.458333333333343,
+        505.0,
+        169.625
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p4-s3.jpg",
+      "sha256": "b2c4138e5ceccfa07826e34c25bb0a8c104baabd0d8522d59d1bf75dafefb072",
+      "crop_pt": [
+        25,
+        261.5,
+        505.0,
+        407.625
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p4-s4.jpg",
+      "sha256": "acaddd224767fc82ee21b08f048bcd48f31c5cde4db73592e7b4fdf6dc7e66f3",
+      "crop_pt": [
+        25,
+        363.875,
+        505.0,
+        519.625
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p5-s4.jpg",
+      "sha256": "92a7eb292c0d2b23a91e0d973d5a63527aaab8251203abc2a41e170657c0b61a",
+      "crop_pt": [
+        25,
+        356.875,
+        505.0,
+        505.0416666666667
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p5-s6.jpg",
+      "sha256": "e5e1b2a75d577329713effe16f587ce2d90f67976b7b5a2f3eedc2a042b0f9ff",
+      "crop_pt": [
+        25,
+        591.6666666666667,
+        505.0,
+        737.9375
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "rhythm-definition-detail",
+      "id": "A024",
+      "page": 1,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/BOY-rhythm-definition.jpg",
+      "sha256": "f936cb76d6ced88f9f6fb9ff6cbc20e8ce307f9fcdb79a6217c7d5667e1da4e4",
+      "crop_pt": [
+        36,
+        145,
+        130,
+        190
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A024",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/A024-p2-s3.jpg",
+      "sha256": "3c7a2a2a6133428bf1c8e237e623f29fa26191355a5935c750fcbd90c6aad628",
+      "crop_pt": [
+        25,
+        250.41666666666669,
+        505.0,
+        396.6875
+      ],
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 72,
+      "pdf_page": 92,
+      "path": "tmp/engraving/curves-2026-10-19/book-72.jpg",
+      "sha256": "d77e42e2f5b6c76705c3544e9ccbf37b5d165c3208def1545b99bbe75625d000",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 73,
+      "pdf_page": 93,
+      "path": "tmp/engraving/curves-2026-10-19/book-73.jpg",
+      "sha256": "c19a47bc3a81003f291244df93a34a40a1cef7a6a05ab18fb61087e9838b63b3",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 110,
+      "pdf_page": 130,
+      "path": "tmp/engraving/boy-blumenkranz-2026-10-26/book-110.jpg",
+      "sha256": "e6660090417240bab67d7ddc12e1e6defb516716c6101461714745b901441221",
+      "new_ledger_coverage": false,
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 184,
+      "pdf_page": 204,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p184.jpg",
+      "sha256": "222171418db6fb21f843c2685ff670cd6b69cc7bec7d52f910f1f38b48b7ec14",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 239,
+      "pdf_page": 259,
+      "path": "tmp/engraving/repeat-navigation-2026-10-20/book-p239.jpg",
+      "sha256": "4493853c9302e49a1365174120a4da0280067985e8a0259ec8e23db84bb26220",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 240,
+      "pdf_page": 260,
+      "path": "tmp/engraving/repeat-navigation-2026-10-20/book-p240.jpg",
+      "sha256": "a73e6a89cf3704a0ed3519e6f20aeeaeeba1a3a78e5ce35c0fa4830f75e80a4f",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/piano-2026-10-19/book-307.jpg",
+      "sha256": "6f71c686e801535afbf60d5e99f87f63601c0141d99c344f13ffd3782924abbc",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 310,
+      "pdf_page": 330,
+      "path": "tmp/engraving/piano-2026-10-19/book-310.jpg",
+      "sha256": "d36d75ef5cfc3d92927d39a30fe9d3d7569649c4a336ac3371619eb906092704",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 325,
+      "pdf_page": 345,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p325.jpg",
+      "sha256": "d91248adaef495947c61800e3339e9a0bd7eebb14a1d79b5f7a799b1910b6282",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 332,
+      "pdf_page": 352,
+      "path": "tmp/engraving/piano-2026-10-19/book-332.jpg",
+      "sha256": "e258c4a2eaefb8646706e4efe58d744a23794a3d6ecca5500e78894da64bfd49",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 338,
+      "pdf_page": 358,
+      "path": "tmp/engraving/piano-2026-10-19/book-338.jpg",
+      "sha256": "5737ec84962436bc3fcdcf5c28e21a22be38134c4366e6ceca4d3dbce5a40f8b",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 489,
+      "pdf_page": 509,
+      "path": "tmp/engraving/system-boundaries-2026-10-20/book-509.jpg",
+      "sha256": "a54c179b052d301f8dff2eb06a7606628dd0abaf687b58a96ab5c01c0fa71cc4",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/system-boundaries-2026-10-20/book-510.jpg",
+      "sha256": "0f6df8b1c4c2edfaed0e24aac96ad68ffc95bebaef60b3920187d6f01f986fa5",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/piano-2026-10-19/book-337.jpg",
+      "sha256": "f829990ad08fe0abe3be5c36c330297de27cd14c3635709a4a36a2b2969ae286",
+      "new_ledger_coverage": false,
+      "reused": true,
+      "actually_viewed": true
+    }
+  ],
+  "book": {
+    "new_substantive_printed_pages": [
+      507,
+      508,
+      509,
+      510,
+      511,
+      512,
+      513,
+      514
+    ],
+    "new_auxiliary_pdf_pages": [],
+    "new_unique_coverage": 8,
+    "old_complete_pages_reread": [
+      72,
+      73,
+      110,
+      184,
+      239,
+      240,
+      307,
+      310,
+      325,
+      332,
+      337,
+      338,
+      489,
+      490
+    ],
+    "pdf_offset": 20,
+    "whole_chapter_claimed": false
+  },
+  "score_context": {
+    "A023": {
+      "complete_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "systems": 25,
+      "written_bars": 81,
+      "capacity_by_page": [
+        [
+          4,
+          3,
+          4,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          4,
+          3,
+          3,
+          3
+        ],
+        [
+          3,
+          3,
+          3,
+          3,
+          5
+        ]
+      ],
+      "page_size_pt": [
+        595.32,
+        841.92
+      ],
+      "questions_reviewed": [
+        "withoutPedal toA/Pedal",
+        "Dshort arc and articulation identity",
+        "Elowerstaff two roles"
+      ],
+      "preserve": [
+        "distinct sustained and short layers",
+        "middle-system entries",
+        "different Jarticulation/continuation",
+        "Gottava preceding label"
+      ],
+      "unknowns": [
+        "Exact pedal changes/holds",
+        "J8va final extent clarity",
+        "full pitch/tuplet/playback audit",
+        "native reflow and actual self-turn"
+      ]
+    },
+    "A024": {
+      "complete_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "visible_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "visible_rows": 29,
+      "distinct_braced_systems": 30,
+      "coda_restart_shares_row": [
+        3,
+        3
+      ],
+      "page_size_pt": [
+        525,
+        742.5
+      ],
+      "questions_reviewed": [
+        "opening dotted rhythm definition",
+        "B/Segno,Htempo and return",
+        "fast groups and mid-row entrances"
+      ],
+      "rhythm_definition": {
+        "written": [
+          "dotted sixteenth",
+          "thirty-second"
+        ],
+        "interpreted": [
+          "triplet eighth",
+          "triplet sixteenth"
+        ],
+        "total_quarters": "1/2",
+        "written_ratio": "3:1",
+        "interpreted_ratio": "2:1",
+        "quarter_bpm": 110,
+        "global_playback_inferred": false
+      },
+      "split_bar": {
+        "location": "p2rows2to3,Csecond written4/4,m22byvisibleorder",
+        "front_quarters": 2,
+        "continuation_quarters": 2,
+        "next_upper_durations_quarters": [
+          "1/4",
+          "3/4",
+          "1/2",
+          "1/2"
+        ],
+        "next_lower_durations_quarters": [
+          "1/2",
+          "1/2",
+          "1"
+        ],
+        "native_logical_bar_id_known": false
+      },
+      "navigation": {
+        "segno": [
+          1,
+          5,
+          "B"
+        ],
+        "to_coda": [
+          3,
+          1,
+          "end"
+        ],
+        "dal_segno": [
+          3,
+          3,
+          "left"
+        ],
+        "coda": [
+          3,
+          3,
+          "right F"
+        ],
+        "first_pass_continues_after_to_coda": true,
+        "recommendation": "D.S. al Coda;preserve braced Coda restart",
+        "expanded_playback_verified": false
+      },
+      "tempo": {
+        "poco_meno_start": "p4row3,preHlast two sixteenths",
+        "tempoI": "p4row4,middle",
+        "new_exact_bpm_unknown": true
+      },
+      "unknowns": [
+        "All dotted-definition scope/playback",
+        "all 7/6ratios and pitch audit",
+        "Ccomplete-bar native alternative and total page budget",
+        "physical route-turn proof"
+      ]
+    }
+  },
+  "corrections": [
+    {
+      "old_note": "corpus/READING_005.md:A024",
+      "old": "dotted eighth plus sixteenth",
+      "corrected": "dotted sixteenth plus thirty-second;triplet eighth plus sixteenth",
+      "evidence": "fresh rhythm definition and full-system images"
+    },
+    {
+      "old_note": "corpus/READING_005.md:A023D",
+      "old": "short arcs and adjacent dots",
+      "corrected": "tenuto horizontal mark and short slur;no fermata",
+      "evidence": "fresh completeDsystem"
+    }
+  ],
+  "extraction_guard": {
+    "raw_vector_row_candidates_A024": [
+      5,
+      9,
+      11,
+      11,
+      11
+    ],
+    "actual_rendered_music_rows_A024": [
+      5,
+      6,
+      6,
+      6,
+      6
+    ],
+    "method": "PDFium full pages + raster staff locators + fresh system regions;raw drawing candidates rejected before public counting",
+    "cause_of_nonvisible_candidates_not_proven": true,
+    "raw_text_not_used_to_create_visible_tempo": true
+  },
+  "actions": [
+    "preserve most layers,hand cues,distinct attack/tempo points",
+    "suggest D.S.alCoda wording",
+    "compare complete-bar C alternative before any adoption",
+    "conditional Jottava continuation clarity review"
+  ],
+  "not_performed": [
+    "original edits",
+    "native runs",
+    "font work",
+    "MCP/plugin/core adaptation",
+    "new fixed transfer trial",
+    "user preference confirmation",
+    "file deletion"
+  ],
+  "validation": {
+    "status": "passed",
+    "checked_at_utc": "2026-10-26T04:29:00.387916+00:00",
+    "progress_snapshot": {
+      "as_of": "2026-10-26",
+      "scope_revision": 1,
+      "goal_status": "active",
+      "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+      "first_pass_scores": [
+        146,
+        146
+      ],
+      "first_pass_pages": [
+        1135,
+        1135
+      ],
+      "historical_detail_pages": 379,
+      "deep_scores": [
+        24,
+        24
+      ],
+      "deep_pages": [
+        164,
+        164
+      ],
+      "all_score_closeout": [
+        26,
+        146
+      ],
+      "gould_pages_conservative": [
+        403,
+        696
+      ],
+      "gould_substantive_pages": 383,
+      "gould_non_substantive_pages": 20,
+      "gould_title_or_contents_pages": 20,
+      "public_resource_scopes": [
+        11,
+        25
+      ],
+      "skill_transfer_scenarios": [
+        8,
+        8
+      ],
+      "user_integrated_rounds": [
+        0,
+        1
+      ],
+      "user_milestones": [
+        2,
+        4
+      ],
+      "skill_topics": [
+        20,
+        20
+      ],
+      "release": "engraving-v0.5.0"
+    },
+    "source_hashes_rechecked": 3,
+    "actual_image_hashes_rechecked": 52,
+    "whole_score_pages_reread": 10,
+    "complete_system_details": 19,
+    "rhythm_definition_detail": 1,
+    "old_complete_book_pages": 14,
+    "new_substantive_book_pages": 8,
+    "new_auxiliary_book_pages": 0,
+    "all20_skill_routes_executed": true,
+    "old_topic_references_preserved": true,
+    "skill_format": "Skill is valid!",
+    "local_links": 424,
+    "local_anchors": 19,
+    "controlled_paths": 15,
+    "previous_release_snapshots_unchanged": true,
+    "source_skill_frontmatter_unchanged": true,
+    "cache_batch_logical_bytes": 5863297,
+    "total_cache_logical_bytes": 2447975610,
+    "no_deletions": true,
+    "native_runs": 0,
+    "software_adaptation": false,
+    "scope": "Source/image provenance and current metadata/routes;not independent judgment accuracy,native reflow or physical turn proof"
+  }
+}
