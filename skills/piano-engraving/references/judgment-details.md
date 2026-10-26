@@ -81,6 +81,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_FATE_FRIEREN.md`的交替和弦头位一宽一窄，实际干轴近等距。先确定读者跟随的光学参照；相反干向不能按同一头x均分。
+
 `INTEGRATED_READING_EVERYDAY_EXTRA.md`核五连对八分：后半拍位于快音第3／4之间，却未撑宽该格；同20头在下行宽约26%又近均匀。先看实际占位与行预算，保护两手顺序，不按中间事件数直接判宽格。
 
 `spacing`的`INTEGRATED_READING_EONIAN_EUTERPE.md`量54头重复疏密及加线净空：压最短会碰线，拉最宽又需额外37.44pt，保留。EONIAN中小节三音轻微长短列候选；下层复杂不直接证明更细中间时间点或唯一成因。
@@ -171,6 +173,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`INTEGRATED_READING_FATE_FRIEREN.md`的平梁若为两向干等长而上移，会压到谱线；保净空与实际拍组。比较梁高、谱表距和完整行容量，不能单独设统一干长。
+
 `piano`／`cross-staff`的`INTEGRATED_READING_CRY_DAISY.md`保留F慢线附加干和说明晚进入的首拍休止；允许省写不等于应删。局部r.h.／l.h.、括号路线音及跨表梁分别说明手、提示与运动，不改整表归属或增加攻击。
 
 ## 跨表梁、短干与休止
@@ -232,6 +236,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`INTEGRATED_READING_FATE_FRIEREN.md`有房子层级清楚却缺局部起反复的I／Q。先澄清实际返回点，再谈紧凑和避碰；字母不自动提供跳转语义。
 
 `navigation`／`octaves`的`INTEGRATED_READING_CATCH_CHANGE.md`把短8va的首音后终点、D.S.返回D、To Coda出口与另行Coda分读。线尾不吸到段号／行末；D.S.与Coda同页不消除回p2的翻纸路线。保留原断行，必要时另比落点留白。
 

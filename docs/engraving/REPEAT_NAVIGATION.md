@@ -82,3 +82,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-26：Coda易找，回到segno仍可能跨页
 
 [Catch the Moment静态路线](INTEGRATED_READING_CATCH_CHANGE.md#5-短八度线与导航线尾不能吸到最顺眼的边界)由p4第5系统D.S.回p2行中D，再到p3第5系统第2小节末To Coda，跳p4末行Coda。单列一行并重列表头帮助落点搜索；D／出口处在行中仍有自己的定位任务。可条件比较Coda轻微缩进或显著留白，不能用当前D.S.与Coda同页就证明可自翻。Gould p239允许复杂路线考虑写出，代价是增页与重分；本轮不展开音乐，也未核实际跳转播放。
+
+## 2026-10-27：房子层级清楚仍要核返回起点
+
+[Fate／Frieren](INTEGRATED_READING_FATE_FRIEREN.md)：A044 F／J有显式起反复，I／Q只有房子及终反复、无局部起点，列作者意图澄清候选。若要回I／Q再补起点，当前不猜路线。p10外层房子、中层8va、内层slur保留；跨行首房及开放短次房不必强压同一行。

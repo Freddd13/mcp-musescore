@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-27[Fate／Frieren](INTEGRATED_READING_FATE_FRIEREN.md)：交替厚和弦先看干轴与复合拍，平梁可为避谱线保留不等干长；房子漂亮仍查每次返回起点。段前换拍／弱起、同数字不同单位、尾声新攻击与分句续接分判。
+
 2026-10-27[Everyday／Extra](INTEGRATED_READING_EVERYDAY_EXTRA.md)：中间进入不必撑宽，先量实际符号与整行；整行6/4、跨表持音、无竖线的长收尾及行中恢复分别判断。末尾19头／全音符落点纠正保留。
 
 2026-10-27[EONIAN／Euterpe](INTEGRATED_READING_EONIAN_EUTERPE.md)：同值组内有规律疏密先查加线，压到最短可碰线；保留九组六音轮廓，EONIAN轻微长短仍可比较。普通前导、混合六份、tie接收、两音震音与长弧范围先核，不能从缩图或音头数直接生成时间。
