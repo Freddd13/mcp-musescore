@@ -86,3 +86,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-27：房子层级清楚仍要核返回起点
 
 [Fate／Frieren](INTEGRATED_READING_FATE_FRIEREN.md)：A044 F／J有显式起反复，I／Q只有房子及终反复、无局部起点，列作者意图澄清候选。若要回I／Q再补起点，当前不猜路线。p10外层房子、中层8va、内层slur保留；跨行首房及开放短次房不必强压同一行。
+
+## 2026-10-27：次数文字和相邻房子按各自范围读
+
+[Grand Escape／Great Days](INTEGRATED_READING_GRAND_GREAT.md)：A051四遍文字只管p1s2末两小节；A八小节、D四小节、G四小节各有边界。p5背靠背新反复共两小节加第一／第二房各两小节，第二房开尾符合Gould237条件；保8va与谱号的实际恢复。更明确总遍数措辞列候选，不据纸面宣称播放已核。

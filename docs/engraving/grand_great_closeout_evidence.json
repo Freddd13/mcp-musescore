@@ -1,0 +1,5361 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "48c1a7dd1423a60c9a1a39548660bb05e8b5c1ae",
+  "note": "INTEGRATED_READING_GRAND_GREAT.md",
+  "additional_note": "VOCAL_TEXT_READING.md",
+  "previous_goal_turn_classification": "Progress: 48c1a7d published A049/A050 whole reviews,positive spacing,reprises and partial-tie/tuplet knowledge;551/696 and50/146. Current branch pulled up to date; solo only.",
+  "scope": "Solo known-score whole question reviews A051/A052; optical cross-staff pulse,octave-line clearance,tuplet repetition/change,repeat/ending scope and independent sustain. Vocal text chapter continuation separately indexed. No native candidate, independent transfer or software/font adaptation.",
+  "source_protection": [
+    {
+      "id": "A051",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Grand escape - Weathering with you - Insert Song.pdf",
+      "sha256": "fda8fc4ac017586d1b8a9f296345ca234b92b65a4b98e33b28bd1cd7e44a35b8",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A051",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A051/page-1.jpg",
+      "sha256": "ca1db15610d65acb77f20c8506ad627a9965ef9d6b03dce1f157e77117bca0e4",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A051",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A051/page-2.jpg",
+      "sha256": "cf446d0214e3fe82b9ba684849de4954d005326dc333efa9b93b707923ede956",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A051",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A051/page-3.jpg",
+      "sha256": "edd5844b9368f89c51dbd8bae89fd1008278d0b95fbe14f939faaf3d0268edbb",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A051",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A051/page-4.jpg",
+      "sha256": "08f77e611b54051d1f7b986cd8497852de1e271bc154e6d2447f35e02294d27b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A051",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A051/page-5.jpg",
+      "sha256": "9a9631ee4d86257f94556444631ee53e03d67e0c16918038b442d0dd4f7ab167",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A051",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A051/page-6.jpg",
+      "sha256": "d59ba2ce13fe2530eef43b8526656fd8f28a3b11929d7a7fb621d581ee1d2d19",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A052",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A052/page-1.jpg",
+      "sha256": "1a7ded9b76b6f0179c08f2b9447a3ee5a9e3831ba9e4920a5ca444c8b9f66712",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A052",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A052/page-2.jpg",
+      "sha256": "c3fc87cdf276887215deacbfd22570d5f105e5c0aeed52bda60f191dbd0c7cd5",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A052",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A052/page-3.jpg",
+      "sha256": "bfd3facfcee8774538f48150cbda717658739eb4f170afbd494ee08c9fc157d0",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A052",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A052/page-4.jpg",
+      "sha256": "13da68c56edd7865fc7a01c1c48f214233e38445c6007bada10d1945810c681b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A052",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A052/page-5.jpg",
+      "sha256": "2a897e74be8dc1fe3f3208f48e9691b3797eadf56b890b6f4d6d114318b3454b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A052",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A052/page-6.jpg",
+      "sha256": "1943454f73550fad703c6e3663ae551cba15992c6b2fb0ea3b749061a8bdf816",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 437,
+      "pdf_page": 457,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-437.jpg",
+      "sha256": "7c5532418952333822ab9721ffbf5ae20c1cd6e98b2d613d9cd798fe690854b9",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 438,
+      "pdf_page": 458,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-438.jpg",
+      "sha256": "f1fc83244215f911c82e0aeb3b54cf2357e74727e4ad0f4a3bb196a27c55c90a",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 439,
+      "pdf_page": 459,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-439.jpg",
+      "sha256": "0969cfeb6942a5e2bc112c8fdb6ff9885ed6820e75b5e946980d44ee49a38729",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 440,
+      "pdf_page": 460,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-440.jpg",
+      "sha256": "2aa6a0b8d0694c359c4074d042c758e8b41e8871e253d08e9c37c4553e4c5d09",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 441,
+      "pdf_page": 461,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-441.jpg",
+      "sha256": "5575e32e5ffac7b20ec7d7fa85b7e3cd01df4c5914739e65b82af53d08d36020",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 442,
+      "pdf_page": 462,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-442.jpg",
+      "sha256": "f5f63a4311b4aa3cf4f22f358f06d57d2477ba0c4204c322f887c51f6bd74aae",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 443,
+      "pdf_page": 463,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-443.jpg",
+      "sha256": "3511a031451c8ae6a5d9c4dc26ca18c91edf7afacfb60b20d6e18552a3cb3e39",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 444,
+      "pdf_page": 464,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-444.jpg",
+      "sha256": "fc5f764e40c28b31b35e4e7e0ec6e41a7dcaceceacdb11d780439fc34d14acd0",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 445,
+      "pdf_page": 465,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-445.jpg",
+      "sha256": "a8d81fd80e97f51aa7df3167a440d3791d437331fcb0a0d0a5553f318bc1cbc5",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 446,
+      "pdf_page": 466,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-446.jpg",
+      "sha256": "9b247b582aae3bf25100fd417b095ee86e383858e6f6af693ef6f0a2b9c08071",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 447,
+      "pdf_page": 467,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-447.jpg",
+      "sha256": "c953be6b734a13631963c58957d97f05bdb11ff33d2e642913b80a223a7c0806",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 448,
+      "pdf_page": 468,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-448.jpg",
+      "sha256": "d975af17ac4d85c8a537abd211ff3d02b6e42dd74871c8757d745620b81b66dc",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        20,
+        173.074568288854,
+        573,
+        323.5565149136578
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p1-s1.jpg",
+      "sha256": "bd4841f4f5fada858e4ed3ff9b5f173d8db619ed212e1dee01f41465245a3eef",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 1,
+      "system": 2,
+      "crop_pt": [
+        20,
+        287.4120879120879,
+        573,
+        438.059262166405
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p1-s2.jpg",
+      "sha256": "abed3545af230ce27cb7ac9790ab831d4919464799d91e16063d4a50bf0f0b70",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 1,
+      "system": 3,
+      "crop_pt": [
+        20,
+        400.9234693877551,
+        573,
+        559.8320251177394
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p1-s3.jpg",
+      "sha256": "55f88c919eac4352ffaf69892a247a9341fe8c1c80288ad9480efc68b0cf572e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 1,
+      "system": 5,
+      "crop_pt": [
+        20,
+        651.9042386185243,
+        573,
+        810.978021978022
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p1-s5.jpg",
+      "sha256": "9c8f780f0c407db4425da175f95ac6a35281c4ceec3ce642ecca0a324e819549",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 2,
+      "system": 1,
+      "crop_pt": [
+        20,
+        25.691522762951337,
+        573,
+        184.76530612244898
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p2-s1.jpg",
+      "sha256": "eac22bf74f714e0e92466ac4ef17cfa824b584e683b9682dc12250643a8c8664",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 2,
+      "system": 4,
+      "crop_pt": [
+        20,
+        405.0541601255887,
+        573,
+        568.4238618524333
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p2-s4.jpg",
+      "sha256": "278204ee36b53ab28541d1b4e05d6545d6141e932b53f25556c09e616701ebc9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 2,
+      "system": 5,
+      "crop_pt": [
+        20,
+        524.0180533751962,
+        573,
+        688.0486656200942
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p2-s5.jpg",
+      "sha256": "e320351286601e2985bd5b6826034550a871ca3eaebc1475d5c04156b2fe84bd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        20,
+        265.6020408163265,
+        573,
+        420.37990580847725
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p3-s3.jpg",
+      "sha256": "996f6ff2c7fa5e1537add13b8d565de450f2d2a9f93707ed2194298cdb82a18e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 3,
+      "system": 4,
+      "crop_pt": [
+        20,
+        400.0973312401884,
+        573,
+        561.1538461538462
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p3-s4.jpg",
+      "sha256": "b39f0aa2586d12f26973b94679a74b18f8bc9a3d04fc9621f3713c1855afafa3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 3,
+      "system": 5,
+      "crop_pt": [
+        20,
+        534.9230769230769,
+        573,
+        695.9795918367347
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p3-s5.jpg",
+      "sha256": "9317ff4699332361f65182fa851d53231d1579bf439d37c66f00c5a6510c9ceb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 3,
+      "system": 6,
+      "crop_pt": [
+        20,
+        658.1828885400314,
+        573,
+        810.6475667189953
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p3-s6.jpg",
+      "sha256": "c6a610dd7146f891c22e0c4a42b881e8b0e3a1d9216d7c14ca865ee75b33e434",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 4,
+      "system": 1,
+      "crop_pt": [
+        20,
+        25.691522762951337,
+        573,
+        176.1734693877551
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p4-s1.jpg",
+      "sha256": "e2354bca33f763ffaf6265234899120f3e75bcc3d75df8bf38d9163643002aa1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 4,
+      "system": 3,
+      "crop_pt": [
+        20,
+        276.17660910518055,
+        573,
+        437.2331240188383
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p4-s3.jpg",
+      "sha256": "c421780bda67880fbe0868788a51a66bb552d822c0723276d3f9b7873c9615e1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 4,
+      "system": 5,
+      "crop_pt": [
+        20,
+        525.0094191522763,
+        573,
+        679.787284144427
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p4-s5.jpg",
+      "sha256": "9cbfeb8eaf4bda33e7836714fb46d99c2403fd6cb931f57eafedaaab83aeea2b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 4,
+      "system": 6,
+      "crop_pt": [
+        20,
+        657.8524332810047,
+        573,
+        810.6475667189953
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p4-s6.jpg",
+      "sha256": "a4e2a804cc4f46ad04ce0959482c74b095e343f928527fa782b4758760de1cc3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 5,
+      "system": 1,
+      "crop_pt": [
+        20,
+        25.691522762951337,
+        573,
+        176.1734693877551
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p5-s1.jpg",
+      "sha256": "4a00bfba639b7f22f4b7024d48f0b9263981b2762bae61476ff5f0f8b1d854a1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 5,
+      "system": 2,
+      "crop_pt": [
+        20,
+        141.0204081632653,
+        573,
+        295.79827315541604
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p5-s2.jpg",
+      "sha256": "e41e1e18b35b5f701d18a408d8d87c735733b56d11452c140f251b2d9e242b5a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 5,
+      "system": 3,
+      "crop_pt": [
+        20,
+        274.5243328100471,
+        573,
+        429.3021978021978
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p5-s3.jpg",
+      "sha256": "09a7451004fc9aabdaba8472b7ad3690e0b57e72b98c7a577d0e73a88ff75aee",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 5,
+      "system": 4,
+      "crop_pt": [
+        20,
+        400.4277864992151,
+        573,
+        567.7629513343799
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p5-s4.jpg",
+      "sha256": "0d2dd40e5ca7d76017eb50ec5df338204e4e86dd77234f28130f4442cc7dc7e6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 6,
+      "system": 2,
+      "crop_pt": [
+        20,
+        155.56043956043956,
+        573,
+        314.9646781789639
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p6-s2.jpg",
+      "sha256": "d85f4835469ed21529938363b73c90b45c138d2cf23a195d3a41368c560087bd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 6,
+      "system": 5,
+      "crop_pt": [
+        20,
+        524.3485086342229,
+        573,
+        674.8304552590267
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p6-s5.jpg",
+      "sha256": "2d21f82b3247fcb91d7d41fb46fb7a5be6c7a87b8ad334dff112638faeff5c1f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A051",
+      "page": 6,
+      "system": 6,
+      "crop_pt": [
+        20,
+        660.3308477237049,
+        573,
+        810.978021978022
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A051-p6-s6.jpg",
+      "sha256": "67c5ab0f5b5e01dac812cb7b4e67c32a3d40f118864cb309e69af07aa7463f82",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        20,
+        151.83863368669023,
+        573.22,
+        306.4762465645858
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p1-s1.jpg",
+      "sha256": "c05d9f57f0e46b46057bc9a09e6372fc78c6040778be5c7ed97d02fd6cc59e16",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 1,
+      "system": 2,
+      "crop_pt": [
+        20,
+        280.2709069493522,
+        573.22,
+        435.0738123282293
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p1-s2.jpg",
+      "sha256": "f404fbe800be9b383afae6e62c97387acb5847becb136fb6c22a129aebe43d7f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 1,
+      "system": 3,
+      "crop_pt": [
+        20,
+        408.8684727129957,
+        573.22,
+        559.3737730663526
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p1-s3.jpg",
+      "sha256": "317487e0f8e4cba792475b646b655ab3bf2cd63517977512f59256b244c3c56c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 1,
+      "system": 5,
+      "crop_pt": [
+        20,
+        662.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p1-s5.jpg",
+      "sha256": "03252b42328f0bd0f7cd2367c5e13c3bd8a238c194aa2d9452fa36b274bfe114",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 2,
+      "system": 1,
+      "crop_pt": [
+        20,
+        23.736945425991365,
+        573.22,
+        182.8374558303887
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p2-s1.jpg",
+      "sha256": "ecbe5d242f501262b2877cf041209b3d16b4d5cc75854f52a7d7c9c4e0265a5f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 2,
+      "system": 3,
+      "crop_pt": [
+        20,
+        273.3286219081272,
+        573.22,
+        428.1315272870043
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p2-s3.jpg",
+      "sha256": "2cd65722d1b89e5c20b114ae7c570e9b1dc219f80e246d39e4ec687f6f96b506",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 2,
+      "system": 4,
+      "crop_pt": [
+        20,
+        405.7279151943463,
+        573.22,
+        556.2332155477031
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p2-s4.jpg",
+      "sha256": "1f77b0300afdefb38947bdccaa1998282d56b89f233b755d449c575c64dd18b7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 2,
+      "system": 5,
+      "crop_pt": [
+        20,
+        533.168433451119,
+        573.22,
+        683.6737338044759
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p2-s5.jpg",
+      "sha256": "c207ec52dae29a7e276f24cfa49971ab800f4ef2588ceca928451a0bdfefba83",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 2,
+      "system": 6,
+      "crop_pt": [
+        20,
+        662.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p2-s6.jpg",
+      "sha256": "3dcd8a9511ce53eea3df3113292747d64e0606be49148e387e4ef4245aa979a7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 3,
+      "system": 1,
+      "crop_pt": [
+        20,
+        23.736945425991365,
+        573.22,
+        178.53985080486848
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p3-s1.jpg",
+      "sha256": "128e0b44f7c086597d0c5efc12fa43ec0b89adb94862a72d85b3e5670490ce8b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        20,
+        278.78327444051826,
+        573.22,
+        429.28857479387517
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p3-s3.jpg",
+      "sha256": "2d05c5e05efa7209e3f61dde6e4cdb7cf1327f0b42e1e10372cc36e6be1fc8b2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 3,
+      "system": 5,
+      "crop_pt": [
+        20,
+        534.1601884570082,
+        573.22,
+        686.9795838241068
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p3-s5.jpg",
+      "sha256": "3f5cc1e6f352f71c136b6e99e08dd27c96ce23e53cf9bcf5b99e10444c27fb9d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 3,
+      "system": 6,
+      "crop_pt": [
+        20,
+        659.9477817039655,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p3-s6.jpg",
+      "sha256": "ba922b67b052388ee9123839502a40cd3db22e9b0430c6a4f9988a92977ab096",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 4,
+      "system": 1,
+      "crop_pt": [
+        20,
+        23.736945425991365,
+        573.22,
+        174.24224577934825
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p4-s1.jpg",
+      "sha256": "2659f9ae3e7a4758707381b71842482bce00adf781af4f6c07cf5c2d822f64ca",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 4,
+      "system": 3,
+      "crop_pt": [
+        20,
+        269.6921868865332,
+        573.22,
+        424.32979976442874
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p4-s3.jpg",
+      "sha256": "288896b031a1d88e06ef03f430c255192ae61ffd6d64216a06576a9bd5af5c43",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 4,
+      "system": 6,
+      "crop_pt": [
+        20,
+        662.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p4-s6.jpg",
+      "sha256": "bfd35830882e4824dec52500f0368e1ae3f639b95f958f6ef5fb4bf83d2311cf",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 5,
+      "system": 2,
+      "crop_pt": [
+        20,
+        136.79701609736946,
+        573.22,
+        287.3023164507264
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p5-s2.jpg",
+      "sha256": "b784dbfc04200a051eb5dd116f86770e649ae0a8b97b4b0cc8e780c6149cc75c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 5,
+      "system": 3,
+      "crop_pt": [
+        20,
+        240.60070671378094,
+        573.22,
+        391.1060070671378
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p5-s3.jpg",
+      "sha256": "78bd284ecef8b96c028ff786180d0d53c3abf6d8c1bc19f3d952a35fd2fa665f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 5,
+      "system": 4,
+      "crop_pt": [
+        20,
+        332.17275225755793,
+        573.22,
+        482.6780526109148
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p5-s4.jpg",
+      "sha256": "049b6ebe84f9a14e001e6d93bd889e6a3fd7894b9ce966f4a6b76ebc7b369b6d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 5,
+      "system": 5,
+      "crop_pt": [
+        20,
+        429.0341578327444,
+        573.22,
+        583.5064782096584
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p5-s5.jpg",
+      "sha256": "90aad6ab78ce4aaa3e12b864c80f97a3fdcb16185167ed71c752ca868fc8ab3c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 5,
+      "system": 6,
+      "crop_pt": [
+        20,
+        533.0031409501374,
+        573.22,
+        679.3761287789556
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p5-s6.jpg",
+      "sha256": "448a14a48a57071cd70a14270458010ee2a3559a5204c1e57576aedd613a7209",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 5,
+      "system": 7,
+      "crop_pt": [
+        20,
+        662.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p5-s7.jpg",
+      "sha256": "f902423e37bbe73f91fa6ffc8efb690e3c51257ae6b53db70a115296fc8fcdd3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 6,
+      "system": 1,
+      "crop_pt": [
+        20,
+        23.736945425991365,
+        573.22,
+        174.24224577934825
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p6-s1.jpg",
+      "sha256": "46b8897f2eb61fdf96bd7698587f914132db060235aae7aa35c4bc6f77569ebd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 6,
+      "system": 3,
+      "crop_pt": [
+        20,
+        275.80800942285043,
+        573.22,
+        426.14801727522575
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p6-s3.jpg",
+      "sha256": "0305dce1af9c5b626a41d60f1e6cb44d139822113a8cfa9a65842772264705d4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 6,
+      "system": 4,
+      "crop_pt": [
+        20,
+        401.5956026698076,
+        573.22,
+        556.3985080486847
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p6-s4.jpg",
+      "sha256": "1548ebaf102b027d2d49fd5846c2f97a3f2c6e6f8cbbfc6b8c92a1398fbaaf7f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 6,
+      "system": 5,
+      "crop_pt": [
+        20,
+        531.8460934432666,
+        573.22,
+        686.6489988221437
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p6-s5.jpg",
+      "sha256": "fc278626ecb031ea514d1a1ee827bdc05e991b46760f4d3f888c54c3d78c5d6c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A052",
+      "page": 6,
+      "system": 6,
+      "crop_pt": [
+        20,
+        662.0965842167255,
+        573.22,
+        812.6018845700825
+      ],
+      "path": "tmp/engraving/grand-great-2026-10-27/A052-p6-s6.jpg",
+      "sha256": "b6313044e313792e4e725680957ce5edeccf4a289d443bb60d58db5bff664785",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 27,
+      "pdf_page": 47,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-27.jpg",
+      "sha256": "a0a9d6ec372edbea9824529f2d637df99a9a9d72490a80d8715f49ba0e7f5990",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 28,
+      "pdf_page": 48,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-28-reread.jpg",
+      "sha256": "d1f1c6916c5587723ac75f0179d05cabf875ae20ea3010bb0a42c589cc531cfb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 29,
+      "pdf_page": 49,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-29.jpg",
+      "sha256": "fe4450ec355f5e3b370057b594877f6cfc1bd077f297e7d2ae4f0c42e7db840f",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 39,
+      "pdf_page": 59,
+      "path": "tmp/engraving/study-2026-10-19/book-39.jpg",
+      "sha256": "e54e35ecab84ac4044f4d55a70626b0f836dd16361a2fd442484c1a71923480d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/god-pokemon-2026-10-27/book-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 215,
+      "pdf_page": 235,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-215.jpg",
+      "sha256": "7b6c118b53b2466e2dfaa4cf8f0f5cf1e8b472256dd2f994d2552bedd44641a7",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 234,
+      "pdf_page": 254,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-234.jpg",
+      "sha256": "e3aadaae1fd46434af9b7b4227662415582516664a2e5295461cf9874307a459",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 235,
+      "pdf_page": 255,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-235.jpg",
+      "sha256": "6aeb6c1f2050b1af48067182383b633f4dfca04e785d4526a24da3644ee65d9d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 237,
+      "pdf_page": 257,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-237.jpg",
+      "sha256": "a42b7944f4bf0aaa42b138b3595cd2be23d6b886a52c7662d2012ee4858c1d60",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-307-reread.jpg",
+      "sha256": "b52e28888c02d2fc9046d3e632095e4be18cb53ca82755423eeeab20391f5d95",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-337.jpg",
+      "sha256": "4c517306cf30f5e24bb647c614fb38d0d2f10e611db454b5f72789c81480367d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false,
+      "new_substantive_ledger_coverage": false
+    }
+  ],
+  "whole_reviews": {
+    "A051": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "systems": 35,
+      "staves_per_system": 2,
+      "media_box_pt": [
+        595,
+        842
+      ],
+      "source_font_names": [
+        "DSUMXA+Pavane",
+        "FDMAKJ+CenturyOSMTStd",
+        "LFMOVQ+Osaka",
+        "PalatinoLinotype",
+        "PalatinoLinotype,Italic",
+        "RDNLZA+Pavane",
+        "RZDLKV+CenturyNo1SB-Bold",
+        "YKNNAC+CenturyNo1SB-BoldIta",
+        "YZIQSS+CenturyOSMTStd-Italic"
+      ]
+    },
+    "A052": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        7,
+        6
+      ],
+      "systems": 36,
+      "staves_per_system": 2,
+      "media_box_pt": [
+        595.22,
+        842
+      ],
+      "source_font_names": [
+        "OCLOIO+Chaconne",
+        "OCLOIP+Chaconne",
+        "OCLOJA+CenturyOSMTPro-Italic",
+        "OCLOKB+CenturyNo1SB-Bold",
+        "OCLPBP+Chaconne",
+        "OCLPCA+CenturyNo1SB-BoldIta",
+        "OCLPON+PalatinoLinotype",
+        "OCLPOP+PalatinoLinotype,Italic"
+      ]
+    }
+  },
+  "selected_music_checks": {
+    "arithmetic_checks": [
+      {
+        "where": "A051 opening moving line",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "ordinary eighths,4+4 beams; fifth bar adds independent upper accents"
+      },
+      {
+        "where": "A051 p1s2 repeat first upper melody bar",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/4",
+          "3/4"
+        ],
+        "total_quarters": "4",
+        "interpretation": "eighth,eighth,two16,tied eighth,two eighths,16,dotted8; separate down-stem eighth pulse"
+      },
+      {
+        "where": "A051 p1s3 A lower upper layer",
+        "quarter_units": [
+          "1",
+          "1/2",
+          "1/2",
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "quarterrest,two eighths,quarter receiver,two eighths; initial mp at actual entering layer"
+      },
+      {
+        "where": "A051 p3s4 first upper lower layer",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "eighthrest plus seven eighth heads,one tied receiver; independent upper whole chord"
+      },
+      {
+        "where": "A051 p5s3 second ending last upper bar",
+        "quarter_units": [
+          "2",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "four ordinary eighth pulse attacks,then two6:4 sixteenth groups;8va begins second group"
+      },
+      {
+        "where": "A051 p6s2 pre-J upper bar",
+        "quarter_units": [
+          "2",
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "eight ordinary16,quarterrest,eighthrest,three triplet16 pickup"
+      },
+      {
+        "where": "A051 p6s2 pre-J lower moving layer",
+        "quarter_units": [
+          "1",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "quarterrest,eighthrest,ff eighth before upper run ends,and four further eighths"
+      },
+      {
+        "where": "A051 p6s6 last moving upper bar",
+        "quarter_units": [
+          "7/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "seven ordinary eighths then final octave eighth tied to later whole receivers"
+      },
+      {
+        "where": "A052 I first-bar upper",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "four3:2 ordinary eighth triplet groups,twelve heads; all four digits shown"
+      },
+      {
+        "where": "A052 I first-bar lower",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "four quarter chords provide beat anchors"
+      },
+      {
+        "where": "A052 p5s4 next ordinary16 bar",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "sixteen ordinary16 now have two beams; preceding first bar still twelve triplet eighths with omitted3"
+      },
+      {
+        "where": "A052 p5s5 last run bar",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "three groups of four ordinary16 then three triplet eighths;3 explicitly returns at change"
+      },
+      {
+        "where": "A052 p5s6 ascending run",
+        "quarter_units": [
+          "2",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "nine9:8 sixteenths,two beams;five5:4 sixteenths,two beams;separate ordinary quarter"
+      },
+      {
+        "where": "A052 p6s6 M first bar",
+        "quarter_units": [
+          "2",
+          "2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "half chord then eight alternating ordinary16 chord attacks between staves; four upper plus four lower"
+      },
+      {
+        "where": "A052 p6s6 M second bar",
+        "quarter_units": [
+          "3",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "twelve alternating ordinary16 chord attacks then four upper ordinary16 attacks;lower quarterrest at last beat"
+      },
+      {
+        "where": "A052 final upper",
+        "quarter_units": [
+          "2",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "halfrest,upper octave quarter,quarterrest;no simultaneous final bass chord"
+      },
+      {
+        "where": "A052 final lower",
+        "quarter_units": [
+          "1",
+          "1",
+          "2"
+        ],
+        "total_quarters": "4",
+        "interpretation": "bass octave quarter,quarterrest,halfrest; upper entry two quarters later"
+      }
+    ],
+    "source_count_checks": [
+      {
+        "label": "A051 opening four bars of ordinary eighths",
+        "id": "A051",
+        "page": 1,
+        "system": 1,
+        "box_pt": [
+          88,
+          214,
+          453,
+          231
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              88.978,
+              227.66499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              99.79,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              110.779,
+              219.15700000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              121.591,
+              227.66499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              132.58,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              143.392,
+              219.15700000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              154.204,
+              227.66499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              165.193,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              184.336,
+              219.15700000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              195.148,
+              227.66499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              206.137,
+              223.41099999999994
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              216.949,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              227.938,
+              229.79200000000003
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              238.751,
+              227.66499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              249.563,
+              223.41099999999994
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              260.552,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              279.694,
+              227.66499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              290.506,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              301.496,
+              219.15700000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              312.308,
+              227.66499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              323.297,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              334.109,
+              219.15700000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              344.921,
+              227.66499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              355.91,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              375.053,
+              219.15700000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              385.865,
+              227.66499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              396.854,
+              223.41099999999994
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              407.666,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              418.655,
+              229.79200000000003
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              429.467,
+              221.284
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              440.279,
+              223.41099999999994
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              451.269,
+              214.90300000000002
+            ]
+          }
+        ],
+        "count": 32
+      },
+      {
+        "label": "A051 second-ending two sextuplets",
+        "id": "A051",
+        "page": 5,
+        "system": 3,
+        "box_pt": [
+          471,
+          313,
+          549,
+          328
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              471.652,
+              324.79600000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              478.387,
+              322.669
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              485.477,
+              320.54200000000003
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              492.39,
+              318.41499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              499.302,
+              316.288
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              506.392,
+              314.16099999999994
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              513.305,
+              326.923
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              520.217,
+              324.79600000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              527.307,
+              322.669
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              534.043,
+              320.54200000000003
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              540.955,
+              318.41499999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.01600000000002,
+            "origin": [
+              548.045,
+              316.288
+            ]
+          }
+        ],
+        "count": 12
+      },
+      {
+        "label": "A051 pre-J eight ordinary16",
+        "id": "A051",
+        "page": 6,
+        "system": 2,
+        "box_pt": [
+          77,
+          181,
+          154,
+          213
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              77.634,
+              182.46699999999998
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              88.269,
+              188.84799999999996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              98.903,
+              190.97500000000002
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              109.715,
+              197.356
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              120.35,
+              197.356
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              130.985,
+              203.73699999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              141.62,
+              205.86400000000003
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              152.254,
+              212.245
+            ]
+          }
+        ],
+        "count": 8
+      },
+      {
+        "label": "A051 pre-J three triplet16 pickup",
+        "id": "A051",
+        "page": 6,
+        "system": 2,
+        "box_pt": [
+          215,
+          204,
+          234,
+          213
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              215.177670592,
+              212.245
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              224.216,
+              210.11800000000005
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "DSUMXA+Pavane",
+            "size": 17.015999999999963,
+            "origin": [
+              233.079,
+              205.86400000000003
+            ]
+          }
+        ],
+        "count": 3
+      },
+      {
+        "label": "A052 I three bars of triplet eighths",
+        "id": "A052",
+        "page": 5,
+        "system": 3,
+        "box_pt": [
+          63,
+          280,
+          545,
+          308
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              64.098,
+              295.34360000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              77.04,
+              301.7156
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              89.964,
+              305.96360000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              102.708,
+              293.2196
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              115.632,
+              299.59159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              128.556,
+              303.8396
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              141.318,
+              291.0956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              154.242,
+              297.46770000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              166.986,
+              301.7156
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              179.748,
+              291.0956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              192.672,
+              297.46770000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              205.596,
+              301.7156
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.290000000000077,
+            "origin": [
+              231.444,
+              288.97159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              244.548,
+              295.34360000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              257.472,
+              299.59159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              270.576,
+              288.97159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              283.68,
+              295.34360000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              296.622,
+              299.59159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              309.726,
+              286.84770000000003
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              322.83,
+              293.2196
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              335.754,
+              297.46770000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              348.858,
+              286.84770000000003
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              361.962,
+              293.2196
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              374.886,
+              297.46770000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              401.976,
+              291.0956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              414.9,
+              297.46770000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              427.842,
+              301.7156
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              440.5861,
+              288.97159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              453.51,
+              295.34360000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              466.434,
+              299.59159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              479.358,
+              288.97159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              492.3,
+              295.34360000000004
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              505.2241,
+              299.59159999999997
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              517.968,
+              286.84770000000003
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              530.892,
+              293.2196
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              543.816,
+              297.46770000000004
+            ]
+          }
+        ],
+        "count": 36
+      },
+      {
+        "label": "A052 I next-row first bar still twelve",
+        "id": "A052",
+        "page": 5,
+        "system": 4,
+        "box_pt": [
+          61,
+          373,
+          196,
+          391
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              61.974,
+              378.3956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              74.898,
+              384.7676
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              87.3,
+              389.0156
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              98.28,
+              376.2716
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              110.862,
+              382.6436
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              123.426,
+              386.8916
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              134.946,
+              374.1476
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              147.51,
+              380.5197
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              158.67,
+              384.7676
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              169.65,
+              374.1476
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              182.394,
+              380.5197
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              194.976,
+              384.7676
+            ]
+          }
+        ],
+        "count": 12
+      },
+      {
+        "label": "A052 I next-row two ordinary16 bars",
+        "id": "A052",
+        "page": 5,
+        "system": 4,
+        "box_pt": [
+          215,
+          369,
+          550,
+          382
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              215.514,
+              376.2716
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              226.494,
+              378.3956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              238.176,
+              378.3956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              249.156,
+              380.5197
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              261.558,
+              380.5197
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              272.538,
+              378.3956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              284.742,
+              378.3956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              295.902,
+              376.2716
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              307.602,
+              374.1476
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              314.856,
+              376.2716
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              326.538,
+              376.2716
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              337.518,
+              378.3956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              349.92,
+              378.3956
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              360.9,
+              376.2716
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              373.284,
+              376.2716
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              384.1021,
+              374.1476
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              405.522,
+              372.0236
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              412.776,
+              374.1476
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              424.476,
+              374.1476
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              435.4561,
+              376.2716
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              442.71,
+              374.1476
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              453.8701,
+              374.1476
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              460.944,
+              372.0236
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              473.346,
+              372.0236
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              484.506,
+              369.8996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              491.58,
+              372.0236
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              502.5601,
+              372.0236
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              509.994,
+              374.1476
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              517.2661,
+              372.0236
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              529.65,
+              372.0236
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              536.9221,
+              369.8996
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              549.144,
+              369.8996
+            ]
+          }
+        ],
+        "count": 32
+      },
+      {
+        "label": "A052 nine9:8 sixteenths",
+        "id": "A052",
+        "page": 5,
+        "system": 6,
+        "box_pt": [
+          86,
+          585,
+          148,
+          604
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              86.778,
+              602.5856
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              94.392,
+              600.4617000000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              102.006,
+              598.3376000000001
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              109.44,
+              596.2137
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              117.054,
+              594.0896
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              124.668,
+              591.9657
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              132.102,
+              589.8416
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              139.896,
+              587.7177
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              147.33,
+              585.5935999999999
+            ]
+          }
+        ],
+        "count": 9
+      },
+      {
+        "label": "A052 five5:4 sixteenths",
+        "id": "A052",
+        "page": 5,
+        "system": 6,
+        "box_pt": [
+          154,
+          574,
+          186,
+          585
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              154.944,
+              583.4697
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              162.378,
+              581.3456
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              169.83,
+              579.2036
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              177.264,
+              577.0797
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              184.698,
+              574.9556
+            ]
+          }
+        ],
+        "count": 5
+      },
+      {
+        "label": "A052 ordinary quarter after5",
+        "id": "A052",
+        "page": 5,
+        "system": 6,
+        "box_pt": [
+          191,
+          572,
+          193,
+          574
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              192.132,
+              572.8317
+            ]
+          }
+        ],
+        "count": 1
+      },
+      {
+        "label": "A052 M eight alternating two-head chord attacks",
+        "id": "A052",
+        "page": 6,
+        "system": 6,
+        "box_pt": [
+          126,
+          705,
+          206,
+          758
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              126.612,
+              706.1757
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              126.612,
+              710.42410592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              133.704,
+              746.5497
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              133.704,
+              750.79810592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              150.174,
+              706.1757
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              150.174,
+              710.42410592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              157.248,
+              746.5497
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              157.248,
+              750.79810592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              174.6,
+              710.4236
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              174.6,
+              716.81412777
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              181.692,
+              750.7977
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              181.692,
+              757.18822777
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              198.342,
+              710.4236
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              198.342,
+              716.81412777
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              205.236,
+              750.7977
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              205.236,
+              757.18822777
+            ]
+          }
+        ],
+        "count": 16
+      },
+      {
+        "label": "A052 M second bar twelve alternating chord attacks",
+        "id": "A052",
+        "page": 6,
+        "system": 6,
+        "box_pt": [
+          232,
+          716,
+          368,
+          773
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.290000000000006,
+            "origin": [
+              232.506,
+              716.8137
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.290000000000006,
+            "origin": [
+              232.506,
+              721.062132
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              240.48,
+              757.1877
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              240.48,
+              761.43610592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              258.012,
+              716.8137
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              258.012,
+              721.06210592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              265.986,
+              757.1877
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              265.986,
+              761.43610592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              283.518,
+              721.0616
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              283.518,
+              725.31000592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              291.294,
+              761.4357
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              291.294,
+              765.68410592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              308.826,
+              721.0616
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              308.826,
+              725.31000592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              316.8,
+              761.4357
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              316.8,
+              765.68410592
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              334.332,
+              725.3097
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              334.332,
+              731.6817
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              342.306,
+              765.6837
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              342.306,
+              772.05630888
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              359.838,
+              725.3097
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              359.838,
+              731.6817
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              367.794,
+              765.6837
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              367.794,
+              772.05630888
+            ]
+          }
+        ],
+        "count": 24
+      },
+      {
+        "label": "A052 M last four upper chord attacks",
+        "id": "A052",
+        "page": 6,
+        "system": 6,
+        "box_pt": [
+          380,
+          729,
+          420,
+          737
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              380.556,
+              731.6817
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              380.556,
+              735.9297
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              393.12,
+              729.5576
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              393.12,
+              733.8057
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              405.882,
+              731.6817
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              405.882,
+              735.9297
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              418.626,
+              729.5576
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              418.626,
+              733.8057
+            ]
+          }
+        ],
+        "count": 8
+      },
+      {
+        "label": "A052 final upper quarter octave",
+        "id": "A052",
+        "page": 6,
+        "system": 6,
+        "box_pt": [
+          497,
+          692,
+          499,
+          710
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              497.79,
+              693.4316
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.28989999999999,
+            "origin": [
+              497.79,
+              708.29939173
+            ]
+          }
+        ],
+        "count": 2
+      },
+      {
+        "label": "A052 final lower quarter octave",
+        "id": "A052",
+        "page": 6,
+        "system": 6,
+        "box_pt": [
+          441,
+          769,
+          443,
+          786
+        ],
+        "text": "œ",
+        "heads": [
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289900000000003,
+            "origin": [
+              441.828,
+              769.9317
+            ]
+          },
+          {
+            "text": "œ",
+            "font": "OCLOIP+Chaconne",
+            "size": 16.289899999999996,
+            "origin": [
+              441.828,
+              784.7997
+            ]
+          }
+        ],
+        "count": 2
+      }
+    ],
+    "source_vector_checks": [
+      {
+        "label": "A051 two separate sixteenth sextuplet beams",
+        "id": "A051",
+        "page": 5,
+        "system": 3,
+        "box_pt": [
+          470,
+          330,
+          551,
+          342
+        ],
+        "vectors": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                506.835,
+                333.392
+              ],
+              [
+                471.655,
+                337.642
+              ],
+              [
+                471.655,
+                339.682
+              ],
+              [
+                506.835,
+                335.432
+              ]
+            ],
+            "x0": 471.655,
+            "x1": 506.835,
+            "top": 333.392,
+            "bottom": 339.682,
+            "width": 1.84631,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                506.835,
+                330.202
+              ],
+              [
+                471.655,
+                334.452
+              ],
+              [
+                471.655,
+                336.492
+              ],
+              [
+                506.835,
+                332.242
+              ]
+            ],
+            "x0": 471.655,
+            "x1": 506.835,
+            "top": 330.202,
+            "bottom": 336.492,
+            "width": 1.84631,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                548.488,
+                334.456
+              ],
+              [
+                513.3080000000001,
+                338.706
+              ],
+              [
+                513.3080000000001,
+                340.74600000000004
+              ],
+              [
+                548.488,
+                336.49600000000004
+              ]
+            ],
+            "x0": 513.3080000000001,
+            "x1": 548.488,
+            "top": 334.456,
+            "bottom": 340.74600000000004,
+            "width": 1.84631,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                548.488,
+                331.265
+              ],
+              [
+                513.3080000000001,
+                335.515
+              ],
+              [
+                513.3080000000001,
+                337.555
+              ],
+              [
+                548.488,
+                333.305
+              ]
+            ],
+            "x0": 513.3080000000001,
+            "x1": 548.488,
+            "top": 331.265,
+            "bottom": 337.555,
+            "width": 1.84631,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      },
+      {
+        "label": "A051 pre-J eight ordinary16 two-beam groups",
+        "id": "A051",
+        "page": 6,
+        "system": 2,
+        "box_pt": [
+          77,
+          205,
+          154,
+          227
+        ],
+        "vectors": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                110.158,
+                211.26999999999998
+              ],
+              [
+                77.638,
+                210.21000000000004
+              ],
+              [
+                77.638,
+                212.24
+              ],
+              [
+                110.158,
+                213.30999999999995
+              ]
+            ],
+            "x0": 77.638,
+            "x1": 110.158,
+            "top": 210.21000000000004,
+            "bottom": 213.30999999999995,
+            "width": 1.84631,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                110.158,
+                208.07899999999995
+              ],
+              [
+                77.638,
+                207.019
+              ],
+              [
+                77.638,
+                209.04899999999998
+              ],
+              [
+                110.158,
+                210.11899999999991
+              ]
+            ],
+            "x0": 77.638,
+            "x1": 110.158,
+            "top": 207.019,
+            "bottom": 210.11899999999991,
+            "width": 1.84631,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                152.698,
+                224.03200000000004
+              ],
+              [
+                120.34800000000001,
+                219.78200000000004
+              ],
+              [
+                120.34800000000001,
+                221.812
+              ],
+              [
+                152.698,
+                226.072
+              ]
+            ],
+            "x0": 120.34800000000001,
+            "x1": 152.698,
+            "top": 219.78200000000004,
+            "bottom": 226.072,
+            "width": 1.84631,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                152.698,
+                220.841
+              ],
+              [
+                120.34800000000001,
+                216.591
+              ],
+              [
+                120.34800000000001,
+                218.62099999999998
+              ],
+              [
+                152.698,
+                222.88099999999997
+              ]
+            ],
+            "x0": 120.34800000000001,
+            "x1": 152.698,
+            "top": 216.591,
+            "bottom": 222.88099999999997,
+            "width": 1.84631,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      },
+      {
+        "label": "A052 nine and five each two beams",
+        "id": "A052",
+        "page": 5,
+        "system": 6,
+        "box_pt": [
+          90,
+          570,
+          186,
+          601
+        ],
+        "vectors": [
+          {
+            "kind": "curve",
+            "points": [
+              [
+                91.566,
+                574.956
+              ],
+              [
+                152.568,
+                572.832
+              ],
+              [
+                152.568,
+                574.884
+              ],
+              [
+                91.566,
+                577.008
+              ]
+            ],
+            "x0": 91.566,
+            "x1": 152.568,
+            "top": 572.832,
+            "bottom": 577.008,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                91.566,
+                578.142
+              ],
+              [
+                152.568,
+                576.018
+              ],
+              [
+                152.568,
+                578.0699999999999
+              ],
+              [
+                91.566,
+                580.194
+              ]
+            ],
+            "x0": 91.566,
+            "x1": 152.568,
+            "top": 576.018,
+            "bottom": 580.194,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                154.944,
+                597.366
+              ],
+              [
+                185.148,
+                596.304
+              ],
+              [
+                185.148,
+                598.356
+              ],
+              [
+                154.944,
+                599.418
+              ]
+            ],
+            "x0": 154.944,
+            "x1": 185.148,
+            "top": 596.304,
+            "bottom": 599.418,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          },
+          {
+            "kind": "curve",
+            "points": [
+              [
+                154.944,
+                594.1800000000001
+              ],
+              [
+                185.148,
+                593.1179999999999
+              ],
+              [
+                185.148,
+                595.1700000000001
+              ],
+              [
+                154.944,
+                596.232
+              ]
+            ],
+            "x0": 154.944,
+            "x1": 185.148,
+            "top": 593.1179999999999,
+            "bottom": 596.232,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": true,
+            "stroke": false
+          }
+        ]
+      },
+      {
+        "label": "A051 opening stepped octave route",
+        "id": "A051",
+        "page": 1,
+        "system": 1,
+        "box_pt": [
+          95,
+          193,
+          561,
+          210
+        ],
+        "vectors": [
+          {
+            "kind": "line",
+            "points": [
+              [
+                95.71296,
+                208.52240000000006
+              ],
+              [
+                464.38416,
+                208.52240000000006
+              ]
+            ],
+            "x0": 95.71296,
+            "x1": 464.38416,
+            "top": 208.52240000000006,
+            "bottom": 208.52240000000006,
+            "width": 2.21558,
+            "dash": [
+              [
+                8.86231,
+                8.86231
+              ],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                463.4976,
+                193.81040000000007
+              ],
+              [
+                559.3872,
+                193.81040000000007
+              ]
+            ],
+            "x0": 463.4976,
+            "x1": 559.3872,
+            "top": 193.81040000000007,
+            "bottom": 193.81040000000007,
+            "width": 2.21558,
+            "dash": [
+              [
+                8.86231,
+                8.86231
+              ],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                463.4976,
+                193.63279999999997
+              ],
+              [
+                463.4976,
+                208.87519999999995
+              ]
+            ],
+            "x0": 463.4976,
+            "x1": 463.4976,
+            "top": 193.63279999999997,
+            "bottom": 208.87519999999995,
+            "width": 2.21558,
+            "dash": [
+              [
+                8.86231,
+                8.86231
+              ],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          }
+        ]
+      },
+      {
+        "label": "A051 whole/half chord stepped octave route",
+        "id": "A051",
+        "page": 3,
+        "system": 4,
+        "box_pt": [
+          83,
+          408,
+          557,
+          426
+        ],
+        "vectors": [
+          {
+            "kind": "line",
+            "points": [
+              [
+                170.86535999999998,
+                408.98720000000003
+              ],
+              [
+                170.86535999999998,
+                424.94000000000005
+              ]
+            ],
+            "x0": 170.86535999999998,
+            "x1": 170.86535999999998,
+            "top": 408.98720000000003,
+            "bottom": 424.94000000000005,
+            "width": 2.21558,
+            "dash": [
+              [
+                8.86231,
+                8.86231
+              ],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                83.83727999999999,
+                424.0544
+              ],
+              [
+                172.28207999999998,
+                424.0544
+              ]
+            ],
+            "x0": 83.83727999999999,
+            "x1": 172.28207999999998,
+            "top": 424.0544,
+            "bottom": 424.0544,
+            "width": 2.21558,
+            "dash": [
+              [
+                8.86231,
+                8.86231
+              ],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                170.51088,
+                408.98720000000003
+              ],
+              [
+                556.0204799999999,
+                408.98720000000003
+              ]
+            ],
+            "x0": 170.51088,
+            "x1": 556.0204799999999,
+            "top": 408.98720000000003,
+            "bottom": 408.98720000000003,
+            "width": 2.21558,
+            "dash": [
+              [
+                8.86231,
+                8.86231
+              ],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          }
+        ]
+      },
+      {
+        "label": "A052 diagonal raised octave route",
+        "id": "A052",
+        "page": 5,
+        "system": 2,
+        "box_pt": [
+          240,
+          137,
+          563,
+          172
+        ],
+        "vectors": [
+          {
+            "kind": "line",
+            "points": [
+              [
+                384.462,
+                154.404
+              ],
+              [
+                528.786,
+                154.404
+              ]
+            ],
+            "x0": 384.462,
+            "x1": 528.786,
+            "top": 154.404,
+            "bottom": 154.404,
+            "width": 0.603,
+            "dash": [
+              [
+                2.125,
+                2.125
+              ],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                352.224,
+                165.20399999999995
+              ],
+              [
+                383.22,
+                154.404
+              ]
+            ],
+            "x0": 352.224,
+            "x1": 383.22,
+            "top": 154.404,
+            "bottom": 165.20399999999995,
+            "width": 0.603,
+            "dash": [
+              [
+                2.125,
+                2.125
+              ],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                241.722,
+                165.54600000000005
+              ],
+              [
+                350.28,
+                165.54600000000005
+              ]
+            ],
+            "x0": 241.722,
+            "x1": 350.28,
+            "top": 165.54600000000005,
+            "bottom": 165.54600000000005,
+            "width": 0.603,
+            "dash": [
+              [
+                2.125,
+                2.125
+              ],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          }
+        ]
+      },
+      {
+        "label": "A052 M first eight actual stem axes",
+        "id": "A052",
+        "page": 6,
+        "system": 6,
+        "box_pt": [
+          126,
+          705,
+          211,
+          758
+        ],
+        "vectors": [
+          {
+            "kind": "line",
+            "points": [
+              [
+                126.828,
+                706.896
+              ],
+              [
+                126.828,
+                730.674
+              ]
+            ],
+            "x0": 126.828,
+            "x1": 126.828,
+            "top": 706.896,
+            "bottom": 730.674,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                138.726,
+                750.096
+              ],
+              [
+                138.726,
+                730.674
+              ]
+            ],
+            "x0": 138.726,
+            "x1": 138.726,
+            "top": 730.674,
+            "bottom": 750.096,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                150.39,
+                706.896
+              ],
+              [
+                150.39,
+                730.674
+              ]
+            ],
+            "x0": 150.39,
+            "x1": 150.39,
+            "top": 706.896,
+            "bottom": 730.674,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                162.27,
+                750.096
+              ],
+              [
+                162.27,
+                730.674
+              ]
+            ],
+            "x0": 162.27,
+            "x1": 162.27,
+            "top": 730.674,
+            "bottom": 750.096,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                174.816,
+                711.144
+              ],
+              [
+                174.816,
+                734.922
+              ]
+            ],
+            "x0": 174.816,
+            "x1": 174.816,
+            "top": 711.144,
+            "bottom": 734.922,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                186.714,
+                756.468
+              ],
+              [
+                186.714,
+                734.922
+              ]
+            ],
+            "x0": 186.714,
+            "x1": 186.714,
+            "top": 734.922,
+            "bottom": 756.468,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                198.558,
+                711.144
+              ],
+              [
+                198.558,
+                734.922
+              ]
+            ],
+            "x0": 198.558,
+            "x1": 198.558,
+            "top": 711.144,
+            "bottom": 734.922,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          },
+          {
+            "kind": "line",
+            "points": [
+              [
+                210.258,
+                756.468
+              ],
+              [
+                210.258,
+                734.922
+              ]
+            ],
+            "x0": 210.258,
+            "x1": 210.258,
+            "top": 734.922,
+            "bottom": 756.468,
+            "width": 0.45,
+            "dash": [
+              [],
+              0
+            ],
+            "fill": false,
+            "stroke": true
+          }
+        ]
+      }
+    ],
+    "cross_staff_spacing": {
+      "where": "A052 M p6s6 first-bar final two beats",
+      "head_x_pt": [
+        126.612,
+        133.704,
+        150.174,
+        157.248,
+        174.6,
+        181.692,
+        198.342,
+        205.236
+      ],
+      "stem_axes_pt": [
+        126.828,
+        138.726,
+        150.39,
+        162.27,
+        174.816,
+        186.714,
+        198.558,
+        210.258
+      ],
+      "head_gap_range_pt": [
+        6.893999999999977,
+        17.352000000000004
+      ],
+      "stem_gap_range_pt": [
+        11.663999999999987,
+        12.545999999999992
+      ],
+      "decision": "Keep alternating16th chord attacks on shared two-beam groups. Opposite head sides make head-origin gaps alternate; stem axes retain near-stable pulse. Do not snap two staves into simultaneous chords or geometrically equalize head x."
+    },
+    "chromatic_spacing": {
+      "where": "A052 I p5s3-s4",
+      "triplet_bars": [
+        {
+          "bar": 1,
+          "heads": [
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                64.098,
+                295.34360000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                77.04,
+                301.7156
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                89.964,
+                305.96360000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                102.708,
+                293.2196
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                115.632,
+                299.59159999999997
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                128.556,
+                303.8396
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                141.318,
+                291.0956
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                154.242,
+                297.46770000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                166.986,
+                301.7156
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                179.748,
+                291.0956
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                192.672,
+                297.46770000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                205.596,
+                301.7156
+              ]
+            }
+          ],
+          "gaps_pt": [
+            12.942000000000007,
+            12.923999999999992,
+            12.744,
+            12.924000000000007,
+            12.924000000000007,
+            12.762,
+            12.923999999999978,
+            12.744,
+            12.762,
+            12.924000000000007,
+            12.924000000000007
+          ]
+        },
+        {
+          "bar": 2,
+          "heads": [
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.290000000000077,
+              "origin": [
+                231.444,
+                288.97159999999997
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                244.548,
+                295.34360000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                257.472,
+                299.59159999999997
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                270.576,
+                288.97159999999997
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                283.68,
+                295.34360000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                296.622,
+                299.59159999999997
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                309.726,
+                286.84770000000003
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                322.83,
+                293.2196
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                335.754,
+                297.46770000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                348.858,
+                286.84770000000003
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                361.962,
+                293.2196
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                374.886,
+                297.46770000000004
+              ]
+            }
+          ],
+          "gaps_pt": [
+            13.104000000000013,
+            12.923999999999978,
+            13.104000000000042,
+            13.103999999999985,
+            12.942000000000007,
+            13.103999999999985,
+            13.103999999999985,
+            12.924000000000035,
+            13.103999999999985,
+            13.103999999999985,
+            12.924000000000035
+          ]
+        },
+        {
+          "bar": 3,
+          "heads": [
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                401.976,
+                291.0956
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                414.9,
+                297.46770000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                427.842,
+                301.7156
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                440.5861,
+                288.97159999999997
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                453.51,
+                295.34360000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                466.434,
+                299.59159999999997
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                479.358,
+                288.97159999999997
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                492.3,
+                295.34360000000004
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                505.2241,
+                299.59159999999997
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                517.968,
+                286.84770000000003
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                530.892,
+                293.2196
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                543.816,
+                297.46770000000004
+              ]
+            }
+          ],
+          "gaps_pt": [
+            12.923999999999978,
+            12.942000000000007,
+            12.744100000000003,
+            12.923900000000003,
+            12.924000000000035,
+            12.923999999999978,
+            12.942000000000007,
+            12.92410000000001,
+            12.74389999999994,
+            12.924000000000092,
+            12.923999999999978
+          ]
+        }
+      ],
+      "triplet_gap_range_pt": [
+        12.74389999999994,
+        13.104000000000042
+      ],
+      "later_ordinary16_bars": [
+        {
+          "bar": 2,
+          "heads": [
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                215.514,
+                376.2716
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                226.494,
+                378.3956
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                238.176,
+                378.3956
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                249.156,
+                380.5197
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                261.558,
+                380.5197
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                272.538,
+                378.3956
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                284.742,
+                378.3956
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                295.902,
+                376.2716
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                307.602,
+                374.1476
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                314.856,
+                376.2716
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                326.538,
+                376.2716
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                337.518,
+                378.3956
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                349.92,
+                378.3956
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                360.9,
+                376.2716
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                373.284,
+                376.2716
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                384.1021,
+                374.1476
+              ]
+            }
+          ],
+          "gaps_pt": [
+            10.97999999999999,
+            11.681999999999988,
+            10.980000000000018,
+            12.401999999999987,
+            10.980000000000018,
+            12.204000000000008,
+            11.159999999999968,
+            11.699999999999989,
+            7.254000000000019,
+            11.682000000000016,
+            10.979999999999961,
+            12.402000000000044,
+            10.979999999999961,
+            12.384000000000015,
+            10.818100000000015
+          ]
+        },
+        {
+          "bar": 3,
+          "heads": [
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                405.522,
+                372.0236
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                412.776,
+                374.1476
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                424.476,
+                374.1476
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                435.4561,
+                376.2716
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                442.71,
+                374.1476
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                453.8701,
+                374.1476
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                460.944,
+                372.0236
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                473.346,
+                372.0236
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                484.506,
+                369.8996
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                491.58,
+                372.0236
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                502.5601,
+                372.0236
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                509.994,
+                374.1476
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                517.2661,
+                372.0236
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                529.65,
+                372.0236
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                536.9221,
+                369.8996
+              ]
+            },
+            {
+              "text": "œ",
+              "font": "OCLOIP+Chaconne",
+              "size": 16.28989999999999,
+              "origin": [
+                549.144,
+                369.8996
+              ]
+            }
+          ],
+          "gaps_pt": [
+            7.254000000000019,
+            11.699999999999989,
+            10.980099999999993,
+            7.253899999999987,
+            11.1601,
+            7.073900000000037,
+            12.401999999999987,
+            11.159999999999968,
+            7.074000000000012,
+            10.980099999999993,
+            7.433900000000051,
+            7.272100000000023,
+            12.383899999999926,
+            7.272100000000023,
+            12.221900000000005
+          ]
+        }
+      ],
+      "decision": "Nearly stable triplet reading despite many accidentals; later16th group has tighter repeated pitches and wider accidental slots. Keep spelling/group identities; necessary minimum versus excess not proven by this PDF."
+    },
+    "octave_geometry": {
+      "opening_raise_pt": 14.711999999999989,
+      "source_routes": [
+        "opening vertical step",
+        "later vertical step",
+        "GreatDays diagonal rise"
+      ],
+      "decision": "Keep clearly connected octave continuation above accents/phrases. Gould29 permits deviation under restricted vertical space,prefers horizontal when space permits. A rise is not a terminal hook or another octave."
+    },
+    "notation_corrections": [
+      "GrandEscape pre-J eight ordinary16,not32; two beam layers verified.",
+      "GrandEscape second ending six6:4 16ths plus another six6:4 16ths,not32;8va begins second six group.",
+      "GreatDays9:8six16 plus5:4six16 plus ordinary quarter,not14equal notes.",
+      "GreatDays M interleaves two-head chord attacks; head-origin adjacency is not simultaneous alignment."
+    ],
+    "static_routes": {
+      "GrandEscape": {
+        "four_times_text": "p1s2 fourth/fifth bars enclosed by repeat signs",
+        "A": "p1s3 four bars plus p1s4 four bars",
+        "D": "p3s3 four bars",
+        "G": "p5s1 last two plus p5s2 first two",
+        "next_repeat": "p5s2 last two common bars; p5s3 first two first-ending bars; last two second-ending bars",
+        "H": "p5s4 four bars; octave coverage re-established at return",
+        "playback": "not tested;preserve printed traversal count and scope"
+      }
+    },
+    "font_input": {
+      "A051": "PDF main music subset Pavane",
+      "A052": "PDF main music subsets Chaconne",
+      "decision": "Distinct fixed inputs; do not attribute inter-score visual differences to layout or font alone. No font extraction."
+    }
+  },
+  "reading_decisions": {
+    "cross_staff": "A052 M eight alternating two-note16th attacks: head-origin gaps6.894-17.352pt,stem axes11.664-12.546pt. Keep near-steady shared-beam pulse;do not snap into simultaneous chords or equalize opposite-side head origins. Final bass beat1 and upper octave beat3 differ.",
+    "octaves": "A051 two vertical stepped continuations and A052 diagonal rise clear high accents/phrases;Gould29 prefers level when room,permits contour with restricted vertical budget. Rise is neither terminal hook nor added transposition;real B/G/H and second-six-group scopes preserved.",
+    "tuplets": "A052 I four3:2 eighth groups establish12heads;later omitted3 remains same grouping,then ordinary16 changes unit. Last3 restores triplet eighths. Nine9:8 16 plus five5:4 16 plus quarter are distinct. Partial-primary-beam3 remains bracket candidate.",
+    "repeats": "A051 four-times two-bar instruction,Aeight,Dfour,Gfour,adjacent repeat and first/second endings/H scopes kept separately. Second ending open bracket valid;native expanded playback not audited.",
+    "layers": "A051 same-staff mp/p,delayed A lower entry,local hand cues,Hrests,pre-J early ff and Kopen upper resonance versus full lower ties protected. Similar A052 C/G/K variants retain actual changes.",
+    "vocal_text": "p437-448 covers lyric corridor,alignment/spacing,English/Latin division,elision,extenders/hyphens. Stable lyric baseline differs from conditional octave contour;line endpoints and language roles not universal piano defaults.",
+    "font_input": "A051 main music Pavane,A052 Chaconne per source font labels;do not attribute cross-score differences to font/layout alone. No embedded font extraction."
+  },
+  "book": {
+    "new_substantive_printed_range": [
+      437,
+      448
+    ],
+    "new_substantive_pages": 12,
+    "new_reference_table_pages": 0,
+    "reference_table_printed_pages": [],
+    "new_unique_pages": 12,
+    "new_ancillary_pages": 0,
+    "new_ancillary_pdf_pages": [],
+    "reread_printed_pages": [
+      27,
+      28,
+      29,
+      39,
+      40,
+      200,
+      207,
+      215,
+      234,
+      235,
+      237,
+      307,
+      311,
+      337
+    ],
+    "physical_offset": 20,
+    "scope": "Vocal continuation through text/hyphen spacing opening;all12 substantive pages. Language/context conditions recorded separately;chapter not complete,next449."
+  },
+  "unresolved": [
+    "Minimum required versus excess accidental space in later chromatic16th bars",
+    "Native partial-beam bracket,repeat wording and octave-clearance alternatives",
+    "Full pitch/voice/playback audit,exact pedal/release and actual page-turn/print proof"
+  ],
+  "not_performed": [
+    "original edits",
+    "new native/independent transfer",
+    "font extraction or development",
+    "software adaptation",
+    "deletion"
+  ],
+  "validation": {
+    "status": "passed",
+    "source_hash_and_page_checks": 3,
+    "actually_viewed_images_hashed": 87,
+    "whole_score_pages": 12,
+    "whole_systems": 71,
+    "selected_duration_recipe_arithmetic": 17,
+    "source_character_origin_checks": 202,
+    "source_vectors_verified": 29,
+    "cross_staff_8_stem_axes_recomputed": true,
+    "octave_3_routes_dash_and_geometry_verified": true,
+    "nine_and_five_two_beam_scopes_rechecked": true,
+    "chromatic_triplet_spacing_recomputed": true,
+    "skill_routes_executed": 20,
+    "new_case_routes_linked": 10,
+    "new_vocal_reference_routes_linked": 1,
+    "local_markdown_links_checked": 794,
+    "new_book_substantive_pages": 12,
+    "reference_table_pages_included": 0,
+    "new_book_ancillary_pages": 0,
+    "new_whole_question_reviews": 2,
+    "original_files_written": 0,
+    "files_deleted": 0,
+    "new_native_or_adaptation": 0,
+    "release_0_7_0_tag_and_certificate_unchanged": true,
+    "all_material_goal": "active"
+  },
+  "cache": {
+    "measured_at_utc": "2026-10-26T22:50:09.879209+00:00",
+    "batch_logical_bytes": 14014529,
+    "total_logical_bytes": 2587168235,
+    "total_on_disk_bytes": 2445879008,
+    "reused_images": 23,
+    "new_images": 64,
+    "original_pdf_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Logical lengths,not volume delta; inventory precedes final small records."
+  }
+}

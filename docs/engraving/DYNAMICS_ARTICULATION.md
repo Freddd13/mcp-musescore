@@ -81,3 +81,7 @@ p116允许在明确建立模式后用stacc. sempre、marcato sempre或sim.省重
 ## 2026-10-27：提前进入不吸附字母段首
 
 [吹雪／无限城](INTEGRATED_READING_FUBUKI_CASTLE.md)：A046 D前f、J前pp、L前下表mp及M前f各自进入；上表六连也先于L。A048 cantabile在p4s3第二小节最后两个八分开始，伴随型下一小节才变。保准备与层次，不统一到段号；G的p／mp与H附近p／mf分别辨认。
+
+## 2026-10-27：同谱表力度按层而非只看staff
+
+[Grand Escape／Great Days](INTEGRATED_READING_GRAND_GREAT.md)：A051首次双层mp／p、A下表延后mp、J前下表ff先于段首，各有邻接层。A052 C／G／K的mf／ff随具体动作交替，保先后；声乐437歌词通道要求数字在上方，不能变成钢琴所有标记的统一高度。

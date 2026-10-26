@@ -85,6 +85,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_GRAND_GREAT.md`的M跨表交替，头距6.894–17.352pt而干轴11.664–12.546pt；保脉冲及先后。先选实际阅读参照，不吸两手为同列或把头x均分。
+
 `INTEGRATED_READING_GOD_POKEMON.md`的五连对八分保近稳快层，下层中间进入未撑洞，普通16略宽。可作为同构原生例的正向参照；不能推制作软件或把几何等距当单独目标。
 
 `INTEGRATED_READING_FUBUKI_CASTLE.md`的K内部十六分近稳，跨小节距离另含小节线与下层变音预算。分组内、拍间、边界和重复材料检查，不拿全行方差直接选候选。
@@ -140,6 +142,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_GRAND_GREAT.md`的I先四组三连8建立十二头、后省3，再转普通16；变化处重新给3。九9:8十六分、五5:4十六分及梁外四分分别计量；不得从数字省略或15个头推同一比例。
 
 `INTEGRATED_READING_FUBUKI_CASTLE.md`的七连后是梁外普通四分；三连尾组却与普通八分共主梁。完整梁与部分梁各判范围，不能按一串黑头直接套连音比例。
 
@@ -236,6 +240,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_GRAND_GREAT.md`两处竖折和一处斜升八度续线为高音／奏法留空间，Gould29有垂直预算条件。抬高不是结束钩或多升八度；与歌词稳定基线的条件分别调用。
 
 ## 八度的范围与原位材料
 
