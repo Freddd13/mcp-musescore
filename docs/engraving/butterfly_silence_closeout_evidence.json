@@ -1,0 +1,908 @@
+{
+  "date": "2026-10-26",
+  "base_commit": "513357cd7ac8096390f1a713a25e710dd4d275c9",
+  "scope": "Known first-pass scores;root-only whole question review,not independent/blind or a new fixed transfer scenario.",
+  "note": "INTEGRATED_READING_BUTTERFLY_SILENCE.md",
+  "source_protection": [
+    {
+      "id": "A026",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Butter-Fly - Digimon Adventure - Opening Theme.pdf",
+      "sha256": "270b41b8ce61790808f26081694d7887fe16f8fd766cb3052207717da026d737",
+      "pages": 8,
+      "read_only": true
+    },
+    {
+      "id": "A027",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Call of Silence - Attack on Titan Season 2 - Soundtrack.pdf",
+      "sha256": "cf8da67e1b7a6436beea4522c6893fe68d7f0afaa35775b40eb0ccc030bd4b22",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A026",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A026/page-1.jpg",
+      "sha256": "6073570b25f4904b37ffeb4e83ca59aec33c8ad6e9329d47db68e83c0b55734f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A026",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A026/page-2.jpg",
+      "sha256": "10c8e36fa6d4b7fde17facb2d64e0a02cd40b492ed6c67997c182b2966370875",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A026",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A026/page-3.jpg",
+      "sha256": "72e40419d01b3e1fd538affbc3eda868473715de5f83d931e74ad21564b0322c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A026",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A026/page-4.jpg",
+      "sha256": "785384e49e7bf2b4d97920f56195f39c51ba950c886f51e216a2d966e63b624e",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A026",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A026/page-5.jpg",
+      "sha256": "5565780038288621c0b8ae03aa7678cd1be797e38da9eaa19142c88eda128531",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A026",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A026/page-6.jpg",
+      "sha256": "83bf93aabf746033e0a34191e2b624baa2e94d3739049253190a253b006c5c27",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A026",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A026/page-7.jpg",
+      "sha256": "8cbb5be5bf2a0a0f572430bf91c15cc605bae54a722ae7df1119cb589fd818a6",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A026",
+      "page": 8,
+      "path": "tmp/engraving/corpus/A026/page-8.jpg",
+      "sha256": "cccd1210722fc102f71a546c0ef0dc84e03e3f1ee476cd08b847f6ef2718ddef",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A027",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A027/page-1.jpg",
+      "sha256": "780f23b42d712bfefc80fe210e0e4e4a7eb1eb302ecd3513d8beefd6f89eaaf4",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A027",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A027/page-2.jpg",
+      "sha256": "171f7945914ba36709ee227990a591dfec738703330a54a4e8d61036dd195513",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A027",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A027/page-3.jpg",
+      "sha256": "0510fd88951d6a66b3599817d99943d100b27c21d2402d52e8b1e299ed2dce42",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A027",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A027/page-4.jpg",
+      "sha256": "288f1f9328c93e28dcd49de352cb686b756979be5c6ef282196c2f3a178578a2",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A027",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A027/page-5.jpg",
+      "sha256": "895c5502f1d51f66522831937b55be6042407796df703f61600791c4f80a567b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A027",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A027/page-6.jpg",
+      "sha256": "5a1ca737a745e481b3751615958878e5ce5a4b931cfd429ebe2f5cae0967b467",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 515,
+      "pdf_page": 535,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-515.jpg",
+      "sha256": "caf4cc687fc6cc0dbaa4434a959e2e9577232af8bc3d41c5a9dc522f34afc37b",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 516,
+      "pdf_page": 536,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-516.jpg",
+      "sha256": "c7d59812c02d144314d45bccc369ceae6dbc36e53635a5a79ca9c7b9cfa0a3fb",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 517,
+      "pdf_page": 537,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-517.jpg",
+      "sha256": "38307f40bf23c9fb8a7844413f8df988af89fe92d0de057eef1dc7adf9932b69",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 518,
+      "pdf_page": 538,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-518.jpg",
+      "sha256": "bb281010458700eec7c9734210779ca1e09be7e26b814f353f48d57323169086",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 519,
+      "pdf_page": 539,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-519.jpg",
+      "sha256": "8e626cc594454f9059fd4b8aa71496e682a98e58f1fae4082ef01b28b0c64aa4",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 520,
+      "pdf_page": 540,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-520.jpg",
+      "sha256": "2c1497473792f9865a12ba3c80091d2408dbeca726b6a72b7db988271cdce55f",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 521,
+      "pdf_page": 541,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-521.jpg",
+      "sha256": "7361901dc3cfee77ace2a7add26e7be975f358d50c35471617adc00357db9241",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 522,
+      "pdf_page": 542,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-522.jpg",
+      "sha256": "946348a27dd97ce61bf85409f7f75c8e018c5d6680be8db0ed3fafb01ca4511e",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 523,
+      "pdf_page": 543,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-523.jpg",
+      "sha256": "25dfc6f54fbe71062ae8af7d0e4f279eebbbe02f737356114513800641c3a773",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 524,
+      "pdf_page": 544,
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/book-524.jpg",
+      "sha256": "aa5ea0ba987fcc4d3d1ad193734884fba6fcd9f405bd4afa56a7dd213982b890",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 204,
+      "pdf_page": 224,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-204.jpg",
+      "sha256": "9be6d72e5d5ace18bb745988d6bc4e2c8cc48607f353ad2dc7cce0e226a0bd31",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 209,
+      "pdf_page": 229,
+      "path": "tmp/engraving/tuplet-reading-2026-10-20/book-209.jpg",
+      "sha256": "b4206fe9332ae9a5aecdce18f1d11fb776aa906f44999be39695b038972c26a2",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 215,
+      "pdf_page": 235,
+      "path": "tmp/engraving/connect-2026-10-21/book-215.png",
+      "sha256": "06d4358fb7fa259874eacf765a10639640da813a8b9bd47ff0ed58248b600cf7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 303,
+      "pdf_page": 323,
+      "path": "tmp/engraving/piano-2026-10-19/book-303.jpg",
+      "sha256": "f67d7121603e757bd312a46aae47b60cc5f54427b2f626082c44b58f441088c6",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 304,
+      "pdf_page": 324,
+      "path": "tmp/engraving/piano-2026-10-19/book-304.jpg",
+      "sha256": "b2cc7ce3534f5d7d4b4b0c6bbbe555fdcdd840fd4160276da5aacd0e183479d6",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 305,
+      "pdf_page": 325,
+      "path": "tmp/engraving/piano-2026-10-19/book-305.jpg",
+      "sha256": "7982d32357d6e1795759859e274a416290c658ec5ec155fb6e3050354c80ff16",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/piano-2026-10-19/book-307.jpg",
+      "sha256": "6f71c686e801535afbf60d5e99f87f63601c0141d99c344f13ffd3782924abbc",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 308,
+      "pdf_page": 328,
+      "path": "tmp/engraving/piano-2026-10-19/book-308.jpg",
+      "sha256": "ccb528893c2b226ce7b6e1251c7c9c6f5e60c8eca39cb8b1e657f3f9a161f15b",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 324,
+      "pdf_page": 344,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p324.jpg",
+      "sha256": "0312d04e27272e06b5e8a7107d2f94ce05c3a2da0aac85e44ac8dc777296e150",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 325,
+      "pdf_page": 345,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p325.jpg",
+      "sha256": "d91248adaef495947c61800e3339e9a0bd7eebb14a1d79b5f7a799b1910b6282",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 610,
+      "pdf_page": 630,
+      "path": "tmp/engraving/free-passage-2026-10-20/book-p610.jpg",
+      "sha256": "632240becc97781808764e07ef53ef193acd4ea9c694d5c0325fc4a39227e054",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 611,
+      "pdf_page": 631,
+      "path": "tmp/engraving/free-passage-2026-10-20/book-p611.jpg",
+      "sha256": "03596d1a50819437319af4ef6d22075f934ed7e0cec042b80510b80e033fb069",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 1,
+      "system": 1,
+      "box_pt": [
+        25,
+        128.07,
+        570.22,
+        305.702
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p1-s1.jpg",
+      "sha256": "996aed418efab362732a5eda0b7ff7cb4b550ad5a6023e71e782c869bfe252d5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 3,
+      "system": 4,
+      "box_pt": [
+        25,
+        394.736,
+        570.22,
+        558.224
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p3-s4.jpg",
+      "sha256": "4343c3996c40bf2820d0243023aedba0ececded5fb61fb190a1daced8e6abe75",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 3,
+      "system": 5,
+      "box_pt": [
+        25,
+        519.224,
+        570.22,
+        677.042
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p3-s5.jpg",
+      "sha256": "b8dc3b5c801933deea76c8493d5ed89b8004ce2572717210631a1a4c10c436b6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 3,
+      "system": 6,
+      "box_pt": [
+        25,
+        638.042,
+        570.22,
+        812
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p3-s6.jpg",
+      "sha256": "449b5f04e9f66a5eb72bf4c13e8dfe03c65c39efa321f0325033b75c108fb8cf",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 5,
+      "system": 6,
+      "box_pt": [
+        25,
+        652.568,
+        570.22,
+        812
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p5-s6.jpg",
+      "sha256": "86ea66d5fe47f2bac7112dd56a68636137192cc8ee28f25d97f38ef749ed4365",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 7,
+      "system": 2,
+      "box_pt": [
+        25,
+        136.544,
+        570.22,
+        309.77
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p7-s2.jpg",
+      "sha256": "f6ffca413b25b13381fd2d7cf6231b5543c297de3a1ecad2b28206a3106120ba",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 7,
+      "system": 3,
+      "box_pt": [
+        25,
+        270.77,
+        570.22,
+        432.314
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p7-s3.jpg",
+      "sha256": "2ab6af631ae90009cca491c09e8d1de49639f7f03dd0c4fb4df0e627911409f2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 8,
+      "system": 2,
+      "box_pt": [
+        25,
+        142.776,
+        570.22,
+        326.78
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p8-s2.jpg",
+      "sha256": "460f902e60d11c4a4227dee3cad6eea578fade5a7eb1c5cf76a1ecbce8fed42b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 8,
+      "system": 3,
+      "box_pt": [
+        25,
+        287.78,
+        570.22,
+        450.026
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p8-s3.jpg",
+      "sha256": "e14e4c3203770a2313d6be596bdea09cd22e1f03b221d2453c0c661050a814b8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A026",
+      "page": 8,
+      "system": 5,
+      "box_pt": [
+        25,
+        523.472,
+        570.22,
+        680.228
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A026-p8-s5.jpg",
+      "sha256": "63b42deeaecf0f857f656f338bed4ab0c79e1f3e4b3f5460f758ebb0ab2766d9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A027",
+      "page": 1,
+      "system": 3,
+      "box_pt": [
+        25,
+        383.936,
+        570.22,
+        552.194
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A027-p1-s3.jpg",
+      "sha256": "c64a6f7e908797a14c9cef2632af105b6a581807ea98fc5c92f6d5c67dd45bd8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A027",
+      "page": 2,
+      "system": 3,
+      "box_pt": [
+        25,
+        249.53,
+        570.22,
+        397.79
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A027-p2-s3.jpg",
+      "sha256": "83de32bb7599cb411e34bc1ca2a94ae907251cbe1e26a35e13c169c66aba045b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A027",
+      "page": 2,
+      "system": 4,
+      "box_pt": [
+        25,
+        358.79,
+        570.22,
+        534.842
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A027-p2-s4.jpg",
+      "sha256": "abc32c43dbdfb55de8cbe7eca16bf89b37ae934b6ab955e071b0dfb96e49bfe5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A027",
+      "page": 4,
+      "system": 1,
+      "box_pt": [
+        25,
+        5,
+        570.22,
+        177.668
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A027-p4-s1.jpg",
+      "sha256": "782162bf7cd2bcb36081697b2f14b7ff3de09f2827dbd14e47cb92a57ed2cdd1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A027",
+      "page": 5,
+      "system": 1,
+      "box_pt": [
+        25,
+        5,
+        570.22,
+        181.916
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A027-p5-s1.jpg",
+      "sha256": "5d27e7d8a0456c366b6dd8d4b4c38f93ab72984bc549169f349e721a11aff1bb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A027",
+      "page": 5,
+      "system": 2,
+      "box_pt": [
+        25,
+        142.916,
+        570.22,
+        306.062
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A027-p5-s2.jpg",
+      "sha256": "36f35f54db582463274f44184b5b045b42818122ad9a10e4c99b74d4f92df22e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A027",
+      "page": 6,
+      "system": 3,
+      "box_pt": [
+        25,
+        281.93,
+        570.22,
+        449.324
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A027-p6-s3.jpg",
+      "sha256": "d4298cd861289927bdf0efadd3ace04a2c9f82b4d34041415d8cddb40d255a0c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A027",
+      "page": 6,
+      "system": 4,
+      "box_pt": [
+        25,
+        410.324,
+        570.22,
+        563.174
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A027-p6-s4.jpg",
+      "sha256": "93d27d2e3d64633705c1ac24a803a63cf6bc90f409c44f8be278d7558f1f21a6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-system-detail",
+      "id": "A027",
+      "page": 6,
+      "system": 5,
+      "box_pt": [
+        25,
+        524.174,
+        570.22,
+        690.866
+      ],
+      "path": "tmp/engraving/butterfly-silence-2026-10-26/A027-p6-s5.jpg",
+      "sha256": "55932f6260c9b070502c716985c3c0187853fc9894f4650654362a4c75375b24",
+      "reused": false,
+      "actually_viewed": true
+    }
+  ],
+  "whole_reviews": {
+    "A026": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "systems": 47,
+      "questions_reviewed": [
+        "Slow/fast recurring material and Etempo location",
+        "KsenzaPed and pre-return conPed",
+        "p8three layers,mf/f distinct onsets,partial six-group",
+        "gliss action versus harmless-looking crossings"
+      ],
+      "unresolved": [
+        "Full pitch/every rhythm audit,all hand/ottava/pedal scopes",
+        "Native alternative,actual printing/turn/playback"
+      ]
+    },
+    "A027": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "systems": 35,
+      "questions_reviewed": [
+        "A/Cpreparatory2/4 versus main entry",
+        "Fsmall but measured layer and Gnormal head size",
+        "Rest included in9and11brackets",
+        "Nominally metered quasi cadenza then fermata,Meno and pickup",
+        "Iadlib.,2/4,12/8equivalence,6/8and a tempo"
+      ],
+      "unresolved": [
+        "Exact voices,all tuplets and octaves,pitch/playback collation",
+        "Native substitute and physical turn/print"
+      ]
+    }
+  },
+  "selected_music_checks": {
+    "A026_p8s2_first_arch": {
+      "running_heads": 12,
+      "sequence": [
+        "eighth rest",
+        "two ordinary sixteenths",
+        "six 6:4sixteenths",
+        "four ordinary sixteenths",
+        "quarter rest"
+      ],
+      "sequence_quarters": [
+        "1/2",
+        "1/2",
+        "1",
+        "1",
+        "1"
+      ],
+      "total_quarters": "4",
+      "outer_slur_and_tuplet_scope_differ": true
+    },
+    "A027_p4s1_first_bar": {
+      "normal_voice_quarters": [
+        "1",
+        "2",
+        "3/4",
+        "1/4"
+      ],
+      "small_layer_onset_quarter": "1",
+      "small_heads": 27,
+      "small_groups_three_units_each": 9,
+      "small_group_quarters": [
+        "3/8",
+        "3/8",
+        "1/2",
+        "1/4",
+        "1/4",
+        "1/4",
+        "3/8",
+        "3/8",
+        "1/4"
+      ],
+      "small_total_quarters": "3",
+      "PDF_normal_head_size": 16.2899,
+      "PDF_small_head_size": 12.222,
+      "size_ratio": 0.7502808488695449,
+      "small_and_large_head_draws_can_share_time": true
+    },
+    "A027_p5G": {
+      "normal_head_size": 16.2899,
+      "first9bracket_includes_starting_thirtysecond_rest": true,
+      "first9bracket_sounding_heads": 8,
+      "all_tuplet_ratios_not_claimed": true
+    },
+    "A027_p6s3": {
+      "small_heads": 64,
+      "beam_levels": 4,
+      "written_unit": "64th",
+      "nominal_quarters": "4",
+      "explicit64tuplet_number": false,
+      "normal_fermata_half_at_next_bar_start": true,
+      "Meno_onset": "second half of following bar,after fermata",
+      "source_internal_meter_and_playback_unverified": true
+    },
+    "A027_p6s5": {
+      "written_equivalence": [
+        "quarter",
+        "dotted quarter"
+      ],
+      "meter_route": [
+        "12/8",
+        "6/8",
+        "12/8"
+      ],
+      "a_tempo": "return to12/8"
+    }
+  },
+  "book": {
+    "new_substantive_printed_range": [
+      515,
+      524
+    ],
+    "new_substantive_pages": 10,
+    "new_ancillary_pages": 0,
+    "reread_printed_pages": [
+      204,
+      207,
+      209,
+      215,
+      303,
+      304,
+      305,
+      307,
+      308,
+      324,
+      325,
+      610,
+      611
+    ],
+    "physical_offset": 20,
+    "scope": "Full pages/figures;score-reading versus performance-part conditions separated. Not entire score-layout chapter or all instrument parts."
+  },
+  "extraction_guards": {
+    "system_counts": "Five-line horizontal groups plus actual full pages;isolated long ottava/other horizontal line candidates excluded.",
+    "glyph_sizes": "Same PDF font/character size metadata corroborated visually;no font extraction.",
+    "not_sounding_event_counts": "PDF draws may overlap at same time;27small heads do not define27independent final playback events."
+  },
+  "decisions": [
+    "Preserve most notation and distinct layer dynamics/hand cues",
+    "Retain measured small layer;no grace conversion or all-size normalization",
+    "Retain tuplet rest membership and ordinary flank values",
+    "Retain Meno versus fermata/pickup locations",
+    "Retain keyboard double-staff route;do not directly apply conductor score compression"
+  ],
+  "not_performed": [
+    "original edits",
+    "native render candidate",
+    "new fixed transfer assessment",
+    "font work",
+    "MCP/plugin/core adaptation",
+    "playback/printing/user aesthetic approval",
+    "file deletion"
+  ],
+  "validation": {
+    "status": "passed",
+    "sources_hash_and_pages_checked": 3,
+    "actually_viewed_image_hashes_checked": 56,
+    "all20_skill_routes_executed": true,
+    "local_markdown_links_checked": 468,
+    "firstpass_and_fixed_deep_and_resources_and_fixed_transfer_unchanged": true,
+    "new_closeouts": 2,
+    "new_substantive_book_pages": 10,
+    "new_native_candidates": 0,
+    "release_snapshot_metadata_unchanged": true,
+    "cache_errors": 0,
+    "cache_batch_logical_bytes": 5707013,
+    "cache_total_logical_bytes": 2457560654,
+    "original_files_written": 0,
+    "deleted_files": 0
+  },
+  "cache": {
+    "batch_logical_bytes": 5707013,
+    "total_logical_bytes": 2457560654,
+    "total_on_disk_bytes": 2316271427,
+    "batch_review_threshold_bytes": 104857600,
+    "total_review_threshold_bytes": 3221225472,
+    "reused_images": 27,
+    "new_complete_book_pages": 10,
+    "new_complete_system_details": 19,
+    "original_PDF_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "measure": "Logical file length sum;GetCompressedFileSizeW report separately,not volume delta;measurement precedes final validation helper output."
+  }
+}

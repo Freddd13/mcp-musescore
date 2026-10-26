@@ -12,6 +12,8 @@
 
 <a id="symbols"></a>
 
+`notation`／`piano`的`INTEGRATED_READING_BUTTERFLY_SILENCE.md`补F约75%小头的3拍计量、G正常头与小头华彩：字号本身不决定grace、cue或播放，大小头同刻的PDF绘图也不直接等于两次攻击。小头、缩谱表及指挥总谱压成一表各有用途；先确认实际演奏者与阅读任务。
+
 ## 字形和谱位的身份
 
 `notation`／`ornaments`的`SKILL_TRANSFER_NOTATION.md`补T06成对情境：m65正常头10／5需保一休止九音及组外八分，拆行不重开小节；尾声24头约0.75，放大图曾掩盖尺度差，现按实际矩阵及自由收尾上下文纠正。字号、梁层或时值总和先触发核查，不能直接决定grace／不播放cue，亦不自动补24:16；同时保护背景持续与真正落点。
@@ -98,6 +100,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`rhythm`经`INTEGRATED_READING_BUTTERFLY_SILENCE.md`核局部六连只占一次拱形的一段、9括形包括起首休止，以及64普通六十四分的华彩名义4拍。先核梁层、端点、普通侧翼和Rest；自由表情不自动改成超长连音。延长落点、Meno和拾音又可先后出现，不把它们全部吸到小节线。
 
 `rhythm`／`tempo`的`INTEGRATED_READING_BOY_BLUMENKRANZ.md`纠正BOY：附点十六分＋三十二分解释为3组内八分＋十六分，总量八分、3:1到2:1。先核梁数／单位，不与两颗十六分swing或真正Tuplet混用；显式快组不再套一次解释。C跨行2＋2拍与F／Coda另起谱头分判。`piano`同例的Blumenkranz J保留新持续／奏法，不能由同型再现恢复开头的休止和无踏板。
 
