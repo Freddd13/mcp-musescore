@@ -54,3 +54,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-26手册／Spacing批次缓存约0.53MiB，总净书缓存约2.294GiB逻辑长度。复用1936文件运行时，无新宿主或原谱副本；仅五份原创小输入、30次导出／重载及必要记录，未删除文件。14官方图请求失败只存小型状态记录；清点先于最终验证记录，仍低于100MiB／3GiB检查线，见[证据](musescore3_layout_reading_evidence.json)。
 
 2026-10-26 Catch／Change批次清点：本批约7.69MiB，全部净书缓存约2.302GiB逻辑长度；复用13张整页，新增27张系统／扩大上下文图及20张教材图（8新、12复读）。无原PDF／运行时副本、删除或扫描错误，低于100MiB／3GiB检查线；时点和精确字节见[本批证据](catch_change_closeout_evidence.json)，清点先于最后小记录。
+
+2026-10-27 COLORS／crossing批次清点：本批约9.43MiB，总净书缓存约2.311GiB逻辑长度。复用19张图，新增19张系统、27张教材整页和六张复杂图放大；无原PDF／运行时副本、删除或扫描错误，低于既定100MiB／3GiB检查线。完整字节与时点见[证据](colors_crossing_closeout_evidence.json)，清点先于最后小记录。

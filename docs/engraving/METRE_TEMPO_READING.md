@@ -93,3 +93,7 @@ Gould p187–190区分额外断开、对音／休止的延长及严格计量的�
 [两首回查](INTEGRATED_READING_GRACE_PRICE.md)中，Amazing Grace m48先延长停顿，末两八分已有Meno／p，C在m49；The Ultimate Price m41保持后，休止／短引入已标八分100，E在m42。把速度文字吸到段号会推迟读法。后者开头八分110、A八分116均从原图单位核，不按6/8惯性读成附点四分。旧p184、190完整复看，停顿各层实际活动与速度参照分别核。
 
 2026-10-25随[T06](SKILL_TRANSFER_NOTATION.md)新读Gould p151–152：拍号的计量任务、重音层级与仅为协调划分的条件分开，拍号需醒目，行末预告及新行正式拍号各有作用。Avid末行前的3/4预告与下一行3/4保留；随后C下的24小音群又需结合自由收尾判断，不按分母直接强配每个头的时长。没有新原生换拍测试。
+
+## 2026-10-27：同材料再现，不复制速度来路
+
+[COLORS／crossing field](INTEGRATED_READING_COLORS_CROSSING.md)区分Poco meno引入、Tempo I恢复和riten.后的局部a tempo；K像H也不能顺手恢复H前Poco meno。crossing p7第1系统临时3/4下层五连一拍＋低音一拍＋休止一拍，上层先tie接收；O再回C，不补成四拍或按所有头作新攻击。N前non rit.和两层先后进入也不由长空白改成自由等待。

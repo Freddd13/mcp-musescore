@@ -1,0 +1,1347 @@
+{
+  "date": "2026-10-27",
+  "reading_started_local_date": "2026-10-26",
+  "base_commit": "5156a3eb644bff915edb6ebb9eedd1aed13f8e33",
+  "note": "INTEGRATED_READING_COLORS_CROSSING.md",
+  "scope": "Solo whole-question closeouts on first-pass-known A030/A032;not independent/blind tests,new fixed-deep batch or software adaptation.",
+  "previous_goal_turn_classification": "progress:5156a3epublished two score closeouts and eight book pages",
+  "source_protection": [
+    {
+      "id": "A030",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\COLORS - Code Geass：Lelouch of the Rebellion - Opening Theme.pdf",
+      "sha256": "007202ac9ec86e59646e34797cf804eb2d984b080242a12f1099c3a0c00758e8",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A032",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\crossing field - Sword Art Online - Opening Theme.pdf",
+      "sha256": "2e91bff6bb731c3d8fd70f0343d27af165204097c57718472eb9c5e0903ec4c4",
+      "pages": 8,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A030",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A030/page-1.jpg",
+      "sha256": "cc0ca16dd11d4f9246a40fa7ee7f9f77f6d6aa9d8e44e20571775a1851e53fc1",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A030",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A030/page-2.jpg",
+      "sha256": "cf8d71551e810446661e5f237c3d7c560a4bfe88e7be28d90c4ddd3cca23c45e",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A030",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A030/page-3.jpg",
+      "sha256": "f5b9c4cba58820c35b7dc3bf20d36be2886bb5202455e17e40a80e2a42714de4",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A030",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A030/page-4.jpg",
+      "sha256": "114c9e1ab12fd2c38ff9fc6e001483d55d1bd5b18737af7bc742a64927cec041",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A030",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A030/page-5.jpg",
+      "sha256": "ecfda316e8fa48d9fdd02228ae69b16f1a565a0799c5d4e86e4688aa61c16bd5",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A030",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A030/page-6.jpg",
+      "sha256": "9fca459101a2981b30e22aa5860ffd49f53e38191f3327e4dd80bc7da4b4a2ac",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A032",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A032/page-1.jpg",
+      "sha256": "d06eccb543faac8922cf3a255217c96c1f571276b34218a179c4d6f3b404cb89",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A032",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A032/page-2.jpg",
+      "sha256": "712424249fc8b543a13416956e9d75c38e6eb62af4ca9a9b3348afc7b282596c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A032",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A032/page-3.jpg",
+      "sha256": "43bdd4c477a1401577954f6d21f421f0736406f06638cb48fa577d66f05c806b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A032",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A032/page-4.jpg",
+      "sha256": "e50ffcca88627a9ebd50f016b9868c0929051507b06d5d22391bab5b37c910cc",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A032",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A032/page-5.jpg",
+      "sha256": "d04091c51ffd0d0a0e11602eed87db990b19c4e23d7547e96d8e13b2f9c2addb",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A032",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A032/page-6.jpg",
+      "sha256": "fbc1158421ef02cd134f40b11f9699799e7a883b5bf0b4553effbeeb9ac4aac5",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A032",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A032/page-7.jpg",
+      "sha256": "b478ecba42729cbbcdd79b98dad61e0470e30a42d4003211d46dc000d1325d8e",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A032",
+      "page": 8,
+      "path": "tmp/engraving/corpus/A032/page-8.jpg",
+      "sha256": "c3c7a35d17bad3f95fe581ef4d6beb6fcfb1d8bddc95f1bfa1b4ffcb00cfb9a3",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 541,
+      "pdf_page": 561,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-541.jpg",
+      "sha256": "ace431a356cb7e5363248d42b8c64dadcabf61daa4167982603fa54d5ed725da",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 542,
+      "pdf_page": 562,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-542.jpg",
+      "sha256": "16743dd8718019d5ccb789f04c818e7e64c8e1408d187628eee67b09fa34526e",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 543,
+      "pdf_page": 563,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-543.jpg",
+      "sha256": "51059e3f9cd0f1d566fca73c7f5020ee1dc5f0a12e89a10d56ca74e4c7d5a3c8",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 544,
+      "pdf_page": 564,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-544.jpg",
+      "sha256": "2d9864b44b12b7bf7b17c6471ed182e5ccfac5604225645aa22a5664813547e1",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 545,
+      "pdf_page": 565,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-545.jpg",
+      "sha256": "d648ec2abd4d5fe978e73ad39839557a56238c3060969adc502abe9d648b127e",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 546,
+      "pdf_page": 566,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-546.jpg",
+      "sha256": "549dd05e9a21a4133d33cbe47fb9e9cd74372fdc33a8555656ef30a670c23df3",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 547,
+      "pdf_page": 567,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-547.jpg",
+      "sha256": "6e4f5c95198a78b73ba044b1f74f6905f074af9d384b38176a8737d2eb15fe4c",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 548,
+      "pdf_page": 568,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-548.jpg",
+      "sha256": "0f198567c724f20e3139ed7957f0ce9db3ebbe8e226bfa30fb23a169d0b53b8b",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A030",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        22,
+        149.925431711146,
+        571,
+        320.29513343799056
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A030-p1-s1.jpg",
+      "sha256": "3a3f1818903cfffd815975a2be223872ec44de55e2e440449d39d0fdb01c0b03",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A030",
+      "page": 2,
+      "system": 1,
+      "crop_pt": [
+        22,
+        23.691522762951337,
+        571,
+        184.80847723704866
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A030-p2-s1.jpg",
+      "sha256": "5da103ed20dbb006754dccc9b6619246aca6f8eff3c3a9660c4e47797e662544",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A030",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.0113814756672,
+        571,
+        436.2849293563579
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A030-p3-s3.jpg",
+      "sha256": "9072d09b3b186efab7e1b7d2a7756a3da2b2cbeb1e8e179b32795216e693e68f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A030",
+      "page": 4,
+      "system": 6,
+      "crop_pt": [
+        22,
+        654.2001569858712,
+        571,
+        815.978021978022
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A030-p4-s6.jpg",
+      "sha256": "7a706e7ebeb209f2c758f3e7a76f35380b81ff292284d03de312664e996ce772",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A030",
+      "page": 5,
+      "system": 3,
+      "crop_pt": [
+        22,
+        228.24332810047093,
+        571,
+        389.3602825745683
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A030-p5-s3.jpg",
+      "sha256": "2cc0be559691b1cdeecee3724fa460d8ff6b8838fe4c95d5d836819eefb041f1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A030",
+      "page": 5,
+      "system": 4,
+      "crop_pt": [
+        22,
+        332.00627943485085,
+        571,
+        493.7841444270016
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A030-p5-s4.jpg",
+      "sha256": "c32701efb8ee30eff591dfd6b7534e52b42dc5ad3c9ac1b0f08d665590b9591f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A030",
+      "page": 5,
+      "system": 5,
+      "crop_pt": [
+        22,
+        431.14285714285717,
+        571,
+        596.5557299843014
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A030-p5-s5.jpg",
+      "sha256": "78374daa474813707396df80a08849494e2b4601bac50faf4d7f3a643957f2b2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A030",
+      "page": 6,
+      "system": 3,
+      "crop_pt": [
+        22,
+        244.43563579277867,
+        571,
+        407.8657770800628
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A030-p6-s3.jpg",
+      "sha256": "d8bfa136781ede44946ba4005dc6e10a543f780265a64f3fc7ed6f8e0556c71a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A030",
+      "page": 6,
+      "system": 7,
+      "crop_pt": [
+        22,
+        659.4874411302983,
+        571,
+        815.978021978022
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A030-p6-s7.jpg",
+      "sha256": "e7126942cc34094a376faa9eadf82d72b3334183ae05be2faa2df69295b1feaf",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        22,
+        149.72567164179105,
+        571.276,
+        307.2465671641791
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p1-s1.jpg",
+      "sha256": "f2431ef944e704758ea89f7f72d13eeadf18a647a261f482b9c6ecadb0beef15",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 3,
+      "system": 5,
+      "crop_pt": [
+        22,
+        534.2967910447761,
+        571.276,
+        694.4630597014925
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p3-s5.jpg",
+      "sha256": "7210982e385e74b96f4aee4f059701344bbde1d9a75c85f2ef762ac179fabec9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 4,
+      "system": 5,
+      "crop_pt": [
+        22,
+        518.424552238806,
+        571.276,
+        675.945447761194
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p4-s5.jpg",
+      "sha256": "fce0b7873ab61362cc7446c1e003ad277f3a2ed0df7b41d748f246e3e2ffea13",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 5,
+      "system": 5,
+      "crop_pt": [
+        22,
+        515.1178358208955,
+        571.276,
+        680.2441791044776
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p5-s5.jpg",
+      "sha256": "f593e113a5ee155643bc728bc0c5fc26543d586d55b2bce0c8f40915aedc2534",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 5,
+      "system": 6,
+      "crop_pt": [
+        22,
+        654.1652611940298,
+        571.276,
+        815.9848880597015
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p5-s6.jpg",
+      "sha256": "da10498cf9e4fc14f3843e295841d48a531312a828c813143d5ca64dd6ca1a7a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 6,
+      "system": 4,
+      "crop_pt": [
+        22,
+        403.6814925373135,
+        571.276,
+        568.4771641791044
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p6-s4.jpg",
+      "sha256": "dd1fe7807af20eb00c76644dc167ef5cc1663d3e5133fcacce0cbdea8c24f289",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 7,
+      "system": 1,
+      "crop_pt": [
+        22,
+        23.73977611940299,
+        571.276,
+        181.26067164179105
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p7-s1.jpg",
+      "sha256": "c0838542f92fa3ef9343e9fdd7e98139f2b3eb598bf0bf01fafe636413991be8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 7,
+      "system": 3,
+      "crop_pt": [
+        22,
+        272.40485074626866,
+        571.276,
+        429.9257462686567
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p7-s3.jpg",
+      "sha256": "e805b9e6771e220438e45c4993383e0296dfc8c7e0df749cd834fee9c69d96fc",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 8,
+      "system": 1,
+      "crop_pt": [
+        22,
+        23.73977611940299,
+        571.276,
+        181.26067164179105
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p8-s1.jpg",
+      "sha256": "27af0c80450c44a2bfdbdd35af8cc46b6f1b308a2a52d84dc8ef80861d1bee91",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A032",
+      "page": 8,
+      "system": 6,
+      "crop_pt": [
+        22,
+        658.2986567164179,
+        571.276,
+        815.9848880597015
+      ],
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/A032-p8-s6.jpg",
+      "sha256": "bd80457c782bf4862c32e5d70af4deaa0283b8ab049df7da4b59dca773d6725b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 221,
+      "pdf_page": 241,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-221-reread.jpg",
+      "sha256": "f8d6501e83d2ea272bf3efe4d8b65a855b41913015af8824d84b748e43ed9fc5",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 222,
+      "pdf_page": 242,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-222-reread.jpg",
+      "sha256": "e731e7d59aec9e0ad75fc4078123aa147ae81e36ce4b3b6c593138dff1bb40da",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 223,
+      "pdf_page": 243,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-223-reread.jpg",
+      "sha256": "32d7edbef51cafba0692b03c93e6f9e449a5a5f6ce7ba2f265cfe92e6b2fa108",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 224,
+      "pdf_page": 244,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-224-reread.jpg",
+      "sha256": "02f85cb8ca7b7d5707eb6120ddb25e0e116b6a4e2e7dd660a8c8e1c442c65707",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 229,
+      "pdf_page": 249,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-229-reread.jpg",
+      "sha256": "7617d2ee82f3c47608eee352f70f5f85f1601dc70b5b52400598851e99faabf0",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 184,
+      "pdf_page": 204,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-184-reread.jpg",
+      "sha256": "502d965cc59583087801c1c6a6052afda2f8ca027ebc39fbc6760e0fe0e8e263",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "enlarged-book-figure-context",
+      "printed_page": 542,
+      "pdf_page": 562,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-542-top.jpg",
+      "sha256": "4e58817713960397da7f1849ff1e974931956dbb8ee65a6e0e4ad0f6932adda6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "enlarged-book-figure-context",
+      "printed_page": 542,
+      "pdf_page": 562,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-542-bottom.jpg",
+      "sha256": "7b16779da86a28c2931ef306315ffc2f3d0465f38dbb26c7408ad76517813ec3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "enlarged-book-figure-context",
+      "printed_page": 547,
+      "pdf_page": 567,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-547-top.jpg",
+      "sha256": "48e3678eb8577967544243e3e85723ee94b4aca8bfc98bec65d55775e7075423",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "enlarged-book-figure-context",
+      "printed_page": 547,
+      "pdf_page": 567,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-547-bottom.jpg",
+      "sha256": "7df7a66e5ae7bc348cb427af3e0338697ded0098424a907aff8ac1194a19a995",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 324,
+      "pdf_page": 344,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-324-reread.jpg",
+      "sha256": "91081d12ebe423e133dcc87503607535573cea989fcae8862f58fd8d7ce876ed",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 325,
+      "pdf_page": 345,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-325-reread.jpg",
+      "sha256": "f7eadb3e5e69f4fc956573f04ca623e989a53a7de9895cf6484b46176c92eaca",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 225,
+      "pdf_page": 245,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-225-reread.jpg",
+      "sha256": "9811d8a09f48cf0823f411689e152d3a027872285b561230ee3a4c9accb511a0",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 226,
+      "pdf_page": 246,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-226-reread.jpg",
+      "sha256": "439cd645c958578efa84776b9b5c3ecb302834e70ce19060e4aa9b7c21b4c8e5",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 227,
+      "pdf_page": 247,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-227-reread.jpg",
+      "sha256": "2540fb5ae81a6ebccfef49416a43b58123df7d77f140b9d38f9527c9945e840f",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 228,
+      "pdf_page": 248,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-228-reread.jpg",
+      "sha256": "4e34a2ff64ce168cb7b2eefaefbb0190eab22e9a2c9bb722bf4cbe168835393d",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 308,
+      "pdf_page": 328,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-308-reread.jpg",
+      "sha256": "af6634a667e5f235957d381467ff685d69d7302b896cdfab51dcb4951a54592f",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 549,
+      "pdf_page": 569,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-549.jpg",
+      "sha256": "3cbff2d9dbbe08678c64ec52a0658a926f35b557261a4f1c022a95d14f04decb",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 550,
+      "pdf_page": 570,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-550.jpg",
+      "sha256": "b677237c9bce11544936ac79064b43cdb250cbbd46e475e6fa591d2fb07f0cb6",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 551,
+      "pdf_page": 571,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-551.jpg",
+      "sha256": "a7618afbad85d83ddad8d3360cdd035482be616aaf79a52214e5708159ded8f5",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 552,
+      "pdf_page": 572,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-552.jpg",
+      "sha256": "2a42068e2f2598dc85e708330a67a72db429a4b707dceb71a5a5b5a4169805f8",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 553,
+      "pdf_page": 573,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-553.jpg",
+      "sha256": "4af8842522c1c5c82688e0b9b909a02ba4cfd16eb37f28a9467c4abf50409d80",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 554,
+      "pdf_page": 574,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-554.jpg",
+      "sha256": "df09ab374950edc0746b51e70d78fa92025af616940e1f54c83b389fa828fd2c",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": true,
+      "ancillary_role": "blank numbered page"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 555,
+      "pdf_page": 575,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-555.jpg",
+      "sha256": "a137042be0ea1ca07877049411c28b572ef2ebb8f4f5080b1b8a24e933f4979d",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": true,
+      "ancillary_role": "chapter title"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_page": 556,
+      "pdf_page": 576,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-556.jpg",
+      "sha256": "56cf3cdfe2ef322eee17a74277f7f2776e5e93ca485f38626c25119639c4ce43",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": true,
+      "ancillary_role": "chapter contents"
+    },
+    {
+      "role": "enlarged-book-figure-context",
+      "printed_page": 550,
+      "pdf_page": 570,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-550-top.jpg",
+      "sha256": "4ce853a38f1f18e40719c077a572046ae19cefaade99db87dc3b7dd628df27e1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "enlarged-book-figure-context",
+      "printed_page": 550,
+      "pdf_page": 570,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-550-bottom.jpg",
+      "sha256": "1670a8b28d66323f421b609ad8bd2693a89259f7ec1fbbd7e8146701817de6df",
+      "reused": false,
+      "actually_viewed": true
+    }
+  ],
+  "whole_reviews": {
+    "A030": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        7,
+        7
+      ],
+      "systems": 37,
+      "staves_per_system": 2
+    },
+    "A032": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "systems": 47,
+      "staves_per_system": 2
+    }
+  },
+  "selected_music_checks": {
+    "A030_B_septuplets": {
+      "page": 2,
+      "system": 1,
+      "bars": [
+        1,
+        2,
+        3
+      ],
+      "groups": [
+        {
+          "heads": [
+            {
+              "x_pt": 114.855,
+              "origin_top_pt": 92.958
+            },
+            {
+              "x_pt": 121.414,
+              "origin_top_pt": 78.069
+            },
+            {
+              "x_pt": 128.149,
+              "origin_top_pt": 78.069
+            },
+            {
+              "x_pt": 134.707,
+              "origin_top_pt": 67.434
+            },
+            {
+              "x_pt": 142.151,
+              "origin_top_pt": 63.181
+            },
+            {
+              "x_pt": 148.709,
+              "origin_top_pt": 78.069
+            },
+            {
+              "x_pt": 155.445,
+              "origin_top_pt": 67.434
+            }
+          ],
+          "gaps_pt": [
+            6.559,
+            6.735,
+            6.558,
+            7.444,
+            6.558,
+            6.736
+          ],
+          "lower_chord_between_fourth_fifth": [
+            {
+              "x_pt": 138.075,
+              "origin_top_pt": 113.519
+            },
+            {
+              "x_pt": 138.075,
+              "origin_top_pt": 128.408
+            }
+          ]
+        },
+        {
+          "heads": [
+            {
+              "x_pt": 277.036,
+              "origin_top_pt": 92.958
+            },
+            {
+              "x_pt": 283.594,
+              "origin_top_pt": 78.069
+            },
+            {
+              "x_pt": 290.329,
+              "origin_top_pt": 78.069
+            },
+            {
+              "x_pt": 296.887,
+              "origin_top_pt": 67.434
+            },
+            {
+              "x_pt": 304.332,
+              "origin_top_pt": 63.181
+            },
+            {
+              "x_pt": 310.89,
+              "origin_top_pt": 78.069
+            },
+            {
+              "x_pt": 317.625,
+              "origin_top_pt": 67.434
+            }
+          ],
+          "gaps_pt": [
+            6.558,
+            6.735,
+            6.558,
+            7.445,
+            6.558,
+            6.735
+          ],
+          "lower_chord_between_fourth_fifth": [
+            {
+              "x_pt": 300.255,
+              "origin_top_pt": 113.519
+            },
+            {
+              "x_pt": 300.255,
+              "origin_top_pt": 128.408
+            }
+          ]
+        },
+        {
+          "heads": [
+            {
+              "x_pt": 439.216,
+              "origin_top_pt": 92.958
+            },
+            {
+              "x_pt": 445.774,
+              "origin_top_pt": 78.069
+            },
+            {
+              "x_pt": 452.509,
+              "origin_top_pt": 78.069
+            },
+            {
+              "x_pt": 459.067,
+              "origin_top_pt": 67.434
+            },
+            {
+              "x_pt": 466.512,
+              "origin_top_pt": 63.181
+            },
+            {
+              "x_pt": 473.07,
+              "origin_top_pt": 78.069
+            },
+            {
+              "x_pt": 479.805,
+              "origin_top_pt": 67.434
+            }
+          ],
+          "gaps_pt": [
+            6.558,
+            6.735,
+            6.558,
+            7.445,
+            6.558,
+            6.735
+          ],
+          "lower_chord_between_fourth_fifth": [
+            {
+              "x_pt": 462.435,
+              "origin_top_pt": 113.519
+            },
+            {
+              "x_pt": 462.435,
+              "origin_top_pt": 128.408
+            }
+          ]
+        }
+      ],
+      "written_quarters_each": "1/7",
+      "tuplet_total_quarters": "1",
+      "bar_recipe_quarters": [
+        "1/2",
+        "1/2",
+        "1/7",
+        "1/7",
+        "1/7",
+        "1/7",
+        "1/7",
+        "1/7",
+        "1/7",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/2",
+        "1/2"
+      ],
+      "total_quarters": "4",
+      "font": "CYDKVZ+Pavane",
+      "size": 17.015999999999963,
+      "measurement": "Same source/same black-head glyph origins. Lower simultaneous midpoint splits one septuplet interval;mechanism inferred,not a reverse-engineered publishing engine."
+    },
+    "A030_D": {
+      "page": 3,
+      "system": 3,
+      "bar_in_system": 3,
+      "upper_quarters": [
+        "1/2",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "lower_melody_quarters": [
+        "1",
+        "1",
+        "1",
+        "1/2",
+        "1/2"
+      ],
+      "lower_flow_quarters": [
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "entry_offsets_quarters": {
+        "lower_p": "0",
+        "upper_pp": "1/2",
+        "lower_melody_mp": "1"
+      },
+      "total_quarters": "4",
+      "visual_reading_only": true
+    },
+    "A030_Poco_meno": {
+      "page": 4,
+      "system": 6,
+      "bar_in_system": 4,
+      "upper_quarters": [
+        "2",
+        "1/2",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "caesura_before_eighth_rest": true,
+      "poco_meno_near_final_three_eighths": true,
+      "total_quarters": "4",
+      "visual_reading_only": true
+    },
+    "A030_ending_tuplets": {
+      "page": 6,
+      "system": 3,
+      "bar_in_system": 2,
+      "groups": [
+        {
+          "head_columns": 11,
+          "quarters_each": "2/11",
+          "first_column_has_tied_chord_receiver": true
+        },
+        {
+          "head_columns": 9,
+          "quarters_each": "2/9"
+        }
+      ],
+      "total_quarters": "4",
+      "visual_reading_only": true
+    },
+    "A030_tremolo": {
+      "page": 1,
+      "system": 1,
+      "bar_in_system": 1,
+      "written_heads": 2,
+      "both_whole": true,
+      "simultaneous_duration_quarters": "4",
+      "three_strokes": true,
+      "unmeasured_interpretation_supported_by_Gould224_225": true,
+      "exact_rate_not_inferred": true,
+      "visual_reading_only": true
+    },
+    "A032_short_bar": {
+      "page": 7,
+      "system": 1,
+      "bar_in_system": 2,
+      "time_signature": "3/4",
+      "lower_recipe_quarters": [
+        "1/5",
+        "1/5",
+        "1/5",
+        "1/5",
+        "1/5",
+        "1",
+        "1"
+      ],
+      "upper_recipe_quarters": [
+        "1",
+        "1",
+        "1"
+      ],
+      "upper_first_is_tie_receiver": true,
+      "upper_last_is_rest": true,
+      "lower_last_is_rest": true,
+      "total_quarters": "3",
+      "two_beams_for_five_group": true,
+      "visual_reading_only": true
+    },
+    "A032_pickup": {
+      "page": 1,
+      "system": 1,
+      "upper_quarters": [
+        "1/2",
+        "1/2",
+        "1"
+      ],
+      "lower_rest_quarters": [
+        "2"
+      ],
+      "total_quarters": "2",
+      "visual_reading_only": true
+    },
+    "A032_L": {
+      "page": 5,
+      "system": 5,
+      "bar_in_system": 1,
+      "upper_quarters": [
+        "2",
+        "1",
+        "1/2",
+        "1/2"
+      ],
+      "new_attack_at_quarter_offset": "7/2",
+      "lower_activity_continues": true,
+      "total_quarters": "4",
+      "visual_reading_only": true
+    }
+  },
+  "reading_decisions": {
+    "A030_tremolo": "Keep one4-quarter alternating action and three-stroke unmeasured convention;not eight quarters or fixed32nd-rate expansion.",
+    "A030_B": "Preserve stable repeated seven-head shape;lower1/2-beat midpoint lies in slightly wider fourth-to-fifth gap. More-uniform candidate must retain actual middle entry.",
+    "A030_D": "Lower p0,upper pp1/2,lower melody mp1 quarter offsets;preserve layers and entrances.",
+    "A030_TempoI": "p5s3same-pitch black/white heads and auxiliary stems not duplicate attacks or third staff;no blanket rest filling.",
+    "A030_tempo": "p4s6lastbar half then caesura,eighth rest,three eighths;Poco meno before H. p5TempoI differs from p6Klocal a tempo after riten.",
+    "A032_L": "p5s5upper3.5-quarter waiting before new last-eighth attack;lower activity continues.",
+    "A032_N": "p6s4non rit.and full rest/release;lower pprepares before N,upper ppenters after quarter rest at N;not free waiting.",
+    "A032_short_bar": "p7s1temporary3/4contains five16th tuplets1quarter,one low quarter,one quarter rest;upper first head receives tie,then new quarter and rest. Oreturns common time.",
+    "A032_gliss": "p8s1wave with gliss.label differs from dashed voice guides;exact pitch/key endpoints not fully specified by visible ordinary heads.",
+    "A032_final_ottava": "Slanted lead-in and numeral placement require exact start/scope confirmation;no automatic transposition from numeral x alone."
+  },
+  "book": {
+    "new_substantive_printed_range": [
+      541,
+      553
+    ],
+    "new_substantive_pages": 13,
+    "new_reference_table_pages": 2,
+    "reference_table_printed_pages": [
+      543,
+      547
+    ],
+    "new_unique_pages": 16,
+    "new_ancillary_pages": 3,
+    "new_ancillary_pdf_pages": [
+      574,
+      575,
+      576
+    ],
+    "new_ancillary_roles": [
+      "numbered blank",
+      "chapter title",
+      "chapter contents"
+    ],
+    "reread_printed_pages": [
+      184,
+      200,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      308,
+      311,
+      324,
+      325,
+      490
+    ],
+    "enlarged_figure_printed_pages": [
+      542,
+      547,
+      550
+    ],
+    "physical_offset": 20,
+    "scope": "Wind/brass-band subjects and full orchestral-reduction section;printed554-556ancillary. Reduction simplification/reading cues conditional on rehearsal purpose,not automatic solo-piano edits."
+  },
+  "extraction_guards": {
+    "glyph_mapping": "Initial font-name filter returned no heads;corrected to actual metadata. A030Pavane;A032encoded alias family unproven. Within-source same œglyph/size measured;no font bytes extracted.",
+    "counts": "Rendered staff groups cross-checked against braces and full pages;A03037/A03247double-staff systems.",
+    "tremolo": "Full note-value pair jointly covers duration;glyph position not literal final attack and slash count not sufficient to infer exact rate.",
+    "tuplet": "A03011group first column contains received chord;head columns versus new attacks distinguished.",
+    "book_auxiliary": "Late pages554-556classified auxiliary after actual view,not counted as technical teaching.",
+    "source_geometry": "Music head origins not ink clearance;PDF source engine/manual adjustment not inferred."
+  },
+  "unresolved": [
+    "Every pitch,ratio,ottava and actual playback/hand/pedal audit",
+    "A032final ottava precise start and p8glisskey endpoints",
+    "Same-input native more-uniform septuplet alternative",
+    "Actual physical printing/turn"
+  ],
+  "not_performed": [
+    "original edits",
+    "new native candidate or independent/fixed skill test",
+    "font work",
+    "MCP/plugin/core adaptation",
+    "deletion"
+  ],
+  "validation": {
+    "status": "passed",
+    "source_hash_and_pages_checks": 3,
+    "actually_viewed_images_hashed": 71,
+    "whole_score_pages": 14,
+    "whole_systems": 84,
+    "skill_routes_executed": 20,
+    "local_markdown_links_checked": 605,
+    "selected_rational_recipes_checked": 11,
+    "new_score_closeouts": 2,
+    "new_book_substantive_pages": 13,
+    "new_book_ancillary_pages": 3,
+    "reference_table_pages_within_substantive": 2,
+    "new_native_candidates_this_batch": 0,
+    "original_files_written": 0,
+    "files_deleted": 0,
+    "unchanged": [
+      "first pass146/1461135/1135",
+      "fixed deep24/24and164/164",
+      "resources11/25",
+      "fixed transfer8/8",
+      "user0/1milestones2/4",
+      "all historical release tags/certificates"
+    ],
+    "current_release": "0.6.0",
+    "cache_errors": 0
+  },
+  "cache": {
+    "measured_at_utc": "2026-10-26T17:01:41.259223+00:00",
+    "batch_logical_bytes": 9890768,
+    "total_logical_bytes": 2481193735,
+    "total_on_disk_bytes": 2339904508,
+    "reused_images": 19,
+    "new_score_system_images": 19,
+    "new_book_page_images": 27,
+    "new_book_detail_images": 6,
+    "original_pdf_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "batch_review_threshold_bytes": 104857600,
+    "total_review_threshold_bytes": 3221225472,
+    "note": "Logical file lengths;Windows per-path storage separate,not volume delta. Snapshot before final small validation records."
+  }
+}

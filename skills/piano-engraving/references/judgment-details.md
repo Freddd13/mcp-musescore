@@ -32,6 +32,8 @@
 
 <a id="sustain"></a>
 
+`piano`／`notation`的`INTEGRATED_READING_COLORS_CROSSING.md`把排练缩谱减密与独奏净书分开：供读cue、替代执行、持续与必弹活动层须先识别用途。不能依据缩谱规范删独奏音、cue化或不播放；L的明确等待、D的三层入口和短拍tie接收仍保留。
+
 `piano`的`INTEGRATED_READING_CATCH_CHANGE.md`补低部休止／踏板释放以后，上表完整tie和手持层仍可继续；末尾两条旧低音链旁还有新的二分攻击。逐层核接收、新攻击和释放；斜虚线落向已有tie链，不据此补一颗新攻击或换成gliss.。
 
 `piano`／`curves`／`tempo`的`SKILL_TRANSFER_CONTINUITY.md`补T07：干奏下可有手持长和弦，开放弧到休止与完整tie接收分读；I与K踏板模式分别建立，simile不能跨模式复制。ad lib.两音震音的两个附点二分共同占三拍，再接一拍；不顺次相加或由三梁指定攻击次数。
@@ -68,6 +70,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`spacing`的`INTEGRATED_READING_COLORS_CROSSING.md`提供三次重复七连：同一格因下层中间进入稍宽，组形仍稳定，可保留；更匀候选仍须保该列。缩写震音要辨整段持续及是否无定量，不能按两头或假定播放次数估宽。
 
 `spacing`／`layout`的`MUSESCORE3_LAYOUT_READING.md`用五档原生参数控制区分整体松紧与时值曲线：Spacing=1.62不使所测四分／八分距比变成1.62。源码的Beam Local relayout只改该组内部ChordRest，不能当两手共同列优化；真实配对先保护，再比较局部重分。手册文字与当前源码／原生结果冲突时，记录版本与具体证据，不按同名参数传值。
 

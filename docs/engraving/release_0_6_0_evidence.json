@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-27",
+  "version": "0.6.0",
+  "tag": "engraving-v0.6.0",
+  "publication_base_commit": "5156a3eb644bff915edb6ebb9eedd1aed13f8e33",
+  "previous_release": {
+    "version": "0.5.0",
+    "tag_commit": "e1f73d827c97a85b6ba4601a7e52391bcf778a84",
+    "certificate_sha256": "04dac490cebe1eff54997398dc22850cb7db224ccb7feab1db4b85aec79e478f"
+  },
+  "progress_snapshot": {
+    "as_of": "2026-10-27",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      34,
+      146
+    ],
+    "gould_pages_conservative": [
+      445,
+      696
+    ],
+    "gould_substantive_pages": 422,
+    "gould_non_substantive_pages": 23,
+    "gould_title_or_contents_pages": 23,
+    "public_resource_scopes": [
+      11,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ],
+    "user_milestones": [
+      2,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.6.0"
+  },
+  "changes_since_0_5_0": {
+    "new_all_score_closeouts": 10,
+    "new_whole_score_pages": 58,
+    "new_Gould_substantive_pages": 47,
+    "new_Gould_ancillary_pages": 3,
+    "new_complete_resource_scopes": 0,
+    "new_fixed_skill_transfer_scenarios": 0
+  },
+  "sources_checked": [
+    {
+      "id": "A023",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Blumenkranz - Kill la Kill - Soundtrack.pdf",
+      "sha256": "3ea87d522d1694c724b7bbabc01c0ed461200711092cbe49b71cd478ee0d0a55",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A024",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\BOY - Ousama Ranking - Opening Theme.pdf",
+      "sha256": "8199f3ad76401252272d7f9117db76a9ab55b225b672ab6c715e90c6cb9cf963",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A026",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Butter-Fly - Digimon Adventure - Opening Theme.pdf",
+      "sha256": "270b41b8ce61790808f26081694d7887fe16f8fd766cb3052207717da026d737",
+      "pages": 8,
+      "read_only": true
+    },
+    {
+      "id": "A027",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Call of Silence - Attack on Titan Season 2 - Soundtrack.pdf",
+      "sha256": "cf8da67e1b7a6436beea4522c6893fe68d7f0afaa35775b40eb0ccc030bd4b22",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A028",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Catch the Moment - Sword Art Online Ordinal Scale - Theme Song.pdf",
+      "sha256": "e6333ad05678a310ee9d8aa10b7adf50a9e48f8f757449d3f13cc37d9bdbc824",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A029",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Change the World - InuYasha - Opening Theme.pdf",
+      "sha256": "21dde13b54e147c816f88c1c731a056301b74a32bb6737864a9e56283770ec00",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A030",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\COLORS - Code Geass：Lelouch of the Rebellion - Opening Theme.pdf",
+      "sha256": "007202ac9ec86e59646e34797cf804eb2d984b080242a12f1099c3a0c00758e8",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A032",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\crossing field - Sword Art Online - Opening Theme.pdf",
+      "sha256": "2e91bff6bb731c3d8fd70f0343d27af165204097c57718472eb9c5e0903ec4c4",
+      "pages": 8,
+      "read_only": true
+    },
+    {
+      "id": "A035",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Dango Daikazoku  - CLANNAD - Ending Theme.pdf",
+      "sha256": "2350a407c21323009e7770f4b32bcd30bc40af0221f620326c3071c70c5c24a7",
+      "pages": 4,
+      "read_only": true
+    },
+    {
+      "id": "A055",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Hanezeve Caradhina - Made in Abyss - Soundtrack.pdf",
+      "sha256": "c708c045dc722834b7eb8f65231b4ac3d6286b45b4dc812559cb0c5acec0eb68",
+      "pages": 3,
+      "read_only": true
+    }
+  ],
+  "public_native_artifacts_checked": [
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-comparison.png",
+      "sha256": "e7e1ed14f8bde83ab11a8b720d4ebbfed79ee60eedcceae65f30777ac6f22b02",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-default.mscx",
+      "sha256": "137f7fa6296adcc9a57cc769ec0a7f11cdd4107e2bfe3c01b7d06e00deaccc93",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-uniform-rejected.mscx",
+      "sha256": "05613fe6a3f46f1220bb1bff3e87cfb6504dd4f66c1e31c3b99dde9cd8d4303c",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-comparison.png",
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-default.mscx",
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-pulse-candidate.mscx",
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-candidate.mscx",
+      "sha256": "9595459dcd6a8d79adccff31af0998fbffcf613c5f49aa13e17e6fe9795badff",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-comparison.png",
+      "sha256": "a3bfd34a884ff6db9b71ecabe11d3eb90dfda971b617b02b4151b17e3c045cbc",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-default.mscx",
+      "sha256": "55718a3d194aadab49bd1fed9ec2d8a44a2ca18e1ba41eac99b3172fdec2ff48",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+      "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+      "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+      "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+      "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+      "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+      "unchanged_from_pre_turn_HEAD": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c",
+      "unchanged_from_pre_turn_HEAD": true
+    }
+  ],
+  "current_study_evidence": "colors_crossing_closeout_evidence.json",
+  "study_evidence_hashes": [
+    {
+      "path": "boy_blumenkranz_closeout_evidence.json",
+      "sha256": "eedeaeddc702e7573ac2cbc38b01f427ed939f9fd3d38e372fb18a2824e9d72c"
+    },
+    {
+      "path": "butterfly_silence_closeout_evidence.json",
+      "sha256": "61d289a7390932305ee91fc5d96fcd63759a20ceac0b7d42530834b99e991464"
+    },
+    {
+      "path": "catch_change_closeout_evidence.json",
+      "sha256": "f5675dcd63a405551dbc9b20d78ee87ab884ca0f17f0442f61fded3597c6ea89"
+    },
+    {
+      "path": "colors_crossing_closeout_evidence.json",
+      "sha256": "0ae1d89c9ad88c931dbab74231b1cd87bd624999b4d975173c3a4684330b61de"
+    },
+    {
+      "path": "dango_hanezeve_closeout_evidence.json",
+      "sha256": "4d3cf6f601b992e2cb5d3707868f669555904211dc4a717e17d4ba01270fdb09"
+    },
+    {
+      "path": "musescore3_layout_reading_evidence.json",
+      "sha256": "8f5594ab6e613c90694386b93d841861225963907b6ff46a590ff764b677ea6f"
+    },
+    {
+      "path": "twenty_to_six_occupancy_evidence.json",
+      "sha256": "db55b72d33d822a53c02c3b56424a86e293dd594ae2b6e4a57c7138dc65fcbf5"
+    },
+    {
+      "path": "twenty_to_six_spacing_evidence.json",
+      "sha256": "963f7bfe8de5e03db07f164df63836ee91ec68cfa9fa30163a492710795ef8cc"
+    }
+  ],
+  "native_validation_reexecuted_for_release": false,
+  "scope": "Historical native validation retained at stated scopes;release source/package checks do not establish all-case aesthetic accuracy or current installed-host compatibility.",
+  "not_done": [
+    "all-material goal completion",
+    "full-score automatic engraving",
+    "new software adaptation",
+    "user integrated round completion",
+    "new aesthetic or physical print proof"
+  ],
+  "validation": {
+    "status": "passed",
+    "original_score_sources_hash_and_pages_checked": 10,
+    "original_score_pages": 58,
+    "current_study_sources_checked": 3,
+    "current_viewed_images_hashed": 71,
+    "public_native_artifact_hashes_checked": 15,
+    "study_evidence_files_hashed": 8,
+    "skill_routes_executed": 20,
+    "local_markdown_links_checked": 605,
+    "current_skill_metadata": "0.6.0",
+    "prior_certificate_and_tag_unchanged": true,
+    "native_validation_reexecuted": false,
+    "all_material_goal_still_active": true
+  }
+}
