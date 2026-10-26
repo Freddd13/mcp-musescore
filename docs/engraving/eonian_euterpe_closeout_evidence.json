@@ -1,0 +1,3035 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "7b434d5a76efade894c3bb7f68c89fa44970d24c",
+  "note": "INTEGRATED_READING_EONIAN_EUTERPE.md",
+  "previous_goal_turn_classification": "progress:7b434d5published A038/A039question closeouts and twelve new book coverage pages;clean local/origin equal verified before continuation.",
+  "scope": "Solo A040/A041known-score whole question closeouts. No new fixed-deep or independent transfer credit,native candidate or software adaptation.",
+  "source_protection": [
+    {
+      "id": "A040",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\EONIAN - Expelled from Paradise - Theme song.pdf",
+      "sha256": "9ebee9d51247c7e96b49759418a30dd62e79e3de59686315dd54b347f8cf01f4",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A041",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Euterpe - Guilty Crown - Soundtrack.pdf",
+      "sha256": "972e9d9b8f7e0ad5a2eb09eb402dfdd769acd0a2d761fc71fd469142f8be3038",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A040",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A040/page-1.jpg",
+      "sha256": "84f95cd8b456140961f45cf65367dddc1fa2294d87b2c063016ded49b5082fb6",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A040",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A040/page-2.jpg",
+      "sha256": "38727639753c79dae2aa566f0c372e3ec7c3d9b5e5a4c871e65180f680f3ec27",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A040",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A040/page-3.jpg",
+      "sha256": "d4bd05ddcd0bc2f31273a2401afc49f1d8cb72f73764d70ce733c9970cfe257a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A040",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A040/page-4.jpg",
+      "sha256": "1a2be4a9e5e27c5201d3a39c1b9e6b6eca8f4b9a53a05660e5f57f9a179968b7",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A040",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A040/page-5.jpg",
+      "sha256": "c8076d65376245a6e60cf8e3a98b1becf1a20a9d57b46f8c6dc3286cbedde4b8",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A040",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A040/page-6.jpg",
+      "sha256": "9903c1eb19b1581b2fac1e21d8fd151760282b16748ed4e104cd9d18ef036e17",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A041",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A041/page-1.jpg",
+      "sha256": "51b6477183add2a016c5978c2de126cfbf1e1403789f3678f4919d23694e5729",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A041",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A041/page-2.jpg",
+      "sha256": "70fe65350a7a7c9b0b4734b1a9688766ed2768f6a7ac71868314c80c2fcc1493",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A041",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A041/page-3.jpg",
+      "sha256": "958e9a8208f939834bca094eaae07a85bc8da2388f6c9de6443ccccdb8c8bb5b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A041",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A041/page-4.jpg",
+      "sha256": "474aa6809c8678075921c7f942faf9f3dde668b88ebebe48b9208107dad94b1a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A041",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A041/page-5.jpg",
+      "sha256": "c5e2aa8c8be17423b300f366ff245ed99b716436996c793f6cf8e61633bf22fb",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 371,
+      "pdf_page": 391,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-371.jpg",
+      "sha256": "fdaab645b22f69b883ca3c69a7a16a2d7b17ee2b5e6b98299b5b1a7488504ba5",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true,
+      "ancillary_role": "chapter-title"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 372,
+      "pdf_page": 392,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-372.jpg",
+      "sha256": "573ca5526254821b26ad4b98a58e1a7d10345f92dec9a0002209057349dd9975",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true,
+      "ancillary_role": "chapter-contents"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 373,
+      "pdf_page": 393,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-373.jpg",
+      "sha256": "e062ff5a1b635b1786c9e3cde088a532660c5568455c6e2ef6f87b2c059c2b34",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 374,
+      "pdf_page": 394,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-374.jpg",
+      "sha256": "bb839ccb4d52e802a31877a48bc1e91d231f00cc79d087f0411d3ca1f1e99223",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 375,
+      "pdf_page": 395,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-375.jpg",
+      "sha256": "433ee872f1dffc0997601f874b97b822e938dec06c73318abcdab3942088b4f5",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 376,
+      "pdf_page": 396,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-376.jpg",
+      "sha256": "ba40a0e86d69c5c45173fec89d0e34c16caa2746f71ddc2b00b592a14e5ff2f0",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 377,
+      "pdf_page": 397,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-377.jpg",
+      "sha256": "238ea08f636194ed66e199d083c5db15446ee339a71e6290a27d78bc1071c5d0",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 378,
+      "pdf_page": 398,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-378.jpg",
+      "sha256": "0a7f624572be748dd645709682ad5316930b94a32e7416b6c52c9472aedbcabf",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 379,
+      "pdf_page": 399,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-379.jpg",
+      "sha256": "042614e09b4600dc15e34a5cfb1da894516fa028a07a0c5f915f0daed90e18ac",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 380,
+      "pdf_page": 400,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-380.jpg",
+      "sha256": "b87da79b512bbb07375ab1a4550bec3ba8bda295afccce9c297d032d6cafdfdb",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        22,
+        167.93627651217597,
+        571.32,
+        331.72637863315003
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p1-s1.jpg",
+      "sha256": "e527cda127618b919e2e7c4909124b3006d7dfb66b8b75bdb26ac8f31f11061e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 1,
+      "system": 2,
+      "crop_pt": [
+        22,
+        288.9664100549882,
+        571.32,
+        452.75651217596226
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p1-s2.jpg",
+      "sha256": "893055329a72a624282f861bfc034bf08b9030fdb755e2935bbea3cc1e7ceefc",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 1,
+      "system": 3,
+      "crop_pt": [
+        22,
+        409.99654359780044,
+        571.32,
+        573.9519874312647
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p1-s3.jpg",
+      "sha256": "0ab18a73cb379961a0850bd7a8812a869cc4b1371fc487130578cbfd88fe368d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 1,
+      "system": 4,
+      "crop_pt": [
+        22,
+        530.6959937156323,
+        571.32,
+        694.8167792615868
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p1-s4.jpg",
+      "sha256": "c0291b87f41c2d5309f4c70d834ba7e9c21405339ffed2d1d7282c2b364c3ee6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 2,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p2-s3.jpg",
+      "sha256": "6b5485ec7b0740c78b72789310ccd7f98f93fbab3612d2225996e4a215a440d6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 2,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647604084838,
+        571.32,
+        815.3508876669284
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p2-s6.jpg",
+      "sha256": "2c2432cb14b5cffb824baef4d976b77ac67260d7032961ed1df5dff92a41169f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 3,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088986645718776,
+        571.32,
+        187.87908876669283
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p3-s1.jpg",
+      "sha256": "ef52d39d97bc7091a1e14f73bd789cbd1bebb0ec20d2f0359d442ddb33cf1992",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 3,
+      "system": 2,
+      "crop_pt": [
+        22,
+        149.41800471327574,
+        571.32,
+        313.53879025923015
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p3-s2.jpg",
+      "sha256": "9ba411813c5c9f9434243d0feb0ff6c954427431a97bccb0af126961a76db6b9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 3,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357423409269,
+        571.32,
+        689.8565278868814
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p3-s5.jpg",
+      "sha256": "0dbbb4c6174da62fb30e218a5bb5e1578af80e5caa3d5edf96671d55de348ba5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 3,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647604084838,
+        571.32,
+        815.3508876669284
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p3-s6.jpg",
+      "sha256": "06e775086b42ab2ce43cb0af110b3d1835c17df93248f4287b5cea80001212f7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 4,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088986645718776,
+        571.32,
+        187.87908876669283
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p4-s1.jpg",
+      "sha256": "86107a791183bf939deb4ffd25790e192ea266fd072769a0f311ace4fbc66038",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 4,
+      "system": 2,
+      "crop_pt": [
+        22,
+        149.41800471327574,
+        571.32,
+        313.53879025923015
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p4-s2.jpg",
+      "sha256": "34197a8b0edb6b752f9baa401950f309a15a63992d804f0ec58a75c62c95799a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 4,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p4-s3.jpg",
+      "sha256": "751622ca696323e085b4fecf8216034c2a971f7b269a7bb58a39051324063de5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 4,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.40672427337,
+        571.32,
+        564.3621681068341
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p4-s4.jpg",
+      "sha256": "bb73dc3a6f491ef4caa915bc0129f1814f40075b69182b7b3a5935b0d88b20e9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 4,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357423409269,
+        571.32,
+        689.8565278868814
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p4-s5.jpg",
+      "sha256": "cb972bc33b4382b4947d254cfc82fdd2764599af9e4fb6c31782e6a76302cf54",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 5,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p5-s3.jpg",
+      "sha256": "6d7655d932b08124cb41eb791527147964fb74522f8453ab3e0ef29eb438c0f9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 6,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p6-s3.jpg",
+      "sha256": "93f88ed792d0a4b74fb58f4d5c17387db16a0409d52a0d7660b5de0c9206c892",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 6,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357423409269,
+        571.32,
+        689.8565278868814
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p6-s5.jpg",
+      "sha256": "0ef4315fe2b5dd55007ace7edd9c34ea196dea2d7ab2f532eb173fcc9b0a21b8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A040",
+      "page": 6,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647604084838,
+        571.32,
+        815.3508876669284
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A040-p6-s6.jpg",
+      "sha256": "11df9cbe127fc13f644aae83853f93e5ed4ff3b30b5fde8310359fd1690d75c6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 1,
+      "system": 1,
+      "crop_pt": [
+        22,
+        167.93627651217597,
+        571.32,
+        331.72637863315003
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p1-s1.jpg",
+      "sha256": "959d9f444bd10d71e02a8d9935c2ab2b7f076b52a0c582719a22cfaed9af8511",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 1,
+      "system": 4,
+      "crop_pt": [
+        22,
+        530.6959937156323,
+        571.32,
+        694.8167792615868
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p1-s4.jpg",
+      "sha256": "5d5c661e3f9cf2fc9fbac29c869432085e247ad17cb45f3c068b2ffe9a070b0c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 2,
+      "system": 2,
+      "crop_pt": [
+        22,
+        149.41800471327574,
+        571.32,
+        313.53879025923015
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p2-s2.jpg",
+      "sha256": "1bfb291d146174036aa2cbd2870cc23935c912002e09c7c6a6b13cdcbe2b00ae",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 2,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p2-s3.jpg",
+      "sha256": "2a8a3d73f5a8ad58abe079f3265aacec20276ce78a7f8a6364b21154ff872472",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 2,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357423409269,
+        571.32,
+        689.8565278868814
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p2-s5.jpg",
+      "sha256": "c140843f1d0d7a5ee09c079dd5b06e803d9deeae8b0c0a0c12f4d7c6c26f45a8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 3,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088986645718776,
+        571.32,
+        187.87908876669283
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p3-s1.jpg",
+      "sha256": "c181b3817bc10a7e4fb176f12ce8a69abe50cb9104659123027a5137be7a8716",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 3,
+      "system": 2,
+      "crop_pt": [
+        22,
+        149.41800471327574,
+        571.32,
+        313.53879025923015
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p3-s2.jpg",
+      "sha256": "602a765da8364af69fc12d8803eec74d9f7888aba327472be0cb88cb85822aa6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 3,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p3-s3.jpg",
+      "sha256": "7c126c864bf0c46334e37b62d0d7f5b3c9fbc0fd2f5fa1fad457c3baa23c9d98",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 3,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357423409269,
+        571.32,
+        689.8565278868814
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p3-s5.jpg",
+      "sha256": "a761590b2cb425bdcc292c41e44ac0a938e75938f691b15fd14ee3e45e071314",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 3,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647604084838,
+        571.32,
+        815.3508876669284
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p3-s6.jpg",
+      "sha256": "b74ca365872858c5e79f16ab89f13e5be7e8f1a7b9824b9c94db4e751e748596",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 4,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.120000000000005,
+        571.32,
+        188.16
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p4-s1.jpg",
+      "sha256": "d0cc064a637b0e209dde2dd85ba6ea19e8293bf4fa9358928839477e622188e8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 4,
+      "system": 2,
+      "crop_pt": [
+        22,
+        149.52,
+        571.32,
+        313.68
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p4-s2.jpg",
+      "sha256": "a701a0f12a0aebaec8c2809d643e53cbfd8580cb93090d2872b54ae88428338d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 4,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.56,
+        571.32,
+        564.6
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p4-s4.jpg",
+      "sha256": "519ccd1f309bc2b753b326e9537c2da3997a58da5c088837b1bb37990372cd1e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 4,
+      "system": 5,
+      "crop_pt": [
+        22,
+        526.08,
+        571.32,
+        690.12
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p4-s5.jpg",
+      "sha256": "583d14c943e106a013f65ab84eb4258f9ecc51241b69682950ef9c637625da7b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 4,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.48,
+        571.32,
+        815.64
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p4-s6.jpg",
+      "sha256": "03ad5af1665e9851bd7e6ec03407e39e279a48eccac60ac940febabfc1664928",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 5,
+      "system": 1,
+      "crop_pt": [
+        22,
+        24.088986645718776,
+        571.32,
+        187.87908876669283
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p5-s1.jpg",
+      "sha256": "304c49101b718e6566c2d5329f32a145406e93403779008a3727602ec11f6115",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 5,
+      "system": 3,
+      "crop_pt": [
+        22,
+        274.74702278083265,
+        571.32,
+        438.8678083267871
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p5-s3.jpg",
+      "sha256": "8f1ac4705e059865c82fc77a59a41753d781f64ed9faab79fcd46838ad98c960",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 5,
+      "system": 4,
+      "crop_pt": [
+        22,
+        400.40672427337,
+        571.32,
+        564.3621681068341
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p5-s4.jpg",
+      "sha256": "ca1e644b6706441f9825543aa0996374d7003bad48a0669cecdd71aa8b9bf7b3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 5,
+      "system": 5,
+      "crop_pt": [
+        22,
+        525.7357423409269,
+        571.32,
+        689.8565278868814
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p5-s5.jpg",
+      "sha256": "3499dcd85666f8f59d398023db923424ecb6c0c212671f0a8cb2943d6a3860fa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A041",
+      "page": 5,
+      "system": 6,
+      "crop_pt": [
+        22,
+        651.0647604084838,
+        571.32,
+        815.3508876669284
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p5-s6.jpg",
+      "sha256": "51730ee777cff41802604cfa9edf373633e48706f76b403646766b192d944d50",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 381,
+      "pdf_page": 401,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-381.jpg",
+      "sha256": "6eed768236f036b8695f0636c77b2c826c0f68458ad17e62178373f65a832f28",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 382,
+      "pdf_page": 402,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-382.jpg",
+      "sha256": "a941f16b6f83060b02aeec0c02854f53040be2ca27f7cb9aa432e05859729b91",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 383,
+      "pdf_page": 403,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-383.jpg",
+      "sha256": "b98a45dba63df908e0e4d3282fe449d09f4deb8d8929398837b4568a4778f75b",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 384,
+      "pdf_page": 404,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-384.jpg",
+      "sha256": "6b0f447bd6507e56b88a707b29f0ba602fc35755eddf7a2a331922aec15b799d",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 385,
+      "pdf_page": 405,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-385.jpg",
+      "sha256": "d6d25c1ac16c11cc975d23d97ac6ccd823e83cf779519ef42fcf6f23b3980d42",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 386,
+      "pdf_page": 406,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-386.jpg",
+      "sha256": "2bfd127db3962c12c6d5409070305ec74f2d773d0e87edc33e8d9925f1f08fa4",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 387,
+      "pdf_page": 407,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-387.jpg",
+      "sha256": "af62137c20c80eb56f3085ccbf115af487050e8c666236053b952ab5d627dc2b",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 388,
+      "pdf_page": 408,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-388.jpg",
+      "sha256": "3031fa01847da2667ddd608bc9c614e71108d3c7b94dcf928a0a717c4c37c8fc",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 39,
+      "pdf_page": 59,
+      "path": "tmp/engraving/study-2026-10-19/book-39.jpg",
+      "sha256": "e54e35ecab84ac4044f4d55a70626b0f836dd16361a2fd442484c1a71923480d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 164,
+      "pdf_page": 184,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-164.jpg",
+      "sha256": "2da13a9cc92a09b2de7a8b8afc3d77bef4b12d4958fe965a48ab92e46ae8756d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 165,
+      "pdf_page": 185,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-165.jpg",
+      "sha256": "e78c826f65db74b7346d92eabb0b1e84c0ae4f813f1c21a995d7e06b7939a8c6",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 174,
+      "pdf_page": 194,
+      "path": "tmp/engraving/beaming-2026-10-19/book-194.jpg",
+      "sha256": "60b116013ff1ec17b8aa7c1661b151a7945b2409ce7d9a10921d23f0108784e8",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "cache_name_correction": "Visible footer174/175;filename194/195uses physical page number.",
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 175,
+      "pdf_page": 195,
+      "path": "tmp/engraving/beaming-2026-10-19/book-195.jpg",
+      "sha256": "6ec05b8f3148eb2347abbf2193a73da956d963b71d899ab3fb67c92342334a9c",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "cache_name_correction": "Visible footer174/175;filename194/195uses physical page number.",
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-307-reread.jpg",
+      "sha256": "b52e28888c02d2fc9046d3e632095e4be18cb53ca82755423eeeab20391f5d95",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 308,
+      "pdf_page": 328,
+      "path": "tmp/engraving/fingering-2026-10-20/book-308.jpg",
+      "sha256": "4a6e8fd2666ce018049dfc9107a65f121d2f0a188ab8b884b4c5cfa1b8fc3902",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 310,
+      "pdf_page": 330,
+      "path": "tmp/engraving/cry-daisy-2026-10-27/book-310.jpg",
+      "sha256": "919c9a64305c2cd81662ddb661e6c7a54ea6a4727060076b9d565ac772f37e03",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 389,
+      "pdf_page": 409,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-389.jpg",
+      "sha256": "cbc1baee5afd258983e9791a539fa5bcdfce3fc565c94bcae4501f099f7c5261",
+      "reused": false,
+      "new_ledger_coverage": true,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 390,
+      "pdf_page": 410,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-390.jpg",
+      "sha256": "df09ab374950edc0746b51e70d78fa92025af616940e1f54c83b389fa828fd2c",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": true,
+      "ancillary_role": "blank"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 224,
+      "pdf_page": 244,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-224-reread.jpg",
+      "sha256": "02f85cb8ca7b7d5707eb6120ddb25e0e116b6a4e2e7dd660a8c8e1c442c65707",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 225,
+      "pdf_page": 245,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-225-reread.jpg",
+      "sha256": "9811d8a09f48cf0823f411689e152d3a027872285b561230ee3a4c9accb511a0",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 194,
+      "pdf_page": 214,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-194.jpg",
+      "sha256": "3d180cf3da2ebe8a5f7b4d18e0578b9c831733c48d40ecc140b8511a3f91cb0c",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 195,
+      "pdf_page": 215,
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/book-195.jpg",
+      "sha256": "868d9b99849e641731ad27404e6be4f78988ff4ca8a91e27a45e56c297f26faf",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "beam-detail",
+      "id": "A041",
+      "page": 3,
+      "system": 5,
+      "crop_pt": [
+        260,
+        551,
+        365,
+        612
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p3-s5-bar2-beams.jpg",
+      "sha256": "70a95e8eed2893fa205c3544b4a79397020034c9ee05bd194c88b6ed8b32ca93",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "rest-scope-detail",
+      "id": "A041",
+      "page": 5,
+      "system": 1,
+      "crop_pt": [
+        68,
+        37.08898664571878,
+        200,
+        118.9538413197172
+      ],
+      "path": "tmp/engraving/eonian-euterpe-2026-10-27/A041-p5-s1-rest-scope.jpg",
+      "sha256": "402b1474419099b59991ef5ec5a4009c721f1e683d412edb720260b189116949",
+      "reused": false,
+      "actually_viewed": true
+    }
+  ],
+  "whole_reviews": {
+    "A040": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "systems": 35,
+      "staves_per_system": 2
+    },
+    "A041": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "systems_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "systems": 29,
+      "staves_per_system": 2
+    }
+  },
+  "selected_music_checks": {
+    "arithmetic_checks": [
+      {
+        "location": "A040p1s1lowerbar1",
+        "quarters": [
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Four8th-rest/two16th figures over independent whole bass."
+      },
+      {
+        "location": "A040p1s1lowerbar4",
+        "quarters": [
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Last quarter rest replaces complete fourth figure;whole bass remains."
+      },
+      {
+        "location": "A040p3s6shortbarupper",
+        "quarters": [
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "2",
+        "interpretation": "2/4quarter rest plus eighth pair;piu mosso starts at pair,not G."
+      },
+      {
+        "location": "A040p3s6shortbarlower",
+        "quarters": [
+          "1",
+          "1"
+        ],
+        "total_quarters": "2",
+        "interpretation": "Received quarter then quarter rest."
+      },
+      {
+        "location": "A040p3s6Gfastlower",
+        "quarters": [
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Thirty-two ordinary32nds;no tuplet ratio inferred."
+      },
+      {
+        "location": "A040p6s5upperbar1",
+        "quarters": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Four16th rests and twelve16th onsets;rests remain part of grid."
+      },
+      {
+        "location": "A040p6s5upperbar2",
+        "quarters": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "interpretation": "Same upper timing despite changed lower texture and geometry."
+      },
+      {
+        "location": "A041p1s1upperbar1",
+        "quarters": [
+          "2",
+          "1"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Half plus quarter in3/4;long lower arpeggio chord3."
+      },
+      {
+        "location": "A041p2s2upperbar3",
+        "quarters": [
+          "2",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Half plus seven16ths7:4 in final beat;lower three8th-triplet groups."
+      },
+      {
+        "location": "A041p2s2upperbar4",
+        "quarters": [
+          "1",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Quarter chord then six and seven groups;first sixth is a tied receiver."
+      },
+      {
+        "location": "A041p2s3upperbar1",
+        "quarters": [
+          "2/3",
+          "1/3",
+          "2"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Quarter+eighth under3 occupies1beat;ordinary half outside."
+      },
+      {
+        "location": "A041p3s1upperbar2",
+        "quarters": [
+          "3/4",
+          "1/8",
+          "1/8",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Dotted8th and two ordinary32nds precede two6:4sixteenth groups;primary beam does not extend tuplet scope."
+      },
+      {
+        "location": "A041p3s1upperbar3",
+        "quarters": [
+          "1/3",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total_quarters": "3",
+        "interpretation": "First sixth has eighth+four16ths,five onsets;then two regular six groups."
+      },
+      {
+        "location": "A041p3s3upperbar1",
+        "quarters": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total_quarters": "3",
+        "interpretation": "6/7/6each1beat;independent held part is not appended to running voice."
+      },
+      {
+        "location": "A041p3s5upperbar1",
+        "quarters": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total_quarters": "3",
+        "interpretation": "6then7then ordinaryfour32nds and three16th-triplets;20fast onsets."
+      },
+      {
+        "location": "A041p3s5upperbar2",
+        "quarters": [
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Eightordinary32nds then four5:4of32nds;28onsets. Inner beams split4+4,primary continuous."
+      },
+      {
+        "location": "A041p3s6crossstaffbar1",
+        "quarters": [
+          "1/2",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Initial ordinary8th chord then5/4/5/4/5fast groups;upper sustained dottedhalf independent."
+      },
+      {
+        "location": "A041p4s2upperbar1",
+        "quarters": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Three six16thgroups;lower half+quarter."
+      },
+      {
+        "location": "A041p4s5two-note-tremolo",
+        "quarters": [
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Three quarter-duration alternating pairs,each both written quarters;not six sequential quarters. Exact measured/unmeasured execution unresolved."
+      },
+      {
+        "location": "A041p5s6lowerbar3",
+        "quarters": [
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Three8thtriplets form complete3/4before upper continuation."
+      },
+      {
+        "location": "A041p5s1upperbar1",
+        "quarters": [
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3"
+        ],
+        "total_quarters": "3",
+        "interpretation": "Three8thtriplet groups;middle group starts with8th rest. Focused view shows one beam plus separate curved slur,not two beams."
+      }
+    ],
+    "source_geometry": {
+      "A041_p4_s2": {
+        "groups": [
+          {
+            "group": 1,
+            "x": [
+              74.4,
+              83.64,
+              93.0,
+              100.68,
+              108.48,
+              117.72
+            ],
+            "gaps": [
+              9.24,
+              9.36,
+              7.68,
+              7.8,
+              9.24
+            ]
+          },
+          {
+            "group": 2,
+            "x": [
+              127.08,
+              136.32,
+              145.68,
+              153.36,
+              161.16,
+              170.28
+            ],
+            "gaps": [
+              9.24,
+              9.36,
+              7.68,
+              7.8,
+              9.12
+            ]
+          },
+          {
+            "group": 3,
+            "x": [
+              179.76,
+              189.0,
+              198.36,
+              205.92,
+              213.72,
+              222.96
+            ],
+            "gaps": [
+              9.24,
+              9.36,
+              7.56,
+              7.8,
+              9.24
+            ]
+          },
+          {
+            "group": 4,
+            "x": [
+              238.56,
+              247.8,
+              257.16,
+              264.84,
+              272.64,
+              281.88
+            ],
+            "gaps": [
+              9.24,
+              9.36,
+              7.68,
+              7.8,
+              9.24
+            ]
+          },
+          {
+            "group": 5,
+            "x": [
+              291.24,
+              300.48,
+              309.84,
+              317.4,
+              325.2,
+              334.44
+            ],
+            "gaps": [
+              9.24,
+              9.36,
+              7.56,
+              7.8,
+              9.24
+            ]
+          },
+          {
+            "group": 6,
+            "x": [
+              343.8,
+              353.04,
+              362.52,
+              370.08,
+              377.88,
+              387.12
+            ],
+            "gaps": [
+              9.24,
+              9.48,
+              7.56,
+              7.8,
+              9.24
+            ]
+          },
+          {
+            "group": 7,
+            "x": [
+              402.72,
+              411.96,
+              421.08,
+              428.76,
+              436.56,
+              445.92
+            ],
+            "gaps": [
+              9.24,
+              9.12,
+              7.68,
+              7.8,
+              9.36
+            ]
+          },
+          {
+            "group": 8,
+            "x": [
+              455.16,
+              464.52,
+              473.76,
+              481.44,
+              489.24,
+              498.36
+            ],
+            "gaps": [
+              9.36,
+              9.24,
+              7.68,
+              7.8,
+              9.12
+            ]
+          },
+          {
+            "group": 9,
+            "x": [
+              507.84,
+              517.08,
+              526.44,
+              534.0,
+              541.8,
+              551.04
+            ],
+            "gaps": [
+              9.24,
+              9.36,
+              7.56,
+              7.8,
+              9.24
+            ]
+          }
+        ],
+        "interpretation": "Same sixths/line budget;repeated short versus longer gaps follow contour/ledger context,not lower midpoint entries."
+      },
+      "A041_p4_s2_ledger_probe": {
+        "heads": [
+          {
+            "x": 74.39999775,
+            "y": 180.59995825,
+            "width": 5.238912359249994,
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "x": 83.63999775,
+            "y": 186.95995525,
+            "width": 5.238912359249994,
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "x": 93.0,
+            "y": 189.119959,
+            "width": 5.238912359249994,
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "x": 100.68000375,
+            "y": 195.47996724999996,
+            "width": 5.238912359249994,
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "x": 108.47999924999999,
+            "y": 189.119959,
+            "width": 5.238912359249994,
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "x": 117.72000524999999,
+            "y": 186.95995525,
+            "width": 5.238912359249994,
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          }
+        ],
+        "source_lines": [
+          {
+            "x0": 73.08000150000001,
+            "x1": 81.120003,
+            "y": 193.31996349999997,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 73.08000150000001,
+            "x1": 81.120003,
+            "y": 189.119959,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 73.08000150000001,
+            "x1": 81.120003,
+            "y": 184.79995150000002,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 73.08000150000001,
+            "x1": 81.120003,
+            "y": 180.59995825,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 82.19999849999999,
+            "x1": 90.36000225,
+            "y": 193.31996349999997,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 82.19999849999999,
+            "x1": 90.36000225,
+            "y": 189.119959,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 91.6799985,
+            "x1": 99.83999624999998,
+            "y": 193.31996349999997,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 91.6799985,
+            "x1": 99.83999624999998,
+            "y": 189.119959,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 107.04000074999999,
+            "x1": 115.2000045,
+            "y": 193.31996349999997,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 107.04000074999999,
+            "x1": 115.2000045,
+            "y": 189.119959,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 116.27999475000001,
+            "x1": 124.4399985,
+            "y": 193.31996349999997,
+            "width": 0.6000000000000001
+          },
+          {
+            "x0": 116.27999475000001,
+            "x1": 124.4399985,
+            "y": 189.119959,
+            "width": 0.6000000000000001
+          }
+        ]
+      },
+      "A040_p6_s5": {
+        "bars": [
+          {
+            "bar": 1,
+            "trios": [
+              {
+                "x": [
+                  92.64,
+                  101.88,
+                  111.36
+                ],
+                "gaps": [
+                  9.24,
+                  9.48
+                ]
+              },
+              {
+                "x": [
+                  129.96,
+                  139.32,
+                  148.56
+                ],
+                "gaps": [
+                  9.36,
+                  9.24
+                ]
+              },
+              {
+                "x": [
+                  167.28,
+                  176.52,
+                  185.88
+                ],
+                "gaps": [
+                  9.24,
+                  9.36
+                ]
+              },
+              {
+                "x": [
+                  204.6,
+                  213.96,
+                  223.2
+                ],
+                "gaps": [
+                  9.36,
+                  9.24
+                ]
+              }
+            ]
+          },
+          {
+            "bar": 2,
+            "trios": [
+              {
+                "x": [
+                  250.08,
+                  258.96,
+                  269.04
+                ],
+                "gaps": [
+                  8.88,
+                  10.08
+                ]
+              },
+              {
+                "x": [
+                  289.8,
+                  298.68,
+                  308.88
+                ],
+                "gaps": [
+                  8.88,
+                  10.2
+                ]
+              },
+              {
+                "x": [
+                  332.64,
+                  341.76,
+                  351.96
+                ],
+                "gaps": [
+                  9.12,
+                  10.2
+                ]
+              },
+              {
+                "x": [
+                  372.36,
+                  381.48,
+                  391.56
+                ],
+                "gaps": [
+                  9.12,
+                  10.08
+                ]
+              }
+            ]
+          },
+          {
+            "bar": 3,
+            "trios": [
+              {
+                "x": [
+                  419.04,
+                  428.28,
+                  437.64
+                ],
+                "gaps": [
+                  9.24,
+                  9.36
+                ]
+              },
+              {
+                "x": [
+                  456.24,
+                  465.48,
+                  474.84
+                ],
+                "gaps": [
+                  9.24,
+                  9.36
+                ]
+              },
+              {
+                "x": [
+                  493.44,
+                  502.8,
+                  512.04
+                ],
+                "gaps": [
+                  9.36,
+                  9.24
+                ]
+              },
+              {
+                "x": [
+                  530.64,
+                  540.12,
+                  549.24
+                ],
+                "gaps": [
+                  9.48,
+                  9.12
+                ]
+              }
+            ]
+          }
+        ],
+        "interpretation": "Same upper3-sixteenth onsets preceded bysixteenth rest. Middle bar has syncopated lower voice and tie receivers,not proven extra time columns between upper16ths. Local spacing candidate must compare lower clearances and complete line;single production cause unproven."
+      },
+      "ledger_compression_counterexample": {
+        "pair": "A041p4s2first two heads,ledger at193.32pt",
+        "original_ledger_clearance_pt": 1.0799954999999954,
+        "shortest_style_gap_pt": 7.68,
+        "source_head_gap_pt": 9.24,
+        "translated_second_ledger_clearance_pt": -0.48000450000000683,
+        "scope": "Geometry-only rigid translation;no source edit,native render or acceptable alternate proved."
+      },
+      "equal_widest_budget": {
+        "internal_gaps": 45,
+        "target_pt": 9.48,
+        "original_internal_sum_pt": 389.15999999999997,
+        "extra_internal_width_pt": 37.440000000000055,
+        "scope": "Within-group gaps only;bar/beat boundaries held for this arithmetic probe. Not a rendered candidate."
+      }
+    },
+    "scope": "Selected written-time recipes after visual reading,not source-engine tuplets or all-pitch/playback collation.",
+    "source_measurements": [
+      {
+        "id": "A041",
+        "page": 4,
+        "system": 2,
+        "staff": 0,
+        "origin_x": [
+          74.4,
+          83.64,
+          93.0,
+          100.68,
+          108.48,
+          117.72,
+          127.08,
+          136.32,
+          145.68,
+          153.36,
+          161.16,
+          170.28,
+          179.76,
+          189.0,
+          198.36,
+          205.92,
+          213.72,
+          222.96,
+          238.56,
+          247.8,
+          257.16,
+          264.84,
+          272.64,
+          281.88,
+          291.24,
+          300.48,
+          309.84,
+          317.4,
+          325.2,
+          334.44,
+          343.8,
+          353.04,
+          362.52,
+          370.08,
+          377.88,
+          387.12,
+          402.72,
+          411.96,
+          421.08,
+          428.76,
+          436.56,
+          445.92,
+          455.16,
+          464.52,
+          473.76,
+          481.44,
+          489.24,
+          498.36,
+          507.84,
+          517.08,
+          526.44,
+          534.0,
+          541.8,
+          551.04
+        ],
+        "source_chars": [
+          {
+            "origin": [
+              74.39999775,
+              180.59995825
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              83.63999775,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              93.0,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              100.68000375,
+              195.47996724999996
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              108.47999924999999,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              117.72000524999999,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              127.0800015,
+              180.59995825
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              136.31999625,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              145.68000375,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              153.359997,
+              195.47996724999996
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              161.16000375000002,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              170.27999475000001,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              179.75999475,
+              180.59995825
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              189.0,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              198.36000825,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              205.91999850000002,
+              195.47996724999996
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              213.71999325000002,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              222.95999924999998,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              238.55999025,
+              180.59995825
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              247.7999955,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              257.16000375,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              264.83999625,
+              195.47996724999996
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              272.63999175000004,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              281.879997,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              291.24000524999997,
+              180.59995825
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              300.48001125,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              309.83999625,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              317.400009,
+              195.47996724999996
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              325.2000045,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              334.44000975,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              343.7999955,
+              182.63995899999998
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              353.04000075,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              362.51998875,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              370.0800015,
+              195.47996724999996
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              377.879997,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              387.11997975,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              402.7200165,
+              182.63995899999998
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              411.96002175,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              421.08000150000004,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              428.75999475,
+              195.47996724999996
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              436.56001275,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              445.91999849999996,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              455.16000375,
+              182.63995899999998
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              464.51998875000004,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              473.75999475,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              481.43998725,
+              195.47996724999996
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              489.24000525,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              498.35998499999994,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              507.83999625,
+              182.63995899999998
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              517.0800015,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              526.4399872500001,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              534.0,
+              195.47996724999996
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              541.800018,
+              189.119959
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              551.03997825,
+              186.95995525
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          }
+        ]
+      },
+      {
+        "id": "A040",
+        "page": 6,
+        "system": 5,
+        "staff": 0,
+        "origin_x": [
+          92.64,
+          101.88,
+          111.36,
+          129.96,
+          139.32,
+          148.56,
+          167.28,
+          176.52,
+          185.88,
+          204.6,
+          213.96,
+          223.2,
+          250.08,
+          258.96,
+          269.04,
+          289.8,
+          298.68,
+          308.88,
+          332.64,
+          341.76,
+          351.96,
+          372.36,
+          381.48,
+          391.56,
+          419.04,
+          428.28,
+          437.64,
+          456.24,
+          465.48,
+          474.84,
+          493.44,
+          502.8,
+          512.04,
+          530.64,
+          540.12,
+          549.24
+        ],
+        "source_chars": [
+          {
+            "origin": [
+              92.63999775,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              101.879997,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              111.35999699999999,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              129.95999925,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              139.31999625,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              148.5600015,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              167.27999475000001,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              176.52000075,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              185.879997,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              204.599991,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              213.95999924999998,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              223.2000045,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              250.08000149999998,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              258.95999925,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              269.04000075,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              289.7999955,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              298.67999249999997,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              308.879997,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              332.63999175000004,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              341.75999475000003,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              351.95999925,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              372.36000824999996,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              381.48001125,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              391.56001275,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              419.03997825,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              428.2799835,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              437.64001500000006,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              456.24000525,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              465.48001124999996,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              474.83999625,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              493.43998725,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              502.800018,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              512.03997825,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              530.6400150000001,
+              578.2799395000001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              540.1199797500001,
+              576.1199357500001
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          },
+          {
+            "origin": [
+              549.24000525,
+              569.75995075
+            ],
+            "font": "CIDFont+F1",
+            "size": 16.320599249999987
+          }
+        ]
+      }
+    ]
+  },
+  "reading_decisions": {
+    "keep_spacing": "A041p4s2nine6groups repeat longer-ledger/shorter-inner contours. Source ledger gap1.08pt would overlap0.48pt at7.68ptheadgap;uniform9.48adds37.44ptwithin45group gaps. Keep;geometry probes are not native candidates.",
+    "candidate_spacing": "A040p6s5middle bar upper trios8.88-9.12then10.08-10.20pt vsflanks9.12-9.48pt. Candidate forlocaljoint reallocation under lower syncopated voice/tie clearances;no finer time insertion proved and single production cause unknown.",
+    "tuplet": "Read ordinary prefixes,unit-weighted sixths,tie receivers,6/7/ordinary32nd/triplet units and5/4crossstaff alternation separately. p3s5bar2eightordinary32nds followedfour5groups;inner beams split4+4,not tuplet change.",
+    "rests": "A041p5s1middle3is8th rest+two8ths;single beam and separate slur confirmed by focused detail. A040whole bass and delayed ostinato rests carry different roles.",
+    "states": "A040ottava beginsbeforeE,endsinsidep3s5;piu mosso begins in2/4beforeG. A041108,accel,molto rit,89,fermata andlater89remain ordered.",
+    "cross_staff": "Fastroute,heldlayers,handbrackets,parenthesized heads and chord-part ties kept. Parenthesis production definition unresolved,not automatic optional/mute/delete.",
+    "tremolo": "Three written quarter-duration alternating pairs fit3/4;do not count six quarterheads as6beats. Exact measured/unmeasured execution unspecified.",
+    "guitar": "373-389all17substantive pages read:local operation/object/state definitions transfer;string/fingering/slur/harmonic/scordatura meanings remain instrument-specific."
+  },
+  "book": {
+    "new_substantive_printed_range": [
+      373,
+      389
+    ],
+    "new_substantive_pages": 17,
+    "new_reference_table_pages": 1,
+    "new_unique_pages": 20,
+    "new_ancillary_pages": 3,
+    "new_ancillary_printed_positions": [
+      371,
+      372,
+      390
+    ],
+    "new_ancillary_pdf_pages": [
+      391,
+      392,
+      410
+    ],
+    "reread_printed_pages": [
+      39,
+      40,
+      164,
+      165,
+      174,
+      175,
+      194,
+      195,
+      224,
+      225,
+      307,
+      308,
+      310,
+      311
+    ],
+    "physical_offset": 20,
+    "guitar_substantive_range_now_covered": [
+      373,
+      389
+    ],
+    "guitar_substantive_pages_covered": 17,
+    "scope": "Complete Classical Guitar chapter,including continuation of scordatura389;371title372contents390blank. Strings not yet credited."
+  },
+  "extraction_guards": {
+    "cache": "beaming/book194and195show printed174and175. Corrected local records,renderedactual194195andviewed. Four pages already ledger-covered,no new credit or deletion.",
+    "geometry": "A041p4raster staff-line threshold detected11staves;source horizontal lines and wholepage verify12staves/sixsystems.",
+    "tuplet": "Initial thumbnail confusion ofp5s1slur assecond beam corrected by focused view:8th rest/two8ths. p3s5ordinary8x32nds have4+4inner split,not missing value/6group.",
+    "source": "Visible source origins/staff bounds guard negative-x neighbour content. CIDFontaliases do not identify family. No font bytes extracted."
+  },
+  "unresolved": [
+    "All-pitch and internal voice/playback collation",
+    "Native A040spacing alternatives and lower-clearance isolation",
+    "Parenthesis definition,exact tremolo/hand/pedal execution",
+    "Physical turns,print proof and user candidate choice"
+  ],
+  "not_performed": [
+    "original edits",
+    "new native/fixed/independent transfer",
+    "font work",
+    "software adaptation",
+    "deletion"
+  ],
+  "validation": {
+    "status": "passed",
+    "source_hash_and_pages_checks": 3,
+    "actually_viewed_images_hashed": 86,
+    "whole_score_pages": 11,
+    "whole_systems": 64,
+    "selected_duration_recipes": 21,
+    "original_head_origins_verified": 90,
+    "source_ledger_line_geometry_verified": true,
+    "compression_and_equalwide_budget_recomputed": true,
+    "skill_routes_executed": 20,
+    "new_case_routes_linked": 7,
+    "local_markdown_links_checked": 603,
+    "new_book_substantive_pages": 17,
+    "new_book_ancillary_pages": 3,
+    "new_whole_question_closeouts": 2,
+    "not_a_general_accuracy_measure": true,
+    "original_files_written": 0,
+    "files_deleted": 0,
+    "new_native_or_adaptation": 0,
+    "release_0_6_0_tag_and_certificate_unchanged": true,
+    "all_material_goal": "active"
+  },
+  "cache": {
+    "measured_at_utc": "2026-10-26T19:42:48.586841+00:00",
+    "batch_logical_bytes": 11189787,
+    "total_logical_bytes": 2517565752,
+    "total_on_disk_bytes": 2376276525,
+    "reused_images": 23,
+    "new_images": 63,
+    "original_pdf_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "batch_review_threshold_bytes": 104857600,
+    "total_review_threshold_bytes": 3221225472,
+    "note": "Logical lengths,not volume delta;inventory precedes final small records."
+  }
+}

@@ -36,6 +36,8 @@
 
 <a id="sustain"></a>
 
+`curves`／`piano`／`cross-staff`的`INTEGRATED_READING_EONIAN_EUTERPE.md`保长低音与延迟短型、慢层和快线／手括形。吉他的同音双弦、技术slur、制音、泛音与定弦各有动作定义；相同音高／外形不提供自动去重或同一执行依据。
+
 `curves`／`piano`的`INTEGRATED_READING_LAZY_EIEN.md`保开放余响、完整tie、legato与短动作弧的区别。竖琴制音小音指停止哪根弦，等音双弦仍是两个动作对象；播放相同／无起音不提供自动去重依据。
 
 `piano`／`notation`的`INTEGRATED_READING_COLORS_CROSSING.md`把排练缩谱减密与独奏净书分开：供读cue、替代执行、持续与必弹活动层须先识别用途。不能依据缩谱规范删独奏音、cue化或不播放；L的明确等待、D的三层入口和短拍tie接收仍保留。
@@ -78,6 +80,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`spacing`的`INTEGRATED_READING_EONIAN_EUTERPE.md`量54头重复疏密及加线净空：压最短会碰线，拉最宽又需额外37.44pt，保留。EONIAN中小节三音轻微长短列候选；下层复杂不直接证明更细中间时间点或唯一成因。
 
 `spacing`的`INTEGRATED_READING_LAZY_EIEN.md`实测普通16分与续行6组近稳定，按各自单位／行预算保留。Lazy半音运行比例缺失，10:6／9:6仅条件重建，不能按几何步长生成已确认时间。
 
@@ -124,6 +128,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`rhythm`／`notation`的`INTEGRATED_READING_EONIAN_EUTERPE.md`核普通前导、五次起音的六份、tie接收、6／7／普通32分／三连及5／4跨表。八分休止旁的slur不作第二梁；两音震音每对两头各写完整时长，不能相加。
 
 `rhythm`／`beams`的`INTEGRATED_READING_LAZY_EIEN.md`保四个普通16分梁组与1／7／13重音，八分3＋3＋2不必改梁；六连第一组八分和弦＋四16分只有五次起音。
 
