@@ -73,3 +73,7 @@ p116允许在明确建立模式后用stacc. sempre、marcato sempre或sim.省重
 如果以后要自动化，需要取得标记父对象、类型、逻辑时间／范围、原生scope、上下方向／anchor及有效偏移，再结合真实渲染。PDF只提供可见证据，软件track不等于音乐作用层，SVG段数也不等于逻辑范围数。本轮只补判断和可复现例，不开发MCP／插件／本体接口；知识由skill按专题引用，未证明任意复杂全谱都可自动处理。
 
 2026-10-22[unlasting整首复读](INTEGRATED_READING_UNLASTING.md)把同表力度分层与进入时点连起来：p4快组mf／稍后旋律ff、I的行首p sub.／休止后pp，不合并或吸到一列。L的完整渐弱短语跨两行分词，范围提示有收益，首次识别也有代价；比较起点给全短语与延续提醒是候选，并非已找到禁止分词的规范或已完成原生改善。
+
+## 2026-10-27：不同入口先保时间与层次
+
+[Departures C](INTEGRATED_READING_DEPARTURES.md#5-力度和速度位置不齐常有音乐理由)首轮“两处mp”已纠正：上层快速背景pp，中间／下层mp；上层又先接tie再开始新快音。保留分层及迟早，不按文本近似去重。departure!E／F的sfz先于p／mf运动、DeparturesF前的meno mosso／pp先于段号，均先核X归属，再作Y避碰／通道整理。

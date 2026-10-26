@@ -12,6 +12,8 @@
 
 <a id="symbols"></a>
 
+`glissandi`／`piano`的`INTEGRATED_READING_DEPARTURES.md`将竖琴拼写／七踏板／滑奏限定于弦与脚的动作条件。可迁移预读与范围清楚，不向钢琴套禁用重升降号等专用惯例。
+
 `notation`的`INTEGRATED_READING_CRY_DAISY.md`把震音两端按共同持续计量；内部／预置钢琴的结果音、键与触弦动作分开。管风琴Ped.、8′／16′及manual说明按乐器语境读，不成为普通钢琴的踏板缺省。
 
 `notation`／`piano`的`INTEGRATED_READING_BUTTERFLY_SILENCE.md`补F约75%小头的3拍计量、G正常头与小头华彩：字号本身不决定grace、cue或播放，大小头同刻的PDF绘图也不直接等于两次攻击。小头、缩谱表及指挥总谱压成一表各有用途；先确认实际演奏者与阅读任务。
@@ -73,6 +75,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`spacing`的`INTEGRATED_READING_DEPARTURES.md`对照两个13组：窄处变音前宽格明显，宽处近稳，先比较整行重分／符号占位。末头多一个降号，不能标为同输入；有理由列候选，不直接归因引擎。
+
 `spacing`的`INTEGRATED_READING_CRY_DAISY.md`比较同源同字号25头：跨度差约14%，局部六／七组仍稳定，保留按行容量变化。先把首组六连中的休止归组，再评局部突变，不固定全曲步长。
 
 `spacing`的`INTEGRATED_READING_COLORS_CROSSING.md`提供三次重复七连：同一格因下层中间进入稍宽，组形仍稳定，可保留；更匀候选仍须保该列。缩写震音要辨整段持续及是否无定量，不能按两头或假定播放次数估宽。
@@ -115,6 +119,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`rhythm`／`beams`的`INTEGRATED_READING_DEPARTURES.md`实见15／16双梁组后各接一个单梁八分。数字不管整条主梁；先澄清括号范围，比例15:14／16:14只在末八分普通、全小节四拍的假设下成立，不生成已确认播放值。
+
 `rhythm`的`INTEGRATED_READING_CATCH_CHANGE.md`核Change J：首小节八分休止后14头，只有开头三颗十六分三连，接普通细分；后续变13头与9头。先数这次的梁、数字、末值，再比步长；相似大弧不传播连音比例。三拍弱起也不补成四拍。
 
 `rhythm`经`INTEGRATED_READING_BUTTERFLY_SILENCE.md`核局部六连只占一次拱形的一段、9括形包括起首休止，以及64普通六十四分的华彩名义4拍。先核梁层、端点、普通侧翼和Rest；自由表情不自动改成超长连音。延长落点、Meno和拾音又可先后出现，不把它们全部吸到小节线。
@@ -136,6 +142,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 同页的5连组、局部8va、弧和尾部休止须按各自角色／范围读；Mixed Nuts旧“8组”已由完整末小节和旗梁细图校正。不要只凭单个数字或紧裁图补Tuplet比例、起音数、全曲swing或软件字段。
 
 <a id="markings"></a>
+
+`markings`／`tempo`的`INTEGRATED_READING_DEPARTURES.md`纠正C的pp／mp，保护慢干、迟进入与F前先变速／减弱。先核X归属，再理Y通道；局部手提示、段号和八度不自动合锚。
 
 `markings`／`beams`的`SKILL_TRANSFER_MARKINGS.md`补同高干端tenuto正例，以及梁内换手的细角括形：先认归属和作用范围，再判交叉或高度。渐强终点须看两层共同事件；段前引入的力度不自动吸到段号。
 
