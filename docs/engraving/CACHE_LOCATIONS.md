@@ -82,3 +82,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-27光るなら／History Maker批次约11.60MiB，总净书缓存约2.442GiB逻辑长度；99图记录复用28张、新增71张。无原PDF／运行时副本、删除或扫描错误，低于100MiB／3GiB检查线；[精确时点与复渲说明](hikaru_history_closeout_evidence.json)先于最终小记录。
 
 2026-10-27 Homura／Hyori批次约15.01MiB，总净书缓存约2.457GiB逻辑长度；127图记录复用33张、新增94张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确时点及四处页码纠正](homura_hyori_closeout_evidence.json)先于最终小记录。
+
+2026-10-27 Ichiban／Idol批次约12.88MiB，总净书缓存约2.470GiB逻辑长度；100图记录复用26张、新增74张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确时点及三页复渲说明](ichiban_idol_closeout_evidence.json)先于最终小记录。

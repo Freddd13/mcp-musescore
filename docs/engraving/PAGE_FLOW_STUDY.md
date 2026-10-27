@@ -143,3 +143,7 @@ p566只读到cue开头：进入定位、校音、配合和可演奏提示有不�
 ## 2026-10-27：同一行的Coda断口有回找作用
 
 [Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A053 p4末一行含D.S.前短片段和分开的Coda两小节；空白突出跳转落点，代价是断口。保目标及接收，不能为四小节网格抹平；A054 G较多小节的稳定八分也不能单按行小节数判挤。
+
+## 2026-10-27：段首可留行中但范围须准确
+
+[Ichiban／Idol](INTEGRATED_READING_ICHIBAN_IDOL.md)：A061 D／G／I行中进入，Meno又在小节末；A062 J／K有预先弱起。先保准备与主题路线，再比换行／密度；不按字母统一新行，实际翻页仍需媒介与手的条件。

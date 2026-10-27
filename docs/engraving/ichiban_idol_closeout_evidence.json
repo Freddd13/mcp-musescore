@@ -1,0 +1,5024 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "9251b94a3d634335b17719115027a305d4292cf0",
+  "note": "INTEGRATED_READING_ICHIBAN_IDOL.md",
+  "additional_notes": [
+    "WIND_NOTATION_READING.md",
+    "PERCUSSION_NOTATION_READING.md"
+  ],
+  "scope": "Solo whole-score question closeouts A061/A062,selected ordinary pulse,cross-staff13:12,sixteenths,5-versus7,ending5:3 and actual tempo/octave boundaries.Wind263-268,percussion271-274 and2ancillary pages.Originals read-only;no native candidate,software/font adaptation or independent transfer.",
+  "source_protection": [
+    {
+      "id": "A061",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Ichiban no Takaramono - Angel Beats! - Soundtrack.pdf",
+      "sha256": "26bfcfebe95344ed7d98b89ff7bbe7926a367ca00286bf78b1042d0e4a3d634c",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A062",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Idol - Oshi no Ko - Opening Theme.pdf",
+      "sha256": "e4aab892d6d3838c923a8c393171b3ea254d1bbbc845f19435f720bce5fce122",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A061",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A061/page-1.jpg",
+      "sha256": "df13c3e0ade487e8d4ec51880e36d05e6254b322cbdcdfec28c9a145393add35",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A061",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A061/page-2.jpg",
+      "sha256": "32f0819bd12802ed7a83e437de7762bcb791e12f61ca9b9caeb9c83e7e1c43fa",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A061",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A061/page-3.jpg",
+      "sha256": "e84799611ce13e0e5b73ddc6233518941860c1c9bf322001a11ddb81dcbf7ea8",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A061",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A061/page-4.jpg",
+      "sha256": "7cfe78f47411f83c5b4b3ddf3324a80e0ae2c89605348de35a6e78c89a379f3f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A061",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A061/page-5.jpg",
+      "sha256": "255f079297f38cdc0b18a94323bd2dbf86bbe5b5704bbe326144adfd6fd987dc",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A062",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A062/page-1.jpg",
+      "sha256": "6f91feec97dededcc7fe4d2bc554ed43b57200cc02cfe798425832bb762ee228",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A062",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A062/page-2.jpg",
+      "sha256": "30b474ed6302a514a04ddcc32c9498dc81bb563747993744ac3e55e343ee9344",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A062",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A062/page-3.jpg",
+      "sha256": "fea5735b521e4bcf18303cabbddb5f85cd29daf2fac01aad5d8a0fc5a326c703",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A062",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A062/page-4.jpg",
+      "sha256": "b717a9412c65ab118b6f09e09eaf4b97250133af29f9cda3a6c847366dbca0aa",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A062",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A062/page-5.jpg",
+      "sha256": "42c553020831671c3d7b196ef6092e5832b27bc9eb8094c1ce0598e38b66d27b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A062",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A062/page-6.jpg",
+      "sha256": "f6efc2929af1e8e18fe8966c5098a24307edb775f67cfaa329f9291fdae57194",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 263,
+      "pdf_page": 283,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-263-printed.jpg",
+      "sha256": "28b07d49ecd690b1140edf595481e886578633fb786d2248b2d147da649308e3",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 264,
+      "pdf_page": 284,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-264-printed.jpg",
+      "sha256": "4d390deb1c0cf8aa6f922e09d1842ab19aa80875d055c2658881f9248aacba47",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 265,
+      "pdf_page": 285,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-265-printed.jpg",
+      "sha256": "8b2a2981c2d93e821a0aa33952db20ea1370d1eaa2a9554af15b39151bdadd19",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 266,
+      "pdf_page": 286,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-266-printed.jpg",
+      "sha256": "b4b50478d37b218a70bdc373d3f528b5c752a7ac1f413835150652d253e0f5ac",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 267,
+      "pdf_page": 287,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-267-printed.jpg",
+      "sha256": "bf3a743a9823b769dd61e2208488ea475c2939875be66cd7e8deead9b3d9cb90",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 268,
+      "pdf_page": 288,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-268-printed.jpg",
+      "sha256": "6e3727b7833d9917b531c5ff703ae203ceda7d9e3c39e1944bc251559a07cc45",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 269,
+      "pdf_page": 289,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-269-printed.jpg",
+      "sha256": "e643c10fb7d1e8e2121144d4029fb9eeb82ac30117675ba031f9576c54267941",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 270,
+      "pdf_page": 290,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-270-printed.jpg",
+      "sha256": "d89fab61ecbad6186bef790daa99cdfe450ae3e42e976bc2277edcc54b5b0ab6",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 271,
+      "pdf_page": 291,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-271-printed.jpg",
+      "sha256": "ff7ff8f26b5e2c0c0d08ed3ab22eac7e52a1d60ea1ea8913ec698d09c20e2782",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 272,
+      "pdf_page": 292,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-272-printed.jpg",
+      "sha256": "47951c9196e1e40b56414ad8044f0bf1c1f5781008f7e01348978fd0acd3a612",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 273,
+      "pdf_page": 293,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-273-printed.jpg",
+      "sha256": "bd7986e9dd3930c4387db656ea3089055eb6799ae0e1b0356db709ea7e392eea",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 274,
+      "pdf_page": 294,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-274-printed.jpg",
+      "sha256": "714882f65eae0447c43b4928eb5ab699be0368b455b4d7357b7d797f0f98cf83",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p1-s1.jpg",
+      "source_y_pt": [
+        155.83863368669023,
+        307.79034157832746
+      ],
+      "sha256": "d5282e6ceaa0fd97e0c727683e5aacd0b4ccf21f746158bc195ff34d03c0868f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p1-s2.jpg",
+      "source_y_pt": [
+        282.78327444051826,
+        434.7349823321555
+      ],
+      "sha256": "fafe33b8c4e717861ebfbabfcc927c17e98486caa588a0d629db3acbba9726c1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p1-s3.jpg",
+      "source_y_pt": [
+        408.57086768747547,
+        560.5225755791126
+      ],
+      "sha256": "410eb9ac5c3a8ed6a65a3b0e40495265a7b8c32b8bc4caeab22b65577765fa22",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p1-s5.jpg",
+      "source_y_pt": [
+        663.9477817039655,
+        811.6018845700825
+      ],
+      "sha256": "e5dc0b6a7717bd3a5cc7c4a5ba2ab6ead5d6627c6f81f70f7e14cb8766fe5e47",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p2-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        173.24224577934825
+      ],
+      "sha256": "26a36d96e094d4cbcbd7cd1c02e2955f1013d4591bc52841d94d38d587343904",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p2-s3.jpg",
+      "source_y_pt": [
+        283.94032194738907,
+        429.445622300746
+      ],
+      "sha256": "887e45aae92eb859fe41e2aeb56cce0ea05a3cde11b7c302d95d3c5ef8e29360",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p2-s4.jpg",
+      "source_y_pt": [
+        409.7279151943463,
+        555.2332155477031
+      ],
+      "sha256": "57218375755f97eb30b8b87c4d6d75f55bf8fb457238184007c6be6378397b04",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p2-s5.jpg",
+      "source_y_pt": [
+        534.1931684334511,
+        681.6819787985866
+      ],
+      "sha256": "744c79a834c5fad1d32303f575e5e65610787cfd09c4eb97ed84b409f50b2cfd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p2-s6.jpg",
+      "source_y_pt": [
+        666.0965842167255,
+        811.6018845700825
+      ],
+      "sha256": "840656ed38b5b04ce2960067089dc8b22319713eebabf79e22663600d485b6f6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p3-s2.jpg",
+      "source_y_pt": [
+        144.7640361209266,
+        298.69925402434234
+      ],
+      "sha256": "49788135aaea3c61c8f0a74d18216a7a49dbf2f78fbf378a7976ef703ad51fee",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p3-s3.jpg",
+      "source_y_pt": [
+        281.62622693364744,
+        427.1315272870043
+      ],
+      "sha256": "b262aede35dfe9b060886f5c3603998931ecc608cab8514ee308ae637765a050",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p3-s4.jpg",
+      "source_y_pt": [
+        403.94267765999217,
+        553.5802905378878
+      ],
+      "sha256": "ece589b3bf6625aa715a2b5ce6d3537040f24424c02ca403f943508ba508981d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p3-s5.jpg",
+      "source_y_pt": [
+        538.4907734589714,
+        688.2936788378485
+      ],
+      "sha256": "53f091f78c3335408b67d8f71263e36df817b78cdc5a1ee4cb2a2cb434a5bd86",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p3-s6.jpg",
+      "source_y_pt": [
+        666.0965842167255,
+        811.6018845700825
+      ],
+      "sha256": "e06887a1c1081d1232f4590d7402ec4b510e317de790fa56102f9bd36a80e514",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p4-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        177.53985080486848
+      ],
+      "sha256": "1f95c91955e6bb5edbc3ef037fc7adc0cd614c254bc98feb458c2fbc59f7dde2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p4-s2.jpg",
+      "source_y_pt": [
+        155.83863368669023,
+        301.3439340400471
+      ],
+      "sha256": "6f3a6072eef7a491036f2eddfffe09de204eed5f99a9532b704d7a8d41e758ce",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p4-s3.jpg",
+      "source_y_pt": [
+        270.05575186493917,
+        421.8421672555948
+      ],
+      "sha256": "86b009f4b9cdef07e1f53c7f3bac302f50f83cc303413ef7dee9ed8a39f506c1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p4-s4.jpg",
+      "source_y_pt": [
+        396.66980761680406,
+        550.7703180212014
+      ],
+      "sha256": "76eb0a7fa33448512b0360fd236833ed42209a52a1c5842ab79fc587736b477c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p4-s5.jpg",
+      "source_y_pt": [
+        528.9038084020416,
+        676.392618767177
+      ],
+      "sha256": "a94b01acf2b37ae5c03b37b605345e868dc6d00dc06969833e388860dfa3b520",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p4-s6.jpg",
+      "source_y_pt": [
+        657.5013741656851,
+        811.6018845700825
+      ],
+      "sha256": "6985f74218178f7b03483f6a391c0da2e9449ee7343b7a3134d8d5ce6c2fbe09",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p5-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        174.3992932862191
+      ],
+      "sha256": "e2f31bc747628a64558e50792c2536d612bba7278fd7b65de51704a4f5274f0f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p5-s2.jpg",
+      "source_y_pt": [
+        142.780526109148,
+        288.28582646250493
+      ],
+      "sha256": "c33201212e4ad1fda17603ac9ded1dd65f3bf2787e8974d4ef11c725112c337d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p5-s3.jpg",
+      "source_y_pt": [
+        250.55123674911658,
+        400.3541421279937
+      ],
+      "sha256": "dd499967ba794eedbc10a783a3fcf5daa14a8c8fa63d9f08c0d0fdee4fd02766",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p5-s4.jpg",
+      "source_y_pt": [
+        358.9831173930114,
+        498.04201020808796
+      ],
+      "sha256": "f5224806dd50e66defe3255ed5753f5808a19f0167b2f4cff2a6d807727e24b8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p5-s5.jpg",
+      "source_y_pt": [
+        464.77031802120143,
+        603.9945033372595
+      ],
+      "sha256": "9eaa298e15e4017112b3cee2b89606a8bd4f1d5c12d318c89243610bcdd1c036",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p5-s6.jpg",
+      "source_y_pt": [
+        566.9210836277974,
+        711.434628975265
+      ],
+      "sha256": "75cbe758f34a47e112cc9d01f494a49f52109e963240b19d7142a0e24ea09509",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A061",
+      "page": 5,
+      "system": 7,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A061-p5-s7.jpg",
+      "source_y_pt": [
+        669.4024342363565,
+        811.6018845700825
+      ],
+      "sha256": "f7691744be172aaffe79c227360e996a2e42208bd1e52d198ab56e23b300db81",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p1-s1.jpg",
+      "source_y_pt": [
+        155.83863368669023,
+        301.3439340400471
+      ],
+      "sha256": "5065b4fa7858f53bf51a08c99313a5a1152853f742048d80f9741ab738d7cc96",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p1-s2.jpg",
+      "source_y_pt": [
+        272.0392618767177,
+        419.85865724381625
+      ],
+      "sha256": "95d844f5282add910ccbb5abbcfbb172cef08824d830b0faca555b22d534e601",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p1-s3.jpg",
+      "source_y_pt": [
+        404.4385551629368,
+        556.390263054574
+      ],
+      "sha256": "afeb437777256694babcffae3db6fb7f10afd8bc322238947654302b4d0141f4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p1-s4.jpg",
+      "source_y_pt": [
+        536.1766784452296,
+        692.2606988614056
+      ],
+      "sha256": "e136886499da139cb51b141c50810df62026b13e0c265eba92b85f2b0867cd09",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p1-s5.jpg",
+      "source_y_pt": [
+        666.0965842167255,
+        811.6018845700825
+      ],
+      "sha256": "546a0ed7a371535fc64cf860d540522f4786e0c5f8a024df2859c7d0471138af",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p2-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        179.6886533176286
+      ],
+      "sha256": "817c197b1f6aeed6de8ef6ecabb80786bdb27067c26ea02f45a4d8446d0cd57b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p2-s3.jpg",
+      "source_y_pt": [
+        272.5351393796623,
+        426.47035728307816
+      ],
+      "sha256": "235330232d17d6f24b8d5f85e3f216a33bd102c513219daca909c00de721ef32",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p2-s4.jpg",
+      "source_y_pt": [
+        402.62033765213977,
+        553.4149980369061
+      ],
+      "sha256": "65ec39b604894403e5de891081f79aa3558d0297115ebf965059651751a7a284",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p2-s5.jpg",
+      "source_y_pt": [
+        531.7137809187279,
+        682.5084413034944
+      ],
+      "sha256": "9524327f05ca12ab9e7122f133e6d9f825aad77b0c859a77ed1c05ee7fcfe498",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p2-s6.jpg",
+      "source_y_pt": [
+        660.807224185316,
+        811.6018845700825
+      ],
+      "sha256": "705febd79392f7518257e81115c397caeb74fdd04586101f59a71570b822ee5c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p3-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        178.53160581075775
+      ],
+      "sha256": "52d897977cc300be145912fd09388c945c1ef0127158a07f52af8fa828d450f9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p3-s2.jpg",
+      "source_y_pt": [
+        160.46682371417353,
+        311.26148409893995
+      ],
+      "sha256": "08e779b67064eb795c80d2578d9144356ce8250fe3bf7bbebe0055f92c0c7911",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p3-s3.jpg",
+      "source_y_pt": [
+        283.94032194738907,
+        429.445622300746
+      ],
+      "sha256": "9fcc8b7f686e3b3516548a257f862e90dc22a76c58e7b437b88a2f02a155ece2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p3-s4.jpg",
+      "source_y_pt": [
+        398.32273262661954,
+        549.117393011386
+      ],
+      "sha256": "1d46857378e84ad94c1a55c9b12638ae7545ce9746d2905a176c7e89ada8e899",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p3-s5.jpg",
+      "source_y_pt": [
+        527.4161758932077,
+        672.9214762465646
+      ],
+      "sha256": "1ac884d905eeeb0b0eda4184334513a6e14c69e7a1f2a13493cfa1009558eb54",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p3-s6.jpg",
+      "source_y_pt": [
+        661.7989791912054,
+        811.6018845700825
+      ],
+      "sha256": "f1c00c7a7930fc6c0109510e844851cd3aef01b6f23afe8f1eae1d8547ac3fcc",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p4-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        178.53160581075775
+      ],
+      "sha256": "ad6521da549fcb9b6defa0b44be87fe298ff29bb1e64792d917e4453b3db2b55",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p4-s3.jpg",
+      "source_y_pt": [
+        282.78327444051826,
+        430.43737730663526
+      ],
+      "sha256": "7964e7966c9033c1fa569fd579108b7f2655a8c5d8f2b34065b32d08cbe85db0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p4-s4.jpg",
+      "source_y_pt": [
+        418.1578327444052,
+        565.8119356105221
+      ],
+      "sha256": "fa98b26c3927526c0dfc35bf0c37cda88e5a82c3adc905e0e39b4a73804400af",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p4-s5.jpg",
+      "source_y_pt": [
+        537.8296034550451,
+        685.3184138201806
+      ],
+      "sha256": "3757c61d682e0834896e26b18bf2e6413f0a2e7885abdd022f6fda96a59a7bd6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p4-s6.jpg",
+      "source_y_pt": [
+        660.807224185316,
+        811.6018845700825
+      ],
+      "sha256": "560bf95df55795e80d719341ea00350069aec1d2e9c2e6dafa6041f79ba647a1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p5-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        180.8457008244994
+      ],
+      "sha256": "4a8828a8cd28113829f1db30b795574f1565559057ed16de6aafad780fc4fa5b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p5-s3.jpg",
+      "source_y_pt": [
+        293.8578720062819,
+        441.34668237141733
+      ],
+      "sha256": "731d9dfe360742eea68d4e146ea15489f27b0ff1a76590059eee71418d09d390",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p5-s4.jpg",
+      "source_y_pt": [
+        407.41382018060466,
+        564.6548881036514
+      ],
+      "sha256": "f56b637974d5d61372251ddd6e77fac002f8b63407b7860b8624e7b1d1c86ad3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p5-s5.jpg",
+      "source_y_pt": [
+        538.1601884570082,
+        693.2524538672949
+      ],
+      "sha256": "f5098997a80174281c19b1564c513e08e0c5500428c3d6a28a6577fdcb589ad6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p5-s6.jpg",
+      "source_y_pt": [
+        655.5178641539065,
+        811.6018845700825
+      ],
+      "sha256": "73e20ab54bb4f773a139fe45b74d28aed190a8b928bd05844537f2d390283b77",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p6-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        173.24224577934825
+      ],
+      "sha256": "0a21f18212e51fdb4a69d67ca21255e48d4e24741ffa6655f654fa67d3073a1a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 6,
+      "system": 2,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p6-s2.jpg",
+      "source_y_pt": [
+        157.98743619945034,
+        309.773851590106
+      ],
+      "sha256": "9bbba7442dbd9ce0e2ddef4454ba4fc5ae914d70a0e16448e8d0d1b6c1aa05ff",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p6-s3.jpg",
+      "source_y_pt": [
+        293.8578720062819,
+        443.4954848841775
+      ],
+      "sha256": "462b560d739dd980540ec678551fd6be68c6430ffc82df6462bf1858865e0d10",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p6-s4.jpg",
+      "source_y_pt": [
+        417.66195524146053,
+        563.1672555948174
+      ],
+      "sha256": "05d54d89d3809c3be947e75574ae02dcf2a399981c72e13af33672c51ae2ec2e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p6-s5.jpg",
+      "source_y_pt": [
+        541.4660384766391,
+        688.9548488417746
+      ],
+      "sha256": "3a9f44989ffa78390f1297c28fd34d752cce71d54647e0890eebaa392b1c1632",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A062",
+      "page": 6,
+      "system": 6,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/A062-p6-s6.jpg",
+      "source_y_pt": [
+        659.8154691794268,
+        811.6018845700825
+      ],
+      "sha256": "c7d42df19ea64bdc57d092afa143bfdbb62411765d394338edf0937d34b85d6d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 28,
+      "pdf_page": 48,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-28-reread.jpg",
+      "sha256": "d1f1c6916c5587723ac75f0179d05cabf875ae20ea3010bb0a42c589cc531cfb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 31,
+      "pdf_page": 51,
+      "path": "tmp/engraving/departures-2026-10-27/book-31.jpg",
+      "sha256": "4db21ae68026b539883536d06266c0e41c265e91bddc4510dfd6806dd80e950f",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 39,
+      "pdf_page": 59,
+      "path": "tmp/engraving/study-2026-10-19/book-39.jpg",
+      "sha256": "e54e35ecab84ac4044f4d55a70626b0f836dd16361a2fd442484c1a71923480d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 60,
+      "pdf_page": 80,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-60-reread.jpg",
+      "sha256": "a29ae1b0f6c22cf56d1d94e23cfd3de6512c51b91020eabf8d76ff67112a4d4e",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 72,
+      "pdf_page": 92,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-72-reread.jpg",
+      "sha256": "9c659e8e916cf37a5e375d93d875483085488a232558467a2daae378b4ccf101",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 85,
+      "pdf_page": 105,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-85-reread.jpg",
+      "sha256": "a06c1d67e515540fd9f1d3eadda110ea243c071a3a28c535030ddcaef2171c75",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 156,
+      "pdf_page": 176,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-156.jpg",
+      "sha256": "c2e0d3fcae7598272ac1565a4da866cf6f7149a7056c11a4c5d6b628eed98f02",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/god-pokemon-2026-10-27/book-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 210,
+      "pdf_page": 230,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-210-reread.jpg",
+      "sha256": "654c6252f235a38c41dcceedb353ba20f96c14fd504540ba32c9d6190604d9b6",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 211,
+      "pdf_page": 231,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-211-reread.jpg",
+      "sha256": "3eff55da74509587ba17ec66799a6aac579e3bf9d9df4599a61528487ba8191e",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 213,
+      "pdf_page": 233,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-213-reread.jpg",
+      "sha256": "33a2bf132aceea603508082e316ffa5f5ba6b96a9e67d67f493b4b125f587f14",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 215,
+      "pdf_page": 235,
+      "path": "tmp/engraving/grand-great-2026-10-27/book-215.jpg",
+      "sha256": "7b6c118b53b2466e2dfaa4cf8f0f5cf1e8b472256dd2f994d2552bedd44641a7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-307-reread.jpg",
+      "sha256": "b52e28888c02d2fc9046d3e632095e4be18cb53ca82755423eeeab20391f5d95",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 308,
+      "pdf_page": 328,
+      "path": "tmp/engraving/fingering-2026-10-20/book-308.jpg",
+      "sha256": "4a6e8fd2666ce018049dfc9107a65f121d2f0a188ab8b884b4c5cfa1b8fc3902",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 325,
+      "pdf_page": 345,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-325-reread.jpg",
+      "sha256": "f7eadb3e5e69f4fc956573f04ca623e989a53a7de9895cf6484b46176c92eaca",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 334,
+      "pdf_page": 354,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-334-reread.jpg",
+      "sha256": "e5e063854a7e57fe1967b623a8a2f859190980389ca0a4423b3a1c37d199b9b7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    }
+  ],
+  "whole_reviews": {
+    "A061": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        7
+      ],
+      "system_rows": 30,
+      "complete_system_detail_images": 27,
+      "staves_per_row": 2,
+      "media_box_pt": [
+        595.22,
+        842
+      ],
+      "source_font_names": [
+        "FDHOIP+Chaconne",
+        "FDHOKP+CenturyNo1SB-Bold",
+        "FDHOOP+CenturyOSMTPro-Italic",
+        "FDHPLM+PalatinoLinotype",
+        "FDHPLO+PalatinoLinotype,Italic",
+        "FDIDGI+CenturyNo1SB-BoldIta"
+      ]
+    },
+    "A062": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 35,
+      "complete_system_detail_images": 32,
+      "staves_per_row": 2,
+      "media_box_pt": [
+        595.22,
+        842
+      ],
+      "source_font_names": [
+        "JMLNEF+Chaconne",
+        "JMLNFG+CenturyNo1SB-BoldIta",
+        "JMLNFH+CenturyNo1SB-Bold",
+        "JMLOHB+CenturyOSMTPro-Italic",
+        "JMLONB+PalatinoLinotype",
+        "JMLOND+PalatinoLinotype,Italic"
+      ]
+    }
+  },
+  "selected_music_checks": {
+    "head_origin_checks": [
+      {
+        "id": "A061",
+        "page": 2,
+        "label": "D p2s6 bar1 lower onsets;bar2 six8 then quarter,others eight8",
+        "box_pt": [
+          64,
+          730,
+          134,
+          774
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          64.278,
+          74.196,
+          83.934,
+          93.852,
+          103.77,
+          113.508,
+          123.426,
+          133.164
+        ],
+        "heads": [
+          {
+            "origin": [
+              64.278,
+              767.8076
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              74.196,
+              759.3116
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              83.934,
+              755.0637
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              93.852,
+              748.6736
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              103.77,
+              744.4257
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              113.508,
+              748.6736
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              123.426,
+              755.0637
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              133.164,
+              759.3116
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A061",
+        "page": 2,
+        "label": "D p2s6 bar2 lower onsets;bar2 six8 then quarter,others eight8",
+        "box_pt": [
+          151,
+          730,
+          221,
+          774
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          151.39758433,
+          161.316,
+          171.054,
+          180.972,
+          190.71,
+          200.628,
+          210.366
+        ],
+        "heads": [
+          {
+            "origin": [
+              151.39758433,
+              772.05633369
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              161.316,
+              763.5597
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              171.054,
+              757.1877
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              180.972,
+              755.0637
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              190.71,
+              755.0637
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              200.628,
+              748.6736
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              210.366,
+              740.1777
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A061",
+        "page": 2,
+        "label": "D p2s6 bar3 lower onsets;bar2 six8 then quarter,others eight8",
+        "box_pt": [
+          234,
+          730,
+          305,
+          774
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          234.63,
+          244.548,
+          254.286,
+          264.204,
+          274.122,
+          283.86,
+          293.778,
+          303.516
+        ],
+        "heads": [
+          {
+            "origin": [
+              234.63,
+              765.6837
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              244.548,
+              757.1877
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              254.286,
+              750.7977
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              264.204,
+              748.6736
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              274.122,
+              746.5497
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              283.86,
+              748.6736
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              293.778,
+              750.7977
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              303.516,
+              757.1877
+            ],
+            "size": 16.289900000000003,
+            "font": "FDHOIP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A061",
+        "page": 5,
+        "label": "preI six16+six16 run1;parenthesized first normal-sized head",
+        "box_pt": [
+          67,
+          60,
+          142,
+          100
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          68.004,
+          77.202,
+          83.412,
+          89.784,
+          96.156,
+          102.348,
+          108.738,
+          115.11,
+          121.482,
+          127.674,
+          134.046,
+          140.436
+        ],
+        "heads": [
+          {
+            "origin": [
+              68.004,
+              95.4176
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              77.202,
+              93.29359999999997
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              83.412,
+              91.16959999999995
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              89.784,
+              89.04570000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              96.156,
+              86.92160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              102.348,
+              84.79759999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              108.738,
+              82.67359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              115.11,
+              80.54960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              121.482,
+              78.4257
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              127.674,
+              76.30160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              134.046,
+              74.17759999999998
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              140.436,
+              72.05359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A061",
+        "page": 5,
+        "label": "preI six16+six16 run2;parenthesized first normal-sized head",
+        "box_pt": [
+          318,
+          60,
+          393,
+          100
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          318.924,
+          328.14,
+          334.332,
+          340.704,
+          347.076,
+          353.286,
+          359.658,
+          366.03,
+          372.402,
+          378.612,
+          384.984,
+          391.356
+        ],
+        "heads": [
+          {
+            "origin": [
+              318.924,
+              95.4176
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              328.14,
+              93.29359999999997
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              334.332,
+              91.16959999999995
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              340.704,
+              89.04570000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              347.076,
+              86.92160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              353.286,
+              84.79759999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              359.658,
+              82.67359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              366.03,
+              80.54960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              372.402,
+              78.4257
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              378.612,
+              76.30160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              384.984,
+              74.17759999999998
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              391.356,
+              72.05359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A061",
+        "page": 4,
+        "label": "preH13 run;five heads on lower and eight on upper;13:12 thirtyseconds",
+        "box_pt": [
+          395,
+          430,
+          490,
+          502
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          396.306,
+          402.696,
+          409.0681,
+          419.508,
+          425.88,
+          437.04,
+          443.2321,
+          449.622,
+          459.702,
+          465.912,
+          475.992,
+          482.382,
+          488.574
+        ],
+        "heads": [
+          {
+            "origin": [
+              396.306,
+              500.5797
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              402.696,
+              498.4556
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              409.0681,
+              496.3316
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              419.508,
+              494.2076
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              425.88,
+              492.0836
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              437.04,
+              460.2056
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              443.2321,
+              458.0816
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              449.622,
+              455.9576
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              459.702,
+              453.8336
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              465.912,
+              451.7097
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              475.992,
+              447.4616
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              482.382,
+              445.3376
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          },
+          {
+            "origin": [
+              488.574,
+              441.0896
+            ],
+            "size": 16.28989999999999,
+            "font": "FDHOIP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 1,
+        "label": "opening p1s2 two5:4 sixteen groups then four ordinary16",
+        "box_pt": [
+          107,
+          295,
+          200,
+          345
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          107.83748803,
+          114.57,
+          121.302,
+          128.034,
+          134.766,
+          142.2,
+          148.932,
+          155.664,
+          162.378,
+          169.11,
+          175.842,
+          183.636,
+          191.43,
+          199.044
+        ],
+        "heads": [
+          {
+            "origin": [
+              107.83748803,
+              335.53962960000007
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              114.57,
+              344.0516
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              121.302,
+              337.6616
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              128.034,
+              335.5376
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              134.766,
+              329.16560000000004
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              142.2,
+              322.79359999999997
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              148.932,
+              320.66959999999995
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              155.664,
+              314.2976
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              162.378,
+              307.9257
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              169.11,
+              305.8016
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              175.842,
+              299.4116
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              183.636,
+              305.8016
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              191.43,
+              307.9257
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              199.044,
+              314.2976
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 1,
+        "label": "opening p1s2 lower seven7:4 eighths then four ordinary16",
+        "box_pt": [
+          107,
+          347,
+          200,
+          380
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          107.83748803,
+          117.414,
+          126.972,
+          136.53,
+          147.15,
+          156.726,
+          166.284,
+          175.842,
+          183.636,
+          191.43,
+          199.044
+        ],
+        "heads": [
+          {
+            "origin": [
+              107.83748803,
+              369.53907754
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              117.414,
+              378.0536
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              126.972,
+              371.6636
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              136.53,
+              369.5396
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              147.15,
+              363.1676
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              156.726,
+              356.7957
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              166.284,
+              354.6716
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              175.842,
+              348.2996
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              183.636,
+              354.6716
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              191.43,
+              356.7957
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              199.044,
+              363.1676
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 3,
+        "label": "F p3s5 bar1 ordinary16 cross-staff;slow white heads excluded",
+        "box_pt": [
+          54,
+          560,
+          165,
+          636
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          55.962,
+          63.216,
+          70.308,
+          77.562,
+          84.654,
+          91.908,
+          98.982,
+          106.254,
+          113.508,
+          120.6,
+          127.854,
+          134.946,
+          142.2,
+          149.274,
+          156.546,
+          163.62
+        ],
+        "heads": [
+          {
+            "origin": [
+              113.508,
+              578.1417
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              120.6,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              127.854,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              134.946,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              142.2,
+              573.8936
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              149.274,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              156.546,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              163.62,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              55.962,
+              629.1537
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              63.216,
+              620.6577
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              70.308,
+              614.2677
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              77.562,
+              612.1436
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              84.654,
+              610.0197000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              91.908,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              98.982,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              106.254,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 3,
+        "label": "F p3s5 bar2 ordinary16 cross-staff;slow white heads excluded",
+        "box_pt": [
+          178,
+          560,
+          288,
+          636
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          179.208,
+          186.462,
+          193.554,
+          200.808,
+          207.9,
+          215.154,
+          222.246,
+          229.5,
+          236.754,
+          243.846,
+          251.1,
+          258.192,
+          265.446,
+          272.538,
+          279.792,
+          286.866
+        ],
+        "heads": [
+          {
+            "origin": [
+              236.754,
+              578.1417
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              243.846,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              251.1,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              258.192,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              265.446,
+              573.8936
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              272.538,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              279.792,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              286.866,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              179.208,
+              631.2776
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              186.462,
+              620.6577
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              193.554,
+              616.3916
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              200.808,
+              612.1436
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              207.9,
+              610.0197000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              215.154,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              222.246,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              229.5,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 3,
+        "label": "F p3s5 bar3 ordinary16 cross-staff;slow white heads excluded",
+        "box_pt": [
+          301,
+          560,
+          412,
+          636
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          302.454,
+          309.726,
+          316.8,
+          324.054,
+          331.146,
+          338.4,
+          345.492,
+          352.746,
+          360.018,
+          367.092,
+          374.346,
+          381.438,
+          388.692,
+          395.784,
+          403.038,
+          410.13
+        ],
+        "heads": [
+          {
+            "origin": [
+              360.018,
+              578.1417
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              367.092,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              374.346,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              381.438,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              388.692,
+              573.8936
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              395.784,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              403.038,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              410.13,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              302.454,
+              633.4017
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              309.726,
+              618.5157
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              316.8,
+              614.2677
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              324.054,
+              612.1436
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              331.146,
+              610.0197000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              338.4,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              345.492,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              352.746,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 3,
+        "label": "F p3s5 bar4 ordinary16 cross-staff;slow white heads excluded",
+        "box_pt": [
+          426,
+          560,
+          551,
+          636
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          427.662225,
+          435.096,
+          446.256,
+          457.236,
+          464.4901,
+          471.924,
+          479.196,
+          486.63,
+          493.884,
+          501.3181,
+          512.478,
+          519.7321,
+          527.1841,
+          534.438,
+          541.8721,
+          549.144
+        ],
+        "heads": [
+          {
+            "origin": [
+              427.662225,
+              576.01833
+            ],
+            "size": 16.289999999999992,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              435.096,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              446.256,
+              586.6557
+            ],
+            "size": 16.289900000000017,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              457.236,
+              590.9037
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              464.4901,
+              576.0176
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              471.924,
+              582.4077
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              479.196,
+              586.6557
+            ],
+            "size": 16.289900000000017,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              486.63,
+              590.9037
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              493.884,
+              573.8936
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              501.3181,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              512.478,
+              584.5316
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              519.7321,
+              588.7796
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              527.1841,
+              616.3916
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              534.438,
+              612.1436
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              541.8721,
+              605.7717
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              549.144,
+              580.2656999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 3,
+        "label": "F p3s6 third-bar upper8rest then fourteen ordinary16",
+        "box_pt": [
+          315,
+          688,
+          434,
+          708
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          316.8,
+          324.594,
+          336.276,
+          343.368,
+          354.69,
+          365.148,
+          372.222,
+          384.1021,
+          392.418,
+          404.28,
+          411.372,
+          418.446,
+          425.538,
+          432.6121
+        ],
+        "heads": [
+          {
+            "origin": [
+              316.8,
+              706.1757
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              324.594,
+              704.0517
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              336.276,
+              704.0517
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              343.368,
+              701.9276
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              354.69,
+              699.8036
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              365.148,
+              699.8036
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              372.222,
+              697.6797
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              384.1021,
+              697.6797
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              392.418,
+              695.5557
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              404.28,
+              695.5557
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              411.372,
+              693.4316
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              418.446,
+              691.3076
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              425.538,
+              693.4316
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              432.6121,
+              695.5557
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 3,
+        "label": "F p3s6 third-bar lower two groups3triplet8 plus ordinary quarter",
+        "box_pt": [
+          302,
+          760,
+          413,
+          785
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          303.516,
+          312.192,
+          322.29,
+          336.276,
+          372.222,
+          387.63,
+          401.0941,
+          411.372
+        ],
+        "heads": [
+          {
+            "origin": [
+              303.516,
+              782.6757
+            ],
+            "size": 16.289899999999996,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              312.192,
+              774.1797
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              322.29,
+              767.8076
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              336.276,
+              763.5597
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              372.222,
+              782.6757
+            ],
+            "size": 16.289899999999996,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              387.63,
+              774.1797
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              401.0941,
+              772.0557
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              411.372,
+              763.5597
+            ],
+            "size": 16.290000000000006,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 6,
+        "label": "ending bar1 lower initial8,five5:3 eighths,eight ordinary16",
+        "box_pt": [
+          78,
+          733,
+          186,
+          782
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          79.164,
+          91.20549408,
+          99.522,
+          107.838,
+          115.992,
+          124.308,
+          132.642,
+          140.076,
+          147.33,
+          154.764,
+          162.036,
+          169.47,
+          176.724,
+          184.158
+        ],
+        "heads": [
+          {
+            "origin": [
+              79.164,
+              765.6837
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              91.20549408,
+              765.68390827
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              99.522,
+              759.3116
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              107.838,
+              757.1877
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              115.992,
+              750.7977
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              124.308,
+              744.4257
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              132.642,
+              742.3017
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              140.076,
+              744.4257
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              147.33,
+              750.7977
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              154.764,
+              757.1877
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              162.036,
+              765.6837
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              169.47,
+              759.3116
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              176.724,
+              757.1877
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              184.158,
+              750.7977
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 6,
+        "label": "ending first-bar upper quarter onsets;parenthesized unison included",
+        "box_pt": [
+          78,
+          690,
+          186,
+          733
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          79.164,
+          105.012,
+          132.642,
+          162.036
+        ],
+        "heads": [
+          {
+            "origin": [
+              79.164,
+              704.0517
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              105.012,
+              706.1757
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              132.642,
+              704.0517
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              162.036,
+              701.9276
+            ],
+            "size": 16.28989999999999,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 6,
+        "label": "ending bar2 lower initial8,five5:3 eighths,eight ordinary16",
+        "box_pt": [
+          200,
+          733,
+          311,
+          782
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          201.168,
+          213.21,
+          221.706,
+          230.04,
+          240.48,
+          248.796,
+          257.31,
+          264.744,
+          272.178,
+          279.612,
+          287.046,
+          294.318,
+          301.752,
+          309.186
+        ],
+        "heads": [
+          {
+            "origin": [
+              201.168,
+              763.5597
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              213.21,
+              763.5597
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              221.706,
+              759.3116
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              230.04,
+              755.0637
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              240.48,
+              748.6736
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              248.796,
+              744.4257
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              257.31,
+              742.3017
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              264.744,
+              744.4257
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              272.178,
+              748.6736
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              279.612,
+              755.0637
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              287.046,
+              763.5597
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              294.318,
+              759.3116
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              301.752,
+              755.0637
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              309.186,
+              748.6736
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A062",
+        "page": 6,
+        "label": "ending bar3 lower initial8,five5:3 eighths,eight ordinary16",
+        "box_pt": [
+          324,
+          733,
+          431,
+          782
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          324.954,
+          336.99549408,
+          345.312,
+          353.628,
+          361.782,
+          370.098,
+          378.432,
+          385.866,
+          393.12,
+          400.554,
+          407.826,
+          415.26,
+          422.514,
+          429.966
+        ],
+        "heads": [
+          {
+            "origin": [
+              324.954,
+              765.6837
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              336.99549408,
+              765.68390827
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              345.312,
+              759.3116
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              353.628,
+              757.1877
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              361.782,
+              750.7977
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              370.098,
+              744.4257
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              378.432,
+              742.3017
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              385.866,
+              744.4257
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              393.12,
+              750.7977
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              400.554,
+              757.1877
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              407.826,
+              765.6837
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              415.26,
+              759.3116
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              422.514,
+              757.1877
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          },
+          {
+            "origin": [
+              429.966,
+              750.7977
+            ],
+            "size": 16.289900000000003,
+            "font": "JMLNEF+Chaconne"
+          }
+        ]
+      }
+    ],
+    "metrics": [
+      {
+        "label": "D p2s6 bar1 lower onsets;bar2 six8 then quarter,others eight8",
+        "axes_pt": [
+          64.278,
+          74.196,
+          83.934,
+          93.852,
+          103.77,
+          113.508,
+          123.426,
+          133.164
+        ],
+        "gaps_pt": [
+          9.917999999999992,
+          9.738,
+          9.918000000000006,
+          9.917999999999992,
+          9.738,
+          9.918000000000006,
+          9.737999999999985
+        ],
+        "n": 7,
+        "minimum": 9.737999999999985,
+        "maximum": 9.918000000000006,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "D p2s6 bar2 lower onsets;bar2 six8 then quarter,others eight8",
+        "axes_pt": [
+          151.39758433,
+          161.316,
+          171.054,
+          180.972,
+          190.71,
+          200.628,
+          210.366
+        ],
+        "gaps_pt": [
+          9.918415670000002,
+          9.738,
+          9.918000000000006,
+          9.738,
+          9.917999999999978,
+          9.738000000000028
+        ],
+        "n": 6,
+        "minimum": 9.738,
+        "maximum": 9.918415670000002,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "D p2s6 bar3 lower onsets;bar2 six8 then quarter,others eight8",
+        "axes_pt": [
+          234.63,
+          244.548,
+          254.286,
+          264.204,
+          274.122,
+          283.86,
+          293.778,
+          303.516
+        ],
+        "gaps_pt": [
+          9.918000000000006,
+          9.738,
+          9.918000000000006,
+          9.918000000000006,
+          9.738,
+          9.918000000000006,
+          9.738
+        ],
+        "n": 7,
+        "minimum": 9.738,
+        "maximum": 9.918000000000006,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A061 preI run1 first parenthesis gap",
+        "axes_pt": [
+          68.004,
+          77.202
+        ],
+        "gaps_pt": [
+          9.197999999999993
+        ],
+        "n": 1,
+        "minimum": 9.197999999999993,
+        "maximum": 9.197999999999993,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A061 preI run1 remaining16",
+        "axes_pt": [
+          77.202,
+          83.412,
+          89.784,
+          96.156,
+          102.348,
+          108.738,
+          115.11,
+          121.482,
+          127.674,
+          134.046,
+          140.436
+        ],
+        "gaps_pt": [
+          6.210000000000008,
+          6.372,
+          6.372,
+          6.191999999999993,
+          6.390000000000001,
+          6.372,
+          6.372,
+          6.192000000000007,
+          6.371999999999986,
+          6.390000000000015
+        ],
+        "n": 10,
+        "minimum": 6.191999999999993,
+        "maximum": 6.390000000000015,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A061 preI run2 first parenthesis gap",
+        "axes_pt": [
+          318.924,
+          328.14
+        ],
+        "gaps_pt": [
+          9.216000000000008
+        ],
+        "n": 1,
+        "minimum": 9.216000000000008,
+        "maximum": 9.216000000000008,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A061 preI run2 remaining16",
+        "axes_pt": [
+          328.14,
+          334.332,
+          340.704,
+          347.076,
+          353.286,
+          359.658,
+          366.03,
+          372.402,
+          378.612,
+          384.984,
+          391.356
+        ],
+        "gaps_pt": [
+          6.192000000000007,
+          6.372000000000014,
+          6.372000000000014,
+          6.2099999999999795,
+          6.372000000000014,
+          6.371999999999957,
+          6.372000000000014,
+          6.210000000000036,
+          6.371999999999957,
+          6.372000000000014
+        ],
+        "n": 10,
+        "minimum": 6.192000000000007,
+        "maximum": 6.372000000000014,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "preH13 run;five heads on lower and eight on upper;13:12 thirtyseconds",
+        "axes_pt": [
+          396.306,
+          402.696,
+          409.0681,
+          419.508,
+          425.88,
+          437.04,
+          443.2321,
+          449.622,
+          459.702,
+          465.912,
+          475.992,
+          482.382,
+          488.574
+        ],
+        "gaps_pt": [
+          6.390000000000043,
+          6.372099999999989,
+          10.439899999999966,
+          6.372000000000014,
+          11.160000000000025,
+          6.192099999999982,
+          6.3899000000000115,
+          10.079999999999984,
+          6.2099999999999795,
+          10.080000000000041,
+          6.389999999999986,
+          6.192000000000007
+        ],
+        "n": 12,
+        "minimum": 6.192000000000007,
+        "maximum": 11.160000000000025,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 opening upper first5:4",
+        "axes_pt": [
+          107.83748803,
+          114.57,
+          121.302,
+          128.034,
+          134.766
+        ],
+        "gaps_pt": [
+          6.73251196999999,
+          6.7320000000000135,
+          6.731999999999985,
+          6.731999999999999
+        ],
+        "n": 4,
+        "minimum": 6.731999999999985,
+        "maximum": 6.73251196999999,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 opening upper second5:4",
+        "axes_pt": [
+          142.2,
+          148.932,
+          155.664,
+          162.378,
+          169.11
+        ],
+        "gaps_pt": [
+          6.731999999999999,
+          6.731999999999999,
+          6.713999999999999,
+          6.732000000000028
+        ],
+        "n": 4,
+        "minimum": 6.713999999999999,
+        "maximum": 6.732000000000028,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 opening upper ordinary16",
+        "axes_pt": [
+          175.842,
+          183.636,
+          191.43,
+          199.044
+        ],
+        "gaps_pt": [
+          7.793999999999983,
+          7.794000000000011,
+          7.614000000000004
+        ],
+        "n": 3,
+        "minimum": 7.614000000000004,
+        "maximum": 7.794000000000011,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 opening lower7:4",
+        "axes_pt": [
+          107.83748803,
+          117.414,
+          126.972,
+          136.53,
+          147.15,
+          156.726,
+          166.284
+        ],
+        "gaps_pt": [
+          9.576511969999999,
+          9.557999999999993,
+          9.558000000000007,
+          10.620000000000005,
+          9.575999999999993,
+          9.557999999999993
+        ],
+        "n": 6,
+        "minimum": 9.557999999999993,
+        "maximum": 10.620000000000005,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 opening lower ordinary16",
+        "axes_pt": [
+          175.842,
+          183.636,
+          191.43,
+          199.044
+        ],
+        "gaps_pt": [
+          7.793999999999983,
+          7.794000000000011,
+          7.614000000000004
+        ],
+        "n": 3,
+        "minimum": 7.614000000000004,
+        "maximum": 7.794000000000011,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "F p3s5 bar1 ordinary16 cross-staff;slow white heads excluded",
+        "axes_pt": [
+          55.962,
+          63.216,
+          70.308,
+          77.562,
+          84.654,
+          91.908,
+          98.982,
+          106.254,
+          113.508,
+          120.6,
+          127.854,
+          134.946,
+          142.2,
+          149.274,
+          156.546,
+          163.62
+        ],
+        "gaps_pt": [
+          7.253999999999998,
+          7.092000000000006,
+          7.253999999999991,
+          7.091999999999999,
+          7.254000000000005,
+          7.073999999999998,
+          7.272000000000006,
+          7.253999999999991,
+          7.091999999999999,
+          7.254000000000005,
+          7.091999999999999,
+          7.253999999999991,
+          7.074000000000012,
+          7.271999999999991,
+          7.074000000000012
+        ],
+        "n": 15,
+        "minimum": 7.073999999999998,
+        "maximum": 7.272000000000006,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "F p3s5 bar2 ordinary16 cross-staff;slow white heads excluded",
+        "axes_pt": [
+          179.208,
+          186.462,
+          193.554,
+          200.808,
+          207.9,
+          215.154,
+          222.246,
+          229.5,
+          236.754,
+          243.846,
+          251.1,
+          258.192,
+          265.446,
+          272.538,
+          279.792,
+          286.866
+        ],
+        "gaps_pt": [
+          7.253999999999991,
+          7.092000000000013,
+          7.253999999999991,
+          7.092000000000013,
+          7.253999999999991,
+          7.092000000000013,
+          7.253999999999991,
+          7.253999999999991,
+          7.092000000000013,
+          7.253999999999991,
+          7.092000000000013,
+          7.254000000000019,
+          7.0919999999999845,
+          7.253999999999962,
+          7.074000000000012
+        ],
+        "n": 15,
+        "minimum": 7.074000000000012,
+        "maximum": 7.254000000000019,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "F p3s5 bar3 ordinary16 cross-staff;slow white heads excluded",
+        "axes_pt": [
+          302.454,
+          309.726,
+          316.8,
+          324.054,
+          331.146,
+          338.4,
+          345.492,
+          352.746,
+          360.018,
+          367.092,
+          374.346,
+          381.438,
+          388.692,
+          395.784,
+          403.038,
+          410.13
+        ],
+        "gaps_pt": [
+          7.271999999999991,
+          7.074000000000012,
+          7.253999999999962,
+          7.092000000000041,
+          7.253999999999962,
+          7.092000000000041,
+          7.253999999999962,
+          7.271999999999991,
+          7.074000000000012,
+          7.254000000000019,
+          7.0919999999999845,
+          7.254000000000019,
+          7.0919999999999845,
+          7.254000000000019,
+          7.0919999999999845
+        ],
+        "n": 15,
+        "minimum": 7.074000000000012,
+        "maximum": 7.271999999999991,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "F p3s5 bar4 ordinary16 cross-staff;slow white heads excluded",
+        "axes_pt": [
+          427.662225,
+          435.096,
+          446.256,
+          457.236,
+          464.4901,
+          471.924,
+          479.196,
+          486.63,
+          493.884,
+          501.3181,
+          512.478,
+          519.7321,
+          527.1841,
+          534.438,
+          541.8721,
+          549.144
+        ],
+        "gaps_pt": [
+          7.433775000000026,
+          11.159999999999968,
+          10.980000000000018,
+          7.254099999999994,
+          7.433899999999994,
+          7.272000000000048,
+          7.433999999999969,
+          7.254000000000019,
+          7.434100000000001,
+          11.159899999999936,
+          7.254099999999994,
+          7.451999999999998,
+          7.253900000000044,
+          7.434100000000058,
+          7.27189999999996
+        ],
+        "n": 15,
+        "minimum": 7.253900000000044,
+        "maximum": 11.159999999999968,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "F p3s6 third-bar upper8rest then fourteen ordinary16",
+        "axes_pt": [
+          316.8,
+          324.594,
+          336.276,
+          343.368,
+          354.69,
+          365.148,
+          372.222,
+          384.1021,
+          392.418,
+          404.28,
+          411.372,
+          418.446,
+          425.538,
+          432.6121
+        ],
+        "gaps_pt": [
+          7.793999999999983,
+          11.682000000000016,
+          7.0919999999999845,
+          11.322000000000003,
+          10.458000000000027,
+          7.073999999999955,
+          11.880100000000027,
+          8.3159,
+          11.861999999999966,
+          7.092000000000041,
+          7.074000000000012,
+          7.0919999999999845,
+          7.074099999999987
+        ],
+        "n": 13,
+        "minimum": 7.073999999999955,
+        "maximum": 11.880100000000027,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "F p3s6 third-bar lower two groups3triplet8 plus ordinary quarter",
+        "axes_pt": [
+          303.516,
+          312.192,
+          322.29,
+          336.276,
+          372.222,
+          387.63,
+          401.0941,
+          411.372
+        ],
+        "gaps_pt": [
+          8.675999999999988,
+          10.098000000000013,
+          13.98599999999999,
+          35.94599999999997,
+          15.408000000000015,
+          13.46410000000003,
+          10.277899999999988
+        ],
+        "n": 7,
+        "minimum": 8.675999999999988,
+        "maximum": 35.94599999999997,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 ending bar1 five5:3 internal",
+        "axes_pt": [
+          91.20549408,
+          99.522,
+          107.838,
+          115.992,
+          124.308
+        ],
+        "gaps_pt": [
+          8.316505920000012,
+          8.315999999999988,
+          8.15400000000001,
+          8.316000000000003
+        ],
+        "n": 4,
+        "minimum": 8.15400000000001,
+        "maximum": 8.316505920000012,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 ending bar1 ordinary16 internal",
+        "axes_pt": [
+          132.642,
+          140.076,
+          147.33,
+          154.764,
+          162.036,
+          169.47,
+          176.724,
+          184.158
+        ],
+        "gaps_pt": [
+          7.4339999999999975,
+          7.254000000000019,
+          7.4339999999999975,
+          7.271999999999991,
+          7.4339999999999975,
+          7.253999999999991,
+          7.4339999999999975
+        ],
+        "n": 7,
+        "minimum": 7.253999999999991,
+        "maximum": 7.4339999999999975,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 ending bar2 five5:3 internal",
+        "axes_pt": [
+          213.21,
+          221.706,
+          230.04,
+          240.48,
+          248.796
+        ],
+        "gaps_pt": [
+          8.495999999999981,
+          8.334000000000003,
+          10.439999999999998,
+          8.316000000000003
+        ],
+        "n": 4,
+        "minimum": 8.316000000000003,
+        "maximum": 10.439999999999998,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 ending bar2 ordinary16 internal",
+        "axes_pt": [
+          257.31,
+          264.744,
+          272.178,
+          279.612,
+          287.046,
+          294.318,
+          301.752,
+          309.186
+        ],
+        "gaps_pt": [
+          7.434000000000026,
+          7.433999999999969,
+          7.434000000000026,
+          7.433999999999969,
+          7.271999999999991,
+          7.434000000000026,
+          7.433999999999969
+        ],
+        "n": 7,
+        "minimum": 7.271999999999991,
+        "maximum": 7.434000000000026,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 ending bar3 five5:3 internal",
+        "axes_pt": [
+          336.99549408,
+          345.312,
+          353.628,
+          361.782,
+          370.098
+        ],
+        "gaps_pt": [
+          8.316505919999997,
+          8.315999999999974,
+          8.153999999999996,
+          8.316000000000031
+        ],
+        "n": 4,
+        "minimum": 8.153999999999996,
+        "maximum": 8.316505919999997,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A062 ending bar3 ordinary16 internal",
+        "axes_pt": [
+          378.432,
+          385.866,
+          393.12,
+          400.554,
+          407.826,
+          415.26,
+          422.514,
+          429.966
+        ],
+        "gaps_pt": [
+          7.433999999999969,
+          7.254000000000019,
+          7.433999999999969,
+          7.272000000000048,
+          7.433999999999969,
+          7.254000000000019,
+          7.451999999999998
+        ],
+        "n": 7,
+        "minimum": 7.254000000000019,
+        "maximum": 7.451999999999998,
+        "boundary_gaps_excluded": true
+      }
+    ],
+    "vector_checks": [
+      {
+        "id": "A061",
+        "page": 4,
+        "label": "preH13 third-level cross-staff beam",
+        "x0": 401.094,
+        "x1": 489.024,
+        "top": 470.484,
+        "bottom": 478.908,
+        "points": [
+          [
+            401.094,
+            476.856
+          ],
+          [
+            489.024,
+            470.484
+          ],
+          [
+            489.024,
+            472.536
+          ],
+          [
+            401.094,
+            478.908
+          ]
+        ]
+      },
+      {
+        "id": "A061",
+        "page": 4,
+        "label": "preH13 third-level cross-staff beam",
+        "x0": 401.094,
+        "x1": 489.024,
+        "top": 473.66999999999996,
+        "bottom": 482.094,
+        "points": [
+          [
+            401.094,
+            480.042
+          ],
+          [
+            489.024,
+            473.66999999999996
+          ],
+          [
+            489.024,
+            475.722
+          ],
+          [
+            401.094,
+            482.094
+          ]
+        ]
+      },
+      {
+        "id": "A061",
+        "page": 4,
+        "label": "preH13 third-level cross-staff beam",
+        "x0": 401.094,
+        "x1": 489.024,
+        "top": 476.856,
+        "bottom": 485.28000000000003,
+        "points": [
+          [
+            401.094,
+            483.228
+          ],
+          [
+            489.024,
+            476.856
+          ],
+          [
+            489.024,
+            478.908
+          ],
+          [
+            401.094,
+            485.28000000000003
+          ]
+        ]
+      }
+    ],
+    "event_order": [
+      {
+        "label": "A062 opening two5:4 versus one7:4 then ordinary16",
+        "layers": [
+          {
+            "name": "upper",
+            "times_quarters": [
+              "1",
+              "6/5",
+              "7/5",
+              "8/5",
+              "9/5",
+              "2",
+              "11/5",
+              "12/5",
+              "13/5",
+              "14/5",
+              "3",
+              "13/4",
+              "7/2",
+              "15/4"
+            ],
+            "axes_pt": [
+              107.83748803,
+              114.57,
+              121.302,
+              128.034,
+              134.766,
+              142.2,
+              148.932,
+              155.664,
+              162.378,
+              169.11,
+              175.842,
+              183.636,
+              191.43,
+              199.044
+            ]
+          },
+          {
+            "name": "lower",
+            "times_quarters": [
+              "1",
+              "9/7",
+              "11/7",
+              "13/7",
+              "15/7",
+              "17/7",
+              "19/7",
+              "3",
+              "13/4",
+              "7/2",
+              "15/4"
+            ],
+            "axes_pt": [
+              107.83748803,
+              117.414,
+              126.972,
+              136.53,
+              147.15,
+              156.726,
+              166.284,
+              175.842,
+              183.636,
+              191.43,
+              199.044
+            ]
+          }
+        ],
+        "distinct_times": 20,
+        "common_onsets": [
+          "1",
+          "3",
+          "13/4",
+          "7/2",
+          "15/4"
+        ],
+        "event_order_preserved": true
+      },
+      {
+        "label": "A062 F ordinary16 versus triplet8 plus quarter",
+        "layers": [
+          {
+            "name": "upper",
+            "times_quarters": [
+              "1/2",
+              "3/4",
+              "1",
+              "5/4",
+              "3/2",
+              "7/4",
+              "2",
+              "9/4",
+              "5/2",
+              "11/4",
+              "3",
+              "13/4",
+              "7/2",
+              "15/4"
+            ],
+            "axes_pt": [
+              316.8,
+              324.594,
+              336.276,
+              343.368,
+              354.69,
+              365.148,
+              372.222,
+              384.1021,
+              392.418,
+              404.28,
+              411.372,
+              418.446,
+              425.538,
+              432.6121
+            ]
+          },
+          {
+            "name": "lower",
+            "times_quarters": [
+              "0",
+              "1/3",
+              "2/3",
+              "1",
+              "2",
+              "7/3",
+              "8/3",
+              "3"
+            ],
+            "axes_pt": [
+              303.516,
+              312.192,
+              322.29,
+              336.276,
+              372.222,
+              387.63,
+              401.0941,
+              411.372
+            ]
+          }
+        ],
+        "distinct_times": 19,
+        "common_onsets": [
+          "1",
+          "2",
+          "3"
+        ],
+        "event_order_preserved": true
+      },
+      {
+        "label": "A062 ending5:3 versus ordinary quarters",
+        "layers": [
+          {
+            "name": "lower",
+            "times_quarters": [
+              "0",
+              "1/2",
+              "4/5",
+              "11/10",
+              "7/5",
+              "17/10",
+              "2",
+              "9/4",
+              "5/2",
+              "11/4",
+              "3",
+              "13/4",
+              "7/2",
+              "15/4"
+            ],
+            "axes_pt": [
+              79.164,
+              91.20549408,
+              99.522,
+              107.838,
+              115.992,
+              124.308,
+              132.642,
+              140.076,
+              147.33,
+              154.764,
+              162.036,
+              169.47,
+              176.724,
+              184.158
+            ]
+          },
+          {
+            "name": "upper",
+            "times_quarters": [
+              "0",
+              "1",
+              "2",
+              "3"
+            ],
+            "axes_pt": [
+              79.164,
+              105.012,
+              132.642,
+              162.036
+            ]
+          }
+        ],
+        "distinct_times": 15,
+        "common_onsets": [
+          "0",
+          "2",
+          "3"
+        ],
+        "event_order_preserved": true
+      }
+    ],
+    "duration_recipes": [
+      {
+        "label": "A061 D ordinary lower eighths",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A061 preH upper eighthrest,13:12 thirtyseconds,eighth,quarter,eighth",
+        "quarter_units": [
+          "1/2",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "3/26",
+          "1/2",
+          "1",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A061 preH lower halfchord then four eighth onsets",
+        "quarter_units": [
+          "2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A061 preI upper two6:4 sixteenth groups then half",
+        "quarter_units": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A061 preI next upper quarterrest,eighthrest,two16,half",
+        "quarter_units": [
+          "1",
+          "1/2",
+          "1/4",
+          "1/4",
+          "2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A061 D secondbar lower six eighths then quarter",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A061 Meno next full bar upper dottedhalf chord then quarter;Meno starts previous last quarter",
+        "quarter_units": [
+          "3",
+          "1"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A061 last two upper bars whole tie half then two16 eighth quarter",
+        "quarter_units": [
+          "4",
+          "2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1"
+        ],
+        "total_quarters": "8",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A062 opening upper quarter,two5:4sixteen groups,four16",
+        "quarter_units": [
+          "1",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A062 opening lower quarter,seven7:4eighths,four16",
+        "quarter_units": [
+          "1",
+          "2/7",
+          "2/7",
+          "2/7",
+          "2/7",
+          "2/7",
+          "2/7",
+          "2/7",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A062 F full cross-staff ordinary16",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A062 F thirdbar upper eighthrest then fourteen16",
+        "quarter_units": [
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A062 F thirdbar lower two three-triplet8 plus quarters",
+        "quarter_units": [
+          "1/3",
+          "1/3",
+          "1/3",
+          "1",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A062 H firstbar quarterrest,three triplet8,quarter,three triplet8",
+        "quarter_units": [
+          "1",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1",
+          "1/3",
+          "1/3",
+          "1/3"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A062 ending lower eighth,five5:3 eighths,eight16",
+        "quarter_units": [
+          "1/2",
+          "3/10",
+          "3/10",
+          "3/10",
+          "3/10",
+          "3/10",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A062 final upper halfchord,16rest,three16,eighth,eighthrest",
+        "quarter_units": [
+          "2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      }
+    ]
+  },
+  "judgments": [
+    "Keep D lower pulse and F cross-staff ordinary16 contour;first three bars have five lower plus eleven upper fast heads,slow white notes independent",
+    "Opening upper two5:4sixteenth groups and lower one7:4eighth group preserve20distinct times then common ordinary16",
+    "A061 preH13thirtyseconds fill dottedquarter after8rest,13:12;consider full ratio,protect ordinary8/quarter/8 tail and lower half/four8",
+    "A061 preI first parenthesized fast head normal size;keep unison/hand roles and repeated local contour rather than equalizing first interval",
+    "A062 ending5:3eighths between ordinary8 and eight16;quarter entry interleaves without enlarging fast pulse;preserve15distinct times",
+    "Retain partial/single-note8vb,preJ mp pickup,preK166 pickup and A061 Meno last-quarter entry after octave end/rest",
+    "Keep H conditional triplet numeral omission and independent p/f;keep B double-sharp spelling and C lower long layer",
+    "Retain final activity/rests and separate long chord attacks/tie chains",
+    "Wind mute/open-hand techniques and percussion labels depend on actual instrument/action;do not deduplicate by glyph or staff alone"
+  ],
+  "book": {
+    "new_substantive_printed_ranges": [
+      [
+        263,
+        268
+      ],
+      [
+        271,
+        274
+      ]
+    ],
+    "new_substantive_pages": 10,
+    "new_unique_pages": 12,
+    "new_reference_table_pages": 1,
+    "new_reference_table_printed_pages": [
+      274
+    ],
+    "new_formally_numbered_table_pages": 0,
+    "table_scope": "p274 unnumbered four-language instrument-name table",
+    "new_ancillary_pages": 2,
+    "new_ancillary_printed_pages": [
+      269,
+      270
+    ],
+    "new_ancillary_pdf_pages": [
+      289,
+      290
+    ],
+    "ancillary_classification": {
+      "title": [
+        269
+      ],
+      "contents": [
+        270
+      ]
+    },
+    "reread_printed_pages": [
+      28,
+      31,
+      39,
+      60,
+      72,
+      85,
+      156,
+      200,
+      207,
+      210,
+      211,
+      213,
+      215,
+      307,
+      308,
+      325,
+      334,
+      490
+    ],
+    "physical_offset": 20,
+    "wind_body_245_268": "24/24 substantive pages have contiguous coverage;not mastery",
+    "percussion_status": "Only271-274 read;275 onward remains."
+  },
+  "unresolved": [
+    "Native complete-ratio alternatives not rendered;any spacing candidate must preserve actual interleave and full-line budget",
+    "Full pitch/voice/playback reconstruction,every tuplet,editor workflow,precise pedal/hand execution and actual physical print/turn remain untested",
+    "No new personal preference or host defect reproduced;source spacing is a conditional positive reference"
+  ],
+  "changes": {
+    "new_animenz_closeouts": 2,
+    "new_closeout_pages": 11,
+    "new_resource_completions": 0,
+    "new_gould_substantive": 10,
+    "new_gould_ancillary": 2,
+    "new_fixed_transfer": 0,
+    "new_user_integrated_rounds": 0,
+    "new_native_or_adaptation": 0,
+    "files_deleted": 0
+  },
+  "validation": {
+    "status": "passed",
+    "source_pdf_hash_and_page_checks": 3,
+    "images_actually_viewed_and_hashed": 100,
+    "whole_score_pages": 11,
+    "whole_system_rows": 65,
+    "system_detail_images": 59,
+    "source_head_origin_checks": 217,
+    "source_beam_polygons_verified": 3,
+    "within_group_gap_measurements": 187,
+    "selected_duration_recipes": 16,
+    "event_order_distinct_times": [
+      20,
+      19,
+      15
+    ],
+    "new_substantive_book_pages": 10,
+    "new_unnumbered_table_pages": 1,
+    "new_ancillary_pages": 2,
+    "book_rereads_not_recredited": 18,
+    "new_corpus_closeout_credit": 2,
+    "new_resource_or_transfer_credit": 0,
+    "skill_routes_executed": 20,
+    "new_case_routes_linked": 12,
+    "percussion_routes_linked": 2,
+    "wind_glissandi_route_linked": true,
+    "local_markdown_links_checked": 860,
+    "public_paths": 23,
+    "files_deleted": 0,
+    "new_native_or_adaptation": 0,
+    "release_0_8_tag_certificate_and_skill_metadata_unchanged": true,
+    "all_material_goal": "active"
+  },
+  "cache": {
+    "measured_at_utc": "2026-10-27T02:08:12.074769+00:00",
+    "batch_logical_bytes": 13501532,
+    "total_logical_bytes": 2651827851,
+    "total_on_disk_bytes": 2510538624,
+    "new_images": 74,
+    "reused_images": 26,
+    "original_pdf_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Logical file lengths,not volume delta;inventory before final small records.Reuse by explicit printed/physical page metadata;three old substantive pages re-rendered but not recredited."
+  }
+}

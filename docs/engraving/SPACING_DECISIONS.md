@@ -180,3 +180,7 @@ Kokecola[净书篇](https://note.com/kokecola/n/n6df2c29e9942)的梁、变音、
 ## 2026-10-27：稳定骨架与不同细分分判
 
 [Homura／Hyori Ittai](INTEGRATED_READING_HOMURA_HYORI.md)：A060 C前三小节八分列14.688–14.886pt；O首小节十六分9.918–10.098pt，附着慢线保独立。L普通16／六连／五连各有单位，变音可使局部放宽。保两层真实时点，不能把所有14头等距。
+
+## 2026-10-27：跨表和中途进入不必打碎快层
+
+[Ichiban／Idol](INTEGRATED_READING_ICHIBAN_IDOL.md)：A062 F前三小节各16个普通16，5头下表／11头上表，45步7.074–7.272pt；第四小节变音使局部至11.160pt。尾声5:3内有上部四分中途进入，五连仍近稳；保实际先后，查符号后再判宽洞。

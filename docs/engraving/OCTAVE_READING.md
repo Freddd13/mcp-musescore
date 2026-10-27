@@ -122,3 +122,7 @@ MPA补图本轮未完成：官方20页入口仍可读取，但截图无可见像
 ## 2026-10-27：局部低八度不能扩到整个段
 
 [Homura／Hyori Ittai](INTEGRATED_READING_HOMURA_HYORI.md)：A059末行倒数第二小节8vb从下表第二四分和弦才开始；A060 M下表8vb在2/4内，9/8首恢复loco。先定位新起音与接收，不吸到J／M字母。[木管条件](WIND_NOTATION_READING.md)另读，不能照搬钢琴省加线阈值。
+
+## 2026-10-27：单音低八度与拍内结束
+
+[Ichiban／Idol](INTEGRATED_READING_ICHIBAN_IDOL.md)：A062 A附近8vb只管一个低音，后续同表原位；保末角。A061 J的8va在p5s6四分休止前结束，Meno从最后四分才进，下一小节琶音不包入；不能把线尾吸到速度文字或字母。
