@@ -176,3 +176,7 @@ Kokecola[净书篇](https://note.com/kokecola/n/n6df2c29e9942)的梁、变音、
 ## 2026-10-27：稳定组形允许整行舒展
 
 [光るなら／History Maker](INTEGRATED_READING_HIKARU_HISTORY.md)：A058 F七小节77个小节内步长12.584–15.421pt，其中前两行约12.6–12.9、下一行约15.2–15.4，各小节近稳；H44间隔9.216–9.395pt。N前25头与下层11起音保34真实时点，不把近邻吸成同步。
+
+## 2026-10-27：稳定骨架与不同细分分判
+
+[Homura／Hyori Ittai](INTEGRATED_READING_HOMURA_HYORI.md)：A060 C前三小节八分列14.688–14.886pt；O首小节十六分9.918–10.098pt，附着慢线保独立。L普通16／六连／五连各有单位，变音可使局部放宽。保两层真实时点，不能把所有14头等距。

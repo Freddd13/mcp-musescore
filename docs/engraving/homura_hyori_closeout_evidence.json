@@ -1,0 +1,4852 @@
+{
+  "date": "2026-10-27",
+  "base_commit": "ec35953f1688389a503632c0dba40bfaab64f833",
+  "note": "INTEGRATED_READING_HOMURA_HYORI.md",
+  "additional_note": "WIND_NOTATION_READING.md",
+  "scope": "Solo whole-score question closeouts A059/A060,selected source spacing,rhythm,eighth-equals-eighth equation and M event order.Woodwind/brass251-262 and10ancillary pages. Originals read-only;no native candidate,software/font adaptation or independent transfer.",
+  "source_protection": [
+    {
+      "id": "A059",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Homura - Demon Slayer the Movie Mugen Train - Theme Song.pdf",
+      "sha256": "ec06b84eba010c5bcdd6c70e6726b900601e9985f2642a4df362cfe9d52a4986",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A060",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Hyori Ittai - Hunter × Hunter - 5th Ending Theme.pdf",
+      "sha256": "9f3abf1d23eceec4ff5fce9e023caac94970bccc127480fcc07093a34cf29c5b",
+      "pages": 9,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A059",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A059/page-1.jpg",
+      "sha256": "e321e22900ede4915141ded9e6098aad8904e6f166cca1ecd3993583a2ad043e",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A059",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A059/page-2.jpg",
+      "sha256": "66af91ca31fb54d747a03a0eec08116cfa298a3b7b0a4b21653934d94a466402",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A059",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A059/page-3.jpg",
+      "sha256": "a5a7291309afaf5640b11064f7ea2bf63e16f2d0355a92461efd1bdc2eb328ba",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A059",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A059/page-4.jpg",
+      "sha256": "1059f77da7424c72aeea6f78067cd9b17018165f4e3c322f662c4a43634237f9",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A059",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A059/page-5.jpg",
+      "sha256": "3f85ae45f0f9a2dc5ad19d705fc8680e423f92964286062f7fe3cea4011e7f8d",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A060",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A060/page-1.jpg",
+      "sha256": "cf72cdf03553a91be0ebc15c4677f69b6f62674ebe4c74ef4db40a955431d3bb",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A060",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A060/page-2.jpg",
+      "sha256": "b87bd1826fd20ebac87fba803ce6458da3756f5354a8ebffdcf0ca18cf50496a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A060",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A060/page-3.jpg",
+      "sha256": "97ba254a7a037f217787a58fd1a36fb19ccdd9a9bc37f7be52b1fd060d3af9ef",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A060",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A060/page-4.jpg",
+      "sha256": "8fdc6b740edecb2ef997202fc37578cc93d9a10ceaafeb1f7ba6a44fd2a02376",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A060",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A060/page-5.jpg",
+      "sha256": "2a93f644cbc9c50a9333d0b1a7b8a7a880b4987113a97666946aaa5a3f887b02",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A060",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A060/page-6.jpg",
+      "sha256": "c903ac3f2ffc503099881f99a1b5d55d1d63c556eedae2e1db39198493441c7b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A060",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A060/page-7.jpg",
+      "sha256": "9fbdd969b4d80d56baf997094229663433f727a7f1c8e75800b304807fbf7add",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A060",
+      "page": 8,
+      "path": "tmp/engraving/corpus/A060/page-8.jpg",
+      "sha256": "8acfcc7592c9aa4c328b7483fdd0ff722d3259f81684e52cca8d23ee3ac39ffd",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A060",
+      "page": 9,
+      "path": "tmp/engraving/corpus/A060/page-9.jpg",
+      "sha256": "076f4eab919de3542029080c281ddead633b52ab4a9fe0dc39092045f04069f0",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 44,
+      "pdf_page": 64,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-44.jpg",
+      "sha256": "df09ab374950edc0746b51e70d78fa92025af616940e1f54c83b389fa828fd2c",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 45,
+      "pdf_page": 65,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-45.jpg",
+      "sha256": "7e6fead7d96facab3fc5d6e64033c7cf3282159ca059798774f31993d1483688",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 46,
+      "pdf_page": 66,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-46.jpg",
+      "sha256": "df43a63c03523e08fa09b8b693a2ba5b972225ab32b0a0a8ad1ee7652744a305",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 74,
+      "pdf_page": 94,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-74.jpg",
+      "sha256": "df09ab374950edc0746b51e70d78fa92025af616940e1f54c83b389fa828fd2c",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 75,
+      "pdf_page": 95,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-75.jpg",
+      "sha256": "31459359ab2fb7157813d8680155155113cc29ff041f6bed4bc8177d9911ea67",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 76,
+      "pdf_page": 96,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-76.jpg",
+      "sha256": "6fb2a3d14d33e06eb838448e3149981ccb9282ff913fcdd0eae29528460a5a86",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 123,
+      "pdf_page": 143,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-123-printed.jpg",
+      "sha256": "d7f99c5a68592c96031a73b976a9a6f77f45b1e7fe7b2efe7b555288f1794a31",
+      "reused": false,
+      "actually_viewed": true,
+      "cache_correction": "Re-rendered original printed page;early same-name file was physical numbering",
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 124,
+      "pdf_page": 144,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-124-printed.jpg",
+      "sha256": "cf5576deea725e651c2bfe407200d45ff7cc3514e0f4b85c064f8d186485b3ef",
+      "reused": false,
+      "actually_viewed": true,
+      "cache_correction": "Re-rendered original printed page;early same-name file was physical numbering",
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 191,
+      "pdf_page": 211,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-191-printed.jpg",
+      "sha256": "5296a50134756bfcffa258e587a3d728c75da431b7f31c6edb0b02b276479296",
+      "reused": false,
+      "actually_viewed": true,
+      "cache_correction": "Re-rendered original printed page;early same-name file was physical numbering",
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 192,
+      "pdf_page": 212,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-192-printed.jpg",
+      "sha256": "be27f05ef9fbe1416eacf5f3650de9d1469b22a4e78b49ed1d2cebde2df61cbf",
+      "reused": false,
+      "actually_viewed": true,
+      "cache_correction": "Re-rendered original printed page;early same-name file was physical numbering",
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 251,
+      "pdf_page": 271,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-251.jpg",
+      "sha256": "c5ef86e0ae7982ddb0663786d0f6581eb862d78298e3cb01159c262ce82eaf3b",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 252,
+      "pdf_page": 272,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-252.jpg",
+      "sha256": "fb0105f51e2b764ad73f852327908ce3b8e75b75f6fd159a7086fda663cac463",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 253,
+      "pdf_page": 273,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-253.jpg",
+      "sha256": "d1a8f7005e8a8f8241134e3e719c088fa1acf505d4ca9d4e851f3ca9d654b890",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 254,
+      "pdf_page": 274,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-254.jpg",
+      "sha256": "694eede8514016a15c978f6d613e7461148d516b146b0c21271375ccf0238b62",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 255,
+      "pdf_page": 275,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-255.jpg",
+      "sha256": "13a97d2ce1381bbfb22c6f6edca1b59a9944547afb39d676aeedf52f4e37b6a0",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 256,
+      "pdf_page": 276,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-256.jpg",
+      "sha256": "16f4c09af34fa1bda1b4eaaa8cfeb2c26d76843e8ee48e307aa0221b83eab731",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 257,
+      "pdf_page": 277,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-257.jpg",
+      "sha256": "5fe2acaedc7c925955b0a24df3960556b9944ca645eaef47f896035fe95cec7b",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 258,
+      "pdf_page": 278,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-258.jpg",
+      "sha256": "4f87605a7b5d00ed056300995978184fa7e12de1c6340a4d9646c6a2f6682b0e",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 259,
+      "pdf_page": 279,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-259.jpg",
+      "sha256": "c5dd1033f5c0d7c7437085939e4056e8acf24364abe130f72a7f5402160f24aa",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 260,
+      "pdf_page": 280,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-260.jpg",
+      "sha256": "bd02da8a41881b8b4a89ea01f273d8577ea2e6c3b8b7cb6076c0927d7e908ca1",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 261,
+      "pdf_page": 281,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-261.jpg",
+      "sha256": "0e8c388778dd6939a74f7e1d8126cd299175c6e144fc3f29ad40adf04f6564d6",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 262,
+      "pdf_page": 282,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-262.jpg",
+      "sha256": "36ef73d54cfc6c3eb749c8697a8441496b69469b91f7c30626e5eb6f36f00306",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p1-s1.jpg",
+      "source_y_pt": [
+        178.04600746268656,
+        342.41518656716414
+      ],
+      "sha256": "c723b801daa431f6b2301f1a73cc95fc2934c42c9f81dd0043e7413c781f493d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p1-s2.jpg",
+      "source_y_pt": [
+        349.4992537313433,
+        498.98820895522385
+      ],
+      "sha256": "266b7f40a91636601c862047c97bc61ec2a1d14837805c7e9c7935c3ddb45126",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p1-s3.jpg",
+      "source_y_pt": [
+        496.3174626865672,
+        650.1051492537314
+      ],
+      "sha256": "a0fe1c612d0a7a39840e8e45459d74ed6bac1423481b3059344b7e0836989113",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p1-s4.jpg",
+      "source_y_pt": [
+        649.0877611940298,
+        808.4968656716418
+      ],
+      "sha256": "4a0cb3e7c918e18d447d32a078fd492f2376b7b403723feb45ec01623c657762",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p2-s1.jpg",
+      "source_y_pt": [
+        31.06246268656716,
+        199.39970149253733
+      ],
+      "sha256": "107c3dfc4335cedf204acee8f0ba7cac34ec2089df051fa279f100b9987e5081",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p2-s2.jpg",
+      "source_y_pt": [
+        181.8487313432836,
+        339.93514925373137
+      ],
+      "sha256": "ff3ace011f5cc3d620790762883983abf4bc9ad64c5cab6830a3cdff0bbdd801",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p2-s4.jpg",
+      "source_y_pt": [
+        481.4372388059701,
+        643.4917164179104
+      ],
+      "sha256": "18a8130a6646b13f8d362d1a4a191ee4571384b1dd4596634c3fa3be388ef99f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p2-s5.jpg",
+      "source_y_pt": [
+        644.1276865671642,
+        808.4968656716418
+      ],
+      "sha256": "19a228b39138408f02edafbe512220805c2d81ec0dfe1c20694a71dfa3c811ae",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p3-s1.jpg",
+      "source_y_pt": [
+        31.06246268656716,
+        180.8820895522388
+      ],
+      "sha256": "c37dead0228102d4220b3106e51d0a41da35303a29608f2c44311795b45124bd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p3-s2.jpg",
+      "source_y_pt": [
+        180.19537313432838,
+        330.015
+      ],
+      "sha256": "4cc6ca81db4808db2f993b8223a8bea1b0b0bf2f3686bd752b09c84dd868bff8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p3-s3.jpg",
+      "source_y_pt": [
+        329.6589552238806,
+        479.1479104477612
+      ],
+      "sha256": "6b808c2d16d960339d72742adb316fb3af6356976cde01d398110dfcbf25bafc",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p3-s4.jpg",
+      "source_y_pt": [
+        478.46119402985073,
+        632.2488805970149
+      ],
+      "sha256": "c25ba5ee134cc0892ea35383fe1094b65baa6bf6fd51a395056314d5222ab665",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p3-s5.jpg",
+      "source_y_pt": [
+        640.4902985074627,
+        808.4968656716418
+      ],
+      "sha256": "88c6bf88bc0a6ab2d51c2dc0f349511ee1dbc73bc451b42738f604cccdd2a34b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p4-s1.jpg",
+      "source_y_pt": [
+        31.06246268656716,
+        191.1329104477612
+      ],
+      "sha256": "25ac5f4bf7eafcaac93ca299b91b948bbb048d9a05c2b90d2d5f7c6841fa62a3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p4-s2.jpg",
+      "source_y_pt": [
+        169.6138805970149,
+        329.6843283582089
+      ],
+      "sha256": "1fc4c5885e9ecdd6b73e087cf486574d5ca4a0994983598d34c54b23bcd145cf",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p4-s3.jpg",
+      "source_y_pt": [
+        324.6988805970149,
+        478.81723880597013
+      ],
+      "sha256": "b8a1d23c8886a84a9708661fbbee1472265239e73e73cdf9f422f51a50367541",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p4-s5.jpg",
+      "source_y_pt": [
+        651.4024626865671,
+        806.5128358208955
+      ],
+      "sha256": "6f80b459ddf7e6d33f1426177899f51dafbe8f13495ac84473a6b183ddbd1f8d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p5-s1.jpg",
+      "source_y_pt": [
+        31.06246268656716,
+        187.16485074626866
+      ],
+      "sha256": "c101b00bacc9c8e3a8dbbc9e66fff583daf19f7a950f7adf00dee57f49525fb4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p5-s2.jpg",
+      "source_y_pt": [
+        167.9605223880597,
+        317.4494776119403
+      ],
+      "sha256": "1ac42363fbfac7affdf090f318191a57da739e8e8a1f81708f8ce9de9d425478",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p5-s3.jpg",
+      "source_y_pt": [
+        290.9703731343283,
+        442.44335820895526
+      ],
+      "sha256": "8aae0c46d65e159f8cbdcb62177ae5fa97f42cad0bdc06cc06eb64e81f44746d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p5-s4.jpg",
+      "source_y_pt": [
+        411.1695149253731,
+        564.1305223880597
+      ],
+      "sha256": "942f68cb01b87fb94da8241cf5725138b8ebdd240dcfc918bfbf99e635d58166",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p5-s5.jpg",
+      "source_y_pt": [
+        537.1554104477613,
+        698.713880597015
+      ],
+      "sha256": "f17972156af3051abb84235819cabc73a49151388374914193b5130988c9aea8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A059",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A059-p5-s6.jpg",
+      "source_y_pt": [
+        658.3465671641791,
+        807.8355223880596
+      ],
+      "sha256": "3c6bdcdf6f0aec55e15596415bce427570216918b3afe7908e4391358513a698",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p1-s1.jpg",
+      "source_y_pt": [
+        155.83863368669023,
+        309.773851590106
+      ],
+      "sha256": "ccfc614685e85d843cf928f4e6e2c69c0b179937333d7e9ae73713594f7f07e4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p1-s2.jpg",
+      "source_y_pt": [
+        287.5767569689831,
+        439.3631723596388
+      ],
+      "sha256": "370a098c3ab3d3f87006b2357b4e9ef4ad740a1b356eb74393d44411a814cc0e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p1-s3.jpg",
+      "source_y_pt": [
+        420.80251276010995,
+        570.4401256380055
+      ],
+      "sha256": "897fe11ba594f608c5dcddf6081afeb96688984158c0fb979498a85128ec73b8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p1-s4.jpg",
+      "source_y_pt": [
+        538.4907734589714,
+        686.3101688260699
+      ],
+      "sha256": "60312bec01548f66b0d5cb598abca79cde23f320d2137561fa173ad9bc667c00",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p1-s5.jpg",
+      "source_y_pt": [
+        661.7989791912054,
+        811.6018845700825
+      ],
+      "sha256": "90d4dd10fbd8fc75a52c1e62e10822bce58560f0571bcc39d112e9f1865cb4a9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p2-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        181.8374558303887
+      ],
+      "sha256": "4afb350ac7953af1761ff5109c4fb6ae0e656a93d54590c92b83b2c17b3dbf22",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p2-s2.jpg",
+      "source_y_pt": [
+        150.0533961523361,
+        301.83981154299175
+      ],
+      "sha256": "c004b685d604b45442f3fd6f13ec99be9460bac0515efdc16d63ce5469204e81",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p2-s3.jpg",
+      "source_y_pt": [
+        276.9980369061641,
+        422.503337259521
+      ],
+      "sha256": "c98c0f6fc69e3344ba42915074315f50722ac494ee54c97842dfe093a7a04d5d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p2-s4.jpg",
+      "source_y_pt": [
+        400.9674126423243,
+        557.0514330585002
+      ],
+      "sha256": "4b211e77efbcbd6fdbd6a971295df44a9722de2b93565f292e23087957f42939",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p2-s6.jpg",
+      "source_y_pt": [
+        663.9477817039655,
+        811.6018845700825
+      ],
+      "sha256": "f63a0b71a5a50992e623e3702767f59d69a3e3d883ce6178143d84d6407516b1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p3-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        173.24224577934825
+      ],
+      "sha256": "677ea3da75117ec2d04978c17164d4b0ef1fbcf1b90e83fd2c61796e87a445a4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p3-s2.jpg",
+      "source_y_pt": [
+        152.36749116607774,
+        300.1868865331763
+      ],
+      "sha256": "8cc7628dfe69e8295b0e84a8c4b5e2128ec421928af45f6352a86130b6a0ac26",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p3-s3.jpg",
+      "source_y_pt": [
+        274.35335689045934,
+        422.17275225755793
+      ],
+      "sha256": "f479d96c23d71020bdc1f1c962263b598870358bc5dec69a85c1d75729843397",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p3-s6.jpg",
+      "source_y_pt": [
+        661.7989791912054,
+        811.6018845700825
+      ],
+      "sha256": "bd8301db0c4fdffe10a63f12ab2dbe8561601576f4d9b7fc0e3c244dedda2e2a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p4-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        181.8374558303887
+      ],
+      "sha256": "4cf096550ff49f4162a71eca1b4a2e7a8e4f0e567f0f7a1183c67454edd1b6bd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p4-s3.jpg",
+      "source_y_pt": [
+        286.91558696505695,
+        428.28857479387517
+      ],
+      "sha256": "552d05660738d352ea7a8edfc25876af80972995f31fc7d8f14a37592f8dabca",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p4-s5.jpg",
+      "source_y_pt": [
+        539.1519434628975,
+        688.9548488417746
+      ],
+      "sha256": "e97a469c86047bd5ddb44236821708502db6c4d98233f9b478d18785d0eb8499",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p4-s6.jpg",
+      "source_y_pt": [
+        661.7989791912054,
+        811.6018845700825
+      ],
+      "sha256": "75a7165be4a03a0df5f2651629243018d55fc026cc67a2ffc04eca2763bb7124",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p5-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        175.5563407930899
+      ],
+      "sha256": "49e27e851f67c252dd2a11819eb0a08bb479b70dc794682f53c7b358fcba7d13",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p5-s2.jpg",
+      "source_y_pt": [
+        150.38398115429916,
+        295.88928150765605
+      ],
+      "sha256": "c74515ed911cfc98ee085a96e48a4ba0b42d922051ce76b777a6a4dd694510ec",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p5-s3.jpg",
+      "source_y_pt": [
+        272.5351393796623,
+        426.47035728307816
+      ],
+      "sha256": "7d455faf3761b33156fab68dd9cb20fa96a0747c875549cf8560721a2ba6a4fa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p5-s6.jpg",
+      "source_y_pt": [
+        661.7989791912054,
+        811.6018845700825
+      ],
+      "sha256": "ad9ae37aee4241124ae5736895e46f8796b40e122438c3800b3e39c0885f015b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p6-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        177.53985080486848
+      ],
+      "sha256": "ca69481f70b176d78b4772baf727c1ddcbcd703b3f3217b5425a84f84fdab597",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p6-s3.jpg",
+      "source_y_pt": [
+        276.33686690223794,
+        428.1232822928936
+      ],
+      "sha256": "ea6443b8556f069d0def8f55d56efafe5eafda6c35f2375f725ff819b1ea33cc",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p6-s4.jpg",
+      "source_y_pt": [
+        406.2567726737338,
+        560.1919905771496
+      ],
+      "sha256": "90483f20cd8383f073523a7ed14ba8b5340441aad6f003c98fe82d8bc8e45094",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p6-s5.jpg",
+      "source_y_pt": [
+        533.531998429525,
+        687.4672163329407
+      ],
+      "sha256": "6358aad7a34abd6cbce7885d73087cd4c16031d32c8e9d769646f83a1644996d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 6,
+      "system": 6,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p6-s6.jpg",
+      "source_y_pt": [
+        657.5013741656851,
+        811.6018845700825
+      ],
+      "sha256": "3b67abc167c504efc5b8bc54680a903acb6e0c15d823e1bf4a6583a4bc9a86fe",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 7,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p7-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        183.9862583431488
+      ],
+      "sha256": "f9e71db284977ef347b4c3ac585082134464b680ae8dbcc87a29c2bf0915e98e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 7,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p7-s2.jpg",
+      "source_y_pt": [
+        154.6815861798194,
+        310.7656065959953
+      ],
+      "sha256": "921d49062319d68bd12b45b0c6107fc43390ee517513078123bf1929194fb71e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 7,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p7-s3.jpg",
+      "source_y_pt": [
+        286.91558696505695,
+        438.8672948566942
+      ],
+      "sha256": "124b4c1d9c9f53a24808838f0f8c2b6c65b627cb00e74fed388f4fbaceec14c9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 7,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p7-s4.jpg",
+      "source_y_pt": [
+        418.1578327444052,
+        565.6466431095406
+      ],
+      "sha256": "0ce37979f6c752c282e1fb41cd4bf3608ed322b8dddd8d05e45206629f7cdae0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 7,
+      "system": 5,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p7-s5.jpg",
+      "source_y_pt": [
+        540.1436984687869,
+        687.7978013349039
+      ],
+      "sha256": "baf87f9d21b4ee9bb6b8868769d4176ef5b68af1854f75c059768bea66a7d416",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 7,
+      "system": 6,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p7-s6.jpg",
+      "source_y_pt": [
+        663.9477817039655,
+        811.6018845700825
+      ],
+      "sha256": "3874134c9082b89cd71c8af298f01111872d041ee948d876d7fee41c25b5acfa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 8,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p8-s2.jpg",
+      "source_y_pt": [
+        150.38398115429916,
+        300.1868865331763
+      ],
+      "sha256": "ae17bf8f3eebe5b32c57fe5adba954dab9cf51df042142cb8252166f7792eba6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 8,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p8-s3.jpg",
+      "source_y_pt": [
+        279.31213191990577,
+        424.8174322732627
+      ],
+      "sha256": "fe82e46ff2393052db0aa7d3f9cd5c57a70d717cc1b4513d0c804137195809b3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 8,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p8-s4.jpg",
+      "source_y_pt": [
+        406.5873576756969,
+        554.0761680408324
+      ],
+      "sha256": "8bcfb0bcb8b24adc23d56221cd29b3859565ec32d93c4eea9e8233259a8f5561",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 8,
+      "system": 5,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p8-s5.jpg",
+      "source_y_pt": [
+        534.8543384373774,
+        680.3596387907342
+      ],
+      "sha256": "05b4bdc33b46267f9b6eb2293c352e7b87332879ce73af78ecb5c92e9db1c36a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 8,
+      "system": 6,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p8-s6.jpg",
+      "source_y_pt": [
+        657.5013741656851,
+        811.6018845700825
+      ],
+      "sha256": "d6f70cb1e289ddb40037d74556e5ec8037589251f7cd6aca0104ee82983a7baa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 9,
+      "system": 1,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p9-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        173.24224577934825
+      ],
+      "sha256": "7a90fab0dc62663ddb74c69bf7189b8ac28c16a801ad8737bf8dee182e443fd7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 9,
+      "system": 2,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p9-s2.jpg",
+      "source_y_pt": [
+        140.79701609736946,
+        290.59992147624655
+      ],
+      "sha256": "5389866e920f3601fcd2d52a5556a8f6851362d80b481f2fceb8744627c3892b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 9,
+      "system": 3,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p9-s3.jpg",
+      "source_y_pt": [
+        260.46878680800944,
+        410.2716921868865
+      ],
+      "sha256": "a9873eabd17aa93d84711ea7605679a4af04520228f5a88e13f45ea3679c6b03",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 9,
+      "system": 4,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p9-s4.jpg",
+      "source_y_pt": [
+        391.0498625834315,
+        551.4314880251276
+      ],
+      "sha256": "5caabc091c47e03640c31eadb86d726d66fc52d59bedd5f806dc65a0fcc5e833",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A060",
+      "page": 9,
+      "system": 6,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/A060-p9-s6.jpg",
+      "source_y_pt": [
+        661.7989791912054,
+        811.6018845700825
+      ],
+      "sha256": "8c975acac2c372e888ed2c57708dd2871b9b3d3b6d339c56373b3cc279a72916",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 103,
+      "pdf_page": 123,
+      "path": "tmp/engraving/dynamic-articulation-2026-10-20/book-123.jpg",
+      "sha256": "7be559e8573085c0a9c1a324e53f0d98575936e26e44ba007089416e6aaa2c23",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "cache_note": "Visible printed page establishes old file name is physical;not candidate new-page credit",
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 104,
+      "pdf_page": 124,
+      "path": "tmp/engraving/dynamic-articulation-2026-10-20/book-124.jpg",
+      "sha256": "f575bf49d5820b0c4d5aad36b867771c96558a5e7aae4639a384699232f45a68",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "cache_note": "Visible printed page establishes old file name is physical;not candidate new-page credit",
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 171,
+      "pdf_page": 191,
+      "path": "tmp/engraving/beaming-2026-10-19/book-191.jpg",
+      "sha256": "782b1fc54cb200850e060d9c11c08f7233e9372941110846964007c71ff6b9c4",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "cache_note": "Visible printed page establishes old file name is physical;not candidate new-page credit",
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 172,
+      "pdf_page": 192,
+      "path": "tmp/engraving/beaming-2026-10-19/book-192.jpg",
+      "sha256": "f57c32860aeb30d9f3742c6e04dcd099c051d3be290190f7cba1f7619551682f",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "cache_note": "Visible printed page establishes old file name is physical;not candidate new-page credit",
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 28,
+      "pdf_page": 48,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-28-reread.jpg",
+      "sha256": "d1f1c6916c5587723ac75f0179d05cabf875ae20ea3010bb0a42c589cc531cfb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 31,
+      "pdf_page": 51,
+      "path": "tmp/engraving/departures-2026-10-27/book-31.jpg",
+      "sha256": "4db21ae68026b539883536d06266c0e41c265e91bddc4510dfd6806dd80e950f",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 39,
+      "pdf_page": 59,
+      "path": "tmp/engraving/study-2026-10-19/book-39.jpg",
+      "sha256": "e54e35ecab84ac4044f4d55a70626b0f836dd16361a2fd442484c1a71923480d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 60,
+      "pdf_page": 80,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-60-reread.jpg",
+      "sha256": "a29ae1b0f6c22cf56d1d94e23cfd3de6512c51b91020eabf8d76ff67112a4d4e",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 72,
+      "pdf_page": 92,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-72-reread.jpg",
+      "sha256": "9c659e8e916cf37a5e375d93d875483085488a232558467a2daae378b4ccf101",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 73,
+      "pdf_page": 93,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-73-reread.jpg",
+      "sha256": "b37a52cd08d336ad7d83997acdf76df817e0387a5b49546fb6aca29c8b88d586",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 140,
+      "pdf_page": 160,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-140-reread.jpg",
+      "sha256": "741b4828d75a840ff6f13f66791e71120d8c22380fb33c50dbbd4ffe2b692b65",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 141,
+      "pdf_page": 161,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-141-reread.jpg",
+      "sha256": "d64a5bc649537e42f3c3fc4caa7c0c373cbce11ab3dca6b3066bacec07e3c3ea",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 142,
+      "pdf_page": 162,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-142.jpg",
+      "sha256": "d4893ed882bd387a4041f93d828d955380d54d21aa9a93035f64216fe4f8462e",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 156,
+      "pdf_page": 176,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-156.jpg",
+      "sha256": "c2e0d3fcae7598272ac1565a4da866cf6f7149a7056c11a4c5d6b628eed98f02",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 173,
+      "pdf_page": 193,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-173-reread.jpg",
+      "sha256": "11ceacd30d4a649db41a76d383aa0c6357b40399fdddd1f09dc5275fa3546d3d",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 174,
+      "pdf_page": 194,
+      "path": "tmp/engraving/beaming-2026-10-19/book-194.jpg",
+      "sha256": "60b116013ff1ec17b8aa7c1661b151a7945b2409ce7d9a10921d23f0108784e8",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/god-pokemon-2026-10-27/book-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 213,
+      "pdf_page": 233,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-213-reread.jpg",
+      "sha256": "33a2bf132aceea603508082e316ffa5f5ba6b96a9e67d67f493b4b125f587f14",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-307-reread.jpg",
+      "sha256": "b52e28888c02d2fc9046d3e632095e4be18cb53ca82755423eeeab20391f5d95",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 308,
+      "pdf_page": 328,
+      "path": "tmp/engraving/fingering-2026-10-20/book-308.jpg",
+      "sha256": "4a6e8fd2666ce018049dfc9107a65f121d2f0a188ab8b884b4c5cfa1b8fc3902",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 334,
+      "pdf_page": 354,
+      "path": "tmp/engraving/gurenge-hacking-2026-10-27/book-334-reread.jpg",
+      "sha256": "e5e063854a7e57fe1967b623a8a2f859190980389ca0a4423b3a1c37d199b9b7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 335,
+      "pdf_page": 355,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-335-reread.jpg",
+      "sha256": "41be3596f76b92fddc63a6e09ebf33676362a06c23d8d7e3f8ee42034e92b651",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/everyday-extra-2026-10-27/book-337.jpg",
+      "sha256": "4c517306cf30f5e24bb647c614fb38d0d2f10e611db454b5f72789c81480367d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    }
+  ],
+  "whole_reviews": {
+    "A059": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "system_rows_by_page": [
+        4,
+        5,
+        5,
+        5,
+        6
+      ],
+      "system_rows": 25,
+      "complete_system_detail_images": 23,
+      "staves_per_row": 2,
+      "media_box_pt": [
+        595.276,
+        841.89
+      ],
+      "source_font_names": [
+        "FPAJVZ+FEF49D0604D",
+        "FPCNHV+PalatinoLinotype",
+        "FPDAME+FEF7B3B4933",
+        "FPDXJR+FEF8144F45A",
+        "FPKGUX+FEF9FE622DA",
+        "FPKZIQ+FEFAFF78F0",
+        "FPZDUX+PalatinoLinotype,Italic"
+      ]
+    },
+    "A060": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 53,
+      "complete_system_detail_images": 43,
+      "staves_per_row": 2,
+      "media_box_pt": [
+        595.22,
+        842
+      ],
+      "source_font_names": [
+        "BJLFLH+Chaconne",
+        "BJLFNH+CenturyNo1SB-Bold",
+        "BJLGJE+CenturyOSMTPro-Italic",
+        "BJLHFB+PalatinoLinotype",
+        "BJLHGD+PalatinoLinotype,Italic",
+        "BJLIBP+CenturyNo1SB-BoldIta"
+      ]
+    }
+  },
+  "selected_music_checks": {
+    "head_origin_checks": [
+      {
+        "id": "A059",
+        "page": 3,
+        "label": "F 28-head fast run p3s3;ordinary16+two32+five5:4groups",
+        "box_pt": [
+          285,
+          350,
+          500,
+          400
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          287.878464,
+          302.025034,
+          310.80098999999996,
+          319.79719200000005,
+          327.23473,
+          334.67226800000003,
+          342.10980600000005,
+          349.42875,
+          356.866288,
+          364.303826,
+          371.758306,
+          379.07725,
+          386.514788,
+          393.952326,
+          401.389864,
+          408.708808,
+          416.146346,
+          423.583884,
+          431.021422,
+          438.475902,
+          446.032034,
+          453.46957199999997,
+          460.788516,
+          468.22605400000003,
+          475.663592,
+          483.10113,
+          490.420074,
+          497.874554
+        ],
+        "heads": [
+          {
+            "origin": [
+              287.878464,
+              388.684368
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              302.025034,
+              386.53286099999997
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              310.80098999999996,
+              384.364413
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              319.79719200000005,
+              382.331493
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              327.23473,
+              380.163045
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              334.67226800000003,
+              378.130125
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              342.10980600000005,
+              375.961677
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              349.42875,
+              373.81017
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              356.866288,
+              371.760309
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              364.303826,
+              369.608802
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              371.758306,
+              367.440354
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              379.07725,
+              365.407434
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              386.514788,
+              363.25592700000004
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              393.952326,
+              361.08747900000003
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              401.389864,
+              363.25592700000004
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              408.708808,
+              365.407434
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              416.146346,
+              367.440354
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              423.583884,
+              369.608802
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              431.021422,
+              371.760309
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              438.475902,
+              373.81017
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              446.032034,
+              375.961677
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              453.46957199999997,
+              378.130125
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              460.788516,
+              380.163045
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              468.22605400000003,
+              382.331493
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              475.663592,
+              384.364413
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              483.10113,
+              386.53286099999997
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              490.420074,
+              388.684368
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              497.874554,
+              390.734229
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          }
+        ]
+      },
+      {
+        "id": "A059",
+        "page": 3,
+        "label": "F 28-head fast run p3s4;ordinary16+two32+five5:4groups",
+        "box_pt": [
+          293,
+          505,
+          501,
+          541
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          295.078814,
+          308.86960200000004,
+          317.510022,
+          326.150442,
+          333.35079199999996,
+          340.669736,
+          347.870086,
+          355.070436,
+          362.152192,
+          369.35254199999997,
+          376.671486,
+          383.87183600000003,
+          391.072186,
+          398.39113000000003,
+          405.59148000000005,
+          412.79183,
+          420.110774,
+          427.311124,
+          434.51147399999996,
+          441.711824,
+          448.79357999999996,
+          456.112524,
+          463.312874,
+          470.513224,
+          477.713574,
+          485.03251800000004,
+          492.232868,
+          499.433218
+        ],
+        "heads": [
+          {
+            "origin": [
+              295.078814,
+              537.3585840000001
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              308.86960200000004,
+              535.325664
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              317.510022,
+              533.1572160000001
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              326.150442,
+              531.124296
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              333.35079199999996,
+              528.9727889999999
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              340.669736,
+              526.804341
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              347.870086,
+              524.7714209999999
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              355.070436,
+              522.602973
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              362.152192,
+              520.451466
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              369.35254199999997,
+              518.401605
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              376.671486,
+              516.250098
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              383.87183600000003,
+              514.08165
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              391.072186,
+              512.04873
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              398.39113000000003,
+              509.880282
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              405.59148000000005,
+              512.04873
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              412.79183,
+              514.08165
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              420.110774,
+              516.250098
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              427.311124,
+              518.401605
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              434.51147399999996,
+              520.451466
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              441.711824,
+              522.602973
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              448.79357999999996,
+              524.7714209999999
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              456.112524,
+              526.804341
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              463.312874,
+              528.9727889999999
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              470.513224,
+              531.124296
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              477.713574,
+              533.1572160000001
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              485.03251800000004,
+              535.325664
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              492.232868,
+              537.3585840000001
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          },
+          {
+            "origin": [
+              499.433218,
+              539.527032
+            ],
+            "size": 16.94100000000003,
+            "font": "FPKGUX+FEF9FE622DA"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 2,
+        "label": "C ordinary eighth columns bar1;tie receivers included",
+        "box_pt": [
+          69,
+          319,
+          161,
+          344
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          70.83,
+          85.716,
+          100.584,
+          115.452,
+          130.158,
+          145.026,
+          159.912
+        ],
+        "heads": [
+          {
+            "origin": [
+              70.83,
+              327.58169999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              85.716,
+              327.58169999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              100.584,
+              327.58169999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              115.452,
+              327.58169999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              130.158,
+              325.45759999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              145.026,
+              323.33360000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              159.912,
+              327.58169999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 2,
+        "label": "C ordinary eighth columns bar2;tie receivers included",
+        "box_pt": [
+          182,
+          319,
+          289,
+          344
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          183.096,
+          197.982,
+          212.85,
+          227.736,
+          242.604,
+          257.31,
+          272.178,
+          287.046
+        ],
+        "heads": [
+          {
+            "origin": [
+              183.096,
+              327.58169999999996
+            ],
+            "size": 16.29000000000002,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              197.982,
+              327.58169999999996
+            ],
+            "size": 16.29000000000002,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              212.85,
+              327.58169999999996
+            ],
+            "size": 16.29000000000002,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              227.736,
+              327.58169999999996
+            ],
+            "size": 16.29000000000002,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              242.604,
+              327.58169999999996
+            ],
+            "size": 16.29000000000002,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              257.31,
+              325.45759999999996
+            ],
+            "size": 16.29000000000002,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              272.178,
+              323.33360000000005
+            ],
+            "size": 16.29000000000002,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              287.046,
+              325.45759999999996
+            ],
+            "size": 16.29000000000002,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 2,
+        "label": "C ordinary eighth columns bar3;tie receivers included",
+        "box_pt": [
+          309,
+          319,
+          416,
+          344
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          310.248,
+          325.116,
+          340.002,
+          354.87,
+          369.756,
+          384.444,
+          399.33,
+          414.198
+        ],
+        "heads": [
+          {
+            "origin": [
+              310.248,
+              325.45759999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              325.116,
+              325.45759999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              340.002,
+              325.45759999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              354.87,
+              325.45759999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              369.756,
+              325.45759999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              384.444,
+              323.33360000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              399.33,
+              321.2097
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              414.198,
+              321.2097
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 8,
+        "label": "O first-bar continuous16 layer;attached melody heads excluded",
+        "box_pt": [
+          77,
+          325,
+          230,
+          331
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          77.92289543000001,
+          88.002,
+          98.1,
+          108.198,
+          118.296,
+          128.394,
+          138.474,
+          148.572,
+          158.67,
+          168.588,
+          178.686,
+          188.766,
+          198.864,
+          208.962,
+          219.06,
+          229.14
+        ],
+        "heads": [
+          {
+            "origin": [
+              77.92289543000001,
+              325.80000592
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              88.002,
+              330.0476
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              98.1,
+              325.79960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              108.198,
+              330.0476
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              118.296,
+              325.79960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              128.394,
+              330.0476
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              138.474,
+              325.79960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              148.572,
+              330.0476
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              158.67,
+              325.79960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              168.588,
+              330.0476
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              178.686,
+              325.79960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              188.766,
+              330.0476
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              198.864,
+              325.79960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              208.962,
+              330.0476
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              219.06,
+              325.79960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              229.14,
+              330.0476
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 7,
+        "label": "L first row bar1;three ordinary16,six6:4,sixteenths five5:4",
+        "box_pt": [
+          86,
+          55,
+          186,
+          89
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          86.778,
+          95.616,
+          104.31,
+          113.148,
+          119.88,
+          126.612,
+          133.344,
+          140.076,
+          146.808,
+          153.54,
+          161.154,
+          168.93,
+          176.544,
+          184.158
+        ],
+        "heads": [
+          {
+            "origin": [
+              86.778,
+              84.79759999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              95.616,
+              78.4257
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              104.31,
+              76.30160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              113.148,
+              74.17759999999998
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              119.88,
+              69.91160000000002
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              126.612,
+              63.53959999999995
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              133.344,
+              59.29160000000002
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              140.076,
+              61.41560000000004
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              146.808,
+              63.53959999999995
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              153.54,
+              69.91160000000002
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              161.154,
+              74.17759999999998
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              168.93,
+              76.30160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              176.544,
+              78.4257
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              184.158,
+              84.79759999999999
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 7,
+        "label": "L first row bar2;three ordinary16,six6:4,sixteenths five5:4",
+        "box_pt": [
+          243,
+          55,
+          355,
+          89
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          243.846,
+          255.888,
+          265.086,
+          274.302,
+          281.394,
+          292.716,
+          299.988,
+          307.062,
+          314.154,
+          321.228,
+          329.202,
+          337.158,
+          345.132,
+          353.106
+        ],
+        "heads": [
+          {
+            "origin": [
+              243.846,
+              86.92160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              255.888,
+              82.67359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              265.086,
+              78.4257
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              274.302,
+              74.17759999999998
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              281.394,
+              72.05359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              292.716,
+              67.7876
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              299.988,
+              59.29160000000002
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              307.062,
+              63.53959999999995
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              314.154,
+              67.7876
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              321.228,
+              72.05359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              329.202,
+              74.17759999999998
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              337.158,
+              78.4257
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              345.132,
+              82.67359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              353.106,
+              86.92160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 7,
+        "label": "L first row bar3;three ordinary16,six6:4,sixteenths five5:4",
+        "box_pt": [
+          414,
+          55,
+          523,
+          89
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          415.26,
+          426.0601,
+          435.276,
+          444.4741,
+          451.566,
+          461.484,
+          468.558,
+          475.65,
+          482.544,
+          489.636,
+          497.61,
+          505.566,
+          513.54,
+          521.514
+        ],
+        "heads": [
+          {
+            "origin": [
+              415.26,
+              86.92160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              426.0601,
+              82.67359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              435.276,
+              80.54960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              444.4741,
+              76.30160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              451.566,
+              72.05359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              461.484,
+              67.7876
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              468.558,
+              61.41560000000004
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              475.65,
+              65.66359999999997
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              482.544,
+              67.7876
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              489.636,
+              72.05359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              497.61,
+              76.30160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              505.566,
+              80.54960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              513.54,
+              82.67359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              521.514,
+              86.92160000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 7,
+        "label": "M 9/8 bar1 upper onsets;first bar begins tied eighth",
+        "box_pt": [
+          158,
+          448,
+          302,
+          466
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          159.372,
+          173.196,
+          181.692,
+          190.188,
+          198.684,
+          207.18,
+          215.694,
+          224.19,
+          232.686,
+          241.182,
+          249.696,
+          258.012,
+          266.508,
+          275.004,
+          283.518,
+          292.014,
+          300.51
+        ],
+        "heads": [
+          {
+            "origin": [
+              159.372,
+              449.5856
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              173.196,
+              449.5856
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              181.692,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              190.188,
+              458.0816
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              198.684,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              207.18,
+              458.0816
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              215.694,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              224.19,
+              449.5856
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              232.686,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              241.182,
+              458.0816
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              249.696,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              258.012,
+              458.0816
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              266.508,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              275.004,
+              449.5856
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              283.518,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              292.014,
+              458.0816
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              300.51,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 7,
+        "label": "M 9/8 bar1 lower eighth onsets",
+        "box_pt": [
+          158,
+          490,
+          302,
+          560
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          159.372,
+          173.196,
+          190.188,
+          207.18,
+          224.19,
+          241.182,
+          258.012,
+          275.004,
+          292.014
+        ],
+        "heads": [
+          {
+            "origin": [
+              159.372,
+              536.7056
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              173.196,
+              528.2097
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              190.188,
+              521.8376000000001
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              207.18,
+              517.5897
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              224.19,
+              513.3416
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              241.182,
+              506.9696
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              258.012,
+              502.7036
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              275.004,
+              498.4556
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              292.014,
+              492.0836
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 7,
+        "label": "M 9/8 bar2 upper onsets;first bar begins tied eighth",
+        "box_pt": [
+          316,
+          448,
+          463,
+          466
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          317.34,
+          325.836,
+          334.332,
+          342.828,
+          351.342,
+          359.658,
+          368.1541,
+          376.65,
+          385.164,
+          393.66,
+          402.156,
+          410.652,
+          419.148,
+          427.662,
+          435.978,
+          444.4741,
+          452.988,
+          461.484
+        ],
+        "heads": [
+          {
+            "origin": [
+              317.34,
+              458.0816
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              325.836,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              334.332,
+              449.5856
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              342.828,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              351.342,
+              460.2056
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              359.658,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              368.1541,
+              460.2056
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              376.65,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              385.164,
+              449.5856
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              393.66,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              402.156,
+              460.2056
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              410.652,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              419.148,
+              460.2056
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              427.662,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              435.978,
+              449.5856
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              444.4741,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              452.988,
+              460.2056
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              461.484,
+              464.4536
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A060",
+        "page": 7,
+        "label": "M 9/8 bar2 lower eighth onsets",
+        "box_pt": [
+          316,
+          490,
+          463,
+          560
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          317.34,
+          334.332,
+          351.342,
+          368.1541,
+          385.164,
+          402.156,
+          419.148,
+          435.978,
+          452.988
+        ],
+        "heads": [
+          {
+            "origin": [
+              317.34,
+              532.4576
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              334.332,
+              523.9616
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              351.342,
+              517.5897
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              368.1541,
+              513.3416
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              385.164,
+              509.0936
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              402.156,
+              502.7036
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              419.148,
+              523.9616
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              435.978,
+              519.7137
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          },
+          {
+            "origin": [
+              452.988,
+              513.3416
+            ],
+            "size": 16.28989999999999,
+            "font": "BJLFLH+Chaconne"
+          }
+        ]
+      }
+    ],
+    "metrics": [
+      {
+        "label": "A059 F p3s3 quintuplet1 internal only",
+        "axes_pt": [
+          319.79719200000005,
+          327.23473,
+          334.67226800000003,
+          342.10980600000005,
+          349.42875
+        ],
+        "gaps_pt": [
+          7.437537999999961,
+          7.437538000000018,
+          7.437538000000018,
+          7.318943999999931
+        ],
+        "n": 4,
+        "minimum": 7.318943999999931,
+        "maximum": 7.437538000000018,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A059 F p3s3 quintuplet2 internal only",
+        "axes_pt": [
+          356.866288,
+          364.303826,
+          371.758306,
+          379.07725,
+          386.514788
+        ],
+        "gaps_pt": [
+          7.437538000000018,
+          7.45447999999999,
+          7.318943999999988,
+          7.437538000000018
+        ],
+        "n": 4,
+        "minimum": 7.318943999999988,
+        "maximum": 7.45447999999999,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A059 F p3s3 quintuplet3 internal only",
+        "axes_pt": [
+          393.952326,
+          401.389864,
+          408.708808,
+          416.146346,
+          423.583884
+        ],
+        "gaps_pt": [
+          7.437537999999961,
+          7.318943999999988,
+          7.437538000000018,
+          7.437538000000018
+        ],
+        "n": 4,
+        "minimum": 7.318943999999988,
+        "maximum": 7.437538000000018,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A059 F p3s3 quintuplet4 internal only",
+        "axes_pt": [
+          431.021422,
+          438.475902,
+          446.032034,
+          453.46957199999997,
+          460.788516
+        ],
+        "gaps_pt": [
+          7.454480000000046,
+          7.556131999999991,
+          7.437537999999961,
+          7.3189440000000445
+        ],
+        "n": 4,
+        "minimum": 7.3189440000000445,
+        "maximum": 7.556131999999991,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A059 F p3s3 quintuplet5 internal only",
+        "axes_pt": [
+          468.22605400000003,
+          475.663592,
+          483.10113,
+          490.420074,
+          497.874554
+        ],
+        "gaps_pt": [
+          7.437537999999961,
+          7.437538000000018,
+          7.318943999999988,
+          7.45447999999999
+        ],
+        "n": 4,
+        "minimum": 7.318943999999988,
+        "maximum": 7.45447999999999,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A059 F p3s4 quintuplet1 internal only",
+        "axes_pt": [
+          326.150442,
+          333.35079199999996,
+          340.669736,
+          347.870086,
+          355.070436
+        ],
+        "gaps_pt": [
+          7.200349999999958,
+          7.3189440000000445,
+          7.2003500000000145,
+          7.200349999999958
+        ],
+        "n": 4,
+        "minimum": 7.200349999999958,
+        "maximum": 7.3189440000000445,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A059 F p3s4 quintuplet2 internal only",
+        "axes_pt": [
+          362.152192,
+          369.35254199999997,
+          376.671486,
+          383.87183600000003,
+          391.072186
+        ],
+        "gaps_pt": [
+          7.200349999999958,
+          7.3189440000000445,
+          7.2003500000000145,
+          7.200349999999958
+        ],
+        "n": 4,
+        "minimum": 7.200349999999958,
+        "maximum": 7.3189440000000445,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A059 F p3s4 quintuplet3 internal only",
+        "axes_pt": [
+          398.39113000000003,
+          405.59148000000005,
+          412.79183,
+          420.110774,
+          427.311124
+        ],
+        "gaps_pt": [
+          7.2003500000000145,
+          7.200349999999958,
+          7.318943999999988,
+          7.2003500000000145
+        ],
+        "n": 4,
+        "minimum": 7.200349999999958,
+        "maximum": 7.318943999999988,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A059 F p3s4 quintuplet4 internal only",
+        "axes_pt": [
+          434.51147399999996,
+          441.711824,
+          448.79357999999996,
+          456.112524,
+          463.312874
+        ],
+        "gaps_pt": [
+          7.2003500000000145,
+          7.081755999999984,
+          7.3189440000000445,
+          7.2003500000000145
+        ],
+        "n": 4,
+        "minimum": 7.081755999999984,
+        "maximum": 7.3189440000000445,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A059 F p3s4 quintuplet5 internal only",
+        "axes_pt": [
+          470.513224,
+          477.713574,
+          485.03251800000004,
+          492.232868,
+          499.433218
+        ],
+        "gaps_pt": [
+          7.2003500000000145,
+          7.3189440000000445,
+          7.200349999999958,
+          7.2003500000000145
+        ],
+        "n": 4,
+        "minimum": 7.200349999999958,
+        "maximum": 7.3189440000000445,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "C ordinary eighth columns bar1;tie receivers included",
+        "axes_pt": [
+          70.83,
+          85.716,
+          100.584,
+          115.452,
+          130.158,
+          145.026,
+          159.912
+        ],
+        "gaps_pt": [
+          14.885999999999996,
+          14.86800000000001,
+          14.867999999999995,
+          14.705999999999989,
+          14.868000000000023,
+          14.885999999999996
+        ],
+        "n": 6,
+        "minimum": 14.705999999999989,
+        "maximum": 14.885999999999996,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "C ordinary eighth columns bar2;tie receivers included",
+        "axes_pt": [
+          183.096,
+          197.982,
+          212.85,
+          227.736,
+          242.604,
+          257.31,
+          272.178,
+          287.046
+        ],
+        "gaps_pt": [
+          14.885999999999996,
+          14.867999999999995,
+          14.885999999999996,
+          14.868000000000023,
+          14.705999999999989,
+          14.867999999999995,
+          14.867999999999995
+        ],
+        "n": 7,
+        "minimum": 14.705999999999989,
+        "maximum": 14.885999999999996,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "C ordinary eighth columns bar3;tie receivers included",
+        "axes_pt": [
+          310.248,
+          325.116,
+          340.002,
+          354.87,
+          369.756,
+          384.444,
+          399.33,
+          414.198
+        ],
+        "gaps_pt": [
+          14.867999999999995,
+          14.886000000000024,
+          14.867999999999995,
+          14.885999999999967,
+          14.688000000000045,
+          14.885999999999967,
+          14.867999999999995
+        ],
+        "n": 7,
+        "minimum": 14.688000000000045,
+        "maximum": 14.886000000000024,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "O first-bar continuous16 layer;attached melody heads excluded",
+        "axes_pt": [
+          77.92289543000001,
+          88.002,
+          98.1,
+          108.198,
+          118.296,
+          128.394,
+          138.474,
+          148.572,
+          158.67,
+          168.588,
+          178.686,
+          188.766,
+          198.864,
+          208.962,
+          219.06,
+          229.14
+        ],
+        "gaps_pt": [
+          10.079104569999984,
+          10.097999999999999,
+          10.097999999999999,
+          10.098000000000013,
+          10.097999999999999,
+          10.079999999999984,
+          10.098000000000013,
+          10.097999999999985,
+          9.918000000000006,
+          10.098000000000013,
+          10.079999999999984,
+          10.098000000000013,
+          10.097999999999985,
+          10.098000000000013,
+          10.079999999999984
+        ],
+        "n": 15,
+        "minimum": 9.918000000000006,
+        "maximum": 10.098000000000013,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A060 L bar1 ordinary16",
+        "axes_pt": [
+          86.778,
+          95.616,
+          104.31
+        ],
+        "gaps_pt": [
+          8.837999999999994,
+          8.694000000000003
+        ],
+        "n": 2,
+        "minimum": 8.694000000000003,
+        "maximum": 8.837999999999994,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A060 L bar1 6:4 sixteenths",
+        "axes_pt": [
+          113.148,
+          119.88,
+          126.612,
+          133.344,
+          140.076,
+          146.808
+        ],
+        "gaps_pt": [
+          6.731999999999999,
+          6.731999999999999,
+          6.731999999999999,
+          6.731999999999999,
+          6.731999999999999
+        ],
+        "n": 5,
+        "minimum": 6.731999999999999,
+        "maximum": 6.731999999999999,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A060 L bar1 5:4 sixteenths",
+        "axes_pt": [
+          153.54,
+          161.154,
+          168.93,
+          176.544,
+          184.158
+        ],
+        "gaps_pt": [
+          7.614000000000004,
+          7.7760000000000105,
+          7.614000000000004,
+          7.613999999999976
+        ],
+        "n": 4,
+        "minimum": 7.613999999999976,
+        "maximum": 7.7760000000000105,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A060 L bar2 ordinary16",
+        "axes_pt": [
+          243.846,
+          255.888,
+          265.086
+        ],
+        "gaps_pt": [
+          12.042000000000002,
+          9.198000000000008
+        ],
+        "n": 2,
+        "minimum": 9.198000000000008,
+        "maximum": 12.042000000000002,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A060 L bar2 6:4 sixteenths",
+        "axes_pt": [
+          274.302,
+          281.394,
+          292.716,
+          299.988,
+          307.062,
+          314.154
+        ],
+        "gaps_pt": [
+          7.0919999999999845,
+          11.322000000000003,
+          7.271999999999991,
+          7.074000000000012,
+          7.0919999999999845
+        ],
+        "n": 5,
+        "minimum": 7.074000000000012,
+        "maximum": 11.322000000000003,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A060 L bar2 5:4 sixteenths",
+        "axes_pt": [
+          321.228,
+          329.202,
+          337.158,
+          345.132,
+          353.106
+        ],
+        "gaps_pt": [
+          7.9739999999999895,
+          7.956000000000017,
+          7.9739999999999895,
+          7.9739999999999895
+        ],
+        "n": 4,
+        "minimum": 7.956000000000017,
+        "maximum": 7.9739999999999895,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A060 L bar3 ordinary16",
+        "axes_pt": [
+          415.26,
+          426.0601,
+          435.276
+        ],
+        "gaps_pt": [
+          10.800099999999986,
+          9.215900000000033
+        ],
+        "n": 2,
+        "minimum": 9.215900000000033,
+        "maximum": 10.800099999999986,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A060 L bar3 6:4 sixteenths",
+        "axes_pt": [
+          444.4741,
+          451.566,
+          461.484,
+          468.558,
+          475.65,
+          482.544
+        ],
+        "gaps_pt": [
+          7.091899999999953,
+          9.918000000000006,
+          7.074000000000012,
+          7.0919999999999845,
+          6.8940000000000055
+        ],
+        "n": 5,
+        "minimum": 6.8940000000000055,
+        "maximum": 9.918000000000006,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A060 L bar3 5:4 sixteenths",
+        "axes_pt": [
+          489.636,
+          497.61,
+          505.566,
+          513.54,
+          521.514
+        ],
+        "gaps_pt": [
+          7.9739999999999895,
+          7.95599999999996,
+          7.9739999999999895,
+          7.974000000000046
+        ],
+        "n": 4,
+        "minimum": 7.95599999999996,
+        "maximum": 7.974000000000046,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "M 9/8 bar1 lower eighth onsets",
+        "axes_pt": [
+          159.372,
+          173.196,
+          190.188,
+          207.18,
+          224.19,
+          241.182,
+          258.012,
+          275.004,
+          292.014
+        ],
+        "gaps_pt": [
+          13.823999999999984,
+          16.99199999999999,
+          16.99200000000002,
+          17.00999999999999,
+          16.99199999999999,
+          16.830000000000013,
+          16.99200000000002,
+          17.00999999999999
+        ],
+        "n": 8,
+        "minimum": 13.823999999999984,
+        "maximum": 17.00999999999999,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "M 9/8 bar1 upper16 only",
+        "axes_pt": [
+          173.196,
+          181.692,
+          190.188,
+          198.684,
+          207.18,
+          215.694,
+          224.19,
+          232.686,
+          241.182,
+          249.696,
+          258.012,
+          266.508,
+          275.004,
+          283.518,
+          292.014,
+          300.51
+        ],
+        "gaps_pt": [
+          8.49600000000001,
+          8.495999999999981,
+          8.49600000000001,
+          8.49600000000001,
+          8.513999999999982,
+          8.49600000000001,
+          8.49600000000001,
+          8.495999999999981,
+          8.51400000000001,
+          8.316000000000003,
+          8.495999999999981,
+          8.496000000000038,
+          8.513999999999953,
+          8.496000000000038,
+          8.495999999999981
+        ],
+        "n": 15,
+        "minimum": 8.316000000000003,
+        "maximum": 8.51400000000001,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "M 9/8 bar2 lower eighth onsets",
+        "axes_pt": [
+          317.34,
+          334.332,
+          351.342,
+          368.1541,
+          385.164,
+          402.156,
+          419.148,
+          435.978,
+          452.988
+        ],
+        "gaps_pt": [
+          16.99200000000002,
+          17.00999999999999,
+          16.812100000000044,
+          17.00989999999996,
+          16.99200000000002,
+          16.99200000000002,
+          16.829999999999984,
+          17.00999999999999
+        ],
+        "n": 8,
+        "minimum": 16.812100000000044,
+        "maximum": 17.00999999999999,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "M 9/8 bar2 upper16 only",
+        "axes_pt": [
+          317.34,
+          325.836,
+          334.332,
+          342.828,
+          351.342,
+          359.658,
+          368.1541,
+          376.65,
+          385.164,
+          393.66,
+          402.156,
+          410.652,
+          419.148,
+          427.662,
+          435.978,
+          444.4741,
+          452.988,
+          461.484
+        ],
+        "gaps_pt": [
+          8.496000000000038,
+          8.495999999999981,
+          8.495999999999981,
+          8.51400000000001,
+          8.316000000000031,
+          8.496100000000013,
+          8.49589999999995,
+          8.51400000000001,
+          8.496000000000038,
+          8.495999999999981,
+          8.495999999999981,
+          8.496000000000038,
+          8.513999999999953,
+          8.316000000000031,
+          8.496100000000013,
+          8.513899999999978,
+          8.495999999999981
+        ],
+        "n": 17,
+        "minimum": 8.316000000000031,
+        "maximum": 8.51400000000001,
+        "boundary_gaps_excluded": true
+      }
+    ],
+    "tempo_equation_glyphs": [
+      {
+        "id": "A060",
+        "page": 7,
+        "text": "e",
+        "origin": [
+          133.606764,
+          438.6057
+        ],
+        "size": 11.339999999999975,
+        "font": "BJLFLH+Chaconne"
+      },
+      {
+        "id": "A060",
+        "page": 7,
+        "text": "e",
+        "origin": [
+          146.07622800000001,
+          438.6057
+        ],
+        "size": 11.339999999999975,
+        "font": "BJLFLH+Chaconne"
+      }
+    ],
+    "tempo_equation_interpretation": "Visually two eighth-note glyphs;identical source character,font,size. Eighth=eighth across2/4 to9/8,acceleration follows;not quarter=eighth.",
+    "duration_recipes": [
+      {
+        "label": "A059 F fast run plus quarter rest",
+        "quarter_units": [
+          "1/4",
+          "1/8",
+          "1/8",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A059 opening dottedquarter,eighth tie receiver half",
+        "quarter_units": [
+          "3/2",
+          "1/2",
+          "2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A059 p5s1 short2/4 quarter rest and xhead quarter gliss",
+        "quarter_units": [
+          "1",
+          "1"
+        ],
+        "total_quarters": "2",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A059 following C upper eighth rest and seven eighths",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A059 closing penultimate lower quarters/rests;8vb begins second chord",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 C first bar rest plus seven eighth columns",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 O first bar continuous ordinary16",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 L first-row rest,three16,six6:4,five5:4,quarter rest",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 M initial2/4 upper two quarters",
+        "quarter_units": [
+          "1",
+          "1"
+        ],
+        "total_quarters": "2",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 M initial2/4 lower eighthrest,eighthnote,quarter",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1"
+        ],
+        "total_quarters": "2",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 M first9/8 upper tied eighth and sixteen16",
+        "quarter_units": [
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "9/2",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 M second9/8 upper eighteen16",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "9/2",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 M each9/8 lower nine8",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "9/2",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 M following2/4 upper eighthrest,quarter,eighth",
+        "quarter_units": [
+          "1/2",
+          "1",
+          "1/2"
+        ],
+        "total_quarters": "2",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A060 final silent C bar whole-bar rest;fermata adds free wait",
+        "quarter_units": [
+          "4"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms,not full pitch/voice/playback reconstruction"
+      }
+    ],
+    "M_event_order": [
+      {
+        "bar": 1,
+        "unique_times": 17,
+        "common_onsets": [
+          "0",
+          "1/2",
+          "1",
+          "3/2",
+          "2",
+          "5/2",
+          "3",
+          "7/2",
+          "4"
+        ],
+        "event_order_preserved": true,
+        "upper_times": [
+          "0",
+          "1/2",
+          "3/4",
+          "1",
+          "5/4",
+          "3/2",
+          "7/4",
+          "2",
+          "9/4",
+          "5/2",
+          "11/4",
+          "3",
+          "13/4",
+          "7/2",
+          "15/4",
+          "4",
+          "17/4"
+        ],
+        "lower_times": [
+          "0",
+          "1/2",
+          "1",
+          "3/2",
+          "2",
+          "5/2",
+          "3",
+          "7/2",
+          "4"
+        ]
+      },
+      {
+        "bar": 2,
+        "unique_times": 18,
+        "common_onsets": [
+          "0",
+          "1/2",
+          "1",
+          "3/2",
+          "2",
+          "5/2",
+          "3",
+          "7/2",
+          "4"
+        ],
+        "event_order_preserved": true,
+        "upper_times": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4",
+          "1",
+          "5/4",
+          "3/2",
+          "7/4",
+          "2",
+          "9/4",
+          "5/2",
+          "11/4",
+          "3",
+          "13/4",
+          "7/2",
+          "15/4",
+          "4",
+          "17/4"
+        ],
+        "lower_times": [
+          "0",
+          "1/2",
+          "1",
+          "3/2",
+          "2",
+          "5/2",
+          "3",
+          "7/2",
+          "4"
+        ]
+      }
+    ]
+  },
+  "cache_numbering_corrections": [
+    {
+      "old_file_number": 123,
+      "actual_printed_page": 103,
+      "actual_pdf_page": 123,
+      "new_credit": false,
+      "action": "Viewed actual old page and re-rendered target printed page,which is n+20 physical. Old file retained."
+    },
+    {
+      "old_file_number": 124,
+      "actual_printed_page": 104,
+      "actual_pdf_page": 124,
+      "new_credit": false,
+      "action": "Viewed actual old page and re-rendered target printed page,which is n+20 physical. Old file retained."
+    },
+    {
+      "old_file_number": 191,
+      "actual_printed_page": 171,
+      "actual_pdf_page": 191,
+      "new_credit": false,
+      "action": "Viewed actual old page and re-rendered target printed page,which is n+20 physical. Old file retained."
+    },
+    {
+      "old_file_number": 192,
+      "actual_printed_page": 172,
+      "actual_pdf_page": 192,
+      "new_credit": false,
+      "action": "Viewed actual old page and re-rendered target printed page,which is n+20 physical. Old file retained."
+    }
+  ],
+  "judgments": [
+    "Keep C eighth and O sixteenth active-layer pulse;slow attached stems preserve independent line",
+    "L ordinary,6:4 and5:4 have different values;compare within group and allow accidental occupancy,do not equalize14heads",
+    "Homura F28heads are ordinary16,two32,thenfive5:4groups of32,plusquarterrest;keep independent ordinary8 pulse",
+    "M eighth=eighth across2/4 to9/8;preserve tied first8,later acceleration,and17/18distinct event order",
+    "Consider short bracket for three triplet16 before ordinary8 under shared primary beam",
+    "Keep Homura open resonance versus actual tied receiver,upper dynamics channel,gliss landing a full C bar before H,midrow J and final local8vb",
+    "Keep Hyori final silent fermata bar;do not normalize to Homura final sounding chord fermata",
+    "Wind clefs,octaves,enharmonic spelling and special heads require instrument/technique context;not universal piano style rules"
+  ],
+  "book": {
+    "new_substantive_printed_range": [
+      251,
+      262
+    ],
+    "new_substantive_pages": 12,
+    "new_unique_pages": 22,
+    "new_reference_table_pages": 3,
+    "new_reference_table_printed_pages": [
+      252,
+      254,
+      261
+    ],
+    "new_ancillary_pages": 10,
+    "new_ancillary_printed_pages": [
+      44,
+      45,
+      46,
+      74,
+      75,
+      76,
+      123,
+      124,
+      191,
+      192
+    ],
+    "new_ancillary_pdf_pages": [
+      64,
+      65,
+      66,
+      94,
+      95,
+      96,
+      143,
+      144,
+      211,
+      212
+    ],
+    "ancillary_classification": {
+      "blank": [
+        44,
+        74
+      ],
+      "title": [
+        45,
+        75,
+        123,
+        191
+      ],
+      "contents": [
+        46,
+        76,
+        124,
+        192
+      ]
+    },
+    "reread_printed_pages": [
+      28,
+      31,
+      39,
+      60,
+      72,
+      73,
+      103,
+      104,
+      140,
+      141,
+      142,
+      156,
+      171,
+      172,
+      173,
+      174,
+      200,
+      207,
+      213,
+      307,
+      308,
+      334,
+      335,
+      337,
+      490
+    ],
+    "physical_offset": 20,
+    "chapter_status": "Woodwind/brass chapter not complete;continues263 onward."
+  },
+  "unresolved": [
+    "Native short-bracket alternative not rendered",
+    "Full pitch/voice/playback reconstruction,editor workflow,precise pedal/gliss/hand execution and actual physical print/turn remain untested",
+    "No new personal preference or new host defect reproduced;source spacing is a conditional positive reference"
+  ],
+  "changes": {
+    "new_animenz_closeouts": 2,
+    "new_closeout_pages": 14,
+    "new_resource_completions": 0,
+    "new_gould_substantive": 12,
+    "new_gould_ancillary": 10,
+    "new_fixed_transfer": 0,
+    "new_user_integrated_rounds": 0,
+    "new_native_or_adaptation": 0,
+    "files_deleted": 0
+  },
+  "validation": {
+    "status": "passed",
+    "source_pdf_hash_and_page_checks": 3,
+    "images_actually_viewed_and_hashed": 127,
+    "whole_score_pages": 14,
+    "whole_system_rows": 78,
+    "system_detail_images": 66,
+    "source_head_origin_checks": 190,
+    "tempo_equation_glyphs_verified": 2,
+    "within_group_gap_measurements": 156,
+    "selected_duration_recipes": 15,
+    "M_event_order_distinct_times": [
+      17,
+      18
+    ],
+    "new_substantive_book_pages": 12,
+    "new_reference_table_pages": 3,
+    "new_ancillary_pages": 10,
+    "book_rereads_not_recredited": 25,
+    "cache_numbering_corrections": 4,
+    "new_corpus_closeout_credit": 2,
+    "new_resource_or_transfer_credit": 0,
+    "skill_routes_executed": 20,
+    "new_case_routes_linked": 13,
+    "wind_routes_linked": 4,
+    "local_markdown_links_checked": 796,
+    "public_paths": 22,
+    "files_deleted": 0,
+    "new_native_or_adaptation": 0,
+    "release_0_8_tag_certificate_and_skill_metadata_unchanged": true,
+    "all_material_goal": "active"
+  },
+  "cache": {
+    "measured_at_utc": "2026-10-27T01:27:51.960357+00:00",
+    "batch_logical_bytes": 15735213,
+    "total_logical_bytes": 2638245495,
+    "total_on_disk_bytes": 2496956268,
+    "new_images": 94,
+    "reused_images": 33,
+    "original_pdf_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Logical file lengths,not volume delta;inventory before final small records.Four physical-page-numbered caches retained as rereads and correct printed pages rendered;no duplicate reading credit."
+  }
+}

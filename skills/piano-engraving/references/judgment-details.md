@@ -195,6 +195,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`INTEGRATED_READING_HOMURA_HYORI.md`的叉头滑奏从2/4跨到下一C，H在再下一小节；保不定音高、实际接收及一完整小节准备，不能吸到段首。
+
 `LEGATO_RAVEL_READING.md`保Chabrier局部第三表及其前导空小节，为独立低部建立阅读位置；按角色清晰度与相邻转换评估压回双表。手括形、括起休止、连音和另置谱号分别读，括号不等于可删。
 
 `INTEGRATED_READING_FATE_FRIEREN.md`的平梁若为两向干等长而上移，会压到谱线；保净空与实际拍组。比较梁高、谱表距和完整行容量，不能单独设统一干长。
@@ -216,6 +218,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
 
 <a id="tempo"></a>
+
+`INTEGRATED_READING_HOMURA_HYORI.md`的M在2/4→9/8写八分＝八分，渐快另在随后生效；首头为前和弦tie接收。先认旗、点和单位，再核实际时间关系，不能从换拍或段号猜换速。
 
 `INTEGRATED_READING_GOD_POKEMON.md`中标题、拍速、调号与弱起各有时点；Sea拍速先于标题，Cycling先速度后弱起。按真实进入保留锚点，不为标题齐头搬动状态。
 

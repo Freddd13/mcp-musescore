@@ -118,3 +118,7 @@ MPA补图本轮未完成：官方20页入口仍可读取，但截图无可见像
 ## 2026-10-27：断口的新原位音决定能否合线
 
 [光るなら／History Maker](INTEGRATED_READING_HIKARU_HISTORY.md)：A058 J首小节正中有新下干附点四分，两个8va须保断口；下一小节仅开头长和弦已起音，可跨快层短休止。第三小节主线换表再判；A057 L末弱起前已结束8va，不能拖到下一主题首音。
+
+## 2026-10-27：局部低八度不能扩到整个段
+
+[Homura／Hyori Ittai](INTEGRATED_READING_HOMURA_HYORI.md)：A059末行倒数第二小节8vb从下表第二四分和弦才开始；A060 M下表8vb在2/4内，9/8首恢复loco。先定位新起音与接收，不吸到J／M字母。[木管条件](WIND_NOTATION_READING.md)另读，不能照搬钢琴省加线阈值。

@@ -89,3 +89,7 @@ p116允许在明确建立模式后用stacc. sempre、marcato sempre或sim.省重
 ## 2026-10-27：fp在接收前，sfz可在另一层休止中进入
 
 [Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A054 G旁fp位于小节线前最后8和弦，后面才接收；较后sfz下层新和弦对应上层8休止。A053 F p sub.／mp分层。保实际进入点，不统一拖到段首或每小节首拍。
+
+## 2026-10-27：通道与发动点分别保护
+
+[Homura／Hyori Ittai](INTEGRATED_READING_HOMURA_HYORI.md)：A059 p2s5 mp／渐变在上方给内层留通道；C前已有f con fuoco发动。A060 M sfz与pp属不同层，不能平均到一个全体力度；段号不决定所有标记生效点。
