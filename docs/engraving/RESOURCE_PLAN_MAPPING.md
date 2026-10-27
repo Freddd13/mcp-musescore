@@ -1,5 +1,7 @@
 # 用户所给资源规划：落实顺序与证据范围
 
+2026-10-27补齐[R06拉威尔两首仿作](LEGATO_RAVEL_READING.md)：IMSLP#918406／918407的Legato2024版本全部7页及27系统实际读图，作品说明、封面、页脚与PDF元数据核对。资料12/25（余13项）；R06固定成品／署名／版本范围完成，视频、其它版本与R05整体作者资料不随之结项。R20／R22缺图本次重试仍未补到。
+
 2026-10-26补[R20手册及源码核对](MUSESCORE3_LAYOUT_READING.md)：将原“相关章节及Evolution差异”展开为8段规定正文与14幅关联不同图（15处位置）。正文8/8，图0/14；英文旧URL跳Studio，改核官方3版连续打印页及中文旧版，普通HTML403／图Cache miss保留。八项源码核对与五条件原生参数探针帮助分清Spacing、局部stretch及各类重置；它们不代替缺图，资料仍11/25、余14项。
 
 2026-10-24补齐[R24定向键盘／多声部谱例](LILYPOND_KEYBOARD_CASES.md)：固定9例、9/9官方图、9/9完整.ly源码，规定阅读范围闭合，资料11/25、余14项。下文“图未显示／R24 partial”为历史状态；本批未编译，未覆盖整个LSR。R22配图普通HTTPS与浏览器通道重试仍超时，仍缺图、总数未知，不重算为完成。
@@ -27,7 +29,7 @@
 | Kokecola [输入篇](https://note.com/kokecola/n/n67b13d01c746) | 已读正文；续看音符完成、全部元素完成两图 | 其余界面截图未看完；凌乱图包含关闭部分自动调整的状态，不能当本项目全局设置建议或默认引擎比较 |
 | Kokecola [净书篇](https://note.com/kokecola/n/n6df2c29e9942) | 已读正文；同日续学取得并实际看过梁、变音、休止、间距、综合调整、成品、默认对照7图 | 图例与原生实验见[间距取舍](SPACING_DECISIONS.md)。正文省略的详细规则仍须其它依据；准备/输入篇截图不因此算已读 |
 | Legatissimo- [主页](https://space.bilibili.com/372657607/) | 动态页读取失败；后续核实首条作品页面的署名与账号链接 | 核实主页及每条作品署名；成品不能证明做过哪些人工操作 |
-| [À la manière de…](https://www.bilibili.com/video/BV1mz421b77e/) | 已读公开页面说明，核实Legatissimo署名、IMSLP发布与演奏者信息 | 视频画面未看，IMSLP源谱未取得；不据此声称了解其调整过程 |
+| [À la manière de…](https://www.bilibili.com/video/BV1mz421b77e/) | 已读公开页面说明，核实Legatissimo署名、IMSLP发布与演奏者信息 | 2026-10-27已补Legato2024两份成品7/7页及署名／版本；视频画面与其它底本未读，调整过程未知，见[R06案例](LEGATO_RAVEL_READING.md) |
 | [第一叙事曲](https://www.bilibili.com/video/BV1wwH5esEBt/) | 页面读取失败 | 待核所用Henle/PWM版本及其校对与净书的区别 |
 | [Imaginary Polonaise](https://www.bilibili.com/video/BV1Ff4y1B7WW/) | 页面读取失败 | 待核采谱/净书署名及具体谱例 |
 | [Por Una Cabeza](https://www.bilibili.com/video/BV1UX4y167md/) | 页面返回412 | 待核MuseScore版本与实图，不因平台说明直接推断全部布局操作 |
