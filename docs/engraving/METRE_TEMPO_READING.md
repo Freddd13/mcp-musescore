@@ -109,3 +109,7 @@ Gould p187–190区分额外断开、对音／休止的延长及严格计量的�
 ## 2026-10-27：换段的准备和标题各有时间
 
 [God knows／宝可梦](INTEGRATED_READING_GOD_POKEMON.md)：A050 Cerulean旧四分接收后才给标题／四分129，下一小节才取消调号；Cycling旧二分延长后在休止给145，mf弱起稍后；Sea的6/8／附点四分76先于标题三小节。保真实进入，不把拍／速度／调号／弱起统统吸到标题。
+
+## 2026-10-27：a tempo可在小节末弱起生效
+
+[光るなら／History Maker](INTEGRATED_READING_HIKARU_HISTORY.md)：A057 p6s5第二小节最后八分已经a tempo，下一小节才是完整主题；8va又更早在休止前结束。A0586/8与圆舞曲文字分读，不能把所有改变吸到字母／小节首。

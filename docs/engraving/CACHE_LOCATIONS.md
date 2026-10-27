@@ -78,3 +78,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-27 Gurenge／Hacking批次缓存约12.75MiB，总净书缓存约2.422GiB逻辑长度；88张记录图复用23张、新增65张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确字节及单页复渲说明](gurenge_hacking_closeout_evidence.json)先于最终小记录。
 
 2026-10-27拉威尔资源批次缓存约9.16MiB，总净书缓存约2.431GiB逻辑长度；46张新图、15张旧教材图复用，另新增两份公开参考PDF共289860字节。用户原PDF／MSCZ／教材及运行时无副本或改写，无删除或清点错误，低于100MiB／3GiB检查线；[精确时点](legato_ravel_reading_evidence.json)先于最终小记录。
+
+2026-10-27光るなら／History Maker批次约11.60MiB，总净书缓存约2.442GiB逻辑长度；99图记录复用28张、新增71张。无原PDF／运行时副本、删除或扫描错误，低于100MiB／3GiB检查线；[精确时点与复渲说明](hikaru_history_closeout_evidence.json)先于最终小记录。

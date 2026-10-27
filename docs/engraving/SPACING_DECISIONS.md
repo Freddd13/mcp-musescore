@@ -172,3 +172,7 @@ Kokecola[净书篇](https://note.com/kokecola/n/n6df2c29e9942)的梁、变音、
 ## 2026-10-27：复杂慢层下也可保持近稳快层
 
 [Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A053 F三小节48个16，45组内步长9.716–9.971pt；A054 G两行67组内八分间隔11.502–11.700pt。保实际进入、变音与持音，不把小节边界空白混进同值均匀度；尚未证明最低预算或MuseScore失败。
+
+## 2026-10-27：稳定组形允许整行舒展
+
+[光るなら／History Maker](INTEGRATED_READING_HIKARU_HISTORY.md)：A058 F七小节77个小节内步长12.584–15.421pt，其中前两行约12.6–12.9、下一行约15.2–15.4，各小节近稳；H44间隔9.216–9.395pt。N前25头与下层11起音保34真实时点，不把近邻吸成同步。
