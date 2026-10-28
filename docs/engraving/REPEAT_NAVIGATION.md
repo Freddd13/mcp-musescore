@@ -94,3 +94,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-27：跳前tie和落点留白是导航信息
 
 [Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A053 p4末D.S.回p3 D，再由p3s4 To Coda跳p4末Coda，接p5 H。保跳前／落点接收和局部8vb，不顺读E或将Coda全重奏；原生展开与物理翻页仍未核。
+
+## 2026-10-29：落点后的过渡仍是音乐
+
+[Kigeki](INTEGRATED_READING_KIGEKI_KILLY.md)Segno C、to Coda、D.S.及新系统Coda构成实际路线；Coda先有旧调4/4过渡，后换新调12/8。不能将Coda、F字框、长弧、等式和首音合成一个锚点；返回还查局部解释、力度与接收。Gould238–240支持显眼目标，也要求评估来回导航负担。
