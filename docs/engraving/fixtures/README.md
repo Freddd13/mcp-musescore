@@ -292,3 +292,13 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [快层两手同框](inner-beams-comparison.png)／[四小节上下文](inner-beams-full-context.png)：180dpi原生PNG合白底，共同裁框及比例，标签置于音乐外。
 
 各版本只差BeamMode；发布输入为原生保存版并更正共同source说明，均实际重载核SVG与再次保存。原生、MIDI配方及MusicXML导回的逐层梁保持；首存手写输入的精度差异、完整核查与候选理由见[专题](../INNER_BEAM_HIERARCHY_STUDY.md)及[证据](../inner_beam_hierarchy_evidence.json)。没有实曲迁移、打印或用户采用。
+
+## 部分梁连音的短括号
+
+独立原创CC0四小节4/4钢琴双表，52书面音／52攻击、两系统。固定Leland／Leland Text、1.57mm谱间及180mm版心。
+
+- [A裸数字](partial-tuplet-bare.mscx)／[B短括号](partial-tuplet-short.mscx)：两份原生保存且重载输入；只差两处部分梁括号显示，完整六连控制保裸数字。
+- [自动探针](partial-tuplet-auto-probe.mscx)：手写输入仅核SVG／MusicXML导出，未认证重载。
+- [第一行两手对照](partial-tuplet-brackets-comparison.png)／[四小节上下文](partial-tuplet-brackets-full-context.png)：共同原生保存基线、180dpi、同框同物理比例。
+
+[理由与范围](../PARTIAL_TUPLET_BRACKETS_STUDY.md)及[证据](../partial_tuplet_brackets_evidence.json)记录22次CLI、精确分数配方、逐层梁、MIDI量化、原生重载及自动漏显的具体条件；没有实际打印、实曲迁移或用户采用。

@@ -1,0 +1,1002 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "study": "PARTIAL_TUPLET_BRACKETS_STUDY.md",
+  "scope": "2 complete native conditions plus1 automatic-display diagnostic; original CC0 four-bar music",
+  "primary_conditions_completed": 2,
+  "primary_conditions_planned": 2,
+  "auto_diagnostic_export_formats": [
+    "SVG",
+    "MusicXML"
+  ],
+  "successful_CLI_count": 22,
+  "verification": {
+    "date": "2026-10-29",
+    "cases": {
+      "bare": {
+        "written_notes": 52,
+        "played_attacks": 52,
+        "systems": [
+          1,
+          3
+        ],
+        "musicxml_exact_fraction_recipe": true,
+        "all_note_pitch_spelling_voice_and_beam_layers_checked": true,
+        "brackets": [
+          {
+            "measure": 1,
+            "onset_quarter": "1/2",
+            "attrs": {
+              "type": "start",
+              "bracket": "no"
+            }
+          },
+          {
+            "measure": 2,
+            "onset_quarter": "1",
+            "attrs": {
+              "type": "start",
+              "bracket": "no"
+            }
+          },
+          {
+            "measure": 3,
+            "onset_quarter": "0",
+            "attrs": {
+              "type": "start",
+              "bracket": "no"
+            }
+          }
+        ],
+        "all_note_xy_and_non_tuplet_SVG_identical_between_conditions": true,
+        "native_reload_music_ratio_scope_beam_and_brackets_preserved": true,
+        "second_save_byte_identical": true,
+        "first_save_max_svg_coordinate_rounding": 0.010000000000218279,
+        "MIDI_sha256": "38adfdb8a10b652aba01f42b8dc8f37f10c74d5437ea71a0e9d18a002d410050",
+        "MIDI_all_notes_checked_max_tick_error": "6/7",
+        "MIDI_PPQ": 480
+      },
+      "short": {
+        "written_notes": 52,
+        "played_attacks": 52,
+        "systems": [
+          1,
+          3
+        ],
+        "musicxml_exact_fraction_recipe": true,
+        "all_note_pitch_spelling_voice_and_beam_layers_checked": true,
+        "brackets": [
+          {
+            "measure": 1,
+            "onset_quarter": "1/2",
+            "attrs": {
+              "type": "start",
+              "bracket": "yes"
+            }
+          },
+          {
+            "measure": 2,
+            "onset_quarter": "1",
+            "attrs": {
+              "type": "start",
+              "bracket": "yes"
+            }
+          },
+          {
+            "measure": 3,
+            "onset_quarter": "0",
+            "attrs": {
+              "type": "start",
+              "bracket": "no"
+            }
+          }
+        ],
+        "all_note_xy_and_non_tuplet_SVG_identical_between_conditions": true,
+        "native_reload_music_ratio_scope_beam_and_brackets_preserved": true,
+        "second_save_byte_identical": true,
+        "first_save_max_svg_coordinate_rounding": 0.010000000000218279,
+        "MIDI_sha256": "38adfdb8a10b652aba01f42b8dc8f37f10c74d5437ea71a0e9d18a002d410050",
+        "MIDI_all_notes_checked_max_tick_error": "6/7",
+        "MIDI_PPQ": 480
+      }
+    },
+    "auto_probe_identical_to_bare_classed_SVG_drawing": true,
+    "independent_original_CC0_fixture": true,
+    "only_two_input_bracketType_values_changed": true,
+    "complete6_control_kept_unbracketed": true,
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "runtime_files_verified_before": 1936,
+    "runtime_files_verified_after": 1936,
+    "original_reference_or_user_files_opened_or_changed_this_batch": false,
+    "software_adaptation_changes": 0,
+    "new_reading_coverage": 0,
+    "user_preference_confirmed": false,
+    "actual_printer_or_human_performance_tested": false,
+    "image_crops": {
+      "full": [
+        90,
+        116,
+        1405,
+        752
+      ],
+      "first-system": [
+        90,
+        116,
+        1405,
+        397
+      ]
+    },
+    "image_pixel_scale": "180dpi native export from saved/reloaded common baseline; no rescale",
+    "source_code_observation": {
+      "path": "E:/programming/funcodes/muse3_dev/MuseScore/libmscore/tuplet.cpp",
+      "lines": "281-301",
+      "observation": "AUTO checks whether each member has any beam, not whether beam extends outside tuplet; runtime behavior reproduced"
+    }
+  },
+  "independent_recipe": [
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "0",
+      "duration_quarter": "1/2",
+      "written_type": "eighth",
+      "pitch": 65,
+      "tpc": 13,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "1/2",
+      "duration_quarter": "1/7",
+      "written_type": "16th",
+      "pitch": 69,
+      "tpc": 17,
+      "ratio": [
+        7,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "9/14",
+      "duration_quarter": "1/7",
+      "written_type": "16th",
+      "pitch": 72,
+      "tpc": 14,
+      "ratio": [
+        7,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "11/14",
+      "duration_quarter": "1/7",
+      "written_type": "16th",
+      "pitch": 74,
+      "tpc": 16,
+      "ratio": [
+        7,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "13/14",
+      "duration_quarter": "1/7",
+      "written_type": "16th",
+      "pitch": 72,
+      "tpc": 14,
+      "ratio": [
+        7,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "15/14",
+      "duration_quarter": "1/7",
+      "written_type": "16th",
+      "pitch": 69,
+      "tpc": 17,
+      "ratio": [
+        7,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "17/14",
+      "duration_quarter": "1/7",
+      "written_type": "16th",
+      "pitch": 67,
+      "tpc": 15,
+      "ratio": [
+        7,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "19/14",
+      "duration_quarter": "1/7",
+      "written_type": "16th",
+      "pitch": 65,
+      "tpc": 13,
+      "ratio": [
+        7,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "3/2",
+      "duration_quarter": "1/2",
+      "written_type": "eighth",
+      "pitch": 64,
+      "tpc": 18,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 62,
+      "tpc": 16,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 65,
+      "tpc": 13,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 60,
+      "tpc": 14,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 1,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 64,
+      "tpc": 18,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "0",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 65,
+      "tpc": 13,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "0",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 69,
+      "tpc": 17,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "1",
+      "duration_quarter": "1/6",
+      "written_type": "16th",
+      "pitch": 74,
+      "tpc": 16,
+      "ratio": [
+        3,
+        2
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "7/6",
+      "duration_quarter": "1/6",
+      "written_type": "16th",
+      "pitch": 72,
+      "tpc": 14,
+      "ratio": [
+        3,
+        2
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "4/3",
+      "duration_quarter": "1/6",
+      "written_type": "16th",
+      "pitch": 69,
+      "tpc": 17,
+      "ratio": [
+        3,
+        2
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "3/2",
+      "duration_quarter": "1/2",
+      "written_type": "eighth",
+      "pitch": 67,
+      "tpc": 15,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 65,
+      "tpc": 13,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 2,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 64,
+      "tpc": 18,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 3,
+      "onset_quarter": "0",
+      "duration_quarter": "1/6",
+      "written_type": "16th",
+      "pitch": 65,
+      "tpc": 13,
+      "ratio": [
+        6,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 3,
+      "onset_quarter": "1/6",
+      "duration_quarter": "1/6",
+      "written_type": "16th",
+      "pitch": 67,
+      "tpc": 15,
+      "ratio": [
+        6,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 3,
+      "onset_quarter": "1/3",
+      "duration_quarter": "1/6",
+      "written_type": "16th",
+      "pitch": 69,
+      "tpc": 17,
+      "ratio": [
+        6,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 3,
+      "onset_quarter": "1/2",
+      "duration_quarter": "1/6",
+      "written_type": "16th",
+      "pitch": 72,
+      "tpc": 14,
+      "ratio": [
+        6,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 3,
+      "onset_quarter": "2/3",
+      "duration_quarter": "1/6",
+      "written_type": "16th",
+      "pitch": 69,
+      "tpc": 17,
+      "ratio": [
+        6,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 3,
+      "onset_quarter": "5/6",
+      "duration_quarter": "1/6",
+      "written_type": "16th",
+      "pitch": 67,
+      "tpc": 15,
+      "ratio": [
+        6,
+        4
+      ]
+    },
+    {
+      "staff": 0,
+      "measure": 3,
+      "onset_quarter": "1",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 65,
+      "tpc": 13,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 3,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 64,
+      "tpc": 18,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 3,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 62,
+      "tpc": 16,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 4,
+      "onset_quarter": "0",
+      "duration_quarter": "2",
+      "written_type": "half",
+      "pitch": 60,
+      "tpc": 14,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 4,
+      "onset_quarter": "0",
+      "duration_quarter": "2",
+      "written_type": "half",
+      "pitch": 65,
+      "tpc": 13,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 4,
+      "onset_quarter": "0",
+      "duration_quarter": "2",
+      "written_type": "half",
+      "pitch": 69,
+      "tpc": 17,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 4,
+      "onset_quarter": "2",
+      "duration_quarter": "2",
+      "written_type": "half",
+      "pitch": 60,
+      "tpc": 14,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 4,
+      "onset_quarter": "2",
+      "duration_quarter": "2",
+      "written_type": "half",
+      "pitch": 64,
+      "tpc": 18,
+      "ratio": null
+    },
+    {
+      "staff": 0,
+      "measure": 4,
+      "onset_quarter": "2",
+      "duration_quarter": "2",
+      "written_type": "half",
+      "pitch": 67,
+      "tpc": 15,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "0",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 41,
+      "tpc": 13,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "1",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 48,
+      "tpc": 14,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 53,
+      "tpc": 13,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 1,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 48,
+      "tpc": 14,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 2,
+      "onset_quarter": "0",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 43,
+      "tpc": 15,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 2,
+      "onset_quarter": "1",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 50,
+      "tpc": 16,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 2,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 55,
+      "tpc": 15,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 2,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 50,
+      "tpc": 16,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 3,
+      "onset_quarter": "0",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 45,
+      "tpc": 17,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 3,
+      "onset_quarter": "1",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 52,
+      "tpc": 18,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 3,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 57,
+      "tpc": 17,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 3,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 52,
+      "tpc": 18,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 4,
+      "onset_quarter": "0",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 41,
+      "tpc": 13,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 4,
+      "onset_quarter": "1",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 48,
+      "tpc": 14,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 4,
+      "onset_quarter": "2",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 43,
+      "tpc": 15,
+      "ratio": null
+    },
+    {
+      "staff": 1,
+      "measure": 4,
+      "onset_quarter": "3",
+      "duration_quarter": "1",
+      "written_type": "quarter",
+      "pitch": 48,
+      "tpc": 14,
+      "ratio": null
+    }
+  ],
+  "tuplet_recipe": [
+    {
+      "measure": 1,
+      "actual": 7,
+      "normal": 4,
+      "onset_quarter": "1/2",
+      "span_quarter": "1",
+      "base": "16th",
+      "partial": true
+    },
+    {
+      "measure": 2,
+      "actual": 3,
+      "normal": 2,
+      "onset_quarter": "1",
+      "span_quarter": "1/2",
+      "base": "16th",
+      "partial": true
+    },
+    {
+      "measure": 3,
+      "actual": 6,
+      "normal": 4,
+      "onset_quarter": "0",
+      "span_quarter": "1",
+      "base": "16th",
+      "partial": false
+    }
+  ],
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-bare.mscx",
+      "bytes": 15308,
+      "sha256": "8050d939dc6156b01c80740625576ebc9b8d967c2930eee6aca0492a916ad7cc"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-short.mscx",
+      "bytes": 15308,
+      "sha256": "c07663991331902d7d8c38b1b5c6094dd6a0ffb31e827dd7ed89a753a85c783d"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-auto-probe.mscx",
+      "bytes": 14611,
+      "sha256": "638b411732187390af3973cc3d91df410e04478a2e2c2bb457f9e2a0111b725c"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-comparison.png",
+      "bytes": 45075,
+      "sha256": "0d936b66eeb119d5ab6e2191f782c4e674b36336f4fed5a306b86f65a4110bc5"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-full-context.png",
+      "bytes": 81973,
+      "sha256": "6b940ed9e96c7923bc404f7f5b989c25131d33f4bb3c122186186b4b9a89808f"
+    }
+  ],
+  "process_records": [
+    {
+      "case": "bare",
+      "format": "mscx",
+      "returncode": 0,
+      "outputs": [
+        "bare-saved.mscx"
+      ]
+    },
+    {
+      "case": "bare",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\bare-1.svg"
+      ]
+    },
+    {
+      "case": "bare",
+      "format": "png",
+      "returncode": 0,
+      "outputs": [
+        "exports\\bare-1.png"
+      ]
+    },
+    {
+      "case": "bare",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\bare.musicxml"
+      ]
+    },
+    {
+      "case": "bare",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\bare.mid"
+      ]
+    },
+    {
+      "case": "short",
+      "format": "mscx",
+      "returncode": 0,
+      "outputs": [
+        "short-saved.mscx"
+      ]
+    },
+    {
+      "case": "short",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\short-1.svg"
+      ]
+    },
+    {
+      "case": "short",
+      "format": "png",
+      "returncode": 0,
+      "outputs": [
+        "exports\\short-1.png"
+      ]
+    },
+    {
+      "case": "short",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\short.musicxml"
+      ]
+    },
+    {
+      "case": "short",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\short.mid"
+      ]
+    },
+    {
+      "case": "bare-reload",
+      "format": "mscx",
+      "source": "bare-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "bare-saved-again.mscx"
+      ]
+    },
+    {
+      "case": "bare-reload",
+      "format": "svg",
+      "source": "bare-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\bare-reload-1.svg"
+      ]
+    },
+    {
+      "case": "bare-reload",
+      "format": "png",
+      "source": "bare-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\bare-reload-1.png"
+      ]
+    },
+    {
+      "case": "bare-reload",
+      "format": "musicxml",
+      "source": "bare-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\bare-reload.musicxml"
+      ]
+    },
+    {
+      "case": "bare-reload",
+      "format": "mid",
+      "source": "bare-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\bare-reload.mid"
+      ]
+    },
+    {
+      "case": "short-reload",
+      "format": "mscx",
+      "source": "short-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "short-saved-again.mscx"
+      ]
+    },
+    {
+      "case": "short-reload",
+      "format": "svg",
+      "source": "short-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\short-reload-1.svg"
+      ]
+    },
+    {
+      "case": "short-reload",
+      "format": "png",
+      "source": "short-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\short-reload-1.png"
+      ]
+    },
+    {
+      "case": "short-reload",
+      "format": "musicxml",
+      "source": "short-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\short-reload.musicxml"
+      ]
+    },
+    {
+      "case": "short-reload",
+      "format": "mid",
+      "source": "short-saved.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\short-reload.mid"
+      ]
+    },
+    {
+      "case": "auto",
+      "format": "svg",
+      "source": "auto.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\auto-1.svg"
+      ]
+    },
+    {
+      "case": "auto",
+      "format": "musicxml",
+      "source": "auto.mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\auto.musicxml"
+      ]
+    }
+  ],
+  "cache": {
+    "measured_at_UTC": "2026-10-28T22:22:18.801024+00:00",
+    "batch": {
+      "bytes": 866132,
+      "files": 60
+    },
+    "total": {
+      "bytes": 2729320382,
+      "files": 13930
+    },
+    "errors": [],
+    "new_runtime_copies": 0,
+    "original_PDF_or_MSCZ_copies": 0,
+    "deleted_files": 0
+  },
+  "source_context": "INTEGRATED_READING_KYOURAN_CONAN.md; existing Gouldp200 reading, no new coverage",
+  "viewed_images": [
+    "private short-white full page",
+    "private first-system comparison before canonicalization",
+    "private full comparison before canonicalization",
+    "public canonical first-system comparison",
+    "public canonical full-context comparison"
+  ],
+  "canonical_public_images_viewed": true,
+  "source_XML_encoding": "utf-8",
+  "exchange_reimport_tested": false,
+  "printing_or_human_trial": false,
+  "user_preference_confirmed": false,
+  "reading_increment": 0,
+  "software_adaptation_changes": 0,
+  "source_code_read_sha256": "e14405d79bef99eff24d3b16a253ddf3a16f8a79ce8da93181f36db7ae723263",
+  "validation": {
+    "status": "passed",
+    "public_paths": 20,
+    "local_markdown_links_checked": 787,
+    "skill_routes_executed": 20,
+    "new_study_direct_routes": 4,
+    "old_reading_counts_and_release_and_user_milestones_preserved": true,
+    "old_immutable_release_and_prior_evidence_preserved": true,
+    "public_assets_hashed": 5,
+    "primary_native_conditions": [
+      2,
+      2
+    ],
+    "automatic_display_diagnostic": 1,
+    "reading_increment": 0,
+    "original_source_files_not_accessed_or_written": true,
+    "files_deleted": 0,
+    "software_adaptation_changes": 0
+  }
+}

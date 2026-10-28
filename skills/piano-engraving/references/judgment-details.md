@@ -171,7 +171,7 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
-`INTEGRATED_READING_KYOURAN_CONAN.md`：Conan主梁9列中只有中间7是连音，主梁4列中只有前三是三连；按Gould200比较短括号，不改普通首尾时值。完整六头梁另保范围。
+`INTEGRATED_READING_KYOURAN_CONAN.md`：Conan主梁9列中只有中间7是连音，主梁4列中只有前三是三连；按Gould200比较短括号，不改普通首尾时值。完整六头梁另保范围。 `PARTIAL_TUPLET_BRACKETS_STUDY.md`已有2/2原创原生候选：首选短括号，保音符位置与完整MIDI；自动漏显已复现，现有属性可处理。范围清楚收益与新增括线代价一起判断，复杂上下文另验。
 
 `INTEGRATED_READING_KURA_KUUSOU.md`：Gould210–211的跨线连音，后半首音可能晚于小节开始；不能只数音头就推同步。Kuusou H同一小节四组三连＋续行四组，两半二分休止，优先比较完整小节留行。
 

@@ -2534,13 +2534,26 @@
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "INNER_BEAM_HIERARCHY_STUDY.md",
-    "evidence": "inner_beam_hierarchy_evidence.json",
-    "completed_conditions": 3,
-    "planned_conditions": 3,
-    "description": "Original ordinary32nd inner-beam hierarchy;not a new reading closeout or user integrated round",
+    "reference": "PARTIAL_TUPLET_BRACKETS_STUDY.md",
+    "evidence": "partial_tuplet_brackets_evidence.json",
+    "completed_conditions": 2,
+    "planned_conditions": 2,
+    "additional_auto_display_diagnostics": 1,
+    "description": "Original partial7/3 short-bracket pair;complete6 control;not new reading coverage or user integrated round",
     "reading_increment": 0,
     "user_preference_confirmed": false,
     "software_adaptation_changes": 0
-  }
+  },
+  "native_study_history": [
+    {
+      "reference": "INNER_BEAM_HIERARCHY_STUDY.md",
+      "evidence": "inner_beam_hierarchy_evidence.json",
+      "completed_conditions": 3,
+      "planned_conditions": 3,
+      "description": "Original ordinary32nd inner-beam hierarchy;not a new reading closeout or user integrated round",
+      "reading_increment": 0,
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0
+    }
+  ]
 }
