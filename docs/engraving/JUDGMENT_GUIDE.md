@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-29[Miiro／Mixed Nuts](INTEGRATED_READING_MIIRO_MIXED.md)：保稳定十六分和分层力度，分弱起／震音、L提前音与恢复拍号；断开tie先查实际DS／Segno／Coda来路，不按页面邻接配对。
+
 2026-10-29[Melissa／Merry](INTEGRATED_READING_MELISSA_MERRY.md)：保H稳定层、I实际前缀和F干轴；M局部三连比较短括号，N完整七连保裸数。K八次攻击仍共九份三连，不误报异分；G复合拍休止与B震音缩写分别判。
 
 2026-10-29[Kyouran／Conan](INTEGRATED_READING_KYOURAN_CONAN.md)：保H／J／L与F的稳定活动及必要前缀，I按整型／低起点保F号；部分主梁内的7／3比较短范围括号，完整六头梁另判。末尾E♮5／G5／C6三次tr各保重起，不合成同音持续。

@@ -92,3 +92,5 @@ R08 [目标bvid关联的公开列表索引](https://www.bilibili.com/list/ml1185
 2026-10-29续查R10／R11：“廿十七＋净书／乐谱”与指定连梁bvid检索未取得可核目标身份或视频内容，无关同名／古籍结果未收作材料。R10仍unverified、R11仍unread，资料13/25、余12项保持。[本批记录](kyouran_conan_closeout_evidence.json)。
 
 2026-10-29续查R20：[官方打印页](https://musescore.org/en/print/book/export/html/278625?toc=1)的Local relayout说明及两图链接可读；normal_layout_100dpi.png与local_relayout_100dpi.png经网页工具均Cache miss，实际仍0/14幅规定图。没有补图／闭合成绩，13/25、余12项保持。[记录](melissa_merry_closeout_evidence.json)。
+
+2026-10-29再读[R22公开正文](https://note.com/fujii_taiga_m/n/nca8f66de9948)，仍未收到原文谱图，变体URL不可得；图数未知、实际0幅。正文重读不补缺图成绩，资料13/25、余12项保持。[记录](miiro_mixed_closeout_evidence.json)。

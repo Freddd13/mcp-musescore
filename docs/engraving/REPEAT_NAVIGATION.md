@@ -98,3 +98,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-29：落点后的过渡仍是音乐
 
 [Kigeki](INTEGRATED_READING_KIGEKI_KILLY.md)Segno C、to Coda、D.S.及新系统Coda构成实际路线；Coda先有旧调4/4过渡，后换新调12/8。不能将Coda、F字框、长弧、等式和首音合成一个锚点；返回还查局部解释、力度与接收。Gould238–240支持显眼目标，也要求评估来回导航负担。
+
+## 2026-10-29：目标的接收来自哪里
+
+[Mixed Nuts](INTEGRATED_READING_MIIRO_MIXED.md)首次至p4s5DS，回p2s5C，再至p3s2To Coda，跳p4s6Coda至末；分别核三音／八度tie及目标六升。优先明确D.S. al Coda，Coda缩进为次级比较；C行中另起行要算预算。相邻页面续弧不能代替实际来路，物理翻页未证。

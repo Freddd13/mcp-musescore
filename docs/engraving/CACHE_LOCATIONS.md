@@ -110,3 +110,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-29部分梁短括号批次约0.83MiB，总净书缓存约2.542GiB逻辑长度；复用1936文件固定运行时，22次CLI按两候选及自动探针核查。新增原创输入／导出与两张同框图，无原PDF／MSCZ／运行时副本、删除或清点错误，低于100MiB／3GiB检查线。[精确字节与时点](partial_tuplet_brackets_evidence.json)先于最后小记录；发布三份原创谱及两图。
 
 2026-10-29 Melissa／Merry批次约6.34MiB，总净书缓存约2.548GiB逻辑长度；65张实际看图中32张复用、33张新系统图。无原PDF／运行时副本、删除或清点错误，低于检查线。[精确字节与时点](melissa_merry_closeout_evidence.json)先于最后小记录。
+
+2026-10-29 Miiro／Mixed批次约5.23MiB，总净书缓存约2.553GiB；58张实际看图中31张复用、27张新系统细节。无原PDF／运行时副本、删除或清点错误，低于检查线。[精确字节与时点](miiro_mixed_closeout_evidence.json)先于最后小记录。

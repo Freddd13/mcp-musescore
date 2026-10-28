@@ -142,3 +142,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-29：续行、局部终止和滑奏原位终点
 
 [Killy I及结尾](INTEGRATED_READING_KIGEKI_KILLY.md)8va、括起续行、终止／再起按所属谱表和具体头查。末尾八度范围到高处滑奏起点结束，下行gliss.接原位和弦，不把整条斜线含进八度范围。slur／8va不统一齐尾；p6减少换号也须比较加线代价。
+
+## 2026-10-29：接收、线尾与后来攻击分开
+
+[Miiro](INTEGRATED_READING_MIIRO_MIXED.md)F在首8休止后起8va，p4(8va)续至第三小节前；p7最后(8va)至首16接收后结束，后续ff恢复原音区。p6延长全音的短8va不应延到pp准备小节。

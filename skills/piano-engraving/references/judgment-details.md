@@ -95,6 +95,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_MIIRO_MIXED.md`：Miiro A各16列保稳定活动；8.682–8.899pt是本例观测，别直接泛化。
+
 `INTEGRATED_READING_MELISSA_MERRY.md`：保H稳定8、I升号占位；F头距13.806pt而实际干轴9pt，先分前缀／连接侧。
 
 `INTEGRATED_READING_KYOURAN_CONAN.md`：H／J／L保稳定快层，J首步还原号有占位；Conan F是12普通16再四分，不把13列都当同值。
@@ -175,6 +177,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_MIIRO_MIXED.md`：区分一四分／半四分弱起和白头交替震音；L先于恢复4/4。
+
 `INTEGRATED_READING_MELISSA_MERRY.md`：K下部八次攻击占九份三连，与上部共享列；后六八分省3，不能按普通8误报异分。3/4与6/8拍组、休止条件另判。
 
 `INTEGRATED_READING_KYOURAN_CONAN.md`：Conan主梁9列中只有中间7是连音，主梁4列中只有前三是三连；按Gould200比较短括号，不改普通首尾时值。完整六头梁另保范围。 `PARTIAL_TUPLET_BRACKETS_STUDY.md`已有2/2原创原生候选：首选短括号，保音符位置与完整MIDI；自动漏显已复现，现有属性可处理。范围清楚收益与新增括线代价一起判断，复杂上下文另验。
@@ -230,6 +234,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 同页的5连组、局部8va、弧和尾部休止须按各自角色／范围读；Mixed Nuts旧“8组”已由完整末小节和旗梁细图校正。不要只凭单个数字或紧裁图补Tuplet比例、起音数、全曲swing或软件字段。
 
 <a id="markings"></a>
+
+`INTEGRATED_READING_MIIRO_MIXED.md`：B／E不同层力度保归属；con pedale不授权删断奏点。
 
 `markings`／`tempo`的`INTEGRATED_READING_DEPARTURES.md`纠正C的pp／mp，保护慢干、迟进入与F前先变速／减弱。先核X归属，再理Y通道；局部手提示、段号和八度不自动合锚。
 
@@ -319,6 +325,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 
 <a id="octaves"></a>
 
+`INTEGRATED_READING_MIIRO_MIXED.md`：Miiro末行8va到首16接收后结束，ff运行原区，别拖到最终和弦。
+
 `INTEGRATED_READING_KAWAKI_JANE.md`的L连续高区给出整段8va候选：前三系统最多5条加线可降到1条，末尾下降最多2条下加线，不能凭下降直接否决。先保完整句，别只转同表慢旋律；这仅为谱位计算，仍须原生范围、实际音高、净空及M恢复检查。
 
 `INTEGRATED_READING_HIKARU_HISTORY.md`用J的相邻小节作正反例：短8va断口内若有新原位和弦，合线会误包入；只有起音早于线的长保持、或主线已经换表时，可再考虑跨短休止。不得默认8va只管上声部。
@@ -338,6 +346,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`INTEGRATED_READING_MIIRO_MIXED.md`：Mixed D.S.三音回C、To Coda八度去Coda，纸面相邻DS→Coda没有音乐边；查每个真实来路及调号再配接收。
 
 `INTEGRATED_READING_GURENGE_HACKING.md`：D.S.→D→To Coda→Coda→H逐段追，跳前／落点接收一起保；不能为对齐段首把fp移到旧音接收处。
 

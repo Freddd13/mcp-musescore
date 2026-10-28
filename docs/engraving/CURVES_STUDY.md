@@ -152,3 +152,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-27：接收与开放留声不能用同一端点规则
 
 [Gurenge／Hacking](INTEGRATED_READING_GURENGE_HACKING.md)：A054 G大和弦延续跨小节，末尾开放弧无接收头；A053 To Coda与Coda落点的接收又依跳转路线。分别保持续、分句、声部虚线和实际新音，不把每条弧都闭到附近头。
+
+## 2026-10-29：断开的tie沿实际路线配对
+
+[Mixed Nuts](INTEGRATED_READING_MIIRO_MIXED.md)D.S.三音G♯4／B4／F♯5回C同和弦，To Coda的G♯八度跳Coda同八度；纸面相邻DS→Coda不构成音乐连接。不能因两个系统各有断弧就直接连接或删成重复。仅静态端点核读，原生播放仍待核。
