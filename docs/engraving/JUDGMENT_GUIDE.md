@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-28[Imagination／pool](INTEGRATED_READING_IMAGINATION_POOL.md)：跨表十一连头距1.080–10.575pt、干轴5.400–6.000pt，保原形；11:6十六分可比较完整比例。B重复共头、G独立休止及M八分／十六分两次休止分别保留，L前5＋5＋6按3/4三拍读。
+
 2026-10-27[Ichiban／Idol](INTEGRATED_READING_ICHIBAN_IDOL.md)：跨表F仍保16个普通16的稳定组形；H前13:12三十二分及尾声5:3八分均占附点四分，先定比例再比较间距。开头5／7与尾声中途四分进入保真实先后；Meno、J／K的恢复可先于下一小节或字母。
 
 2026-10-27[Homura／Hyori Ittai](INTEGRATED_READING_HOMURA_HYORI.md)：连续层稳定作正例，普通／六连／五连分别比较；M八分＝八分保持脉冲，随后才加速。滑奏接收、H进入、J及低八度线各定位；三连只管主梁前三头时列短括号候选。[管乐](WIND_NOTATION_READING.md)提示先按乐器／技术定义理解谱号、异形头和八度，钢琴规则不直接通用。

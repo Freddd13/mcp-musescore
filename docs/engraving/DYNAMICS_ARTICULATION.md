@@ -93,3 +93,7 @@ p116允许在明确建立模式后用stacc. sempre、marcato sempre或sim.省重
 ## 2026-10-27：通道与发动点分别保护
 
 [Homura／Hyori Ittai](INTEGRATED_READING_HOMURA_HYORI.md)：A059 p2s5 mp／渐变在上方给内层留通道；C前已有f con fuoco发动。A060 M sfz与pp属不同层，不能平均到一个全体力度；段号不决定所有标记生效点。
+
+## 2026-10-28：力度可晚于段首也可先于字母
+
+A063 C的pp在快速型进入，低部p与后来的mp各有对象；N先重奏后pp，O的p旋律又先于字母。A064 M快层p、主线mp保主次，K sfz后pp是先后阶段。 见[完整两首案例](INTEGRATED_READING_IMAGINATION_POOL.md)。

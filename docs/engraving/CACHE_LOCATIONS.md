@@ -84,3 +84,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-27 Homura／Hyori批次约15.01MiB，总净书缓存约2.457GiB逻辑长度；127图记录复用33张、新增94张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确时点及四处页码纠正](homura_hyori_closeout_evidence.json)先于最终小记录。
 
 2026-10-27 Ichiban／Idol批次约12.88MiB，总净书缓存约2.470GiB逻辑长度；100图记录复用26张、新增74张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确时点及三页复渲说明](ichiban_idol_closeout_evidence.json)先于最终小记录。
+
+2026-10-28 Imagination／pool批次约11.76MiB，总净书缓存约2.481GiB逻辑长度；99图记录复用30张、新增69张。无原PDF／运行时副本、删除或清点错误，低于100MiB／3GiB检查线；[精确时点](imagination_pool_closeout_evidence.json)先于最终小记录。

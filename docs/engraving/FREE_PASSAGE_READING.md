@@ -86,3 +86,7 @@ p621自由反复开头还展示音组之后的波线配repeat ad lib.等说明�
 ## 2026-10-27：一行不自动是一完整小节
 
 [Everyday／Extra](INTEGRATED_READING_EVERYDAY_EXTRA.md)：A042结尾16分休止＋19个16分后另全音符延长；A043 K局部四分休止＋三组六连＋四16分也给5个书面四分单位，行末无竖线且后有ad lib.。保留其边界疑问，不能按拍号自动改音；L／a tempo在行中。
+
+## 2026-10-28：a piacere与已写计量一起保留
+
+A064 L前先在12/8小节中标a piacere，随后短3/4的5＋5＋6独立分组，再预告12/8、L恢复a tempo。自由处理不取消顺序／范围；N后的rit.与Meno另定位。 见[完整两首案例](INTEGRATED_READING_IMAGINATION_POOL.md)。
