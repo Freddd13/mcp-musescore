@@ -151,6 +151,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_TANJIRO_KANTAI.md`的C保32脉冲，却可比较4＋4的内梁分隔：保主梁，在中点断开第二、第三层，原生与交换逐层核。H16／G8:6与9:8／I震音不套同一计数；`GOULD_READING_CLOSEOUT.md`给出任务—事实—条件—动作代价的回查流程。
+
 `INTEGRATED_READING_HIKARU_HISTORY.md`纠正6/8与圆舞曲文字的混淆；N前第二13组12头，末八分占两份，下层也有末值变化。先数时值份数和梁层，再检查总时长、两手真正共同点及其余先后。
 
 `INTEGRATED_READING_GURENGE_HACKING.md`：普通梁旁两条悬空线可缩写附点8两音震音，整对共同占3/4拍；后接二分对与七连另计。先辨重复身份，不按条数或头数顺次相加。

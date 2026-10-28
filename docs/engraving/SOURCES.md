@@ -1,5 +1,7 @@
 # 规范来源与证据等级
 
+2026-10-28：本地Gould全文件查阅覆盖696/696，页码分类及方法见[补齐笔记](GOULD_READING_CLOSEOUT.md)；只将R16的规定阅读范围结项。其它资料13/25，余12项；[本批两首](INTEGRATED_READING_TANJIRO_KANTAI.md)有内梁候选和实际保留判断，尚未原生验证。
+
 2026-10-21补[MPA完整图版](MPA_READING.md)：新增20页实际图像阅读，不将旧可提取文字算作此前已看图。与Gould及本谱脚注比较时，区分条件补全、作品说明与真正体例分歧；后者保留选择和代价，不能把所有来源句子并成硬约束。
 
 2026-10-18新增来源与实际阅读范围见[RESOURCE_RESEARCH](RESOURCE_RESEARCH.md)，新增教材p54–58、78–84、200–202及对应条件见[NOTATION_DETAILS](NOTATION_DETAILS.md)。全目录清点和逐谱记录见[INDEX](corpus/INDEX.md)，没有将全部渲染算作全部已学习。

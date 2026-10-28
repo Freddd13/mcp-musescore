@@ -44,6 +44,8 @@
 
 ## A068：Kamado Tanjiro no Uta，6页
 
+2026-10-28[整曲问题回查](../INTEGRATED_READING_TANJIRO_KANTAI.md)完成；保快慢关系，核梁层、连音／震音、变音占位和弱起范围，内梁候选尚未原生渲染。
+
 近读p3、6。
 
 **p3短2/4到C与大句内的细组。** 页首3组和低部细分收进短拍，下一行回C。上方快速下降重复保持相近轮廓，下方慢线和手分配括形另有信息。随后上方进入长保持及内层短音，下方6组又展开。不能用最大弧线推断连音组，也不能以某谱表看似空闲判断无碰撞需求。
@@ -51,6 +53,8 @@
 **p6 H的高处重复与中层接收。** 上方快速型以梁坡呈现走向，中层旋律由手提示与弧区分，下方大和弦提供保持。H的fp与mf用于不同层/时点。后部减速和延长之后，I Meno mosso在行中开始；上方八度线跨行继续，末行低部仍有内声接续。收尾的长tie和slur不能合并成一条“漂亮的线”。
 
 ## A069：Kantai Collection Medley，9页
+
+2026-10-28[整曲问题回查](../INTEGRATED_READING_TANJIRO_KANTAI.md)完成；保快慢关系，核梁层、连音／震音、变音占位和弱起范围，内梁候选尚未原生渲染。
 
 近读p1、5、9；其余全页审视包括转接。可见标题路径：p1 The Legendary Shipgirls，D的Sortie!在同页行中；p4 I为The Decisive Battle；p6 O为The Endless Sea；p7 S为Victory March。没有按每页猜一个曲名。
 
