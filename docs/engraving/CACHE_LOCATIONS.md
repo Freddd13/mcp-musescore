@@ -92,3 +92,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-28炭治郎／舰队批次约11.59MiB，总净书缓存约2.505GiB逻辑长度。只渲染18处需要的系统；39页辅助内容用7拼页核查，5页序言另直接读，共52张实际显示图。无原PDF／运行时副本、删除或清点错误，低于检查线。[精确时点](tanjiro_kantai_closeout_evidence.json)先于最终小记录。
 
 2026-10-29内梁批次缓存约2.67MiB，总净书缓存约2.507GiB逻辑体积。复用既有1936文件运行时及两张Gould旧页；原生输出按三条件及保存／交换核查生成，没有新原PDF／运行时副本或删除，低于检查线。[精确时点与字节](inner_beam_hierarchy_evidence.json)先于最后小记录；发布仅三份原创谱及两张同框图。
+
+2026-10-29 Kawaki／JANE批次缓存约2.86MiB，总净书缓存约2.510GiB逻辑长度。39张实际显示图中22张复用、17张新图（15系统及2教材复读），无原PDF／运行时副本或删除，低于检查线。[精确时点与字节](kawaki_jane_closeout_evidence.json)先于最后小记录。
