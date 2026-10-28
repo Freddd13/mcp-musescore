@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-29[Melissa／Merry](INTEGRATED_READING_MELISSA_MERRY.md)：保H稳定层、I实际前缀和F干轴；M局部三连比较短括号，N完整七连保裸数。K八次攻击仍共九份三连，不误报异分；G复合拍休止与B震音缩写分别判。
+
 2026-10-29[Kyouran／Conan](INTEGRATED_READING_KYOURAN_CONAN.md)：保H／J／L与F的稳定活动及必要前缀，I按整型／低起点保F号；部分主梁内的7／3比较短范围括号，完整六头梁另判。末尾E♮5／G5／C6三次tr各保重起，不合成同音持续。
 
 2026-10-29[Kura／Kuusou](INTEGRATED_READING_KURA_KUUSOU.md)：保连续16活动、真实6对5及F的ff／mp；优先比较H整小节留行。Kura H先核完整比例和跨线接点，L普通八分与M末八分起的取消范围已纠正。不能仅从头位同列推出时间同步。

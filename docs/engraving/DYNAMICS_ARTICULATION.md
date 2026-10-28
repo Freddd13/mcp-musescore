@@ -113,3 +113,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：短slur、断奏及状态转换各有作用
 
 [两首](INTEGRATED_READING_KYOURAN_CONAN.md)开头短slur与点并存，K反拍与另一层tenuto分别保。Conan secco／con Ped.有来路，D的mf／稍后f及sfz／mf sub.生效点不同，不按同页字串去重。
+
+## 2026-10-29：力度过程与恢复点分读
+
+[两首](INTEGRATED_READING_MELISSA_MERRY.md)Melissa rubato处pp保持后仍有运行，O a tempo早于P Meno；Merry sfz后mp legato、J95与pp、L渐加速／molto rit.／M180分读。成对斜发夹是否精简先核表达对象，不按外形重复删。

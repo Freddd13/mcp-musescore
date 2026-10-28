@@ -12,6 +12,8 @@
 
 <a id="symbols"></a>
 
+`INTEGRATED_READING_MELISSA_MERRY.md`：M局部3只管三头，普通尾8另算；N完整独立七连梁保裸7。B两音附点二分震音整对三拍，变化处写出。
+
 `INTEGRATED_READING_KIMI_KIZUNA.md`：N前八分接收之后八双梁头占一拍半，优先完整8:6；22整小节与11半小节分别计量。不能把错位和弦头当两个先后音，亦不按相似梁形补齐头数。
 
 `INTEGRATED_READING_KEY_KICK.md`的计量音型加gliss.与叉头波线分判。p326偏好动作线，但替换须明确保总时长、端点身份和独立停止；开头5:4及末尾四个十六分加一四分的书面组织不证明逐键精确指法。
@@ -93,6 +95,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_MELISSA_MERRY.md`：保H稳定8、I升号占位；F头距13.806pt而实际干轴9pt，先分前缀／连接侧。
+
 `INTEGRATED_READING_KYOURAN_CONAN.md`：H／J／L保稳定快层，J首步还原号有占位；Conan F是12普通16再四分，不把13列都当同值。
 
 `INTEGRATED_READING_KURA_KUUSOU.md`：Kuusou同拍6对5保真正共同拍点与内部先后，不逐头吸齐。Kura H完整比例为条件重建，跨线后头位同列不足以证明时间同步，先核音乐再动坐标。
@@ -171,6 +175,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_MELISSA_MERRY.md`：K下部八次攻击占九份三连，与上部共享列；后六八分省3，不能按普通8误报异分。3/4与6/8拍组、休止条件另判。
+
 `INTEGRATED_READING_KYOURAN_CONAN.md`：Conan主梁9列中只有中间7是连音，主梁4列中只有前三是三连；按Gould200比较短括号，不改普通首尾时值。完整六头梁另保范围。 `PARTIAL_TUPLET_BRACKETS_STUDY.md`已有2/2原创原生候选：首选短括号，保音符位置与完整MIDI；自动漏显已复现，现有属性可处理。范围清楚收益与新增括线代价一起判断，复杂上下文另验。
 
 `INTEGRATED_READING_KURA_KUUSOU.md`：Gould210–211的跨线连音，后半首音可能晚于小节开始；不能只数音头就推同步。Kuusou H同一小节四组三连＋续行四组，两半二分休止，优先比较完整小节留行。
@@ -234,6 +240,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先认同一动态进程，再决定哪些标记应共用通道。`markings`的unlasting实例有同表mf／ff和休止前后p sub.／pp：位置不齐可正在表达不同层与时点，不合并／移齐。长限定短语与延续线一起读，分散词的X不自动是新力度或速度事件；起点给全短语及新行提醒可作候选，不能冒充一律禁止分词的规范。几何、逻辑范围与播放scope分查。
 
 <a id="cross-staff"></a>
+
+`INTEGRATED_READING_MELISSA_MERRY.md`：F跨表干轴与头位分判，别靠压头距追求均匀；长干、发夹和手括形要看完整通道。
 
 `INTEGRATED_READING_HOMURA_HYORI.md`的叉头滑奏从2/4跨到下一C，H在再下一小节；保不定音高、实际接收及一完整小节准备，不能吸到段首。
 
