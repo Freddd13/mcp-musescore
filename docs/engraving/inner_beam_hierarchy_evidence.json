@@ -1,0 +1,657 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "recorded_at_utc": "2026-10-28T16:21:38.783493+00:00",
+  "purpose": "Readable inner-beam hierarchy, original music only;no software adaptation",
+  "source_reference": "INTEGRATED_READING_TANJIRO_KANTAI.md A068p3s2;not a music transcription",
+  "gould_reread_printed_pages": [
+    156,
+    157
+  ],
+  "gould_new_coverage_pages": 0,
+  "license": "CC0-1.0 for original fixture music and comparison images",
+  "assets": [
+    {
+      "path": "docs/engraving/fixtures/inner-beams-continuous.mscx",
+      "sha256": "7d07dd4f64c9e7e93ef7e8265c6d5867443cfa7803822a5cabc1040b1c9b5c86",
+      "bytes": 23908,
+      "derived_from_native_saved": true,
+      "only_derivation": "Common source metadata:remove obsolete seven;actual native save and SVG rechecked"
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-four.mscx",
+      "sha256": "37aa041c5826e3abd79050ba64f618c4100dc3fc52d6ec55df7a00789c48c99f",
+      "bytes": 23936,
+      "derived_from_native_saved": true,
+      "only_derivation": "Common source metadata:remove obsolete seven;actual native save and SVG rechecked"
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-nested.mscx",
+      "sha256": "29d2e93cf5ea4ce587853b2d307c6b7cf3666701ae0d607f176030be6fd951b3",
+      "bytes": 23992,
+      "derived_from_native_saved": true,
+      "only_derivation": "Common source metadata:remove obsolete seven;actual native save and SVG rechecked"
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-comparison.png",
+      "sha256": "23844cef5fa01c33c7827f96961f92b97839e3f830b13c1ead3c8d99c0245102",
+      "bytes": 151845,
+      "independent_original_music": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-full-context.png",
+      "sha256": "cbc5ebdd13115d38cc7b7ee756125e6e72f24a0c7d0e9fe35cf6ac27a3b741bc",
+      "bytes": 198350,
+      "independent_original_music": true
+    }
+  ],
+  "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+  "runtime_files_verified_before": 1936,
+  "runtime_files_verified_after": 1936,
+  "private_existing_config": true,
+  "source_binary_build_correspondence_proved": false,
+  "source_files_readonly": {
+    "libmscore/beam.h": "7506042d88601d7ae2e7087954692165dc1774c488bed964fd6cfd3802749ce2",
+    "libmscore/beam.cpp": "72398d3e00cee865d77ea8c39bd9f1572c7eac87b858d12aab8a05f981d76cbd",
+    "libmscore/chordrest.cpp": "2edb97490052a62ac16bc19727919072c8f2a423fc20d6e29519efcb509fcb87",
+    "importexport/musicxml/importmxmlpass2.cpp": "1f6b267a4ceb791ecfe400e3f9b8893b240cda567278bbb03efaed603e14960c",
+    "importexport/musicxml/exportxml.cpp": "3b07d873489db6495f6767a9e40368c2f3ab2daa6448a35f5c80e95e3202e8be"
+  },
+  "verification": {
+    "cases": {
+      "continuous": {
+        "written_notes": 84,
+        "played_attacks": 83,
+        "native_modes": {
+          "begin": 8,
+          "mid": 44,
+          "end": 8
+        },
+        "systems": [
+          1,
+          2,
+          3
+        ],
+        "musicxml_matches_independent_recipe": true,
+        "all56_fast_notes_three_beam_layers_checked": true,
+        "all_non_beam_classed_SVG_equal": true,
+        "MIDI_sha256": "6521df1f1bd7d98812a8e41d6a53c18ec45246c56c8261557ba814c4342a9138",
+        "native_saved_modes_preserved": true,
+        "native_reload_music_and_beam_topology_and_MIDI_preserved": true,
+        "native_second_save_byte_identical": true,
+        "first_save_coordinate_rounding": {
+          "maximum_coordinate_error_sp": 0.0004493978069382944,
+          "changed_objects_by_class": {
+            "LedgerLine": 1,
+            "Stem": 7,
+            "Note": 11,
+            "Clef": 4,
+            "Beam": 12
+          },
+          "comparison": "First handwritten load versus first native saved load;not byte-equal drawings"
+        },
+        "first_save_RGBA_byte_equal": false,
+        "canonical_all_non_beam_classed_SVG_equal": true,
+        "MusicXML_roundtrip_recipe_and_each_beam_layer_preserved": true,
+        "MusicXML_roundtrip_actual_beam_segments": 22,
+        "exchange_layout_identity_claimed": false
+      },
+      "inner-split": {
+        "written_notes": 84,
+        "played_attacks": 83,
+        "native_modes": {
+          "begin": 8,
+          "mid": 37,
+          "begin32": 7,
+          "end": 8
+        },
+        "systems": [
+          1,
+          2,
+          3
+        ],
+        "musicxml_matches_independent_recipe": true,
+        "all56_fast_notes_three_beam_layers_checked": true,
+        "all_non_beam_classed_SVG_equal": true,
+        "MIDI_sha256": "6521df1f1bd7d98812a8e41d6a53c18ec45246c56c8261557ba814c4342a9138",
+        "native_saved_modes_preserved": true,
+        "native_reload_music_and_beam_topology_and_MIDI_preserved": true,
+        "native_second_save_byte_identical": true,
+        "first_save_coordinate_rounding": {
+          "maximum_coordinate_error_sp": 0.0004493978069382944,
+          "changed_objects_by_class": {
+            "LedgerLine": 1,
+            "Stem": 7,
+            "Note": 11,
+            "Clef": 4,
+            "Beam": 16
+          },
+          "comparison": "First handwritten load versus first native saved load;not byte-equal drawings"
+        },
+        "first_save_RGBA_byte_equal": false,
+        "canonical_all_non_beam_classed_SVG_equal": true,
+        "MusicXML_roundtrip_recipe_and_each_beam_layer_preserved": true,
+        "MusicXML_roundtrip_actual_beam_segments": 36,
+        "exchange_layout_identity_claimed": false
+      },
+      "nested-split": {
+        "written_notes": 84,
+        "played_attacks": 83,
+        "native_modes": {
+          "begin": 8,
+          "mid": 23,
+          "begin64": 14,
+          "begin32": 7,
+          "end": 8
+        },
+        "systems": [
+          1,
+          2,
+          3
+        ],
+        "musicxml_matches_independent_recipe": true,
+        "all56_fast_notes_three_beam_layers_checked": true,
+        "all_non_beam_classed_SVG_equal": true,
+        "MIDI_sha256": "6521df1f1bd7d98812a8e41d6a53c18ec45246c56c8261557ba814c4342a9138",
+        "native_saved_modes_preserved": true,
+        "native_reload_music_and_beam_topology_and_MIDI_preserved": true,
+        "native_second_save_byte_identical": true,
+        "first_save_coordinate_rounding": {
+          "maximum_coordinate_error_sp": 0.0004493978069485125,
+          "changed_objects_by_class": {
+            "LedgerLine": 1,
+            "Stem": 7,
+            "Note": 11,
+            "Clef": 4,
+            "Beam": 18
+          },
+          "comparison": "First handwritten load versus first native saved load;not byte-equal drawings"
+        },
+        "first_save_RGBA_byte_equal": false,
+        "canonical_all_non_beam_classed_SVG_equal": true,
+        "MusicXML_roundtrip_recipe_and_each_beam_layer_preserved": true,
+        "MusicXML_roundtrip_actual_beam_segments": 50,
+        "exchange_layout_identity_claimed": false
+      }
+    },
+    "independent_recipe_written_notes": 84,
+    "independent_recipe_played_attacks": 83,
+    "independent_recipe_distinguishes_tie_receiver": true,
+    "changed_native_nodes_only_BeamMode": true,
+    "variants_note_spacing_and_all_non_beam_drawing_identical": true,
+    "actual_systems": 3,
+    "system_first_measures": [
+      1,
+      2,
+      3
+    ],
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "runtime_files_verified_after": 1936,
+    "common_full_context_crop": [
+      91,
+      132,
+      1397,
+      1106
+    ],
+    "common_fast_context_crop": [
+      91,
+      132,
+      1397,
+      773
+    ],
+    "images_viewed": [
+      "Gould print156(reused)",
+      "Gould print157(reused)",
+      "native fast context",
+      "native full context"
+    ],
+    "user_preference_confirmed": false,
+    "printing_and_playing_not_done": true,
+    "software_adaptation_changes": 0
+  },
+  "geometry": {
+    "continuous": {
+      "systems": 3,
+      "head_count": 84,
+      "beam_count": 22
+    },
+    "inner-split": {
+      "systems": 3,
+      "head_count": 84,
+      "beam_count": 36
+    },
+    "nested-split": {
+      "systems": 3,
+      "head_count": 84,
+      "beam_count": 50
+    }
+  },
+  "original_native_CLI_calls": [
+    {
+      "case": "continuous",
+      "format": "mscx",
+      "returncode": 0,
+      "outputs": [
+        "continuous-saved.mscx"
+      ]
+    },
+    {
+      "case": "continuous",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous-1.svg"
+      ]
+    },
+    {
+      "case": "continuous",
+      "format": "png",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous-1.png"
+      ]
+    },
+    {
+      "case": "continuous",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous.musicxml"
+      ]
+    },
+    {
+      "case": "continuous",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous.mid"
+      ]
+    },
+    {
+      "case": "inner-split",
+      "format": "mscx",
+      "returncode": 0,
+      "outputs": [
+        "inner-split-saved.mscx"
+      ]
+    },
+    {
+      "case": "inner-split",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split-1.svg"
+      ]
+    },
+    {
+      "case": "inner-split",
+      "format": "png",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split-1.png"
+      ]
+    },
+    {
+      "case": "inner-split",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split.musicxml"
+      ]
+    },
+    {
+      "case": "inner-split",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split.mid"
+      ]
+    },
+    {
+      "case": "nested-split",
+      "format": "mscx",
+      "returncode": 0,
+      "outputs": [
+        "nested-split-saved.mscx"
+      ]
+    },
+    {
+      "case": "nested-split",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split-1.svg"
+      ]
+    },
+    {
+      "case": "nested-split",
+      "format": "png",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split-1.png"
+      ]
+    },
+    {
+      "case": "nested-split",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split.musicxml"
+      ]
+    },
+    {
+      "case": "nested-split",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split.mid"
+      ]
+    },
+    {
+      "case": "continuous-reload",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous-reload-1.svg"
+      ]
+    },
+    {
+      "case": "continuous-reload",
+      "format": "png",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous-reload-1.png"
+      ]
+    },
+    {
+      "case": "continuous-reload",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous-reload.musicxml"
+      ]
+    },
+    {
+      "case": "continuous-reload",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous-reload.mid"
+      ]
+    },
+    {
+      "case": "continuous-xml-roundtrip",
+      "format": "mscx",
+      "returncode": 0,
+      "outputs": [
+        "continuous-xml-roundtrip.mscx"
+      ]
+    },
+    {
+      "case": "continuous-xml-roundtrip",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous-xml-roundtrip-1.svg"
+      ]
+    },
+    {
+      "case": "continuous-xml-roundtrip",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\continuous-xml-roundtrip.musicxml"
+      ]
+    },
+    {
+      "case": "inner-split-reload",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split-reload-1.svg"
+      ]
+    },
+    {
+      "case": "inner-split-reload",
+      "format": "png",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split-reload-1.png"
+      ]
+    },
+    {
+      "case": "inner-split-reload",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split-reload.musicxml"
+      ]
+    },
+    {
+      "case": "inner-split-reload",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split-reload.mid"
+      ]
+    },
+    {
+      "case": "inner-split-xml-roundtrip",
+      "format": "mscx",
+      "returncode": 0,
+      "outputs": [
+        "inner-split-xml-roundtrip.mscx"
+      ]
+    },
+    {
+      "case": "inner-split-xml-roundtrip",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split-xml-roundtrip-1.svg"
+      ]
+    },
+    {
+      "case": "inner-split-xml-roundtrip",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\inner-split-xml-roundtrip.musicxml"
+      ]
+    },
+    {
+      "case": "nested-split-reload",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split-reload-1.svg"
+      ]
+    },
+    {
+      "case": "nested-split-reload",
+      "format": "png",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split-reload-1.png"
+      ]
+    },
+    {
+      "case": "nested-split-reload",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split-reload.musicxml"
+      ]
+    },
+    {
+      "case": "nested-split-reload",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split-reload.mid"
+      ]
+    },
+    {
+      "case": "nested-split-xml-roundtrip",
+      "format": "mscx",
+      "returncode": 0,
+      "outputs": [
+        "nested-split-xml-roundtrip.mscx"
+      ]
+    },
+    {
+      "case": "nested-split-xml-roundtrip",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split-xml-roundtrip-1.svg"
+      ]
+    },
+    {
+      "case": "nested-split-xml-roundtrip",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\nested-split-xml-roundtrip.musicxml"
+      ]
+    },
+    {
+      "case": "continuous",
+      "returncode": 0,
+      "native_second_save_byte_identical": true
+    },
+    {
+      "case": "inner-split",
+      "returncode": 0,
+      "native_second_save_byte_identical": true
+    },
+    {
+      "case": "nested-split",
+      "returncode": 0,
+      "native_second_save_byte_identical": true
+    }
+  ],
+  "original_native_CLI_call_count": 39,
+  "publication_checks": [
+    {
+      "case": "continuous",
+      "format": "mscx",
+      "returncode": 0,
+      "native_resave_byte_identical": true,
+      "all_classed_drawings_equal_to_canonical_render": false
+    },
+    {
+      "case": "continuous",
+      "format": "svg",
+      "returncode": 0,
+      "native_resave_byte_identical": false,
+      "all_classed_drawings_equal_to_canonical_render": true
+    },
+    {
+      "case": "inner-split",
+      "format": "mscx",
+      "returncode": 0,
+      "native_resave_byte_identical": true,
+      "all_classed_drawings_equal_to_canonical_render": false
+    },
+    {
+      "case": "inner-split",
+      "format": "svg",
+      "returncode": 0,
+      "native_resave_byte_identical": false,
+      "all_classed_drawings_equal_to_canonical_render": true
+    },
+    {
+      "case": "nested-split",
+      "format": "mscx",
+      "returncode": 0,
+      "native_resave_byte_identical": true,
+      "all_classed_drawings_equal_to_canonical_render": false
+    },
+    {
+      "case": "nested-split",
+      "format": "svg",
+      "returncode": 0,
+      "native_resave_byte_identical": false,
+      "all_classed_drawings_equal_to_canonical_render": true
+    }
+  ],
+  "total_native_CLI_call_count": 45,
+  "publication_source_metadata_only_corrected": true,
+  "publication_native_saved_again_byte_identical": true,
+  "publication_all_classed_SVG_equal_to_published_image_source": true,
+  "cache": {
+    "measured_at_utc": "2026-10-28T16:21:38.799942+00:00",
+    "batch": {
+      "directory": "inner-beams-2026-10-28",
+      "files": 113,
+      "logical_bytes": 2798086,
+      "on_disk_bytes": 2798086,
+      "on_disk_unknown_files": 0
+    },
+    "total": {
+      "files": 13518,
+      "logical_bytes": 2692308979,
+      "on_disk_bytes": 2551019752,
+      "on_disk_unknown_files": 0
+    },
+    "raw_inventory_before_final_small_records": true,
+    "new_runtime_or_reference_PDF_copies": 0,
+    "deleted_files": 0
+  },
+  "cumulative": {
+    "corpus_closeouts": [
+      66,
+      146
+    ],
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resource_scopes": [
+      13,
+      25
+    ],
+    "transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ]
+  },
+  "pending": [
+    "real-score transfer of this candidate",
+    "user preference",
+    "print/play check",
+    "80remaining score closeouts",
+    "12remaining resource scopes"
+  ],
+  "fixed_release_tag_unchanged": "engraving-v0.9.0",
+  "goal_status": "active",
+  "validation": {
+    "status": "passed",
+    "native_conditions_checked": [
+      3,
+      3
+    ],
+    "successful_native_CLI_calls": 45,
+    "written_notes": 84,
+    "played_attacks": 83,
+    "fast_notes_layer_checks": 504,
+    "runtime_files_verified": 1936,
+    "source_provenance_only_publication_correction_native_rechecked": true,
+    "skill_routes_executed": 20,
+    "new_direct_case_routes": 2,
+    "local_markdown_links_checked": 828,
+    "public_paths": 21,
+    "deleted_files": 0,
+    "all_reading_and_user_round_counters_unchanged": true,
+    "old_release_0_9_0_tag_certificate_and_skill_metadata_unchanged": true,
+    "software_adaptation_changes": 0,
+    "user_preference_confirmed": false,
+    "unrelated_workspace_paths_excluded": 0,
+    "goal_status": "active"
+  }
+}

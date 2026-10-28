@@ -283,3 +283,12 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [0.8诊断输入](spacing-factor-080.mscx)／[1.0](spacing-factor-100.mscx)／[1.2](spacing-factor-120.mscx)／[1.62](spacing-factor-162.mscx)／[2.0](spacing-factor-200.mscx)；[五层原生同框图](spacing-factor-comparison.png)。
 - 五版独立配方及五个实际MIDI起点保持，完整MIDI相同；0.8与1.0的原始RGBA相同，界面最低1，0.8仅作诊断。1.2／1.62发布输入已原生保存并重载，SVG／RGBA／完整MIDI／MusicXML除编码日期保持。其余三版仅核四格式导出。
 - 图保完整双表与同一物理比例，文字标签位于音乐之外；只合白底并裁页空白。它是参数控制，不是美化候选、审美选择或全谱预设；[理由与手册缺图](../MUSESCORE3_LAYOUT_READING.md)、[来源及证据](../musescore3_layout_reading_evidence.json)。
+
+## 三十二分的内梁层级
+
+原创CC0四小节4/4双表，84书面音／83攻击，Leland／Leland Text、1.57mm sp、180mm版心，实际三系统。
+
+- [全连续](inner-beams-continuous.mscx)／[四加四](inner-beams-four.mscx)／[完整分层](inner-beams-nested.mscx)。
+- [快层两手同框](inner-beams-comparison.png)／[四小节上下文](inner-beams-full-context.png)：180dpi原生PNG合白底，共同裁框及比例，标签置于音乐外。
+
+各版本只差BeamMode；发布输入为原生保存版并更正共同source说明，均实际重载核SVG与再次保存。原生、MIDI配方及MusicXML导回的逐层梁保持；首存手写输入的精度差异、完整核查与候选理由见[专题](../INNER_BEAM_HIERARCHY_STUDY.md)及[证据](../inner_beam_hierarchy_evidence.json)。没有实曲迁移、打印或用户采用。
