@@ -82,3 +82,9 @@ R22见[Dorico条件补记](DORICO_EDITORIAL_PRACTICE.md)：完整正文与当前
 R07由unread改为partial；完成项仍13/25，余12项。[作者公开视频说明的索引结果](https://www.bilibili.com/video/BV1wwH5esEBt/)可读：2024-08-30发布，署Legatissimo-净书、乌里马里Ulimali校对／视频，声明参考Henle（1976）与PWM（1997）。这是作者给出的参考信息，尚未逐版校勘，也未看视频／谱面实图。直接开页仍失败，不能称全文或教程已读。
 
 [IMSLP的Legato分类](https://imslp.org/wiki/Category:Legato_Music_Publishing)列15个作品页，本次列表未见目标叙事曲；不能据此断言未曾上传。R05主页也仍未闭合。下一步寻找该目标实际谱面及核署名／版次，不用同作者另一作品替代。[本批记录](key_kick_closeout_evidence.json)。
+
+## 2026-10-29：R08／R09补署名线索，实图仍缺
+
+R08 [目标bvid关联的公开列表索引](https://www.bilibili.com/list/ml1185088038?bvid=BV1Ff4y1B7WW&oid=287364574)给出2026-05-06及Legatissimo-，说明作曲Hayato Sumino、采谱／净书及音视频后期Legatissimo-。R09 [作者作品页索引](https://www.bilibili.com/video/BV1UX4y167md/)给出2023-04-09，标题明确MuseScore制作、Augustin Hadelich改编。两项由unread记为partial，仅表示读到这些主来源索引信息，未读视频谱面或完整技术过程；R09版本未知。
+
+直接开R08不可得、R09为412；浏览器cua.getState入口30.27秒超时且内核重置，未收到标签／画面，没有重复同样请求。完成项仍13/25、余12；继续寻找目标实际谱例，不拿同作者其它谱代替。[本批证据](kura_kuusou_closeout_evidence.json)。

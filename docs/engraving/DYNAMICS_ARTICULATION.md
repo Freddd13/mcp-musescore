@@ -105,3 +105,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：短弧末点与分层力度保留
 
 [KICK E／K及I](INTEGRATED_READING_KEY_KICK.md#5-主次手和奏法要分别保护)中，两个不同音高和弦的短slur、末点与首重音共同交代动作，不能因已有弧删点。I的sfz／mp／mf又有不同入口；Gould p121–122／323分别支持奏法层级与力度归属，实际触键和播放不从PDF推定。
+
+## 2026-10-29：分层力度与sim.各自保范围
+
+[Kuusou F](INTEGRATED_READING_KURA_KUUSOU.md)上部ff、下部mp，保近各层的通道，不拉齐合并。H sim.省重复重音，三连数字仍逐组保留；Gould215的数字省写有清晰分组／复杂同步条件，不把一个sim.解释成删所有提示。

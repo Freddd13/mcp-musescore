@@ -63,6 +63,8 @@
 
 <a id="layout"></a>
 
+`INTEGRATED_READING_KURA_KUUSOU.md`：H半小节同页跨行增加计数负担，完整留行须权衡相邻系统容量；提议未原生重排，不将方向写成已改善，也不推出固定小节数。
+
 `INTEGRATED_READING_KIGEKI_KILLY.md`：Killy H页末无结束小节线，p4／5的2＋2合一个4/4。优先比较完整小节续页，查整页密度；十／六拍变八／八拍不证明容量相等，页界也不等于物理翻页。
 
 `INTEGRATED_READING_FUBUKI_CASTLE.md`分别核3＋1跨页、2＋2同页拆小节。先读完整计量和真实行末线，再比较同页容纳或续接提示；加提示不能独自消除跨页操作代价。
@@ -90,6 +92,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_KURA_KUUSOU.md`：Kuusou同拍6对5保真正共同拍点与内部先后，不逐头吸齐。Kura H完整比例为条件重建，跨线后头位同列不足以证明时间同步，先核音乐再动坐标。
 
 `INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：J首小节无前缀约8pt、有前缀10–15pt，先给符号合理占位；K两手16列共同。连续层稳定与每步几何相等分开，保真实移头／前缀，不直接套官谱坐标。
 
@@ -164,6 +168,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_KURA_KUUSOU.md`：Gould210–211的跨线连音，后半首音可能晚于小节开始；不能只数音头就推同步。Kuusou H同一小节四组三连＋续行四组，两半二分休止，优先比较完整小节留行。
 
 `INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：Kuchizuke J是24个普通八分分八组三头并跨小节，保重心位移，不当3:2或默认4＋4。KonoSuba Q下降梁含四普通32、三连16及末普通8，短括号只管中三头。
 
@@ -248,6 +254,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
 
 <a id="tempo"></a>
+
+`INTEGRATED_READING_KURA_KUUSOU.md`：L是普通八分对的长短演奏说明，旧附点八分说法已改；M NoBounce从前4/4末八分起，过短2/4后结束。freely、a tempo与N原速＋均分分别保状态和锚点。
 
 `INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：M旧四分＝新附点四分，旧96变新附点四分96／四分144；行中B／K／T分别保真实锚点，不能吸附到行首。
 

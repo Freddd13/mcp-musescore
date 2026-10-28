@@ -141,3 +141,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-29：M保大拍，行中入口保生效点
 
 [KonoSuba M](INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md)旧四分＝新附点四分，旧96对应新附点四分96、四分144，八分时长缩为旧值2/3。B／K／T在行中，K前8va早于字母；按实际事件读标记，不能吸附行首。Gould172–173及183–184分别支持单位和锚点。
+
+## 2026-10-29：普通八分说明、局部取消及原速分开
+
+[Kura L](INTEGRATED_READING_KURA_KUUSOU.md)左侧是普通八分对，纠正旧附点八分＋十六分说法。M NoBounce从前4/4最后八分起，跨短2/4后结束；freely／a tempo与N TempoI＋均分说明分别读。TempoI回开头185，L为138，不把演奏长短比例变成横距比。

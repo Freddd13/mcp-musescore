@@ -102,3 +102,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-29 Kimi／Kizuna批次约4.79MiB，总净书缓存约2.524GiB逻辑长度；60张已看图中32张复用、28张新系统图。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线。[字节与时点](kimi_kizuna_closeout_evidence.json)先于最后小记录。
 
 2026-10-29 KonoSuba／Kuchizuke批次约5.96MiB，总净书缓存约2.530GiB逻辑长度；67张已看图中33张复用、34张新图（33系统及1必要末小节）。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线。[字节与时点](konosuba_kuchizuke_closeout_evidence.json)先于最后小记录。
+
+2026-10-29 Kura／Kuusou批次约6.23MiB，总净书缓存约2.536GiB逻辑长度；68张已看图中33张复用、35张新图（34系统＋一张旧覆盖教材页212重渲染）。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线。[字节与时点](kura_kuusou_closeout_evidence.json)先于最后小记录。
