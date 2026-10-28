@@ -109,3 +109,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：分层力度与sim.各自保范围
 
 [Kuusou F](INTEGRATED_READING_KURA_KUUSOU.md)上部ff、下部mp，保近各层的通道，不拉齐合并。H sim.省重复重音，三连数字仍逐组保留；Gould215的数字省写有清晰分组／复杂同步条件，不把一个sim.解释成删所有提示。
+
+## 2026-10-29：短slur、断奏及状态转换各有作用
+
+[两首](INTEGRATED_READING_KYOURAN_CONAN.md)开头短slur与点并存，K反拍与另一层tenuto分别保。Conan secco／con Ped.有来路，D的mf／稍后f及sfz／mf sub.生效点不同，不按同页字串去重。

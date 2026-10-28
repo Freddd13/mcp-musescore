@@ -93,6 +93,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_KYOURAN_CONAN.md`：H／J／L保稳定快层，J首步还原号有占位；Conan F是12普通16再四分，不把13列都当同值。
+
 `INTEGRATED_READING_KURA_KUUSOU.md`：Kuusou同拍6对5保真正共同拍点与内部先后，不逐头吸齐。Kura H完整比例为条件重建，跨线后头位同列不足以证明时间同步，先核音乐再动坐标。
 
 `INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：J首小节无前缀约8pt、有前缀10–15pt，先给符号合理占位；K两手16列共同。连续层稳定与每步几何相等分开，保真实移头／前缀，不直接套官谱坐标。
@@ -168,6 +170,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_KYOURAN_CONAN.md`：Conan主梁9列中只有中间7是连音，主梁4列中只有前三是三连；按Gould200比较短括号，不改普通首尾时值。完整六头梁另保范围。
 
 `INTEGRATED_READING_KURA_KUUSOU.md`：Gould210–211的跨线连音，后半首音可能晚于小节开始；不能只数音头就推同步。Kuusou H同一小节四组三连＋续行四组，两半二分休止，优先比较完整小节留行。
 
@@ -249,6 +253,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="ornaments"></a>
 
+`INTEGRATED_READING_KYOURAN_CONAN.md`：末尾E♮5全音符、G5二分、C6四分各有tr、不同主音；保三次新动作，不把“跨行织体”当同一逻辑持续。
+
 ## 颤音、辅助音与续行
 
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
@@ -290,6 +296,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 自由段先分省拍号、局部自由、senza misura与独立速度，再读活动／持续层及返回点。陪伴长值可代表等待，不因延长号x不同拆音移齐；工程隐藏计量／速度不直接等于读者须看见的拍号／节拍。跨表音可画在空容器上，Part也不等同演奏者；原生连接按实际版本结构核对。`piano`／`tempo`中的`FREE_PASSAGE_READING.md`有用户尾页保留证据及官谱对照。波线还可能指音组自由反复，先看材料和说明，不能一概识别为trill。
 
 <a id="clefs"></a>
+
+`INTEGRATED_READING_KYOURAN_CONAN.md`：I的F号保A♭2／A♭3起点，重复高型有稳定轮廓；改G会增加低头加线或频繁换号。先核四降调号及完整材料，不按最高头阈值报错。
 
 `INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：H换G后C4一条下加线，D5在谱内；留F会使D5五条上加线。按整个连续型和手判断，不能只看重复最低头。
 
