@@ -94,3 +94,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-29内梁批次缓存约2.67MiB，总净书缓存约2.507GiB逻辑体积。复用既有1936文件运行时及两张Gould旧页；原生输出按三条件及保存／交换核查生成，没有新原PDF／运行时副本或删除，低于检查线。[精确时点与字节](inner_beam_hierarchy_evidence.json)先于最后小记录；发布仅三份原创谱及两张同框图。
 
 2026-10-29 Kawaki／JANE批次缓存约2.86MiB，总净书缓存约2.510GiB逻辑长度。39张实际显示图中22张复用、17张新图（15系统及2教材复读），无原PDF／运行时副本或删除，低于检查线。[精确时点与字节](kawaki_jane_closeout_evidence.json)先于最后小记录。
+
+2026-10-29 Key／KICK批次约3.70MiB，总净书缓存约2.514GiB逻辑长度；58张已看图中36张复用、22张新系统图。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线。[字节与时点](key_kick_closeout_evidence.json)先于最后小记录。

@@ -12,6 +12,8 @@
 
 <a id="symbols"></a>
 
+`INTEGRATED_READING_KEY_KICK.md`的计量音型加gliss.与叉头波线分判。p326偏好动作线，但替换须明确保总时长、端点身份和独立停止；开头5:4及末尾四个十六分加一四分的书面组织不证明逐键精确指法。
+
 `glissandi`／`piano`的`INTEGRATED_READING_DEPARTURES.md`将竖琴拼写／七踏板／滑奏限定于弦与脚的动作条件。可迁移预读与范围清楚，不向钢琴套禁用重升降号等专用惯例。
 
 `notation`的`INTEGRATED_READING_CRY_DAISY.md`把震音两端按共同持续计量；内部／预置钢琴的结果音、键与触弦动作分开。管风琴Ped.、8′／16′及manual说明按乐器语境读，不成为普通钢琴的踏板缺省。
@@ -85,6 +87,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_KEY_KICK.md`的R相邻3/4小节线间65.340／54.720pt，扣到首头后均48.798pt：先区分前缀和音符区，不能把拍号占位报成同值音组拉散；P／I稳定活动层仍应保留。
+
 `INTEGRATED_READING_IMAGINATION_POOL.md`的跨表11:6，头左缘1.080–10.575pt而干轴5.400–6.000pt，先保干向／连接造成的头位；B共头与M不同休止又分别有节奏职责，不从头距或轮廓数量直接触发均匀化／删音。
 
 `INTEGRATED_READING_ICHIBAN_IDOL.md`有F跨表5＋11头仍稳定的普通16，以及5:3中途加入四分仍保近稳组形的正例；先辨实际比值和相邻时点，不能逐头配对或将变音所需宽度一律抹平。
@@ -150,6 +154,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_KEY_KICK.md`的R有效拍序为3、4、3、3、3、4、3个四分，行末C是预告；Y的5/8按3＋2，后续6/8五起音含一四分仍为六份。按有效状态和时值读，再判断梁／弧范围，别由字母或头数套循环。
 
 `INTEGRATED_READING_KAWAKI_JANE.md`的L前八音组三梁，在9/8中按剩余附点拍重建为8:12三十二分；它与8:6十六分同长，当前三梁不能直接填8:6。D前5:6与传统4:6又须分别读。保稳定16／九八分活动层，比较首处完整比例；同音弧接收和休止也占书面列，不把18时点叫18攻击。
 

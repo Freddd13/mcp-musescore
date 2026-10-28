@@ -125,3 +125,7 @@ Gould p187–190区分额外断开、对音／休止的延长及严格计量的�
 ## 2026-10-28：短值等式与弱起分别定位
 
 A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母先于弱起、曲名与四分84／新调／C在后。A068 I的Meno／pp也从两个16弱起开始。 见[整曲案例](INTEGRATED_READING_TANJIRO_KANTAI.md)。
+
+## 2026-10-29：引入、字母与恢复各有起点
+
+[Key／KICK](INTEGRATED_READING_KEY_KICK.md#3-段号引入换调和变速会错开)的A前mp引入、H92、P140／3/4引入后a tempo、Y／Z，以及KICK I Poco meno／J换调后较晚Tempo I，须分读生效点。字框边缘和行首不代替时间锚点；恢复原速与局部恢复也不统一改名。

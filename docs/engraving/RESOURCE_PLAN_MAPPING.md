@@ -76,3 +76,9 @@ R22见[Dorico条件补记](DORICO_EDITORIAL_PRACTICE.md)：完整正文与当前
 2026-10-23补读R16的Gould印刷p622–640共19个新实质页，p621复读；见[时间—空间与反复](TIME_SPACE_AND_REPETITION.md)。累计311/696（307实质＋4标题／目录），全书仍partial，已闭合资料仍9/25；不能将教材19页当新增19项资源，受限视频／配图状态不变。
 
 2026-10-29：R22公开正文重读可得，普通／放宽网络的原文HTML请求均DNS失败，仍0幅原文图实际查看、总数未知；13/25范围保持。未反复重试或要求用户重复授权；后续继续其它未闭合材料及可得原图。
+
+## 2026-10-29：第一叙事曲的署名与版本线索
+
+R07由unread改为partial；完成项仍13/25，余12项。[作者公开视频说明的索引结果](https://www.bilibili.com/video/BV1wwH5esEBt/)可读：2024-08-30发布，署Legatissimo-净书、乌里马里Ulimali校对／视频，声明参考Henle（1976）与PWM（1997）。这是作者给出的参考信息，尚未逐版校勘，也未看视频／谱面实图。直接开页仍失败，不能称全文或教程已读。
+
+[IMSLP的Legato分类](https://imslp.org/wiki/Category:Legato_Music_Publishing)列15个作品页，本次列表未见目标叙事曲；不能据此断言未曾上传。R05主页也仍未闭合。下一步寻找该目标实际谱面及核署名／版次，不用同作者另一作品替代。[本批记录](key_kick_closeout_evidence.json)。
