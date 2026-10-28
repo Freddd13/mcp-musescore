@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-28[IRIS／Kaibutsu](INTEGRATED_READING_IRIS_KAIBUTSU.md)：I24对8保共同关系及局部占位，G同表mp／mf与后续低音f分别保留，K若统一低音会使选定F5达六条加线，保原换号。几何整齐、标记数量和换号次数都须结合读者任务判断。
+
 2026-10-28[Imagination／pool](INTEGRATED_READING_IMAGINATION_POOL.md)：跨表十一连头距1.080–10.575pt、干轴5.400–6.000pt，保原形；11:6十六分可比较完整比例。B重复共头、G独立休止及M八分／十六分两次休止分别保留，L前5＋5＋6按3/4三拍读。
 
 2026-10-27[Ichiban／Idol](INTEGRATED_READING_ICHIBAN_IDOL.md)：跨表F仍保16个普通16的稳定组形；H前13:12三十二分及尾声5:3八分均占附点四分，先定比例再比较间距。开头5／7与尾声中途四分进入保真实先后；Meno、J／K的恢复可先于下一小节或字母。

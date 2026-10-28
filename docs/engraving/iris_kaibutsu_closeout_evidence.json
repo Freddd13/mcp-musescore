@@ -1,0 +1,3055 @@
+{
+  "date": "2026-10-28",
+  "base_commit": "3f3e15b3fe57bb3562cf700622b3940736820f39",
+  "note": "INTEGRATED_READING_IRIS_KAIBUTSU.md",
+  "additional_notes": [
+    "PERCUSSION_NOTATION_READING.md"
+  ],
+  "scope": "Solo A065/A066 whole-score question closeouts;I24 versus8,mixed4/7/6/4,voice-specific dynamics,K clef costs,marking and line scopes.Percussion287-300 substantive plus301-302 ancillary. No native candidate or adaptation.",
+  "source_protection": [
+    {
+      "id": "A065",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\IRIS OUT - Chainsaw Man_ Reze Arc - OP.pdf",
+      "sha256": "5a2f42b9a95344c2d9a3d5796a148066df482283a699d53d9a54e17b40fef335",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A066",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kaibutsu - BEASTARS Season 2 - Opening Theme.pdf",
+      "sha256": "70ac5faa5d7d20af84c22d48deb109dea66ddb7486051ae3e3e5d9ea8fba54b8",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "Gould2011",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A065",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A065/page-1.jpg",
+      "sha256": "0f074bd3154bddb256e584a54185d917dfdef5cd8886b51a72b1cb6a35df29ac",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A065",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A065/page-2.jpg",
+      "sha256": "c4bc498b71a46e1e7e394dd43b32007fb2602766902ca3db16f22bd12474d441",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A065",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A065/page-3.jpg",
+      "sha256": "4a7c8d63f0a2071595bec9f6c962d1628e72ea45bff0863eae2e4ad7206bd4ad",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A065",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A065/page-4.jpg",
+      "sha256": "05847a2754b6e91b625067ab39eb081746302d625be49a6234385db6b0af57d9",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A065",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A065/page-5.jpg",
+      "sha256": "03b39a6c83ed73b230dbed74f14c98a6ee545319a910b44ca040a1472bbb96f5",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A066",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A066/page-1.jpg",
+      "sha256": "eab153b78338636dbde47cfccd38db288ecdcea30d3d8f252b8bdafdceef1921",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A066",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A066/page-2.jpg",
+      "sha256": "4ebea3b868a9f05df8aba6f7d7e2b8865aa63a7f5b310b6adffdee2cfc4e0cce",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A066",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A066/page-3.jpg",
+      "sha256": "f511e6eaa0d44f4a19411e21c6e15a4747b839cb5c35cde2b46294af26e1aadb",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A066",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A066/page-4.jpg",
+      "sha256": "f30e06e11a42f1bddb465ef0e9388a736d826a929e91448a3831216b7e4e5605",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A066",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A066/page-5.jpg",
+      "sha256": "a2259b59ebffcaf9193fb5138c6e38651d1d089460f91a6e3763c37793918770",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A066",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A066/page-6.jpg",
+      "sha256": "1f53a1651e11e5b8469c48c93c50cfe845010de1413d0fedce4a462b252d069c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A066",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A066/page-7.jpg",
+      "sha256": "206c0d84193bcc11fddf6731e98f6fdff3b00cad86683d6cdd8d9ddf979fd37a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 287,
+      "pdf_page": 307,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-287-printed.jpg",
+      "sha256": "4a06b1de92b2cdc8ea3fb3499f254149b2247faccbca9f4616a24e6fcae7dbc2",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 288,
+      "pdf_page": 308,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-288-printed.jpg",
+      "sha256": "da9384547847e2ecd8b7f2677641ec91697b91e739cdde84c2fa191a31cf23d0",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 289,
+      "pdf_page": 309,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-289-printed.jpg",
+      "sha256": "4b94ed3b00f8a21b2dcd6427fc501ef354475b05505c5b3a41fecd2914714cad",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 290,
+      "pdf_page": 310,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-290-printed.jpg",
+      "sha256": "fda4bb2bcfb397eca5f621181ead57f19b41d81537ef840b9f661d92292c3c24",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 291,
+      "pdf_page": 311,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-291-printed.jpg",
+      "sha256": "99b38b9c87d3cd7daafb4aa8ae11a6adf12f9bf800887b0b3bae7aaf296e5ec6",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 292,
+      "pdf_page": 312,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-292-printed.jpg",
+      "sha256": "6bf3767e54e3892af3d96b358b1555dcba875130e805f687e6aa468db5947795",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 293,
+      "pdf_page": 313,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-293-printed.jpg",
+      "sha256": "c6813cf0456fd05fc1cfb5276791f0637a2d6806bed286b6266156e85b156603",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 294,
+      "pdf_page": 314,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-294-printed.jpg",
+      "sha256": "86b8e9cc5ef16f11d08f2cec3a7619b2f3f43bc0124d36667810ec044d37bb18",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 295,
+      "pdf_page": 315,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-295-printed.jpg",
+      "sha256": "ea8b41259982e8b527b3a2cf5b2515e21b9ead7d67ee82ae7b8814ae6fe7c180",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 296,
+      "pdf_page": 316,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-296-printed.jpg",
+      "sha256": "8cb4c7e2f55b4b0c936531bc163b6664dc0c03ca5af8789af5cb8b50512574f3",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 297,
+      "pdf_page": 317,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-297-printed.jpg",
+      "sha256": "58b439a225c8401a41f5a9aa165348c8bd151926df9f2f45f729b4d5bfbfe5b9",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 298,
+      "pdf_page": 318,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-298-printed.jpg",
+      "sha256": "57141fb7f0b04cb5acfa2298f9c1947f7a43d4816ec6e6f0210929e38833354c",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 299,
+      "pdf_page": 319,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-299-printed.jpg",
+      "sha256": "de270ad895a362f266a4991bc01f0d3058974e3c478a2155fc33303c1e9de795",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 300,
+      "pdf_page": 320,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-300-printed.jpg",
+      "sha256": "b822e03b3c9f7f01818955817344cf2b70e4245315c43e8f78dc26befbf4ee02",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 301,
+      "pdf_page": 321,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-301-printed.jpg",
+      "sha256": "75a916430b3d0b8f9e2f5c92b8efc54ae650cfc8855cc93d37f95f040eb15a73",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 302,
+      "pdf_page": 322,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-302-printed.jpg",
+      "sha256": "cabab7e6998a7a8597671dec8cca0f8dd1064045f9524fb8cfdc9e046a8418f1",
+      "reused": false,
+      "actually_viewed": true,
+      "new_ledger_coverage": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p1-s1.jpg",
+      "source_y_pt": [
+        155.83863368669023,
+        303.49273655280723
+      ],
+      "sha256": "ed939032829538b794dca44725231f36635be5f2c5742a6f84fab93fea65d459",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p1-s4.jpg",
+      "source_y_pt": [
+        536.5072634471928,
+        682.0125638005496
+      ],
+      "sha256": "43c04908cd0fc7d714562bf598c17efefae203de66b512b35c7a44835ab7ac58",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p2-s3.jpg",
+      "source_y_pt": [
+        261.7911268158618,
+        409.27993718099725
+      ],
+      "sha256": "be67f1b916d98d74e3466112e028ca432efed710142c7733a31744f3988fd80d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p2-s5.jpg",
+      "source_y_pt": [
+        517.3333333333334,
+        673.4173537495092
+      ],
+      "sha256": "693369ac717b77576c63bd90e14c4e5dc382b1d43f776623e665d868a7d19d53",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p3-s2.jpg",
+      "source_y_pt": [
+        152.03690616411464,
+        299.5257165292501
+      ],
+      "sha256": "d30b6ef2153459097154cea041cc3a93921052465dcfad532d8972713a95aea6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p3-s5.jpg",
+      "source_y_pt": [
+        539.6478209658421,
+        691.5995288574794
+      ],
+      "sha256": "f4492c11ed4d4145735109a23664d68c5cacd13f927c1600711a9aa6863169ff",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p4-s3.jpg",
+      "source_y_pt": [
+        276.33686690223794,
+        426.13977228111503
+      ],
+      "sha256": "d8948a58a1868bf4eebbca6d52efc71e9fdabf678cef5fffcc374900e289f2c1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p4-s4.jpg",
+      "source_y_pt": [
+        410.8849627012171,
+        564.9854731056145
+      ],
+      "sha256": "4694b73cbfa24befedc823981e8d870a5c24733f738e0e281252ca9198c8d28a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p4-s5.jpg",
+      "source_y_pt": [
+        539.6478209658421,
+        687.3019238319591
+      ],
+      "sha256": "34ffbd38cbe6ea8b23c0f1812a88318a720cdeca3f9522ab185095b6bedaa95f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p4-s6.jpg",
+      "source_y_pt": [
+        663.9477817039655,
+        811.6018845700825
+      ],
+      "sha256": "1ac95c08378b630377fcf49176fbfccd95ae9ef91dd4c6eadfdcd657a4c1532c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p5-s5.jpg",
+      "source_y_pt": [
+        540.804868472713,
+        686.3101688260699
+      ],
+      "sha256": "88c3f56b115d3f26ce7c7ca01bb5fb171291fcb69887e690213e76d835424acf",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A065",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A065-p5-s6.jpg",
+      "source_y_pt": [
+        663.9477817039655,
+        811.6018845700825
+      ],
+      "sha256": "9d3ed1e9200055cfd805e6dc2a0d4e99239373fd56c0024f735833b2899393e7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p1-s1.jpg",
+      "source_y_pt": [
+        155.83863368669023,
+        301.3439340400471
+      ],
+      "sha256": "8230246a078e619009a4361eb2ada09d4bd27e5892410e7b6558560a0623b23e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p1-s4.jpg",
+      "source_y_pt": [
+        531.7137809187279,
+        677.0537887711033
+      ],
+      "sha256": "9b40eb7f28e0e9a5115e0f3b9e5b33f3ab489487e2fc98f0591ec364d6354a26",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p1-s5.jpg",
+      "source_y_pt": [
+        661.7989791912054,
+        811.6018845700825
+      ],
+      "sha256": "1b60191c9d8730eb7594644f9030ab5cae89b193c8f3d74a86a562fdcfa86935",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p4-s4.jpg",
+      "source_y_pt": [
+        390.7192775814684,
+        540.5221829603455
+      ],
+      "sha256": "b22039fd3abd076900c9645c7b089fc0449c976a670d9605767a3899d77c4b46",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p4-s6.jpg",
+      "source_y_pt": [
+        657.5013741656851,
+        811.6018845700825
+      ],
+      "sha256": "f4b359142f31be5aa039601e4ba2583cb3d65a920af944dc52657cba8d8e0736",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p5-s5.jpg",
+      "source_y_pt": [
+        544.441303494307,
+        694.2442088731841
+      ],
+      "sha256": "3aa1935d0f47e9c8900a849379d63a3929781d64df0e54a42d82dde6d2ff008e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p6-s3.jpg",
+      "source_y_pt": [
+        266.088731841382,
+        415.72634471927756
+      ],
+      "sha256": "06eff4a4bc91c49c4a216b8817dd4ecff88751f4ef1e8d1452a87b7a77a4c832",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 7,
+      "system": 1,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p7-s1.jpg",
+      "source_y_pt": [
+        27.736945425991365,
+        179.6886533176286
+      ],
+      "sha256": "5a6fb13304e383edf743c780ae65bfafda6ba1fd3c2951f8f74573b612ea09ac",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 7,
+      "system": 2,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p7-s2.jpg",
+      "source_y_pt": [
+        160.46682371417353,
+        316.55084413034945
+      ],
+      "sha256": "d972d3556eda70f2506ea65228a209480c92deba72b80b2d428fbb3cb96e5c25",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 7,
+      "system": 4,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p7-s4.jpg",
+      "source_y_pt": [
+        419.6454652532391,
+        565.150765606596
+      ],
+      "sha256": "8d09b4930ff4e01a866add038e99a42a9cd856be38b7715713af5491c1c373c8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 7,
+      "system": 5,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p7-s5.jpg",
+      "source_y_pt": [
+        537.8296034550451,
+        683.334903808402
+      ],
+      "sha256": "dc38b7e6e14bbe12a7b2d6492e5f127bbb24efff45da185ce9574cfbb8998793",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A066",
+      "page": 7,
+      "system": 6,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/A066-p7-s6.jpg",
+      "source_y_pt": [
+        663.9477817039655,
+        811.6018845700825
+      ],
+      "sha256": "2b04312bebde0a9e3eec8a50eaa66dfaecc815d83952a957d4c0c6f1fc372352",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 7,
+      "pdf_page": 27,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-7-reread.jpg",
+      "sha256": "60f40c5a2c95b5e572012ee49c3db4bd1abfc074ba59a7dee5c84c8f44d114df",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 8,
+      "pdf_page": 28,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-8-reread.jpg",
+      "sha256": "89d099a38bae1eb0518e9cccadcda7b3f60480eee8c1bec1e041c85eb2a56c41",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 9,
+      "pdf_page": 29,
+      "path": "tmp/engraving/iris-kaibutsu-2026-10-28/book-9-reread.jpg",
+      "sha256": "e0446628bcab3362292b97b8bdc68d1974b742f3816efc7d59beeb0416ccb47c",
+      "reused": false,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 31,
+      "pdf_page": 51,
+      "path": "tmp/engraving/departures-2026-10-27/book-31.jpg",
+      "sha256": "4db21ae68026b539883536d06266c0e41c265e91bddc4510dfd6806dd80e950f",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 39,
+      "pdf_page": 59,
+      "path": "tmp/engraving/study-2026-10-19/book-39.jpg",
+      "sha256": "e54e35ecab84ac4044f4d55a70626b0f836dd16361a2fd442484c1a71923480d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-307-reread.jpg",
+      "sha256": "b52e28888c02d2fc9046d3e632095e4be18cb53ca82755423eeeab20391f5d95",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 308,
+      "pdf_page": 328,
+      "path": "tmp/engraving/fingering-2026-10-20/book-308.jpg",
+      "sha256": "4a6e8fd2666ce018049dfc9107a65f121d2f0a188ab8b884b4c5cfa1b8fc3902",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 325,
+      "pdf_page": 345,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-325-reread.jpg",
+      "sha256": "f7eadb3e5e69f4fc956573f04ca623e989a53a7de9895cf6484b46176c92eaca",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_substantive_ledger_coverage": false,
+      "new_ancillary_ledger_coverage": false
+    }
+  ],
+  "whole_reviews": {
+    "A065": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 29,
+      "complete_system_detail_images": 12,
+      "source_font_names": [
+        "DGNPBP+Chaconne",
+        "DGNPCP+CenturyNo1SB-Bold",
+        "DGOCAD+CenturyOSMTPro-Italic",
+        "DGOEMD+CenturyNo1SB-BoldIta",
+        "PFRWHP+PalatinoLinotype,Italic",
+        "RIQIJL+PalatinoLinotype"
+      ],
+      "staves_per_row": 2,
+      "media_box_pt": [
+        595.22,
+        842.0
+      ]
+    },
+    "A066": {
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 41,
+      "complete_system_detail_images": 12,
+      "source_font_names": [
+        "NDGNMD+Chaconne",
+        "NDGNME+Chaconne",
+        "NDGNMF+Chaconne",
+        "NDGNMG+CenturyNo1SB-Bold",
+        "NDGNNG+CenturyOSMTPro-Italic",
+        "NDGOHF+PalatinoLinotype",
+        "NDGOHH+PalatinoLinotype,Italic",
+        "NDHAIL+CenturyNo1SB-BoldIta"
+      ],
+      "staves_per_row": 2,
+      "media_box_pt": [
+        595.22,
+        842
+      ]
+    }
+  },
+  "selected_music_checks": {
+    "head_origin_checks": [
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "I p4s3 second bar;four sextuplet-sixteenth groups",
+        "box_pt": [
+          314,
+          290,
+          550,
+          320
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          315.558,
+          324.954,
+          334.152,
+          343.548,
+          352.926,
+          362.142,
+          374.184,
+          385.506,
+          394.722,
+          407.106,
+          418.2661,
+          427.4821,
+          436.86,
+          446.256,
+          455.454,
+          468.036,
+          477.234,
+          486.63,
+          496.0081,
+          505.2241,
+          516.546,
+          525.942,
+          535.14,
+          547.1821
+        ],
+        "heads": [
+          {
+            "origin": [
+              315.558,
+              312.17359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              324.954,
+              310.04960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              334.152,
+              299.4116
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              343.548,
+              307.9257
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              352.926,
+              310.04960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              362.142,
+              312.17359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              374.184,
+              312.17359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              385.506,
+              310.04960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              394.722,
+              301.55359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              407.106,
+              310.04960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              418.2661,
+              310.04960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              427.4821,
+              312.17359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              436.86,
+              301.55359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              446.256,
+              310.04960000000005
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              455.454,
+              312.17359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              468.036,
+              314.2976
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              477.234,
+              312.17359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              486.63,
+              303.6776
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              496.0081,
+              312.17359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              505.2241,
+              314.2976
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              516.546,
+              314.2976
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              525.942,
+              305.8016
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              535.14,
+              314.2976
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              547.1821,
+              316.4216
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "I p4s3 second bar lower eight ordinary eighths",
+        "box_pt": [
+          314,
+          360,
+          550,
+          395
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          315.558,
+          343.548,
+          374.184,
+          406.944,
+          436.86,
+          468.036,
+          496.0081,
+          525.942
+        ],
+        "heads": [
+          {
+            "origin": [
+              315.558,
+              384.4256
+            ],
+            "size": 16.289999999999964,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              343.548,
+              365.2916
+            ],
+            "size": 16.289999999999964,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              374.184,
+              375.9116
+            ],
+            "size": 16.289999999999964,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              406.944,
+              365.2916
+            ],
+            "size": 16.289999999999964,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              436.86,
+              384.4256
+            ],
+            "size": 16.289999999999964,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              468.036,
+              365.2916
+            ],
+            "size": 16.289999999999964,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              496.0081,
+              375.9116
+            ],
+            "size": 16.289999999999964,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              525.942,
+              365.2916
+            ],
+            "size": 16.289999999999964,
+            "font": "DGNPBP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "I p4s4 first bar;four sextuplet-sixteenth groups",
+        "box_pt": [
+          84,
+          435,
+          315,
+          480
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          84.996,
+          94.392,
+          103.77,
+          115.812,
+          126.972,
+          139.536,
+          148.752,
+          158.13,
+          167.526,
+          176.904,
+          186.3,
+          198.864,
+          210.906,
+          220.284,
+          229.5,
+          238.878,
+          248.274,
+          257.652,
+          267.048,
+          276.426,
+          285.804,
+          295.02,
+          304.398,
+          313.794
+        ],
+        "heads": [
+          {
+            "origin": [
+              84.996,
+              453.1317
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              94.392,
+              451.0076
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              103.77,
+              440.3876
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              115.812,
+              442.5116
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              126.972,
+              442.5116
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              139.536,
+              444.6357
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              148.752,
+              446.7596
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              158.13,
+              448.8836
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              167.526,
+              451.0076
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              176.904,
+              448.8836
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              186.3,
+              451.0076
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              198.864,
+              453.1317
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              210.906,
+              455.2556
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              220.284,
+              453.1317
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              229.5,
+              455.2556
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              238.878,
+              457.3796
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              248.274,
+              455.2556
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              257.652,
+              457.3796
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              267.048,
+              459.5036
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              276.426,
+              457.3796
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              285.804,
+              459.5036
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              295.02,
+              461.6277
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              304.398,
+              463.7516
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              313.794,
+              465.8756
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "p4s6 first bar 4 ordinary16,7:4,6:4,4 ordinary16",
+        "box_pt": [
+          82,
+          685,
+          310,
+          715
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          82.692,
+          96.336,
+          109.8,
+          123.426,
+          137.07,
+          146.268,
+          155.664,
+          164.862,
+          174.258,
+          183.456,
+          196.038,
+          205.416,
+          215.694,
+          226.134,
+          236.412,
+          246.852,
+          257.13,
+          267.57,
+          281.214,
+          294.84,
+          308.304
+        ],
+        "heads": [
+          {
+            "origin": [
+              82.692,
+              697.6797
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              96.336,
+              708.2997
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              109.8,
+              697.6797
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              123.426,
+              693.4316
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              137.07,
+              695.5557
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              146.268,
+              697.6797
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              155.664,
+              699.8036
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              164.862,
+              701.9276
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              174.258,
+              704.0517
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              183.456,
+              706.1757
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              196.038,
+              708.2997
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              205.416,
+              695.5557
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              215.694,
+              697.6797
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              226.134,
+              699.8036
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              236.412,
+              701.9276
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              246.852,
+              704.0517
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              257.13,
+              706.1757
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              267.57,
+              708.2997
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              281.214,
+              706.1757
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              294.84,
+              704.0517
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              308.304,
+              708.2997
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "p4s6 last bar;two6:4 sixteen groups,quarter,two eighth chords",
+        "box_pt": [
+          330,
+          685,
+          514,
+          723
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          330.264,
+          340.704,
+          351.162,
+          361.6021,
+          371.88,
+          382.32,
+          392.778,
+          403.218,
+          413.658,
+          424.116,
+          434.556,
+          444.834,
+          455.274,
+          491.238,
+          513.54
+        ],
+        "heads": [
+          {
+            "origin": [
+              330.264,
+              706.1757
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              340.704,
+              712.5477
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              351.162,
+              716.8137
+            ],
+            "size": 16.289900000000003,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              361.6021,
+              718.9377
+            ],
+            "size": 16.289900000000003,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              371.88,
+              721.0616
+            ],
+            "size": 16.289900000000003,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              382.32,
+              718.9377
+            ],
+            "size": 16.289900000000003,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              392.778,
+              716.8137
+            ],
+            "size": 16.289900000000003,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              403.218,
+              712.5477
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              413.658,
+              706.1757
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              424.116,
+              704.0517
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              434.556,
+              701.9276
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              444.834,
+              697.6797
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              455.274,
+              691.3076
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              491.238,
+              704.0517
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          },
+          {
+            "origin": [
+              513.54,
+              699.8036
+            ],
+            "size": 16.28989999999999,
+            "font": "DGNPBP+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A066",
+        "page": 7,
+        "label": "K second-bar inner melody F5;treble top line",
+        "box_pt": [
+          244,
+          120,
+          245,
+          122
+        ],
+        "text": "œ",
+        "selector": "topmost-at-onset",
+        "unique_x": [
+          244.206
+        ],
+        "heads": [
+          {
+            "origin": [
+              244.206,
+              120.92359999999996
+            ],
+            "size": 16.28989999999999,
+            "font": "NDGNME+Chaconne"
+          }
+        ]
+      },
+      {
+        "id": "A066",
+        "page": 7,
+        "label": "K second-bar C4 bass under treble;one ledger line",
+        "box_pt": [
+          229,
+          141,
+          230,
+          143
+        ],
+        "text": "œ",
+        "selector": "all",
+        "unique_x": [
+          229.68
+        ],
+        "heads": [
+          {
+            "origin": [
+              229.68,
+              142.16359999999997
+            ],
+            "size": 16.28989999999999,
+            "font": "NDGNME+Chaconne"
+          }
+        ]
+      }
+    ],
+    "metrics": [
+      {
+        "label": "A065 I second bar sextuplet1",
+        "axes_pt": [
+          315.558,
+          324.954,
+          334.152,
+          343.548,
+          352.926,
+          362.142
+        ],
+        "gaps_pt": [
+          9.396000000000015,
+          9.197999999999979,
+          9.396000000000015,
+          9.377999999999986,
+          9.216000000000008
+        ],
+        "n": 5,
+        "minimum": 9.197999999999979,
+        "maximum": 9.396000000000015,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 I second bar sextuplet2",
+        "axes_pt": [
+          374.184,
+          385.506,
+          394.722,
+          407.106,
+          418.2661,
+          427.4821
+        ],
+        "gaps_pt": [
+          11.321999999999946,
+          9.216000000000008,
+          12.384000000000015,
+          11.1601,
+          9.216000000000008
+        ],
+        "n": 5,
+        "minimum": 9.216000000000008,
+        "maximum": 12.384000000000015,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 I second bar sextuplet3",
+        "axes_pt": [
+          436.86,
+          446.256,
+          455.454,
+          468.036,
+          477.234,
+          486.63
+        ],
+        "gaps_pt": [
+          9.395999999999958,
+          9.198000000000036,
+          12.581999999999994,
+          9.197999999999979,
+          9.396000000000015
+        ],
+        "n": 5,
+        "minimum": 9.197999999999979,
+        "maximum": 12.581999999999994,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 I second bar sextuplet4",
+        "axes_pt": [
+          496.0081,
+          505.2241,
+          516.546,
+          525.942,
+          535.14,
+          547.1821
+        ],
+        "gaps_pt": [
+          9.216000000000008,
+          11.321900000000028,
+          9.395999999999958,
+          9.197999999999979,
+          12.042100000000005
+        ],
+        "n": 5,
+        "minimum": 9.197999999999979,
+        "maximum": 12.042100000000005,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "I p4s3 second bar lower eight ordinary eighths",
+        "axes_pt": [
+          315.558,
+          343.548,
+          374.184,
+          406.944,
+          436.86,
+          468.036,
+          496.0081,
+          525.942
+        ],
+        "gaps_pt": [
+          27.99000000000001,
+          30.636000000000024,
+          32.75999999999999,
+          29.915999999999997,
+          31.175999999999988,
+          27.97210000000001,
+          29.933899999999994
+        ],
+        "n": 7,
+        "minimum": 27.97210000000001,
+        "maximum": 32.75999999999999,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 I next system sextuplet1",
+        "axes_pt": [
+          84.996,
+          94.392,
+          103.77,
+          115.812,
+          126.972,
+          139.536
+        ],
+        "gaps_pt": [
+          9.396,
+          9.378,
+          12.042000000000002,
+          11.159999999999997,
+          12.564000000000007
+        ],
+        "n": 5,
+        "minimum": 9.378,
+        "maximum": 12.564000000000007,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 I next system sextuplet2",
+        "axes_pt": [
+          148.752,
+          158.13,
+          167.526,
+          176.904,
+          186.3,
+          198.864
+        ],
+        "gaps_pt": [
+          9.377999999999986,
+          9.396000000000015,
+          9.377999999999986,
+          9.396000000000015,
+          12.563999999999993
+        ],
+        "n": 5,
+        "minimum": 9.377999999999986,
+        "maximum": 12.563999999999993,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 I next system sextuplet3",
+        "axes_pt": [
+          210.906,
+          220.284,
+          229.5,
+          238.878,
+          248.274,
+          257.652
+        ],
+        "gaps_pt": [
+          9.377999999999986,
+          9.216000000000008,
+          9.377999999999986,
+          9.396000000000015,
+          9.377999999999986
+        ],
+        "n": 5,
+        "minimum": 9.216000000000008,
+        "maximum": 9.396000000000015,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 I next system sextuplet4",
+        "axes_pt": [
+          267.048,
+          276.426,
+          285.804,
+          295.02,
+          304.398,
+          313.794
+        ],
+        "gaps_pt": [
+          9.377999999999986,
+          9.377999999999986,
+          9.216000000000008,
+          9.378000000000043,
+          9.395999999999958
+        ],
+        "n": 5,
+        "minimum": 9.216000000000008,
+        "maximum": 9.395999999999958,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 mixed bar group1",
+        "axes_pt": [
+          82.692,
+          96.336,
+          109.8,
+          123.426
+        ],
+        "gaps_pt": [
+          13.644000000000005,
+          13.463999999999999,
+          13.626000000000005
+        ],
+        "n": 3,
+        "minimum": 13.463999999999999,
+        "maximum": 13.644000000000005,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 mixed bar group2",
+        "axes_pt": [
+          137.07,
+          146.268,
+          155.664,
+          164.862,
+          174.258,
+          183.456,
+          196.038
+        ],
+        "gaps_pt": [
+          9.198000000000008,
+          9.395999999999987,
+          9.198000000000008,
+          9.396000000000015,
+          9.197999999999979,
+          12.582000000000022
+        ],
+        "n": 6,
+        "minimum": 9.197999999999979,
+        "maximum": 12.582000000000022,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 mixed bar group3",
+        "axes_pt": [
+          205.416,
+          215.694,
+          226.134,
+          236.412,
+          246.852,
+          257.13
+        ],
+        "gaps_pt": [
+          10.277999999999992,
+          10.439999999999998,
+          10.27800000000002,
+          10.439999999999998,
+          10.277999999999992
+        ],
+        "n": 5,
+        "minimum": 10.277999999999992,
+        "maximum": 10.439999999999998,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 mixed bar group4",
+        "axes_pt": [
+          267.57,
+          281.214,
+          294.84,
+          308.304
+        ],
+        "gaps_pt": [
+          13.644000000000005,
+          13.625999999999976,
+          13.463999999999999
+        ],
+        "n": 3,
+        "minimum": 13.463999999999999,
+        "maximum": 13.644000000000005,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 last bar sextuplet1",
+        "axes_pt": [
+          330.264,
+          340.704,
+          351.162,
+          361.6021,
+          371.88,
+          382.32
+        ],
+        "gaps_pt": [
+          10.439999999999998,
+          10.45799999999997,
+          10.44010000000003,
+          10.277899999999988,
+          10.439999999999998
+        ],
+        "n": 5,
+        "minimum": 10.277899999999988,
+        "maximum": 10.45799999999997,
+        "boundary_gaps_excluded": true
+      },
+      {
+        "label": "A065 last bar sextuplet2",
+        "axes_pt": [
+          392.778,
+          403.218,
+          413.658,
+          424.116,
+          434.556,
+          444.834
+        ],
+        "gaps_pt": [
+          10.439999999999998,
+          10.439999999999998,
+          10.45799999999997,
+          10.439999999999998,
+          10.27800000000002
+        ],
+        "n": 5,
+        "minimum": 10.27800000000002,
+        "maximum": 10.45799999999997,
+        "boundary_gaps_excluded": true
+      }
+    ],
+    "vector_checks": [
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "mixed first4 two beams",
+        "object_type": "rect",
+        "x0": 82.692,
+        "x1": 123.87599999999999,
+        "top": 720.09,
+        "bottom": 722.142,
+        "points": [
+          [
+            82.692,
+            722.142
+          ],
+          [
+            123.87599999999999,
+            722.142
+          ],
+          [
+            123.87599999999999,
+            720.09
+          ],
+          [
+            82.692,
+            720.09
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "mixed first4 two beams",
+        "object_type": "rect",
+        "x0": 82.692,
+        "x1": 123.87599999999999,
+        "top": 716.886,
+        "bottom": 718.938,
+        "points": [
+          [
+            82.692,
+            718.938
+          ],
+          [
+            123.87599999999999,
+            718.938
+          ],
+          [
+            123.87599999999999,
+            716.886
+          ],
+          [
+            82.692,
+            716.886
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "mixed7 two beams",
+        "object_type": "curve",
+        "x0": 137.07,
+        "x1": 196.488,
+        "top": 715.824,
+        "bottom": 722.142,
+        "points": [
+          [
+            137.07,
+            715.824
+          ],
+          [
+            196.488,
+            720.09
+          ],
+          [
+            196.488,
+            722.142
+          ],
+          [
+            137.07,
+            717.876
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "mixed7 two beams",
+        "object_type": "curve",
+        "x0": 137.07,
+        "x1": 196.488,
+        "top": 712.638,
+        "bottom": 718.938,
+        "points": [
+          [
+            137.07,
+            712.638
+          ],
+          [
+            196.488,
+            716.886
+          ],
+          [
+            196.488,
+            718.938
+          ],
+          [
+            137.07,
+            714.69
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "mixed6 two beams",
+        "object_type": "curve",
+        "x0": 205.416,
+        "x1": 257.58,
+        "top": 714.762,
+        "bottom": 721.08,
+        "points": [
+          [
+            205.416,
+            714.762
+          ],
+          [
+            257.58,
+            719.028
+          ],
+          [
+            257.58,
+            721.08
+          ],
+          [
+            205.416,
+            716.814
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "mixed6 two beams",
+        "object_type": "curve",
+        "x0": 205.416,
+        "x1": 257.58,
+        "top": 711.576,
+        "bottom": 717.876,
+        "points": [
+          [
+            205.416,
+            711.576
+          ],
+          [
+            257.58,
+            715.824
+          ],
+          [
+            257.58,
+            717.876
+          ],
+          [
+            205.416,
+            713.6279999999999
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "mixed last4 two beams",
+        "object_type": "rect",
+        "x0": 267.57,
+        "x1": 308.754,
+        "top": 720.09,
+        "bottom": 722.142,
+        "points": [
+          [
+            267.57,
+            722.142
+          ],
+          [
+            308.754,
+            722.142
+          ],
+          [
+            308.754,
+            720.09
+          ],
+          [
+            267.57,
+            720.09
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "mixed last4 two beams",
+        "object_type": "rect",
+        "x0": 267.57,
+        "x1": 308.754,
+        "top": 716.886,
+        "bottom": 718.938,
+        "points": [
+          [
+            267.57,
+            718.938
+          ],
+          [
+            308.754,
+            718.938
+          ],
+          [
+            308.754,
+            716.886
+          ],
+          [
+            267.57,
+            716.886
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "final6 first two beams",
+        "object_type": "rect",
+        "x0": 330.264,
+        "x1": 382.77,
+        "top": 732.834,
+        "bottom": 734.886,
+        "points": [
+          [
+            330.264,
+            734.886
+          ],
+          [
+            382.77,
+            734.886
+          ],
+          [
+            382.77,
+            732.834
+          ],
+          [
+            330.264,
+            732.834
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "final6 first two beams",
+        "object_type": "rect",
+        "x0": 330.264,
+        "x1": 382.77,
+        "top": 729.648,
+        "bottom": 731.7,
+        "points": [
+          [
+            330.264,
+            731.7
+          ],
+          [
+            382.77,
+            731.7
+          ],
+          [
+            382.77,
+            729.648
+          ],
+          [
+            330.264,
+            729.648
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "final6 second two beams",
+        "object_type": "curve",
+        "x0": 392.778,
+        "x1": 445.284,
+        "top": 723.276,
+        "bottom": 730.638,
+        "points": [
+          [
+            392.778,
+            728.586
+          ],
+          [
+            445.284,
+            723.276
+          ],
+          [
+            445.284,
+            725.328
+          ],
+          [
+            392.778,
+            730.638
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "final6 second two beams",
+        "object_type": "curve",
+        "x0": 392.778,
+        "x1": 445.284,
+        "top": 720.09,
+        "bottom": 727.452,
+        "points": [
+          [
+            392.778,
+            725.4
+          ],
+          [
+            445.284,
+            720.09
+          ],
+          [
+            445.284,
+            722.142
+          ],
+          [
+            392.778,
+            727.452
+          ]
+        ]
+      },
+      {
+        "id": "A065",
+        "page": 4,
+        "label": "final pair exactly one beam;eighths",
+        "object_type": "curve",
+        "x0": 491.238,
+        "x1": 513.99,
+        "top": 727.524,
+        "bottom": 732.762,
+        "points": [
+          [
+            491.238,
+            730.71
+          ],
+          [
+            513.99,
+            727.524
+          ],
+          [
+            513.99,
+            729.576
+          ],
+          [
+            491.238,
+            732.762
+          ]
+        ]
+      }
+    ],
+    "event_order": [
+      {
+        "label": "A065 I24 versus8;selected first full-sextuplet bar",
+        "layers": [
+          {
+            "name": "upper",
+            "times_quarters": [
+              "0",
+              "1/6",
+              "1/3",
+              "1/2",
+              "2/3",
+              "5/6",
+              "1",
+              "7/6",
+              "4/3",
+              "3/2",
+              "5/3",
+              "11/6",
+              "2",
+              "13/6",
+              "7/3",
+              "5/2",
+              "8/3",
+              "17/6",
+              "3",
+              "19/6",
+              "10/3",
+              "7/2",
+              "11/3",
+              "23/6"
+            ],
+            "axes_pt": [
+              315.558,
+              324.954,
+              334.152,
+              343.548,
+              352.926,
+              362.142,
+              374.184,
+              385.506,
+              394.722,
+              407.106,
+              418.2661,
+              427.4821,
+              436.86,
+              446.256,
+              455.454,
+              468.036,
+              477.234,
+              486.63,
+              496.0081,
+              505.2241,
+              516.546,
+              525.942,
+              535.14,
+              547.1821
+            ]
+          },
+          {
+            "name": "lower",
+            "times_quarters": [
+              "0",
+              "1/2",
+              "1",
+              "3/2",
+              "2",
+              "5/2",
+              "3",
+              "7/2"
+            ],
+            "axes_pt": [
+              315.558,
+              343.548,
+              374.184,
+              406.944,
+              436.86,
+              468.036,
+              496.0081,
+              525.942
+            ]
+          }
+        ],
+        "distinct_times": 24,
+        "common_onsets": [
+          "0",
+          "1/2",
+          "1",
+          "3/2",
+          "2",
+          "5/2",
+          "3",
+          "7/2"
+        ],
+        "tolerance_pt": 0.2,
+        "maximum_common_origin_difference_pt": 0.16199999999997772,
+        "event_order_preserved": true
+      }
+    ],
+    "clef_case": {
+      "id": "A066",
+      "page": 7,
+      "scope": "K second and third bars lower staff",
+      "clefs": [
+        {
+          "text": "&",
+          "origin": [
+            205.236,
+            133.6676
+          ],
+          "size": 12.744000000000028,
+          "font": "NDGNME+Chaconne"
+        },
+        {
+          "text": "?",
+          "origin": [
+            295.5603744,
+            125.1711752
+          ],
+          "size": 12.744000000000028,
+          "font": "NDGNME+Chaconne"
+        },
+        {
+          "text": "&",
+          "origin": [
+            330.606,
+            133.6676
+          ],
+          "size": 12.744000000000028,
+          "font": "NDGNME+Chaconne"
+        },
+        {
+          "text": "?",
+          "origin": [
+            420.9303744,
+            125.1711752
+          ],
+          "size": 12.744000000000028,
+          "font": "NDGNME+Chaconne"
+        }
+      ],
+      "manually_read_written_pitches": [
+        "F5",
+        "C4"
+      ],
+      "current_ledger_lines": [
+        0,
+        1
+      ],
+      "uniform_bass_comparison_ledger_lines": [
+        6,
+        1
+      ],
+      "comparison_scope": "Diatonic ledger count,not a rendered alternative;key signature spelling not transposed"
+    },
+    "duration_recipes": [
+      {
+        "label": "A065 I opening eighth rest,three3:2sixteenths,three6:4sixteenth groups",
+        "quarter_units": [
+          "1/2",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A065 I full four6:4sixteenth groups",
+        "quarter_units": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A065 I lower ordinary eighths",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A065 p4s4 second bar eighteen6:4sixteenths then quarter",
+        "quarter_units": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A065 p4s5 ordinary sixteen sixteenths",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A065 mixed four16,seven7:4sixteenths,six6:4sixteenths,four16",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A065 next bar two6:4sixteenth groups,quarter,two eighths",
+        "quarter_units": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A066 G upper accompaniment quarterrest,chord,rest,chord",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A066 G downstem first-bar melody eight eighths",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A066 G second-bar low layer halfrest,eighthrest,quarter,eighth",
+        "quarter_units": [
+          "2",
+          "1/2",
+          "1",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A066 K upper first chord quarter,then two eighths,dotted8,16,two eighths",
+        "quarter_units": [
+          "1",
+          "1/2",
+          "1/2",
+          "3/4",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A066 K next upper bars eighthrest,three eighths,dotted8,16,two eighths",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "3/4",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A066 before L low layer quarter,two eighths,quarterrest,xheadquarter",
+        "quarter_units": [
+          "1",
+          "1/2",
+          "1/2",
+          "1",
+          "1"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      },
+      {
+        "label": "A066 final bar staccato quarter,quarterrest,halfrest",
+        "quarter_units": [
+          "1",
+          "1",
+          "2"
+        ],
+        "total_quarters": "4",
+        "scope": "Selected visible rhythms;not a full pitch/voice/playback reconstruction"
+      }
+    ]
+  },
+  "book": {
+    "new_substantive_printed_ranges": [
+      [
+        287,
+        300
+      ]
+    ],
+    "new_substantive_pages": 14,
+    "new_unique_pages": 16,
+    "new_reference_table_pages": 0,
+    "new_ancillary_pages": 2,
+    "new_ancillary_printed_pages": [
+      301,
+      302
+    ],
+    "new_ancillary_pdf_pages": [
+      321,
+      322
+    ],
+    "ancillary_classification": {
+      "title": [
+        301
+      ],
+      "contents": [
+        302
+      ]
+    },
+    "reread_printed_pages": [
+      7,
+      8,
+      9,
+      31,
+      39,
+      200,
+      307,
+      308,
+      311,
+      325
+    ],
+    "physical_offset": 20,
+    "percussion_status": "Substantive body271-30030/30 covered;301-302 keyboard chapter title/contents,not percussion body.",
+    "denominator_correction": "Prior16/32 should be16/30;previous page ranges and global credit unchanged. Historical certificate preserved."
+  },
+  "judgments": [
+    "Keep I four groups and local extra occupancy;24 versus8 common origins differ at most0.162pt,all selected event order preserved",
+    "Ordinary16 and7:4/6:4 all need their own base and beat;short octave applies only to the7 group",
+    "The bar after mixed4/7/6/4 contains12tuplet heads,one separate quarter andtwo eighth chords,not two final quarters",
+    "Keep G upper mp chords,downstem mf melody and subsequent low f entry with hand and rest scopes",
+    "Keep K lower clef changes:middle F5 haszero ledger lines in treble versus6in bass;C4 hasone below treble. This is selected-note comparison,not a rendered candidate",
+    "Keep voice-leading dashed line distinct from later xhead gliss,actual pickup dynamics/tempo/octave scopes and final activity",
+    "Percussion double stems,open sustain,damping and roll instructions have instrument/action conditions;do not import wholesale into piano"
+  ],
+  "unresolved": [
+    "No new native alternative,full pitch/voice/playback reconstruction or physical print/turn validation",
+    "Some other tuplets and detailed hand/pedal execution remain open;source geometry does not prove minimum clearance or editor workflow",
+    "No new personal preference or reproduced host defect"
+  ],
+  "changes": {
+    "new_animenz_closeouts": 2,
+    "new_closeout_pages": 12,
+    "new_resource_completions": 0,
+    "new_gould_substantive": 14,
+    "new_gould_ancillary": 2,
+    "new_fixed_transfer": 0,
+    "new_user_integrated_rounds": 0,
+    "new_native_or_adaptation": 0,
+    "files_deleted": 0
+  },
+  "validation": {
+    "status": "passed",
+    "original_pdf_hash_and_pages_checks": 3,
+    "images_actually_viewed_and_hashed": 62,
+    "whole_score_pages": 12,
+    "system_rows": 70,
+    "system_detail_images": 24,
+    "source_head_origins_verified": 94,
+    "source_beams_verified": 13,
+    "source_clef_origins_verified": 4,
+    "within_group_gap_measurements": 74,
+    "selected_duration_recipes": 14,
+    "event_order_distinct_times": [
+      24
+    ],
+    "new_substantive_book_pages": 14,
+    "new_ancillary_book_pages": 2,
+    "reread_book_pages_not_recredited": 10,
+    "new_corpus_closeouts": 2,
+    "skill_routes_executed": 20,
+    "new_case_routes_linked": 12,
+    "local_markdown_links_checked": 843,
+    "public_paths": 22,
+    "new_native_or_adaptation": 0,
+    "files_deleted": 0,
+    "historical_release_0_8_0_unchanged": true,
+    "unrelated_workspace_paths_excluded": 4,
+    "all_material_goal": "active"
+  },
+  "cache": {
+    "measured_at_utc": "2026-10-28T12:04:11.676641+00:00",
+    "batch_logical_bytes": 13004942,
+    "total_logical_bytes": 2677183480,
+    "total_on_disk_bytes": 2535894253,
+    "actually_viewed_images": 62,
+    "reused_viewed_images": 19,
+    "new_viewed_images": 43,
+    "prepared_but_unviewed_images": 50,
+    "original_pdf_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Only62actually viewed images credited;50prepared unused images retained locally,not reading evidence. Next batch render only needed details. Logical size before final small records."
+  }
+}

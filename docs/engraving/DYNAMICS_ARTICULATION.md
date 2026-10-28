@@ -97,3 +97,7 @@ p116允许在明确建立模式后用stacc. sempre、marcato sempre或sim.省重
 ## 2026-10-28：力度可晚于段首也可先于字母
 
 A063 C的pp在快速型进入，低部p与后来的mp各有对象；N先重奏后pp，O的p旋律又先于字母。A064 M快层p、主线mp保主次，K sfz后pp是先后阶段。 见[完整两首案例](INTEGRATED_READING_IMAGINATION_POOL.md)。
+
+## 2026-10-28：同表多个力度有角色依据
+
+Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位置，不能按谱表合并。K第一四分重奏f之后才是mf旋律，先后也要保。 见[整曲理由](INTEGRATED_READING_IRIS_KAIBUTSU.md)。

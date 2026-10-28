@@ -130,3 +130,7 @@ MPA补图本轮未完成：官方20页入口仍可读取，但截图无可见像
 ## 2026-10-28：loco只恢复后续实际对象
 
 A063 p6s1第一拍长音仍在8va内，后面的loco恢复新四分线；持音不随文字重新攻击。A064 G局部8vb只包所示低音，末段8va亦按实际起止核，不沿梁统一延长。 见[完整两首案例](INTEGRATED_READING_IMAGINATION_POOL.md)。
+
+## 2026-10-28：短七连与提前恢复各自有范围
+
+IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先于8va，I前p sub.又先于字母。不能按行／梁／字母吸齐。 见[整曲理由](INTEGRATED_READING_IRIS_KAIBUTSU.md)。

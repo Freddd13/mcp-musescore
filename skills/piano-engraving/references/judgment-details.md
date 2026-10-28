@@ -253,6 +253,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 
 <a id="clefs"></a>
 
+`INTEGRATED_READING_IRIS_KAIBUTSU.md`的K保频繁换号：选定F5若统一低音需六加线，当前高音下穿插C4仅一加线。先比较实际音区、连续材料和恢复点，再评价换号次数；这是选定音的书写比较，尚未渲染替代。
+
 `clefs`／`octaves`的`SKILL_TRANSFER_CLEFS.md`以完整运行和低入口比较换号；正常短值身份不能只由缩图大小判断。短8va结束后同谱位的新音已恢复原八度，可按上下文比较loco；谱下8va的可见低八度读法与内部播放分查。
 
 ## 换谱号与连续音程轮廓
