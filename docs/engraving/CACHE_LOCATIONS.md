@@ -98,3 +98,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-29 Key／KICK批次约3.70MiB，总净书缓存约2.514GiB逻辑长度；58张已看图中36张复用、22张新系统图。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线。[字节与时点](key_kick_closeout_evidence.json)先于最后小记录。
 
 2026-10-29 Kigeki／Killy批次约5.24MiB，总净书缓存约2.519GiB逻辑长度；51张已看图中25张复用、26张新系统图。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线。[字节与时点](kigeki_killy_closeout_evidence.json)先于最后小记录。
+
+2026-10-29 Kimi／Kizuna批次约4.79MiB，总净书缓存约2.524GiB逻辑长度；60张已看图中32张复用、28张新系统图。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线。[字节与时点](kimi_kizuna_closeout_evidence.json)先于最后小记录。

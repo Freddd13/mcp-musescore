@@ -12,6 +12,8 @@
 
 <a id="symbols"></a>
 
+`INTEGRATED_READING_KIMI_KIZUNA.md`：N前八分接收之后八双梁头占一拍半，优先完整8:6；22整小节与11半小节分别计量。不能把错位和弦头当两个先后音，亦不按相似梁形补齐头数。
+
 `INTEGRATED_READING_KEY_KICK.md`的计量音型加gliss.与叉头波线分判。p326偏好动作线，但替换须明确保总时长、端点身份和独立停止；开头5:4及末尾四个十六分加一四分的书面组织不证明逐键精确指法。
 
 `glissandi`／`piano`的`INTEGRATED_READING_DEPARTURES.md`将竖琴拼写／七踏板／滑奏限定于弦与脚的动作条件。可迁移预读与范围清楚，不向钢琴套禁用重升降号等专用惯例。
@@ -89,6 +91,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_KIMI_KIZUNA.md`：22组头距5.513–9.971pt、实际干轴9.720–10.560pt；先查跨表连接侧，不能为头距统一拉宽。U末15列是14十六分＋一八分，起点近稳不证明全同值。
+
 `INTEGRATED_READING_KIGEKI_KILLY.md`：快层最大宽步可由另一手还原号或换谱号占位解释；先查完整两手与行预算。advance框能定位字符，不能证明最小墨迹净空，亦不能把另一行的均匀步长直接复制。
 
 `INTEGRATED_READING_KEY_KICK.md`的R相邻3/4小节线间65.340／54.720pt，扣到首头后均48.798pt：先区分前缀和音符区，不能把拍号占位报成同值音组拉散；P／I稳定活动层仍应保留。
@@ -158,6 +162,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_KIMI_KIZUNA.md`：I三连在上层休止中、四十六分在下层四分中，为轮流细分；E前9头主梁含四普通32＋五5:4:32，按Gould200比较短括形，只包后五头。
 
 `INTEGRATED_READING_KEY_KICK.md`的R有效拍序为3、4、3、3、3、4、3个四分，行末C是预告；Y的5/8按3＋2，后续6/8五起音含一四分仍为六份。按有效状态和时值读，再判断梁／弧范围，别由字母或头数套循环。
 

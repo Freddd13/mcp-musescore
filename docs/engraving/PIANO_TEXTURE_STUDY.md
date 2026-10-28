@@ -218,3 +218,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-29：快组休止与慢线不是冗余
 
 [Kigeki C／Killy F、H](INTEGRATED_READING_KIGEKI_KILLY.md)背景pp与较晚mp、sempre legato快层与独立上干线、组前休止／短组弧／外层长弧分工。Gould311附加干可省补齐休止的条件，不支持删掉本来有时值任务的快组休止。末尾上部持续与低部收束各读。
+
+## 2026-10-29：同主题可交换主次，休止仍有任务
+
+[Kimi Q](INTEGRATED_READING_KIMI_KIZUNA.md)上pp／下p到p8上p／下pp，再交换回来；r.h.指下表局部慢音。Kizuna C后同表p快层／mp慢线、I重音与接收各保范围。Gould311可省附加旋律的补齐休止，不等于删有时值任务的快组休止。

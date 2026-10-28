@@ -133,3 +133,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-29：十六分解释和等式方向分查
 
 [Kigeki](INTEGRATED_READING_KIGEKI_KILLY.md)开头为两个十六分的2:1解释，D恢复亦同；旧READING_013八分称法已改。F附点四分＝四分及返回逆式，在新左／旧左两体例均能成对返回，不能靠互逆证明方向。优先比较old/new或箭头／确认BPM；PDF未解方向前不写播放。Coda旧调过渡、F字框、新调12/8及首音不强吸同点。
+
+## 2026-10-29：引入已加速／增强，段首稍后到达
+
+[Kizuna E／L及Kimi 22](INTEGRATED_READING_KIMI_KIZUNA.md)：E85在旧运行收束之后；L前先accel.，短三连引入已ff，L才明确90。Kimi a tempo在22独立小节首头，不能挪到O。R前普通休止与额外caesura分读，末尾延长／静默／再进入另有次序。
