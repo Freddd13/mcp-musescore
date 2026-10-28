@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-29[KonoSuba／Kuchizuke](INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md)：J变音前缀七处加宽均有占位，K两手16列共同；保J跨小节普通八分三音重心及H局部G号。Q短三连括号只包下降中三头，M按保持大拍换算。先识别占位与读者任务，再决定保留／候选。
+
 2026-10-28[炭治郎／舰队](INTEGRATED_READING_TANJIRO_KANTAI.md)：C快层稳定，优先比较八音32的第二／第三层内梁在八分单位分隔；H的16、G8:6／9:8及X半音双音各读当地条件。先明确读者任务，再作事实—条件—动作—代价四步判断；[Gould序言及全书回查入口](GOULD_READING_CLOSEOUT.md)已补齐。
 
 2026-10-28[IRIS／Kaibutsu](INTEGRATED_READING_IRIS_KAIBUTSU.md)：I24对8保共同关系及局部占位，G同表mp／mf与后续低音f分别保留，K若统一低音会使选定F5达六条加线，保原换号。几何整齐、标记数量和换号次数都须结合读者任务判断。

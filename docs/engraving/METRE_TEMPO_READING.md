@@ -137,3 +137,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-29：引入已加速／增强，段首稍后到达
 
 [Kizuna E／L及Kimi 22](INTEGRATED_READING_KIMI_KIZUNA.md)：E85在旧运行收束之后；L前先accel.，短三连引入已ff，L才明确90。Kimi a tempo在22独立小节首头，不能挪到O。R前普通休止与额外caesura分读，末尾延长／静默／再进入另有次序。
+
+## 2026-10-29：M保大拍，行中入口保生效点
+
+[KonoSuba M](INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md)旧四分＝新附点四分，旧96对应新附点四分96、四分144，八分时长缩为旧值2/3。B／K／T在行中，K前8va早于字母；按实际事件读标记，不能吸附行首。Gould172–173及183–184分别支持单位和锚点。

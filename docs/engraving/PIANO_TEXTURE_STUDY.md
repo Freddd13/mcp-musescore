@@ -222,3 +222,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-29：同主题可交换主次，休止仍有任务
 
 [Kimi Q](INTEGRATED_READING_KIMI_KIZUNA.md)上pp／下p到p8上p／下pp，再交换回来；r.h.指下表局部慢音。Kizuna C后同表p快层／mp慢线、I重音与接收各保范围。Gould311可省附加旋律的补齐休止，不等于删有时值任务的快组休止。
+
+## 2026-10-29：三音重心、独立保持和终点分读
+
+[两首整曲](INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md)Kuchizuke J普通八分跨小节三音型与上部4/4参照协作；O的持音／交替休止／l.h.不同于B。KonoSuba Q共享末八分不加两次攻击，W与末尾换号接续按所有层完成，不能只依最上长头收尾。

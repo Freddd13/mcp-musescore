@@ -91,6 +91,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：J首小节无前缀约8pt、有前缀10–15pt，先给符号合理占位；K两手16列共同。连续层稳定与每步几何相等分开，保真实移头／前缀，不直接套官谱坐标。
+
 `INTEGRATED_READING_KIMI_KIZUNA.md`：22组头距5.513–9.971pt、实际干轴9.720–10.560pt；先查跨表连接侧，不能为头距统一拉宽。U末15列是14十六分＋一八分，起点近稳不证明全同值。
 
 `INTEGRATED_READING_KIGEKI_KILLY.md`：快层最大宽步可由另一手还原号或换谱号占位解释；先查完整两手与行预算。advance框能定位字符，不能证明最小墨迹净空，亦不能把另一行的均匀步长直接复制。
@@ -162,6 +164,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：Kuchizuke J是24个普通八分分八组三头并跨小节，保重心位移，不当3:2或默认4＋4。KonoSuba Q下降梁含四普通32、三连16及末普通8，短括号只管中三头。
 
 `INTEGRATED_READING_KIMI_KIZUNA.md`：I三连在上层休止中、四十六分在下层四分中，为轮流细分；E前9头主梁含四普通32＋五5:4:32，按Gould200比较短括形，只包后五头。
 
@@ -245,6 +249,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="tempo"></a>
 
+`INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：M旧四分＝新附点四分，旧96变新附点四分96／四分144；行中B／K／T分别保真实锚点，不能吸附到行首。
+
 `INTEGRATED_READING_KIGEKI_KILLY.md`：Kigeki开头解释的是十六分。F附点四分＝四分及返回逆式在新左／旧左体例均可互逆，配对不能证明方向；先确认再补old/new、箭头或BPM，不按PDF自动改播放。
 
 `INTEGRATED_READING_ICHIBAN_IDOL.md`核Meno从前一小节最后四分开始，J的mp／K的166也先落于弱起；八度线另有更早结束点。恢复文字不能统一吸到下一琶音或段号。
@@ -276,6 +282,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 自由段先分省拍号、局部自由、senza misura与独立速度，再读活动／持续层及返回点。陪伴长值可代表等待，不因延长号x不同拆音移齐；工程隐藏计量／速度不直接等于读者须看见的拍号／节拍。跨表音可画在空容器上，Part也不等同演奏者；原生连接按实际版本结构核对。`piano`／`tempo`中的`FREE_PASSAGE_READING.md`有用户尾页保留证据及官谱对照。波线还可能指音组自由反复，先看材料和说明，不能一概识别为trill。
 
 <a id="clefs"></a>
+
+`INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：H换G后C4一条下加线，D5在谱内；留F会使D5五条上加线。按整个连续型和手判断，不能只看重复最低头。
 
 `INTEGRATED_READING_IRIS_KAIBUTSU.md`的K保频繁换号：选定F5若统一低音需六加线，当前高音下穿插C4仅一加线。先比较实际音区、连续材料和恢复点，再评价换号次数；这是选定音的书写比较，尚未渲染替代。
 
