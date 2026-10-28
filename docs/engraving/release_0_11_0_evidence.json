@@ -1,0 +1,601 @@
+{
+  "date": "2026-10-29",
+  "version": "0.11.0",
+  "tag": "engraving-v0.11.0",
+  "publication_base_commit": "bdb6c2943d74f8064aad6f78fba2de67122e8db8",
+  "previous_release": {
+    "version": "0.10.0",
+    "tag_commit": "94a7ca2f37c0aa8441278b797ddf17299df59248",
+    "certificate_sha256": "662ccfaf89b3628e0cf0ffac4527b1f1b7ceab90152626441dc6d418d32551b5"
+  },
+  "changes_since_0_10_0": {
+    "new_all_score_closeouts": 10,
+    "new_whole_score_pages": 64,
+    "new_Gould_substantive_pages": 0,
+    "new_Gould_ancillary_pages": 0,
+    "new_complete_resource_scopes": 0,
+    "new_fixed_skill_transfer_scenarios": 0,
+    "new_native_studies": 1,
+    "new_native_primary_conditions": 2,
+    "new_automatic_display_diagnostics": 1,
+    "new_user_integrated_rounds": 0
+  },
+  "sources_checked": [
+    {
+      "id": "A078",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\KonoSuba Medley.pdf",
+      "sha256": "5219aa5c3e805d23a4608500fd0335150e4c5ab494a5b26f16938324125b9662",
+      "pages": 9,
+      "read_only": true
+    },
+    {
+      "id": "A079",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kuchizuke Diamond - Yamada-kun and the Seven Witches - Opening Theme.pdf",
+      "sha256": "6a86fa3515a6b7da8c45abecebd10a9d1131655b26769a4305d69ca1cb2260f7",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A080",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kura Kura - SPY × FAMILY S2 - Opening Theme.pdf",
+      "sha256": "8ba563bd3d8b6d14862c83d9cc1c2944fa60e4472a30fd105b990bbbf8bb6989",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A081",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kuusou Mesorogiwi - Mirai Nikki - 1st Opening Theme.pdf",
+      "sha256": "8673fa684bfd0b84877a19dfdcfa94b03bfc49031f6369eb7e21fafa65163d44",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A082",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kyouran Hey Kids!! - Noragami Aragoto - Opening Theme.pdf",
+      "sha256": "5860995a39ae2cb7b1646d5427aca96a5075260e05a299f451e93173b73c1fb8",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A086",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Main Theme - Detective Conan - Soundtrack.pdf",
+      "sha256": "fe2b4646db49b6bd12fd8877198303219af332b117ac66d487be6b9f8bf59fd3",
+      "pages": 4,
+      "read_only": true
+    },
+    {
+      "id": "A087",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Melissa - Fullmetal Alchemist - Opening Theme.pdf",
+      "sha256": "565c40949f2c414ad06dc3083f290cdeb1f99387d29d9f423c26d5334f9843f4",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A088",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Merry-Go-Round of Life - Howl’s Moving Castle - Main Theme.pdf",
+      "sha256": "8558a8c2b5e5ed694156f302cd817b73c1e6a9ceb8ebb7af41d10509a15eb024",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A090",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Miiro - Kantai Collection - Opening Song.pdf",
+      "sha256": "eb860e2252e52e59571adde15c9e1432eab2a399731781402bc02d7f15da747e",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A091",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Mixed Nuts - SPY×FAMILY - Opening Theme.pdf",
+      "sha256": "a90ec5f84ac02781135891e067565e25971752bdd965150b039b4d4687d5aad4",
+      "pages": 5,
+      "read_only": true
+    }
+  ],
+  "book_source_checked": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "pages": 696,
+    "read_only": true
+  },
+  "study_evidence_hashes": [
+    {
+      "path": "konosuba_kuchizuke_closeout_evidence.json",
+      "sha256": "de03fbd1997f2c74c14ced5707d4f54a837d88f8d02d27f6707f0517848d5c93",
+      "validation": {
+        "status": "passed",
+        "source_PDFs_readonly_hashes_verified": 3,
+        "whole_score_pages": 15,
+        "system_rows": 89,
+        "images_viewed": 67,
+        "system_details": 33,
+        "additional_bar_details": 1,
+        "book_pages_reread": 18,
+        "new_book_or_complete_resource_coverage": 0,
+        "source_head_origins_checked": 220,
+        "linear_filled_beam_vectors_checked": 15,
+        "stem_axes_checked": 32,
+        "local_gap_measurements": 79,
+        "duration_recipes": 14,
+        "skill_routes_executed": 20,
+        "new_case_direct_routes": 12,
+        "local_markdown_links_checked": 859,
+        "public_paths": 21,
+        "corpus_closeouts": [
+          76,
+          146
+        ],
+        "resources": [
+          13,
+          25
+        ],
+        "all_material_goal": "active",
+        "new_native_or_adaptation": 0,
+        "old0_10_0snapshot_and_inner_beam_evidence_unchanged": true,
+        "files_deleted": 0,
+        "musical_interpretations_require_visual_reading_not_proved_by_arithmetic": true
+      }
+    },
+    {
+      "path": "kura_kuusou_closeout_evidence.json",
+      "sha256": "d88311ba4d136e8823be732eef563b6a7202d0d3acecc8867a2a5f91e41a1da6",
+      "validation": {
+        "status": "passed",
+        "source_PDFs_readonly_hashes_verified": 3,
+        "whole_score_pages": 13,
+        "system_rows": 76,
+        "images_viewed": 68,
+        "system_details": 34,
+        "book_pages_reread": 21,
+        "new_book_or_complete_resource_coverage": 0,
+        "source_head_origins_checked": 169,
+        "linear_filled_beam_vectors_checked": 10,
+        "NoBounce_bracket_components_checked": 2,
+        "local_gap_measurements": 89,
+        "duration_recipes": 9,
+        "skill_routes_executed": 20,
+        "new_case_direct_routes": 14,
+        "local_markdown_links_checked": 880,
+        "public_paths": 21,
+        "corpus_closeouts": [
+          78,
+          146
+        ],
+        "resources": [
+          13,
+          25
+        ],
+        "all_material_goal": "active",
+        "new_native_or_adaptation": 0,
+        "old0_10_0snapshot_and_inner_beam_evidence_unchanged": true,
+        "files_deleted": 0,
+        "musical_interpretations_require_visual_reading_not_proved_by_arithmetic": true,
+        "H_ratio_and_timing_hypothesis_unresolved": true
+      }
+    },
+    {
+      "path": "kyouran_conan_closeout_evidence.json",
+      "sha256": "16b3b41610901afe3e5aa5e9cef0f2934fcb53cdbe5b6fb91fc125e4704daf7c",
+      "validation": {
+        "status": "passed",
+        "source_PDFs_readonly_hashes_verified": 3,
+        "whole_score_pages": 10,
+        "system_rows": 59,
+        "images_viewed": 58,
+        "system_details": 31,
+        "book_pages_reread": 17,
+        "new_book_or_complete_resource_coverage": 0,
+        "source_head_origins_checked": 204,
+        "linear_filled_beam_vectors_checked": 6,
+        "local_gap_measurements": 155,
+        "duration_recipes": 11,
+        "skill_routes_executed": 20,
+        "new_case_direct_routes": 15,
+        "local_markdown_links_checked": 854,
+        "public_paths": 21,
+        "corpus_closeouts": [
+          80,
+          146
+        ],
+        "resources": [
+          13,
+          25
+        ],
+        "all_material_goal": "active",
+        "new_native_or_adaptation": 0,
+        "old0_10_0snapshot_and_inner_beam_evidence_unchanged": true,
+        "files_deleted": 0,
+        "musical_interpretations_require_visual_reading_not_proved_by_arithmetic": true
+      }
+    },
+    {
+      "path": "melissa_merry_closeout_evidence.json",
+      "sha256": "8612500ca8ba5df68c9f2e4f8097bca2778d48a68be6d9e5e0e005ec7115386d",
+      "validation": {
+        "status": "passed",
+        "original_PDF_hashes_and_pages_verified": 3,
+        "whole_score_pages": 14,
+        "system_rows": 86,
+        "images_actually_viewed": 65,
+        "system_details": 33,
+        "book_pages_reread": 18,
+        "new_book_or_complete_resource_coverage": 0,
+        "source_head_origins_checked": 236,
+        "lower_control_heads_checked": 9,
+        "linear_beam_vectors_checked": 7,
+        "source_stem_axes_checked": 2,
+        "actual_prefixes_checked": 2,
+        "local_gap_measurements": 140,
+        "duration_recipes": 14,
+        "skill_routes_executed": 20,
+        "new_study_direct_routes": 12,
+        "local_markdown_links_checked": 938,
+        "public_paths": 22,
+        "corpus_closeouts": [
+          82,
+          146
+        ],
+        "resources": [
+          13,
+          25
+        ],
+        "all_material_goal": "active",
+        "new_native_or_adaptation": 0,
+        "old0_10_0snapshot_and_prior_native_evidence_unchanged": true,
+        "files_deleted": 0,
+        "musical_interpretations_require_visual_reading_not_proved_by_arithmetic": true
+      }
+    },
+    {
+      "path": "miiro_mixed_closeout_evidence.json",
+      "sha256": "de1e6cd48b4ee766b8210cf4354d18dcbcf4cbc99fe95503ab75b71f5a774cce",
+      "validation": {
+        "status": "passed",
+        "original_PDF_hashes_and_pages_verified": 3,
+        "whole_score_pages": 12,
+        "system_rows": 66,
+        "images_actually_viewed": 58,
+        "system_details": 27,
+        "book_pages_reread": 19,
+        "new_book_or_complete_resource_coverage": 0,
+        "source_full_heads_checked": 191,
+        "source_half_heads_checked": 3,
+        "linear_beam_vectors_checked": 9,
+        "stable_layer_gaps": 45,
+        "duration_recipes": 10,
+        "static_navigation_jump_edges": 2,
+        "first_C_arrival": 1,
+        "native_navigation_or_full_pitch_audit": false,
+        "skill_routes_executed": 20,
+        "new_study_direct_routes": 12,
+        "local_markdown_links_checked": 895,
+        "public_paths": 22,
+        "corpus_closeouts": [
+          84,
+          146
+        ],
+        "resources": [
+          13,
+          25
+        ],
+        "all_material_goal": "active",
+        "new_native_or_adaptation": 0,
+        "old0_10_0snapshot_and_prior_native_evidence_unchanged": true,
+        "files_deleted": 0,
+        "musical_interpretations_require_visual_reading_not_proved_by_arithmetic": true
+      }
+    }
+  ],
+  "native_study": {
+    "path": "docs/engraving/partial_tuplet_brackets_evidence.json",
+    "sha256": "5284e14c7cf5e95fd2c818ab9b034e822310b64e6ffb7937ae8dffd5172e7fb5",
+    "validation": {
+      "status": "passed",
+      "public_paths": 20,
+      "local_markdown_links_checked": 787,
+      "skill_routes_executed": 20,
+      "new_study_direct_routes": 4,
+      "old_reading_counts_and_release_and_user_milestones_preserved": true,
+      "old_immutable_release_and_prior_evidence_preserved": true,
+      "public_assets_hashed": 5,
+      "primary_native_conditions": [
+        2,
+        2
+      ],
+      "automatic_display_diagnostic": 1,
+      "reading_increment": 0,
+      "original_source_files_not_accessed_or_written": true,
+      "files_deleted": 0,
+      "software_adaptation_changes": 0
+    },
+    "rerun_for_release": false
+  },
+  "public_native_artifacts_checked": [
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-comparison.png",
+      "sha256": "e7e1ed14f8bde83ab11a8b720d4ebbfed79ee60eedcceae65f30777ac6f22b02",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-default.mscx",
+      "sha256": "137f7fa6296adcc9a57cc769ec0a7f11cdd4107e2bfe3c01b7d06e00deaccc93",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-uniform-rejected.mscx",
+      "sha256": "05613fe6a3f46f1220bb1bff3e87cfb6504dd4f66c1e31c3b99dde9cd8d4303c",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-comparison.png",
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-default.mscx",
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-pulse-candidate.mscx",
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-candidate.mscx",
+      "sha256": "9595459dcd6a8d79adccff31af0998fbffcf613c5f49aa13e17e6fe9795badff",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-comparison.png",
+      "sha256": "a3bfd34a884ff6db9b71ecabe11d3eb90dfda971b617b02b4151b17e3c045cbc",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-default.mscx",
+      "sha256": "55718a3d194aadab49bd1fed9ec2d8a44a2ca18e1ba41eac99b3172fdec2ff48",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+      "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+      "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+      "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+      "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+      "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-continuous.mscx",
+      "sha256": "7d07dd4f64c9e7e93ef7e8265c6d5867443cfa7803822a5cabc1040b1c9b5c86",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-four.mscx",
+      "sha256": "37aa041c5826e3abd79050ba64f618c4100dc3fc52d6ec55df7a00789c48c99f",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-nested.mscx",
+      "sha256": "29d2e93cf5ea4ce587853b2d307c6b7cf3666701ae0d607f176030be6fd951b3",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-comparison.png",
+      "sha256": "23844cef5fa01c33c7827f96961f92b97839e3f830b13c1ead3c8d99c0245102",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-full-context.png",
+      "sha256": "cbc5ebdd13115d38cc7b7ee756125e6e72f24a0c7d0e9fe35cf6ac27a3b741bc",
+      "unchanged_from_0_10_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-bare.mscx",
+      "sha256": "8050d939dc6156b01c80740625576ebc9b8d967c2930eee6aca0492a916ad7cc",
+      "new_study": "partial_tuplet_brackets_evidence.json"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-short.mscx",
+      "sha256": "c07663991331902d7d8c38b1b5c6094dd6a0ffb31e827dd7ed89a753a85c783d",
+      "new_study": "partial_tuplet_brackets_evidence.json"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-auto-probe.mscx",
+      "sha256": "638b411732187390af3973cc3d91df410e04478a2e2c2bb457f9e2a0111b725c",
+      "new_study": "partial_tuplet_brackets_evidence.json"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-comparison.png",
+      "sha256": "0d936b66eeb119d5ab6e2191f782c4e674b36336f4fed5a306b86f65a4110bc5",
+      "new_study": "partial_tuplet_brackets_evidence.json"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-full-context.png",
+      "sha256": "6b940ed9e96c7923bc404f7f5b989c25131d33f4bb3c122186186b4b9a89808f",
+      "new_study": "partial_tuplet_brackets_evidence.json"
+    }
+  ],
+  "skill_routes": [
+    {
+      "topic": "overview",
+      "references": 17
+    },
+    {
+      "topic": "spacing",
+      "references": 42
+    },
+    {
+      "topic": "rhythm",
+      "references": 38
+    },
+    {
+      "topic": "tempo",
+      "references": 27
+    },
+    {
+      "topic": "beams",
+      "references": 23
+    },
+    {
+      "topic": "curves",
+      "references": 28
+    },
+    {
+      "topic": "markings",
+      "references": 22
+    },
+    {
+      "topic": "ornaments",
+      "references": 7
+    },
+    {
+      "topic": "glissandi",
+      "references": 9
+    },
+    {
+      "topic": "clefs",
+      "references": 12
+    },
+    {
+      "topic": "octaves",
+      "references": 28
+    },
+    {
+      "topic": "navigation",
+      "references": 18
+    },
+    {
+      "topic": "piano",
+      "references": 40
+    },
+    {
+      "topic": "cross-staff",
+      "references": 25
+    },
+    {
+      "topic": "notation",
+      "references": 36
+    },
+    {
+      "topic": "layout",
+      "references": 31
+    },
+    {
+      "topic": "sources",
+      "references": 18
+    },
+    {
+      "topic": "cases",
+      "references": 4
+    },
+    {
+      "topic": "baseline",
+      "references": 3
+    },
+    {
+      "topic": "implementation",
+      "references": 1
+    }
+  ],
+  "native_validation_reexecuted_for_release": false,
+  "scope": "Package/source checks and prior actual-reading image hashes;publication adds no reading credit,source editing,adaptation,font work or deletion.",
+  "not_done": [
+    "62remaining whole-score question closeouts",
+    "Full-material mastery and12resource scopes",
+    "User integrated round0/1 and preparation2/4",
+    "Full-score automatic engraving",
+    "Real-score native alternatives and author playback/physical-turn/print proof"
+  ],
+  "validation": {
+    "status": "passed",
+    "original_score_sources_hash_and_pages_checked": 10,
+    "original_score_pages": 64,
+    "study_evidence_files_hashed": 5,
+    "study_viewed_image_records_hashed": 316,
+    "unique_image_paths_hashed": 288,
+    "public_native_artifact_hashes_checked": 25,
+    "skill_routes_executed": 20,
+    "local_markdown_links_checked": 504,
+    "current_skill_metadata": "0.11.0",
+    "prior_certificate_and_tag_unchanged": true,
+    "native_validation_reexecuted": false,
+    "all_material_goal_still_active": true
+  },
+  "progress_snapshot": {
+    "as_of": "2026-10-29",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      84,
+      146
+    ],
+    "gould_pages_conservative": [
+      696,
+      696
+    ],
+    "gould_substantive_pages": 598,
+    "gould_non_substantive_pages": 98,
+    "gould_title_or_contents_pages": 98,
+    "public_resource_scopes": [
+      13,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ],
+    "user_milestones": [
+      2,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.11.0"
+  }
+}
