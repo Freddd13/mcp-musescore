@@ -90,3 +90,7 @@ p621自由反复开头还展示音组之后的波线配repeat ad lib.等说明�
 ## 2026-10-28：a piacere与已写计量一起保留
 
 A064 L前先在12/8小节中标a piacere，随后短3/4的5＋5＋6独立分组，再预告12/8、L恢复a tempo。自由处理不取消顺序／范围；N后的rit.与Meno另定位。 见[完整两首案例](INTEGRATED_READING_IMAGINATION_POOL.md)。
+
+## 2026-10-29：相邻计量组不规定后面的自由段
+
+[Soul末页](INTEGRATED_READING_SOUL_WAR.md)前有明确3＋5＋5计量；最后adlibitum先局部3，再29头跨表双梁、两8和较长落音，背景tie／低音保持。保顺序、轮廓及收束，不凭全音背景补29连或机械填4/4。Gould610–612的便利时值与返回条件分读。

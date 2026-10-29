@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-29[Soul／My War](INTEGRATED_READING_SOUL_WAR.md)：先保16／8活动和必要前缀；Soul F校正mf／pp，H140从最后8提前音起，计量3＋5＋5与自由29头分读。War J先四分和弦、后八分型；滑奏、引导线、手与八度逐端核，重复轮廓不授权复制范围。
+
 2026-10-29[Dearest／Hero](INTEGRATED_READING_DEAREST_HERO.md)：保稳定活动骨架，遇连音核基值、完整范围和会合点；K内层3列澄清候选，P首处3.545pt错列保局部候选。装饰脚注、tr层次和末延长休止分别读，不从数字或短梁检测直接改谱。
 
 2026-10-29[Miiro／Mixed Nuts](INTEGRATED_READING_MIIRO_MIXED.md)：保稳定十六分和分层力度，分弱起／震音、L提前音与恢复拍号；断开tie先查实际DS／Segno／Coda来路，不按页面邻接配对。

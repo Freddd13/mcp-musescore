@@ -150,3 +150,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-29：上部结束与下部局部提示分判
 
 [Hero](INTEGRATED_READING_DEAREST_HERO.md)p3分立八度提示不擅并成全行；末8va到tie接收之后结束，保随后延长休止。Dearest P两层范围各自存在，换号／8va不因同起点合并；Gouldp324的谱表作用条件适用。
+
+## 2026-10-29：相似再现不复制范围
+
+[Soul／My War](INTEGRATED_READING_SOUL_WAR.md)Soul H前两条8va至旧附点二分后止，140的最后8为新入口；F短8va与mf／pp各有范围。War p3与p7强奏相似，但长高8va、滑奏及低部8vb不同，逐端核后保留；J长低音接收不是新攻击。

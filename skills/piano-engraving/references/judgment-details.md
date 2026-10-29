@@ -97,6 +97,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_SOUL_WAR.md`：War较紧F升号前局部12.591pt，较宽J约14pt仍保组形；先查前缀自身和预算，不按单一均匀度误报。
+
 `INTEGRATED_READING_DEAREST_HERO.md`：保活动层及P12／11各自组形，既有首到达−3.545pt仍是局部候选；整齐不能掩盖真实共同末点。
 
 `INTEGRATED_READING_MIIRO_MIXED.md`：Miiro A各16列保稳定活动；8.682–8.899pt是本例观测，别直接泛化。
@@ -241,6 +243,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_SOUL_WAR.md`：Soul F旧mp／pp纠正为mf／pp，pp在前8接收之后进入新线；War J先sfz四分和弦、再mf六8，后续低部sfz另属其层。
+
 `INTEGRATED_READING_MIIRO_MIXED.md`：B／E不同层力度保归属；con pedale不授权删断奏点。
 
 `markings`／`tempo`的`INTEGRATED_READING_DEPARTURES.md`纠正C的pp／mp，保护慢干、迟进入与F前先变速／减弱。先核X归属，再理Y通道；局部手提示、段号和八度不自动合锚。
@@ -283,6 +287,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="tempo"></a>
 
+`INTEGRATED_READING_SOUL_WAR.md`：Soul G128之后a tempo从拍内q1恢复，H140从下一系统首小节q7/2最后8开始，不能吸到下一条小节线；War性格字样不自动赋新BPM。
+
 `INTEGRATED_READING_KURA_KUUSOU.md`：L是普通八分对的长短演奏说明，旧附点八分说法已改；M NoBounce从前4/4末八分起，过短2/4后结束。freely、a tempo与N原速＋均分分别保状态和锚点。
 
 `INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md`：M旧四分＝新附点四分，旧96变新附点四分96／四分144；行中B／K／T分别保真实锚点，不能吸附到行首。
@@ -306,6 +312,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先分类有等号的小音符：它也可能是swing／straight的演奏解释。`tempo`／`rhythm`接入A003的十六分长短说明与恢复，`overview`有完整六页案例。书写单位、约定长短与真实播放时点分查，不把演奏2:1变成头距2:1，不给显式三连再套swing，也不因straight两边相同就删恢复提示。范围／播放不能从PDF字样横坐标补出；真正变速和特殊比例记谱另核。
 
 <a id="free-passage"></a>
+
+`INTEGRATED_READING_SOUL_WAR.md`：Soul计量3＋5＋5与后面adlibitum的29头长运行分读；保背景、局部小3、动作和收束，不凭头数自动补比例。
 
 `TIME_SPACE_AND_REPETITION.md`的近似音高／选择续记区分音区参照与自由顺序：少线／交叉头须有定义，框须说明选取、重复、退出及同步。圈排练字母不自动是选择框，固定钢琴段不为省墨改成近似音高或任选序。
 

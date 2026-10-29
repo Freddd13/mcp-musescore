@@ -125,3 +125,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：拍内进入与同表前景
 
 [两首](INTEGRATED_READING_DEAREST_HERO.md)Dearest D的mp espress.随晚三连入口，S上pp晚起、下p先起；Hero同表f慢线与mp快层保贴近所属干端。不能把力度一律居中或吸到段落字母列。
+
+## 2026-10-29：mf／pp及提前入口校正
+
+[Soul F](INTEGRATED_READING_SOUL_WAR.md)旧mp／pp说明改mf／pp；上部pp在前8接收之后起新短8va，低部mf背景延续，随后上部mf重新八度。War J先sfz和弦四分、后mf六8，后续低部sfz短引音与持音另判。不要统一居中或全局去重。

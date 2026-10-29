@@ -96,3 +96,5 @@ R08 [目标bvid关联的公开列表索引](https://www.bilibili.com/list/ml1185
 2026-10-29再读[R22公开正文](https://note.com/fujii_taiga_m/n/nca8f66de9948)，仍未收到原文谱图，变体URL不可得；图数未知、实际0幅。正文重读不补缺图成绩，资料13/25、余12项保持。[记录](miiro_mixed_closeout_evidence.json)。
 
 2026-10-29续查R12[指定页面／小节教程](https://www.bilibili.com/video/BV1k34y1B7Jc/)返回412，精确bvid检索无结果；没有读到视频画面或技术正文。仍13/25、余12项，未用相近视频顶替目标。[本批记录](dearest_hero_closeout_evidence.json)。
+
+2026-10-29续查R07：[作者原视频说明索引](https://www.bilibili.com/video/BV1wwH5esEBt/)仍给出既有署名与Henle／PWM参考声明；另核[IMSLP对应作品目录](https://imslp.org/wiki/Ballade_No.1,_Op.23_(Chopin,_Fr%C3%A9d%C3%A9ric))，当前页未找到Legato字符串或可确认匹配文件。没有取得目标成品或视频画面，也未用其它编辑版顶替，完成项仍13/25、余12。[本批记录](soul_war_closeout_evidence.json)。
