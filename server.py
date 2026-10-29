@@ -31,6 +31,7 @@ logger = logging.getLogger("MuseScoreMCP")
 mcp = FastMCP("MuseScore Evolution Assistant", instructions=(
     "通过本机连接操作当前打开的 MuseScore 乐谱。先用get_score_identity确认当前窗口、谱面标题、总谱／分谱和未保存状态，再按需要读取当前选区。"
     "编配任务使用 read_arrangement_context 分批读取内存中的音符、声部、和弦与演奏数据；"
+    "需要核对谱面时，用get_score_image按同一context_id读取MuseScore原图和音符位置。"
     "保留任务范围，按需要补充材料和解释。给出少量局部写法，用编配建议面板比较、试听和采用。"
     "用户明确要求修改时，在指定范围完成编辑并读回核对；一次采用形成一次撤销。"
     "小节从 1 开始，谱表和声部从 0 开始。写入响应中断时，先查询操作结果或重新读谱，再决定后续操作。"
@@ -50,7 +51,7 @@ setup_notes_measures_tools(mcp, client)
 setup_staff_instruments_tools(mcp, client)
 setup_time_tempo_tools(mcp, client)
 setup_sequence_tools(mcp, client)
-setup_viewer_tools(mcp, client)
+setup_viewer_tools(mcp, client, context_service)
 
 # Main entry point
 if __name__ == "__main__":

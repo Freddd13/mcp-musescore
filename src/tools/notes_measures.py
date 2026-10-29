@@ -102,3 +102,6 @@ def setup_notes_measures_tools(mcp, client: MuseScoreClient):
     )
     async def undo():
         return await client.send_command("undo")
+    @mcp.tool(description="恢复刚撤销的一次乐谱修改。", tags={"measures"})
+    async def redo():
+        return await client.send_command("redo")
