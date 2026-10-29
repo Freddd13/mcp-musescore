@@ -197,3 +197,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：完整上下文纠正速度提前
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Everlasting开头四分148，F四分168在完整主题小节；之前mf／8休止／三连引入各有位置。窄F数字图不足以定速度起点，完整上下文已纠正本轮初猜。Heroes I／J引入先于正式界线；不把标签、力度与速度一并吸齐。
+
+## 2026-10-30：分组显拍，不按横向距离推BPM
+
+[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether m29换6/8以3＋3梁显两个复合拍，m55在rit.后a tempo回3/4；未写等式处不推精确新速度。Rumbling G行中Poco meno及后Tempo I各跟实际入口，不默认段落全另起行。

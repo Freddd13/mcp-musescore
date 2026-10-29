@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-30[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：同六个8，3/4两两、6/8三三；m29先休止不漏计。六个小音与低音保持不合成普通8；m68下干四分仍在同表8va范围。部分6／3比较短括号，6/8首宽格核实际占位再比较；Rumbling末为二分接收＋二分休止，旧整小节休止读法更正。
+
 2026-10-30[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：C压短加线会交叠，保必要宽度；普通6＋6＋4和fff四8不改连音。完整3／5梁可保简洁，末7／12须先核非标准分母意图。Heroes L四whole为四次起音；F速度、力度、弱起与正式段界分别核。
 
 2026-10-30[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：先保快层稳定和慢线独立读法；F／K部分3／5比较局部范围提示，完整7／7／5／5可保。裸8与外部32休止需核实际比例，条件8:7不能冒充意图；高8va止于实际最后上表成员，跨表近邻按干轴读顺序。

@@ -181,3 +181,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：跨表接手与净空
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes C前两六音组各五下＋一上，最后四音下表；近接手两干轴98.8029／101.5016，相差2.699pt，仍为先后普通16。梁保轮廓和加线空间，不拉平或按近干吸齐。
+
+## 2026-10-30：层数停止处仍决定末音时值
+
+[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Rumbling F末普通七头为六32＋末16，第三层梁提前停止；前三三连又只占同主梁一部分。Aether小音跨表共同梁保六音上行轮廓，不统一干长或拆表内两个独立片段。

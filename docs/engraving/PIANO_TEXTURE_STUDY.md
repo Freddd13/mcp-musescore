@@ -294,3 +294,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：换手、角色和低音起音
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Everlasting G下干慢旋律／l.h.及K下表r.h.与长音并行，L持续有实际tie；Heroes L四whole无跨小节tie，为四次书面起音。按读者任务保层次，不按谱表直接分手或用连续持音替换。
+
+## 2026-10-30：低音保持、装饰展开与新线各留线索
+
+[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether m25／51小音前端另接下干、连向后面同音长值，不能只按正常字号长头吸齐所有起点；m68持续附点二分与下部休止／两四分并存。Gould125–129／311–312分条件，不从PDF推精确播放。

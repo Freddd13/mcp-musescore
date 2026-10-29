@@ -235,3 +235,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：行内进入清楚，页末仍需验证
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Everlasting N在p7末系统进入、忙碌续p8；Heroes p5末快速背景续p6，未核可用翻页。可比较新页起段，代价是重分两页预算；延长号或单表休止不证明两手可离键。
+
+## 2026-10-30：两页也要辨对开与单页显示
+
+[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether m35上层tie跨页续m36，Rumbling G从p3续p4；长音不证明双手空闲。Aether若同对开可并看，单页显示仍需核持键／手和时间；新页起段方案核两页预算，未作打印／翻页验收。

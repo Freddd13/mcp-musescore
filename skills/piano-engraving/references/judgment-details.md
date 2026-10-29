@@ -12,6 +12,8 @@
 
 <a id="symbols"></a>
 
+`INTEGRATED_READING_RUMBLING_AETHER.md`：Aether两组六个小音约60%同字形字号、m51三下＋三上，兼有首处低音保持；不凭小字猜借时或填普通8。
+
 `INTEGRATED_READING_DEAREST_HERO.md`：P11组是两梁16／11:6；短次梁7.53pt会被>8探针漏掉。原图、完整时长、层次与实际矢量共同核，单一字符／矩形阈值不能直接定语义。
 
 `INTEGRATED_READING_MELISSA_MERRY.md`：M局部3只管三头，普通尾8另算；N完整独立七连梁保裸7。B两音附点二分震音整对三拍，变化处写出。
@@ -43,6 +45,8 @@
 变音多不等于拼写错。`notation`中的`ACCIDENTAL_SPELLING.md`以Idol／IRIS OUT和原创原生例说明：重升可保持和声三度或邻音组形；只换两个tpc，17次起音和完整MIDI相同，却多出确认符号并形成邻位错头。半音阶上行升／下行降是条件惯例，不能压过和声或全句一致性。等音换写单列为记法提议，不当作无损压缩；读回后续符号和行页，不能从12个MIDI音级重建原拼写。通常同一人同表的手／voice切换也不自动重置变音，其它制度与范围先查本谱说明。
 
 <a id="sustain"></a>
+
+`INTEGRATED_READING_RUMBLING_AETHER.md`：Rumbling末二分tie接收后二分休止，旧整小节休止勘误；小音组首低音保持另保护。
 
 `INTEGRATED_READING_EVERLASTING_HEROES.md`：Heroes L四whole有重音、无跨小节tie，四次书面起音应保；末tie接收8后是休止和延长等待。
 
@@ -106,6 +110,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_RUMBLING_AETHER.md`：Aether m20–24六8近稳；6/8重复首宽格另核长值／附点／加线，不以出版身份认定最优。
 
 `INTEGRATED_READING_EVERLASTING_HEROES.md`：C重复宽处受加线限制，压到5.932pt解析上会交叠；O／G／H稳定活动仍保。
 
@@ -218,6 +224,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_RUMBLING_AETHER.md`：3/4两两、6/8三三；Rumbling部分6／3只圈实际组，F末普通16不算32。
 
 `INTEGRATED_READING_EVERLASTING_HEROES.md`：C六音组为普通6＋6＋4；fff四普通8在前三连之后。完整3／5梁保简洁；末7:6／12:10先核意图。
 
@@ -458,6 +466,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_RUMBLING_AETHER.md`：m67–68全线尾晚于最后下干四分，另干／另p不终止同表8va；窄图缺线尾不能判断。
 
 `INTEGRATED_READING_TABI_TAMASHII.md`：Tabi J八度仍罩后行q0慢和弦，loco在随后快8；Tamashii角端止最后上头，共同梁不扩到下表。
 

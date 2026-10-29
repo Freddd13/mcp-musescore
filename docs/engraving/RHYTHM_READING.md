@@ -262,3 +262,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：普通六音组与范围明确的连音
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes C为普通16的6＋6＋4，非六连；Everlasting末fff四个普通8，前三16三连在其前。F前三及G前3／5均独立完整梁，O完整5后六普通16与末8各保时值。末7／12比例先核意图。
+
+## 2026-10-30：拍组保留，部分连音只圈本组
+
+[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether三拍六8为2＋2＋2，6/8为3＋3，m29先8休止再五攻击。Rumbling E六连仅共梁末六32；F先12普通32、两次不同休止，后前三32三连＋六普通32＋末普通16；不按头数／黑度合组。

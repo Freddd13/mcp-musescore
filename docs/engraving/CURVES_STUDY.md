@@ -196,3 +196,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：重写低音不能当持续连接
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes L四个全音符逐小节重写、有重音而无跨小节tie，纠正旧“开放弧／长保持”泛称；Everlasting L确有延续tie，分别保。两表末8接收后休止与fermata仍有阶段，不合成一个终止长音。
+
+## 2026-10-30：句子、装饰与持续不按段数去重
+
+[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether六8的短梁与跨小节句弧各有任务；m25／51小音弧与低音tie并存。Rumbling末接收后才休止，不能把终止外形合成一条持续，旧整小节休止概述已更正。

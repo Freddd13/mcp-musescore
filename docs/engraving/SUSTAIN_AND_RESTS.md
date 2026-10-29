@@ -125,3 +125,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：四次起音与最后的等待
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes L四whole无tie，不自动连成四小节持续。结尾两表为tie接收8、8休止、4休止、2休止，延长在q2的二分休止；ff不新增攻击。独立层与附加干的休止按Gould311–312条件判断。
+
+## 2026-10-30：末尾矩形先辨时值
+
+[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Rumbling最后两表为二分tie接收＋q2带fermata二分休止，源Ó及线位相符；旧整小节休止更正。F快层16休止／附点8休止时低部仍保持或重奏，不删快层休止。Aether小音首的保持提示与正常长值分别读。

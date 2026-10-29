@@ -196,3 +196,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：普通6＋6＋4的跨表阅读
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes C两个六音组各五下＋一上，与其后四个普通16合全4/4。共同梁连轮廓，最后上表头不与前音并成同时；近干轴和加线净空先核。PDF负x隐藏内容不作可见事件，不能直接计全部字符。
+
+## 2026-10-30：六个小音跨表仍为一个展开
+
+[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether m51前三小头在下表、后三在上表，主梁及弧保同一上行路线；组首另有低音保持提示。不要计成两个三连、补普通六8或因跨表将保持线删掉。

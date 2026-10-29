@@ -206,3 +206,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：引入先开始，恢复也逐音看
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes G的8va从正式G前引入开始，三系统末在最后八度和弦之前恢复；续行括号及角端保留。共享梁不扩大到另一谱表；单音短标识的工程范围待核。
+
+## 2026-10-30：另干与另p不缩小八度范围
+
+[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether m67–68线尾x558.898晚于m68最后下干四分x544.402，后两四分仍在上表8va下。初窄图缺线、次扩图缺尾，完整角端才可定范围；不能停在长和弦、p或voice边界。
