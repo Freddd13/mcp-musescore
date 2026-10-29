@@ -140,6 +140,10 @@ class ContextService:
         current = await self.command("arrangementState", {"scope": scope})
         if current.get("snapshotId") != snapshot_id:
             raise ContextError("乐谱已经更新，请重新读取后比较写法。")
+        # Save-as and title metadata may change without changing note content.
+        for key in ("title", "identity", "documentId"):
+            if key in current:
+                state[key] = copy.deepcopy(current[key])
         for note in tables["notes"]:
             note["ref"] = {"snapshotId": snapshot_id, "id": note["id"]}
             note.setdefault("quarterTime", quarter_time(int(note["tick"]), division))

@@ -29,7 +29,7 @@ logger = logging.getLogger("MuseScoreMCP")
 
 # Create the MCP app and client
 mcp = FastMCP("MuseScore Evolution Assistant", instructions=(
-    "通过本机连接操作当前打开的 MuseScore 乐谱。先检查连接与功能，再读取当前选区。"
+    "通过本机连接操作当前打开的 MuseScore 乐谱。先用get_score_identity确认当前窗口、谱面标题、总谱／分谱和未保存状态，再按需要读取当前选区。"
     "编配任务使用 read_arrangement_context 分批读取内存中的音符、声部、和弦与演奏数据；"
     "保留任务范围，按需要补充材料和解释。给出少量局部写法，用编配建议面板比较、试听和采用。"
     "用户明确要求修改时，在指定范围完成编辑并读回核对；一次采用形成一次撤销。"

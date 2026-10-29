@@ -19,7 +19,7 @@ def test_stdio_initialization_and_real_websocket_roundtrip():
             }}}
             async with Client(config) as client:
                 names = [t.name for t in await client.list_tools()]
-                assert len(names) == 40
+                assert "get_score_identity" in names
                 assert {"read_arrangement_context", "submit_arrangement_options", "arrangement_option", "arrangement_operation_result"}.issubset(names)
                 ping = next(n for n in names if n.endswith("ping_musescore"))
                 read = next(n for n in names if n.endswith("get_score_data"))

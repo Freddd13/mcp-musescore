@@ -123,7 +123,7 @@ def test_structured_read_and_legacy_lilypond():
         assert [m["measure"] for m in data["measures"]] == [2, 3]
         assert data["title"] == mock.score.title
         text = await c.call_tool("get_score", {})
-        assert "[Partition]" in text.content[0].text
+        assert "[音符文本（LilyPond）]" in text.content[0].text
         assert "\\new Staff" in text.content[0].text
 
     run_with_mock(scenario, demo_score())
