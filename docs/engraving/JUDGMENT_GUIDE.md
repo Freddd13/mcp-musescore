@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-30[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：先认稳定活动和真实梁端。WORLD I八分保步幅；Reason同主题换伴奏密度，不照搬宽度。WORLD多处3／5及Reason K第二3都是完整梁，撤回部分范围猜测；Reason p3s6只有前三16为三连、末8普通。导航按来路、提前mf按时点，secco／Ped.按范围，虚引导／震音／tie分功能。
+
 2026-10-30[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：同六个8，3/4两两、6/8三三；m29先休止不漏计。六个小音与低音保持不合成普通8；m68下干四分仍在同表8va范围。部分6／3比较短括号，6/8首宽格核实际占位再比较；Rumbling末为二分接收＋二分休止，旧整小节休止读法更正。
 
 2026-10-30[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：C压短加线会交叠，保必要宽度；普通6＋6＋4和fff四8不改连音。完整3／5梁可保简洁，末7／12须先核非标准分母意图。Heroes L四whole为四次起音；F速度、力度、弱起与正式段界分别核。

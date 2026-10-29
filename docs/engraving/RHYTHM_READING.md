@@ -266,3 +266,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：拍组保留，部分连音只圈本组
 
 [Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether三拍六8为2＋2＋2，6/8为3＋3，m29先8休止再五攻击。Rumbling E六连仅共梁末六32；F先12普通32、两次不同休止，后前三32三连＋六普通32＋末普通16；不按头数／黑度合组。
+
+## 2026-10-30：完整组与部分组三连的反例配对
+
+[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：WORLD p1s5三连、p4s4／5五连均有完整主梁；Reason K末首括号含8休止，第二组三连完整。保简洁，仅Reason p3s6前三16三连＋末普通8属于共梁部分3；第一组六连16仍独立完整。初看32和部分5已撤回。

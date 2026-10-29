@@ -200,3 +200,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：句子、装饰与持续不按段数去重
 
 [Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether六8的短梁与跨小节句弧各有任务；m25／51小音弧与低音tie并存。Rumbling末接收后才休止，不能把终止外形合成一条持续，旧整小节休止概述已更正。
+
+## 2026-10-30：不同来路的延音与跨行引导
+
+[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：WORLD引子／D.S.末都通A，To Coda末又有顺接／跳接两种来路，开放tie不按纸面相邻删合。Reason虚引导指手／线条接续，句弧、tie、震音持续各有对象；几何平滑不能替代归属判断。

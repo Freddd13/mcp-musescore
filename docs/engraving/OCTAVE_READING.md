@@ -210,3 +210,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：另干与另p不缩小八度范围
 
 [Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether m67–68线尾x558.898晚于m68最后下干四分x544.402，后两四分仍在上表8va下。初窄图缺线、次扩图缺尾，完整角端才可定范围；不能停在长和弦、p或voice边界。
+
+## 2026-10-30：范围按角端与谱表，另干不自动原位
+
+[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：Reason C下表长8vb不能因两种干向就只归重复低音；意图若含同时原位层须明确限定。K上部首二分后8va收角，后sfz回原位；下表8vb继续末行。虚引导、持续tie和力度都不替代八度线。

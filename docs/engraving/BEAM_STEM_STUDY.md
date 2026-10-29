@@ -185,3 +185,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：层数停止处仍决定末音时值
 
 [Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Rumbling F末普通七头为六32＋末16，第三层梁提前停止；前三三连又只占同主梁一部分。Aether小音跨表共同梁保六音上行轮廓，不统一干长或拆表内两个独立片段。
+
+## 2026-10-30：先找梁端，别因相邻快速组误报
+
+[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：WORLD四普通16／五连16分梁、Reason K两个三连分梁；不统一补括号。Reason p3s6后三连二级梁止于第三头、主梁多接一个普通8，短括号只圈前三。快层与内慢线的干长差帮助分层，不强制等长。

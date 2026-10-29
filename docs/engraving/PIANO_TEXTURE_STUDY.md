@@ -298,3 +298,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：低音保持、装饰展开与新线各留线索
 
 [Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether m25／51小音前端另接下干、连向后面同音长值，不能只按正常字号长头吸齐所有起点；m68持续附点二分与下部休止／两四分并存。Gould125–129／311–312分条件，不从PDF推精确播放。
+
+## 2026-10-30：再现要核实际伴奏与接手
+
+[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：WORLD I上方八8／下部独立慢线并读；Reason G的低部四分＋六8与J十六分运行不同。p4s2八分休止＋十四16、p5s4四分休止＋十二16也有进入差别；分手括形和附加声部休止按任务判。

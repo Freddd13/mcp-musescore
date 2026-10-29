@@ -110,3 +110,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-30：D.S.与Coda按实际路线查接收
 
 [Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Sparkle p5s3 D.S.→p3s3 E Segno→p3s6末To Coda→p5s4 Coda。Coda q0高全音和弦新攻击，快层q1才进入；不按物理相邻位置从D.S.直接进Coda或补同音tie。p7s6两小节局部反复另核a tempo／fff、谱号及8vb状态；本批未校对原工程展开播放。
+
+## 2026-10-30：返回与跳尾声的tie各有来路
+
+[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：WORLD p4s1 D.S.回p1s1第三小节A／Segno，再到p1s4末To Coda跳p4s2 Coda，首遍仍顺到p1s5。可比补D.S. al Coda措辞，目标缩进／另行再核页预算；静态已核、播放未核。

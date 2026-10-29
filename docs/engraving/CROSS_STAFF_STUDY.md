@@ -200,3 +200,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：六个小音跨表仍为一个展开
 
 [Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether m51前三小头在下表、后三在上表，主梁及弧保同一上行路线；组首另有低音保持提示。不要计成两个三连、补普通六8或因跨表将保持线删掉。
+
+## 2026-10-30：完整3／6跨表与虚引导
+
+[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：Reason p5s5首小节四分接收＋八分三连＋两组六连16合4q，跨表共同梁保连续轮廓。p5s2→I及I末→下一行虚线指引接手，不能自动当slur／tie／gliss删掉；原生对象身份待核。

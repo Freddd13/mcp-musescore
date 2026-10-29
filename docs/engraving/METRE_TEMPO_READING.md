@@ -201,3 +201,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：分组显拍，不按横向距离推BPM
 
 [Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：Aether m29换6/8以3＋3梁显两个复合拍，m55在rit.后a tempo回3/4；未写等式处不推精确新速度。Rumbling G行中Poco meno及后Tempo I各跟实际入口，不默认段落全另起行。
+
+## 2026-10-30：弱起和相似弧形不决定相同时值
+
+[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：Reason开头两16弱起仅0.5q；p4s2先休8再十四16，p5s4先休四分再十二16。WORLD I4＋4八分各4q，后两组四分三连仍在4/4；不按弧形或横向长度补足／推速度。
