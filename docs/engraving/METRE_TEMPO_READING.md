@@ -181,3 +181,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：新速度可属于标题前引子或休止
 
 [SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Ghibli75在p11s6旧3/4q2，比Wind Rises题名早；80在p13s6的2/4q0八分休止，比Y早；75在p14s2q3四个16，比Z早。Arrietty3/4先接旧quartertie，末2/4也可先接旧quarter再四16。不能把速度、换拍、换调和第一次攻击当同一列。
+
+## 2026-10-30：短拍接收和行内恢复
+
+[STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：Sugar p5s6先2/4，旧quartertie＋8休止＋新8，ff在q1.5；随后恢复4/4跨表六连。L的a tempo位于行内第三小节。STYX段号前f／行内ff各按实际时点，换拍、速度和第一次攻击不自动同列。

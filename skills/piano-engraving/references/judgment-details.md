@@ -103,6 +103,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_STYX_SUGAR.md`：跨表头距0.709pt仍可先后1/6q，六符干轴序保留；21下部q1/2/3在上部成员之间。J普通8为前缀／细分让空间，不按头距方差吸齐。
+
 `INTEGRATED_READING_SPECIALZ_GHIBLI.md`：F下部q1/2在上七连3/7与4/7之间，保真实中间列及组形；E／X普通16稳定，二度移头不增攻击。
 
 `INTEGRATED_READING_SNOW_SPARKLE.md`：普通16、普通32、三连8和七连16分别比较，先保稳定活动与必要还原号占位；黑度相近不证明同值，慢层保持与进入另核。
@@ -207,6 +209,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_STYX_SUGAR.md`：整小节21连16可保裸21；部分9不含普通8峰顶，部分3可前后接普通8，各核内梁与实际成员。
+
 `INTEGRATED_READING_SPECIALZ_GHIBLI.md`：7／6连16与9／11连32分读。V两音震音书面成员共享时段，三笔不独立证明实际交替数；p7s2普通音之间三连16可比较短括号。
 
 `INTEGRATED_READING_SNOW_SPARKLE.md`：同型三音梁已有基准可省3；首次混合四分＋两个16可局部重申。两个8休止＋两个16也可合三连一拍。连续5有内梁及逐组数字时，优先级低于普通32之后首个5或J主梁前三连32；严格部分梁体例与编辑取舍分记。
@@ -285,6 +289,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_STYX_SUGAR.md`：STYX G mp右移避accent，PDF字形x不独证迟入；L sfz q0／上p q0.5分别读。Sugar末f nonlegato在q2.25首16。
+
 `INTEGRATED_READING_SPECIALZ_GHIBLI.md`：SPECIALZ末p在q3.5首16，更早附点quarter是旧接收；Ghibli I前低mf和上p分别开始，不统一段号。
 
 `INTEGRATED_READING_SNOW_SPARKLE.md`：Sparkle E／D.S.前f在q11/3，Snow M ff在q0休止处；入口不必等于新攻击或段号。
@@ -314,6 +320,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先认同一动态进程，再决定哪些标记应共用通道。`markings`的unlasting实例有同表mf／ff和休止前后p sub.／pp：位置不齐可正在表达不同层与时点，不合并／移齐。长限定短语与延续线一起读，分散词的X不自动是新力度或速度事件；起点给全短语及新行提醒可作候选，不能冒充一律禁止分词的规范。几何、逻辑范围与播放scope分查。
 
 <a id="cross-staff"></a>
+
+`INTEGRATED_READING_STYX_SUGAR.md`：Sugar六连是下上交替六个八度和弦，按时间／干侧／梁接点跟读。STYX D慢旋律纠正在下表向上符干／r.h.层，上表为快16。
 
 `INTEGRATED_READING_SPECIALZ_GHIBLI.md`：Totoro低长音后转高音谱号读中音，再恢复低谱号准备下一低音，删号成本需比较加线。跨标题旧持续及Arrietty3/4旧tie先保留。
 
@@ -418,6 +426,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_STYX_SUGAR.md`：Sugar21第8与9成员之间结束8va，共梁继续；STYX F前仅首和弦8va，L低8vb与高8va范围不同。
 
 `INTEGRATED_READING_RESONANCE_RISING.md`：Resonance长8va从p5s4跨六系统至p6s3第三小节末，越过K／L；段号不截范围，续行括号保留。
 

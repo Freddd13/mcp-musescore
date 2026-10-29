@@ -134,3 +134,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-30 Snow／Sparkle本批约15.52MiB，总净书缓存约2.658GiB；108张不同本地视图32复用76新图。无原PDF／字体／运行时副本或删除，低于100MiB／3GiB检查线。[精确字节与时点](snow_sparkle_closeout_evidence.json)先于最后小记录。
 
 2026-10-30 SPECIALZ／Ghibli本批约16.27MiB，总净书缓存约2.674GiB；126张不同视图41复用85新图。无原PDF／字体／运行时副本或删除，低于100MiB／3GiB检查线。[精确字节与时点](specialz_ghibli_closeout_evidence.json)先于最后小记录。
+
+2026-10-30 STYX／Sugar本批约16.86MiB，总净书缓存约2.691GiB；126张不同视图37复用89新图。无原PDF／字体／运行时副本或删除，低于100MiB／3GiB检查线。[精确字节与时点](styx_sugar_closeout_evidence.json)先于最后小记录。

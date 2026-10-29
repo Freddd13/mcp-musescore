@@ -109,3 +109,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：括号持续含义依赖明确语境
 
 [SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：SPECIALZ C有括号低部长头，本批未见足以定义它的Sost.说明；Gould337的括号提醒依赖明确选择性延音语境，暂不移用。用户m132语义确认只对用户原例。Ghibli标题可跨旧低音／踏板，SPECIALZ末休止与Ghibli末延长又不同，结束不套同一模板。
+
+## 2026-10-30：开放持续不吞并书面休止
+
+[STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：STYX L起始低quarter、quarterrest、halfrest合4q，开放tie和Ped.表达放手共鸣；末上部括号头语义待核。Sugar多声部的普通休止按各层实际起点，末quarterrest且无fermata；STYX末有延长与踏板收束，不套共同结束模板。

@@ -165,3 +165,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：力度各按自己的实际起点
 
 [SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Ghibli I前低mf先进入，上p在休止后q1/4；80在2/4q0休止，mf在q1/2。SPECIALZ末p在第三barq3.5首16，源x405.342近该头x408.006，较早附点quarter为q2，初看假说已纠正。L ff可落q0上部quarterrest，不能全移到新攻击。
+
+## 2026-10-30：避让横移不直接证明迟入
+
+[STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：STYX G mp位于accent右下，PDF字形x不足以定延后到快速音；原生锚点待核。L下部sfz q0、上部p首16 q0.5可分别确认；H ff/mf可在q0／q3.5。Sugar末f nonlegato在共享震音2q和16休止后q2.25，不移到段首。

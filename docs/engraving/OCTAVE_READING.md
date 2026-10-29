@@ -190,3 +190,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：恢复位置不能随段号扩大
 
 [SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Ghibli P长8va到末barq3恢复loco，最后两8已在原位；p7s2短8va罩后一半小节六个书面头（普通8＋三连16＋两个8），范围不等于三连数字。先核实际端点，再谈少画八度线。
+
+## 2026-10-30：同梁中的八度恢复
+
+[STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：Sugar整小节21的8va止于第8与9成员之间，共同梁继续，不能顺延到组末。STYX F前短8va仅罩首和弦，L低8vb只罩低四分而上8va延三系统。保具体端点，loco辅助须局部对照而非自动添加。
