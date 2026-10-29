@@ -1,5 +1,7 @@
 # 钢琴净书研究与自动净书准备计划
 
+2026-10-29发布[0.12.0可用研究版](ENGRAVING_RELEASES.md)：较0.11.0新增10份整曲回查75页、嵌套连音原创原生3条件及R22两幅技术图闭合。累计94/146（余52）、Gould696/696覆盖、资料14/25（余11）；保活动与必要占位，补部分梁／嵌套范围、拍内归属和局部速度基准。20入口与29份公开原生资产已核，[发布证据](engraving/release_0_12_0_evidence.json)可追溯；用户组合0/1／准备2/4保持，无软件适配。关联更新无需重配MCP。
+
 2026-10-29续学[Railgun／Pierce十二页](engraving/INTEGRATED_READING_RAILGUN_PIERCE.md)：保H／B活动与前缀，纠正混合14列及跨表六连成员，核三小前置音、末震音时段和错开入口；[R22图文](engraving/DORICO_EDITORIAL_PRACTICE.md)补2/2技术图，区分比例重分配与同值局部间距。目录94/146（余52）、Gould696/696（21页复读）、资料14/25（余11）；知识／skill可用，无新原生／适配，用户组合0/1／准备2/4及0.11.0固定保持。
 
 2026-10-29续学[One Last Kiss／One more time十页](engraving/INTEGRATED_READING_KISS_CHANCE.md)：保I／L稳定活动、2/4接收、分层力度与开放留声；纠正H首五连范围、核休止／旧接收先恢复及I局部Poco meno基准。另完成[嵌套连音三条件](engraving/NESTED_TUPLET_SCOPE_STUDY.md)原生对照：C分层优先、B同高不采用，29音／完整MIDI及保存重载保持。目录92/146（余54）、Gould696/696（17页复读）、资料13/25（余12）；知识／skill可用，0.11.0固定及用户组合0/1／准备2/4保持，无软件适配。
