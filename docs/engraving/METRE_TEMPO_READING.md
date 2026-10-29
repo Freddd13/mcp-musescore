@@ -157,3 +157,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-29：从休止恢复与新近局部基准
 
 [Chance](INTEGRATED_READING_KISS_CHANCE.md)D恢复在上部四分休止q0，旋律q1才入；G前q3渐慢、后q0上方八分休止已恢复。H后从旧八分接收恢复；I新Poco meno之后a tempo恢复局部基准，不自动赋开头66。
+
+## 2026-10-29：新基准与保持后的拾起
+
+[Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Pierce E的più lento之后，G a tempo先恢复q0和弦／伴奏，上部快层q1进入；不自动赋开头140或A più mosso。前面附点二分延长后仍有末四分拾起，下部全音延长可协调同次暂停，保实际后续。

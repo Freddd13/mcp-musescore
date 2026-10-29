@@ -250,3 +250,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-29：活动、长线与辅助空表
 
 [两谱](INTEGRATED_READING_KISS_CHANCE.md)Kiss L快层之外有二分保持，M前景与16活动另分；Chance B／H跨表共同梁与慢旋律并存，r.h.仅局部。Gould311允许附干及条件省略额外休止，不由空voice自动补满。
+
+## 2026-10-29：运行与慢背景独立计量
+
+[Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Pierce D每半小节16休止＋3上表16＋4下表16＝2q，慢和弦另保持；B白头与实头也分层。Railgun M下部mf旋律、上部p背景各保归属。先读共同梁和角色，不给辅助空voice自动补休止。

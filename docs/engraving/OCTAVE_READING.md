@@ -162,3 +162,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-29：峰顶短范围与两手不同结束
 
 [Kiss J／Chance H](INTEGRATED_READING_KISS_CHANCE.md)上下8va／8vb各保所属表和独立末端；Kiss八度线抬高避弧不强平。Chance p5s3短8va只包32峰顶，跨表主梁与长弧不扩大八度作用域。
+
+## 2026-10-29：八度与段号的独立端点
+
+[Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Railgun E和O前8va先进入；H前峰顶后已退出，sub.p普通8不随旧线。Pierce末四个二分和弦跨两小节在8va内，后重音四分／二分已在外。上下表换号、长弧及结构段号均不自动扩大作用域。

@@ -1,0 +1,4943 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "recorded_at_utc": "2026-10-29T10:17:21.007849+00:00",
+  "note": "INTEGRATED_READING_RAILGUN_PIERCE.md",
+  "source_protection": [
+    {
+      "id": "A101",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\only my railgun - A Certain Scientific Railgun - Opening Theme.pdf",
+      "sha256": "8cd9ef5ad15601df12caa8ee38c75a2af8d273c7ea09fa7f3d4fd561c90858bb",
+      "pages": 8,
+      "unchanged": true
+    },
+    {
+      "id": "A103",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Pierce the Heavens with your drill! - Tengen Toppa Gurren Lagann - Soundtrack.pdf",
+      "sha256": "635e2a4741eb1ebfde0d499fc021c34dbbb01a9046a18553fb51239eaadc0df3",
+      "pages": 4,
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "unchanged": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A101",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A101/page-1.jpg",
+      "sha256": "21a9b746219cb2dd3d483ec539c1ce68b75388ade702e26a895edc422e1a0aa0",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A101",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A101/page-2.jpg",
+      "sha256": "2010735e0abd6c29947426b115b0bb10fcc2a4b91317638ea55be3436ee58db0",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A101",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A101/page-3.jpg",
+      "sha256": "e7614b590c5865f8e4aa4c2e51936adac2fc1b71dd0dabc3de23090b72efa2d2",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A101",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A101/page-4.jpg",
+      "sha256": "2291825b9533286d0b55130b6e3ba22d5cab4cf8f4ef3c32918548dcdd02dc80",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A101",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A101/page-5.jpg",
+      "sha256": "30260241d621387b4ff9962a660d5d6b6d72967566be0e2a479d929e5b5340e9",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A101",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A101/page-6.jpg",
+      "sha256": "edb15c002ef1dac84ec19acfa5cfac410fa13e7571410c9e4104ae386c5d7ace",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A101",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A101/page-7.jpg",
+      "sha256": "b2c2f4df4c638c2d23137c95b585be0275eadcb2444c20d636708a4a9b451d3c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A101",
+      "page": 8,
+      "path": "tmp/engraving/corpus/A101/page-8.jpg",
+      "sha256": "2ebf9b33767e425a27e9841aa30ae18d43c6406b75bde8844ef84a7f16218353",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A103",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A103/page-1.jpg",
+      "sha256": "872f1f48ff7a2ff45513b7aa9160e2d3de6e10649e9e6e10ca6063a50f357392",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A103",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A103/page-2.jpg",
+      "sha256": "1be1a21b8f4207e78e2db15e0978672811291eea9bd8c5223bd4b01e5b089a08",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A103",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A103/page-3.jpg",
+      "sha256": "d7b69db854668b016e90293868a2da21d27284d11b433b92eeaed92a11f1fc54",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A103",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A103/page-4.jpg",
+      "sha256": "80da2f61da78a8a03fc0501f13aefbe430032773028181b29e5f06c58542ac0d",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p1-s1.jpg",
+      "source_y_pt": [
+        144.72567164179105,
+        301.2465671641791
+      ],
+      "sha256": "80c121fb3f28e9b428cc4df681cdfeecbc9757df72191098d608dc91f339e105",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p1-s2.jpg",
+      "source_y_pt": [
+        268.72753731343283,
+        425.57910447761196
+      ],
+      "sha256": "cfd865b250041db6d44bd7c195d82435650ca07c5037c9231071a7f5b678981e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p2-s1.jpg",
+      "source_y_pt": [
+        18.73977611940299,
+        179.55940298507463
+      ],
+      "sha256": "0d02df83817554c93eb49cb91e11b04be1f0c6d3cb57acbf751751f3c5ab88e0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p2-s3.jpg",
+      "source_y_pt": [
+        265.4208208955224,
+        421.94171641791047
+      ],
+      "sha256": "4373d5ba6c75f8a3533602b79b45233c7ab1d19a745f99b77056c15c635d4975",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p2-s5.jpg",
+      "source_y_pt": [
+        517.3926119402986,
+        678.2122388059701
+      ],
+      "sha256": "0ebce0a509ca85ed32c66c376632e7a6b1c4708eb2ace214e25eedfd40cd8a1f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p2-s6.jpg",
+      "source_y_pt": [
+        644.7011940298507,
+        809.819552238806
+      ],
+      "sha256": "01536fc84b1202132226ef83a1b7f8c6964d8b0539098cf72cfe6f974018104a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p3-s3.jpg",
+      "source_y_pt": [
+        271.70358208955224,
+        432.1925373134328
+      ],
+      "sha256": "f62bb56751234cb355a4a3591924b9f588e362355c04e2a8f2bae9e51d92a9b9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p4-s1.jpg",
+      "source_y_pt": [
+        18.73977611940299,
+        186.8341791044776
+      ],
+      "sha256": "f92ed3407de692e53dd155beb3d76d3392e8a1bc5aa0112a07cb4f7aa033bbfc",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p4-s4.jpg",
+      "source_y_pt": [
+        392.06805970149253,
+        552.8876865671642
+      ],
+      "sha256": "cf1536b3c886daecd0d7fc203f591e3a4539213ff4a7a80e362b7d9334589df0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p4-s6.jpg",
+      "source_y_pt": [
+        643.3785074626866,
+        809.819552238806
+      ],
+      "sha256": "29f6919f0fc080781fa40534526f17db3a58925cfedd95210f23c6d3e221d531",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p5-s1.jpg",
+      "source_y_pt": [
+        18.73977611940299,
+        175.26067164179105
+      ],
+      "sha256": "07f293ea6ea59d159010dd3828870f269c1617ef12aee1f33f288dd494a95e87",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p5-s3.jpg",
+      "source_y_pt": [
+        270.3808955223881,
+        433.51522388059703
+      ],
+      "sha256": "4042cbffd8119b8613593c10b4808538580b6bd8621c8dcbfb44dcab3e43847f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p6-s1.jpg",
+      "source_y_pt": [
+        18.73977611940299,
+        175.26067164179105
+      ],
+      "sha256": "4ec9f1393e5c82f93cff3ecd9a4577e70f476c875265fa3069091b0de468519b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 6,
+      "system": 2,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p6-s2.jpg",
+      "source_y_pt": [
+        138.77358208955224,
+        295.2944776119403
+      ],
+      "sha256": "e0568a03d4ed65df1c6311a8deca856b89c91d613975640dcd3ac22f6db15662",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p6-s4.jpg",
+      "source_y_pt": [
+        388.76134328358205,
+        550.2423134328358
+      ],
+      "sha256": "a50b291e2413cc8d159de8259a072f4008a780e9c437e735d7e2e6a0b1111531",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 6,
+      "system": 6,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p6-s6.jpg",
+      "source_y_pt": [
+        649.1652611940298,
+        809.9848880597015
+      ],
+      "sha256": "d10307759eb4c9e9f5f2c260aeae6c99a0e44c8de60b14e6d1590d54f841f8e0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 7,
+      "system": 3,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p7-s3.jpg",
+      "source_y_pt": [
+        256.82335820895526,
+        413.67492537313433
+      ],
+      "sha256": "71cea9737858c281789b6c0bddc93d02e38f987965bd431d4756949593bf4ae2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 7,
+      "system": 4,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p7-s4.jpg",
+      "source_y_pt": [
+        380.4945522388059,
+        545.6129104477611
+      ],
+      "sha256": "a6cf652249d496965d027aa6c4ada319d1bd08f4da21eb81bee6453edf0472fa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 7,
+      "system": 5,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p7-s5.jpg",
+      "source_y_pt": [
+        519.7073134328358,
+        680.5269402985075
+      ],
+      "sha256": "10a1e0783390fb93a5c3578672a63fc41d958083b6d41fd74c58d2a079d45d79",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 8,
+      "system": 1,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p8-s1.jpg",
+      "source_y_pt": [
+        18.73977611940299,
+        179.55940298507463
+      ],
+      "sha256": "cb133c400df8af55a5e5016e410f69d45a11a995f79bcfd1674fb2bae2614b44",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 8,
+      "system": 4,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p8-s4.jpg",
+      "source_y_pt": [
+        399.34283582089546,
+        560.1624626865671
+      ],
+      "sha256": "0f53bb54758c0c74659897e2c24a82d78f365602f376402d02a4723c92ac9577",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 8,
+      "system": 5,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p8-s5.jpg",
+      "source_y_pt": [
+        526.6514179104478,
+        687.4710447761195
+      ],
+      "sha256": "e414fadb15be13ca4c48dd9c2c41c6e3dd407d9c05bd6891e632b23d8e458bb9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A101",
+      "page": 8,
+      "system": 6,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A101-p8-s6.jpg",
+      "source_y_pt": [
+        652.9679850746269,
+        809.4888805970149
+      ],
+      "sha256": "b256653cef4dcc34da658cc7bb7f5ac114070938ccd6de9cb2e9eba61cda63a9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p1-s1.jpg",
+      "source_y_pt": [
+        160.93627651217597,
+        325.72637863315003
+      ],
+      "sha256": "08adabaca9e8bcab9380122ab0e30db66885199c38963702266e0be62c2f6ee9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p1-s2.jpg",
+      "source_y_pt": [
+        281.9664100549882,
+        446.75651217596226
+      ],
+      "sha256": "1412b73589a9142abbabe8f242b180db512f217a14143eeb9417db0be0ed6cd6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p1-s3.jpg",
+      "source_y_pt": [
+        402.99654359780044,
+        567.9519874312647
+      ],
+      "sha256": "25d6d1c3bc4d596228e410e7e870fdd5d352454daba6da29707b30ee7b2d8ddd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p1-s4.jpg",
+      "source_y_pt": [
+        523.6959937156323,
+        688.8167792615868
+      ],
+      "sha256": "c675de8a96862a15962810083a5caedce48fd56e61de0b8cd0db8f0c278d836b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p1-s5.jpg",
+      "source_y_pt": [
+        644.7261272584446,
+        809.846912804399
+      ],
+      "sha256": "621c297626d147a01f826b66bbaa4e06f64472de8bbc83de6f5fc1fd05a438d8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p2-s2.jpg",
+      "source_y_pt": [
+        142.51994475000004,
+        307.6799485
+      ],
+      "sha256": "f658ceb039df1d09fcb52a1b42d93025159fcc74b7efbb8789e6f67be1b372a9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p2-s3.jpg",
+      "source_y_pt": [
+        268.03995675,
+        433.07995750000003
+      ],
+      "sha256": "87836021f5fb87978e0d5fa75865b56e4139ddbc55acc26e6ca74001d2df59c6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p2-s5.jpg",
+      "source_y_pt": [
+        519.0799575,
+        684.1199357500001
+      ],
+      "sha256": "a41c78ff61739823da26d0f00de34e9c7241203abc064e579ac9362d6d40378a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p2-s6.jpg",
+      "source_y_pt": [
+        644.47996725,
+        809.6399710000001
+      ],
+      "sha256": "e27206fb44395c8f075abf9a124985cd569614ba785cc3cb7ed17e14d15531ec",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p3-s1.jpg",
+      "source_y_pt": [
+        17.088986645718776,
+        181.87908876669283
+      ],
+      "sha256": "d1e6e1b8dee156ad6cbc82a4c396dbb3473be452112ddc6169f0f520721c1abe",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p3-s3.jpg",
+      "source_y_pt": [
+        267.74702278083265,
+        432.8678083267871
+      ],
+      "sha256": "d04e931ee24c9225cbea57b8ed3264ede1595294246d6fb87229c7f9499e1907",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p3-s4.jpg",
+      "source_y_pt": [
+        393.40672427337,
+        558.3621681068341
+      ],
+      "sha256": "be493365cb07fe8fe3767cd52ec71b876095ff113d92f4474920f939e06d756e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p3-s5.jpg",
+      "source_y_pt": [
+        518.7357423409269,
+        683.8565278868814
+      ],
+      "sha256": "561898df126fa8e28543c9f9e420cbbaa009b820a992ec2f6096aa4152ce8427",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p3-s6.jpg",
+      "source_y_pt": [
+        644.0647604084838,
+        809.3508876669284
+      ],
+      "sha256": "8077ffcbbfe736228b4874cae9f8d6c5e34d4937d9a2d95597e57819c5e695f2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p4-s2.jpg",
+      "source_y_pt": [
+        142.41800471327574,
+        307.53879025923015
+      ],
+      "sha256": "1797aaaee560f5a7c4337f56dd9d53db45e5318249c1ff6a5f5447551dd0805d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p4-s3.jpg",
+      "source_y_pt": [
+        267.74702278083265,
+        432.8678083267871
+      ],
+      "sha256": "bc0bb84b08d08ae7cabd5e724fdf23d99cbd8ad4c18b365dab352c68b01b9bf9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p4-s4.jpg",
+      "source_y_pt": [
+        393.40672427337,
+        558.3621681068341
+      ],
+      "sha256": "aeaf9d71598116a9b8489b5c339b8845bf8fc90c9206c2d86f0db3cdb155cdf9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p4-s5.jpg",
+      "source_y_pt": [
+        518.7357423409269,
+        683.8565278868814
+      ],
+      "sha256": "2abba24e048c0650fe328ed89b8af93ffd150a3059c73b22b3189ae2b25d6c10",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A103",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p4-s6.jpg",
+      "source_y_pt": [
+        644.0647604084838,
+        809.3508876669284
+      ],
+      "sha256": "41f0db94435d03610fb6cbdb1646060f495d85a8c63b786e25e409a143506a6c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "opening-small-note-detail",
+      "id": "A103",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/railgun-pierce-2026-10-29/A103-p1-opening-graces.jpg",
+      "source_box_pt": [
+        86,
+        195,
+        159,
+        315
+      ],
+      "sha256": "f383f7a660d11a994eaa1263898f23cf2281cf175cb39fa2858b09611e6abf57",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 41,
+      "pdf_page": 61,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-41.jpg",
+      "sha256": "3cb3ac02d969010846c582841c026ad73e5c66d3d883a1e0ad14e1c94dc86ed6",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 43,
+      "pdf_page": 63,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-43.jpg",
+      "sha256": "22d28e739ec9c663b304b0286ee41b6ac5001642dafd2c74b1a5cd4b616e4bf9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 125,
+      "pdf_page": 145,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-125.jpg",
+      "sha256": "b50a0aca638ee13d970868393e74f743afb0ad7d5aad9336d5d348a83e5f4cb1",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 185,
+      "pdf_page": 205,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p185.jpg",
+      "sha256": "5fe512725fc710b968f7b086a6673460b0776cb02312df9da3786f7a7f18cf20",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 189,
+      "pdf_page": 209,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p189.jpg",
+      "sha256": "8851d4236ab1905909857f89a0292adbb88de666235fce0c45d6ce17f647da9d",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 190,
+      "pdf_page": 210,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p190.jpg",
+      "sha256": "66c45c2851d9c315c6cac7552c47fa4beb77122cee31f4820c76e65ebb665465",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 203,
+      "pdf_page": 223,
+      "path": "tmp/engraving/integrated-rumbling-unravel-2026-10-22/gould-p203.png",
+      "sha256": "48e7e705ca140dd5fa743d02f910d38eee56f2ac73e4dea2d04c0af3edc319a4",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 213,
+      "pdf_page": 233,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-213-reread.jpg",
+      "sha256": "33a2bf132aceea603508082e316ffa5f5ba6b96a9e67d67f493b4b125f587f14",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 215,
+      "pdf_page": 235,
+      "path": "tmp/engraving/book-2026-10-19/tuplet-continued-235.jpg",
+      "sha256": "e8bb01932f11eb7bf47bed776d298160f5a0bbcb12668b4f268690bc33dded29",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 223,
+      "pdf_page": 243,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-243.jpg",
+      "sha256": "30e655895b4acd72ebcb6891b57a04950a75cb3e02489ec574779ea77c9a2649",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 224,
+      "pdf_page": 244,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-244.jpg",
+      "sha256": "e6542c37848737e8c50ef4b21429b2401fc21c66a7040a3547e0ce48b7f218a8",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 225,
+      "pdf_page": 245,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-245.jpg",
+      "sha256": "084ce6edced7f0b701688734ea5279453167fe91fbe9069bfa769386dae2d4fd",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 315,
+      "pdf_page": 335,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-315.jpg",
+      "sha256": "d05be9460b4eb7d2831b98f2e8b81f94f6febe32d7d5749db9efc8b140379aa9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 323,
+      "pdf_page": 343,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-323.jpg",
+      "sha256": "66518d033c3bab5a2ae91666d77d943a04435dc6e47ff70b592eaf2a400af865",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 324,
+      "pdf_page": 344,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p324.jpg",
+      "sha256": "0312d04e27272e06b5e8a7107d2f94ce05c3a2da0aac85e44ac8dc777296e150",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 487,
+      "pdf_page": 507,
+      "path": "tmp/engraving/nagi-nier-2026-10-29/book-printed-487.jpg",
+      "sha256": "ee00d7b198334cf964a0efd08fdd2f800fa4b18b83a98cfa40c5454171b3c6ae",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    }
+  ],
+  "whole_reviews": {
+    "A101": {
+      "pages": 8,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 47,
+      "meaning": "All pages visually reread; selected musical and layout questions checked, not a complete pitch audit"
+    },
+    "A103": {
+      "pages": 4,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 23,
+      "meaning": "All pages visually reread; selected musical and layout questions checked, not a complete pitch audit"
+    }
+  },
+  "selected_music_checks": {
+    "head_selections": [
+      {
+        "id": "A101",
+        "page": 5,
+        "system": 1,
+        "label": "Railgun H lower ordinary16 bar1",
+        "selection": [
+          81,
+          227,
+          115,
+          150
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 82.31857,
+            "y": 144.009748,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 91.91503,
+            "y": 135.502748,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 101.528505,
+            "y": 129.139512,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 111.124965,
+            "y": 124.817956,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 120.60232,
+            "y": 120.615498,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 130.079675,
+            "y": 124.817956,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 139.55703,
+            "y": 129.139512,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 149.15349,
+            "y": 135.502748,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 158.766965,
+            "y": 144.009748,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 168.363425,
+            "y": 135.502748,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 177.84078,
+            "y": 129.139512,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 187.43724,
+            "y": 124.817956,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 197.0337,
+            "y": 120.615498,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 206.408965,
+            "y": 124.817956,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 216.005425,
+            "y": 129.139512,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 225.601885,
+            "y": 135.502748,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          82.31857,
+          91.91503,
+          101.528505,
+          111.124965,
+          120.60232,
+          130.079675,
+          139.55703,
+          149.15349,
+          158.766965,
+          168.363425,
+          177.84078,
+          187.43724,
+          197.0337,
+          206.408965,
+          216.005425,
+          225.601885
+        ],
+        "gaps": [
+          9.59646,
+          9.613475,
+          9.59646,
+          9.477355,
+          9.477355,
+          9.477355,
+          9.59646,
+          9.613475,
+          9.59646,
+          9.477355,
+          9.59646,
+          9.59646,
+          9.375265,
+          9.59646,
+          9.59646
+        ],
+        "ordinary_activity": true
+      },
+      {
+        "id": "A101",
+        "page": 5,
+        "system": 1,
+        "label": "Railgun H lower ordinary16 bar2",
+        "selection": [
+          242,
+          388,
+          115,
+          150
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 243.48465,
+            "y": 148.212206,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 253.08111,
+            "y": 139.824304,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 262.558465,
+            "y": 133.34197,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 272.154925,
+            "y": 129.139512,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 281.7684,
+            "y": 124.817956,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 291.12665,
+            "y": 129.139512,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 300.72311,
+            "y": 133.34197,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 310.31957,
+            "y": 139.824304,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 319.796925,
+            "y": 148.212206,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 329.4104,
+            "y": 139.824304,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 339.00686,
+            "y": 133.34197,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 348.60332,
+            "y": 129.139512,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 358.080675,
+            "y": 124.817956,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 367.55803,
+            "y": 129.139512,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 377.171505,
+            "y": 133.34197,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 386.64886,
+            "y": 139.824304,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          243.48465,
+          253.08111,
+          262.558465,
+          272.154925,
+          281.7684,
+          291.12665,
+          300.72311,
+          310.31957,
+          319.796925,
+          329.4104,
+          339.00686,
+          348.60332,
+          358.080675,
+          367.55803,
+          377.171505,
+          386.64886
+        ],
+        "gaps": [
+          9.59646,
+          9.477355,
+          9.59646,
+          9.613475,
+          9.35825,
+          9.59646,
+          9.59646,
+          9.477355,
+          9.613475,
+          9.59646,
+          9.59646,
+          9.477355,
+          9.477355,
+          9.613475,
+          9.477355
+        ],
+        "ordinary_activity": true
+      },
+      {
+        "id": "A101",
+        "page": 5,
+        "system": 1,
+        "label": "Railgun H lower ordinary16 bar3",
+        "selection": [
+          403,
+          549,
+          115,
+          150
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 404.531625,
+            "y": 146.170526,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 414.128085,
+            "y": 137.663526,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 423.724545,
+            "y": 131.30029,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 433.082795,
+            "y": 126.978734,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 442.679255,
+            "y": 122.776276,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 452.275715,
+            "y": 126.978734,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 461.770085,
+            "y": 131.30029,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 471.366545,
+            "y": 137.663526,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 480.963005,
+            "y": 146.170526,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 490.321255,
+            "y": 137.663526,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 499.917715,
+            "y": 131.30029,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 509.53119,
+            "y": 126.978734,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 519.12765,
+            "y": 122.776276,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 528.605005,
+            "y": 126.978734,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 538.08236,
+            "y": 131.30029,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 547.559715,
+            "y": 137.663526,
+            "font": "FPQRXL+FEFBE166BFD",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          404.531625,
+          414.128085,
+          423.724545,
+          433.082795,
+          442.679255,
+          452.275715,
+          461.770085,
+          471.366545,
+          480.963005,
+          490.321255,
+          499.917715,
+          509.53119,
+          519.12765,
+          528.605005,
+          538.08236,
+          547.559715
+        ],
+        "gaps": [
+          9.59646,
+          9.59646,
+          9.35825,
+          9.59646,
+          9.59646,
+          9.49437,
+          9.59646,
+          9.59646,
+          9.35825,
+          9.59646,
+          9.613475,
+          9.59646,
+          9.477355,
+          9.477355,
+          9.477355
+        ],
+        "ordinary_activity": true
+      },
+      {
+        "id": "A103",
+        "page": 2,
+        "system": 3,
+        "label": "Pierce B lower ordinary16 bar1",
+        "selection": [
+          81,
+          227,
+          365,
+          397
+        ],
+        "heads": [
+          {
+            "text": "",
+            "x": 82.560001,
+            "y": 395.399965,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 91.320002,
+            "y": 384.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 100.799995,
+            "y": 380.519945,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 110.640003,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 120.120003,
+            "y": 369.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 129.720005,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 139.319996,
+            "y": 380.519945,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 149.040001,
+            "y": 384.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 158.640003,
+            "y": 395.399965,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 168.240005,
+            "y": 384.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 177.720005,
+            "y": 380.519945,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 187.560001,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 197.040001,
+            "y": 369.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 206.639992,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 216.240005,
+            "y": 380.519945,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 225.959999,
+            "y": 384.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "unique_x": [
+          82.560001,
+          91.320002,
+          100.799995,
+          110.640003,
+          120.120003,
+          129.720005,
+          139.319996,
+          149.040001,
+          158.640003,
+          168.240005,
+          177.720005,
+          187.560001,
+          197.040001,
+          206.639992,
+          216.240005,
+          225.959999
+        ],
+        "gaps": [
+          8.760001,
+          9.479993,
+          9.840008,
+          9.48,
+          9.600002,
+          9.599991,
+          9.720005,
+          9.600002,
+          9.600002,
+          9.48,
+          9.839996,
+          9.48,
+          9.599991,
+          9.600013,
+          9.719994
+        ],
+        "ordinary_activity": true
+      },
+      {
+        "id": "A103",
+        "page": 2,
+        "system": 3,
+        "label": "Pierce B lower ordinary16 bar2",
+        "selection": [
+          240,
+          384,
+          365,
+          397
+        ],
+        "heads": [
+          {
+            "text": "",
+            "x": 241.799995,
+            "y": 395.399965,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 250.44001,
+            "y": 384.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 260.040001,
+            "y": 380.519945,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 269.759995,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 279.360008,
+            "y": 369.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 288.959999,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 298.44001,
+            "y": 380.519945,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 308.280007,
+            "y": 384.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 316.200004,
+            "y": 395.399965,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 324.839996,
+            "y": 384.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 334.44001,
+            "y": 380.519945,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 344.160004,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 353.759995,
+            "y": 369.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 363.360008,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 372.959999,
+            "y": 380.519945,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 382.679992,
+            "y": 384.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "unique_x": [
+          241.799995,
+          250.44001,
+          260.040001,
+          269.759995,
+          279.360008,
+          288.959999,
+          298.44001,
+          308.280007,
+          316.200004,
+          324.839996,
+          334.44001,
+          344.160004,
+          353.759995,
+          363.360008,
+          372.959999,
+          382.679992
+        ],
+        "gaps": [
+          8.640015,
+          9.599991,
+          9.719994,
+          9.600013,
+          9.599991,
+          9.480011,
+          9.839997,
+          7.919997,
+          8.639992,
+          9.600014,
+          9.719994,
+          9.599991,
+          9.600013,
+          9.599991,
+          9.719993
+        ],
+        "ordinary_activity": true
+      },
+      {
+        "id": "A103",
+        "page": 2,
+        "system": 3,
+        "label": "Pierce B lower ordinary16 bar3",
+        "selection": [
+          397,
+          552,
+          365,
+          397
+        ],
+        "heads": [
+          {
+            "text": "",
+            "x": 398.400009,
+            "y": 395.399965,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 411.240005,
+            "y": 382.559946,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 420.839996,
+            "y": 378.359964,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 430.320007,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 441.0,
+            "y": 367.679948,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 450.720016,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 460.320007,
+            "y": 378.359964,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 469.919998,
+            "y": 382.559946,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 479.400009,
+            "y": 395.399965,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 493.080002,
+            "y": 382.559946,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 502.679993,
+            "y": 378.359964,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 512.400009,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 522.0,
+            "y": 367.679948,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 531.599991,
+            "y": 374.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 541.080001,
+            "y": 378.359964,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 550.919999,
+            "y": 382.559946,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "unique_x": [
+          398.400009,
+          411.240005,
+          420.839996,
+          430.320007,
+          441.0,
+          450.720016,
+          460.320007,
+          469.919998,
+          479.400009,
+          493.080002,
+          502.679993,
+          512.400009,
+          522.0,
+          531.599991,
+          541.080001,
+          550.919999
+        ],
+        "gaps": [
+          12.839996,
+          9.599991,
+          9.480011,
+          10.679993,
+          9.720016,
+          9.599991,
+          9.599991,
+          9.480011,
+          13.679993,
+          9.599991,
+          9.720016,
+          9.599991,
+          9.599991,
+          9.48001,
+          9.839998
+        ],
+        "ordinary_activity": true
+      },
+      {
+        "id": "A101",
+        "page": 4,
+        "system": 6,
+        "label": "Railgun preH ordinary four16",
+        "selection": [
+          370,
+          399,
+          750,
+          770
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 371.046105,
+            "y": 759.474184,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 380.166145,
+            "y": 767.998198,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 388.92887,
+            "y": 763.79574,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 398.04891,
+            "y": 759.474184,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          371.046105,
+          380.166145,
+          388.92887,
+          398.04891
+        ],
+        "gaps": [
+          9.12004,
+          8.762725,
+          9.12004
+        ],
+        "ordinary_activity": false
+      },
+      {
+        "id": "A101",
+        "page": 4,
+        "system": 6,
+        "label": "Railgun preH crossstaff six16 tuplet",
+        "selection": [
+          406,
+          449,
+          680,
+          757
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 406.93074,
+            "y": 753.127962,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 419.164525,
+            "y": 696.607454,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 426.242765,
+            "y": 692.404996,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 433.44011,
+            "y": 685.922662,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 440.75656,
+            "y": 696.607454,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 447.851815,
+            "y": 692.404996,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          406.93074,
+          419.164525,
+          426.242765,
+          433.44011,
+          440.75656,
+          447.851815
+        ],
+        "gaps": [
+          12.233785,
+          7.07824,
+          7.197345,
+          7.31645,
+          7.095255
+        ],
+        "ordinary_activity": false
+      },
+      {
+        "id": "A101",
+        "page": 4,
+        "system": 6,
+        "label": "Railgun preH normal peak eighth",
+        "selection": [
+          456,
+          458,
+          680,
+          690
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 456.835735,
+            "y": 685.922662,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          456.835735
+        ],
+        "gaps": [],
+        "ordinary_activity": false
+      },
+      {
+        "id": "A101",
+        "page": 4,
+        "system": 4,
+        "label": "Railgun G four ordinary16 before five",
+        "selection": [
+          466,
+          500,
+          440,
+          457
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 467.282945,
+            "y": 451.690924,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 478.08747,
+            "y": 453.851702,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 488.755875,
+            "y": 455.893382,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 499.5604,
+            "y": 453.851702,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          467.282945,
+          478.08747,
+          488.755875,
+          499.5604
+        ],
+        "gaps": [
+          10.804525,
+          10.668405,
+          10.804525
+        ],
+        "ordinary_activity": false
+      },
+      {
+        "id": "A101",
+        "page": 4,
+        "system": 4,
+        "label": "Railgun G final five16 tuplet",
+        "selection": [
+          509,
+          549,
+          440,
+          457
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 510.364925,
+            "y": 451.690924,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 519.723175,
+            "y": 449.530146,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 529.20053,
+            "y": 447.369368,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 538.439675,
+            "y": 445.327688,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 547.797925,
+            "y": 443.16691,
+            "font": "FPXWIX+FEF65CC6F68",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          510.364925,
+          519.723175,
+          529.20053,
+          538.439675,
+          547.797925
+        ],
+        "gaps": [
+          9.35825,
+          9.477355,
+          9.239145,
+          9.35825
+        ],
+        "ordinary_activity": false
+      },
+      {
+        "id": "A101",
+        "page": 2,
+        "system": 5,
+        "label": "Railgun mixed sixteen/eighth layer fourteen columns",
+        "selection": [
+          220,
+          374,
+          615,
+          642
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 221.518285,
+            "y": 623.77052,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 231.727285,
+            "y": 619.568062,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 242.276585,
+            "y": 623.77052,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 253.914845,
+            "y": 630.116742,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 265.689225,
+            "y": 638.640756,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 282.48303,
+            "y": 630.116742,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 292.675015,
+            "y": 623.77052,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 304.449395,
+            "y": 623.77052,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 314.760485,
+            "y": 619.568062,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 325.207695,
+            "y": 623.77052,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 335.39968,
+            "y": 630.116742,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 345.727785,
+            "y": 638.640756,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 362.52159,
+            "y": 630.116742,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 373.087905,
+            "y": 623.77052,
+            "font": "FPHQNI+FEFA4AF84EB",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          221.518285,
+          231.727285,
+          242.276585,
+          253.914845,
+          265.689225,
+          282.48303,
+          292.675015,
+          304.449395,
+          314.760485,
+          325.207695,
+          335.39968,
+          345.727785,
+          362.52159,
+          373.087905
+        ],
+        "gaps": [
+          10.209,
+          10.5493,
+          11.63826,
+          11.77438,
+          16.793805,
+          10.191985,
+          11.77438,
+          10.31109,
+          10.44721,
+          10.191985,
+          10.328105,
+          16.793805,
+          10.566315
+        ],
+        "ordinary_activity": false
+      },
+      {
+        "id": "A101",
+        "page": 8,
+        "system": 6,
+        "label": "Railgun final three triplet16",
+        "selection": [
+          103,
+          125,
+          690,
+          737
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 104.523145,
+            "y": 735.72264,
+            "font": "FPWSIW+FEF1D7BB551",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 114.23871,
+            "y": 729.359404,
+            "font": "FPWSIW+FEF1D7BB551",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 123.83517,
+            "y": 727.198626,
+            "font": "FPWSIW+FEF1D7BB551",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          104.523145,
+          114.23871,
+          123.83517
+        ],
+        "gaps": [
+          9.715565,
+          9.59646
+        ],
+        "ordinary_activity": false
+      },
+      {
+        "id": "A101",
+        "page": 8,
+        "system": 6,
+        "label": "Railgun final six16 tuplet",
+        "selection": [
+          134,
+          186,
+          680,
+          737
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 135.84776,
+            "y": 720.83539,
+            "font": "FPWSIW+FEF1D7BB551",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 145.68243,
+            "y": 714.489168,
+            "font": "FPWSIW+FEF1D7BB551",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 155.397995,
+            "y": 712.32839,
+            "font": "FPWSIW+FEF1D7BB551",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 164.994455,
+            "y": 705.965154,
+            "font": "FPWSIW+FEF1D7BB551",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 174.727035,
+            "y": 699.601918,
+            "font": "FPWSIW+FEF1D7BB551",
+            "size": 17.014
+          },
+          {
+            "text": "œ",
+            "x": 184.4426,
+            "y": 697.44114,
+            "font": "FPWSIW+FEF1D7BB551",
+            "size": 17.014
+          }
+        ],
+        "unique_x": [
+          135.84776,
+          145.68243,
+          155.397995,
+          164.994455,
+          174.727035,
+          184.4426
+        ],
+        "gaps": [
+          9.83467,
+          9.715565,
+          9.59646,
+          9.73258,
+          9.715565
+        ],
+        "ordinary_activity": false
+      }
+    ],
+    "duration_recipes": [
+      {
+        "name": "Railgun H lower ordinary16",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Stable active layer under mixed upper rhythm."
+      },
+      {
+        "name": "Railgun p2s5 mixed layer",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Fourteen columns include two longer eighths; wide gaps cannot all be attributed to accidentals. Term order here groups values for counting, not a transcription."
+      },
+      {
+        "name": "Railgun preB dim upper",
+        "quarter_units": [
+          "3",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Independent old upper dotted-half hold lasts 3q; final two eighths begin p at q3."
+      },
+      {
+        "name": "Railgun F upper entry",
+        "quarter_units": [
+          "1",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Quarter rest plus eighth rest; cantabile first new upper note q3/2 while lower accompaniment starts at q0."
+      },
+      {
+        "name": "Railgun G final5",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Five only last five of the shared late beam; preceding four16 remain ordinary."
+      },
+      {
+        "name": "Railgun nextbar first5",
+        "quarter_units": [
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "First five and following four ordinary16 share beam; half-note arrival remains 2q."
+      },
+      {
+        "name": "Railgun preH crossstaff6",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Four ordinary16, crossstaff six16 (one lower plus five upper), normal peak eighth, then three sub.p eighth chords."
+      },
+      {
+        "name": "Railgun J lastbeat partial3",
+        "quarter_units": [
+          "3",
+          "1/2",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Dotted-half hold, normal eighth tie receiver, three triplet16; number3 only last three heads of shared beam."
+      },
+      {
+        "name": "Railgun preL upper lunga bridge",
+        "quarter_units": [
+          "2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Half-note fermata, eighth rest, three ordinary eighths. Lower new half chord starts q2 before upper new q5/2 notes."
+      },
+      {
+        "name": "Railgun final run and arrival",
+        "quarter_units": [
+          "1/2",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "3/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Eighth rest, triplet16, six16, then dotted8/16/tied16/16rest/8. fff at q2, not start of run."
+      },
+      {
+        "name": "Pierce opening upper run",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Initial16rest plus3ordinary16; five16; two six16 groups. First5 shares beam with three ordinary heads."
+      },
+      {
+        "name": "Pierce opening lower late5",
+        "quarter_units": [
+          "3",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Dotted-half plus final5:4sixteenths leads to next-system hold."
+      },
+      {
+        "name": "Pierce C upper late5",
+        "quarter_units": [
+          "1",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Quarter then8ordinary16 then5:4sixteenths; dense count does not imply all same value."
+      },
+      {
+        "name": "Pierce C lower mixedtriplet",
+        "quarter_units": [
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/3",
+          "1/3",
+          "1/3"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Triplet8 groups enclose ordinary sixteen middle; simile must not spread triplet across middle."
+      },
+      {
+        "name": "Pierce C next upper mixed5",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Two partial5 groups alternating ordinary16; eighteen heads are not eighteen equal units."
+      },
+      {
+        "name": "Pierce p3s1 upper late6",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Twelve ordinary16 then six16; eighteen heads do not mean eighteen normal16."
+      },
+      {
+        "name": "Pierce D crossstaff running layer",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Each half starts16rest plus3upper16, then4lower16; slow chord layer independent."
+      },
+      {
+        "name": "Pierce p3s4 upper restwithin3",
+        "quarter_units": [
+          "1",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/3"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Quarter rest, triplet8 rest plus2triplet8, then two triplets. Existing short bracket correctly includes the triplet rest."
+      },
+      {
+        "name": "Pierce preG heldpickup upper",
+        "quarter_units": [
+          "3",
+          "1"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Dotted-half with fermata before final-quarter pickup; lower whole with fermata does not prohibit coordinated pause."
+      },
+      {
+        "name": "Pierce final tremolo duration",
+        "quarter_units": [
+          "4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Two white whole endpoints share one 4q tremolo span; count not as two serial 4q notes. Stroke count alone does not fix exact played rate."
+      }
+    ],
+    "opening_small_notes": {
+      "id": "A103",
+      "page": 1,
+      "heads": [
+        {
+          "text": "",
+          "x": 93.24,
+          "y": 303.239961,
+          "font": "CIDFont+F1",
+          "size": 12.240451
+        },
+        {
+          "text": "",
+          "x": 102.959999,
+          "y": 288.359964,
+          "font": "CIDFont+F1",
+          "size": 12.240451
+        },
+        {
+          "text": "",
+          "x": 111.0,
+          "y": 279.839952,
+          "font": "CIDFont+F1",
+          "size": 12.240451
+        }
+      ],
+      "regular_music_glyph_size_pt": 16.320599,
+      "size_ratio": 0.7500001072264565,
+      "reading": "Three small prefatory notes before a full lower whole-note chord; last small note has tie receiver. Exact performance placement not inferred from size alone."
+    },
+    "selected_beam_vectors": [
+      {
+        "id": "A101",
+        "page": 4,
+        "system": 4,
+        "vectors": [
+          {
+            "box": [
+              131.76,
+              462.36,
+              143.04,
+              468.72
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              131.76,
+              459.24,
+              143.04,
+              465.48
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              153.48,
+              465.6,
+              210.6,
+              471.84
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              153.48,
+              510.6,
+              171.36,
+              516.84
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              193.56,
+              488.88,
+              215.64,
+              495.12
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              193.56,
+              492.12,
+              204.84,
+              496.2
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              288.84,
+              458.88,
+              299.88,
+              464.4
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              288.84,
+              455.64,
+              299.88,
+              461.28
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              310.32,
+              509.88,
+              328.44,
+              515.4
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              354.48,
+              486.72,
+              376.56,
+              493.08
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              354.48,
+              489.96,
+              365.76,
+              494.16
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              396.96,
+              467.4,
+              450.24,
+              473.64
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              510.36,
+              459.24,
+              548.16,
+              465.48
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              510.36,
+              456.0,
+              548.16,
+              462.24
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              467.28,
+              511.32,
+              489.24,
+              517.56
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              515.4,
+              489.96,
+              539.4,
+              496.2
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              515.4,
+              493.08,
+              527.52,
+              497.28
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              80.16,
+              439.92,
+              102.24,
+              441.96
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              80.04,
+              443.16,
+              91.32,
+              445.2
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              75.0,
+              528.36,
+              132.24,
+              530.4
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              310.32,
+              475.44,
+              339.12,
+              477.48
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              327.96,
+              472.32,
+              339.12,
+              474.36
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              236.04,
+              526.2,
+              289.32,
+              528.24
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              467.28,
+              467.64,
+              500.04,
+              469.68
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              467.28,
+              464.52,
+              500.04,
+              466.56
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              396.96,
+              530.4,
+              450.24,
+              532.44
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A101",
+        "page": 4,
+        "system": 6,
+        "vectors": [
+          {
+            "box": [
+              115.68,
+              745.68,
+              139.56,
+              751.92
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              130.2,
+              748.92,
+              139.56,
+              752.52
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              183.6,
+              745.68,
+              207.48,
+              751.92
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              198.12,
+              748.92,
+              207.48,
+              752.52
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              271.68,
+              709.44,
+              280.92,
+              712.92
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              271.68,
+              706.2,
+              280.92,
+              709.68
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              224.16,
+              743.52,
+              248.04,
+              749.88
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              238.68,
+              746.76,
+              248.04,
+              750.36
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              471.36,
+              720.84,
+              501.12,
+              727.08
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              411.84,
+              714.36,
+              448.2,
+              721.68
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              411.84,
+              717.48,
+              448.2,
+              724.8
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              110.64,
+              725.04,
+              134.52,
+              727.08
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              125.28,
+              721.8,
+              134.64,
+              723.84
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              142.92,
+              725.04,
+              193.56,
+              727.08
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              80.04,
+              741.84,
+              107.28,
+              743.88
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              80.04,
+              744.96,
+              107.28,
+              747.0
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              147.96,
+              741.84,
+              175.2,
+              743.88
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              147.96,
+              744.96,
+              175.2,
+              747.0
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              253.68,
+              770.28,
+              280.92,
+              772.32
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              253.68,
+              767.04,
+              280.92,
+              769.08
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              289.32,
+              765.96,
+              316.44,
+              768.0
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              289.32,
+              762.84,
+              316.44,
+              764.88
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              324.84,
+              761.76,
+              352.08,
+              763.8
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              324.84,
+              758.52,
+              352.08,
+              760.56
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              376.08,
+              745.68,
+              403.56,
+              747.72
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              376.08,
+              748.92,
+              403.56,
+              750.96
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A103",
+        "page": 1,
+        "system": 1,
+        "vectors": [
+          {
+            "box": [
+              96.839996,
+              268.679949,
+              114.959999,
+              271.919955
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              96.839996,
+              271.079957,
+              114.959999,
+              274.439966
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              317.280007,
+              237.239961,
+              332.280007,
+              241.559946
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              317.280007,
+              234.119959,
+              332.280007,
+              238.319963
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              339.120003,
+              230.879953,
+              369.360008,
+              235.19996
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              339.120003,
+              227.759951,
+              369.360008,
+              231.959955
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              391.679993,
+              209.639948,
+              427.080002,
+              213.959955
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              391.679993,
+              212.759951,
+              427.080002,
+              217.079957
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              428.759995,
+              233.039957,
+              465.720016,
+              237.359964
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              428.759995,
+              229.799952,
+              465.720016,
+              234.119959
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              518.640015,
+              292.559946,
+              550.800018,
+              296.879953
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              518.640015,
+              289.439966,
+              550.800018,
+              293.639948
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A103",
+        "page": 2,
+        "system": 3,
+        "vectors": [
+          {
+            "box": [
+              92.639998,
+              329.399965,
+              111.120003,
+              333.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              92.639998,
+              326.279963,
+              111.120003,
+              330.599947
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              158.640003,
+              329.399965,
+              188.040001,
+              333.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              158.640003,
+              326.279963,
+              188.040001,
+              330.599947
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              87.360002,
+              359.279963,
+              115.919999,
+              363.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              87.360002,
+              362.399965,
+              115.919999,
+              366.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              120.120003,
+              395.399965,
+              149.520001,
+              399.719972
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              120.120003,
+              392.15996,
+              149.520001,
+              396.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              163.439999,
+              359.279963,
+              192.839996,
+              363.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              163.439999,
+              362.399965,
+              192.839996,
+              366.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              197.040001,
+              395.399965,
+              226.44001,
+              399.719972
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              197.040001,
+              392.15996,
+              226.44001,
+              396.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              250.44001,
+              329.399965,
+              270.240005,
+              333.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              250.44001,
+              326.279963,
+              270.240005,
+              330.599947
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              324.839996,
+              329.399965,
+              344.639992,
+              333.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              324.839996,
+              326.279963,
+              344.639992,
+              330.599947
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              246.599991,
+              359.279963,
+              275.040001,
+              363.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              246.599991,
+              362.399965,
+              275.040001,
+              366.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              279.360008,
+              395.399965,
+              308.759995,
+              399.719972
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              279.360008,
+              392.15996,
+              308.759995,
+              396.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              321.0,
+              359.279963,
+              349.44001,
+              363.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              321.0,
+              362.399965,
+              349.44001,
+              366.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              353.759995,
+              395.399965,
+              383.160004,
+              399.719972
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              353.759995,
+              392.15996,
+              383.160004,
+              396.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              412.679993,
+              329.399965,
+              430.800018,
+              333.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              412.679993,
+              326.279963,
+              430.800018,
+              330.599947
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              479.400009,
+              329.399965,
+              512.88002,
+              333.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              479.400009,
+              326.279963,
+              512.88002,
+              330.599947
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              403.199982,
+              359.279963,
+              435.599991,
+              363.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              403.199982,
+              362.399965,
+              435.599991,
+              366.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              441.0,
+              393.239961,
+              470.400009,
+              397.559969
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              441.0,
+              390.119936,
+              470.400009,
+              394.319963
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              484.199982,
+              359.279963,
+              517.679993,
+              363.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              484.199982,
+              362.399965,
+              517.679993,
+              366.719949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              522.0,
+              393.239961,
+              551.400009,
+              397.559969
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              522.0,
+              390.119936,
+              551.400009,
+              394.319963
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              120.120003,
+              329.399965,
+              149.520001,
+              331.559946
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              120.120003,
+              326.279963,
+              149.520001,
+              328.439966
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              197.040001,
+              329.399965,
+              226.44001,
+              331.559946
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              197.040001,
+              326.279963,
+              226.44001,
+              328.439966
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              279.360008,
+              329.399965,
+              308.759995,
+              331.559946
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              279.360008,
+              326.279963,
+              308.759995,
+              328.439966
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              353.759995,
+              329.399965,
+              383.160004,
+              331.559946
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              353.759995,
+              326.279963,
+              383.160004,
+              328.439966
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              441.0,
+              329.399965,
+              470.400009,
+              331.559946
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              441.0,
+              326.279963,
+              470.400009,
+              328.439966
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              522.0,
+              329.399965,
+              551.400009,
+              331.559946
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              522.0,
+              326.279963,
+              551.400009,
+              328.439966
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A103",
+        "page": 4,
+        "system": 6,
+        "vectors": [
+          {
+            "box": [
+              84.0,
+              708.719972,
+              204.120003,
+              718.679949
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              200.040001,
+              705.599947,
+              204.120003,
+              707.879976
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              101.520001,
+              769.679949,
+              133.439999,
+              773.999956
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              451.919998,
+              770.639971,
+              462.960022,
+              773.519945
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              451.919998,
+              773.879931,
+              462.960022,
+              776.759996
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              451.919998,
+              776.999956,
+              462.960022,
+              779.879931
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              164.520001,
+              763.319963,
+              196.320008,
+              765.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      }
+    ],
+    "stable_layer_summary": [
+      {
+        "label": "Railgun H lower ordinary16 bar1",
+        "min_gap_pt": 9.375265,
+        "max_gap_pt": 9.613475,
+        "gap_count": 15
+      },
+      {
+        "label": "Railgun H lower ordinary16 bar2",
+        "min_gap_pt": 9.35825,
+        "max_gap_pt": 9.613475,
+        "gap_count": 15
+      },
+      {
+        "label": "Railgun H lower ordinary16 bar3",
+        "min_gap_pt": 9.35825,
+        "max_gap_pt": 9.613475,
+        "gap_count": 15
+      },
+      {
+        "label": "Pierce B lower ordinary16 bar1",
+        "min_gap_pt": 8.760001,
+        "max_gap_pt": 9.840008,
+        "gap_count": 15
+      },
+      {
+        "label": "Pierce B lower ordinary16 bar2",
+        "min_gap_pt": 7.919997,
+        "max_gap_pt": 9.839997,
+        "gap_count": 15
+      },
+      {
+        "label": "Pierce B lower ordinary16 bar3",
+        "min_gap_pt": 9.48001,
+        "max_gap_pt": 13.679993,
+        "gap_count": 15
+      }
+    ],
+    "ordinary_gap_count": 90,
+    "total_selected_heads": 142,
+    "tempo_scope": {
+      "Railgun_opening_quarter": 144,
+      "Pierce_opening_quarter": 140,
+      "Pierce_A": "piu mosso; no numericBPM",
+      "Pierce_E": "piu lento establishes new local baseline",
+      "Pierce_G": "a tempo at q0 quarter chord; fast upper16 begin q1. Do not automatically assign opening140 or A piu mosso.",
+      "Pierce_p4s4": "poco a poco crescendo e accelerando with continuation; no exact BPM ramp read from PDF"
+    }
+  },
+  "book_reread_printed_pages": [
+    40,
+    41,
+    43,
+    125,
+    185,
+    189,
+    190,
+    200,
+    203,
+    207,
+    213,
+    215,
+    223,
+    224,
+    225,
+    311,
+    315,
+    323,
+    324,
+    487,
+    490
+  ],
+  "book_new_technical_pages": 0,
+  "book_new_auxiliary_pages": 0,
+  "new_native_candidate_conditions": 0,
+  "software_adaptation_changes": 0,
+  "judgments": {
+    "keep": [
+      "H continuous16activity under mixedupper rhythms",
+      "B ordinary16activity and necessary local accidentals; head origins not a uniformity score",
+      "Independent voices, shared crossstaff actions and dynamics",
+      "Small introductory notes with tie receiver and one4q terminal tremolo span",
+      "Independent tempo/dynamic/octave/section entry points and endings",
+      "Local tempo baseline after piu lento and final quarter pickup after held event"
+    ],
+    "compare": [
+      "Only partial5/6/3 scope brackets; include lower first member of crossstaff6, exclude normal peak8",
+      "Fixedfont/systembudget spacing candidates only after actual occupants and written values checked"
+    ],
+    "corrected_initial_hypotheses": [
+      "Railgun p2s5 lower14columns include two8 values; not16ordinary16 or all wide gaps caused by prefixes",
+      "Pierce opening has3small heads, not2",
+      "Pierce p2 has6systems confirmed by60source staff lines despite raster detector miss",
+      "Railgun preH6 includes1lower+5upper, not only upper5 or peak8",
+      "G a tempo not automatically opening140 or A piu mosso"
+    ],
+    "unresolved": "Full pitch/playback, original native voice/pedal fields, concrete score candidates, physical turning/print, exact small-note timing and user aesthetic choices",
+    "no_user_aesthetic_acceptance": true
+  },
+  "external_resource_completion": {
+    "resource": "R22",
+    "evidence": "dorico_editorial_figures_evidence.json",
+    "new_complete_scopes": 1,
+    "reading_scope": "body and both technical figures only"
+  },
+  "scope": {
+    "corpus_closeouts_before": [
+      92,
+      146
+    ],
+    "corpus_closeouts_after": [
+      94,
+      146
+    ],
+    "remaining_score_closeouts": 52,
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resources": [
+      14,
+      25
+    ],
+    "remaining_resources": 11,
+    "transfer": [
+      8,
+      8
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "user_preparation": [
+      2,
+      4
+    ]
+  },
+  "fixed_release_tag_at_study": "engraving-v0.11.0",
+  "goal_status": "active",
+  "cache": {
+    "measured_at_utc": "2026-10-29T10:17:24.428126+00:00",
+    "batch": {
+      "directory": "railgun-pierce-2026-10-29",
+      "files": 63,
+      "logical_bytes": 8874514,
+      "on_disk_bytes": 8874514,
+      "on_disk_unknown_files": 0
+    },
+    "total_logical_bytes": 2784685590,
+    "total_on_disk_bytes": 2643396363,
+    "new_runtime_or_original_PDF_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Before final small records.76localviews:33reused43new. R22views browser-only,not local downloads."
+  },
+  "validation": {
+    "status": "passed",
+    "source_PDF_hashes_and_pages_verified": 3,
+    "whole_score_pages": 12,
+    "system_rows": 70,
+    "unique_PDF_book_images_actually_viewed": 76,
+    "system_details": 42,
+    "extra_zoom": 1,
+    "book_pages_reread": 21,
+    "new_book_coverage": 0,
+    "R22_body_and_technical_figures": [
+      2,
+      2
+    ],
+    "R22_completed_scopes_added": 1,
+    "source_heads_checked": 142,
+    "linear_beam_vectors_checked": 119,
+    "ordinary_activity_gaps": 90,
+    "duration_recipes": 20,
+    "crossstaff_six_members_lower1_upper5_peak_excluded": true,
+    "opening_small_heads": 3,
+    "skill_routes_executed": 20,
+    "score_study_direct_routes": 14,
+    "local_markdown_links_checked": 1024,
+    "public_paths": 23,
+    "corpus_closeouts": [
+      94,
+      146
+    ],
+    "resources": [
+      14,
+      25
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "goal_status": "active",
+    "new_native_conditions": 0,
+    "new_software_adaptation": 0,
+    "old_release_snapshots_and_prior_evidence_unchanged": true,
+    "files_deleted": 0,
+    "arithmetic_not_sufficient_to_prove_musical_interpretation": true
+  }
+}

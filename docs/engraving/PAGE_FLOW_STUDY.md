@@ -195,3 +195,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-29：系统数量与行中建立状态
 
 [Kiss五页30系统／Chance五页29系统](INTEGRATED_READING_KISS_CHANCE.md)Kiss p2七系统、其余5／6，来自织体及标记预算；Chance I行中靠双线／字母／Poco meno建立新状态。先保阅读，需要新行时连相邻页比较页数和翻页，固定四小节／同系统数不作目标。
+
+## 2026-10-29：完整上下文再改断行
+
+[Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Railgun47／Pierce23系统有密度、跨表与长干预算；Pierce p2检测漏组经完整页及60源谱线核回6系统。段号新行可醒目，拍内提前音仍须保；改行连相邻页比较，不由一处更齐推出整页更好。

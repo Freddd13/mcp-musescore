@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "recorded_at_utc": "2026-10-29T10:16:32.806375+00:00",
+  "resource_id": "R22",
+  "note": "DORICO_EDITORIAL_PRACTICE.md",
+  "completed_scope": "Complete public article body and both technical figures; cover also viewed. Exactly the existing R22 body/figures scope, not Dorico runtime, video or current defaults.",
+  "prior_evidence": {
+    "path": "dorico_editorial_practice_evidence.json",
+    "sha256": "f7d3f2d0837b6c05b20828ed5e0519a6d1e4bb670ed4819346900a8f09aaaa3a",
+    "meaning": "Earlier body/documentation and failed image access, retained unchanged"
+  },
+  "actual_browser_reading": {
+    "date": "2026-10-29",
+    "resource_id": "R22",
+    "source_url": "https://note.com/fujii_taiga_m/n/nca8f66de9948",
+    "source_title": "【Dorico】 変えるべき初期設定 約4選【Finale to Dorico】",
+    "author": "藤井大河",
+    "source_date": "2024-12-04",
+    "access": "Public logged-out Chrome page; no login, personal tabs, form submission or author contact",
+    "browser_id": "3",
+    "created_tab_id": "1280814701",
+    "article_headings": 11,
+    "whole_article_body_read": true,
+    "technical_figures_planned": 2,
+    "technical_figures_actually_viewed": 2,
+    "gallery_images_including_title": [
+      3,
+      3
+    ],
+    "figures": [
+      {
+        "role": "title-cover",
+        "url": "https://assets.st-note.com/production/uploads/images/164401597/rectangle_large_type_2_227bb600262a1bedadf84d6fd33e7e9d.png?width=1240",
+        "natural_pixels": [
+          1240,
+          649
+        ],
+        "loaded_complete": true,
+        "actually_viewed": true,
+        "view": "Full article viewport screenshot before opening figures"
+      },
+      {
+        "role": "technical-figure",
+        "url": "https://assets.st-note.com/img/1733303891-fDMS2xwRUEy5BW7KNl1Aq9aH.png?width=1200",
+        "natural_pixels": [
+          1200,
+          309
+        ],
+        "loaded_complete": true,
+        "actually_viewed": true,
+        "view": "Lightbox 2/3 screenshot; both complete score strips visible",
+        "observed_labels": [
+          "1.41",
+          "1.62"
+        ],
+        "reading": "Same line and unchanged rhythms; bottom strip gives longer values more of the budget and compresses fast region. Author prefers bottom; not a user preference or measured current default."
+      },
+      {
+        "role": "technical-figure",
+        "url": "https://assets.st-note.com/img/1733134440-3nDGUqzo9TmA5uiKsbw1fZgx.png?width=1200",
+        "natural_pixels": [
+          1200,
+          468
+        ],
+        "loaded_complete": true,
+        "actually_viewed": true,
+        "view": "Lightbox 3/3 screenshot; all three rows and annotations visible",
+        "observed_labels": [
+          "2.00",
+          "1.50",
+          "1.00"
+        ],
+        "reading": "Red brackets compare half-note-to-quarter spacing with quarter-to-quarter spacing. Final whole-head optical treatment and bar widths are not substitutes for a universal pixel formula."
+      }
+    ],
+    "enumeration_basis": "Complete public article DOM snapshot plus read-only article figure img enumeration and lightbox full3 count; no guessed URLs or hidden application state",
+    "video": {
+      "url": "https://www.youtube.com/watch?v=bBeHV0RZ7pQ",
+      "viewed": false,
+      "outside_existing_R22_body_and_figures_scope": true
+    },
+    "software_runtime_tested": false,
+    "exact_2024_Dorico_version_or_defaults_verified": false,
+    "remote_images_downloaded_or_republished": false,
+    "screenshots_saved_locally": false,
+    "view_evidence": "Actual CUA screenshot outputs in this turn; no local image hash claimed",
+    "recovery": "Initial create/getTab observations timed out; inventory verified existing same tab. Read-only documented browser DOM API then succeeded. No duplicate tabs or repeated blind creation."
+  },
+  "judgments": {
+    "keep": [
+      "Same rhythms and total line budget preserved in the author comparison",
+      "Separate duration hierarchy from ordinary equal-value local spacing",
+      "Four settings treated as conditional candidates, not mandatory defaults or user choices"
+    ],
+    "figure1": "1.41/1.62 comparison: larger ratio redistributes line budget toward long values and away from the fast region; not a blanket expansion or measured uniformity improvement.",
+    "figure2": "2/1.5/1 model brackets compare half-to-quarter spacing and quarter-to-quarter spacing; value1 does not change written durations. Optical whole-note placement is not a universal column formula.",
+    "remaining": "Exact2024Dorico version/defaults, present runtime behaviour and embedded video unverified; no new user aesthetic selection."
+  },
+  "remote_figures_downloaded_or_republished": false,
+  "new_native_conditions": 0,
+  "software_adaptation_changes": 0,
+  "resource_count_before": [
+    13,
+    25
+  ],
+  "resource_count_after": [
+    14,
+    25
+  ],
+  "goal_status": "active",
+  "validation": {
+    "status": "passed",
+    "existing_scope_closed": true,
+    "technical_figures_actually_viewed": 2,
+    "figure_total_enumerated": true,
+    "video_runtime_defaults_unverified": true,
+    "old_evidence_unchanged": true
+  }
+}

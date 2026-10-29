@@ -1,5 +1,7 @@
 # 用户所给资源规划：落实顺序与证据范围
 
+2026-10-29[R22图文补齐](DORICO_EDITORIAL_PRACTICE.md)：完整正文、两幅技术图2/2及封面实际读图，灯箱3/3与DOM枚举相符，规定范围闭合。资料14/25（余11），下文原图0／未知／partial为历史状态。版本默认、Dorico运行与嵌入视频未核；比值图展示空间重分配，不等同同值音均匀。新证据保留旧记录。
+
 2026-10-28[R16本地Gould规定阅读范围](GOULD_READING_CLOSEOUT.md)闭合：696/696文件页＝598实质技术＋98辅助，最后39页为书前／索引，含xi–xv序言方法精读。资料现13/25（余12项）；覆盖不作掌握率，后续按谱例回查。R20／R22缺图与视频未随之完成。
 
 2026-10-27补齐[R06拉威尔两首仿作](LEGATO_RAVEL_READING.md)：IMSLP#918406／918407的Legato2024版本全部7页及27系统实际读图，作品说明、封面、页脚与PDF元数据核对。资料12/25（余13项）；R06固定成品／署名／版本范围完成，视频、其它版本与R05整体作者资料不随之结项。R20／R22缺图本次重试仍未补到。
@@ -43,7 +45,7 @@
 | [LilyPond 2.26 essay](https://lilypond.org/doc/v2.26/Documentation/essay/index.html) | 2026-10-24补齐正文／书目21网页、55不同图、32份片段及一个共用include，结合旧18张定向间距图／源码，R19范围闭合 | 见[候选判断](AUTOMATED_ENGRAVING_JUDGMENT.md)。不含书目原著；未编译或核当前评分器，三项分数为手写示意标签，R24独立范围仍partial |
 | [MuseScore 3中文排版手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting) | 已定向读换行、拉伸、重置与样式复用正文，另有本地源码证据 | 继续核Evolution差异；不能先全谱重置清掉人工判断 |
 | [YMD基础课](https://ymdmusic.jp/academy/seminar-engraving) | 已读官网介绍/纲要、公开谱例链接 | 没有获取付费授课内容，不将课程介绍列为已学会的技术 |
-| 藤井大河 [Dorico初始设置](https://note.com/fujii_taiga_m/n/nca8f66de9948) | 已读2024-12-04文章正文，涉及重音、跨系统弧、间距比例、小节号 | 截图未看；具体默认/功能需官方版本文档核查。作者喜好不等于规范 |
+| 藤井大河 [Dorico初始设置](https://note.com/fujii_taiga_m/n/nca8f66de9948) | 正文与2/2技术图读完，另看封面；见[Dorico补记](DORICO_EDITORIAL_PRACTICE.md) | 既定图文范围完成；视频、确切版本默认和运行未核。比例重分配与同值局部间距分判，作者喜好不等于用户选择 |
 | [ICS课程](https://www.ics-j.com/course/) | 已读公开课程纲要，了解基础、应用、实务的分层 | 未取得教材或授课内容，不能假装已学会完整课程 |
 | [LilyPond 2.24 snippets](https://lilypond.org/doc/v2.24/Documentation/snippets/)、[Mutopia](https://www.mutopiaproject.org/contribute.html) | 已读入口许可/版本、定向键盘/多声部说明与源码，以及Mutopia贡献正文 | Lily图未显示、未编译；Mutopia未逐份收录。可编辑不等于最佳，不能以集合入口许可替代逐份核查 |
 

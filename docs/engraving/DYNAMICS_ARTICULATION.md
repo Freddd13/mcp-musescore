@@ -137,3 +137,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：重复包络和同时不同主次
 
 [Kiss E／I](INTEGRATED_READING_KISS_CHANCE.md)dim→pp→mf每次重建乐句，不按重复字删去。Chance上下p／mf／mp有同时的背景／旋律用途，Kissmeno f及J末两八分mf／mp各保拍内起点；不为整齐抹层。
+
+## 2026-10-29：背景先入与段号之前
+
+[Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Railgun F的p／下部从q0、上部cantabile q3/2；H前sub.p在q5/2，O前fff也在段号前q5/2。M上下p／mf是不同角色。按实际落点和所属线处理，不能统一吸到段号或最高旋律新音。

@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-29[Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：保活动与真实长短；跨表6要包含下表成员、排除普通峰顶8，三连休止不漏圈。三小前置音与4q双音震音不误加时间，段号／力度／八度／恢复各保落点。[R22两图](DORICO_EDITORIAL_PRACTICE.md)补时值层级预算，不能替代局部前缀／两手诊断。
+
 2026-10-29[Kiss／Chance](INTEGRATED_READING_KISS_CHANCE.md)：保活动骨架、必要前缀、2/4接收及开放留声；Chance H首五音比例不含后两16，D／G先从休止恢复，I基准另建。[嵌套原生](NESTED_TUPLET_SCOPE_STUDY.md)三版中优先C分层；B虽显内3仍同高重叠，显示正确与计时正确需分别核。
 
 2026-10-29[Nagi／NieR组曲](INTEGRATED_READING_NAGI_NIER.md)：保稳定活动和必要前缀，12/8二对三的不同步应保；分普通混合梁和震音时值。Nagi最后8恢复、X旧接收及Z提前音逐刻核；NieR148早于曲名，S等式方向与Nagi末运行计量列待核，先不猜播放或补比例。

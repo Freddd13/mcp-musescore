@@ -97,6 +97,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_RAILGUN_PIERCE.md`：Railgun14列含普通8，不能全按16匀；R22两图只说明时值层级重分预算，另查前缀、共同列及局部弹性。
+
 `INTEGRATED_READING_KISS_CHANCE.md`／`NESTED_TUPLET_SCOPE_STUDY.md`：Kiss普通16骨架约6.894–7.092pt；Chance不同预算下列宽可大不同，先核角色／前缀净空，不移同刻头。
 
 `INTEGRATED_READING_NAGI_NIER.md`：Nagi L16步幅约9.900–9.918pt；X前缀局部占位可保。NieR12/8二连第二音落在下部普通8之间，不能最近邻吸齐。
@@ -187,6 +189,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_RAILGUN_PIERCE.md`：跨表6可能含1下表＋5上表，峰顶普通8在外；短括号按成员，三连休止也在范围内。
+
 `INTEGRATED_READING_KISS_CHANCE.md`／`NESTED_TUPLET_SCOPE_STUDY.md`：ChanceH第二束梁前五32按5:4，后两16普通；原创嵌套C外括号放远，显内3仍可能同高相叠。
 
 `INTEGRATED_READING_NAGI_NIER.md`：NieR H两音附点二分震音共3q，端点不相加；Amusement短第三层只围前两32。12/8二连8各3/4q，普通8为1/2q。
@@ -251,6 +255,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_RAILGUN_PIERCE.md`：段号、8va、力度常先后错开；Railgun H前sub.p／O前fff在q5/2，不统一移到新段号。
+
 `INTEGRATED_READING_KISS_CHANCE.md`／`NESTED_TUPLET_SCOPE_STUDY.md`：Kiss末开放持续弧不补造接收；分层p／mf及重复dim→pp→mf保护实际归属，不去重。
 
 `INTEGRATED_READING_NAGI_NIER.md`：Nagi X p在旧8tie接收处，后14普通16；Zff从双线前两16开始。段落字母、新攻击、小节线不决定所有力度时点。
@@ -298,6 +304,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
 
 <a id="tempo"></a>
+
+`INTEGRATED_READING_RAILGUN_PIERCE.md`：Pierce più lento后G恢复局部基准，先q0和弦再q1快层；保持后末四分拾起仍需保护。
 
 `INTEGRATED_READING_KISS_CHANCE.md`／`NESTED_TUPLET_SCOPE_STUDY.md`：ChanceD／G从上方休止恢复，H后旧8接收已恢复；I新Poco meno之后不能机械回开头66。
 
