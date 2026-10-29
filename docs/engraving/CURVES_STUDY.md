@@ -160,3 +160,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-29：缺弧判断先包含完整曲线
 
 [Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Resonance最后第一全音到第二全音的上下两音均有tie；系统裁图漏上弧顶造成顶音重新攻击的初判，较大原PDF上下文纠正。缺图边界不能当缺对象；Rising开放留声末端不凭空补接收。
+
+## 2026-10-30：旧接收、重奏和休止的边界
+
+[Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：Sayonara同页attacca拾起后M先接旧低音四分，再四分／二分休止；末四次上部全音攻击对低部tie，随后sfz全音tie到另一小节，最后休止延长。不能把长分句弧当每音tie，也不能统一补／删持续。

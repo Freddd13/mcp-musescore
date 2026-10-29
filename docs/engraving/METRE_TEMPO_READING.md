@@ -165,3 +165,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-29：恢复先于新音
 
 [Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Rising p5末系统最后小节a tempo在q0半休止处，p新二分在q2；继局部poco rit.后恢复，不能等新音再恢复。J的mp在q1休止，N的mp在重音附点四分后q3/2；数字段号不统一吸附这些入口。
+
+## 2026-10-30：长短提示与速度等式分读
+
+[Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：Sakayume开头附点四分82，短2/4另立四分90；提示式是附点16＋32转三连8＋16，写3:1按2:1读。M／N等式均在新段一侧，旧／新单位方向仍需说明或演奏依据；Gould185–187历史体例相反，不能按左右机械算BPM。Sayonara N72／O170可行中开始。

@@ -258,3 +258,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-29：快慢角色可在同表与两表切换
 
 [Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Resonance B／F上部16、C下部16、G上干慢线配下干快层；Rising E上干短和弦是伴奏、下干主题，K低部全音接复附点二分3.5q后末8拾起。先辨角色，保共同梁及必要休止。
+
+## 2026-10-30：跨表时点与独立层
+
+[Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：B六连3下＋3上，F第一6为2下＋4上、第三6从三头和弦开始；同起和弦只占一份。Sayonara p6s1跨表普通16每半节休止＋七音，与上部半音背景并行；无数字6，不能看少数头编连音。

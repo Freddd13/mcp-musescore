@@ -44,6 +44,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_SAKAYUME_SAYONARA.md`：同页attacca后先接旧低音；末上部四次全音重奏对低部tie，随后sfz跨小节tie及最后两表延长休止分别保留，不把空白当废小节。
+
 `INTEGRATED_READING_RESONANCE_RISING.md`：Resonance末尾两全音的上下音均tie；裁图漏弧顶不等于重奏。Rising上部开放持续与下部收尾分读；震音端点共享时段。
 
 `INTEGRATED_READING_GOD_POKEMON.md`的H与I改变低音持续、低八度、休止、踏板及手。相似材料用于检查一致性前先核音乐差异；不能直接复制再现或假定演奏等效。
@@ -98,6 +100,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_SAKAYUME_SAYONARA.md`：12/8的24个普通16与六连分判；活动角色可换到下表。保重升号／换号真实占位，再查小节预算，头原点不能当干轴。
 
 `INTEGRATED_READING_RESONANCE_RISING.md`：B／F组内稳定但相邻小节预算不同；I普通8、L末8／附点8不混成全16。先认角色与真实值，再查前缀和整行预算；R20补谱表／系统／框等不同空间层级。
 
@@ -193,6 +197,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_SAKAYUME_SAYONARA.md`：跨表六连可3下＋3上，也可三头和弦＋五单音为六时点八头；五音加16休止也成完整6。保清楚的完整梁；普通8与后三连共梁才比较局部短括号。
+
 `INTEGRATED_READING_RESONANCE_RISING.md`：J首梁普通8之后七个16依下部拍点占1.5q，优先7:6及仅七音短括号；下一梁仅末三为三连。前一系统三束独立5已清楚，保裸5，不能泛加括号。
 
 `INTEGRATED_READING_RAILGUN_PIERCE.md`：跨表6可能含1下表＋5上表，峰顶普通8在外；短括号按成员，三连休止也在范围内。
@@ -261,6 +267,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_SAKAYUME_SAYONARA.md`：力度可在q31/8提前32、q0休止或独立层q2生效；不统一移到段号。Sayonara marcato两手共同攻击／休止，保刻意断口。
+
 `INTEGRATED_READING_RAILGUN_PIERCE.md`：段号、8va、力度常先后错开；Railgun H前sub.p／O前fff在q5/2，不统一移到新段号。
 
 `INTEGRATED_READING_KISS_CHANCE.md`／`NESTED_TUPLET_SCOPE_STUDY.md`：Kiss末开放持续弧不补造接收；分层p／mf及重复dim→pp→mf保护实际归属，不去重。
@@ -310,6 +318,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
 
 <a id="tempo"></a>
+
+`INTEGRATED_READING_SAKAYUME_SAYONARA.md`：Sakayume长短式为附点16＋32转三连8＋16；M／N等式新旧方向仍待核，不机械按左右算BPM。Sayonara明确N72／O170可行中生效。
 
 `INTEGRATED_READING_RESONANCE_RISING.md`：Rising末系统a tempo在q0半休止，p二分q2才进；N的mp在q3/2。先恢复计数，标记不吸附新音或段号。
 

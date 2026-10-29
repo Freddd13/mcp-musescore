@@ -311,3 +311,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-29：共享震音与普通时值分开算
 
 [Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Resonance二分端点对共同2q；Rising J附点四分对1.5q、二分对2q，N全音端点对4q；写出快音的真实变化保留。J小前置头约75%，不硬加普通8。L的14个16＋8及13个16＋附点8不能整段等距。
+
+## 2026-10-30：去重、和弦和休止不能混计
+
+[Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：F起始和弦顶头PDF精确重画一次，排除该字符重复仍为三头和弦；三头是一个时点。M普通24个16、六连中的休止和六连8／16基值分别核。末前置小音不加普通时值，末全小节休止延长有结束功能。

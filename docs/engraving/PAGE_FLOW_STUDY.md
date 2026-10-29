@@ -203,3 +203,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-29：先确认空间属于哪一层
 
 [Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：两曲40／47系统保不同活动／长干／八度容量，不套固定小节数。R20页图区分普通谱表、大谱表内部、系统距离，框高度与上下间隔另调；四小节换行是样例，分节和编号恢复有结构含义。
+
+## 2026-10-30：段首可行中进入，同页换系统不作翻页证据
+
+[Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：Sayonara N72／O170均行中进入，双线／段号／织体和速度足以提示；固定每段新行会消耗预算。p8s2→s3attacca在同一物理页，保连续和旧接收，但不由此声称翻页可行。

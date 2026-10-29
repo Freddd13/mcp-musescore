@@ -145,3 +145,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：错开的力度与活动
 
 [Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Resonance开头及L前pp在q1，但前者四分休止、后者普通四分和弦。Rising J的mp在休止q1，N在q3/2；p3下部五连后八分的点是断奏，非时值附点。保读法再调位置。
+
+## 2026-10-30：休止／提前音上的力度与共同断口
+
+[Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：Sakayume mp／mf最后32拾起在q31/8；Sayonara下部mfq0而上部p快层q2，Lppsubito在q0上部休止、旋律q1才进。p8s5marcato首小节两手共同q0/q2攻击、q1/q3休止，初猜手间交错撤回；保断口，勿因长弧全tie。
