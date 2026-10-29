@@ -192,3 +192,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：慢接收与新运动共享位置
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi H附点四分tie到8接收后才后续慢音，与快16共列；Tamashii末Meno旧长和弦接收与新旋律分读。长slur给乐句，tie给持续，手框给接手；不能按共端点或同列把它们合成一个对象。
+
+## 2026-10-30：重写低音不能当持续连接
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes L四个全音符逐小节重写、有重音而无跨小节tie，纠正旧“开放弧／长保持”泛称；Everlasting L确有延续tie，分别保。两表末8接收后休止与fermata仍有阶段，不合成一个终止长音。

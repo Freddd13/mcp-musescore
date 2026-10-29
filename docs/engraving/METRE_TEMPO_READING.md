@@ -193,3 +193,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：单位、弱起和恢复时点
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi附点四分57，Tamashii附点四分43，A才四分130；数字关系不构成已印等式。Tamashii初四8为2q弱起；Tabi Tempo I在M前旧低部强和弦／上部休止起点，尾Meno先半休止再滚奏，速度不拖到新攻击。
+
+## 2026-10-30：完整上下文纠正速度提前
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Everlasting开头四分148，F四分168在完整主题小节；之前mf／8休止／三连引入各有位置。窄F数字图不足以定速度起点，完整上下文已纠正本轮初猜。Heroes I／J引入先于正式界线；不把标签、力度与速度一并吸齐。

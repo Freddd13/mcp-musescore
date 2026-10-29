@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-30[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：C压短加线会交叠，保必要宽度；普通6＋6＋4和fff四8不改连音。完整3／5梁可保简洁，末7／12须先核非标准分母意图。Heroes L四whole为四次起音；F速度、力度、弱起与正式段界分别核。
+
 2026-10-30[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：先保快层稳定和慢线独立读法；F／K部分3／5比较局部范围提示，完整7／7／5／5可保。裸8与外部32休止需核实际比例，条件8:7不能冒充意图；高8va止于实际最后上表成员，跨表近邻按干轴读顺序。
 
 2026-10-30[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：O／Q／R是八分计速，S是四分；不按播放秒数重画间距。M先合并移头与保tie接收，再评16分稳定；D六轴近等距、头距交替，已建立六连可省数。震音后换型未重申比例，列核意图／首组说明候选；部分6／5／3的普通峰顶在外，X休止＋八头的9已有清楚括号，保留。

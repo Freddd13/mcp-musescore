@@ -142,3 +142,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-30 Suzume／Swordland本批约15.60MiB，总净书缓存约2.706GiB；114张不同视图33复用81新图，含补全范围的一处放大。无原PDF／字体／运行时副本或删除，低于100MiB／3GiB检查线。[精确字节与时点](suzume_swordland_closeout_evidence.json)先于最后小记录。
 
 2026-10-30 Tabi／Tamashii本批约14.62MiB，总净书缓存约2.720GiB；112视图33复用79新图，含完整M范围补图。无原PDF／字体／运行时副本或删除，低于100MiB／3GiB检查线。[字节与时点](tabi_tamashii_closeout_evidence.json)先于最终小记录。
+
+2026-10-30 Everlasting／Heroes本批约10.26MiB，总净书缓存约2.733GiB；84视图30复用54新图，原PDF与运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](everlasting_heroes_closeout_evidence.json)在最终小记录前。

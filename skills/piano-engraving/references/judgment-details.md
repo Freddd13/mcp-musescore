@@ -44,6 +44,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_EVERLASTING_HEROES.md`：Heroes L四whole有重音、无跨小节tie，四次书面起音应保；末tie接收8后是休止和延长等待。
+
 `INTEGRATED_READING_SAKAYUME_SAYONARA.md`：同页attacca后先接旧低音；末上部四次全音重奏对低部tie，随后sfz跨小节tie及最后两表延长休止分别保留，不把空白当废小节。
 
 `INTEGRATED_READING_RESONANCE_RISING.md`：Resonance末尾两全音的上下音均tie；裁图漏弧顶不等于重奏。Rising上部开放持续与下部收尾分读；震音端点共享时段。
@@ -70,6 +72,8 @@
 持续提醒先分中途续行与结束边界，再分手持、中踏板已保持、无声按键与新攻击。括起持音还可能说明手已释放；菱形无声按键不能按“同样没有起音”互换。`piano`／`curves`中的`SUSTAIN_CONTINUATION.md`保留用户m135不加提示的判断，并用原创例区分字形大小、括号、cue身份和play设置；捕捉子集不等于挂接的全部和弦。增加提示是记法提议，原生与交换分别核查，不能仅由括号／sost.字串识别踏板。
 
 <a id="layout"></a>
+
+`INTEGRATED_READING_EVERLASTING_HEROES.md`：N在p7页末、Heroes p5末快速段续页，翻页未核；可比新页起段，但须核两页容量和两手。
 
 `INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：p4末三个pp四分引子可与p5J比较完整小节组合，先核次页五变六小节的预算；常规奇数右页下p4／p5同开页，跨页阅读候选不能称为物理翻页已改善。
 
@@ -102,6 +106,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_EVERLASTING_HEROES.md`：C重复宽处受加线限制，压到5.932pt解析上会交叠；O／G／H稳定活动仍保。
 
 `INTEGRATED_READING_TABI_TAMASHII.md`：H／I／J快层有稳定步幅，慢线、和弦及接收独立；F近头3.546pt仍先后，实际干轴8.352pt。
 
@@ -212,6 +218,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_EVERLASTING_HEROES.md`：C六音组为普通6＋6＋4；fff四普通8在前三连之后。完整3／5梁保简洁；末7:6／12:10先核意图。
 
 `INTEGRATED_READING_TABI_TAMASHII.md`：部分3／5只管内层成员；Tabi裸8前32休止在外，严格8:7仅条件读法，先核意图再写全比例。
 
@@ -333,6 +341,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`INTEGRATED_READING_EVERLASTING_HEROES.md`：C两个六音组各五下＋一上，近干仍先后。先滤PDF负x内容，再按完整梁／头／干核可见事件。
+
 `INTEGRATED_READING_TABI_TAMASHII.md`：Tamashii尾7／7／5／5首5为四上＋一下、次5全下；按完整成员与r.h.接手，不能按谱表截组。
 
 `INTEGRATED_READING_STYX_SUGAR.md`：Sugar六连是下上交替六个八度和弦，按时间／干侧／梁接点跟读。STYX D慢旋律纠正在下表向上符干／r.h.层，上表为快16。
@@ -374,6 +384,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
 
 <a id="tempo"></a>
+
+`INTEGRATED_READING_EVERLASTING_HEROES.md`：F168在完整主题，mf和三连引入先行；I／J的四8引入也在正式界线前，不把标记齐移段首。
 
 `INTEGRATED_READING_TABI_TAMASHII.md`：附点四分57／43与A四分130分读，无已印等式；Tempo I先于M，上部休止也可承新速度。
 

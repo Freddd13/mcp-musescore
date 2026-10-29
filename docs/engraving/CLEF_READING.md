@@ -103,3 +103,7 @@ Kaibutsu K下表先低八度再高处材料。选定F5在当前高音顶线，�
 ## 2026-10-30：重复音型也可反复换号
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi J下部低起点后G号读中音，F号准备下一低音；省号会增加加线，先保整型的识别。Tamashii跨表下降中换F号准备低续句，八度角端和换号分判，不按最高头或换号次数单独优化。
+
+## 2026-10-30：行中变号保护轮廓
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes开头先F号8再换G号，仍是完整4/4，不能把首8删成无计量装饰。I后下部高低音区反复换号、L上部转F号，各随材料读；省号方案需核加线与实际音程。

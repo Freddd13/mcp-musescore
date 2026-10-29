@@ -231,3 +231,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：同型比较与行内换型
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi首页首行六bar、H运行每行三bar、调性过渡两bar，预告调号占行尾；Tamashii F在行中开始。局部稳定与整行预算分判，不固定四bar。真实翻页未核；比较候选应含两手和相邻系统。
+
+## 2026-10-30：行内进入清楚，页末仍需验证
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Everlasting N在p7末系统进入、忙碌续p8；Heroes p5末快速背景续p6，未核可用翻页。可比较新页起段，代价是重分两页预算；延长号或单表休止不证明两手可离键。

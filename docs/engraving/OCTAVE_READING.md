@@ -202,3 +202,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：慢和弦与随后loco分开
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi J高8va包括p4s5第四小节q0的附点四分和弦，随后快8的loco才恢复。Tamashii F高8va延三系统，在下降最后上表成员后x373.122角端结束，下一下表16按本表谱号；不把全bar或共同梁统一移八度。
+
+## 2026-10-30：引入先开始，恢复也逐音看
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes G的8va从正式G前引入开始，三系统末在最后八度和弦之前恢复；续行括号及角端保留。共享梁不扩大到另一谱表；单音短标识的工程范围待核。

@@ -288,3 +288,7 @@ C32组内7.434–7.614pt，下一小节8.136–8.154pt，各自稳定；X十四1
 ## 2026-10-30：快层的稳定与慢线的先后
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi H首两小节12普通16约12.924–13.104pt；Tamashii I休止后14个16约9.558–9.918pt，J16列约8.838–9.036pt。保同层运动和下部先开始的切分，不能把所有头视为同角色。F接手头距3.546pt、干轴距8.352pt，按先后读，不能最近头吸齐。
+
+## 2026-10-30：先核加线，再评重复不均匀
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：O14普通16约9.707–9.962pt，Heroes G／H保16列。Heroes C首六头距5.932–8.744pt重复，较宽处加线端点仅余1.188pt；若压至5.932，解析上交叠1.624pt。该反事实未原生渲染，先保占位，不以方差判美。

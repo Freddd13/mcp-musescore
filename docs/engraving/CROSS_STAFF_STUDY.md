@@ -192,3 +192,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：接手必须包含完整连音组
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tamashii p4s5跨表下降14个普通16先后，近头差3.546pt而干轴8.352pt；8va至最后上表成员。p7s5的第一5是四上＋一下，r.h.提示低部接入，第二5全下。共同梁连动作，仍逐表核八度与手。
+
+## 2026-10-30：普通6＋6＋4的跨表阅读
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes C两个六音组各五下＋一上，与其后四个普通16合全4/4。共同梁连轮廓，最后上表头不与前音并成同时；近干轴和加线净空先核。PDF负x隐藏内容不作可见事件，不能直接计全部字符。

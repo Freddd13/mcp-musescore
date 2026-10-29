@@ -343,3 +343,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：休止在组外时不能硬并成员
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi M下降八头三梁前有独立32休止，和相邻普通上行16休止＋八32＋末16不同；条件8:7先核意图。Tamashii终段首7首头含八度仍一份，第一5含四上＋一下，第二5全下；不要按字形数或谱表截断。
+
+## 2026-10-30：完整梁不用机械补括号
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Everlasting F三连、G前3／5、O首5均各自完整两梁，bare数字可保。O末两16后8只保一层梁。末三个7各对应1.5q、12对应2.5q；严格读是7:6／12:10，待原工程／意图确认再完整标比例，不能按数字套常规分母。

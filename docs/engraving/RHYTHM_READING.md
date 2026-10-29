@@ -258,3 +258,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：范围与比例是两个问题
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi F前三32三连后普通16、低中五连前后普通8，K三连只管中三音；Tamashii F前部分3后完整7及普通四32／8各核。Tabi M裸8外有32休止，严格6/8配方给条件8:7，需核意图后写完整比例；短括号不能替代分母。
+
+## 2026-10-30：普通六音组与范围明确的连音
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes C为普通16的6＋6＋4，非六连；Everlasting末fff四个普通8，前三16三连在其前。F前三及G前3／5均独立完整梁，O完整5后六普通16与末8各保时值。末7／12比例先核意图。

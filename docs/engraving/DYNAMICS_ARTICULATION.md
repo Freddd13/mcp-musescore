@@ -177,3 +177,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：相邻强弱不一定同一时点
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：纠正Tabi首轮：p1s3／p2s6 sfz在q0长和弦，mp在八分休止后q0.5；I行末低p q0、上pp新进入分别保。Tamashii non Ped.／con Ped.随材料切换，I／J独立入口的力度靠所属层，不移到统一段首。
+
+## 2026-10-30：先行力度与后续正式入口
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Everlasting mf在F前8休止附近，168在随后完整F主题；L p在休止后q1。Heroes B／H前下部末8已有mf、随后上部p；I／J前四8引入有p／ff。末fff四普通8和弦，前3不并入，旧读法更正。

@@ -290,3 +290,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：慢旋律与接手不跟谱表固定
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi H同表上干快16、下干慢线和局部l.h.；Tamashii I上部休止后快14个16，下部q0已有独立线，局部r.h.在下表。保角色与先后，再评黑度；额外干／省休止按读法判断，不按voice容器统一补删。
+
+## 2026-10-30：换手、角色和低音起音
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Everlasting G下干慢旋律／l.h.及K下表r.h.与长音并行，L持续有实际tie；Heroes L四whole无跨小节tie，为四次书面起音。按读者任务保层次，不按谱表直接分手或用连续持音替换。

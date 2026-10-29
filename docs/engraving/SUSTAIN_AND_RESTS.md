@@ -121,3 +121,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：组外休止和持续接收各保时段
 
 [Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi M裸8之前32休止在组外，不为凑拍并入；H慢线tie与快层并行。Tamashii Meno先二分休止，后半和弦与下一whole接收、最后新低二分分别读；全休止居中与普通休止的实际起点分判。
+
+## 2026-10-30：四次起音与最后的等待
+
+[Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes L四whole无tie，不自动连成四小节持续。结尾两表为tie接收8、8休止、4休止、2休止，延长在q2的二分休止；ff不新增攻击。独立层与附加干的休止按Gould311–312条件判断。
