@@ -154,3 +154,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-29：相似再现不复制范围
 
 [Soul／My War](INTEGRATED_READING_SOUL_WAR.md)Soul H前两条8va至旧附点二分后止，140的最后8为新入口；F短8va与mf／pp各有范围。War p3与p7强奏相似，但长高8va、滑奏及低部8vb不同，逐端核后保留；J长低音接收不是新攻击。
+
+## 2026-10-29：旧接收、手括形与新快层
+
+[Nagi／NieR](INTEGRATED_READING_NAGI_NIER.md)Nagi X旧8va至新小节首8接收止，后14个16另读；V高短组与较低旋律／l.h.分层。NieR终止低部8vb分别围低音与最终保持，不因相似强奏合并；r.h.短括形不代表全层永久换手。

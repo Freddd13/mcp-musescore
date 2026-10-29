@@ -116,3 +116,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-29 Dearest／Hero批次约7.93MiB，总净书缓存约2.561GiB；73张不同实际视图中31复用、42新图。无原PDF／运行时副本、删除或清点错误，低于检查线；两处误选书页未计19页且旧图保留。[精确字节与时点](dearest_hero_closeout_evidence.json)先于最后小记录。
 
 2026-10-29 Soul／My War批次约6.90MiB，总净书缓存约2.568GiB；66张不同实际视图中28复用、38新图。无原PDF／运行时副本、删除或清点错误，低于检查线；书页按明确印刷／物理映射及可见页脚核选。[精确字节与时点](soul_war_closeout_evidence.json)先于最后小记录。
+
+2026-10-29 Nagi／NieR批次约9.01MiB，总净书缓存约2.577GiB；89张不同实际视图中41复用、48新图。无原PDF／运行时副本、删除或清点错误，低于检查线；书页按明确印刷／物理映射及可见页脚核选。[精确字节与时点](nagi_nier_closeout_evidence.json)先于最后小记录。

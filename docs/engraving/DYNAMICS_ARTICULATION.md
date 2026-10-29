@@ -129,3 +129,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：mf／pp及提前入口校正
 
 [Soul F](INTEGRATED_READING_SOUL_WAR.md)旧mp／pp说明改mf／pp；上部pp在前8接收之后起新短8va，低部mf背景延续，随后上部mf重新八度。War J先sfz和弦四分、后mf六8，后续低部sfz短引音与持音另判。不要统一居中或全局去重。
+
+## 2026-10-29：持音接收也能开始新层次
+
+[Nagi X](INTEGRATED_READING_NAGI_NIER.md)p在旧八分tie接收处，随后才14普通16；旧8va也在接收后结束。p4s4 mp则在附点四分后起10个16，Z的ff从双线前两16提前音开始。保时点与层，不按小节线、字母或新攻击统一吸附。

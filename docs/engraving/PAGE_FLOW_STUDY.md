@@ -187,3 +187,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-29：重复材料仍需完整相邻上下文
 
 [两首十三页](INTEGRATED_READING_SOUL_WAR.md)Soul32系统、War40系统；C／D／F等行中入口保定位，强制每段新行需计算后页密度与翻页。War重复强奏的手／滑奏／8va范围不同；Soul自由收尾与War终止攻击不套一种裁尾模板。
+
+## 2026-10-29：新段醒目与长组曲预算
+
+[Nagi／NieR全25页](INTEGRATED_READING_NAGI_NIER.md)149系统。NieR Vague Hope行中靠曲名／调号／12/8／单位64提示；Gould487仍优先条件许可的新系统。先保可读现状，漏读时比较新行及相邻页预算。148早于A Beautiful Song曲名；段落／旋律／数值速度起点不自动绑定。
