@@ -282,3 +282,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：谱表与手、快慢角色分别读
 
 [STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：纠正STYX D旧首轮：上表全为快16，慢旋律在下表向上符干层，有r.h.提示，持续低音另层。Sugar跨表六连是下上交替六时点，B／I独立声部休止说明迟入；不能靠上表／下表位置合并或藏休止。
+
+## 2026-10-30：主题、手与谱表的独立线索
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume主题从上表到下表高音谱号，F有l.h.提示与上表旋律／长和弦、低部长持续，M换谱号区分低音和中和弦；不能按谱表固定手。Swordland H慢二分干与快16同表，I换普通8与独立休止，先保角色再评黑度。

@@ -335,3 +335,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：数时间列也要核成员角色
 
 [STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：Sugar21有22枚头、21个时间列，首和弦接前页旧tie。J同一二度横移约4.963pt不增时点；交替跨表近头也不必同时。末尾二分震音对共享2q、全音对共享4q，普通16／3／5另计；三笔不独立证明演奏交替次数。
+
+## 2026-10-30：休止也属于连音成员
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume X首9为一个32休止＋八个头占1q，后面24普通32另占3q；不能补头或扩9范围。V前两书面half震音成员共享2q，后普通quarter另计。Swordland whole震音对共享4q，之后24双梁列是否延续6仍待意图，不由数字缺省直接定为自由或缺拍。

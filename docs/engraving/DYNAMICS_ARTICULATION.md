@@ -169,3 +169,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：避让横移不直接证明迟入
 
 [STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：STYX G mp位于accent右下，PDF字形x不足以定延后到快速音；原生锚点待核。L下部sfz q0、上部p首16 q0.5可分别确认；H ff/mf可在q0／q3.5。Sugar末f nonlegato在共享震音2q和16休止后q2.25，不移到段首。
+
+## 2026-10-30：强弱属于各自进入层
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume H下部f sub.q0、上部mp在8休止后q0.5。Swordland p2s3 q0sfz、上部mp稍后、下部q2长音f各有归属；J第三barp／rit.在半休止后q2。不要为版面齐列把它们移到段首。

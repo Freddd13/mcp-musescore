@@ -194,3 +194,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：同梁中的八度恢复
 
 [STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：Sugar整小节21的8va止于第8与9成员之间，共同梁继续，不能顺延到组末。STYX F前短8va仅罩首和弦，L低8vb只罩低四分而上8va延三系统。保具体端点，loco辅助须局部对照而非自动添加。
+
+## 2026-10-30：长线仍按谱表及最后成员核
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume K低8vb延三系统，到L末行最后quarter前恢复；T高8va含2/4长和弦，到U前结束。Swordland J低8vb延四小节，高部滑奏的短8va早已结束；共同梁不令八度线跨表通用，端点按实际头而非持满时长延长。

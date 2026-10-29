@@ -250,3 +250,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：整小节与部分梁的不同成本
 
 [STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：Sugar整小节21连16可保裸21（Gould207），下部每拍是真实中间列；首列两个头接旧tie，不增加时间列。部分9只含九个32，峰顶普通8在外；STYX普通8后接三连16，Sugar三连16后又接普通8，共梁不等于共同连音比例。
+
+## 2026-10-30：数字省写与成员边界分别判
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Swordland D首bar四组六连已建立，次bar同构省数可保；震音之后四个六成员双梁组换型却不重申比例，24普通16合6q／延续六连合4q仅条件分析，先核意图。Suzume部分6／5及Swordland部分3不含普通8峰顶；X9包含一个32休止＋八头，括号已清楚，保留。

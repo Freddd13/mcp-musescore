@@ -223,3 +223,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：跨页延续先于整齐分组
 
 [STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：Sugar p6末旧tie跨到p7的21首列，不能按新页当全新攻击；21内八度恢复又在梁中间。整页规划须保这些来路及相邻页，不为新页标题／整齐梁组移动节奏或持续。本批未作实际翻页候选。
+
+## 2026-10-30：同一系统容许不同密度和段首
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume p3s2五小节可接F收束和G新速度，S／X长运行系统则两小节；p5s6疏材料与密Q同一行按需求分配。Swordland J两整bar上休止、第三bar先半休止，低部仍持续；不为紧凑删时间，也不全谱固定bar数。实际翻页尚未验证。

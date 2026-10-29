@@ -113,3 +113,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：开放持续不吞并书面休止
 
 [STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：STYX L起始低quarter、quarterrest、halfrest合4q，开放tie和Ped.表达放手共鸣；末上部括号头语义待核。Sugar多声部的普通休止按各层实际起点，末quarterrest且无fermata；STYX末有延长与踏板收束，不套共同结束模板。
+
+## 2026-10-30：迟入和持续的时间要看两手
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume X9包含实际32休止；Swordland J两整bar上休止后第三bar半休止，q2才p／rit.进入，低whole一直tie。全休止居中与普通半休止实际起点分判；Suzume尾部各低音起点不同，收束不能按统一再攻击模板。

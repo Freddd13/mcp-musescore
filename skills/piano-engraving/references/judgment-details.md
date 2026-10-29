@@ -103,6 +103,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_SUZUME_SWORDLAND.md`：M二度移头与q2tie接收空间同看；D交替头距不同，实际六干轴近等距。速度改变不按播放秒数重画书面间距。
+
 `INTEGRATED_READING_STYX_SUGAR.md`：跨表头距0.709pt仍可先后1/6q，六符干轴序保留；21下部q1/2/3在上部成员之间。J普通8为前缀／细分让空间，不按头距方差吸齐。
 
 `INTEGRATED_READING_SPECIALZ_GHIBLI.md`：F下部q1/2在上七连3/7与4/7之间，保真实中间列及组形；E／X普通16稳定，二度移头不增攻击。
@@ -209,6 +211,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_SUZUME_SWORDLAND.md`：X9是32休止＋八头，现有括号保留；部分6／5／3普通峰顶在外。同构省6可保，震音后换型未重申比例先核意图。
+
 `INTEGRATED_READING_STYX_SUGAR.md`：整小节21连16可保裸21；部分9不含普通8峰顶，部分3可前后接普通8，各核内梁与实际成员。
 
 `INTEGRATED_READING_SPECIALZ_GHIBLI.md`：7／6连16与9／11连32分读。V两音震音书面成员共享时段，三笔不独立证明实际交替数；p7s2普通音之间三连16可比较短括号。
@@ -289,6 +293,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_SUZUME_SWORDLAND.md`：H下fsub.q0／上mpq0.5，Swordland低f q2与上mp分别读；J p／rit.第三bar半休止后q2，不移段首。
+
 `INTEGRATED_READING_STYX_SUGAR.md`：STYX G mp右移避accent，PDF字形x不独证迟入；L sfz q0／上p q0.5分别读。Sugar末f nonlegato在q2.25首16。
 
 `INTEGRATED_READING_SPECIALZ_GHIBLI.md`：SPECIALZ末p在q3.5首16，更早附点quarter是旧接收；Ghibli I前低mf和上p分别开始，不统一段号。
@@ -361,6 +367,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="tempo"></a>
 
+`INTEGRATED_READING_SUZUME_SWORDLAND.md`：O／Q／R为八分78／90／128，S为四分78；四分81在V前旧小节休止／震音起点。未印等式不擅补直接关系。
+
 `INTEGRATED_READING_SPECIALZ_GHIBLI.md`：75先于Wind Rises题名及Z，80先于Y且在2/4q0八分休止；换拍、换调、第一次攻击各有实际位置。
 
 `INTEGRATED_READING_SAKAYUME_SAYONARA.md`：Sakayume长短式为附点16＋32转三连8＋16；M／N等式新旧方向仍待核，不机械按左右算BPM。Sayonara明确N72／O170可行中生效。
@@ -412,6 +420,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 自由段先分省拍号、局部自由、senza misura与独立速度，再读活动／持续层及返回点。陪伴长值可代表等待，不因延长号x不同拆音移齐；工程隐藏计量／速度不直接等于读者须看见的拍号／节拍。跨表音可画在空容器上，Part也不等同演奏者；原生连接按实际版本结构核对。`piano`／`tempo`中的`FREE_PASSAGE_READING.md`有用户尾页保留证据及官谱对照。波线还可能指音组自由反复，先看材料和说明，不能一概识别为trill。
 
 <a id="clefs"></a>
+
+`INTEGRATED_READING_SUZUME_SWORDLAND.md`：M低音后换高号读中和弦，再低号准备新低音；D换号不取消六连，替代需比较加线和完整两手。
 
 `INTEGRATED_READING_KYOURAN_CONAN.md`：I的F号保A♭2／A♭3起点，重复高型有稳定轮廓；改G会增加低头加线或频繁换号。先核四降调号及完整材料，不按最高头阈值报错。
 

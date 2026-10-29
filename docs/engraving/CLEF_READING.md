@@ -95,3 +95,7 @@ Kaibutsu K下表先低八度再高处材料。选定F5在当前高音顶线，�
 ## 2026-10-30：反复换号可能降低总读数负担
 
 [SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Totoro先低长音，后中音旋律的高音谱号，末尾低音谱号准备下一低音，增加符号却减少加线和心算。不要以谱号数量作单一优化目标；替代方案应展示相邻小节及完整两手，核共同列和局部空间。
+
+## 2026-10-30：反复换号的收益要和认音成本比较
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume M低音后高音谱号读中和弦，再低音谱号准备新低音；删号会增加加线。Swordland D两bar间换高谱号降低加线，不能因换号取消已建立6节奏；J低音到K高音和最后低音各按实际谱位。替代需看整行两手。

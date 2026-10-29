@@ -184,3 +184,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：旧接收与放手共鸣分别保
 
 [STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：Sugar21首列接旧tie，不能数成全新21次起音；STYX L低四分后开放持续与Ped.并存，后续书面休止仍有时间。STYX末上部最高长音头加括号后延续，具体括号意图待核，不从头形补静默或攻击。
+
+## 2026-10-30：不同来路汇成收束和弦
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume M二度和弦tie接收占位需保；尾部whole、dottedhalf及最后quarter从不同起点持续到同一低部收束，长slur另指乐句。Swordland末上部旧whole接收与下部新低和弦同时收束，不按整枚和弦推全部新攻击或合并所有弧。

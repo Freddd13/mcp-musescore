@@ -1,0 +1,5808 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "recorded_at_utc": "2026-10-29T20:35:38.582126+00:00",
+  "note": "INTEGRATED_READING_SUZUME_SWORDLAND.md",
+  "source_protection": [
+    {
+      "id": "A121",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Suzume no Tojimari Medley.pdf",
+      "sha256": "9433c0ef279f8c1005f5f68ad24206a6716f5c0e205c5d148575e4a737c3b7bb",
+      "pages": 8,
+      "unchanged": true
+    },
+    {
+      "id": "A122",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Swordland - Sword Art Online - Soundtrack.pdf",
+      "sha256": "06b51801caf9d19230d085b4237639d456a83bd6b0d35b1e27a1231cb881d2f5",
+      "pages": 5,
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "unchanged": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A121",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A121/page-1.jpg",
+      "sha256": "6859d69cb3e74a079a8eae5631984e1752d56c8f63a8226847964e8cc5c2f87b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A121",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A121/page-2.jpg",
+      "sha256": "c5dfa4a5d50c210e72dfa362369542d29f81c00ba6b926b778dc443cf4b90aea",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A121",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A121/page-3.jpg",
+      "sha256": "25d2c1fc05307df9b9a90fb19b0e55afea804875f4b2b30aeffa01e3fafc4973",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A121",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A121/page-4.jpg",
+      "sha256": "aff106ce2b6ed834509319389365610c70f6cbd7d8417c2d80cca41fbe7340aa",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A121",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A121/page-5.jpg",
+      "sha256": "451e67667747c11eeddcfe7cb475c9a4bf341f316d881a00db623c7041693305",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A121",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A121/page-6.jpg",
+      "sha256": "6fd41efebaab84528ae25d94be1488126e2e6dd6f1d12a3939fc549d955412c5",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A121",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A121/page-7.jpg",
+      "sha256": "016e660257e71da594085819bf1346ae612f4c06e1e98054010db7639c16bfac",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A121",
+      "page": 8,
+      "path": "tmp/engraving/corpus/A121/page-8.jpg",
+      "sha256": "25dd1ed11abcbb08550544ee019ec2595ae067128158d2f531e04a4607e36337",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A122",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A122/page-1.jpg",
+      "sha256": "69f760b44825deb601aba8c23c88a8d709c2353b9c4af48412fa60a4998d1ccd",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A122",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A122/page-2.jpg",
+      "sha256": "7e7922b7c1677ec7b9b2b0d22112981306396566e6ce2081174b775793e41541",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A122",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A122/page-3.jpg",
+      "sha256": "890c4e4d18338b3c77a26a186b3a33f51e9e95e4aebf813fb8e0cf6d830f45be",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A122",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A122/page-4.jpg",
+      "sha256": "87c54a400e8de4cde72ed1621f2d91fe320b2ede6b99d65c5244746e89186d0d",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A122",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A122/page-5.jpg",
+      "sha256": "a797f295f57685070a73663530b47ebbe5c85231afa163c97c4fad1f8c753edd",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p1-s2.jpg",
+      "source_y_pt": [
+        246.78288182175106,
+        414.288182175108
+      ],
+      "sha256": "b83783ac4537b0397b2476d5b63f8f803dc0c0fcfc5686273fc2eff5de0ce5a2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p1-s3.jpg",
+      "source_y_pt": [
+        380.66980761680406,
+        552.4727129956811
+      ],
+      "sha256": "14c5ca034af660cc32f2d2e25962fde194fa834040a9392beeb258db6230e905",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p1-s4.jpg",
+      "source_y_pt": [
+        521.3337259521005,
+        692.9713388299961
+      ],
+      "sha256": "ebc9fbea046ac25c491274972b358d9c836ed43c1a60c514df8ca6dd1dc7178e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p1-s5.jpg",
+      "source_y_pt": [
+        641.5013741656851,
+        817.6018845700825
+      ],
+      "sha256": "17ef4e67e91ee2a1eeb27fa64785f6d16ec14c22bac31c16c4e788ebd3c31f3c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p2-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "4c361598d74f012198488dfb5b711091d2258d3f5030d054bcb97b0ea6b42fff",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p2-s2.jpg",
+      "source_y_pt": [
+        135.70632116215154,
+        305.195131527287
+      ],
+      "sha256": "5625f30fdf529071d48c56968e210f986a8ad84f3073c0dacad013794117864d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p2-s3.jpg",
+      "source_y_pt": [
+        253.39458186101297,
+        425.19748723989005
+      ],
+      "sha256": "edaf3348cb38b1f792bb0c9d2b477973bc5a60e506bd7e309d110a32878b21d3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p2-s4.jpg",
+      "source_y_pt": [
+        382.32273262661954,
+        553.9603455045151
+      ],
+      "sha256": "97c5886b6e649f5e4d29f342ae905951302dd2f633d4a346233da9affb8198d6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p2-s5.jpg",
+      "source_y_pt": [
+        512.2426383981154,
+        690.3266588142914
+      ],
+      "sha256": "88cc06a591882036f650e42f0dcfddf166f2f2f749a1798b6790334ca0d87053",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p2-s6.jpg",
+      "source_y_pt": [
+        643.8154691794268,
+        817.6018845700825
+      ],
+      "sha256": "25378a4a0d736090b619e2f57e6430c81716d4f04d066eedf1754fa744617a3c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p3-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        194.11857086768748
+      ],
+      "sha256": "cf64218f2225414ea53a44579a7d56db02c12e6e07c2254261dd326f48d3d117",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p3-s2.jpg",
+      "source_y_pt": [
+        147.93796623478602,
+        319.57557911268157
+      ],
+      "sha256": "e596c968722293948da97156f25a07f5a65f840b8c3e724d3db21e720af6eefe",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p3-s3.jpg",
+      "source_y_pt": [
+        267.94032194738907,
+        435.445622300746
+      ],
+      "sha256": "c11c8cdd9ecff5ca111919f0b897b74150f61fbe5865b86cbc9455a4d0e333cb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p3-s4.jpg",
+      "source_y_pt": [
+        384.6368276403612,
+        562.7208480565371
+      ],
+      "sha256": "2bb94e5150170cdd6fb9d5d9c717d0c54b262a244fdf12b718928fca0acfdfb9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p3-s5.jpg",
+      "source_y_pt": [
+        512.5732234000785,
+        687.3513937966235
+      ],
+      "sha256": "ebdc702b66d149e9eb18a155cf3ab2f2fbc7aedebdb5c7522e6256f66e5dda29",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p3-s6.jpg",
+      "source_y_pt": [
+        643.8154691794268,
+        817.6018845700825
+      ],
+      "sha256": "5a2c589a83c427f15cf282a0616ad5e4bbab4b14fcd25ca45c092d4ccce4e625",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p4-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        185.6886533176286
+      ],
+      "sha256": "029f7aa03094deb705cae7d3a4eb88b621fca8b43a470b8787f8a27cb64b69b9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p4-s2.jpg",
+      "source_y_pt": [
+        142.97919120533962,
+        316.7656065959953
+      ],
+      "sha256": "cff68aa2b02886df897603da1425e5f270bb3960057c2d6b36ddd99208b97bfe",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p4-s3.jpg",
+      "source_y_pt": [
+        267.94032194738907,
+        435.445622300746
+      ],
+      "sha256": "9f30fc6e8bbc793d9545ceda76e708150819f36b8b8661e5bdb81b2f6aa86388",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p4-s4.jpg",
+      "source_y_pt": [
+        381.16568511974873,
+        561.3985080486847
+      ],
+      "sha256": "0f30f7500e005ae2720b28874066a42ae9816609acb3a1796d286a154684d083",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p4-s5.jpg",
+      "source_y_pt": [
+        519.8460934432666,
+        691.6489988221437
+      ],
+      "sha256": "295a3c9fb9f789285f86045ef95aae05e1188a6c4ecdb6ddf173e6e378050983",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p4-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "c32c6d302708a2957f64a7cbb450fe490aa1688104c675ec13241ec3699c19f9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p5-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "2e8b14afae35080917b4424cd960f5b664b995fcdf9c1333a881953a0388b6b7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p5-s2.jpg",
+      "source_y_pt": [
+        132.56576364350215,
+        300.07106399685904
+      ],
+      "sha256": "02c4deb7bd13fea0dd24618e06d39931b183bf7b31d0c9da4e9d17efbe14dd03",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p5-s3.jpg",
+      "source_y_pt": [
+        249.09697683549274,
+        416.60227718884965
+      ],
+      "sha256": "97a5ec18b40cb5e1c22c47c275c6fcdc26f22b22b41914118692cedfb4bdc86d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p5-s4.jpg",
+      "source_y_pt": [
+        365.79348252846484,
+        535.6128778955634
+      ],
+      "sha256": "1a4f464c37ca137d13b2741662aa884d77ea3a8f35e98fc2767cc69b656282aa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p5-s5.jpg",
+      "source_y_pt": [
+        492.07695327836666,
+        674.4585787200629
+      ],
+      "sha256": "700d3bc327f2bd0fb481887c1490750d0c8ff0cd84f61436c80ed64ebe93688d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p5-s6.jpg",
+      "source_y_pt": [
+        639.5178641539065,
+        817.6018845700825
+      ],
+      "sha256": "b2d18b9775f292d21913e7f122ec07abaed4c5016e49db5c1e8d30aa26b4fe03",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p6-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        189.9862583431488
+      ],
+      "sha256": "95fd3a882cc6f6c11ebc9182b4810d45d9dde2cdabd404cd7d3e3bac52d386d5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 6,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p6-s2.jpg",
+      "source_y_pt": [
+        138.6815861798194,
+        316.7656065959953
+      ],
+      "sha256": "7977d30a427f00479ca32d18d587fe0db809f3231f1517d68b150ed815343da6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p6-s3.jpg",
+      "source_y_pt": [
+        257.6921868865332,
+        431.4786022771888
+      ],
+      "sha256": "cff6c293fb6f877c891fe486d97707d58495bde88d737e65d11bd96bf7985ac8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p6-s4.jpg",
+      "source_y_pt": [
+        381.4962701217118,
+        557.4314880251276
+      ],
+      "sha256": "e502544b079aac3cc168d0cc271e8ff2fff45879864225a9f600e297faa15549",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p6-s5.jpg",
+      "source_y_pt": [
+        504.30859835100114,
+        680.0785237534354
+      ],
+      "sha256": "5a8ab1961c73b307b13e33867cbc9a3c8276611de7e3a6c780b8cb5857694d11",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 6,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p6-s6.jpg",
+      "source_y_pt": [
+        641.5013741656851,
+        817.6018845700825
+      ],
+      "sha256": "ae3db3d5306f66264809eb670b19237ba007e488f10213325afd34a11beb7154",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 7,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p7-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        189.9862583431488
+      ],
+      "sha256": "cc2d4d913a326b3de840bb358d1ff99e95e74531bd16f62c8f5937b70b1fdb79",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 7,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p7-s2.jpg",
+      "source_y_pt": [
+        142.31802120141342,
+        322.55084413034945
+      ],
+      "sha256": "9221dfcead46a0547a054de26ccc7141f0bb3d09c56384e64a0671741cccb761",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 7,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p7-s3.jpg",
+      "source_y_pt": [
+        271.5767569689831,
+        443.37966234786023
+      ],
+      "sha256": "b422b83124ee3db77b4fa08e697daa7ad6525980b3a5c5710f649cf5c85f67d4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 7,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p7-s4.jpg",
+      "source_y_pt": [
+        402.1578327444052,
+        575.9442481350609
+      ],
+      "sha256": "2a95f647df4b393d1d8f0739edd1314a82c9b8c844e82735cbdba5fcdcd3f258",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 7,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p7-s5.jpg",
+      "source_y_pt": [
+        530.0942285041225,
+        699.913623871221
+      ],
+      "sha256": "9264b78e2d4768d9d63556e31d0bc56cfd303828f801ad284d38e2acd417036a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 7,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p7-s6.jpg",
+      "source_y_pt": [
+        647.9477817039655,
+        817.6018845700825
+      ],
+      "sha256": "a44fbcc9be159c260fa11df630307cef0ae0dbef0f9d48a4bae0c610649da997",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 8,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p8-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        187.8374558303887
+      ],
+      "sha256": "ac2cadd33a786aa2f8c3c1b809b79f733b9942d9982b569feeb6522834b09a00",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 8,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p8-s2.jpg",
+      "source_y_pt": [
+        141.32626619552414,
+        311.1456615626227
+      ],
+      "sha256": "a9ffd10c1356cb7cac70239145c0765b7bf268971fac0e5ace57b3ce2a4c5f0a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 8,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p8-s3.jpg",
+      "source_y_pt": [
+        263.80800942285043,
+        446.024342363565
+      ],
+      "sha256": "1a2043e269e9268ede959a9a5587f31abf86514ef06e2c5db2c9072bc6a5e2a1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 8,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p8-s4.jpg",
+      "source_y_pt": [
+        394.8849627012171,
+        572.968983117393
+      ],
+      "sha256": "0d5bbaa98d208c2a4193f09b435150b0ea8897b1fdf459541bd5f54306450038",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 8,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p8-s5.jpg",
+      "source_y_pt": [
+        519.5155084413035,
+        695.2854338437377
+      ],
+      "sha256": "a6b2357941a78e2c675109e531e5c86360f4cc98a1c25a996837ff6cb86e435b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A121",
+      "page": 8,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A121-p8-s6.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "3c9f7951ca8c5d648529ab24c6e251c0f08b78476b0126002f8d62173bd9da63",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p1-s1.jpg",
+      "source_y_pt": [
+        139.83863368669023,
+        307.3439340400471
+      ],
+      "sha256": "c81c42295a7a564fff1e89ba2c2a00db69260c03ec03f0f7e9c43a3f34ecd95b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p1-s2.jpg",
+      "source_y_pt": [
+        260.33686690223794,
+        432.13977228111503
+      ],
+      "sha256": "93e2c7d35c2cbd4be115d6d021ed55b3a62293f0d0c996d741f0a4170d654324",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p1-s3.jpg",
+      "source_y_pt": [
+        391.41382018060466,
+        563.0514330585002
+      ],
+      "sha256": "c49845ec61cae13bc2ca9ddc1bb78362f0f0402f2f0e1f9d2173f481b1531829",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p1-s4.jpg",
+      "source_y_pt": [
+        522.4907734589714,
+        689.9960738123282
+      ],
+      "sha256": "b367fac0602425d524fcbe71e5c65b14e59226c11199430c02dcc61465130d63",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p1-s5.jpg",
+      "source_y_pt": [
+        647.9477817039655,
+        817.6018845700825
+      ],
+      "sha256": "5397da51d8fe5c7ba3c05a3911a631f4998f352e6872fcaa24cf7213174bf909",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p2-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        193.45740086376128
+      ],
+      "sha256": "d16a4779ca9e074159ce8090e27515b4f9c537829374e9479bd22ee35bebcc31",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p2-s2.jpg",
+      "source_y_pt": [
+        146.61562622693364,
+        328.33608166470356
+      ],
+      "sha256": "82db2bfdcbdeabe0e22add1a78dcae57a4a13634eaa99da47dfc8a196e5aa25e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p2-s3.jpg",
+      "source_y_pt": [
+        274.88260698861404,
+        448.66902237926973
+      ],
+      "sha256": "988b7d751ee3a7b9610aceee5e49cae309de315e5bc29236c3fe464f038b5829",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p2-s4.jpg",
+      "source_y_pt": [
+        397.86022771888497,
+        571.6466431095406
+      ],
+      "sha256": "f5dd1517af59de54c67886d3c4dc402829edb635b60a8c66b7d3e66ff20f8493",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p2-s5.jpg",
+      "source_y_pt": [
+        520.6725559481744,
+        694.6242638398115
+      ],
+      "sha256": "ce642e1f1b61330524c4ec67257399502ca3947ec6c3b7b129f7027e432bb2fb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p2-s6.jpg",
+      "source_y_pt": [
+        647.9477817039655,
+        815.4530820573224
+      ],
+      "sha256": "8987e70936d48c0c35c3862499aab5b887f4ef8d1c0e968053cb1adc71de66bb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p3-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        181.5563407930899
+      ],
+      "sha256": "b599aad4f0b16ce63f89c879becf84008e2abe60cd5cea7fe5f1097ca7050200",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p3-s3.jpg",
+      "source_y_pt": [
+        258.68394189242247,
+        430.48684727129955
+      ],
+      "sha256": "5d615fc5a83ad4ed8b1e8c083db2f437667419518e8b20ba3072c504b96dbaf3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p3-s4.jpg",
+      "source_y_pt": [
+        390.5873576756969,
+        562.390263054574
+      ],
+      "sha256": "d79944c0e6786a1be0bd537e91784417c4c70b1af2782081c5ba337253c31e24",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p3-s5.jpg",
+      "source_y_pt": [
+        523.8131134668237,
+        691.3184138201806
+      ],
+      "sha256": "fe0e5dae3cf24bb444da2a78e1777056a7131e892c04ffd8d3b162b77c517a3a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p3-s6.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "97ce0ad89d301ff6e2dd4eb15b29d956149a7f70c3501a411ef266a7068e606f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p4-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "a11f4ef07d719514a8f2ccc0f78b6432468f97842645a4337fc87d418aa9fb68",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p4-s2.jpg",
+      "source_y_pt": [
+        141.32626619552414,
+        308.831566548881
+      ],
+      "sha256": "33b93dabbcdbd54c83af9d754b6b14b820c87f5d4eeb53ffc2ab79e4947aff53",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p4-s3.jpg",
+      "source_y_pt": [
+        260.667451904201,
+        428.17275225755793
+      ],
+      "sha256": "d9ab66f62c80de165afe4ed86725ed010bb2fba753163cca445deea981532162",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p4-s4.jpg",
+      "source_y_pt": [
+        386.45504515115823,
+        568.0102080879466
+      ],
+      "sha256": "6addb07dacf50b232fe152e0f3be5bc7e2536904e6fa4dfe71ad616e58f86967",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p4-s5.jpg",
+      "source_y_pt": [
+        522.4907734589714,
+        696.277188849627
+      ],
+      "sha256": "b639531d08818ce7b5a16518baa6edc580f27dabcd22cfa0711b44933153f920",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p4-s6.jpg",
+      "source_y_pt": [
+        643.8154691794268,
+        817.6018845700825
+      ],
+      "sha256": "aa27c240d42e135e8cf2bce777f4f240c8e58a2e2d7b198822edef49fd798930",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p5-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "e6eb898c971e842e70515566fb12d9d750da34ce5e8f6f680839d4f6f412a082",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p5-s2.jpg",
+      "source_y_pt": [
+        135.70632116215154,
+        303.21162151550845
+      ],
+      "sha256": "3fbd416f83c0c1278c8649074fa14b2a4116e0771b7b7e43b74dcffefdabb784",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p5-s3.jpg",
+      "source_y_pt": [
+        257.6921868865332,
+        433.7926972909305
+      ],
+      "sha256": "07e05fe63bfa258a8f2a15418bfdac7acc8330c009c0061c58c03509db5bfd2f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p5-s4.jpg",
+      "source_y_pt": [
+        391.24852767962307,
+        563.0514330585002
+      ],
+      "sha256": "f0244ccbccee992bbea877022effaf04831aa51e288c0dbf21992eb8078459bb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p5-s5.jpg",
+      "source_y_pt": [
+        520.5072634471928,
+        688.0125638005496
+      ],
+      "sha256": "57e814f1c2f59cc77585135ee7e8bc0608087ad36c202a56c28076e45ddfa83f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A122",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/A122-p5-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "40d81f16797282d82ffd788155c127c95250c8f0c76f06b47e48b4e60384faf8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A121",
+      "page": 7,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/suzume-partial-six-and-tremolo.jpg",
+      "source_box_pt": [
+        130,
+        407.1578327444052,
+        290,
+        567.9442481350609
+      ],
+      "sha256": "0b585b8cf3becac3fc389333aeb739a54cb78b71535c2b62df3b8d1c136122b4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A121",
+      "page": 8,
+      "system": 2,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/suzume-partial-five-and-peak.jpg",
+      "source_box_pt": [
+        168,
+        146.32626619552414,
+        243,
+        303.1456615626227
+      ],
+      "sha256": "f3acf1b8bc2d99ed47c782a41da7f4e7241f0f3ffbcb1510e7bba06cae429691",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A121",
+      "page": 8,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/suzume-nine-rest-and-first-beat.jpg",
+      "source_box_pt": [
+        312,
+        268.80800942285043,
+        451,
+        438.024342363565
+      ],
+      "sha256": "49417c994d33b59802e3844333164db08c3e8bdfde94a34a93290126e21e85b7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A122",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/swordland-first-six-stem-axes.jpg",
+      "source_box_pt": [
+        70,
+        395.5873576756969,
+        130,
+        554.390263054574
+      ],
+      "sha256": "fb5a18421e50bd68035bfe69eea77f04cd07f290e39df73c6dfa2e0b65572c56",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A122",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/swordland-partial-three.jpg",
+      "source_box_pt": [
+        494,
+        279.88260698861404,
+        552,
+        440.66902237926973
+      ],
+      "sha256": "a10e796ddb788dd4c7e4727c8ed455e96328272521608eb055dd15b152c0d709",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A121",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/suzume-M-displaced-seconds.jpg",
+      "source_box_pt": [
+        60,
+        16.736945425991365,
+        180,
+        171.24224577934825
+      ],
+      "sha256": "6a95fe2d92cf455bdd28f8c07297ce30d796c1e6bfd3e59e721b68a21ae06094",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A122",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/suzume-swordland-2026-10-30/swordland-partial-three-complete.jpg",
+      "source_box_pt": [
+        475,
+        279.88260698861404,
+        552,
+        440.66902237926973
+      ],
+      "sha256": "a7b32dfde2840d02711a9400b862c99a4bc5632f618e68502c3eaabf6d2e0830",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 30,
+      "pdf_page": 50,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p30.jpg",
+      "sha256": "7284744425ae348c9508819e503beb430b4f630c1fc5679d754c30eeed6d1799",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 41,
+      "pdf_page": 61,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-41.jpg",
+      "sha256": "3cb3ac02d969010846c582841c026ad73e5c66d3d883a1e0ad14e1c94dc86ed6",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 43,
+      "pdf_page": 63,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-43.jpg",
+      "sha256": "22d28e739ec9c663b304b0286ee41b6ac5001642dafd2c74b1a5cd4b616e4bf9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 159,
+      "pdf_page": 179,
+      "path": "tmp/engraving/styx-sugar-2026-10-30/book-printed-159.jpg",
+      "sha256": "04ea8657e2cdde73ff0501c3aaa85b5f1d7becf09d0700bad1a78f8d6ba90391",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 184,
+      "pdf_page": 204,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p184.jpg",
+      "sha256": "222171418db6fb21f843c2685ff670cd6b69cc7bec7d52f910f1f38b48b7ec14",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 185,
+      "pdf_page": 205,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p185.jpg",
+      "sha256": "5fe512725fc710b968f7b086a6673460b0776cb02312df9da3786f7a7f18cf20",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 190,
+      "pdf_page": 210,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p190.jpg",
+      "sha256": "66c45c2851d9c315c6cac7552c47fa4beb77122cee31f4820c76e65ebb665465",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 203,
+      "pdf_page": 223,
+      "path": "tmp/engraving/integrated-rumbling-unravel-2026-10-22/gould-p203.png",
+      "sha256": "48e7e705ca140dd5fa743d02f910d38eee56f2ac73e4dea2d04c0af3edc319a4",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 213,
+      "pdf_page": 233,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-213-reread.jpg",
+      "sha256": "33a2bf132aceea603508082e316ffa5f5ba6b96a9e67d67f493b4b125f587f14",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 215,
+      "pdf_page": 235,
+      "path": "tmp/engraving/book-2026-10-19/tuplet-continued-235.jpg",
+      "sha256": "e8bb01932f11eb7bf47bed776d298160f5a0bbcb12668b4f268690bc33dded29",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 221,
+      "pdf_page": 241,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-221-reread.jpg",
+      "sha256": "f8d6501e83d2ea272bf3efe4d8b65a855b41913015af8824d84b748e43ed9fc5",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 224,
+      "pdf_page": 244,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-244.jpg",
+      "sha256": "e6542c37848737e8c50ef4b21429b2401fc21c66a7040a3547e0ce48b7f218a8",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 225,
+      "pdf_page": 245,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-245.jpg",
+      "sha256": "084ce6edced7f0b701688734ea5279453167fe91fbe9069bfa769386dae2d4fd",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 315,
+      "pdf_page": 335,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-315.jpg",
+      "sha256": "d05be9460b4eb7d2831b98f2e8b81f94f6febe32d7d5749db9efc8b140379aa9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 323,
+      "pdf_page": 343,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-323.jpg",
+      "sha256": "66518d033c3bab5a2ae91666d77d943a04435dc6e47ff70b592eaf2a400af865",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 324,
+      "pdf_page": 344,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p324.jpg",
+      "sha256": "0312d04e27272e06b5e8a7107d2f94ce05c3a2da0aac85e44ac8dc777296e150",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    }
+  ],
+  "whole_reviews": {
+    "A121": {
+      "pages": 8,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 47,
+      "meaning": "Allwholepagesactuallyviewedand selectedmusical/layoutquestionschecked;notfullpitchaudit"
+    },
+    "A122": {
+      "pages": 5,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 29,
+      "meaning": "Allwholepagesactuallyviewedand selectedmusical/layoutquestionschecked;notfullpitchaudit"
+    }
+  },
+  "selected_music_checks": {
+    "head_selections": [
+      {
+        "id": "A121",
+        "page": 5,
+        "system": 1,
+        "selection": [
+          63,
+          175,
+          55,
+          80
+        ],
+        "label": "Suzume M ordinary16 bar1;left displacedsecond excluded",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 64.278,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 71.37,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 78.444,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 85.536,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 92.61,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 99.702,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 106.776,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 113.868,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 123.966,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 131.22,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 138.294,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 145.386,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 152.46,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 159.552,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 166.644,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 173.718,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          64.278,
+          71.37,
+          78.444,
+          85.536,
+          92.61,
+          99.702,
+          106.776,
+          113.868,
+          123.966,
+          131.22,
+          138.294,
+          145.386,
+          152.46,
+          159.552,
+          166.644,
+          173.718
+        ],
+        "gaps": [
+          7.092,
+          7.074,
+          7.092,
+          7.074,
+          7.092,
+          7.074,
+          7.092,
+          10.098,
+          7.254,
+          7.074,
+          7.092,
+          7.074,
+          7.092,
+          7.092,
+          7.074
+        ],
+        "regular_activity": true,
+        "top_per_x": false,
+        "exclude_y": [
+          61.4156
+        ]
+      },
+      {
+        "id": "A121",
+        "page": 5,
+        "system": 1,
+        "selection": [
+          188,
+          300,
+          55,
+          80
+        ],
+        "label": "Suzume M ordinary16 bar2;left displacedsecond excluded",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 189.126,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 196.2,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 203.292,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 210.366,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 217.458,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 224.55,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 231.624,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 238.716,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 248.796,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 256.068,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 263.142,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 270.234,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 277.308,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 284.4,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 291.474,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 298.566,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          189.126,
+          196.2,
+          203.292,
+          210.366,
+          217.458,
+          224.55,
+          231.624,
+          238.716,
+          248.796,
+          256.068,
+          263.142,
+          270.234,
+          277.308,
+          284.4,
+          291.474,
+          298.566
+        ],
+        "gaps": [
+          7.074,
+          7.092,
+          7.074,
+          7.092,
+          7.092,
+          7.074,
+          7.092,
+          10.08,
+          7.272,
+          7.074,
+          7.092,
+          7.074,
+          7.092,
+          7.074,
+          7.092
+        ],
+        "regular_activity": true,
+        "top_per_x": false,
+        "exclude_y": [
+          61.4156
+        ]
+      },
+      {
+        "id": "A121",
+        "page": 5,
+        "system": 1,
+        "selection": [
+          314,
+          427,
+          55,
+          80
+        ],
+        "label": "Suzume M ordinary16 bar3;left displacedsecond excluded",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 315.378,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 322.47,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 329.544,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 336.636,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 343.71,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 350.802,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 357.894,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 364.968,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 375.066,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 382.32,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 389.412,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 396.486,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 403.578,
+            "y": 67.7876,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 410.652,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 417.744,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 424.8181,
+            "y": 72.0536,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          315.378,
+          322.47,
+          329.544,
+          336.636,
+          343.71,
+          350.802,
+          357.894,
+          364.968,
+          375.066,
+          382.32,
+          389.412,
+          396.486,
+          403.578,
+          410.652,
+          417.744,
+          424.8181
+        ],
+        "gaps": [
+          7.092,
+          7.074,
+          7.092,
+          7.074,
+          7.092,
+          7.092,
+          7.074,
+          10.098,
+          7.254,
+          7.092,
+          7.074,
+          7.092,
+          7.074,
+          7.092,
+          7.0741
+        ],
+        "regular_activity": true,
+        "top_per_x": false,
+        "exclude_y": [
+          61.4156
+        ]
+      },
+      {
+        "id": "A121",
+        "page": 6,
+        "system": 1,
+        "selection": [
+          63,
+          300,
+          45,
+          76
+        ],
+        "label": "Suzume Q ordinary32 firstbar",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 64.278,
+            "y": 55.0436,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 71.712,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 79.326,
+            "y": 65.6636,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 86.778,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 94.392,
+            "y": 55.0436,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 101.826,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 109.44,
+            "y": 65.6636,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 116.874,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 124.488,
+            "y": 55.0436,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 131.922,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 139.536,
+            "y": 65.6636,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 146.988,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 154.602,
+            "y": 55.0436,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 162.036,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 169.65,
+            "y": 65.6636,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 177.084,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 184.698,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 192.132,
+            "y": 74.1776,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 199.566,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 207.18,
+            "y": 74.1776,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 214.632,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 222.246,
+            "y": 74.1776,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 229.68,
+            "y": 69.9116,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 237.294,
+            "y": 74.1776,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 244.728,
+            "y": 48.6716,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 252.342,
+            "y": 63.5396,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 259.776,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 267.39,
+            "y": 63.5396,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 274.842,
+            "y": 48.6716,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 282.456,
+            "y": 63.5396,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 289.89,
+            "y": 59.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 297.504,
+            "y": 63.5396,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          64.278,
+          71.712,
+          79.326,
+          86.778,
+          94.392,
+          101.826,
+          109.44,
+          116.874,
+          124.488,
+          131.922,
+          139.536,
+          146.988,
+          154.602,
+          162.036,
+          169.65,
+          177.084,
+          184.698,
+          192.132,
+          199.566,
+          207.18,
+          214.632,
+          222.246,
+          229.68,
+          237.294,
+          244.728,
+          252.342,
+          259.776,
+          267.39,
+          274.842,
+          282.456,
+          289.89,
+          297.504
+        ],
+        "gaps": [
+          7.434,
+          7.614,
+          7.452,
+          7.614,
+          7.434,
+          7.614,
+          7.434,
+          7.614,
+          7.434,
+          7.614,
+          7.452,
+          7.614,
+          7.434,
+          7.614,
+          7.434,
+          7.614,
+          7.434,
+          7.434,
+          7.614,
+          7.452,
+          7.614,
+          7.434,
+          7.614,
+          7.434,
+          7.614,
+          7.434,
+          7.614,
+          7.452,
+          7.614,
+          7.434,
+          7.614
+        ],
+        "regular_activity": true,
+        "top_per_x": false,
+        "exclude_y": []
+      },
+      {
+        "id": "A122",
+        "page": 5,
+        "system": 1,
+        "selection": [
+          70,
+          181,
+          60,
+          80
+        ],
+        "label": "Swordland H upper ordinary16 firstbar,slowhalf excluded",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 71.370299,
+            "y": 69.910783,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 78.624,
+            "y": 78.4257,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 85.878,
+            "y": 69.9116,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 92.97,
+            "y": 78.4257,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 100.224,
+            "y": 69.9116,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 107.496,
+            "y": 78.4257,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 114.57,
+            "y": 69.9116,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 121.842,
+            "y": 78.4257,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 128.916,
+            "y": 65.6636,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 136.008,
+            "y": 76.3016,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 143.262,
+            "y": 65.6636,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 150.516,
+            "y": 76.3016,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 157.608,
+            "y": 65.6636,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 164.862,
+            "y": 76.3016,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 172.116,
+            "y": 65.6636,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 179.208,
+            "y": 76.3016,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          71.370299,
+          78.624,
+          85.878,
+          92.97,
+          100.224,
+          107.496,
+          114.57,
+          121.842,
+          128.916,
+          136.008,
+          143.262,
+          150.516,
+          157.608,
+          164.862,
+          172.116,
+          179.208
+        ],
+        "gaps": [
+          7.253701,
+          7.254,
+          7.092,
+          7.254,
+          7.272,
+          7.074,
+          7.272,
+          7.074,
+          7.092,
+          7.254,
+          7.254,
+          7.092,
+          7.254,
+          7.254,
+          7.092
+        ],
+        "regular_activity": true,
+        "top_per_x": true,
+        "exclude_y": []
+      },
+      {
+        "id": "A122",
+        "page": 3,
+        "system": 4,
+        "selection": [
+          70,
+          300,
+          430,
+          531
+        ],
+        "label": "Swordland D firstbar fourcomplete6groups",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 71.37,
+            "y": 514.5836,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 71.37,
+            "y": 529.4517,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 85.716,
+            "y": 448.7036,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 85.716,
+            "y": 463.571392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 90.666,
+            "y": 512.4597,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 90.666,
+            "y": 527.3276,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 105.012,
+            "y": 446.5797,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 105.012,
+            "y": 461.447492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 109.8,
+            "y": 512.4597,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 109.8,
+            "y": 527.3276,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 124.308,
+            "y": 446.5797,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 124.308,
+            "y": 461.447492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 129.096,
+            "y": 510.3176,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 129.096,
+            "y": 525.2036,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 143.442,
+            "y": 444.4556,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 143.442,
+            "y": 459.323392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 148.392,
+            "y": 510.3176,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 148.392,
+            "y": 525.2036,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 162.738,
+            "y": 442.3316,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 162.738,
+            "y": 457.199392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 167.526,
+            "y": 508.1936,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 167.526,
+            "y": 523.0797,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 182.034,
+            "y": 442.3316,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 182.034,
+            "y": 457.199392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 186.822,
+            "y": 508.1936,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 186.822,
+            "y": 523.0797,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 201.168,
+            "y": 440.2076,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 201.168,
+            "y": 455.075392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 206.118,
+            "y": 506.0696,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 206.118,
+            "y": 520.9556,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 220.464,
+            "y": 440.2076,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 220.464,
+            "y": 455.075392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 225.252,
+            "y": 503.9456,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 225.252,
+            "y": 518.8316,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 239.778,
+            "y": 438.0836,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 239.778,
+            "y": 452.951392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 244.548,
+            "y": 503.9456,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 244.548,
+            "y": 518.8316,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 258.894,
+            "y": 435.9597,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 258.894,
+            "y": 450.827492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 263.862,
+            "y": 501.8217,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 263.862,
+            "y": 516.707411,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 278.19,
+            "y": 435.9597,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 278.19,
+            "y": 450.827492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 282.978,
+            "y": 501.8217,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 282.978,
+            "y": 516.707411,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 297.504,
+            "y": 433.8176,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 297.504,
+            "y": 448.703311,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          71.37,
+          85.716,
+          90.666,
+          105.012,
+          109.8,
+          124.308,
+          129.096,
+          143.442,
+          148.392,
+          162.738,
+          167.526,
+          182.034,
+          186.822,
+          201.168,
+          206.118,
+          220.464,
+          225.252,
+          239.778,
+          244.548,
+          258.894,
+          263.862,
+          278.19,
+          282.978,
+          297.504
+        ],
+        "gaps": [
+          14.346,
+          4.95,
+          14.346,
+          4.788,
+          14.508,
+          4.788,
+          14.346,
+          4.95,
+          14.346,
+          4.788,
+          14.508,
+          4.788,
+          14.346,
+          4.95,
+          14.346,
+          4.788,
+          14.526,
+          4.77,
+          14.346,
+          4.968,
+          14.328,
+          4.788,
+          14.526
+        ],
+        "regular_activity": false,
+        "top_per_x": false,
+        "exclude_y": []
+      },
+      {
+        "id": "A122",
+        "page": 3,
+        "system": 4,
+        "selection": [
+          314,
+          544,
+          440,
+          518
+        ],
+        "label": "Swordland D nextbar same24columns,digitsomitted",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 315.378,
+            "y": 499.6976,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 315.378,
+            "y": 514.583311,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 329.724,
+            "y": 459.3236,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 329.724,
+            "y": 474.2097,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 334.332,
+            "y": 497.5736,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 334.332,
+            "y": 512.459311,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 348.678,
+            "y": 457.1996,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 348.678,
+            "y": 472.0676,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 353.466,
+            "y": 497.5736,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 353.466,
+            "y": 512.459311,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 367.632,
+            "y": 457.1996,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 367.632,
+            "y": 472.0676,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 374.346,
+            "y": 495.4496,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 374.346,
+            "y": 510.317392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 388.512,
+            "y": 455.0757,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 388.512,
+            "y": 469.943492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 393.3,
+            "y": 495.4496,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 393.3,
+            "y": 510.317392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 407.646,
+            "y": 452.9516,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 407.646,
+            "y": 467.819392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 412.254,
+            "y": 493.3257,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 412.254,
+            "y": 508.193492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 426.6,
+            "y": 452.9516,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 426.6,
+            "y": 467.819392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 431.55,
+            "y": 493.3257,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 431.55,
+            "y": 508.193492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 445.8961,
+            "y": 450.8276,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 445.8961,
+            "y": 465.695392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 450.846,
+            "y": 491.2017,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 450.846,
+            "y": 506.069492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 465.192,
+            "y": 450.8276,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 465.192,
+            "y": 465.695392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 470.16,
+            "y": 489.0776,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 470.16,
+            "y": 503.945392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 484.686,
+            "y": 448.7036,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 484.686,
+            "y": 463.571392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 489.4561,
+            "y": 489.0776,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 489.4561,
+            "y": 503.945392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 503.9821,
+            "y": 446.5797,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 503.9821,
+            "y": 461.447492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 508.932,
+            "y": 486.9536,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 508.932,
+            "y": 501.821392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 523.2781,
+            "y": 446.5797,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 523.2781,
+            "y": 461.447492,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 528.246,
+            "y": 486.9536,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 528.246,
+            "y": 501.821392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 542.592,
+            "y": 444.4556,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 542.592,
+            "y": 459.323392,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          315.378,
+          329.724,
+          334.332,
+          348.678,
+          353.466,
+          367.632,
+          374.346,
+          388.512,
+          393.3,
+          407.646,
+          412.254,
+          426.6,
+          431.55,
+          445.8961,
+          450.846,
+          465.192,
+          470.16,
+          484.686,
+          489.4561,
+          503.9821,
+          508.932,
+          523.2781,
+          528.246,
+          542.592
+        ],
+        "gaps": [
+          14.346,
+          4.608,
+          14.346,
+          4.788,
+          14.166,
+          6.714,
+          14.166,
+          4.788,
+          14.346,
+          4.608,
+          14.346,
+          4.95,
+          14.3461,
+          4.9499,
+          14.346,
+          4.968,
+          14.526,
+          4.7701,
+          14.526,
+          4.9499,
+          14.3461,
+          4.9679,
+          14.346
+        ],
+        "regular_activity": false,
+        "top_per_x": false,
+        "exclude_y": []
+      },
+      {
+        "id": "A121",
+        "page": 7,
+        "system": 4,
+        "selection": [
+          183,
+          236,
+          470,
+          492
+        ],
+        "label": "Suzume beforeV eightordinary32",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 183.276,
+            "y": 490.1396,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 190.188,
+            "y": 488.0156,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 200.808,
+            "y": 485.8916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 207.54,
+            "y": 483.7676,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 214.452,
+            "y": 481.6436,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 221.184,
+            "y": 479.5197,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 228.078,
+            "y": 477.3956,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 234.81,
+            "y": 475.2716,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          183.276,
+          190.188,
+          200.808,
+          207.54,
+          214.452,
+          221.184,
+          228.078,
+          234.81
+        ],
+        "gaps": [
+          6.912,
+          10.62,
+          6.732,
+          6.912,
+          6.732,
+          6.894,
+          6.732
+        ],
+        "regular_activity": false,
+        "top_per_x": false,
+        "exclude_y": []
+      },
+      {
+        "id": "A121",
+        "page": 7,
+        "system": 4,
+        "selection": [
+          241,
+          278,
+          460,
+          476
+        ],
+        "label": "Suzume partial6thirtyseconds excludesoutsidepeak8",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 242.064,
+            "y": 473.1476,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 252.342,
+            "y": 471.0056,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 258.534,
+            "y": 468.8817,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 264.564,
+            "y": 466.7576,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 270.756,
+            "y": 464.6336,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 276.966,
+            "y": 462.5096,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          242.064,
+          252.342,
+          258.534,
+          264.564,
+          270.756,
+          276.966
+        ],
+        "gaps": [
+          10.278,
+          6.192,
+          6.03,
+          6.192,
+          6.21
+        ],
+        "regular_activity": false,
+        "top_per_x": false,
+        "exclude_y": []
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 2,
+        "selection": [
+          168,
+          201,
+          203,
+          218
+        ],
+        "label": "Suzume W6thirtyseconds completebeam",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 168.929495,
+            "y": 216.538991,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 174.96,
+            "y": 214.4156,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 180.972,
+            "y": 212.2916,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 187.002,
+            "y": 210.1676,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 193.014,
+            "y": 208.0436,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 199.044,
+            "y": 205.9196,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          168.929495,
+          174.96,
+          180.972,
+          187.002,
+          193.014,
+          199.044
+        ],
+        "gaps": [
+          6.030505,
+          6.012,
+          6.03,
+          6.012,
+          6.03
+        ],
+        "regular_activity": false,
+        "top_per_x": false,
+        "exclude_y": []
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 2,
+        "selection": [
+          205,
+          234,
+          194,
+          205
+        ],
+        "label": "Suzume Wpartial5thirtyseconds excludesoutsidepeak8",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 205.956,
+            "y": 203.7957,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 212.67,
+            "y": 201.6716,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 219.402,
+            "y": 199.5476,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 225.954,
+            "y": 197.4236,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 232.686,
+            "y": 195.2996,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          205.956,
+          212.67,
+          219.402,
+          225.954,
+          232.686
+        ],
+        "gaps": [
+          6.714,
+          6.732,
+          6.552,
+          6.732
+        ],
+        "regular_activity": false,
+        "top_per_x": false,
+        "exclude_y": []
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 3,
+        "selection": [
+          328,
+          378,
+          323,
+          340
+        ],
+        "label": "Suzume Xfirst9group includes8heads plusone32rest",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 329.382,
+            "y": 338.9036,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 336.096,
+            "y": 336.7796,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 342.828,
+            "y": 334.6556,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 349.56,
+            "y": 332.5316,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 356.292,
+            "y": 330.4076,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 363.024,
+            "y": 328.2836,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 369.756,
+            "y": 326.1597,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 376.488,
+            "y": 324.0356,
+            "font": "CPBKEA+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          329.382,
+          336.096,
+          342.828,
+          349.56,
+          356.292,
+          363.024,
+          369.756,
+          376.488
+        ],
+        "gaps": [
+          6.714,
+          6.732,
+          6.732,
+          6.732,
+          6.732,
+          6.732,
+          6.732
+        ],
+        "regular_activity": false,
+        "top_per_x": false,
+        "exclude_y": []
+      },
+      {
+        "id": "A122",
+        "page": 2,
+        "system": 3,
+        "selection": [
+          483,
+          506,
+          319,
+          330
+        ],
+        "label": "Swordland partial3sixteenths excludesordinarylast8",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 483.444,
+            "y": 328.6436,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 494.5861,
+            "y": 324.3956,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 504.342,
+            "y": 320.1476,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          483.444,
+          494.5861,
+          504.342
+        ],
+        "gaps": [
+          11.1421,
+          9.7559
+        ],
+        "regular_activity": false,
+        "top_per_x": false,
+        "exclude_y": []
+      },
+      {
+        "id": "A122",
+        "page": 3,
+        "system": 5,
+        "selection": [
+          195,
+          525,
+          570,
+          656
+        ],
+        "label": "Swordland aftertremolo24headcolumns;rhythmicinterpretationunconfirmed",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 195.318,
+            "y": 639.4137,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 195.318,
+            "y": 645.804228,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 195.318,
+            "y": 650.0517,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 195.318,
+            "y": 654.2997,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 214.092,
+            "y": 577.7997,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 228.258,
+            "y": 582.0477,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 242.244,
+            "y": 588.4196,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 256.248,
+            "y": 592.6676,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 265.626,
+            "y": 639.4137,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 279.612,
+            "y": 645.8036,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 298.386,
+            "y": 582.0477,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 312.552,
+            "y": 588.4196,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 326.538,
+            "y": 592.6676,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 340.524,
+            "y": 596.9156,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 349.92,
+            "y": 645.8036,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 363.906,
+            "y": 650.0517,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 382.6801,
+            "y": 588.4196,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 396.846,
+            "y": 592.6676,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 410.832,
+            "y": 596.9156,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 424.8181,
+            "y": 603.2876,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 434.2141,
+            "y": 650.0517,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 448.2,
+            "y": 654.2997,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 466.9741,
+            "y": 592.6676,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 481.14,
+            "y": 596.9156,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 495.126,
+            "y": 603.2876,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 509.1121,
+            "y": 607.5536,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 523.2781,
+            "y": 611.8017,
+            "font": "PODNNC+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          195.318,
+          214.092,
+          228.258,
+          242.244,
+          256.248,
+          265.626,
+          279.612,
+          298.386,
+          312.552,
+          326.538,
+          340.524,
+          349.92,
+          363.906,
+          382.6801,
+          396.846,
+          410.832,
+          424.8181,
+          434.2141,
+          448.2,
+          466.9741,
+          481.14,
+          495.126,
+          509.1121,
+          523.2781
+        ],
+        "gaps": [
+          18.774,
+          14.166,
+          13.986,
+          14.004,
+          9.378,
+          13.986,
+          18.774,
+          14.166,
+          13.986,
+          13.986,
+          9.396,
+          13.986,
+          18.7741,
+          14.1659,
+          13.986,
+          13.9861,
+          9.396,
+          13.9859,
+          18.7741,
+          14.1659,
+          13.986,
+          13.9861,
+          14.166
+        ],
+        "regular_activity": false,
+        "top_per_x": false,
+        "exclude_y": []
+      }
+    ],
+    "duration_recipes": [
+      {
+        "name": "Suzume openingtheme upper",
+        "quarter_units": [
+          "1",
+          "3/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Quarter,dotted8/16,six16/six16/8,8/two16;notfourquarteruniformgrid."
+      },
+      {
+        "name": "Suzume A upper",
+        "quarter_units": [
+          "1",
+          "3/4",
+          "1/4",
+          "1",
+          "1"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Rolledquarter,dotted8,16,quarter,quarter."
+      },
+      {
+        "name": "Suzume A lowerfast",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1",
+          "1/2",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Four16,quarter,8rest,8,two16,8;lowerheldoctavesindependent."
+      },
+      {
+        "name": "Suzume A lowerheld",
+        "quarter_units": [
+          "2",
+          "1/2",
+          "3/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Half tied8 thennewdottedquarter;slowandfastsamepitchseparateheadsnotextratime."
+      },
+      {
+        "name": "Suzume E firstupperbar",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "16ordinaryeventsnotsecondsheadcount."
+      },
+      {
+        "name": "Suzume G firstupperbar",
+        "quarter_units": [
+          "1",
+          "1",
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Quarterrest,quarter,quarter,two8;pponq0rest/lowerentry."
+      },
+      {
+        "name": "Suzume G lowerline",
+        "quarter_units": [
+          "1/2",
+          "1",
+          "1/2",
+          "1/2",
+          "3/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "8,quarter,8,tied8,dottedquarter overheldwhole."
+      },
+      {
+        "name": "Suzume H upperfirstbar",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "8rest then7ordinary8,mpatq.5;fsubunderq0chords."
+      },
+      {
+        "name": "Suzume K ordinary8",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Stable8activity,slowerlowheldlineindependent."
+      },
+      {
+        "name": "Suzume M upper",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "16timecolumns withdisplacedseconds."
+      },
+      {
+        "name": "Suzume M lowerfirstbar",
+        "quarter_units": [
+          "1",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Quarter,8,16,16,tied8,quarter,8;tieatq2coincidesupperwiderstep."
+      },
+      {
+        "name": "Suzume beforeP twofour lowerbase",
+        "quarter_units": [
+          "1",
+          "1"
+        ],
+        "total": "2",
+        "expected": "2",
+        "interpretation": "Oldquarterreceiver thenquarterrestfermata;upper/highhalf continues."
+      },
+      {
+        "name": "Suzume Q ordinary32",
+        "quarter_units": [
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "32events;speedunitiseighth90,notquarter90."
+      },
+      {
+        "name": "Suzume Q restbar",
+        "quarter_units": [
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "31ordinary32heads plus32restatq2,notlosttimecolumn."
+      },
+      {
+        "name": "Suzume R lower",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "16restand15sixteenthwrittenevents,sometiesreduceattacks."
+      },
+      {
+        "name": "Suzume U twofour chord",
+        "quarter_units": [
+          "2"
+        ],
+        "total": "2",
+        "expected": "2",
+        "interpretation": "Halfchordssfz beforeU;T8va includesupperreceiver/chordtillcorner."
+      },
+      {
+        "name": "Suzume U firstfastbar",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "16rest then15six,mpandtempoq0withlowerquarter."
+      },
+      {
+        "name": "Suzume beforeV upper",
+        "quarter_units": [
+          "2",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/12",
+          "1/12",
+          "1/12",
+          "1/12",
+          "1/12",
+          "1/12",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Halfrest,8ordinary32,6thirtyseconds(.5q),outsideordinary8(.5q)."
+      },
+      {
+        "name": "Suzume beforeV lower",
+        "quarter_units": [
+          "2",
+          "1",
+          "1"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Pairedwrittenhalf tremoloSHARES2q thenquarterchordandquarteroctave."
+      },
+      {
+        "name": "Suzume W six-five bar",
+        "quarter_units": [
+          "2",
+          "1/2",
+          "1/12",
+          "1/12",
+          "1/12",
+          "1/12",
+          "1/12",
+          "1/12",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Opening2q,old8receiver.5q,6/5thirtysecondgroups each.5q,ordinaryoutsidepeak8.5q."
+      },
+      {
+        "name": "Suzume X firstupperbar",
+        "quarter_units": [
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "First9includesone32restandeightheads;then3groupsof8ordinary32."
+      },
+      {
+        "name": "Suzume X twofour",
+        "quarter_units": [
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "2",
+        "expected": "2",
+        "interpretation": "Twoordinary32groups of8;courtesy2/4previousrownotdoublechange."
+      },
+      {
+        "name": "Swordland B firstfastbar",
+        "quarter_units": [
+          "1/2",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/2",
+          "1/2",
+          "1/4",
+          "3/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "8rest,three16triplet,five16,ordinary8,8chord,tied16,dotted8."
+      },
+      {
+        "name": "Swordland B slowvoice",
+        "quarter_units": [
+          "2",
+          "1/2",
+          "1/2",
+          "1/4",
+          "3/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Half,8rest,8chord,tied16,dotted8;fast8onq2andrestindependent."
+      },
+      {
+        "name": "Swordland p2s3 firstfastbar",
+        "quarter_units": [
+          "1/2",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "8rest,three16triplets(.5q),three6sixteenthgroups(3q)."
+      },
+      {
+        "name": "Swordland p2s3 nextfastbar",
+        "quarter_units": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Three6sixteenthgroups thenpartial3six(.5q)andordinary8(.5q)."
+      },
+      {
+        "name": "Swordland D firstbar",
+        "quarter_units": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Four6groups,sequentialalternatingoctaves."
+      },
+      {
+        "name": "Swordland D nextbar",
+        "quarter_units": [
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Samegroupingafteractualbarline;6digitsomittedafterestablishedbar."
+      },
+      {
+        "name": "Swordland H upper",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Fast16withseparateupstemhalfmelody;noextrarhythmiccolumn."
+      },
+      {
+        "name": "Swordland I upperfast",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Two8rests andsix8chords,slowhalvesindependent."
+      },
+      {
+        "name": "Swordland J thirdbar upper",
+        "quarter_units": [
+          "2",
+          "3/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Halfrest,thenp/ritdottedquarterandeighth atq2;lowerwholecontinues."
+      }
+    ],
+    "selected_vector_contexts": [
+      {
+        "id": "A121",
+        "page": 7,
+        "system": 4,
+        "label": "BeforeV first8ordinary32 threebeams",
+        "vectors": [
+          {
+            "box": [
+              188.064,
+              458.262,
+              240.048,
+              468.81
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              188.064,
+              461.448,
+              240.048,
+              471.996
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              188.064,
+              464.634,
+              240.048,
+              475.2
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A121",
+        "page": 7,
+        "system": 4,
+        "label": "BeforeV partial6 mainbeam extendsordinarypeak8",
+        "vectors": [
+          {
+            "box": [
+              242.064,
+              479.61,
+              283.428,
+              490.158
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              242.064,
+              477.666,
+              277.416,
+              486.972
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              242.064,
+              474.48,
+              277.416,
+              483.786
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 2,
+        "label": "W6thirtyseconds threebeams",
+        "vectors": [
+          {
+            "box": [
+              173.718,
+              187.866,
+              204.282,
+              197.352
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              173.718,
+              191.052,
+              204.282,
+              200.538
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              173.718,
+              194.238,
+              204.282,
+              203.724
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 2,
+        "label": "Wpartial5 innerbeams endbeforepeak",
+        "vectors": [
+          {
+            "box": [
+              205.956,
+              212.382,
+              239.868,
+              221.868
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              205.956,
+              210.69,
+              233.136,
+              218.682
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              205.956,
+              207.504,
+              233.136,
+              215.496
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 3,
+        "label": "X9firstbeam contains8heads plusrestinbracket",
+        "vectors": [
+          {
+            "box": [
+              329.382,
+              343.242,
+              376.938,
+              356.994
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              329.382,
+              340.056,
+              376.938,
+              353.808
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              329.382,
+              336.87,
+              376.938,
+              350.622
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A122",
+        "page": 2,
+        "system": 3,
+        "label": "Partial3 innerbeamendsbeforeordinarylast8",
+        "vectors": [
+          {
+            "box": [
+              483.444,
+              341.298,
+              514.53,
+              344.412
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              483.444,
+              338.454,
+              504.792,
+              341.226
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A122",
+        "page": 3,
+        "system": 4,
+        "label": "Dtwo-beam6groups firstbarfourlabels,nextbaromitted",
+        "vectors": [
+          {
+            "box": [
+              76.158,
+              485.19,
+              124.758,
+              487.242
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              76.158,
+              488.376,
+              124.758,
+              490.428
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              133.884,
+              481.104,
+              182.484,
+              483.156
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              133.884,
+              484.29,
+              182.484,
+              486.342
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              191.61,
+              476.928,
+              240.228,
+              478.98
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              191.61,
+              480.114,
+              240.228,
+              482.166
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              249.336,
+              474.444,
+              297.954,
+              476.496
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              249.336,
+              477.63,
+              297.954,
+              479.682
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              320.166,
+              483.048,
+              368.082,
+              485.1
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              320.166,
+              486.252,
+              368.082,
+              488.304
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              379.134,
+              478.98,
+              427.05,
+              481.032
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              379.134,
+              482.166,
+              427.05,
+              484.218
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              436.338,
+              474.732,
+              485.136,
+              476.784
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              436.338,
+              477.918,
+              485.136,
+              479.97
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              494.244,
+              471.546,
+              543.042,
+              473.598
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              494.244,
+              474.732,
+              543.042,
+              476.784
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A122",
+        "page": 3,
+        "system": 5,
+        "label": "Aftertremolo four6membertwo-beamgroups unlabelled",
+        "vectors": [
+          {
+            "box": [
+              200.106,
+              607.554,
+              270.864,
+              609.606
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              200.106,
+              610.74,
+              270.864,
+              612.792
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              284.4,
+              611.802,
+              355.158,
+              613.854
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              284.4,
+              614.988,
+              355.158,
+              617.04
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              368.694,
+              618.174,
+              439.452,
+              620.226
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              368.694,
+              621.36,
+              439.452,
+              623.412
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              452.988,
+              616.05,
+              523.728,
+              618.102
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              452.988,
+              619.236,
+              523.728,
+              621.288
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      }
+    ],
+    "position_checks": [
+      {
+        "id": "A121",
+        "page": 5,
+        "system": 4,
+        "label": "O eighth=78,notquarter",
+        "char": {
+          "text": "e",
+          "x": 446.436,
+          "y": 417.5276,
+          "font": "CPBKEA+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A121",
+        "page": 5,
+        "system": 6,
+        "label": "Q eighth=90,notquarter",
+        "char": {
+          "text": "e",
+          "x": 334.332,
+          "y": 681.2097,
+          "font": "CPBKEA+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A121",
+        "page": 6,
+        "system": 2,
+        "label": "R eighth=128,notquarter",
+        "char": {
+          "text": "e",
+          "x": 274.842,
+          "y": 187.5056,
+          "font": "CPBKEA+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A121",
+        "page": 6,
+        "system": 4,
+        "label": "S quarter=78",
+        "char": {
+          "text": "q",
+          "x": 64.278,
+          "y": 416.3036,
+          "font": "CPBKEA+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A121",
+        "page": 7,
+        "system": 4,
+        "label": "BeforeV outsidepeak ordinary8,not7thtuplet",
+        "char": {
+          "text": "œ",
+          "x": 282.978,
+          "y": 460.3857,
+          "font": "CPBKEA+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 2,
+        "label": "Woutsidepeak ordinary8,not6thquintuplet",
+        "char": {
+          "text": "œ",
+          "x": 239.418,
+          "y": 193.1757,
+          "font": "CPBKEA+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A122",
+        "page": 2,
+        "system": 3,
+        "label": "Swordland outsideordinary8,not4thtriplet",
+        "char": {
+          "text": "œ",
+          "x": 514.0801,
+          "y": 313.7576,
+          "font": "PODNNC+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 3,
+        "label": "Xq1firstordinary32after9",
+        "char": {
+          "text": "œ",
+          "x": 383.202,
+          "y": 321.9116,
+          "font": "CPBKEA+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 3,
+        "label": "Xq1.5 commonupper/loweronset",
+        "char": {
+          "text": "œ",
+          "x": 412.074,
+          "y": 324.0356,
+          "font": "CPBKEA+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A121",
+        "page": 8,
+        "system": 3,
+        "label": "Xq2accentandlowerquarter",
+        "char": {
+          "text": "œ",
+          "x": 440.946,
+          "y": 315.5396,
+          "font": "CPBKEA+Chaconne",
+          "size": 16.2899
+        }
+      }
+    ],
+    "crossstaff_stem_axis": {
+      "id": "A122",
+      "page": 3,
+      "system": 4,
+      "quarter_times": [
+        "0",
+        "1/6",
+        "1/3",
+        "1/2",
+        "2/3",
+        "5/6"
+      ],
+      "source_stems": [
+        {
+          "kind": "line",
+          "box": [
+            76.392,
+            486.216,
+            76.392,
+            528.75
+          ],
+          "width": 0.45,
+          "fill": false,
+          "stroke": true
+        },
+        {
+          "kind": "line",
+          "box": [
+            85.932,
+            449.406,
+            85.932,
+            486.216
+          ],
+          "width": 0.45,
+          "fill": false,
+          "stroke": true
+        },
+        {
+          "kind": "line",
+          "box": [
+            95.688,
+            486.216,
+            95.688,
+            526.626
+          ],
+          "width": 0.45,
+          "fill": false,
+          "stroke": true
+        },
+        {
+          "kind": "line",
+          "box": [
+            105.228,
+            447.282,
+            105.228,
+            486.216
+          ],
+          "width": 0.45,
+          "fill": false,
+          "stroke": true
+        },
+        {
+          "kind": "line",
+          "box": [
+            114.822,
+            486.216,
+            114.822,
+            526.626
+          ],
+          "width": 0.45,
+          "fill": false,
+          "stroke": true
+        },
+        {
+          "kind": "line",
+          "box": [
+            124.524,
+            447.282,
+            124.524,
+            486.216
+          ],
+          "width": 0.45,
+          "fill": false,
+          "stroke": true
+        }
+      ],
+      "stem_x_pt": [
+        76.392,
+        85.932,
+        95.688,
+        105.228,
+        114.822,
+        124.524
+      ],
+      "stem_gaps_pt": [
+        9.54,
+        9.756,
+        9.54,
+        9.594,
+        9.702
+      ],
+      "source_head_x_pt": [
+        71.37,
+        85.716,
+        90.666,
+        105.012,
+        109.8,
+        124.308
+      ],
+      "meaning": "Sixsequentiallower-upperoctaves;headgaps alternate14.346/4.950etc,stemaxesnear9.540–9.756pt.Noconversiontosimultaneouspairs."
+    },
+    "D_internal_barline": {
+      "id": "A122",
+      "page": 3,
+      "system": 4,
+      "source_line": {
+        "box": [
+          309.474,
+          450.828,
+          309.474,
+          514.602
+        ],
+        "width": 0.612,
+        "fill": false,
+        "stroke": true
+      },
+      "meaning": "Actualinternalbarline separates two24eventbars;initialmissing-barlineimpressionrejected."
+    },
+    "D_labels": [
+      {
+        "text": "6",
+        "x": 98.1,
+        "y": 483.9476,
+        "font": "PODPEB+CenturyNo1SB-BoldIta",
+        "size": 9.918
+      },
+      {
+        "text": "6",
+        "x": 155.664072,
+        "y": 479.861384,
+        "font": "PODPEB+CenturyNo1SB-BoldIta",
+        "size": 9.918
+      },
+      {
+        "text": "6",
+        "x": 213.389807,
+        "y": 475.613505,
+        "font": "PODPEB+CenturyNo1SB-BoldIta",
+        "size": 9.918
+      },
+      {
+        "text": "6",
+        "x": 271.115543,
+        "y": 472.967382,
+        "font": "PODPEB+CenturyNo1SB-BoldIta",
+        "size": 9.918
+      }
+    ],
+    "after_tremolo_unresolved": {
+      "source": "A122p3s5 afterwhole-pairtremolo",
+      "head_columns": 24,
+      "beam_levels": 2,
+      "visible_tuplet_labels": [],
+      "ordinary_sixteenth_sum_q": "6",
+      "assuming_continued_sixteenth6_sum_q": "4",
+      "decision": "Groupmembershipverified;conditionalarithmeticdoesnotprovecontinuationorfreeintent.Firstgrouprestatementcandidateonlyafterintentcheck."
+    },
+    "selected_head_count": 255,
+    "regular_gap_count": 91
+  },
+  "book_reread_printed_pages": [
+    30,
+    40,
+    41,
+    43,
+    159,
+    184,
+    185,
+    190,
+    200,
+    203,
+    213,
+    215,
+    221,
+    224,
+    225,
+    311,
+    315,
+    323,
+    324,
+    490
+  ],
+  "book_reread_technical_pages": 20,
+  "book_reread_auxiliary_pages": 0,
+  "book_new_technical_pages": 0,
+  "book_new_auxiliary_pages": 0,
+  "new_native_candidate_conditions": 0,
+  "software_adaptation_changes": 0,
+  "judgments": {
+    "keep": [
+      "Correcteighthtempo-unitidentity,O/Q/RversusSquarter",
+      "Msecond/tieoccupancyandstableQ/Hactivity",
+      "Dsequentialalternatingstemaxes,actualbarline andestablished6omission",
+      "Xrest-plus8heads9withclearbracket,localclefs/octaves/independentdynamics/Jentry"
+    ],
+    "compare": [
+      "Partial6/5/3shortbrackets excludingordinarypeak8",
+      "Aftertremolo firstgroupratiorestamentonlyafterintentcheck",
+      "Wholelineclefalternativesonlyiflessrecognitioncost"
+    ],
+    "corrected_initial_hypotheses": [
+      "O/Q/Rareeighth78/90/128,notquarter",
+      "Partial6/5groupsare32andoutsidepeak8isexcluded",
+      "X9containsrestand8heads,not9newheads",
+      "Dhasactualinternalbarlinex309.474;notunbarred",
+      "Aftertremolo24two-beamcolumnsconditional6qordinaryor4qcontinued6;intentnotprovenbyarithmetic",
+      "T8vaincludes2/4halfchordbeforeU"
+    ],
+    "unresolved": "Originalnativeencoding/fullpitch/playback,aftertremoloactualproportion/freeintent,tremoloperformance,localparentheses,realalternatives,turns/printandpersonalchoices.",
+    "no_user_aesthetic_acceptance": true
+  },
+  "external_resource_completion": {
+    "new_complete_scopes": 0,
+    "resources_unchanged": [
+      15,
+      25
+    ],
+    "R11_status": "partial"
+  },
+  "scope": {
+    "corpus_closeouts_before": [
+      108,
+      146
+    ],
+    "corpus_closeouts_after": [
+      110,
+      146
+    ],
+    "remaining_score_closeouts": 36,
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resources": [
+      15,
+      25
+    ],
+    "remaining_resources": 10,
+    "transfer": [
+      8,
+      8
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "user_preparation": [
+      2,
+      4
+    ]
+  },
+  "fixed_release_tag": "engraving-v0.13.0",
+  "goal_status": "active",
+  "cache": {
+    "measured_at_utc": "2026-10-29T20:35:38.582126+00:00",
+    "batch": {
+      "directory": "suzume-swordland-2026-10-30",
+      "files": 102,
+      "logical_bytes": 16357919,
+      "on_disk_bytes": 16357919,
+      "on_disk_unknown_files": 0
+    },
+    "total_logical_bytes": 2905447121,
+    "total_on_disk_bytes": 2764157894,
+    "new_runtime_or_original_PDF_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Beforefinalsmallrecords;114uniqueviews33reused81new;oldtailzoomretainedwithcomplete-scopeaddition;noPDF/font/browsermediadownloads."
+  },
+  "validation": {
+    "status": "passed",
+    "source_PDF_hashes_and_pages_verified": 3,
+    "whole_score_pages": 13,
+    "system_rows": 76,
+    "local_PDF_book_images_actually_viewed": 114,
+    "reused_local_views": 33,
+    "new_local_views": 81,
+    "system_details": 74,
+    "extra_zooms": 7,
+    "book_pages_reread": 20,
+    "new_book_coverage": 0,
+    "source_heads_checked": 255,
+    "selected_filled_vectors_checked": 41,
+    "source_position_checks": 10,
+    "source_stem_lines_checked": 6,
+    "regular_activity_gaps": 91,
+    "duration_recipes": 31,
+    "D_actual_internal_barline_and_four_then_zero_labels_verified": true,
+    "D_after_tremolo_conditional_arithmetic_not_asserted_intent": true,
+    "source_eighth_tempo_units_O_Q_R_and_quarterS_checked": true,
+    "partial6_5_3_exclude_ordinary_peaks_and_X9_contains_rest": true,
+    "skill_routes_executed": 20,
+    "score_study_direct_routes": 15,
+    "local_markdown_links_checked": 1203,
+    "public_paths": 24,
+    "unrelated_worktree_paths_preserved": [],
+    "corpus_closeouts": [
+      110,
+      146
+    ],
+    "resources": [
+      15,
+      25
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "goal_status": "active",
+    "new_native_conditions": 0,
+    "new_software_adaptation": 0,
+    "old_release_snapshots_and_prior_evidence_unchanged": true,
+    "files_deleted": 0,
+    "arithmetic_not_sufficient_to_prove_musical_interpretation": true
+  }
+}

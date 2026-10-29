@@ -185,3 +185,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：短拍接收和行内恢复
 
 [STYX／Sugar](INTEGRATED_READING_STYX_SUGAR.md)：Sugar p5s6先2/4，旧quartertie＋8休止＋新8，ff在q1.5；随后恢复4/4跨表六连。L的a tempo位于行内第三小节。STYX段号前f／行内ff各按实际时点，换拍、速度和第一次攻击不自动同列。
+
+## 2026-10-30：先认速度单位再认数字
+
+[Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume O／Q／R分别八分78／90／128，S四分78，分别对应quarter39／45／64／78，未印等式处不补相等关系。四分81在V前旧小节q0，含上半休止及下部震音；U也是新速度在上16休止／下quarter起点，不吸到新上部攻击。
