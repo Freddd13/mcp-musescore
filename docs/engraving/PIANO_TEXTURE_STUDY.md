@@ -286,3 +286,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：主题、手与谱表的独立线索
 
 [Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume主题从上表到下表高音谱号，F有l.h.提示与上表旋律／长和弦、低部长持续，M换谱号区分低音和中和弦；不能按谱表固定手。Swordland H慢二分干与快16同表，I换普通8与独立休止，先保角色再评黑度。
+
+## 2026-10-30：慢旋律与接手不跟谱表固定
+
+[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi H同表上干快16、下干慢线和局部l.h.；Tamashii I上部休止后快14个16，下部q0已有独立线，局部r.h.在下表。保角色与先后，再评黑度；额外干／省休止按读法判断，不按voice容器统一补删。

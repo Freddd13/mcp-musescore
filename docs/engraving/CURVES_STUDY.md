@@ -188,3 +188,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：不同来路汇成收束和弦
 
 [Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume M二度和弦tie接收占位需保；尾部whole、dottedhalf及最后quarter从不同起点持续到同一低部收束，长slur另指乐句。Swordland末上部旧whole接收与下部新低和弦同时收束，不按整枚和弦推全部新攻击或合并所有弧。
+
+## 2026-10-30：慢接收与新运动共享位置
+
+[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi H附点四分tie到8接收后才后续慢音，与快16共列；Tamashii末Meno旧长和弦接收与新旋律分读。长slur给乐句，tie给持续，手框给接手；不能按共端点或同列把它们合成一个对象。

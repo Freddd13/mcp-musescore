@@ -339,3 +339,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：休止也属于连音成员
 
 [Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume X首9为一个32休止＋八个头占1q，后面24普通32另占3q；不能补头或扩9范围。V前两书面half震音成员共享2q，后普通quarter另计。Swordland whole震音对共享4q，之后24双梁列是否延续6仍待意图，不由数字缺省直接定为自由或缺拍。
+
+## 2026-10-30：休止在组外时不能硬并成员
+
+[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi M下降八头三梁前有独立32休止，和相邻普通上行16休止＋八32＋末16不同；条件8:7先核意图。Tamashii终段首7首头含八度仍一份，第一5含四上＋一下，第二5全下；不要按字形数或谱表截断。

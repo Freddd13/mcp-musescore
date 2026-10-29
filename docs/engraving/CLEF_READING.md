@@ -99,3 +99,7 @@ Kaibutsu K下表先低八度再高处材料。选定F5在当前高音顶线，�
 ## 2026-10-30：反复换号的收益要和认音成本比较
 
 [Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume M低音后高音谱号读中和弦，再低音谱号准备新低音；删号会增加加线。Swordland D两bar间换高谱号降低加线，不能因换号取消已建立6节奏；J低音到K高音和最后低音各按实际谱位。替代需看整行两手。
+
+## 2026-10-30：重复音型也可反复换号
+
+[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi J下部低起点后G号读中音，F号准备下一低音；省号会增加加线，先保整型的识别。Tamashii跨表下降中换F号准备低续句，八度角端和换号分判，不按最高头或换号次数单独优化。

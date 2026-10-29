@@ -103,6 +103,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_TABI_TAMASHII.md`：H／I／J快层有稳定步幅，慢线、和弦及接收独立；F近头3.546pt仍先后，实际干轴8.352pt。
+
 `INTEGRATED_READING_SUZUME_SWORDLAND.md`：M二度移头与q2tie接收空间同看；D交替头距不同，实际六干轴近等距。速度改变不按播放秒数重画书面间距。
 
 `INTEGRATED_READING_STYX_SUGAR.md`：跨表头距0.709pt仍可先后1/6q，六符干轴序保留；21下部q1/2/3在上部成员之间。J普通8为前缀／细分让空间，不按头距方差吸齐。
@@ -211,6 +213,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_TABI_TAMASHII.md`：部分3／5只管内层成员；Tabi裸8前32休止在外，严格8:7仅条件读法，先核意图再写全比例。
+
 `INTEGRATED_READING_SUZUME_SWORDLAND.md`：X9是32休止＋八头，现有括号保留；部分6／5／3普通峰顶在外。同构省6可保，震音后换型未重申比例先核意图。
 
 `INTEGRATED_READING_STYX_SUGAR.md`：整小节21连16可保裸21；部分9不含普通8峰顶，部分3可前后接普通8，各核内梁与实际成员。
@@ -293,6 +297,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_TABI_TAMASHII.md`：Tabi sfz在q0、mp在8休止后q0.5，纠正早期“同位置”概括；独立层不吸到统一段首。
+
 `INTEGRATED_READING_SUZUME_SWORDLAND.md`：H下fsub.q0／上mpq0.5，Swordland低f q2与上mp分别读；J p／rit.第三bar半休止后q2，不移段首。
 
 `INTEGRATED_READING_STYX_SUGAR.md`：STYX G mp右移避accent，PDF字形x不独证迟入；L sfz q0／上p q0.5分别读。Sugar末f nonlegato在q2.25首16。
@@ -326,6 +332,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先认同一动态进程，再决定哪些标记应共用通道。`markings`的unlasting实例有同表mf／ff和休止前后p sub.／pp：位置不齐可正在表达不同层与时点，不合并／移齐。长限定短语与延续线一起读，分散词的X不自动是新力度或速度事件；起点给全短语及新行提醒可作候选，不能冒充一律禁止分词的规范。几何、逻辑范围与播放scope分查。
 
 <a id="cross-staff"></a>
+
+`INTEGRATED_READING_TABI_TAMASHII.md`：Tamashii尾7／7／5／5首5为四上＋一下、次5全下；按完整成员与r.h.接手，不能按谱表截组。
 
 `INTEGRATED_READING_STYX_SUGAR.md`：Sugar六连是下上交替六个八度和弦，按时间／干侧／梁接点跟读。STYX D慢旋律纠正在下表向上符干／r.h.层，上表为快16。
 
@@ -366,6 +374,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
 
 <a id="tempo"></a>
+
+`INTEGRATED_READING_TABI_TAMASHII.md`：附点四分57／43与A四分130分读，无已印等式；Tempo I先于M，上部休止也可承新速度。
 
 `INTEGRATED_READING_SUZUME_SWORDLAND.md`：O／Q／R为八分78／90／128，S为四分78；四分81在V前旧小节休止／震音起点。未印等式不擅补直接关系。
 
@@ -436,6 +446,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_TABI_TAMASHII.md`：Tabi J八度仍罩后行q0慢和弦，loco在随后快8；Tamashii角端止最后上头，共同梁不扩到下表。
 
 `INTEGRATED_READING_STYX_SUGAR.md`：Sugar21第8与9成员之间结束8va，共梁继续；STYX F前仅首和弦8va，L低8vb与高8va范围不同。
 

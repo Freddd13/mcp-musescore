@@ -173,3 +173,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：梁接点比头距更能显示交替
 
 [Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Swordland D每组六个八度按下上交替，共同两层梁连六条干；首组六轴间距9.540–9.756pt，头距可4.77–14.526pt。Suzume部分6／5是三层梁32，Swordland部分3是两层梁16，普通峰顶只有主梁；先核层级再定范围。
+
+## 2026-10-30：主梁连续与内梁范围
+
+[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi F三连两梁连四头、第三梁只前三；K主梁保大拍，次梁分中间3和末普通2。Tamashii跨表F两实际干轴366.066／374.418pt，头365.850／369.396pt依次发声；完整7／7／5／5保已有梁范围。

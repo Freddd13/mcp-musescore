@@ -227,3 +227,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：同一系统容许不同密度和段首
 
 [Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume p3s2五小节可接F收束和G新速度，S／X长运行系统则两小节；p5s6疏材料与密Q同一行按需求分配。Swordland J两整bar上休止、第三bar先半休止，低部仍持续；不为紧凑删时间，也不全谱固定bar数。实际翻页尚未验证。
+
+## 2026-10-30：同型比较与行内换型
+
+[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi首页首行六bar、H运行每行三bar、调性过渡两bar，预告调号占行尾；Tamashii F在行中开始。局部稳定与整行预算分判，不固定四bar。真实翻页未核；比较候选应含两手和相邻系统。

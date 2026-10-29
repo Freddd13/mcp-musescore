@@ -173,3 +173,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：强弱属于各自进入层
 
 [Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume H下部f sub.q0、上部mp在8休止后q0.5。Swordland p2s3 q0sfz、上部mp稍后、下部q2长音f各有归属；J第三barp／rit.在半休止后q2。不要为版面齐列把它们移到段首。
+
+## 2026-10-30：相邻强弱不一定同一时点
+
+[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：纠正Tabi首轮：p1s3／p2s6 sfz在q0长和弦，mp在八分休止后q0.5；I行末低p q0、上pp新进入分别保。Tamashii non Ped.／con Ped.随材料切换，I／J独立入口的力度靠所属层，不移到统一段首。

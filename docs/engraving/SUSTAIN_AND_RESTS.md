@@ -117,3 +117,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：迟入和持续的时间要看两手
 
 [Suzume／Swordland](INTEGRATED_READING_SUZUME_SWORDLAND.md)：Suzume X9包含实际32休止；Swordland J两整bar上休止后第三bar半休止，q2才p／rit.进入，低whole一直tie。全休止居中与普通半休止实际起点分判；Suzume尾部各低音起点不同，收束不能按统一再攻击模板。
+
+## 2026-10-30：组外休止和持续接收各保时段
+
+[Tabi／Tamashii](INTEGRATED_READING_TABI_TAMASHII.md)：Tabi M裸8之前32休止在组外，不为凑拍并入；H慢线tie与快层并行。Tamashii Meno先二分休止，后半和弦与下一whole接收、最后新低二分分别读；全休止居中与普通休止的实际起点分判。

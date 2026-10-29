@@ -1,0 +1,4647 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "recorded_at_utc": "2026-10-29T21:09:51.103761+00:00",
+  "note": "INTEGRATED_READING_TABI_TAMASHII.md",
+  "source_protection": [
+    {
+      "id": "A123",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Tabi no Tochuu - Spice and Wolf - Opening Theme.pdf",
+      "sha256": "d964c4b2980e6e8ca05971057be0a32c47d19b900bec61e55665eec4555353a4",
+      "pages": 5,
+      "unchanged": true
+    },
+    {
+      "id": "A124",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Tamashii no Refrain - Neon Genesis Evangelion Death & Rebirth - Ending Theme.pdf",
+      "sha256": "540180f03fb9c7c690c549dceeb53ab99b899ded721d061db631aab9cae4e498",
+      "pages": 7,
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "unchanged": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A123",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A123/page-1.jpg",
+      "sha256": "0aef5702629b262a1887cae0b414214c47de7631cdc77a5e8f99365ceec06447",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A123",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A123/page-2.jpg",
+      "sha256": "26800ec982bad5754bac7b284686d966106466b53270691dad9d5d3119960573",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A123",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A123/page-3.jpg",
+      "sha256": "12f6b02e79b64b271a0e4645d1f75dc4edb67d3f9ac534b7f3e28ac6290cb7fc",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A123",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A123/page-4.jpg",
+      "sha256": "b952a8ab2d869afc7f6e046af232ca6cadd56ef295ae344d6e69e83d2edac45c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A123",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A123/page-5.jpg",
+      "sha256": "bd4904417c8caefab3073c67c1b1b7124f08c8be78cf147f3b51b3f2b384da0c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A124",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A124/page-1.jpg",
+      "sha256": "d3588ff140518bb9d13559726de53f55db277b4911dc8f1e2221488e764d6251",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A124",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A124/page-2.jpg",
+      "sha256": "00ee4792c1e45599f794b8a9774b6161db2d9aa43cef3445628dc09dd7ed302b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A124",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A124/page-3.jpg",
+      "sha256": "8c3455099bd542b063ef37e47d80893551141b1d31e5e60925826aee260ff99c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A124",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A124/page-4.jpg",
+      "sha256": "21ac88a9e6e875e68551b638874d1d2f32b4a3076b18d0ae750b005c4cf65d33",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A124",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A124/page-5.jpg",
+      "sha256": "e3a8219dcdee377192e644b070c471e77b3eaefa7f119a041818b7f177c9b728",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A124",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A124/page-6.jpg",
+      "sha256": "475baa62ab4777a54e58e5a69a617d7958a661b2817bec20ccc47947872e49d3",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A124",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A124/page-7.jpg",
+      "sha256": "c7d5ae0d76b9691dd9c27ea7af531912a40c5929f5d14c445f5f4628be68dc4f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p1-s1.jpg",
+      "source_y_pt": [
+        139.83863368669023,
+        307.3439340400471
+      ],
+      "sha256": "69501c32f4fa9b9064bde27a3e753cf279b0178cf28658b40669e1d69064e4b2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p1-s2.jpg",
+      "source_y_pt": [
+        262.15508441303496,
+        433.7926972909305
+      ],
+      "sha256": "6ddc46be523867c5f9c0f00d4b908d7384ebb0b202e253a2135c9df4e7b1788c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p1-s3.jpg",
+      "source_y_pt": [
+        397.52964271692184,
+        569.1672555948174
+      ],
+      "sha256": "5eee0df3c21919f4ff854dd7067cef335c23b9965ef961d8ef8b6d6de074d04e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p1-s4.jpg",
+      "source_y_pt": [
+        525.1354534746761,
+        696.9383588535532
+      ],
+      "sha256": "c8f94062b7375b244a812796f2d2a2ac8774c6811a738cca19e35eb1d327c3b6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p1-s5.jpg",
+      "source_y_pt": [
+        647.9477817039655,
+        817.6018845700825
+      ],
+      "sha256": "411b2167c302f93afde6f9f723385ffec0c569d932d4724062bd5d4fdce34fbb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p2-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        187.8374558303887
+      ],
+      "sha256": "73d0f54bcaab1c0d2bf904073a342c3af291611e0738f544efa5681a2921f80a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p2-s2.jpg",
+      "source_y_pt": [
+        134.38398115429916,
+        312.46800157047505
+      ],
+      "sha256": "55dfb211b6891c9ed7ffa1edcbaa26f391e275af25a2a058c995b4af0caff286",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p2-s3.jpg",
+      "source_y_pt": [
+        257.6921868865332,
+        429.32979976442874
+      ],
+      "sha256": "00c0bcaa2576bb823f27fc00e8cc655d932842076a92f1463338ee9eab23822d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p2-s4.jpg",
+      "source_y_pt": [
+        376.2069100903023,
+        554.2909305064782
+      ],
+      "sha256": "0089fb8aa03adae73244580292b27e52b92f72b024befec52b18a9c36356596a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p2-s5.jpg",
+      "source_y_pt": [
+        501.16804083235183,
+        675.119748723989
+      ],
+      "sha256": "19c3e86cfa32b18289f87c24a979172e2f2e16b7fa9c46b00be61f4b6650f5bd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p2-s6.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "00b1230e98b0078be1a173dee97003845d426ac527ed5e0d8d741e4e888de40c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p3-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "17c4dbfb6e6175f6a70df143a8e957208ec5dfc98cd97dd56a402cc6d2d6f635",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p3-s2.jpg",
+      "source_y_pt": [
+        129.59049862583433,
+        297.0957989791912
+      ],
+      "sha256": "439bfe90ad67212cdac02099a294961d693d5020b68ad50b3284be6fe5b3b273",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p3-s3.jpg",
+      "source_y_pt": [
+        264.96505692972124,
+        436.7679623085983
+      ],
+      "sha256": "30593c73879b3a5ad7dc20cecae51d0aa24c324e6f04f392821178bbda086969",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p3-s4.jpg",
+      "source_y_pt": [
+        398.5213977228112,
+        572.3078131134669
+      ],
+      "sha256": "364a9303261a690719cc82517002c87976a5cba1c72c5620814b19a55479160b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p3-s5.jpg",
+      "source_y_pt": [
+        535.7141735374951,
+        703.219473890852
+      ],
+      "sha256": "28910e31b6ca0668f181cc944c05d6eda2b8d5b4b374e723615ba01b9a7ea2f0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p3-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "b5bfb986deb1405f3c065f97f92bfc20c29d47c61b02d1f953b934cb9fbc2f79",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p4-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "1f3b504a748aa662c0f45d24f4e6ea1570a24e12dd28cfb0002a441ebeeee744",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p4-s2.jpg",
+      "source_y_pt": [
+        139.83863368669023,
+        313.79034157832746
+      ],
+      "sha256": "2e50911daa091158a3a763396887763a141048a8e6f5fcd7f91935f8a99d0ddc",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p4-s3.jpg",
+      "source_y_pt": [
+        265.9568119356105,
+        442.05732234000783
+      ],
+      "sha256": "815c536d170c8fea1f0945431a151fc217409e2e6ef985409b4c371f04412a60",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p4-s4.jpg",
+      "source_y_pt": [
+        399.0172752257558,
+        566.5225755791126
+      ],
+      "sha256": "02a5d03cbc0918c327aea39cc24521a294106330c2b799a10ec102251caa50bd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p4-s5.jpg",
+      "source_y_pt": [
+        523.6478209658421,
+        691.153121319199
+      ],
+      "sha256": "a536eaf381934cc4f3be3d3e67f664a42bb8e4ea9a16559867f5fac45d73a233",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p4-s6.jpg",
+      "source_y_pt": [
+        641.5013741656851,
+        817.6018845700825
+      ],
+      "sha256": "4e3012649bb43e351d029651d14694c1c9bbdcc66d381b5f638934b28092862e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p5-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "0cbf3d3f6dded0de166ca0535d0b9d2d8ef5d77180eea5d472b2112ef3fccf54",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p5-s2.jpg",
+      "source_y_pt": [
+        134.0533961523361,
+        309.98861405575184
+      ],
+      "sha256": "dad909f8b059838862c1bce36d00e4b2cbb582652ac9733708cb5b91d70f83b1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p5-s3.jpg",
+      "source_y_pt": [
+        261.3286219081272,
+        428.8339222614841
+      ],
+      "sha256": "f9a5c7ff4e97b6dfb6023eb789c525eae91012edd6d81a2e5cb2160312ab2f68",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p5-s4.jpg",
+      "source_y_pt": [
+        380.339222614841,
+        549.8280329799765
+      ],
+      "sha256": "d2b2f9e6da43e139b8030583f44751cea790195663ee8dab82fcd21d9bc459b0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p5-s5.jpg",
+      "source_y_pt": [
+        515.2179034157833,
+        685.0372987828819
+      ],
+      "sha256": "b814adb473c4af7325f1247350899bbf9bd72c4202d198825778b46b575b1e48",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A123",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A123-p5-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "ea8001946c2255373118fae6a4602f889f6195c2bd032144ea8e545573f09562",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p1-s1.jpg",
+      "source_y_pt": [
+        139.83863368669023,
+        313.79034157832746
+      ],
+      "sha256": "357a11d8fb3e7a130886f38c928f82a6da5fedd508f9c5440ed45cf6db746e49",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p1-s2.jpg",
+      "source_y_pt": [
+        255.37809187279152,
+        433.46211228896743
+      ],
+      "sha256": "a3d443b28ba66b7ec223438e5807fd3d4361a334ebc020f4bee01dde5ddafafb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p1-s3.jpg",
+      "source_y_pt": [
+        387.94267765999217,
+        566.026698076168
+      ],
+      "sha256": "f494ecf5938b09f72f3eb892b3f77caa5bcd27e1996fd7414e31b5eb854fbcc9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p1-s4.jpg",
+      "source_y_pt": [
+        513.7302709069494,
+        683.3843737730664
+      ],
+      "sha256": "63e671dd7205dbc29623aa17b20c9d9f1dceac940ea27487aec9bc995f8442ca",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p1-s5.jpg",
+      "source_y_pt": [
+        639.5178641539065,
+        817.6018845700825
+      ],
+      "sha256": "408371294240544f5e16d7b6e257f7376feb944a1c9034b81ebda5d6750b6d4c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p2-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        181.5563407930899
+      ],
+      "sha256": "0ac9105a66017950c27311e0e805666c0180f828af53cbc8bd96e38a51f96626",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p2-s2.jpg",
+      "source_y_pt": [
+        138.6815861798194,
+        310.31919905771497
+      ],
+      "sha256": "57f87bcd80aadef002d6d47913d53bb45c3bc591f39fde4c3e7e873ee4ceb708",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p2-s3.jpg",
+      "source_y_pt": [
+        266.2873969375736,
+        433.7926972909305
+      ],
+      "sha256": "ae6c330941ae2c7b66dccfbb92f4e14ee3aa6b230b6d52f83c0d1fb70a9f7ea6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p2-s4.jpg",
+      "source_y_pt": [
+        386.95092265410284,
+        556.6050255202199
+      ],
+      "sha256": "328ffc9e72c1d8c0cfaa44efdeea3a7a4fbc6bfe9066ebdd09576fed6d75f1f3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p2-s5.jpg",
+      "source_y_pt": [
+        508.6062033765214,
+        682.392618767177
+      ],
+      "sha256": "c419f3f89a2ab0b731ea9392fc14379fa8c0539655eefd625565a5f386343407",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p2-s6.jpg",
+      "source_y_pt": [
+        643.8154691794268,
+        817.6018845700825
+      ],
+      "sha256": "27909f0fda651345d882588e1f785eb6b743b907226bc73d537b3dfd5e6a398b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p3-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "0e4d4c9d1dc27e52ff602c9484f8e6db71102959e4fbd14888f4c464a7e5fc5c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p3-s2.jpg",
+      "source_y_pt": [
+        139.3427561837456,
+        308.831566548881
+      ],
+      "sha256": "8db5fd78ac7900de15f6e1bfb1cea333775955e66309da5c5fe5af7932d1409b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p3-s3.jpg",
+      "source_y_pt": [
+        268.2709069493522,
+        433.46211228896743
+      ],
+      "sha256": "694e924b161539ccc86ebca1a739d8194f2c5e9d7bb22e45e7c42eb4a8ec98d4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p3-s4.jpg",
+      "source_y_pt": [
+        387.61209265802904,
+        561.3985080486847
+      ],
+      "sha256": "8b2cc98b0ad88adbc3d987232fb2bf3adb2256b6fbc853e6f51322413b8c4d7f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p3-s5.jpg",
+      "source_y_pt": [
+        514.5567334118571,
+        686.3596387907342
+      ],
+      "sha256": "09a05c726e0e0bbc456ab88f67ffdf4c9e7a9b8b0192297c20b718409c1ee258",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p3-s6.jpg",
+      "source_y_pt": [
+        641.5013741656851,
+        817.6018845700825
+      ],
+      "sha256": "436088ec3fe1c4f1dbb37ab01042c7b265e945472d1b5cc133fdb24cd338a365",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p4-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        189.9862583431488
+      ],
+      "sha256": "ac2d288b4c2f9318365cba17909cc901b991bbcc66dd1e0ab06b4492877788b2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p4-s2.jpg",
+      "source_y_pt": [
+        149.2603062426384,
+        318.74911660777383
+      ],
+      "sha256": "2556db77a46d6478220597c289c7fd65b3d9deca890e9a65b10823c69eeb76f8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p4-s3.jpg",
+      "source_y_pt": [
+        283.1472320376914,
+        454.9501374165685
+      ],
+      "sha256": "7abb2dae063101dd79b75a30c8f45d95574dde1ad74802ea0d6aa8cb3d8c4c30",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p4-s4.jpg",
+      "source_y_pt": [
+        408.27365528072244,
+        577.9277581468394
+      ],
+      "sha256": "cce1e81afa4bcbafb6542c8da4f84dfdcd37a42ac593a85415ae8f5ef7b906e4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p4-s5.jpg",
+      "source_y_pt": [
+        525.6313309776207,
+        695.2854338437377
+      ],
+      "sha256": "019dc4651d3d5b2fc11b7aaacf9a70603e5ae857561b18bbe14e7d813ca4e5e3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p4-s6.jpg",
+      "source_y_pt": [
+        641.5013741656851,
+        817.6018845700825
+      ],
+      "sha256": "44af779461bd68a739b06d1b5cb2a6fd760b4792a553068cce7562ab4af8cfa9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p5-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        189.9862583431488
+      ],
+      "sha256": "3276270793aa3614b2032c7a03d5c6a0c8490d75a656df911eae286991f7d5f3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p5-s2.jpg",
+      "source_y_pt": [
+        133.3922261484099,
+        313.4597565763643
+      ],
+      "sha256": "2d97bc4984645e67ec944cdcf895cfd668d07e57f4f665e47ff0abd5d5b213ae",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p5-s3.jpg",
+      "source_y_pt": [
+        252.73341185708676,
+        426.685119748724
+      ],
+      "sha256": "958b03015a76be6a967a82930c24a72490f1bd407490646bdeed31e5dcc4d5a2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p5-s4.jpg",
+      "source_y_pt": [
+        381.16568511974873,
+        557.1009030231645
+      ],
+      "sha256": "b95a447349a3681ca214f7cbcaa1c4b8ac3feb4eb654c299c87316c5d64636c6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p5-s5.jpg",
+      "source_y_pt": [
+        512.5732234000785,
+        686.3596387907342
+      ],
+      "sha256": "bb2bfd098c5b47293c70c8d91a9423f9e0dd20a4e2fb181786836101624039b2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p5-s6.jpg",
+      "source_y_pt": [
+        643.8154691794268,
+        817.6018845700825
+      ],
+      "sha256": "0fffffb89d521feb54d58ee269551fc773bf11f5d4fc0a03dc7181f47a05a2b2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p6-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "af3892c4bd53a5fc041812fe88bc2a69f670958e2db3371a3c799532bc05c8aa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 6,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p6-s2.jpg",
+      "source_y_pt": [
+        132.23517864153908,
+        308.1703965449548
+      ],
+      "sha256": "a558e0d1f735a0a4d8063e55742ce1274a66f7c57a458c1325019bf61b64c75f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p6-s3.jpg",
+      "source_y_pt": [
+        261.3286219081272,
+        439.4126423243031
+      ],
+      "sha256": "b75ec76e7338368a625c279d22fb4061782583d983d301c0bd1fb82cbd4a83b2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p6-s4.jpg",
+      "source_y_pt": [
+        398.5213977228112,
+        582.8865331762859
+      ],
+      "sha256": "6f46c0f37f4da44e2f4248e024a3bbfc9739c3e164200dcefa5876c6b26ff601",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p6-s5.jpg",
+      "source_y_pt": [
+        527.7801334903809,
+        707.8476639183353
+      ],
+      "sha256": "e6f43e5270287d65f2da6e83d89925e49aa05c1cd66c30b8801f00c76fdb8fc2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 6,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p6-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "f5777ca3e11dcc6a0cac428224fc3ee077682962ca1c05478ab01e5877323cba",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 7,
+      "system": 1,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p7-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "f40ab8be518f8afea6ff3579518c0f282173890e5559140c4827d5c5eb46a106",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 7,
+      "system": 2,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p7-s2.jpg",
+      "source_y_pt": [
+        130.41696113074204,
+        304.20337652139773
+      ],
+      "sha256": "a7c661842db26c5959043721abddcbdc9fba2232b2ddee5f1348fb20108a9bd3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 7,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p7-s3.jpg",
+      "source_y_pt": [
+        260.9980369061641,
+        430.48684727129955
+      ],
+      "sha256": "efee05b950303dfef17d1a921dc2dca8d39dc99d55068a06b0feeea53d6f0a52",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 7,
+      "system": 4,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p7-s4.jpg",
+      "source_y_pt": [
+        389.9261876717707,
+        561.7290930506479
+      ],
+      "sha256": "fc68f76575034f115b5e09c81cfa14bfcfe62b5f92aacd88215f83508be701d3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 7,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p7-s5.jpg",
+      "source_y_pt": [
+        527.7801334903809,
+        695.2854338437377
+      ],
+      "sha256": "22c254e42f6b58df0f68aec6c9e2c46df85d69e67d6720150e9d0c1d2cb2d8fd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A124",
+      "page": 7,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/A124-p7-s6.jpg",
+      "source_y_pt": [
+        654.3941892422458,
+        817.6018845700825
+      ],
+      "sha256": "33556914060f362a199cd9fdb7369094e188695f1985c56df9bb912cbc79f434",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A123",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/tabi-F-three-and-outside-sixteenth.jpg",
+      "source_box_pt": [
+        155,
+        506.16804083235183,
+        193,
+        667.119748723989
+      ],
+      "sha256": "6683c51d996147bc70d33f9c960ba03d58feb63f8dd627ea030c964a3dd688f4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A123",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/tabi-F-middle-five.jpg",
+      "source_box_pt": [
+        356,
+        506.16804083235183,
+        425,
+        667.119748723989
+      ],
+      "sha256": "f6f703680db17d74652af593a98a36a1cb2c0822ba942580f71dfab88c375869",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A123",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/tabi-J-octave-corner.jpg",
+      "source_box_pt": [
+        443,
+        528.6478209658421,
+        508,
+        683.153121319199
+      ],
+      "sha256": "798264171e612c46a1f1a72c51b101afa7674d628ebca7dc5d85e9591265d69e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A123",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/tabi-K-partial-three.jpg",
+      "source_box_pt": [
+        307,
+        646.5013741656851,
+        430,
+        809.6018845700825
+      ],
+      "sha256": "74924580fbcfa66d1a74effc89332313c6f9f6b44f375dda15dcc6ed7b83ac09",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A123",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/tabi-M-eight-range.jpg",
+      "source_box_pt": [
+        328,
+        520.2179034157833,
+        434,
+        677.0372987828819
+      ],
+      "sha256": "a8985eaa61399f72752c4e4aba6259f2cdc0bfb26deb5deb66e5c0b7571876b2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A124",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/tamashii-before-F-three-seven-and-four.jpg",
+      "source_box_pt": [
+        119,
+        288.1472320376914,
+        248,
+        446.9501374165685
+      ],
+      "sha256": "93e6dd9d28d7268114c193c0c944b33bca45ac40ba431d8b30286a2e11109fc4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A124",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/tamashii-F-descending-handoff.jpg",
+      "source_box_pt": [
+        322,
+        530.6313309776207,
+        453,
+        687.2854338437377
+      ],
+      "sha256": "5424d9f30d95ef5ef6ea6b1126436d1e1f6899fe5b9a9b6394646c2093c2fbf8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A124",
+      "page": 7,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/tamashii-ending-seven-five-handoff.jpg",
+      "source_box_pt": [
+        376,
+        532.7801334903809,
+        555,
+        687.2854338437377
+      ],
+      "sha256": "2bc93464f854c9ad9ff8269ba1725c0c5bc398ff41f6c5b02132233eaa95c6ef",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A123",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/tabi-tamashii-2026-10-30/tabi-M-eight-complete.jpg",
+      "source_box_pt": [
+        290,
+        520.2179034157833,
+        434,
+        677.0372987828819
+      ],
+      "sha256": "05aa028d7b9bd30aa09543e8695711d02e4dfba5d984fafdbccbd87485fe9c4d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 30,
+      "pdf_page": 50,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p30.jpg",
+      "sha256": "7284744425ae348c9508819e503beb430b4f630c1fc5679d754c30eeed6d1799",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 41,
+      "pdf_page": 61,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-41.jpg",
+      "sha256": "3cb3ac02d969010846c582841c026ad73e5c66d3d883a1e0ad14e1c94dc86ed6",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 43,
+      "pdf_page": 63,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-43.jpg",
+      "sha256": "22d28e739ec9c663b304b0286ee41b6ac5001642dafd2c74b1a5cd4b616e4bf9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 159,
+      "pdf_page": 179,
+      "path": "tmp/engraving/styx-sugar-2026-10-30/book-printed-159.jpg",
+      "sha256": "04ea8657e2cdde73ff0501c3aaa85b5f1d7becf09d0700bad1a78f8d6ba90391",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 184,
+      "pdf_page": 204,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p184.jpg",
+      "sha256": "222171418db6fb21f843c2685ff670cd6b69cc7bec7d52f910f1f38b48b7ec14",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 190,
+      "pdf_page": 210,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p190.jpg",
+      "sha256": "66c45c2851d9c315c6cac7552c47fa4beb77122cee31f4820c76e65ebb665465",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 203,
+      "pdf_page": 223,
+      "path": "tmp/engraving/integrated-rumbling-unravel-2026-10-22/gould-p203.png",
+      "sha256": "48e7e705ca140dd5fa743d02f910d38eee56f2ac73e4dea2d04c0af3edc319a4",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 205,
+      "pdf_page": 225,
+      "path": "tmp/engraving/kawaki-jane-2026-10-29/book-205-reread.jpg",
+      "sha256": "83667d1520a1f0436fccd9af21ae3b767e9e2e092972e6dd71881b93070566ea",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 211,
+      "pdf_page": 231,
+      "path": "tmp/engraving/ichiban-idol-2026-10-27/book-211-reread.jpg",
+      "sha256": "3eff55da74509587ba17ec66799a6aac579e3bf9d9df4599a61528487ba8191e",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 212,
+      "pdf_page": 232,
+      "path": "tmp/engraving/kura-kuusou-2026-10-29/book-printed-212.jpg",
+      "sha256": "c1584319e0210e08e33a4f43089b0516b292650b8616a70f23fe321aaaa667dc",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 213,
+      "pdf_page": 233,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-213-reread.jpg",
+      "sha256": "33a2bf132aceea603508082e316ffa5f5ba6b96a9e67d67f493b4b125f587f14",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 215,
+      "pdf_page": 235,
+      "path": "tmp/engraving/book-2026-10-19/tuplet-continued-235.jpg",
+      "sha256": "e8bb01932f11eb7bf47bed776d298160f5a0bbcb12668b4f268690bc33dded29",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 312,
+      "pdf_page": 332,
+      "path": "tmp/engraving/piano-2026-10-19/book-312.jpg",
+      "sha256": "fa0714f91d61a6ab02c14101f758738c58875956c50d75e5f3d20e42b3c8d815",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 315,
+      "pdf_page": 335,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-315.jpg",
+      "sha256": "d05be9460b4eb7d2831b98f2e8b81f94f6febe32d7d5749db9efc8b140379aa9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 323,
+      "pdf_page": 343,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-323.jpg",
+      "sha256": "66518d033c3bab5a2ae91666d77d943a04435dc6e47ff70b592eaf2a400af865",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 324,
+      "pdf_page": 344,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p324.jpg",
+      "sha256": "0312d04e27272e06b5e8a7107d2f94ce05c3a2da0aac85e44ac8dc777296e150",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    }
+  ],
+  "whole_reviews": {
+    "A123": {
+      "pages": 5,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 29,
+      "meaning": "Allwholepagesandsystemdetailsactuallyviewed;selectedmusicalquestionschecked,notfullpitchaudit"
+    },
+    "A124": {
+      "pages": 7,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 41,
+      "meaning": "Allwholepagesandsystemdetailsactuallyviewed;selectedmusicalquestionschecked,notfullpitchaudit"
+    }
+  },
+  "selected_music_checks": {
+    "head_selections": [
+      {
+        "id": "A123",
+        "page": 3,
+        "system": 3,
+        "box": [
+          77,
+          223,
+          300,
+          350
+        ],
+        "label": "Tabi H firstbar12ordinary16",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 77.922,
+            "y": 338.0216,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 91.026,
+            "y": 331.6496,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 104.13,
+            "y": 327.4016,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 117.054,
+            "y": 323.1536,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 130.158,
+            "y": 316.7816,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 143.262,
+            "y": 312.5156,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 156.366,
+            "y": 308.2676,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 169.29,
+            "y": 312.5156,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 182.394,
+            "y": 316.7816,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 195.498,
+            "y": 323.1536,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 208.602,
+            "y": 327.4016,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 221.526,
+            "y": 331.6496,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          77.922,
+          91.026,
+          104.13,
+          117.054,
+          130.158,
+          143.262,
+          156.366,
+          169.29,
+          182.394,
+          195.498,
+          208.602,
+          221.526
+        ],
+        "gaps": [
+          13.104,
+          13.104,
+          12.924,
+          13.104,
+          13.104,
+          13.104,
+          12.924,
+          13.104,
+          13.104,
+          13.104,
+          12.924
+        ],
+        "regular": true,
+        "one_per_x": true
+      },
+      {
+        "id": "A123",
+        "page": 3,
+        "system": 3,
+        "box": [
+          242,
+          387,
+          300,
+          350
+        ],
+        "label": "Tabi H secondbar12ordinary16",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 242.964,
+            "y": 344.3936,
+            "font": "JIKABF+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 256.068,
+            "y": 338.0216,
+            "font": "JIKABF+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 269.172,
+            "y": 333.7736,
+            "font": "JIKABF+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 282.096,
+            "y": 329.5256,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 295.2,
+            "y": 323.1536,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 308.304,
+            "y": 318.9056,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 321.408,
+            "y": 314.6577,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 334.332,
+            "y": 318.9056,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 347.436,
+            "y": 323.1536,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 360.54,
+            "y": 329.5256,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 373.644,
+            "y": 333.7736,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 386.5681,
+            "y": 338.0216,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          242.964,
+          256.068,
+          269.172,
+          282.096,
+          295.2,
+          308.304,
+          321.408,
+          334.332,
+          347.436,
+          360.54,
+          373.644,
+          386.568
+        ],
+        "gaps": [
+          13.104,
+          13.104,
+          12.924,
+          13.104,
+          13.104,
+          13.104,
+          12.924,
+          13.104,
+          13.104,
+          13.104,
+          12.924
+        ],
+        "regular": true,
+        "one_per_x": true
+      },
+      {
+        "id": "A123",
+        "page": 2,
+        "system": 5,
+        "box": [
+          161,
+          178,
+          560,
+          580
+        ],
+        "label": "Tabi F partial3thirtyseconds",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 162.216,
+            "y": 578.5016,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 169.65,
+            "y": 574.2537,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 177.084,
+            "y": 570.0056,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          162.216,
+          169.65,
+          177.084
+        ],
+        "gaps": [
+          7.434,
+          7.434
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A123",
+        "page": 2,
+        "system": 5,
+        "box": [
+          380,
+          411,
+          606,
+          633
+        ],
+        "label": "Tabi F middle5thirtyseconds",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 381.078,
+            "y": 631.6376,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 388.512,
+            "y": 623.1237,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 395.784,
+            "y": 616.7516,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 403.218,
+            "y": 612.5036,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 410.652,
+            "y": 608.2556,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          381.078,
+          388.512,
+          395.784,
+          403.218,
+          410.652
+        ],
+        "gaps": [
+          7.434,
+          7.272,
+          7.434,
+          7.434
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A123",
+        "page": 4,
+        "system": 6,
+        "box": [
+          330,
+          346,
+          748,
+          761
+        ],
+        "label": "Tabi K firstinner3sixteenths",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 330.606,
+            "y": 748.6736,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 338.058,
+            "y": 752.9397,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 345.672,
+            "y": 759.3116,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          330.606,
+          338.058,
+          345.672
+        ],
+        "gaps": [
+          7.452,
+          7.614
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A123",
+        "page": 5,
+        "system": 4,
+        "box": [
+          165,
+          241,
+          430,
+          505
+        ],
+        "label": "Tabi M8ordinary32andoutside16",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 165.564,
+            "y": 502.1816,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 173.898,
+            "y": 497.9337,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 185.058,
+            "y": 493.6856,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 193.374,
+            "y": 487.3137,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 201.69,
+            "y": 483.0476,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 210.024,
+            "y": 478.7997,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 223.128,
+            "y": 453.3116,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 231.624,
+            "y": 449.0636,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 239.94,
+            "y": 444.7976,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          165.564,
+          173.898,
+          185.058,
+          193.374,
+          201.69,
+          210.024,
+          223.128,
+          231.624,
+          239.94
+        ],
+        "gaps": [
+          8.334,
+          11.16,
+          8.316,
+          8.316,
+          8.334,
+          13.104,
+          8.496,
+          8.316
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A123",
+        "page": 5,
+        "system": 5,
+        "box": [
+          322,
+          386,
+          560,
+          630
+        ],
+        "label": "Tabi M bare8eightheads;restoutside",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 322.83,
+            "y": 569.3036,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 333.81,
+            "y": 573.5516,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 343.188,
+            "y": 579.9236,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 352.566,
+            "y": 584.1716,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 361.962,
+            "y": 588.4196,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 371.34,
+            "y": 594.7917,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 375.948,
+            "y": 622.4216,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 385.326,
+            "y": 628.7937,
+            "font": "JIKABF+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          322.83,
+          333.81,
+          343.188,
+          352.566,
+          361.962,
+          371.34,
+          375.948,
+          385.326
+        ],
+        "gaps": [
+          10.98,
+          9.378,
+          9.378,
+          9.396,
+          9.378,
+          4.608,
+          9.378
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A124",
+        "page": 6,
+        "system": 4,
+        "box": [
+          96,
+          224,
+          430,
+          480
+        ],
+        "label": "Tamashii I bar114ordinary16",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 97.038,
+            "y": 463.0497,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 106.776,
+            "y": 456.6776,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 116.514,
+            "y": 454.5536,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 126.252,
+            "y": 452.4117,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 135.828,
+            "y": 448.1636,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 145.566,
+            "y": 441.7916,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 155.304,
+            "y": 437.5436,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 165.042,
+            "y": 439.6676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 174.6,
+            "y": 441.7916,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 184.338,
+            "y": 448.1636,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 194.076,
+            "y": 452.4117,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 203.814,
+            "y": 454.5536,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 213.39,
+            "y": 456.6776,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 223.128,
+            "y": 463.0497,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          97.038,
+          106.776,
+          116.514,
+          126.252,
+          135.828,
+          145.566,
+          155.304,
+          165.042,
+          174.6,
+          184.338,
+          194.076,
+          203.814,
+          213.39,
+          223.128
+        ],
+        "gaps": [
+          9.738,
+          9.738,
+          9.738,
+          9.576,
+          9.738,
+          9.738,
+          9.738,
+          9.558,
+          9.738,
+          9.738,
+          9.738,
+          9.576,
+          9.738
+        ],
+        "regular": true,
+        "one_per_x": true
+      },
+      {
+        "id": "A124",
+        "page": 6,
+        "system": 4,
+        "box": [
+          256,
+          384,
+          430,
+          480
+        ],
+        "label": "Tamashii I bar214ordinary16",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 256.95,
+            "y": 465.1736,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 266.688,
+            "y": 458.8016,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 276.426,
+            "y": 456.6776,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 286.164,
+            "y": 454.5536,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 295.722,
+            "y": 450.2876,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 305.46,
+            "y": 443.9156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 315.216,
+            "y": 439.6676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 324.954,
+            "y": 441.7916,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 334.512,
+            "y": 443.9156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 344.25,
+            "y": 450.2876,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 353.988,
+            "y": 454.5536,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 363.726,
+            "y": 456.6776,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 373.284,
+            "y": 458.8016,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 383.04,
+            "y": 465.1736,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          256.95,
+          266.688,
+          276.426,
+          286.164,
+          295.722,
+          305.46,
+          315.216,
+          324.954,
+          334.512,
+          344.25,
+          353.988,
+          363.726,
+          373.284,
+          383.04
+        ],
+        "gaps": [
+          9.738,
+          9.738,
+          9.738,
+          9.558,
+          9.738,
+          9.756,
+          9.738,
+          9.558,
+          9.738,
+          9.738,
+          9.738,
+          9.558,
+          9.756
+        ],
+        "regular": true,
+        "one_per_x": true
+      },
+      {
+        "id": "A124",
+        "page": 6,
+        "system": 4,
+        "box": [
+          419,
+          547,
+          430,
+          480
+        ],
+        "label": "Tamashii I bar314ordinary16",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 419.868,
+            "y": 463.0497,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 429.606,
+            "y": 456.6776,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 439.3441,
+            "y": 454.5536,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 449.082,
+            "y": 452.4117,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 459.0001,
+            "y": 448.1636,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 468.738,
+            "y": 441.7916,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 478.476,
+            "y": 437.5436,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 488.2141,
+            "y": 439.6676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 497.952,
+            "y": 441.7916,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 507.6901,
+            "y": 448.1636,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 517.446,
+            "y": 452.4117,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 527.3461,
+            "y": 454.5536,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 537.1021,
+            "y": 456.6776,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 546.84,
+            "y": 463.0497,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          419.868,
+          429.606,
+          439.344,
+          449.082,
+          459.0,
+          468.738,
+          478.476,
+          488.214,
+          497.952,
+          507.69,
+          517.446,
+          527.346,
+          537.102,
+          546.84
+        ],
+        "gaps": [
+          9.738,
+          9.738,
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.738,
+          9.738,
+          9.738,
+          9.756,
+          9.9,
+          9.756,
+          9.738
+        ],
+        "regular": true,
+        "one_per_x": true
+      },
+      {
+        "id": "A124",
+        "page": 7,
+        "system": 5,
+        "box": [
+          80,
+          215,
+          560,
+          600
+        ],
+        "label": "Tamashii J bar116ordinary16",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 81.288,
+            "y": 571.0676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 90.144,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 98.982,
+            "y": 583.8116,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 107.838,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 116.694,
+            "y": 583.8116,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 125.55,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 134.406,
+            "y": 571.0676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 143.262,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 152.298,
+            "y": 583.8116,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 161.154,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 169.992,
+            "y": 583.8116,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 178.848,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 187.704,
+            "y": 571.0676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 196.56,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 205.416,
+            "y": 583.8116,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 214.272,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          81.288,
+          90.144,
+          98.982,
+          107.838,
+          116.694,
+          125.55,
+          134.406,
+          143.262,
+          152.298,
+          161.154,
+          169.992,
+          178.848,
+          187.704,
+          196.56,
+          205.416,
+          214.272
+        ],
+        "gaps": [
+          8.856,
+          8.838,
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          9.036,
+          8.856,
+          8.838,
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          8.856
+        ],
+        "regular": true,
+        "one_per_x": true
+      },
+      {
+        "id": "A124",
+        "page": 7,
+        "system": 5,
+        "box": [
+          231,
+          365,
+          560,
+          600
+        ],
+        "label": "Tamashii J bar216ordinary16",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 231.444,
+            "y": 571.0676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 240.3,
+            "y": 575.3156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 249.156,
+            "y": 581.6877,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 258.012,
+            "y": 575.3156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 266.868,
+            "y": 581.6877,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 275.724,
+            "y": 575.3156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 284.58,
+            "y": 571.0676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 293.436,
+            "y": 575.3156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 302.454,
+            "y": 581.6877,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 311.31,
+            "y": 575.3156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 320.166,
+            "y": 581.6877,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 329.022,
+            "y": 575.3156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 337.878,
+            "y": 571.0676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 346.734,
+            "y": 575.3156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 355.59,
+            "y": 581.6877,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 364.446,
+            "y": 575.3156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          231.444,
+          240.3,
+          249.156,
+          258.012,
+          266.868,
+          275.724,
+          284.58,
+          293.436,
+          302.454,
+          311.31,
+          320.166,
+          329.022,
+          337.878,
+          346.734,
+          355.59,
+          364.446
+        ],
+        "gaps": [
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          9.018,
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          8.856,
+          8.856
+        ],
+        "regular": true,
+        "one_per_x": true
+      },
+      {
+        "id": "A124",
+        "page": 4,
+        "system": 3,
+        "box": [
+          142,
+          160,
+          350,
+          360
+        ],
+        "label": "Tamashii beforeF partial3sixteenths",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 143.622,
+            "y": 358.3976,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 151.398,
+            "y": 356.2556,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 159.372,
+            "y": 354.1317,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          143.622,
+          151.398,
+          159.372
+        ],
+        "gaps": [
+          7.776,
+          7.974
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A124",
+        "page": 4,
+        "system": 3,
+        "box": [
+          167,
+          211,
+          338,
+          353
+        ],
+        "label": "Tamashii beforeF full7sixteenths",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 167.346,
+            "y": 352.0076,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 174.42,
+            "y": 349.8836,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 181.512,
+            "y": 347.7596,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 188.586,
+            "y": 345.6356,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 195.678,
+            "y": 343.5116,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 202.752,
+            "y": 341.3876,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 209.844,
+            "y": 339.2636,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          167.346,
+          174.42,
+          181.512,
+          188.586,
+          195.678,
+          202.752,
+          209.844
+        ],
+        "gaps": [
+          7.074,
+          7.092,
+          7.074,
+          7.092,
+          7.074,
+          7.092
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A124",
+        "page": 4,
+        "system": 3,
+        "box": [
+          216,
+          237,
+          330,
+          338
+        ],
+        "label": "Tamashii beforeF fourordinary32 excludesoutside8",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 216.936,
+            "y": 337.1396,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 223.488,
+            "y": 335.0156,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 230.04,
+            "y": 332.8916,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 236.592,
+            "y": 330.7676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          216.936,
+          223.488,
+          230.04,
+          236.592
+        ],
+        "gaps": [
+          6.552,
+          6.552,
+          6.552
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A124",
+        "page": 7,
+        "system": 5,
+        "box": [
+          381,
+          421,
+          560,
+          590
+        ],
+        "label": "Tamashii ending first7eventcolumns",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 381.618,
+            "y": 568.9437,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 381.618,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 388.17,
+            "y": 571.0676,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 394.722,
+            "y": 573.1917,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 401.0941,
+            "y": 579.5637,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 407.646,
+            "y": 583.8116,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 414.198,
+            "y": 585.9357,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 420.75,
+            "y": 588.0596,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          381.618,
+          388.17,
+          394.722,
+          401.094,
+          407.646,
+          414.198,
+          420.75
+        ],
+        "gaps": [
+          6.552,
+          6.552,
+          6.372,
+          6.552,
+          6.552,
+          6.552
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A124",
+        "page": 7,
+        "system": 5,
+        "box": [
+          427,
+          467,
+          580,
+          605
+        ],
+        "label": "Tamashii ending second7",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 427.302,
+            "y": 583.8116,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 433.674,
+            "y": 585.9357,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 440.226,
+            "y": 588.0596,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 446.778,
+            "y": 594.4496,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 453.33,
+            "y": 598.6976,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 459.702,
+            "y": 600.8217,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 466.254,
+            "y": 602.9456,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          427.302,
+          433.674,
+          440.226,
+          446.778,
+          453.33,
+          459.702,
+          466.254
+        ],
+        "gaps": [
+          6.372,
+          6.552,
+          6.552,
+          6.552,
+          6.372,
+          6.552
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A124",
+        "page": 7,
+        "system": 5,
+        "box": [
+          472,
+          506,
+          595,
+          635
+        ],
+        "label": "Tamashii ending first5fourupperandone lower",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 472.806,
+            "y": 598.6976,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 481.14,
+            "y": 600.8217,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 489.2761,
+            "y": 602.9456,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 497.61,
+            "y": 609.3177,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 505.926,
+            "y": 632.6996,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          472.806,
+          481.14,
+          489.276,
+          497.61,
+          505.926
+        ],
+        "gaps": [
+          8.334,
+          8.136,
+          8.334,
+          8.316
+        ],
+        "regular": false,
+        "one_per_x": false
+      },
+      {
+        "id": "A124",
+        "page": 7,
+        "system": 5,
+        "box": [
+          514,
+          548,
+          628,
+          649
+        ],
+        "label": "Tamashii ending last5lower",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 514.2421,
+            "y": 630.5576,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 522.3961,
+            "y": 632.6996,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 530.712,
+            "y": 634.8237,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 539.046,
+            "y": 641.1956,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 547.1821,
+            "y": 647.5677,
+            "font": "HJDIGJ+Chaconne",
+            "size": 16.29
+          }
+        ],
+        "unique_x": [
+          514.242,
+          522.396,
+          530.712,
+          539.046,
+          547.182
+        ],
+        "gaps": [
+          8.154,
+          8.316,
+          8.334,
+          8.136
+        ],
+        "regular": false,
+        "one_per_x": false
+      }
+    ],
+    "vector_selections": [
+      {
+        "id": "A123",
+        "page": 2,
+        "system": 5,
+        "label": "Ftwofullbeams-fourmembers andthirdpartial-first3",
+        "vectors": [
+          {
+            "box": [
+              167.004,
+              547.686,
+              189.756,
+              553.986
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              167.004,
+              550.872,
+              189.756,
+              557.19
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              167.004,
+              555.48,
+              182.322,
+              560.376
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A123",
+        "page": 2,
+        "system": 5,
+        "label": "Fmainbeamordinary8-plus5-plusordinary8",
+        "vectors": [
+          {
+            "box": [
+              367.452,
+              591.246,
+              423.162,
+              593.298
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              385.866,
+              594.45,
+              415.89,
+              596.502
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              385.866,
+              597.636,
+              415.89,
+              599.688
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A123",
+        "page": 4,
+        "system": 6,
+        "label": "Kinner3 andlast2 separate secondarybeams",
+        "vectors": [
+          {
+            "box": [
+              319.284,
+              734.868,
+              368.262,
+              736.92
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              335.394,
+              738.054,
+              350.91,
+              740.106
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              358.074,
+              738.054,
+              368.262,
+              740.106
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A123",
+        "page": 5,
+        "system": 4,
+        "label": "Mfirst8thirtysecondsandlast16",
+        "vectors": [
+          {
+            "box": [
+              170.352,
+              467.046,
+              240.39,
+              473.346
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              170.352,
+              463.86,
+              240.39,
+              470.16
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              170.352,
+              461.178,
+              232.074,
+              466.974
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A123",
+        "page": 5,
+        "system": 5,
+        "label": "Mbare8threebeams",
+        "vectors": [
+          {
+            "box": [
+              322.83,
+              597.114,
+              390.564,
+              607.662
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              322.83,
+              600.3,
+              390.564,
+              610.848
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              322.83,
+              603.486,
+              390.564,
+              614.034
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A124",
+        "page": 4,
+        "system": 3,
+        "label": "BeforeF3onlypartofmainbeam",
+        "vectors": [
+          {
+            "box": [
+              127.512,
+              336.078,
+              164.61,
+              338.13
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              127.512,
+              339.264,
+              138.402,
+              341.316
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              148.41,
+              339.264,
+              164.61,
+              341.316
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A124",
+        "page": 4,
+        "system": 3,
+        "label": "BeforeFcomplete7",
+        "vectors": [
+          {
+            "box": [
+              167.346,
+              359.532,
+              210.294,
+              365.85
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              167.346,
+              356.346,
+              210.294,
+              362.646
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A124",
+        "page": 4,
+        "system": 3,
+        "label": "BeforeFfour32andoutside8",
+        "vectors": [
+          {
+            "box": [
+              216.936,
+              351.036,
+              243.594,
+              355.212
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              216.936,
+              348.39,
+              237.042,
+              352.026
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              216.936,
+              345.204,
+              237.042,
+              348.84
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A124",
+        "page": 7,
+        "system": 5,
+        "label": "Endingfirst5crossstafftwofullbeams",
+        "vectors": [
+          {
+            "box": [
+              477.594,
+              583.812,
+              511.164,
+              589.05
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              477.594,
+              586.998,
+              511.164,
+              592.236
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A124",
+        "page": 7,
+        "system": 5,
+        "label": "Endinglast5twofullbeams",
+        "vectors": [
+          {
+            "box": [
+              519.03,
+              616.752,
+              552.42,
+              625.176
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              519.03,
+              619.938,
+              552.42,
+              628.362
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      }
+    ],
+    "position_checks": [
+      {
+        "id": "A123",
+        "page": 1,
+        "system": 1,
+        "label": "Tabi openingquarterglyph",
+        "char": {
+          "text": "q",
+          "x": 74.376,
+          "y": 191.3936,
+          "font": "JIKABF+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A123",
+        "page": 1,
+        "system": 1,
+        "label": "Tabi dotmakesdottedquarter57",
+        "char": {
+          "text": "k",
+          "x": 79.130862,
+          "y": 191.3936,
+          "font": "JIKABF+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A124",
+        "page": 1,
+        "system": 1,
+        "label": "Tamashii openingquarterglyph",
+        "char": {
+          "text": "q",
+          "x": 77.742,
+          "y": 191.3936,
+          "font": "HJDIGJ+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A124",
+        "page": 1,
+        "system": 1,
+        "label": "Tamashii dotmakesdottedquarter43",
+        "char": {
+          "text": "k",
+          "x": 82.496862,
+          "y": 191.3936,
+          "font": "HJDIGJ+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A123",
+        "page": 5,
+        "system": 5,
+        "label": "Three-hook32restoutsidebare8",
+        "char": {
+          "text": "®",
+          "x": 312.552,
+          "y": 592.6676,
+          "font": "JIKABF+Chaconne",
+          "size": 16.992
+        }
+      },
+      {
+        "id": "A123",
+        "page": 2,
+        "system": 5,
+        "label": "Foutsideordinary16afterpartial3",
+        "char": {
+          "text": "œ",
+          "x": 184.518,
+          "y": 563.6337,
+          "font": "JIKABF+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A123",
+        "page": 2,
+        "system": 5,
+        "label": "Foutsideordinary8aftermiddle5",
+        "char": {
+          "text": "œ",
+          "x": 417.924,
+          "y": 608.2556,
+          "font": "JIKABF+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A124",
+        "page": 4,
+        "system": 3,
+        "label": "BeforeFoutsideordinary8afterfour32",
+        "char": {
+          "text": "œ",
+          "x": 243.144,
+          "y": 328.6436,
+          "font": "HJDIGJ+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A124",
+        "page": 4,
+        "system": 5,
+        "label": "Last8vaupper16beforehandoff",
+        "char": {
+          "text": "œ",
+          "x": 365.85,
+          "y": 592.3076,
+          "font": "HJDIGJ+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A124",
+        "page": 4,
+        "system": 5,
+        "label": "Nextlower16after8vaends",
+        "char": {
+          "text": "œ",
+          "x": 369.396,
+          "y": 624.1857,
+          "font": "HJDIGJ+Chaconne",
+          "size": 16.2899
+        }
+      }
+    ],
+    "duration_recipes": [
+      {
+        "name": "Tabi openingfullbar",
+        "terms": [
+          "3"
+        ],
+        "total": "3",
+        "meaning": "Dottedhalf in6/8;dottedquarter57tempo.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi barbeforeA upper",
+        "terms": [
+          "3/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "3",
+        "meaning": "Tieddottedquarterreceiver,8rest,two8.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi D slow",
+        "terms": [
+          "3/2",
+          "3/2"
+        ],
+        "total": "3",
+        "meaning": "Dottedquarterrest thenmelody;innerlineindependent.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi D inner",
+        "terms": [
+          "1",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "3",
+        "meaning": "Quarter,8tiedtosecond8,twomore8;slurcrossesgroup.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi E lower",
+        "terms": [
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1",
+          "1/2"
+        ],
+        "total": "3",
+        "meaning": "Ordinary8,four16,quarter,8;handhookatq1.5.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi F upperfirst",
+        "terms": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1",
+          "1/12",
+          "1/12",
+          "1/12",
+          "1/4"
+        ],
+        "total": "3",
+        "meaning": "Three8,quarter,partial3thirtysecondsandoutside16.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi F lowerthird",
+        "terms": [
+          "3/2",
+          "1/2",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/2"
+        ],
+        "total": "3",
+        "meaning": "Dottedquarter,ordinary8,5thirtyseconds(.5q),ordinarylast8.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi H firstfast",
+        "terms": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "3",
+        "meaning": "Twelveordinary16with6+6primarygroups.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi H firstslow",
+        "terms": [
+          "3/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "3",
+        "meaning": "Dottedquarter tied8 then two8;distinctdownstemline.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi H thirdfast",
+        "terms": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "3/4"
+        ],
+        "total": "3",
+        "meaning": "Nine16anddotted8,not12equalattacks.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi K loweronebigbeat",
+        "terms": [
+          "1/2",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/4",
+          "1/4"
+        ],
+        "total": "3/2",
+        "meaning": "Ordinary8,inner3sixteenths(.5q),twoordinary16(.5q).",
+        "conditional": false
+      },
+      {
+        "name": "Tabi M ascendinglastbeat",
+        "terms": [
+          "1/4",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/4"
+        ],
+        "total": "3/2",
+        "meaning": "16rest,eightordinary32,lastordinary16;notbare8tupletexample.",
+        "conditional": false
+      },
+      {
+        "name": "Tabi M descendingassuming8in7",
+        "terms": [
+          "1/8",
+          "7/64",
+          "7/64",
+          "7/64",
+          "7/64",
+          "7/64",
+          "7/64",
+          "7/64",
+          "7/64",
+          "1/2"
+        ],
+        "total": "3/2",
+        "meaning": "External32rest,eight32membersin7ordinary32slots,lastordinary8;conditionalintentonly.",
+        "conditional": true
+      },
+      {
+        "name": "Tabi endingupperfastbeforelast",
+        "terms": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "3",
+        "meaning": "Initial8restthenfive8,slowhalfand8vaindependent.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii openingpickup",
+        "terms": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "2",
+        "meaning": "Four8pickup,notfull6/8bar.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii lowerpickup",
+        "terms": [
+          "1/2",
+          "3/2"
+        ],
+        "total": "2",
+        "meaning": "8restanddottedquarterrest.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii A firstupper",
+        "terms": [
+          "1/4",
+          "1/4",
+          "1/2",
+          "2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "meaning": "Two16,8tiedhalf,twolast8;quarter130newunit.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii B firstupper",
+        "terms": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "meaning": "8rest,four8,two16tied,twolast8;graceoutsidecount.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii beforeF",
+        "terms": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/2"
+        ],
+        "total": "4",
+        "meaning": "Sixordinary16,partial3six,full7six,fourordinary32,outside8.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii F descent",
+        "terms": [
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "meaning": "8restplus14ordinary16,sequentialcrossstaff.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii afterdescent",
+        "terms": [
+          "1/3",
+          "1/3",
+          "1/3",
+          "1/2",
+          "1/2",
+          "2"
+        ],
+        "total": "4",
+        "meaning": "Three8triplet,twonormal8,halfhold.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii G lowerthirdbar",
+        "terms": [
+          "3/2",
+          "1/2",
+          "2"
+        ],
+        "total": "4",
+        "meaning": "Dottedquarterbass,8tiedhalf;independentupperrest/run.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii I upper",
+        "terms": [
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "meaning": "8restand14ordinary16;lowerq0eventprecedesfastentry.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii I lowerupperline",
+        "terms": [
+          "3/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "3/4",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "meaning": "Twooffbeatsyncopeunitswithtie,notmovealltointegerq.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii J faststable",
+        "terms": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "meaning": "16ordinary16,octavegroupsnotadditionaltimecolumns.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii ending7-7-5-5",
+        "terms": [
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "total": "4",
+        "meaning": "Eachgroup1q;first5crossstaff4upper+1lower,second5lower.",
+        "conditional": false
+      },
+      {
+        "name": "Tamashii finalMeno",
+        "terms": [
+          "2",
+          "2"
+        ],
+        "total": "4",
+        "meaning": "Halfrestthenrolledhalfchords;adlibtempoatbarstart.",
+        "conditional": false
+      }
+    ],
+    "conditional_tabi8": {
+      "rest_outside": true,
+      "heads": 8,
+      "beam_levels": 3,
+      "before_q": "3/2",
+      "after_ordinary_eighth_q": "1/2",
+      "if_lastbeat_is_strict_q": "3/2",
+      "result_if_strict": "8:7",
+      "intent_confirmed": false,
+      "decision": "Checknativeorintent beforefullratio;donotincluderestin8orautoset8:6."
+    },
+    "handoff_stem_lines": [
+      {
+        "box": [
+          366.066,
+          593.028,
+          366.066,
+          608.616
+        ],
+        "width": 0.45,
+        "stroke": true,
+        "fill": false
+      },
+      {
+        "box": [
+          374.418,
+          610.092,
+          374.418,
+          623.484
+        ],
+        "width": 0.45,
+        "stroke": true,
+        "fill": false
+      }
+    ],
+    "octave_corner_lines": [
+      {
+        "box": [
+          373.122,
+          566.298,
+          373.122,
+          568.422
+        ],
+        "width": 0.603,
+        "stroke": true,
+        "fill": false
+      },
+      {
+        "box": [
+          373.122,
+          570.546,
+          373.122,
+          572.67
+        ],
+        "width": 0.603,
+        "stroke": true,
+        "fill": false
+      },
+      {
+        "box": [
+          373.122,
+          574.794,
+          373.122,
+          576.918
+        ],
+        "width": 0.603,
+        "stroke": true,
+        "fill": false
+      },
+      {
+        "box": [
+          371.178,
+          566.478,
+          373.302,
+          566.478
+        ],
+        "width": 0.603,
+        "stroke": true,
+        "fill": false
+      }
+    ],
+    "head_count": 165,
+    "regular_gap_count": 91
+  },
+  "book_reread_printed_pages": [
+    30,
+    40,
+    41,
+    43,
+    159,
+    184,
+    190,
+    200,
+    203,
+    205,
+    207,
+    211,
+    212,
+    213,
+    215,
+    311,
+    312,
+    315,
+    323,
+    324,
+    490
+  ],
+  "book_reread_technical_pages": 21,
+  "book_new_technical_pages": 0,
+  "book_new_auxiliary_pages": 0,
+  "new_native_candidate_conditions": 0,
+  "software_adaptation_changes": 0,
+  "judgments": {
+    "keep": [
+      "H/I/Jstableactivityandindependentslowline/realonsets",
+      "Sequentialcrossstaffstems,actualoctavecornerandhandhooks",
+      "Ending7/7/5/5completebeams,first5fourupperonelower",
+      "Neededclefsandmusic-specificlinebudgets"
+    ],
+    "compare": [
+      "Partial3/5shortbrackets",
+      "Tabibare8fullratioafterintentcheck"
+    ],
+    "corrected_initial_hypotheses": [
+      "TabiF3firstthreethirtyseconds,outsidelast16",
+      "Fmiddle5betweentwoordinary8",
+      "BeforeTamashiiFfourordinary32andoutside8not16",
+      "Bare8eightrunheads,restandlast8outside;strict8:7conditionalnotintent",
+      "Tabisfzq0/mpq.5,notoneposition",
+      "TamashiiF8vaendsafterlastfourthupper16,notprevioushead"
+    ],
+    "unresolved": "Nativeencoding/fullpitch/playback,Tabi8intent,actualalternatives/turns/print/personalchoices.",
+    "no_user_aesthetic_acceptance": true
+  },
+  "external_resource_completion": {
+    "new_complete_scopes": 0,
+    "resources_unchanged": [
+      15,
+      25
+    ]
+  },
+  "scope": {
+    "corpus_closeouts_before": [
+      110,
+      146
+    ],
+    "corpus_closeouts_after": [
+      112,
+      146
+    ],
+    "remaining_score_closeouts": 34,
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resources": [
+      15,
+      25
+    ],
+    "remaining_resources": 10,
+    "transfer": [
+      8,
+      8
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "user_preparation": [
+      2,
+      4
+    ]
+  },
+  "fixed_release_tag": "engraving-v0.13.0",
+  "goal_status": "active",
+  "cache": {
+    "measured_at_utc": "2026-10-29T21:09:51.103761+00:00",
+    "batch": {
+      "directory": "tabi-tamashii-2026-10-30",
+      "files": 99,
+      "logical_bytes": 15335311,
+      "on_disk_bytes": 15335311,
+      "on_disk_unknown_files": 0
+    },
+    "total_logical_bytes": 2920827935,
+    "total_on_disk_bytes": 2779538708,
+    "new_runtime_or_original_PDF_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Beforefinalsmallrecords;112distinctviews33reuse79new;partialMzoomretainedandcomplete-scopeadded."
+  },
+  "validation": {
+    "status": "passed",
+    "source_PDF_hashes_and_pages_verified": 3,
+    "whole_score_pages": 12,
+    "system_rows": 70,
+    "local_PDF_book_images_actually_viewed": 112,
+    "reused_local_views": 33,
+    "new_local_views": 79,
+    "system_details": 70,
+    "extra_zooms": 9,
+    "book_pages_reread": 21,
+    "new_book_coverage": 0,
+    "source_heads_checked": 165,
+    "selected_filled_vectors_checked": 27,
+    "source_position_checks": 10,
+    "source_stem_lines_checked": 2,
+    "octave_corner_source_lines_checked": 4,
+    "regular_activity_gaps": 91,
+    "duration_recipes": 27,
+    "Tabi8strict_ratio_is_conditional_not_intent": true,
+    "Tamashii_first5_has4upper1lower": true,
+    "crossstaff_near_heads_are_sequential": true,
+    "skill_routes_executed": 20,
+    "score_study_direct_routes": 14,
+    "local_markdown_links_checked": 1263,
+    "public_paths": 26,
+    "corpus_closeouts": [
+      112,
+      146
+    ],
+    "resources": [
+      15,
+      25
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "goal_status": "active",
+    "new_native_conditions": 0,
+    "new_software_adaptation": 0,
+    "old_release_snapshots_and_prior_evidence_unchanged": true,
+    "files_deleted": 0
+  }
+}
