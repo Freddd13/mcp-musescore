@@ -323,3 +323,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：符头颜色与绘制次数不能独断时值
 
 [Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Silhouette P空心头支持慢二分及快八分三连角色，保一可见头、两类干；Sirius弱起8＋六16合2q，E五连首头已连梁。和弦多头仍一时点，原稿C力度sfz不泛化为ff。
+
+## 2026-10-30：连音数字不等于符号个数
+
+[Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Sparkle E前两个8休止＋两个16合三连单位一拍，D.S.前四分＋两个16同样占一拍。Coda15首时点的另一低部普通头不增第十六个快音。开头两个小装饰头不计普通时值；完整比例、梁层与成员须合看。

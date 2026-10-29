@@ -268,3 +268,7 @@ C32组内7.434–7.614pt，下一小节8.136–8.154pt，各自稳定；X十四1
 ## 2026-10-30：稳定活动与真正中间进入
 
 [Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius p7s3三个八分小节约11.682–11.880pt步幅，末行八分约14.166–14.346pt，均保；C下部q2.5位于五连q2.4与q2.6之间，不吸到最近符头。Silhouette M普通16局部宽格先查前缀，P白头仍占一个快列。
+
+## 2026-10-30：先保可辨的稳定活动
+
+[Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Sparkle开头三连8四个小节约8.984–9.256pt；Snow G普通16约9.214–9.394pt，p4s1约9.571–9.749pt。不同细分分别比较；Snow上行五连约7.621–10.812pt含必要还原号占位，不套连续五连的单一步幅。慢层休止、保持和中途进入仍各保时间列。

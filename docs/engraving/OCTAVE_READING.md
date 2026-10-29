@@ -182,3 +182,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：同型运行的8va仍可不同
 
 [Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius C只罩初四普通16中的前三，D罩五连及其后第一8；Silhouette L仅前三个三连8，第四个相似书写音型已低一八度。Meno九连之后下一小节才8va，末尾换号及8vb各保边界。
+
+## 2026-10-30：同型与手标识不能自动扩大八度范围
+
+[Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Snow H前短8va罩第一组五连，后组恢复；上行另一处8va与普通峰顶另读。Sparkle I上部8va跨p5末到p6前两系统，局部l.h.不把整条作用扩到下表；后面下部8vb独立。

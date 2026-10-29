@@ -103,6 +103,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_SNOW_SPARKLE.md`：普通16、普通32、三连8和七连16分别比较，先保稳定活动与必要还原号占位；黑度相近不证明同值，慢层保持与进入另核。
+
 `INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：先保稳定活动；C下部q2.5夹在五连q2.4与q2.6之间，不能按最近符头吸齐。白头可占一个快列，和弦多头也只一时点；混合值与普通16分判。
 
 `INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：同1q的7／6／5单步可不同宽；25快音＋6三连攻击共28列，只在q0/q2/q8/3同起。先保组形、共同到达和中间先后；B8、M16、K32与必要前缀分别判断。
@@ -203,6 +205,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_SNOW_SPARKLE.md`：同型三音梁已有基准可省3；首次混合四分＋两个16可局部重申。两个8休止＋两个16也可合三连一拍。连续5有内梁及逐组数字时，优先级低于普通32之后首个5或J主梁前三连32；严格部分梁体例与编辑取舍分记。
+
 `INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：C／D q3上部8休止属于旧附点二分层，快速声部同刻仍有8音；先分层再核时值。完整独立5／7／9保裸数，部分3与组外普通8共主梁才优先短括号。
 
 `INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：8:6前八32后有普通16；部分3只管两普通16和休止之后的后三连32，10含一个休止。完整独立7／6／5裸数保留。先看所有梁层、组外音和另一手拍点，不按数字猜分母。
@@ -277,6 +281,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_SNOW_SPARKLE.md`：Sparkle E／D.S.前f在q11/3，Snow M ff在q0休止处；入口不必等于新攻击或段号。
+
 `INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：C首sfz纠正旧ff；Sirius末sfzq0→mfq1.5、末bar ffq2。旧tie接收／上部休止也可有生效点，段号不替代局部位置。
 
 `INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：Shinzou ff提前8q3.5，M q1而N f q0在休止；Shirushi a tempo q2旧tie接收、mpq2.5新八分，L另起。不能统一移到段号／新攻击。
@@ -302,6 +308,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先认同一动态进程，再决定哪些标记应共用通道。`markings`的unlasting实例有同表mf／ff和休止前后p sub.／pp：位置不齐可正在表达不同层与时点，不合并／移齐。长限定短语与延续线一起读，分散词的X不自动是新力度或速度事件；起点给全短语及新行提醒可作候选，不能冒充一律禁止分词的规范。几何、逻辑范围与播放scope分查。
 
 <a id="cross-staff"></a>
+
+`INTEGRATED_READING_SNOW_SPARKLE.md`：Coda15首时点另有低部普通四分角色，不加成第十六个快头。局部l.h.不扩大上部8va到下表，慢保持、手交接和活动层分别读。
 
 `INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：P空心二分头兼下干三连8，保慢旋律与十二快列，PDF叠画不加攻击。慢声虚线、滑奏、八度、手括号逐一读范围。
 
@@ -424,6 +432,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`INTEGRATED_READING_SNOW_SPARKLE.md`：Sparkle D.S.先回E Segno，再从To Coda到尾声，不能按相邻PDF页面直接进Coda。局部两bar反复另核返回的速度、谱号和八度状态；显示路线不证明播放展开。
 
 `INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：D.S.旁三降预告回E，物理相邻Coda为五降；L五降起点与后来三降第二起点各配自己的房子。按实际来路核调号／持续，不从相邻行继承。
 

@@ -157,3 +157,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：休止、旧接收与小节中途的力度
 
 [Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius C为sfz，旧ff概述纠正；p2s1末sfzq3.5接下一bar mfq0旧tie，末行sfzq0→mfq1.5、末bar ffq2。Silhouette B mpq0在上部休止、D上p下mp而E上mf；不全吸到段号／新攻击。
+
+## 2026-10-30：提前的f与休止上的ff都可能有依据
+
+[Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Sparkle E及D.S.前f在最后两三连16的第一个，即q11/3，早于下一段；Snow B旋律f在q0.5，M的ff在q0休止处。上p下mp及慢层pp分别靠近其层，不统一拖到段号／攻击。

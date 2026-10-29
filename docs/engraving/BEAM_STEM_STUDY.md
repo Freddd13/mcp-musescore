@@ -157,3 +157,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：首头在梁外框左侧不等于没连上
 
 [Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius E五连向上干位于首头右侧，五音完整双梁、下一四音另梁；保裸5。Silhouette P空心头向下接快梁、向上慢干，不能为整齐统一干向或补黑头；跨表梁仍核最短干净空。
+
+## 2026-10-30：主梁、内梁和真实细分各有任务
+
+[Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Snow H前四组5:4三十二分以主梁十音、内两梁五音表现两层动作；逐组5使范围可追。Sparkle局部反复首bar是八普通32的三层梁，后两组七连16仅两层；不能为了黑度统一梁数或改值。跨表快音、慢干和共同和弦另核。

@@ -106,3 +106,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-30：两套反复和跳转的调号来路
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou D.S.旁预告三降回E，物理相邻Coda却五降，To Coda来自五降并新攻击；L五降第一反复及p6s1第二小节三降第二反复各有自己的起点与房子。按实际来路核状态，不从相邻PDF行继承；尚未原工程展开播放。
+
+## 2026-10-30：D.S.与Coda按实际路线查接收
+
+[Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Sparkle p5s3 D.S.→p3s3 E Segno→p3s6末To Coda→p5s4 Coda。Coda q0高全音和弦新攻击，快层q1才进入；不按物理相邻位置从D.S.直接进Coda或补同音tie。p7s6两小节局部反复另核a tempo／fff、谱号及8vb状态；本批未校对原工程展开播放。

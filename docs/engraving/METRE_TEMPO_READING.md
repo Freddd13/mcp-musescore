@@ -173,3 +173,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：恢复可以落在旧音接收
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shirushi p5s5第二小节上部a tempo在q2二分tie接收，低部mp新八分q2.5才进，L随后另一小节；恢复无需等待新攻击或段号。
+
+## 2026-10-30：局部Meno后的恢复不直接等于曲首数值
+
+[Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Snow K的Meno与rit.后a tempo先按局部语境读，p6s3明确四分88才给数值重设。L的2/4 q0已在旧quarter tie接收处恢复，三个新16更晚。Gould p65本批是tie阅读依据，不记为速度章复读。

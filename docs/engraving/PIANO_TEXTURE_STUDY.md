@@ -270,3 +270,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：白头与另一层休止都有任务
 
 [Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Silhouette P首白二分头兼下干三连8，一小节仍十二快时点；PDF重画字符不增攻击。Sirius C／D旧附点二分层q3休止而快层q3八分仍响，不能串加。虚线追慢旋律、gliss给动作，手括号只指局部。
+
+## 2026-10-30：混合三连不能缩放整个voice
+
+[Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Sparkle A低部普通四分休止后才有三连旋律，背景全音独立；G上部休止＋九三连8、下部三三连8后普通四分／二分休止分别计量。Snow D／I局部l.h.、N的r.h.与慢和弦各有对象。PDF层次不直接证明原工程voice和播放。

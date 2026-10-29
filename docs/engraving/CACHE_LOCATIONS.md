@@ -130,3 +130,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-30 Shinzou／Shirushi本批约12.39MiB，总净书缓存约2.629GiB；101张不同本地视图36复用65新图。无原PDF／字体／运行时副本或删除，低于100MiB／3GiB检查线。[精确字节与时点](shinzou_shirushi_closeout_evidence.json)先于最后小记录。
 
 2026-10-30 Silhouette／Sirius本批约14.36MiB，总净书缓存约2.643GiB；114张不同本地视图35复用79新图。无原PDF／字体／运行时副本或删除，低于100MiB／3GiB检查线。[精确字节与时点](silhouette_sirius_closeout_evidence.json)先于最后小记录。
+
+2026-10-30 Snow／Sparkle本批约15.52MiB，总净书缓存约2.658GiB；108张不同本地视图32复用76新图。无原PDF／字体／运行时副本或删除，低于100MiB／3GiB检查线。[精确字节与时点](snow_sparkle_closeout_evidence.json)先于最后小记录。

@@ -172,3 +172,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：路径、动作和持续逐条归属
 
 [Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Silhouette L虚线追低部慢旋律入上表再返回，O波线另表滑奏，长slur统领各自动作。分功能后调净空，不按斜线／曲线形状合并；P共头慢干与快梁也不能因重复绘制报重音。
+
+## 2026-10-30：动作组、路径与持续分读
+
+[Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Snow H前两条弧各罩十音，内梁仍每五分组；Sparkle D.S.前斜虚线追到上部四分，不增加发音或滑奏。末低音四bar tie、上部末和弦tie和Coda后的延长休止按各层保留，不套同一种结束模板。
