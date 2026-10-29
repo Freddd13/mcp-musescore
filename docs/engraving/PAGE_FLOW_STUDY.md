@@ -211,3 +211,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：行中边界和结束空白
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou G／J行中换调及两套房子跨系统，各自导航清楚；Shirushi L在旧接收的a tempo之后另一小节进入，p4s3八度起点不是小节线。Shinzou末延长休止与Shirushi末延长和弦不同，不能因页面空白合并结束。
+
+## 2026-10-30：引子与主题组合先核开页和整页预算
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Silhouette p4末为四分休止＋三pp四分，之前才是整小节延长休止；J在p5。比较完整引子小节移到J前，可减少跨页寻找；p5首行五变六小节需重核整页。常规奇数右页下p4／p5同开页，不能把此候选称为解决翻页。

@@ -234,3 +234,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：部分梁的组外末音
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shirushi8组前八为32，8:6占3/4q，最后普通16占1/4q；3只围两普通16＋16休止之后的后三连32。十连一休止＋九头，15:8跨表3下＋12上；Shinzou末四组双梁各1q。完整梁裸数保留，部分范围才优先短括号。
+
+## 2026-10-30：完整五连和部分三连分判
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius C／D快层为四分休止＋4普通16＋5:4十六分＋2普通8；q3上方8休止属于另一保持层。E五连首头向上干已连梁，完整5保裸数；两首部分3的末普通8在组外，优先短括号。Silhouette7:4八分各2q、9:8十六分2q，adlib不抹掉名义分组。

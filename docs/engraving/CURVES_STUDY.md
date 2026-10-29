@@ -168,3 +168,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：音型与拍组保两套线索
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou M三音短弧与四音梁可错开，brillante短弧跨拍突出音型，末大弧统领25音下降。I虚线给慢声路径；先改弧形／净空，改变范围或重分梁单列记法提议。
+
+## 2026-10-30：路径、动作和持续逐条归属
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Silhouette L虚线追低部慢旋律入上表再返回，O波线另表滑奏，长slur统领各自动作。分功能后调净空，不按斜线／曲线形状合并；P共头慢干与快梁也不能因重复绘制报重音。

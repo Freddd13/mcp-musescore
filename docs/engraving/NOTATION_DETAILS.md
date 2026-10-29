@@ -319,3 +319,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：细梁与多行附点先认清
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shirushi K是32普通32而非16；末sfz小节有双附点四分7/4q＋两个32共1/4q，初猜三附点／64撤回。8组第三梁不含最后普通16；10组休止为成员，共头不同角色不能报多音。
+
+## 2026-10-30：符头颜色与绘制次数不能独断时值
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Silhouette P空心头支持慢二分及快八分三连角色，保一可见头、两类干；Sirius弱起8＋六16合2q，E五连首头已连梁。和弦多头仍一时点，原稿C力度sfz不泛化为ff。

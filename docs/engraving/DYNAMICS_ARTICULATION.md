@@ -153,3 +153,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：提前与休止生效各有角色
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou开头ff拾起q3.5，M休止后q1进入，N上部休止时f已q0；F sfq0/fq0.5对S sfq0/ffq0.5。Shirushi p4s4 pp在q3、末sfz8后p在q1，不吸到段号或合并两层。
+
+## 2026-10-30：休止、旧接收与小节中途的力度
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius C为sfz，旧ff概述纠正；p2s1末sfzq3.5接下一bar mfq0旧tie，末行sfzq0→mfq1.5、末bar ffq2。Silhouette B mpq0在上部休止、D上p下mp而E上mf；不全吸到段号／新攻击。

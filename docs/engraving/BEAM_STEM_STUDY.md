@@ -153,3 +153,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：梁黑度先问值和角色
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shirushi K三梁来自32普通32，Shinzou末7／6／5两梁均为16连音，不能按数字或外观密集猜梁层。梁按拍与短弧按音型可不同；多干与跨表最短干净空优先，字体与线重只是后续受控输入。
+
+## 2026-10-30：首头在梁外框左侧不等于没连上
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius E五连向上干位于首头右侧，五音完整双梁、下一四音另梁；保裸5。Silhouette P空心头向下接快梁、向上慢干，不能为整齐统一干向或补黑头；跨表梁仍核最短干净空。

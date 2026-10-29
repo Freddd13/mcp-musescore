@@ -266,3 +266,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：共头、路径和共享时间
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou I快12普通16＋末8与慢附点四分／8并行，斜虚线追旋律；Shirushi15首头兼另一普通角色反向干，字符两次绘制不加快音。末7/7/6/5与低三连建28共同列；二分震音两端共享2q，不能串加。
+
+## 2026-10-30：白头与另一层休止都有任务
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Silhouette P首白二分头兼下干三连8，一小节仍十二快时点；PDF重画字符不增攻击。Sirius C／D旧附点二分层q3休止而快层q3八分仍响，不能串加。虚线追慢旋律、gliss给动作，手括号只指局部。

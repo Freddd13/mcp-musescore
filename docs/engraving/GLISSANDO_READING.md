@@ -92,3 +92,7 @@ Kaibutsu K第二行斜虚线引导低表中间旋律到上表，L前末拍叉头
 ## 2026-10-29：同曲波线、斜虚线和手提示分工
 
 [My War](INTEGRATED_READING_SOUL_WAR.md)叉形端点gliss.描述动作，B前斜虚线帮助追踪，l.h.／r.h.括形说明交接；强奏再现的8va和滑后sub.p另有时点。保原分类，不能统一线型或拿最近普通音补成精确滑奏目标。
+
+## 2026-10-30：特殊头先查作品中的动作
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius特殊端点／gliss／短8va与Silhouette慢声虚线、O波线各保功能。精确落键不由最近普通头决定；Gould567–568实为cue选择范围，不能用其叉头节奏cue例为全部钢琴叉头定音高含义。滑奏依据仍为既核140–146／326。

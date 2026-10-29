@@ -71,6 +71,8 @@
 
 <a id="layout"></a>
 
+`INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：p4末三个pp四分引子可与p5J比较完整小节组合，先核次页五变六小节的预算；常规奇数右页下p4／p5同开页，跨页阅读候选不能称为物理翻页已改善。
+
 `INTEGRATED_READING_KURA_KUUSOU.md`：H半小节同页跨行增加计数负担，完整留行须权衡相邻系统容量；提议未原生重排，不将方向写成已改善，也不推出固定小节数。
 
 `INTEGRATED_READING_KIGEKI_KILLY.md`：Killy H页末无结束小节线，p4／5的2＋2合一个4/4。优先比较完整小节续页，查整页密度；十／六拍变八／八拍不证明容量相等，页界也不等于物理翻页。
@@ -100,6 +102,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：先保稳定活动；C下部q2.5夹在五连q2.4与q2.6之间，不能按最近符头吸齐。白头可占一个快列，和弦多头也只一时点；混合值与普通16分判。
 
 `INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：同1q的7／6／5单步可不同宽；25快音＋6三连攻击共28列，只在q0/q2/q8/3同起。先保组形、共同到达和中间先后；B8、M16、K32与必要前缀分别判断。
 
@@ -199,6 +203,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：C／D q3上部8休止属于旧附点二分层，快速声部同刻仍有8音；先分层再核时值。完整独立5／7／9保裸数，部分3与组外普通8共主梁才优先短括号。
+
 `INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：8:6前八32后有普通16；部分3只管两普通16和休止之后的后三连32，10含一个休止。完整独立7／6／5裸数保留。先看所有梁层、组外音和另一手拍点，不按数字猜分母。
 
 `INTEGRATED_READING_SAKAYUME_SAYONARA.md`：跨表六连可3下＋3上，也可三头和弦＋五单音为六时点八头；五音加16休止也成完整6。保清楚的完整梁；普通8与后三连共梁才比较局部短括号。
@@ -271,6 +277,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：C首sfz纠正旧ff；Sirius末sfzq0→mfq1.5、末bar ffq2。旧tie接收／上部休止也可有生效点，段号不替代局部位置。
+
 `INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：Shinzou ff提前8q3.5，M q1而N f q0在休止；Shirushi a tempo q2旧tie接收、mpq2.5新八分，L另起。不能统一移到段号／新攻击。
 
 `INTEGRATED_READING_SAKAYUME_SAYONARA.md`：力度可在q31/8提前32、q0休止或独立层q2生效；不统一移到段号。Sayonara marcato两手共同攻击／休止，保刻意断口。
@@ -294,6 +302,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先认同一动态进程，再决定哪些标记应共用通道。`markings`的unlasting实例有同表mf／ff和休止前后p sub.／pp：位置不齐可正在表达不同层与时点，不合并／移齐。长限定短语与延续线一起读，分散词的X不自动是新力度或速度事件；起点给全短语及新行提醒可作候选，不能冒充一律禁止分词的规范。几何、逻辑范围与播放scope分查。
 
 <a id="cross-staff"></a>
+
+`INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：P空心二分头兼下干三连8，保慢旋律与十二快列，PDF叠画不加攻击。慢声虚线、滑奏、八度、手括号逐一读范围。
 
 `INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：15:8跨表首头支持另一角色反向干，两次近重合PDF字符只算一个快时点；I斜虚线给慢旋律路径。梁拍组与短弧音型可错开；二分震音两端共享时段。
 

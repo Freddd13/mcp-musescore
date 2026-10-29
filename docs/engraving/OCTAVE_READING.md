@@ -178,3 +178,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：八度尾端与行界无固定关系
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou p6s5长8va从q1开始到p7s1首小节后结束，p7s4另一线在第三小节中途结束；Shirushi15后8va仅到2/4首8，p4s3宽小节行中8va处没有小节线。不把线尾拖到系统末或将八度范围充当连音范围。
+
+## 2026-10-30：同型运行的8va仍可不同
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius C只罩初四普通16中的前三，D罩五连及其后第一8；Silhouette L仅前三个三连8，第四个相似书写音型已低一八度。Meno九连之后下一小节才8va，末尾换号及8vb各保边界。

@@ -264,3 +264,7 @@ C32组内7.434–7.614pt，下一小节8.136–8.154pt，各自稳定；X十四1
 ## 2026-10-30：同拍不同分法的步幅
 
 [Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：末7／7／6／5各1q，25快音＋6四分三连攻击合28列，只有q0/q2/q8/3同起；组内步幅随音数减少而变宽，真实中间先后保留。B8、M16、K32稳定层及必要变音占位分判，不统一全谱等距。
+
+## 2026-10-30：稳定活动与真正中间进入
+
+[Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius p7s3三个八分小节约11.682–11.880pt步幅，末行八分约14.166–14.346pt，均保；C下部q2.5位于五连q2.4与q2.6之间，不吸到最近符头。Silhouette M普通16局部宽格先查前缀，P白头仍占一个快列。
