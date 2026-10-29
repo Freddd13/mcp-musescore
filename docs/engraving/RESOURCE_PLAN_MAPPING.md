@@ -1,5 +1,7 @@
 # 用户所给资源规划：落实顺序与证据范围
 
+2026-10-30[R17英文完整补读](MOLA_READING.md)：16/16页实际看图，13页首次（7技术＋6辅助）、3页复读，7个图例全部核到；纠正旧笔记对中文奇数页上角的误读，详见[证据](mola_english_reading_evidence.json)。R17原已完成，资料15/25、余10项保持。[R14琶音页面](musescore3_arpeggio_video_partial_evidence.json)补三段06:43／05:35／19:03，合31:21；Chrome建页后读取与内置浏览器均超时，画面／声音仍未读，保留partial。R12／R13未取得目标内容，R15开页Cache miss；不重复尝试浏览器，以可得材料继续学习。
+
 2026-10-30[R11连梁视频部分证据](musescore3_beam_video_partial_evidence.json)：已核公开标题／作者、3.6.2说明、两分P11:09＋28:29及第一P04:01一帧的Beam Properties／No beam。只有页面与该帧实际看过，自动播放走过的时间不计观看，第二P／完整操作／声音未读；unread更新partial，资料仍15/25、余10项。10月30日重开浏览器超时，后续可再尝试正常公开页面；未下载或重发画面。
 
 2026-10-29[R20十四幅图补齐](MUSESCORE3_LAYOUT_READING.md)：8/8定向正文、14/14不同图（15处图位置）、8项源码及此前5档原生参数条件共同闭合既定范围。资料15/25（余10），旧0/14是历史状态。重置命令实际运行、新Local relayout原生对照、完整手册和跨版本兼容未核。现有Spacing解释保持；新增空间层级、框与辅助符图例依据。
@@ -44,7 +46,7 @@
 | 廿十七 | 名称线索仍未可靠定位 | 不使用同名账号冒认；保留为尚未核实的来源 |
 | 萌象的J哥：连梁[视频](https://www.bilibili.com/video/BV14Z4y1f7bG/)、页面[视频](https://www.bilibili.com/video/BV1k34y1B7Jc/)、声部[视频](https://www.bilibili.com/video/BV19r4y177GY/)、琶音[视频](https://www.bilibili.com/video/BV1F44y1L7u8/)、符号[视频](https://www.bilibili.com/video/BV1uu411d7Fq/) | 用户所给线索 | 核具体视频、版本和操作；操作会做不等于知道何时应该做 |
 | [Behind Bars官方目录](https://behindbarsnotation.co.uk/contents/)及用户本地书 | 已有实际图页阅读，见[教材笔记](BEHIND_BARS_NOTES.md) | 用户规划写704页，本地文件实际696页；以实际PDF/印刷映射定位，不用总页数猜章页 |
-| [MOLA](https://mola-inc.org/resources/11631) | 已核官网简体中文PDF链接及16页文件；正文PDF p3–8可读 | 2026-10-23补齐16/16页；技术p3–12为复读，英文只核3页，见[MOLA复核](MOLA_READING.md)。乐团分谱尺寸不能直接当独奏钢琴下限 |
+| [MOLA](https://mola-inc.org/resources/11631) | 已核官网简体中文PDF链接及16页文件；正文PDF p3–8可读 | 中文16/16页；2026-10-30又补完英文16/16，不增加R17项数，见[MOLA复核](MOLA_READING.md)。乐团分谱尺寸不能直接当独奏钢琴下限 |
 | [MPA](https://www.mpa.org/permission-forms-informational-pdfs/) | 已核20页PDF，前言和少量正文可提取 | 2026-10-21已补看全部20页图版，见[MPA复核](MPA_READING.md)；未做全部规则的原生验证 |
 | [LilyPond 2.26 essay](https://lilypond.org/doc/v2.26/Documentation/essay/index.html) | 2026-10-24补齐正文／书目21网页、55不同图、32份片段及一个共用include，结合旧18张定向间距图／源码，R19范围闭合 | 见[候选判断](AUTOMATED_ENGRAVING_JUDGMENT.md)。不含书目原著；未编译或核当前评分器，三项分数为手写示意标签，R24独立范围仍partial |
 | [MuseScore 3中文排版手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting) | 8/8段定向正文、14/14不同图、8项Evolution源码及既有5档原生参数条件；见[R20](MUSESCORE3_LAYOUT_READING.md) | 规定范围闭合；完整手册、新Local relayout原生对照及重置运行未核，不能先全谱重置清掉人工判断 |

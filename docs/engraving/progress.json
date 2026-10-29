@@ -2504,7 +2504,9 @@
       {
         "id": "R14",
         "scope": "萌象的J哥：跨表琶音视频",
-        "status": "partial"
+        "status": "partial",
+        "evidence": "musescore3_arpeggio_video_partial_evidence.json",
+        "remaining": "Actual31:21operation sequence,examples,and audio have not been studied; page metadata is not tutorial completion."
       },
       {
         "id": "R15",
@@ -2524,7 +2526,10 @@
         "scope": "MOLA：16页完整公开指南",
         "status": "complete",
         "note": "MOLA_READING.md",
-        "evidence": "mola_reading_evidence.json"
+        "evidence": "mola_reading_evidence.json",
+        "supplementary_evidence": "mola_english_reading_evidence.json",
+        "english_complete_pages": 16,
+        "english_supplement_boundary": "13new image pages=7technical+6auxiliary,3reread;R17alreadycomplete,no resource increment. Prior odd-page corner misreading corrected."
       },
       {
         "id": "R18",
@@ -2708,27 +2713,29 @@
   },
   "last_study_batch": {
     "date": "2026-10-30",
-    "scope": "Solo Tabi/Tamashii12wholepages70systems;fastactivity/independentlines,partialtupletsandnonstandardratio,crossstaffstemaxesandhandoff,clefs/octaves/lateentries;noadaptation.",
+    "scope": "Solo official MOLA English16wholepages,Chinese7rereads,2figure details;conditional navigation/waiting/output/proofreading judgments and prior odd-page corner correction;R14metadata only,noadaptation.",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
-    "new_all_score_closeouts": 2,
-    "new_all_score_closeout_pages": 12,
-    "new_all_score_closeout_ids": [
-      "A123",
-      "A124"
-    ],
+    "new_all_score_closeouts": 0,
+    "new_all_score_closeout_pages": 0,
+    "new_all_score_closeout_ids": [],
     "new_unique_ledger_book_pages": 0,
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 21,
+    "book_reread_pages": 0,
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
+    "new_supplementary_english_pages": 13,
+    "new_supplementary_english_technical_pages": 7,
+    "new_supplementary_english_auxiliary_pages": 6,
+    "supplementary_english_reread_pages": 3,
     "notes": [
-      "INTEGRATED_READING_TABI_TAMASHII.md"
+      "MOLA_READING.md",
+      "RESOURCE_PLAN_MAPPING.md"
     ],
-    "review_evidence": "tabi_tamashii_closeout_evidence.json",
+    "review_evidence": "mola_english_reading_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {

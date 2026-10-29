@@ -1,0 +1,449 @@
+{
+  "date": "2026-10-30",
+  "purpose": "Complete the official English MOLA booklet and correct a prior page-corner misreading; transfer conditional judgments to piano engraving.",
+  "official_entry": "https://mola-inc.org/resources/11631",
+  "source_edition": "Edited2017,v4; verified from official entry and last-page credits; upload date does not define a new edition.",
+  "sources": [
+    {
+      "language": "en",
+      "path": "tmp/engraving/mola-reading-2026-10-23/mola-2017-official-en.pdf",
+      "url": "https://mola-inc.s3.eu-west-1.amazonaws.com/files/mola3/MOLA-Guidelines-for-Music-Preparation.pdf",
+      "sha256_before_and_after": "5b5cc21d2e0ddf46362a52bd5c88a04e6cfb8d51d7c75110173196008d7d28b3",
+      "pages": 16,
+      "unchanged": true
+    },
+    {
+      "language": "zh",
+      "path": "tmp/engraving/resources-2026-10-18/mola-zh.pdf",
+      "url": "https://mola-inc.s3.eu-west-1.amazonaws.com/files/h6k0QEfKSAZvs70PO0CWV47aN8E2zTIe8tnVeAl1.pdf",
+      "sha256_before_and_after": "002a990b9fe02246a705814575bc8914f70a3b61dd2f774b8ce6926362eb7de8",
+      "pages": 16,
+      "unchanged": true
+    }
+  ],
+  "coverage": {
+    "english_complete_pages_actually_viewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "previous_english_coverage": [
+      5,
+      7,
+      8
+    ],
+    "new_english_technical_pages": [
+      3,
+      4,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "new_english_auxiliary_pages": [
+      1,
+      2,
+      13,
+      14,
+      15,
+      16
+    ],
+    "english_reread_pages": [
+      5,
+      7,
+      8
+    ],
+    "chinese_reread_pages": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      12
+    ],
+    "english_figure_details_viewed": [
+      4,
+      7
+    ],
+    "views_total": 25,
+    "reused_views": 10,
+    "new_images": 15,
+    "english_technical_total": 10,
+    "english_auxiliary_total": 6,
+    "complete_examples": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "same_main_section_and_figure_physical_page_order_in_both_editions": true,
+    "technical_classification_note": "Existing MOLA p3-12 technical-body/figure convention includes p3 foreword; this does not count as new technical rules."
+  },
+  "images": [
+    {
+      "language": "en",
+      "pdf_page": 1,
+      "page_role": "cover",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-01.png",
+      "sha256": "f9a788a5afc6aa090474076cde23321aa8fc058aae4b22e312b731a9ce92bf99",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": false
+    },
+    {
+      "language": "en",
+      "pdf_page": 2,
+      "page_role": "blank",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-02.png",
+      "sha256": "81de3d984e66183ea503f02245fda3ba148a650ad6420279dea663e6e91796e9",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": false
+    },
+    {
+      "language": "en",
+      "pdf_page": 3,
+      "page_role": "foreword",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-03.png",
+      "sha256": "e61798755bae52fcedf3327d163f9b6968e88ab872f2c76af2d65e11b46529d9",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 4,
+      "page_role": "performance material: full score",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-04.png",
+      "sha256": "3a12b04ccbd1e8d04869f0f337b12daadecf79cd274c24553cf93bcf2d0f1456",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 5,
+      "page_role": "parts",
+      "path": "tmp/engraving/mola-reading-2026-10-23/en-page-05.png",
+      "sha256": "144a75900000ad1dd419818ef54e4dd0fd2e7267968fd5b90b28da76a436b175",
+      "actual_entire_image_viewed": true,
+      "reused_image": true,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 6,
+      "page_role": "cover and front matter",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-06.png",
+      "sha256": "3ebbee27de474df9bf9e15be95268587f5d0581d96569b394733dc4eca6f28f4",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 7,
+      "page_role": "formatting",
+      "path": "tmp/engraving/mola-reading-2026-10-23/en-page-07.png",
+      "sha256": "0f8a2c170b599b1cf01fefeba82e0cfee8e5f16bf139d662f876f9d34f1ed74f",
+      "actual_entire_image_viewed": true,
+      "reused_image": true,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 8,
+      "page_role": "proofreading; paper and binding",
+      "path": "tmp/engraving/mola-reading-2026-10-23/en-page-08.png",
+      "sha256": "724695edcdcf18caee6358cefb9ca08e4350cee4b20e877aa88a7044e762b6f8",
+      "actual_entire_image_viewed": true,
+      "reused_image": true,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 9,
+      "page_role": "examples1-2",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-09.png",
+      "sha256": "1be17ac69dcbbbd38c8a6a3c28465ccb67546ade1c777cf4f2228b91ab9ca9a3",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 10,
+      "page_role": "examples3-5",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-10.png",
+      "sha256": "aad41044f4fc131d9b2bdb8ddf52076a3c542bd232a9d0af14845b7ab1b90141",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 11,
+      "page_role": "example6",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-11.png",
+      "sha256": "e7f24004c96622bc06f94345f82d8209fdf1eacd2e6871c930cac71290740452",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 12,
+      "page_role": "example7; bibliography",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-12.png",
+      "sha256": "8b92e5076bdd694855851e49272d85b6c19479f398283ab7ab33d5477a1ba953",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 13,
+      "page_role": "other MOLA publications index",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-13.png",
+      "sha256": "14c43548e4ec1946d95c9b800b77020fdb41b381858b0779e8c345ae248d782b",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": false
+    },
+    {
+      "language": "en",
+      "pdf_page": 14,
+      "page_role": "blank",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-14.png",
+      "sha256": "f2be6f8131cc10eb3127ed5a191f917e5f0a89b19f83d47d890309538fe61861",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": false
+    },
+    {
+      "language": "en",
+      "pdf_page": 15,
+      "page_role": "blank",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-15.png",
+      "sha256": "81de3d984e66183ea503f02245fda3ba148a650ad6420279dea663e6e91796e9",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": false
+    },
+    {
+      "language": "en",
+      "pdf_page": 16,
+      "page_role": "edition credits",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-page-16.png",
+      "sha256": "47c6ba9633e0a813f9129f1bbbfc08d7ec73c4ef812d94e56a3737170eaa0c2b",
+      "actual_entire_image_viewed": true,
+      "reused_image": false,
+      "technical_page": false
+    },
+    {
+      "language": "zh",
+      "pdf_page": 4,
+      "path": "tmp/engraving/resources-2026-10-18/mola-zh-04.jpg",
+      "sha256": "f69cf4cb22ae1325c3a8391ec05ab0c2009b536c181731e8f898ca3f8f545e5b",
+      "actual_entire_image_viewed": true,
+      "reused_image": true
+    },
+    {
+      "language": "zh",
+      "pdf_page": 5,
+      "path": "tmp/engraving/resources-2026-10-18/mola-zh-05.jpg",
+      "sha256": "8b633e5b19a3a18f2bddfe242b723421596202e3b094dab01101ac889fdc1e4e",
+      "actual_entire_image_viewed": true,
+      "reused_image": true
+    },
+    {
+      "language": "zh",
+      "pdf_page": 6,
+      "path": "tmp/engraving/resources-2026-10-18/mola-zh-06.jpg",
+      "sha256": "048effc52148e33bc4b4fd533ad7fffd9430c1c10b02f4bd765bf84910bb2cfc",
+      "actual_entire_image_viewed": true,
+      "reused_image": true
+    },
+    {
+      "language": "zh",
+      "pdf_page": 7,
+      "path": "tmp/engraving/resources-2026-10-18/mola-zh-07.jpg",
+      "sha256": "1bbb99f2da08517614fe63b62a03174e599a6e3d062f4fceab2c6555f9046d6d",
+      "actual_entire_image_viewed": true,
+      "reused_image": true
+    },
+    {
+      "language": "zh",
+      "pdf_page": 8,
+      "path": "tmp/engraving/resources-2026-10-18/mola-zh-08.jpg",
+      "sha256": "6d3cb199b56fca943d0eac123015ca5f16354004ce74b35c2e13bf41ff2d875b",
+      "actual_entire_image_viewed": true,
+      "reused_image": true
+    },
+    {
+      "language": "zh",
+      "pdf_page": 10,
+      "path": "tmp/engraving/resources-2026-10-18/mola-zh-10.jpg",
+      "sha256": "6297c7235cb9a30d53414bfe1a19c87c7d6fb72103285f70ad05c1ced8d98955",
+      "actual_entire_image_viewed": true,
+      "reused_image": true
+    },
+    {
+      "language": "zh",
+      "pdf_page": 12,
+      "path": "tmp/engraving/resources-2026-10-18/mola-zh-12.jpg",
+      "sha256": "3b6109cf8f765b452f5b751f0b91ee9c1f433f47f6db6f5bb26420fcebd8c48a",
+      "actual_entire_image_viewed": true,
+      "reused_image": true
+    },
+    {
+      "language": "en",
+      "pdf_page": 10,
+      "view": "figure detail",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-example-4.png",
+      "sha256": "f1ca6c66ce9004c151ad3c1267f9e428f301b43be606156e0c676993cd6bbe5f",
+      "actual_entire_image_viewed": true,
+      "reused_image": false
+    },
+    {
+      "language": "en",
+      "pdf_page": 12,
+      "view": "figure detail",
+      "path": "tmp/engraving/mola-english-2026-10-30/en-example-7.png",
+      "sha256": "5d89415cb5a167feb0eb8761c15cd6791138ccdffdeda2c930a7647b3c22c6be",
+      "actual_entire_image_viewed": true,
+      "reused_image": false
+    }
+  ],
+  "findings": [
+    {
+      "pdf_pages": [
+        7
+      ],
+      "type": "correction_of_our_prior_reading",
+      "prior_evidence": "mola_reading_evidence.json",
+      "prior_field": "translation_findings[0].finding",
+      "current": "Chinese odd/right page upper-right is correct; only the even/left page is also assigned upper-right in translation. English puts even/left upper-left. Prior claim that both corners were reversed was wrong.",
+      "applies_to": "Ordinary double-sided print; PDF order, printed number and physical spread remain separate."
+    },
+    {
+      "pdf_pages": [
+        5,
+        10
+      ],
+      "type": "translation_and_reading_condition",
+      "current": "Cues are needed during extended rests where useful, not merely after them; retain tempo and meter changes. Next entry, rather than next measure, confirms the doubled instrument."
+    },
+    {
+      "pdf_pages": [
+        8
+      ],
+      "type": "translation_and_reading_condition",
+      "current": "Accordion binding is an exception for rare page-turn situations, not a permission based on low page count; roughly40sides and paper weight condition coil-binding advice."
+    },
+    {
+      "pdf_pages": [
+        4,
+        5,
+        10
+      ],
+      "type": "judgment",
+      "current": "System-start measure position, multirest duration/range, rehearsal landmark and audible cue serve separate tasks. Film/Music Theatre retain individual measure numbering as an explicit exception."
+    },
+    {
+      "pdf_pages": [
+        6,
+        7
+      ],
+      "type": "judgment",
+      "current": "A cover may provide instructions or change the music opening to page2 for a turn. Recheck physical spreads. Staff height is bottom-to-top, not one space; orchestra/solo scope remains separate."
+    },
+    {
+      "pdf_pages": [
+        8,
+        12
+      ],
+      "type": "judgment",
+      "current": "Proofread both horizontal musical continuity and vertical relationships. Anchored objects and preserved playback do not establish readable placement after a layout change."
+    }
+  ],
+  "transfer_to_existing_score_case": {
+    "reference": "INTEGRATED_READING_TABI_TAMASHII.md",
+    "case": "Tamashii TempoI before M, with lower old chord and upper rest; do not shift global tempo to later upper entry or automatically duplicate on both staves.",
+    "new_score_coverage": 0,
+    "new_native_verification": false,
+    "user_preference_confirmed": false
+  },
+  "counting": {
+    "resource_id": "R17",
+    "previous_status": "complete",
+    "current_status": "complete",
+    "new_completed_resource_scopes": 0,
+    "cumulative_resources": [
+      15,
+      25
+    ],
+    "new_score_closeouts": 0,
+    "cumulative_score_closeouts": [
+      112,
+      146
+    ],
+    "new_gould_pages": 0,
+    "new_transfer_scenarios": 0,
+    "new_user_integrated_rounds": 0
+  },
+  "boundaries": {
+    "other_MOLA_publications_read": false,
+    "bibliography_originals_newly_read": false,
+    "new_native_candidates": false,
+    "software_adaptation": false,
+    "printing_or_playing_test": false,
+    "original_scores_changed": false,
+    "source_PDF_copied": false,
+    "files_deleted": false,
+    "private_images_committed": false
+  },
+  "recorded_at_utc": "2026-10-29T21:42:06.834516+00:00",
+  "cache_before_final_small_records": {
+    "logical_bytes": 2923826318,
+    "file_count": 15434,
+    "batch_logical_bytes": 2841162,
+    "check_lines": {
+      "batch_bytes": 104857600,
+      "total_bytes": 3221225472
+    },
+    "existing_runtime_and_sources_reused": true
+  },
+  "verification": {
+    "checked_at_utc": "2026-10-29T21:44:09.855088+00:00",
+    "source_hashes_and_page_counts_checked": 2,
+    "image_hashes_checked": 25,
+    "topic_routes_and_all_targets_checked": [
+      "navigation",
+      "layout",
+      "sources"
+    ],
+    "duration_sum_seconds": 1881,
+    "reading_not_inferred_from_validation": true,
+    "scope_totals_preserved": true,
+    "edited_public_files_use_lf": true
+  }
+}
