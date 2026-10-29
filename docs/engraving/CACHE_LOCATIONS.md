@@ -126,3 +126,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-29 Resonance／Rising本批约9.62MiB，总净书缓存约2.603GiB；87张本地视图34复用53新图，R20十四图仅浏览器查看。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线；[精确字节与时点](resonance_rising_closeout_evidence.json)先于最后小记录。
 
 2026-10-30 Sakayume／Sayonara本批约14.22MiB，总净书缓存约2.617GiB；105张不同本地视图38复用67新图。无原PDF／字体／运行时副本或删除，浏览器视频未下载；低于100MiB／3GiB检查线。[精确字节与时点](sakayume_sayonara_closeout_evidence.json)先于最后小记录。
+
+2026-10-30 Shinzou／Shirushi本批约12.39MiB，总净书缓存约2.629GiB；101张不同本地视图36复用65新图。无原PDF／字体／运行时副本或删除，低于100MiB／3GiB检查线。[精确字节与时点](shinzou_shirushi_closeout_evidence.json)先于最后小记录。

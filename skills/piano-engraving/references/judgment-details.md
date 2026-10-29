@@ -101,6 +101,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：同1q的7／6／5单步可不同宽；25快音＋6三连攻击共28列，只在q0/q2/q8/3同起。先保组形、共同到达和中间先后；B8、M16、K32与必要前缀分别判断。
+
 `INTEGRATED_READING_SAKAYUME_SAYONARA.md`：12/8的24个普通16与六连分判；活动角色可换到下表。保重升号／换号真实占位，再查小节预算，头原点不能当干轴。
 
 `INTEGRATED_READING_RESONANCE_RISING.md`：B／F组内稳定但相邻小节预算不同；I普通8、L末8／附点8不混成全16。先认角色与真实值，再查前缀和整行预算；R20补谱表／系统／框等不同空间层级。
@@ -197,6 +199,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：8:6前八32后有普通16；部分3只管两普通16和休止之后的后三连32，10含一个休止。完整独立7／6／5裸数保留。先看所有梁层、组外音和另一手拍点，不按数字猜分母。
+
 `INTEGRATED_READING_SAKAYUME_SAYONARA.md`：跨表六连可3下＋3上，也可三头和弦＋五单音为六时点八头；五音加16休止也成完整6。保清楚的完整梁；普通8与后三连共梁才比较局部短括号。
 
 `INTEGRATED_READING_RESONANCE_RISING.md`：J首梁普通8之后七个16依下部拍点占1.5q，优先7:6及仅七音短括号；下一梁仅末三为三连。前一系统三束独立5已清楚，保裸5，不能泛加括号。
@@ -267,6 +271,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：Shinzou ff提前8q3.5，M q1而N f q0在休止；Shirushi a tempo q2旧tie接收、mpq2.5新八分，L另起。不能统一移到段号／新攻击。
+
 `INTEGRATED_READING_SAKAYUME_SAYONARA.md`：力度可在q31/8提前32、q0休止或独立层q2生效；不统一移到段号。Sayonara marcato两手共同攻击／休止，保刻意断口。
 
 `INTEGRATED_READING_RAILGUN_PIERCE.md`：段号、8va、力度常先后错开；Railgun H前sub.p／O前fff在q5/2，不统一移到新段号。
@@ -288,6 +294,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先认同一动态进程，再决定哪些标记应共用通道。`markings`的unlasting实例有同表mf／ff和休止前后p sub.／pp：位置不齐可正在表达不同层与时点，不合并／移齐。长限定短语与延续线一起读，分散词的X不自动是新力度或速度事件；起点给全短语及新行提醒可作候选，不能冒充一律禁止分词的规范。几何、逻辑范围与播放scope分查。
 
 <a id="cross-staff"></a>
+
+`INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：15:8跨表首头支持另一角色反向干，两次近重合PDF字符只算一个快时点；I斜虚线给慢旋律路径。梁拍组与短弧音型可错开；二分震音两端共享时段。
 
 `INTEGRATED_READING_MELISSA_MERRY.md`：F跨表干轴与头位分判，别靠压头距追求均匀；长干、发夹和手括形要看完整通道。
 
@@ -406,6 +414,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`INTEGRATED_READING_SHINZOU_SHIRUSHI.md`：D.S.旁三降预告回E，物理相邻Coda为五降；L五降起点与后来三降第二起点各配自己的房子。按实际来路核调号／持续，不从相邻行继承。
 
 `INTEGRATED_READING_MIIRO_MIXED.md`：Mixed D.S.三音回C、To Coda八度去Coda，纸面相邻DS→Coda没有音乐边；查每个真实来路及调号再配接收。
 

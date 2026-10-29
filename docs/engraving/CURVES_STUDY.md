@@ -164,3 +164,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：旧接收、重奏和休止的边界
 
 [Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：Sayonara同页attacca拾起后M先接旧低音四分，再四分／二分休止；末四次上部全音攻击对低部tie，随后sfz全音tie到另一小节，最后休止延长。不能把长分句弧当每音tie，也不能统一补／删持续。
+
+## 2026-10-30：音型与拍组保两套线索
+
+[Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou M三音短弧与四音梁可错开，brillante短弧跨拍突出音型，末大弧统领25音下降。I虚线给慢声路径；先改弧形／净空，改变范围或重分梁单列记法提议。

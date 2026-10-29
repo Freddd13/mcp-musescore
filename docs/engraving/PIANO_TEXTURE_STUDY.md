@@ -262,3 +262,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：跨表时点与独立层
 
 [Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：B六连3下＋3上，F第一6为2下＋4上、第三6从三头和弦开始；同起和弦只占一份。Sayonara p6s1跨表普通16每半节休止＋七音，与上部半音背景并行；无数字6，不能看少数头编连音。
+
+## 2026-10-30：共头、路径和共享时间
+
+[Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou I快12普通16＋末8与慢附点四分／8并行，斜虚线追旋律；Shirushi15首头兼另一普通角色反向干，字符两次绘制不加快音。末7/7/6/5与低三连建28共同列；二分震音两端共享2q，不能串加。

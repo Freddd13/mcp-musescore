@@ -207,3 +207,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：段首可行中进入，同页换系统不作翻页证据
 
 [Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：Sayonara N72／O170均行中进入，双线／段号／织体和速度足以提示；固定每段新行会消耗预算。p8s2→s3attacca在同一物理页，保连续和旧接收，但不由此声称翻页可行。
+
+## 2026-10-30：行中边界和结束空白
+
+[Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou G／J行中换调及两套房子跨系统，各自导航清楚；Shirushi L在旧接收的a tempo之后另一小节进入，p4s3八度起点不是小节线。Shinzou末延长休止与Shirushi末延长和弦不同，不能因页面空白合并结束。

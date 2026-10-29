@@ -102,3 +102,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-29：目标的接收来自哪里
 
 [Mixed Nuts](INTEGRATED_READING_MIIRO_MIXED.md)首次至p4s5DS，回p2s5C，再至p3s2To Coda，跳p4s6Coda至末；分别核三音／八度tie及目标六升。优先明确D.S. al Coda，Coda缩进为次级比较；C行中另起行要算预算。相邻页面续弧不能代替实际来路，物理翻页未证。
+
+## 2026-10-30：两套反复和跳转的调号来路
+
+[Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou D.S.旁预告三降回E，物理相邻Coda却五降，To Coda来自五降并新攻击；L五降第一反复及p6s1第二小节三降第二反复各有自己的起点与房子。按实际来路核状态，不从相邻PDF行继承；尚未原工程展开播放。

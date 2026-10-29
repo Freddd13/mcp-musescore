@@ -174,3 +174,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：八度尾端不跟随表情虚线
 
 [Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：Sakayume P短8va／8vb与dim延续分别追范围；末r.h.仅提示局部和弦。Sayonara8va到p5s1末两个独立5前已结束；重升号保本谱拼写，不为省宽换等音。
+
+## 2026-10-30：八度尾端与行界无固定关系
+
+[Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou p6s5长8va从q1开始到p7s1首小节后结束，p7s4另一线在第三小节中途结束；Shirushi15后8va仅到2/4首8，p4s3宽小节行中8va处没有小节线。不把线尾拖到系统末或将八度范围充当连音范围。

@@ -169,3 +169,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：长短提示与速度等式分读
 
 [Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：Sakayume开头附点四分82，短2/4另立四分90；提示式是附点16＋32转三连8＋16，写3:1按2:1读。M／N等式均在新段一侧，旧／新单位方向仍需说明或演奏依据；Gould185–187历史体例相反，不能按左右机械算BPM。Sayonara N72／O170可行中开始。
+
+## 2026-10-30：恢复可以落在旧音接收
+
+[Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shirushi p5s5第二小节上部a tempo在q2二分tie接收，低部mp新八分q2.5才进，L随后另一小节；恢复无需等待新攻击或段号。

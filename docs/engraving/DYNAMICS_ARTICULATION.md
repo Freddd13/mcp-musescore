@@ -149,3 +149,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：休止／提前音上的力度与共同断口
 
 [Sakayume／Sayonara](INTEGRATED_READING_SAKAYUME_SAYONARA.md)：Sakayume mp／mf最后32拾起在q31/8；Sayonara下部mfq0而上部p快层q2，Lppsubito在q0上部休止、旋律q1才进。p8s5marcato首小节两手共同q0/q2攻击、q1/q3休止，初猜手间交错撤回；保断口，勿因长弧全tie。
+
+## 2026-10-30：提前与休止生效各有角色
+
+[Shinzou／Shirushi](INTEGRATED_READING_SHINZOU_SHIRUSHI.md)：Shinzou开头ff拾起q3.5，M休止后q1进入，N上部休止时f已q0；F sfq0/fq0.5对S sfq0/ffq0.5。Shirushi p4s4 pp在q3、末sfz8后p在q1，不吸到段号或合并两层。
