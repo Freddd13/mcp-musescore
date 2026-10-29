@@ -158,3 +158,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-29：旧接收、手括形与新快层
 
 [Nagi／NieR](INTEGRATED_READING_NAGI_NIER.md)Nagi X旧8va至新小节首8接收止，后14个16另读；V高短组与较低旋律／l.h.分层。NieR终止低部8vb分别围低音与最终保持，不因相似强奏合并；r.h.短括形不代表全层永久换手。
+
+## 2026-10-29：峰顶短范围与两手不同结束
+
+[Kiss J／Chance H](INTEGRATED_READING_KISS_CHANCE.md)上下8va／8vb各保所属表和独立末端；Kiss八度线抬高避弧不强平。Chance p5s3短8va只包32峰顶，跨表主梁与长弧不扩大八度作用域。

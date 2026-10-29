@@ -191,3 +191,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-29：新段醒目与长组曲预算
 
 [Nagi／NieR全25页](INTEGRATED_READING_NAGI_NIER.md)149系统。NieR Vague Hope行中靠曲名／调号／12/8／单位64提示；Gould487仍优先条件许可的新系统。先保可读现状，漏读时比较新行及相邻页预算。148早于A Beautiful Song曲名；段落／旋律／数值速度起点不自动绑定。
+
+## 2026-10-29：系统数量与行中建立状态
+
+[Kiss五页30系统／Chance五页29系统](INTEGRATED_READING_KISS_CHANCE.md)Kiss p2七系统、其余5／6，来自织体及标记预算；Chance I行中靠双线／字母／Poco meno建立新状态。先保阅读，需要新行时连相邻页比较页数和翻页，固定四小节／同系统数不作目标。

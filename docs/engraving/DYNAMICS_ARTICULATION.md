@@ -133,3 +133,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：持音接收也能开始新层次
 
 [Nagi X](INTEGRATED_READING_NAGI_NIER.md)p在旧八分tie接收处，随后才14普通16；旧8va也在接收后结束。p4s4 mp则在附点四分后起10个16，Z的ff从双线前两16提前音开始。保时点与层，不按小节线、字母或新攻击统一吸附。
+
+## 2026-10-29：重复包络和同时不同主次
+
+[Kiss E／I](INTEGRATED_READING_KISS_CHANCE.md)dim→pp→mf每次重建乐句，不按重复字删去。Chance上下p／mf／mp有同时的背景／旋律用途，Kissmeno f及J末两八分mf／mp各保拍内起点；不为整齐抹层。

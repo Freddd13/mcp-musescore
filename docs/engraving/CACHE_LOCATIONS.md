@@ -118,3 +118,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-29 Soul／My War批次约6.90MiB，总净书缓存约2.568GiB；66张不同实际视图中28复用、38新图。无原PDF／运行时副本、删除或清点错误，低于检查线；书页按明确印刷／物理映射及可见页脚核选。[精确字节与时点](soul_war_closeout_evidence.json)先于最后小记录。
 
 2026-10-29 Nagi／NieR批次约9.01MiB，总净书缓存约2.577GiB；89张不同实际视图中41复用、48新图。无原PDF／运行时副本、删除或清点错误，低于检查线；书页按明确印刷／物理映射及可见页脚核选。[精确字节与时点](nagi_nier_closeout_evidence.json)先于最后小记录。
+
+2026-10-29 Kiss／Chance与嵌套连音两批缓存分别约7.47MiB／1.35MiB，总净书缓存约2.585GiB；62张官谱／书页视图26复用36新图，另看原创原生对照。没有原PDF／运行时副本或删除，低于检查线；初次次梁指令错误探针保私有不发布。[精确字节和时点](kiss_chance_closeout_evidence.json)先于最后小记录。

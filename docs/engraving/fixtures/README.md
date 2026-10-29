@@ -302,3 +302,11 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [第一行两手对照](partial-tuplet-brackets-comparison.png)／[四小节上下文](partial-tuplet-brackets-full-context.png)：共同原生保存基线、180dpi、同框同物理比例。
 
 [理由与范围](../PARTIAL_TUPLET_BRACKETS_STUDY.md)及[证据](../partial_tuplet_brackets_evidence.json)记录22次CLI、精确分数配方、逐层梁、MIDI量化、原生重载及自动漏显的具体条件；没有实际打印、实曲迁移或用户采用。
+
+## 嵌套三连的范围与垂直层级
+
+2026-10-29原创CC0三小节4/4、29音，固定Leland／1.57mm／180mm版心。主梁六音的实际末拍1/9×3＋1/6×2＋1/3；次梁3＋2＋1，下方三连八分保三处共同列。
+
+- [A内层省略](nested-tuplet-implicit.mscx)、[B显示但自动同高](nested-tuplet-auto-position.mscx)、[C外层分层](nested-tuplet-tiered.mscx)及[同框图](nested-tuplet-comparison.png)。
+
+三版保存／重载、分数时值、音位和完整MIDI保持，480PPQ最大误差2/3tick；C仅在B上外层p1/p2上移1.25sp，B同高相叠不采用。图为180dpi原生保存重载后合白底／同框裁切，无符号移位缩放。初次错误次梁指令探针保私有，不发布；最终30次CLI、总60次。[判断](../NESTED_TUPLET_SCOPE_STUDY.md)及[证据](../nested_tuplet_scope_evidence.json)，原官谱与用户谱不属本CC0资产。
