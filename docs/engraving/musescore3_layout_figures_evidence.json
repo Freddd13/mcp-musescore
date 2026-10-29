@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "recorded_at_utc": "2026-10-29T13:50:58.087792+00:00",
+  "resource_id": "R20",
+  "note": "MUSESCORE3_LAYOUT_READING.md",
+  "prior_evidence": {
+    "path": "musescore3_layout_reading_evidence.json",
+    "sha256": "8f5594ab6e613c90694386b93d841861225963907b6ff46a590ff764b677ea6f",
+    "meaning": "Earlier8bodysections,8sourcechecks and5parameterconditions retained unchanged;old14image failures historical"
+  },
+  "completed_scope": "Existing8targettextsections,14unique figures/15positions,8Evolution source checks and5native parameter conditions (2save/reload) collectively covered. Entire handbook,reset runtime,new local-relayout native pair and all-version compatibility outside claim.",
+  "official_old_entry": "https://musescore.org/en/handbook/3/layout-and-formatting",
+  "observed_browser_redirect": "https://handbook.musescore.org/formatting/page-layout-concepts",
+  "current_Studio_redirect_not_counted_as_MS3_figures": true,
+  "figures": [
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2018-02/score_layout.png",
+      "actually_viewed": true,
+      "observation": "Page diagram separately labels page/music margins,staff distance,grand-staff distance,min/max system distance. Different levels of vertical layout.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2023-12/one_spatium.png",
+      "actually_viewed": true,
+      "observation": "Red arrow between adjacent staff-line centres denotes one spatium; not the height of all five lines.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2023-10/hspacing_wordprocessor_analogy.PNG",
+      "actually_viewed": true,
+      "observation": "Wordprocessor justified-alignment toolbar is an analogy,not MuseScore controls or evidence of a spacing algorithm.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2018-12/add_remove_system_breaks.png",
+      "actually_viewed": true,
+      "observation": "Dialog offers every N measures (sample4),break at end of each current system,or remove current system breaks;4 is a sample,not a musical rule.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2023-10/ms3_style.PNG",
+      "actually_viewed": true,
+      "observation": "Style Score tab shows Leland/Leland Text,font-driven settings and first-system indentation;historical screenshot values not a current/user preset.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": [
+        538,
+        537
+      ]
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/arpeggio_and_strum_symbols.png",
+      "actually_viewed": true,
+      "observation": "Six symbols:undirected and directed arpeggiation,straight arrows and bracket. Symbol choice carries meaning;not merely line decoration.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2021-11/style_lyrics_dialog_en.png",
+      "actually_viewed": true,
+      "observation": "Lyrics dialog separates text placement,lineheight,margins,min distance,hyphen length/distance/thickness/pad/position,melisma thickness/pad and alignment. Avoid flattening all to a vertical offset.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2017-11/page_settings_0.png",
+      "actually_viewed": true,
+      "observation": "Page settings screenshot shows A4 portrait,two-sided and separate odd/even margins,staff space1.764mm and first page1;sample values only.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2020-01/MS_breaks_spacers_grey_color.png",
+      "actually_viewed": true,
+      "observation": "Grey icons show line/page/section breaks and three spacer types;editing aids are not printed notation to remove as collisions.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/section_break_0.png",
+      "actually_viewed": true,
+      "observation": "Actual score example,not a dialog:4/4 system begins at bar9 and ends in section break;next3/8 system restarts numbering at1. Section boundary can carry numbering/time consequences.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/Horizontal_Frame_0.png",
+      "actually_viewed": true,
+      "observation": "Selected horizontal frame leaves a gap before a renewed grand-staff start with clefs/key/time. Structural frame and ordinary note spacing have different roles.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/inspector_vertical_frame.PNG",
+      "actually_viewed": true,
+      "observation": "Vertical-frame Inspector shows top/bottom gap and height in sp,separate inner margins in mm. Height and surrounding gap are not the same field.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": null
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2017-11/normal_layout_100dpi.png",
+      "actually_viewed": true,
+      "observation": "Normal-layout small score image contains upper ordinary16,lower ordinary16 then triplet8 and lyric syllables;actually viewed at250x144 natural size.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": [
+        250,
+        144
+      ]
+    },
+    {
+      "url": "https://musescore.org/sites/musescore.org/files/2017-11/local_relayout_100dpi.png",
+      "actually_viewed": true,
+      "observation": "Local-relayout partner contains same basic example;actually viewed at250x144. Exact microscopic gap changes not reliably established at this size,not claimed as a measured improvement.",
+      "method": "Chrome public direct image URL,complete viewport screenshot;no download/republication",
+      "natural_pixels": [
+        250,
+        144
+      ]
+    }
+  ],
+  "unique_figures_planned": 14,
+  "unique_figures_actually_viewed": 14,
+  "image_positions": 15,
+  "screenshots_emitted_to_tool": true,
+  "screenshot_files_or_remote_image_hashes_saved": false,
+  "remote_images_downloaded_or_republished": false,
+  "new_native_conditions": 0,
+  "reset_runtime_tested": false,
+  "new_local_relayout_native_pair": false,
+  "judgments": [
+    "Choose page budget,system/staff gaps,frame space,local note spacing or symbol offsets according to the actual occupied level",
+    "Spatium is adjacent staff-line distance;sample4bars/A4/1.764mm/font are not normative preferences",
+    "Keep section and frame semantics;nonprinting aids not mistaken for source notation",
+    "Existing Evolution Spacing parameter changes capacity,not an independently selectable Dorico ratio",
+    "Small normal/local image pair viewed without unsupported exact-gap claims"
+  ],
+  "resource_count_before": [
+    14,
+    25
+  ],
+  "resource_count_after": [
+    15,
+    25
+  ],
+  "goal_status": "active",
+  "validation": {
+    "status": "passed",
+    "existing_scope_closed": true,
+    "official_figures_actually_viewed": 14,
+    "old_evidence_unchanged": true,
+    "no_new_runtime_claim": true
+  }
+}

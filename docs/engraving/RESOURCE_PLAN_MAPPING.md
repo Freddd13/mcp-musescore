@@ -1,5 +1,7 @@
 # 用户所给资源规划：落实顺序与证据范围
 
+2026-10-29[R20十四幅图补齐](MUSESCORE3_LAYOUT_READING.md)：8/8定向正文、14/14不同图（15处图位置）、8项源码及此前5档原生参数条件共同闭合既定范围。资料15/25（余10），旧0/14是历史状态。重置命令实际运行、新Local relayout原生对照、完整手册和跨版本兼容未核。现有Spacing解释保持；新增空间层级、框与辅助符图例依据。
+
 2026-10-29[R22图文补齐](DORICO_EDITORIAL_PRACTICE.md)：完整正文、两幅技术图2/2及封面实际读图，灯箱3/3与DOM枚举相符，规定范围闭合。资料14/25（余11），下文原图0／未知／partial为历史状态。版本默认、Dorico运行与嵌入视频未核；比值图展示空间重分配，不等同同值音均匀。新证据保留旧记录。
 
 2026-10-28[R16本地Gould规定阅读范围](GOULD_READING_CLOSEOUT.md)闭合：696/696文件页＝598实质技术＋98辅助，最后39页为书前／索引，含xi–xv序言方法精读。资料现13/25（余12项）；覆盖不作掌握率，后续按谱例回查。R20／R22缺图与视频未随之完成。
@@ -43,7 +45,7 @@
 | [MOLA](https://mola-inc.org/resources/11631) | 已核官网简体中文PDF链接及16页文件；正文PDF p3–8可读 | 2026-10-23补齐16/16页；技术p3–12为复读，英文只核3页，见[MOLA复核](MOLA_READING.md)。乐团分谱尺寸不能直接当独奏钢琴下限 |
 | [MPA](https://www.mpa.org/permission-forms-informational-pdfs/) | 已核20页PDF，前言和少量正文可提取 | 2026-10-21已补看全部20页图版，见[MPA复核](MPA_READING.md)；未做全部规则的原生验证 |
 | [LilyPond 2.26 essay](https://lilypond.org/doc/v2.26/Documentation/essay/index.html) | 2026-10-24补齐正文／书目21网页、55不同图、32份片段及一个共用include，结合旧18张定向间距图／源码，R19范围闭合 | 见[候选判断](AUTOMATED_ENGRAVING_JUDGMENT.md)。不含书目原著；未编译或核当前评分器，三项分数为手写示意标签，R24独立范围仍partial |
-| [MuseScore 3中文排版手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting) | 已定向读换行、拉伸、重置与样式复用正文，另有本地源码证据 | 继续核Evolution差异；不能先全谱重置清掉人工判断 |
+| [MuseScore 3中文排版手册](https://musescore.org/zh-hans/handbook/3/layout-and-formatting) | 8/8段定向正文、14/14不同图、8项Evolution源码及既有5档原生参数条件；见[R20](MUSESCORE3_LAYOUT_READING.md) | 规定范围闭合；完整手册、新Local relayout原生对照及重置运行未核，不能先全谱重置清掉人工判断 |
 | [YMD基础课](https://ymdmusic.jp/academy/seminar-engraving) | 已读官网介绍/纲要、公开谱例链接 | 没有获取付费授课内容，不将课程介绍列为已学会的技术 |
 | 藤井大河 [Dorico初始设置](https://note.com/fujii_taiga_m/n/nca8f66de9948) | 正文与2/2技术图读完，另看封面；见[Dorico补记](DORICO_EDITORIAL_PRACTICE.md) | 既定图文范围完成；视频、确切版本默认和运行未核。比例重分配与同值局部间距分判，作者喜好不等于用户选择 |
 | [ICS课程](https://www.ics-j.com/course/) | 已读公开课程纲要，了解基础、应用、实务的分层 | 未取得教材或授课内容，不能假装已学会完整课程 |

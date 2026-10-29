@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-29[Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：保普通活动层及前缀；J首梁普通8之后才是七连，结合下部拍点读7:6，下一梁只末三为三连，优先短括号／完整比例；独立五连裸5保留。震音端点共享时段，八度／段号／力度／恢复分别追范围；弧顶被裁不能判缺弧。[R20](MUSESCORE3_LAYOUT_READING.md)补空间层级、框与非打印辅助图，历史样值不直接当预设。
+
 2026-10-29[Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：保活动与真实长短；跨表6要包含下表成员、排除普通峰顶8，三连休止不漏圈。三小前置音与4q双音震音不误加时间，段号／力度／八度／恢复各保落点。[R22两图](DORICO_EDITORIAL_PRACTICE.md)补时值层级预算，不能替代局部前缀／两手诊断。
 
 2026-10-29[Kiss／Chance](INTEGRATED_READING_KISS_CHANCE.md)：保活动骨架、必要前缀、2/4接收及开放留声；Chance H首五音比例不含后两16，D／G先从休止恢复，I基准另建。[嵌套原生](NESTED_TUPLET_SCOPE_STUDY.md)三版中优先C分层；B虽显内3仍同高重叠，显示正确与计时正确需分别核。

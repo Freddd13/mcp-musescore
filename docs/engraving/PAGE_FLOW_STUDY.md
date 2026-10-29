@@ -199,3 +199,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-29：完整上下文再改断行
 
 [Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Railgun47／Pierce23系统有密度、跨表与长干预算；Pierce p2检测漏组经完整页及60源谱线核回6系统。段号新行可醒目，拍内提前音仍须保；改行连相邻页比较，不由一处更齐推出整页更好。
+
+## 2026-10-29：先确认空间属于哪一层
+
+[Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：两曲40／47系统保不同活动／长干／八度容量，不套固定小节数。R20页图区分普通谱表、大谱表内部、系统距离，框高度与上下间隔另调；四小节换行是样例，分节和编号恢复有结构含义。

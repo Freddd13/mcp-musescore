@@ -161,3 +161,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-29：新基准与保持后的拾起
 
 [Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Pierce E的più lento之后，G a tempo先恢复q0和弦／伴奏，上部快层q1进入；不自动赋开头140或A più mosso。前面附点二分延长后仍有末四分拾起，下部全音延长可协调同次暂停，保实际后续。
+
+## 2026-10-29：恢复先于新音
+
+[Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Rising p5末系统最后小节a tempo在q0半休止处，p新二分在q2；继局部poco rit.后恢复，不能等新音再恢复。J的mp在q1休止，N的mp在重音附点四分后q3/2；数字段号不统一吸附这些入口。

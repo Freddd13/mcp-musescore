@@ -141,3 +141,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：背景先入与段号之前
 
 [Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Railgun F的p／下部从q0、上部cantabile q3/2；H前sub.p在q5/2，O前fff也在段号前q5/2。M上下p／mf是不同角色。按实际落点和所属线处理，不能统一吸到段号或最高旋律新音。
+
+## 2026-10-29：错开的力度与活动
+
+[Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Resonance开头及L前pp在q1，但前者四分休止、后者普通四分和弦。Rising J的mp在休止q1，N在q3/2；p3下部五连后八分的点是断奏，非时值附点。保读法再调位置。

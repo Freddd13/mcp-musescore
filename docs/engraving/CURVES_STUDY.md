@@ -156,3 +156,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-29：断开的tie沿实际路线配对
 
 [Mixed Nuts](INTEGRATED_READING_MIIRO_MIXED.md)D.S.三音G♯4／B4／F♯5回C同和弦，To Coda的G♯八度跳Coda同八度；纸面相邻DS→Coda不构成音乐连接。不能因两个系统各有断弧就直接连接或删成重复。仅静态端点核读，原生播放仍待核。
+
+## 2026-10-29：缺弧判断先包含完整曲线
+
+[Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Resonance最后第一全音到第二全音的上下两音均有tie；系统裁图漏上弧顶造成顶音重新攻击的初判，较大原PDF上下文纠正。缺图边界不能当缺对象；Rising开放留声末端不凭空补接收。

@@ -166,3 +166,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-29：八度与段号的独立端点
 
 [Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Railgun E和O前8va先进入；H前峰顶后已退出，sub.p普通8不随旧线。Pierce末四个二分和弦跨两小节在8va内，后重音四分／二分已在外。上下表换号、长弧及结构段号均不自动扩大作用域。
+
+## 2026-10-29：跨过段号的六系统八度
+
+[Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Resonance p5第四系统第二小节的8va越过K／L，跨六系统到p6第三系统第三小节末；括号续行文字保当前位置。第四小节已在外，M另开、N不自动继承。Rising l.h.和loco分别说明手与音区。

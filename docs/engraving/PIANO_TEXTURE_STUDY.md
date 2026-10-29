@@ -254,3 +254,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-29：运行与慢背景独立计量
 
 [Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Pierce D每半小节16休止＋3上表16＋4下表16＝2q，慢和弦另保持；B白头与实头也分层。Railgun M下部mf旋律、上部p背景各保归属。先读共同梁和角色，不给辅助空voice自动补休止。
+
+## 2026-10-29：快慢角色可在同表与两表切换
+
+[Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Resonance B／F上部16、C下部16、G上干慢线配下干快层；Rising E上干短和弦是伴奏、下干主题，K低部全音接复附点二分3.5q后末8拾起。先辨角色，保共同梁及必要休止。

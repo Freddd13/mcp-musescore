@@ -307,3 +307,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-29：缩小音与缩写的时间
 
 [Railgun／Pierce](INTEGRATED_READING_RAILGUN_PIERCE.md)：Pierce开头实际3小头、字号约75%，最后接收进下部全音；不能加三个普通16到完整小节。末双音全音头震音共4q，较高端点再接最后全音；不算8q，也不凭三划指定唯一播放速率。
+
+## 2026-10-29：共享震音与普通时值分开算
+
+[Resonance／Rising](INTEGRATED_READING_RESONANCE_RISING.md)：Resonance二分端点对共同2q；Rising J附点四分对1.5q、二分对2q，N全音端点对4q；写出快音的真实变化保留。J小前置头约75%，不硬加普通8。L的14个16＋8及13个16＋附点8不能整段等距。

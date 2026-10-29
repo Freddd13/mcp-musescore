@@ -44,6 +44,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_RESONANCE_RISING.md`：Resonance末尾两全音的上下音均tie；裁图漏弧顶不等于重奏。Rising上部开放持续与下部收尾分读；震音端点共享时段。
+
 `INTEGRATED_READING_GOD_POKEMON.md`的H与I改变低音持续、低八度、休止、踏板及手。相似材料用于检查一致性前先核音乐差异；不能直接复制再现或假定演奏等效。
 
 `curves`／`piano`／`cross-staff`的`INTEGRATED_READING_EONIAN_EUTERPE.md`保长低音与延迟短型、慢层和快线／手括形。吉他的同音双弦、技术slur、制音、泛音与定弦各有动作定义；相同音高／外形不提供自动去重或同一执行依据。
@@ -96,6 +98,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_RESONANCE_RISING.md`：B／F组内稳定但相邻小节预算不同；I普通8、L末8／附点8不混成全16。先认角色与真实值，再查前缀和整行预算；R20补谱表／系统／框等不同空间层级。
 
 `INTEGRATED_READING_RAILGUN_PIERCE.md`：Railgun14列含普通8，不能全按16匀；R22两图只说明时值层级重分预算，另查前缀、共同列及局部弹性。
 
@@ -188,6 +192,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_RESONANCE_RISING.md`：J首梁普通8之后七个16依下部拍点占1.5q，优先7:6及仅七音短括号；下一梁仅末三为三连。前一系统三束独立5已清楚，保裸5，不能泛加括号。
 
 `INTEGRATED_READING_RAILGUN_PIERCE.md`：跨表6可能含1下表＋5上表，峰顶普通8在外；短括号按成员，三连休止也在范围内。
 
@@ -305,6 +311,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="tempo"></a>
 
+`INTEGRATED_READING_RESONANCE_RISING.md`：Rising末系统a tempo在q0半休止，p二分q2才进；N的mp在q3/2。先恢复计数，标记不吸附新音或段号。
+
 `INTEGRATED_READING_RAILGUN_PIERCE.md`：Pierce più lento后G恢复局部基准，先q0和弦再q1快层；保持后末四分拾起仍需保护。
 
 `INTEGRATED_READING_KISS_CHANCE.md`／`NESTED_TUPLET_SCOPE_STUDY.md`：ChanceD／G从上方休止恢复，H后旧8接收已恢复；I新Poco meno之后不能机械回开头66。
@@ -364,6 +372,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_RESONANCE_RISING.md`：Resonance长8va从p5s4跨六系统至p6s3第三小节末，越过K／L；段号不截范围，续行括号保留。
 
 `INTEGRATED_READING_MIIRO_MIXED.md`：Miiro末行8va到首16接收后结束，ff运行原区，别拖到最终和弦。
 

@@ -122,3 +122,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-29 Kiss／Chance与嵌套连音两批缓存分别约7.47MiB／1.35MiB，总净书缓存约2.585GiB；62张官谱／书页视图26复用36新图，另看原创原生对照。没有原PDF／运行时副本或删除，低于检查线；初次次梁指令错误探针保私有不发布。[精确字节和时点](kiss_chance_closeout_evidence.json)先于最后小记录。
 
 2026-10-29 Railgun／Pierce本批约8.46MiB，总净书缓存约2.593GiB；76张本地实际视图33复用43新图，R22两图及封面仅浏览器查看未下载。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线；[精确字节与时点](railgun_pierce_closeout_evidence.json)先于最后小记录。
+
+2026-10-29 Resonance／Rising本批约9.62MiB，总净书缓存约2.603GiB；87张本地视图34复用53新图，R20十四图仅浏览器查看。无原PDF／运行时副本或删除，低于100MiB／3GiB检查线；[精确字节与时点](resonance_rising_closeout_evidence.json)先于最后小记录。
