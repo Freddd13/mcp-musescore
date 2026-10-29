@@ -109,6 +109,8 @@ def score_data_projection(context):
             "elements": {f"staff{i}": [] for i in range(staff_count)}})
     groups = {}
     for row in snapshot["notes"]:
+        if row.get("contextOnly"):
+            continue
         key = (row["tick"], row["track"], row.get("graceIndex", -1))
         if key not in groups:
             groups[key] = {"name": "Chord", "startTick": row["tick"], "voice": row["track"] % 4,
@@ -118,7 +120,7 @@ def score_data_projection(context):
             measures[row["measure"]]["numElements"] += 1
         group = groups[key]
         group["isTie"] |= row.get("tieForward", False)
-        group["notes"].append({**row, "pitchMidi": row["writtenPitch"], "tpc": row["writtenTpc"],
+        group["notes"].append({**row, "pitchMidi": row.get("notatedPitch", row["writtenPitch"]), "tpc": row.get("notatedTpc", row["writtenTpc"]),
             "tieForward": row.get("tieForward", False), "veloType": row["velocityType"], "veloOffset": row["velocityRaw"]})
     ordered = sorted(measures.values(), key=lambda m: m["startTick"])
     for row in snapshot["rests"]:
@@ -129,5 +131,5 @@ def score_data_projection(context):
             measure["numElements"] += 1
     metadata = {key: context[key] for key in ("identity", "scoreSessionId", "documentId") if key in context}
     return {**metadata, "ticksPerQuarter": context["ticksPerQuarter"], "title": context.get("title", ""),
-        "numMeasures": scope["lastMeasure"], "staves": [{"name": f"staff{i}"} for i in range(staff_count)],
+        "numMeasures": scope["lastMeasure"], "staves": [next((dict(row) for row in snapshot.get("staves", []) if row["index"]==i), {"index": i,"name": f"staff{i}"}) for i in range(staff_count)],
         "measures": ordered, "snapshotId": context["snapshotId"], "coverage": context["coverage"]}
