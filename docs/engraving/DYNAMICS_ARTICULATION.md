@@ -121,3 +121,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-29：分层力度和触键／持续各保作用
 
 [Miiro](INTEGRATED_READING_MIIRO_MIXED.md)B上部p／下部mf，E上部mp／下部mf保前景；p5con pedale与点并列不自动去点。L的f在提前16附近，J前pp两个四分仍属于前一完整准备小节。
+
+## 2026-10-29：拍内进入与同表前景
+
+[两首](INTEGRATED_READING_DEAREST_HERO.md)Dearest D的mp espress.随晚三连入口，S上pp晚起、下p先起；Hero同表f慢线与mp快层保贴近所属干端。不能把力度一律居中或吸到段落字母列。

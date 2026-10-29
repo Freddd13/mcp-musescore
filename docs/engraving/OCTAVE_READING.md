@@ -146,3 +146,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-29：接收、线尾与后来攻击分开
 
 [Miiro](INTEGRATED_READING_MIIRO_MIXED.md)F在首8休止后起8va，p4(8va)续至第三小节前；p7最后(8va)至首16接收后结束，后续ff恢复原音区。p6延长全音的短8va不应延到pp准备小节。
+
+## 2026-10-29：上部结束与下部局部提示分判
+
+[Hero](INTEGRATED_READING_DEAREST_HERO.md)p3分立八度提示不擅并成全行；末8va到tie接收之后结束，保随后延长休止。Dearest P两层范围各自存在，换号／8va不因同起点合并；Gouldp324的谱表作用条件适用。

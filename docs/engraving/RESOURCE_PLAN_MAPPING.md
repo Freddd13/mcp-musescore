@@ -94,3 +94,5 @@ R08 [目标bvid关联的公开列表索引](https://www.bilibili.com/list/ml1185
 2026-10-29续查R20：[官方打印页](https://musescore.org/en/print/book/export/html/278625?toc=1)的Local relayout说明及两图链接可读；normal_layout_100dpi.png与local_relayout_100dpi.png经网页工具均Cache miss，实际仍0/14幅规定图。没有补图／闭合成绩，13/25、余12项保持。[记录](melissa_merry_closeout_evidence.json)。
 
 2026-10-29再读[R22公开正文](https://note.com/fujii_taiga_m/n/nca8f66de9948)，仍未收到原文谱图，变体URL不可得；图数未知、实际0幅。正文重读不补缺图成绩，资料13/25、余12项保持。[记录](miiro_mixed_closeout_evidence.json)。
+
+2026-10-29续查R12[指定页面／小节教程](https://www.bilibili.com/video/BV1k34y1B7Jc/)返回412，精确bvid检索无结果；没有读到视频画面或技术正文。仍13/25、余12项，未用相近视频顶替目标。[本批记录](dearest_hero_closeout_evidence.json)。

@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-29[Dearest／Hero](INTEGRATED_READING_DEAREST_HERO.md)：保稳定活动骨架，遇连音核基值、完整范围和会合点；K内层3列澄清候选，P首处3.545pt错列保局部候选。装饰脚注、tr层次和末延长休止分别读，不从数字或短梁检测直接改谱。
+
 2026-10-29[Miiro／Mixed Nuts](INTEGRATED_READING_MIIRO_MIXED.md)：保稳定十六分和分层力度，分弱起／震音、L提前音与恢复拍号；断开tie先查实际DS／Segno／Coda来路，不按页面邻接配对。
 
 2026-10-29[Melissa／Merry](INTEGRATED_READING_MELISSA_MERRY.md)：保H稳定层、I实际前缀和F干轴；M局部三连比较短括号，N完整七连保裸数。K八次攻击仍共九份三连，不误报异分；G复合拍休止与B震音缩写分别判。

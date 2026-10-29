@@ -12,6 +12,8 @@
 
 <a id="symbols"></a>
 
+`INTEGRATED_READING_DEAREST_HERO.md`：P11组是两梁16／11:6；短次梁7.53pt会被>8探针漏掉。原图、完整时长、层次与实际矢量共同核，单一字符／矩形阈值不能直接定语义。
+
 `INTEGRATED_READING_MELISSA_MERRY.md`：M局部3只管三头，普通尾8另算；N完整独立七连梁保裸7。B两音附点二分震音整对三拍，变化处写出。
 
 `INTEGRATED_READING_KIMI_KIZUNA.md`：N前八分接收之后八双梁头占一拍半，优先完整8:6；22整小节与11半小节分别计量。不能把错位和弦头当两个先后音，亦不按相似梁形补齐头数。
@@ -95,6 +97,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_DEAREST_HERO.md`：保活动层及P12／11各自组形，既有首到达−3.545pt仍是局部候选；整齐不能掩盖真实共同末点。
+
 `INTEGRATED_READING_MIIRO_MIXED.md`：Miiro A各16列保稳定活动；8.682–8.899pt是本例观测，别直接泛化。
 
 `INTEGRATED_READING_MELISSA_MERRY.md`：保H稳定8、I升号占位；F头距13.806pt而实际干轴9pt，先分前缀／连接侧。
@@ -176,6 +180,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_DEAREST_HERO.md`：K末五16＋一8只套单层3为7/6拍，先核梁的3＋2＋1与三处会合，再提出内层3候选，不擅改均分六连。
 
 `INTEGRATED_READING_MIIRO_MIXED.md`：区分一四分／半四分弱起和白头交替震音；L先于恢复4/4。
 
@@ -266,6 +272,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 跨表先分单线跨手与独立两部，再比较共同梁两方向短端、坡度、副梁和表距；不要见短干便全谱加行距或抹平。拍内短休止可邻近后续音所在表，整拍／独立部另判；中央共同休止可行，但不应切梁或挤占已繁忙的动态通道。`cross-staff`的`CROSS_STAFF_STUDY.md`第8–12节有同距平梁／稍宽斜梁及同MIDI拒绝例；该例全局Style仅用于短练习，不能直接推广全曲。
 
 <a id="ornaments"></a>
+
+`INTEGRATED_READING_DEAREST_HERO.md`：Dearest星号只指前三小音拍上；I的tr、波线及p／mp前景分层，续行(tr)是条件候选。
 
 `INTEGRATED_READING_KYOURAN_CONAN.md`：末尾E♮5全音符、G5二分、C6四分各有tr、不同主音；保三次新动作，不把“跨行织体”当同一逻辑持续。
 

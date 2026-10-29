@@ -112,3 +112,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-29 Melissa／Merry批次约6.34MiB，总净书缓存约2.548GiB逻辑长度；65张实际看图中32张复用、33张新系统图。无原PDF／运行时副本、删除或清点错误，低于检查线。[精确字节与时点](melissa_merry_closeout_evidence.json)先于最后小记录。
 
 2026-10-29 Miiro／Mixed批次约5.23MiB，总净书缓存约2.553GiB；58张实际看图中31张复用、27张新系统细节。无原PDF／运行时副本、删除或清点错误，低于检查线。[精确字节与时点](miiro_mixed_closeout_evidence.json)先于最后小记录。
+
+2026-10-29 Dearest／Hero批次约7.93MiB，总净书缓存约2.561GiB；73张不同实际视图中31复用、42新图。无原PDF／运行时副本、删除或清点错误，低于检查线；两处误选书页未计19页且旧图保留。[精确字节与时点](dearest_hero_closeout_evidence.json)先于最后小记录。
