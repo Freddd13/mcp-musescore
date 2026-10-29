@@ -186,3 +186,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：同型与手标识不能自动扩大八度范围
 
 [Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Snow H前短8va罩第一组五连，后组恢复；上行另一处8va与普通峰顶另读。Sparkle I上部8va跨p5末到p6前两系统，局部l.h.不把整条作用扩到下表；后面下部8vb独立。
+
+## 2026-10-30：恢复位置不能随段号扩大
+
+[SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Ghibli P长8va到末barq3恢复loco，最后两8已在原位；p7s2短8va罩后一半小节六个书面头（普通8＋三连16＋两个8），范围不等于三连数字。先核实际端点，再谈少画八度线。

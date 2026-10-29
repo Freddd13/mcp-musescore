@@ -176,3 +176,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：动作组、路径与持续分读
 
 [Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Snow H前两条弧各罩十音，内梁仍每五分组；Sparkle D.S.前斜虚线追到上部四分，不增加发音或滑奏。末低音四bar tie、上部末和弦tie和Coda后的延长休止按各层保留，不套同一种结束模板。
+
+## 2026-10-30：跨标题持续与跨表路径分读
+
+[SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Ghibli Mononoke标题处低持续及踏板仍延后释放，Arrietty换3/4处接旧quartertie；Totoro虚线是跨表旋律路径，不添滑奏或攻击。SPECIALZ末全音和弦第一接收仅下头、下一bar五头均延续，不能按和弦整体推断每条tie。

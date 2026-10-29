@@ -161,3 +161,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：提前的f与休止上的ff都可能有依据
 
 [Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Sparkle E及D.S.前f在最后两三连16的第一个，即q11/3，早于下一段；Snow B旋律f在q0.5，M的ff在q0休止处。上p下mp及慢层pp分别靠近其层，不统一拖到段号／攻击。
+
+## 2026-10-30：力度各按自己的实际起点
+
+[SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Ghibli I前低mf先进入，上p在休止后q1/4；80在2/4q0休止，mf在q1/2。SPECIALZ末p在第三barq3.5首16，源x405.342近该头x408.006，较早附点quarter为q2，初看假说已纠正。L ff可落q0上部quarterrest，不能全移到新攻击。

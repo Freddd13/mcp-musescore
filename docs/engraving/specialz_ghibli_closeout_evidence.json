@@ -1,0 +1,4483 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "recorded_at_utc": "2026-10-29T19:14:11.973088+00:00",
+  "note": "INTEGRATED_READING_SPECIALZ_GHIBLI.md",
+  "source_protection": [
+    {
+      "id": "A117",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\SPECIALZ - Jujutsu Kaisen S2 - Opening Theme.pdf",
+      "sha256": "09f643b309591ffe614e9b9e2442c20cdbbbf1f1f2b0079ba0e860a0a5b6111a",
+      "pages": 5,
+      "unchanged": true
+    },
+    {
+      "id": "A118",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Studio Ghibli Medley.pdf",
+      "sha256": "2708c4ede225abd9ea9a21c05f415db3f44ce943cb4e2acbf1c4dc98245b0187",
+      "pages": 14,
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "unchanged": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A117",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A117/page-1.jpg",
+      "sha256": "c96660385064b09bf77aedba6361e8c0d44a839aec975f81afc8ef10ca39d42e",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A117",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A117/page-2.jpg",
+      "sha256": "a2a66ee0849ac95f3ab02b431f483855162637d24c134ffa9da36b7d6a91b205",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A117",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A117/page-3.jpg",
+      "sha256": "5b8bd983b4e2c5f3cbefcef05b1c0c79ba7ec5730462ab649b13a333738d4417",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A117",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A117/page-4.jpg",
+      "sha256": "fc0aee857396433d90288a09514ecf0b172c96701df07566151fbf4c4d51a115",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A117",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A117/page-5.jpg",
+      "sha256": "78af490f0505eeaa48e00404c30574651f5643961e5698e22398e67e8747747f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A118/page-01.jpg",
+      "sha256": "ba98da7a2ec729b7c49bd8243e8070e7f6598c004ab1da7d942e0e15028d3b3f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A118/page-02.jpg",
+      "sha256": "47bca4ab7959cbf2ab25cf2abd8bfa94f5fe40e6e5c9f27e66f8c51626ce488b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A118/page-03.jpg",
+      "sha256": "e5f45363411fffc9e1578951a93fc8db5a7d53406ac430d78ffe153c67b26885",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A118/page-04.jpg",
+      "sha256": "544f46d87f0115bc14c300de609aafb3114c545c277db6c12c9ab14695a3d0eb",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A118/page-05.jpg",
+      "sha256": "6968fa0f4ce642091cb72e894d5f8bc6ec8f51f80ed63a9e7cd1e305dea0c25c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A118/page-06.jpg",
+      "sha256": "9e9495b35d9b389a0306e03b20a18d34e87b1fc1c692ad4e9049aade0cb1d358",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A118/page-07.jpg",
+      "sha256": "baa189b8536b9913d536df4596cd8ec3732ec5f4b375a4da6575143b58e9894b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 8,
+      "path": "tmp/engraving/corpus/A118/page-08.jpg",
+      "sha256": "928c6fdb0d40119f413cb9c3b238a6375650eec07ca0af058ee11da30da7e4d3",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 9,
+      "path": "tmp/engraving/corpus/A118/page-09.jpg",
+      "sha256": "afbd93fed1b3303d953deca07e19ad7f08eca8455f8905c4bd4d8b913e2db39f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 10,
+      "path": "tmp/engraving/corpus/A118/page-10.jpg",
+      "sha256": "816acf8bcaa5df3e411ca4f38bf67387ddac149f5a56f8cb0f14809112663382",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 11,
+      "path": "tmp/engraving/corpus/A118/page-11.jpg",
+      "sha256": "6edfc8ac9ddb36c2ea64925af0d0694b7dc36ee49baeee6488cb1aa58f719602",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 12,
+      "path": "tmp/engraving/corpus/A118/page-12.jpg",
+      "sha256": "064281aaac486d87943c794065ad2979237d9284383767eee2ed656c96f55410",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 13,
+      "path": "tmp/engraving/corpus/A118/page-13.jpg",
+      "sha256": "bcb8d435e4c34d493698e941f42e544cc25c08abf59072d6c2684dc61e1fc4d0",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A118",
+      "page": 14,
+      "path": "tmp/engraving/corpus/A118/page-14.jpg",
+      "sha256": "8ed9269a956adc38d4f0b53eb6f8d3eeefbda05235126de01a278470a87ae726",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p1-s1.jpg",
+      "source_y_pt": [
+        139.83863368669023,
+        309.49273655280723
+      ],
+      "sha256": "c26e2fe1ef012d085e2f85660e7125ebff866ebbd7923c4346609b45c5413e08",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p1-s2.jpg",
+      "source_y_pt": [
+        263.31213191990577,
+        430.8174322732627
+      ],
+      "sha256": "64e4b1be5cc91bafaf363dcdc69748bd05608eedcd4ddebb634a3c2cbf5ab95b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p1-s3.jpg",
+      "source_y_pt": [
+        385.2979976442874,
+        561.2332155477031
+      ],
+      "sha256": "9ea51832389052a8322e5c172ea57bfb427930bec007f1bbfad17aee6d1edcee",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p1-s5.jpg",
+      "source_y_pt": [
+        643.8154691794268,
+        817.6018845700825
+      ],
+      "sha256": "bd7c877b03985c7bd28325f6bfadd379180c2532929c618decda16cef7142b24",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p2-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        185.6886533176286
+      ],
+      "sha256": "cdd538d04bbe9b2bc88e32fd660183b309d46386c1a0c59a0177057d0c72fa41",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p2-s2.jpg",
+      "source_y_pt": [
+        136.03690616411464,
+        307.6745190420102
+      ],
+      "sha256": "0dbd66a1872385050a7f3cf0725a903a271e6ff622d5be0bbec384b55124498e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p2-s5.jpg",
+      "source_y_pt": [
+        519.1849234393404,
+        686.6902237926973
+      ],
+      "sha256": "e74ab10ac6c348607f5fdbda5cccc3d77e75e335cd713c4a0339763242809908",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p2-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "2400a23fb2ee3240ab9dd5346f48a58eae405677d589bb5f11893b940b797bb0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p3-s3.jpg",
+      "source_y_pt": [
+        274.55202198665097,
+        442.05732234000783
+      ],
+      "sha256": "cdc1f39940fc8daee7a079e470405376cbc8ab7f6014537ebc1a80580dbd4128",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p3-s4.jpg",
+      "source_y_pt": [
+        389.5956026698076,
+        561.2332155477031
+      ],
+      "sha256": "5c405ecdb2be268c5e6f815b502bdead3f0d73066a068e38fd2433143cad728b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p3-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "38e50259288af732d93fd08edd0dc178eb9ed9b661e92214523b00f89127c9b1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p4-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "19166ffd295fa598b83176c8b6eef0f2c3bffa2607ee15168b15f590d511eefa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p4-s2.jpg",
+      "source_y_pt": [
+        144.46682371417353,
+        311.97212406753044
+      ],
+      "sha256": "274b15a013711dbddfa4f343cd44684dcd2d25a5f0135f67d22f9de8671227f9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p4-s3.jpg",
+      "source_y_pt": [
+        265.9568119356105,
+        440.0738123282293
+      ],
+      "sha256": "38ce0c6f5c9335dd6cadddd87e5b2ab9280d90bd662f6ea230c968e13990e310",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p4-s4.jpg",
+      "source_y_pt": [
+        391.90969768354927,
+        568.0102080879466
+      ],
+      "sha256": "bdf95198339c99f946e4e987af24095c9be2811e979d1a80dfc498acade09894",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p4-s5.jpg",
+      "source_y_pt": [
+        519.8460934432666,
+        693.7978013349039
+      ],
+      "sha256": "7c2b794f5b5696cfc416163b572e1055c773c539b82d4bcb564903e1fff5a1f5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p5-s4.jpg",
+      "source_y_pt": [
+        384.6368276403612,
+        560.4067530427955
+      ],
+      "sha256": "77276c7d2bb5412c3220460517d9c6e531d176050413334d7bab292efdb7ead3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p5-s5.jpg",
+      "source_y_pt": [
+        523.6478209658421,
+        701.8971338829996
+      ],
+      "sha256": "09523f71eb28922c075fc6f5ed9f43720160e42815297c9d57bedb0af6e7d6de",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A117",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A117-p5-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "e808b244beec991cc945ae292765deee31c8e88e8f4d6b2e5aadcc67db7db567",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p1-s1.jpg",
+      "source_y_pt": [
+        139.83863368669023,
+        315.773851590106
+      ],
+      "sha256": "d1a0b02dfea4f8ac1cf5f3e77669f564d66df0107f09b4df90b241eff2cb3b79",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p1-s2.jpg",
+      "source_y_pt": [
+        270.5850019630938,
+        438.09030231645073
+      ],
+      "sha256": "f13df00c4a39710c44aef072ea82d7277f4e84c091dc50cc1b9a6985c4755f21",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p1-s4.jpg",
+      "source_y_pt": [
+        519.5155084413035,
+        691.153121319199
+      ],
+      "sha256": "11375959f66be6ebb212c860858eb631b435027549bdb4a72e710ee605b21a64",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p1-s5.jpg",
+      "source_y_pt": [
+        646.1295641931684,
+        817.6018845700825
+      ],
+      "sha256": "ab04220d5d82bc323272f626991b9d28acd5eaa759651b4d5a9572832bef30eb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p2-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        181.5563407930899
+      ],
+      "sha256": "61e10b9d12114efc2ebeca9d711d06c159c7e767cd6821052070ac1e68756e27",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p2-s2.jpg",
+      "source_y_pt": [
+        133.722811150373,
+        309.8233215547703
+      ],
+      "sha256": "a04f99812df18450363fada91f09c47ee47401181a592e7698283cfb5d61a7a2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p2-s4.jpg",
+      "source_y_pt": [
+        385.2979976442874,
+        556.935610522183
+      ],
+      "sha256": "d5e1f077c9c6c11187f623aa36faaeb9f183a05c2dceba45120bc1612944342f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p3-s4.jpg",
+      "source_y_pt": [
+        394.554377699254,
+        566.1919905771496
+      ],
+      "sha256": "7daefa6574437ec5a1489d361e96aeba869f31d7a6d514588ef86414226ad914",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p3-s5.jpg",
+      "source_y_pt": [
+        523.4825284648606,
+        690.9878288182175
+      ],
+      "sha256": "cc341af83503795e1437010570dce020ee03d2fe5917fe22c2a281c13a929174",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p3-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "5f0d1b2195b243bd8de1648b8c4f9ba90596c9550a406f2508862df82a877523",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p4-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "4c46ecf1313903ea311a6712ed10c4b588356f13b283390eaaa85c41203de76d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p4-s2.jpg",
+      "source_y_pt": [
+        125.78877110325874,
+        301.88928150765605
+      ],
+      "sha256": "30d7a465d001f7f1cb4a00db8795f7baaa9989939477459e80cc7048772924ab",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p4-s3.jpg",
+      "source_y_pt": [
+        247.77463682764034,
+        427.8421672555948
+      ],
+      "sha256": "5a9bc840747b1492e0834b0e3a084939dd2aa32994bd91dc4539974f6b2d7e64",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p4-s5.jpg",
+      "source_y_pt": [
+        508.9367883784845,
+        693.4672163329407
+      ],
+      "sha256": "cd460c6e2ef601b7dbc14986d50f1d585ede34f9564aea8cd9d77ba09393f5aa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p4-s6.jpg",
+      "source_y_pt": [
+        637.2037691401649,
+        817.6018845700825
+      ],
+      "sha256": "ada985faeba34960ca1e14b526f686f1688bc4627c0a4abb56058021f286c987",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p5-s2.jpg",
+      "source_y_pt": [
+        139.0121711817825,
+        306.5174715351394
+      ],
+      "sha256": "13f03ed93f2dbcc671df9ad649912ba5cebb258ecb7771ad9665334063409880",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p5-s3.jpg",
+      "source_y_pt": [
+        263.80800942285043,
+        433.46211228896743
+      ],
+      "sha256": "227d04785d6bcafe0e9ae61973a8a6b474869616ea17c24c20bcb46a0f6027ad",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p5-s5.jpg",
+      "source_y_pt": [
+        515.2179034157833,
+        689.1696113074205
+      ],
+      "sha256": "418050c85f7d181e37ac6b030f0a68420d6bd01fb56ce5e1f98b2a0c637c50a6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p5-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "623f1d67737046a6d0f53e131f4e251cb0764b68d8c82901391355075b592ff7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p6-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        175.10993325480956
+      ],
+      "sha256": "99db318a08c529d547ac85be0c3f20c92c11b09dc1d32fa2681e778ad2c4bba2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 6,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p6-s2.jpg",
+      "source_y_pt": [
+        118.18531605810759,
+        281.39301138594425
+      ],
+      "sha256": "7f1a3d41ae9bc373e66ec0c4a54b10258815afa3dae6ec937ddb2326cd7f29cf",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p6-s3.jpg",
+      "source_y_pt": [
+        219.50961915979582,
+        382.88260698861404
+      ],
+      "sha256": "118c70e0f1c6df4b487ad4cef59d416723f97951c08a0cce39c68d1c53f7a1ea",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p6-s5.jpg",
+      "source_y_pt": [
+        428.9352179034158,
+        600.7381232822929
+      ],
+      "sha256": "2299218617d17045bec289d782b47e55cf5143b63e7d570f1241c16e412fb289",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 6,
+      "system": 7,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p6-s7.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "f243de0e6b00f9b8978aeeabb6212e3cba006a29eb8bd858c81dc18b320ae621",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 7,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p7-s2.jpg",
+      "source_y_pt": [
+        115.54063604240284,
+        285.19473890851987
+      ],
+      "sha256": "d10dbdbdd12411fa5eaab899765d3e60b4319b0cc8a7b408f64ae7ef821fa30d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 7,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p7-s3.jpg",
+      "source_y_pt": [
+        219.34432665881428,
+        388.83313702394975
+      ],
+      "sha256": "ca55ddf74e1bc1c27bea6b42fe84b7f1911c82cff21fb908cd907c967a1d6cf7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 7,
+      "system": 7,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p7-s7.jpg",
+      "source_y_pt": [
+        652.0800942285041,
+        817.6018845700825
+      ],
+      "sha256": "6dd73963752464f187867a963c606edef119566abebd07ddf574114c44b20155",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 8,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p8-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        175.10993325480956
+      ],
+      "sha256": "95ed73c27483f3576473686e7a58d5ee08d09927612e68f47719e5b25f82781e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 8,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p8-s2.jpg",
+      "source_y_pt": [
+        113.55712603062426,
+        285.19473890851987
+      ],
+      "sha256": "107dcac5a7380ff3ec42b2174a1466484fe27b28601fa526ace479b4d4ffab11",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 8,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p8-s3.jpg",
+      "source_y_pt": [
+        222.15429917550057,
+        389.6595995288575
+      ],
+      "sha256": "d6eab3093754b652810415fdbe589222ee611fc9786973b4aa86a0b72a34b7cd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 9,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p9-s2.jpg",
+      "source_y_pt": [
+        117.02826855123675,
+        284.5335689045936
+      ],
+      "sha256": "cddee6b795df0d16a4b3dd5fffe0863c22bda3df2aa66b767c110f900dc8d590",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 9,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p9-s3.jpg",
+      "source_y_pt": [
+        225.29485669414998,
+        396.93246957204553
+      ],
+      "sha256": "1d3e4d3e46dff3a410c7546a90f8fe1acc59e129e1756b04adcf79df24a6e951",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 9,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p9-s6.jpg",
+      "source_y_pt": [
+        547.2846486062034,
+        710.49234393404
+      ],
+      "sha256": "f04d61e1f066c5ffaf889cdb555dc35369b2fe069e2c3fa1452f655c77c1819c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 9,
+      "system": 7,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p9-s7.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "b372b82c72951dca1092d8000709ccd905c0e083146a2c5feb5ef2204a940fb8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 10,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p10-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        181.5563407930899
+      ],
+      "sha256": "303b60cf77cfa6269a0aa64b4c497e45f8113dd1c0bc87fa7c5a771117a2f5e9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 10,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p10-s2.jpg",
+      "source_y_pt": [
+        119.3423635649784,
+        284.69886140557514
+      ],
+      "sha256": "e49ba40c6c130bed4644311d4d5a3a3062ad10b968fbf22e5312ef7830d2550e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 10,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p10-s3.jpg",
+      "source_y_pt": [
+        218.352571652925,
+        387.8413820180605
+      ],
+      "sha256": "c51207abf001859281a7b0998a86a37d029a48897cf423d7f924ab910719a34f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 10,
+      "system": 7,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p10-s7.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "e52fb0ce4d4c05f805d37b0f89c61b60e95c50c547ec74055514ea007131405a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 11,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p11-s2.jpg",
+      "source_y_pt": [
+        145.29328621908127,
+        312.7985865724382
+      ],
+      "sha256": "bbbcd56db0b252d67005a0eaca6a5c5edc7c1407f689e819025a0bb9aedf6589",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 11,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p11-s3.jpg",
+      "source_y_pt": [
+        273.72555948174323,
+        441.06556733411855
+      ],
+      "sha256": "7b501a6682aa86a0dba5c246e4db37309d864f1945983d3784e078a5d9fc0610",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 11,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p11-s5.jpg",
+      "source_y_pt": [
+        527.7801334903809,
+        695.2854338437377
+      ],
+      "sha256": "ece40cf385026565b33dde165abffd93a9881d94758c0b905f4d7c5d6f9e237a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 11,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p11-s6.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "95bb56764c178e9731dd8e5d5d7b8ecf0a2d56f47e573cd04bc509c87562035d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 12,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p12-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "4731018574eb599fb5325c241be6a12cc38de8cfb6a53409b2d1c3d067560a1c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 12,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p12-s2.jpg",
+      "source_y_pt": [
+        133.3922261484099,
+        305.195131527287
+      ],
+      "sha256": "00d7be496de734f837e9c84bacacfc0a3f57453897ff6055297db42dbbf4781b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 12,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p12-s3.jpg",
+      "source_y_pt": [
+        259.5104043973302,
+        437.75971731448766
+      ],
+      "sha256": "248ff39c10d94fbd81f018fea4dc75afdfb85019f07ebd89aff856df2341e617",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 12,
+      "system": 4,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p12-s4.jpg",
+      "source_y_pt": [
+        397.19905771495877,
+        564.7043580683156
+      ],
+      "sha256": "d9e15ba10e87d7990802d4957a1380f5d504bbe38320f40cbb501f8a166d0c10",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 12,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p12-s5.jpg",
+      "source_y_pt": [
+        521.0031409501374,
+        688.5084413034944
+      ],
+      "sha256": "0cc9e40e132589693343dc39003db62769e8096731f5e06e0556667a8be47c04",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 12,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p12-s6.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "0be3b617f903d3d3d40a269d019c47475ec6afbceebbbe1c48c6eeaea6e4c156",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 13,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p13-s2.jpg",
+      "source_y_pt": [
+        141.32626619552414,
+        313.12917157440125
+      ],
+      "sha256": "18884f364dc582340bb7a07c3ff98606a31456db0a3ddf7f7ef534a0882f6dd9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 13,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p13-s3.jpg",
+      "source_y_pt": [
+        270.5850019630938,
+        444.53670985473104
+      ],
+      "sha256": "c8b342d76740605903a85f5c90540eea4733a2d572320ff41a2ddb0c34a37038",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 13,
+      "system": 4,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p13-s4.jpg",
+      "source_y_pt": [
+        394.8849627012171,
+        564.3737730663526
+      ],
+      "sha256": "b24ebee9f5d40c247e04c87340fbe4ffaf501f6bcf489272ae23273a0edf6ff8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 13,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p13-s5.jpg",
+      "source_y_pt": [
+        514.5567334118571,
+        684.0455437769925
+      ],
+      "sha256": "aaf836f6200582eff1a4b0aee43ba4dabafcc6233d7534307a6970493cff42f5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 13,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p13-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "d23a080d37890f88809c78fe5ecff81b0745cae034970439568f1d748f37b47e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 14,
+      "system": 1,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p14-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        185.6886533176286
+      ],
+      "sha256": "71c76fd8ae66894d7068818987d2a84ef57ceb0d574d8e218b3ba84aa85ace0d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 14,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p14-s2.jpg",
+      "source_y_pt": [
+        141.98743619945034,
+        315.773851590106
+      ],
+      "sha256": "300a8c12f4f9bfc4421507840fc1cfdde57ae8f93f0777cb28ba43abe45ac05f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 14,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p14-s3.jpg",
+      "source_y_pt": [
+        264.96505692972124,
+        436.6026698076168
+      ],
+      "sha256": "0081444571c49608d6f07da234288b9af861823efc7a59a11fc5805c422377da",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 14,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p14-s5.jpg",
+      "source_y_pt": [
+        515.2179034157833,
+        687.0208087946604
+      ],
+      "sha256": "83d6271948f0d93b3cbbe9c8356ee1d169ea8d8a0d3cd997432231b56f3516b1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A118",
+      "page": 14,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/A118-p14-s6.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "f8f282f97f42a5c1183dd23b66f2da75b859d3f6a135445c95af8b2cab97e996",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A118",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/ghibli-F-firstbar.jpg",
+      "source_box_pt": [
+        70,
+        252.77463682764034,
+        294,
+        419.8421672555948
+      ],
+      "sha256": "b6b1ca75790d2930c74aacb62ac0ac22ef47d3fbadf41261a88946e2391dc2d8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A118",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/ghibli-crossstaff-nine.jpg",
+      "source_box_pt": [
+        70,
+        130.78877110325874,
+        308,
+        293.88928150765605
+      ],
+      "sha256": "4aaffa2e6edfd069398d742eecd03324f4966520656bfc629b930f9c8b8a5a6e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A118",
+      "page": 7,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/ghibli-partial-three.jpg",
+      "source_box_pt": [
+        70,
+        120.54063604240284,
+        245,
+        277.19473890851987
+      ],
+      "sha256": "6f1ece1dc5077cb1e8cd3e232280097ff7237dc42716b02d915fe7b37c278653",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A118",
+      "page": 12,
+      "system": 4,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/ghibli-V-alternation.jpg",
+      "source_box_pt": [
+        65,
+        402.19905771495877,
+        321,
+        556.7043580683156
+      ],
+      "sha256": "9741ce9f679984891356b5f5d6d110bc69e41f74d914a7343bdedf741b11be7a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A118",
+      "page": 12,
+      "system": 5,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/ghibli-V-short-tremolos.jpg",
+      "source_box_pt": [
+        303,
+        526.0031409501374,
+        449,
+        680.5084413034944
+      ],
+      "sha256": "9fc253cadc2f9b7b611584756a14e6900111591fab577bc92cc1dc78ce524ca7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A118",
+      "page": 11,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/ghibli-75-before-title.jpg",
+      "source_box_pt": [
+        466,
+        650.7989791912054,
+        554,
+        809.6018845700825
+      ],
+      "sha256": "6754de396558cc477dd6c687348b3d7352e50962c8d87fa190a4b534016da582",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A118",
+      "page": 14,
+      "system": 2,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/ghibli-75-before-Z.jpg",
+      "source_box_pt": [
+        453,
+        146.98743619945034,
+        555,
+        307.773851590106
+      ],
+      "sha256": "b8d6f024af2cd6a6ad468a061e885fcc49611861b484033bbe02577b9b70dcf0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "scope-zoom",
+      "id": "A118",
+      "page": 13,
+      "system": 6,
+      "path": "tmp/engraving/specialz-ghibli-2026-10-30/ghibli-80-before-Y.jpg",
+      "source_box_pt": [
+        70,
+        655.0965842167255,
+        177,
+        809.6018845700825
+      ],
+      "sha256": "306c9c85a87b58dfd758f8632fa0906b859fe1131714172bf426d6d62826264b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 41,
+      "pdf_page": 61,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-41.jpg",
+      "sha256": "3cb3ac02d969010846c582841c026ad73e5c66d3d883a1e0ad14e1c94dc86ed6",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 43,
+      "pdf_page": 63,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-43.jpg",
+      "sha256": "22d28e739ec9c663b304b0286ee41b6ac5001642dafd2c74b1a5cd4b616e4bf9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 184,
+      "pdf_page": 204,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p184.jpg",
+      "sha256": "222171418db6fb21f843c2685ff670cd6b69cc7bec7d52f910f1f38b48b7ec14",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 185,
+      "pdf_page": 205,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p185.jpg",
+      "sha256": "5fe512725fc710b968f7b086a6673460b0776cb02312df9da3786f7a7f18cf20",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 190,
+      "pdf_page": 210,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p190.jpg",
+      "sha256": "66c45c2851d9c315c6cac7552c47fa4beb77122cee31f4820c76e65ebb665465",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 203,
+      "pdf_page": 223,
+      "path": "tmp/engraving/integrated-rumbling-unravel-2026-10-22/gould-p203.png",
+      "sha256": "48e7e705ca140dd5fa743d02f910d38eee56f2ac73e4dea2d04c0af3edc319a4",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 213,
+      "pdf_page": 233,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-213-reread.jpg",
+      "sha256": "33a2bf132aceea603508082e316ffa5f5ba6b96a9e67d67f493b4b125f587f14",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 221,
+      "pdf_page": 241,
+      "path": "tmp/engraving/tremolo-transition-2026-10-26/book-221-reread.jpg",
+      "sha256": "f8d6501e83d2ea272bf3efe4d8b65a855b41913015af8824d84b748e43ed9fc5",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 222,
+      "pdf_page": 242,
+      "path": "tmp/engraving/skill-transfer-continuity-2026-10-25/book-222.jpg",
+      "sha256": "e731e7d59aec9e0ad75fc4078123aa147ae81e36ce4b3b6c593138dff1bb40da",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 223,
+      "pdf_page": 243,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-243.jpg",
+      "sha256": "30e655895b4acd72ebcb6891b57a04950a75cb3e02489ec574779ea77c9a2649",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 224,
+      "pdf_page": 244,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-244.jpg",
+      "sha256": "e6542c37848737e8c50ef4b21429b2401fc21c66a7040a3547e0ce48b7f218a8",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 225,
+      "pdf_page": 245,
+      "path": "tmp/engraving/tremolo-reading-2026-10-20/book-245.jpg",
+      "sha256": "084ce6edced7f0b701688734ea5279453167fe91fbe9069bfa769386dae2d4fd",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 315,
+      "pdf_page": 335,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-315.jpg",
+      "sha256": "d05be9460b4eb7d2831b98f2e8b81f94f6febe32d7d5749db9efc8b140379aa9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 323,
+      "pdf_page": 343,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-323.jpg",
+      "sha256": "66518d033c3bab5a2ae91666d77d943a04435dc6e47ff70b592eaf2a400af865",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 324,
+      "pdf_page": 344,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p324.jpg",
+      "sha256": "0312d04e27272e06b5e8a7107d2f94ce05c3a2da0aac85e44ac8dc777296e150",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/piano-2026-10-19/book-337.jpg",
+      "sha256": "f829990ad08fe0abe3be5c36c330297de27cd14c3635709a4a36a2b2969ae286",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 487,
+      "pdf_page": 507,
+      "path": "tmp/engraving/nagi-nier-2026-10-29/book-printed-487.jpg",
+      "sha256": "ee00d7b198334cf964a0efd08fdd2f800fa4b18b83a98cfa40c5454171b3c6ae",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    }
+  ],
+  "whole_reviews": {
+    "A117": {
+      "pages": 5,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 29,
+      "meaning": "Allwholepagesactuallyviewedand selectedmusical/layoutquestionschecked;notfullpitchaudit"
+    },
+    "A118": {
+      "pages": 14,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        7,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 88,
+      "meaning": "Allwholepagesactuallyviewedand selectedmusical/layoutquestionschecked;notfullpitchaudit"
+    }
+  },
+  "selected_music_checks": {
+    "head_selections": [
+      {
+        "id": "A117",
+        "page": 2,
+        "system": 6,
+        "selection": [
+          78,
+          222,
+          715,
+          720
+        ],
+        "label": "SPECIALZ E firstbar lowerhead of each upper chord;seconds displaced head excluded",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 79.325683,
+            "y": 718.937208,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 88.722,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 98.1,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 107.496,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 116.874,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 126.252,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 135.648,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 145.026,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 154.422,
+            "y": 718.937411,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 163.62,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 173.016,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 182.394,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 191.79,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 201.168,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 210.546,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 219.942,
+            "y": 716.813311,
+            "font": "BHMMJF+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          79.325683,
+          88.722,
+          98.1,
+          107.496,
+          116.874,
+          126.252,
+          135.648,
+          145.026,
+          154.422,
+          163.62,
+          173.016,
+          182.394,
+          191.79,
+          201.168,
+          210.546,
+          219.942
+        ],
+        "gaps": [
+          9.396317,
+          9.378,
+          9.396,
+          9.378,
+          9.378,
+          9.396,
+          9.378,
+          9.396,
+          9.198,
+          9.396,
+          9.378,
+          9.396,
+          9.378,
+          9.378,
+          9.396
+        ],
+        "regular_activity": true,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 13,
+        "system": 4,
+        "selection": [
+          72,
+          220,
+          430,
+          475
+        ],
+        "label": "Ghibli X ordinary16 bar1",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 72.612,
+            "y": 444.4556,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 82.35,
+            "y": 446.5797,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 92.088,
+            "y": 450.8276,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 101.826,
+            "y": 446.5797,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 111.564,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 121.302,
+            "y": 450.8276,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 131.04,
+            "y": 459.3236,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 140.778,
+            "y": 455.0757,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 150.516,
+            "y": 444.4556,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 160.254,
+            "y": 446.5797,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 169.992,
+            "y": 450.8276,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 179.748,
+            "y": 446.5797,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 189.486,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 199.224,
+            "y": 450.8276,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 208.962,
+            "y": 459.3236,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 218.7,
+            "y": 455.0757,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          72.612,
+          82.35,
+          92.088,
+          101.826,
+          111.564,
+          121.302,
+          131.04,
+          140.778,
+          150.516,
+          160.254,
+          169.992,
+          179.748,
+          189.486,
+          199.224,
+          208.962,
+          218.7
+        ],
+        "gaps": [
+          9.738,
+          9.738,
+          9.738,
+          9.738,
+          9.738,
+          9.738,
+          9.738,
+          9.738,
+          9.738,
+          9.738,
+          9.756,
+          9.738,
+          9.738,
+          9.738,
+          9.738
+        ],
+        "regular_activity": true,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 13,
+        "system": 4,
+        "selection": [
+          238,
+          384,
+          430,
+          475
+        ],
+        "label": "Ghibli X ordinary16 bar2",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 238.356,
+            "y": 446.5797,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 247.914,
+            "y": 448.7036,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 257.652,
+            "y": 450.8276,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 267.21,
+            "y": 448.7036,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 276.966,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 286.524,
+            "y": 450.8276,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 296.082,
+            "y": 459.3236,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 305.82,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 315.378,
+            "y": 446.5797,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 324.954,
+            "y": 448.7036,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 334.692,
+            "y": 450.8276,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 344.25,
+            "y": 448.7036,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 353.988,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 363.546,
+            "y": 459.3236,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 373.122,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 382.86,
+            "y": 448.7036,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          238.356,
+          247.914,
+          257.652,
+          267.21,
+          276.966,
+          286.524,
+          296.082,
+          305.82,
+          315.378,
+          324.954,
+          334.692,
+          344.25,
+          353.988,
+          363.546,
+          373.122,
+          382.86
+        ],
+        "gaps": [
+          9.558,
+          9.738,
+          9.558,
+          9.756,
+          9.558,
+          9.558,
+          9.738,
+          9.558,
+          9.576,
+          9.738,
+          9.558,
+          9.738,
+          9.558,
+          9.576,
+          9.738
+        ],
+        "regular_activity": true,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 13,
+        "system": 4,
+        "selection": [
+          402,
+          549,
+          430,
+          475
+        ],
+        "label": "Ghibli X ordinary16 bar3",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 402.336,
+            "y": 438.0836,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 411.894,
+            "y": 442.3316,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 421.632,
+            "y": 448.7036,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 431.19,
+            "y": 442.3316,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 440.946,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 450.504,
+            "y": 448.7036,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 460.242,
+            "y": 457.1996,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 469.8,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 479.538,
+            "y": 438.0836,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 489.096,
+            "y": 442.3316,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 498.6721,
+            "y": 448.7036,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 508.41,
+            "y": 442.3316,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 517.968,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 527.7061,
+            "y": 448.7036,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 537.264,
+            "y": 457.1996,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 547.0021,
+            "y": 452.9516,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          402.336,
+          411.894,
+          421.632,
+          431.19,
+          440.946,
+          450.504,
+          460.242,
+          469.8,
+          479.538,
+          489.096,
+          498.6721,
+          508.41,
+          517.968,
+          527.7061,
+          537.264,
+          547.0021
+        ],
+        "gaps": [
+          9.558,
+          9.738,
+          9.558,
+          9.756,
+          9.558,
+          9.738,
+          9.558,
+          9.738,
+          9.558,
+          9.5761,
+          9.7379,
+          9.558,
+          9.7381,
+          9.5579,
+          9.7381
+        ],
+        "regular_activity": true,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "selection": [
+          72,
+          118,
+          276,
+          322
+        ],
+        "label": "Ghibli F bar1 group1",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 72.954,
+            "y": 314.2976,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 80.388,
+            "y": 312.1736,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 87.84,
+            "y": 310.0496,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 95.094,
+            "y": 307.9257,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 102.528,
+            "y": 305.8016,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 109.962,
+            "y": 303.6776,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 117.234,
+            "y": 301.5536,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          72.954,
+          80.388,
+          87.84,
+          95.094,
+          102.528,
+          109.962,
+          117.234
+        ],
+        "gaps": [
+          7.434,
+          7.452,
+          7.254,
+          7.434,
+          7.434,
+          7.272
+        ],
+        "regular_activity": false,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "selection": [
+          124,
+          162,
+          276,
+          322
+        ],
+        "label": "Ghibli F bar1 group2",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 124.668,
+            "y": 299.4116,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 132.102,
+            "y": 301.5536,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 139.356,
+            "y": 299.4116,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 146.808,
+            "y": 297.2876,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 154.242,
+            "y": 295.1636,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 161.496,
+            "y": 293.0396,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          124.668,
+          132.102,
+          139.356,
+          146.808,
+          154.242,
+          161.496
+        ],
+        "gaps": [
+          7.434,
+          7.254,
+          7.452,
+          7.434,
+          7.254
+        ],
+        "regular_activity": false,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "selection": [
+          168,
+          229,
+          276,
+          322
+        ],
+        "label": "Ghibli F bar1 group3",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 168.93,
+            "y": 290.9156,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 176.382,
+            "y": 293.0396,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 183.816,
+            "y": 295.1636,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 190.89,
+            "y": 297.2876,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 198.342,
+            "y": 299.4116,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 205.776,
+            "y": 301.5536,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 213.03,
+            "y": 303.6776,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 220.464,
+            "y": 305.8016,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 227.898,
+            "y": 307.9257,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          168.93,
+          176.382,
+          183.816,
+          190.89,
+          198.342,
+          205.776,
+          213.03,
+          220.464,
+          227.898
+        ],
+        "gaps": [
+          7.452,
+          7.434,
+          7.074,
+          7.452,
+          7.434,
+          7.254,
+          7.434,
+          7.434
+        ],
+        "regular_activity": false,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "selection": [
+          235,
+          289,
+          276,
+          322
+        ],
+        "label": "Ghibli F bar1 group4",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 235.17,
+            "y": 299.4116,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 242.604,
+            "y": 301.5536,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 250.038,
+            "y": 303.6776,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 257.472,
+            "y": 305.8016,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 264.924,
+            "y": 307.9257,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 272.358,
+            "y": 310.0496,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 279.792,
+            "y": 312.1736,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 287.226,
+            "y": 314.2976,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          235.17,
+          242.604,
+          250.038,
+          257.472,
+          264.924,
+          272.358,
+          279.792,
+          287.226
+        ],
+        "gaps": [
+          7.434,
+          7.434,
+          7.434,
+          7.452,
+          7.434,
+          7.434,
+          7.434
+        ],
+        "regular_activity": false,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "selection": [
+          304,
+          358,
+          276,
+          322
+        ],
+        "label": "Ghibli F bar2 group1",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 304.578,
+            "y": 316.4216,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 312.012,
+            "y": 314.2976,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 319.464,
+            "y": 312.1736,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 326.898,
+            "y": 310.0496,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 334.332,
+            "y": 307.9257,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 341.766,
+            "y": 305.8016,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 349.2,
+            "y": 303.6776,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 356.652,
+            "y": 301.5536,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          304.578,
+          312.012,
+          319.464,
+          326.898,
+          334.332,
+          341.766,
+          349.2,
+          356.652
+        ],
+        "gaps": [
+          7.434,
+          7.452,
+          7.434,
+          7.434,
+          7.434,
+          7.434,
+          7.452
+        ],
+        "regular_activity": false,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "selection": [
+          364,
+          418,
+          276,
+          322
+        ],
+        "label": "Ghibli F bar2 group2",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 364.086,
+            "y": 299.4116,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 371.52,
+            "y": 301.5536,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 378.954,
+            "y": 299.4116,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 386.388,
+            "y": 297.2876,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 393.84,
+            "y": 295.1636,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 401.274,
+            "y": 293.0396,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 408.708,
+            "y": 290.9156,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 416.142,
+            "y": 288.7916,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          364.086,
+          371.52,
+          378.954,
+          386.388,
+          393.84,
+          401.274,
+          408.708,
+          416.142
+        ],
+        "gaps": [
+          7.434,
+          7.434,
+          7.434,
+          7.452,
+          7.434,
+          7.434,
+          7.434
+        ],
+        "regular_activity": false,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "selection": [
+          423,
+          469,
+          276,
+          322
+        ],
+        "label": "Ghibli F bar2 group3",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 423.576,
+            "y": 286.6676,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 431.028,
+            "y": 288.7916,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 438.462,
+            "y": 290.9156,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 445.716,
+            "y": 293.0396,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 453.15,
+            "y": 295.1636,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 460.6021,
+            "y": 297.2876,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 467.856,
+            "y": 299.4116,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          423.576,
+          431.028,
+          438.462,
+          445.716,
+          453.15,
+          460.6021,
+          467.856
+        ],
+        "gaps": [
+          7.452,
+          7.434,
+          7.254,
+          7.434,
+          7.4521,
+          7.2539
+        ],
+        "regular_activity": false,
+        "exact_duplicate_chars_excluded": 0
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "selection": [
+          475,
+          551,
+          276,
+          322
+        ],
+        "label": "Ghibli F bar2 group4",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 475.29,
+            "y": 290.9156,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 482.7241,
+            "y": 293.0396,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 490.158,
+            "y": 295.1636,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 497.4301,
+            "y": 297.2876,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 504.864,
+            "y": 299.4116,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 512.298,
+            "y": 301.5536,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 519.5701,
+            "y": 303.6776,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 527.004,
+            "y": 305.8016,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 534.438,
+            "y": 307.9257,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 541.692,
+            "y": 310.0496,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 549.144,
+            "y": 312.1736,
+            "font": "MNABHO+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "unique_x": [
+          475.29,
+          482.7241,
+          490.158,
+          497.4301,
+          504.864,
+          512.298,
+          519.5701,
+          527.004,
+          534.438,
+          541.692,
+          549.144
+        ],
+        "gaps": [
+          7.4341,
+          7.4339,
+          7.2721,
+          7.4339,
+          7.434,
+          7.2721,
+          7.4339,
+          7.434,
+          7.254,
+          7.452
+        ],
+        "regular_activity": false,
+        "exact_duplicate_chars_excluded": 0
+      }
+    ],
+    "duration_recipes": [
+      {
+        "name": "SPECIALZ E ordinary16 chords",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "16time columns;displaced seconds are chord members,not extra attacks."
+      },
+      {
+        "name": "SPECIALZ G upper firstbar",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "3/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Opening8rest,8,8,two16,tied8,dottedquarter;preserve syncopation."
+      },
+      {
+        "name": "SPECIALZ G lower firstbar",
+        "quarter_units": [
+          "3/2",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Dottedquarter,8,four16,two8;independent ofupper rhythm."
+      },
+      {
+        "name": "SPECIALZ lastline firstbar upper",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "8rest+three8,quarter,two8;rit at q2,not q1.5."
+      },
+      {
+        "name": "SPECIALZ lastline thirdbar lower",
+        "quarter_units": [
+          "2",
+          "3/2",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Old half thenold dottedquarter before two NEW16;p at q3.5 first16."
+      },
+      {
+        "name": "SPECIALZ final lower",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1",
+          "2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "8attack,8rest,quarterrest,halfrest;no finalfermata."
+      },
+      {
+        "name": "Ghibli beforeE mixed3/7/6",
+        "quarter_units": [
+          "1/2",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "8rest,3sixteenths halfq,7sixteenths1q,6crossstaffsixteenths1q,fourordinary16."
+      },
+      {
+        "name": "Ghibli F firstbar",
+        "quarter_units": [
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "7sixteenths,6sixteenths,9thirtyseconds,8ordinary32;four beatgroups,30heads."
+      },
+      {
+        "name": "Ghibli F secondbar",
+        "quarter_units": [
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/11",
+          "1/11",
+          "1/11",
+          "1/11",
+          "1/11",
+          "1/11",
+          "1/11",
+          "1/11",
+          "1/11",
+          "1/11",
+          "1/11"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "8ordinary32,8ordinary32,7sixteenths,11thirtyseconds;34heads."
+      },
+      {
+        "name": "Ghibli F firstbar lower",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "3/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Fourordinary8 then dottedquarter and8;second8liesbetween7tupletindices3and4."
+      },
+      {
+        "name": "Ghibli p4s5 firstbar",
+        "quarter_units": [
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "7sixteenths,9/9thirtyseconds,8ordinary32;notuniformnotevalues."
+      },
+      {
+        "name": "Ghibli p4s5 secondbar",
+        "quarter_units": [
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/7",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Two7sixteenthgroups alternate with ordinary32groups;no invented7:8."
+      },
+      {
+        "name": "Ghibli p4s6 firstbar",
+        "quarter_units": [
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/10",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/9",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Ordinary32,10:8x32,9:8x32,ordinary32."
+      },
+      {
+        "name": "Totoro firstupperbar",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Each halfbar16rest+three16+8+two16;not sixteen equal attacks."
+      },
+      {
+        "name": "Totoro p7s2 partial3 firstbar",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/6",
+          "1/6",
+          "1/6",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Four8,one8,three16triplet,two8;3onlyinnerthree undercommonmainbeam."
+      },
+      {
+        "name": "Before Spirited pickup",
+        "quarter_units": [
+          "3",
+          "1"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Dottedhalf withfermata,then p quarterpickup before82/newtitle;actualturnpending."
+      },
+      {
+        "name": "Before Arrietty tied pickup",
+        "quarter_units": [
+          "3",
+          "1"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Dottedhalf andquarter bothfermata;lastquartertiesacross3/4boundary."
+      },
+      {
+        "name": "Arrietty first3/4 upper",
+        "quarter_units": [
+          "1",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "3",
+        "expected": "3",
+        "interpretation": "Oldquartertie receiver+four8;lowerdottedhalf remainsseparate."
+      },
+      {
+        "name": "Arrietty T upper firstbar",
+        "quarter_units": [
+          "1/2",
+          "1/4",
+          "1/4",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "3",
+        "expected": "3",
+        "interpretation": "8rest,two16,four8;mf at q0.5."
+      },
+      {
+        "name": "Before WindRises75",
+        "quarter_units": [
+          "2",
+          "3/4",
+          "1/4"
+        ],
+        "total": "3",
+        "expected": "3",
+        "interpretation": "Fermatahalf then dotted8+16;75onq2 beforetitle/newpage."
+      },
+      {
+        "name": "V firstbar alternating tremolo",
+        "quarter_units": [
+          "3/2",
+          "1/4",
+          "1/4",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Two dotted-quarter writtenmembers SHARE1.5q,then two16 and16ordinary32;three strokes alone do not prove measured performance."
+      },
+      {
+        "name": "V nextbar alternating tremolo",
+        "quarter_units": [
+          "2",
+          "1/2",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8",
+          "1/8"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Two writtenhalf members SHARE2q,then8+four32+eight32."
+      },
+      {
+        "name": "V p12s5 secondbar alternating tremolos",
+        "quarter_units": [
+          "1",
+          "1",
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Two separate two-note quarter tremolo pairs eachSHARE1q,then8rest+three8;not four separatequarterattacks."
+      },
+      {
+        "name": "WindRises 2/4 receiver",
+        "quarter_units": [
+          "1",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "2",
+        "expected": "2",
+        "interpretation": "Oldquartertie thenfour16;nextW restores4/4."
+      },
+      {
+        "name": "Ghibli X ordinary16",
+        "quarter_units": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "16upperevents overlowerwholeharmonies;not Vtremolo notation."
+      },
+      {
+        "name": "BeforeY80 two-four",
+        "quarter_units": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ],
+        "total": "2",
+        "expected": "2",
+        "interpretation": "80at8restq0 thenthree8;mfq0.5;loweroldquarter+quarterrest."
+      },
+      {
+        "name": "BeforeZ75",
+        "quarter_units": [
+          "3",
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ],
+        "total": "4",
+        "expected": "4",
+        "interpretation": "Olddottedhalf3q thenfour16atq3,75andp beforeZ;lowerquarterrestatq3."
+      }
+    ],
+    "selected_vector_contexts": [
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "label": "F two-sixteenth beams versus three-thirtysecond beams",
+        "vectors": [
+          {
+            "box": [
+              72.954,
+              326.07,
+              117.684,
+              329.184
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              72.954,
+              322.884,
+              117.684,
+              325.998
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              168.93,
+              322.884,
+              228.348,
+              325.998
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              168.93,
+              319.698,
+              228.348,
+              322.812
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              168.93,
+              316.512,
+              228.348,
+              319.626
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              235.17,
+              329.256,
+              287.676,
+              332.37
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              235.17,
+              326.07,
+              287.676,
+              329.184
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              235.17,
+              322.884,
+              287.676,
+              325.998
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              304.578,
+              329.256,
+              357.102,
+              332.37
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              304.578,
+              326.07,
+              357.102,
+              329.184
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              304.578,
+              322.884,
+              357.102,
+              325.998
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              423.576,
+              314.388,
+              468.306,
+              317.502
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              423.576,
+              311.202,
+              468.306,
+              314.316
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              475.29,
+              326.07,
+              549.594,
+              329.184
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              475.29,
+              322.884,
+              549.594,
+              325.998
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              475.29,
+              319.698,
+              549.594,
+              322.812
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              309.366,
+              333.954,
+              339.57,
+              338.13
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              124.668,
+              314.388,
+              161.946,
+              316.44
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              124.668,
+              311.202,
+              161.946,
+              313.254
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              77.742,
+              337.662,
+              152.046,
+              339.714
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              364.086,
+              318.636,
+              416.592,
+              320.688
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              364.086,
+              315.45,
+              416.592,
+              317.502
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              364.086,
+              312.264,
+              416.592,
+              314.316
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A118",
+        "page": 3,
+        "system": 4,
+        "label": "Before E triplet7and6 sixteenth beam levels",
+        "vectors": [
+          {
+            "box": [
+              231.984,
+              465.264,
+              253.152,
+              468.198
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              231.984,
+              462.078,
+              253.152,
+              465.012
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              262.962,
+              476.064,
+              320.616,
+              480.24
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              262.962,
+              472.878,
+              320.616,
+              477.054
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              329.544,
+              485.1,
+              383.13,
+              491.382
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              329.544,
+              481.914,
+              383.13,
+              488.196
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A118",
+        "page": 12,
+        "system": 4,
+        "label": "V first dotted-quarter two-note tremolo floating strokes",
+        "vectors": [
+          {
+            "box": [
+              73.674,
+              469.674,
+              97.308,
+              473.184
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              73.674,
+              466.47,
+              97.308,
+              469.98
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              73.674,
+              463.284,
+              97.308,
+              466.794
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A118",
+        "page": 12,
+        "system": 5,
+        "label": "V nextbar two separate quarter-duration alternating tremolos",
+        "vectors": [
+          {
+            "box": [
+              300.87,
+              595.836,
+              307.872,
+              598.824
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              300.87,
+              592.65,
+              307.872,
+              595.62
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              300.87,
+              589.464,
+              307.872,
+              592.434
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              330.786,
+              595.836,
+              337.788,
+              598.824
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              330.786,
+              592.65,
+              337.788,
+              595.62
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              330.786,
+              589.464,
+              337.788,
+              592.434
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      }
+    ],
+    "position_checks": [
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "label": "F upper seven-tuplet index3, q3/7",
+        "char": {
+          "text": "œ",
+          "x": 95.094,
+          "y": 307.9257,
+          "font": "MNABHO+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "label": "F lower ordinary eighth q1/2",
+        "char": {
+          "text": "œ",
+          "x": 98.82,
+          "y": 350.4236,
+          "font": "MNABHO+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A118",
+        "page": 4,
+        "system": 3,
+        "label": "F upper seven-tuplet index4, q4/7",
+        "char": {
+          "text": "œ",
+          "x": 102.528,
+          "y": 305.8016,
+          "font": "MNABHO+Chaconne",
+          "size": 16.2899
+        }
+      },
+      {
+        "id": "A118",
+        "page": 11,
+        "system": 6,
+        "label": "75 at q2 in preceding3/4bar,before WindRises title",
+        "char": {
+          "text": "q",
+          "x": 505.4041,
+          "y": 696.4377,
+          "font": "MNABHO+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A118",
+        "page": 13,
+        "system": 6,
+        "label": "80 starts q0 on eighthrest in2/4,before Y",
+        "char": {
+          "text": "8",
+          "x": 72.198,
+          "y": 701.9276,
+          "font": "MNABIP+CenturyNo1SB-Bold",
+          "size": 12.744
+        }
+      },
+      {
+        "id": "A118",
+        "page": 14,
+        "system": 2,
+        "label": "75 starts q3 at final four16,before Z",
+        "char": {
+          "text": "q",
+          "x": 503.1,
+          "y": 190.1516,
+          "font": "MNABHO+Chaconne",
+          "size": 11.34
+        }
+      },
+      {
+        "id": "A117",
+        "page": 5,
+        "system": 6,
+        "label": "p at firstlower16 q3.5,not earlier dottedquarter",
+        "char": {
+          "text": "p",
+          "x": 405.342,
+          "y": 741.2397,
+          "font": "BHMMJF+Chaconne",
+          "size": 16.992
+        }
+      },
+      {
+        "id": "A117",
+        "page": 5,
+        "system": 6,
+        "label": "a tempo on wholechord q0 with onlybottom incomingtie",
+        "char": {
+          "text": "a",
+          "x": 241.362,
+          "y": 695.3756,
+          "font": "BHMOFB+CenturyOSMTPro-Italic",
+          "size": 9.918
+        }
+      }
+    ],
+    "intermediate_onset": {
+      "quarter_times": [
+        "3/7",
+        "1/2",
+        "4/7"
+      ],
+      "x_pt": [
+        95.094,
+        98.82,
+        102.528
+      ],
+      "meaning": "Lower ordinary eighth is genuinely between upper tuplet events;keep its intermediate time column,not snap to nearest upper head."
+    },
+    "selected_head_count": 128,
+    "regular_gap_count": 60
+  },
+  "book_reread_printed_pages": [
+    40,
+    41,
+    43,
+    184,
+    185,
+    190,
+    200,
+    203,
+    207,
+    213,
+    221,
+    222,
+    223,
+    224,
+    225,
+    311,
+    315,
+    323,
+    324,
+    337,
+    487,
+    490
+  ],
+  "book_reread_technical_pages": 22,
+  "book_reread_auxiliary_pages": 0,
+  "book_new_technical_pages": 0,
+  "book_new_auxiliary_pages": 0,
+  "new_native_candidate_conditions": 0,
+  "software_adaptation_changes": 0,
+  "judgments": {
+    "keep": [
+      "E/Xstableactivity andnecessaryprefixspace",
+      "F group-shapes plusgenuineintermediate lowerq1/2betweenupper3/7and4/7",
+      "Pairedtremolosharedspans,necessaryclefs,localoctave/hand/dynamics andtitle-crossingsustain",
+      "Tempo beforeWindRises/Y/Z atactualpickup/restanchors"
+    ],
+    "compare": [
+      "Shortbracket aroundp7s2innerthree16triplets",
+      "FirstVperformanceclarificationonlyafterintentconfirmation",
+      "Wholepage/turnreviewofp7pickup beforep8title;clefalternativesonlywholeline"
+    ],
+    "corrected_initial_hypotheses": [
+      "Arriettyprebar dottedhalf3plusquarter1,not half2plusquarter",
+      "F7/6are16not32andno7:8claim",
+      "V hasalternatingtwo-notepairs,notall single-notetremolos",
+      "SPECIALZendingp atfirst16q3.5,notold dottedquarterq2;ritq2notq1.5",
+      "SPECIALZCparenthesesnotassignedsostenutowithoutlocaldefinition"
+    ],
+    "unresolved": "Originalnativeencoding,fullpitch/playback,Vperformanceintent,Cparentheses,realalternatives,actualturns/print andpersonalchoices.",
+    "no_user_aesthetic_acceptance": true
+  },
+  "external_resource_completion": {
+    "new_complete_scopes": 0,
+    "resources_unchanged": [
+      15,
+      25
+    ],
+    "R11_status": "partial"
+  },
+  "scope": {
+    "corpus_closeouts_before": [
+      104,
+      146
+    ],
+    "corpus_closeouts_after": [
+      106,
+      146
+    ],
+    "remaining_score_closeouts": 40,
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resources": [
+      15,
+      25
+    ],
+    "remaining_resources": 10,
+    "transfer": [
+      8,
+      8
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "user_preparation": [
+      2,
+      4
+    ]
+  },
+  "fixed_release_tag": "engraving-v0.13.0",
+  "goal_status": "active",
+  "cache": {
+    "measured_at_utc": "2026-10-29T19:14:11.973088+00:00",
+    "batch": {
+      "directory": "specialz-ghibli-2026-10-30",
+      "files": 104,
+      "logical_bytes": 17063931,
+      "on_disk_bytes": 17063931,
+      "on_disk_unknown_files": 0
+    },
+    "total_logical_bytes": 2871327601,
+    "total_on_disk_bytes": 2730038374,
+    "new_runtime_or_original_PDF_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Before final smallrecords;126uniqueviews41reused85new;noPDF/font/browsermediadownloads."
+  },
+  "validation": {
+    "status": "passed",
+    "source_PDF_hashes_and_pages_verified": 3,
+    "whole_score_pages": 19,
+    "system_rows": 117,
+    "local_PDF_book_images_actually_viewed": 126,
+    "reused_local_views": 41,
+    "new_local_views": 85,
+    "system_details": 77,
+    "extra_zooms": 8,
+    "book_pages_reread": 22,
+    "new_book_coverage": 0,
+    "source_heads_checked": 128,
+    "selected_filled_vectors_checked": 38,
+    "source_position_checks": 8,
+    "regular_activity_gaps": 60,
+    "duration_recipes": 27,
+    "exact_duplicate_head_chars_excluded": 0,
+    "intermediate_lower_onset_between_upper_tuplet_heads_verified": true,
+    "beam_levels_and_alternating_tremolo_pairs_checked": true,
+    "title_before_or_after_actual_tempo_anchors_checked": true,
+    "ending_p_first16_q3_5_corrected": true,
+    "skill_routes_executed": 20,
+    "score_study_direct_routes": 14,
+    "local_markdown_links_checked": 1170,
+    "public_paths": 25,
+    "unrelated_worktree_paths_preserved": [],
+    "corpus_closeouts": [
+      106,
+      146
+    ],
+    "resources": [
+      15,
+      25
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "goal_status": "active",
+    "new_native_conditions": 0,
+    "new_software_adaptation": 0,
+    "old_release_snapshots_and_prior_evidence_unchanged": true,
+    "files_deleted": 0,
+    "arithmetic_not_sufficient_to_prove_musical_interpretation": true
+  }
+}

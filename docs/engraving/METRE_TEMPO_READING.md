@@ -177,3 +177,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：局部Meno后的恢复不直接等于曲首数值
 
 [Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Snow K的Meno与rit.后a tempo先按局部语境读，p6s3明确四分88才给数值重设。L的2/4 q0已在旧quarter tie接收处恢复，三个新16更晚。Gould p65本批是tie阅读依据，不记为速度章复读。
+
+## 2026-10-30：新速度可属于标题前引子或休止
+
+[SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Ghibli75在p11s6旧3/4q2，比Wind Rises题名早；80在p13s6的2/4q0八分休止，比Y早；75在p14s2q3四个16，比Z早。Arrietty3/4先接旧quartertie，末2/4也可先接旧quarter再四16。不能把速度、换拍、换调和第一次攻击当同一列。

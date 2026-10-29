@@ -105,3 +105,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-29：开放末弧与明确接收不能统一
 
 [Kiss结尾](INTEGRATED_READING_KISS_CHANCE.md)多个全音头有开放持续弧，不能删成悬空错误或补造下一音；Chance结尾有明确接收／移动／延长。Gould72–73、337区分留声、踏板与手指保持；无具体捕捉释放字段时不自动指定。
+
+## 2026-10-30：括号持续含义依赖明确语境
+
+[SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：SPECIALZ C有括号低部长头，本批未见足以定义它的Sost.说明；Gould337的括号提醒依赖明确选择性延音语境，暂不移用。用户m132语义确认只对用户原例。Ghibli标题可跨旧低音／踏板，SPECIALZ末休止与Ghibli末延长又不同，结束不套同一模板。

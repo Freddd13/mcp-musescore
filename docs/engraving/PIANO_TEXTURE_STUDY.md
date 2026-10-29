@@ -274,3 +274,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：混合三连不能缩放整个voice
 
 [Snow／Sparkle](INTEGRATED_READING_SNOW_SPARKLE.md)：Sparkle A低部普通四分休止后才有三连旋律，背景全音独立；G上部休止＋九三连8、下部三三连8后普通四分／二分休止分别计量。Snow D／I局部l.h.、N的r.h.与慢和弦各有对象。PDF层次不直接证明原工程voice和播放。
+
+## 2026-10-30：快慢层与谱号各承担读数任务
+
+[SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Totoro下表长低音后转高音谱号读中音线，再恢复低音谱号准备下一低音；省换号会增加加线／音区心算，需整行比较。F下部普通8可以落在七连内部非共同头时点；SPECIALZ J共头／慢干及虚线路径不能合成全部新攻击。

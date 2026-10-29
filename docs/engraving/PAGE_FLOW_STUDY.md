@@ -215,3 +215,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：引子与主题组合先核开页和整页预算
 
 [Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Silhouette p4末为四分休止＋三pp四分，之前才是整小节延长休止；J在p5。比较完整引子小节移到J前，可减少跨页寻找；p5首行五变六小节需重核整页。常规奇数右页下p4／p5同开页，不能把此候选称为解决翻页。
+
+## 2026-10-30：题名层级与引子的翻页成本同看
+
+[SPECIALZ／Ghibli](INTEGRATED_READING_SPECIALZ_GHIBLI.md)：Ghibli六题名既有页中起行也有新页；p7末延长后已经有四分引子，新页才82／Spirited。p11末75已进入引子，题名下一页。保标题层级及跨界线后查两页／装订和整页预算；当前不宣称新页新曲必然翻得好，也不一律把引子后移。

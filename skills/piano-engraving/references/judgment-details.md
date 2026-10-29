@@ -103,6 +103,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_SPECIALZ_GHIBLI.md`：F下部q1/2在上七连3/7与4/7之间，保真实中间列及组形；E／X普通16稳定，二度移头不增攻击。
+
 `INTEGRATED_READING_SNOW_SPARKLE.md`：普通16、普通32、三连8和七连16分别比较，先保稳定活动与必要还原号占位；黑度相近不证明同值，慢层保持与进入另核。
 
 `INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：先保稳定活动；C下部q2.5夹在五连q2.4与q2.6之间，不能按最近符头吸齐。白头可占一个快列，和弦多头也只一时点；混合值与普通16分判。
@@ -205,6 +207,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_SPECIALZ_GHIBLI.md`：7／6连16与9／11连32分读。V两音震音书面成员共享时段，三笔不独立证明实际交替数；p7s2普通音之间三连16可比较短括号。
+
 `INTEGRATED_READING_SNOW_SPARKLE.md`：同型三音梁已有基准可省3；首次混合四分＋两个16可局部重申。两个8休止＋两个16也可合三连一拍。连续5有内梁及逐组数字时，优先级低于普通32之后首个5或J主梁前三连32；严格部分梁体例与编辑取舍分记。
 
 `INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：C／D q3上部8休止属于旧附点二分层，快速声部同刻仍有8音；先分层再核时值。完整独立5／7／9保裸数，部分3与组外普通8共主梁才优先短括号。
@@ -281,6 +285,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`INTEGRATED_READING_SPECIALZ_GHIBLI.md`：SPECIALZ末p在q3.5首16，更早附点quarter是旧接收；Ghibli I前低mf和上p分别开始，不统一段号。
+
 `INTEGRATED_READING_SNOW_SPARKLE.md`：Sparkle E／D.S.前f在q11/3，Snow M ff在q0休止处；入口不必等于新攻击或段号。
 
 `INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：C首sfz纠正旧ff；Sirius末sfzq0→mfq1.5、末bar ffq2。旧tie接收／上部休止也可有生效点，段号不替代局部位置。
@@ -308,6 +314,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先认同一动态进程，再决定哪些标记应共用通道。`markings`的unlasting实例有同表mf／ff和休止前后p sub.／pp：位置不齐可正在表达不同层与时点，不合并／移齐。长限定短语与延续线一起读，分散词的X不自动是新力度或速度事件；起点给全短语及新行提醒可作候选，不能冒充一律禁止分词的规范。几何、逻辑范围与播放scope分查。
 
 <a id="cross-staff"></a>
+
+`INTEGRATED_READING_SPECIALZ_GHIBLI.md`：Totoro低长音后转高音谱号读中音，再恢复低谱号准备下一低音，删号成本需比较加线。跨标题旧持续及Arrietty3/4旧tie先保留。
 
 `INTEGRATED_READING_SNOW_SPARKLE.md`：Coda15首时点另有低部普通四分角色，不加成第十六个快头。局部l.h.不扩大上部8va到下表，慢保持、手交接和活动层分别读。
 
@@ -344,6 +352,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 装饰记号先分主音、辅助音、起音／收尾和连续／重奏。颤音波线交代范围，tie交代不重新起音，单独升降号或括起小头不一定修饰主音或是顺次弹过的grace；不按黑线长度、相同tr字串或MIDI不变自动缩线／合并。跨行只有波线时结合tie与邻层判可读性，书中更推荐的续行提示也不直接变成纠错命令。相关反例从`ornaments`读取。
 
 <a id="tempo"></a>
+
+`INTEGRATED_READING_SPECIALZ_GHIBLI.md`：75先于Wind Rises题名及Z，80先于Y且在2/4q0八分休止；换拍、换调、第一次攻击各有实际位置。
 
 `INTEGRATED_READING_SAKAYUME_SAYONARA.md`：Sakayume长短式为附点16＋32转三连8＋16；M／N等式新旧方向仍待核，不机械按左右算BPM。Sayonara明确N72／O170可行中生效。
 
