@@ -54,3 +54,9 @@ Codex可为不同会话分别启动连接工具，每个进程有自己的通信
 新版连接工具放在程序包的版本目录，已打开的旧会话可以继续使用。点击“配置Codex”会更新今后的启动路径。更新程序时保留现有Codex配置，由你选择何时切换连接。
 
 本轮更完整的AI读谱图像、标题及编配数据整理继续按[后续安排](REWORK_PROGRESS.md)推进。
+
+## 查看运行版本
+
+在MuseScore的“AI连接”点“刷新连接列表”，展开“Codex连接”。MCP版本列显示每个实际进程的版本；旧连接仍在运行时，状态处提示重新连接。先在Codex的MCP设置关闭再开启musescore；当前对话仍缺少新工具时，退出并重新打开Codex，再继续原对话。
+
+get_capabilities返回mcpClient.version，get_score_identity确认当前谱，get_score_image读取同次选段的原生PNG。配置位置和本机启动方式见[OpenAI官方MCP说明](https://developers.openai.com/codex/mcp/)。

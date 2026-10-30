@@ -28,7 +28,8 @@ logging.basicConfig(
 logger = logging.getLogger("MuseScoreMCP")
 
 # Create the MCP app and client
-mcp = FastMCP("MuseScore Evolution Assistant", instructions=(
+from src.version import VERSION
+mcp = FastMCP("MuseScore Evolution Assistant", version=VERSION, instructions=(
     "通过本机连接操作当前打开的 MuseScore 乐谱。先用get_score_identity确认当前窗口、谱面标题、总谱／分谱和未保存状态，再按需要读取当前选区。"
     "编配任务使用 read_arrangement_context 分批读取内存中的音符、声部、和弦与演奏数据；"
     "需要核对谱面时，用get_score_image按同一context_id读取MuseScore原图和音符位置。"

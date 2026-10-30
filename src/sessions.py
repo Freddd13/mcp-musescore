@@ -8,6 +8,9 @@ import sys
 import threading
 import time
 import uuid
+import re
+import subprocess
+from .version import VERSION
 from .runtime import state_directory, codex_status
 
 
@@ -86,6 +89,42 @@ def _records():
     return result
 
 
+def _program_version(program):
+    """Read one installed executable's own version during an explicit refresh."""
+    try:
+        reply = subprocess.run([program, "--version"], capture_output=True, text=True,
+            encoding="utf8", errors="replace", timeout=5,
+            creationflags=0x08000000 if os.name == "nt" else 0)
+    except (OSError, subprocess.TimeoutExpired):
+        return ""
+    match = re.fullmatch(r"MuseScoreMCP (\d+\.\d+\.\d+)", reply.stdout.strip())
+    return match[1] if reply.returncode == 0 and match else ""
+
+
+def _version_key(version):
+    return tuple(map(int, version.split("."))) if re.fullmatch(r"\d+\.\d+\.\d+", version) else ()
+
+
+def connection_report(values, codex):
+    known = set()
+    old = 0
+    for row in values:
+        version = row.get("version", "")
+        if version:
+            known.add(version)
+        if _version_key(version) and _version_key(version) < _version_key(VERSION):
+            old += 1
+    message = f"随包 MCP {VERSION}。"
+    if old:
+        message += f"仍有{old}个旧版本连接；请在 Codex 重新连接 MuseScore，以使用新的读谱和原生谱图工具。"
+    elif values:
+        message += f"已读取{len(values)}个连接。"
+    else:
+        message += "当前没有已打开的 Codex 连接。"
+    return {"ok": True, "sessions": values, "codex": codex, "runtimeVersion": VERSION,
+            "runningVersions": sorted(known), "olderConnections": old, "message": message}
+
+
 def sessions(application=None):
     records = _records(); values = []; allowed = _programs(application)
     if os.name == "nt":
@@ -115,7 +154,14 @@ def sessions(application=None):
         finally:
             k.CloseHandle(snapshot)
     values.sort(key=lambda v: v["started"])
-    return {"ok": True, "sessions": values, "codex": codex_status()}
+    versions = {}
+    for row in values:
+        if not row.get("version") and Path(row["program"]).name.lower() == "musescoremcp.exe":
+            program = row["program"]
+            if program not in versions:
+                versions[program] = _program_version(program)
+            row["version"] = versions[program]
+    return connection_report(values, codex_status())
 
 
 def end_session(token, application=None):
@@ -165,7 +211,7 @@ class ClientSession:
         self.path = state_directory() / f"session-{self.id}.json"
         self.value = dict(_process_identity(os.getpid()) or {}, schema=1, kind="musescore-stdio",
                           id=self.id, pid=os.getpid(), parent=os.getppid(), application=self.application,
-                          active=0, requests=0, phase="starting", lastRequest=0)
+                          active=0, requests=0, phase="starting", lastRequest=0, version=VERSION)
         self._lock = threading.Lock()
 
     def _save(self):

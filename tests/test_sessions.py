@@ -90,3 +90,33 @@ def test_activity_records_and_cleanup(tmp_path, monkeypatch):
             assert record['active']==1 and record['requests']==1
         assert json.loads(session.path.read_text('utf8'))['active']==0
     assert not session.path.exists()
+
+
+def test_session_records_running_runtime_version(tmp_path, monkeypatch):
+    from src.version import VERSION
+    monkeypatch.setenv('MCP_MUSESCORE_STATE_DIR', str(tmp_path))
+    with sessions.ClientSession('score.exe') as session:
+        assert json.loads(session.path.read_text('utf8'))['version'] == VERSION
+
+
+def test_version_report_separates_running_and_configured_program():
+    from src.version import VERSION
+    rows = [{'version': '2.3.0'}, {'version': VERSION}, {'version': ''}]
+    result = sessions.connection_report(rows, {'program': 'new/MuseScoreMCP.exe'})
+    assert result['olderConnections'] == 1
+    assert result['runningVersions'] == ['2.3.0', VERSION]
+    assert result['codex']['program'] == 'new/MuseScoreMCP.exe'
+    assert '重新连接' in result['message']
+    assert sessions.connection_report([], {})['olderConnections'] == 0
+
+
+def test_version_probe_does_not_open_a_stdio_connection(monkeypatch):
+    calls=[]
+    def run(args, **kwargs):
+        calls.append(args)
+        return type('Reply', (), {'returncode': 0, 'stdout': 'MuseScoreMCP 2.3.0\n'})()
+    monkeypatch.setattr(sessions.subprocess, 'run', run)
+    assert sessions._program_version('installed/MuseScoreMCP.exe') == '2.3.0'
+    assert calls == [['installed/MuseScoreMCP.exe', '--version']]
+    monkeypatch.setattr(sessions.subprocess, 'run', lambda *a, **k: (_ for _ in ()).throw(OSError('missing')))
+    assert sessions._program_version('missing') == ''

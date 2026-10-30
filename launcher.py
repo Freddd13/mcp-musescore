@@ -34,7 +34,7 @@ def main() -> None:
         elif options.diagnose or not options.stdio:
             config = configuration_path(options.application)
             result = {"configuration": str(config), "enabled": enabled(config),
-                      "instances": instances(options.application)}
+                      "instances": instances(options.application), "mcpVersion": VERSION}
             if result["enabled"] and result["instances"]:
                 from src.client import MuseScoreClient
                 host, port = installed_connection(options.application)
@@ -60,6 +60,12 @@ def main() -> None:
             else:
                 result["ok"] = False
                 result["error"] = "个人扩展功能已关闭，请检查程序旁的 kumo.ini。" if not result["enabled"] else "请打开 MuseScore，在 AI 连接中检查当前窗口。"
+            from src.sessions import sessions
+            report = sessions(options.application)
+            for key in ("sessions", "codex", "runtimeVersion", "runningVersions", "olderConnections"):
+                result[key] = report[key]
+            if report["olderConnections"]:
+                result["message"] = result.get("message", result.get("error", "")) + "\n" + report["message"]
             print(json.dumps(result, ensure_ascii=False))
         else:
             from src.sessions import ClientSession

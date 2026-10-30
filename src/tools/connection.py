@@ -52,7 +52,10 @@ def setup_connection_tools(mcp, client: MuseScoreClient, context_service=None):
     @mcp.tool(description="Read bridge version, MuseScore version, score availability and optional Evolution API support.",
               tags={"connection"}, annotations={"readOnlyHint": True})
     async def get_capabilities():
-        return unwrap_response(await client.send_command("getCapabilities"))
+        from ..version import VERSION
+        result = unwrap_response(await client.send_command("getCapabilities"))
+        return {**result, "mcpClient": {"version": VERSION, "nativeScoreImageTool": "get_score_image",
+                "identityTool": "get_score_identity"}}
 
     @mcp.tool(description="读取当前程序窗口、标签页、总谱／分谱、谱面标题、作品信息标题、文件位置和未保存状态。先用这份信息确认正在讨论哪份谱。读取保持选音与播放位置。",
               tags={"connection", "score"}, annotations={"readOnlyHint": True})

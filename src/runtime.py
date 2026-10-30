@@ -118,7 +118,7 @@ def codex_status() -> dict:
     server = document.get("mcp_servers", {}).get("musescore")
     return {"configured": server is not None,
             "enabled": server is not None and bool(server.get("enabled", True)),
-            "configuration": str(config)}
+            "configuration": str(config), "program": str(server.get("command", "")) if server is not None else ""}
 
 
 def _save_codex(document, old: bytes) -> str:
