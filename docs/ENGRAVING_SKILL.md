@@ -1,6 +1,6 @@
 # 钢琴净书skill：使用、关联与更新
 
-2026-10-30。最近发布的可用研究版为**[0.14.0／engraving-v0.14.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
+2026-10-30。最近发布的可用研究版为**[0.15.0／engraving-v0.15.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
 
 ## 怎样使用
 
