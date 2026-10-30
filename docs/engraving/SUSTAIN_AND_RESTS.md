@@ -145,3 +145,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：J同音不同持续与两种结尾
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki J同音白二分／黑八分属于慢线与活动，保各自持续；末四分接收后四分休止、sfz8、8休止、四分休止。Uchiage K全音连续tie与morendo则保持不断，不能套统一终和弦。
+
+## 2026-10-30：共享震音时段与结尾等待
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unravel p4s3二分端点共占前两拍、十六普通32占后两拍；G前mp8与快层8休止同时，不能先后累加。末两小节上部休止、下部全音tie等到延长；保等待，勿添上部终和弦。

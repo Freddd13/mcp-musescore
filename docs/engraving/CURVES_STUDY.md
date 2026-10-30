@@ -216,3 +216,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：建立关联后省提示
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage F虚线开始两次示内层接续后simile，弧和tie另有动作／持续任务。保首次提示及其接收，不逐组补满，也不据视觉相似推定宿主对象类型。
+
+## 2026-10-30：H前穿梁仍值得局部比较
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting H前弧穿梁保为几何候选；保逻辑分句与全组包容，比较外绕或所属干端。Gould p321–322与p324发夹穿干例外分开，不删除弧或改梁冒充纯外观处理。

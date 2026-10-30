@@ -115,3 +115,7 @@ Kaibutsu K下表先低八度再高处材料。选定F5在当前高音顶线，�
 ## 2026-10-30：换号与保持层一起比较
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage F下部高活动／持续和声反复换号，先核降低加线的收益及中断音高参照的代价。局部缩谱号余白或固定号／第三表候选须看完整两手、保持和页面占位，不能阈值隐藏换号。
+
+## 2026-10-30：开头加线代价与参照连续
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unravel p1s2／3下表保G号需较多下加线，旧保G／较早换F候选继续开放；应连同高部接收、手提示和后续换号次数比较，不能由单低音阈值认错。

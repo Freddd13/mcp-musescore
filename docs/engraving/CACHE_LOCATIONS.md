@@ -154,3 +154,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-30 Beginning／To You本批约11.61MiB，总净书缓存约2.779GiB；91个不同视图30复用61新图，原PDF与运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](beginning_to_you_closeout_evidence.json)在最终小记录前。
 
 2026-10-30 Tokimeki／Uchiage本批约10.95MiB，总净书缓存约2.789GiB；89不同视图33复用56新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](tokimeki_uchiage_closeout_evidence.json)在最终小记录前。
+
+2026-10-30 unlasting／unravel本批约13.94MiB，总净书缓存约2.803GiB；107不同视图35复用72新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](unlasting_unravel_closeout_evidence.json)在最终小记录前。

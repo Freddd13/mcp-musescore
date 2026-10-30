@@ -226,3 +226,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：引入与loco不能吸向段首
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage p1s5第二小节ppsub／8va在q3.5最后8开始，J中loco快线和重开8va各有端点。Tokimeki L长8va结束，末sfz8单独短8va；不延长到全终止，也不把移位套另一表。
+
+## 2026-10-30：已发出的保持与局部移位
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unravel F和弦起于局部8va之前，后续活动才移位，不重写已发出的保持音；同表新起音及另一表另核。E末loco、后续短线和末波形的角端保实际范围。

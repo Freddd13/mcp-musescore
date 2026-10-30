@@ -201,3 +201,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：两层梁与组的真实范围
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage F八分休止＋14普通16为4拍，密度不能代梁数判断。Tokimeki p4s1第二组含梁外单干，短括号已包齐；K跨表梁仍一组。白头／黑头独立干向不能按几何重叠合并。
+
+## 2026-10-30：连续主梁有两类不同情境
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：三连连续主梁而内梁已分组，不能一概要求重复括号；部分5／12共梁则核各层梁终点和普通尾巴。跨表第一双音算一个时位，头数不能替代组内时间。

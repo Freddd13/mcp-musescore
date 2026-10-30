@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-30[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：主梁不断时先读内梁；已有三音边界可保简洁，5／12只占长梁一部分则明确排除普通首尾。休止占连音份额、震音端点共享时段、提前力度及D／I十六分与J八分分别核；算满一小节不能独自证明比例意图。
+
 2026-10-30[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：摇摆演奏解释与书写位置出现不同步时，保留原排并提出显式同步候选，不把参考谱外观直接提升为规则。清楚的部分／含休止3括号保留，Uchiage另两处部分3比较短括号；F是16，H前pp／mp在q3分层引入。J白黑同音不同持续、虚线接续与simile各保任务。
 
 2026-10-30[Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：梁按拍、短弧跨拍，各保任务；连续音阶内梁例外先核。To You末组六连虽五次起音，末8占两份，保完整6；Beginning部分3仅前三16入组。F换号需比较加线／手分配／整页，不能直接隐藏；黑短头与白接收不去重。H拍内mp／f及J前Tempo I按实际进入保留。

@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md`：震音端点共享时段；G前慢8和快层8休止同时，末上部整休止／低部全音tie保独立等待。
+
 `INTEGRATED_READING_TOKIMEKI_UCHIAGE.md`：J白二分与黑八分同音分别持续；Tokimeki末次sfz8后有休止，UchiageK保持则连续tie。
 
 `INTEGRATED_READING_BEGINNING_TO_YOU.md`：To You双附点四分＋16＋二分的短长接收别去重；K低部保持与内层休止并存。J前Tempo I／p在q3两8恢复，下面全小节休止。
@@ -118,6 +120,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md`：五连与六连同写16但实际1/5q／1/6q，先保各自稳定步幅与共同时间参照；勿跨组拉成同距。
 
 `INTEGRATED_READING_TOKIMEKI_UCHIAGE.md`：摇摆后八分与三连第三音的预期同步可能与印出中点冲突；保原排并登记同步候选，不能直接模仿参考谱。
 
@@ -241,6 +245,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md`：连续主梁先读内梁；三音界已清楚可保简洁，部分5／12须排除普通首尾，不能只数头或凑满拍。
+
 `INTEGRATED_READING_TOKIMEKI_UCHIAGE.md`：Tokimeki清楚的完整／部分／含休止跨表3保留，Uchiage两处部分3比较短括号；F普通16已纠正。
 
 `INTEGRATED_READING_BEGINNING_TO_YOU.md`：To You末完整6可为四16＋一8的五次起音；Beginning部分3只圈前三16，第四8普通。梁、短弧的拍组／连奏任务分别保留。
@@ -336,6 +342,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 同页的5连组、局部8va、弧和尾部休止须按各自角色／范围读；Mixed Nuts旧“8组”已由完整末小节和旗梁细图校正。不要只凭单个数字或紧裁图补Tuplet比例、起音数、全曲swing或软件字段。
 
 <a id="markings"></a>
+
+`INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md`：C前f在q2、G前mp sub.在q3.5；unlasting L dim从mfq1.5开始，保提前入口与长变化原范围。
 
 `INTEGRATED_READING_TABI_TAMASHII.md`：Tabi sfz在q0、mp在8休止后q0.5，纠正早期“同位置”概括；独立层不吸到统一段首。
 

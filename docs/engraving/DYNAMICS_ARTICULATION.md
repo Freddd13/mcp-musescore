@@ -185,3 +185,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：H之前已有两层力度
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage H前一小节q3上部pp与下部mp各引入，保不同层归属；p1s2 psub在A前q3，p1s5 ppsub在下一小节前q3.5。段号不是全部表情的统一锚点。
+
+## 2026-10-30：提前进入和长短语起点
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unravel f在C前q2、mp sub.在G前最后8q3.5；unlasting I上干pp在q1.5、K mf在q2、L dim从mfq1.5而非sffzq0。保归属和时点，完整渐弱词组候选仍保原范围。

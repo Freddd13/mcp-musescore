@@ -216,3 +216,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：K含休止三连和接续提示
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki K休止＋上表一音＋下表一音共同组成三连，括号保完整；上干慢和弦另读。Uchiage D／F跨表虚线帮助跟踪，准确编辑类型待工程对象确认，不自动改为gliss或连续大弧。
+
+## 2026-10-30：跨表不自动扩大数字或八度
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting末12含上表十时位＋下表二时位，第三个低部普通8在外；主梁仍连着它。unravel写出32尾部跨表，局部8va只管所属表的范围，保持音和新起音分别核。

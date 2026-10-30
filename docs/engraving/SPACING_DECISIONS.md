@@ -312,3 +312,7 @@ C32组内7.434–7.614pt，下一小节8.136–8.154pt，各自稳定；X十四1
 ## 2026-10-30：摇摆解释下的同步疑点
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki F三连原点87／98.520／111.120pt，下部普通后八分104.880pt；按页首长短解释预期接近第三音。保存原排／显式同步候选，未采为规则。Uchiage开头8活动10.56–10.80pt可保，F16局部增宽先核下部换号／保持／移头。
+
+## 2026-10-30：稳定活动与实际细分
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting E四个下部12音小节约9.56–9.76pt可保；unravel F五连与六连各自稳定而步幅不同，实际1/5q／1/6q，不能因都写16拉成同距。下部共同书面时位复核保持，中间位置也有参照。

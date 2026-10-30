@@ -282,3 +282,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：完整梁、休止与部分3分判
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki完整三音梁裸3、梁外单干成员短括号、K含休止跨表组均已有清楚范围。Uchiage I末梁两普通16后才三连16，p5s4普通8后才三连16，比较短括号；F全段普通16，改正旧32误读。
+
+## 2026-10-30：先读内梁再判范围
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting p3s3三连已有次梁每三音断开，保简洁；p3s4五个32夹在普通8间、p6s3五个32后接普通16／8，比较短括号。p6s4十二快32后还有普通8，不能将十三时位都算入12。

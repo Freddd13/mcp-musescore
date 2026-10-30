@@ -367,3 +367,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：密度、白黑头和范围纠错
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage F两层梁为16，8休止＋14six＝4拍；Tokimeki J白二分与黑八分同音并置各有持续。Uchiage部分3只含末三16，前普通8或普通16不缩放；局部计量是核对，非全曲逐音证明。
+
+## 2026-10-30：裸12的范围需要读到梁尾
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting末组十二快32之外还有普通8，12:8仅在确认意图后采用；两处5也排除普通首尾。unravel F首组八分休止＋三个16仍占五份，末组四音＋16休止完整；不能补成五头。

@@ -314,3 +314,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：重复活动让内层可见
 
 [Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage开头八分轮廓与下部长和声，D／F虚线首次示接续、之后simile，H低部mp与上部pp引入分别突出层次。Tokimeki J二分慢线、轮流三连、下部全音保持并存，不按一表一层处理。
+
+## 2026-10-30：慢线与活动速度分别跟踪
+
+[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting E上干慢线与普通16背景、I晚q1.5进入的pp、unravel D／I十六分与J八分各保层次。附加旋律干与真正独立节奏层的休止条件分判，不统一隐藏。
