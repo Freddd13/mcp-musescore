@@ -225,3 +225,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-31：装饰引入与晚入低音的力度
 
 [Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Black mf靠三graces，不能固定q3.5或拖至下行首；preJ ffhalf与J低部休止后q3 ff另有入口。Blue D mp／mf、开头a tempo也按拍内动作读。
+
+## 2026-10-31：引入早于字母与上部和弦
+
+[Connect](INTEGRATED_READING_CONNECT.md)：开头四个正常16从q3带a tempo／f，逗号为换气；F mf先对应下部，P f在q1.5附近，p5s2 p在第二个四分三连q2/3。不能统一吸到bar／字母。

@@ -135,6 +135,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_CONNECT.md`：P八个普通16对三个四分三连，近邻未必同时；保真实先后，不吸到最近头。H7／6步幅随细分换，L错头仍同拍。
+
 `INTEGRATED_READING_BLACK_BLUE.md`：Blue O八分跨表完整，q0全音错开约6pt使首格还需核长干净空；J首8后十四16和七共同列保留。Black I保长短，同拍微移另评。
 
 `INTEGRATED_READING_BAUKLOTZE_BEFORE.md`：Bau同拍二度错头不加时间列，Before共头重复字形也不加起音；保Bau J／Before A稳定活动，不能按所有头的x顺序平均。
@@ -276,6 +278,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_CONNECT.md`：p3s4四普通16后完整七连双梁；p8s5五连16跨表三下二上，完整组保裸数。不要误数前缀后补不必要括号。
 
 `INTEGRATED_READING_BLACK_BLUE.md`：Black混合3可只有quarter＋8两次起音，C还含quarterrest；Blue O不能只数下表或套自由段补拍。部分3范围与普通前缀分开。
 
@@ -433,6 +437,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`INTEGRATED_READING_CONNECT.md`：D l.h.和K r.h.括号／虚线保换手路线；L同音黑白头持续不同，不能去重。
+
 `INTEGRATED_READING_BLACK_BLUE.md`：Blue O五个下表头和三个上表和弦共梁构成八个8，wholebackground另追持续；Black同排D.S.／Coda是两个独立系统段。
 
 `INTEGRATED_READING_AO_ATTACK.md`：Ao J共梁上表8va／下表loco共同澄清音区，不删loco或将整梁升八度。
@@ -578,6 +584,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_CONNECT.md`：七连第五颗开始8va，与连音边界不同；低八度跨页续到P首dottedquarter，在下一q1.5前结束。
 
 `INTEGRATED_READING_BLACK_BLUE.md`：Blue H8va在完整5第三16起，过普通8q3后、q3.5前收尾；Black在三graces起、preJ q2 ffhalf前结束，不能按整组扩线。
 

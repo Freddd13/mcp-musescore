@@ -266,3 +266,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-31：从连音中途开始的8va
 
 [Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Blue H8va从完整5的第三16起，覆盖q3普通8、在q3.5前收尾；Black长8va从三graces引入，至下一排q2 ffhalf前结束。组界、段落与八度界分别保。
+
+## 2026-10-31：七连中途与跨页低八度
+
+[Connect](INTEGRATED_READING_CONNECT.md)：p3s4 8va从七连第五音q18/7起，过最后普通quarter；p7末三连的低八度续到p8P首dottedquarter，在q1.5前收尾。

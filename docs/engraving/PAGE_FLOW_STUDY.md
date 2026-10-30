@@ -267,3 +267,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-31：同排D.S.与Coda独立分段
 
 [Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Black p4末行左段D.S.、中间空白、右段新brace／clefs／Coda；35行含36系统段。保路径辨识，不能按同y自动连接。稀疏D／H可五bar一行，Blue K三层与J运动容量分别评。
+
+## 2026-10-31：七系统页与中途段落
+
+[Connect](INTEGRATED_READING_CONNECT.md)：Connect首张5系统、p6–7各7、其余6；L／M在行内可清楚辨识，先按容量／衔接评。末freely保等待和loco／l.h.关系，不机械补拍。

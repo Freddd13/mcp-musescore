@@ -322,3 +322,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-31：混合三连与跨表八分
 
 [Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Black C的3可含quarterrest＋8，I每拍quarter＋8均按2/3比例；Blue O八个8跨表完整，不能只数下表推成缺拍或自由段。Blue J初8后十四16保原单位。
+
+## 2026-10-31：完整五七连与独立细分
+
+[Connect](INTEGRATED_READING_CONNECT.md)：H七个8占2q、三个三连8占1q、末两个普通8占1q；后转六个8占2q。p3s4四个普通16后七连16有独立完整双梁，末quarter在组外；p8s5五连前三下表后二上表。

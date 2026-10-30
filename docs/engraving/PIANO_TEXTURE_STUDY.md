@@ -354,3 +354,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-31：共梁八分与独立全音背景
 
 [Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Blue O五下表头＋三上表和弦组成八个8，q0同音全音背景横移；K则旋律／中层l.h.／长低音三层。Black p6再现新增持续，不复制此前voice／头数。
+
+## 2026-10-31：L同音的两种持续
+
+[Connect](INTEGRATED_READING_CONNECT.md)：p6s7 L低部ppp先入，上部q2 pp黑quarter与白half同音同起、持续不同，原点错约6.125pt，后例约6.006pt。保两层；不能同音去重或把错头当先后，Gould307–308的共头条件按上下文评。
