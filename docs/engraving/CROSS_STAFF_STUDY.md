@@ -244,3 +244,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：引导与实际插入一起读
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again I末下表q0→上表q1虚线跟踪内线，另一处波浪下滑未指定固定终音。Akuma F跨表、局部r.h.与开放弧各有任务，先保再评通道。
+
+## 2026-10-30：共梁但音区范围不同
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao J同一六连梁跨表，上部8va从首相关上表音q0.5开始，下一组下表q1的loco澄清保原位，保它的阅读作用；不把整条共同梁都升八度。

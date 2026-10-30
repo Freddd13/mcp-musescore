@@ -340,3 +340,7 @@ C32组内7.434–7.614pt，下一小节8.136–8.154pt，各自稳定；X十四1
 ## 2026-10-30：实际插入使稳定活动局部放宽
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again I上8多数14.357pt，q2.5→q3约15.952pt，内部有下层q2.75的16，连续两bar重复。N16约7.267–7.445pt、Akuma J8约13.824–14.004pt按角色读取；不把共头、重复字形混入。
+
+## 2026-10-30：同型在不同预算下的间距
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack p1s1／s2相同半音16，跨度206.522／125.204pt，内部13.661–13.876／6.346–11.079pt；密行三bar均密，比较整行重排。Ao E跨bar宽格含下部q3.75，Attack F首bar宽格含q2.75慢音，先保真实时间列。

@@ -229,3 +229,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：完整三连与部分三连分判
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again末页部分3三梁为32，主梁连接普通前缀；Akuma C第二bar部分3还有普通16尾音。只比较实际三音短括号；首bar下部3双梁独立，保裸数。N快慢层干向和重复梁形保留。
+
+## 2026-10-30：内梁分界保留动作组
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack H两对3＋3不自动改6；p6s5三十二个普通32不因密就读连音。Ao完整5／6保简洁，仅共主梁的后三连16比较短括号，普通8尾音在外。

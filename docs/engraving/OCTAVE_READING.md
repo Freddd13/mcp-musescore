@@ -254,3 +254,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：八度与连音不必共界
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Akuma六连括号先罩休止，8va从首相关高音开始且罩普通quarter尾音；J续行范围在K前结束。Again局部8va、长音与Ped各有终点。
+
+## 2026-10-30：共梁下表loco有澄清作用
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao J上部8va继续、下部q1另标loco，Gould325支持这种共同梁情境。E首和弦在8va外，F开放弧与p进入不按八度边界合并。

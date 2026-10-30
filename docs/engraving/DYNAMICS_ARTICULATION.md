@@ -213,3 +213,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：迟入与快慢层力度
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again E l.h.在quarterrest后以mp进入，mf另一层为混合活动；I上pp、下mp。Akuma J上p legato、下mp，不合成一个居中力度或扩大手提示。
+
+## 2026-10-30：拍内轻奏与段字母分开
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao F首quarter sfz后，p在q1.5第一8；Attack自由段延长后pp引入也在q1.5，F字母在后。不能统一挪到字母／下一强拍。

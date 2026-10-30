@@ -255,3 +255,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：重复框架与拆bar代价
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Akuma C/H对应行稳定但非统一中分；p2s2–3一个4/4按2q＋2q拆行，保一个逻辑bar和状态，再比较完整2＋3／3＋2。Again每页5/6/6/6/7/7系统随容量变化。
+
+## 2026-10-30：宽格诊断先核整行容量
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack相同半音16从宽行移到三密bar行后长短格加剧，候选比较整行重排。Ao末页一个4/4拆2＋2q跨行，无末barline，保逻辑并比较完整小节与继续提示的代价。

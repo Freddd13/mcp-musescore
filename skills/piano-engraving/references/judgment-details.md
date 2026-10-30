@@ -97,6 +97,8 @@
 
 <a id="layout"></a>
 
+`INTEGRATED_READING_AO_ATTACK.md`：Ao末页一个4/4按2＋2拆行，无末barline；保逻辑状态，比较完整小节和继续提示的整页代价。
+
 `INTEGRATED_READING_EVERLASTING_HEROES.md`：N在p7页末、Heroes p5末快速段续页，翻页未核；可比新页起段，但须核两页容量和两手。
 
 `INTEGRATED_READING_SILHOUETTE_SIRIUS.md`：p4末三个pp四分引子可与p5J比较完整小节组合，先核次页五变六小节的预算；常规奇数右页下p4／p5同开页，跨页阅读候选不能称为物理翻页已改善。
@@ -130,6 +132,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_AO_ATTACK.md`：相同半音16在宽行近匀、三密bar行参差，先核整行预算；Ao E跨bar／Attack F首bar宽格确有中间16，先保真实列。
 
 `INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：Again I宽格内有下层q2.75的16，N16／Akuma J8按活动层评稳定；慢线与重复字形不混算。
 
@@ -266,6 +270,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_AO_ATTACK.md`：Attack H保3＋3和内梁界，普通8／16前尾音不混入；Ao 2/4部分3只罩后三个16，普通8尾音在外。
 
 `INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：Akuma C下降32rest＋13个32＋16；两谱部分3均32，普通前尾音在外。完整3保裸数，含休止6保原括号。
 
@@ -415,6 +421,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`INTEGRATED_READING_AO_ATTACK.md`：Ao J共梁上表8va／下表loco共同澄清音区，不删loco或将整梁升八度。
+
 `INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：Again I虚线跟踪内线，波浪下滑未指定固定终音；Akuma空下表不等于左手休息，跨表和局部手提示分读。
 
 `INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：残酷天使p5s4虚线从q1独立低quarter到q2上表、q3低表，非前一快16q.75；它提示内线，不自动产生滑奏。
@@ -522,6 +530,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先分类有等号的小音符：它也可能是swing／straight的演奏解释。`tempo`／`rhythm`接入A003的十六分长短说明与恢复，`overview`有完整六页案例。书写单位、约定长短与真实播放时点分查，不把演奏2:1变成头距2:1，不给显式三连再套swing，也不因straight两边相同就删恢复提示。范围／播放不能从PDF字样横坐标补出；真正变速和特殊比例记谱另核。
 
 <a id="free-passage"></a>
+
+`INTEGRATED_READING_AO_ATTACK.md`：Attack E便利全音背景不强制4q；pp引入在F前，恢复提示的生效处先核意图。
 
 `INTEGRATED_READING_SOUL_WAR.md`：Soul计量3＋5＋5与后面adlibitum的29头长运行分读；保背景、局部小3、动作和收束，不凭头数自动补比例。
 

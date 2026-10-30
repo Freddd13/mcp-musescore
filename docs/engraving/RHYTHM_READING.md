@@ -310,3 +310,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：先读普通尾音和休止成员
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Akuma C下降32rest＋13个32＋16＝2q，后半上行8rest＋八个32＋三个三连32＋16＝2q。p4s6的6是16rest＋五音，占1q，普通quarter在线外。
+
+## 2026-10-30：3＋3与普通前尾音
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack H普通8＋十五个三连16＋四普通16＝4q，后两对3＋3保内梁界；七个下层时位与上层重合。Ao 2/4六连16＋三连16＋普通8＝2q，后三音才是部分3。

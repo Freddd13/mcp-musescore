@@ -342,3 +342,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：分层之后评价稳定
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again I上pp8、下mp内线与低音独立，N同表慢线与16共头；Akuma J上p legato8、下mp慢线。intro两手共上表、下表前三bar空白不等于左手休息。
+
+## 2026-10-30：实际慢线与活动层分开
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao E上8与下部慢线、Attack F同表上干慢旋律／下干8分别追踪；二度左移头和共头不增加时间列。Ao F首quarter为开放持续弧，轻奏在q1.5进入。

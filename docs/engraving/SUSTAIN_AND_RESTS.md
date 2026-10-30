@@ -173,3 +173,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：额外局部层与真正休止区别
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again p5s5额外快组只出现2q，不自动补满整bar；E开放共鸣与休止可并存。Akuma六连首16rest却决定迟入，必须保。最终接收、手指保持、休止和Ped分读。
+
+## 2026-10-30：自由背景和最终释放
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack E便利全音背景不强制全部前景4q；Ao结尾quarter＋quarterrest＋halfrest，Ped在q1释放，无最终fermata。慢线、背景休止和共鸣分别读。

@@ -168,3 +168,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-30 廻廻奇譚／残酷天使本批约18.38MiB，总净书缓存约2.884GiB；125不同视图39复用86新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](kaikai_cruel_closeout_evidence.json)在最终小记录前。
 
 2026-10-30 Again／Akuma本批约16.92MiB，总净书缓存约2.900GiB；121不同视图38复用83新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](again_akuma_closeout_evidence.json)在最终小记录前。
+
+2026-10-30 青之栖所／Attack本批约13.45MiB，总净书缓存约2.913GiB；117不同视图41复用76新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](ao_attack_evidence.json)在最终小记录前。剩余A005长组曲优先复用整页和按需阅读，避免批量高倍渲染。

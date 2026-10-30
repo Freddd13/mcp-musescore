@@ -241,3 +241,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：恢复可在引入休止生效
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again Tempo I在p6s2末bar q3上部quarterrest处，低部接8rest＋两16引入Q。Akuma K前结束8va，K新quarter75；末2/4及4/4 adlib分别保，装饰借时未定。
+
+## 2026-10-30：自由段恢复与拍内引入
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack E长值背景是便利记法，前景正常字号8／16不强制凑4q；pp引入先于F，未见a tempo，澄清恢复从引入或F生效须先核意图。

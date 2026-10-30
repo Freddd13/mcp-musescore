@@ -244,3 +244,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：曲线的任务分别保护
 
 [Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again E开放持续、I虚线与p3s2波浪下滑分读；Akuma F开放弧、最终实际tie接收保留，2/4末开放弧不改成连向休止的tie。
+
+## 2026-10-30：开放持续与多个tr对象
+
+[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao F首quarter向前开放持续，非前行tie接收；Attack E每个新tr／新音及波线各有范围，真正延长前已收尾，不串成一个全段对象。

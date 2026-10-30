@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-30[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：相同半音16宽行近匀、密行变音前格变长，优先核整行预算；Ao E跨bar／Attack F宽格确有中间16则先保。保H的3＋3与Ao共梁loco；部分3仅罩实际三音，拆bar保逻辑，自由段恢复先核生效点。
+
 2026-10-30[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again I宽格内有下层q2.75十六分，先保真实插入；N16／Akuma J8按活动层评稳定，共头不混算。C下降末音为普通16，完整3保裸数，两处共梁部分3均32才比较短括号；含休止6已有范围。持续／手／八度／速度／踏板分别读。
 
 2026-10-30[廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：先选真正连续的快层再评间距，H／I慢旋律共头和装饰音不能混入同值统计；N的慢头恰与快层16休止同列，不补成连续24次攻击。虚线q1→q2→q3跟踪内线，E同表8va还罩首l.h.和弦，Ped另有范围。rubato部分5可比较短括号，完整6已有清楚梁端；Fmf早于双线，恢复说明另在边界后。
