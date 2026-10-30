@@ -135,6 +135,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`MEDLEY_200_CH01.md`：M同值格内有下部q2.25十六分，保真实中间列再评16.47pt宽格；不只拉上部。
+
 `INTEGRATED_READING_CONNECT.md`：P八个普通16对三个四分三连，近邻未必同时；保真实先后，不吸到最近头。H7／6步幅随细分换，L错头仍同拍。
 
 `INTEGRATED_READING_BLACK_BLUE.md`：Blue O八分跨表完整，q0全音错开约6pt使首格还需核长干净空；J首8后十四16和七共同列保留。Black I保长短，同拍微移另评。
@@ -278,6 +280,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`MEDLEY_200_CH01.md`：p12s4先分上下两套独立梁，下干三头完整双梁保裸3；纠正初看部分3。
 
 `INTEGRATED_READING_CONNECT.md`：p3s4四普通16后完整七连双梁；p8s5五连16跨表三下二上，完整组保裸数。不要误数前缀后补不必要括号。
 
@@ -507,6 +511,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="tempo"></a>
 
+`MEDLEY_200_CH01.md`：标题前已引入204／190；二分95与四分190时长等值，数值翻倍不判加速。
+
 `INTEGRATED_READING_URAGIRI_VOGEL.md`：Uragirimono N85的rit.后O a tempo按局部恢复读，不能因快音形状重现回J168；工程值另核。
 
 `INTEGRATED_READING_EVERLASTING_HEROES.md`：F168在完整主题，mf和三连引入先行；I／J的四8引入也在正式界线前，不把标记齐移段首。
@@ -630,6 +636,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`MEDLEY_200_CH01.md`：G两结尾各沿共同段来路，P第二结尾跨行后才接Q；标题不重置线范围或状态。
 
 `INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：Again E/J局部反复及房子不套D.S.；Akuma拆bar跨行仍为一个4/4，保导航和变音状态。
 
