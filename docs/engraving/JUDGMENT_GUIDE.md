@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-30[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：相似拱形不保证相同分法，D上九连32、下八个普通32不能按对称补9；跨表先用符干轴消除符头换侧的假压缩。完整6与含休止组保范围，部分3／5排除普通前缀尾巴；导航按每遍实际后继、结尾按保持／静默分别核。
+
 2026-10-30[unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：主梁不断时先读内梁；已有三音边界可保简洁，5／12只占长梁一部分则明确排除普通首尾。休止占连音份额、震音端点共享时段、提前力度及D／I十六分与J八分分别核；算满一小节不能独自证明比例意图。
 
 2026-10-30[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：摇摆演奏解释与书写位置出现不同步时，保留原排并提出显式同步候选，不把参考谱外观直接提升为规则。清楚的部分／含休止3括号保留，Uchiage另两处部分3比较短括号；F是16，H前pp／mp在q3分层引入。J白黑同音不同持续、虚线接续与simile各保任务。

@@ -316,3 +316,7 @@ C32组内7.434–7.614pt，下一小节8.136–8.154pt，各自稳定；X十四1
 ## 2026-10-30：稳定活动与实际细分
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting E四个下部12音小节约9.56–9.76pt可保；unravel F五连与六连各自稳定而步幅不同，实际1/5q／1/6q，不能因都写16拉成同距。下部共同书面时位复核保持，中间位置也有参照。
+
+## 2026-10-30：辨别符头换侧与节奏压缩
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel D跨表上下干切换，头原点会出现约2.304pt假挤压；还原干轴后九连组约6.37–6.73pt、普通八音组约7.07–7.27pt，各自稳定。Uragirimono A普通16和Vogel F普通8保轮廓；D／K伴奏改变需重算行预算。

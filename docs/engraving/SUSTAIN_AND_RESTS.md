@@ -149,3 +149,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：共享震音时段与结尾等待
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unravel p4s3二分端点共占前两拍、十六普通32占后两拍；G前mp8与快层8休止同时，不能先后累加。末两小节上部休止、下部全音tie等到延长；保等待，勿添上部终和弦。
+
+## 2026-10-30：保持后还有独立静默
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel M末六小节先三强攻击、再两小节mp保持、第六小节整休止加延长；静默不能并入前和弦。Uragirimono I两个全音震音端点共占四拍，末开弧意图单列待核。

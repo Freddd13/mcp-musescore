@@ -220,3 +220,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：跨表不自动扩大数字或八度
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting末12含上表十时位＋下表二时位，第三个低部普通8在外；主梁仍连着它。unravel写出32尾部跨表，局部8va只管所属表的范围，保持音和新起音分别核。
+
+## 2026-10-30：完整六连与普通旗尾分开
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Uragirimono p1s2跨表六个16为完整6，之后独立旗尾普通8在外；Vogel D跨表头换侧应以干轴比较，不能将2.304pt头原点差当引擎压缩。

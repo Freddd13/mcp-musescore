@@ -371,3 +371,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：裸12的范围需要读到梁尾
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting末组十二快32之外还有普通8，12:8仅在确认意图后采用；两处5也排除普通首尾。unravel F首组八分休止＋三个16仍占五份，末组四音＋16休止完整；不能补成五头。
+
+## 2026-10-30：头数与组份额分别数
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel开头6含十六分休止＋五个连音十六分，p1s2末却是普通十六分休止＋六个普通三十二分；不能按六头补6。局部3／5排除普通前缀尾巴，完整梁及清楚休止括号保留。

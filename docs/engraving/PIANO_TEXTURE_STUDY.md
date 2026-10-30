@@ -318,3 +318,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：慢线与活动速度分别跟踪
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting E上干慢线与普通16背景、I晚q1.5进入的pp、unravel D／I十六分与J八分各保层次。附加旋律干与真正独立节奏层的休止条件分判，不统一隐藏。
+
+## 2026-10-30：主题相似也要重读伴奏
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Uragirimono D下部连续八分、K先长保持再短动作，上方主题相近仍不能复制整行宽度。Vogel A／C同表保持与l.h.活动保手提示、干向和必要休止。

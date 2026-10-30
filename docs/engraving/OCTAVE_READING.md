@@ -230,3 +230,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：已发出的保持与局部移位
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unravel F和弦起于局部8va之前，后续活动才移位，不重写已发出的保持音；同表新起音及另一表另核。E末loco、后续短线和末波形的角端保实际范围。
+
+## 2026-10-30：段号不决定八度起止
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel I上部8va在二分保持之后q2新活动才起，下部8vb只管前两小节；终段8vb在最后整休止前终止。已发出的保持与后续新动作分别读。

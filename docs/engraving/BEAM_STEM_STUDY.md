@@ -205,3 +205,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：连续主梁有两类不同情境
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：三连连续主梁而内梁已分组，不能一概要求重复括号；部分5／12共梁则核各层梁终点和普通尾巴。跨表第一双音算一个时位，头数不能替代组内时间。
+
+## 2026-10-30：梁层与干轴分别核
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel p6s3五快32后接两个普通16，主梁不断、三层梁提前终止、尾部有短次梁；5只管前五音。D上下表相反干向改变头原点，比较干轴后再判断间距。

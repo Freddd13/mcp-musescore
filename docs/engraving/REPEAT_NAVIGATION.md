@@ -118,3 +118,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-30：首次顺行与Coda调号不同
 
 [This Game两版](INTEGRATED_READING_THIS_GAME.md)：2021D.S.从p6s2左段回G／Segno p3s4；第二次p4s3末To Coda跳同p6s2右段M。首遍顺行四升号I–L，Coda仍一升号且重写谱号／大括号。可比补D.S. al Coda；不能继承纸面预告调号或将短段漏作无系统。
+
+## 2026-10-30：一房与二房可以不同长度
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel D共同一小节、一房一小节、二房两小节再E；按实际路线读。Uragirimono D.S.从p4s5返p3s1 D，To Coda p3s3再跳p4s6；新行定位可保，播放目标另核。

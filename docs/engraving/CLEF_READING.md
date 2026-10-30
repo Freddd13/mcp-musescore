@@ -119,3 +119,7 @@ Kaibutsu K下表先低八度再高处材料。选定F5在当前高音顶线，�
 ## 2026-10-30：开头加线代价与参照连续
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unravel p1s2／3下表保G号需较多下加线，旧保G／较早换F候选继续开放；应连同高部接收、手提示和后续换号次数比较，不能由单低音阈值认错。
+
+## 2026-10-30：按实际来路恢复状态
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Uragirimono D.S.回D／Segno，再由To Coda跳Coda；各遍接收和有效调号／谱号分别核，不能用纸面相邻小节替代。Vogel跨表干轴的差也不能通过换号或搬表掩盖。

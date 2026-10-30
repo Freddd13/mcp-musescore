@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_URAGIRI_VOGEL.md`：Vogel M末段两小节mp保持之后还有整休止延长；Uragirimono开弧意图未获作者确认。
+
 `INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md`：震音端点共享时段；G前慢8和快层8休止同时，末上部整休止／低部全音tie保独立等待。
 
 `INTEGRATED_READING_TOKIMEKI_UCHIAGE.md`：J白二分与黑八分同音分别持续；Tokimeki末次sfz8后有休止，UchiageK保持则连续tie。
@@ -120,6 +122,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_URAGIRI_VOGEL.md`：跨表先消除符头换侧：Vogel D还原干轴后九连／普通八音各自稳定，不能用头原点误报挤压。
 
 `INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md`：五连与六连同写16但实际1/5q／1/6q，先保各自稳定步幅与共同时间参照；勿跨组拉成同距。
 
@@ -244,6 +248,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_URAGIRI_VOGEL.md`：D上九连32、下八个普通32不能按拱形对称补9；部分3／5明确排除普通前缀尾巴。
 
 `INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md`：连续主梁先读内梁；三音界已清楚可保简洁，部分5／12须排除普通首尾，不能只数头或凑满拍。
 
@@ -425,6 +431,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="tempo"></a>
 
+`INTEGRATED_READING_URAGIRI_VOGEL.md`：Uragirimono N85的rit.后O a tempo按局部恢复读，不能因快音形状重现回J168；工程值另核。
+
 `INTEGRATED_READING_EVERLASTING_HEROES.md`：F168在完整主题，mf和三连引入先行；I／J的四8引入也在正式界线前，不把标记齐移段首。
 
 `INTEGRATED_READING_TABI_TAMASHII.md`：附点四分57／43与A四分130分读，无已印等式；Tempo I先于M，上部休止也可承新速度。
@@ -536,6 +544,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`INTEGRATED_READING_URAGIRI_VOGEL.md`：一房一小节、二房两小节可以成立；D.S.和To Coda按每遍实际来路核接收，不能沿纸面相邻继承。
 
 `INTEGRATED_READING_SNOW_SPARKLE.md`：Sparkle D.S.先回E Segno，再从To Coda到尾声，不能按相邻PDF页面直接进Coda。局部两bar反复另核返回的速度、谱号和八度状态；显示路线不证明播放展开。
 

@@ -189,3 +189,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：提前进入和长短语起点
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unravel f在C前q2、mp sub.在G前最后8q3.5；unlasting I上干pp在q1.5、K mf在q2、L dim从mfq1.5而非sffzq0。保归属和时点，完整渐弱词组候选仍保原范围。
+
+## 2026-10-30：演奏入口保实际时点
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel J下部sfz先起，后续活动另有mf；段号不吸附标记。Uragirimono M先休止再活动，上下层任务分别读；I震音缩写不另计一组保持时段。

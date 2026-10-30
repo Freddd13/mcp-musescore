@@ -286,3 +286,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：先读内梁再判范围
 
 [unlasting／unravel](INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)：unlasting p3s3三连已有次梁每三音断开，保简洁；p3s4五个32夹在普通8间、p6s3五个32后接普通16／8，比较短括号。p6s4十二快32后还有普通8，不能将十三时位都算入12。
+
+## 2026-10-30：相似拱形不能证明同型省数
+
+[Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel D先32休止＋7普通32、七连16、九连32、八普通32。最后一组恢复普通细分，不补9；O首普通8之后才是三连16。普通尾巴、梁层和休止都参与判范围。
