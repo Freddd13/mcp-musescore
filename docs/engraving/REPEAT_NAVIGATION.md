@@ -122,3 +122,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-30：一房与二房可以不同长度
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel D共同一小节、一房一小节、二房两小节再E；按实际路线读。Uragirimono D.S.从p4s5返p3s1 D，To Coda p3s3再跳p4s6；新行定位可保，播放目标另核。
+
+## 2026-10-30：同一行Coda空隙有定位价值
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：Weight p4s2左DS返p2s4 D，p2s6 ToCoda再跳p4s2右Coda；空隙、新括号和谱号帮助辨目标，保留。首遍顺读E，返回与跳转接收按各自来路核，不为等密填空。

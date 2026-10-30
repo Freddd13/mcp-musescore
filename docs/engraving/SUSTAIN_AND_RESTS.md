@@ -153,3 +153,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：保持后还有独立静默
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel M末六小节先三强攻击、再两小节mp保持、第六小节整休止加延长；静默不能并入前和弦。Uragirimono I两个全音震音端点共占四拍，末开弧意图单列待核。
+
+## 2026-10-30：错开到达之后还有共同静默
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are!末前一bar上半休止／四分攻击／四分休止，下四分攻击／四分休止／半休止，最终共同整休止延长；不合成齐奏终和弦。Weight末低部附点二分与小装饰、高白头接收独立保留。

@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_WEARE_WEIGHT.md`：We Are!末错开攻击之后还有共同整休止；Weight低长保持与装饰／高接收分别保。
+
 `INTEGRATED_READING_URAGIRI_VOGEL.md`：Vogel M末段两小节mp保持之后还有整休止延长；Uragirimono开弧意图未获作者确认。
 
 `INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md`：震音端点共享时段；G前慢8和快层8休止同时，末上部整休止／低部全音tie保独立等待。
@@ -122,6 +124,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_WEARE_WEIGHT.md`：Weight8／12先用下部钟核条件8:6／12:10，不因同写32拉同距；H普通活动保轮廓及必要占位。
 
 `INTEGRATED_READING_URAGIRI_VOGEL.md`：跨表先消除符头换侧：Vogel D还原干轴后九连／普通八音各自稳定，不能用头原点误报挤压。
 
@@ -248,6 +252,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_WEARE_WEIGHT.md`：We Are!完整两个5后是两个普通四分；Weight部分5排除普通首尾，13含32休止，不能按头数补音。
 
 `INTEGRATED_READING_URAGIRI_VOGEL.md`：D上九连32、下八个普通32不能按拱形对称补9；部分3／5明确排除普通前缀尾巴。
 
@@ -387,6 +393,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`INTEGRATED_READING_WEARE_WEIGHT.md`：K括号B3按Gould308双手同音保长短投影；H引导实线可比虚线，不当滑奏。
+
 `INTEGRATED_READING_EVERLASTING_HEROES.md`：C两个六音组各五下＋一上，近干仍先后。先滤PDF负x内容，再按完整梁／头／干核可见事件。
 
 `INTEGRATED_READING_TABI_TAMASHII.md`：Tamashii尾7／7／5／5首5为四上＋一下、次5全下；按完整成员与r.h.接手，不能按谱表截组。
@@ -420,6 +428,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 跨表先分单线跨手与独立两部，再比较共同梁两方向短端、坡度、副梁和表距；不要见短干便全谱加行距或抹平。拍内短休止可邻近后续音所在表，整拍／独立部另判；中央共同休止可行，但不应切梁或挤占已繁忙的动态通道。`cross-staff`的`CROSS_STAFF_STUDY.md`第8–12节有同距平梁／稍宽斜梁及同MIDI拒绝例；该例全局Style仅用于短练习，不能直接推广全曲。
 
 <a id="ornaments"></a>
+
+`INTEGRATED_READING_WEARE_WEIGHT.md`：Weight末8个小32约普通75%，保装饰及l.h.接收；低8vb和高8va分别核边界，不据字号定借时。
 
 `INTEGRATED_READING_DEAREST_HERO.md`：Dearest星号只指前三小音拍上；I的tr、波线及p／mp前景分层，续行(tr)是条件候选。
 
@@ -544,6 +554,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`INTEGRATED_READING_WEARE_WEIGHT.md`：Weight同一行Coda空隙、新括号及谱号服务跳入定位；按DS／ToCoda实际来路查接收，保留找路空白。
 
 `INTEGRATED_READING_URAGIRI_VOGEL.md`：一房一小节、二房两小节可以成立；D.S.和To Coda按每遍实际来路核接收，不能沿纸面相邻继承。
 

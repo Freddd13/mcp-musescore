@@ -234,3 +234,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：段号不决定八度起止
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel I上部8va在二分保持之后q2新活动才起，下部8vb只管前两小节；终段8vb在最后整休止前终止。已发出的保持与后续新动作分别读。
+
+## 2026-10-30：终止小音和八度端点分别读
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：Weight末下部8vb只到附点二分持续处，在G号及小音前结束；上部8va仅最后白头接收，l.h.保实际手提示。We Are!滑奏低端点不因高音区运行而自动扩入8va。

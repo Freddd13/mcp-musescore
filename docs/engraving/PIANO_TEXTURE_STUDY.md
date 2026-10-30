@@ -322,3 +322,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：主题相似也要重读伴奏
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Uragirimono D下部连续八分、K先长保持再短动作，上方主题相近仍不能复制整行宽度。Vogel A／C同表保持与l.h.活动保手提示、干向和必要休止。
+
+## 2026-10-30：双手同音保两线投影
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! K上括号B3四分与下B3二分同列，Gould308双手同音条件支持保留；不是新的零时小音。H快层上干、旋律下干并转下表；Weight E上表l.h.慢线与活动分工，谱表不决定整只手。

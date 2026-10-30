@@ -209,3 +209,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：梁层与干轴分别核
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel p6s3五快32后接两个普通16，主梁不断、三层梁提前终止、尾部有短次梁；5只管前五音。D上下表相反干向改变头原点，比较干轴后再判断间距。
+
+## 2026-10-30：三层梁与普通尾巴
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：Weight p1末五快32与普通8共主梁，另外两梁提前终止；p1s2前普通附点16＋32与后5同主梁。比较局部短括号，不缩放普通部分；We Are!完整5两层梁已清楚，保裸数。

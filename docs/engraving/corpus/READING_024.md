@@ -49,3 +49,5 @@ p7局部5组下降、短8va与跨表长上行接K；K上部保持、短运行、
 2026-10-30：[unlasting／unravel十二页最终回查](../INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md)补70系统与58处细读：三连内梁已经分组可保；两处部分5／末12需排除普通首尾。unravel F含休止及共同书面时位复核，G前mp sub.在q3.5提前，L dim从mf起。26条局部时值核对，无新原生／适配。
 
 2026-10-30：[Uragirimono／Vogel十三页最终回查](../INTEGRATED_READING_URAGIRI_VOGEL.md)补74系统、64处系统细图和11范围图。保稳定活动及完整／含休止组，部分3／5比较短括号；D上9下普通8与跨表干轴改正初读。补一房／二房不同长度、实际D.S.／Coda、局部a tempo及最终静默。29条局部时值核对；30页Gould复读、0新增覆盖，无新原生／适配。
+
+2026-10-30：[We Are!十四页批次中的八页最终回查](../INTEGRATED_READING_WEARE_WEIGHT.md)补47系统、37处系统细读。完整两组5后确有两个普通四分；K括号B3为双手同音投影，H旋律跨表实线可比虚线，末两手错开攻击后共同延长休止。与Weight共29条局部时值、33页Gould复读，0新增书覆盖，无新原生／适配。

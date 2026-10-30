@@ -221,3 +221,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：a tempo先找临近被改变的速度
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Uragirimono N明确85，rit.经过2/4后O a tempo回C拍号；按局部上下文恢复85，不能因快音重现跳回J168。Vogel E Più mosso未给唯一BPM，F明确78；文字与工程数值分查。
+
+## 2026-10-30：恢复指向局部速度
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：Weight页首rubato68、A74，L的a tempo按此前poco rit.／ad lib.及局部74上下文读；不直接套初速。I前保持后的断口和pp8弱起分别保，精确工程速度另核。

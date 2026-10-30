@@ -224,3 +224,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：实际后继与终止开弧
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Uragirimono To Coda的顺读与跳转接收分别核，不能按纸面相邻删接收或增加重奏。最后三条开弧越向上部整休止，保可见持续信息；未获此曲作者定义，不套用用户A八度踏板确认。
+
+## 2026-10-30：慢线长弧与快层短弧分读
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! H长下弧跟随跨表旋律，快活动另有上弧；引导线可改虚线但保角色与接收。Weight D虚线、保持tie和DS／Coda每遍接收分别核，不能用纸面相邻代替实际来路。

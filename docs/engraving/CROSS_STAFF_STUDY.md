@@ -224,3 +224,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：完整六连与普通旗尾分开
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Uragirimono p1s2跨表六个16为完整6，之后独立旗尾普通8在外；Vogel D跨表头换侧应以干轴比较，不能将2.304pt头原点差当引擎压缩。
+
+## 2026-10-30：接续引导与共头去重
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! H细斜实线引导慢旋律到换号后的下表，可比较虚线，保端点与两条弧归属；Weight D已有虚线。H跨表5／10／9须按成员及共头角色读，源重复同坐标字符不算额外起音。

@@ -96,3 +96,7 @@ Kaibutsu K第二行斜虚线引导低表中间旋律到上表，L前末拍叉头
 ## 2026-10-30：特殊头先查作品中的动作
 
 [Silhouette／Sirius](INTEGRATED_READING_SILHOUETTE_SIRIUS.md)：Sirius特殊端点／gliss／短8va与Silhouette慢声虚线、O波线各保功能。精确落键不由最近普通头决定；Gould567–568实为cue选择范围，不能用其叉头节奏cue例为全部钢琴叉头定音高含义。滑奏依据仍为既核140–146／326。
+
+## 2026-10-30：引导线与滑奏各守端点
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! H斜实线连接声部，可按Gould307比较虚线；p5s2才有gliss.文字和低处八分端点，另层二分保持并行。Weight D虚线服务接续，不统一成gliss对象。

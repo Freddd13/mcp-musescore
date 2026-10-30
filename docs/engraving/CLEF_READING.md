@@ -123,3 +123,7 @@ Kaibutsu K下表先低八度再高处材料。选定F5在当前高音顶线，�
 ## 2026-10-30：按实际来路恢复状态
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Uragirimono D.S.回D／Segno，再由To Coda跳Coda；各遍接收和有效调号／谱号分别核，不能用纸面相邻小节替代。Vogel跨表干轴的差也不能通过换号或搬表掩盖。
+
+## 2026-10-30：换号服务持续与接手
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! H低部旧和声之后换G号接慢线，不能仅按加线阈值移动旋律；Weight末G号在局部8vb结束之后、小音开始之前，与高部局部8va各保范围。

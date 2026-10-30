@@ -193,3 +193,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：演奏入口保实际时点
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel J下部sfz先起，后续活动另有mf；段号不吸附标记。Uragirimono M先休止再活动，上下层任务分别读；I震音缩写不另计一组保持时段。
+
+## 2026-10-30：力度对齐新动作而非段号
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! p3末mf在前bar引入，ff在后bar旗尾8后的新旋律；Weight p4末附点二分保持后先8休止再pp8弱起到I。内层mf和上层f作用时点／角色分读，不按同小节判冲突。

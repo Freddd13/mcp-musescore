@@ -320,3 +320,7 @@ C32组内7.434–7.614pt，下一小节8.136–8.154pt，各自稳定；X十四1
 ## 2026-10-30：辨别符头换侧与节奏压缩
 
 [Uragirimono／Vogel](INTEGRATED_READING_URAGIRI_VOGEL.md)：Vogel D跨表上下干切换，头原点会出现约2.304pt假挤压；还原干轴后九连组约6.37–6.73pt、普通八音组约7.07–7.27pt，各自稳定。Uragirimono A普通16和Vogel F普通8保轮廓；D／K伴奏改变需重算行预算。
+
+## 2026-10-30：先核比例再评组间步幅
+
+[We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：Weight p5s5下部q1／1.75／3／3.5对应8／12首与普通8尾，支持条件8:6／12:10；不能把所有32拉同距。We Are! H普通16第三小节约9.36–9.84pt，前一bar10.56–13.08含前缀条件，保轮廓并核占位。
