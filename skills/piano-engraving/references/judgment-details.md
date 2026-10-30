@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`MEDLEY_200_CH07.md`：F十六分共头附4／附点8，N低音附点half与和弦附点4＋8接half分别持续；不按重复绘制去重，也不从副本数推voice。
+
 `INTEGRATED_READING_BAUKLOTZE_BEFORE.md`：Bau终止上部tie、内线slur、下部重新起音分别读；Before F快休止的必要性由真实新起音／接收关系决定。
 
 `INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：额外局部快线不自动补满整bar；六连首rest却必须保。开放持续、实际接收、手指保持与Ped分读。
@@ -134,6 +136,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`MEDLEY_200_CH07.md`：K十二8步幅8.316–8.496pt且下部起音已落同网格；末普通六16的升号宽格11.502pt、D跨五升调号的50.112pt各有真实占位。先分情境，不同阈值一律拉匀会挤符号。
 
 `MEDLEY_200_CH06.md`：M共同梁首四8头距19.116／9.396／19.116pt，换干侧后本梁干轴约14.2–14.3；C同型两行跨度98.280／93.510仍各自稳定。先归并同时二度错头，再评共同事件，轴还原不能泛化到所有声部。
 
@@ -291,6 +295,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`MEDLEY_200_CH07.md`：E六连16占1q且后有普通4，完整五连前有普通四16；K六普通16无数字、占1.5q。数头须配梁层、时段与休止。
+
 `MEDLEY_200_CH06.md`：M5/8按本段3＋2，插入6/8另核总时段；H6／J5／I6为双梁16且完整组后有普通尾部。I末四分三连无梁，保各自括号；外slur不界定连音成员。
 
 `MEDLEY_200_CH05.md`：B5／6与H9为双梁16，J7为单梁8占2q，普通尾部独立；各组完整梁已清楚，通常读法闭合，不必一律补比例。M Coda复附点half＋8，末九16后普通8不计入九连。
@@ -421,6 +427,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="markings"></a>
 
+`MEDLEY_200_CH07.md`：S最终r.h.只选末八分q3.5，换高音号后的另三8不因此交右手；背景whole及末活动延长承载分别保。
+
 `MEDLEY_200_CH05.md`：F全音背景q0的sfz与另一层q1.5迟入的mf／cresc.分别保留，q2为tie接收；统一X会改变时间归属。
 
 `INTEGRATED_READING_BAUKLOTZE_BEFORE.md`：Bau A／H／M mf都近q0.5，但H是第三16；Before A p近q0.5、mp近低音q1.5、旋律q2.5才入，不按段字母／字形边缘重新锚定。
@@ -543,6 +551,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="tempo"></a>
 
+`MEDLEY_200_CH07.md`：J新12/8内印附点4＝4，L回C内印4＝附点4，传统／现代体例方向不同。130主拍解释仅为传统读法候选；先确认旧新单位，再比较明确标签或新数字，不能自动赋BPM。
+
 `MEDLEY_200_CH06.md`：L前90在末半bar引入已生效；N前恢复C即124，第二bar q2.5才pp三8。O末whole和末4各有延长对象，不把所有记号拉成同X。
 
 `MEDLEY_200_CH01.md`：标题前已引入204／190；二分95与四分190时长等值，数值翻倍不判加速。
@@ -629,6 +639,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 
 <a id="octaves"></a>
 
+`MEDLEY_200_CH07.md`：A短8va只q2.5八分；低8vb罩到第三bar q0四分、q1首8已不罩。F只前bar末四16，R旧8va接引入q0四分后终止，范围不跟标题或梁扩展。
+
 `MEDLEY_200_CH05.md`：B下部8vb跨两全音小节并覆盖接下来的2/4二分接收后才止，C预告前恢复；不在延长或换拍机械截断。
 
 `MEDLEY_200_CH04.md`：Q p52s4第三bar q3才起8va，经过第四bar及下一行首fp八分和弦，q0.5低音已原位；所在上表及续8角端保护范围。
@@ -680,6 +692,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`MEDLEY_200_CH07.md`：P共同三bar，首房子两bar、次房子一bar开放，后tie还续到half。每种来路的接收与力度分核，开放端不替代范围。
 
 `MEDLEY_200_CH05.md`：M p64普通结尾是全音和弦后全小节休止再停；续章保末8出发，跳独立下一整行三bar Coda接tie，attacca接p65。两路线分读，不能把普通尾声串进Coda。
 
