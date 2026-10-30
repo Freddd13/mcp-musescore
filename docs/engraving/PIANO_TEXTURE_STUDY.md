@@ -346,3 +346,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：实际慢线与活动层分开
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao E上8与下部慢线、Attack F同表上干慢旋律／下干8分别追踪；二度左移头和共头不增加时间列。Ao F首quarter为开放持续弧，轻奏在q1.5进入。
+
+## 2026-10-31：新起音与接收的快层不同
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Before F快层13头＋3个16休止，休止对应慢旋律新起音，q2慢线接收处快层仍有头。Bau J上pp活动／下mp旋律及全音低音各追踪，不按上表固定主旋律。

@@ -399,3 +399,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：字形条数与起音数
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack H首二度左移头非新增起音；F共头原点微差先选活动表示。相同半音运行保七个书写临时记号，不以删除／等音改写来换均匀。
+
+## 2026-10-31：重复字形与错头先去歧义
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau开头同拍二度头横移，Before preG同原点quarter／16头甚至重复写入PDF；均不新增时间点。Bau preM下五连32后的普通8排除在5外，完整九连保裸9。

@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-31[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：先分同拍错头与真实时间列，保J／A稳定活动。Before D的3＋3＋2对应旋律切分，F快休止让新起音、tie接收处仍有快音；不补音或统一梁组。部分3／5比较范围，完整9保简洁；力度、返回速度和8va按实际拍内位置读。
+
 2026-10-30[青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：相同半音16宽行近匀、密行变音前格变长，优先核整行预算；Ao E跨bar／Attack F宽格确有中间16则先保。保H的3＋3与Ao共梁loco；部分3仅罩实际三音，拆bar保逻辑，自由段恢复先核生效点。
 
 2026-10-30[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again I宽格内有下层q2.75十六分，先保真实插入；N16／Akuma J8按活动层评稳定，共头不混算。C下降末音为普通16，完整3保裸数，两处共梁部分3均32才比较短括号；含休止6已有范围。持续／手／八度／速度／踏板分别读。

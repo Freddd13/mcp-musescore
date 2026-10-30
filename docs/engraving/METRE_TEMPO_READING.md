@@ -245,3 +245,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：自由段恢复与拍内引入
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack E长值背景是便利记法，前景正常字号8／16不强制凑4q；pp引入先于F，未见a tempo，澄清恢复从引入或F生效须先核意图。
+
+## 2026-10-31：恢复速度先于下一段引入
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau p7s3四分70在q3休止附近，q3.5 p引入、N在后；返回提示使引入已有速度依据。Before D3＋3＋2仍为普通16切分，不能读成三连或改4/4时钟。

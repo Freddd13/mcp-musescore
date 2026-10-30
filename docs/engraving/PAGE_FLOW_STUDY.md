@@ -259,3 +259,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：宽格诊断先核整行容量
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack相同半音16从宽行移到三密bar行后长短格加剧，候选比较整行重排。Ao末页一个4/4拆2＋2q跨行，无末barline，保逻辑并比较完整小节与继续提示的代价。
+
+## 2026-10-31：密集与稀疏段分配不同容量
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau L密集段每行较少小节、N转疏；Before G较长和声容纳更多bar。保整体边界和大层级，不据字母强制换行或固定bar数；本批未实测翻页／装订。

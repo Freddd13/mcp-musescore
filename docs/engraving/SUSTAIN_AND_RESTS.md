@@ -177,3 +177,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：自由背景和最终释放
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack E便利全音背景不强制全部前景4q；Ao结尾quarter＋quarterrest＋halfrest，Ped在q1释放，无最终fermata。慢线、背景休止和共鸣分别读。
+
+## 2026-10-31：休止保留快慢层的起音差
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Before F新旋律起音处快层休止，tie接收处快层有音；保十三16头＋三16休止。完整声部的必要休止与只为突出旋律的附加长值分开判断，不按软件voice统一补全。

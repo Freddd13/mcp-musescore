@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_BAUKLOTZE_BEFORE.md`：Bau终止上部tie、内线slur、下部重新起音分别读；Before F快休止的必要性由真实新起音／接收关系决定。
+
 `INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：额外局部快线不自动补满整bar；六连首rest却必须保。开放持续、实际接收、手指保持与Ped分读。
 
 `INTEGRATED_READING_ZANKYOU_GUREN.md`：残响pp低wholepair共享4q、上部halfrest后halfpair共享2q，第二头分别q2／q3，不视觉居中或相加；末8receiver后共同静默不同于红莲低whole保持。
@@ -132,6 +134,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_BAUKLOTZE_BEFORE.md`：Bau同拍二度错头不加时间列，Before共头重复字形也不加起音；保Bau J／Before A稳定活动，不能按所有头的x顺序平均。
 
 `INTEGRATED_READING_AO_ATTACK.md`：相同半音16在宽行近匀、三密bar行参差，先核整行预算；Ao E跨bar／Attack F首bar宽格确有中间16，先保真实列。
 
@@ -271,6 +275,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="rhythm"></a>
 
+`INTEGRATED_READING_BAUKLOTZE_BEFORE.md`：Before D3＋3＋2对应旋律有意切分，F三个快休止让旋律新起音、q2接收仍有快音；不统一梁组或补音。
+
 `INTEGRATED_READING_AO_ATTACK.md`：Attack H保3＋3和内梁界，普通8／16前尾音不混入；Ao 2/4部分3只罩后三个16，普通8尾音在外。
 
 `INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：Akuma C下降32rest＋13个32＋16；两谱部分3均32，普通前尾音在外。完整3保裸数，含休止6保原括号。
@@ -382,6 +388,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 同页的5连组、局部8va、弧和尾部休止须按各自角色／范围读；Mixed Nuts旧“8组”已由完整末小节和旗梁细图校正。不要只凭单个数字或紧裁图补Tuplet比例、起音数、全曲swing或软件字段。
 
 <a id="markings"></a>
+
+`INTEGRATED_READING_BAUKLOTZE_BEFORE.md`：Bau A／H／M mf都近q0.5，但H是第三16；Before A p近q0.5、mp近低音q1.5、旋律q2.5才入，不按段字母／字形边缘重新锚定。
 
 `INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md`：C前f在q2、G前mp sub.在q3.5；unlasting L dim从mfq1.5开始，保提前入口与长变化原范围。
 
@@ -562,6 +570,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_BAUKLOTZE_BEFORE.md`：Before preG8va罩首四16，q1恢复，首头同时承载quarter／16；连续跨表手势不延长八度范围。
 
 `INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：残酷天使E8va覆盖同表首l.h.伴奏和弦，不能只按上干旋律缩线；p7短8vb角端与两barPed释放独立。
 

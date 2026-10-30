@@ -233,3 +233,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：内梁分界保留动作组
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Attack H两对3＋3不自动改6；p6s5三十二个普通32不因密就读连音。Ao完整5／6保简洁，仅共主梁的后三连16比较短括号，普通8尾音在外。
+
+## 2026-10-31：内梁显示切分与部分组
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Before D保3＋3＋2，不一律改4＋4；Bau preM普通32三层梁、完整九连32及末四分分别读。部分3of16／5of32与普通8尾共主梁，仅比较实际连音短括号。

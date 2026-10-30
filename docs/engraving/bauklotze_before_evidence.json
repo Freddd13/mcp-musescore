@@ -1,0 +1,4582 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-30T17:15:48.958195+00:00",
+  "note": "INTEGRATED_READING_BAUKLOTZE_BEFORE.md",
+  "source_protection": [
+    {
+      "id": "A017",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bauklötze (Hanji's Final Theme)- Attack on Titan.pdf",
+      "sha256": "f71fd487361fcb0dbca2eae6824b33fb77cc26c03f0a70f108613f0b397e6081",
+      "pages": 7,
+      "unchanged": true
+    },
+    {
+      "id": "A018",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Before my body is dry - Kill la Kill - Soundtrack.pdf",
+      "sha256": "cbf47b483184147c0d75084f425b187c3835ed9acec3e6024dc4bbc8fcb488f0",
+      "pages": 6,
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "unchanged": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A017",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A017/page-1.jpg",
+      "sha256": "cd73132d386975d78c8b55816fdb5996f909b7cb099694e96637956d031ae711",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A017",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A017/page-2.jpg",
+      "sha256": "be1908495226fff8c52a236e1e4a7a48b1f040c694e79b80f3a5b22f77f0cd47",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A017",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A017/page-3.jpg",
+      "sha256": "ef8e45e46681185ca7bafa3683e88e35a08b9d0632b8cd3a0987674cfb0b0f2b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A017",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A017/page-4.jpg",
+      "sha256": "3dfe911810d71f8061367e4fd2d5dbcbddc54c502844377b9e56a0c22a4d516f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A017",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A017/page-5.jpg",
+      "sha256": "638f9e08b165ef913043f85adfcafa9b762798cafd79635377358d5252325ec0",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A017",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A017/page-6.jpg",
+      "sha256": "7debf796d6149ef672f0fe678bb4919404c40919c0e44a79fdd173a3cf0681cf",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A017",
+      "page": 7,
+      "path": "tmp/engraving/corpus/A017/page-7.jpg",
+      "sha256": "2d29e62537ed80e3b242d0b62b25954ce19b9d23a4259d0e525d6a08724d024f",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A018",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A018/page-1.jpg",
+      "sha256": "65fc043ae6a05eeadbedd49e2d307aa503b629983d6bc0ce859051702dac109b",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A018",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A018/page-2.jpg",
+      "sha256": "581e125926770d431837d41dfe5cd30b1cdfd4c4de760e3b776f9af93f619152",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A018",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A018/page-3.jpg",
+      "sha256": "a9d797c41f21b0938f336903dd5352fa2b4f6ad186567c2224a8bba6f1b332b1",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A018",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A018/page-4.jpg",
+      "sha256": "07b25e4c560c4564791e88901bc8a4fa555df30fce189eda609a17b500be5ad2",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A018",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A018/page-5.jpg",
+      "sha256": "41b1816af43f5dbd7f22d536284482d915981d049b0d659bbb238a3be76d1fa5",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A018",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A018/page-6.jpg",
+      "sha256": "3e18d41742040c6e2a14ea5ac00580931b6fa3fabaeb9fcc31563cd15fbef7da",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p1-s1.jpg",
+      "source_y_pt": [
+        139.83863368669023,
+        320.07145661562623
+      ],
+      "sha256": "77183fa8467b548f8d8659e780e715fb07ad5a0224f9f5b4b4e568e2e904e9e1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p1-s2.jpg",
+      "source_y_pt": [
+        277.8578720062819,
+        458.25598743619946
+      ],
+      "sha256": "021160dc69aa7a68150c217761397c5e4c50425f70449ad67fa6895bc32271c3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p1-s3.jpg",
+      "source_y_pt": [
+        407.11660777385157,
+        578.7542206517471
+      ],
+      "sha256": "b6544cb415c2d6129850f996c0821cfef22012beed00ee9a577162f3001ba4ac",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p1-s4.jpg",
+      "source_y_pt": [
+        534.0612485276796,
+        705.5335689045936
+      ],
+      "sha256": "071467c9771fdfa1c0124419d63ed4f39c8710f3299f570967b2a623c01d3cff",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p1-s5.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "12bcd8795daf0af0ec89279e082563c082699fc586ccc57339772fea52288751",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p2-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        189.9862583431488
+      ],
+      "sha256": "3f1590918422beb657976e17c14a32c2263ab4fc18658bf070f9883fe5f3d597",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p2-s2.jpg",
+      "source_y_pt": [
+        121.16058107577541,
+        299.24460149195136
+      ],
+      "sha256": "e2986e6091c37bda0399dc64584be1dda8bb4426e8d5a6496d7515cae36a5a6d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p2-s3.jpg",
+      "source_y_pt": [
+        253.39458186101297,
+        437.75971731448766
+      ],
+      "sha256": "f0e2027c464cdf23f335b4f49a8c553272bb3f9c7b84e8e99c195b9b036e441a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p2-s4.jpg",
+      "source_y_pt": [
+        378.0251276010993,
+        560.4067530427955
+      ],
+      "sha256": "b7f9bb6f2b8c02fa9bbbda5c8076f57eb368481f3331fbdf17755ecca20743ac",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p2-s5.jpg",
+      "source_y_pt": [
+        507.283863368669,
+        683.3843737730664
+      ],
+      "sha256": "190077bb109c3302c28db14eb6d8bfede9a5b6dedfb1a65cb2f9b8380baf9b71",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p2-s6.jpg",
+      "source_y_pt": [
+        639.5178641539065,
+        817.6018845700825
+      ],
+      "sha256": "dca36458f52ab4b49e1f8917f817edfdf78590bf4d849a0c8555d04ac87c46a7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p3-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "f860fa95d2de2169c2ff4c8fc1cab4b278a84d7440cb3be703fcf461b67d878b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p3-s2.jpg",
+      "source_y_pt": [
+        145.62387122104437,
+        313.12917157440125
+      ],
+      "sha256": "e41ef8f6448f2c7490a1d94c68fffa92dd1730dadbc8410564ad8dddd21f792d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p3-s3.jpg",
+      "source_y_pt": [
+        275.8743619945033,
+        449.9913623871221
+      ],
+      "sha256": "3b6a2121210c5c2058c6ca75e061ad30e32fb0020f28bf56f58b586f1171e250",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p3-s4.jpg",
+      "source_y_pt": [
+        396.2073027090695,
+        574.2913231252454
+      ],
+      "sha256": "da43f4d1c6391645b8b113e48d893b09288bcbb6b86e393d16e63c738d76fcb0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p3-s5.jpg",
+      "source_y_pt": [
+        525.1354534746761,
+        692.640753828033
+      ],
+      "sha256": "5729df2d2f77a453369883dfe392925a67cc1a2f6c8410076a958f22a75bfdb2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p3-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "3332f57533a5c1ca4d4d64b30dba1e0fc4357b36152184260d8629184122c605",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p4-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        185.6886533176286
+      ],
+      "sha256": "d274bdc395102941e0621b45e2c2a60ed9d6077e1d58093e0db7c2f8596fc7ae",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p4-s2.jpg",
+      "source_y_pt": [
+        144.46682371417353,
+        320.4020416175893
+      ],
+      "sha256": "2210823913d28a3410157b299e7ea56eec74e52a29ae99bacb006d502f21c3ac",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p4-s3.jpg",
+      "source_y_pt": [
+        275.8743619945033,
+        447.67726737338046
+      ],
+      "sha256": "aefb9d06592db0cea36157b6028ee8769dbf368f129047a0cd83979e6bf11b82",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p4-s4.jpg",
+      "source_y_pt": [
+        396.70318021201416,
+        564.208480565371
+      ],
+      "sha256": "065badf5cc0ab4be90abba11f01fae81afcaaadc296f9369cb0c12079bdc6231",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p4-s5.jpg",
+      "source_y_pt": [
+        513.3996859049863,
+        685.0372987828819
+      ],
+      "sha256": "b484dc5dfed7ccb48d74f09ac8f43fe2d26473253617240e44f818822643b7a1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p4-s6.jpg",
+      "source_y_pt": [
+        647.9477817039655,
+        817.6018845700825
+      ],
+      "sha256": "03b33eae613e1427258c8e5bcde4a1ec9aaddd6a408266a7afbfb21dce2f0aeb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p5-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "1f46fc2929cd39612eff9c83e013aec708a8974e0db3e9dcd254231d6e591407",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p5-s2.jpg",
+      "source_y_pt": [
+        133.722811150373,
+        301.2281115037299
+      ],
+      "sha256": "f61892f9336f811c5e394558cf073d170c09c8920181ee53694d38819c142148",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p5-s3.jpg",
+      "source_y_pt": [
+        252.23753435414216,
+        430.48684727129955
+      ],
+      "sha256": "418b71c0d727b3976902ad0739b404871a45e8b6bd68e8382d7ae35fbfe2e4d9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p5-s4.jpg",
+      "source_y_pt": [
+        375.0498625834315,
+        548.8362779740871
+      ],
+      "sha256": "2e9b428754428d2973e44d4f2b8a238a0315fd497b8ee6fe1549f8e5499141de",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p5-s5.jpg",
+      "source_y_pt": [
+        505.9615233608166,
+        684.0455437769925
+      ],
+      "sha256": "f45caf99b6de2ad8f6c0b6af96b263f60a41378b290f1b5b7b6f92c2671e690c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p5-s6.jpg",
+      "source_y_pt": [
+        643.8154691794268,
+        817.6018845700825
+      ],
+      "sha256": "34e76a77ee55deaebe854a6981806f3830f960a0f4e5d159c305718820e8c791",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p6-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "2de0206cea62c41dba4fed51e7dbf5bc90e3b5859573aa4724018de8eabb08d2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 6,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p6-s2.jpg",
+      "source_y_pt": [
+        148.59913623871222,
+        322.55084413034945
+      ],
+      "sha256": "8c48a338509993c1c5bcffebf705e18fbca19dd3f55ebca56aec0f778a1809aa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p6-s3.jpg",
+      "source_y_pt": [
+        304.9658421672556,
+        493.6285826462505
+      ],
+      "sha256": "4cd61799a6df38ac7f4238021f9565447480e7f92f3269d6721e3839342595f7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p6-s4.jpg",
+      "source_y_pt": [
+        474.2253631723596,
+        658.7557911268159
+      ],
+      "sha256": "bdbd6537a4ea6c52f717b065b05607c8f1eb35f9363c8fc70458774c3898e13e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p6-s5.jpg",
+      "source_y_pt": [
+        641.5013741656851,
+        817.6018845700825
+      ],
+      "sha256": "18c5171d75a30dc1e62637f2d4e0a7d02b5e469b8555d4fc706e233a59c32e6d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 7,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p7-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "502f9f150779dbb1f194212419cbb4eb9efe997b3455ca5877852a47f09965a8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 7,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p7-s2.jpg",
+      "source_y_pt": [
+        166.12014134275617,
+        344.3694542599136
+      ],
+      "sha256": "c68402fc2506d00edbf454248ba9a8dedbda2a689a2dcbf0e5ca3175923255b6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 7,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p7-s3.jpg",
+      "source_y_pt": [
+        313.561052218296,
+        493.6285826462505
+      ],
+      "sha256": "eb3b8d115391c935da981ba830e566d8438f8704158600c5a99dc86857c2c631",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 7,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p7-s4.jpg",
+      "source_y_pt": [
+        475.71299568119355,
+        653.7970160973695
+      ],
+      "sha256": "8f4d00468c8ede5813c9612d4938c229fb4420316bf5210b6ecefe671c07f51c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A017",
+      "page": 7,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p7-s5.jpg",
+      "source_y_pt": [
+        635.3855516293679,
+        817.6018845700825
+      ],
+      "sha256": "bd0df55553b67e291a0bcbab4102b25271dc94637090dbbf900d8d8cb72e779d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p1-s1.jpg",
+      "source_y_pt": [
+        155.93627651217597,
+        331.72637863315003
+      ],
+      "sha256": "66b6617bfba748cc5929382571ffc83ee7b171ae77f52b0c85f7f8ec47d5205f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p1-s2.jpg",
+      "source_y_pt": [
+        276.9664100549882,
+        452.75651217596226
+      ],
+      "sha256": "03663068b01c6be9e482a78de04d6d5887511b1f92800e929dd20ee80745f6ef",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p1-s3.jpg",
+      "source_y_pt": [
+        397.99654359780044,
+        573.9519874312647
+      ],
+      "sha256": "2270132bb49e357f96ba4ee23f9174269cae9183e93559bbe3f19d9cb194349a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p1-s4.jpg",
+      "source_y_pt": [
+        518.6959937156323,
+        694.8167792615868
+      ],
+      "sha256": "213849562ab9787c93f653bb99d66846d9e299518cf432c2f3db21f29ffaf842",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p1-s5.jpg",
+      "source_y_pt": [
+        639.7261272584446,
+        815.846912804399
+      ],
+      "sha256": "190f709f8182a387e9eab42e54829841b23bebabcc648b9c9561a4044c905ff0",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p2-s1.jpg",
+      "source_y_pt": [
+        12.088986645718776,
+        187.87908876669283
+      ],
+      "sha256": "3a417cdc47079fa37c8a6782f89da01c7a57d5d262204322b645876360e6507f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p2-s2.jpg",
+      "source_y_pt": [
+        137.41800471327574,
+        313.53879025923015
+      ],
+      "sha256": "a39b761efd4cd73c807ab58ff25e03d9d174aa95df5b1e846154d6cf8785f70e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p2-s3.jpg",
+      "source_y_pt": [
+        262.74702278083265,
+        438.8678083267871
+      ],
+      "sha256": "f485e0081d954d2ac2940e40928f948ceb218eaa0c32e310875a5030f269bb56",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p2-s4.jpg",
+      "source_y_pt": [
+        388.40672427337,
+        564.3621681068341
+      ],
+      "sha256": "7ce01440f6bde33c6abd04b17075fe099d8f35ede869d120c53a4e07d03fd669",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p2-s5.jpg",
+      "source_y_pt": [
+        513.7357423409269,
+        689.8565278868814
+      ],
+      "sha256": "83113185fa02f0de31e4579fb7c8410de9d6995c538a59a8d48d1f9a731eb5e8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p2-s6.jpg",
+      "source_y_pt": [
+        639.0647604084838,
+        815.3508876669284
+      ],
+      "sha256": "a41ebb4739fa87c81ce71de5482eda6906fbe398563adb42e37b708015fdf1b4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p3-s1.jpg",
+      "source_y_pt": [
+        12.088986645718776,
+        187.87908876669283
+      ],
+      "sha256": "c204962608de1717fc14ad239374afa933256d3f61e3dd1a78a0ba02617be267",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p3-s2.jpg",
+      "source_y_pt": [
+        137.41800471327574,
+        313.53879025923015
+      ],
+      "sha256": "2c08324263045cda0db7cac9968df1157c7c2da9219cec2d3988669985542b10",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p3-s3.jpg",
+      "source_y_pt": [
+        262.74702278083265,
+        438.8678083267871
+      ],
+      "sha256": "6a8a292aed00525910b3682cb419d6f3d26f8a0856fe0744fe78c0a09bceffe6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p3-s4.jpg",
+      "source_y_pt": [
+        388.40672427337,
+        564.3621681068341
+      ],
+      "sha256": "0abdb021fc3f53b979b3186cdc1471d95f2f64e0cbd808e1adcff852f87a5e9c",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p3-s5.jpg",
+      "source_y_pt": [
+        513.7357423409269,
+        689.8565278868814
+      ],
+      "sha256": "77f3db23f17dd89b94e01b7b620ac2d43570fdfd6c5bfcce6b02bceb78351325",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p3-s6.jpg",
+      "source_y_pt": [
+        639.0647604084838,
+        815.3508876669284
+      ],
+      "sha256": "69018c8156f8d9a7b1c81b0db10e97b2415dfc8e73562f18e02a259773b7f939",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p4-s1.jpg",
+      "source_y_pt": [
+        12.088986645718776,
+        187.87908876669283
+      ],
+      "sha256": "260c065657ef0abce4cb1b37abefc7b4b528f5e1a1e3c80f5d1213a4ec60ca69",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p4-s2.jpg",
+      "source_y_pt": [
+        137.41800471327574,
+        313.53879025923015
+      ],
+      "sha256": "9adfa89ff258710429ddfa6e87b9871aa6054b8b15821e9ecf5e5f6e47a075d6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p4-s3.jpg",
+      "source_y_pt": [
+        262.74702278083265,
+        438.8678083267871
+      ],
+      "sha256": "703af84b26b12ef42682315e8937c2ed934d8139bf2cd3a6227172934a637f35",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p4-s4.jpg",
+      "source_y_pt": [
+        388.40672427337,
+        564.3621681068341
+      ],
+      "sha256": "5ed607d180193675a0c23a5700e227cd27ffd55302ed8777ff16476f67f86bae",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p4-s5.jpg",
+      "source_y_pt": [
+        513.7357423409269,
+        689.8565278868814
+      ],
+      "sha256": "bebf19533bb59e5f708cf316597dcd00e70867421a2e828c7e4dac4560791ac5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p4-s6.jpg",
+      "source_y_pt": [
+        639.0647604084838,
+        815.3508876669284
+      ],
+      "sha256": "2548c9a7d0923e4036c27c5c67374a830b812a27440b94ad9bd5da776c8ea003",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p5-s1.jpg",
+      "source_y_pt": [
+        12.088986645718776,
+        187.87908876669283
+      ],
+      "sha256": "633abdf47e6467268fe692e3a3470113fef5d675f0c6daa9d2ea7faa8afd57c2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p5-s2.jpg",
+      "source_y_pt": [
+        168.83293008641007,
+        344.95371563236444
+      ],
+      "sha256": "eb62f763d2beaff694f2505bd9b7ddf5418de2233e1da73163cc11502cc2c873",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p5-s3.jpg",
+      "source_y_pt": [
+        325.9075569520817,
+        501.6976590730558
+      ],
+      "sha256": "7eafa38a5efa2e56d30f07ef694ad85d17ad6ae11f6d6e08bd46c2975e701e48",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p5-s4.jpg",
+      "source_y_pt": [
+        482.65150039277296,
+        658.7722859387275
+      ],
+      "sha256": "2c219163e1a1fa970813bd4d6b47ea75a2ea3169a0c4be6ca2763aa9c5b1666a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p5-s5.jpg",
+      "source_y_pt": [
+        639.7261272584446,
+        815.846912804399
+      ],
+      "sha256": "042331751e590f3d46601c3ba3125b1477fe9d97ddeec07d09d03a35c2f5b315",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p6-s1.jpg",
+      "source_y_pt": [
+        12.088986645718776,
+        187.87908876669283
+      ],
+      "sha256": "10108db6b340985d7dd4ff0f810f1efeed6abb0594f78c3c41f6bd249562ea6a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 6,
+      "system": 2,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p6-s2.jpg",
+      "source_y_pt": [
+        168.83293008641007,
+        344.95371563236444
+      ],
+      "sha256": "b9cee01e379da7ef7bae73e545e8d54e68212ab319372b18a630875d3541e5df",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p6-s3.jpg",
+      "source_y_pt": [
+        325.9075569520817,
+        501.6976590730558
+      ],
+      "sha256": "652cdd2973b8866b1822b07dd82ce7ae90a5d984256f4d2b5c32ab1c4574913f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p6-s4.jpg",
+      "source_y_pt": [
+        482.65150039277296,
+        658.7722859387275
+      ],
+      "sha256": "a5fba601772b13134e16b7778ee86781d34e8bac7db0104787d5a569e7f86f29",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A018",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p6-s5.jpg",
+      "source_y_pt": [
+        639.7261272584446,
+        815.846912804399
+      ],
+      "sha256": "83d360a6cb6f6ec0beba2777a54e141cb2cff21c99196f4249800368bdb88a2d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A017",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p1-s3-A-dynamics-zoom.jpg",
+      "source_box_pt": [
+        180,
+        412.11660777385157,
+        365,
+        578.7542206517471
+      ],
+      "sha256": "a56c7bbc5e14d4aee5dbbd169cb70758e5a3fdea1952ebc344d9af15689c7773",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A017",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p3-s1-partial-three-zoom.jpg",
+      "source_box_pt": [
+        315,
+        16.736945425991365,
+        395,
+        183.53985080486848
+      ],
+      "sha256": "9d024f5675b289d998b5d6441562ee1f0f412457172f2f4ae77277cc14cf820b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A017",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p6-s5-nine-five-zoom.jpg",
+      "source_box_pt": [
+        265,
+        646.5013741656851,
+        560,
+        817.6018845700825
+      ],
+      "sha256": "a1b8b83c0d83c7592b8f701d41d85cc7b397470022dfda13fb1518d8baccfc79",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A017",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p4-s3-H-dynamics-zoom.jpg",
+      "source_box_pt": [
+        375,
+        280.8743619945033,
+        500,
+        447.67726737338046
+      ],
+      "sha256": "25c09075ae7a23b6951858862d47d0babae797b6aa8a3ecd1c5873b48afcc0b1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A017",
+      "page": 7,
+      "system": 1,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p7-s1-M-dynamics-zoom.jpg",
+      "source_box_pt": [
+        50,
+        16.736945425991365,
+        200,
+        179.24224577934825
+      ],
+      "sha256": "5fc052eda5c43d254eb3280667686a56fe29e7a848146a73f3c1f84d7d113970",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A017",
+      "page": 7,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p7-s3-tempo-return-zoom.jpg",
+      "source_box_pt": [
+        430,
+        318.561052218296,
+        560,
+        493.6285826462505
+      ],
+      "sha256": "4c77ec997998830ba9c1b955845b194a221fe39dcd704be4698360757bcaa404",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A017",
+      "page": 7,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A017-p7-s5-ending-zoom.jpg",
+      "source_box_pt": [
+        385,
+        640.3855516293679,
+        560,
+        817.6018845700825
+      ],
+      "sha256": "d0f600a5c0334e5e8f9e29c72f4d218979e3815687223fb6f8abffce88b726e2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A018",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p1-s3-A-dynamics-zoom.jpg",
+      "source_box_pt": [
+        65,
+        402.99654359780044,
+        250,
+        573.9519874312647
+      ],
+      "sha256": "216b0711cbdf9e0f35289bfa203691e6d8b26fce6b28925e0c62d7cca87e1e35",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A018",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p3-s5-dotted-layers-zoom.jpg",
+      "source_box_pt": [
+        65,
+        518.7357423409269,
+        240,
+        689.8565278868814
+      ],
+      "sha256": "17494b89a91a9ac84c72667b0efe297d2fbba01d6e440f1fa4445f7e435f17cd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A018",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p4-s3-rest-clock-zoom.jpg",
+      "source_box_pt": [
+        65,
+        267.74702278083265,
+        240,
+        438.8678083267871
+      ],
+      "sha256": "ed9253e0809dc9f5fd8a1aafa095911b9af16c8a5ad941f3216ee380045aea56",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A018",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p4-s6-octave-end-zoom.jpg",
+      "source_box_pt": [
+        220,
+        644.0647604084838,
+        410,
+        815.3508876669284
+      ],
+      "sha256": "9e672e446b322e0c072f8d87b868d013f8cb969f8bcc8f0616521257dec8d64d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A018",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/A018-p6-s5-ending-zoom.jpg",
+      "source_box_pt": [
+        405,
+        644.7261272584446,
+        560,
+        815.846912804399
+      ],
+      "sha256": "0767f8e84102a393d64778a18b3a816645a73dbe9c7c682b64584da227b5e7a1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 43,
+      "pdf_page": 63,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-43.jpg",
+      "sha256": "22d28e739ec9c663b304b0286ee41b6ac5001642dafd2c74b1a5cd4b616e4bf9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 156,
+      "pdf_page": 176,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-156.jpg",
+      "sha256": "c2e0d3fcae7598272ac1565a4da866cf6f7149a7056c11a4c5d6b628eed98f02",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 157,
+      "pdf_page": 177,
+      "path": "tmp/engraving/beginning-to-you-2026-10-30/book-printed-157.jpg",
+      "sha256": "a5a6dcd72e7a7154ba1ab2d8551ed57e745d7cc8e1a8bc94df5a6f2ac2bb951c",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 158,
+      "pdf_page": 178,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/book-printed-158.jpg",
+      "sha256": "716134497f22286bfedcb2ef04b5241a9180dfba5fd0de5819472ce6922b3007",
+      "reused": false,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 159,
+      "pdf_page": 179,
+      "path": "tmp/engraving/styx-sugar-2026-10-30/book-printed-159.jpg",
+      "sha256": "04ea8657e2cdde73ff0501c3aaa85b5f1d7becf09d0700bad1a78f8d6ba90391",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 160,
+      "pdf_page": 180,
+      "path": "tmp/engraving/beaming-2026-10-19/book-180.jpg",
+      "sha256": "20486a8a21f1b3d2fd2c5f984856983306479669360fc30a6ca03eb043e3b2fd",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 161,
+      "pdf_page": 181,
+      "path": "tmp/engraving/bauklotze-before-2026-10-30/book-printed-161.jpg",
+      "sha256": "ef235880ac8e5d8fe3f6b3d2b8940a7c386b399e8eb7705e4174257d5f9d54ef",
+      "reused": false,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 199,
+      "pdf_page": 219,
+      "path": "tmp/engraving/tokimeki-uchiage-2026-10-30/book-printed-199.jpg",
+      "sha256": "c54adbcbd2bd6279e6f78560904b94ebc10004666dd1777a3ae69ebe50e02af3",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 203,
+      "pdf_page": 223,
+      "path": "tmp/engraving/integrated-rumbling-unravel-2026-10-22/gould-p203.png",
+      "sha256": "48e7e705ca140dd5fa743d02f910d38eee56f2ac73e4dea2d04c0af3edc319a4",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 213,
+      "pdf_page": 233,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-213-reread.jpg",
+      "sha256": "33a2bf132aceea603508082e316ffa5f5ba6b96a9e67d67f493b4b125f587f14",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 215,
+      "pdf_page": 235,
+      "path": "tmp/engraving/book-2026-10-19/tuplet-continued-235.jpg",
+      "sha256": "e8bb01932f11eb7bf47bed776d298160f5a0bbcb12668b4f268690bc33dded29",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 303,
+      "pdf_page": 323,
+      "path": "tmp/engraving/clef-changes-2026-10-20/book-323-without-annotation-icons.png",
+      "sha256": "2d7f30206b73abebdaa368efcedd5f75215f54c848de7da030d9aece3f303c01",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 305,
+      "pdf_page": 325,
+      "path": "tmp/engraving/piano-2026-10-19/book-305.jpg",
+      "sha256": "7982d32357d6e1795759859e274a416290c658ec5ec155fb6e3050354c80ff16",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-307-reread.jpg",
+      "sha256": "b52e28888c02d2fc9046d3e632095e4be18cb53ca82755423eeeab20391f5d95",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 308,
+      "pdf_page": 328,
+      "path": "tmp/engraving/fingering-2026-10-20/book-308.jpg",
+      "sha256": "4a6e8fd2666ce018049dfc9107a65f121d2f0a188ab8b884b4c5cfa1b8fc3902",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 310,
+      "pdf_page": 330,
+      "path": "tmp/engraving/piano-2026-10-19/book-310.jpg",
+      "sha256": "d36d75ef5cfc3d92927d39a30fe9d3d7569649c4a336ac3371619eb906092704",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 312,
+      "pdf_page": 332,
+      "path": "tmp/engraving/piano-2026-10-19/book-312.jpg",
+      "sha256": "fa0714f91d61a6ab02c14101f758738c58875956c50d75e5f3d20e42b3c8d815",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 321,
+      "pdf_page": 341,
+      "path": "tmp/engraving/unlasting-unravel-2026-10-30/book-printed-321.jpg",
+      "sha256": "c87af8a0e62675bf061c2a08200cf7a2979ee01e0b6ab4006da383058ad85e1a",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 324,
+      "pdf_page": 344,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p324.jpg",
+      "sha256": "0312d04e27272e06b5e8a7107d2f94ce05c3a2da0aac85e44ac8dc777296e150",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 325,
+      "pdf_page": 345,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p325.jpg",
+      "sha256": "d91248adaef495947c61800e3339e9a0bd7eebb14a1d79b5f7a799b1910b6282",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 333,
+      "pdf_page": 353,
+      "path": "tmp/engraving/piano-2026-10-19/book-333.jpg",
+      "sha256": "51194422923056e8c233ceb7b3f996644ddbb1d38112596fc97ce6e476854b30",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/piano-2026-10-19/book-337.jpg",
+      "sha256": "f829990ad08fe0abe3be5c36c330297de27cd14c3635709a4a36a2b2969ae286",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 487,
+      "pdf_page": 507,
+      "path": "tmp/engraving/nagi-nier-2026-10-29/book-printed-487.jpg",
+      "sha256": "ee00d7b198334cf964a0efd08fdd2f800fa4b18b83a98cfa40c5454171b3c6ae",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 489,
+      "pdf_page": 509,
+      "path": "tmp/engraving/system-boundaries-2026-10-20/book-509.jpg",
+      "sha256": "a54c179b052d301f8dff2eb06a7606628dd0abaf687b58a96ab5c01c0fa71cc4",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 490,
+      "pdf_page": 510,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 169,
+      "pdf_page": 189,
+      "path": "tmp/engraving/beaming-2026-10-19/book-189.jpg",
+      "sha256": "d99926fca654e1ec9c8b5edb58e8ac393d223a78bcb86196dd53299f6a08c69d",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 170,
+      "pdf_page": 190,
+      "path": "tmp/engraving/beaming-2026-10-19/book-190.jpg",
+      "sha256": "a12c7fb6911a7af300715fe463e47cf33a4600ca6f0f06edc342bcc76d9bc8fb",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    }
+  ],
+  "whole_reviews": {
+    "A017": {
+      "pages": 7,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "system_rows": 39,
+      "meaning": "All13wholepages andall72systems actually viewed;not fullpitch/native/playback audit."
+    },
+    "A018": {
+      "pages": 6,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        5,
+        5
+      ],
+      "system_rows": 33,
+      "meaning": "All13wholepages andall72systems actually viewed;not fullpitch/native/playback audit."
+    }
+  },
+  "geometry_detection_correction": null,
+  "selected_music_checks": {
+    "spacing": [
+      {
+        "id": "A017",
+        "page": 1,
+        "system": 1,
+        "label": "Opening8 carrier bar1",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 80.046,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 80.046,
+            "y": 214.955402,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 93.852,
+            "y": 191.5736,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 93.852,
+            "y": 206.459402,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 107.658,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 121.482,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 135.288,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 148.932,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 162.738,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 176.544,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.29
+          }
+        ],
+        "head_origin_x_pt": [
+          80.046,
+          93.852,
+          107.658,
+          121.482,
+          135.288,
+          148.932,
+          162.738,
+          176.544
+        ],
+        "internal_gaps_pt": [
+          13.806,
+          13.806,
+          13.824,
+          13.806,
+          13.644,
+          13.806,
+          13.806
+        ],
+        "internal_gap_range_pt": [
+          13.644,
+          13.824
+        ],
+        "note": "Selected written positions including receivers,not a count of fresh attacks,ink clearance or preset. Separate voice heads may be offset."
+      },
+      {
+        "id": "A017",
+        "page": 1,
+        "system": 1,
+        "label": "Opening8 carrier bar2",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 199.746,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 213.732,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 227.556,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 241.542,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 256.59,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 271.476,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 287.586,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 301.392,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "head_origin_x_pt": [
+          199.746,
+          213.732,
+          227.556,
+          241.542,
+          256.59,
+          271.476,
+          287.586,
+          301.392
+        ],
+        "internal_gaps_pt": [
+          13.986,
+          13.824,
+          13.986,
+          15.048,
+          14.886,
+          16.11,
+          13.806
+        ],
+        "internal_gap_range_pt": [
+          13.806,
+          16.11
+        ],
+        "note": "Selected written positions including receivers,not a count of fresh attacks,ink clearance or preset. Separate voice heads may be offset."
+      },
+      {
+        "id": "A017",
+        "page": 5,
+        "system": 3,
+        "label": "J upper16 under lower melody bar1",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 69.408,
+            "y": 297.6476,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 79.164,
+            "y": 301.8956,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 89.064,
+            "y": 306.1436,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 98.82,
+            "y": 312.5156,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 108.558,
+            "y": 297.6476,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 118.476,
+            "y": 301.8956,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 128.214,
+            "y": 306.1436,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 138.132,
+            "y": 312.5156,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 147.87,
+            "y": 297.6476,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 157.608,
+            "y": 301.8956,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 167.526,
+            "y": 306.1436,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 177.264,
+            "y": 312.5156,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 187.182,
+            "y": 297.6476,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 196.92,
+            "y": 301.8956,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 206.658,
+            "y": 306.1436,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 216.576,
+            "y": 312.5156,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "head_origin_x_pt": [
+          69.408,
+          79.164,
+          89.064,
+          98.82,
+          108.558,
+          118.476,
+          128.214,
+          138.132,
+          147.87,
+          157.608,
+          167.526,
+          177.264,
+          187.182,
+          196.92,
+          206.658,
+          216.576
+        ],
+        "internal_gaps_pt": [
+          9.756,
+          9.9,
+          9.756,
+          9.738,
+          9.918,
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.918,
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.918
+        ],
+        "internal_gap_range_pt": [
+          9.738,
+          9.918
+        ],
+        "note": "Selected written positions including receivers,not a count of fresh attacks,ink clearance or preset. Separate voice heads may be offset."
+      },
+      {
+        "id": "A017",
+        "page": 5,
+        "system": 3,
+        "label": "J upper16 under lower melody bar2",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 234.63,
+            "y": 297.6476,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 244.368,
+            "y": 304.0197,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 254.286,
+            "y": 306.1436,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 264.024,
+            "y": 312.5156,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 273.762,
+            "y": 297.6476,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 283.68,
+            "y": 304.0197,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 293.436,
+            "y": 306.1436,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 303.336,
+            "y": 312.5156,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 313.092,
+            "y": 297.6476,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 322.83,
+            "y": 304.0197,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 332.748,
+            "y": 306.1436,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 342.486,
+            "y": 312.5156,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 352.404,
+            "y": 297.6476,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 362.142,
+            "y": 304.0197,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 371.88,
+            "y": 306.1436,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 381.798,
+            "y": 312.5156,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "head_origin_x_pt": [
+          234.63,
+          244.368,
+          254.286,
+          264.024,
+          273.762,
+          283.68,
+          293.436,
+          303.336,
+          313.092,
+          322.83,
+          332.748,
+          342.486,
+          352.404,
+          362.142,
+          371.88,
+          381.798
+        ],
+        "internal_gaps_pt": [
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.918,
+          9.756,
+          9.9,
+          9.756,
+          9.738,
+          9.918,
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.918
+        ],
+        "internal_gap_range_pt": [
+          9.738,
+          9.918
+        ],
+        "note": "Selected written positions including receivers,not a count of fresh attacks,ink clearance or preset. Separate voice heads may be offset."
+      },
+      {
+        "id": "A018",
+        "page": 1,
+        "system": 3,
+        "label": "A upper16 background bar2",
+        "heads": [
+          {
+            "text": "",
+            "x": 246.360008,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 255.959999,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 265.55999,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 275.280007,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 284.879997,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 294.360008,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 303.959999,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 313.55999,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 323.280007,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 332.879997,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 342.480011,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 351.959999,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 361.55999,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 371.160004,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 380.879997,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 390.480011,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "head_origin_x_pt": [
+          246.360008,
+          255.959999,
+          265.55999,
+          275.280007,
+          284.879997,
+          294.360008,
+          303.959999,
+          313.55999,
+          323.280007,
+          332.879997,
+          342.480011,
+          351.959999,
+          361.55999,
+          371.160004,
+          380.879997,
+          390.480011
+        ],
+        "internal_gaps_pt": [
+          9.599991,
+          9.599991,
+          9.720017,
+          9.59999,
+          9.480011,
+          9.599991,
+          9.599991,
+          9.720017,
+          9.59999,
+          9.600014,
+          9.479988,
+          9.599991,
+          9.600014,
+          9.719993,
+          9.600014
+        ],
+        "internal_gap_range_pt": [
+          9.479988,
+          9.720017
+        ],
+        "note": "Selected written positions including receivers,not a count of fresh attacks,ink clearance or preset. Separate voice heads may be offset."
+      },
+      {
+        "id": "A018",
+        "page": 1,
+        "system": 3,
+        "label": "A upper16 background bar3",
+        "heads": [
+          {
+            "text": "",
+            "x": 406.439987,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 416.039978,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 425.400009,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 435.0,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 444.480011,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 453.960022,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 463.439987,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 473.039978,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 482.640015,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 492.0,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 501.599991,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 511.199982,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 520.560013,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 530.160004,
+            "y": 453.839952,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 539.759995,
+            "y": 466.679949,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 549.11998,
+            "y": 462.359941,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "head_origin_x_pt": [
+          406.439987,
+          416.039978,
+          425.400009,
+          435.0,
+          444.480011,
+          453.960022,
+          463.439987,
+          473.039978,
+          482.640015,
+          492.0,
+          501.599991,
+          511.199982,
+          520.560013,
+          530.160004,
+          539.759995,
+          549.11998
+        ],
+        "internal_gaps_pt": [
+          9.599991,
+          9.360031,
+          9.599991,
+          9.480011,
+          9.480011,
+          9.479965,
+          9.599991,
+          9.600037,
+          9.359985,
+          9.599991,
+          9.599991,
+          9.360031,
+          9.599991,
+          9.599991,
+          9.359985
+        ],
+        "internal_gap_range_pt": [
+          9.359985,
+          9.600037
+        ],
+        "note": "Selected written positions including receivers,not a count of fresh attacks,ink clearance or preset. Separate voice heads may be offset."
+      }
+    ],
+    "duration_recipes": [
+      {
+        "label": "Bau opening carrier eight8",
+        "parts": [
+          {
+            "events": 8,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau opening melody two8+half+two8",
+        "parts": [
+          {
+            "events": 4,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau opening lower whole background",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau opening lower quarterrest+threequarter",
+        "parts": [
+          {
+            "events": 4,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau A/M upper8+14ordinary16",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 14,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau H first upper sixteen16",
+        "parts": [
+          {
+            "events": 16,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau p3s1 partial3of16+ordinary8 tail",
+        "parts": [
+          {
+            "events": 3,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "2/3"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "1",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau E first upper dottedhalf+8rest+8",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "3",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau E lower8rest+14ordinary16",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 14,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau F lower melodic dottedquarter+8+halfreceiver",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "3/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau F lower chord half+dottedquarter+two16",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "3/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau G melodic dottedquarter+8+halfreceiver",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "3/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau J motor sixteen16",
+        "parts": [
+          {
+            "events": 16,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau J lowerquarter+quarter+dottedquarter+8",
+        "parts": [
+          {
+            "events": 2,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "3/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau preM upper32receiver+seven32+eight32+nine32+quarter",
+        "parts": [
+          {
+            "events": 16,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 9,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "8/9"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau preM lower fivequint32+ordinary8tail",
+        "parts": [
+          {
+            "events": 5,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "4/5"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "1",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau preM lower fullbar two dotted8+four16+two8+fivequint32",
+        "parts": [
+          {
+            "events": 2,
+            "written_quarter_units": "3/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 4,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 5,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "4/5"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau return70 dottedhalf+8rest+8pickup",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "3",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau penultimate inner dottedhalf+quarter",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "3",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Bau final whole receivers and rearticulated chord each4q",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before opening two dotted8+two16+four8",
+        "parts": [
+          {
+            "events": 2,
+            "written_quarter_units": "3/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 4,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before A first upper8+fourteen16",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 14,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before A lowerupper melody halfrest+8rest+quarter+8",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before A first lowerbass dottedquarter+8+halfreceiver",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "3/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before A later upper continuous16",
+        "parts": [
+          {
+            "events": 16,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before p1s4 first upper thirteen16+16rest+8rest",
+        "parts": [
+          {
+            "events": 14,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before D upmelody twice dotted8+dotted8+8",
+        "parts": [
+          {
+            "events": 4,
+            "written_quarter_units": "3/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before D downcarrier sixteen16",
+        "parts": [
+          {
+            "events": 16,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before F first crossstaff8+fourteen16",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 14,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before F downpart thirteen16+three16rests",
+        "parts": [
+          {
+            "events": 16,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before F melody quarter+three8+three8rests",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 6,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before preG shared descent fourteen16+ordinary8tail",
+        "parts": [
+          {
+            "events": 14,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before preG independent quarter only local firstbeat",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "1",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before final gesture dottedquarter+8+quarterreceiver+two8",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "3/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 3,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      },
+      {
+        "label": "Before final whole fermata",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "conditional": false,
+        "status": "Visible local rhythm rational check;not full pitch,playback or source-object validation."
+      }
+    ],
+    "selected_scope_heads": [
+      {
+        "id": "A017",
+        "page": 3,
+        "system": 1,
+        "label": "Partial3of16;ordinary8tail368.334 excluded",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 345.132,
+            "y": 118.7996,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 352.926,
+            "y": 125.1716,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 360.54,
+            "y": 129.4196,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "distinct_onsets": 3
+      },
+      {
+        "id": "A017",
+        "page": 6,
+        "system": 5,
+        "label": "First beat ordinary32 receiver plus seven32",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 261.198,
+            "y": 701.9276,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 261.198,
+            "y": 708.300209,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 270.576,
+            "y": 727.4337,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 280.152,
+            "y": 725.3097,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 289.53,
+            "y": 723.1857,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 298.908,
+            "y": 721.0616,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 308.484,
+            "y": 718.9377,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 317.862,
+            "y": 716.8137,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 327.258,
+            "y": 714.6897,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "distinct_onsets": 8
+      },
+      {
+        "id": "A017",
+        "page": 6,
+        "system": 5,
+        "label": "Second beat eightordinary32",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 336.816,
+            "y": 712.5477,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 346.194,
+            "y": 721.0616,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 355.752,
+            "y": 718.9377,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 365.148,
+            "y": 716.8137,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 374.526,
+            "y": 712.5477,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 384.1021,
+            "y": 710.4236,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 393.48,
+            "y": 708.2997,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 402.858,
+            "y": 706.1757,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "distinct_onsets": 8
+      },
+      {
+        "id": "A017",
+        "page": 6,
+        "system": 5,
+        "label": "Complete nine32 then quarter490.6981 outside",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 412.776,
+            "y": 704.0517,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 421.452,
+            "y": 712.5477,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 429.966,
+            "y": 710.4236,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 438.642,
+            "y": 708.2997,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 447.3181,
+            "y": 706.1757,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 455.994,
+            "y": 704.0517,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 464.67,
+            "y": 697.6797,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 473.346,
+            "y": 693.4316,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 482.022,
+            "y": 689.1837,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "distinct_onsets": 9
+      },
+      {
+        "id": "A017",
+        "page": 6,
+        "system": 5,
+        "label": "Partial5of32;ordinary8tail530.010 outside",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 490.6981,
+            "y": 752.9397,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 498.492,
+            "y": 759.3116,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 506.4661,
+            "y": 763.5597,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 514.2421,
+            "y": 767.8076,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 522.2161,
+            "y": 774.1797,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "distinct_onsets": 5
+      }
+    ],
+    "beam_scopes": [
+      {
+        "id": "A017",
+        "page": 3,
+        "system": 1,
+        "label": "Partial3 primary across tail plus innerbeam only first3",
+        "polygons": [
+          {
+            "box": [
+              349.92,
+              103.914,
+              373.572,
+              115.542
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              349.92,
+              107.1,
+              365.778,
+              115.506
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A017",
+        "page": 6,
+        "system": 5,
+        "label": "First run three layers,not four",
+        "polygons": [
+          {
+            "box": [
+              275.364,
+              697.68,
+              332.496,
+              708.228
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              275.364,
+              700.866,
+              332.496,
+              711.414
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              275.364,
+              704.052,
+              332.496,
+              714.6
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A017",
+        "page": 6,
+        "system": 5,
+        "label": "Second ordinary32 group three layers",
+        "polygons": [
+          {
+            "box": [
+              341.604,
+              688.122,
+              408.096,
+              696.546
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              341.604,
+              691.308,
+              408.096,
+              699.732
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              341.604,
+              694.494,
+              408.096,
+              702.918
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A017",
+        "page": 6,
+        "system": 5,
+        "label": "Complete nine32 group three layers",
+        "polygons": [
+          {
+            "box": [
+              412.776,
+              728.586,
+              482.472,
+              730.638
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              412.776,
+              725.4,
+              482.472,
+              727.452
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              412.776,
+              722.214,
+              482.472,
+              724.266
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A017",
+        "page": 6,
+        "system": 5,
+        "label": "Partial5 primary reaches ordinary8tail;two innerlayers stop after five",
+        "polygons": [
+          {
+            "box": [
+              495.486,
+              734.868,
+              535.248,
+              748.962
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              495.486,
+              738.054,
+              527.454,
+              749.772
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              495.486,
+              741.24,
+              527.454,
+              752.958
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A018",
+        "page": 3,
+        "system": 5,
+        "label": "D first3 downstems two layers",
+        "polygons": [
+          {
+            "box": [
+              88.679998,
+              586.799974,
+              107.160004,
+              588.959978
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              88.679998,
+              583.559969,
+              107.160004,
+              585.719972
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A018",
+        "page": 3,
+        "system": 5,
+        "label": "D next3 downstems two layers",
+        "polygons": [
+          {
+            "box": [
+              116.399998,
+              595.319963,
+              134.879997,
+              597.479967
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              116.399998,
+              592.079957,
+              134.879997,
+              594.239961
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A018",
+        "page": 3,
+        "system": 5,
+        "label": "D last2 downstems two layers",
+        "polygons": [
+          {
+            "box": [
+              144.120003,
+              595.319963,
+              153.600002,
+              599.639971
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          },
+          {
+            "box": [
+              144.120003,
+              592.079957,
+              153.600002,
+              596.399965
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l",
+              "h"
+            ]
+          }
+        ]
+      }
+    ],
+    "clock_crosschecks": {
+      "Bau_opening_seconds": {
+        "page": 1,
+        "system": 1,
+        "fast_q_1p5_2": [
+          {
+            "text": "œ",
+            "x": 241.542,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 256.59,
+            "y": 200.0696,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "up_chord_same_q_heads": [
+          {
+            "text": "œ",
+            "x": 245.79,
+            "y": 187.3256,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 245.79,
+            "y": 202.193392,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 260.838,
+            "y": 187.3256,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 260.838,
+            "y": 202.193392,
+            "font": "CEGKED+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "offset_pt": 4.248,
+        "note": "Visible adjacent-step chord needs displaced heads;these are not new time slots."
+      },
+      "Before_F": {
+        "page": 4,
+        "system": 3,
+        "rest_q": [
+          "0",
+          "3/2",
+          "3"
+        ],
+        "rest_glyphs": [
+          {
+            "text": "",
+            "x": 88.679998,
+            "y": 344.279963,
+            "font": "CIDFont+F1",
+            "size": 17.040675
+          },
+          {
+            "text": "",
+            "x": 144.839996,
+            "y": 344.279963,
+            "font": "CIDFont+F1",
+            "size": 17.040675
+          },
+          {
+            "text": "",
+            "x": 201.0,
+            "y": 344.279963,
+            "font": "CIDFont+F1",
+            "size": 17.040675
+          }
+        ],
+        "melody_q": [
+          "0",
+          "3/2",
+          "2",
+          "3"
+        ],
+        "melody_heads": [
+          {
+            "text": "",
+            "x": 88.679998,
+            "y": 335.879953,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 144.839996,
+            "y": 335.879953,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 163.799995,
+            "y": 335.879953,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 201.0,
+            "y": 335.879953,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "fast_heads": [
+          {
+            "text": "",
+            "x": 98.160004,
+            "y": 346.439966,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 107.640003,
+            "y": 342.239961,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 116.640003,
+            "y": 340.079957,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 126.240005,
+            "y": 346.439966,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 135.600002,
+            "y": 342.239961,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 154.439999,
+            "y": 346.439966,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 163.799995,
+            "y": 342.239961,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 173.040001,
+            "y": 340.079957,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 182.399998,
+            "y": 346.439966,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 191.759995,
+            "y": 342.239961,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 210.360008,
+            "y": 346.439966,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 219.839996,
+            "y": 340.079957,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 229.200005,
+            "y": 346.439966,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "receiver_q": "2",
+        "note": "Fastrest at fresh melodic attacks;fasthead at tied melody receiverq2."
+      },
+      "Before_D": {
+        "page": 3,
+        "system": 5,
+        "melody_q": [
+          "0",
+          "3/4",
+          "3/2",
+          "2",
+          "11/4",
+          "7/2"
+        ],
+        "melody_heads": [
+          {
+            "text": "",
+            "x": 88.679998,
+            "y": 559.199938,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 116.399998,
+            "y": 567.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 144.120003,
+            "y": 569.759951,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 162.240005,
+            "y": 563.399965,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 189.959999,
+            "y": 567.719972,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 218.400009,
+            "y": 561.239961,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "fast_q": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4",
+          "1",
+          "5/4",
+          "3/2",
+          "7/4",
+          "2",
+          "9/4",
+          "5/2",
+          "11/4",
+          "3",
+          "13/4",
+          "7/2",
+          "15/4"
+        ],
+        "note": "Two3+3+2 ordinary16 groupings match dotted8+dotted8+8,not tuplets."
+      },
+      "Before_preG": {
+        "page": 4,
+        "system": 6,
+        "shared_q0": [
+          {
+            "text": "",
+            "x": 255.360008,
+            "y": 695.27994,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 255.360008,
+            "y": 695.27994,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "first_four_fast_q": [
+          "0",
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "first_four_fast_heads": [
+          {
+            "text": "",
+            "x": 255.360008,
+            "y": 695.27994,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 255.360008,
+            "y": 695.27994,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 263.519989,
+            "y": 699.479967,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 270.959999,
+            "y": 703.799974,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          },
+          {
+            "text": "",
+            "x": 278.639992,
+            "y": 710.15996,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "next_q1_head": [
+          {
+            "text": "",
+            "x": 286.080001,
+            "y": 699.479967,
+            "font": "CIDFont+F1",
+            "size": 16.320599
+          }
+        ],
+        "note": "8va corner after first four16,returns atq1;duplicate q0 glyph is sharedquarter/16."
+      },
+      "dynamics": [
+        {
+          "id": "A017",
+          "page": 1,
+          "system": 3,
+          "q0_and_qhalf_heads": [
+            {
+              "text": "œ",
+              "x": 229.86,
+              "y": 460.9256,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            },
+            {
+              "text": "œ",
+              "x": 229.86,
+              "y": 467.298209,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            },
+            {
+              "text": "œ",
+              "x": 229.86,
+              "y": 471.546615,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            },
+            {
+              "text": "œ",
+              "x": 229.86,
+              "y": 475.795021,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            },
+            {
+              "text": "œ",
+              "x": 246.491988,
+              "y": 471.546615,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            }
+          ],
+          "mf_glyph": {
+            "text": "F",
+            "x": 241.182,
+            "y": 503.6036,
+            "font": "CEGKED+Chaconne",
+            "size": 16.992
+          },
+          "mf_near_q": "1/2",
+          "note": "Same font mf origin offset ~5.31pt across A/H/M supports follow-on q0.5;PDF cannot audit underlying object anchors."
+        },
+        {
+          "id": "A017",
+          "page": 4,
+          "system": 3,
+          "q0_and_qhalf_heads": [
+            {
+              "text": "œ",
+              "x": 395.9641,
+              "y": 340.5056,
+              "font": "CEGKED+Chaconne",
+              "size": 16.29
+            },
+            {
+              "text": "œ",
+              "x": 415.962,
+              "y": 340.5056,
+              "font": "CEGKED+Chaconne",
+              "size": 16.29
+            }
+          ],
+          "mf_glyph": {
+            "text": "F",
+            "x": 410.651985,
+            "y": 370.438909,
+            "font": "CEGKED+Chaconne",
+            "size": 16.992
+          },
+          "mf_near_q": "1/2",
+          "note": "Same font mf origin offset ~5.31pt across A/H/M supports follow-on q0.5;PDF cannot audit underlying object anchors."
+        },
+        {
+          "id": "A017",
+          "page": 7,
+          "system": 1,
+          "q0_and_qhalf_heads": [
+            {
+              "text": "œ",
+              "x": 69.408,
+              "y": 50.7957,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            },
+            {
+              "text": "œ",
+              "x": 69.408,
+              "y": 57.1676,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            },
+            {
+              "text": "œ",
+              "x": 69.408,
+              "y": 61.4156,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            },
+            {
+              "text": "œ",
+              "x": 69.408,
+              "y": 65.6636,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            },
+            {
+              "text": "œ",
+              "x": 85.53663,
+              "y": 76.300905,
+              "font": "CEGKED+Chaconne",
+              "size": 16.2899
+            }
+          ],
+          "mf_glyph": {
+            "text": "F",
+            "x": 80.226806,
+            "y": 104.094262,
+            "font": "CEGKED+Chaconne",
+            "size": 16.992
+          },
+          "mf_near_q": "1/2",
+          "note": "Same font mf origin offset ~5.31pt across A/H/M supports follow-on q0.5;PDF cannot audit underlying object anchors."
+        }
+      ],
+      "Before_A_dynamic_glyphs": [
+        {
+          "text": "",
+          "x": 138.959999,
+          "y": 499.559969,
+          "font": "CIDFont+F1",
+          "size": 17.040675
+        },
+        {
+          "text": "",
+          "x": 104.279995,
+          "y": 443.639971,
+          "font": "CIDFont+F1",
+          "size": 17.040675
+        }
+      ]
+    },
+    "initial_hypotheses_corrected": [
+      "Next ids A017/A018 are Bauklotze7p and Before my body is dry6p;Avid A0165p and Bios A0199p already closed. Previous planned names corrected,coverage unchanged.",
+      "Bau H mf is nearq0.5 third16,not second16q0.25;A/M mf is nearq0.5 after initial8. Dynamic glyph origin is not an event anchor.",
+      "Bau preM first upper beat includes32receiver then seven32;secondbeat has eightordinary32,then complete nine32 and ordinaryquarter. No64 beam or missing beat.",
+      "Bau preM lower5 contains fivequint32 followed by ordinary8,not ordinary16 or a complete6 group.",
+      "Before A p starts near first16q0.5,lower mp nearbass8q1.5;upper lowerstaff melody begins laterq2.5. Do not equate all three starts.",
+      "Before D fast layer is continuousordinary16 grouped3+3+2,while additional upmelody is dotted8+dotted8+8 twice. These are not triplets.",
+      "Before F subsequent motor has13heads+three16rests;new melody attacks use rests,but tied receiverq2 has a fast head.",
+      "Before preG8va covers firstfour16 and sharedquarter/16q0;returns atq1,not immediately after firsthead or only atG."
+    ]
+  },
+  "book_reread_printed_pages": [
+    40,
+    43,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    169,
+    170,
+    199,
+    200,
+    203,
+    207,
+    213,
+    215,
+    303,
+    305,
+    307,
+    308,
+    310,
+    311,
+    312,
+    321,
+    324,
+    325,
+    333,
+    337,
+    487,
+    489,
+    490
+  ],
+  "book_reread_technical_pages": 31,
+  "book_new_technical_pages": 0,
+  "book_new_auxiliary_pages": 0,
+  "new_native_candidate_conditions": 0,
+  "software_adaptation_changes": 0,
+  "judgments": {
+    "keep": [
+      "Stable J/A carriers and displaced/shared heads without invented time slots",
+      "Deliberate D3+3+2,fastrest at melody freshattack but fasthead at receiver",
+      "Complete nine32,local8va and independent ending chains"
+    ],
+    "compare": [
+      "Partial3of16 shortbracket excluding ordinary8tail",
+      "Partial5of32 shortbracket excluding ordinary8tail"
+    ],
+    "corrected_initial_hypotheses": [
+      "Next ids A017/A018 are Bauklotze7p and Before my body is dry6p;Avid A0165p and Bios A0199p already closed. Previous planned names corrected,coverage unchanged.",
+      "Bau H mf is nearq0.5 third16,not second16q0.25;A/M mf is nearq0.5 after initial8. Dynamic glyph origin is not an event anchor.",
+      "Bau preM first upper beat includes32receiver then seven32;secondbeat has eightordinary32,then complete nine32 and ordinaryquarter. No64 beam or missing beat.",
+      "Bau preM lower5 contains fivequint32 followed by ordinary8,not ordinary16 or a complete6 group.",
+      "Before A p starts near first16q0.5,lower mp nearbass8q1.5;upper lowerstaff melody begins laterq2.5. Do not equate all three starts.",
+      "Before D fast layer is continuousordinary16 grouped3+3+2,while additional upmelody is dotted8+dotted8+8 twice. These are not triplets.",
+      "Before F subsequent motor has13heads+three16rests;new melody attacks use rests,but tied receiverq2 has a fast head.",
+      "Before preG8va covers firstfour16 and sharedquarter/16q0;returns atq1,not immediately after firsthead or only atG."
+    ],
+    "unresolved": "Native candidate benefit,full pitch/playback,source-object dynamic anchors,actual turn/print and aesthetic adoption remain open.",
+    "no_user_aesthetic_acceptance": true
+  },
+  "title_corrections": [
+    {
+      "path": "docs/engraving/README.md",
+      "occurrences": 1,
+      "reason": "A017/A018 title correction only;historical dates,counts and source/evidence unchanged."
+    },
+    {
+      "path": "docs/ENGRAVING_PLAN.md",
+      "occurrences": 1,
+      "reason": "A017/A018 title correction only;historical dates,counts and source/evidence unchanged."
+    },
+    {
+      "path": "docs/ENGRAVING_RELEASES.md",
+      "occurrences": 1,
+      "reason": "A017/A018 title correction only;historical dates,counts and source/evidence unchanged."
+    },
+    {
+      "path": "docs/engraving/STATUS_AND_ROADMAP.md",
+      "occurrences": 2,
+      "reason": "A017/A018 title correction only;historical dates,counts and source/evidence unchanged."
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_AO_ATTACK.md",
+      "occurrences": 1,
+      "reason": "A017/A018 title correction only;historical dates,counts and source/evidence unchanged."
+    }
+  ],
+  "external_resource_completion": {
+    "new_complete_scopes": 0,
+    "resources_unchanged": [
+      15,
+      25
+    ]
+  },
+  "scope": {
+    "corpus_closeouts_before": [
+      140,
+      146
+    ],
+    "corpus_closeouts_after": [
+      142,
+      146
+    ],
+    "corpus_closeout_pages": [
+      961,
+      1135
+    ],
+    "remaining_score_closeouts": 4,
+    "remaining_score_pages": 174,
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resources": [
+      15,
+      25
+    ],
+    "remaining_resources": 10,
+    "transfer": [
+      8,
+      8
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "user_preparation": [
+      2,
+      4
+    ]
+  },
+  "fixed_release_tag": "engraving-v0.16.0",
+  "goal_status": "active",
+  "skill_routes_updated": [
+    "overview",
+    "spacing",
+    "rhythm",
+    "tempo",
+    "beams",
+    "curves",
+    "markings",
+    "ornaments",
+    "clefs",
+    "octaves",
+    "piano",
+    "cross-staff",
+    "notation",
+    "layout",
+    "sources",
+    "cases"
+  ],
+  "cache": {
+    "measured_at_utc": "2026-10-30T17:15:48.958195+00:00",
+    "batch": {
+      "directory": "bauklotze-before-2026-10-30",
+      "files": 105,
+      "logical_bytes": 16123292,
+      "on_disk_bytes": 16123292,
+      "on_disk_unknown_files": 0
+    },
+    "total_logical_bytes": 3144424145,
+    "new_runtime_or_original_PDF_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Before final small records;128distinctviews42reuse86new. Repeated display adds no count."
+  },
+  "validation": {
+    "status": "passed",
+    "checked_at_utc": "2026-10-30T17:17:30.579721+00:00",
+    "source_hashes_and_page_counts_checked": 3,
+    "viewed_image_hashes_checked": 128,
+    "reused_images": 42,
+    "new_images": 86,
+    "source_head_origins_rechecked": 80,
+    "individual_metric_glyphs_rechecked": 82,
+    "scope_glyphs_rechecked": 34,
+    "beam_polygons_rechecked": 20,
+    "clock_position_glyph_witnesses_rechecked": 57,
+    "internal_gaps_rechecked": 74,
+    "rational_duration_recipes": 35,
+    "whole_score_pages": 13,
+    "system_rows": 72,
+    "book_rereads": 31,
+    "new_book_coverage": 0,
+    "skill_routes_executed": 20,
+    "direct_study_routes": [
+      "overview",
+      "spacing",
+      "rhythm",
+      "tempo",
+      "beams",
+      "curves",
+      "markings",
+      "ornaments",
+      "clefs",
+      "octaves",
+      "piano",
+      "cross-staff",
+      "notation",
+      "layout",
+      "sources",
+      "cases"
+    ],
+    "public_paths_utf8_lf": 25,
+    "local_markdown_links_checked": 1532,
+    "planned_title_corrections": 6,
+    "corpus_closeouts": [
+      142,
+      146
+    ],
+    "corpus_closeout_pages": [
+      961,
+      1135
+    ],
+    "remaining_pages": 174,
+    "resources": [
+      15,
+      25
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "new_native_conditions": 0,
+    "new_software_adaptation": 0,
+    "goal_status": "active",
+    "reading_not_inferred_from_validation": true,
+    "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+    "cache_total_logical_bytes": 3144434680,
+    "files_deleted": 0
+  }
+}

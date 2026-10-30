@@ -217,3 +217,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：拍内轻奏与段字母分开
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao F首quarter sfz后，p在q1.5第一8；Attack自由段延长后pp引入也在q1.5，F字母在后。不能统一挪到字母／下一强拍。
+
+## 2026-10-31：同一后半拍可以是不同音序
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau A／M首8后mf近q0.5，H第三16才到q0.5；Before A的p近q0.5、mp近低音8q1.5，慢旋律q2.5才入。字形左缘不作对象锚点，不吸到段字母。

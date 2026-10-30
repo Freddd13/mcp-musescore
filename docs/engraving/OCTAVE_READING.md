@@ -258,3 +258,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：共梁下表loco有澄清作用
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao J上部8va继续、下部q1另标loco，Gould325支持这种共同梁情境。E首和弦在8va外，F开放弧与p进入不按八度边界合并。
+
+## 2026-10-31：八度角端早于段落边界
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Before preG8va罩首四个16，q1恢复，首头还承载独立quarter；不能仅罩首头或拖到G。局部8va与整个下降跨表手势分别记录，按Gould324–325核作用表。

@@ -248,3 +248,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：共梁但音区范围不同
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao J同一六连梁跨表，上部8va从首相关上表音q0.5开始，下一组下表q1的loco澄清保原位，保它的阅读作用；不把整条共同梁都升八度。
+
+## 2026-10-31：接手路线与背景分别读
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau E／F跨表连续动作、虚线引导与r.h.各有范围；Before preG14个16＋普通8下降跨表，另有长值背景。换表不自动换手，梁／八度／慢持续不要求同一边界。

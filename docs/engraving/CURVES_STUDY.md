@@ -248,3 +248,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：开放持续与多个tr对象
 
 [青之栖所／Attack](INTEGRATED_READING_AO_ATTACK.md)：Ao F首quarter向前开放持续，非前行tie接收；Attack E每个新tr／新音及波线各有范围，真正延长前已收尾，不串成一个全段对象。
+
+## 2026-10-31：终止处不全是共同持音
+
+[Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau终段上部两全音tie、内线不同音slur、下部终和弦重新起音分别读；Before最后两八分有起音与接收链，不能因末延长把全组都当重复或全体tie。
