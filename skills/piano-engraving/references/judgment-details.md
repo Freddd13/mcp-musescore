@@ -135,6 +135,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`MEDLEY_200_CH03.md`：P八分宽格15.588pt被下部真实q1.75分成两格7.794pt；L Faster115同样有中间16，先保共同时间列。N下部q1／2不与16:12任何内部成员重合，不吸到最近上部头。
+
 `MEDLEY_200_CH02.md`：H跨表头宽而实际轴6.894pt，真实宽格在两升号前；K先后头近、coda同时头错7.074pt，不能按头X猜时间。J重复的非等距轮廓可保。
 
 `MEDLEY_200_CH01.md`：M同值格内有下部q2.25十六分，保真实中间列再评16.47pt宽格；不只拉上部。
@@ -282,6 +284,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`MEDLEY_200_CH03.md`：N完整16个16占三拍，比较完整16:12文字，双梁已给范围无需加括号；同页七个两梁16按7:4占一拍，保裸7。G首组三连含休止保短括号。
 
 `MEDLEY_200_CH02.md`：M完整九连是两梁16、9:8占2q；H三下三上6与K一上四下5均完整，保裸数。
 
@@ -445,6 +449,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`MEDLEY_200_CH03.md`：A下表八个16前四r.h.后四交左手，低部背景持续；L上下首组三连错一拍。先核成员／手接替与持续，不按所在表或形似三连判断同时。
+
 `INTEGRATED_READING_CONNECT.md`：D l.h.和K r.h.括号／虚线保换手路线；L同音黑白头持续不同，不能去重。
 
 `INTEGRATED_READING_BLACK_BLUE.md`：Blue O五个下表头和三个上表和弦共梁构成八个8，wholebackground另追持续；Black同排D.S.／Coda是两个独立系统段。
@@ -562,6 +568,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先分类有等号的小音符：它也可能是swing／straight的演奏解释。`tempo`／`rhythm`接入A003的十六分长短说明与恢复，`overview`有完整六页案例。书写单位、约定长短与真实播放时点分查，不把演奏2:1变成头距2:1，不给显式三连再套swing，也不因straight两边相同就删恢复提示。范围／播放不能从PDF字样横坐标补出；真正变速和特殊比例记谱另核。
 
 <a id="free-passage"></a>
+
+`MEDLEY_200_CH03.md`：L rubato仍是C四拍：13／10的32各占一拍，再续两拍，三小装饰16不加拍。先低音也是13首成员，末音tie接q2；不能仅凭rubato套无拍伴奏的方便时值。
 
 `INTEGRATED_READING_AO_ATTACK.md`：Attack E便利全音背景不强制4q；pp引入在F前，恢复提示的生效处先核意图。
 
