@@ -229,3 +229,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-31：引入早于字母与上部和弦
 
 [Connect](INTEGRATED_READING_CONNECT.md)：开头四个正常16从q3带a tempo／f，逗号为换气；F mf先对应下部，P f在q1.5附近，p5s2 p在第二个四分三连q2/3。不能统一吸到bar／字母。
+
+## 2026-10-31：保持接收后半拍才进入的新层
+
+[A005第二章](MEDLEY_200_CH02.md)：H p19s2白half在q1接收旧tie，mf对应新层q1.5，后来f在q3；下一bar亦独立mf。coda第二bar的mp在后半，不能复制普通结尾mp起点。标题／白头／新发音的时点分别保留。

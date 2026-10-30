@@ -270,3 +270,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-31：七连中途与跨页低八度
 
 [Connect](INTEGRATED_READING_CONNECT.md)：p3s4 8va从七连第五音q18/7起，过最后普通quarter；p7末三连的低八度续到p8P首dottedquarter，在q1.5前收尾。
+
+## 2026-10-31：九连第七音起、跨bar收尾
+
+[A005第二章](MEDLEY_200_CH02.md)：M p23s2八度图形标从第七音q10/3开始，经末三音及下一bar首普通8，在随后8休止前结束；保持上表局部范围。8是图形路径，文字提取无字符不代表没有八度标，不能整九连扩线或按bar截线。
