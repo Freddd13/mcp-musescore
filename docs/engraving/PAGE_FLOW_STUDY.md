@@ -247,3 +247,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：共行断开Coda与真实翻页成本
 
 [This Game两版](INTEGRATED_READING_THIS_GAME.md)：2021D.S.／Coda同纸面行，中间空白和重写起始符号帮助找落点；完整双表目视确认p6六系统。若另起行，要核整页预算及回G成本。2014九页／2021八页含编配差异，页数不证明更好；持续或单表休止不等于可翻页。
+
+## 2026-10-30：行中起段与引入先行
+
+[Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：Beginning J／M行中开始，To You Tempo I在J上一行两8先恢复，标签不用全部强移行首。Beginning p3→4保八度／和声，To You p1→2保旧同音接收；单表休止或长音不自动表示能翻页。

@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-30[Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：梁按拍、短弧跨拍，各保任务；连续音阶内梁例外先核。To You末组六连虽五次起音，末8占两份，保完整6；Beginning部分3仅前三16入组。F换号需比较加线／手分配／整页，不能直接隐藏；黑短头与白接收不去重。H拍内mp／f及J前Tempo I按实际进入保留。
+
 2026-10-30[This Game两版](INTEGRATED_READING_THIS_GAME.md)：相近十六分伴奏仍先查上部六连／32的中间列，不能独立把低部拉齐；同曲版本页数与编配分判。完整6有／无括号均可保，2014末部分3准确保短括号；力度及八度可在首接收后进入。D.S.回G、首次顺行四升号与跳入Coda一升号分判；末持续与新滑奏共存，准确进入未明先保留疑问。
 
 2026-10-30[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：先认稳定活动和真实梁端。WORLD I八分保步幅；Reason同主题换伴奏密度，不照搬宽度。WORLD多处3／5及Reason K第二3都是完整梁，撤回部分范围猜测；Reason p3s6只有前三16为三连、末8普通。导航按来路、提前mf按时点，secco／Ped.按范围，虚引导／震音／tie分功能。

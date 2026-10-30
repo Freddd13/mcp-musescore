@@ -137,3 +137,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：二分休止与末滑奏时点
 
 [This Game两版](INTEGRATED_READING_THIS_GAME.md)：2014p7s6上部二分延长后休8＋三8，下部二分后二分休止；2021p6s6先全小节保持，再上部二分休止／休8／三8、下部整小节休止。末滑奏叠旧和声，先导休止未见，准确进入须核；不按横坐标猜q2或抹掉持续。
+
+## 2026-10-30：旧持续中的新时点
+
+[Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You p1s5双附点四分＋16＋二分的同音接收别删；K低部长tie与内层休止／ppp并存，踏板在ppp末两小节前解除而tie继续，不自动理解为全部松开。p5s2末上部附点二分fermata后两8，下面全小节休止，Tempo I在q3开始。Beginning I二分休止不是整小节休止。

@@ -107,3 +107,7 @@ Kaibutsu K下表先低八度再高处材料。选定F5在当前高音顶线，�
 ## 2026-10-30：行中变号保护轮廓
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Heroes开头先F号8再换G号，仍是完整4/4，不能把首8删成无计量装饰。I后下部高低音区反复换号、L上部转F号，各随材料读；省号方案需核加线与实际音程。
+
+## 2026-10-30：重复换号成为完整布局候选
+
+[Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You F每半小节以低音号写持续和声、随后高音号写活动，保音域却打断参照。先比较局部净空、固定号的加线、跨表或第三表的手／声部与页面代价，不靠阈值删号或隐藏号。Gould7–9／303–304分条件使用。

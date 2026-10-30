@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_BEGINNING_TO_YOU.md`：To You双附点四分＋16＋二分的短长接收别去重；K低部保持与内层休止并存。J前Tempo I／p在q3两8恢复，下面全小节休止。
+
 `INTEGRATED_READING_THIS_GAME.md`：2014二分延长后下部二分休止，2021全音保持后下一小节上部二分休止、下部整小节休止。末gliss与旧和声共存，进入未明先保疑问。
 
 `INTEGRATED_READING_WORLD_REASON.md`：Reason C／I干奏随后明确踏板，不覆盖整段；交替全音震音共享4q，WORLD末前休止保真实层与时点。
@@ -114,6 +116,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_BEGINNING_TO_YOU.md`：Beginning H14普通16与To You D32可保稳定；H混合8／16的视觉长短约1.6:1，不要求2:1或所有头等距。
 
 `INTEGRATED_READING_THIS_GAME.md`：同类下部16伴奏，上部6／32的中间事件可能合理拉开共同列；先查实际编配，避免分别拉齐两手。
 
@@ -232,6 +236,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_BEGINNING_TO_YOU.md`：To You末完整6可为四16＋一8的五次起音；Beginning部分3只圈前三16，第四8普通。梁、短弧的拍组／连奏任务分别保留。
 
 `INTEGRATED_READING_THIS_GAME.md`：完整6有／无括号均可保；2014末主梁两普通16＋后三连已有准确短3括号，保范围。普通四32＋8不是五连。
 
@@ -478,6 +484,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_BEGINNING_TO_YOU.md`：Beginning M低八度只包首保持八度，末上部8va包终和弦；To You F换号不靠一条8vb替代，跨表／固定号／第三表须核整层和页面代价。
 
 `INTEGRATED_READING_THIS_GAME.md`：2014局部8va可在首8接收后q0.5进入并延过下小节二分；2021末低八度包含持续与gliss。按角端／谱表，不吸附到小节线。
 

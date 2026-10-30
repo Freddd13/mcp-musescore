@@ -218,3 +218,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：局部入口和同表持续
 
 [This Game两版](INTEGRATED_READING_THIS_GAME.md)：2014p3s3的8va从六连首头到梁外峰顶8；p7s6首8接收后q0.5开始，延至下小节二分。2021p6s6先两个16局部8va、恢复、末5重开并包全音。下表下方8va传统可作低八度，末低八度含滑奏，不只看va文字。
+
+## 2026-10-30：短低八度与终止保持
+
+[Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：Beginning M下部低八度只包首保持八度，末上部8va包终和弦接收；To You G短低八度、D上部8va和J前低八度各有角端。手括形不决定八度范围，换号也不自动结束旧持续。

@@ -209,3 +209,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：相近位置仍要核实际配方
 
 [This Game两版](INTEGRATED_READING_THIS_GAME.md)：两版4/4／C及147／148不当成净书改善；2014p1s4休四分／休8／两16／二分，2021对应附点四分／三连16／二分均4q。相似轮廓或横向占宽不能替代时值核对。
+
+## 2026-10-30：Tempo I从引入开始
+
+[Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You G明确四分134；p5s2末Tempo I／p已在附点二分延长后的两8，从q3进入，早于下一行J。Beginning结尾rit.／a tempo／rit.分时段；f dim.／mf dim.／mp cresc.也各保起点和过程。
