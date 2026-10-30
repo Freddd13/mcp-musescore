@@ -302,3 +302,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：并行时钟与连音书面份额
 
 [残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响p5s3的3与9并行，首9是附点8rest＋6six；下部普通8另有真实中间时点。红莲首5为8＋3six四次攻击，下个5才五次。残响H13:10及部分7:6由普通前后音和低部计拍给出条件解释，分母未写须先核意图。
+
+## 2026-10-30：同列攻击和同列休止的区别
+
+[廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：残酷天使N12/8每半bar为16rest＋11six，整bar22攻击＋2rest；q3另有慢头，不能补算快层。D是quarterrest＋12six，后续已变8rest＋14six。廻廻奇譚开头9triplet8只占3q、结尾12占4q。

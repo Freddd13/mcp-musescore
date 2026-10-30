@@ -205,3 +205,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：拍内引入与休止预告各有用途
 
 [残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响F sfz q0／mf q1，G内层mp q0／p背景q1分开；红莲mp sub q1、后mf q3.25及J前f q3.25各保时点。另有K段首mp在休止处预告，不强制每个动态都吸到音头。
+
+## 2026-10-30：力度与段号不共用默认挂点
+
+[廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：廻廻奇譚F前最后16已mf且tie跨双线，恢复说明在界后；残酷天使12/8的sf低部q0与pp上层q1.5分开，G pp背景与p歌唱线各有角色。tenuto也帮助跨表路线定位。

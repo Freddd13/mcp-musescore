@@ -246,3 +246,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：普通尾音与自由运行也有具体角端
 
 [残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响adlib四组5仍为普通字号双梁16，8va／8vb依实际角端，不覆盖整段；pp后8vb在短2/4前后按图解除。红莲R换号、局部低8及最终保持各有范围，不能因段号或最后高低头自动扩线。
+
+## 2026-10-30：同表内层也落在八度线范围
+
+[廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：残酷天使E8va角端x95.4，首l.h.chordx84.964仍在线内，下个x97.315在线外；不可只按upstem旋律缩线。p7短8vb和Ped各有终点，loco／换号另核。Gould324–325按谱表和各层说明。

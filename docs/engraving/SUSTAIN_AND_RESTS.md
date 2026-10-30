@@ -165,3 +165,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：震音共享时段及不同结束过程
 
 [残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响pp低wholepair共享4q、第二头q2；上部halfrest后halfpair共享2q、第二头q3，别把两端时值相加或视觉居中。F短Ped解除与后bar长共鸣分判，末8receiver后共同静默不同于红莲结尾低部whole保持。
+
+## 2026-10-30：快层休止、共鸣和终止分判
+
+[廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：残酷天使N慢音与快rest同列，p7短8vb解除不结束两barPed；最后高层dottedwhole6q，低层先dottedhalfrest3q再低chord3q。廻廻奇譚末低8之后各休止，与上部whole-rest延长不同。

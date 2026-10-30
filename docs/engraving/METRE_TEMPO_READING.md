@@ -233,3 +233,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：恢复单位与下一段新速分开
 
 [残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：红莲引子half88／割拍，p1s3末bar q2 atempo先恢复，B才quarter184／4/4；不能提前套新速或错成quarter88。残响quarter171在halfrest起点，gliss／f在后半；速度、动作和段号不共用一个默认锚点。
+
+## 2026-10-30：长短解释和真正变速等式分查
+
+[廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：廻廻奇譚E两个16等于triplet8＋16，同总量半q，F恢复straight；书面横距不按演奏2:1强排。F前mf与界后说明分开，工程精确范围未知。残酷天使12/8dotquarter76后N66仍保6qbar。

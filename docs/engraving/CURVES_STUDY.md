@@ -236,3 +236,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：长短弧与最后tie分别追到对象
 
 [残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响G的慢线、背景短句和低保持不同层，不能统一高度丢归属；末bar两部8receiver后各自休止，没有finalfermata。红莲结尾上部whole-restfermata、低wholechordfermata仍保持，前接小16的全部音高／借时未校勘，不能凭外形改tie。
+
+## 2026-10-30：快层弧、旋律路线与tie分别保
+
+[廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：廻廻奇譚H长弧组织慢线、局部tie跨界保持；残酷天使虚线引导内线、正常实弧罩运行，实际波浪滑奏另读。统一线形或删交叉会丢任务；末小音接收须核音高，不能凭外观全改持续。

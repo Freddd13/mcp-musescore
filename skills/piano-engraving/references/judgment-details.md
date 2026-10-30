@@ -129,6 +129,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 
 <a id="spacing"></a>
 
+`INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：廻廻奇譚H／残酷天使I先选连续16快层再评步幅，慢线共头、附点和grace不能混算；N q3慢音发声时快层恰rest，保护层次优先于填满网格。
+
 `INTEGRATED_READING_ZANKYOU_GUREN.md`：红莲J必要变音下7.267–11.521pt非等距轮廓重复三bar，先看熟悉形状和占位原因，别以方差直接报错；残响3／9／普通8保22共同列及下部中间时点。
 
 `INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL跨表头位距1.764pt经干侧复核为约6.552pt，先核轴再评挤；K稳定16保留，M普通八个32不补7。
@@ -260,6 +262,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：残酷天使N12/8为22快攻击＋2个16rest；Dquarterrest＋12six，后续8rest＋14six。rubato部分5（三梁32）可比短范围，后面完整6（双梁16）不加无益括号。
 
 `INTEGRATED_READING_ZANKYOU_GUREN.md`：残响首9含dotted8rest＋6six，3与9并行不嵌套；红莲混合5为8＋3six四攻击、完整6后quarter独立。部分3／7只框真成员；13:10／7:6须核意图再完整标比。
 
@@ -405,6 +409,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：残酷天使p5s4虚线从q1独立低quarter到q2上表、q3低表，非前一快16q.75；它提示内线，不自动产生滑奏。
+
 `INTEGRATED_READING_ZANKYOU_GUREN.md`：残响p5s3上表3与9共头、下表普通8独立，不能把中间时点吸到最近快头；手提示／谱表／旋律角色按实际范围。
 
 `INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL完整9为上三下六；M跨表假压缩先核干向／轴，WILL两手同在上表时不机械补空下表休止。
@@ -444,6 +450,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 跨表先分单线跨手与独立两部，再比较共同梁两方向短端、坡度、副梁和表距；不要见短干便全谱加行距或抹平。拍内短休止可邻近后续音所在表，整拍／独立部另判；中央共同休止可行，但不应切梁或挤占已繁忙的动态通道。`cross-staff`的`CROSS_STAFF_STUDY.md`第8–12节有同距平梁／稍宽斜梁及同MIDI拒绝例；该例全局Style仅用于短练习，不能直接推广全曲。
 
 <a id="ornaments"></a>
+
+`INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：两谱正常／小音字符码和字号不同；残酷天使开头／末grace66%，moltorall小run75%，最后四小16两梁。先核上下文和梁，不由字号固定借时。
 
 `INTEGRATED_READING_ZANKYOU_GUREN.md`：红莲N的trillhalf、两小16收尾、四普通8分段，波线不扩至全bar；残响adlib双梁16保自由上下文，交替震音各自共享时段。
 
@@ -536,6 +544,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：残酷天使E8va覆盖同表首l.h.伴奏和弦，不能只按上干旋律缩线；p7短8vb角端与两barPed释放独立。
 
 `INTEGRATED_READING_TOKIMEKI_UCHIAGE.md`：Uchiageppsub／8va在q3.5引入，H前pp／mp在q3分层开始；J局部loco后重开8va，Tokimeki末sfz短8va单独保范围。
 
