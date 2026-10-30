@@ -1,0 +1,763 @@
+{
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-30T18:16:03.098288+00:00",
+  "version": "0.17.0",
+  "tag": "engraving-v0.17.0",
+  "publication_base_commit": "c29b9056fb257e89915c7fd90c9f0ab6829fd11c",
+  "previous_release": {
+    "version": "0.16.0",
+    "tag_commit": "141f5ea0928b7c107035e2972ddc70ea43de6507",
+    "certificate_sha256": "f74faefcb8cfa1c1c82b194dac388fbf7c06b6dd6d43463a5b9d623c87a007ed"
+  },
+  "changes_since_0_16_0": {
+    "new_all_score_closeouts": 10,
+    "new_whole_score_pages": 61,
+    "new_Gould_substantive_pages": 0,
+    "new_Gould_ancillary_pages": 0,
+    "new_complete_resource_scopes": 0,
+    "new_fixed_skill_transfer_scenarios": 0,
+    "new_native_studies": 0,
+    "new_native_primary_conditions": 0,
+    "new_user_integrated_rounds": 0
+  },
+  "sources_checked": [
+    {
+      "id": "A003",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\062799_[Animenz] Eve - Kaikai Kitan (Jujutsu Kaisen).pdf",
+      "sha256": "3983329ffbfa429c00f84d7c68911a325dddf0a9fcc524124ee0d2334e59c3d4",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A007",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\A Cruel Angel's Thesis - Neon Genesis Evangelion - Opening Theme.pdf",
+      "sha256": "ec49b475bbe8c7ad5d3b7a5667998228ac9d8c3c4440ecfe17ca11f9300e4926",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A010",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Again - Fullmetal Alchemist Brotherhood - Opening Theme.pdf",
+      "sha256": "6f1af8d0d02173de5d4d4fd714ddca047c75a35bfa52483d5a2c018be241bcd5",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A011",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Akuma no Ko - Attack on Titan - The Final Season Part 2 - Ending Theme.pdf",
+      "sha256": "b27c7c0adf8d4ef2ce5cacdce9a0232b196986d86a1e97f4bed3d5b275834cdc",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A013",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Ao no Sumika - Jujutsu Kaisen Season 2 - Opening Theme.pdf",
+      "sha256": "9cae9243b3dc47deebe2ae6a36502afe5040dade13f192add7eb5f5a3bf48909",
+      "pages": 5,
+      "read_only": true
+    },
+    {
+      "id": "A015",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Attack on Titan (Main Theme) - Attack on Titan - Soundtrack.pdf",
+      "sha256": "e29f2240030db93fad0fc52d84e68a2c83b458b4ee8e6aa5b0f28b2f3c757695",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A017",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Bauklötze (Hanji's Final Theme)- Attack on Titan.pdf",
+      "sha256": "f71fd487361fcb0dbca2eae6824b33fb77cc26c03f0a70f108613f0b397e6081",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A018",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Before my body is dry - Kill la Kill - Soundtrack.pdf",
+      "sha256": "cbf47b483184147c0d75084f425b187c3835ed9acec3e6024dc4bbc8fcb488f0",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A020",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Black Catcher - Black Clover - 10th Opening Theme.pdf",
+      "sha256": "9771968197e453a7ac452292b49266cd5f669ca23d5c3209e684216f640f2f0c",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "id": "A022",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Blue Bird - Naruto Shippuuden - 3rd Opening Theme.pdf",
+      "sha256": "061e88f52c82093374e720079f80ce08301a036d828a5785d864efefeb8ae120",
+      "pages": 6,
+      "read_only": true
+    }
+  ],
+  "book_source_checked": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "pages": 696,
+    "read_only": true
+  },
+  "study_evidence_hashes": [
+    {
+      "path": "again_akuma_closeout_evidence.json",
+      "sha256": "503cc26fed53c357d68050b3c5072df409be23383b7beb8c9931257368715b13",
+      "verification": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T11:07:46.541384+00:00",
+        "source_hashes_and_page_counts_checked": 3,
+        "viewed_image_hashes_checked": 121,
+        "reused_images": 38,
+        "new_images": 83,
+        "source_head_origins_rechecked": 78,
+        "individual_metric_glyphs_rechecked": 88,
+        "scope_glyphs_rechecked": 19,
+        "beam_polygons_rechecked": 13,
+        "clock_position_glyph_witnesses_rechecked": 6,
+        "internal_gaps_rechecked": 71,
+        "rational_duration_recipes": 35,
+        "whole_score_pages": 12,
+        "system_rows": 72,
+        "book_rereads": 26,
+        "new_book_coverage": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "glissandi",
+          "octaves",
+          "navigation",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "sources",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 26,
+        "local_markdown_links_checked": 1527,
+        "corpus_closeouts": [
+          138,
+          146
+        ],
+        "corpus_closeout_pages": [
+          937,
+          1135
+        ],
+        "remaining_pages": 198,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3114191928,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "ao_attack_evidence.json",
+      "sha256": "97c16db23400dc764d2e595b5c1e4e284d9fd865e136f36e2371609848630b2c",
+      "verification": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T15:54:57.131004+00:00",
+        "source_hashes_and_page_counts_checked": 3,
+        "viewed_image_hashes_checked": 117,
+        "reused_images": 41,
+        "new_images": 76,
+        "source_head_origins_rechecked": 64,
+        "individual_metric_glyphs_rechecked": 66,
+        "scope_glyphs_rechecked": 31,
+        "beam_polygons_rechecked": 5,
+        "accidental_glyphs_rechecked": 14,
+        "clock_position_glyph_witnesses_rechecked": 39,
+        "common_H_time_columns": 7,
+        "splitbar_source_vertical_objects_checked": true,
+        "internal_gaps_rechecked": 58,
+        "rational_duration_recipes": 34,
+        "whole_score_pages": 11,
+        "system_rows": 64,
+        "book_rereads": 30,
+        "new_book_coverage": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "ornaments",
+          "clefs",
+          "octaves",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "sources",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 24,
+        "local_markdown_links_checked": 1513,
+        "corpus_closeouts": [
+          140,
+          146
+        ],
+        "corpus_closeout_pages": [
+          948,
+          1135
+        ],
+        "remaining_pages": 187,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3128300853,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "bauklotze_before_evidence.json",
+      "sha256": "86ee73332a4e551cd1bf89f9d2ffc9e9e0d9613401f6c270e3baf3d60c81f28b",
+      "verification": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T17:17:30.579721+00:00",
+        "source_hashes_and_page_counts_checked": 3,
+        "viewed_image_hashes_checked": 128,
+        "reused_images": 42,
+        "new_images": 86,
+        "source_head_origins_rechecked": 80,
+        "individual_metric_glyphs_rechecked": 82,
+        "scope_glyphs_rechecked": 34,
+        "beam_polygons_rechecked": 20,
+        "clock_position_glyph_witnesses_rechecked": 57,
+        "internal_gaps_rechecked": 74,
+        "rational_duration_recipes": 35,
+        "whole_score_pages": 13,
+        "system_rows": 72,
+        "book_rereads": 31,
+        "new_book_coverage": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "ornaments",
+          "clefs",
+          "octaves",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "sources",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 25,
+        "local_markdown_links_checked": 1532,
+        "planned_title_corrections": 6,
+        "corpus_closeouts": [
+          142,
+          146
+        ],
+        "corpus_closeout_pages": [
+          961,
+          1135
+        ],
+        "remaining_pages": 174,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3144434680,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "black_blue_evidence.json",
+      "sha256": "6da942089c2ff46651768474025a593406004d4604ef56fe74c2a20f7b1e87b3",
+      "verification": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T17:59:37.697930+00:00",
+        "source_hashes_and_page_counts_checked": 3,
+        "viewed_image_hashes_checked": 127,
+        "reused_images": 42,
+        "new_images": 85,
+        "source_head_origins_rechecked": 54,
+        "individual_metric_glyphs_rechecked": 77,
+        "scope_glyphs_rechecked": 13,
+        "beam_polygons_rechecked": 12,
+        "line_witnesses_rechecked": 2,
+        "clock_position_glyph_witnesses_rechecked": 108,
+        "internal_gaps_rechecked": 48,
+        "rational_duration_recipes": 36,
+        "whole_score_pages": 12,
+        "system_rows": 71,
+        "separate_system_segments": 72,
+        "book_rereads": 30,
+        "new_book_coverage": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "ornaments",
+          "clefs",
+          "octaves",
+          "navigation",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "sources",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 25,
+        "local_markdown_links_checked": 1559,
+        "corpus_closeouts": [
+          144,
+          146
+        ],
+        "corpus_closeout_pages": [
+          973,
+          1135
+        ],
+        "remaining_pages": 162,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3158957806,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "kaikai_cruel_closeout_evidence.json",
+      "sha256": "52928b8e209a45d007d9d02d5eea08baf2e45a4c813f7c30770225a3217e8cbf",
+      "verification": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T08:11:22.263353+00:00",
+        "source_hashes_and_page_counts_checked": 3,
+        "viewed_image_hashes_checked": 125,
+        "reused_images": 39,
+        "new_images": 86,
+        "source_head_origins_rechecked": 104,
+        "individual_metric_glyphs_rechecked": 120,
+        "scope_glyphs_rechecked": 17,
+        "beam_polygons_rechecked": 9,
+        "clock_position_glyph_witnesses_rechecked": 6,
+        "octave_endpoint_stroke_segments_rechecked": 3,
+        "small_run_glyphs_rechecked": 22,
+        "internal_gaps_rechecked": 97,
+        "rational_duration_recipes": 36,
+        "whole_score_pages": 13,
+        "system_rows": 76,
+        "book_rereads": 26,
+        "new_book_coverage": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "ornaments",
+          "glissandi",
+          "clefs",
+          "octaves",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "sources",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 28,
+        "local_markdown_links_checked": 1500,
+        "corpus_closeouts": [
+          136,
+          146
+        ],
+        "corpus_closeout_pages": [
+          925,
+          1135
+        ],
+        "remaining_pages": 210,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3096444504,
+        "files_deleted": 0
+      }
+    }
+  ],
+  "public_native_artifacts_checked": [
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-comparison.png",
+      "sha256": "e7e1ed14f8bde83ab11a8b720d4ebbfed79ee60eedcceae65f30777ac6f22b02",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-default.mscx",
+      "sha256": "137f7fa6296adcc9a57cc769ec0a7f11cdd4107e2bfe3c01b7d06e00deaccc93",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-uniform-rejected.mscx",
+      "sha256": "05613fe6a3f46f1220bb1bff3e87cfb6504dd4f66c1e31c3b99dde9cd8d4303c",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-comparison.png",
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-default.mscx",
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-pulse-candidate.mscx",
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-candidate.mscx",
+      "sha256": "9595459dcd6a8d79adccff31af0998fbffcf613c5f49aa13e17e6fe9795badff",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-comparison.png",
+      "sha256": "a3bfd34a884ff6db9b71ecabe11d3eb90dfda971b617b02b4151b17e3c045cbc",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-default.mscx",
+      "sha256": "55718a3d194aadab49bd1fed9ec2d8a44a2ca18e1ba41eac99b3172fdec2ff48",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+      "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+      "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+      "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+      "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+      "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-continuous.mscx",
+      "sha256": "7d07dd4f64c9e7e93ef7e8265c6d5867443cfa7803822a5cabc1040b1c9b5c86",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-four.mscx",
+      "sha256": "37aa041c5826e3abd79050ba64f618c4100dc3fc52d6ec55df7a00789c48c99f",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-nested.mscx",
+      "sha256": "29d2e93cf5ea4ce587853b2d307c6b7cf3666701ae0d607f176030be6fd951b3",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-comparison.png",
+      "sha256": "23844cef5fa01c33c7827f96961f92b97839e3f830b13c1ead3c8d99c0245102",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-full-context.png",
+      "sha256": "cbc5ebdd13115d38cc7b7ee756125e6e72f24a0c7d0e9fe35cf6ac27a3b741bc",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-bare.mscx",
+      "sha256": "8050d939dc6156b01c80740625576ebc9b8d967c2930eee6aca0492a916ad7cc",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-short.mscx",
+      "sha256": "c07663991331902d7d8c38b1b5c6094dd6a0ffb31e827dd7ed89a753a85c783d",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-auto-probe.mscx",
+      "sha256": "638b411732187390af3973cc3d91df410e04478a2e2c2bb457f9e2a0111b725c",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-comparison.png",
+      "sha256": "0d936b66eeb119d5ab6e2191f782c4e674b36336f4fed5a306b86f65a4110bc5",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-full-context.png",
+      "sha256": "6b940ed9e96c7923bc404f7f5b989c25131d33f4bb3c122186186b4b9a89808f",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-implicit.mscx",
+      "sha256": "e1ff8b293945fa57324d0c2be8f65b697550827e008f18791bd71aad06c66ee2",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-auto-position.mscx",
+      "sha256": "2e12f271298827aee4ae21479b9c447dfb6b41abf9402c09253bbd1ed199b801",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-tiered.mscx",
+      "sha256": "31fa4f4f3cff8abc84f6853239d0a88aa35b9b0ee5e137e5d71beee507802979",
+      "unchanged_from_0_16_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-comparison.png",
+      "sha256": "42cc691e8be88b69f7e02ccd282ed42434a63422a9ca6e212c64207a3c8aa6a1",
+      "unchanged_from_0_16_0": true
+    }
+  ],
+  "skill_routes": [
+    {
+      "topic": "overview",
+      "references": 48
+    },
+    {
+      "topic": "spacing",
+      "references": 73
+    },
+    {
+      "topic": "rhythm",
+      "references": 69
+    },
+    {
+      "topic": "tempo",
+      "references": 56
+    },
+    {
+      "topic": "beams",
+      "references": 54
+    },
+    {
+      "topic": "curves",
+      "references": 56
+    },
+    {
+      "topic": "markings",
+      "references": 52
+    },
+    {
+      "topic": "ornaments",
+      "references": 21
+    },
+    {
+      "topic": "glissandi",
+      "references": 18
+    },
+    {
+      "topic": "clefs",
+      "references": 34
+    },
+    {
+      "topic": "octaves",
+      "references": 58
+    },
+    {
+      "topic": "navigation",
+      "references": 25
+    },
+    {
+      "topic": "piano",
+      "references": 70
+    },
+    {
+      "topic": "cross-staff",
+      "references": 55
+    },
+    {
+      "topic": "notation",
+      "references": 67
+    },
+    {
+      "topic": "layout",
+      "references": 60
+    },
+    {
+      "topic": "sources",
+      "references": 35
+    },
+    {
+      "topic": "cases",
+      "references": 35
+    },
+    {
+      "topic": "baseline",
+      "references": 3
+    },
+    {
+      "topic": "implementation",
+      "references": 1
+    }
+  ],
+  "native_validation_reexecuted_for_release": false,
+  "scope": "Package/source checks and prior actual-reading image hashes;releaseadds no readingcredit,sourceediting,adaptation,fontwork ordeletion.",
+  "not_done": [
+    "2remainingwhole-scorequestioncloseouts162pages",
+    "10resource scopes andmaterialmastery",
+    "Cross-scoreconflictsincluding swingalignment nativecomparison",
+    "Userintegratedround0/1 preparation2/4",
+    "Full-scoreautomaticengraving/MuseScoreadaptation",
+    "Native/playback/actualturn/print/aestheticproof"
+  ],
+  "validation": {
+    "status": "passed",
+    "original_score_sources_hash_and_pages_checked": 10,
+    "original_score_pages": 61,
+    "study_evidence_files_hashed": 5,
+    "study_viewed_image_records_hashed": 618,
+    "unique_image_paths_hashed": 520,
+    "public_native_artifact_hashes_checked": 29,
+    "skill_routes_executed": 20,
+    "local_markdown_links_checked": 683,
+    "current_skill_metadata": "0.17.0",
+    "prior_certificate_and_tag_unchanged": true,
+    "native_validation_reexecuted": false,
+    "all_material_goal_still_active": true
+  },
+  "unrelated_worktree_paths_excluded": [],
+  "progress_snapshot": {
+    "as_of": "2026-10-31",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      144,
+      146
+    ],
+    "gould_pages_conservative": [
+      696,
+      696
+    ],
+    "gould_substantive_pages": 598,
+    "gould_non_substantive_pages": 98,
+    "gould_title_or_contents_pages": 98,
+    "public_resource_scopes": [
+      15,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ],
+    "user_milestones": [
+      2,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.17.0"
+  }
+}
