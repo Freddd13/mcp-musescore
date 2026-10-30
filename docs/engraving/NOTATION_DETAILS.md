@@ -379,3 +379,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：括号同音与小装饰不能混类
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! K括号B3仍是上部四分读法，与下部二分同音，Gould308支持双手投影；Weight末8个小32约普通字号75%，作为装饰层读，不加成8普通32超拍，也不据字号定借时。
+
+## 2026-10-30：同数字不等于同样成员
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL混合3以8＋quarter占三份八分，两次起音已有括号；完整9跨表上三下六，另层慢和弦不加计。WILL普通32＋普通8不能因快或小范围误当装饰；末小音约75%另读，借时待核。

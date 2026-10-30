@@ -197,3 +197,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：力度对齐新动作而非段号
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! p3末mf在前bar引入，ff在后bar旗尾8后的新旋律；Weight p4末附点二分保持后先8休止再pp8弱起到I。内层mf和上层f作用时点／角色分读，不按同小节判冲突。
+
+## 2026-10-30：先辨进入时点和层次再对齐
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL F主旋律f在q2.5，快层mp在q1.25，不能当同刻冲突；L上快mp与慢线／低部f也分层。WILL p2末mp q3、J之前mf末8保引入。secco在休止区有收干用途，不挪到方便空隙。

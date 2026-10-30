@@ -160,3 +160,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-30 Uragirimono／Vogel本批约13.68MiB，总净书缓存约2.816GiB；118不同视图43复用75新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](uragiri_vogel_closeout_evidence.json)在最终小记录前。
 
 2026-10-30 We Are!／Weight本批约16.01MiB，总净书缓存约2.832GiB；127不同视图44复用83新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](weare_weight_closeout_evidence.json)在最终小记录前。
+
+2026-10-30 WILL／BIGGIRL本批约15.39MiB，总净书缓存约2.847GiB；125不同视图42复用83新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](will_biggirl_closeout_evidence.json)在最终小记录前。

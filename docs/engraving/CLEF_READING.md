@@ -127,3 +127,7 @@ Kaibutsu K下表先低八度再高处材料。选定F5在当前高音顶线，�
 ## 2026-10-30：换号服务持续与接手
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! H低部旧和声之后换G号接慢线，不能仅按加线阈值移动旋律；Weight末G号在局部8vb结束之后、小音开始之前，与高部局部8va各保范围。
+
+## 2026-10-30：换号须服务整条保持与接续
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：WILL D的低表慢旋律保角色，即使上方加线不能只按单音阈值改表；BIGGIRL M长低保持与波形之间的G／F换号按完整层次核。手括号、接续虚线、八度角端与谱号一起保，避免来回跳号。

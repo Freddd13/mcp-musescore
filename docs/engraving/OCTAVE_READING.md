@@ -238,3 +238,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：终止小音和八度端点分别读
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：Weight末下部8vb只到附点二分持续处，在G号及小音前结束；上部8va仅最后白头接收，l.h.保实际手提示。We Are!滑奏低端点不因高音区运行而自动扩入8va。
+
+## 2026-10-30：八度线与tie范围分别核
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL N的8vb覆盖四bar，但低部tie分两对，第3bar重新攻击。B／C／H局部8vb角端不能跨到后续活动；WILL最后上8va仅局部、下8vb另有持续范围，不按最近高低音自动扩线。

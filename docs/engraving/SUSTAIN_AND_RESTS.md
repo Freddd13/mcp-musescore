@@ -157,3 +157,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：错开到达之后还有共同静默
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are!末前一bar上半休止／四分攻击／四分休止，下四分攻击／四分休止／半休止，最终共同整休止延长；不合成齐奏终和弦。Weight末低部附点二分与小装饰、高白头接收独立保留。
+
+## 2026-10-30：休止中仍有保持或收干要求
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL N上部whole-rest时下部新全音八度仍发音并tie到后bar，保两次低音攻击。WILL中段最后攻击后secco／休止延长与最终全音和弦保持不同；半Ped从延长bar起点到晚mp弱起后解除，按Ped.P锚点保。

@@ -294,3 +294,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：完整五连与部分五连分判
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are!两完整5:4后还有两个普通四分，不改5:6。Weight部分5排除附点16＋32前缀或普通8尾；13含32休止＋12头。8／12比例由下部钟核，完整比值只在核意图后建议。
+
+## 2026-10-30：部分范围、混合值与早省数字
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：WILL部分5排除普通32前缀／普通8尾；BIGGIRL部分3排除前两个普通8，混合3含8＋quarter两次攻击。M七连后八个普通32不补7。WILL末首bar仅前两组3，Gould215一两小节确立条件须分明，比较首bar四组都标再省。

@@ -326,3 +326,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：双手同音保两线投影
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! K上括号B3四分与下B3二分同列，Gould308双手同音条件支持保留；不是新的零时小音。H快层上干、旋律下干并转下表；Weight E上表l.h.慢线与活动分工，谱表不决定整只手。
+
+## 2026-10-30：闲置谱表不机械补休止
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：WILL H前三bar两手在上表，以相反干向及手括号分工；空下表不补暗示手休息的whole-rest。BIGGIRL I的r.h.仅局部重复和弦，不能绑定整表；F快层mp与慢线f时点、角色独立。

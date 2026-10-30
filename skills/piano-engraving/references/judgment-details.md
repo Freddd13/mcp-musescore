@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL N是两对低全音八度tie，第三bar新攻击；上部whole-rest不代表全停。WILL半Ped从延长bar起点至mp弱起后解除，secco与最终保持另判。
+
 `INTEGRATED_READING_WEARE_WEIGHT.md`：We Are!末错开攻击之后还有共同整休止；Weight低长保持与装饰／高接收分别保。
 
 `INTEGRATED_READING_URAGIRI_VOGEL.md`：Vogel M末段两小节mp保持之后还有整休止延长；Uragirimono开弧意图未获作者确认。
@@ -124,6 +126,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL跨表头位距1.764pt经干侧复核为约6.552pt，先核轴再评挤；K稳定16保留，M普通八个32不补7。
 
 `INTEGRATED_READING_WEARE_WEIGHT.md`：Weight8／12先用下部钟核条件8:6／12:10，不因同写32拉同距；H普通活动保轮廓及必要占位。
 
@@ -252,6 +256,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_WILL_BIGGIRL.md`：WILL部分5／BIGGIRL部分3排除普通首尾；混合3为8＋quarter，先定份额和范围。WILL首bar只标两组的早省数字与Gould215条件分列，比较首bar四组全标。
 
 `INTEGRATED_READING_WEARE_WEIGHT.md`：We Are!完整两个5后是两个普通四分；Weight部分5排除普通首尾，13含32休止，不能按头数补音。
 
@@ -393,6 +399,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL完整9为上三下六；M跨表假压缩先核干向／轴，WILL两手同在上表时不机械补空下表休止。
+
 `INTEGRATED_READING_WEARE_WEIGHT.md`：K括号B3按Gould308双手同音保长短投影；H引导实线可比虚线，不当滑奏。
 
 `INTEGRATED_READING_EVERLASTING_HEROES.md`：C两个六音组各五下＋一上，近干仍先后。先滤PDF负x内容，再按完整梁／头／干核可见事件。
@@ -428,6 +436,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 跨表先分单线跨手与独立两部，再比较共同梁两方向短端、坡度、副梁和表距；不要见短干便全谱加行距或抹平。拍内短休止可邻近后续音所在表，整拍／独立部另判；中央共同休止可行，但不应切梁或挤占已繁忙的动态通道。`cross-staff`的`CROSS_STAFF_STUDY.md`第8–12节有同距平梁／稍宽斜梁及同MIDI拒绝例；该例全局Style仅用于短练习，不能直接推广全曲。
 
 <a id="ornaments"></a>
+
+`INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL a piacere是普通16及half-rest，不能零时值化；WILL末小16约普通75%，与连续三连背景分开，不据字号定借时。
 
 `INTEGRATED_READING_WEARE_WEIGHT.md`：Weight末8个小32约普通75%，保装饰及l.h.接收；低8vb和高8va分别核边界，不据字号定借时。
 

@@ -1,0 +1,4279 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-30",
+  "recorded_at_utc": "2026-10-30T04:56:11.957170+00:00",
+  "note": "INTEGRATED_READING_WILL_BIGGIRL.md",
+  "source_protection": [
+    {
+      "id": "A143",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\WILL -Violet Evergarden the Movie - Theme Song.pdf",
+      "sha256": "925883bf56991ab7fa412939bc9c6bd0929724b4339f5b31031cd0e2844c3830",
+      "pages": 6,
+      "unchanged": true
+    },
+    {
+      "id": "A144",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\You See BIGGIRL - Attack on Titan Season 2 - Soundtrack.pdf",
+      "sha256": "25b52ede3b480a73e50ce60ed0e4de943c12000b23649e1230b8f7697855d311",
+      "pages": 6,
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "unchanged": true
+    }
+  ],
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A143",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A143/page-1.jpg",
+      "sha256": "7a19afb7134291a44cc7387c092d0c43610c7cf83d3ce9cd23786dc2bacf4806",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A143",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A143/page-2.jpg",
+      "sha256": "194c15a8edd2ea517d1e0cd5513f0aced76e38a242974aa9278837c98555b3f1",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A143",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A143/page-3.jpg",
+      "sha256": "8528a50224d1390998436eafc213e9feb4b70211b4dd487cb804ab3f7e219b55",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A143",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A143/page-4.jpg",
+      "sha256": "9bdbce76e13553469b2e2a2e24d3deabbf8f85a09d59e759ad24211e48d96513",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A143",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A143/page-5.jpg",
+      "sha256": "f143c95503e5c5febbf13c43abdaa5741119aa75a961b5eb70f6d0943811af23",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A143",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A143/page-6.jpg",
+      "sha256": "9229f0db71a81341431140d01fc77542e3fe5c6b7505602588068ae33e26eef7",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A144",
+      "page": 1,
+      "path": "tmp/engraving/corpus/A144/page-1.jpg",
+      "sha256": "1022536a20d5f23feaacc73a91e9d4b37e6071a64ff39da4c846f5a4ed657f88",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A144",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A144/page-2.jpg",
+      "sha256": "9d1cbf78cb7c15b0117669665c1cba12b5277baacb792a35d2505b3f1ee3c1d8",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A144",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A144/page-3.jpg",
+      "sha256": "2602e287fda83d117e60c3a717c4cdbb16f1e31acb8a6a10b7c5f74d6bb75f3c",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A144",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A144/page-4.jpg",
+      "sha256": "cc1f78c4fca89b491a18e63d0715c03eb35438f9bee1c60082e6a74d3f31a7cd",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A144",
+      "page": 5,
+      "path": "tmp/engraving/corpus/A144/page-5.jpg",
+      "sha256": "a9118ae110b8a297525bab063afc2d6c40978eedcedbf28ab807c54a0b839921",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "whole-score-page",
+      "id": "A144",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A144/page-6.jpg",
+      "sha256": "ecdf27872e992aaa31944ea9bd8bb1ea920f822e63a2758d198fb0ea674afa36",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p1-s1.jpg",
+      "source_y_pt": [
+        139.83863368669023,
+        311.4762465645858
+      ],
+      "sha256": "54811b8b22f7a0d7ec8423448512f2a817dc517353e3071c513fb740aea43a06",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p1-s2.jpg",
+      "source_y_pt": [
+        266.4526894385552,
+        442.38790734197096
+      ],
+      "sha256": "43c5eca54e39c92a87418e59b081a17319629335a0ee8fb0b848ecb53d4d0924",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p1-s3.jpg",
+      "source_y_pt": [
+        397.52964271692184,
+        565.0349430702788
+      ],
+      "sha256": "494dec31f9cb076fc0cdc75de8e3ee075e93eeb228e62000d7103412a2ca6957",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p1-s4.jpg",
+      "source_y_pt": [
+        519.8460934432666,
+        687.3513937966235
+      ],
+      "sha256": "6ea90279f0e1314495e235c716e5987283b31187850d7bb950a6b5b205731517",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p1-s5.jpg",
+      "source_y_pt": [
+        641.8319591676482,
+        817.9324695720455
+      ],
+      "sha256": "ffbd99bed7783e6a46c31923c9ca3c9ee63057667213f2fc374c24bad0313596",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p2-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "a066e76041de61f230cc428d33f1892439662a1fc18b673b26dd8daffab97878",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p2-s2.jpg",
+      "source_y_pt": [
+        137.02866117000391,
+        313.12917157440125
+      ],
+      "sha256": "4ad144970d00c11a9444be12a923c9e6e61d8f24b71bdf6a449bfd53b13567a7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p2-s3.jpg",
+      "source_y_pt": [
+        266.4526894385552,
+        438.09030231645073
+      ],
+      "sha256": "154a8e9424229d4de6562e2173cfed61344efd579edcd9bd8059ba94e21bae2b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p2-s4.jpg",
+      "source_y_pt": [
+        391.90969768354927,
+        567.6796230859835
+      ],
+      "sha256": "47e7a555041c630135e548a0f6f89995b7d21171729dc4fa2afb3a3518b842fb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p2-s5.jpg",
+      "source_y_pt": [
+        521.168433451119,
+        688.6737338044759
+      ],
+      "sha256": "84a088e94f6497bf3b4d1bd13c2c0319a9ab5f29ae68bc483b6db374fca4247a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p2-s6.jpg",
+      "source_y_pt": [
+        641.5013741656851,
+        817.6018845700825
+      ],
+      "sha256": "c9da891a15308298f17aa43f1d43e468c2bdfcc98c9360aef4cc62095c172397",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p3-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        187.8374558303887
+      ],
+      "sha256": "75c3669da9fda3ea31335bf36672bbba11278af5369e43107e083c97331d242e",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p3-s2.jpg",
+      "source_y_pt": [
+        141.32626619552414,
+        313.12917157440125
+      ],
+      "sha256": "dc5c20387ca25a7f5eee4957a016b7954afb47289f3789c6412f15d036e9d5fd",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p3-s3.jpg",
+      "source_y_pt": [
+        266.4526894385552,
+        442.38790734197096
+      ],
+      "sha256": "0fdad46c50a3e28bac36dd9305c86a7ae64375571aa53295ca82ffb3e87c39af",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p3-s4.jpg",
+      "source_y_pt": [
+        396.04201020808796,
+        567.6796230859835
+      ],
+      "sha256": "2df4c59e6a4fd3ae3374169cc03436e23d48b91a14bb6475dce850ed59b5e32a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p3-s5.jpg",
+      "source_y_pt": [
+        521.168433451119,
+        692.9713388299961
+      ],
+      "sha256": "ba5caf6987a6ba73263d5641991e5ab98fec49b62d9491c1f2c54290d12811be",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p3-s6.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "3642c50cfa8b84877e51b2634cabfb40e56d61d3d18c5659fcb9f38c007eca40",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p4-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "f55276f05ca6d3c1ec687912a6771ab5607bbe8ef560b4913f56dd363794d21d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p4-s2.jpg",
+      "source_y_pt": [
+        137.02866117000391,
+        308.831566548881
+      ],
+      "sha256": "8f364834f90d36ace3a1a876d3e7d0b2b6405e2db32443aefeedff9c342484d2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p4-s3.jpg",
+      "source_y_pt": [
+        266.4526894385552,
+        438.09030231645073
+      ],
+      "sha256": "6fde87cff02c962703b280dc527515366f12e34770c4bd21ca5f8a0a46d8cef2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p4-s4.jpg",
+      "source_y_pt": [
+        396.04201020808796,
+        563.3820180604633
+      ],
+      "sha256": "34f3ac0b057641c33f1b5829e193d629581e8450e3b6901071a005b6185b4a04",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p4-s5.jpg",
+      "source_y_pt": [
+        521.168433451119,
+        692.9713388299961
+      ],
+      "sha256": "d37ee055b38bbb77171f2694fce925dd4829742bfe2ee8b1ef7354c9ca3833da",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p4-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "e116e7a70e5044e34937c9aa93a2302babeb2ec55d09e2e5ee752812653b6474",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p5-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "98343c04b9c3b188c962e386257910c01b750acf72babd92670c5e3d66a87d40",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p5-s2.jpg",
+      "source_y_pt": [
+        165.45897133883,
+        337.09658421672555
+      ],
+      "sha256": "18ac6e8f8b5c02d06d019038669806236576bbedd893dfbbfca9a8bd1ecd7e05",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p5-s3.jpg",
+      "source_y_pt": [
+        322.8174322732627,
+        494.62033765213977
+      ],
+      "sha256": "92d1644fe3abece45a0e90904e0bb3b82fb4f906a5283745587bbfe8458d78e1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p5-s4.jpg",
+      "source_y_pt": [
+        480.50647820965844,
+        651.9787985865725
+      ],
+      "sha256": "7d21547ac1e486d16af1c3caf227c3dc5e773816a9446d08bf514f0f19714e82",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p5-s5.jpg",
+      "source_y_pt": [
+        637.6996466431095,
+        817.9324695720455
+      ],
+      "sha256": "e05f5013227fb790f7425ab16ae8fccb04708d7253b9dac39ebbad3fc1513af8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p6-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "8df1a19b62c8845596fb962ae41878e83cbac9dc124f0e71e5da5293efce6559",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 6,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p6-s2.jpg",
+      "source_y_pt": [
+        138.6815861798194,
+        306.1868865331763
+      ],
+      "sha256": "6faf8b629503c48fd78d31e6cc0e2cecb04f6e89591b37601510d66051d7b3a3",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p6-s3.jpg",
+      "source_y_pt": [
+        261.49391440910875,
+        437.42913231252453
+      ],
+      "sha256": "5c8a261a5da28353d715fa9f50bac437e39699f605ed08683cca48c3cec4c3ae",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p6-s4.jpg",
+      "source_y_pt": [
+        392.57086768747547,
+        564.3737730663526
+      ],
+      "sha256": "b3c5963caa9daa624fbc7a5a6dfe5a7c58557eccc808e29b53179944fdd82fd8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p6-s5.jpg",
+      "source_y_pt": [
+        519.5155084413035,
+        691.3184138201806
+      ],
+      "sha256": "2e7cbfe6f0e8a4d6e82cfa2101c1743bffee6f26696564679890a40fbd9e4cdf",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A143",
+      "page": 6,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p6-s6.jpg",
+      "source_y_pt": [
+        646.1295641931684,
+        817.6018845700825
+      ],
+      "sha256": "96240b9b1efdac799b6e6548a90443b20de6b6616af19c8282e51de7fba5975a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 1,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p1-s1.jpg",
+      "source_y_pt": [
+        139.83863368669023,
+        307.3439340400471
+      ],
+      "sha256": "53d8725e63872b1595a9502929004d50e5781a2fd7d1f58417747532e24a3e72",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p1-s2.jpg",
+      "source_y_pt": [
+        258.68394189242247,
+        428.503337259521
+      ],
+      "sha256": "b2c71113b06ace887e0187e26d271f6c0167100de207fc139d946f42eea31a99",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 1,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p1-s3.jpg",
+      "source_y_pt": [
+        394.554377699254,
+        561.8943855516294
+      ],
+      "sha256": "50c96ab91695ecdb169030899b5a367b3fd459f142b5abe82659c892feae079a",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 1,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p1-s4.jpg",
+      "source_y_pt": [
+        522.1601884570082,
+        696.1118963486455
+      ],
+      "sha256": "0f382146eb14122d9d9e59a4e550373390d6fc41b92ac70ae1173205d4a85e58",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p1-s5.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "d133a46bf2b415aa24585d5363dcae381723cb80c400aa2e9fd73bf358b50ec5",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p2-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "184ed8567548070f452b1e1ffd90de2c4fe1c8aa237b500dcf7ed44b23e5a409",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 2,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p2-s2.jpg",
+      "source_y_pt": [
+        127.77228111503729,
+        297.4263839811543
+      ],
+      "sha256": "3ee8cd34c17259a956aa5f1175248c377b852b2f6748f8883da0f167cb6f0f38",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 2,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p2-s3.jpg",
+      "source_y_pt": [
+        251.0804868472713,
+        420.8998822143698
+      ],
+      "sha256": "12ecbd1387431f115edd900af71f9b7e796129d39a9dedc97419083c014b2c55",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 2,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p2-s4.jpg",
+      "source_y_pt": [
+        385.2979976442874,
+        556.935610522183
+      ],
+      "sha256": "bf68cd7d7b1bfa6b1e4dce35f316c2b11ba6f980016f272d7fd2d15e3b23ad58",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 2,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p2-s5.jpg",
+      "source_y_pt": [
+        517.862583431488,
+        687.6819787985866
+      ],
+      "sha256": "3bfd5a5e9a34f20d49356a00ce3aecbf777c25f7f6158d20cdad26350fe92513",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 2,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p2-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "a720429f92098e636b820c420277eb76199a5710f6a984cd422dd6bc25da9065",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 3,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p3-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        179.24224577934825
+      ],
+      "sha256": "d68013259c99fbc8ba2171038a06a54142b6d2b1b8e10213f66c88a2d459659d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 3,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p3-s2.jpg",
+      "source_y_pt": [
+        114.383588535532,
+        284.037691401649
+      ],
+      "sha256": "83e3cb9670292628b5928ebc6567c22af8a8a3c0ed7cea56229cf02239b196fa",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p3-s3.jpg",
+      "source_y_pt": [
+        234.8818217510797,
+        410.65174715351395
+      ],
+      "sha256": "0263ba75f77d137effb8f7ee757c504d5956f62a96eb01238d7a93ba6dd04d67",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 3,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p3-s4.jpg",
+      "source_y_pt": [
+        361.0,
+        534.9517078916372
+      ],
+      "sha256": "9190e889f3a86ea64f3b4830d461bd64d5cdcd76dd03abc225b662fe00ce5e62",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 3,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p3-s5.jpg",
+      "source_y_pt": [
+        500.01099332548097,
+        680.4091087553985
+      ],
+      "sha256": "f49e039d6b6b2034fa7c78b2b6ef769d47e48d76aa738c636ee8eec21ee6c43f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p3-s6.jpg",
+      "source_y_pt": [
+        639.5178641539065,
+        817.6018845700825
+      ],
+      "sha256": "da67bab06e17ce5f46c956c6f4b4bb478ee93f9e7b0c7afad8c28df0c83f1421",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p4-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        189.9862583431488
+      ],
+      "sha256": "b09795d69f981f5ba9fe9f4dd5bb1f7c51d8b29d84d3f65f3a3072a231d43029",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 4,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p4-s2.jpg",
+      "source_y_pt": [
+        153.55791126815862,
+        335.93953670985474
+      ],
+      "sha256": "0b460cfd2216617e474def021e037d144b18ec502380c5883c5e42c51d87a49f",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p4-s3.jpg",
+      "source_y_pt": [
+        300.0070671378092,
+        467.51236749116606
+      ],
+      "sha256": "43a543fe5c093e0338e797172a0fb43218ab1490d605cd485c528bbb4d50ad57",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 4,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p4-s4.jpg",
+      "source_y_pt": [
+        417.3647428347075,
+        587.184138201806
+      ],
+      "sha256": "778eba783696da98a0d9edf12674a59b071c1b2611b8c2109e10df20988c4743",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 4,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p4-s5.jpg",
+      "source_y_pt": [
+        528.441303494307,
+        700.2442088731841
+      ],
+      "sha256": "9504375bc6e73a3ebfae92890ca7422b1c7eb7ae615cdb02fa1ce975014ae01b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 4,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p4-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "6749af49a84b8344721e1f4213cbe313631a60d423374eefea43cb8405894291",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p5-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        183.53985080486848
+      ],
+      "sha256": "30fb1d402f695674914d007f6f442b1fae4a39071a80f1380e64761df54534e8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 5,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p5-s2.jpg",
+      "source_y_pt": [
+        144.46682371417353,
+        320.4020416175893
+      ],
+      "sha256": "3178fb7d8f6b927d0c6cd0cb1aa7c31d8091ceeadc675236ef1b6e4c7e05eac8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 5,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p5-s3.jpg",
+      "source_y_pt": [
+        261.49391440910875,
+        431.14801727522575
+      ],
+      "sha256": "77a5d54efed9b66ab3df37b984444ee3c4441ba0f5d5df66b4e2a1e929aa73d1",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 5,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p5-s4.jpg",
+      "source_y_pt": [
+        388.7691401648999,
+        556.2744405182568
+      ],
+      "sha256": "a41f4c356be07a6a1295af55c395a7c8684c890a5bee08fb1f509124a110a5a8",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 5,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p5-s5.jpg",
+      "source_y_pt": [
+        506.12681586179815,
+        677.7644287396938
+      ],
+      "sha256": "d8d68aee7d3e49a65ee7a3b8b7809bea34a48a000a7949dad91ed33f185e24b6",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 5,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p5-s6.jpg",
+      "source_y_pt": [
+        645.7989791912054,
+        817.6018845700825
+      ],
+      "sha256": "c6b20b309ccecc04e9c9580a4499071d9730798319a5bcdc9abac2a9b1b9ccbb",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 6,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p6-s1.jpg",
+      "source_y_pt": [
+        11.736945425991365,
+        185.6886533176286
+      ],
+      "sha256": "979b2dae59702f16a3f11514164a4ec6142dd6cb8d02af2bb7829821b8398579",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 6,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p6-s2.jpg",
+      "source_y_pt": [
+        129.75579112681586,
+        301.558696505693
+      ],
+      "sha256": "c4123c1310cb28eef213eca917df324f245446aa56fbbf585a5d0b5f34f52779",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p6-s3.jpg",
+      "source_y_pt": [
+        258.35335689045934,
+        434.28857479387517
+      ],
+      "sha256": "04c2983834d0cc1c45738d981f06da9942b5b9fd6c299cef9af594157cb606f9",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 6,
+      "system": 4,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p6-s4.jpg",
+      "source_y_pt": [
+        387.61209265802904,
+        563.7126030624264
+      ],
+      "sha256": "a4f6d205e6fcbd175edd23e8bf5f3e59d1f3695754ed4ad448dfe03d056eda50",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 6,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p6-s5.jpg",
+      "source_y_pt": [
+        521.8296034550451,
+        689.1696113074205
+      ],
+      "sha256": "c07cb672b6491cdc276ebb3a55f6a14b152c2c70c3dd482b753f855a41504b2d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "system-context-detail",
+      "id": "A144",
+      "page": 6,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p6-s6.jpg",
+      "source_y_pt": [
+        650.0965842167255,
+        817.6018845700825
+      ],
+      "sha256": "1006f1c5b3788e782e428a4e042ea4763b872975d36dc0c776cf58a054e35570",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A143",
+      "page": 1,
+      "system": 5,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p1-s5-zoom.jpg",
+      "source_box_pt": [
+        350,
+        646.8319591676482,
+        565,
+        817.9324695720455
+      ],
+      "sha256": "74ce1cbe89435b63055cf89ef7699834866cecd63e3ffe174c11398a43296473",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A143",
+      "page": 2,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p2-s1-zoom.jpg",
+      "source_box_pt": [
+        450,
+        16.736945425991365,
+        565,
+        183.53985080486848
+      ],
+      "sha256": "6fa1bca6504ca28a66ce5dc3874e3aed8f67ee8b916166381e6309b6e5ca3e37",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A143",
+      "page": 3,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p3-s6-zoom.jpg",
+      "source_box_pt": [
+        320,
+        650.7989791912054,
+        565,
+        817.6018845700825
+      ],
+      "sha256": "24209bf4a317405a115c6c83a1f6e6cf9bc08fc307c7a7ea641b2b02b504019b",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A143",
+      "page": 4,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p4-s3-zoom.jpg",
+      "source_box_pt": [
+        260,
+        271.4526894385552,
+        565,
+        438.09030231645073
+      ],
+      "sha256": "f110c2202a5bfab112f932ae3481abbec02da1be6e8bfd82ecd1acad14df4326",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A143",
+      "page": 6,
+      "system": 6,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A143-p6-s6-zoom.jpg",
+      "source_box_pt": [
+        40,
+        651.1295641931684,
+        225,
+        817.6018845700825
+      ],
+      "sha256": "eb30e1e40cfce749ef18022e0385f66176f0705c6a39eef3931ea4608c9abec2",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A144",
+      "page": 1,
+      "system": 2,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p1-s2-zoom.jpg",
+      "source_box_pt": [
+        160,
+        263.68394189242247,
+        340,
+        428.503337259521
+      ],
+      "sha256": "4d5dd26ead40cd38af4cb20e3a889ca2dd6cb10df1e920356ae86f9056500cce",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A144",
+      "page": 3,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p3-s3-zoom.jpg",
+      "source_box_pt": [
+        375,
+        239.8818217510797,
+        565,
+        410.65174715351395
+      ],
+      "sha256": "4bad8be60864ab7e16a3ce5dcdae3fc736fecc556e90b0c62b2330a9f14b79a7",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A144",
+      "page": 4,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p4-s1-zoom.jpg",
+      "source_box_pt": [
+        245,
+        16.736945425991365,
+        410,
+        189.9862583431488
+      ],
+      "sha256": "68aaa700c183fdec65fb9eeb2f34d501109080054e557606bb267775b8027e4d",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A144",
+      "page": 5,
+      "system": 1,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p5-s1-zoom.jpg",
+      "source_box_pt": [
+        170,
+        16.736945425991365,
+        350,
+        183.53985080486848
+      ],
+      "sha256": "028eb56711ceae063e2c081be962768eb831de497a505cf1c2ae095a97e3a2e4",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A144",
+      "page": 6,
+      "system": 3,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/A144-p6-s3-zoom.jpg",
+      "source_box_pt": [
+        225,
+        263.35335689045934,
+        470,
+        434.28857479387517
+      ],
+      "sha256": "37b21694390826698b7c16af87a179c0dddf8adc04abeeb304692945d5f65695",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 43,
+      "pdf_page": 63,
+      "path": "tmp/engraving/soul-war-2026-10-29/book-printed-43.jpg",
+      "sha256": "22d28e739ec9c663b304b0286ee41b6ac5001642dafd2c74b1a5cd4b616e4bf9",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 156,
+      "pdf_page": 176,
+      "path": "tmp/engraving/fate-frieren-2026-10-27/book-156.jpg",
+      "sha256": "c2e0d3fcae7598272ac1565a4da866cf6f7149a7056c11a4c5d6b628eed98f02",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 157,
+      "pdf_page": 177,
+      "path": "tmp/engraving/beginning-to-you-2026-10-30/book-printed-157.jpg",
+      "sha256": "a5a6dcd72e7a7154ba1ab2d8551ed57e745d7cc8e1a8bc94df5a6f2ac2bb951c",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 187,
+      "pdf_page": 207,
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p187.jpg",
+      "sha256": "c5453ecc99fe8070e828cc2c62fe3a3d29f6d51ffa53222a10b43a0e16954169",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 199,
+      "pdf_page": 219,
+      "path": "tmp/engraving/tokimeki-uchiage-2026-10-30/book-printed-199.jpg",
+      "sha256": "c54adbcbd2bd6279e6f78560904b94ebc10004666dd1777a3ae69ebe50e02af3",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 200,
+      "pdf_page": 220,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 203,
+      "pdf_page": 223,
+      "path": "tmp/engraving/integrated-rumbling-unravel-2026-10-22/gould-p203.png",
+      "sha256": "48e7e705ca140dd5fa743d02f910d38eee56f2ac73e4dea2d04c0af3edc319a4",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/skill-transfer-notation-2026-10-25/book-old-printed-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 213,
+      "pdf_page": 233,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-213-reread.jpg",
+      "sha256": "33a2bf132aceea603508082e316ffa5f5ba6b96a9e67d67f493b4b125f587f14",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 215,
+      "pdf_page": 235,
+      "path": "tmp/engraving/book-2026-10-19/tuplet-continued-235.jpg",
+      "sha256": "e8bb01932f11eb7bf47bed776d298160f5a0bbcb12668b4f268690bc33dded29",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 303,
+      "pdf_page": 323,
+      "path": "tmp/engraving/clef-changes-2026-10-20/book-323-without-annotation-icons.png",
+      "sha256": "2d7f30206b73abebdaa368efcedd5f75215f54c848de7da030d9aece3f303c01",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 304,
+      "pdf_page": 324,
+      "path": "tmp/engraving/clef-changes-2026-10-20/book-324-without-annotation-icons.png",
+      "sha256": "86b88fa0eac1f547557b49be7b4ba974bd1bb69bd0b5aa10dd519a4a2382827f",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 305,
+      "pdf_page": 325,
+      "path": "tmp/engraving/piano-2026-10-19/book-305.jpg",
+      "sha256": "7982d32357d6e1795759859e274a416290c658ec5ec155fb6e3050354c80ff16",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 306,
+      "pdf_page": 326,
+      "path": "tmp/engraving/piano-2026-10-19/book-306.jpg",
+      "sha256": "6e95af22c08bdc024077fdc4bb48944505fd52cb0d71e06cab105655e71377c7",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 307,
+      "pdf_page": 327,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-307-reread.jpg",
+      "sha256": "b52e28888c02d2fc9046d3e632095e4be18cb53ca82755423eeeab20391f5d95",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 308,
+      "pdf_page": 328,
+      "path": "tmp/engraving/fingering-2026-10-20/book-308.jpg",
+      "sha256": "4a6e8fd2666ce018049dfc9107a65f121d2f0a188ab8b884b4c5cfa1b8fc3902",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 311,
+      "pdf_page": 331,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-311-reread.jpg",
+      "sha256": "e7ae3e14900079773c6b929b17698f4b1093f75a80b72cedf6a0b20dd9a5d4e7",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 312,
+      "pdf_page": 332,
+      "path": "tmp/engraving/piano-2026-10-19/book-312.jpg",
+      "sha256": "fa0714f91d61a6ab02c14101f758738c58875956c50d75e5f3d20e42b3c8d815",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 319,
+      "pdf_page": 339,
+      "path": "tmp/engraving/beginning-to-you-2026-10-30/book-printed-319.jpg",
+      "sha256": "ebdfd3f21742d3e29d073284aaff108557823939eeb443534b5dcc83ba5cbf3d",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 321,
+      "pdf_page": 341,
+      "path": "tmp/engraving/unlasting-unravel-2026-10-30/book-printed-321.jpg",
+      "sha256": "c87af8a0e62675bf061c2a08200cf7a2979ee01e0b6ab4006da383058ad85e1a",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 322,
+      "pdf_page": 342,
+      "path": "tmp/engraving/beginning-to-you-2026-10-30/book-printed-322.jpg",
+      "sha256": "6b662ff7bf853f83e8dd11561ea6e7276486d31f61d2a7b33798f24f6d3678ab",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 323,
+      "pdf_page": 343,
+      "path": "tmp/engraving/cross-staff-beams-2026-10-20/gould-323.jpg",
+      "sha256": "66518d033c3bab5a2ae91666d77d943a04435dc6e47ff70b592eaf2a400af865",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 324,
+      "pdf_page": 344,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p324.jpg",
+      "sha256": "0312d04e27272e06b5e8a7107d2f94ce05c3a2da0aac85e44ac8dc777296e150",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 325,
+      "pdf_page": 345,
+      "path": "tmp/engraving/clefs-ottava-2026-10-20/book-p325.jpg",
+      "sha256": "d91248adaef495947c61800e3339e9a0bd7eebb14a1d79b5f7a799b1910b6282",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 327,
+      "pdf_page": 347,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/book-printed-327.jpg",
+      "sha256": "3b1c1ca5edf85fe3cfdd9d95bf9d2d54fcdd5e8f970154f5f38bc3d486f68745",
+      "reused": false,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 328,
+      "pdf_page": 348,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/book-printed-328.jpg",
+      "sha256": "090782f2e78d4a25b203e3943e6f8b1a61f392e08a4931989a25add655428d26",
+      "reused": false,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 329,
+      "pdf_page": 349,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/book-printed-329.jpg",
+      "sha256": "3c7091216631c9076120c16fe240af6471ef54876e63f2d6cd7ff0f7ee8dfe65",
+      "reused": false,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 330,
+      "pdf_page": 350,
+      "path": "tmp/engraving/will-biggirl-2026-10-30/book-printed-330.jpg",
+      "sha256": "9df9517263b37d5eb77668bec7e29889304f7b5d043706e1ae8d6c41d291aedd",
+      "reused": false,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 333,
+      "pdf_page": 353,
+      "path": "tmp/engraving/piano-2026-10-19/book-333.jpg",
+      "sha256": "51194422923056e8c233ceb7b3f996644ddbb1d38112596fc97ce6e476854b30",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 334,
+      "pdf_page": 354,
+      "path": "tmp/engraving/piano-2026-10-19/book-334.jpg",
+      "sha256": "b92cdbc5360cdcfcd4c2acd3973c835d2670dccae4c2c37828318d5c35940f24",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 335,
+      "pdf_page": 355,
+      "path": "tmp/engraving/homura-hyori-2026-10-27/book-335-reread.jpg",
+      "sha256": "41be3596f76b92fddc63a6e09ebf33676362a06c23d8d7e3f8ee42034e92b651",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 336,
+      "pdf_page": 356,
+      "path": "tmp/engraving/piano-2026-10-19/book-336.jpg",
+      "sha256": "e5a6181fa3f47bbd8b0397ffcba0f60c2e51ff34b164c41e973a721f99c1a8ed",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 337,
+      "pdf_page": 357,
+      "path": "tmp/engraving/piano-2026-10-19/book-337.jpg",
+      "sha256": "f829990ad08fe0abe3be5c36c330297de27cd14c3635709a4a36a2b2969ae286",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    }
+  ],
+  "whole_reviews": {
+    "A143": {
+      "pages": 6,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        5,
+        6
+      ],
+      "system_rows": 34,
+      "meaning": "All12wholepages andall69systems actually viewed;not fullpitch/native/playback audit."
+    },
+    "A144": {
+      "pages": 6,
+      "system_rows_by_page": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "system_rows": 35,
+      "meaning": "All12wholepages andall69systems actually viewed;not fullpitch/native/playback audit."
+    }
+  },
+  "geometry_detection_correction": null,
+  "selected_music_checks": {
+    "spacing": [
+      {
+        "id": "A143",
+        "page": 1,
+        "system": 5,
+        "label": "Complete6six withinquarter",
+        "selection_x_pt": [
+          382,
+          423
+        ],
+        "selection_y_pt": [
+          700,
+          735
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 382.86,
+            "y": 721.404,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 390.816,
+            "y": 719.28,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 398.61,
+            "y": 717.156,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 406.224,
+            "y": 715.032,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 414.198,
+            "y": 712.908,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 421.992,
+            "y": 710.784,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          }
+        ],
+        "head_origin_x_pt": [
+          382.86,
+          390.816,
+          398.61,
+          406.224,
+          414.198,
+          421.992
+        ],
+        "internal_gaps_pt": [
+          7.956,
+          7.794,
+          7.614,
+          7.974,
+          7.794
+        ],
+        "internal_gap_range_pt": [
+          7.614,
+          7.974
+        ],
+        "note": "Same-file glyph origins,not ink clearance;voices/chords deduplicated by visible onset context."
+      },
+      {
+        "id": "A143",
+        "page": 1,
+        "system": 5,
+        "label": "Eightordinary32 withinquarter",
+        "selection_x_pt": [
+          429,
+          485
+        ],
+        "selection_y_pt": [
+          680,
+          730
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 429.786,
+            "y": 708.66,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 437.4,
+            "y": 706.536,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 445.194,
+            "y": 704.412,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 452.988,
+            "y": 702.288,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 460.602,
+            "y": 700.164,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 468.378,
+            "y": 698.04,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 476.172,
+            "y": 695.916,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 483.966,
+            "y": 693.792,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          }
+        ],
+        "head_origin_x_pt": [
+          429.786,
+          437.4,
+          445.194,
+          452.988,
+          460.602,
+          468.378,
+          476.172,
+          483.966
+        ],
+        "internal_gaps_pt": [
+          7.614,
+          7.794,
+          7.794,
+          7.614,
+          7.776,
+          7.794,
+          7.794
+        ],
+        "internal_gap_range_pt": [
+          7.614,
+          7.794
+        ],
+        "note": "Same-file glyph origins,not ink clearance;voices/chords deduplicated by visible onset context."
+      },
+      {
+        "id": "A144",
+        "page": 5,
+        "system": 4,
+        "label": "K16ordinary16 firstbar",
+        "selection_x_pt": [
+          70,
+          219
+        ],
+        "selection_y_pt": [
+          425,
+          470
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 70.488,
+            "y": 432.0536,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 80.226,
+            "y": 432.0536,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 90.144,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 99.882,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 109.62,
+            "y": 434.1776,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 119.358,
+            "y": 434.1776,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 129.276,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 139.014,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 148.752,
+            "y": 436.3016,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 158.49,
+            "y": 436.3016,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 168.408,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 178.146,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 187.884,
+            "y": 438.4256,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 187.884,
+            "y": 449.062905,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 197.622,
+            "y": 438.4256,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 197.622,
+            "y": 449.062905,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 207.54,
+            "y": 442.6736,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 217.278,
+            "y": 442.6736,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "head_origin_x_pt": [
+          70.488,
+          80.226,
+          90.144,
+          99.882,
+          109.62,
+          119.358,
+          129.276,
+          139.014,
+          148.752,
+          158.49,
+          168.408,
+          178.146,
+          187.884,
+          197.622,
+          207.54,
+          217.278
+        ],
+        "internal_gaps_pt": [
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.738,
+          9.918,
+          9.738
+        ],
+        "internal_gap_range_pt": [
+          9.738,
+          9.918
+        ],
+        "note": "Same-file glyph origins,not ink clearance;voices/chords deduplicated by visible onset context."
+      },
+      {
+        "id": "A144",
+        "page": 5,
+        "system": 4,
+        "label": "K16ordinary16 secondbar",
+        "selection_x_pt": [
+          235,
+          384
+        ],
+        "selection_y_pt": [
+          425,
+          470
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 235.35,
+            "y": 432.0536,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 235.35,
+            "y": 446.939311,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 245.088,
+            "y": 432.0536,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 245.088,
+            "y": 446.939311,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 255.006,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 264.744,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 274.482,
+            "y": 434.1776,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 284.22,
+            "y": 434.1776,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 294.138,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 303.876,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 313.614,
+            "y": 436.3016,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 323.352,
+            "y": 436.3016,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 333.27,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 343.008,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 352.746,
+            "y": 438.4256,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 352.746,
+            "y": 449.062905,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 362.484,
+            "y": 438.4256,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 362.484,
+            "y": 449.062905,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 372.402,
+            "y": 442.6736,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 382.14,
+            "y": 442.6736,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "head_origin_x_pt": [
+          235.35,
+          245.088,
+          255.006,
+          264.744,
+          274.482,
+          284.22,
+          294.138,
+          303.876,
+          313.614,
+          323.352,
+          333.27,
+          343.008,
+          352.746,
+          362.484,
+          372.402,
+          382.14
+        ],
+        "internal_gaps_pt": [
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.738,
+          9.918,
+          9.738,
+          9.738,
+          9.738,
+          9.918,
+          9.738
+        ],
+        "internal_gap_range_pt": [
+          9.738,
+          9.918
+        ],
+        "note": "Same-file glyph origins,not ink clearance;voices/chords deduplicated by visible onset context."
+      },
+      {
+        "id": "A144",
+        "page": 5,
+        "system": 4,
+        "label": "K16ordinary16 thirdbar",
+        "selection_x_pt": [
+          400,
+          548
+        ],
+        "selection_y_pt": [
+          425,
+          470
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 400.212,
+            "y": 432.0536,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 400.212,
+            "y": 446.939311,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 409.95,
+            "y": 432.0536,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 409.95,
+            "y": 446.939311,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 419.688,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 429.606,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 439.3441,
+            "y": 434.1776,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 439.3441,
+            "y": 446.939108,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 449.082,
+            "y": 434.1776,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 449.082,
+            "y": 446.939108,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 458.82,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 468.558,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 478.476,
+            "y": 436.3016,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 478.476,
+            "y": 446.938905,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 488.2141,
+            "y": 436.3016,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 488.2141,
+            "y": 446.938905,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 497.952,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 507.6901,
+            "y": 440.5497,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 517.446,
+            "y": 438.4256,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 517.446,
+            "y": 449.062905,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 527.1841,
+            "y": 438.4256,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 527.1841,
+            "y": 449.062905,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 537.1021,
+            "y": 442.6736,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 546.84,
+            "y": 442.6736,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "head_origin_x_pt": [
+          400.212,
+          409.95,
+          419.688,
+          429.606,
+          439.3441,
+          449.082,
+          458.82,
+          468.558,
+          478.476,
+          488.2141,
+          497.952,
+          507.6901,
+          517.446,
+          527.1841,
+          537.1021,
+          546.84
+        ],
+        "internal_gaps_pt": [
+          9.738,
+          9.738,
+          9.918,
+          9.7381,
+          9.7379,
+          9.738,
+          9.738,
+          9.918,
+          9.7381,
+          9.7379,
+          9.7381,
+          9.7559,
+          9.7381,
+          9.918,
+          9.7379
+        ],
+        "internal_gap_range_pt": [
+          9.7379,
+          9.918
+        ],
+        "note": "Same-file glyph origins,not ink clearance;voices/chords deduplicated by visible onset context."
+      },
+      {
+        "id": "A144",
+        "page": 6,
+        "system": 3,
+        "label": "Mfirst7fast32 ascent",
+        "selection_x_pt": [
+          303,
+          352
+        ],
+        "selection_y_pt": [
+          315,
+          382
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 303.516,
+            "y": 380.1776,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 310.608,
+            "y": 371.6636,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 317.682,
+            "y": 365.2916,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 324.774,
+            "y": 363.1676,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 331.848,
+            "y": 361.0436,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 343.71,
+            "y": 331.2896,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 350.622,
+            "y": 324.9176,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "head_origin_x_pt": [
+          303.516,
+          310.608,
+          317.682,
+          324.774,
+          331.848,
+          343.71,
+          350.622
+        ],
+        "internal_gaps_pt": [
+          7.092,
+          7.074,
+          7.092,
+          7.074,
+          11.862,
+          6.912
+        ],
+        "internal_gap_range_pt": [
+          6.912,
+          11.862
+        ],
+        "note": "Same-file glyph origins,not ink clearance;voices/chords deduplicated by visible onset context.",
+        "stem_axis_x_pt": [
+          308.304,
+          315.396,
+          322.47,
+          329.562,
+          336.636,
+          343.71,
+          350.622
+        ],
+        "stem_axis_gaps_pt": [
+          7.092,
+          7.074,
+          7.092,
+          7.074,
+          7.074,
+          6.912
+        ],
+        "axis_basis": "Lower stemsup beamstarts308.304 minushead303.516=4.788pt;upper stemsdown atheadorigin. Different stemside must be normalized before spacing judgment."
+      },
+      {
+        "id": "A144",
+        "page": 6,
+        "system": 3,
+        "label": "Mfirst8ordinary32 descent",
+        "selection_x_pt": [
+          357,
+          399
+        ],
+        "selection_y_pt": [
+          315,
+          382
+        ],
+        "heads": [
+          {
+            "text": "œ",
+            "x": 357.7141,
+            "y": 320.6696,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 364.086,
+            "y": 322.7936,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 370.638,
+            "y": 324.9176,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 377.01,
+            "y": 331.2896,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 378.774,
+            "y": 365.2916,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 385.164,
+            "y": 371.6636,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 391.716,
+            "y": 375.9116,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 398.088,
+            "y": 380.1776,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "head_origin_x_pt": [
+          357.7141,
+          364.086,
+          370.638,
+          377.01,
+          378.774,
+          385.164,
+          391.716,
+          398.088
+        ],
+        "internal_gaps_pt": [
+          6.3719,
+          6.552,
+          6.372,
+          1.764,
+          6.39,
+          6.552,
+          6.372
+        ],
+        "internal_gap_range_pt": [
+          1.764,
+          6.552
+        ],
+        "note": "Same-file glyph origins,not ink clearance;voices/chords deduplicated by visible onset context.",
+        "stem_axis_x_pt": [
+          357.7141,
+          364.086,
+          370.638,
+          377.01,
+          383.562,
+          389.952,
+          396.504,
+          402.876
+        ],
+        "stem_axis_gaps_pt": [
+          6.3719,
+          6.552,
+          6.372,
+          6.552,
+          6.39,
+          6.552,
+          6.372
+        ],
+        "axis_basis": "Lower stemsup beamstarts308.304 minushead303.516=4.788pt;upper stemsdown atheadorigin. Different stemside must be normalized before spacing judgment."
+      }
+    ],
+    "duration_recipes": [
+      {
+        "label": "A143 openingupper fourquarters",
+        "parts": [
+          {
+            "events": 4,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 openinglower 8,q,8,8,q,8",
+        "parts": [
+          {
+            "events": 4,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 A firstupper half,8rest,3ordinary8",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 3,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 p1s5 upperrun;8rest,2six,6six,8ordinary32,2ordinary8",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 6,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "2/3"
+          },
+          {
+            "events": 8,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 p2s1 lastlower;quarter,3eight,2six,5fast32,ordinary8tail",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 3,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 5,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "4/5"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 C firstlower;ordinary8,14ordinary16",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 14,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 p2s6 finalupper wholeoctavefermata",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 p2s6 finallower halfrest,quarterrest,2eightpickup",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 D firstupper;8rest,5eight,quarter",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 5,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 D firstlower independentwholechord",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 D firstlower innerhalf,8rest,3ordinary8",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 3,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 p3s6 secondbar localrun;32rest,7ordinary32,ordinary8,8rest",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 7,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "2",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 p4s3 secondactivity;8rest,4six,8ordinary32,5fast32,5fast32,ordinary8tail",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 4,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 8,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 10,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "4/5"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 p4s6 terminalupper whole-restfermata",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 p4s6 terminallower quarter,quarterrest,halfrest,secco",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 H firstupper half,quarter,quarter",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 finalbackground twelve8 in fourtriplets",
+        "parts": [
+          {
+            "events": 12,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "2/3"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 finalupper twohalfchords",
+        "parts": [
+          {
+            "events": 2,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A143 lastbothwholechordfermata;twosmall16graces not ordinarymeter",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 openingupper 3triplet8,half,3triplet8",
+        "parts": [
+          {
+            "events": 6,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "2/3"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 openingindependentlow double-dottedhalf then8",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "7/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 p1s2 secondbar upper2ordinary8,3triplet8,quarter,3triplet8",
+        "parts": [
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 6,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "2/3"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 C firstupper16rest+15ordinary16",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 15,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 E firstupper16rest+15ordinary16",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 15,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 F firstmain 3triplet8,dottedquarter,2six,3triplet8",
+        "parts": [
+          {
+            "events": 6,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "2/3"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "3/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 F upperfastlayer quarterrest,16rest,5six,8rest,quarterrest",
+        "parts": [
+          {
+            "events": 2,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 5,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 p4s1 secondactivity dotted8,16,dotted8,16,4six,9fast32",
+        "parts": [
+          {
+            "events": 2,
+            "written_quarter_units": "3/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 2,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 4,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 9,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "8/9"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 p5s1 secondlower 6triplet8, mixed8+quartertriplet,ordinaryquartertie-tail",
+        "parts": [
+          {
+            "events": 6,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "2/3"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "2/3"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "2/3"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "1",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 K upper16ordinary16",
+        "parts": [
+          {
+            "events": 16,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 M firstmotor 8receiver,8rest,7fast32,8ordinary32,6six",
+        "parts": [
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 7,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "8/7"
+          },
+          {
+            "events": 8,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 6,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "2/3"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 M secondoccurrence 8receiver,8rest,8ordinary32,7fast32,6six",
+        "parts": [
+          {
+            "events": 2,
+            "written_quarter_units": "1/2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 8,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 7,
+            "written_quarter_units": "1/8",
+            "duration_multiplier": "8/7"
+          },
+          {
+            "events": 6,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "2/3"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 N firstupper halfreceiver thenhalfrest",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 N secondupper 8ordinary16 thenhalfrest",
+        "parts": [
+          {
+            "events": 8,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 N thirdupper whole-rest",
+        "parts": [
+          {
+            "events": 1,
+            "written_quarter_units": "4",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      },
+      {
+        "label": "A144 N fourthupper8ordinary16 thenhalftiedreceiver",
+        "parts": [
+          {
+            "events": 8,
+            "written_quarter_units": "1/4",
+            "duration_multiplier": "1"
+          },
+          {
+            "events": 1,
+            "written_quarter_units": "2",
+            "duration_multiplier": "1"
+          }
+        ],
+        "total_quarter_units": "4",
+        "status": "Local visual reading and rational crosscheck;not fullpitch/native/playback proof."
+      }
+    ],
+    "selected_scope_heads": [
+      {
+        "id": "A143",
+        "page": 2,
+        "system": 1,
+        "label": "Partial5 excludesordinary8tail542",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 505.404,
+            "y": 118.8,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 512.838,
+            "y": 125.172,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 520.272,
+            "y": 129.42,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 527.706,
+            "y": 133.668,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 534.96,
+            "y": 140.04,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          }
+        ],
+        "distinct_onsets": 5,
+        "adopted": false
+      },
+      {
+        "id": "A143",
+        "page": 2,
+        "system": 1,
+        "label": "Ordinary8tail outside5",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 542.412,
+            "y": 148.554,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          }
+        ],
+        "distinct_onsets": 1,
+        "adopted": false
+      },
+      {
+        "id": "A143",
+        "page": 4,
+        "system": 3,
+        "label": "Partialfirst5 excludespreceding4ordinary32",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 441.828,
+            "y": 328.824,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 450.504,
+            "y": 326.7,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 459.36,
+            "y": 324.558,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 468.036,
+            "y": 322.434,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 476.892,
+            "y": 320.31,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          }
+        ],
+        "distinct_onsets": 5,
+        "adopted": false
+      },
+      {
+        "id": "A143",
+        "page": 4,
+        "system": 3,
+        "label": "Partialsecond5 excludesordinary8tail529",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 485.568,
+            "y": 318.186,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 494.424,
+            "y": 316.061,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 503.1,
+            "y": 313.938,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 511.956,
+            "y": 311.814,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          },
+          {
+            "text": "œ",
+            "x": 520.632,
+            "y": 309.69,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          }
+        ],
+        "distinct_onsets": 5,
+        "adopted": false
+      },
+      {
+        "id": "A143",
+        "page": 4,
+        "system": 3,
+        "label": "Ordinary8tail outside5",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 529.488,
+            "y": 307.565,
+            "font": "JPBHKM+Chaconne",
+            "size": 16.29
+          }
+        ],
+        "distinct_onsets": 1,
+        "adopted": false
+      },
+      {
+        "id": "A144",
+        "page": 1,
+        "system": 2,
+        "label": "Partial3 excludespreceding2ordinary8",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 224.712,
+            "y": 314.8196,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 236.232,
+            "y": 314.8196,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 247.734,
+            "y": 316.9436,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "distinct_onsets": 3,
+        "adopted": false
+      },
+      {
+        "id": "A144",
+        "page": 4,
+        "system": 1,
+        "label": "Completecrossstaff9 has3upper+6lower",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 350.622,
+            "y": 80.5496,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 356.472,
+            "y": 86.9216,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 362.484,
+            "y": 91.1696,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 363.546,
+            "y": 123.0476,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 369.396,
+            "y": 129.4196,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 375.408,
+            "y": 133.6676,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 381.258,
+            "y": 142.1636,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 387.108,
+            "y": 148.5536,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 393.12,
+            "y": 157.0496,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "distinct_onsets": 9,
+        "adopted": false
+      },
+      {
+        "id": "A144",
+        "page": 6,
+        "system": 4,
+        "label": "Msecondordinary8ascent,notomitted7",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 241.182,
+            "y": 513.8636,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 248.274,
+            "y": 505.3676,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 255.348,
+            "y": 498.9956,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 262.44,
+            "y": 494.7477,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 269.514,
+            "y": 490.4996,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 281.394,
+            "y": 460.7456,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 288.468,
+            "y": 454.3737,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 295.56,
+            "y": 452.2496,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "distinct_onsets": 8,
+        "adopted": false
+      },
+      {
+        "id": "A144",
+        "page": 6,
+        "system": 4,
+        "label": "Msecond7fast32descent",
+        "heads": [
+          {
+            "text": "œ",
+            "x": 302.634,
+            "y": 450.1256,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 309.726,
+            "y": 452.2496,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 316.98,
+            "y": 454.3737,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 324.054,
+            "y": 460.7456,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 326.538,
+            "y": 490.4996,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 333.63,
+            "y": 494.7477,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          },
+          {
+            "text": "œ",
+            "x": 340.884,
+            "y": 498.9956,
+            "font": "HFHOCD+Chaconne",
+            "size": 16.2899
+          }
+        ],
+        "distinct_onsets": 7,
+        "adopted": false
+      }
+    ],
+    "beam_scopes": [
+      {
+        "id": "A143",
+        "page": 2,
+        "system": 1,
+        "selected_x_ranges_pt": [
+          [
+            510.192,
+            547.652
+          ],
+          [
+            510.192,
+            540.202
+          ]
+        ],
+        "polygons": [
+          {
+            "box": [
+              510.192,
+              102.852,
+              547.652,
+              107.122
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              510.192,
+              106.038,
+              540.202,
+              109.888
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              510.192,
+              109.242,
+              540.202,
+              113.072
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A143",
+        "page": 4,
+        "system": 3,
+        "selected_x_ranges_pt": [
+          [
+            399.672,
+            477.342
+          ],
+          [
+            399.672,
+            431.642
+          ],
+          [
+            441.828,
+            477.338
+          ],
+          [
+            485.568,
+            529.938
+          ],
+          [
+            485.568,
+            521.078
+          ]
+        ],
+        "polygons": [
+          {
+            "box": [
+              399.672,
+              351.128,
+              477.342,
+              354.328
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              399.672,
+              348.572,
+              431.642,
+              351.142
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              441.828,
+              347.936,
+              477.338,
+              350.566
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              399.672,
+              345.386,
+              431.642,
+              347.956
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              441.828,
+              344.75,
+              477.338,
+              347.38
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              485.568,
+              337.322,
+              529.938,
+              340.522
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              485.568,
+              334.346,
+              521.078,
+              337.336
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              485.568,
+              331.16,
+              521.078,
+              334.15
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A144",
+        "page": 6,
+        "system": 3,
+        "selected_x_ranges_pt": [
+          [
+            308.304,
+            351.072
+          ],
+          [
+            357.714,
+            403.326
+          ]
+        ],
+        "polygons": [
+          {
+            "box": [
+              308.304,
+              340.488,
+              351.072,
+              351.054
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              308.304,
+              343.674,
+              351.072,
+              354.24
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              308.304,
+              346.86,
+              351.072,
+              357.426
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              357.714,
+              339.012,
+              403.326,
+              351.684
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              357.714,
+              342.216,
+              403.326,
+              354.87
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          },
+          {
+            "box": [
+              357.714,
+              345.402,
+              403.326,
+              358.056
+            ],
+            "ops": [
+              "m",
+              "l",
+              "l",
+              "l"
+            ]
+          }
+        ]
+      }
+    ],
+    "initial_hypotheses_corrected": [
+      "A143Bfivefast32 endbeforeordinary8tail;bare5 doesnotcoverall6heads",
+      "A143p3s6 upperlocalrun has32rest+7ordinary32,thenordinary8 and8rest;normalglyphs,not8fastornaments",
+      "A143p4s3 activity has8ordinary32 beforetwopartial5groups,not4;lastordinary8outside5",
+      "A144p4s1 ninehas3upper+6lower heads,not2upper+7lower",
+      "A144M first7ascent then8ordinarydescent;later8ordinaryascent then7descent,notomitted7symmetry",
+      "A144N fourbars have two separate wholeoctave tiepairs;oldopenresonancewording notsupportedbyvisibleendpoints",
+      "A143ending tripletnumerals omittedafteronly2groupsinfirstbar;Gould215 suggestsafterabarortwo,so retainwholefirstbarlabels ascomparison ratherthanuniversalendorsement"
+    ]
+  },
+  "book_reread_printed_pages": [
+    40,
+    43,
+    156,
+    157,
+    187,
+    199,
+    200,
+    203,
+    207,
+    213,
+    215,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    311,
+    312,
+    319,
+    321,
+    322,
+    323,
+    324,
+    325,
+    327,
+    328,
+    329,
+    330,
+    333,
+    334,
+    335,
+    336,
+    337
+  ],
+  "book_reread_technical_pages": 34,
+  "book_new_technical_pages": 0,
+  "book_new_auxiliary_pages": 0,
+  "new_native_candidate_conditions": 0,
+  "software_adaptation_changes": 0,
+  "judgments": {
+    "keep": [
+      "Stableactivity/ordinary8versus7/complete6and9/mixed3",
+      "Handroutes/actualstemaxes/halfPedanchor/localdynamic-tempoentries",
+      "Ntwoactualoctavetiepairsandindependentrests;central-seccoversusfinalhold"
+    ],
+    "compare": [
+      "Partial5/3shortbrackets excludingordinaryprefix/tail",
+      "WILLfirstbarallfourtriplet3thenomitlater,sourceomitsafteronlytwogroups"
+    ],
+    "corrected_initial_hypotheses": [
+      "A143Bfivefast32 endbeforeordinary8tail;bare5 doesnotcoverall6heads",
+      "A143p3s6 upperlocalrun has32rest+7ordinary32,thenordinary8 and8rest;normalglyphs,not8fastornaments",
+      "A143p4s3 activity has8ordinary32 beforetwopartial5groups,not4;lastordinary8outside5",
+      "A144p4s1 ninehas3upper+6lower heads,not2upper+7lower",
+      "A144M first7ascent then8ordinarydescent;later8ordinaryascent then7descent,notomitted7symmetry",
+      "A144N fourbars have two separate wholeoctave tiepairs;oldopenresonancewording notsupportedbyvisibleendpoints",
+      "A143ending tripletnumerals omittedafteronly2groupsinfirstbar;Gould215 suggestsafterabarortwo,so retainwholefirstbarlabels ascomparison ratherthanuniversalendorsement"
+    ],
+    "unresolved": "Candidate/nativebenefit/fullpitch/playback,actualturn/print andaestheticadoption remain open.",
+    "no_user_aesthetic_acceptance": true
+  },
+  "external_resource_completion": {
+    "new_complete_scopes": 0,
+    "resources_unchanged": [
+      15,
+      25
+    ]
+  },
+  "scope": {
+    "corpus_closeouts_before": [
+      130,
+      146
+    ],
+    "corpus_closeouts_after": [
+      132,
+      146
+    ],
+    "corpus_closeout_pages": [
+      896,
+      1135
+    ],
+    "remaining_score_closeouts": 14,
+    "remaining_score_pages": 239,
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resources": [
+      15,
+      25
+    ],
+    "remaining_resources": 10,
+    "transfer": [
+      8,
+      8
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "user_preparation": [
+      2,
+      4
+    ]
+  },
+  "fixed_release_tag": "engraving-v0.15.0",
+  "goal_status": "active",
+  "skill_routes_updated": [
+    "overview",
+    "spacing",
+    "rhythm",
+    "tempo",
+    "beams",
+    "curves",
+    "markings",
+    "ornaments",
+    "octaves",
+    "piano",
+    "cross-staff",
+    "notation",
+    "layout",
+    "sources",
+    "cases",
+    "clefs"
+  ],
+  "cache": {
+    "measured_at_utc": "2026-10-30T04:56:11.957170+00:00",
+    "batch": {
+      "directory": "will-biggirl-2026-10-30",
+      "files": 103,
+      "logical_bytes": 16137657,
+      "on_disk_bytes": 16137657,
+      "on_disk_unknown_files": 0
+    },
+    "total_logical_bytes": 3057125672,
+    "new_runtime_or_original_PDF_copies": 0,
+    "files_deleted": 0,
+    "errors": 0,
+    "note": "Before final smallrecords;125distinctviews42reuse83new. Repeated display addsno count."
+  },
+  "validation": {
+    "status": "passed",
+    "checked_at_utc": "2026-10-30T04:57:19.936533+00:00",
+    "source_hashes_and_page_counts_checked": 3,
+    "viewed_image_hashes_checked": 125,
+    "reused_images": 42,
+    "new_images": 83,
+    "source_head_origins_rechecked": 77,
+    "individual_metric_glyphs_rechecked": 91,
+    "scope_glyphs_rechecked": 44,
+    "beam_polygons_rechecked": 17,
+    "stem_axes_rechecked": 15,
+    "internal_gaps_rechecked": 70,
+    "rational_duration_recipes": 35,
+    "whole_score_pages": 12,
+    "system_rows": 69,
+    "book_rereads": 34,
+    "new_book_coverage": 0,
+    "skill_routes_executed": 20,
+    "direct_study_routes": [
+      "overview",
+      "spacing",
+      "rhythm",
+      "tempo",
+      "beams",
+      "curves",
+      "markings",
+      "ornaments",
+      "clefs",
+      "octaves",
+      "piano",
+      "cross-staff",
+      "notation",
+      "layout",
+      "sources",
+      "cases"
+    ],
+    "public_paths_utf8_lf": 25,
+    "local_markdown_links_checked": 1422,
+    "corpus_closeouts": [
+      132,
+      146
+    ],
+    "corpus_closeout_pages": [
+      896,
+      1135
+    ],
+    "remaining_pages": 239,
+    "resources": [
+      15,
+      25
+    ],
+    "user_integrated": [
+      0,
+      1
+    ],
+    "new_native_conditions": 0,
+    "new_software_adaptation": 0,
+    "goal_status": "active",
+    "reading_not_inferred_from_validation": true,
+    "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+    "cache_total_logical_bytes": 3057134059,
+    "files_deleted": 0
+  }
+}

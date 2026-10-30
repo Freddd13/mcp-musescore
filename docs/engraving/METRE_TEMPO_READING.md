@@ -225,3 +225,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：恢复指向局部速度
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：Weight页首rubato68、A74，L的a tempo按此前poco rit.／ad lib.及局部74上下文读；不直接套初速。I前保持后的断口和pp8弱起分别保，精确工程速度另核。
+
+## 2026-10-30：行末先恢复速度再进新段
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL p4s5末四分70从q2生效，带两个三连8休止后的pp引入，再到I；p1末accel.也在B之前。J a tempo按局部70恢复，WILL I按局部84与此前rit.读，不吸到新行／段号。

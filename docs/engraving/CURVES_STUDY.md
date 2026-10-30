@@ -228,3 +228,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：慢线长弧与快层短弧分读
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! H长下弧跟随跨表旋律，快活动另有上弧；引导线可改虚线但保角色与接收。Weight D虚线、保持tie和DS／Coda每遍接收分别核，不能用纸面相邻代替实际来路。
+
+## 2026-10-30：真实tie端点与声部引导分判
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL N下部是第1→2和第3→4bar两对全音八度tie，第3bar重发，不是开放无终止共鸣。WILL接续虚线与慢线长弧、快层短弧各有用途，不能统一为一条滑奏或整表弧。

@@ -88,3 +88,7 @@ MIDI实际有102次NoteOn，颤音生成的事件多于26个书面音。相同�
 ## 2026-10-30：小音展开与长保持并行
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：Weight最后8个小32跨表、约普通75%，后接l.h.白头二分，低部附点二分持续；保装饰身份、范围及接收，不按普通32加拍或从字号反推借时。
+
+## 2026-10-30：自由普通运行与小装饰分清
+
+[WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL N a piacere仍是八个普通16后half-rest，最后8个16接half tied receiver；不变成零时值小音。WILL末两个小16约普通75%，独立于下部12个三连8；字号不决定借时。
