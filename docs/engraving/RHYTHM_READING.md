@@ -278,3 +278,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：六个细分单位不一定六次起音
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You p2s5末组六连为四个16＋一个8，共六单位、五次起音，完整梁保裸6；p4s3三连／五连各完整。Beginning p5s1末梁前三16三连、第四8普通，比较短3括号；不要单数符头报警。
+
+## 2026-10-30：完整梁、休止与部分3分判
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki完整三音梁裸3、梁外单干成员短括号、K含休止跨表组均已有清楚范围。Uchiage I末梁两普通16后才三连16，p5s4普通8后才三连16，比较短括号；F全段普通16，改正旧32误读。

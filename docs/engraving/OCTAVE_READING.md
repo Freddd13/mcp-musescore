@@ -222,3 +222,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：短低八度与终止保持
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：Beginning M下部低八度只包首保持八度，末上部8va包终和弦接收；To You G短低八度、D上部8va和J前低八度各有角端。手括形不决定八度范围，换号也不自动结束旧持续。
+
+## 2026-10-30：引入与loco不能吸向段首
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage p1s5第二小节ppsub／8va在q3.5最后8开始，J中loco快线和重开8va各有端点。Tokimeki L长8va结束，末sfz8单独短8va；不延长到全终止，也不把移位套另一表。

@@ -310,3 +310,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：F换号与局部手层分配
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You F下表持续和弦／较高活动交替、上表已有快慢层；换号减加线但断参照。比较固定号／跨表／第三表须核完整织体和占页。开头r.h.只包全音和弦最高头，K的l.h.只指内层，不按一表一手套。
+
+## 2026-10-30：重复活动让内层可见
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage开头八分轮廓与下部长和声，D／F虚线首次示接续、之后simile，H低部mp与上部pp引入分别突出层次。Tokimeki J二分慢线、轮流三连、下部全音保持并存，不按一表一层处理。

@@ -363,3 +363,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：黑短头与空心接收各有时值
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You p1s5末上部双附点四分1.75q＋16.25q＋二分2q，短头tie白头再跨页；p2s1运行首16、之后才32。梁数／附点／音头一起读，不能当多附点二分或重复头合并。
+
+## 2026-10-30：密度、白黑头和范围纠错
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage F两层梁为16，8休止＋14six＝4拍；Tokimeki J白二分与黑八分同音并置各有持续。Uchiage部分3只含末三16，前普通8或普通16不缩放；局部计量是核对，非全曲逐音证明。

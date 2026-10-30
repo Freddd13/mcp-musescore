@@ -141,3 +141,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：旧持续中的新时点
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You p1s5双附点四分＋16＋二分的同音接收别删；K低部长tie与内层休止／ppp并存，踏板在ppp末两小节前解除而tie继续，不自动理解为全部松开。p5s2末上部附点二分fermata后两8，下面全小节休止，Tempo I在q3开始。Beginning I二分休止不是整小节休止。
+
+## 2026-10-30：J同音不同持续与两种结尾
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki J同音白二分／黑八分属于慢线与活动，保各自持续；末四分接收后四分休止、sfz8、8休止、四分休止。Uchiage K全音连续tie与morendo则保持不断，不能套统一终和弦。

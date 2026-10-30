@@ -213,3 +213,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：Tempo I从引入开始
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You G明确四分134；p5s2末Tempo I／p已在附点二分延长后的两8，从q3进入，早于下一行J。Beginning结尾rit.／a tempo／rit.分时段；f dim.／mf dim.／mp cresc.也各保起点和过程。
+
+## 2026-10-30：摇摆解释和真实三连并存
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki开头两普通8解释成三连四分＋8，F同时有显式三连和普通8；书写中点与演奏后2/3相遇分查，候选同步排法需比较，未将Gould变速章节冒作摇摆专条。

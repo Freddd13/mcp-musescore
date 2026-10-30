@@ -212,3 +212,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：开头共梁与持续层分判
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You开头两个半小节各由下表三16接上表一16再tie四分，仍一条2q动作；保持层、局部r.h.另读。Gould314–315保共梁、最短干与五线净空，不能改成两套重复休止或把所有干剪齐。
+
+## 2026-10-30：K含休止三连和接续提示
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki K休止＋上表一音＋下表一音共同组成三连，括号保完整；上干慢和弦另读。Uchiage D／F跨表虚线帮助跟踪，准确编辑类型待工程对象确认，不自动改为gliss或连续大弧。

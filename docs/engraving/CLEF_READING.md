@@ -111,3 +111,7 @@ Kaibutsu K下表先低八度再高处材料。选定F5在当前高音顶线，�
 ## 2026-10-30：重复换号成为完整布局候选
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You F每半小节以低音号写持续和声、随后高音号写活动，保音域却打断参照。先比较局部净空、固定号的加线、跨表或第三表的手／声部与页面代价，不靠阈值删号或隐藏号。Gould7–9／303–304分条件使用。
+
+## 2026-10-30：换号与保持层一起比较
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage F下部高活动／持续和声反复换号，先核降低加线的收益及中断音高参照的代价。局部缩谱号余白或固定号／第三表候选须看完整两手、保持和页面占位，不能阈值隐藏换号。

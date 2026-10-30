@@ -197,3 +197,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：拍梁与跨拍短弧共存
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You H每拍8＋16＋16分梁，短弧从后半拍高音连下一拍低音，不据弧重连梁；D音阶内梁可保连贯，重新对齐困难时再比较8／4／2。Beginning6组中途换号不截断梁。
+
+## 2026-10-30：两层梁与组的真实范围
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage F八分休止＋14普通16为4拍，密度不能代梁数判断。Tokimeki p4s1第二组含梁外单干，短括号已包齐；K跨表梁仍一组。白头／黑头独立干向不能按几何重叠合并。

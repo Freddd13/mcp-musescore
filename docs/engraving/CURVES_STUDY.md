@@ -212,3 +212,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：短弧跨拍不要求梁也跨拍
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：To You H短弧给连奏动作，主梁给拍点；开头共梁弧含两表成员，内层跨表长弧另有任务。Beginning句弧、短tie和长保持分功能，不为图形一致统一端点。
+
+## 2026-10-30：建立关联后省提示
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage F虚线开始两次示内层接续后simile，弧和tie另有动作／持续任务。保首次提示及其接收，不逐组补满，也不据视觉相似推定宿主对象类型。

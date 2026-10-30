@@ -308,3 +308,7 @@ C32组内7.434–7.614pt，下一小节8.136–8.154pt，各自稳定；X十四1
 ## 2026-10-30：稳定活动与混合时值分判
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：Beginning H四处14普通16内部距7.254–7.632pt，To You D32普通32约7.254–7.452pt，可保活动。H下部8＋16＋16约17.35／10.62pt，长值压缩而仍可辨；不要求2:1比例或所有头等距。原点不等于墨迹净距。
+
+## 2026-10-30：摇摆解释下的同步疑点
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki F三连原点87／98.520／111.120pt，下部普通后八分104.880pt；按页首长短解释预期接近第三音。保存原排／显式同步候选，未采为规则。Uchiage开头8活动10.56–10.80pt可保，F16局部增宽先核下部换号／保持／移头。

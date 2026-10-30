@@ -181,3 +181,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：先行力度与后续正式入口
 
 [Everlasting／Heroes](INTEGRATED_READING_EVERLASTING_HEROES.md)：Everlasting mf在F前8休止附近，168在随后完整F主题；L p在休止后q1。Heroes B／H前下部末8已有mf、随后上部p；I／J前四8引入有p／ff。末fff四普通8和弦，前3不并入，旧读法更正。
+
+## 2026-10-30：H之前已有两层力度
+
+[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Uchiage H前一小节q3上部pp与下部mp各引入，保不同层归属；p1s2 psub在A前q3，p1s5 ppsub在下一小节前q3.5。段号不是全部表情的统一锚点。
