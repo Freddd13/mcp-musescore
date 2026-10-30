@@ -232,3 +232,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：真实tie端点与声部引导分判
 
 [WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL N下部是第1→2和第3→4bar两对全音八度tie，第3bar重发，不是开放无终止共鸣。WILL接续虚线与慢线长弧、快层短弧各有用途，不能统一为一条滑奏或整表弧。
+
+## 2026-10-30：长短弧与最后tie分别追到对象
+
+[残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响G的慢线、背景短句和低保持不同层，不能统一高度丢归属；末bar两部8receiver后各自休止，没有finalfermata。红莲结尾上部whole-restfermata、低wholechordfermata仍保持，前接小16的全部音高／借时未校勘，不能凭外形改tie。

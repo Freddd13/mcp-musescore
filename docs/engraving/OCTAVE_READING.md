@@ -242,3 +242,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：八度线与tie范围分别核
 
 [WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL N的8vb覆盖四bar，但低部tie分两对，第3bar重新攻击。B／C／H局部8vb角端不能跨到后续活动；WILL最后上8va仅局部、下8vb另有持续范围，不按最近高低音自动扩线。
+
+## 2026-10-30：普通尾音与自由运行也有具体角端
+
+[残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响adlib四组5仍为普通字号双梁16，8va／8vb依实际角端，不覆盖整段；pp后8vb在短2/4前后按图解除。红莲R换号、局部低8及最终保持各有范围，不能因段号或最后高低头自动扩线。

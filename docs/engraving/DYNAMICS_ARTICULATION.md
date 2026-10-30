@@ -201,3 +201,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：先辨进入时点和层次再对齐
 
 [WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL F主旋律f在q2.5，快层mp在q1.25，不能当同刻冲突；L上快mp与慢线／低部f也分层。WILL p2末mp q3、J之前mf末8保引入。secco在休止区有收干用途，不挪到方便空隙。
+
+## 2026-10-30：拍内引入与休止预告各有用途
+
+[残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响F sfz q0／mf q1，G内层mp q0／p背景q1分开；红莲mp sub q1、后mf q3.25及J前f q3.25各保时点。另有K段首mp在休止处预告，不强制每个动态都吸到音头。

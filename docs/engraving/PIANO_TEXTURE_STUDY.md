@@ -330,3 +330,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：闲置谱表不机械补休止
 
 [WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：WILL H前三bar两手在上表，以相反干向及手括号分工；空下表不补暗示手休息的whole-rest。BIGGIRL I的r.h.仅局部重复和弦，不能绑定整表；F快层mp与慢线f时点、角色独立。
+
+## 2026-10-30：同表快慢与另一表普通拍并行
+
+[残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响G内线mp从q0、p背景从q1，低部whole保持；p5s3上表旋律3与快层9并行，下表普通8独立。红莲O的p背景／mf内层保角色，R上表暂用F服务整段低音区，不按一个头或voice号重分主次。

@@ -100,3 +100,7 @@ Kaibutsu K第二行斜虚线引导低表中间旋律到上表，L前末拍叉头
 ## 2026-10-30：引导线与滑奏各守端点
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：We Are! H斜实线连接声部，可按Gould307比较虚线；p5s2才有gliss.文字和低处八分端点，另层二分保持并行。Weight D虚线服务接续，不统一成gliss对象。
+
+## 2026-10-30：键集合与不指定端点的区别
+
+[残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响明确black keys／X起点与局部八度，红莲某些滑线则从实际音或保持指向音区，未写精确终点。保原提示与作用时段，不从斜率猜键集合／数值音高；补端点属于记法提议，不能混入线条美化。

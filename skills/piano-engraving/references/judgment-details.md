@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_ZANKYOU_GUREN.md`：残响pp低wholepair共享4q、上部halfrest后halfpair共享2q，第二头分别q2／q3，不视觉居中或相加；末8receiver后共同静默不同于红莲低whole保持。
+
 `INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL N是两对低全音八度tie，第三bar新攻击；上部whole-rest不代表全停。WILL半Ped从延长bar起点至mp弱起后解除，secco与最终保持另判。
 
 `INTEGRATED_READING_WEARE_WEIGHT.md`：We Are!末错开攻击之后还有共同整休止；Weight低长保持与装饰／高接收分别保。
@@ -126,6 +128,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_ZANKYOU_GUREN.md`：红莲J必要变音下7.267–11.521pt非等距轮廓重复三bar，先看熟悉形状和占位原因，别以方差直接报错；残响3／9／普通8保22共同列及下部中间时点。
 
 `INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL跨表头位距1.764pt经干侧复核为约6.552pt，先核轴再评挤；K稳定16保留，M普通八个32不补7。
 
@@ -256,6 +260,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_ZANKYOU_GUREN.md`：残响首9含dotted8rest＋6six，3与9并行不嵌套；红莲混合5为8＋3six四攻击、完整6后quarter独立。部分3／7只框真成员；13:10／7:6须核意图再完整标比。
 
 `INTEGRATED_READING_WILL_BIGGIRL.md`：WILL部分5／BIGGIRL部分3排除普通首尾；混合3为8＋quarter，先定份额和范围。WILL首bar只标两组的早省数字与Gould215条件分列，比较首bar四组全标。
 
@@ -399,6 +405,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 
 <a id="cross-staff"></a>
 
+`INTEGRATED_READING_ZANKYOU_GUREN.md`：残响p5s3上表3与9共头、下表普通8独立，不能把中间时点吸到最近快头；手提示／谱表／旋律角色按实际范围。
+
 `INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL完整9为上三下六；M跨表假压缩先核干向／轴，WILL两手同在上表时不机械补空下表休止。
 
 `INTEGRATED_READING_WEARE_WEIGHT.md`：K括号B3按Gould308双手同音保长短投影；H引导实线可比虚线，不当滑奏。
@@ -436,6 +444,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 跨表先分单线跨手与独立两部，再比较共同梁两方向短端、坡度、副梁和表距；不要见短干便全谱加行距或抹平。拍内短休止可邻近后续音所在表，整拍／独立部另判；中央共同休止可行，但不应切梁或挤占已繁忙的动态通道。`cross-staff`的`CROSS_STAFF_STUDY.md`第8–12节有同距平梁／稍宽斜梁及同MIDI拒绝例；该例全局Style仅用于短练习，不能直接推广全曲。
 
 <a id="ornaments"></a>
+
+`INTEGRATED_READING_ZANKYOU_GUREN.md`：红莲N的trillhalf、两小16收尾、四普通8分段，波线不扩至全bar；残响adlib双梁16保自由上下文，交替震音各自共享时段。
 
 `INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL a piacere是普通16及half-rest，不能零时值化；WILL末小16约普通75%，与连续三连背景分开，不据字号定借时。
 

@@ -161,3 +161,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：休止中仍有保持或收干要求
 
 [WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL N上部whole-rest时下部新全音八度仍发音并tie到后bar，保两次低音攻击。WILL中段最后攻击后secco／休止延长与最终全音和弦保持不同；半Ped从延长bar起点到晚mp弱起后解除，按Ped.P锚点保。
+
+## 2026-10-30：震音共享时段及不同结束过程
+
+[残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：残响pp低wholepair共享4q、第二头q2；上部halfrest后halfpair共享2q、第二头q3，别把两端时值相加或视觉居中。F短Ped解除与后bar长共鸣分判，末8receiver后共同静默不同于红莲结尾低部whole保持。

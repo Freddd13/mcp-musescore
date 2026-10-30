@@ -229,3 +229,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：行末先恢复速度再进新段
 
 [WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL p4s5末四分70从q2生效，带两个三连8休止后的pp引入，再到I；p1末accel.也在B之前。J a tempo按局部70恢复，WILL I按局部84与此前rit.读，不吸到新行／段号。
+
+## 2026-10-30：恢复单位与下一段新速分开
+
+[残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：红莲引子half88／割拍，p1s3末bar q2 atempo先恢复，B才quarter184／4/4；不能提前套新速或错成quarter88。残响quarter171在halfrest起点，gliss／f在后半；速度、动作和段号不共用一个默认锚点。

@@ -92,3 +92,7 @@ MIDI实际有102次NoteOn，颤音生成的事件多于26个书面音。相同�
 ## 2026-10-30：自由普通运行与小装饰分清
 
 [WILL／BIGGIRL](INTEGRATED_READING_WILL_BIGGIRL.md)：BIGGIRL N a piacere仍是八个普通16后half-rest，最后8个16接half tied receiver；不变成零时值小音。WILL末两个小16约普通75%，独立于下部12个三连8；字号不决定借时。
+
+## 2026-10-30：普通运行、终止小音与震音分别读
+
+[残响／红莲](INTEGRATED_READING_ZANKYOU_GUREN.md)：红莲N半音符trill之后两小16收尾、再四普通8，波线止于收尾前；小音不自动零借时。残响adlib普通字号双梁16不强配整条比例，pp交替震音两端共享本层时段，各自第二头按节奏中点排。
