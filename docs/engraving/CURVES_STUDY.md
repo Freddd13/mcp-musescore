@@ -240,3 +240,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-30：快层弧、旋律路线与tie分别保
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：廻廻奇譚H长弧组织慢线、局部tie跨界保持；残酷天使虚线引导内线、正常实弧罩运行，实际波浪滑奏另读。统一线形或删交叉会丢任务；末小音接收须核音高，不能凭外观全改持续。
+
+## 2026-10-30：曲线的任务分别保护
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again E开放持续、I虚线与p3s2波浪下滑分读；Akuma F开放弧、最终实际tie接收保留，2/4末开放弧不改成连向休止的tie。

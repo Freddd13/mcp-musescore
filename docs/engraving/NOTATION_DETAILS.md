@@ -391,3 +391,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-30：字号、数字与持续不互相替代
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：廻廻奇譚两小16约75%，残酷天使开头／最后graces约66%，但其moltorall小run约75%另有上下文。最终四小16两梁，rubato五32三梁；N22快攻击＋2rest，不能单从黑头数反推时值。
+
+## 2026-10-30：较长尾音与重复字形
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Akuma C十四个可见快头含16尾音，共头x150.174重复记录；Again N共头差不足0.002pt。先选快层表示，字形条数不能算起音；完整5双梁16、部分3三梁32。

@@ -126,3 +126,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-30：同一行Coda空隙有定位价值
 
 [We Are!／Weight](INTEGRATED_READING_WEARE_WEIGHT.md)：Weight p4s2左DS返p2s4 D，p2s6 ToCoda再跳p4s2右Coda；空隙、新括号和谱号帮助辨目标，保留。首遍顺读E，返回与跳转接收按各自来路核，不为等密填空。
+
+## 2026-10-30：按实际反复路线读取
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again E/J局部反复及房子不套D.S.，第二房子接后续段；Akuma拆bar跨行仍为一个4/4，导航和变音状态不因换行重置。

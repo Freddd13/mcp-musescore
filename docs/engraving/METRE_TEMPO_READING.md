@@ -237,3 +237,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-30：长短解释和真正变速等式分查
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：廻廻奇譚E两个16等于triplet8＋16，同总量半q，F恢复straight；书面横距不按演奏2:1强排。F前mf与界后说明分开，工程精确范围未知。残酷天使12/8dotquarter76后N66仍保6qbar。
+
+## 2026-10-30：恢复可在引入休止生效
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again Tempo I在p6s2末bar q3上部quarterrest处，低部接8rest＋两16引入Q。Akuma K前结束8va，K新quarter75；末2/4及4/4 adlib分别保，装饰借时未定。

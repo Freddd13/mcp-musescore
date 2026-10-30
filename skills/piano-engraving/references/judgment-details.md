@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：额外局部快线不自动补满整bar；六连首rest却必须保。开放持续、实际接收、手指保持与Ped分读。
+
 `INTEGRATED_READING_ZANKYOU_GUREN.md`：残响pp低wholepair共享4q、上部halfrest后halfpair共享2q，第二头分别q2／q3，不视觉居中或相加；末8receiver后共同静默不同于红莲低whole保持。
 
 `INTEGRATED_READING_WILL_BIGGIRL.md`：BIGGIRL N是两对低全音八度tie，第三bar新攻击；上部whole-rest不代表全停。WILL半Ped从延长bar起点至mp弱起后解除，secco与最终保持另判。
@@ -128,6 +130,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：Again I宽格内有下层q2.75的16，N16／Akuma J8按活动层评稳定；慢线与重复字形不混算。
 
 `INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：廻廻奇譚H／残酷天使I先选连续16快层再评步幅，慢线共头、附点和grace不能混算；N q3慢音发声时快层恰rest，保护层次优先于填满网格。
 
@@ -262,6 +266,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：Akuma C下降32rest＋13个32＋16；两谱部分3均32，普通前尾音在外。完整3保裸数，含休止6保原括号。
 
 `INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：残酷天使N12/8为22快攻击＋2个16rest；Dquarterrest＋12six，后续8rest＋14six。rubato部分5（三梁32）可比短范围，后面完整6（双梁16）不加无益括号。
 
@@ -408,6 +414,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 先认同一动态进程，再决定哪些标记应共用通道。`markings`的unlasting实例有同表mf／ff和休止前后p sub.／pp：位置不齐可正在表达不同层与时点，不合并／移齐。长限定短语与延续线一起读，分散词的X不自动是新力度或速度事件；起点给全短语及新行提醒可作候选，不能冒充一律禁止分词的规范。几何、逻辑范围与播放scope分查。
 
 <a id="cross-staff"></a>
+
+`INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：Again I虚线跟踪内线，波浪下滑未指定固定终音；Akuma空下表不等于左手休息，跨表和局部手提示分读。
 
 `INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md`：残酷天使p5s4虚线从q1独立低quarter到q2上表、q3低表，非前一快16q.75；它提示内线，不自动产生滑奏。
 
@@ -584,6 +592,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 同表8va常规作用于各部，贴上干部的短线不自动等于voice专属。转置与原位材料同时出现时，先核意图与明确限定；孤立高音可保加线，持续叠层再考虑分表，同表偶发混写须说明范围。`overview`／`octaves`中的`INTEGRATED_READING_NINELIE.md`保留初判后回查规范的修正：官谱局部也可列记法疑问，不能以出版身份代替核查。原创控制原生pitch／音数未变的内层仍实际抬八度，故同时核实际音高与作用范围，不照外形加Ottava。
 
 <a id="navigation"></a>
+
+`INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md`：Again E/J局部反复及房子不套D.S.；Akuma拆bar跨行仍为一个4/4，保导航和变音状态。
 
 `INTEGRATED_READING_WEARE_WEIGHT.md`：Weight同一行Coda空隙、新括号及谱号服务跳入定位；按DS／ToCoda实际来路查接收，保留找路空白。
 

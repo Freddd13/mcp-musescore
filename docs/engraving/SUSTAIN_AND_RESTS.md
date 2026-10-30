@@ -169,3 +169,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：快层休止、共鸣和终止分判
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：残酷天使N慢音与快rest同列，p7短8vb解除不结束两barPed；最后高层dottedwhole6q，低层先dottedhalfrest3q再低chord3q。廻廻奇譚末低8之后各休止，与上部whole-rest延长不同。
+
+## 2026-10-30：额外局部层与真正休止区别
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again p5s5额外快组只出现2q，不自动补满整bar；E开放共鸣与休止可并存。Akuma六连首16rest却决定迟入，必须保。最终接收、手指保持、休止和Ped分读。

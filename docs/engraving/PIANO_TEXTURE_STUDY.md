@@ -338,3 +338,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-30：快慢层共头和独立休止均可成立
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：廻廻奇譚H上干慢旋律、下干连续16同在上表；残酷天使I下表16托住上方切分线。N q3慢音攻击时快层写16rest，不能用共头惯例抹掉休止。E／G手提示与力度按角色和范围保留。
+
+## 2026-10-30：分层之后评价稳定
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again I上pp8、下mp内线与低音独立，N同表慢线与16共头；Akuma J上p legato8、下mp慢线。intro两手共上表、下表前三bar空白不等于左手休息。

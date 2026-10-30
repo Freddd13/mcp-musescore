@@ -250,3 +250,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：同表内层也落在八度线范围
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：残酷天使E8va角端x95.4，首l.h.chordx84.964仍在线内，下个x97.315在线外；不可只按upstem旋律缩线。p7短8vb和Ped各有终点，loco／换号另核。Gould324–325按谱表和各层说明。
+
+## 2026-10-30：八度与连音不必共界
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Akuma六连括号先罩休止，8va从首相关高音开始且罩普通quarter尾音；J续行范围在K前结束。Again局部8va、长音与Ped各有终点。

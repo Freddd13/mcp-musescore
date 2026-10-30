@@ -209,3 +209,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-30：力度与段号不共用默认挂点
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：廻廻奇譚F前最后16已mf且tie跨双线，恢复说明在界后；残酷天使12/8的sf低部q0与pp上层q1.5分开，G pp背景与p歌唱线各有角色。tenuto也帮助跨表路线定位。
+
+## 2026-10-30：迟入与快慢层力度
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again E l.h.在quarterrest后以mp进入，mf另一层为混合活动；I上pp、下mp。Akuma J上p legato、下mp，不合成一个居中力度或扩大手提示。

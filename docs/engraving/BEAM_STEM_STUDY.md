@@ -225,3 +225,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-30：部分五连与完整六连对照
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：残酷天使rubato的5为三梁32，主梁延到普通8tail，两内梁止于第五音，可比短括号；p6s5的6为双梁16，两梁都止第六音，保裸数。N与D已核双梁，不按密度猜32。
+
+## 2026-10-30：完整三连与部分三连分判
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again末页部分3三梁为32，主梁连接普通前缀；Akuma C第二bar部分3还有普通16尾音。只比较实际三音短括号；首bar下部3双梁独立，保裸数。N快慢层干向和重复梁形保留。

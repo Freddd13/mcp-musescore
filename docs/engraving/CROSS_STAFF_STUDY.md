@@ -240,3 +240,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-30：接手路线从独立旋律音追起
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：残酷天使p5s4先四个低16，再q1低quarter、q2高quarter、q3低quarter用虚线相连；不是从q.75最后快音起。保淡线与tenuto，别改成gliss。上下表和r.h./l.h.范围不能仅由音高重分。
+
+## 2026-10-30：引导与实际插入一起读
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Again I末下表q0→上表q1虚线跟踪内线，另一处波浪下滑未指定固定终音。Akuma F跨表、局部r.h.与开放弧各有任务，先保再评通道。

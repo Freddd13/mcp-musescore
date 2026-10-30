@@ -306,3 +306,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-30：同列攻击和同列休止的区别
 
 [廻廻奇譚／残酷天使](INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md)：残酷天使N12/8每半bar为16rest＋11six，整bar22攻击＋2rest；q3另有慢头，不能补算快层。D是quarterrest＋12six，后续已变8rest＋14six。廻廻奇譚开头9triplet8只占3q、结尾12占4q。
+
+## 2026-10-30：先读普通尾音和休止成员
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Akuma C下降32rest＋13个32＋16＝2q，后半上行8rest＋八个32＋三个三连32＋16＝2q。p4s6的6是16rest＋五音，占1q，普通quarter在线外。

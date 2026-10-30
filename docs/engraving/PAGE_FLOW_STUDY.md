@@ -251,3 +251,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：行中起段与引入先行
 
 [Beginning／To You](INTEGRATED_READING_BEGINNING_TO_YOU.md)：Beginning J／M行中开始，To You Tempo I在J上一行两8先恢复，标签不用全部强移行首。Beginning p3→4保八度／和声，To You p1→2保旧同音接收；单表休止或长音不自动表示能翻页。
+
+## 2026-10-30：重复框架与拆bar代价
+
+[Again／Akuma](INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md)：Akuma C/H对应行稳定但非统一中分；p2s2–3一个4/4按2q＋2q拆行，保一个逻辑bar和状态，再比较完整2＋3／3＋2。Again每页5/6/6/6/7/7系统随容量变化。
