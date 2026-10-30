@@ -252,3 +252,7 @@ Gould p65/112要求结合跨行两侧看整条弧，不能每行独立重新选�
 ## 2026-10-31：终止处不全是共同持音
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau终段上部两全音tie、内线不同音slur、下部终和弦重新起音分别读；Before最后两八分有起音与接收链，不能因末延长把全组都当重复或全体tie。
+
+## 2026-10-31：结尾的接收与解决分开
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Blue最后上行借到上表末8，三小音引入全音终止，低音接收和上部解决各读；Black两表quarter接whole且无最后fermata。不能按结尾统一tie／等待模板。

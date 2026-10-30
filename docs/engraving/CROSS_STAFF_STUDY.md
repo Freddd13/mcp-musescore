@@ -252,3 +252,7 @@ A064 A11是11:6十六分占附点四分，长slur覆盖更多动作；M低表的
 ## 2026-10-31：接手路线与背景分别读
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau E／F跨表连续动作、虚线引导与r.h.各有范围；Before preG14个16＋普通8下降跨表，另有长值背景。换表不自动换手，梁／八度／慢持续不要求同一边界。
+
+## 2026-10-31：O的三个上表成员补全运动
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Blue O的q1.5／2／3.5和弦在上表，下部五头另占q0／0.5／1／2.5／3，两个共同梁连接八个8。不能按下表局部计时或将长干当无关线；同一手势与具体手分配仍分别核。

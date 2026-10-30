@@ -181,3 +181,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-31：休止保留快慢层的起音差
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Before F新旋律起音处快层休止，tie接收处快层有音；保十三16头＋三16休止。完整声部的必要休止与只为突出旋律的附加长值分开判断，不按软件voice统一补全。
+
+## 2026-10-31：共鸣背景不掩盖实际拍框架
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Blue O长全音与八分共处，跨表八分本身4q；不能从只见下部五头套自由段便利时值。Black C三连quarterrest属于组，J低部halfrest＋quarterrest后q3才入。

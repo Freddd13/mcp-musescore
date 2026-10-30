@@ -172,3 +172,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-30 青之栖所／Attack本批约13.45MiB，总净书缓存约2.913GiB；117不同视图41复用76新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](ao_attack_evidence.json)在最终小记录前。剩余A005长组曲优先复用整页和按需阅读，避免批量高倍渲染。
 
 2026-10-31 Bauklötze／Before本批约15.38MiB，总净书缓存约2.928GiB；128不同视图42复用86新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](bauklotze_before_evidence.json)在最终小记录前。A005长组曲按主题逐段、优先复用整页并只放大确有疑问的位置，避免批量高倍渲染。
+
+2026-10-31 Black／Blue本批约13.84MiB，总净书缓存约2.942GiB；127不同视图42复用85新图，原PDF／运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](black_blue_evidence.json)在最终小记录前。余组曲继续复用整页，按具体疑问少量放大。

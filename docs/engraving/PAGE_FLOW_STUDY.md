@@ -263,3 +263,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-31：密集与稀疏段分配不同容量
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau L密集段每行较少小节、N转疏；Before G较长和声容纳更多bar。保整体边界和大层级，不据字母强制换行或固定bar数；本批未实测翻页／装订。
+
+## 2026-10-31：同排D.S.与Coda独立分段
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Black p4末行左段D.S.、中间空白、右段新brace／clefs／Coda；35行含36系统段。保路径辨识，不能按同y自动连接。稀疏D／H可五bar一行，Blue K三层与J运动容量分别评。

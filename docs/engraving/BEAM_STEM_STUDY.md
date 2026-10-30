@@ -237,3 +237,7 @@ A068 C每拍八音的三条梁完整贯通，已核三组九条完整梁。p156�
 ## 2026-10-31：内梁显示切分与部分组
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Before D保3＋3＋2，不一律改4＋4；Bau preM普通32三层梁、完整九连32及末四分分别读。部分3of16／5of32与普通8尾共主梁，仅比较实际连音短括号。
+
+## 2026-10-31：部分三连与完整五连
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Blue J3只罩实际三个16，普通8前缀与之共主梁，比较短括号；Black Coda5及Blue H5均完整双梁16，保裸5。O长干跨表连接下部主梁，源字形位置不等于beam成员全在同表。

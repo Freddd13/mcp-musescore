@@ -318,3 +318,7 @@ C四分后24个32；H16个16；p2则附点8休止、1个16、12个16。G首16休
 ## 2026-10-31：有意切分与起音让位
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Before D每半小节3＋3＋2普通16对应附点8＋附点8＋8旋律，保切分和半小节重置；F三个16休止在q0／1.5／3让新旋律起音，q2接收仍有快音。
+
+## 2026-10-31：混合三连与跨表八分
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Black C的3可含quarterrest＋8，I每拍quarter＋8均按2/3比例；Blue O八个8跨表完整，不能只数下表推成缺拍或自由段。Blue J初8后十四16保原单位。

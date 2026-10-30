@@ -249,3 +249,7 @@ A069 p5两处均八分＝八分，拍组改变；Q前已四分76／pp，S字母�
 ## 2026-10-31：恢复速度先于下一段引入
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau p7s3四分70在q3休止附近，q3.5 p引入、N在后；返回提示使引入已有速度依据。Before D3＋3＋2仍为普通16切分，不能读成三连或改4/4时钟。
+
+## 2026-10-31：补齐跨表阅读再判断自由
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Blue O共有完整8carrier，否定缺拍／自由段初判；Gould610–611便利长值条件不套这里。首部a tempo在B前下表右手六连附近，不能延后到字母。

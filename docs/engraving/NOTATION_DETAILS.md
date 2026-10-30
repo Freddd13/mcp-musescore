@@ -403,3 +403,7 @@ p227要求第二端点在整组时长的**逻辑一半**，不是图面几何中
 ## 2026-10-31：重复字形与错头先去歧义
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau开头同拍二度头横移，Before preG同原点quarter／16头甚至重复写入PDF；均不新增时间点。Bau preM下五连32后的普通8排除在5外，完整九连保裸9。
+
+## 2026-10-31：字号和梁层改变时间解释
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Black p5s2末是八个普通16＋half，另三个约75%字号16graces；Blue J双梁十四16，Coda5也是16。缩略图初看32／计拍尾音均已纠正，不按密度猜单位。

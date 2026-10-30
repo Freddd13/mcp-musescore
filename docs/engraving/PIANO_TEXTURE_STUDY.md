@@ -350,3 +350,7 @@ A068 H先fp快型，中层附点二分后最后一拍mf，低表长和弦独立�
 ## 2026-10-31：新起音与接收的快层不同
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Before F快层13头＋3个16休止，休止对应慢旋律新起音，q2慢线接收处快层仍有头。Bau J上pp活动／下mp旋律及全音低音各追踪，不按上表固定主旋律。
+
+## 2026-10-31：共梁八分与独立全音背景
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Blue O五下表头＋三上表和弦组成八个8，q0同音全音背景横移；K则旋律／中层l.h.／长低音三层。Black p6再现新增持续，不复制此前voice／头数。

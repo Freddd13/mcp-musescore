@@ -221,3 +221,7 @@ Kaibutsu G上行干和弦mp、下行干旋律mf、低部稍后f入口各保位�
 ## 2026-10-31：同一后半拍可以是不同音序
 
 [Bauklötze／Before](INTEGRATED_READING_BAUKLOTZE_BEFORE.md)：Bau A／M首8后mf近q0.5，H第三16才到q0.5；Before A的p近q0.5、mp近低音8q1.5，慢旋律q2.5才入。字形左缘不作对象锚点，不吸到段字母。
+
+## 2026-10-31：装饰引入与晚入低音的力度
+
+[Black／Blue](INTEGRATED_READING_BLACK_BLUE.md)：Black mf靠三graces，不能固定q3.5或拖至下行首；preJ ffhalf与J低部休止后q3 ff另有入口。Blue D mp／mf、开头a tempo也按拍内动作读。
