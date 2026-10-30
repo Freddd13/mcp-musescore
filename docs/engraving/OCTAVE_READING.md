@@ -214,3 +214,7 @@ IRIS p4s6短8va只包七连，长slur跨更大范围；Kaibutsu开头a tempo先�
 ## 2026-10-30：范围按角端与谱表，另干不自动原位
 
 [WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：Reason C下表长8vb不能因两种干向就只归重复低音；意图若含同时原位层须明确限定。K上部首二分后8va收角，后sfz回原位；下表8vb继续末行。虚引导、持续tie和力度都不替代八度线。
+
+## 2026-10-30：局部入口和同表持续
+
+[This Game两版](INTEGRATED_READING_THIS_GAME.md)：2014p3s3的8va从六连首头到梁外峰顶8；p7s6首8接收后q0.5开始，延至下小节二分。2021p6s6先两个16局部8va、恢复、末5重开并包全音。下表下方8va传统可作低八度，末低八度含滑奏，不只看va文字。

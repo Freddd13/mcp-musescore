@@ -243,3 +243,7 @@ A069五主题标题有行首／行中，S字母、弱起与Victory March标题�
 ## 2026-10-30：行中标签、独立落点与物理翻页
 
 [WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：WORLD A在行中、Coda独立新系统、E又在同系统中部；各有定位任务，不全部强移行首。D.S.回p1有跨页回找成本；Reason p5→p6仍有活动／持续，未由长音推可翻。
+
+## 2026-10-30：共行断开Coda与真实翻页成本
+
+[This Game两版](INTEGRATED_READING_THIS_GAME.md)：2021D.S.／Coda同纸面行，中间空白和重写起始符号帮助找落点；完整双表目视确认p6六系统。若另起行，要核整页预算及回G成本。2014九页／2021八页含编配差异，页数不证明更好；持续或单表休止不等于可翻页。

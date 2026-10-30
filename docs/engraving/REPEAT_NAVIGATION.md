@@ -114,3 +114,7 @@ A021的m61写D.C.，m36是To Coda，m62是Coda落点；本线按Gould p238–239
 ## 2026-10-30：返回与跳尾声的tie各有来路
 
 [WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：WORLD p4s1 D.S.回p1s1第三小节A／Segno，再到p1s4末To Coda跳p4s2 Coda，首遍仍顺到p1s5。可比补D.S. al Coda措辞，目标缩进／另行再核页预算；静态已核、播放未核。
+
+## 2026-10-30：首次顺行与Coda调号不同
+
+[This Game两版](INTEGRATED_READING_THIS_GAME.md)：2021D.S.从p6s2左段回G／Segno p3s4；第二次p4s3末To Coda跳同p6s2右段M。首遍顺行四升号I–L，Coda仍一升号且重写谱号／大括号。可比补D.S. al Coda；不能继承纸面预告调号或将短段漏作无系统。

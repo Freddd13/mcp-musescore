@@ -46,6 +46,8 @@
 
 <a id="sustain"></a>
 
+`INTEGRATED_READING_THIS_GAME.md`：2014二分延长后下部二分休止，2021全音保持后下一小节上部二分休止、下部整小节休止。末gliss与旧和声共存，进入未明先保疑问。
+
 `INTEGRATED_READING_WORLD_REASON.md`：Reason C／I干奏随后明确踏板，不覆盖整段；交替全音震音共享4q，WORLD末前休止保真实层与时点。
 
 `INTEGRATED_READING_RUMBLING_AETHER.md`：Rumbling末二分tie接收后二分休止，旧整小节休止勘误；小音组首低音保持另保护。
@@ -112,6 +114,8 @@ T08在后续整曲核查中漏看末尾贴谱线的tie，后由两手放大图�
 线重／弧端看似灰淡或断开时，先核完整上下文、裁图与矢量，再比较同物理尺寸／输出管线。相同几何的原生PNG与PDF栅格化可显不同黑度；曲线提取框甚至可能只反映端点，不能据零高外框判没有墨迹。`curves`／`baseline`中的`OUTPUT_READING.md`有真实保留反例，不为预览表象补接或加粗工程。
 
 <a id="spacing"></a>
+
+`INTEGRATED_READING_THIS_GAME.md`：同类下部16伴奏，上部6／32的中间事件可能合理拉开共同列；先查实际编配，避免分别拉齐两手。
 
 `INTEGRATED_READING_WORLD_REASON.md`：WORLD I保八分步幅；Reason十四16保升号前缀，再现换密度不照搬宽度。
 
@@ -228,6 +232,8 @@ SPACING_MODELS接入时间—空间专题：普通同值稳定感、软件比例
 `spacing`的`LILYPOND_KEYBOARD_CASES.md`补单位与二度条件：LilyPond旧snippet的force-hshift单位说法与同版属性／源码有差异，实际按音头宽度缩放，不能照抄为MuseScore的sp。普通高低关系与声部交叠的带点部左右选择分别判断，不按一个全局开关统一；看局部覆盖和连接成员后再决定是否恢复自动处理。
 
 <a id="rhythm"></a>
+
+`INTEGRATED_READING_THIS_GAME.md`：完整6有／无括号均可保；2014末主梁两普通16＋后三连已有准确短3括号，保范围。普通四32＋8不是五连。
 
 `INTEGRATED_READING_WORLD_REASON.md`：WORLD／Reason K完整3／5先保裸数；Reason p3s6只前三16为三连、梁尾8普通，比较短括号。
 
@@ -472,6 +478,8 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 换号先看连续材料、手／声部和其它层占位，再比较加线、跨表与八度的代价。拍内休止后、普通小节起点和真正乐句边界不是同一放置规则；乐句边界可优先于拍线，反复后与cue又有例外。`clefs`中的`CLEF_READING.md`用《lit》的必要局部换号和原创短例区分条件：只按音高阈值虽少加线，却可破坏轮廓；隐藏Clef虽同MIDI仍丢读法。预告、实际变化和新行表头分别看，不按可见字形数去重。谱号改写单列为记法提议，不把三条加线或2/3大小当用户阈值／全局预设。
 
 <a id="octaves"></a>
+
+`INTEGRATED_READING_THIS_GAME.md`：2014局部8va可在首8接收后q0.5进入并延过下小节二分；2021末低八度包含持续与gliss。按角端／谱表，不吸附到小节线。
 
 `INTEGRATED_READING_WORLD_REASON.md`：Reason K首二分仍在8va，后sfz已原位；同表不同干向不自行分割8vb范围。
 

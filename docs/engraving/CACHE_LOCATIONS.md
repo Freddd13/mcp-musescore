@@ -148,3 +148,5 @@ python -B tools/engraving/cache_inventory.py
 2026-10-30 Rumbling／Aether本批约9.02MiB，总净书缓存约2.742GiB；67视图19复用48新图，原PDF与运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](rumbling_aether_closeout_evidence.json)在最终小记录前。
 
 2026-10-30 WORLD／Reason本批约12.70MiB，总净书缓存约2.754GiB；94个不同视图33复用61新图，原PDF与运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](world_reason_closeout_evidence.json)在最终小记录前。
+
+2026-10-30 This Game两版本批约13.57MiB，总净书缓存约2.767GiB；101个不同视图32复用69新图，原PDF与运行时复用，未删文件。低于100MiB／3GiB检查线，[字节与时点](this_game_closeout_evidence.json)在最终小记录前。

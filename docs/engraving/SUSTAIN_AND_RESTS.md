@@ -133,3 +133,7 @@ A063 G低表开放弧无下一接收头，不能补成闭合tie；A064 M两次�
 ## 2026-10-30：干湿变化与末尾等待分别读
 
 [WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：Reason C secco之后明确Ped.／释放／simile，I secco之后con Ped.；保局部变化，不拉全段或删后续踏板。WORLD末前上部四分＋两四分休止＋末四分琶音，下部两8／休8／两8／休8／末四分，各4q，再tie末全音延长；不凭踏板抹休止。
+
+## 2026-10-30：二分休止与末滑奏时点
+
+[This Game两版](INTEGRATED_READING_THIS_GAME.md)：2014p7s6上部二分延长后休8＋三8，下部二分后二分休止；2021p6s6先全小节保持，再上部二分休止／休8／三8、下部整小节休止。末滑奏叠旧和声，先导休止未见，准确进入须核；不按横坐标猜q2或抹掉持续。

@@ -1,5 +1,7 @@
 # 从参考谱学到的净书判断，怎样用于下一份谱
 
+2026-10-30[This Game两版](INTEGRATED_READING_THIS_GAME.md)：相近十六分伴奏仍先查上部六连／32的中间列，不能独立把低部拉齐；同曲版本页数与编配分判。完整6有／无括号均可保，2014末部分3准确保短括号；力度及八度可在首接收后进入。D.S.回G、首次顺行四升号与跳入Coda一升号分判；末持续与新滑奏共存，准确进入未明先保留疑问。
+
 2026-10-30[WORLD／Reason](INTEGRATED_READING_WORLD_REASON.md)：先认稳定活动和真实梁端。WORLD I八分保步幅；Reason同主题换伴奏密度，不照搬宽度。WORLD多处3／5及Reason K第二3都是完整梁，撤回部分范围猜测；Reason p3s6只有前三16为三连、末8普通。导航按来路、提前mf按时点，secco／Ped.按范围，虚引导／震音／tie分功能。
 
 2026-10-30[Rumbling／Aether](INTEGRATED_READING_RUMBLING_AETHER.md)：同六个8，3/4两两、6/8三三；m29先休止不漏计。六个小音与低音保持不合成普通8；m68下干四分仍在同表8va范围。部分6／3比较短括号，6/8首宽格核实际占位再比较；Rumbling末为二分接收＋二分休止，旧整小节休止读法更正。
