@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31",
+  "study": "Cross-staff tuplet channel and endpoint-candidate reassessment",
+  "reading_scope": {
+    "official_pages": [
+      {
+        "id": "A013",
+        "page": 5,
+        "detail": "final system; mixed-stem sixes, consistent numeral below beam, no brackets"
+      },
+      {
+        "id": "A076",
+        "page": 6,
+        "detail": "final system last bar; full-bar22, numeral below complete beam"
+      },
+      {
+        "id": "A088",
+        "page": 4,
+        "detail": "F runs; both descending17 groups,13/15 ascent, lower hairpins and upper slurs"
+      },
+      {
+        "id": "A005",
+        "page": 123,
+        "detail": "fourth system first two bars; leading rest outside beam lies within11 bracket; correction of loose earlier explanation"
+      }
+    ],
+    "gould_printed_pages": [
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      319,
+      320
+    ],
+    "physical_page_offset": 20,
+    "view_method": "PDFium full-page visual reviews plus focused crops in memory; no PDF image files written",
+    "first_reading_increment": 0
+  },
+  "sources": [
+    {
+      "id": "A013",
+      "path": "C:/Users/Fred/OneDrive - yunzd/cloudreve/Sheets/【2021-】新官谱/Ao no Sumika - Jujutsu Kaisen Season 2 - Opening Theme.pdf",
+      "bytes": 161886,
+      "sha256": "9cae9243b3dc47deebe2ae6a36502afe5040dade13f192add7eb5f5a3bf48909",
+      "access": "read-only"
+    },
+    {
+      "id": "A076",
+      "path": "C:/Users/Fred/OneDrive - yunzd/cloudreve/Sheets/【2021-】新官谱/Kimi no Shiranai Monogatari - Bakemonogatari - Ending Theme.pdf",
+      "bytes": 262471,
+      "sha256": "dfe0ee60f1cf18ece5cf9e3425d9d7133aab5b2547ea516f4b941455579b9008",
+      "access": "read-only"
+    },
+    {
+      "id": "A088",
+      "path": "C:/Users/Fred/OneDrive - yunzd/cloudreve/Sheets/【2021-】新官谱/Merry-Go-Round of Life - Howl’s Moving Castle - Main Theme.pdf",
+      "bytes": 177599,
+      "sha256": "8558a8c2b5e5ed694156f302cd817b73c1e6a9ceb8ebb7af41d10509a15eb024",
+      "access": "read-only"
+    },
+    {
+      "id": "A005",
+      "path": "C:/Users/Fred/OneDrive - yunzd/cloudreve/Sheets/【2021-】新官谱/200 Anime Songs Medley.pdf",
+      "bytes": 2698269,
+      "sha256": "de0c99dd322419b5f607234a5a5a22e7f987e9bcd80647e09f7e6e81a5e6b8de",
+      "access": "read-only"
+    },
+    {
+      "id": "user_pdf",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "bytes": 249752,
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "access": "read-only"
+    },
+    {
+      "id": "user_mscz",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "bytes": 68488,
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "access": "read-only"
+    },
+    {
+      "id": "gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "bytes": 249473889,
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "access": "read-only"
+    }
+  ],
+  "decisions": {
+    "retained_official_examples": [
+      "A013",
+      "A076",
+      "A088"
+    ],
+    "corrected_case_explanation": [
+      "A005 p123s4"
+    ],
+    "user_m97": "Withdraw previous endpoint-only candidate preference: right bracket line crosses final tuplet B4 downstem. Keep candidate as intermediate scope demonstration; replacement with independent upper melody not yet built.",
+    "user_preference_confirmed": false
+  },
+  "native": {
+    "host": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_relation": "Unverified; same complete host reused",
+    "planned_conditions": 3,
+    "completed_conditions": 3,
+    "baseline_reused": true,
+    "new_cli_calls": 8,
+    "source_deltas": "Two new inputs add only Tuplet p1/p2 y offsets to previous CC0 original; approximate common bracket y targets470/320SVGunits, calibrated with22.252units/sp.",
+    "audit": {
+      "cases": [
+        {
+          "name": "baseline",
+          "note_rest_count": 11,
+          "note_rest_xml_equal": true,
+          "full_midi_equal": true,
+          "non_tuplet_drawings_equal": true,
+          "tuplet_polylines": [
+            "1043.46,657.638 1043.46,640.949 1471.3,529.538",
+            "1514.55,518.275 1942.38,406.865 1942.38,423.554"
+          ],
+          "stem_intersections": [
+            {
+              "tuplet_element": 1,
+              "stem_index": 0,
+              "point": [
+                1351.17,
+                560.8203
+              ]
+            },
+            {
+              "tuplet_element": 2,
+              "stem_index": 1,
+              "point": [
+                1547.84,
+                509.606
+              ]
+            }
+          ]
+        },
+        {
+          "name": "near-beam-flat",
+          "note_rest_count": 11,
+          "note_rest_xml_equal": true,
+          "full_midi_equal": true,
+          "non_tuplet_drawings_equal": true,
+          "tuplet_polylines": [
+            "1043.46,486.689 1043.46,470 1471.3,470",
+            "1514.55,470 1942.38,470 1942.38,486.689"
+          ],
+          "stem_intersections": [
+            {
+              "tuplet_element": 2,
+              "stem_index": 3,
+              "point": [
+                1914.69,
+                470
+              ]
+            }
+          ]
+        },
+        {
+          "name": "outside-above-flat",
+          "note_rest_count": 11,
+          "note_rest_xml_equal": true,
+          "full_midi_equal": true,
+          "non_tuplet_drawings_equal": true,
+          "tuplet_polylines": [
+            "1043.46,336.689 1043.46,320 1471.3,320",
+            "1514.55,320 1942.38,320 1942.38,336.689"
+          ],
+          "stem_intersections": []
+        }
+      ],
+      "source_non_tuplet_bytes_equal": {
+        "near-beam-flat": true,
+        "outside-above-flat": true
+      },
+      "reload": {
+        "drawing_count": 55,
+        "exact_drawings": 54,
+        "maximum_numeric_delta_svg_units": 0.0010000000000331966,
+        "delta_scope": "Tuplet numeral path coordinates only; two brackets and all other drawing attributes exact",
+        "spatium_svg_units": 22.252
+      },
+      "m97_endpoint_candidate_recheck": {
+        "original": [],
+        "end_only": [
+          {
+            "stem": "2508.93,359.912 2508.93,446.899",
+            "intersection": [
+              2508.93,
+              401.5454
+            ]
+          }
+        ]
+      },
+      "intersection_scope": "centreline geometric crossing only; staff lines excluded; no general music rule banning every overlap",
+      "midi_bytes": 195,
+      "cli_calls_new": 8,
+      "baseline_reused": true
+    },
+    "public_assets": [
+      {
+        "path": "docs/engraving/fixtures/tuplet-channel-near-beam-flat.mscx",
+        "bytes": 5086,
+        "sha256": "2a0d44577358bf616a00e8a8243e0fff6a07bfa61f7644c369d87b9bec1a0c8c",
+        "rights": "Original CC0 score/figure; no source PDF pixels or embedded fonts"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-channel-outside-above-flat.mscx",
+        "bytes": 5088,
+        "sha256": "312da12d7cc2fc2b79b9558af247f97702cd916b219fa80666a3fe0e77d429db",
+        "rights": "Original CC0 score/figure; no source PDF pixels or embedded fonts"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-channel-comparison.png",
+        "bytes": 125728,
+        "sha256": "00a2e49bd14c156b95b834cfd52d81c7d82ab06cac35384a38f6528636c1f1da",
+        "rights": "Original CC0 score/figure; no source PDF pixels or embedded fonts"
+      }
+    ],
+    "figure": {
+      "width": 1556,
+      "height": 1100,
+      "dpi": 220,
+      "same_crop": true,
+      "same_staff_scale": true,
+      "svg_crop": [
+        300,
+        270,
+        2780,
+        760
+      ]
+    },
+    "scope_limits": [
+      "No active independent upper melody in original fixture; do not apply outside-above position directly to user m97",
+      "No MusicXML reimport, native save MIDI export, printed or played visual preference judgment",
+      "Centreline crossing test is local diagnosis, not a universal prohibition on meaningful line intersections"
+    ],
+    "output_fingerprints": [
+      {
+        "path": "tmp/engraving/beam-exchange-clef-2026-10-31/baseline-1.svg",
+        "bytes": 19401,
+        "sha256": "0c4ce7393075c575880a7c4625e2a6bda82abdf13c078ab0cd8635f261ce5efa"
+      },
+      {
+        "path": "tmp/engraving/beam-exchange-clef-2026-10-31/baseline.mxl",
+        "bytes": 2224,
+        "sha256": "b5d325ba070be00dab7a782b28aa9b577252e3f7f1cc756b437d94a5ebfa8cb4"
+      },
+      {
+        "path": "tmp/engraving/beam-exchange-clef-2026-10-31/baseline.mid",
+        "bytes": 195,
+        "sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2"
+      },
+      {
+        "path": "tmp/engraving/tuplet-channel-2026-10-31/near-beam-flat-1.svg",
+        "bytes": 19390,
+        "sha256": "c3d33f965a567dec9355ea4d932989204ead4d501ac9045ff332b3dbcffcbeaa"
+      },
+      {
+        "path": "tmp/engraving/tuplet-channel-2026-10-31/near-beam-flat.mxl",
+        "bytes": 2243,
+        "sha256": "6bfbca70d3233d2a23ccbd495f37f8f172c698cf010b65415327dd6ba7b3536d"
+      },
+      {
+        "path": "tmp/engraving/tuplet-channel-2026-10-31/near-beam-flat.mid",
+        "bytes": 195,
+        "sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2"
+      },
+      {
+        "path": "tmp/engraving/tuplet-channel-2026-10-31/outside-above-flat-1.svg",
+        "bytes": 19391,
+        "sha256": "ad3418ce404f776113627f625eb57bd14b0d8498e2c5d98cd08725a6176148f1"
+      },
+      {
+        "path": "tmp/engraving/tuplet-channel-2026-10-31/outside-above-flat.mxl",
+        "bytes": 2253,
+        "sha256": "1be420801f2f9705a911ec9d63b68f12d63dbdcc69ee98e0cd026efa75e51029"
+      },
+      {
+        "path": "tmp/engraving/tuplet-channel-2026-10-31/outside-above-flat.mid",
+        "bytes": 195,
+        "sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2"
+      },
+      {
+        "path": "tmp/engraving/tuplet-channel-2026-10-31/saved.mscx",
+        "bytes": 5434,
+        "sha256": "2e688da4296fc6a6c8055f884547c9ff6188cf6aa6538b9186a295f4790feaa4"
+      },
+      {
+        "path": "tmp/engraving/tuplet-channel-2026-10-31/reload-1.svg",
+        "bytes": 19366,
+        "sha256": "8b297fcecfb74a59b018b7ff23c29de46a6a006e61b04ab0b7256fc53e4bb31b"
+      }
+    ]
+  },
+  "cache": {
+    "directory": "tmp/engraving/tuplet-channel-2026-10-31",
+    "budget_bytes": 196608,
+    "bytes_before_evidence": 96149,
+    "reused_existing_baseline": true,
+    "raw_pdf_image_bytes": 0,
+    "files_deleted": 0,
+    "global_total_exact": false,
+    "final_batch_bytes": 96149
+  },
+  "software_adaptation_changes": 0,
+  "release": {
+    "fixed_tag_unchanged": "engraving-v0.21.0",
+    "status": "working-branch supplement, no new fixed release"
+  },
+  "validation": {
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "existing_CLI_regressions": {
+      "passed": 6,
+      "planned": 6
+    },
+    "new_source_queries": {
+      "initial": [
+        {
+          "topic": "notation",
+          "query": "跨表 连音 穿干",
+          "top3": [
+            "INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md",
+            "INTEGRATED_READING_ICHIBAN_IDOL.md",
+            "INTEGRATED_READING_SAKAYUME_SAYONARA.md"
+          ],
+          "new_source_in_top3": false
+        },
+        {
+          "topic": "cross-staff",
+          "query": "m97 括号 B4",
+          "top3": [
+            "TUPLET_CHANNEL_STUDY.md",
+            "README.md",
+            "CROSS_STAFF_STUDY.md"
+          ],
+          "new_source_in_top3": true
+        }
+      ],
+      "final": [
+        {
+          "topic": "notation",
+          "query": "跨表 连音 穿干",
+          "top3": [
+            "TUPLET_CHANNEL_STUDY.md",
+            "INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md",
+            "INTEGRATED_READING_ICHIBAN_IDOL.md"
+          ],
+          "new_source_in_top3": true
+        },
+        {
+          "topic": "cross-staff",
+          "query": "m97 括号 B4",
+          "top3": [
+            "TUPLET_CHANNEL_STUDY.md",
+            "README.md",
+            "CROSS_STAFF_STUDY.md"
+          ],
+          "new_source_in_top3": true
+        }
+      ],
+      "change": "Added accurate problem wording to title/body; did not alter search ranking algorithm. Updated old summaries to carry withdrawal."
+    },
+    "changed_markdown_local_file_links": {
+      "checked": 871,
+      "broken": 0
+    },
+    "outputs_fingerprinted": 11,
+    "public_asset_fingerprints_verified": 3,
+    "protected_source_expected_hashes_matched": 3,
+    "scope": "Checks establish source access, candidate boundaries and library usability; not full engraving mastery or user adoption.",
+    "final_existing_CLI_regressions": {
+      "passed": 6,
+      "planned": 6,
+      "after": "Final headings and historical-summary corrections"
+    },
+    "progress_new_fields_scope": "New 3-condition comparison includes one reused baseline; four official pages reread, no new external element-document pages."
+  }
+}

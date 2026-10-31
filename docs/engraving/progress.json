@@ -3139,11 +3139,11 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.21可用研究版：固定近期行宽5/5、实曲5/5及3/3、跨表交换6/6条件；九份新可编辑输入、一份MSS和两张原创图。20入口和既有查询保留；阅读／资料／组合计数保持，无软件或字体适配，旧标签证据保持。"
+    "working_branch_note": "0.21固定版之后的工作分支补充：跨表连音5/5实际复审、3/3原创条件、两新可编辑输入与一图；修正m97端点候选采用倾向和A005理由。固定标签／证据不变，20入口与覆盖保持，无软件／字体适配。"
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "跨表交换六条件与旧组内换号反例复看，发布0.21研究版；R10既有标签正文观察超时，未新增谱例阅读。",
+    "scope": "跨表连音通道与端点候选复审；四处官谱保留／理由纠正及m97穿干识别，原创三条件。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3153,27 +3153,31 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 1,
-    "supplemental_element_reference_pages_read": 4,
+    "book_reread_pages": 8,
+    "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 0,
-    "new_native_diagnostic_conditions": 6,
+    "new_native_candidate_scenarios": 2,
+    "new_native_diagnostic_conditions": 3,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "BEAM_EXCHANGE_CLEF_STUDY.md",
-      "../ENGRAVING_RELEASES.md"
+      "TUPLET_CHANNEL_STUDY.md",
+      "BEAM_SCOPE_TRANSFER.md",
+      "corpus/READING_MEDLEY_200.md"
     ],
-    "review_evidence": "beam_exchange_clef_evidence.json",
-    "software_adaptation": false
+    "review_evidence": "tuplet_channel_evidence.json",
+    "software_adaptation": false,
+    "official_pdf_pages_reread": 4
   },
   "latest_native_study": {
-    "reference": "BEAM_EXCHANGE_CLEF_STUDY.md",
-    "evidence": "beam_exchange_clef_evidence.json",
-    "completed_conditions": 6,
-    "planned_conditions": 6,
-    "description": "原创八音跨表组的六条件诊断，含失败：归属、首音梁向和第二层断口分别核查。19次导出＋1次help；48音书面配方和合并起音保持，MIDI轨道／释放及图面未全保持。旧换号反例仅复看，无软件修改。",
+    "reference": "TUPLET_CHANNEL_STUDY.md",
+    "evidence": "tuplet_channel_evidence.json",
+    "completed_conditions": 3,
+    "planned_conditions": 3,
+    "new_candidates": 2,
+    "reused_baseline": 1,
+    "description": "跨表连音三条件：自动陡括号、梁旁平放、谱表外平放。8次新CLI；三条件音休止与完整MIDI保持，外置保存重载仅数字轮廓0.001 SVG单位量化差。外置未验证独立上方旋律。",
     "reading_increment": 0,
     "user_preference_confirmed": false,
     "software_adaptation_changes": 0
@@ -3269,19 +3273,30 @@
       "reading_increment": 0,
       "user_preference_confirmed": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "BEAM_EXCHANGE_CLEF_STUDY.md",
+      "evidence": "beam_exchange_clef_evidence.json",
+      "completed_conditions": 6,
+      "planned_conditions": 6,
+      "description": "原创八音跨表组的六条件诊断，含失败：归属、首音梁向和第二层断口分别核查。19次导出＋1次help；48音书面配方和合并起音保持，MIDI轨道／释放及图面未全保持。旧换号反例仅复看，无软件修改。",
+      "reading_increment": 0,
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
-    "reference": "BEAM_SCOPE_TRANSFER.md",
-    "evidence": "beam_scope_transfer_evidence.json",
-    "reviewed_cases": 3,
-    "planned_cases": 3,
+    "reference": "TUPLET_CHANNEL_STUDY.md",
+    "evidence": "tuplet_channel_evidence.json",
+    "reviewed_cases": 5,
+    "planned_cases": 5,
     "decisions": {
-      "retain": 2,
-      "local_endpoint_candidate": 1
+      "retain_official": 3,
+      "correct_prior_case_explanation": 1,
+      "withdraw_endpoint_candidate_preference": 1
     },
-    "scope": "已知来源的实曲情境应用：m71自动浅斜、m70混合梁层、m97部分连音的实际括号范围；不计独立准确率、新阅读覆盖或整谱组合轮次。",
-    "new_native_conditions": 1
+    "scope": "四处已知官谱实际图文与用户m97既有原生候选复看；不计新阅读或独立准确率。",
+    "new_native_conditions": 3
   },
   "latest_supplemental_reading": {
     "reference": "HOSHIDE_ONDINE_READING.md",
@@ -3331,16 +3346,34 @@
       },
       "scope": "Known source contextual application;not new blind accuracy or integrated whole-score round.",
       "new_native_conditions": 1
+    },
+    {
+      "reference": "BEAM_SCOPE_TRANSFER.md",
+      "evidence": "beam_scope_transfer_evidence.json",
+      "reviewed_cases": 3,
+      "planned_cases": 3,
+      "decisions": {
+        "retain": 2,
+        "local_endpoint_candidate": 1
+      },
+      "scope": "已知来源的实曲情境应用：m71自动浅斜、m70混合梁层、m97部分连音的实际括号范围；不计独立准确率、新阅读覆盖或整谱组合轮次。",
+      "new_native_conditions": 1
     }
   ],
   "latest_library_query": {
-    "evidence": "release_0_21_0_evidence.json",
+    "evidence": "tuplet_channel_evidence.json",
     "guide": "../ENGRAVING_SKILL.md",
     "curated_known_source_cases": 5,
     "planned_curated_cases": 5,
     "CLI_regression_tests": 6,
     "planned_CLI_regressions": 6,
-    "scope": "既有五类来源定位与六项CLI回归，另补两个新问题定位；不计独立净书判断准确率或新增阅读。",
+    "scope": "既有五类来源定位／六项回归保持；新两查询初始一项漏掉具体问题，补准确标题／措辞后两项均在前三。记录漏例及修正，不计独立净书判断准确率。",
     "new_known_source_smoke_cases": 2
+  },
+  "next_native_batch": {
+    "reference": "STATUS_AND_ROADMAP.md",
+    "planned_conditions": 3,
+    "completed_conditions": 0,
+    "scope": "在同一原创跨表配方上补独立上方旋律、该层弧线与力度、紧行宽三个对照条件；明确归属后再考虑m97新私有候选。"
   }
 }
