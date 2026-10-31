@@ -1,0 +1,720 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31",
+  "study": "Tuplet ownership under independent melody, markings, and narrow width",
+  "planned_contexts": 3,
+  "completed_contexts": 3,
+  "core_variants": 6,
+  "additional_side_diagnostic": 1,
+  "first_reading_coverage_increment": 0,
+  "sources": [
+    {
+      "id": "A027",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Call of Silence - Attack on Titan Season 2 - Soundtrack.pdf",
+      "sha256": "cf8da67e1b7a6436beea4522c6893fe68d7f0afaa35775b40eb0ccc030bd4b22",
+      "pages_viewed": [
+        5
+      ],
+      "read_only": true,
+      "coverage_increment": 0
+    },
+    {
+      "id": "A064",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\in the pool - Chainsaw Man - The Movie_Reze Arc - Soundtrack.pdf",
+      "sha256": "8ea21268a6b96f0257efb462b6ea48b0ddf859f1e6554d57d16558f0459e21d2",
+      "pages_viewed": [
+        1
+      ],
+      "read_only": true,
+      "coverage_increment": 0
+    }
+  ],
+  "gould": {
+    "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "printed_pages_reread": [
+      199,
+      319,
+      320
+    ],
+    "pdf_page_offset": 20,
+    "read_method": "PDFium full-page visual reading and focused source crop, memory only"
+  },
+  "judgment": {
+    "preferred_in_original_fixture": "Keep F4 on lower display staff until tuplet ends, then cross staff at ordinary tail; local bracket near beam.",
+    "reason": "All six final renditions have zero bracket/stem centreline crossings; relation to the intended inner layer distinguishes them. Outer bracket sits above separate melody, near variant aligns visual staff transition with timing-group boundary.",
+    "cost": "F4 gains two lower-staff ledger-line strokes and changes displayed staff/stem direction; treat as a notation/distribution alternative, not geometry-only beautification.",
+    "official_examples": [
+      "A027 p5: near-beam12/14 and lower partial-group brackets retain separate melody; lower9 bracket enters staff, a visible difference from Gould199; do not copy every feature.",
+      "A064 p1 A: complete11 numeral below its beam, separate melody slur/hairpins and bass-side clef changes remain distinct."
+    ],
+    "not_user_preference": true,
+    "user_m97": "No new private real-score candidate this batch; existing endpoint-only adoption preference remains withdrawn; display-staff and ledger tradeoffs must be checked on full real system."
+  },
+  "native": {
+    "host": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_relation": "unverified",
+    "scope": "6 core outputs in SVG/MXL/MIDI,6 automatic calibration SVG,1 below-side SVG,one save/reloadSVG;27 CLI calls total",
+    "audit": {
+      "contexts": [
+        {
+          "context": "melody",
+          "notes_rest_each": 14,
+          "pitched_each": 12,
+          "independent_recipe_matches": true,
+          "written_semantics_equal": true,
+          "source_only_deltas": "F4 display staffMove and Tuplet p1/p2 offsets; source canonical trees otherwise equal",
+          "full_midi_equal": true,
+          "midi_bytes_each": 223,
+          "midi_sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11",
+          "display_changes": [
+            {
+              "pitch": 65,
+              "onset": "7/3",
+              "before_staff": "1",
+              "after_staff": "2",
+              "before_stem": "down",
+              "after_stem": "up",
+              "before_beams": [
+                [
+                  "1",
+                  "continue"
+                ],
+                [
+                  "2",
+                  "continue"
+                ]
+              ],
+              "after_beams": [
+                [
+                  "1",
+                  "continue"
+                ],
+                [
+                  "2",
+                  "continue"
+                ]
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "stem_intersections": [],
+              "name": "melody-above",
+              "classes": {
+                "MeasureNumber": 1,
+                "BarLine": 6,
+                "StaffLines": 10,
+                "LedgerLine": 5,
+                "Stem": 12,
+                "Hook": 1,
+                "Note": 12,
+                "Clef": 2,
+                "TimeSig": 4,
+                "Rest": 2,
+                "Beam": 4,
+                "Tuplet": 3,
+                "NoteDot": 3,
+                "Bracket": 1
+              },
+              "tuplet": [
+                "1043.46,246.689 1043.46,230 1471.3,230",
+                "1514.55,230 1942.38,230 1942.38,246.689"
+              ],
+              "staff_x_min": 354.885,
+              "staff_x_max": 2763.98,
+              "beam_polygons": 4,
+              "melody_slur_polygons": 0,
+              "dynamic_glyphs": 0
+            },
+            {
+              "stem_intersections": [],
+              "name": "melody-near",
+              "classes": {
+                "MeasureNumber": 1,
+                "BarLine": 6,
+                "StaffLines": 10,
+                "LedgerLine": 7,
+                "Stem": 12,
+                "Hook": 1,
+                "Note": 12,
+                "Clef": 2,
+                "TimeSig": 4,
+                "Rest": 2,
+                "Beam": 4,
+                "Tuplet": 3,
+                "NoteDot": 3,
+                "Bracket": 1
+              },
+              "tuplet": [
+                "1043.46,503.475 1043.46,486.786 1471.3,486.786",
+                "1514.55,486.786 1942.38,486.786 1942.38,503.475"
+              ],
+              "staff_x_min": 354.885,
+              "staff_x_max": 2763.98,
+              "beam_polygons": 4,
+              "melody_slur_polygons": 0,
+              "dynamic_glyphs": 0
+            }
+          ]
+        },
+        {
+          "context": "marked",
+          "notes_rest_each": 14,
+          "pitched_each": 12,
+          "independent_recipe_matches": true,
+          "written_semantics_equal": true,
+          "source_only_deltas": "F4 display staffMove and Tuplet p1/p2 offsets; source canonical trees otherwise equal",
+          "full_midi_equal": true,
+          "midi_bytes_each": 223,
+          "midi_sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11",
+          "display_changes": [
+            {
+              "pitch": 65,
+              "onset": "7/3",
+              "before_staff": "1",
+              "after_staff": "2",
+              "before_stem": "down",
+              "after_stem": "up",
+              "before_beams": [
+                [
+                  "1",
+                  "continue"
+                ],
+                [
+                  "2",
+                  "continue"
+                ]
+              ],
+              "after_beams": [
+                [
+                  "1",
+                  "continue"
+                ],
+                [
+                  "2",
+                  "continue"
+                ]
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "stem_intersections": [],
+              "name": "marked-above",
+              "classes": {
+                "MeasureNumber": 1,
+                "BarLine": 6,
+                "StaffLines": 10,
+                "SlurSegment": 1,
+                "LedgerLine": 5,
+                "Stem": 12,
+                "Hook": 1,
+                "Note": 12,
+                "Clef": 2,
+                "TimeSig": 4,
+                "Rest": 2,
+                "Dynamic": 1,
+                "Beam": 4,
+                "Tuplet": 3,
+                "NoteDot": 3,
+                "Bracket": 1
+              },
+              "tuplet": [
+                "1043.46,246.689 1043.46,230 1471.3,230",
+                "1514.55,230 1942.38,230 1942.38,246.689"
+              ],
+              "staff_x_min": 354.885,
+              "staff_x_max": 2763.98,
+              "beam_polygons": 4,
+              "melody_slur_polygons": 1,
+              "dynamic_glyphs": 1
+            },
+            {
+              "stem_intersections": [],
+              "name": "marked-near",
+              "classes": {
+                "MeasureNumber": 1,
+                "BarLine": 6,
+                "StaffLines": 10,
+                "SlurSegment": 1,
+                "LedgerLine": 7,
+                "Stem": 12,
+                "Hook": 1,
+                "Note": 12,
+                "Clef": 2,
+                "TimeSig": 4,
+                "Rest": 2,
+                "Dynamic": 1,
+                "Beam": 4,
+                "Tuplet": 3,
+                "NoteDot": 3,
+                "Bracket": 1
+              },
+              "tuplet": [
+                "1043.46,503.475 1043.46,486.786 1471.3,486.786",
+                "1514.55,486.786 1942.38,486.786 1942.38,503.475"
+              ],
+              "staff_x_min": 354.885,
+              "staff_x_max": 2763.98,
+              "beam_polygons": 4,
+              "melody_slur_polygons": 1,
+              "dynamic_glyphs": 1
+            }
+          ]
+        },
+        {
+          "context": "narrow",
+          "notes_rest_each": 14,
+          "pitched_each": 12,
+          "independent_recipe_matches": true,
+          "written_semantics_equal": true,
+          "source_only_deltas": "F4 display staffMove and Tuplet p1/p2 offsets; source canonical trees otherwise equal",
+          "full_midi_equal": true,
+          "midi_bytes_each": 223,
+          "midi_sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11",
+          "display_changes": [
+            {
+              "pitch": 65,
+              "onset": "7/3",
+              "before_staff": "1",
+              "after_staff": "2",
+              "before_stem": "down",
+              "after_stem": "up",
+              "before_beams": [
+                [
+                  "1",
+                  "continue"
+                ],
+                [
+                  "2",
+                  "continue"
+                ]
+              ],
+              "after_beams": [
+                [
+                  "1",
+                  "continue"
+                ],
+                [
+                  "2",
+                  "continue"
+                ]
+              ]
+            }
+          ],
+          "variants": [
+            {
+              "stem_intersections": [],
+              "name": "narrow-above",
+              "classes": {
+                "MeasureNumber": 1,
+                "BarLine": 6,
+                "StaffLines": 10,
+                "SlurSegment": 1,
+                "LedgerLine": 5,
+                "Stem": 12,
+                "Hook": 1,
+                "Note": 12,
+                "Clef": 2,
+                "TimeSig": 4,
+                "Rest": 2,
+                "Dynamic": 1,
+                "Beam": 4,
+                "Tuplet": 3,
+                "NoteDot": 3,
+                "Bracket": 1
+              },
+              "tuplet": [
+                "756.192,246.689 756.192,230 928.938,230",
+                "972.19,230 1144.94,230 1144.94,246.689"
+              ],
+              "staff_x_min": 354.885,
+              "staff_x_max": 1487.99,
+              "beam_polygons": 4,
+              "melody_slur_polygons": 1,
+              "dynamic_glyphs": 1
+            },
+            {
+              "stem_intersections": [],
+              "name": "narrow-near",
+              "classes": {
+                "MeasureNumber": 1,
+                "BarLine": 6,
+                "StaffLines": 10,
+                "SlurSegment": 1,
+                "LedgerLine": 7,
+                "Stem": 12,
+                "Hook": 1,
+                "Note": 12,
+                "Clef": 2,
+                "TimeSig": 4,
+                "Rest": 2,
+                "Dynamic": 1,
+                "Beam": 4,
+                "Tuplet": 3,
+                "NoteDot": 3,
+                "Bracket": 1
+              },
+              "tuplet": [
+                "756.192,501.496 756.192,484.807 928.938,484.807",
+                "972.19,484.807 1144.94,484.807 1144.94,501.496"
+              ],
+              "staff_x_min": 354.885,
+              "staff_x_max": 1487.99,
+              "beam_polygons": 4,
+              "melody_slur_polygons": 1,
+              "dynamic_glyphs": 1
+            }
+          ]
+        }
+      ],
+      "independent_written_pitched_records": 72,
+      "note_rest_records": 84,
+      "reload": {
+        "drawings": 70,
+        "changed_attributes": [
+          {
+            "class": "Stem",
+            "attribute": "points",
+            "max_numeric_delta": 0.009999999999990905
+          },
+          {
+            "class": "Note",
+            "attribute": "transform",
+            "max_numeric_delta": 0.0009999999999763531
+          },
+          {
+            "class": "Note",
+            "attribute": "transform",
+            "max_numeric_delta": 0.0009999999999763531
+          },
+          {
+            "class": "Rest",
+            "attribute": "transform",
+            "max_numeric_delta": 0.0009999999999763531
+          },
+          {
+            "class": "Tuplet",
+            "attribute": "d",
+            "max_numeric_delta": 0.00100000000009004
+          },
+          {
+            "class": "Tuplet",
+            "attribute": "points",
+            "max_numeric_delta": 0.0009999999999763531
+          },
+          {
+            "class": "Tuplet",
+            "attribute": "points",
+            "max_numeric_delta": 0.0009999999999763531
+          }
+        ],
+        "maximum_numeric_delta_svg_units": 0.009999999999990905,
+        "spatium_svg_units": 22.252
+      },
+      "lower_side_diagnostic": {
+        "format_scope": "SVG only; no separate MXL/MIDI audit",
+        "polylines": [
+          "1043.46,703.366 1043.46,720.055 1471.3,720.055",
+          "1514.55,720.055 1942.38,720.055 1942.38,703.366"
+        ]
+      },
+      "native_calls": 27,
+      "reload_note": "Initial 0.005SVG-unit exactness bound failed; actual seven attributes inspected and reported, max0.01unit(<0.001sp). Not bytewise or pixelwise equality. Saved printable width and endpoint offsets are decimal-rounded.",
+      "source_rule": "No private score input or raw PDF pixels used"
+    },
+    "outputs": [
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-above-1.svg",
+        "bytes": 25722,
+        "sha256": "f10abe6410699140e346b8305275e8e5b2f65c358e590cf1f70ff2bbf94d3634"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-above-probe-1.svg",
+        "bytes": 25728,
+        "sha256": "a370e5468950c1eb0e79c517d1e6962b4e81f83538f3e258b826d57230a93ccb"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-above.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-above.mxl",
+        "bytes": 2483,
+        "sha256": "674fa8acc3e98b8e1bc529f4bdbb97a56b8d50a6df0b199ef80d595848e5bccf"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-below-probe-1.svg",
+        "bytes": 25727,
+        "sha256": "60f5142832dbf6a49cde5c23e71802822c939bc6a2774893ce78b8f38a5ea1a1"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-near-1.svg",
+        "bytes": 26001,
+        "sha256": "0e276aed56c1fec7b42eab4a489a8782d9d67089bdbe6024c95a7bcbf0d17937"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-near.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-near.mxl",
+        "bytes": 2477,
+        "sha256": "f908356f946df24d51ebe68a667520ce391142691870a673b3fa66fd9c0ebedd"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-probe-1.svg",
+        "bytes": 25986,
+        "sha256": "712b0ebe1ecdcaa9bc535b9d09200b0ca3056c05e4154c557a9969271b1c87dd"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-above-1.svg",
+        "bytes": 22068,
+        "sha256": "05fe86261643e8b28fece896caf4c101e196fb722f89b81c1647353e1f054e65"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-above-probe-1.svg",
+        "bytes": 22074,
+        "sha256": "d7a375b8ca444ba2288a09740373607cdff213adce0046dfe55244b9700a6fc3"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-above.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-above.mxl",
+        "bytes": 2335,
+        "sha256": "f45e1a9068a3f5174940c0bbeb756e44e579a1c93247dd2ebc8b8cc67c75c955"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-near-1.svg",
+        "bytes": 22371,
+        "sha256": "9da91bf9dae2c928b6010062929370ddda94bc4c7b4928fff8edf065894e8a50"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-near.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-near.mxl",
+        "bytes": 2330,
+        "sha256": "626a751244efc5eebb97ab82528b55a7787b0d432ea1f2142635c14e1451ce2c"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-probe-1.svg",
+        "bytes": 22356,
+        "sha256": "58dcfe1b45113caea595c3694aab6cc366ffcc533467b814bd3b3b71ba9a4865"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-above-1.svg",
+        "bytes": 25713,
+        "sha256": "809b8cc657658ae39a94df8d106fc35d849a943fad8d265adc5290461f615c96"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-above-probe-1.svg",
+        "bytes": 25719,
+        "sha256": "086e5d882ec449a75d33fbc3d30c472ba98f5547d679e3df2040aa014410f147"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-above.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-above.mxl",
+        "bytes": 2479,
+        "sha256": "0116f88a2cad2d48a1e8dfc72d69c1417319850902a3110c88b9be2c930c6ecc"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-near-1.svg",
+        "bytes": 26005,
+        "sha256": "815e7887f237b54d1b52bafbdedc2d68a4007d9b74e47100f6ab9fb647b5fe82"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-near.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-near.mxl",
+        "bytes": 2473,
+        "sha256": "bc5533a088f98f19160405d85a41c2bed7e81284cf460c278a6ac2a96fbbadfd"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-probe-1.svg",
+        "bytes": 25982,
+        "sha256": "9fec805e17d7f52417d5ea9759bf5841e39e134f2ddc263f688465554ee13d6f"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/reload-1.svg",
+        "bytes": 25979,
+        "sha256": "ae3c7a80aefd65395a7c8fbff2c4082f258026ec650147eac96ef85ff243172a"
+      },
+      {
+        "path": "tmp/engraving/tuplet-ownership-2026-10-31/save.mscx",
+        "bytes": 6937,
+        "sha256": "02cf59bcbbedfafa0ad93b083e8313d14379a416a77a193c980ee64e13e5b774"
+      }
+    ],
+    "public_assets": [
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-melody-above.mscx",
+        "bytes": 5973,
+        "sha256": "a499b968e9bf8a4f5ef18f1f41f23fa696b69e77a9b4afa7c85c6e531927f410",
+        "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-melody-near.mscx",
+        "bytes": 5934,
+        "sha256": "ce388f712bd6ed21e66387cbb391576af9decd03065eb198816338103949f20e",
+        "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-marked-above.mscx",
+        "bytes": 6597,
+        "sha256": "ebd2aba15eccc901cd46720f398a5ae780606187b19526db2d90e95e86c1cfa3",
+        "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-marked-near.mscx",
+        "bytes": 6558,
+        "sha256": "e624930333c8b33757eac0e0c66f3e50a3b1b32ce7361a20aff217cc763be7d2",
+        "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-narrow-above.mscx",
+        "bytes": 6608,
+        "sha256": "d00b6590d30ce34ba71deaf0b9ad38970a33f2bb498c26f3614e553b2807b20b",
+        "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-narrow-near.mscx",
+        "bytes": 6569,
+        "sha256": "c783e3d37c3f82268af3e4ac8060fbc91e074fdea2cf921b4bd1e3b1abf2716c",
+        "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-comparison.png",
+        "bytes": 284544,
+        "sha256": "a98d27548616e1f325c6e4b2efccda217faa66b79bcb78f7576c2a63547ff7ac",
+        "rights": "Native rendering of original CC0 music; no source PDF pixels"
+      }
+    ],
+    "figure": {
+      "path": "docs/engraving/fixtures/tuplet-ownership-comparison.png",
+      "width": 1419,
+      "height": 2501,
+      "dpi": 200,
+      "same_physical_scale": true,
+      "common_crop": [
+        300,
+        175,
+        2780,
+        820
+      ],
+      "narrow_whitespace_retained": true
+    },
+    "limits": [
+      "Near variant changes one note display staff and resulting stem/beam/ledger placement. MusicXML does not have identical note subtrees because display staff/stem changes are intentional.",
+      "No MusicXML reimport or saved-score MIDI export; native reload checks visible geometry only.",
+      "No print, performance preference or user aesthetic adoption.",
+      "Three contexts do not cover every inner voice, clef, accidental, page or width condition.",
+      "Upper-visible mf is a geometry/ownership illustration; independent playback range of that Dynamic was not separately verified."
+    ],
+    "rendered_input_line_endings_before_normalization": [
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-melody-above.mscx",
+        "bytes": 6175,
+        "sha256": "38e106a5a983e3d04cb52f9828585a30eef92357622bfe989d921c778968de57"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-melody-near.mscx",
+        "bytes": 6135,
+        "sha256": "0db5429d23c4ec73a0060aee50deb59ee96d2fe36c80b602810a7b244ba18367"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-marked-above.mscx",
+        "bytes": 6821,
+        "sha256": "56bf5012d6f1d3bbb5973e9ff3aabf230be37a42f5304f14e47c8eacd32faa83"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-marked-near.mscx",
+        "bytes": 6781,
+        "sha256": "2d7c6318bde845e1d97610b34361e07b4bc8fe935800ae7454c4806c69dc6de7"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-narrow-above.mscx",
+        "bytes": 6832,
+        "sha256": "041eba9b5121522ff19ac24c5737ee6a43a5e6112a49e7eb5337185dcd0c5cf5"
+      },
+      {
+        "path": "docs/engraving/fixtures/tuplet-ownership-narrow-near.mscx",
+        "bytes": 6792,
+        "sha256": "04adbf0a77eeaf784a6cf187a6aa363c19340dbd0196d18c5b079cb68525be9d"
+      }
+    ]
+  },
+  "cache": {
+    "directory": "tmp/engraving/tuplet-ownership-2026-10-31",
+    "private_bytes": 476426,
+    "private_budget_bytes": 524288,
+    "public_bytes": 322783,
+    "raw_pdf_image_bytes": 0,
+    "files_deleted": 0,
+    "global_exact_total_known": false,
+    "previous_check_allowance": 3232890880,
+    "new_check_allowance": 3233415168
+  },
+  "software_changes": 0,
+  "fixed_release_unchanged": "engraving-v0.21.0",
+  "status": "working-branch supplement",
+  "validation": {
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "existing_regression_tests": {
+      "passed": 6,
+      "planned": 6
+    },
+    "new_known_source_queries": [
+      {
+        "topic": "cross-staff",
+        "query": "换表点 连音 加线",
+        "top3": [
+          "TUPLET_OWNERSHIP_STUDY.md",
+          "CROSS_STAFF_STUDY.md",
+          "TUPLET_CHANNEL_STUDY.md"
+        ],
+        "source_in_top3": true
+      },
+      {
+        "topic": "notation",
+        "query": "F4 连音 显示谱表",
+        "top3": [
+          "TUPLET_OWNERSHIP_STUDY.md",
+          "BEAM_SCOPE_TRANSFER.md",
+          "TUPLET_CHANNEL_STUDY.md"
+        ],
+        "source_in_top3": true
+      }
+    ],
+    "local_markdown_file_links": {
+      "checked": 1132,
+      "broken": 0
+    },
+    "native_output_fingerprints_verified": 27,
+    "public_asset_fingerprints_verified": 7,
+    "protected_original_user_score_hashes_matched": 2,
+    "book_hash_matched": true,
+    "source_reading": "Two official target pages and three Gould pages visually reread; no new coverage or external resource completion.",
+    "line_ending_normalization": {
+      "inputs": 6,
+      "change": "CRLF to LF and terminal newline only; parsed XML trees identical before/after. Native outputs use pre-normalized equivalent content, no rerender required."
+    }
+  }
+}

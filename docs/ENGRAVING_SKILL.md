@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+最新工作分支已补[三层连音归属](engraving/TUPLET_OWNERSHIP_STUDY.md)：可用`--topic cross-staff --query "换表点 连音 加线"`查外置与近梁的实际取舍。三种上下文已核，m97真实候选尚待迁移；固定0.21仍是此前快照，引用最新补充时记实际Git提交。
+
 0.21之后的工作分支已补[跨表连音通道及旧候选修正](engraving/TUPLET_CHANNEL_STUDY.md)。可查`--topic notation --query "跨表 连音 穿干"`；m97仅伸长右端的采用倾向已撤回，须结合范围、连接及独立层继续判断。关联安装读取更新后的项目即可；固定0.21标签保留原研究快照，尚不含本补充。
 
 0.21纳入[梁坡与实曲应用](engraving/BEAM_WIDTH_TRANSFER.md)、[共梁范围](engraving/BEAM_SCOPE_TRANSFER.md)和[交换机理／换号回查](engraving/BEAM_EXCHANGE_CLEF_STUDY.md)。可查`--topic beams --query "声部归属 第一音 干向"`或`--topic clefs --query "E4 G4 换号"`。新案例在音乐起音保持时仍暴露图面、轨道和释放变化，先读实际验证范围；XML诊断输入用于复现，不能当通用转换补丁。关联／复制更新方式沿用下文，无新增MCP配置步骤。

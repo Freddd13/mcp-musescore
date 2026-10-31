@@ -340,3 +340,8 @@ MuseScore3Evo.exe -s -m -c <已有独立配置目录> -r 180 -o <新目录>/widt
 [研究与六条件图](../BEAM_EXCHANGE_CLEF_STUDY.md)提供一个CC0八音C大调小样本、两个单变量MusicXML输入，用户音乐未复制。四份可编辑谱例为`mixed-beam-exchange-source.mscx`、`mixed-beam-exchange-owner-control.mscx`、`mixed-beam-exchange-explicit-layers.musicxml`、`mixed-beam-exchange-auto-direction.musicxml`；`mixed-beam-exchange-style.mss`固定Leland／Leland Text、单位及实验参数，供CLI的-S使用，不是个人净书样式推荐。
 
 `mixed-beam-exchange-comparison.png`以200dpi同物理比例保留全部六条件，含失败。8音实际时值与合并起音保持，原生和交换的声部归属、干向、梁段、MIDI轨道与释放有差别；自动连音括号及整页布局未完成美化。不要把恢复两向干的一格当整谱无损转换。旧组内换号图仅复看，没有重跑旧四版。
+
+
+## 2026-10-31：独立层下的连音归属
+
+[三情境研究](../TUPLET_OWNERSHIP_STUDY.md)及[六版原生图](tuplet-ownership-comparison.png)比较慢旋律／持续低音、加入上层弧／mf、90mm打印宽。每情境的`tuplet-ownership-<melody|marked|narrow>-above.mscx`与`-near.mscx`为原创CC0输入：后者把连音末音F4留在下表、普通尾音再换表，并改括号坐标。两版都无穿干，近梁的归属更直接，代价为F4的两条加线和显示分配变化。原生27次调用、独立72音／84音休止及每对完整MIDI已核；未认证用户m97或任意行宽，具体边界见研究。
