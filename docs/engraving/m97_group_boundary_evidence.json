@@ -1,0 +1,1094 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31T14:41:40.367Z",
+  "reference": "M97_GROUP_BOUNDARY_TRANSFER.md",
+  "status": "one native saved/reloaded comparison candidate; author dynamic scope and aesthetic adoption pending",
+  "scope": {
+    "date": "2026-10-31",
+    "context": "m97: six16th-units6:4 includes eighth-rest andF#4/G4/A4/B4; ordinaryC5/D5/E5/F#5 tail; original staffMove and upper/bass layers preserved",
+    "planned_contexts": 1,
+    "planned_initial_candidates": 1,
+    "maximum_native_calibration_candidates": 3,
+    "planned_saved_reloaded_candidates": 2,
+    "source_original_readonly": true,
+    "source_hairpin_partial_candidate": "tmp/engraving/m97-direction-feedback-2026-10-31/candidate-original-flow-v5.mscz",
+    "source_hairpin_adoption": "pending; used as separately labelled trial only",
+    "private_budget_bytes": 3145728,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3263168512,
+    "baseline_pdf_reused": true,
+    "baseline_MusicXML_MIDI_reused": true,
+    "original_pdf_copy": false,
+    "runtime_copy": false,
+    "software_adaptation": false,
+    "revision_reason": "Full Gouldp315 reread plus actual stem measurement: v3 shortest opposing stems2.749/5.240sp. Add one balanced-height comparison and shallower tail; all prior successful native probes retained, no deletion.",
+    "completed_contexts": 1,
+    "initial_candidate_completed": 1,
+    "calibration_candidates_completed": 3,
+    "saved_reloaded_candidates_completed": 2,
+    "final_recommended_comparison_candidates": [
+      1,
+      1
+    ],
+    "native_successful_CLI_calls": 16,
+    "Gould_full_printed_page_rereads": [
+      200,
+      315,
+      323
+    ],
+    "planned_saved_reload_revision_reason": "v3 intermediate verified, then Gouldp315 stem balancing justified v4 and its separate recheck; no silent replacement of old evidence",
+    "user_dynamic_scope": "pending explicit question; no option adopted",
+    "user_aesthetic_adoption": false
+  },
+  "source_original_hash": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+  "source_partial_hairpin": "tmp/engraving/m97-direction-feedback-2026-10-31/candidate-original-flow-v5.mscz",
+  "host": {
+    "path": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "reused": true,
+    "source_build_relationship": "unverified"
+  },
+  "source_code_modified": false,
+  "book": {
+    "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "printed_full_page_rereads": [
+      200,
+      315,
+      323
+    ],
+    "physical_pages": [
+      220,
+      335,
+      343
+    ],
+    "new_coverage_pages": 0
+  },
+  "patches": [
+    {
+      "candidate_sha256": "3d78462b100118a4b45d8ec2f821923b425745d797f5bf77a4934625d9378f68",
+      "based_on_v5_hairpin_partial_not_adopted": true,
+      "only_additional_voice": {
+        "Staff": 4,
+        "voice_ordinal": 2,
+        "measure": 97
+      },
+      "complete_tuplet_beam_includes_initial_rest": true,
+      "normal_tail_first_chord_new_beam": true,
+      "beam_fragment_y": [
+        -7.16061,
+        -8.16061
+      ],
+      "rest_offset_y": [
+        -6,
+        -9
+      ],
+      "tuplets": {
+        "strip_manual_p1_p2": true,
+        "bracketType": 2,
+        "offset": [
+          0,
+          1.5
+        ]
+      },
+      "other_tree_preserved_after_explicit_diffs": true,
+      "other_ZIP_payloads_equal": true,
+      "original_staffMoves_notes_parens_articulations_and_spanners_preserved": true
+    },
+    {
+      "candidate_sha256": "5ae477a80de64dba4f8ca6851eb6cf8e5500913e78f4bb1a1337d1b0f05ac44f",
+      "based_on": "v1",
+      "reason": "v1 automatic ordinary triple beam enters upper staff; lower whole six-tuplet beam1.8sp and rest equally, place rising ordinary tail primary atoriginal bass-reference -6.6/-7.6 to clear its uppermost beam and preserve overall rising rail direction.",
+      "first_beam_y": [
+        -5.36061,
+        -6.36061
+      ],
+      "tail_beam_y": [
+        -6.6,
+        -7.6
+      ],
+      "rest_offset_y": -7.2,
+      "tuplet_number_offset_unchanged": [
+        0,
+        1.5
+      ],
+      "notes_staffMoves_and_existing_HairPin_fields_unchanged": true
+    },
+    {
+      "candidate_sha256": "06db9ee6eb1c6b3c7bebb5f76abd9808081482a5bda49c6fd499fc7d2a2bc79b",
+      "based_on": "v2",
+      "only_additional_change": "Tuplet offset.y1.5->2.75 to bring6near its manually lowered beam; numeral did not follow in v2 native layout",
+      "all_other_payloads_equal": true
+    },
+    {
+      "candidate_sha256": "9e1a7a30ee51af1901aa48f3644b0d55252a78ec53087d39d2d44a324b83bfc8",
+      "based_on": "v3",
+      "balance_shift_up_sp": 1.2453630337080077,
+      "reason": "Gouldp315 shortest opposing stems balanced by midpoint; ordinary tail0.2sp rise clears staff while reducing long initial tail stems. Both beam groups rise; small height reset atgroup boundary is a reading tradeoff.",
+      "first_fragment": [
+        -6.605973033708008,
+        -7.605973033708008
+      ],
+      "tail_fragment": [
+        -7.4,
+        -7.6
+      ],
+      "Rest_offset_y": -8.445363033708007,
+      "Tuplet_offset_y": 1.5046369662919923,
+      "music_staffMoves_HairPin_preserved": true
+    }
+  ],
+  "final_music_and_page_audit": {
+    "source_tree_equal_after_explicit_geometry_beaming_and_HairPin_diffs": true,
+    "note_rest_records_per_export": 3203,
+    "baseline_candidate_raw_signature_difference_indexes": [
+      1768,
+      1769,
+      1772,
+      1773
+    ],
+    "allowed_differences": "four note/rest signatures: rest B4->G5 display, bracket yes->no, and precise beam boundary changes; unchanged pitch/staff/stem/parentheses/duration/voice",
+    "all_3203_signatures_equal_after_exact_whitelisted_changes": true,
+    "candidate_reload_3203_raw_signatures_equal": true,
+    "MIDI_bytes_equal_baseline_candidate_reload": true,
+    "MIDI_bytes": 19491,
+    "independent_m97_q_recipe": {
+      "candidate": [
+        [
+          "3/2",
+          "1/3",
+          "None",
+          "2"
+        ],
+        [
+          "11/6",
+          "1/6",
+          "66",
+          "2"
+        ],
+        [
+          "2",
+          "1/6",
+          "67",
+          "2"
+        ],
+        [
+          "13/6",
+          "1/6",
+          "69",
+          "2"
+        ],
+        [
+          "7/3",
+          "1/6",
+          "71",
+          "1"
+        ],
+        [
+          "5/2",
+          "1/8",
+          "72",
+          "1"
+        ],
+        [
+          "21/8",
+          "1/8",
+          "74",
+          "1"
+        ],
+        [
+          "11/4",
+          "1/8",
+          "76",
+          "1"
+        ],
+        [
+          "23/8",
+          "1/8",
+          "78",
+          "1"
+        ]
+      ],
+      "reloaded": [
+        [
+          "3/2",
+          "1/3",
+          "None",
+          "2"
+        ],
+        [
+          "11/6",
+          "1/6",
+          "66",
+          "2"
+        ],
+        [
+          "2",
+          "1/6",
+          "67",
+          "2"
+        ],
+        [
+          "13/6",
+          "1/6",
+          "69",
+          "2"
+        ],
+        [
+          "7/3",
+          "1/6",
+          "71",
+          "1"
+        ],
+        [
+          "5/2",
+          "1/8",
+          "72",
+          "1"
+        ],
+        [
+          "21/8",
+          "1/8",
+          "74",
+          "1"
+        ],
+        [
+          "11/4",
+          "1/8",
+          "76",
+          "1"
+        ],
+        [
+          "23/8",
+          "1/8",
+          "78",
+          "1"
+        ]
+      ]
+    },
+    "C5_notehead_parentheses_preserved": true,
+    "PDF_comparison": [
+      {
+        "page": 1,
+        "chars": 741,
+        "pixel72_equal": true,
+        "raster_difference_bbox": null,
+        "max_char_x_delta_pt": 0,
+        "max_char_y_delta_pt": 0,
+        "max_char_delta_outside_m97_first_system_pt": 0
+      },
+      {
+        "page": 2,
+        "chars": 689,
+        "pixel72_equal": true,
+        "raster_difference_bbox": null,
+        "max_char_x_delta_pt": 0,
+        "max_char_y_delta_pt": 0,
+        "max_char_delta_outside_m97_first_system_pt": 0
+      },
+      {
+        "page": 3,
+        "chars": 537,
+        "pixel72_equal": true,
+        "raster_difference_bbox": null,
+        "max_char_x_delta_pt": 0,
+        "max_char_y_delta_pt": 0,
+        "max_char_delta_outside_m97_first_system_pt": 0
+      },
+      {
+        "page": 4,
+        "chars": 707,
+        "pixel72_equal": true,
+        "raster_difference_bbox": null,
+        "max_char_x_delta_pt": 0,
+        "max_char_y_delta_pt": 0,
+        "max_char_delta_outside_m97_first_system_pt": 0
+      },
+      {
+        "page": 5,
+        "chars": 568,
+        "pixel72_equal": false,
+        "raster_difference_bbox": [
+          70,
+          37,
+          555,
+          164
+        ],
+        "max_char_x_delta_pt": 6.8628459999999905,
+        "max_char_y_delta_pt": 10.882828200000063,
+        "max_char_delta_outside_m97_first_system_pt": 0.6684979999999996
+      },
+      {
+        "page": 6,
+        "chars": 695,
+        "pixel72_equal": true,
+        "raster_difference_bbox": null,
+        "max_char_x_delta_pt": 0,
+        "max_char_y_delta_pt": 0,
+        "max_char_delta_outside_m97_first_system_pt": 0
+      },
+      {
+        "page": 7,
+        "chars": 622,
+        "pixel72_equal": true,
+        "raster_difference_bbox": null,
+        "max_char_x_delta_pt": 0,
+        "max_char_y_delta_pt": 0,
+        "max_char_delta_outside_m97_first_system_pt": 0
+      },
+      {
+        "page": 8,
+        "chars": 428,
+        "pixel72_equal": true,
+        "raster_difference_bbox": null,
+        "max_char_x_delta_pt": 0,
+        "max_char_y_delta_pt": 0,
+        "max_char_delta_outside_m97_first_system_pt": 0
+      }
+    ],
+    "reload_PDF_comparison": [
+      {
+        "page": 1,
+        "same_object_structure_and_nonnumeric_fields": true,
+        "max_numeric_delta_by_kind_pt": {
+          "chars": 0,
+          "lines": 0,
+          "rects": 0,
+          "curves": 0
+        },
+        "exact_72dpi_pixels": true
+      },
+      {
+        "page": 2,
+        "same_object_structure_and_nonnumeric_fields": true,
+        "max_numeric_delta_by_kind_pt": {
+          "chars": 0,
+          "lines": 0,
+          "rects": 0,
+          "curves": 0
+        },
+        "exact_72dpi_pixels": true
+      },
+      {
+        "page": 3,
+        "same_object_structure_and_nonnumeric_fields": true,
+        "max_numeric_delta_by_kind_pt": {
+          "chars": 0,
+          "lines": 0,
+          "rects": 0,
+          "curves": 0
+        },
+        "exact_72dpi_pixels": true
+      },
+      {
+        "page": 4,
+        "same_object_structure_and_nonnumeric_fields": true,
+        "max_numeric_delta_by_kind_pt": {
+          "chars": 0,
+          "lines": 0,
+          "rects": 0,
+          "curves": 0
+        },
+        "exact_72dpi_pixels": true
+      },
+      {
+        "page": 5,
+        "same_object_structure_and_nonnumeric_fields": true,
+        "max_numeric_delta_by_kind_pt": {
+          "chars": 0.00001340000017080456,
+          "lines": 0.000013600000329461182,
+          "rects": 0,
+          "curves": 0.000019199999996999395
+        },
+        "exact_72dpi_pixels": true
+      },
+      {
+        "page": 6,
+        "same_object_structure_and_nonnumeric_fields": true,
+        "max_numeric_delta_by_kind_pt": {
+          "chars": 0,
+          "lines": 0,
+          "rects": 0,
+          "curves": 0
+        },
+        "exact_72dpi_pixels": true
+      },
+      {
+        "page": 7,
+        "same_object_structure_and_nonnumeric_fields": true,
+        "max_numeric_delta_by_kind_pt": {
+          "chars": 0,
+          "lines": 0,
+          "rects": 0,
+          "curves": 0
+        },
+        "exact_72dpi_pixels": true
+      },
+      {
+        "page": 8,
+        "same_object_structure_and_nonnumeric_fields": true,
+        "max_numeric_delta_by_kind_pt": {
+          "chars": 0,
+          "lines": 0,
+          "rects": 0,
+          "curves": 0
+        },
+        "exact_72dpi_pixels": true
+      }
+    ],
+    "native_metrics": {
+      "upper_staff_bottom_pt": 80.13544260000003,
+      "number_font_bbox_pt": {
+        "x0": 478.59001200000006,
+        "x1": 483.03801200000004,
+        "top": 80.14314439999998,
+        "bottom": 88.14314439999998
+      },
+      "beams": [
+        {
+          "pts": [
+            [
+              512.739474,
+              88.83740560000001
+            ],
+            [
+              543.65763,
+              87.93300720000002
+            ],
+            [
+              543.65763,
+              90.15915580000001
+            ],
+            [
+              512.739474,
+              91.06355440000004
+            ],
+            [
+              512.739474,
+              88.83740560000001
+            ]
+          ],
+          "bbox_pt": [
+            512.739474,
+            87.93300720000002,
+            543.65763,
+            91.06355440000004
+          ]
+        },
+        {
+          "pts": [
+            [
+              512.739474,
+              85.49961039999994
+            ],
+            [
+              543.65763,
+              84.59521180000002
+            ],
+            [
+              543.65763,
+              86.8213604
+            ],
+            [
+              512.739474,
+              87.72575900000004
+            ],
+            [
+              512.739474,
+              85.49961039999994
+            ]
+          ],
+          "bbox_pt": [
+            512.739474,
+            84.59521180000002,
+            543.65763,
+            87.72575900000004
+          ]
+        },
+        {
+          "pts": [
+            [
+              512.739474,
+              82.16181519999998
+            ],
+            [
+              543.65763,
+              81.25741659999994
+            ],
+            [
+              543.65763,
+              83.48356520000004
+            ],
+            [
+              512.739474,
+              84.38796379999997
+            ],
+            [
+              512.739474,
+              82.16181519999998
+            ]
+          ],
+          "bbox_pt": [
+            512.739474,
+            81.25741659999994,
+            543.65763,
+            84.38796379999997
+          ]
+        },
+        {
+          "pts": [
+            [
+              452.09668000000005,
+              92.36714040000004
+            ],
+            [
+              502.16357200000004,
+              87.87280220000002
+            ],
+            [
+              502.16357200000004,
+              90.10694639999997
+            ],
+            [
+              452.09668000000005,
+              94.60128480000003
+            ],
+            [
+              452.09668000000005,
+              92.36714040000004
+            ]
+          ],
+          "bbox_pt": [
+            452.09668000000005,
+            87.87280220000002,
+            502.16357200000004,
+            94.60128480000003
+          ]
+        },
+        {
+          "pts": [
+            [
+              473.773662,
+              93.75906499999996
+            ],
+            [
+              502.16357200000004,
+              91.21059739999998
+            ],
+            [
+              502.16357200000004,
+              93.44474160000004
+            ],
+            [
+              473.773662,
+              95.99320940000007
+            ],
+            [
+              473.773662,
+              93.75906499999996
+            ]
+          ],
+          "bbox_pt": [
+            473.773662,
+            91.21059739999998,
+            502.16357200000004,
+            95.99320940000007
+          ]
+        }
+      ]
+    },
+    "native_CLI_calls": 16,
+    "new_source_preparation_errors": 2,
+    "source_error_note": "Initial ET encoding utf8 inserted XML declaration inside voice; input parse caught it before host invocation. Following runner assertion also stopped before host. Corrected to UTF-8 without declaration.",
+    "MusicXML_reimport_tested": false,
+    "printing_performance_user_adoption": false
+  },
+  "final_geometry": {
+    "original": {
+      "sp_pt": 4.45039369999995,
+      "beam_staffline_intersection_pairs": [
+        {
+          "beam_index": 3,
+          "staff_y": 80.13544260000003
+        }
+      ],
+      "hairpin_stem_axis_crossings": [
+        [
+          484.85026,
+          100.24121064807694
+        ],
+        [
+          495.96647800000005,
+          99.84038547980771
+        ],
+        [
+          473.73404200000004,
+          100.64203581634617
+        ],
+        [
+          484.85026,
+          99.22651516521742
+        ],
+        [
+          495.96647800000005,
+          98.17933520869568
+        ],
+        [
+          473.73404200000004,
+          100.27369512173915
+        ]
+      ]
+    },
+    "first": {
+      "sp_pt": 4.45039369999995,
+      "beam_staffline_intersection_pairs": [
+        {
+          "beam_index": 1,
+          "staff_y": 80.13544260000003
+        },
+        {
+          "beam_index": 2,
+          "staff_y": 75.68504889999997
+        },
+        {
+          "beam_index": 2,
+          "staff_y": 80.13544260000003
+        }
+      ],
+      "hairpin_stem_axis_crossings": []
+    },
+    "final": {
+      "sp_pt": 4.45039369999995,
+      "beam_staffline_intersection_pairs": [],
+      "hairpin_stem_axis_crossings": [],
+      "dot_mask_components_in_box": 2,
+      "dot_selected_round_component_samples": 16,
+      "dot_other_component_excluded": "hairpin also enters the broad crop; only isolated round dot used",
+      "head_anchors_reused_from_prior_native_SVG": "v1-5.svg; their vertical staff reference preserved in source/current export; actual final stem axes used",
+      "head_to_primary_center_sp": [
+        4.54814073121886,
+        4.271335582569346,
+        3.9945304742608423,
+        3.994536498751484,
+        4.703835559882926,
+        5.120296177560239,
+        5.562066932158445,
+        6.003837686756655
+      ],
+      "tail_highest_beam_to_staff_ink_gap_pt": 0.9217062839999092,
+      "digit_to_primary_beam_min_4x_ink_sample_distance_pt": 3.8484621266798684,
+      "rest_to_primary_beam_min_4x_ink_sample_distance_pt": 5.09552185906056,
+      "staccato_to_hairpin_min_4x_ink_sample_minus_halfstroke_pt": 1.6319353817125146,
+      "hairpin_points": [
+        [
+          550.8835920000001,
+          121.60002899999995
+        ],
+        [
+          467.6835920000001,
+          133.20002899999997
+        ],
+        [
+          550.0835920000001,
+          116.800029
+        ]
+      ],
+      "right_hairpin_mouth_outside_bass_staff": true
+    }
+  },
+  "intermediate_v3_audit_retained": "tmp/engraving/m97-group-boundary-2026-10-31/audit.json",
+  "candidate": {
+    "source": "tmp/engraving/m97-group-boundary-2026-10-31/saved-v4.mscz",
+    "pdf": "tmp/engraving/m97-group-boundary-2026-10-31/saved-v4.pdf",
+    "full_system_image": "tmp/engraving/m97-group-boundary-2026-10-31/m97-group-balanced-system.png",
+    "detail_image": "tmp/engraving/m97-group-boundary-2026-10-31/m97-group-balanced-detail.png",
+    "saved_reloaded": true,
+    "changes_not_adopted_by_user": true,
+    "visible_costs": [
+      "Splits the formerly continuous main beam",
+      "Ordinary tail beam shallower; slight height reset at boundary",
+      "Tail stems grow toward highest pitch up toabout6sp",
+      "Hairpin outside/throughbass staff may imply lower-layer scope; author target pending"
+    ]
+  },
+  "coverage": {
+    "corpus_scores": [
+      146,
+      146
+    ],
+    "corpus_pages": [
+      1135,
+      1135
+    ],
+    "Gould": [
+      696,
+      696
+    ],
+    "resources": [
+      16,
+      25
+    ],
+    "remaining_resources": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "new_resource_completions": 0,
+    "new_corpus_reading": 0,
+    "new_Gould_coverage": 0
+  },
+  "protected_sources": [
+    {
+      "id": "mscz",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "original_unchanged": true
+    },
+    {
+      "id": "pdf",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "original_unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "original_unchanged": true
+    }
+  ],
+  "cache": {
+    "private_root": "tmp/engraving/m97-group-boundary-2026-10-31",
+    "final_private_bytes": 2858663,
+    "budget_bytes": 3145728,
+    "initial_budget_bytes": 2097152,
+    "files": [
+      {
+        "path": "audit-v4.json",
+        "bytes": 10298,
+        "sha256": "c5b885ffe796fc6905a6b1ad8e066f0763ca402d35e626ed378b5519c05a1107"
+      },
+      {
+        "path": "audit-v4.py",
+        "bytes": 8939,
+        "sha256": "55cd0096ead5b454ae479a3447ce2c1bbf8a11c0483d8dfe20c47504cb44b519"
+      },
+      {
+        "path": "audit.json",
+        "bytes": 9837,
+        "sha256": "e570d600b0466604932bc845eb4ae2a61426c905214157b591e01708d01a4de4"
+      },
+      {
+        "path": "audit.py",
+        "bytes": 9156,
+        "sha256": "518c8317a51964f2976e5de63aab2a74cfb8575ee0f3dabba6b28f361941db8f"
+      },
+      {
+        "path": "build-v1.py",
+        "bytes": 2712,
+        "sha256": "9d1f23f20c7ca07e0a29612e885da344f47022be070d97fedc10e1133fc044a9"
+      },
+      {
+        "path": "build-v2.py",
+        "bytes": 1726,
+        "sha256": "aeeec8a63f4bfd85882b89307da4f5de9d26d685836daee4ca0fffdcb9097e9f"
+      },
+      {
+        "path": "build-v3.py",
+        "bytes": 870,
+        "sha256": "8310fc89d0c8b761fdd902b121bcc53bd59bb8501487b92b465032152b5ba6e7"
+      },
+      {
+        "path": "build-v4.py",
+        "bytes": 1757,
+        "sha256": "76c9ea18299b6c41a26be9766fd6c762fb1f4e174f936af4cdc7d5d0459c6c8d"
+      },
+      {
+        "path": "candidate-m97-group-v1.mscz",
+        "bytes": 68639,
+        "sha256": "3d78462b100118a4b45d8ec2f821923b425745d797f5bf77a4934625d9378f68"
+      },
+      {
+        "path": "candidate-m97-group-v2.mscz",
+        "bytes": 68653,
+        "sha256": "5ae477a80de64dba4f8ca6851eb6cf8e5500913e78f4bb1a1337d1b0f05ac44f"
+      },
+      {
+        "path": "candidate-m97-group-v3.mscz",
+        "bytes": 68653,
+        "sha256": "06db9ee6eb1c6b3c7bebb5f76abd9808081482a5bda49c6fd499fc7d2a2bc79b"
+      },
+      {
+        "path": "candidate-m97-group-v4.mscz",
+        "bytes": 68667,
+        "sha256": "9e1a7a30ee51af1901aa48f3644b0d55252a78ec53087d39d2d44a324b83bfc8"
+      },
+      {
+        "path": "config/workspaces/global/menubar.xml",
+        "bytes": 10757,
+        "sha256": "ed16e6c8c724f9a925a2792277280075ee8e38edcad7fabae9081a9967a1d524"
+      },
+      {
+        "path": "geometry-audit-v4.json",
+        "bytes": 2413,
+        "sha256": "2abe04da3d43709deae3da1d60f384641b4bc961754b39afeb437ad1edc13cd7"
+      },
+      {
+        "path": "geometry-audit-v4.py",
+        "bytes": 4787,
+        "sha256": "ce267d26db3052e055c2776ce3bba960c405d3421b1f0a033f0ea2dbed4dc41e"
+      },
+      {
+        "path": "geometry-audit.json",
+        "bytes": 2417,
+        "sha256": "fea02b979cafc71dafb0ea26f80569c62da19932e533005764d08447a998cada"
+      },
+      {
+        "path": "geometry-audit.py",
+        "bytes": 4782,
+        "sha256": "1f107beb0590e366d84b5be53bacf090e3ed332fb5a5214c2e50c81ae5f33947"
+      },
+      {
+        "path": "m97-group-balanced-detail.png",
+        "bytes": 56888,
+        "sha256": "2e0054d3cd05e79329d0e146750d404955c886e257adda2405bf79a93f09a70a"
+      },
+      {
+        "path": "m97-group-balanced-system.png",
+        "bytes": 217906,
+        "sha256": "cb9bc94de58af7320e3bf49a54645be7e9e01c9244be67f7b1237cf9c2ad998d"
+      },
+      {
+        "path": "m97-group-detail-comparison.png",
+        "bytes": 57871,
+        "sha256": "eef632c1a48cad80ec6bc433858070cebf6857630a68f0c72b01c296de367400"
+      },
+      {
+        "path": "m97-group-system-comparison.png",
+        "bytes": 218697,
+        "sha256": "bfaf7a7f7c40a474c8f83c0cad3566ef96f65df490d95c327901b658fa743ff3"
+      },
+      {
+        "path": "patch-v1.json",
+        "bytes": 745,
+        "sha256": "444d298b029e26ed6bf60364018670ffcbd03e510360b65fbbddb1706df95900"
+      },
+      {
+        "path": "patch-v2.json",
+        "bytes": 639,
+        "sha256": "1fa112748037a14bcd0221115cdb10f90a9a6d3c3adf50451528afff8cf82107"
+      },
+      {
+        "path": "patch-v3.json",
+        "bytes": 295,
+        "sha256": "b52bcd4d4ad761306a67f0e3dca7530f3dd13d676d0269e6d326352cff513702"
+      },
+      {
+        "path": "patch-v4.json",
+        "bytes": 650,
+        "sha256": "0cd3e53dfd92a348643eecf6fea40becd60ce8da24d90a6dd466477a8f59f781"
+      },
+      {
+        "path": "render-balanced-comparison.py",
+        "bytes": 1338,
+        "sha256": "2c41d5e368da682536aa2ccf69bfefecdcb19536c45774c08ad7991a006a893b"
+      },
+      {
+        "path": "render-comparison.py",
+        "bytes": 1340,
+        "sha256": "00489fe9e5b091750ba34d2fb74274f2ac4034a4ce7f9e0951e534605317e14d"
+      },
+      {
+        "path": "run.py",
+        "bytes": 1359,
+        "sha256": "b46589e6e9b8c742b9907622ca9e3d35e8ba6c81edd3d84e936677f585ad519e"
+      },
+      {
+        "path": "saved-mid-call.json",
+        "bytes": 875,
+        "sha256": "854ef0ea75a158fb104ba5ac551fe52295618b1cac99eb07fa5e38c7dd404d27"
+      },
+      {
+        "path": "saved-mxl-call.json",
+        "bytes": 875,
+        "sha256": "230ccd67afe89565ebc2cb32af888d8cd89314ddbed9df63813781beb70cfe3b"
+      },
+      {
+        "path": "saved-pdf-call.json",
+        "bytes": 875,
+        "sha256": "89b27352c93b0f0892638623a924e2c391d3ce54ca7eabff621d939d79f4fb09"
+      },
+      {
+        "path": "saved-v4-mid-call.json",
+        "bytes": 890,
+        "sha256": "54d70522640664d3a7ee0044c6a769fdc22d594a84d89de2311577fbd78e9be5"
+      },
+      {
+        "path": "saved-v4-mxl-call.json",
+        "bytes": 890,
+        "sha256": "2f58b16b82b57a7b4154ba5e4d71d229f8fc2432f126d048f8e646319ca27fde"
+      },
+      {
+        "path": "saved-v4-pdf-call.json",
+        "bytes": 890,
+        "sha256": "a75b90210941245ec284817a7ec0a0d65f0b0dfd8b79dee4fb67f41bc1f8c651"
+      },
+      {
+        "path": "saved-v4.mid",
+        "bytes": 19491,
+        "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+      },
+      {
+        "path": "saved-v4.mscz",
+        "bytes": 68761,
+        "sha256": "eda74a742ad135346b784f22938f40aad9833e2e56341c4934fd6ce2c78bcedd"
+      },
+      {
+        "path": "saved-v4.mxl",
+        "bytes": 66192,
+        "sha256": "9c69d4f72dde4c07d30038fa91283a643ede8d8825b3c96b62c0c442239b4dab"
+      },
+      {
+        "path": "saved-v4.pdf",
+        "bytes": 243278,
+        "sha256": "b0625d1bf6585efd31d542319f05170b411b2104a54240f8d4a20fc428ae6c25"
+      },
+      {
+        "path": "saved.mid",
+        "bytes": 19491,
+        "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+      },
+      {
+        "path": "saved.mscz",
+        "bytes": 68750,
+        "sha256": "0060c9fc38ee31324dfc989cb459249a91abaa7482cb00c13c02ea7a3567fec8"
+      },
+      {
+        "path": "saved.mxl",
+        "bytes": 66182,
+        "sha256": "ba04de41fa10a6d10b74ff227c03c996c167751b9098261fe29f5acc9ed1ac0a"
+      },
+      {
+        "path": "saved.pdf",
+        "bytes": 243282,
+        "sha256": "b939ff7ae147f8a90ee75b2a4ed57723e8d2ffb983e254c13d6e45ee91327961"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 1685,
+        "sha256": "dd0677eaad307ee9923302d36c123abfdb0856882a7c9a80da8ff3f01f2ea099"
+      },
+      {
+        "path": "v1-pdf-call.json",
+        "bytes": 900,
+        "sha256": "0af5bbd487fd4ce0ff1a44551f502c591fb080544bcc8ffe8f0d94534447ece7"
+      },
+      {
+        "path": "v1.pdf",
+        "bytes": 243276,
+        "sha256": "140e7f77e932e4c2ae7b1ae413c6696bcc4e79a4fcfdf0b55c7b4ec1e693cef3"
+      },
+      {
+        "path": "v2-pdf-call.json",
+        "bytes": 900,
+        "sha256": "40ce33feb379a27e25a5fd51c0230a55b32fd66583170c0db8ffd91d0b452278"
+      },
+      {
+        "path": "v2.pdf",
+        "bytes": 243281,
+        "sha256": "185a6fa57162d1e829cc7e6f16f3644e08f94cd20e7bc3dceb405b53c5f8783f"
+      },
+      {
+        "path": "v3-mid-call.json",
+        "bytes": 900,
+        "sha256": "feb1750ea79a771f3c99fe9e4ed073f190cbc672396dcd064fadbe28a0d14c93"
+      },
+      {
+        "path": "v3-mscz-call.json",
+        "bytes": 909,
+        "sha256": "4bc077d5506660750391487aa0dad9f99e2cc262b2ec541ade3526adbc226aef"
+      },
+      {
+        "path": "v3-mxl-call.json",
+        "bytes": 900,
+        "sha256": "dc6a1d2115f268db0c4428862b7dbc539fda3ac46b5a3d5393ed5b6675859c1b"
+      },
+      {
+        "path": "v3-pdf-call.json",
+        "bytes": 900,
+        "sha256": "ba1efb59686cdedbd79f281a5a839244b55b9a7c5ccbf6a3a64721918f359d9e"
+      },
+      {
+        "path": "v3.mid",
+        "bytes": 19491,
+        "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+      },
+      {
+        "path": "v3.mxl",
+        "bytes": 66173,
+        "sha256": "4caede2dab04618032faf547ff46780ac6c750d42e13b59093e9266dd8b21698"
+      },
+      {
+        "path": "v3.pdf",
+        "bytes": 243283,
+        "sha256": "683234c17fc3b2e05bd4da743040e0afa45f5398750960ca0c5b7e40cf758bf0"
+      },
+      {
+        "path": "v4-mid-call.json",
+        "bytes": 900,
+        "sha256": "6554a1273ffd9940cbf32a0e8ddea07c94e16e98d5b117a4aa3a0cc22c009b95"
+      },
+      {
+        "path": "v4-mscz-call.json",
+        "bytes": 915,
+        "sha256": "cd204631069568e53c939e7f59b8cd7cecce705465267afb47a7d85962a9d8b5"
+      },
+      {
+        "path": "v4-mxl-call.json",
+        "bytes": 900,
+        "sha256": "8bc0dbf7934ff999b69ba32aafe4c26e313844219bc469ec3d6a7a6e5f0a9d38"
+      },
+      {
+        "path": "v4-pdf-call.json",
+        "bytes": 900,
+        "sha256": "1904e510d0207c94a88ca891d712f333d04152e17573624a900693aabca7984f"
+      },
+      {
+        "path": "v4.mid",
+        "bytes": 19491,
+        "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+      },
+      {
+        "path": "v4.mxl",
+        "bytes": 66174,
+        "sha256": "ed53722cc6eb311bd64e44eaaae138a75088346140c7dbb2be806cb691b5a52d"
+      },
+      {
+        "path": "v4.pdf",
+        "bytes": 243272,
+        "sha256": "0d24809e394b1774269c3fd478bc8f5b17df9f042a83f495290323e59c69167d"
+      }
+    ],
+    "new_public_user_music_assets": 0,
+    "new_reference_pdf_copies": 0,
+    "new_runtime_copies": 0,
+    "deleted_files": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3263168512
+  },
+  "limits": [
+    "No MusicXML import roundtrip",
+    "No printing or performance validation",
+    "No dynamic author scope or aesthetic adoption confirmed",
+    "No GUI/MCP/tool adaptation or font change"
+  ]
+}

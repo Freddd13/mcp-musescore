@@ -1,8 +1,8 @@
 # 钢琴净书skill：使用、关联与更新
 
-0.23之后工作分支已补[m97方向反馈](engraving/M97_DIRECTION_FEEDBACK.md)：三括号探针拒绝，渐强局部候选另保原音型、穿干6→0，原六连仍未改。可查`--topic markings --query "斜穿谱表 渐强"`或`--topic cross-staff --query "方向感 数字 加线"`。用户初步偏好原方向，渐强观感待答；固定0.23标签保持，工作分支引用时同时记录实际提交。
+当前可用研究版为**[0.24.0／engraving-v0.24.0](ENGRAVING_RELEASES.md)**。新增[完整组梁](engraving/TUPLET_REST_SCOPE_STUDY.md)与[m97实曲平衡迁移](engraving/M97_GROUP_BOUNDARY_TRANSFER.md)，可查`--topic beams --query "m97 最短干 平衡"`或`--topic cross-staff --query "首休止 完整 六连"`。当前候选可比较，作者渐强作用层与审美采用待答；资料16/25余9、20入口保持。关联安装更新项目，复制安装同步同版skill和库，无需重配MCP。
 
-当前可用研究版为**[0.23.0／engraving-v0.23.0](ENGRAVING_RELEASES.md)**，包括换号、整行容量及作品／乐器条件的新案例。可查`--topic sources --query "收藏列表 作品ID 自动跳转"`或`--topic notation --query "弦号 弓法 乐器条件"`。修正R08旧链接，资料仍16/25余9；以下旧版介绍保留为使用历史。关联安装更新项目即可，复制安装同步同版skill和库，无需重配MCP。
+此前0.23研究版包括换号、整行容量及作品／乐器条件的新案例。可查`--topic sources --query "收藏列表 作品ID 自动跳转"`或`--topic notation --query "弦号 弓法 乐器条件"`。修正R08旧链接，资料仍16/25余9；以下旧版介绍保留为使用历史。关联安装更新项目即可，复制安装同步同版skill和库，无需重配MCP。
 
 0.22已固定[连音范围／归属及m97实曲迁移](ENGRAVING_RELEASES.md)。可查`--topic notation --query "m97 首休止 加线"`或`--topic layout --query "端点 整页 间距"`；新候选的加线、显示分配与整页联动一并说明，用户选择尚待反馈。原谱／比较图留本机，使用方式沿用下文。
 
@@ -12,7 +12,7 @@
 
 0.21纳入[梁坡与实曲应用](engraving/BEAM_WIDTH_TRANSFER.md)、[共梁范围](engraving/BEAM_SCOPE_TRANSFER.md)和[交换机理／换号回查](engraving/BEAM_EXCHANGE_CLEF_STUDY.md)。可查`--topic beams --query "声部归属 第一音 干向"`或`--topic clefs --query "E4 G4 换号"`。新案例在音乐起音保持时仍暴露图面、轨道和释放变化，先读实际验证范围；XML诊断输入用于复现，不能当通用转换补丁。关联／复制更新方式沿用下文，无新增MCP配置步骤。
 
-2026-10-31。最近发布的可用研究版为**[0.23.0／engraving-v0.23.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
+2026-10-31。最近发布的可用研究版为**[0.24.0／engraving-v0.24.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
 
 ## 按具体问题定位来源
 

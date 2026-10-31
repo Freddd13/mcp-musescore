@@ -3192,17 +3192,17 @@
     }
   },
   "release": {
-    "version": "0.23.0",
-    "tag": "engraving-v0.23.0",
+    "version": "0.24.0",
+    "tag": "engraving-v0.24.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.23固定梁内换号条件、整行容量两类及来源身份纠正／乐器条件补读；两份新原创输入与一图，20入口保持。资料16/25余9，软件／字体适配0；R08旧错误链接修正，R09仍仅一帧partial。 工作分支另补m97方向反馈／渐强局部及含休止完整梁六版研究；固定tag未移动，完整实曲后继0/1。"
+    "working_branch_note": "0.24固定m97方向反馈、含首休止完整梁六版原创研究、实曲干长平衡迁移；六原创输入一图，20入口。完整实曲比较候选1/1，渐强作用层及审美采用待答；资料16/25余9，无适配。"
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "原创三层含休止六连：4/4原始条件，宽／窄局部候选各1/1，重载1/1；保方向、明确组界与渐强通道。m97完整实曲后继仍0/1。",
+    "scope": "m97完整组界／干长平衡迁移：四版实曲校准4/4、完整比较候选1/1、两版保存重载2/2。保原显示分配，六连两向最短干约4sp；作者渐强作用层与审美采用待答。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3212,49 +3212,45 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 9,
-    "supplemental_element_reference_pages_read": 4,
+    "book_reread_pages": 3,
+    "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 1,
-    "new_native_diagnostic_conditions": 4,
+    "new_native_diagnostic_conditions": 3,
     "new_user_integrated_rounds": 0,
-    "native_CLI_calls": 24,
+    "native_CLI_calls": 16,
     "notes": [
-      "TUPLET_REST_SCOPE_STUDY.md"
+      "M97_GROUP_BOUNDARY_TRANSFER.md"
     ],
-    "review_evidence": "tuplet_rest_scope_evidence.json",
+    "review_evidence": "m97_group_boundary_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "TUPLET_REST_SCOPE_STUDY.md",
-    "evidence": "tuplet_rest_scope_evidence.json",
-    "completed_conditions": 6,
-    "planned_conditions": 6,
-    "raw_conditions": [
-      4,
-      4
-    ],
-    "candidate_widths": [
-      2,
-      2
-    ],
-    "saved_reloaded_candidates": [
+    "reference": "M97_GROUP_BOUNDARY_TRANSFER.md",
+    "evidence": "m97_group_boundary_evidence.json",
+    "completed_conditions": 4,
+    "planned_conditions": 4,
+    "intermediate_versions": 3,
+    "final_comparison_candidates": [
       1,
       1
     ],
-    "new_conditions": 6,
+    "saved_reloaded_versions": [
+      2,
+      2
+    ],
+    "native_CLI_calls": 16,
+    "description": "完整组梁＋普通尾音分梁迁移实曲，保B4上表及C5括号；首版尾梁入谱线、数字不跟手调梁、v3最短干失衡均保存。v4六连两向最短干3.995sp，尾组浅斜，音乐／3203记录／完整MIDI保持，最终八页原生重载相同像素。分梁与浅尾梁有阅读代价，作者作用层／视觉采用待答。",
+    "new_conditions": 4,
     "reused_conditions": 0,
-    "private_calibration_SVG_conditions": 3,
-    "native_CLI_calls": 24,
-    "description": "原创三层：完整六连含首休止独立梁／普通32尾音另梁，范围与保方向收益明确，分梁有连续性代价。起首休止入梁使自动梁反向，保留复现；局部上行梁、休止／数字／发夹通道两宽候选已核。六版84音休止配方，完整MIDI与1/1重载；没有m97迁移、打印或用户采用。",
     "user_preference_confirmed": false,
-    "software_adaptation_changes": 0,
     "real_m97_successor_candidates": [
-      0,
+      1,
       1
-    ]
+    ],
+    "software_adaptation_changes": 0
   },
   "native_study_history": [
     {
@@ -3423,6 +3419,35 @@
         1,
         1
       ]
+    },
+    {
+      "reference": "TUPLET_REST_SCOPE_STUDY.md",
+      "evidence": "tuplet_rest_scope_evidence.json",
+      "completed_conditions": 6,
+      "planned_conditions": 6,
+      "raw_conditions": [
+        4,
+        4
+      ],
+      "candidate_widths": [
+        2,
+        2
+      ],
+      "saved_reloaded_candidates": [
+        1,
+        1
+      ],
+      "new_conditions": 6,
+      "reused_conditions": 0,
+      "private_calibration_SVG_conditions": 3,
+      "native_CLI_calls": 24,
+      "description": "原创三层：完整六连含首休止独立梁／普通32尾音另梁，范围与保方向收益明确，分梁有连续性代价。起首休止入梁使自动梁反向，保留复现；局部上行梁、休止／数字／发夹通道两宽候选已核。六版84音休止配方，完整MIDI与1/1重载；没有m97迁移、打印或用户采用。",
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0,
+      "real_m97_successor_candidates": [
+        0,
+        1
+      ]
     }
   ],
   "latest_judgment_review": {
@@ -3438,26 +3463,16 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "TUPLET_REST_SCOPE_STUDY.md",
-    "evidence": "tuplet_rest_scope_evidence.json",
+    "reference": "M97_GROUP_BOUNDARY_TRANSFER.md",
+    "evidence": "m97_group_boundary_evidence.json",
     "Gould_full_printed_page_rereads": [
-      36,
-      163,
-      164,
-      165,
-      199,
       200,
       315,
-      316,
-      317
+      323
     ],
-    "targeted_primary_web_bodies_read": 4,
-    "targeted_distinct_images_viewed": 3,
-    "Lily_displayed_snippet_read": true,
-    "Lily_generated_full_source_read": false,
-    "Dorico_runtime": false,
+    "new_coverage_pages": 0,
     "new_fixed_resource_completions": 0,
-    "scope": "Gould9页既有覆盖复读；LilyPond2.26 stemlets正文／显示源码及一图，Dorico6.2休止连梁／短符干／显示操作三正文及两图；体例差异与适用条件已分清。"
+    "scope": "完整图文复读，省括号条件、两向最短干平衡、发夹作用层与斜穿条件；直接改变实曲候选，不以容器猜作者意图。"
   },
   "judgment_review_history": [
     {
@@ -3578,22 +3593,23 @@
     "reference": "M97_TUPLET_TRANSFER.md",
     "planned_candidates": 1,
     "completed_candidates": 1,
-    "scope": "首次实曲技术迁移1/1已有；用户已初步偏好原版方向，原近梁重分B4方案不采用。后续三几何探针均拒绝，可推荐后继0/1。原件保持，先小样本比较明确组界的记法方案。",
+    "scope": "初次B4移表候选历史保留；原方向反馈之后，M97_GROUP_BOUNDARY_TRANSFER.md已形成完整组界平衡版1/1、最终8/8页重载。源显示分配保持，分梁／浅尾梁代价及作者渐强作用层待答。",
     "feedback_revision": {
-      "reference": "M97_DIRECTION_FEEDBACK.md",
+      "reference": "M97_GROUP_BOUNDARY_TRANSFER.md",
       "probes": [
         3,
         3
       ],
       "ready_viable_candidates": [
-        0,
+        1,
         1
       ],
-      "next": "原创三层研究现1/1闭合；下一步在m97副本核六连含休止的独立梁与普通32尾音分梁，联合保方向与力度通道。分梁单列记法提议，完整可推荐后继仍0/1。",
+      "next": "当前有可比较副本，不自动采用；作用层／观感反馈到来后再判断。继续剩余九项可得实际资料与跨谱情境，避免为同处反复纯坐标试排。",
       "original_beaming_study": [
         1,
         1
-      ]
+      ],
+      "author_dynamic_scope": "pending; source voice is not evidence of author musical scope"
     }
   },
   "next_source_reading": {
@@ -3668,6 +3684,28 @@
       "new_resource_completion": false,
       "full_work_read": true,
       "boundary": "Complete two-page official solo violin arrangement; separate from R09 Legatissimo rendering. Instrument-specific notation and6Gould pages reviewed; no native/printing/performance verification."
+    },
+    {
+      "reference": "TUPLET_REST_SCOPE_STUDY.md",
+      "evidence": "tuplet_rest_scope_evidence.json",
+      "Gould_full_printed_page_rereads": [
+        36,
+        163,
+        164,
+        165,
+        199,
+        200,
+        315,
+        316,
+        317
+      ],
+      "targeted_primary_web_bodies_read": 4,
+      "targeted_distinct_images_viewed": 3,
+      "Lily_displayed_snippet_read": true,
+      "Lily_generated_full_source_read": false,
+      "Dorico_runtime": false,
+      "new_fixed_resource_completions": 0,
+      "scope": "Gould9页既有覆盖复读；LilyPond2.26 stemlets正文／显示源码及一图，Dorico6.2休止连梁／短符干／显示操作三正文及两图；体例差异与适用条件已分清。"
     }
   ],
   "latest_source_identity_review": {
@@ -3689,6 +3727,6 @@
       4
     ],
     "scope": "原创三层组界／力度通道已完成，宽／窄候选与1/1重载保持源staffMove和干向。已明确连续性代价及首休止自动反向复现。",
-    "next": "实曲m97完整后继仍0/1；将分梁作为单列记法候选，有收益再局部迁移，核邻近系统和整页联动，不覆盖原件。"
+    "next": "原创方法已回迁m97，完整比较候选1/1；保留作者作用层及审美采用问题，继续其它学习。"
   }
 }
