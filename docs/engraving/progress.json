@@ -3151,7 +3151,7 @@
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "m97实曲1/1迁移；四条加线与局部端点引起的整页联动。固定近期三批为0.22研究版。",
+    "scope": "复杂梁内换号正面1/1，边界2/2，原创位置3/3；宽音域保组内，窄音域倾向组后。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3161,33 +3161,35 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 3,
+    "book_reread_pages": 7,
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 1,
-    "new_native_diagnostic_conditions": 1,
+    "new_native_diagnostic_conditions": 2,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "M97_TUPLET_TRANSFER.md",
-      "../ENGRAVING_RELEASES.md"
+      "CLEF_IN_GROUP_READING.md"
     ],
-    "review_evidence": "m97_tuplet_transfer_evidence.json",
+    "review_evidence": "clef_in_group_evidence.json",
     "software_adaptation": false,
-    "official_pdf_pages_reread": 0,
-    "new_native_renditions": 3,
+    "official_pdf_pages_reread": 3,
+    "new_native_renditions": 2,
+    "reused_native_renditions": 1,
     "auto_calibration_and_side_probes": 0,
-    "native_CLI_calls": 7
+    "native_CLI_calls": 7,
+    "native_CLI_successful_calls": 6,
+    "native_CLI_failed_calls": 1
   },
   "latest_native_study": {
-    "reference": "M97_TUPLET_TRANSFER.md",
-    "evidence": "m97_tuplet_transfer_evidence.json",
-    "completed_conditions": 1,
-    "planned_conditions": 1,
-    "calibration_trials": 2,
-    "final_candidate": 1,
-    "description": "真实m97独立副本，B4留在下表与完整近梁括号；三轮SVG、两版MXL/MIDI共7次CLI。八页核对，音乐3203记录及完整MIDI保持，B4只显示staff/stem变；四条加线和第5页联动保留，原件只读，未保存重载／导回或视觉采用。",
+    "reference": "CLEF_IN_GROUP_READING.md",
+    "evidence": "clef_in_group_evidence.json",
+    "completed_conditions": 3,
+    "planned_conditions": 3,
+    "new_conditions": 2,
+    "reused_conditions": 1,
+    "description": "同一原创窄音域11组比较组前／组内／组后G号，倾向组后。33音／2休止、拼写／时值／声部／梁／连音和完整MIDI保持；6成功CLI与1输入生成失败调用，基线复用；未作官谱原生替代或重载。",
     "reading_increment": 0,
     "user_preference_confirmed": false,
     "software_adaptation_changes": 0
@@ -3317,18 +3319,32 @@
       "reading_increment": 0,
       "user_preference_confirmed": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "M97_TUPLET_TRANSFER.md",
+      "evidence": "m97_tuplet_transfer_evidence.json",
+      "completed_conditions": 1,
+      "planned_conditions": 1,
+      "calibration_trials": 2,
+      "final_candidate": 1,
+      "description": "真实m97独立副本，B4留在下表与完整近梁括号；三轮SVG、两版MXL/MIDI共7次CLI。八页核对，音乐3203记录及完整MIDI保持，B4只显示staff/stem变；四条加线和第5页联动保留，原件只读，未保存重载／导回或视觉采用。",
+      "reading_increment": 0,
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
-    "reference": "M97_TUPLET_TRANSFER.md",
-    "evidence": "m97_tuplet_transfer_evidence.json",
-    "reviewed_cases": 1,
-    "planned_cases": 1,
+    "reference": "CLEF_IN_GROUP_READING.md",
+    "evidence": "clef_in_group_evidence.json",
+    "reviewed_cases": 3,
+    "planned_cases": 3,
     "decisions": {
-      "prefer_comparison_candidate_for_clearer_group_extent": 1
+      "retain_real_wide_register_internal_clef": 1,
+      "boundary_clef_not_same_beam_positive": 1,
+      "prefer_after_run_in_narrow_original": 1
     },
-    "scope": "已知用户原件的实曲应用；原生可读性与保护核查，不计独立准确率或综合轮次。视觉选择待回复。",
-    "new_native_conditions": 1
+    "scope": "复看已知官谱与规范，复杂正面为有理由保留，未证明唯一不可避免；原生窄音域反例另判断，不计独立准确率。",
+    "new_native_conditions": 2
   },
   "latest_supplemental_reading": {
     "reference": "HOSHIDE_ONDINE_READING.md",
@@ -3415,6 +3431,17 @@
       "official_reference_pages_reread": 2,
       "scope": "预定三种原创上下文，六版已知输入比较；不计独立净书准确率或新增阅读覆盖。",
       "new_native_conditions": 3
+    },
+    {
+      "reference": "M97_TUPLET_TRANSFER.md",
+      "evidence": "m97_tuplet_transfer_evidence.json",
+      "reviewed_cases": 1,
+      "planned_cases": 1,
+      "decisions": {
+        "prefer_comparison_candidate_for_clearer_group_extent": 1
+      },
+      "scope": "已知用户原件的实曲应用；原生可读性与保护核查，不计独立准确率或综合轮次。视觉选择待回复。",
+      "new_native_conditions": 1
     }
   ],
   "latest_library_query": {
@@ -3455,9 +3482,30 @@
     "remaining_resource_scopes": 9,
     "planned_complete_resource_scopes": 25,
     "positive_internal_clef_case": {
-      "completed": 0,
-      "planned": 1
+      "completed": 1,
+      "planned": 1,
+      "reference": "CLEF_IN_GROUP_READING.md",
+      "evidence": "clef_in_group_evidence.json",
+      "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "近期转向可得余项资料的实际图文／视频和不可避免组内换号正面例；不继续扩展同一m97微调，除非新反馈或证据。"
+    "scope": "继续九项资源中可得的实际谱面／图文／视频；R10本轮实际正文观察失败，不以标题计完成，连接未变不重复。复杂换号正面1/1已闭合条件解释。"
+  },
+  "next_layout_reading": {
+    "reference": "STATUS_AND_ROADMAP.md",
+    "completed_contexts": 0,
+    "planned_contexts": 2,
+    "contexts": [
+      {
+        "id": "low-density-boundary",
+        "status": "planned",
+        "scope": "低密度段落：小节数、段首与前后行留白的取舍"
+      },
+      {
+        "id": "dense-continuous",
+        "status": "planned",
+        "scope": "密集连续段：行容量、节奏稳定和必要符号空间的取舍"
+      }
+    ],
+    "scope": "补两个相反条件的系统级判断；复用已读谱，计问题应用而非新增目录覆盖。先解释实际版面，确有疑点再作独立原生候选。"
   }
 }

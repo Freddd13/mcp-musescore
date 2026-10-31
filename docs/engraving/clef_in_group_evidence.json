@@ -1,0 +1,516 @@
+{
+  "date": "2026-10-31",
+  "topic": "A real within-beam clef retained for register and ownership; a narrower original run favors a later clef",
+  "scope": {
+    "real_complex_positive_context": {
+      "completed": 1,
+      "planned": 1,
+      "location": "A092 p8 P first bar, lower eleven-note run",
+      "decision": "retain this within-beam clef provisionally; exact location is not proven uniquely necessary or optimal"
+    },
+    "boundary_source_controls": {
+      "completed": 2,
+      "planned": 2,
+      "cases": [
+        "A012 p3 F/m49 clef is between independent beams, not the target internal-beam case",
+        "Existing independent poly12-11 run is narrower; later clef preferred within three alternatives"
+      ]
+    },
+    "native_placement_conditions": {
+      "completed": 3,
+      "planned": 3,
+      "new": 2,
+      "reused": 1
+    },
+    "unique_official_pages_reread": [
+      {
+        "id": "A012",
+        "pages": [
+          3
+        ]
+      },
+      {
+        "id": "A092",
+        "pages": [
+          8,
+          9
+        ]
+      }
+    ],
+    "official_detail_views": 2,
+    "gould_unique_printed_pages_reread": [
+      7,
+      8,
+      9,
+      23,
+      43,
+      303,
+      304
+    ],
+    "gould_physical_page_offset": 20,
+    "new_reading_coverage": 0,
+    "new_complete_resource_scopes": 0,
+    "software_adaptation": false,
+    "originals_read_only": true,
+    "user_original_mscz_or_pdf_opened": false
+  },
+  "sources": [
+    {
+      "id": "A012",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\aLIEz - Aldnoah.Zero - 2nd Ending Theme.pdf",
+      "registered_sha256": "3d3b7e91e01e8a1e36e82455aa7ad741e5bb588f287820a248f5e9d002a891d5",
+      "verified_after_reading_sha256": "3d3b7e91e01e8a1e36e82455aa7ad741e5bb588f287820a248f5e9d002a891d5"
+    },
+    {
+      "id": "A092",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\My Dearest - Guilty Crown - Opening Theme.pdf",
+      "registered_sha256": "fdc4deecc0d961c9a1aa04314af3e20b209f2e0b607c329d1934bc1be0385bba",
+      "verified_after_reading_sha256": "fdc4deecc0d961c9a1aa04314af3e20b209f2e0b607c329d1934bc1be0385bba"
+    },
+    {
+      "id": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "registered_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "verified_after_reading_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "source_positive_analysis": {
+    "written_pitch_reference_not_sounding_pitch": true,
+    "first_three_written_reference": [
+      "C3",
+      "E3",
+      "A3"
+    ],
+    "G_clef_before_run_note_one_based": 4,
+    "selected_peak_written_reference": "A5",
+    "staff_space_pdf_points": 4.254,
+    "first_to_second_head_x_pdf_points": 7.440664,
+    "second_to_third_head_x_pdf_points": 7.267,
+    "third_to_fourth_head_x_pdf_points": 13.471,
+    "ledger_line_max_if_retaining_F_at_selected_A5": 7,
+    "ledger_line_counts_if_starting_G_at_first_three": [
+      4,
+      3,
+      2
+    ],
+    "statement": "Counts compare written positions with the existing octave indications retained. They are not an aesthetic score. The C-E-A recurrence helps explain a musically legible change point; the engraver intent and exact native encoding are unknown.",
+    "private_coordinate_record": "tmp/engraving/clef-in-group-2026-10-31/source-p8-coordinates.json",
+    "alternatives": [
+      "G before run preserves continuous visual ascent but adds low-entry ledger burden",
+      "F through run removes internal clef but makes high region require many ledgers",
+      "Cross-staff allocation competes with independent upper 12-note run and long chord layer",
+      "Earlier octave indications or a revised split require separate whole-context notation trials"
+    ]
+  },
+  "native_audit": {
+    "date": "2026-10-31",
+    "successful_new_native_calls": 6,
+    "failed_new_native_calls": 1,
+    "failed_reason": "One export attempted before input files existed after a Python string-generation syntax error; corrected preparation exit status and reran. Not a MuseScore layout failure.",
+    "recipe_note_count": 33,
+    "rest_count": 2,
+    "cases": [
+      {
+        "case": "inside-run",
+        "source_sha256": "12ec1af0dce30ce2438b9f3929f3f370bf354329783877c4414a5946b3505dc4",
+        "svg_sha256": "887898d0a841996b0d2bb1456e001afe5adb8f6fdcb2d8e982b3f97f6e8685e9",
+        "musicxml_sha256": "2371a84260b30938cf6aa420a56ed8d78cf0ffc18523bb2012bd7e6c4f8cc813",
+        "midi_sha256": "27e7c207beef46669c3245a4812a9a29561be072af057bd52d09f6c59147d247",
+        "musicxml_33_notes_2_rests_match_baseline": true,
+        "33_independent_pitch_onset_duration_recipes_match": true,
+        "spelling_voice_staff_stem_beams_tuplet_fields_match": true,
+        "full_midi_bytes_match_baseline": true,
+        "actual_note_y_matches_pitch_and_effective_clef": true,
+        "clef_effective_quarter": "23/22",
+        "run_ledger_lines_by_note_theoretical": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "run_ledger_lines_sum_theoretical": 4,
+        "run_max_ledger_lines_theoretical": 2,
+        "svg_staff_space": 22.25200000000001,
+        "lower_first_head_x": 637.226,
+        "lower_last_fast_head_x": 1780.82,
+        "shared_half_arrival_difference_svg": 0,
+        "svg_ledger_path_count_whole_system": 11
+      },
+      {
+        "case": "before-run",
+        "source_sha256": "4ad15af9b9fb2b4d3c29d387f988961ec99750c0fb7dbe66e70fbba3a44ff012",
+        "svg_sha256": "3a31b72b7abfbcebad36d5d07b7ca7d0eead96d91726eee5053a40ac5bc06d1d",
+        "musicxml_sha256": "9d1796d830d8d512521de25cf7a903668290b06fdeff3242c106c279c6a353a6",
+        "midi_sha256": "27e7c207beef46669c3245a4812a9a29561be072af057bd52d09f6c59147d247",
+        "musicxml_33_notes_2_rests_match_baseline": true,
+        "33_independent_pitch_onset_duration_recipes_match": true,
+        "spelling_voice_staff_stem_beams_tuplet_fields_match": true,
+        "full_midi_bytes_match_baseline": true,
+        "actual_note_y_matches_pitch_and_effective_clef": true,
+        "clef_effective_quarter": "1/2",
+        "run_ledger_lines_by_note_theoretical": [
+          6,
+          5,
+          4,
+          2,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "run_ledger_lines_sum_theoretical": 21,
+        "run_max_ledger_lines_theoretical": 6,
+        "svg_staff_space": 22.25200000000001,
+        "lower_first_head_x": 669.246,
+        "lower_last_fast_head_x": 1804.94,
+        "shared_half_arrival_difference_svg": 0,
+        "svg_ledger_path_count_whole_system": 28
+      },
+      {
+        "case": "after-run",
+        "source_sha256": "ceac3ab7cadf2a9e8ebfc60274dfe20a5d5c9c5b408ef7e8b2a592b1acd9573f",
+        "svg_sha256": "7f711bbf900cc0c606ecbd303f96f085d5543dcf398473cf41c29e6a3aa6866f",
+        "musicxml_sha256": "6780e9a1f2676838b4ce90f83af552264c4ec6317ade14067961efb06ea87f2d",
+        "midi_sha256": "27e7c207beef46669c3245a4812a9a29561be072af057bd52d09f6c59147d247",
+        "musicxml_33_notes_2_rests_match_baseline": true,
+        "33_independent_pitch_onset_duration_recipes_match": true,
+        "spelling_voice_staff_stem_beams_tuplet_fields_match": true,
+        "full_midi_bytes_match_baseline": true,
+        "actual_note_y_matches_pitch_and_effective_clef": true,
+        "clef_effective_quarter": "2",
+        "run_ledger_lines_by_note_theoretical": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "run_ledger_lines_sum_theoretical": 6,
+        "run_max_ledger_lines_theoretical": 2,
+        "svg_staff_space": 22.25200000000001,
+        "lower_first_head_x": 636.05,
+        "lower_last_fast_head_x": 1736.46,
+        "shared_half_arrival_difference_svg": 0,
+        "svg_ledger_path_count_whole_system": 13
+      }
+    ],
+    "source_only_moved_G_clef_proven_in_preparation": true,
+    "limits": [
+      "No new save/reload, MusicXML reimport, print, audition or personal preference",
+      "Baseline outputs and its independent recipe checks reused from 2026-10-23; no historical rerender",
+      "Native fixture is a narrower independent counterexample, not a transcription or native reproduction of My Dearest",
+      "Next measure retains its old G clef across all three cases; no claim of whole-fixture optimal notation"
+    ]
+  },
+  "native_staff_metrics": [
+    {
+      "case": "before-run",
+      "staff_y": [
+        368.362,
+        390.614,
+        412.866,
+        435.118,
+        457.37,
+        646.512,
+        668.764,
+        691.016,
+        713.268,
+        735.52
+      ],
+      "inter_staff_clear_spaces": 8.499999999999998
+    },
+    {
+      "case": "inside-run",
+      "staff_y": [
+        368.362,
+        390.614,
+        412.866,
+        435.118,
+        457.37,
+        646.512,
+        668.764,
+        691.016,
+        713.268,
+        735.52
+      ],
+      "inter_staff_clear_spaces": 8.499999999999998
+    },
+    {
+      "case": "after-run",
+      "staff_y": [
+        368.362,
+        390.614,
+        412.866,
+        435.118,
+        457.37,
+        647.271,
+        669.523,
+        691.774,
+        714.026,
+        736.278
+      ],
+      "inter_staff_clear_spaces": 8.534109293546647
+    }
+  ],
+  "runtime": {
+    "path": "E:/programming/funcodes/mcp-musescore/tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "precreated_private_config": true,
+    "source_binary_build_correspondence_verified": false
+  },
+  "public_original_assets": [
+    {
+      "path": "docs/engraving/fixtures/poly12-11-clef-before-run.mscx",
+      "bytes": 11918,
+      "sha256": "fdff3699bf6a684fd1173d1cb0fd81ac38590967567bd058b782b65097976cf3"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-clef-after-run.mscx",
+      "bytes": 11918,
+      "sha256": "bbc8bcd61d3c79f01a475d27481a6d9693fc052231c4259bfcf82d11a61116ad"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-clef-placement.png",
+      "bytes": 165167,
+      "sha256": "fb1dfa76edef2b612fbdbdd0bcc376e48f29149d3f089c3d58cfa68a457dd36d"
+    }
+  ],
+  "comparison_image": {
+    "native_systems": 3,
+    "common_crop_svg_units": [
+      150,
+      225,
+      2820,
+      960
+    ],
+    "dpi": 200,
+    "labels_outside_music": true,
+    "music_glyphs_moved_for_composite": false,
+    "actually_viewed": true
+  },
+  "external_material_attempt": {
+    "item": "R10",
+    "url": "https://www.gangqinpu.com/cchtml/1050811.htm",
+    "date_utc": "2026-10-31",
+    "observed": "Browser tab inventory showed matching title and URL after navigation timeout; actual page-state read timed out and reset. Web open of page and existing public preview URL also failed.",
+    "actual_score_or_tutorial_content_viewed": false,
+    "new_resource_completion": false,
+    "media_download": false,
+    "no_paywall_or_bot_check_bypass": true
+  },
+  "private_cache": {
+    "path": "tmp/engraving/clef-in-group-2026-10-31",
+    "budget_bytes": 393216,
+    "measured_bytes_before_validation_records": 163213,
+    "old_baseline_and_runtime_reused": true,
+    "new_reference_pdf_or_runtime_copies": 0,
+    "new_private_raster_files": 0,
+    "deleted_files": 0,
+    "global_exact_total_unknown": true,
+    "global_check_allowance_bytes": 3246391296,
+    "measured_final_bytes": 169786
+  },
+  "limits": [
+    "Real-score case is a conditional reading judgment, not proof of unique or unavoidable clef placement",
+    "No native candidate made from the copyrighted source score",
+    "The narrower original comparison deliberately retains the second-bar G clef across all conditions; whole-fixture notation is not certified optimal",
+    "No new save/reload, MusicXML reimport, audition, print or user preference; old baseline checks reused",
+    "No new goal completion or mastery rate claimed"
+  ],
+  "publication_validation": {
+    "pending": false,
+    "checks": {
+      "date": "2026-10-31",
+      "changed_paths": [
+        "docs/ENGRAVING_PLAN.md",
+        "docs/ENGRAVING_RELEASES.md",
+        "docs/engraving/CACHE_LOCATIONS.md",
+        "docs/engraving/CLEF_IN_GROUP_READING.md",
+        "docs/engraving/CLEF_READING.md",
+        "docs/engraving/INTEGRATED_READING_MY_DEAREST.md",
+        "docs/engraving/POLYRHYTHM_SPACING_STUDY.md",
+        "docs/engraving/README.md",
+        "docs/engraving/RESOURCE_PLAN_MAPPING.md",
+        "docs/engraving/STATUS_AND_ROADMAP.md",
+        "docs/engraving/clef_in_group_evidence.json",
+        "docs/engraving/fixtures/poly12-11-clef-after-run.mscx",
+        "docs/engraving/fixtures/poly12-11-clef-before-run.mscx",
+        "docs/engraving/fixtures/poly12-11-clef-placement.png",
+        "docs/engraving/progress.json",
+        "skills/piano-engraving/references/judgment-details.md",
+        "skills/piano-engraving/scripts/engraving_library.py"
+      ],
+      "changed_markdown_local_links_checked": 1023,
+      "missing_local_link_targets": 0,
+      "new_public_original_assets_hashes_verified": 3,
+      "known_source_queries_top3_pass": 2,
+      "progress_check_pass": true,
+      "skill_quick_validate_pass": true,
+      "existing_library_regressions_pass": 6,
+      "topic_routes_preserved": 20,
+      "prior_release_certificates_unchanged": [
+        "docs/engraving/release_0_22_0_evidence.json",
+        "docs/engraving/release_0_21_0_evidence.json"
+      ],
+      "staged_whitespace_check_pass": true,
+      "deletions": 0,
+      "non_engraving_edits": 0,
+      "reading_or_aesthetic_accuracy_claimed": false
+    },
+    "known_source_query_results": [
+      {
+        "topic": "clefs",
+        "query": "梁内换号 七条加线",
+        "known_source_in_top_3": true
+      },
+      {
+        "topic": "beams",
+        "query": "窄音域 组后 换号",
+        "known_source_in_top_3": true
+      }
+    ],
+    "scope_and_pending_user_preferences_preserved": true,
+    "existing_route_entries_removed": 0
+  },
+  "native_baseline_reuse": {
+    "input_text_equal_except_line_endings": true,
+    "current_public_sha256": "12ec1af0dce30ce2438b9f3929f3f370bf354329783877c4414a5946b3505dc4",
+    "private_rendered_source_sha256": "12ec1af0dce30ce2438b9f3929f3f370bf354329783877c4414a5946b3505dc4",
+    "original_evidence": "polyrhythm_spacing_evidence.json"
+  },
+  "private_artifact_fingerprints": [
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/after-run-1.svg",
+      "bytes": 35193,
+      "sha256": "7f711bbf900cc0c606ecbd303f96f085d5543dcf398473cf41c29e6a3aa6866f"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/after-run.mid",
+      "bytes": 357,
+      "sha256": "27e7c207beef46669c3245a4812a9a29561be072af057bd52d09f6c59147d247"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/after-run.mscx",
+      "bytes": 12319,
+      "sha256": "ceac3ab7cadf2a9e8ebfc60274dfe20a5d5c9c5b408ef7e8b2a592b1acd9573f"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/after-run.musicxml",
+      "bytes": 19067,
+      "sha256": "6780e9a1f2676838b4ce90f83af552264c4ec6317ade14067961efb06ea87f2d"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/before-run-1.svg",
+      "bytes": 37360,
+      "sha256": "3a31b72b7abfbcebad36d5d07b7ca7d0eead96d91726eee5053a40ac5bc06d1d"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/before-run.mid",
+      "bytes": 357,
+      "sha256": "27e7c207beef46669c3245a4812a9a29561be072af057bd52d09f6c59147d247"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/before-run.mscx",
+      "bytes": 12319,
+      "sha256": "4ad15af9b9fb2b4d3c29d387f988961ec99750c0fb7dbe66e70fbba3a44ff012"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/before-run.musicxml",
+      "bytes": 19067,
+      "sha256": "9d1796d830d8d512521de25cf7a903668290b06fdeff3242c106c279c6a353a6"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/check.py",
+      "bytes": 4565,
+      "sha256": "c7e0602ea2d472e749a2a4076c794276298799b109f681b4baad92d29ae820cd"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/checks.json",
+      "bytes": 4630,
+      "sha256": "d9fce023c3aa4afd569c54555c1d55cabe512a78795933f7a5079838faad7408"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/native-runs.json",
+      "bytes": 2394,
+      "sha256": "2e5388ff19105a18e976e6364a369851a2f7df0aa3aadac8ade3e495655916c4"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/preparation.json",
+      "bytes": 743,
+      "sha256": "b0b65d919a55ae911c0240266db958d10a54a05b3c0620034c92c4ad89e78f1f"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/prepare.py",
+      "bytes": 1801,
+      "sha256": "81f8a371da5673d9c196632bce6c53f11aef95b92ac72b832c0154a8e3a5c9da"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/publication-input-normalization.json",
+      "bytes": 998,
+      "sha256": "0da981a92fe669dd412c4e442e4c9a09362588844410e73065f3cc9e79a587e3"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/publication-validation.json",
+      "bytes": 1498,
+      "sha256": "960a0f5bb156d73d8c9bbb7911b83d7a38d94ffcf24a9242ab68af9c607f8f54"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/query-checks.json",
+      "bytes": 1504,
+      "sha256": "a1ec0ff96cf02953ad0f700c6ef7abfa8afecc111c2f7ba11cb90b806ed994b1"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/source-p8-coordinates.json",
+      "bytes": 2284,
+      "sha256": "eb95bb267651226efdccddce7034d4315c16030030224a0eaefed0c430e9f22f"
+    },
+    {
+      "path": "tmp/engraving/clef-in-group-2026-10-31/validate_publication.py",
+      "bytes": 2573,
+      "sha256": "c1ef11b5cf7430363bdd7e5c22d49d7adb00c6ecb437149fdc0015567cbc3acc"
+    }
+  ],
+  "public_input_normalization": {
+    "reason": "Staged whitespace check flagged CRLF in two new MSCX files. Only their public copies normalized to LF; original rendered inputs retained.",
+    "conditions": [
+      {
+        "case": "before-run",
+        "public_path": "docs/engraving/fixtures/poly12-11-clef-before-run.mscx",
+        "raw_rendered_input_path": "tmp/engraving/clef-in-group-2026-10-31/before-run.mscx",
+        "raw_bytes": 12319,
+        "public_LF_bytes": 11918,
+        "raw_sha256": "4ad15af9b9fb2b4d3c29d387f988961ec99750c0fb7dbe66e70fbba3a44ff012",
+        "public_LF_sha256": "fdff3699bf6a684fd1173d1cb0fd81ac38590967567bd058b782b65097976cf3",
+        "xml_trees_identical": true,
+        "render_rerun_needed": false
+      },
+      {
+        "case": "after-run",
+        "public_path": "docs/engraving/fixtures/poly12-11-clef-after-run.mscx",
+        "raw_rendered_input_path": "tmp/engraving/clef-in-group-2026-10-31/after-run.mscx",
+        "raw_bytes": 12319,
+        "public_LF_bytes": 11918,
+        "raw_sha256": "ceac3ab7cadf2a9e8ebfc60274dfe20a5d5c9c5b408ef7e8b2a592b1acd9573f",
+        "public_LF_sha256": "bbc8bcd61d3c79f01a475d27481a6d9693fc052231c4259bfcf82d11a61116ad",
+        "xml_trees_identical": true,
+        "render_rerun_needed": false
+      }
+    ]
+  }
+}
