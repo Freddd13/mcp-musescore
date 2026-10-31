@@ -345,3 +345,13 @@ MuseScore3Evo.exe -s -m -c <已有独立配置目录> -r 180 -o <新目录>/widt
 ## 2026-10-31：独立层下的连音归属
 
 [三情境研究](../TUPLET_OWNERSHIP_STUDY.md)及[六版原生图](tuplet-ownership-comparison.png)比较慢旋律／持续低音、加入上层弧／mf、90mm打印宽。每情境的`tuplet-ownership-<melody|marked|narrow>-above.mscx`与`-near.mscx`为原创CC0输入：后者把连音末音F4留在下表、普通尾音再换表，并改括号坐标。两版都无穿干，近梁的归属更直接，代价为F4的两条加线和显示分配变化。原生27次调用、独立72音／84音休止及每对完整MIDI已核；未认证用户m97或任意行宽，具体边界见研究。
+
+## 含起首休止的完整六连梁
+
+2026-10-31原创CC0一小节6/8钢琴三层，12音／14音休止；上方慢旋律／弧／mf、低音保持、中间六连加普通32尾音及渐强。固定Leland／Leland Text、1.57mm谱间。
+
+- 原始四版：[A连续梁](tuplet-rest-scope-continuous.mscx)、[B分普通尾音](tuplet-rest-scope-split.mscx)、[C完整组梁与括号](tuplet-rest-scope-covered-bracket.mscx)、[D完整组梁与数字](tuplet-rest-scope-covered-number.mscx)。均为手写输入并核原生SVG／MXL／MIDI，未认证四版保存重载。
+- [E 180mm可打印宽候选](tuplet-rest-scope-180mm-candidate.mscx)：手写局部梁端、休止／数字／渐强通道，已核三格式；[F 90mm候选](tuplet-rest-scope-90mm-candidate.mscx)为原生保存并重载版，调整渐强斜度。两版保持源显示staffMove，未新增加线。
+- [六条件图](tuplet-rest-scope-comparison.png)：180dpi原生SVG合白底、同一物理比例／裁框，标签位于音乐外，F不拉宽；未移动单个绘图符号。
+
+[研究](../TUPLET_REST_SCOPE_STUDY.md)与[证据](../tuplet_rest_scope_evidence.json)：24次CLI，六版84条音休止配方及完整MIDI、重载14条／68图元已核。完整组界有收益，分梁也失去整串连续主梁；休止短符干的不同出版体例另列。没有m97实曲迁移、MusicXML导回、打印或用户采用。

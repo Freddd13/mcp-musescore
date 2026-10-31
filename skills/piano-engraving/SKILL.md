@@ -75,6 +75,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 跨表连音的数字／括号，经`notation`／`cross-staff`查`TUPLET_CHANNEL_STUDY.md`：先核梁外休止和部分梁范围，再核数字是否归对层、横线是否穿干／混梁。端点范围正确与MIDI保持仍可能留下可读性问题；独立层见`TUPLET_OWNERSHIP_STUDY.md`：无碰撞仍须核归属，必要时单列显示换表点与加线的记法取舍。m97旧端点候选已撤回采用倾向；`M97_TUPLET_TRANSFER.md`的新实曲候选已核，四条加线和本页间距联动须一并说明，用户已初步偏好原版方向，见`M97_DIRECTION_FEEDBACK.md`；三种括号探针均已拒绝；另有保原六连的渐强局部候选供比较，先保方向再核范围／归属。
 
+含首休止的跨表连音，经`rhythm`／`beams`查`TUPLET_REST_SCOPE_STUDY.md`：先认完整组界及普通尾音，再讨论分梁／省括号；完整梁本身仍可能自动反向、数字归错层或与渐强争空间。把分梁作为记法提议，休止短符干按出版体例判断；换宽度后重新看通道，不照搬局部offset。
+
 涉及MusicXML导回时，经`beams`／`notation`查`BEAM_EXCHANGE_CLEF_STUDY.md`：逻辑归属、显示staffMove、逐音干向和逐层梁断口分别核；合并后的起音相同仍可能改变轨道、释放与读法。原生副本候选和格式转换各记验证范围。
 
 ## 积累经验

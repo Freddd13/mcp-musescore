@@ -1,0 +1,2745 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31T14:02:55.826Z",
+  "kind": "original-complete-tuplet-beaming-includes-leading-rest",
+  "scope": {
+    "date": "2026-10-31",
+    "context": "原创三层谱例：上方D5-A5-G5旋律、低音C3保持、C4-D4-E4-F4六连末音跨表、普通G4-A4-B4-C5尾音；新增同段渐强。",
+    "planned_contexts": 1,
+    "planned_conditions": 4,
+    "conditions": [
+      {
+        "id": "continuous",
+        "scope": "主梁连续，起首休止在梁外，保括号"
+      },
+      {
+        "id": "split",
+        "scope": "六连／普通尾音主梁分开，休止仍在梁外，保括号"
+      },
+      {
+        "id": "covered-bracket",
+        "scope": "分梁且梁延至组内起首休止，保括号"
+      },
+      {
+        "id": "covered-number",
+        "scope": "同上完整组梁，仅数字6"
+      }
+    ],
+    "planned_saved_reloaded_candidates": 1,
+    "private_budget_bytes": 786432,
+    "public_original_inputs_planned": 6,
+    "public_comparison_images_planned": 1,
+    "original_music_copied": false,
+    "source_fixture": "docs/engraving/fixtures/tuplet-ownership-marked-above.mscx",
+    "font_and_style_fixed": true,
+    "source_staffMoves_fixed": true,
+    "baseline_private_reused": false,
+    "new_runtime_copy": false,
+    "software_adaptation": false,
+    "Gould_current_full_printed_pages_reread": [
+      36,
+      163,
+      164,
+      165,
+      199,
+      200,
+      315,
+      316,
+      317
+    ],
+    "Gould_related_previously_read_pages": [
+      319,
+      323
+    ],
+    "user_hairpin_visual_choice": "pending; no adoption recorded",
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3260022784,
+    "raw_conditions_completed": 4,
+    "additional_calibration_limit": 3,
+    "additional_calibration_reason": "A/B rise; including leading rest C/D flips first cross-staff beam downward while chord pitch/staffMove preserved. Need controlled rising fragment, rest clearance and numeral channel. First rising calibration puts rest into beam and leaves6near staff; need rest/number correction plus one precise hairpin channel pass.",
+    "narrow_transfer": {
+      "planned": 1,
+      "completed": 1,
+      "width_mm": 90,
+      "reason": "The raw/calibrated source fills180mm; need verify real narrower reading budget before any real-score migration.",
+      "font_size_unchanged": true,
+      "calibration_note": "Initial width copy retains overly steep150unit hairpin rise; narrow-refined lifts only the tip into the lower stave, preserving right mouth outside. Printed font/staff size unchanged."
+    },
+    "saved_reloaded_candidates_completed": 1,
+    "published_conditions": 6,
+    "native_SVG_conditions": [
+      "continuous",
+      "split",
+      "covered-bracket",
+      "covered-number",
+      "calibration",
+      "channel-calibration",
+      "refined",
+      "narrow",
+      "narrow-refined"
+    ],
+    "native_CLI_calls": 24,
+    "audit_initial_tolerance_revision": {
+      "initial_max_numeric_SVG_units": 0.0021,
+      "observed_max_numeric_SVG_units": 0.01,
+      "actual_changes": "one Stem points field0.01; Note/Rest/Beam/Tuplet fields0.001;68graphics objects preserve classes and structure",
+      "pixel_identity_claimed": false
+    }
+  },
+  "book": {
+    "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "printed_full_page_rereads": [
+      36,
+      163,
+      164,
+      165,
+      199,
+      200,
+      315,
+      316,
+      317
+    ],
+    "physical_pages": [
+      56,
+      183,
+      184,
+      185,
+      219,
+      220,
+      335,
+      336,
+      337
+    ],
+    "new_coverage_pages": 0,
+    "previously_read_hairpin_condition_printed_page": 323
+  },
+  "supplemental": {
+    "Lily": {
+      "page": "https://lilypond.org/doc/v2.26/Documentation/snippets/rhythms-_002d-stemlets.html",
+      "http": 200,
+      "HTML_bytes": 165539,
+      "HTML_sha256_recorded_at_fetch": "ca6490c2c84bf19f3c2f98844d1bbb32a7a4baa99a6d1b487b62ba70f8faddab",
+      "full_target_body_read": true,
+      "full_displayed_snippet_read": true,
+      "generated_source_url": "https://lilypond.org/doc/v2.26/Documentation/78/lily-70d2e9f8.ly",
+      "compiled_locally": false,
+      "read_scope": "Complete target prose, displayed snippet and its figure; generated full .ly not fetched; no compilation."
+    },
+    "Dorico62": {
+      "pages": [
+        "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_beaming/notation_reference_beaming_rests_c.html",
+        "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_beaming/notation_reference_beaming_stemlets_c.html",
+        "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_beaming/notation_reference_beaming_stemlets_showing_t.html"
+      ],
+      "body_pages_read": 3,
+      "application_run": false
+    },
+    "images": [
+      {
+        "id": "lily-stemlets",
+        "url": "https://lilypond.org/doc/v2.26/Documentation/78/lily-70d2e9f8.png",
+        "status": 200,
+        "bytes": 14457,
+        "type": "image/png",
+        "sha256": "130ff3802056f5498f4ad4e54563e8469d0419a4659fa238f6642d6158245318",
+        "actually_viewed": true
+      },
+      {
+        "id": "dorico-without-stemlets",
+        "url": "https://www.steinberg.help/api/khub/maps/BYbh2hvBDwUCjSijIhHcqA/resources/hM_9mSyOrJKKkKxiAuFCqA-BYbh2hvBDwUCjSijIhHcqA/content?v=702af3ac4ad3194c",
+        "status": 200,
+        "bytes": 10088,
+        "type": "image/png",
+        "sha256": "e8dbba7b34e0ad802d7a2501e5d5ddf30617d36c7e96e634c6c8dffdc230d4cd",
+        "actually_viewed": true
+      },
+      {
+        "id": "dorico-with-stemlets",
+        "url": "https://www.steinberg.help/api/khub/maps/BYbh2hvBDwUCjSijIhHcqA/resources/mPMCGEBaBmnkIPeHOssxJQ-BYbh2hvBDwUCjSijIhHcqA/content?v=7178f13c0280bb8f",
+        "status": 200,
+        "bytes": 12718,
+        "type": "image/png",
+        "sha256": "3c0fffadcf75d02ce08407a88259c014a7b4e3bf12e97c020c882136821feab7",
+        "actually_viewed": true
+      }
+    ],
+    "new_fixed_25_scope_completions": 0,
+    "new_reference_image_files": 0
+  },
+  "host": {
+    "path": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "build_to_current_source": "unverified",
+    "reused_runtime": true
+  },
+  "source_readonly": {
+    "repo": "E:/programming/funcodes/muse3_dev/MuseScore",
+    "latest_read_head": "d97a641bcdd33e829d186bff92c884e4f577fc5a",
+    "earlier_same_turn_head": "8c6d283a3001a6015a8a57a677eaeff997484af5",
+    "file": "libmscore/beam.cpp",
+    "sha256": "72398d3e00cee865d77ea8c39bd9f1572c7eac87b858d12aab8a05f981d76cbd",
+    "selected_lines": [
+      1755,
+      1773
+    ],
+    "native_repro": "split to covered-bracket changes only initial Rest BeamMode and first Chord BeamMode; first beam slant flips while notes/staffMove unchanged",
+    "mechanism_interpretation": "Current cross-staff code skips rests for pitch extents but uses first ChordRest up() to choose slant sign. This is a supported source hypothesis, not binary/source build identity."
+  },
+  "controls": {
+    "font": "Leland",
+    "text_font": "Leland Text",
+    "spatium_mm": 1.57,
+    "printed_width_mm": [
+      180,
+      90
+    ],
+    "native_actual_staff_span_mm": [
+      169.97491919714554,
+      79.94679778791686
+    ],
+    "source_staffMoves_preserved": true,
+    "original_music_copied": false,
+    "recipe": [
+      [
+        "1",
+        "1",
+        "0",
+        "3/2",
+        "74",
+        "0"
+      ],
+      [
+        "1",
+        "1",
+        "3/2",
+        "1",
+        "81",
+        "0"
+      ],
+      [
+        "1",
+        "1",
+        "5/2",
+        "1/2",
+        "79",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "0",
+        "3/2",
+        "None",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "3/2",
+        "1/3",
+        "None",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "11/6",
+        "1/6",
+        "60",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "2",
+        "1/6",
+        "62",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "13/6",
+        "1/6",
+        "64",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "7/3",
+        "1/6",
+        "65",
+        "-1"
+      ],
+      [
+        "2",
+        "1",
+        "5/2",
+        "1/8",
+        "67",
+        "-1"
+      ],
+      [
+        "2",
+        "1",
+        "21/8",
+        "1/8",
+        "69",
+        "-1"
+      ],
+      [
+        "2",
+        "1",
+        "11/4",
+        "1/8",
+        "71",
+        "-1"
+      ],
+      [
+        "2",
+        "1",
+        "23/8",
+        "1/8",
+        "72",
+        "-1"
+      ],
+      [
+        "2",
+        "2",
+        "0",
+        "3",
+        "48",
+        "0"
+      ]
+    ],
+    "CC0_original": true
+  },
+  "native_audit": {
+    "kind": "original-leading-rest-tuplet-scope-study",
+    "expected_note_rest_records_per_version": 14,
+    "expected_sounding_notes_per_version": 12,
+    "independent_recipe": [
+      [
+        "1",
+        "1",
+        "0",
+        "3/2",
+        "74",
+        "0"
+      ],
+      [
+        "1",
+        "1",
+        "3/2",
+        "1",
+        "81",
+        "0"
+      ],
+      [
+        "1",
+        "1",
+        "5/2",
+        "1/2",
+        "79",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "0",
+        "3/2",
+        "None",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "3/2",
+        "1/3",
+        "None",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "11/6",
+        "1/6",
+        "60",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "2",
+        "1/6",
+        "62",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "13/6",
+        "1/6",
+        "64",
+        "0"
+      ],
+      [
+        "2",
+        "1",
+        "7/3",
+        "1/6",
+        "65",
+        "-1"
+      ],
+      [
+        "2",
+        "1",
+        "5/2",
+        "1/8",
+        "67",
+        "-1"
+      ],
+      [
+        "2",
+        "1",
+        "21/8",
+        "1/8",
+        "69",
+        "-1"
+      ],
+      [
+        "2",
+        "1",
+        "11/4",
+        "1/8",
+        "71",
+        "-1"
+      ],
+      [
+        "2",
+        "1",
+        "23/8",
+        "1/8",
+        "72",
+        "-1"
+      ],
+      [
+        "2",
+        "2",
+        "0",
+        "3",
+        "48",
+        "0"
+      ]
+    ],
+    "semantic_sources_equal_except_explicit_geometry_beaming_width": true,
+    "conditions": {
+      "continuous": {
+        "source_sha256": "47e0a358364db14294b732055f02aa4de9dc0bcab26e4ae1fc9e259407eb3298",
+        "note_rest_records": 14,
+        "sounding_notes": 12,
+        "independent_recipe_pass": true,
+        "MusicXML": {
+          "divisions": "24",
+          "beams": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                "1",
+                "begin"
+              ],
+              [
+                "2",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ],
+              [
+                "3",
+                "end"
+              ]
+            ],
+            []
+          ],
+          "stems": [
+            "up",
+            "up",
+            "up",
+            null,
+            null,
+            "up",
+            "up",
+            "up",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          "time_modifications": [
+            null,
+            null,
+            null,
+            null,
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "geometry": {
+          "sp_svg": 22.251999999999953,
+          "staff_span_mm": 169.97491919714554,
+          "beam_slope_delta_sp": [
+            -0.9809005932051071,
+            -0.9809005932051071,
+            -0.37713463958295945
+          ],
+          "first_primary_angle_degrees": 1.0125302959073395,
+          "running_head_to_primary_center_sp": [
+            3.7490365840971034,
+            3.405243289953545,
+            3.061442053230747,
+            3.303383190732715,
+            3.6471844274555107,
+            4.022120574787818,
+            4.3970646646993625,
+            4.77200081203167
+          ],
+          "hairpin_points": [
+            2741.47,
+            561.071,
+            1323.47,
+            549.071,
+            2741.47,
+            537.071
+          ],
+          "hairpin_stem_axis_crossings": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "note_head_transforms": [
+            [
+              536.197,
+              691.016
+            ],
+            [
+              1323.47,
+              613.134
+            ],
+            [
+              1520.13,
+              602.008
+            ],
+            [
+              1716.8,
+              590.882
+            ],
+            [
+              1913.46,
+              446.244
+            ],
+            [
+              2110.13,
+              435.118
+            ],
+            [
+              2267.58,
+              423.992
+            ],
+            [
+              2425.04,
+              412.866
+            ],
+            [
+              2582.49,
+              401.74
+            ],
+            [
+              536.197,
+              390.614
+            ],
+            [
+              1032.33,
+              346.11
+            ],
+            [
+              2110.13,
+              357.236
+            ]
+          ],
+          "class_counts": {
+            "MeasureNumber": 1,
+            "BarLine": 6,
+            "StaffLines": 10,
+            "SlurSegment": 1,
+            "LedgerLine": 5,
+            "Stem": 12,
+            "Hook": 1,
+            "Note": 12,
+            "Clef": 2,
+            "TimeSig": 4,
+            "Rest": 2,
+            "Dynamic": 1,
+            "Beam": 3,
+            "Tuplet": 3,
+            "HairpinSegment": 1,
+            "NoteDot": 3,
+            "Bracket": 1
+          }
+        },
+        "midi_sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      "split": {
+        "source_sha256": "9e93570ec6033a4180a3edeb2eb10d2080b6d3d09c8ac2c6a171ac7a1a0cfc30",
+        "note_rest_records": 14,
+        "sounding_notes": 12,
+        "independent_recipe_pass": true,
+        "MusicXML": {
+          "divisions": "24",
+          "beams": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                "1",
+                "begin"
+              ],
+              [
+                "2",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ]
+            ],
+            [
+              [
+                "1",
+                "begin"
+              ],
+              [
+                "2",
+                "begin"
+              ],
+              [
+                "3",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ],
+              [
+                "3",
+                "end"
+              ]
+            ],
+            []
+          ],
+          "stems": [
+            "up",
+            "up",
+            "up",
+            null,
+            null,
+            "up",
+            "up",
+            "up",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          "time_modifications": [
+            null,
+            null,
+            null,
+            null,
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "geometry": {
+          "sp_svg": 22.251999999999953,
+          "staff_span_mm": 169.97491919714554,
+          "beam_slope_delta_sp": [
+            -0.959239618910663,
+            -0.959239618910663,
+            -1.005168074779798,
+            -1.005168074779798,
+            -1.0051680747797955
+          ],
+          "first_primary_angle_degrees": 2.1598682847641126,
+          "running_head_to_primary_center_sp": [
+            3.7479333052745396,
+            3.5812672084676276,
+            3.414584162766463,
+            2.7969626060115447,
+            3.7474172720641343,
+            3.9140760091277476,
+            4.080755916092475,
+            4.2474146531560875
+          ],
+          "hairpin_points": [
+            2741.47,
+            561.071,
+            1323.47,
+            549.071,
+            2741.47,
+            537.071
+          ],
+          "hairpin_stem_axis_crossings": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ]
+          ],
+          "note_head_transforms": [
+            [
+              536.197,
+              691.016
+            ],
+            [
+              1323.47,
+              613.134
+            ],
+            [
+              1520.13,
+              602.008
+            ],
+            [
+              1716.8,
+              590.882
+            ],
+            [
+              1913.46,
+              446.244
+            ],
+            [
+              2110.13,
+              435.118
+            ],
+            [
+              2267.58,
+              423.992
+            ],
+            [
+              2425.04,
+              412.866
+            ],
+            [
+              2582.49,
+              401.74
+            ],
+            [
+              536.197,
+              390.614
+            ],
+            [
+              1032.33,
+              346.11
+            ],
+            [
+              2110.13,
+              357.236
+            ]
+          ],
+          "class_counts": {
+            "MeasureNumber": 1,
+            "BarLine": 6,
+            "StaffLines": 10,
+            "SlurSegment": 1,
+            "LedgerLine": 5,
+            "Stem": 12,
+            "Hook": 1,
+            "Note": 12,
+            "Clef": 2,
+            "TimeSig": 4,
+            "Rest": 2,
+            "Dynamic": 1,
+            "Beam": 5,
+            "Tuplet": 3,
+            "HairpinSegment": 1,
+            "NoteDot": 3,
+            "Bracket": 1
+          }
+        },
+        "midi_sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      "covered-bracket": {
+        "source_sha256": "b0f529a699612e08165d9f98cf5a0a1214dfe62a8a2a266c6f4d474f2ad69261",
+        "note_rest_records": 14,
+        "sounding_notes": 12,
+        "independent_recipe_pass": true,
+        "MusicXML": {
+          "divisions": "24",
+          "beams": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                "1",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ]
+            ],
+            [
+              [
+                "1",
+                "begin"
+              ],
+              [
+                "2",
+                "begin"
+              ],
+              [
+                "3",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ],
+              [
+                "3",
+                "end"
+              ]
+            ],
+            []
+          ],
+          "stems": [
+            "up",
+            "up",
+            "up",
+            null,
+            null,
+            "up",
+            "up",
+            "up",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          "time_modifications": [
+            null,
+            null,
+            null,
+            null,
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "geometry": {
+          "sp_svg": 22.251999999999953,
+          "staff_span_mm": 169.97491919714554,
+          "beam_slope_delta_sp": [
+            1.0027862664030232,
+            0.6423242854574887,
+            -1.005168074779798,
+            -1.005168074779798,
+            -1.0051680747797955
+          ],
+          "first_primary_angle_degrees": -1.446644709854664,
+          "running_head_to_primary_center_sp": [
+            4.388144397587166,
+            3.664941093966123,
+            2.9417491394732393,
+            3.751401672766896,
+            3.7474172720641343,
+            3.9140760091277476,
+            4.080755916092475,
+            4.2474146531560875
+          ],
+          "hairpin_points": [
+            2741.47,
+            561.071,
+            1323.47,
+            549.071,
+            2741.47,
+            537.071
+          ],
+          "hairpin_stem_axis_crossings": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "note_head_transforms": [
+            [
+              536.197,
+              691.016
+            ],
+            [
+              1323.47,
+              613.134
+            ],
+            [
+              1520.13,
+              602.008
+            ],
+            [
+              1716.8,
+              590.882
+            ],
+            [
+              1913.46,
+              446.244
+            ],
+            [
+              2110.13,
+              435.118
+            ],
+            [
+              2267.58,
+              423.992
+            ],
+            [
+              2425.04,
+              412.866
+            ],
+            [
+              2582.49,
+              401.74
+            ],
+            [
+              536.197,
+              390.614
+            ],
+            [
+              1032.33,
+              346.11
+            ],
+            [
+              2110.13,
+              357.236
+            ]
+          ],
+          "class_counts": {
+            "MeasureNumber": 1,
+            "BarLine": 6,
+            "StaffLines": 10,
+            "SlurSegment": 1,
+            "LedgerLine": 5,
+            "Stem": 12,
+            "Hook": 1,
+            "Note": 12,
+            "Clef": 2,
+            "TimeSig": 4,
+            "Rest": 2,
+            "Dynamic": 1,
+            "Beam": 5,
+            "Tuplet": 3,
+            "HairpinSegment": 1,
+            "NoteDot": 3,
+            "Bracket": 1
+          }
+        },
+        "midi_sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      "covered-number": {
+        "source_sha256": "751f33b23a71f9e4b3d51d11412d5c5d7edc7dc04e98a2485b58c61ad3bb0fd3",
+        "note_rest_records": 14,
+        "sounding_notes": 12,
+        "independent_recipe_pass": true,
+        "MusicXML": {
+          "divisions": "24",
+          "beams": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                "1",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ]
+            ],
+            [
+              [
+                "1",
+                "begin"
+              ],
+              [
+                "2",
+                "begin"
+              ],
+              [
+                "3",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ],
+              [
+                "3",
+                "end"
+              ]
+            ],
+            []
+          ],
+          "stems": [
+            "up",
+            "up",
+            "up",
+            null,
+            null,
+            "up",
+            "up",
+            "up",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          "time_modifications": [
+            null,
+            null,
+            null,
+            null,
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "geometry": {
+          "sp_svg": 22.251999999999953,
+          "staff_span_mm": 169.97491919714554,
+          "beam_slope_delta_sp": [
+            1.0027862664030232,
+            0.6423242854574887,
+            -1.005168074779798,
+            -1.005168074779798,
+            -1.0051680747797955
+          ],
+          "first_primary_angle_degrees": -1.446644709854664,
+          "running_head_to_primary_center_sp": [
+            4.388144397587166,
+            3.664941093966123,
+            2.9417491394732393,
+            3.751401672766896,
+            3.7474172720641343,
+            3.9140760091277476,
+            4.080755916092475,
+            4.2474146531560875
+          ],
+          "hairpin_points": [
+            2741.47,
+            561.071,
+            1323.47,
+            549.071,
+            2741.47,
+            537.071
+          ],
+          "hairpin_stem_axis_crossings": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "note_head_transforms": [
+            [
+              536.197,
+              691.016
+            ],
+            [
+              1323.47,
+              613.134
+            ],
+            [
+              1520.13,
+              602.008
+            ],
+            [
+              1716.8,
+              590.882
+            ],
+            [
+              1913.46,
+              446.244
+            ],
+            [
+              2110.13,
+              435.118
+            ],
+            [
+              2267.58,
+              423.992
+            ],
+            [
+              2425.04,
+              412.866
+            ],
+            [
+              2582.49,
+              401.74
+            ],
+            [
+              536.197,
+              390.614
+            ],
+            [
+              1032.33,
+              346.11
+            ],
+            [
+              2110.13,
+              357.236
+            ]
+          ],
+          "class_counts": {
+            "MeasureNumber": 1,
+            "BarLine": 6,
+            "StaffLines": 10,
+            "SlurSegment": 1,
+            "LedgerLine": 5,
+            "Stem": 12,
+            "Hook": 1,
+            "Note": 12,
+            "Clef": 2,
+            "TimeSig": 4,
+            "Rest": 2,
+            "Dynamic": 1,
+            "Beam": 5,
+            "Tuplet": 1,
+            "HairpinSegment": 1,
+            "NoteDot": 3,
+            "Bracket": 1
+          }
+        },
+        "midi_sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      "refined": {
+        "source_sha256": "ce10a7ea8f87a99b00f782bdcb48703a468dd0d485ddd62bcdc88a647390c552",
+        "note_rest_records": 14,
+        "sounding_notes": 12,
+        "independent_recipe_pass": true,
+        "MusicXML": {
+          "divisions": "24",
+          "beams": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                "1",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ]
+            ],
+            [
+              [
+                "1",
+                "begin"
+              ],
+              [
+                "2",
+                "begin"
+              ],
+              [
+                "3",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ],
+              [
+                "3",
+                "end"
+              ]
+            ],
+            []
+          ],
+          "stems": [
+            "up",
+            "up",
+            "up",
+            null,
+            null,
+            "up",
+            "up",
+            "up",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          "time_modifications": [
+            null,
+            null,
+            null,
+            null,
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "geometry": {
+          "sp_svg": 22.251999999999953,
+          "staff_span_mm": 169.97491919714554,
+          "beam_slope_delta_sp": [
+            -1.0027862664030232,
+            -0.6423242854574887,
+            -1.005168074779798,
+            -1.005168074779798,
+            -1.0051680747797955
+          ],
+          "first_primary_angle_degrees": 1.446644709854664,
+          "running_head_to_primary_center_sp": [
+            3.8618556024128536,
+            3.5850589060338973,
+            3.308250860526771,
+            2.9985983272331143,
+            3.7474172720641343,
+            3.9140760091277476,
+            4.080755916092475,
+            4.2474146531560875
+          ],
+          "hairpin_points": [
+            2742.47,
+            612,
+            1323.47,
+            750,
+            2740.47,
+            588
+          ],
+          "hairpin_stem_axis_crossings": [],
+          "note_head_transforms": [
+            [
+              536.197,
+              691.016
+            ],
+            [
+              1323.47,
+              613.134
+            ],
+            [
+              1520.13,
+              602.008
+            ],
+            [
+              1716.8,
+              590.882
+            ],
+            [
+              1913.46,
+              446.244
+            ],
+            [
+              2110.13,
+              435.118
+            ],
+            [
+              2267.58,
+              423.992
+            ],
+            [
+              2425.04,
+              412.866
+            ],
+            [
+              2582.49,
+              401.74
+            ],
+            [
+              536.197,
+              390.614
+            ],
+            [
+              1032.33,
+              346.11
+            ],
+            [
+              2110.13,
+              357.236
+            ]
+          ],
+          "class_counts": {
+            "MeasureNumber": 1,
+            "BarLine": 6,
+            "StaffLines": 10,
+            "SlurSegment": 1,
+            "LedgerLine": 5,
+            "Stem": 12,
+            "Hook": 1,
+            "Note": 12,
+            "Clef": 2,
+            "TimeSig": 4,
+            "Rest": 2,
+            "Dynamic": 1,
+            "Beam": 5,
+            "Tuplet": 1,
+            "HairpinSegment": 1,
+            "NoteDot": 3,
+            "Bracket": 1
+          }
+        },
+        "midi_sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      "narrow-refined": {
+        "source_sha256": "19cfa7702eaa6b6db2a185f2b41174ce5618400126a5557edb199fc2c5e59dc5",
+        "note_rest_records": 14,
+        "sounding_notes": 12,
+        "independent_recipe_pass": true,
+        "MusicXML": {
+          "divisions": "24",
+          "beams": [
+            [],
+            [],
+            [],
+            [],
+            [
+              [
+                "1",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ]
+            ],
+            [
+              [
+                "1",
+                "begin"
+              ],
+              [
+                "2",
+                "begin"
+              ],
+              [
+                "3",
+                "begin"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "continue"
+              ],
+              [
+                "2",
+                "continue"
+              ],
+              [
+                "3",
+                "continue"
+              ]
+            ],
+            [
+              [
+                "1",
+                "end"
+              ],
+              [
+                "2",
+                "end"
+              ],
+              [
+                "3",
+                "end"
+              ]
+            ],
+            []
+          ],
+          "stems": [
+            "up",
+            "up",
+            "up",
+            null,
+            null,
+            "up",
+            "up",
+            "up",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down",
+            "down"
+          ],
+          "time_modifications": [
+            null,
+            null,
+            null,
+            null,
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            "<time-modification>\n          <actual-notes>6</actual-notes>\n          <normal-notes>4</normal-notes>\n          <normal-type>16th</normal-type>\n          </time-modification>\n        ",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "geometry": {
+          "sp_svg": 22.251999999999953,
+          "staff_span_mm": 79.94679778791686,
+          "beam_slope_delta_sp": [
+            -1.0066061477620012,
+            -0.6047995685781052,
+            -1.012313499910123,
+            -1.012313499910123,
+            -1.012313499910123
+          ],
+          "first_primary_angle_degrees": 3.432920926899569,
+          "running_head_to_primary_center_sp": [
+            3.9051048287609005,
+            3.6283032449052572,
+            3.3514881819076394,
+            2.9966827628800354,
+            3.7438650714326718,
+            3.910517190507523,
+            4.0771693095823744,
+            4.243821428657226
+          ],
+          "hairpin_points": [
+            1466.63,
+            612,
+            867.633,
+            690,
+            1462.63,
+            588
+          ],
+          "hairpin_stem_axis_crossings": [],
+          "note_head_transforms": [
+            [
+              536.197,
+              691.016
+            ],
+            [
+              867.633,
+              613.134
+            ],
+            [
+              950.427,
+              602.008
+            ],
+            [
+              1033.22,
+              590.882
+            ],
+            [
+              1116.02,
+              446.244
+            ],
+            [
+              1198.81,
+              435.118
+            ],
+            [
+              1265.1,
+              423.992
+            ],
+            [
+              1331.38,
+              412.866
+            ],
+            [
+              1397.67,
+              401.74
+            ],
+            [
+              536.197,
+              390.614
+            ],
+            [
+              745.066,
+              346.11
+            ],
+            [
+              1198.81,
+              357.236
+            ]
+          ],
+          "class_counts": {
+            "MeasureNumber": 1,
+            "BarLine": 6,
+            "StaffLines": 10,
+            "SlurSegment": 1,
+            "LedgerLine": 5,
+            "Stem": 12,
+            "Hook": 1,
+            "Note": 12,
+            "Clef": 2,
+            "TimeSig": 4,
+            "Rest": 2,
+            "Dynamic": 1,
+            "Beam": 5,
+            "Tuplet": 1,
+            "HairpinSegment": 1,
+            "NoteDot": 3,
+            "Bracket": 1
+          }
+        },
+        "midi_sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      }
+    },
+    "full_MIDI_equal_six_inputs_and_reload": true,
+    "reload": {
+      "condition": "narrow-refined",
+      "note_rest_recipe_pass": true,
+      "graphics_elements": 68,
+      "max_numeric_graphics_difference_SVG_units": 0.009999999999990905,
+      "numeric_attributes_changed": [
+        [
+          "Stem",
+          "points",
+          0.009999999999990905
+        ],
+        [
+          "Note",
+          "transform",
+          0.0009999999999763531
+        ],
+        [
+          "Note",
+          "transform",
+          0.0009999999999763531
+        ],
+        [
+          "Rest",
+          "transform",
+          0.0009999999999763531
+        ],
+        [
+          "Beam",
+          "d",
+          0.0009999999999763531
+        ],
+        [
+          "Tuplet",
+          "d",
+          0.00100000000009004
+        ]
+      ],
+      "saved_source_sha256": "1dfe130f6dc6e798d71c50a4a974e0bf18c06c2fa478d7e25926ab760d959276",
+      "MusicXML_reimport_tested": false
+    },
+    "CLI_calls": 24
+  },
+  "ink_audit": {
+    "refined": {
+      "sampling": "2 samples per SVG unit; alpha>32; not print/Dorico validation",
+      "hairpin_other_ink_overlap_samples": 0,
+      "rest_beam_overlap_samples": 0,
+      "tuplet_other_ink_overlap_samples": 0,
+      "rest": {
+        "bboxSVG": [
+          1032,
+          550.5,
+          1057,
+          591.5
+        ],
+        "inkSamples": 1169
+      },
+      "tuplet": {
+        "bboxSVG": [
+          1482.5,
+          483,
+          1503.5,
+          512
+        ],
+        "inkSamples": 1019
+      }
+    },
+    "narrow-refined": {
+      "sampling": "2 samples per SVG unit; alpha>32; not print/Dorico validation",
+      "hairpin_other_ink_overlap_samples": 0,
+      "rest_beam_overlap_samples": 0,
+      "tuplet_other_ink_overlap_samples": 0,
+      "rest": {
+        "bboxSVG": [
+          745,
+          550.5,
+          770,
+          591.5
+        ],
+        "inkSamples": 1170
+      },
+      "tuplet": {
+        "bboxSVG": [
+          940.5,
+          483,
+          961,
+          512
+        ],
+        "inkSamples": 1014
+      }
+    },
+    "saved": {
+      "sampling": "2 samples per SVG unit; alpha>32; not print/Dorico validation",
+      "hairpin_other_ink_overlap_samples": 0,
+      "rest_beam_overlap_samples": 0,
+      "tuplet_other_ink_overlap_samples": 0,
+      "rest": {
+        "bboxSVG": [
+          745,
+          550.5,
+          770,
+          591.5
+        ],
+        "inkSamples": 1170
+      },
+      "tuplet": {
+        "bboxSVG": [
+          940.5,
+          483,
+          961,
+          512
+        ],
+        "inkSamples": 1014
+      }
+    }
+  },
+  "midi": {
+    "ppq": 480,
+    "actual_notes": [
+      {
+        "track": 1,
+        "pitch": 74,
+        "onset_tick": 0,
+        "release_tick": 719,
+        "velocity": 80
+      },
+      {
+        "track": 1,
+        "pitch": 81,
+        "onset_tick": 720,
+        "release_tick": 1199,
+        "velocity": 80
+      },
+      {
+        "track": 1,
+        "pitch": 79,
+        "onset_tick": 1200,
+        "release_tick": 1439,
+        "velocity": 80
+      },
+      {
+        "track": 2,
+        "pitch": 60,
+        "onset_tick": 880,
+        "release_tick": 959,
+        "velocity": 80
+      },
+      {
+        "track": 2,
+        "pitch": 62,
+        "onset_tick": 960,
+        "release_tick": 1039,
+        "velocity": 80
+      },
+      {
+        "track": 2,
+        "pitch": 64,
+        "onset_tick": 1040,
+        "release_tick": 1119,
+        "velocity": 80
+      },
+      {
+        "track": 2,
+        "pitch": 65,
+        "onset_tick": 1120,
+        "release_tick": 1199,
+        "velocity": 80
+      },
+      {
+        "track": 2,
+        "pitch": 67,
+        "onset_tick": 1200,
+        "release_tick": 1259,
+        "velocity": 80
+      },
+      {
+        "track": 2,
+        "pitch": 69,
+        "onset_tick": 1260,
+        "release_tick": 1319,
+        "velocity": 80
+      },
+      {
+        "track": 2,
+        "pitch": 71,
+        "onset_tick": 1320,
+        "release_tick": 1379,
+        "velocity": 80
+      },
+      {
+        "track": 2,
+        "pitch": 48,
+        "onset_tick": 0,
+        "release_tick": 1439,
+        "velocity": 80
+      },
+      {
+        "track": 2,
+        "pitch": 72,
+        "onset_tick": 1380,
+        "release_tick": 1439,
+        "velocity": 80
+      }
+    ],
+    "independent_onsets_pass": true,
+    "actual_releases_preserved_by_complete_file_hash": true,
+    "hairpin_velocity_ramp_observed": false,
+    "note": "All exported note velocities80; complete equality protects the existing export, not a claim of expressive crescendo playback. Hairpin logical range preserved separately atq11/6 toq3 in owner staff2/voice1."
+  },
+  "decisions": {
+    "raw_conditions_complete": [
+      4,
+      4
+    ],
+    "wide_candidate": [
+      1,
+      1
+    ],
+    "narrow_transfer": [
+      1,
+      1
+    ],
+    "saved_reloaded": [
+      1,
+      1
+    ],
+    "m97_complete_successor": [
+      0,
+      1
+    ],
+    "user_adoption": false,
+    "user_hairpin_feedback": "pending; optional prior question not repeated",
+    "stemlet_note": "Gould p165 examples use stemlets. LilyPond2.26 and Dorico6.2 explicitly support alternatives; none drawn at leading rest in this native fixture; no global MuseScore capability claim.",
+    "cost": "Split continuous main beam at tuplet boundary; visible editorial grouping change. No notes/staffMove added. Narrow hairpin geometry adjusted independently.",
+    "limits": [
+      "One original three-layer context only",
+      "Equal shortest opposite-direction stem balancing not fully optimized; shortest head-anchor-to-primary-center about3sp",
+      "No MuseScore XML import roundtrip",
+      "No LilyPond compile or Dorico runtime",
+      "No actual m97 transfer this turn",
+      "No printing/performance or user aesthetic adoption"
+    ]
+  },
+  "public_assets": [
+    {
+      "condition": "continuous",
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-continuous.mscx",
+      "bytes": 7636,
+      "sha256": "47e0a358364db14294b732055f02aa4de9dc0bcab26e4ae1fc9e259407eb3298",
+      "native_saved_reloaded": false
+    },
+    {
+      "condition": "split",
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-split.mscx",
+      "bytes": 7638,
+      "sha256": "9e93570ec6033a4180a3edeb2eb10d2080b6d3d09c8ac2c6a171ac7a1a0cfc30",
+      "native_saved_reloaded": false
+    },
+    {
+      "condition": "covered-bracket",
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-covered-bracket.mscx",
+      "bytes": 7676,
+      "sha256": "b0f529a699612e08165d9f98cf5a0a1214dfe62a8a2a266c6f4d474f2ad69261",
+      "native_saved_reloaded": false
+    },
+    {
+      "condition": "covered-number",
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-covered-number.mscx",
+      "bytes": 7676,
+      "sha256": "751f33b23a71f9e4b3d51d11412d5c5d7edc7dc04e98a2485b58c61ad3bb0fd3",
+      "native_saved_reloaded": false
+    },
+    {
+      "condition": "refined",
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-180mm-candidate.mscx",
+      "bytes": 8136,
+      "sha256": "ce10a7ea8f87a99b00f782bdcb48703a468dd0d485ddd62bcdc88a647390c552",
+      "native_saved_reloaded": false
+    },
+    {
+      "condition": "saved",
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-90mm-candidate.mscx",
+      "bytes": 8260,
+      "sha256": "1dfe130f6dc6e798d71c50a4a974e0bf18c06c2fa478d7e25926ab760d959276",
+      "native_saved_reloaded": true
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-comparison.png",
+      "bytes": 301063,
+      "sha256": "137ad1adaa0a7ead9111fa0d3e114631e16673710614bc36df15099442cc1af6"
+    }
+  ],
+  "protected_originals": [
+    {
+      "id": "user_mscz",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged_from_recorded_original": true
+    },
+    {
+      "id": "user_pdf",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged_from_recorded_original": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged_from_recorded_original": true
+    }
+  ],
+  "cache": {
+    "private_root": "tmp/engraving/tuplet-rest-scope-2026-10-31",
+    "final_private_bytes": 453314,
+    "budget_bytes": 786432,
+    "files": [
+      {
+        "path": "audit.json",
+        "bytes": 39931,
+        "sha256": "0edc2d30bc7564eedc843802f55bab9e7f4322f08a96189e9eca0fa30ad06abd"
+      },
+      {
+        "path": "audit.py",
+        "bytes": 7050,
+        "sha256": "5c1e26285353f69fe8ff9fcea78cf2c69e114ca9c665f577d5d3fb3ffb667742"
+      },
+      {
+        "path": "build-calibration.py",
+        "bytes": 725,
+        "sha256": "412727200a82a692caac8436198522240f00a441546a2ee6753746cc7289f51e"
+      },
+      {
+        "path": "build-channel-calibration.py",
+        "bytes": 762,
+        "sha256": "baf1fd306b8744600b0573525553db454d3daf27e5eae26ce38b855366ace735"
+      },
+      {
+        "path": "build-narrow-refined.py",
+        "bytes": 495,
+        "sha256": "f6b6e68bd6fc8bfd517bab5ac187c36d381a52addfa1af2d8673595bf8335b81"
+      },
+      {
+        "path": "build-narrow.py",
+        "bytes": 370,
+        "sha256": "e6af311656ad9d80daea6a33d058c26e24e6c4b064ced4a8b56dca7ff90261c7"
+      },
+      {
+        "path": "build-refined.py",
+        "bytes": 979,
+        "sha256": "eaf0ead8dd7a799a1030b571992ef54e9e9403b21704dea2f57b5bbdd0a40493"
+      },
+      {
+        "path": "build.py",
+        "bytes": 2285,
+        "sha256": "773cb034f738685441cf7de94cb8f0a698ebe7687c7e4e017d0084cc5f4cbc07"
+      },
+      {
+        "path": "calibration-1.svg",
+        "bytes": 25707,
+        "sha256": "636f426d6ccab1f1bc27a11df858d7fcf568c70a7ff14edb9c3966178a1ee69b"
+      },
+      {
+        "path": "calibration-svg-call.json",
+        "bytes": 940,
+        "sha256": "0e84047807be13f0a69ae6f438c5d46c02a5290a6351cc3696049a7130c6c14a"
+      },
+      {
+        "path": "channel-calibration-1.svg",
+        "bytes": 25714,
+        "sha256": "fba661528c29a4591de6dac7dc09196e4277d9d5a1a5c40429e25cb678c31dce"
+      },
+      {
+        "path": "channel-calibration-svg-call.json",
+        "bytes": 980,
+        "sha256": "0cc81b5e24eeb42b7e7bdc97e302fad8637cb7f5e14d7dfe7d21adb411ca622d"
+      },
+      {
+        "path": "config/workspaces/global/menubar.xml",
+        "bytes": 10757,
+        "sha256": "ed16e6c8c724f9a925a2792277280075ee8e38edcad7fabae9081a9967a1d524"
+      },
+      {
+        "path": "continuous-1.svg",
+        "bytes": 25798,
+        "sha256": "39eb835d7fe9b5f912ac12369c53ec4cdf3e238c8f4107d3b5868c6ccce141b0"
+      },
+      {
+        "path": "continuous-mid-call.json",
+        "bytes": 935,
+        "sha256": "4bbfbd25ad10e84cb37f5cce1b7435766bc0b4e251e2574d8e89b0233a753286"
+      },
+      {
+        "path": "continuous-mxl-call.json",
+        "bytes": 935,
+        "sha256": "ad50d86001e7397c406576a342c3f2025b049519826695512f8ab9906eaa8fe3"
+      },
+      {
+        "path": "continuous-svg-call.json",
+        "bytes": 935,
+        "sha256": "a8feeb01cdb9e722cd219bb3b0108192827c1ba9fd37f84412ca091fa2195201"
+      },
+      {
+        "path": "continuous.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "continuous.mxl",
+        "bytes": 2544,
+        "sha256": "960c5d6e36064e883ae5671dfcfe3b4db8b3d5d8141a49297763b4f682b097ea"
+      },
+      {
+        "path": "covered-bracket-1.svg",
+        "bytes": 26063,
+        "sha256": "cd33d787159cf36e0778fcfe7252b12f0b9ad2623474bed358416dfe6d20ddec"
+      },
+      {
+        "path": "covered-bracket-mid-call.json",
+        "bytes": 960,
+        "sha256": "14ff5cbd062046aab6362e32bab0cb94d296883447caeebd6b5aa15de0d99d59"
+      },
+      {
+        "path": "covered-bracket-mxl-call.json",
+        "bytes": 960,
+        "sha256": "c4db9cad0c6ba907738f483f60914a344d1212f58ef0b85373e1d7091a6552ed"
+      },
+      {
+        "path": "covered-bracket-svg-call.json",
+        "bytes": 960,
+        "sha256": "04f271856db5ecdb16562a2058b4072285a52e58231850bcf2ff6d7f248a0dae"
+      },
+      {
+        "path": "covered-bracket.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "covered-bracket.mxl",
+        "bytes": 2574,
+        "sha256": "e5e8934e402205077ba00abee237bcf21018cdafdd432a4ba91a32ee30c32265"
+      },
+      {
+        "path": "covered-number-1.svg",
+        "bytes": 25705,
+        "sha256": "5dd64554faa57c08e572fdc3e53e5ef58f2666f34e57dedb2fa53e25380657bb"
+      },
+      {
+        "path": "covered-number-mid-call.json",
+        "bytes": 955,
+        "sha256": "6a06d588e8062f4679458014a2d9d90b7c6d3326ea258b1cf02aedc2a38f275e"
+      },
+      {
+        "path": "covered-number-mxl-call.json",
+        "bytes": 955,
+        "sha256": "f25a67bf8409b62ce3bca743e2d5d9249aaaa301660c4949db343c62d9cb3836"
+      },
+      {
+        "path": "covered-number-svg-call.json",
+        "bytes": 955,
+        "sha256": "b65f4123f00a1d6105c2721e34f5f6d24d3f2594cafa4daf72247cd252687b6c"
+      },
+      {
+        "path": "covered-number.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "covered-number.mxl",
+        "bytes": 2571,
+        "sha256": "a0d2a4e3265bde1c39e59a4b9d491115ba74f5f12d2e84ca71c41c1cd2ace698"
+      },
+      {
+        "path": "ink-audit.json",
+        "bytes": 1457,
+        "sha256": "e536eb44f2c910b93379fe37b963f6bd8f6d7cacf02abc9790dedd7a86ea170e"
+      },
+      {
+        "path": "inputs.json",
+        "bytes": 1145,
+        "sha256": "6d8130225c4e3037e84fa15de4b0ea6d176b45d4651b444c4ef4d8edea2fc03c"
+      },
+      {
+        "path": "midi-audit.json",
+        "bytes": 1715,
+        "sha256": "3f31e01f1f8aec936790c97148d29c54ec0726e967a2ab910314ceecb48753a1"
+      },
+      {
+        "path": "narrow-1.svg",
+        "bytes": 25683,
+        "sha256": "84a83139b2a2473c37abe704ccb5be614f0708df809a13c1585e5aaa97d8d9c2"
+      },
+      {
+        "path": "narrow-refined-1.svg",
+        "bytes": 25691,
+        "sha256": "ed905a381e69d0b9ada85bcbe81afa1d02f3282974bbb8a07f803c2004e8e02b"
+      },
+      {
+        "path": "narrow-refined-mid-call.json",
+        "bytes": 955,
+        "sha256": "6a412de8aa72f214c53b33480246baabcff4f5a11c3070a66025d89f92ac0033"
+      },
+      {
+        "path": "narrow-refined-mscx-call.json",
+        "bytes": 940,
+        "sha256": "6b90f3dc360f956d122d21f45854d2f7b26a47e257aae6da0b81546fa8c0b3b1"
+      },
+      {
+        "path": "narrow-refined-mxl-call.json",
+        "bytes": 955,
+        "sha256": "398f2ad784d75cb38a74eff3c2419eca814f1b2cc7ac35485175d1b5e3693425"
+      },
+      {
+        "path": "narrow-refined-svg-call.json",
+        "bytes": 955,
+        "sha256": "1a3a56823c3f3500b86d0ec06a3b6f8fdf705a6bddcfba9753142186e0a01f35"
+      },
+      {
+        "path": "narrow-refined.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "narrow-refined.mxl",
+        "bytes": 2597,
+        "sha256": "85a8041f3b8c2fae9bb9b5f7487bd992555d938b95843447738db63d8b680974"
+      },
+      {
+        "path": "narrow-svg-call.json",
+        "bytes": 915,
+        "sha256": "9edd5a34436616d6feaa6eda403e255d05bb8eccf54af729f964bec6749c9ecf"
+      },
+      {
+        "path": "public-assets.json",
+        "bytes": 1688,
+        "sha256": "0f36ba4507c9f4fe5d392b78c303ce566274f4aae7ff0cd267fac24549c15e8f"
+      },
+      {
+        "path": "refined-1.svg",
+        "bytes": 25690,
+        "sha256": "09a045ee04e12f6dd4ef18205dd3670a933f1a1b335a4172fcc42a289618db04"
+      },
+      {
+        "path": "refined-mid-call.json",
+        "bytes": 920,
+        "sha256": "0b719e7dc92ac673b3e384b113fca7d7a520323c8b05675d894d7676c996cdb0"
+      },
+      {
+        "path": "refined-mxl-call.json",
+        "bytes": 920,
+        "sha256": "53b33642869c8f0f076a5b5c785733bcebc219d7fa9dcaeca1422651a4e68ecc"
+      },
+      {
+        "path": "refined-svg-call.json",
+        "bytes": 920,
+        "sha256": "fbdd510842145f4c9a4fb8d70bf5ebf854d11c039c6acaef77e9308e14c9360a"
+      },
+      {
+        "path": "refined.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "refined.mxl",
+        "bytes": 2579,
+        "sha256": "91eee8767a15244482cad9d6f43ca26beaf96fe3f5d30462a35254e7a87c4df9"
+      },
+      {
+        "path": "refinement.json",
+        "bytes": 482,
+        "sha256": "4d3c05421c8aaa62ad7745513987670d155a5677a857e302ff21f547bc3c9599"
+      },
+      {
+        "path": "run.py",
+        "bytes": 1366,
+        "sha256": "4fcf1cbc033000844d5de9aba18cb6e483e58ba302d5194e70153c9b0b59ffed"
+      },
+      {
+        "path": "saved-1.svg",
+        "bytes": 25661,
+        "sha256": "25bd77f26a0d6af64819a856ded1d389a32cc96d5234351948d24c36b3d40274"
+      },
+      {
+        "path": "saved-mid-call.json",
+        "bytes": 874,
+        "sha256": "b637b84875c2c0bae19ef777f50fb38e51d54e892cb7c7325d712cbc3f15ec05"
+      },
+      {
+        "path": "saved-svg-call.json",
+        "bytes": 874,
+        "sha256": "7bda5d732d6b2c3ffd7d297395c68aea24b683a9394f4952e6d8aa20eb29594b"
+      },
+      {
+        "path": "saved.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "saved.mscx",
+        "bytes": 8260,
+        "sha256": "1dfe130f6dc6e798d71c50a4a974e0bf18c06c2fa478d7e25926ab760d959276"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 2964,
+        "sha256": "083b74ad4ab30fb497d7feb86d66775d9622f2e15addb2c04b3436b57d7b8b66"
+      },
+      {
+        "path": "split-1.svg",
+        "bytes": 26058,
+        "sha256": "d9514712406c9cd59b32556aaf3e9d6b0b57f29027764a127bc6851d669d4e4c"
+      },
+      {
+        "path": "split-mid-call.json",
+        "bytes": 910,
+        "sha256": "b87ca74b2e27873ac7ff9b07dc7b91005f1f6d1097d7d0bb4bd6ec50ed06936d"
+      },
+      {
+        "path": "split-mxl-call.json",
+        "bytes": 910,
+        "sha256": "6bea774284467460a00b2f9b84c6ebf3c157318bf294cf0a62b48f6cf520f805"
+      },
+      {
+        "path": "split-svg-call.json",
+        "bytes": 910,
+        "sha256": "c10c768b9f64a3a858cad6dcd7c676ff1cc1ee626b60697668b000c5ec5d7732"
+      },
+      {
+        "path": "split.mid",
+        "bytes": 223,
+        "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+      },
+      {
+        "path": "split.mxl",
+        "bytes": 2542,
+        "sha256": "5eb39a060e83973df867c49ebf2294f6751380c87b9f91c842a54e62ae03364f"
+      },
+      {
+        "path": "supplemental-sources.json",
+        "bytes": 2676,
+        "sha256": "b7623b567eacb30e591e6a65293cdeff77e6fa0cb165ef750b425c22233abcfb"
+      },
+      {
+        "path": "tuplet-rest-scope-calibration.mscx",
+        "bytes": 7857,
+        "sha256": "4b7a64db21c97b3ed45710918dc244a138609b45332709083774fbf3aa0c16b7"
+      },
+      {
+        "path": "tuplet-rest-scope-channel-calibration.mscx",
+        "bytes": 8128,
+        "sha256": "35a0983a9c9060007db359c58bd27cf28bb4380eaaf39370e9eb3e1744e56f58"
+      },
+      {
+        "path": "tuplet-rest-scope-continuous.mscx",
+        "bytes": 7636,
+        "sha256": "47e0a358364db14294b732055f02aa4de9dc0bcab26e4ae1fc9e259407eb3298"
+      },
+      {
+        "path": "tuplet-rest-scope-covered-bracket.mscx",
+        "bytes": 7676,
+        "sha256": "b0f529a699612e08165d9f98cf5a0a1214dfe62a8a2a266c6f4d474f2ad69261"
+      },
+      {
+        "path": "tuplet-rest-scope-covered-number.mscx",
+        "bytes": 7676,
+        "sha256": "751f33b23a71f9e4b3d51d11412d5c5d7edc7dc04e98a2485b58c61ad3bb0fd3"
+      },
+      {
+        "path": "tuplet-rest-scope-narrow-refined.mscx",
+        "bytes": 8147,
+        "sha256": "19cfa7702eaa6b6db2a185f2b41174ce5618400126a5557edb199fc2c5e59dc5"
+      },
+      {
+        "path": "tuplet-rest-scope-narrow.mscx",
+        "bytes": 8147,
+        "sha256": "8fabebe2ae8d59708856cdaea3a347a3c77ac08430e68d5518133f929fa38025"
+      },
+      {
+        "path": "tuplet-rest-scope-refined.mscx",
+        "bytes": 8136,
+        "sha256": "ce10a7ea8f87a99b00f782bdcb48703a468dd0d485ddd62bcdc88a647390c552"
+      },
+      {
+        "path": "tuplet-rest-scope-split.mscx",
+        "bytes": 7638,
+        "sha256": "9e93570ec6033a4180a3edeb2eb10d2080b6d3d09c8ac2c6a171ac7a1a0cfc30"
+      }
+    ],
+    "new_reference_image_files": 0,
+    "new_reference_pdf_copies": 0,
+    "new_runtime_copies": 0,
+    "files_deleted": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3260022784
+  },
+  "software_adaptation_changes": 0,
+  "additional_readonly_audit": {
+    "six_versions_natural_spelling_preserved": true,
+    "same_fourteen_stem_fields": true,
+    "five_tuplet_members_correct_ratio_and_type": true,
+    "rest_first_note_last_tuplet_and_tail_beam_boundaries_checked": true
+  }
+}
