@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31",
+  "kind": "known-source contextual beam and tuplet-scope application;three decisions,one local endpoint candidate",
+  "study": "BEAM_SCOPE_TRANSFER.md",
+  "new_reading_coverage": 0,
+  "independent_accuracy_claim": false,
+  "sources": [
+    {
+      "role": "user MSCZ",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "role": "user PDF",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "role": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "views": {
+    "user_pdf_full_pages": [
+      4,
+      5
+    ],
+    "user_pdf_focus": "p5 system1lastbar m97,including both staves",
+    "gould_printed_pages": [
+      17,
+      18,
+      19,
+      20,
+      200,
+      315,
+      316,
+      317
+    ],
+    "gould_physical_pages": [
+      37,
+      38,
+      39,
+      40,
+      220,
+      335,
+      336,
+      337
+    ],
+    "source_rasters": "memory only;no source page image files added",
+    "native_contexts": [
+      "baseline p4system1,m70andm71",
+      "m97original and candidate fullsystem",
+      "m97original and candidate detail"
+    ],
+    "comparison_dpi": {
+      "system": 200,
+      "detail": 300
+    },
+    "comparison_boxes_svg_units": {
+      "system": [
+        150,
+        180,
+        2820,
+        850
+      ],
+      "detail": [
+        2100,
+        180,
+        2820,
+        860
+      ]
+    }
+  },
+  "native_host": {
+    "path": "E:/programming/funcodes/mcp-musescore/tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "svg_reported_version": "3.7.0",
+    "build_relationship_to_current_source": "unverified"
+  },
+  "baseline": {
+    "directory": "tmp/engraving/user-combined-2026-10-31/native",
+    "source_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "source": "Original release5 input; neither the previous combined candidate nor the m81 candidate.",
+    "outputs_reused": true
+  },
+  "cases": [
+    {
+      "id": "BS01",
+      "location": "user m71 p4system1secondbar lower staff voice6",
+      "decision": "retain automatic shallow angle",
+      "metrics": {
+        "span_sp": 2.8559230630954526,
+        "slant_sp": 0.7500000000000041,
+        "angle_degrees": 14.714313427789929,
+        "nearest_head_to_reference_sp": [
+          3.5000000000000004,
+          3.250000000000006
+        ]
+      },
+      "manual_beam_endpoint": false,
+      "meaning": "two normal measured16ths G3/E3;q2.5/2.75;first receives tie from quarterG3",
+      "normative_difference": "0.75sp exceeds Gouldp20narrow-spacing preference0.25or0.5sp;retained for modest actual angle and clear staffline attachment,no claim of full numerical conformity",
+      "new_alternate_generated": false
+    },
+    {
+      "id": "BS02",
+      "location": "user m70 p4system1firstbar upper staff",
+      "decision": "retain flat angle and mixed layers",
+      "attacks": 5,
+      "written_durations": [
+        "32nd",
+        "32nd",
+        "32nd",
+        "32nd",
+        "eighth"
+      ],
+      "quarter_onsets": [
+        0,
+        0.125,
+        0.25,
+        0.375,
+        0.5
+      ],
+      "quarter_durations": [
+        0.125,
+        0.125,
+        0.125,
+        0.125,
+        0.5
+      ],
+      "first_chord_nearest_head": "D5",
+      "first_chord_far_head": "B5",
+      "nearest_head_sequence": "D5/E5/D5/E5/D5",
+      "metrics": {
+        "span_sp": 7.528896278986154,
+        "slant_sp": 0,
+        "nearest_head_to_primary_reference_sp": 3.75,
+        "nearest_head_to_far_outer_edge_sp": 4
+      },
+      "beam_layers": "primary spans5attacks,second/third spanfirst4only",
+      "measurement_lesson": "Gouldp18includesouterbeamwidth;reference-line measure is distinct;drawn full chord stem is distinct again",
+      "new_alternate_generated": false
+    },
+    {
+      "id": "BS03",
+      "location": "User m97, PDF p5 system1 last bar; source Staff4 voice index1; exported P2 voice6.",
+      "decision": "prefer local right bracket endpoint reset for comparison",
+      "tuplet": {
+        "ratio": [
+          6,
+          4
+        ],
+        "base": "16th",
+        "quarter_range": [
+          1.5,
+          2.5
+        ],
+        "members": "An eighth rest, then F-sharp4/G4/A4/B4 as four sixteenths.",
+        "rest_quarter_duration": "1/3",
+        "each_note_quarter_duration": "1/6"
+      },
+      "ordinary_tail": {
+        "quarter_range": [
+          2.5,
+          3
+        ],
+        "members": "C5/D5/E5/F-sharp5 as four ordinary thirty-seconds.",
+        "each_note_quarter_duration": "1/8"
+      },
+      "primary_beam": "One group of eight note attacks; the tuplet starts with the preceding rest and ends after its fourth note, B4.",
+      "staves": "First three notes on the lower staff with upstems; last five on the upper staff with downstems.",
+      "primary_polygon_angle_degrees": 3.39711359898307,
+      "bracket_geometry": {
+        "original_hook_minus_last_member_stem_sp": -1.1909041883875606,
+        "candidate_hook_minus_last_member_stem_sp": 0.7069027503145793,
+        "hook_delta_sp": 1.8978069387021415
+      },
+      "source_tuplet_membership_correct": true,
+      "local_patch": {
+        "source_staff_id": 4,
+        "measure": 97,
+        "voice0": 1,
+        "object": "Tuplet/p2",
+        "byte_start": 841897,
+        "old_ascii": "<p2 x=\"-1.89739\" y=\"5.29309\"/>",
+        "new_ascii": "<p2 x=\"0\" y=\"5.29309\"/>",
+        "reverse_restores_original": true,
+        "other_zip_payloads_identical": true
+      },
+      "unchanged_beam_polygons": 4,
+      "user_preference_confirmed": false
+    }
+  ],
+  "new_candidate": {
+    "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-m97-bracket-end.mscz",
+    "sha256": "a7f36ee87cc77d803ce3ff306d462464f226f7d67137b9df44c180694c9c7265",
+    "patch_reversible_to_original_bytes": true,
+    "other_zip_payloads_equal": true,
+    "zip_validation": "Fresh independent ZIP readers and a CRC test verified the existing candidate. Reopening was necessary after writestr mutated reused ZipInfo offsets in memory; the candidate was not rewritten.",
+    "combined_with_any_previous_candidate": false
+  },
+  "native_checks": {
+    "cli_calls": 3,
+    "formats": [
+      "svg",
+      "mxl",
+      "mid"
+    ],
+    "exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "pages_compared": 8,
+    "unchanged_pages": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "changed_page": 5,
+    "changed_graphical_elements": [
+      {
+        "index": 1157,
+        "cls": "Tuplet",
+        "differences": [
+          {
+            "attribute": "d",
+            "max_numeric_delta": 21.110000000000127
+          }
+        ]
+      },
+      {
+        "index": 1158,
+        "cls": "Tuplet",
+        "differences": [
+          {
+            "attribute": "points",
+            "max_numeric_delta": 21.109999999999673
+          }
+        ]
+      },
+      {
+        "index": 1159,
+        "cls": "Tuplet",
+        "differences": [
+          {
+            "attribute": "points",
+            "max_numeric_delta": 42.23000000000002
+          }
+        ]
+      }
+    ],
+    "note_rest_objects_compared": [
+      3203,
+      3203
+    ],
+    "note_signature_differences": [],
+    "ignored_note_attributes": [
+      "default-x",
+      "default-y",
+      "relative-x",
+      "relative-y",
+      "bezier-x",
+      "bezier-y",
+      "bezier-x2",
+      "bezier-y2",
+      "bezier-offset",
+      "bezier-offset2"
+    ],
+    "midi_equal": true,
+    "midi_bytes": 19491,
+    "svg_comparison": "All graphical attributes and numeric tokens; root/title/desc excluded; normalize only existing path command separator whitespace.",
+    "reused_auditor": "tmp/engraving/real-beam-transfer-2026-10-31/audit.py",
+    "save_reload": false,
+    "musicxml_reimport": false,
+    "print_or_performance": false
+  },
+  "open_questions": [
+    {
+      "scope": "m97secondbeamlevel",
+      "observed": "The native SVG has two separate second-layer polygons; exported MusicXML beam2 labels are begin/continue/end over the entire primary group.",
+      "claim_boundary": "No roundtrip was performed; no interchange loss is claimed.",
+      "next": "Use a small private editable sample and reuse the existing whole-score baseline."
+    },
+    {
+      "scope": "group-internalclefchange",
+      "next": "Judge displayed positions and actual contour in a focused source/fixture; not completed in this batch."
+    }
+  ],
+  "private_records": {
+    "directory": "tmp/engraving/beam-scope-transfer-2026-10-31",
+    "files": [
+      "scope.json",
+      "calls.json",
+      "audit.json",
+      "metrics.json",
+      "run.py",
+      "m97-system-comparison.png",
+      "m97-detail-comparison.png"
+    ]
+  },
+  "cache": {
+    "as_of": "2026-10-31T07:19:43.083Z",
+    "batch_logical_bytes": 3633731,
+    "batch_budget_bytes": 4194304,
+    "new_source_pdf_copies": 0,
+    "new_runtime_copies": 0,
+    "new_source_page_image_files": 0,
+    "new_native_svg_pages": 8,
+    "new_comparison_pngs": 2,
+    "deletions": 0,
+    "current_check_allowance_bytes": 3232432128,
+    "additional_allowance_bytes": 4194304,
+    "exact_total_bytes": null,
+    "existing_total_scan_gap": "tmp/engraving/skill-review-2026-10-19/locator-m6az562xdenied access,noACLchange",
+    "reason": "single necessary real-score endpoint candidate plus8page nonlocal-geometry audit;reuse all baseline/runtime and source pages;later exchanges use local samples"
+  },
+  "progress": {
+    "contextual_cases": [
+      3,
+      3
+    ],
+    "decisions": {
+      "retain": 2,
+      "local_endpoint_candidate": 1
+    },
+    "new_private_native_candidates": [
+      1,
+      1
+    ],
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "gould_coverage": [
+      696,
+      696
+    ],
+    "resource_scopes": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ],
+    "software_adaptation_changes": 0
+  },
+  "release_boundary": "Working branch knowledge supplement; fixed engraving-v0.20.0 and its certificate remain unchanged.",
+  "validation": {
+    "as_of": "2026-10-31T07:23:40.332Z",
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "existing_cli_regressions": [
+      6,
+      6
+    ],
+    "query_checks": [
+      {
+        "topic": "rhythm",
+        "query": "m97 连音 右端",
+        "new_study_within_first_three": true
+      },
+      {
+        "topic": "beams",
+        "query": "干长 外梁宽度 主梁中线",
+        "new_study_within_first_three": true
+      }
+    ],
+    "changed_markdown_links_checked": 580,
+    "broken_local_links": [],
+    "source_and_artifact_hashes_checked": 16,
+    "hash_errors": [],
+    "private_cache_bytes_after_checks": 3633731,
+    "git_diff_check": "passed",
+    "fixed_tags_and_certificates_modified": false
+  },
+  "artifacts": [
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-m97-bracket-end.mscz",
+      "bytes": 68480,
+      "sha256": "a7f36ee87cc77d803ce3ff306d462464f226f7d67137b9df44c180694c9c7265"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-1.svg",
+      "bytes": 522291,
+      "sha256": "0bf840f21ac225eb02cb88d61a459be36133ae98b6092ce8890b883dd4d76bdf"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-2.svg",
+      "bytes": 430210,
+      "sha256": "2cc37febb0670c66d6585724b475485dc4b9fe5b3d8b161d7b882c66d06b104b"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-3.svg",
+      "bytes": 363778,
+      "sha256": "92143ae0fafa9ac394bf8ff4449c3534a89e8338d8faa9644d8a311b4ff92296"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-4.svg",
+      "bytes": 559393,
+      "sha256": "4db3e0c99a06783f5fc00f4675f43dde303b2f9f1319c19049e8b1518f6f6c42"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-5.svg",
+      "bytes": 342843,
+      "sha256": "e05c59edcb2ad2d066f827ee70f03ee621dc30b8e6fcb78fd205e6505cbd2552"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-6.svg",
+      "bytes": 431715,
+      "sha256": "07149136833b3c40e8d3d1829bf663e94d708560595e28ceebc6cb22304f1e52"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-7.svg",
+      "bytes": 377858,
+      "sha256": "30862000038672422f73cdc3e96106555d71a34ac6e321c5e66e064c56076ad9"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate-8.svg",
+      "bytes": 304725,
+      "sha256": "d73eed3e2ad27034d863db12f2e5911153a5674d4a4c6f97a563e7a6f5471949"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate.mxl",
+      "bytes": 66201,
+      "sha256": "b3b3a6660f83f3e5f369fdece0c5c0728ee3e298d702483dc609772574ddeab1"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/candidate.mid",
+      "bytes": 19491,
+      "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/m97-system-comparison.png",
+      "bytes": 77432,
+      "sha256": "2f1a5e7924a677683539e44429c4b6ec89e2343b1a31823ad1a523982a010eb2"
+    },
+    {
+      "path": "tmp/engraving/beam-scope-transfer-2026-10-31/m97-detail-comparison.png",
+      "bytes": 38381,
+      "sha256": "9edbde71236583edee094d9365bcaa1455bd8248df410b55ab84f2436d7c6214"
+    }
+  ]
+}
