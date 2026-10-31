@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31T04:46:31.911Z",
+  "kind": "public-source-identity-correction",
+  "resource_id": "R10",
+  "user_correction": {
+    "from": "廿十七",
+    "to": "拾廿七",
+    "source": "本对话用户明确更正；未增加个人审美偏好"
+  },
+  "status_before": "unverified",
+  "status_after": "partial",
+  "verified_account": {
+    "name": "拾廿七",
+    "uid": 341170626,
+    "profile": "https://space.bilibili.com/341170626",
+    "basis": "Two distinct publishers public video descriptions link the exact name to the same numeric biz_id."
+  },
+  "viewed_scope": "Read the relevant credit paragraphs and linked desc_v2 mention records of two public video descriptions through ordinary unauthenticated JSON endpoints. No own-profile body, score/video frames, audio or tutorial studied.",
+  "sources": [
+    {
+      "bvid": "BV1Ve4y1x7bY",
+      "url": "https://www.bilibili.com/video/BV1Ve4y1x7bY/",
+      "api": "https://api.bilibili.com/x/web-interface/view?bvid=BV1Ve4y1x7bY",
+      "http_status": 200,
+      "code": 0,
+      "title": "[原神/钢琴] 狮尾之舞，最高难度极限还原须弥最好听的战斗曲！",
+      "owner": {
+        "mid": 207325025,
+        "name": "Purrvoice热狗"
+      },
+      "credited_user": {
+        "raw_text": "拾廿七",
+        "type": 2,
+        "biz_id": 341170626
+      },
+      "role": "发布者感谢其检查谱面规范；未说明具体改动或使用软件。",
+      "raw_response_sha256": "ab858fd3ce534ee7fdb1e2fd58fc85f86c970dd7223668bd794dd96a62a9c458"
+    },
+    {
+      "bvid": "BV1iP41147ye",
+      "url": "https://www.bilibili.com/video/BV1iP41147ye/",
+      "api": "https://api.bilibili.com/x/web-interface/view?bvid=BV1iP41147ye",
+      "http_status": 200,
+      "code": 0,
+      "title": "【钢琴改编】東の空から始まる世界（星之声 Ver.）（附曲谱）",
+      "owner": {
+        "mid": 175466413,
+        "name": "冰_Saki"
+      },
+      "credited_user": {
+        "raw_text": "拾廿七",
+        "type": 2,
+        "biz_id": 341170626
+      },
+      "role": "发布者特别鸣谢列为曲谱；净书、输入、校对的细分职责未说明。",
+      "parsed_json_sha256": "1dcdf8f7236e7f1806048703bc447a5a8ad61a488fd9b3738fbbdef86c334627"
+    }
+  ],
+  "remaining": "Own profile body, video directory, identifiable tutorial or actual engraving examples and specific interventions remain unread/unverified.",
+  "access_observations": [
+    {
+      "url": "https://api.bilibili.com/x/space/wbi/acc/info?mid=341170626",
+      "http_status": 200,
+      "code": -352,
+      "message": "风控校验失败"
+    },
+    {
+      "url": "https://api.bilibili.com/x/space/wbi/arc/search?mid=341170626&ps=30&pn=1",
+      "http_status": 200,
+      "code": -403,
+      "message": "访问权限不足"
+    },
+    {
+      "url": "https://api.bilibili.com/x/space/article?mid=341170626&ps=30&pn=1&sort=publish_time",
+      "http_status": 200,
+      "code": 0,
+      "message": "OK",
+      "data_keys": [
+        "pn",
+        "ps"
+      ],
+      "interpretation": "Only pn/ps returned; no article list obtained, not proof that the author has no articles."
+    }
+  ],
+  "other_access": [
+    {
+      "url": "https://www.gangqinpu.com/cchtml/1050811.htm",
+      "channel": "web open",
+      "result": "not accessible"
+    },
+    {
+      "url": "https://mymusic.st/PurrvoiceHotdog/79353",
+      "channel": "web open",
+      "result": "not accessible"
+    }
+  ],
+  "counts": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resources": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "resource_completion_increment": 0
+  },
+  "protection": {
+    "original_files_written": 0,
+    "new_private_cache_bytes": 0,
+    "new_media_bytes": 0,
+    "deleted_files": 0,
+    "software_or_font_changes": 0
+  },
+  "release_boundary": "Working-branch source correction after fixed0.20;historical release tags/certificates unchanged."
+}
