@@ -1,0 +1,1286 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-31T03:55:51.069Z",
+  "previous_goal_turn_classification": "progress:24fc185published original swing comparison and fourusable native inputs;clean tree and ff-only pull verified.",
+  "scope": "One original two-bar score with two equivalent value notations;three native exports,not original score correction.",
+  "reference": "DOUBLED_TUPLET_STUDY.md",
+  "protected_sources": [
+    {
+      "id": "A005",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\200 Anime Songs Medley.pdf",
+      "sha256": "de0c99dd322419b5f607234a5a5a22e7f987e9bcd80647e09f7e6e81a5e6b8de",
+      "pages": 154,
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "unchanged": true
+    }
+  ],
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "configuration": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\doubled-tuplet-2026-10-31\\config",
+    "configuration_precreated": true,
+    "existing_runtime_reused": true,
+    "source_build_correspondence_verified": false
+  },
+  "native_commands": [
+    {
+      "format": "pdf",
+      "returncode": 0,
+      "path": "tmp\\engraving\\doubled-tuplet-2026-10-31\\exports\\equivalent.pdf"
+    },
+    {
+      "format": "musicxml",
+      "returncode": 0,
+      "path": "tmp\\engraving\\doubled-tuplet-2026-10-31\\exports\\equivalent.musicxml"
+    },
+    {
+      "format": "mid",
+      "returncode": 0,
+      "path": "tmp\\engraving\\doubled-tuplet-2026-10-31\\exports\\equivalent.mid"
+    }
+  ],
+  "native_recipe": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\doubled-tuplet-2026-10-31\\config",
+    "batch_budget_bytes": 114688,
+    "total_cache_ceiling_bytes": 3221749760,
+    "source_sha256": "5e2588bf8518ce445acef5321399343d91e95c06db26a08b9ae23e667f859c5c",
+    "scope": "Oneoriginal two-bar comparison of equivalent values,not source-score repair.",
+    "notes_per_bar": 19,
+    "expected_total_notes": 38,
+    "conditions": 2,
+    "upper_pitches": [
+      60,
+      62,
+      65,
+      67,
+      69,
+      72,
+      74,
+      62,
+      64,
+      67,
+      69,
+      71,
+      74,
+      76
+    ],
+    "upper_q": [
+      "0",
+      "1/8",
+      "1/4",
+      "3/8",
+      "1/2",
+      "5/8",
+      "3/4",
+      "3/2",
+      "13/8",
+      "7/4",
+      "15/8",
+      "2",
+      "17/8",
+      "9/4"
+    ],
+    "upper_duration": [
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/4",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/4"
+    ],
+    "lower_pitches": [
+      48,
+      52,
+      50,
+      55,
+      53
+    ],
+    "lower_q": [
+      "0",
+      "3/4",
+      "3/2",
+      "3",
+      "7/2"
+    ],
+    "lower_duration": [
+      "1/2",
+      "1/4",
+      "1/2",
+      "1/2",
+      "1/2"
+    ]
+  },
+  "native_validation": {
+    "status": "passed",
+    "records": [
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 60,
+        "q": "0",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 62,
+        "q": "1/8",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 65,
+        "q": "1/4",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 67,
+        "q": "3/8",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 69,
+        "q": "1/2",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 72,
+        "q": "5/8",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 74,
+        "q": "3/4",
+        "duration": "1/4",
+        "type": "16th",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": null,
+        "q": "1",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 62,
+        "q": "3/2",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 64,
+        "q": "13/8",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 67,
+        "q": "7/4",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 69,
+        "q": "15/8",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 71,
+        "q": "2",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 74,
+        "q": "17/8",
+        "duration": "1/8",
+        "type": "32nd",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": 76,
+        "q": "9/4",
+        "duration": "1/4",
+        "type": "16th",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": null,
+        "q": "5/2",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 1,
+        "pitch": null,
+        "q": "3",
+        "duration": "1",
+        "type": "quarter",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 2,
+        "pitch": 48,
+        "q": "0",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 2,
+        "pitch": null,
+        "q": "1/2",
+        "duration": "1/4",
+        "type": "16th",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 2,
+        "pitch": 52,
+        "q": "3/4",
+        "duration": "1/4",
+        "type": "16th",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 2,
+        "pitch": null,
+        "q": "1",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 2,
+        "pitch": 50,
+        "q": "3/2",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 2,
+        "pitch": null,
+        "q": "2",
+        "duration": "1",
+        "type": "quarter",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 2,
+        "pitch": 55,
+        "q": "3",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 1,
+        "staff": 2,
+        "pitch": 53,
+        "q": "7/2",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 60,
+        "q": "0",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 62,
+        "q": "1/8",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 65,
+        "q": "1/4",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 67,
+        "q": "3/8",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 69,
+        "q": "1/2",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 72,
+        "q": "5/8",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 74,
+        "q": "3/4",
+        "duration": "1/4",
+        "type": "16th",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": null,
+        "q": "1",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 62,
+        "q": "3/2",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 64,
+        "q": "13/8",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 67,
+        "q": "7/4",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 69,
+        "q": "15/8",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 71,
+        "q": "2",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 74,
+        "q": "17/8",
+        "duration": "1/8",
+        "type": "16th",
+        "ratio": [
+          6,
+          3
+        ]
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": 76,
+        "q": "9/4",
+        "duration": "1/4",
+        "type": "16th",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": null,
+        "q": "5/2",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 1,
+        "pitch": null,
+        "q": "3",
+        "duration": "1",
+        "type": "quarter",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 2,
+        "pitch": 48,
+        "q": "0",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 2,
+        "pitch": null,
+        "q": "1/2",
+        "duration": "1/4",
+        "type": "16th",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 2,
+        "pitch": 52,
+        "q": "3/4",
+        "duration": "1/4",
+        "type": "16th",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 2,
+        "pitch": null,
+        "q": "1",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 2,
+        "pitch": 50,
+        "q": "3/2",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 2,
+        "pitch": null,
+        "q": "2",
+        "duration": "1",
+        "type": "quarter",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 2,
+        "pitch": 55,
+        "q": "3",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      },
+      {
+        "bar": 2,
+        "staff": 2,
+        "pitch": 53,
+        "q": "7/2",
+        "duration": "1/2",
+        "type": "eighth",
+        "ratio": null
+      }
+    ],
+    "notes": 38,
+    "rests": 12,
+    "bars": 2,
+    "all_staff_bar_durations": 4,
+    "effective_music_and_rests_equal": true,
+    "source_normal_six_reading_total": "9/2",
+    "conditional_rewrite_total": "4"
+  },
+  "playback": {
+    "division": 480,
+    "note_ons": 38,
+    "note_offs": 38,
+    "per_bar_all_note_events_equal": true,
+    "comparison_scope": "All NoteOn/Off normalized by1920tick bar start;not fullMIDI-byte or all-controller/meta equivalence.",
+    "first_bar_events": [
+      {
+        "kind": "on",
+        "tick": 0,
+        "pitch": 48,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "on",
+        "tick": 0,
+        "pitch": 60,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 59,
+        "pitch": 60,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 60,
+        "pitch": 62,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 119,
+        "pitch": 62,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 120,
+        "pitch": 65,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 179,
+        "pitch": 65,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 180,
+        "pitch": 67,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 239,
+        "pitch": 48,
+        "channel": 0
+      },
+      {
+        "kind": "off",
+        "tick": 239,
+        "pitch": 67,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 240,
+        "pitch": 69,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 299,
+        "pitch": 69,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 300,
+        "pitch": 72,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 359,
+        "pitch": 72,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 360,
+        "pitch": 52,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "on",
+        "tick": 360,
+        "pitch": 74,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 479,
+        "pitch": 52,
+        "channel": 0
+      },
+      {
+        "kind": "off",
+        "tick": 479,
+        "pitch": 74,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 720,
+        "pitch": 50,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "on",
+        "tick": 720,
+        "pitch": 62,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 779,
+        "pitch": 62,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 780,
+        "pitch": 64,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 839,
+        "pitch": 64,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 840,
+        "pitch": 67,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 899,
+        "pitch": 67,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 900,
+        "pitch": 69,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 959,
+        "pitch": 50,
+        "channel": 0
+      },
+      {
+        "kind": "off",
+        "tick": 959,
+        "pitch": 69,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 960,
+        "pitch": 71,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1019,
+        "pitch": 71,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 1020,
+        "pitch": 74,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1079,
+        "pitch": 74,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 1080,
+        "pitch": 76,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1199,
+        "pitch": 76,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 1440,
+        "pitch": 55,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1679,
+        "pitch": 55,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 1680,
+        "pitch": 53,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1919,
+        "pitch": 53,
+        "channel": 0
+      }
+    ],
+    "second_bar_events": [
+      {
+        "kind": "on",
+        "tick": 0,
+        "pitch": 48,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "on",
+        "tick": 0,
+        "pitch": 60,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 59,
+        "pitch": 60,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 60,
+        "pitch": 62,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 119,
+        "pitch": 62,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 120,
+        "pitch": 65,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 179,
+        "pitch": 65,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 180,
+        "pitch": 67,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 239,
+        "pitch": 48,
+        "channel": 0
+      },
+      {
+        "kind": "off",
+        "tick": 239,
+        "pitch": 67,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 240,
+        "pitch": 69,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 299,
+        "pitch": 69,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 300,
+        "pitch": 72,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 359,
+        "pitch": 72,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 360,
+        "pitch": 52,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "on",
+        "tick": 360,
+        "pitch": 74,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 479,
+        "pitch": 52,
+        "channel": 0
+      },
+      {
+        "kind": "off",
+        "tick": 479,
+        "pitch": 74,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 720,
+        "pitch": 50,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "on",
+        "tick": 720,
+        "pitch": 62,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 779,
+        "pitch": 62,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 780,
+        "pitch": 64,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 839,
+        "pitch": 64,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 840,
+        "pitch": 67,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 899,
+        "pitch": 67,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 900,
+        "pitch": 69,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 959,
+        "pitch": 50,
+        "channel": 0
+      },
+      {
+        "kind": "off",
+        "tick": 959,
+        "pitch": 69,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 960,
+        "pitch": 71,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1019,
+        "pitch": 71,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 1020,
+        "pitch": 74,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1079,
+        "pitch": 74,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 1080,
+        "pitch": 76,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1199,
+        "pitch": 76,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 1440,
+        "pitch": 55,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1679,
+        "pitch": 55,
+        "channel": 0
+      },
+      {
+        "kind": "on",
+        "tick": 1680,
+        "pitch": 53,
+        "channel": 0,
+        "velocity": 80
+      },
+      {
+        "kind": "off",
+        "tick": 1919,
+        "pitch": 53,
+        "channel": 0
+      }
+    ]
+  },
+  "images": [
+    {
+      "role": "whole-score-page",
+      "id": "A005",
+      "page": 51,
+      "path": "tmp/engraving/corpus/A005/page-051.jpg",
+      "sha256": "0577e10ecca9200929e00ac55477191c17daf177c906895122586783bd43852a",
+      "reused": true,
+      "actually_viewed": true
+    },
+    {
+      "role": "two-staff-scope-zoom",
+      "id": "A005",
+      "page": 51,
+      "system": 2,
+      "path": "tmp/engraving/medley-ch04-2026-10-31/A005-p51-s2-P-six-and-fifteen-zoom.jpg",
+      "source_box_pt": [
+        185,
+        157.89674126423242,
+        465,
+        326.6831566548881
+      ],
+      "sha256": "d7479e573bd0388bb65e5fc87737779021e5726ff53bf92d977bbede92980f50",
+      "reused": false,
+      "actually_viewed": true
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 203,
+      "pdf_page": 223,
+      "path": "tmp/engraving/integrated-rumbling-unravel-2026-10-22/gould-p203.png",
+      "sha256": "48e7e705ca140dd5fa743d02f910d38eee56f2ac73e4dea2d04c0af3edc319a4",
+      "reused": true,
+      "actually_viewed": true,
+      "new_coverage": false,
+      "selection_basis": "Explicit printed and physical page mapping,followed by visible footer check;no fuzzy filename fallback"
+    },
+    {
+      "role": "whole-native-PDF-page",
+      "page": 1,
+      "path": "tmp/engraving/doubled-tuplet-2026-10-31/exports/equivalent.pdf",
+      "actually_viewed": true,
+      "image_sha256": "92f23db806b57fa1a828f9e64e1229ec49205f060c4b91d7508295f95ea0c3d8",
+      "image_bytes": 73241,
+      "raster_stored": false,
+      "render": "PDFium scale3,PIL RGB JPEG quality91/subsampling0"
+    },
+    {
+      "role": "whole-native-PDF-page",
+      "page": 2,
+      "path": "tmp/engraving/doubled-tuplet-2026-10-31/exports/equivalent.pdf",
+      "actually_viewed": true,
+      "image_sha256": "d81a20ecda205d7436d3cc89ca607580ce1464b75d0371dd18baf592da019653",
+      "image_bytes": 71106,
+      "raster_stored": false,
+      "render": "PDFium scale3,PIL RGB JPEG quality91/subsampling0"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "tmp/engraving/doubled-tuplet-2026-10-31/equivalent.mscx",
+      "sha256": "5e2588bf8518ce445acef5321399343d91e95c06db26a08b9ae23e667f859c5c",
+      "bytes": 15134
+    },
+    {
+      "path": "tmp/engraving/doubled-tuplet-2026-10-31/exports/equivalent.pdf",
+      "sha256": "6faa8657fc090147204fa5f6cf7979963babced95268aaa7d6a10b9ca1314ba1",
+      "bytes": 33531
+    },
+    {
+      "path": "tmp/engraving/doubled-tuplet-2026-10-31/exports/equivalent.musicxml",
+      "sha256": "a71b2297ad92075dde1647f32f2574b75720f62ecef8661e37a6a531856609b0",
+      "bytes": 23553
+    },
+    {
+      "path": "tmp/engraving/doubled-tuplet-2026-10-31/exports/equivalent.mid",
+      "sha256": "667a271cb3b32a50933a40d4881bc04db10ecc69645830e1c1128410a515f95f",
+      "bytes": 390
+    }
+  ],
+  "published_fixture": {
+    "path": "docs/engraving/fixtures/doubled-tuplet-equivalent.mscx",
+    "sha256": "5e2588bf8518ce445acef5321399343d91e95c06db26a08b9ae23e667f859c5c",
+    "license": "CC0-1.0",
+    "source": "Independent original pitch content;mechanism-inspired rhythm,not source-score transcription."
+  },
+  "source_case": {
+    "location": "A005physicalp51s2Pfirstbar",
+    "ordinary_6_to_4_reading_quarters": "9/2",
+    "lower_reference_quarters": "4",
+    "conditional_upper_fast_group_quarters": "3/4",
+    "ordinary_32_or_actual_6_to_3_group_unit_quarters": "1/8",
+    "source_native_ratio_known": false,
+    "author_intent_confirmed": false,
+    "decision": "Conditional ordinary32candidate;do not silently rewrite6:4music or infer internal6:3from PDF."
+  },
+  "normative_context": {
+    "printed_pages": [
+      203
+    ],
+    "pdf_pages": [
+      223
+    ],
+    "book_reread": true,
+    "new_coverage": 0,
+    "condition": "Contracting actual:normal ratio equals2;one finer conventional value may replace the redundant tuplet in this simple unnested equal-value case.",
+    "distinguished_from_swing_long_short_ratio": true
+  },
+  "comparison_limits": [
+    "Two nativePDFpages with different headers/page/measure numbers;not a fixed-note-region geometry quality experiment",
+    "Original author/editor intent unavailable",
+    "No original-score alternate",
+    "No native save/reload",
+    "No MusicXML reimport",
+    "No print/performance or user adoption",
+    "No software/font adaptation"
+  ],
+  "new_official_reading": 0,
+  "new_Gould_coverage": 0,
+  "new_complete_resources": 0,
+  "new_fixed_transfer_scenarios": 0,
+  "new_user_integrated_rounds": 0,
+  "new_native_studies": 1,
+  "new_notation_alternatives": 2,
+  "native_CLI_calls": 3,
+  "software_adaptation_changes": 0,
+  "cache": {
+    "batch_budget_bytes": 114688,
+    "total_cache_ceiling_bytes": 3221749760,
+    "new_raster_files": 0,
+    "new_original_reference_copies": 0,
+    "new_runtime_copies": 0,
+    "files_deleted": 0,
+    "logical_bytes_at_check": 3221720873,
+    "batch_logical_bytes_at_check": 103233
+  },
+  "private_directory": "tmp/engraving/doubled-tuplet-2026-10-31",
+  "validation": {
+    "status": "passed",
+    "native_calls": 3,
+    "notation_alternatives": 2,
+    "notes": 38,
+    "rests": 12,
+    "all_50_musicxml_records_checked": true,
+    "all_38_note_on_and_off_pairs_compared": true,
+    "native_PDF_pages_actually_viewed": 2,
+    "protected_source_hashes_checked": 2,
+    "public_fixture_hashed": true,
+    "skill_routes_executed": 20,
+    "old_release_unchanged": true,
+    "author_intent_confirmed": false,
+    "goal_active": true
+  }
+}

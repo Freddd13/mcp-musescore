@@ -1,5 +1,7 @@
 # 独立净书复现谱例
 
+2026-10-31新增[等值记法研究](../DOUBLED_TUPLET_STUDY.md)的doubled-tuplet-equivalent.mscx：一份CC0原创两小节谱，普通32与实际6:3十六分分别出现；38音、12休止、有效时值与全部音符起止相同。原生输出两页，表头不同，本例不作相同音符区宽的几何评分。原P段意图未取得，不能直接覆盖官谱。
+
 2026-10-31新增[摇摆／三连研究](../SWING_ALIGNMENT_STUDY.md)四份CC0原创MSCX：swing-implicit、swing-aligned、swing-explicit、swing-straight-diagnostic。固定100×64mm、Leland／Leland Text、10音；分别为67%普通八分、局部解释性对齐、显式3:2和50%诊断。偏移仅对本宽度有效，诊断版不作摇摆候选；本机原生验证与限制见专题及证据。
 
 ## 十二对十一与联合时间轴间距

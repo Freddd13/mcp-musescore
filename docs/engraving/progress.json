@@ -3135,11 +3135,11 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.19.0 fixed usable research release:146/146 official question-reading closeouts,1135/1135 pages;Gould696/696 coverage;resources16/25,remainingR07-R15;20skill routes;fixed transfer8/8 coverage.User combined private experiment1/1,milestones4/4,not aesthetic adoption/print/performance.Eight contextual tuplet decisions and four supplemental Hoshide Ondine sample pages included.No software/font adaptation.Historical release notes,commits,tags and certificates preserve earlier states. After0.19:four EONIAN groups/14glyph pairs reviewed;small common-column redistribution is a low-priority unrendered candidate. No coverage,resource,transfer,user-round,native or adaptation increment;fixed0.19certificate/tag unchanged. Subsequent swing/triplet study adds1original native scenario at4conditions,17CLIcalls,one resaved/reloaded candidate.Four CC0 inputs available;no reading/resource/fixed-transfer/user-round or adaptation increment;0.19snapshot immutable."
+    "working_branch_note": "0.19.0 fixed usable research release:146/146 official question-reading closeouts,1135/1135 pages;Gould696/696 coverage;resources16/25,remainingR07-R15;20skill routes;fixed transfer8/8 coverage.User combined private experiment1/1,milestones4/4,not aesthetic adoption/print/performance.Eight contextual tuplet decisions and four supplemental Hoshide Ondine sample pages included.No software/font adaptation.Historical release notes,commits,tags and certificates preserve earlier states. After0.19:four EONIAN groups/14glyph pairs reviewed;small common-column redistribution is a low-priority unrendered candidate. No coverage,resource,transfer,user-round,native or adaptation increment;fixed0.19certificate/tag unchanged. Subsequent swing/triplet study adds1original native scenario at4conditions,17CLIcalls,one resaved/reloaded candidate.Four CC0 inputs available;no reading/resource/fixed-transfer/user-round or adaptation increment;0.19snapshot immutable. Subsequent doubled-tuplet study:one original two-bar score,two equivalent notations,three native exports;50musical records and38noteon/offpairs checked. Conditional source diagnosis retained,no reading/resource/user-round/fixed-transfer/adaptation increment;0.19snapshot unchanged."
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "Original swing/triplet comparison4conditions,17CLIcalls,one resave;known Tokimeki/Gould context reread.",
+    "scope": "One original equivalent-value comparison,2notations,3native exports;A005p51andGould203reread.",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3156,17 +3156,17 @@
     "new_native_candidate_scenarios": 1,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "SWING_ALIGNMENT_STUDY.md"
+      "DOUBLED_TUPLET_STUDY.md"
     ],
-    "review_evidence": "swing_alignment_evidence.json",
+    "review_evidence": "doubled_tuplet_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "SWING_ALIGNMENT_STUDY.md",
-    "evidence": "swing_alignment_evidence.json",
-    "completed_conditions": 4,
-    "planned_conditions": 4,
-    "description": "Original10-note swing/triplet alignment;implicit,aligned,explicit,straightdiagnostic;17CLIcalls;one native resave/reload.",
+    "reference": "DOUBLED_TUPLET_STUDY.md",
+    "evidence": "doubled_tuplet_evidence.json",
+    "completed_conditions": 2,
+    "planned_conditions": 2,
+    "description": "One original two-bar score comparing regular32and actual6:3sixteenths;3CLIcalls,50note/restrecords,38noteon/offpairs;not original intent or repair.",
     "reading_increment": 0,
     "user_preference_confirmed": false,
     "software_adaptation_changes": 0
@@ -3209,6 +3209,16 @@
       "completed_conditions": 3,
       "planned_conditions": 3,
       "description": "Private real-score baseline,minimum and spacing extension;all8page reload,18CLIcalls,2extra all-parts MIDI diagnostics.",
+      "reading_increment": 0,
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0
+    },
+    {
+      "reference": "SWING_ALIGNMENT_STUDY.md",
+      "evidence": "swing_alignment_evidence.json",
+      "completed_conditions": 4,
+      "planned_conditions": 4,
+      "description": "Original10-note swing/triplet alignment;implicit,aligned,explicit,straightdiagnostic;17CLIcalls;one native resave/reload.",
       "reading_increment": 0,
       "user_preference_confirmed": false,
       "software_adaptation_changes": 0
