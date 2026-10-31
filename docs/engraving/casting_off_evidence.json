@@ -1,0 +1,475 @@
+{
+  "date": "2026-10-31",
+  "topic": "Same-score casting off: preserve the active pulse and compact bar-length material rather than fixing bar counts",
+  "scope": {
+    "contexts_completed": 2,
+    "contexts_planned": 2,
+    "contexts": [
+      {
+        "id": "low-density-boundary",
+        "status": "complete",
+        "location": "A025 p8 s5/s6, five-bar S system to seven-bar ending",
+        "decision": "retain seven-bar ending; comparable active eighth-note pulse and compact long-value bars"
+      },
+      {
+        "id": "dense-continuous",
+        "status": "complete",
+        "location": "A025 p7 s5/s6, three-bar dense run systems",
+        "decision": "retain three-bar capacity; unequal measure widths protect fast reading; one extra bar would require substantial compression"
+      }
+    ],
+    "official_full_pages_reread": [
+      7,
+      8
+    ],
+    "official_detail_views": 5,
+    "gould_full_printed_pages_reread": [
+      39,
+      40,
+      41,
+      487,
+      488,
+      489,
+      490
+    ],
+    "gould_pdf_offset": 20,
+    "new_corpus_or_gould_coverage": 0,
+    "new_complete_resource_scopes": 0,
+    "native_exports": 0,
+    "new_native_candidates": 0,
+    "software_adaptation": false,
+    "user_preference_confirmed": false,
+    "originals_read_only": true,
+    "user_original_score_opened": false
+  },
+  "sources": [
+    {
+      "id": "A025",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Brave Shine - Fatestay night Unlimited Blade Works - 2nd Opening Theme.pdf",
+      "registered_sha256": "f1ca9c849d4dd9e5f23c33697718c5a82b7c1f05aee578ccfebabe0ef41e1f10",
+      "verified_after_reading_sha256": "f1ca9c849d4dd9e5f23c33697718c5a82b7c1f05aee578ccfebabe0ef41e1f10"
+    },
+    {
+      "id": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "registered_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "verified_after_reading_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "geometry_summary": {
+    "score_id": "A025",
+    "page_size_points": [
+      595.22,
+      842
+    ],
+    "staff_space_pdf_points": 4.248,
+    "black_head_font_and_size": [
+      "MIONEG+Chaconne|16.2899",
+      "MIONEG+Chaconne|16.29"
+    ],
+    "rows": [
+      {
+        "page": 7,
+        "system": 5,
+        "measure_count": 3,
+        "first_music_prefix_points": 35.136,
+        "measure_widths_to_inner_terminal_line": [
+          214.81199999999998,
+          156.88800000000003,
+          150.98399999999998
+        ],
+        "upper_black_head_counts": [
+          20,
+          14,
+          15
+        ],
+        "upper_distinct_black_head_columns": [
+          20,
+          10,
+          9
+        ]
+      },
+      {
+        "page": 7,
+        "system": 6,
+        "measure_count": 3,
+        "first_music_prefix_points": 35.136,
+        "measure_widths_to_inner_terminal_line": [
+          199.926,
+          170.71200000000002,
+          149.92199999999997
+        ],
+        "upper_black_head_counts": [
+          18,
+          18,
+          14
+        ],
+        "upper_distinct_black_head_columns": [
+          18,
+          18,
+          10
+        ]
+      },
+      {
+        "page": 8,
+        "system": 5,
+        "measure_count": 5,
+        "first_music_prefix_points": 46.638,
+        "measure_widths_to_inner_terminal_line": [
+          140.59799999999998,
+          91.02600000000001,
+          99.882,
+          91.00799999999998,
+          100.17000000000002
+        ],
+        "upper_black_head_counts": [
+          8,
+          6,
+          8,
+          6,
+          8
+        ],
+        "upper_distinct_black_head_columns": [
+          8,
+          6,
+          8,
+          6,
+          8
+        ]
+      },
+      {
+        "page": 8,
+        "system": 6,
+        "measure_count": 7,
+        "first_music_prefix_points": 35.136,
+        "measure_widths_to_inner_terminal_line": [
+          117.41399999999999,
+          96.858,
+          88.18199999999999,
+          55.079999999999984,
+          55.08000000000004,
+          55.06200000000001,
+          51.47999999999996
+        ],
+        "upper_black_head_counts": [
+          6,
+          8,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "upper_distinct_black_head_columns": [
+          6,
+          8,
+          6,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "same_up_stem_eighth_comparison": {
+      "baseline": {
+        "location": "p8 s5 bar5; same up stems; all eight heads, including 4+4 beam boundary",
+        "samples": 7,
+        "gaps": [
+          11.501768000000027,
+          11.519900000000007,
+          11.50200000000001,
+          11.520099999999957,
+          11.321899999999971,
+          11.520000000000095,
+          11.501999999999953
+        ],
+        "mean": 11.483952571428574
+      },
+      "ending": {
+        "location": "p8 s6 first three bars; only successive up-stem eighths, excluding the later quarter/stem-transition gap",
+        "samples": 13,
+        "gaps": [
+          10.97999999999999,
+          11.14200000000001,
+          10.97999999999999,
+          11.159883999999977,
+          10.980000000000018,
+          11.159999999999997,
+          10.961999999999989,
+          11.159999999999997,
+          10.980000000000018,
+          11.159999999999997,
+          10.979999999999961,
+          11.160000000000025,
+          10.979999999999961
+        ],
+        "mean": 11.060298769230766
+      },
+      "mean_ratio": 0.9631090602679921,
+      "mean_change_percent": -3.6890939732007855
+    },
+    "dense_additional_bar_capacity_bound": {
+      "dense_four_bar_head_span_sum": 569.862,
+      "available_current_music_width": 487.548,
+      "individual_four_bar_spans": [
+        168.408,
+        115.11000000000001,
+        132.46199999999993,
+        153.882
+      ],
+      "excess_even_before_barline_or_notehead_ink_padding": 82.31399999999996,
+      "minimum_span_scale_to_fit_ignoring_all_gaps": 0.8555545026690673,
+      "minimum_span_shrink_percent_optimistic": 14.44454973309327,
+      "equal_three_bar_music_share": 162.516,
+      "first_bar_twenty_head_span": 168.408,
+      "equal_share_would_already_be_short_by": 5.891999999999996
+    },
+    "mixed_rhythm_next_bar": {
+      "location": "p7 s6 first bar",
+      "visible_recipe": "8 ordinary sixteenths plus two groups of five sixteenths; 8/4 + 2*(5*1/5) = 4 quarter units",
+      "ordinary_samples": 7,
+      "ordinary_gaps": [
+        9.738,
+        9.738,
+        9.738,
+        9.738,
+        9.738,
+        9.738,
+        9.738
+      ],
+      "ordinary_mean": 9.738,
+      "quintuplet_samples": 8,
+      "quintuplet_gaps": [
+        8.334000000000003,
+        8.49600000000001,
+        8.495999999999981,
+        8.49600000000001,
+        8.495999999999981,
+        8.49600000000001,
+        8.51400000000001,
+        8.316000000000003
+      ],
+      "quintuplet_mean": 8.4555,
+      "quintuplet_to_ordinary_mean": 0.8682994454713495,
+      "exact_native_tuplet_encoding_verified": false
+    },
+    "bar_length_note_origins_from_left_line_points": [
+      14.417216999999994,
+      14.417410000000018,
+      14.399999999999977
+    ],
+    "active_noninitial_bar_start_origin_offset_points": 5.904,
+    "geometry_frame_limits": [
+      "Only this PDF glyph mapping has been visually verified; no universal character-to-music mapper",
+      "Visible head-column counts are distinguished from note count and independent attacks",
+      "Head origin distances compare same black glyph and size; same-stem subset used across S rows",
+      "Whole-note advance boxes are text metrics, not optical ink bounds",
+      "Four-bar envelope calculation holds existing per-bar head spans fixed and ignores all interbar/ink padding; a favorable lower-bound capacity diagnostic, not a native export or an optimal-layout proof"
+    ],
+    "successive_upper_whole_origin_gaps_pdf_points": [
+      55.08019300000001,
+      55.06259
+    ],
+    "mean_whole_head_gap_over_active_eighth_gap": 4.97919564824108
+  },
+  "interpretation": {
+    "why_low_density_fits_more": "The final active eighths preserve almost the preceding pulse while the three bar-length notes and one bar rest consume shorter measures; no new system is needed in the observed engraving.",
+    "why_dense_uses_fewer": "The first dense bar has 20 fast heads; four successive existing head envelopes alone total more than this line music width, before mandatory notehead/barline clearances.",
+    "cross_system_pulse_does_not_encode_actual_tempo": "The later rit is read as text; written eighth spacing is compared within a consistent rhythmic/font/stem context, not proportional wall-clock time.",
+    "whole_note_positioning": "The lower whole notes sit at the entry column while the upper staff moves. When all layers have only bar-length values, the heads move inward together; written x must be interpreted through musical roles.",
+    "exact_engraver_intent_or_application_algorithm_known": false
+  },
+  "rejected_inferences": [
+    {
+      "claim": "seven measures imply much tighter active eighths",
+      "reason": "Measured same-stem sample mean differs by only -3.689 percent."
+    },
+    {
+      "claim": "all 18 notes in the next dense bar should be equally spaced",
+      "reason": "Eight ordinary sixteenths and two five-note groups have different values; measured ordinary and quintuplet gaps differ consistently."
+    },
+    {
+      "claim": "every vertical line is a new measure boundary",
+      "reason": "Terminal double/final barline pairs were collapsed after visual verification."
+    },
+    {
+      "claim": "fixed global y windows identify the upper musical layer",
+      "reason": "One lower ledger head from the previous system entered the next upper window and was excluded after reading the complete systems."
+    },
+    {
+      "claim": "the paper capacity bound proves a MuseScore limitation",
+      "reason": "No MuseScore reflow or original editable source was tested this batch."
+    }
+  ],
+  "checks": {
+    "date": "2026-10-31",
+    "scope": "arithmetic and scoped PDF geometry, not understanding, playback or native layout",
+    "checks": [
+      "four reviewed system counts match visible barlines after terminal double-line correction",
+      "ending movement has 6/8/6 upper heads",
+      "preceding S system has 8/6/8/6/8 upper heads",
+      "new first dense bar coordinates match the earlier same-source 20-head reading",
+      "same-stem eighth-note comparison is 7 vs 13 samples with less than 4 percent mean change",
+      "adding next bar cannot preserve all four current head spans in this line width",
+      "ending last four bars contain three upper whole heads and one whole-bar rest",
+      "active ending bar 1 lower whole origins match its first upper column within PDF rounding",
+      "active ending bar 2 lower whole origins match its first upper column within PDF rounding",
+      "active ending bar 3 lower whole origins match its first upper column within PDF rounding",
+      "all-whole ending bar 4 shares one aligned column",
+      "all-whole ending bar 5 shares one aligned column",
+      "all-whole ending bar 6 shares one aligned column",
+      "registered original source hash retained: A025",
+      "registered original source hash retained: Gould"
+    ],
+    "whole_bar_origin_offsets_pdf_points": [
+      14.417216999999994,
+      14.417410000000018,
+      14.399999999999977
+    ],
+    "corrected_extraction_rejections": 1,
+    "native_exports": 0,
+    "user_originals_changed": 0
+  },
+  "private_cache": {
+    "path": "tmp/engraving/casting-off-2026-10-31",
+    "budget_bytes": 65536,
+    "measured_bytes_before_publication_validation": 34355,
+    "new_media_files": 0,
+    "new_original_or_runtime_copies": 0,
+    "deleted_files": 0,
+    "global_exact_total_unknown": true,
+    "global_check_allowance_bytes": 3246456832,
+    "measured_final_bytes": 39757
+  },
+  "publication_validation": {
+    "pending": false,
+    "checks": {
+      "date": "2026-10-31",
+      "changed_paths": [
+        "docs/ENGRAVING_PLAN.md",
+        "docs/ENGRAVING_RELEASES.md",
+        "docs/engraving/CACHE_LOCATIONS.md",
+        "docs/engraving/PAGE_FLOW_STUDY.md",
+        "docs/engraving/README.md",
+        "docs/engraving/SKILL_TRANSFER_PAGES.md",
+        "docs/engraving/SPACING_DECISIONS.md",
+        "docs/engraving/STATUS_AND_ROADMAP.md",
+        "docs/engraving/progress.json",
+        "skills/piano-engraving/references/judgment-details.md",
+        "skills/piano-engraving/scripts/engraving_library.py",
+        "docs/engraving/CASTING_OFF_READING.md",
+        "docs/engraving/casting_off_evidence.json"
+      ],
+      "changed_markdown_local_links_checked": 1086,
+      "missing_local_link_targets": 0,
+      "new_public_original_assets_hashes_verified": 0,
+      "known_source_queries_top3_pass": 2,
+      "progress_check_pass": true,
+      "skill_quick_validate_pass": true,
+      "existing_library_regressions_pass": 6,
+      "topic_routes_preserved": 20,
+      "prior_release_certificates_unchanged": [
+        "docs/engraving/release_0_22_0_evidence.json",
+        "docs/engraving/release_0_21_0_evidence.json"
+      ],
+      "staged_whitespace_check_pass": true,
+      "deletions": 0,
+      "non_engraving_edits": 0,
+      "reading_or_aesthetic_accuracy_claimed": false
+    },
+    "known_source_query_results": [
+      {
+        "topic": "layout",
+        "query": "七小节 长音 连续脉冲",
+        "known_source_in_top_3": true,
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CASTING_OFF_READING.md",
+            "line": 3,
+            "heading": "每行小节数：连续脉冲与长音怎样分配宽度"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SPACING_DECISIONS.md",
+            "line": 3,
+            "heading": "间距的取舍：稳定哪一层，为什么允许另一层变化"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 3,
+            "heading": "钢琴净书研究：规范、案例与实现依据"
+          }
+        ]
+      },
+      {
+        "topic": "spacing",
+        "query": "全小节 起音 位置",
+        "known_source_in_top_3": true,
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CASTING_OFF_READING.md",
+            "line": 76,
+            "heading": "4. 长音头的位置，为什么不能按横坐标直接推起音"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_BAUKLOTZE_BEFORE.md",
+            "line": 47,
+            "heading": "4. 强奏起音后退到mf：标记的时间也构成层次"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_KIGEKI_KILLY.md",
+            "line": 36,
+            "heading": "3. F的五音型跨到上表，梁数决定长短"
+          }
+        ]
+      }
+    ],
+    "source_denominators_and_pending_user_preferences_preserved": true,
+    "existing_route_entries_removed": 0,
+    "library_code_only_adds_two_reference_entries": true
+  },
+  "limits": [
+    "Only two defined same-score conditions, not a universal optimal bar-count algorithm",
+    "Measurements are paper-content evidence and favorable envelope bounds, not native reflow candidates",
+    "No source score transcription, MusicXML/MIDI inspection, playback, print or user preference test",
+    "Historic corpus/Gould/resources denominators and pending preference choices remain unchanged"
+  ],
+  "public_original_assets": [],
+  "private_artifact_fingerprints": [
+    {
+      "path": "tmp/engraving/casting-off-2026-10-31/checks.json",
+      "bytes": 1462,
+      "sha256": "a8568f50aa30eaba872634d2c2677c9dba019e3b06e5c7adb6811d13fb7b1d07"
+    },
+    {
+      "path": "tmp/engraving/casting-off-2026-10-31/extract.py",
+      "bytes": 1250,
+      "sha256": "9d0a8c8d385d1e7feea0af0fa92c98f42def9ebb1aba6a06317193df0bf99414"
+    },
+    {
+      "path": "tmp/engraving/casting-off-2026-10-31/measurements.json",
+      "bytes": 31222,
+      "sha256": "cfeab27e43b1b51bec34945dd1932951a8385ef0d357488dfee224e916fdf9be"
+    },
+    {
+      "path": "tmp/engraving/casting-off-2026-10-31/publication-validation.json",
+      "bytes": 1247,
+      "sha256": "5ad4e017ce247109217ddc1d3e72925a92d89c8aa53ef93b0e8ba66430023f98"
+    },
+    {
+      "path": "tmp/engraving/casting-off-2026-10-31/query-checks.json",
+      "bytes": 1586,
+      "sha256": "8be1167b67f9f8c731314a13f4c6093db7a25d7c05380e0367f4c062a472400d"
+    },
+    {
+      "path": "tmp/engraving/casting-off-2026-10-31/validate_publication.py",
+      "bytes": 2569,
+      "sha256": "3308d30ed05daeaee1ffa01c6bddb5ee41dfcad31dca681c6bb2e55f1dbdd438"
+    },
+    {
+      "path": "tmp/engraving/casting-off-2026-10-31/whole-note-extract.py",
+      "bytes": 421,
+      "sha256": "96f0433fb269ff6986cb97306136b889c5a6e10cef453c6732c493c6c5d255e1"
+    }
+  ]
+}

@@ -3151,7 +3151,7 @@
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "复杂梁内换号正面1/1，边界2/2，原创位置3/3；宽音域保组内，窄音域倾向组后。",
+    "scope": "整行容量计划两类2/2；同曲三小节密集行与七小节末行均保留，补脉冲、混合细分和全小节值位置。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3166,21 +3166,20 @@
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 1,
-    "new_native_diagnostic_conditions": 2,
+    "new_native_candidate_scenarios": 0,
+    "new_native_diagnostic_conditions": 0,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "CLEF_IN_GROUP_READING.md"
+      "CASTING_OFF_READING.md"
     ],
-    "review_evidence": "clef_in_group_evidence.json",
+    "review_evidence": "casting_off_evidence.json",
     "software_adaptation": false,
-    "official_pdf_pages_reread": 3,
-    "new_native_renditions": 2,
-    "reused_native_renditions": 1,
-    "auto_calibration_and_side_probes": 0,
-    "native_CLI_calls": 7,
-    "native_CLI_successful_calls": 6,
-    "native_CLI_failed_calls": 1
+    "official_pdf_pages_reread": 2,
+    "official_detail_views": 5,
+    "retained_real_contexts": 2,
+    "paper_capacity_bounds": 1,
+    "new_native_renditions": 0,
+    "native_CLI_calls": 0
   },
   "latest_native_study": {
     "reference": "CLEF_IN_GROUP_READING.md",
@@ -3334,17 +3333,16 @@
     }
   ],
   "latest_judgment_review": {
-    "reference": "CLEF_IN_GROUP_READING.md",
-    "evidence": "clef_in_group_evidence.json",
-    "reviewed_cases": 3,
-    "planned_cases": 3,
+    "reference": "CASTING_OFF_READING.md",
+    "evidence": "casting_off_evidence.json",
+    "reviewed_cases": 2,
+    "planned_cases": 2,
     "decisions": {
-      "retain_real_wide_register_internal_clef": 1,
-      "boundary_clef_not_same_beam_positive": 1,
-      "prefer_after_run_in_narrow_original": 1
+      "retain_dense_three_bar_system": 1,
+      "retain_sparse_seven_bar_ending": 1
     },
-    "scope": "复看已知官谱与规范，复杂正面为有理由保留，未证明唯一不可避免；原生窄音域反例另判断，不计独立准确率。",
-    "new_native_conditions": 2
+    "scope": "已知谱复读与规范／坐标核查；稳定脉冲、包络下界及长值位置的条件解释，不计独立审美准确率或原生迁移。",
+    "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
     "reference": "HOSHIDE_ONDINE_READING.md",
@@ -3442,6 +3440,19 @@
       },
       "scope": "已知用户原件的实曲应用；原生可读性与保护核查，不计独立准确率或综合轮次。视觉选择待回复。",
       "new_native_conditions": 1
+    },
+    {
+      "reference": "CLEF_IN_GROUP_READING.md",
+      "evidence": "clef_in_group_evidence.json",
+      "reviewed_cases": 3,
+      "planned_cases": 3,
+      "decisions": {
+        "retain_real_wide_register_internal_clef": 1,
+        "boundary_clef_not_same_beam_positive": 1,
+        "prefer_after_run_in_narrow_original": 1
+      },
+      "scope": "复看已知官谱与规范，复杂正面为有理由保留，未证明唯一不可避免；原生窄音域反例另判断，不计独立准确率。",
+      "new_native_conditions": 2
     }
   ],
   "latest_library_query": {
@@ -3488,24 +3499,29 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "继续九项资源中可得的实际谱面／图文／视频；R10本轮实际正文观察失败，不以标题计完成，连接未变不重复。复杂换号正面1/1已闭合条件解释。"
+    "scope": "整行容量两类2/2、复杂换号正面1/1已闭合条件解释；继续余九项可得的实际资料，标题／署名／连接尝试不折算正文阅读。已有知识继续用于审谱，遇到实际新缺口再补原生验证。"
   },
   "next_layout_reading": {
-    "reference": "STATUS_AND_ROADMAP.md",
-    "completed_contexts": 0,
+    "reference": "CASTING_OFF_READING.md",
+    "completed_contexts": 2,
     "planned_contexts": 2,
     "contexts": [
       {
         "id": "low-density-boundary",
-        "status": "planned",
-        "scope": "低密度段落：小节数、段首与前后行留白的取舍"
+        "status": "complete",
+        "scope": "低密度段落：小节数、段首与前后行留白的取舍",
+        "reference": "CASTING_OFF_READING.md",
+        "location": "A025 p8 s5/s6"
       },
       {
         "id": "dense-continuous",
-        "status": "planned",
-        "scope": "密集连续段：行容量、节奏稳定和必要符号空间的取舍"
+        "status": "complete",
+        "scope": "密集连续段：行容量、节奏稳定和必要符号空间的取舍",
+        "reference": "CASTING_OFF_READING.md",
+        "location": "A025 p7 s5/s6"
       }
     ],
-    "scope": "补两个相反条件的系统级判断；复用已读谱，计问题应用而非新增目录覆盖。先解释实际版面，确有疑点再作独立原生候选。"
+    "scope": "计划两类条件阅读2/2闭合；同曲四行实际测量与七页规范复读，均保留参考排法。没有新增原生候选，精确引擎约束、印刷／实奏及个人采用未核。",
+    "evidence": "casting_off_evidence.json"
   }
 }
