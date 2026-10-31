@@ -1,0 +1,696 @@
+{
+  "date": "2026-10-31",
+  "version": "0.22.0",
+  "tag": "engraving-v0.22.0",
+  "publication_base_commit": "94395771935a2a5573ff702fcaba6a72487c8e8c",
+  "status": "verified usable research snapshot; visual preference pending",
+  "previous_release": {
+    "version": "0.21.0",
+    "tag_commit": "7b5075714ca788a4f177ff4ce9aa3f05aecbdc3d",
+    "certificate_sha256": "566bdfaae401b5ad636fb3d24f69f0f48b297f979d1beabdd0c1501fc9f7fb64"
+  },
+  "changes_since_0_21_0": {
+    "new_official_closeouts": 0,
+    "new_official_pages": 0,
+    "new_gould_coverage": 0,
+    "new_complete_resources": 0,
+    "new_user_integrated_rounds": 0,
+    "new_fixed_transfer_scenarios": 0,
+    "included_native_studies": 3,
+    "included_native_calls": 42,
+    "new_editable_score_inputs": 8,
+    "new_original_figures": 2,
+    "software_adaptation_changes": 0,
+    "font_work": 0
+  },
+  "included_studies": [
+    {
+      "note": "TUPLET_CHANNEL_STUDY.md",
+      "evidence": "tuplet_channel_evidence.json",
+      "contexts": [
+        3,
+        3
+      ],
+      "real_rechecks": [
+        5,
+        5
+      ],
+      "new_calls": 8
+    },
+    {
+      "note": "TUPLET_OWNERSHIP_STUDY.md",
+      "evidence": "tuplet_ownership_evidence.json",
+      "contexts": [
+        3,
+        3
+      ],
+      "renditions": [
+        6,
+        6
+      ],
+      "new_calls": 27
+    },
+    {
+      "note": "M97_TUPLET_TRANSFER.md",
+      "evidence": "m97_tuplet_transfer_evidence.json",
+      "real_candidate": [
+        1,
+        1
+      ],
+      "pages": [
+        8,
+        8
+      ],
+      "new_calls": 7
+    }
+  ],
+  "coverage": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "gould_file_pages": [
+      696,
+      696
+    ],
+    "resources": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "fixed_transfer_coverage": [
+      8,
+      8
+    ],
+    "user_combined_rounds": [
+      1,
+      1
+    ],
+    "user_preparation_milestones": [
+      4,
+      4
+    ],
+    "positive_necessary_internal_clef_case": [
+      0,
+      1
+    ],
+    "not_mastery_percentage": true
+  },
+  "validation": {
+    "included_study_artifact_fingerprints_verified": 81,
+    "new_public_assets_verified": 10,
+    "new_public_asset_bytes": 458685,
+    "hash_errors": [],
+    "protected_originals_verified": 3,
+    "historical_native_studies_not_rerun_for_publication": true,
+    "software_and_font_changes": 0,
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "CLI_regressions": [
+      6,
+      6
+    ],
+    "curated_known_source_queries": [
+      5,
+      5
+    ],
+    "new_known_source_queries": [
+      {
+        "topic": "notation",
+        "query": "m97 首休止 加线",
+        "top3": [
+          "M97_TUPLET_TRANSFER.md",
+          "BEAM_SCOPE_TRANSFER.md",
+          "README.md"
+        ],
+        "new_source_in_top3": true
+      },
+      {
+        "topic": "layout",
+        "query": "端点 整页 间距",
+        "top3": [
+          "M97_TUPLET_TRANSFER.md",
+          "SKILL_TRANSFER_PAGES.md",
+          "INTEGRATED_READING_WORLD_REASON.md"
+        ],
+        "new_source_in_top3": true
+      }
+    ],
+    "topic_names_preserved": [
+      20,
+      20
+    ],
+    "markdown_file_links_checked": 1081,
+    "broken_file_links": [],
+    "old_release_certificate_and_tag_unchanged": true,
+    "remote_new_tag_confirmed_absent_before_publication": true,
+    "private_music_payloads_staged": 0
+  },
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/tuplet-channel-near-beam-flat.mscx",
+      "bytes": 5086,
+      "sha256": "2a0d44577358bf616a00e8a8243e0fff6a07bfa61f7644c369d87b9bec1a0c8c",
+      "rights": "Original CC0 score/figure; no source PDF pixels or embedded fonts"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-channel-outside-above-flat.mscx",
+      "bytes": 5088,
+      "sha256": "312da12d7cc2fc2b79b9558af247f97702cd916b219fa80666a3fe0e77d429db",
+      "rights": "Original CC0 score/figure; no source PDF pixels or embedded fonts"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-channel-comparison.png",
+      "bytes": 125728,
+      "sha256": "00a2e49bd14c156b95b834cfd52d81c7d82ab06cac35384a38f6528636c1f1da",
+      "rights": "Original CC0 score/figure; no source PDF pixels or embedded fonts"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-melody-above.mscx",
+      "bytes": 5973,
+      "sha256": "a499b968e9bf8a4f5ef18f1f41f23fa696b69e77a9b4afa7c85c6e531927f410",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-melody-near.mscx",
+      "bytes": 5934,
+      "sha256": "ce388f712bd6ed21e66387cbb391576af9decd03065eb198816338103949f20e",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-marked-above.mscx",
+      "bytes": 6597,
+      "sha256": "ebd2aba15eccc901cd46720f398a5ae780606187b19526db2d90e95e86c1cfa3",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-marked-near.mscx",
+      "bytes": 6558,
+      "sha256": "e624930333c8b33757eac0e0c66f3e50a3b1b32ce7361a20aff217cc763be7d2",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-narrow-above.mscx",
+      "bytes": 6608,
+      "sha256": "d00b6590d30ce34ba71deaf0b9ad38970a33f2bb498c26f3614e553b2807b20b",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-narrow-near.mscx",
+      "bytes": 6569,
+      "sha256": "c783e3d37c3f82268af3e4ac8060fbc91e074fdea2cf921b4bd1e3b1abf2716c",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-comparison.png",
+      "bytes": 284544,
+      "sha256": "a98d27548616e1f325c6e4b2efccda217faa66b79bcb78f7576c2a63547ff7ac",
+      "rights": "Native rendering of original CC0 music; no source PDF pixels"
+    }
+  ],
+  "artifact_fingerprints": [
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/baseline-1.svg",
+      "bytes": 19401,
+      "sha256": "0c4ce7393075c575880a7c4625e2a6bda82abdf13c078ab0cd8635f261ce5efa"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/baseline.mxl",
+      "bytes": 2224,
+      "sha256": "b5d325ba070be00dab7a782b28aa9b577252e3f7f1cc756b437d94a5ebfa8cb4"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/baseline.mid",
+      "bytes": 195,
+      "sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2"
+    },
+    {
+      "path": "tmp/engraving/tuplet-channel-2026-10-31/near-beam-flat-1.svg",
+      "bytes": 19390,
+      "sha256": "c3d33f965a567dec9355ea4d932989204ead4d501ac9045ff332b3dbcffcbeaa"
+    },
+    {
+      "path": "tmp/engraving/tuplet-channel-2026-10-31/near-beam-flat.mxl",
+      "bytes": 2243,
+      "sha256": "6bfbca70d3233d2a23ccbd495f37f8f172c698cf010b65415327dd6ba7b3536d"
+    },
+    {
+      "path": "tmp/engraving/tuplet-channel-2026-10-31/near-beam-flat.mid",
+      "bytes": 195,
+      "sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2"
+    },
+    {
+      "path": "tmp/engraving/tuplet-channel-2026-10-31/outside-above-flat-1.svg",
+      "bytes": 19391,
+      "sha256": "ad3418ce404f776113627f625eb57bd14b0d8498e2c5d98cd08725a6176148f1"
+    },
+    {
+      "path": "tmp/engraving/tuplet-channel-2026-10-31/outside-above-flat.mxl",
+      "bytes": 2253,
+      "sha256": "1be420801f2f9705a911ec9d63b68f12d63dbdcc69ee98e0cd026efa75e51029"
+    },
+    {
+      "path": "tmp/engraving/tuplet-channel-2026-10-31/outside-above-flat.mid",
+      "bytes": 195,
+      "sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2"
+    },
+    {
+      "path": "tmp/engraving/tuplet-channel-2026-10-31/saved.mscx",
+      "bytes": 5434,
+      "sha256": "2e688da4296fc6a6c8055f884547c9ff6188cf6aa6538b9186a295f4790feaa4"
+    },
+    {
+      "path": "tmp/engraving/tuplet-channel-2026-10-31/reload-1.svg",
+      "bytes": 19366,
+      "sha256": "8b297fcecfb74a59b018b7ff23c29de46a6a006e61b04ab0b7256fc53e4bb31b"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-above-1.svg",
+      "bytes": 25722,
+      "sha256": "f10abe6410699140e346b8305275e8e5b2f65c358e590cf1f70ff2bbf94d3634"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-above-probe-1.svg",
+      "bytes": 25728,
+      "sha256": "a370e5468950c1eb0e79c517d1e6962b4e81f83538f3e258b826d57230a93ccb"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-above.mid",
+      "bytes": 223,
+      "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-above.mxl",
+      "bytes": 2483,
+      "sha256": "674fa8acc3e98b8e1bc529f4bdbb97a56b8d50a6df0b199ef80d595848e5bccf"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-below-probe-1.svg",
+      "bytes": 25727,
+      "sha256": "60f5142832dbf6a49cde5c23e71802822c939bc6a2774893ce78b8f38a5ea1a1"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-near-1.svg",
+      "bytes": 26001,
+      "sha256": "0e276aed56c1fec7b42eab4a489a8782d9d67089bdbe6024c95a7bcbf0d17937"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-near.mid",
+      "bytes": 223,
+      "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-near.mxl",
+      "bytes": 2477,
+      "sha256": "f908356f946df24d51ebe68a667520ce391142691870a673b3fa66fd9c0ebedd"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/marked-probe-1.svg",
+      "bytes": 25986,
+      "sha256": "712b0ebe1ecdcaa9bc535b9d09200b0ca3056c05e4154c557a9969271b1c87dd"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-above-1.svg",
+      "bytes": 22068,
+      "sha256": "05fe86261643e8b28fece896caf4c101e196fb722f89b81c1647353e1f054e65"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-above-probe-1.svg",
+      "bytes": 22074,
+      "sha256": "d7a375b8ca444ba2288a09740373607cdff213adce0046dfe55244b9700a6fc3"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-above.mid",
+      "bytes": 223,
+      "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-above.mxl",
+      "bytes": 2335,
+      "sha256": "f45e1a9068a3f5174940c0bbeb756e44e579a1c93247dd2ebc8b8cc67c75c955"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-near-1.svg",
+      "bytes": 22371,
+      "sha256": "9da91bf9dae2c928b6010062929370ddda94bc4c7b4928fff8edf065894e8a50"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-near.mid",
+      "bytes": 223,
+      "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-near.mxl",
+      "bytes": 2330,
+      "sha256": "626a751244efc5eebb97ab82528b55a7787b0d432ea1f2142635c14e1451ce2c"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/melody-probe-1.svg",
+      "bytes": 22356,
+      "sha256": "58dcfe1b45113caea595c3694aab6cc366ffcc533467b814bd3b3b71ba9a4865"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-above-1.svg",
+      "bytes": 25713,
+      "sha256": "809b8cc657658ae39a94df8d106fc35d849a943fad8d265adc5290461f615c96"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-above-probe-1.svg",
+      "bytes": 25719,
+      "sha256": "086e5d882ec449a75d33fbc3d30c472ba98f5547d679e3df2040aa014410f147"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-above.mid",
+      "bytes": 223,
+      "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-above.mxl",
+      "bytes": 2479,
+      "sha256": "0116f88a2cad2d48a1e8dfc72d69c1417319850902a3110c88b9be2c930c6ecc"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-near-1.svg",
+      "bytes": 26005,
+      "sha256": "815e7887f237b54d1b52bafbdedc2d68a4007d9b74e47100f6ab9fb647b5fe82"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-near.mid",
+      "bytes": 223,
+      "sha256": "6b0f91cb396b2324619b31d221747d694792773674d3e5d57b03f3255b5e0d11"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-near.mxl",
+      "bytes": 2473,
+      "sha256": "bc5533a088f98f19160405d85a41c2bed7e81284cf460c278a6ac2a96fbbadfd"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/narrow-probe-1.svg",
+      "bytes": 25982,
+      "sha256": "9fec805e17d7f52417d5ea9759bf5841e39e134f2ddc263f688465554ee13d6f"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/reload-1.svg",
+      "bytes": 25979,
+      "sha256": "ae3c7a80aefd65395a7c8fbff2c4082f258026ec650147eac96ef85ff243172a"
+    },
+    {
+      "path": "tmp/engraving/tuplet-ownership-2026-10-31/save.mscx",
+      "bytes": 6937,
+      "sha256": "02cf59bcbbedfafa0ad93b083e8313d14379a416a77a193c980ee64e13e5b774"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/candidate-m97-transition-v1.mscz",
+      "bytes": 68471,
+      "sha256": "5ddb7ef8558b2ae953923bdd64f6faa135ff525e3a8a831e3310415289f90ec3"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/candidate-m97-transition-v2.mscz",
+      "bytes": 68483,
+      "sha256": "7dfb99a86411243581b0af767c574b69c2a5b34b2051b8bdd99e13a6324716c4"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/candidate-m97-transition-v3.mscz",
+      "bytes": 68488,
+      "sha256": "20904803a9ea27c7e3a96988ecaaf9d84b8855a0156d59d6502226f0b6675678"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/m97-detail-comparison.png",
+      "bytes": 87530,
+      "sha256": "1b15a8ee08abaa897bb05626fb32d281cb2d2d0d30b3646699798bb1f3803765"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/m97-system-comparison.png",
+      "bytes": 191878,
+      "sha256": "b0f2ed08786bbd46c37c10adaf1607005699b8e327d6350d55aa7fa66898edb0"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-1.svg",
+      "bytes": 522293,
+      "sha256": "1da1f2ce733bc795ab866da9a2ac8db745c602d3f9bf5028894f71bf9959f235"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-2.svg",
+      "bytes": 430212,
+      "sha256": "3a67c1f466bcb3e59033218bdf4809caada587110a00c79eaf474bec47866a35"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-3.svg",
+      "bytes": 363780,
+      "sha256": "0126d65a636fb8d6adf006a77c4663df9e133a792685d3130567e5e76fccc935"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-4.svg",
+      "bytes": 559395,
+      "sha256": "21582fcc9c92868bae1ff56c4fc3e87450fb503145e3463254d91d9f94d0cc16"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-5.svg",
+      "bytes": 343361,
+      "sha256": "3b3a9ed2ea7f6f4bb583b07c8d7ceb86f49998d616269b3515938831e9148d6a"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-6.svg",
+      "bytes": 431717,
+      "sha256": "d9d975a558517927fa4910ec2bacb98df71ad8c8f23dc2527a39731a627538c4"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-7.svg",
+      "bytes": 377860,
+      "sha256": "ad91bde24e872023901d2ee12f7919c3fdbe0e93e808f97fb30def63d238630b"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-8.svg",
+      "bytes": 304727,
+      "sha256": "c86da06f1dce56afa3243065c87886d56263c1b0483bdf45b68e101a43dbbf1e"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-1.svg",
+      "bytes": 522293,
+      "sha256": "465c3c79067780de50be8faef3103e0146b45bc8ea4bf981fa52e079896116ee"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-2.svg",
+      "bytes": 430212,
+      "sha256": "011e0a1de603cb89ebf78f71df4f0dc0e6c40ac29d7b5b4d9df0449c7def478e"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-3.svg",
+      "bytes": 363780,
+      "sha256": "117097eb679ad77c439f8790de514e2c6c09d097cf9f0b1a0a08d39c39256529"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-4.svg",
+      "bytes": 559395,
+      "sha256": "e58094dd674e49495e5c4e2b964d242b2f54e97eafe9e15ea6904b124c2bce8f"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-5.svg",
+      "bytes": 343407,
+      "sha256": "b1c805efd6ab417248d6c7de9cc3caf913ff95c7d2e52577523da048a35d56d9"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-6.svg",
+      "bytes": 431717,
+      "sha256": "4a3ea617f040cbb168eb404bd25ac12f44bb9aaffb697116d9b6f4b1e6c7946d"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-7.svg",
+      "bytes": 377860,
+      "sha256": "b9fa58ae3507777651e58c357c1d048556c86f4e90962773e07aae5313db110c"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-8.svg",
+      "bytes": 304727,
+      "sha256": "cd04168b41b07cead30720468275e61952985c21dc8b1cd7c17c1de5a2db24a5"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2.mid",
+      "bytes": 19491,
+      "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2.mxl",
+      "bytes": 66190,
+      "sha256": "c5bc33eda2b8a9a0252fbd7632c3db904fa7d1220b4b5fa2dd17b2df7a8ddda2"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-1.svg",
+      "bytes": 522293,
+      "sha256": "e3850c260409b9dbd925d2634fe72a6a5f1ab6b1eae91e109964ba41567ecf75"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-2.svg",
+      "bytes": 430212,
+      "sha256": "a9b5805de1db9d92a9a0735a8874fd5b904fd8a1e821a34ea34a684cb829dfa7"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-3.svg",
+      "bytes": 363780,
+      "sha256": "f813e1dd016cb0f4d1c9aed71470449b714ce854a566d1f8a28af3018a5725a7"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-4.svg",
+      "bytes": 559395,
+      "sha256": "033ce17b9bf2f215968ee5e9a36fb9fbda9809eb3a00ec7da48b34996f736a5a"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-5.svg",
+      "bytes": 343409,
+      "sha256": "5ca96ff319fee44acfe94a49d1e2b47a38415af942dba092ccc5a9a02b48b443"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-6.svg",
+      "bytes": 431717,
+      "sha256": "d70eaafd9ea468ccb9b35ee8366f12e310f92416a33975b285c4add4b47c9016"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-7.svg",
+      "bytes": 377860,
+      "sha256": "a096d738973580faf27a0089236ba1ab9e34cb84ea428ace2f965a34949acbcd"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-8.svg",
+      "bytes": 304727,
+      "sha256": "d885b06946bc3f506fc1efce76c66bb65b68a6983f5424603c4565651b126bd6"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3.mid",
+      "bytes": 19491,
+      "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3.mxl",
+      "bytes": 66190,
+      "sha256": "5359fd9af97840c893721a65855820effc648a6224135cbca431a863840d8d54"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-channel-near-beam-flat.mscx",
+      "bytes": 5086,
+      "sha256": "2a0d44577358bf616a00e8a8243e0fff6a07bfa61f7644c369d87b9bec1a0c8c",
+      "rights": "Original CC0 score/figure; no source PDF pixels or embedded fonts"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-channel-outside-above-flat.mscx",
+      "bytes": 5088,
+      "sha256": "312da12d7cc2fc2b79b9558af247f97702cd916b219fa80666a3fe0e77d429db",
+      "rights": "Original CC0 score/figure; no source PDF pixels or embedded fonts"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-channel-comparison.png",
+      "bytes": 125728,
+      "sha256": "00a2e49bd14c156b95b834cfd52d81c7d82ab06cac35384a38f6528636c1f1da",
+      "rights": "Original CC0 score/figure; no source PDF pixels or embedded fonts"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-melody-above.mscx",
+      "bytes": 5973,
+      "sha256": "a499b968e9bf8a4f5ef18f1f41f23fa696b69e77a9b4afa7c85c6e531927f410",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-melody-near.mscx",
+      "bytes": 5934,
+      "sha256": "ce388f712bd6ed21e66387cbb391576af9decd03065eb198816338103949f20e",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-marked-above.mscx",
+      "bytes": 6597,
+      "sha256": "ebd2aba15eccc901cd46720f398a5ae780606187b19526db2d90e95e86c1cfa3",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-marked-near.mscx",
+      "bytes": 6558,
+      "sha256": "e624930333c8b33757eac0e0c66f3e50a3b1b32ce7361a20aff217cc763be7d2",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-narrow-above.mscx",
+      "bytes": 6608,
+      "sha256": "d00b6590d30ce34ba71deaf0b9ad38970a33f2bb498c26f3614e553b2807b20b",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-narrow-near.mscx",
+      "bytes": 6569,
+      "sha256": "c783e3d37c3f82268af3e4ac8060fbc91e074fdea2cf921b4bd1e3b1abf2716c",
+      "rights": "Original CC0 score recipe; standard installed Leland renderer font, no font files bundled"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-comparison.png",
+      "bytes": 284544,
+      "sha256": "a98d27548616e1f325c6e4b2efccda217faa66b79bcb78f7576c2a63547ff7ac",
+      "rights": "Native rendering of original CC0 music; no source PDF pixels"
+    }
+  ],
+  "protected_sources": [
+    {
+      "id": "user_mscz",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "read_only": true
+    },
+    {
+      "id": "user_pdf",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "read_only": true
+    },
+    {
+      "id": "gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "read_only": true
+    }
+  ],
+  "known_limits": [
+    "Original endpoint-only m97 candidate preference withdrawn; final display-allocation candidate retains four-ledger and page-layout tradeoffs.",
+    "Optional local user visual preference pending; no original-file adoption or print/performance verification.",
+    "Final real-score save/reload and MusicXML reimport not done; verify separate scopes.",
+    "Nine resource scopes remain incomplete; coverage and infrastructure tests do not prove all engraving mastery."
+  ],
+  "private_cache": {
+    "latest_batch": "tmp/engraving/m97-staff-transition-2026-10-31",
+    "bytes": 11168695,
+    "budget_bytes": 12582912,
+    "original_budget_bytes": 8388608,
+    "budget_revision": "Third full native pass required for first-rest endpoint check; no deletion or PDF/host copy",
+    "public_music_payloads_from_user": 0,
+    "global_exact_total_known": false,
+    "new_release_archive_copies": 0
+  },
+  "recorded_at_utc": "2026-10-31T10:37:51.572Z",
+  "study_evidence_hashes": [
+    {
+      "path": "docs/engraving/tuplet_channel_evidence.json",
+      "bytes": 13447,
+      "sha256": "ae402e210378f1a9c1811971abdcab6f3129fce19857e7288a48e25c7876a6c9"
+    },
+    {
+      "path": "docs/engraving/tuplet_ownership_evidence.json",
+      "bytes": 26239,
+      "sha256": "c2a68c3f541e13f48fd86106b551fbc1f8abde38cca3a4fce5dd3eed864156f3"
+    },
+    {
+      "path": "docs/engraving/m97_tuplet_transfer_evidence.json",
+      "bytes": 15420,
+      "sha256": "0030cd16e712bd8ae0bb249c6325509c7fcc66a3c0a30bdd828f8e7ae1002c78"
+    }
+  ]
+}

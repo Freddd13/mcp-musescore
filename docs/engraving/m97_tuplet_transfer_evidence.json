@@ -1,0 +1,457 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31",
+  "study": "M97 real-score transfer of a near-beam tuplet and later display-staff transition",
+  "planned_migrations": 1,
+  "completed_migrations": 1,
+  "release_stage": "usable research candidate; preference pending",
+  "source": {
+    "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+    "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "native_baseline_reused": "tmp/engraving/user-combined-2026-10-31/native/baseline",
+    "source_staff": 4,
+    "voice_index": 1,
+    "measure": 97,
+    "effective_clef": "F; last recorded change at m55",
+    "read_only": true,
+    "reused_baseline_mscz_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+  },
+  "candidate": {
+    "path": "tmp/engraving/m97-staff-transition-2026-10-31/candidate-m97-transition-v3.mscz",
+    "sha256": "20904803a9ea27c7e3a96988ecaaf9d84b8855a0156d59d6502226f0b6675678",
+    "display_change": "Only B4 remains on source lower staff; ordinary C5 and following three32nds continue to display above.",
+    "tuplet_properties": {
+      "offset_x": 0,
+      "offset_y": -1.5317,
+      "p1_x": -0.5,
+      "p1_y": -3.42584037,
+      "p2_x": 0,
+      "p2_y": -1.40616574,
+      "direction": "up"
+    },
+    "beam_fragment_unchanged": [
+      -7.16061,
+      -8.16061
+    ],
+    "musical_scope": "Eighth rest plus four16th notes in6:4; four ordinary32nds follow outside tuplet; entire eight-note run retains common principal beam.",
+    "costs": [
+      "Four new ledger-line strokes at B4 instead of two at F4 in original public fixture.",
+      "Display staff/stem change may suggest different hand distribution; actual hand assignment not newly specified.",
+      "Native page5 spacing redistributes; not a geometry-only local patch."
+    ],
+    "judgment": "Worth comparing for clearer tuplet extent and association; do not auto-replace original staff allocation.",
+    "user_preference_confirmed": false,
+    "preference_status": "Optional original-versus-candidate reading preference requested after native figure; no reply recorded yet."
+  },
+  "reading": {
+    "native_page5_complete": true,
+    "native_first_system_and_bar_context": true,
+    "book_printed_pages_reread": [
+      195,
+      316,
+      317
+    ],
+    "book_pdf_page_offset": 20,
+    "first_reading_increment": 0,
+    "new_official_PDF_pages": 0,
+    "protected_user_PDF_rewritten": false
+  },
+  "native": {
+    "host": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_commit_relation": "unverified",
+    "CLI_calls": 7,
+    "calibration_trials": 2,
+    "final_candidate": 1,
+    "formats": "Three complete8page SVG outputs; v2 and finalv3 also MXL/MIDI",
+    "unchanged_pages": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "changed_page": 5,
+    "page_count": 8,
+    "note_rest_count": 3203,
+    "unchanged_note_rest_signatures": 3202,
+    "single_changed_signature": {
+      "global_index": 1772,
+      "pitch": "B4",
+      "voice": "6",
+      "before": {
+        "staff": "1",
+        "stem": "down"
+      },
+      "after": {
+        "staff": "2",
+        "stem": "up"
+      },
+      "only_these_display_fields_differ_after_ignoring_explicit_layout_attributes": true
+    },
+    "full_midi_equal": true,
+    "midi_bytes": 19491,
+    "source_patch_reversible_to_original_bytes": true,
+    "other_ZIP_payloads_equal": 2,
+    "geometry": {
+      "tuplet_polylines": [
+        "2255.09,443.994 2255.09,427.305 2373.57,427.305",
+        "2416.83,427.305 2535.31,427.304 2535.31,443.993"
+      ],
+      "stem_intersections": [],
+      "leading_rest_origin_x": 2255.09,
+      "leading_hook_x": 2255.09,
+      "page5_staff_top_deltas": [
+        {
+          "staff_order": 0,
+          "before": 311.669,
+          "after": 311.669,
+          "delta": 0
+        },
+        {
+          "staff_order": 1,
+          "before": 614.417,
+          "after": 621.721,
+          "delta": 7.304
+        },
+        {
+          "staff_order": 2,
+          "before": 1108.21,
+          "after": 1113.99,
+          "delta": 5.78
+        },
+        {
+          "staff_order": 3,
+          "before": 1372.14,
+          "after": 1377.92,
+          "delta": 5.78
+        },
+        {
+          "staff_order": 4,
+          "before": 1865.93,
+          "after": 1870.19,
+          "delta": 4.26
+        },
+        {
+          "staff_order": 5,
+          "before": 2116.85,
+          "after": 2120.5,
+          "delta": 3.65
+        },
+        {
+          "staff_order": 6,
+          "before": 2610.64,
+          "after": 2612.77,
+          "delta": 2.13
+        },
+        {
+          "staff_order": 7,
+          "before": 2953.23,
+          "after": 2955.36,
+          "delta": 2.13
+        },
+        {
+          "staff_order": 8,
+          "before": 3447.02,
+          "after": 3447.62,
+          "delta": 0.6
+        },
+        {
+          "staff_order": 9,
+          "before": 3697.94,
+          "after": 3697.93,
+          "delta": -0.01
+        }
+      ],
+      "maximum_staff_grid_delta": 7.304,
+      "note_transform_changes": 314,
+      "single_large_note_transform": [
+        {
+          "index": 3,
+          "dx": -1.32,
+          "dy": 176.54
+        }
+      ],
+      "other_note_max_abs_dx": 6.69,
+      "other_note_max_abs_dy": 7.304,
+      "ledger_line_count": [
+        209,
+        213
+      ],
+      "v2_to_v3_non_tuplet_geometry_equal": true,
+      "staff_space_svg_units": 22.252
+    },
+    "isolated_endpoint_reflow": {
+      "v1": {
+        "staff_top_y": [
+          311.669,
+          614.417,
+          1108.21,
+          1372.14,
+          1865.93,
+          2116.85,
+          2610.64,
+          2953.23,
+          3447.02,
+          3697.94
+        ],
+        "first_tuplet": [
+          "2266.22,515.146 2266.22,498.457 2379.14,469.327",
+          "2422.39,458.169 2535.31,429.038 2535.31,445.727"
+        ]
+      },
+      "v2": {
+        "staff_top_y": [
+          311.669,
+          621.721,
+          1113.99,
+          1377.92,
+          1870.19,
+          2120.5,
+          2612.77,
+          2955.36,
+          3447.62,
+          3697.93
+        ],
+        "first_tuplet": [
+          "2266.22,443.994 2266.22,427.305 2379.14,427.305",
+          "2422.39,427.305 2535.31,427.304 2535.31,443.993"
+        ]
+      },
+      "v3": {
+        "staff_top_y": [
+          311.669,
+          621.721,
+          1113.99,
+          1377.92,
+          1870.19,
+          2120.5,
+          2612.77,
+          2955.36,
+          3447.62,
+          3697.93
+        ],
+        "first_tuplet": [
+          "2255.09,443.994 2255.09,427.305 2373.57,427.305",
+          "2416.83,427.305 2535.31,427.304 2535.31,443.993"
+        ]
+      },
+      "isolated_v1_v2_change": "Only p1.y and p2.y, source trees otherwise equal",
+      "causal_scope": "Same host/config, observed first-pair staff spacing and remaining page redistribution; no code patch."
+    },
+    "save_reload_done": false,
+    "MusicXML_reimport_done": false,
+    "print_or_performance_visual_acceptance_done": false,
+    "artifact_fingerprints": [
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/candidate-m97-transition-v1.mscz",
+        "bytes": 68471,
+        "sha256": "5ddb7ef8558b2ae953923bdd64f6faa135ff525e3a8a831e3310415289f90ec3"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/candidate-m97-transition-v2.mscz",
+        "bytes": 68483,
+        "sha256": "7dfb99a86411243581b0af767c574b69c2a5b34b2051b8bdd99e13a6324716c4"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/candidate-m97-transition-v3.mscz",
+        "bytes": 68488,
+        "sha256": "20904803a9ea27c7e3a96988ecaaf9d84b8855a0156d59d6502226f0b6675678"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/m97-detail-comparison.png",
+        "bytes": 87530,
+        "sha256": "1b15a8ee08abaa897bb05626fb32d281cb2d2d0d30b3646699798bb1f3803765"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/m97-system-comparison.png",
+        "bytes": 191878,
+        "sha256": "b0f2ed08786bbd46c37c10adaf1607005699b8e327d6350d55aa7fa66898edb0"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-1.svg",
+        "bytes": 522293,
+        "sha256": "1da1f2ce733bc795ab866da9a2ac8db745c602d3f9bf5028894f71bf9959f235"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-2.svg",
+        "bytes": 430212,
+        "sha256": "3a67c1f466bcb3e59033218bdf4809caada587110a00c79eaf474bec47866a35"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-3.svg",
+        "bytes": 363780,
+        "sha256": "0126d65a636fb8d6adf006a77c4663df9e133a792685d3130567e5e76fccc935"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-4.svg",
+        "bytes": 559395,
+        "sha256": "21582fcc9c92868bae1ff56c4fc3e87450fb503145e3463254d91d9f94d0cc16"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-5.svg",
+        "bytes": 343361,
+        "sha256": "3b3a9ed2ea7f6f4bb583b07c8d7ceb86f49998d616269b3515938831e9148d6a"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-6.svg",
+        "bytes": 431717,
+        "sha256": "d9d975a558517927fa4910ec2bacb98df71ad8c8f23dc2527a39731a627538c4"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-7.svg",
+        "bytes": 377860,
+        "sha256": "ad91bde24e872023901d2ee12f7919c3fdbe0e93e808f97fb30def63d238630b"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v1-8.svg",
+        "bytes": 304727,
+        "sha256": "c86da06f1dce56afa3243065c87886d56263c1b0483bdf45b68e101a43dbbf1e"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-1.svg",
+        "bytes": 522293,
+        "sha256": "465c3c79067780de50be8faef3103e0146b45bc8ea4bf981fa52e079896116ee"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-2.svg",
+        "bytes": 430212,
+        "sha256": "011e0a1de603cb89ebf78f71df4f0dc0e6c40ac29d7b5b4d9df0449c7def478e"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-3.svg",
+        "bytes": 363780,
+        "sha256": "117097eb679ad77c439f8790de514e2c6c09d097cf9f0b1a0a08d39c39256529"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-4.svg",
+        "bytes": 559395,
+        "sha256": "e58094dd674e49495e5c4e2b964d242b2f54e97eafe9e15ea6904b124c2bce8f"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-5.svg",
+        "bytes": 343407,
+        "sha256": "b1c805efd6ab417248d6c7de9cc3caf913ff95c7d2e52577523da048a35d56d9"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-6.svg",
+        "bytes": 431717,
+        "sha256": "4a3ea617f040cbb168eb404bd25ac12f44bb9aaffb697116d9b6f4b1e6c7946d"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-7.svg",
+        "bytes": 377860,
+        "sha256": "b9fa58ae3507777651e58c357c1d048556c86f4e90962773e07aae5313db110c"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2-8.svg",
+        "bytes": 304727,
+        "sha256": "cd04168b41b07cead30720468275e61952985c21dc8b1cd7c17c1de5a2db24a5"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2.mid",
+        "bytes": 19491,
+        "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v2.mxl",
+        "bytes": 66190,
+        "sha256": "c5bc33eda2b8a9a0252fbd7632c3db904fa7d1220b4b5fa2dd17b2df7a8ddda2"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-1.svg",
+        "bytes": 522293,
+        "sha256": "e3850c260409b9dbd925d2634fe72a6a5f1ab6b1eae91e109964ba41567ecf75"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-2.svg",
+        "bytes": 430212,
+        "sha256": "a9b5805de1db9d92a9a0735a8874fd5b904fd8a1e821a34ea34a684cb829dfa7"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-3.svg",
+        "bytes": 363780,
+        "sha256": "f813e1dd016cb0f4d1c9aed71470449b714ce854a566d1f8a28af3018a5725a7"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-4.svg",
+        "bytes": 559395,
+        "sha256": "033ce17b9bf2f215968ee5e9a36fb9fbda9809eb3a00ec7da48b34996f736a5a"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-5.svg",
+        "bytes": 343409,
+        "sha256": "5ca96ff319fee44acfe94a49d1e2b47a38415af942dba092ccc5a9a02b48b443"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-6.svg",
+        "bytes": 431717,
+        "sha256": "d70eaafd9ea468ccb9b35ee8366f12e310f92416a33975b285c4add4b47c9016"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-7.svg",
+        "bytes": 377860,
+        "sha256": "a096d738973580faf27a0089236ba1ab9e34cb84ea428ace2f965a34949acbcd"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3-8.svg",
+        "bytes": 304727,
+        "sha256": "d885b06946bc3f506fc1efce76c66bb65b68a6983f5424603c4565651b126bd6"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3.mid",
+        "bytes": 19491,
+        "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+      },
+      {
+        "path": "tmp/engraving/m97-staff-transition-2026-10-31/v3.mxl",
+        "bytes": 66190,
+        "sha256": "5359fd9af97840c893721a65855820effc648a6224135cbca431a863840d8d54"
+      }
+    ]
+  },
+  "private_artifacts": [
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/m97-detail-comparison.png",
+      "scope": "Original/final native bar context, same230dpi and crop; private music"
+    },
+    {
+      "path": "tmp/engraving/m97-staff-transition-2026-10-31/m97-system-comparison.png",
+      "scope": "Original/final complete first system, same190dpi and crop; private music"
+    }
+  ],
+  "cache": {
+    "directory": "tmp/engraving/m97-staff-transition-2026-10-31",
+    "private_bytes": 11168695,
+    "initial_budget_bytes": 8388608,
+    "final_budget_bytes": 12582912,
+    "budget_change_reason": "Third full native pass aligns leading hook to rest left edge; all three inputs and results retained, no deletion.",
+    "raw_PDF_image_bytes": 0,
+    "new_PDF_copies": 0,
+    "new_host_copies": 0,
+    "public_music_assets_added": 0,
+    "files_deleted": 0,
+    "global_exact_total_known": false,
+    "new_check_allowance_bytes": 3245998080
+  },
+  "software_adaptation_changes": 0,
+  "validation": {
+    "status": "native, library and skill checks passed",
+    "native_output_and_candidate_fingerprints": 33,
+    "book_pages_visual_reread": [
+      195,
+      316,
+      317
+    ],
+    "current_PDF_authoring": false,
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "existing_CLI_regression_tests": [
+      6,
+      6
+    ],
+    "reused_baseline_is_exact_original_file": true
+  }
+}

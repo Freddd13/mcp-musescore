@@ -3130,20 +3130,28 @@
       }
     ],
     "completion_scope": "One current-input private combined experiment and full-score native validation;not user aesthetic adoption,print/performance or complete style redesign.",
-    "integrated_round_evidence": "user_combined_review_evidence.json"
+    "integrated_round_evidence": "user_combined_review_evidence.json",
+    "pending_visual_choices": [
+      {
+        "case": "m97 near-beam complete6:4 versus original less-ledger layout",
+        "status": "asked; no answer recorded",
+        "reference": "M97_TUPLET_TRANSFER.md",
+        "interpretation": "Local visual preference only; does not define all staff allocations or authorize original-file replacement."
+      }
+    ]
   },
   "release": {
-    "version": "0.21.0",
-    "tag": "engraving-v0.21.0",
+    "version": "0.22.0",
+    "tag": "engraving-v0.22.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.21固定版之后两批补充：连音通道5/5实际复审及3/3原创条件，后补独立层／标记／紧行宽3/3情境六版比较；工作分支共两新研究、八份原创输入与两图。m97原端点候选采用倾向已撤回，新实曲迁移0/1；固定标签、20入口和覆盖保持，无适配。"
+    "working_branch_note": "0.22可用研究版：固定连音通道、独立层／标记／紧行宽三情境及m97实际1/1迁移，八份新原创输入与两图；旧m97端点推荐已撤回，新比较候选音乐保持、加线与整页联动保留，视觉选择待回复。覆盖及20入口保持，无软件／字体适配。"
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "三层连音归属：独立旋律／固定低音、上层弧／mf及90mm行宽。六版比较、下侧失败及保存重载；复看两官谱页与Gould三页。",
+    "scope": "m97实曲1/1迁移；四条加线与局部端点引起的整页联动。固定近期三批为0.22研究版。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3158,28 +3166,28 @@
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 3,
-    "new_native_diagnostic_conditions": 3,
+    "new_native_candidate_scenarios": 1,
+    "new_native_diagnostic_conditions": 1,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "TUPLET_OWNERSHIP_STUDY.md",
-      "TUPLET_CHANNEL_STUDY.md"
+      "M97_TUPLET_TRANSFER.md",
+      "../ENGRAVING_RELEASES.md"
     ],
-    "review_evidence": "tuplet_ownership_evidence.json",
+    "review_evidence": "m97_tuplet_transfer_evidence.json",
     "software_adaptation": false,
-    "official_pdf_pages_reread": 2,
-    "new_native_renditions": 6,
-    "auto_calibration_and_side_probes": 7,
-    "native_CLI_calls": 27
+    "official_pdf_pages_reread": 0,
+    "new_native_renditions": 3,
+    "auto_calibration_and_side_probes": 0,
+    "native_CLI_calls": 7
   },
   "latest_native_study": {
-    "reference": "TUPLET_OWNERSHIP_STUDY.md",
-    "evidence": "tuplet_ownership_evidence.json",
-    "completed_conditions": 3,
-    "planned_conditions": 3,
-    "core_renditions": 6,
-    "additional_lower_side_SVG_diagnostics": 1,
-    "description": "完成上一轮独立旋律、上层标记及紧行宽三条件。六版均无穿干，优先比较F4留在下表直到连音结束再换表的近梁方案；加线及显示staff/stem改变单列。27次CLI、72音／84音休止配方、完整MIDI与一候选重载已核，未迁移m97。",
+    "reference": "M97_TUPLET_TRANSFER.md",
+    "evidence": "m97_tuplet_transfer_evidence.json",
+    "completed_conditions": 1,
+    "planned_conditions": 1,
+    "calibration_trials": 2,
+    "final_candidate": 1,
+    "description": "真实m97独立副本，B4留在下表与完整近梁括号；三轮SVG、两版MXL/MIDI共7次CLI。八页核对，音乐3203记录及完整MIDI保持，B4只显示staff/stem变；四条加线和第5页联动保留，原件只读，未保存重载／导回或视觉采用。",
     "reading_increment": 0,
     "user_preference_confirmed": false,
     "software_adaptation_changes": 0
@@ -3297,19 +3305,30 @@
       "reading_increment": 0,
       "user_preference_confirmed": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "TUPLET_OWNERSHIP_STUDY.md",
+      "evidence": "tuplet_ownership_evidence.json",
+      "completed_conditions": 3,
+      "planned_conditions": 3,
+      "core_renditions": 6,
+      "additional_lower_side_SVG_diagnostics": 1,
+      "description": "完成上一轮独立旋律、上层标记及紧行宽三条件。六版均无穿干，优先比较F4留在下表直到连音结束再换表的近梁方案；加线及显示staff/stem改变单列。27次CLI、72音／84音休止配方、完整MIDI与一候选重载已核，未迁移m97。",
+      "reading_increment": 0,
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
-    "reference": "TUPLET_OWNERSHIP_STUDY.md",
-    "evidence": "tuplet_ownership_evidence.json",
-    "reviewed_cases": 3,
-    "planned_cases": 3,
+    "reference": "M97_TUPLET_TRANSFER.md",
+    "evidence": "m97_tuplet_transfer_evidence.json",
+    "reviewed_cases": 1,
+    "planned_cases": 1,
     "decisions": {
-      "prefer_near_beam_with_display_transition_change_in_original_fixture": 3
+      "prefer_comparison_candidate_for_clearer_group_extent": 1
     },
-    "official_reference_pages_reread": 2,
-    "scope": "预定三种原创上下文，六版已知输入比较；不计独立净书准确率或新增阅读覆盖。",
-    "new_native_conditions": 3
+    "scope": "已知用户原件的实曲应用；原生可读性与保护核查，不计独立准确率或综合轮次。视觉选择待回复。",
+    "new_native_conditions": 1
   },
   "latest_supplemental_reading": {
     "reference": "HOSHIDE_ONDINE_READING.md",
@@ -3384,16 +3403,28 @@
       },
       "scope": "四处已知官谱实际图文与用户m97既有原生候选复看；不计新阅读或独立准确率。",
       "new_native_conditions": 3
+    },
+    {
+      "reference": "TUPLET_OWNERSHIP_STUDY.md",
+      "evidence": "tuplet_ownership_evidence.json",
+      "reviewed_cases": 3,
+      "planned_cases": 3,
+      "decisions": {
+        "prefer_near_beam_with_display_transition_change_in_original_fixture": 3
+      },
+      "official_reference_pages_reread": 2,
+      "scope": "预定三种原创上下文，六版已知输入比较；不计独立净书准确率或新增阅读覆盖。",
+      "new_native_conditions": 3
     }
   ],
   "latest_library_query": {
-    "evidence": "tuplet_ownership_evidence.json",
+    "evidence": "release_0_22_0_evidence.json",
     "guide": "../ENGRAVING_SKILL.md",
     "curated_known_source_cases": 5,
     "planned_curated_cases": 5,
     "CLI_regression_tests": 6,
     "planned_CLI_regressions": 6,
-    "scope": "既有五类来源定位及六项回归保持；新增两查询可在前三定位三层连音归属与换表点研究，不计独立净书准确率。",
+    "scope": "20入口、既有五类来源与六项回归保持；新m97／端点整页问题定位另核，不计独立净书判断准确率。",
     "new_known_source_smoke_cases": 2
   },
   "next_native_batch": {
@@ -3403,9 +3434,30 @@
     "scope": "此前预定独立上方旋律、该层弧线／力度、紧行宽三个对照已完成；均固定增加低音持续以核真正内层。"
   },
   "next_real_score_migration": {
-    "reference": "STATUS_AND_ROADMAP.md",
+    "reference": "M97_TUPLET_TRANSFER.md",
     "planned_candidates": 1,
-    "completed_candidates": 0,
-    "scope": "从m97原件另起私有副本，比较末连音留在下表及近梁括号，核有效谱号、加线、上层与整行；有收益才建议采用。"
+    "completed_candidates": 1,
+    "scope": "原定m97实际迁移已完成：从原件独立起步，比较显示分配／近梁括号并核八页、音乐及加线；视觉选择尚未回复，未覆盖原件。"
+  },
+  "next_source_reading": {
+    "reference": "STATUS_AND_ROADMAP.md",
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "remaining_resource_scopes": 9,
+    "planned_complete_resource_scopes": 25,
+    "positive_internal_clef_case": {
+      "completed": 0,
+      "planned": 1
+    },
+    "scope": "近期转向可得余项资料的实际图文／视频和不可避免组内换号正面例；不继续扩展同一m97微调，除非新反馈或证据。"
   }
 }
