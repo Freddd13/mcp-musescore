@@ -1,5 +1,7 @@
 # 力度与奏法：通道可以连续，归属必须贴音
 
+2026-10-31[m97方向反馈](M97_DIRECTION_FEEDBACK.md#hairpin-channel)补p323的双干梁条件：斜穿谱表且至少一端留外，可让发夹避开运行符干。原音型／六连保持的局部候选将六交点降为0，另核断奏净空；用户观感待答。谱线交叉按本例条件判断；原六连范围仍待改。
+
 2026-10-26[Blumenkranz再现](INTEGRATED_READING_BOY_BLUMENKRANZ.md#4-blumenkranz同一动机返回为什么不能恢复同一套短奏法)：J接收前行持续，长低音tie与上层释放不同于without Pedal开头，不能按相似音型补回全套点／休止。D旁实际是tenuto横线与短slur，旧记“相邻点”已纠正；non legato与局部短slur亦可并存。
 
 2026-10-24的[T05／Ashes](SKILL_TRANSFER_MARKINGS.md)补同高奏法的正例：G/m72三tenuto在干端侧同Y，头高却不同，保留；不以贴头规则全拉随音高。E/m61–62渐强到上表休止／下表低八度共同列，B/H的pp sub.及L前ff sub.又有各自入口，不吸到段号或最后上部攻击。

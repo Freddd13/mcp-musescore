@@ -486,6 +486,8 @@ SWING_ALIGNMENT_STUDY.md：先核有效长短解释及作用层，再判断普�
 
 <a id="markings"></a>
 
+`markings`／`cross-staff`的`M97_DIRECTION_FEEDBACK.md`：Gould p323对双干梁拥挤给出条件性斜穿谱表方案，须足以区别横谱线、至少一端在表外，保持作用层与起止。用户m97渐强候选保原方向，穿干6→0；三括号探针另因上层穿干、落进谱表、数字／加线相交而拒绝。不能将所有谱线交叉清零，也不能用MIDI保持代替避让与归属判断。原方向感仅为局部初步偏好，渐强候选未获采用。
+
 `MEDLEY_200_CH13.md`：B sfzq0／mpq1下8分别保；F180在rest起而f在gliss.起，标记不用最近的上部音头统一吸齐。
 
 `MEDLEY_200_CH12.md`：D ff在q2.5普通尾部，B／K尾4点／重音是奏法。N upperwhole、inner末4和lower末8各承载延长，不能按坐标自动去重或吸齐。

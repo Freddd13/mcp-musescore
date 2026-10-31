@@ -73,7 +73,7 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 播放保护须核覆盖范围：mute／solo或不播放的层可能不进入MIDI；必要时另建明确标为诊断的参与播放对照，不悄改最终候选的混音。SVG字符串次序不等也不直接证明几何／像素变化；变换后的坐标、绘图对象与实际图分别核，详见原生保护参考。
 
-跨表连音的数字／括号，经`notation`／`cross-staff`查`TUPLET_CHANNEL_STUDY.md`：先核梁外休止和部分梁范围，再核数字是否归对层、横线是否穿干／混梁。端点范围正确与MIDI保持仍可能留下可读性问题；独立层见`TUPLET_OWNERSHIP_STUDY.md`：无碰撞仍须核归属，必要时单列显示换表点与加线的记法取舍。m97旧端点候选已撤回采用倾向；`M97_TUPLET_TRANSFER.md`的新实曲候选已核，四条加线和本页间距联动须一并说明，视觉选择待回复。
+跨表连音的数字／括号，经`notation`／`cross-staff`查`TUPLET_CHANNEL_STUDY.md`：先核梁外休止和部分梁范围，再核数字是否归对层、横线是否穿干／混梁。端点范围正确与MIDI保持仍可能留下可读性问题；独立层见`TUPLET_OWNERSHIP_STUDY.md`：无碰撞仍须核归属，必要时单列显示换表点与加线的记法取舍。m97旧端点候选已撤回采用倾向；`M97_TUPLET_TRANSFER.md`的新实曲候选已核，四条加线和本页间距联动须一并说明，用户已初步偏好原版方向，见`M97_DIRECTION_FEEDBACK.md`；三种括号探针均已拒绝；另有保原六连的渐强局部候选供比较，先保方向再核范围／归属。
 
 涉及MusicXML导回时，经`beams`／`notation`查`BEAM_EXCHANGE_CLEF_STUDY.md`：逻辑归属、显示staffMove、逐音干向和逐层梁断口分别核；合并后的起音相同仍可能改变轨道、释放与读法。原生副本候选和格式转换各记验证范围。
 

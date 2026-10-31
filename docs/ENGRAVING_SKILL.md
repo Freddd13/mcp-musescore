@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+0.23之后工作分支已补[m97方向反馈](engraving/M97_DIRECTION_FEEDBACK.md)：三括号探针拒绝，渐强局部候选另保原音型、穿干6→0，原六连仍未改。可查`--topic markings --query "斜穿谱表 渐强"`或`--topic cross-staff --query "方向感 数字 加线"`。用户初步偏好原方向，渐强观感待答；固定0.23标签保持，工作分支引用时同时记录实际提交。
+
 当前可用研究版为**[0.23.0／engraving-v0.23.0](ENGRAVING_RELEASES.md)**，包括换号、整行容量及作品／乐器条件的新案例。可查`--topic sources --query "收藏列表 作品ID 自动跳转"`或`--topic notation --query "弦号 弓法 乐器条件"`。修正R08旧链接，资料仍16/25余9；以下旧版介绍保留为使用历史。关联安装更新项目即可，复制安装同步同版skill和库，无需重配MCP。
 
 0.22已固定[连音范围／归属及m97实曲迁移](ENGRAVING_RELEASES.md)。可查`--topic notation --query "m97 首休止 加线"`或`--topic layout --query "端点 整页 间距"`；新候选的加线、显示分配与整页联动一并说明，用户选择尚待反馈。原谱／比较图留本机，使用方式沿用下文。
