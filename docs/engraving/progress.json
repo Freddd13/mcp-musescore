@@ -2922,7 +2922,9 @@
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "shinianqi_source_evidence.json",
         "verified_account_uid": 341170626,
-        "remaining": "用户已更正姓名；两位发布者公开简介的署名链接交叉核同一UID。本人主页正文／作品目录、实际净书图例或教程未读，仍保留该项未完成。"
+        "remaining": "UID与合作谱规范检查署名已核；已实际读1/1公开预览、6系统m1–22。本人主页／目录、具体干预、教程及完整谱未核；合作预览不证明全部排法出自该人，状态partial保持。",
+        "actual_preview_note": "SHAMSHIR_PREVIEW_READING.md",
+        "actual_preview_evidence": "shamshir_preview_evidence.json"
       },
       {
         "id": "R11",
@@ -3200,17 +3202,18 @@
     }
   },
   "release": {
-    "version": "0.24.0",
-    "tag": "engraving-v0.24.0",
+    "version": "0.25.0",
+    "tag": "engraving-v0.25.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.24固定既有m97方向／组梁／实曲平衡研究；工作分支另有英文评论20/20页及长动态文字3/3条件、1/1重载，三原创输入一图可用。固定标签不变，20入口；资料16/25余9，无适配。"
+    "working_branch_note": "0.25固定叙事曲版本语境／英文20页、长文字3原创条件／一次重载，以及R10合作谱预览实读；20入口、三原创输入一图。官谱／Gould覆盖与资料16/25余9保持，无适配。",
+    "evidence": "release_0_25_0_evidence.json"
   },
   "last_study_batch": {
     "date": "2026-11-01",
-    "scope": "A137长动态文字：完整页／两行复看、Gould106–107两页复读、五篇Dorico6.2正文；原创3/3条件、1/1保存重载、15次CLI。铺词与完整短语的收益分别解释，无原官谱替代或用户偏好增量。",
+    "scope": "R10合作谱实际预览：1/1公开图、6系统m1–22、9近图；Gould39–41/164–165/200共6页复读。主脉冲／接收边界、组内休止和部分三连归纳；不证明具体校对者或源软件。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3220,26 +3223,23 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 2,
+    "book_reread_pages": 6,
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 1,
-    "new_original_native_conditions": 3,
+    "new_native_candidate_scenarios": 0,
     "new_native_diagnostic_conditions": 0,
     "new_user_integrated_rounds": 0,
-    "native_CLI_calls": 15,
-    "valid_final_native_calls": 13,
-    "input_probe_native_calls": 2,
-    "official_full_page_rereads": 1,
-    "official_detail_views": 1,
-    "supplemental_primary_web_bodies_read": 5,
-    "supplemental_primary_figures_viewed": 0,
+    "native_CLI_calls": 0,
+    "new_actual_credited_preview_images": 1,
+    "new_actual_credited_preview_systems": 6,
+    "new_actual_credited_preview_bars": 22,
+    "detail_image_views": 9,
     "notes": [
-      "LONG_DYNAMIC_TEXT_STUDY.md"
+      "SHAMSHIR_PREVIEW_READING.md"
     ],
-    "review_evidence": "long_dynamic_text_evidence.json",
+    "review_evidence": "shamshir_preview_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3497,26 +3497,29 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "LONG_DYNAMIC_TEXT_STUDY.md",
-    "evidence": "long_dynamic_text_evidence.json",
+    "reference": "SHAMSHIR_PREVIEW_READING.md",
+    "evidence": "shamshir_preview_evidence.json",
+    "preview_images": [
+      1,
+      1
+    ],
+    "systems": 6,
+    "bars": [
+      1,
+      22
+    ],
+    "detail_views": 9,
     "Gould_full_printed_page_rereads": [
-      106,
-      107
+      39,
+      40,
+      41,
+      164,
+      165,
+      200
     ],
     "new_Gould_coverage": 0,
-    "official_full_page_rereads": [
-      {
-        "id": "A137",
-        "physical": 6
-      }
-    ],
-    "official_detail_views": 1,
-    "targeted_primary_web_bodies_read": 5,
-    "targeted_distinct_images_viewed": 0,
-    "targeted_image_fetch_failures": 4,
-    "Dorico_runtime": false,
     "new_fixed_resource_completions": 0,
-    "scope": "长动态文本的表达方式、范围、poco a poco、间距及声部条件；规范与软件策略分清，四张图片未取得，正文阅读不算图片已读。"
+    "scope": "Actual publicly offered collaborative score preview; not complete score, not proof of individual reviewer decisions or source software. Six printed full Gould rereads applied to new context, not blind transfer score."
   },
   "judgment_review_history": [
     {
@@ -3678,7 +3681,7 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15。R12错误页／R10已有页绑定超时，R12／R13官方匿名字幕列表为空；同一路径无变化不再重试。已询问可读本地文件，回复待到。先继续可得真实谱例及已读材料的跨情境应用；相关四首叙事曲英文评论20/20范围闭合，不代替R07原成品和旧版主谱。",
+    "scope": "余9项R07–R15。R10现有一张明确公开提供的合作谱预览实读；仍需本人资料及具体干预。R07–R09目标原成品、R11–R15视频尚有缺口，保持原范围；同一错误页／空匿名字幕路径无变化时不重试。本地文件路径问题待答，以可得的实际材料继续学习。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
     "latest_available_supplement": "LONG_DYNAMIC_TEXT_STUDY.md: actual A137 context, Gould2rereads and5Dorico6.2bodies applied; not replacement of remaining9fixed targets."
@@ -3821,6 +3824,28 @@
         2
       ],
       "R07_target_engraving_read": false
+    },
+    {
+      "reference": "LONG_DYNAMIC_TEXT_STUDY.md",
+      "evidence": "long_dynamic_text_evidence.json",
+      "Gould_full_printed_page_rereads": [
+        106,
+        107
+      ],
+      "new_Gould_coverage": 0,
+      "official_full_page_rereads": [
+        {
+          "id": "A137",
+          "physical": 6
+        }
+      ],
+      "official_detail_views": 1,
+      "targeted_primary_web_bodies_read": 5,
+      "targeted_distinct_images_viewed": 0,
+      "targeted_image_fetch_failures": 4,
+      "Dorico_runtime": false,
+      "new_fixed_resource_completions": 0,
+      "scope": "长动态文本的表达方式、范围、poco a poco、间距及声部条件；规范与软件策略分清，四张图片未取得，正文阅读不算图片已读。"
     }
   ],
   "latest_source_identity_review": {

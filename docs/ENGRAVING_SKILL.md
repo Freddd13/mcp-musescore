@@ -1,8 +1,8 @@
 # 钢琴净书skill：使用、关联与更新
 
-0.24之后工作分支已补[版本语境](engraving/BALLADE_EDITORIAL_CONTEXT.md)、[英文评论20/20页](engraving/BALLADE_PERFORMANCE_CONTEXT.md)及[长动态文字](engraving/LONG_DYNAMIC_TEXT_STUDY.md)。可查`--topic markings --query "完整 短语 续行"`；三份原创输入及一图可用。固定0.24标签保持，按项目现有skill路径即可读取新知识；R07原目标及其余受限资料仍按原状态。
+当前研究版为**[0.25.0／engraving-v0.25.0](ENGRAVING_RELEASES.md)**，固定[版本语境](engraving/BALLADE_EDITORIAL_CONTEXT.md)、[英文评论20/20页](engraving/BALLADE_PERFORMANCE_CONTEXT.md)、[长动态原生条件](engraving/LONG_DYNAMIC_TEXT_STUDY.md)及[合作谱预览](engraving/SHAMSHIR_PREVIEW_READING.md)。可查`--topic spacing --query "m18 接收"`或`--topic rhythm --query "组内 休止"`；20入口、三原创输入一图可用。更新关联项目即可读取新知识，复制安装需同步同版skill与库；MCP配置不变。
 
-当前可用研究版为**[0.24.0／engraving-v0.24.0](ENGRAVING_RELEASES.md)**。新增[完整组梁](engraving/TUPLET_REST_SCOPE_STUDY.md)与[m97实曲平衡迁移](engraving/M97_GROUP_BOUNDARY_TRANSFER.md)，可查`--topic beams --query "m97 最短干 平衡"`或`--topic cross-staff --query "首休止 完整 六连"`。当前候选可比较，作者渐强作用层与审美采用待答；资料16/25余9、20入口保持。关联安装更新项目，复制安装同步同版skill和库，无需重配MCP。
+上一固定版为**[0.24.0／engraving-v0.24.0](ENGRAVING_RELEASES.md)**。新增[完整组梁](engraving/TUPLET_REST_SCOPE_STUDY.md)与[m97实曲平衡迁移](engraving/M97_GROUP_BOUNDARY_TRANSFER.md)，可查`--topic beams --query "m97 最短干 平衡"`或`--topic cross-staff --query "首休止 完整 六连"`。当前候选可比较，作者渐强作用层与审美采用待答；资料16/25余9、20入口保持。关联安装更新项目，复制安装同步同版skill和库，无需重配MCP。
 
 此前0.23研究版包括换号、整行容量及作品／乐器条件的新案例。可查`--topic sources --query "收藏列表 作品ID 自动跳转"`或`--topic notation --query "弦号 弓法 乐器条件"`。修正R08旧链接，资料仍16/25余9；以下旧版介绍保留为使用历史。关联安装更新项目即可，复制安装同步同版skill和库，无需重配MCP。
 
@@ -14,7 +14,7 @@
 
 0.21纳入[梁坡与实曲应用](engraving/BEAM_WIDTH_TRANSFER.md)、[共梁范围](engraving/BEAM_SCOPE_TRANSFER.md)和[交换机理／换号回查](engraving/BEAM_EXCHANGE_CLEF_STUDY.md)。可查`--topic beams --query "声部归属 第一音 干向"`或`--topic clefs --query "E4 G4 换号"`。新案例在音乐起音保持时仍暴露图面、轨道和释放变化，先读实际验证范围；XML诊断输入用于复现，不能当通用转换补丁。关联／复制更新方式沿用下文，无新增MCP配置步骤。
 
-2026-10-31。最近发布的可用研究版为**[0.24.0／engraving-v0.24.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
+2026-11-01。最近发布的可用研究版为**[0.25.0／engraving-v0.25.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
 
 ## 按具体问题定位来源
 

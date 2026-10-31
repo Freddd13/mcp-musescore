@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "version": "0.25.0",
+  "tag": "engraving-v0.25.0",
+  "as_of": "2026-10-31T16:43:32.859Z",
+  "stage": "usable-research",
+  "starting_commit": "3074fe7065229a0403dadaa18ffa4f8919c1d6d6",
+  "prior_fixed_tag": {
+    "name": "engraving-v0.24.0",
+    "commit": "d2d9bfe18e61462dba5f27de835acb9ede52339a",
+    "preserve": true
+  },
+  "publication": "New unused tag to be created/pushed on the release commit after checks; verify actual Git refs. No old tag is moved.",
+  "included_scopes": {
+    "editorial_commentaries": {
+      "English_pages": [
+        20,
+        20
+      ],
+      "total_two_PDF_pages": 28,
+      "German_pages_unread": 8,
+      "R07_target_engraving_read": false
+    },
+    "long_dynamic_text": {
+      "original_conditions": [
+        3,
+        3
+      ],
+      "save_reload": [
+        1,
+        1
+      ],
+      "prior_native_CLI_calls": 15,
+      "valid_final_calls": 13,
+      "input_probe_calls": 2,
+      "MusicXML_records": 72,
+      "MIDI_byte_equal": true,
+      "reload_pixel_exact": false
+    },
+    "credited_actual_preview": {
+      "public_image": [
+        1,
+        1
+      ],
+      "systems": 6,
+      "bars": [
+        1,
+        22
+      ],
+      "Gould_reread_pages": 6,
+      "R10_status": "partial",
+      "individual_review_interventions_known": false
+    },
+    "topics": [
+      20,
+      20
+    ]
+  },
+  "coverage_preserved": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "Gould_file_pages": [
+      696,
+      696
+    ],
+    "fixed_resource_scopes": [
+      16,
+      25
+    ],
+    "remaining_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "fixed_skill_transfer_coverage": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ],
+    "new_user_preference_or_adoption": false,
+    "new_native_calls_this_release_turn": 0,
+    "software_adaptation_changes": 0
+  },
+  "research_manifest": [
+    {
+      "path": "docs/engraving/BALLADE_EDITORIAL_CONTEXT.md",
+      "bytes": 4455,
+      "sha256": "c49261032b2cf2ffa832eee3c75d0d14e21caa3d6228588ff0613bf338a9e15e"
+    },
+    {
+      "path": "docs/engraving/BALLADE_PERFORMANCE_CONTEXT.md",
+      "bytes": 4635,
+      "sha256": "ba2b7cd0af1a4426faae00892993dc45a73abfa8eeaf78dde196758643491bae"
+    },
+    {
+      "path": "docs/engraving/LONG_DYNAMIC_TEXT_STUDY.md",
+      "bytes": 6460,
+      "sha256": "ff6284d67a4a6d945c1efe70e6903718e5f25cb56e0669004d4f6b54c586f322"
+    },
+    {
+      "path": "docs/engraving/SHAMSHIR_PREVIEW_READING.md",
+      "bytes": 6290,
+      "sha256": "ab67751cfec9a076f1c80757c64f2f86d29471ca466a73bd58f28976c52805bb"
+    },
+    {
+      "path": "docs/engraving/ballade_editorial_context_evidence.json",
+      "bytes": 10632,
+      "sha256": "9adab0a890f95caaa04b397d88542edaeea578c4a27fbfdc6d1a1a3bb1ee5c46"
+    },
+    {
+      "path": "docs/engraving/ballade_performance_context_evidence.json",
+      "bytes": 13529,
+      "sha256": "90acae134ac9fc3d8da00a2d66e26b52c72b56a6964a713523d0743ba9114f28"
+    },
+    {
+      "path": "docs/engraving/long_dynamic_text_evidence.json",
+      "bytes": 19538,
+      "sha256": "4210941abb06aa2edaf12731cd2b88ec7915ad5270a6759b99174250ef393408"
+    },
+    {
+      "path": "docs/engraving/shamshir_preview_evidence.json",
+      "bytes": 10511,
+      "sha256": "2ca9ec43e842d5f4f059b9226bf0188f926b9e50004dbe498f685bb7be1a8026"
+    },
+    {
+      "path": "skills/piano-engraving/SKILL.md",
+      "bytes": 13324,
+      "sha256": "cb530094df750076b4946b7b5786554b013951df184676b5e9793141a0203b55"
+    },
+    {
+      "path": "skills/piano-engraving/scripts/engraving_library.py",
+      "bytes": 48908,
+      "sha256": "e0d363327b6e8bec95a62e792f560f6f92c54ba9ab0e09e8d666b7440b2155a1"
+    }
+  ],
+  "public_original_assets": [
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-no-reminder.mscx",
+      "bytes": 8348,
+      "sha256": "47ee0450af4c18e6bd3a767ff015aea4e98064f6e732ca5462075c7703331644"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-reminder.mscx",
+      "bytes": 8367,
+      "sha256": "51d9755b473598ec378c983284d545f86c97b275e2637bd72eac5936c3588703"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-reminder-90mm.mscx",
+      "bytes": 8368,
+      "sha256": "59d7cd434b666504076dcc47cb8caba1f41ad85adef8e05941f0d9e0e655006f"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-continuation-comparison.png",
+      "bytes": 149755,
+      "sha256": "7a8a43d1494f6c76558924f5d84a75b1d9490ec6559def5f67c98c16b1db8868"
+    }
+  ],
+  "public_original_asset_bytes": 174838,
+  "reference_music_or_book_images_in_Git": false,
+  "source_protection": [
+    {
+      "id": "mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "id": "pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    }
+  ],
+  "new_private_cache": {
+    "root": "tmp/engraving/shamshir-preview-2026-11-01",
+    "bytes": 556867,
+    "budget_bytes": 2097152,
+    "unique_media_bytes": 548741,
+    "files_deleted": 0,
+    "new_runtime_copies": 0,
+    "global_exact_total_known": false
+  },
+  "validation": {
+    "progress_check": "pass",
+    "skill_quick_validate": "pass",
+    "library_regressions": [
+      6,
+      6
+    ],
+    "topic_routes": [
+      20,
+      20
+    ],
+    "new_case_query_ranks": {
+      "spacing": 1,
+      "rhythm": 2
+    },
+    "asset_fingerprints_checked": 4,
+    "research_sources_fingerprinted": 10,
+    "local_links_checked": 447,
+    "prior_fixed_tag_unchanged": true,
+    "new_tag_absent_locally_and_on_remote_before_creation": true,
+    "preferences_unchanged": true
+  },
+  "use": "Use current project skill+library together; linked installation follows project update, copied installation needs matching skill/library. Existing MCP setup unchanged."
+}

@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31T16:38:23.157Z",
+  "reference": "SHAMSHIR_PREVIEW_READING.md",
+  "previous_goal_turn": "progress:3074fe7 long-dynamic study published with3originalconditions/1reload;this turn obtains and studies actual previously unread credited preview",
+  "resource_id": "R10",
+  "resource_status": "partial",
+  "scope": {
+    "date": "2026-11-01",
+    "target": "R10 credited publicly offered preview only; attribution of individual changes unknown",
+    "provided_preview_url": "https://s201.lzjoy.com/res/statics/fileupload/5001b891a1ef6ce8e4c2de1ebdd112b76368af05c2466_3.png",
+    "provided_by_prior_listing": "https://www.gangqinpu.com/cchtml/1050811.htm",
+    "planned_preview_images": 1,
+    "private_budget_bytes": 2097152,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3267821568,
+    "new_runtime_copies": 0,
+    "new_reference_PDF_copies": 0,
+    "new_video_downloads": 0,
+    "software_adaptation": false,
+    "completed": true,
+    "actual_preview_images_viewed": 1,
+    "actual_full_preview_systems": 6,
+    "visible_bar_range": [
+      1,
+      22
+    ],
+    "actual_detail_views": 9,
+    "initial_detail_crops_with_clipped_labels_or_number": 2,
+    "corrected_full_context_detail_views": 2,
+    "Gould_full_printed_rereads": [
+      39,
+      40,
+      41,
+      164,
+      165,
+      200
+    ],
+    "fixed_resource_completions_increment": 0,
+    "R10_status": "partial",
+    "new_native_calls": 0
+  },
+  "source": {
+    "listing": "https://www.gangqinpu.com/cchtml/1050811.htm",
+    "provided_asset": "https://s201.lzjoy.com/res/statics/fileupload/5001b891a1ef6ce8e4c2de1ebdd112b76368af05c2466_3.png",
+    "local_path": "tmp/engraving/shamshir-preview-2026-11-01/public-preview.jpg",
+    "sha256": "f16b040854e87d8edcf239ec4466c63f5888ae826efa583b31e3e777cd359b9b",
+    "bytes": 548741,
+    "actual_format": "JPEG",
+    "image_size": [
+      1600,
+      2263
+    ],
+    "HTTP_type": "image/png",
+    "original_bytes_preserved": true,
+    "credited_reviewer_evidence": "shinianqi_source_evidence.json",
+    "reviewer_attribution": "Public acknowledgements establish participation in notation checking, not particular decisions or authorship of entire engraving.",
+    "other_platform": "https://www.mymusic5.com/zh-hans/video/79353",
+    "other_platform_read_scope": "Primary listing description as search index excerpt; direct page fetch cache-miss. Do not claim full score/pages or identical file revision."
+  },
+  "reading": {
+    "preview_images": [
+      1,
+      1
+    ],
+    "whole_image_viewed": true,
+    "systems": [
+      {
+        "starts": 1,
+        "ends": 4
+      },
+      {
+        "starts": 5,
+        "ends": 8
+      },
+      {
+        "starts": 9,
+        "ends": 12
+      },
+      {
+        "starts": 13,
+        "ends": 16
+      },
+      {
+        "starts": 17,
+        "ends": 19
+      },
+      {
+        "starts": 20,
+        "ends": 22
+      }
+    ],
+    "bars": [
+      1,
+      22
+    ],
+    "detail_views": 9,
+    "initial_crops_clipped_label_or_number": 2,
+    "corrected_complete_context_views": 2,
+    "Gould_printed_rereads": [
+      39,
+      40,
+      41,
+      164,
+      165,
+      200
+    ],
+    "Gould_physical_rereads": [
+      59,
+      60,
+      61,
+      184,
+      185,
+      220
+    ],
+    "new_official_or_Gould_coverage": 0,
+    "full_paid_score_read": false,
+    "video_audio_read": false,
+    "new_native_calls": 0,
+    "new_fixed_resource_completions": 0
+  },
+  "rhythm": {
+    "m18_first_two_quarters_upper": {
+      "normal_eighth_onsets": [
+        "0",
+        "1",
+        "3/2"
+      ],
+      "triplet16_onsets": [
+        "1/2",
+        "2/3",
+        "5/6"
+      ]
+    },
+    "m18_lower_first_quarter": [
+      {
+        "q": "0",
+        "duration": "1/2",
+        "kind": "chord"
+      },
+      {
+        "q": "1/2",
+        "duration": "1/4",
+        "kind": "rest"
+      },
+      {
+        "q": "3/4",
+        "duration": "1/4",
+        "kind": "note"
+      }
+    ],
+    "lower_attack_between_upper_triplet_members": "2/3 < 3/4 < 5/6",
+    "source_structure_or_playback_validation": false
+  },
+  "measurement": {
+    "scope": "m18 upper, manually selected raster notehead windows; RGB JPEG, not PDF/SVG coordinates or semantic source",
+    "image_size": [
+      1600,
+      2263
+    ],
+    "threshold": 100,
+    "excluded_horizontal_staff_rows": [
+      1627,
+      1639,
+      1650,
+      1651,
+      1662,
+      1663,
+      1674
+    ],
+    "estimated_x_uncertainty_pixels": 1,
+    "entries": [
+      {
+        "label": "triplet1",
+        "quarter_onset": "1/2",
+        "manual_window": [
+          671,
+          1656,
+          691,
+          1668
+        ],
+        "ink_bbox": [
+          674,
+          1656,
+          688,
+          1668
+        ],
+        "bbox_x_center": 681
+      },
+      {
+        "label": "triplet2",
+        "quarter_onset": "2/3",
+        "manual_window": [
+          700,
+          1650,
+          720,
+          1662
+        ],
+        "ink_bbox": [
+          703,
+          1652,
+          717,
+          1661
+        ],
+        "bbox_x_center": 710
+      },
+      {
+        "label": "triplet3",
+        "quarter_onset": "5/6",
+        "manual_window": [
+          729,
+          1656,
+          749,
+          1668
+        ],
+        "ink_bbox": [
+          731,
+          1656,
+          746,
+          1668
+        ],
+        "bbox_x_center": 738.5
+      },
+      {
+        "label": "ordinary_arrival",
+        "quarter_onset": "1",
+        "manual_window": [
+          750,
+          1662,
+          770,
+          1674
+        ],
+        "ink_bbox": [
+          753,
+          1664,
+          767,
+          1673
+        ],
+        "bbox_x_center": 760
+      }
+    ],
+    "gaps_pixels": [
+      29,
+      28.5,
+      21.5
+    ],
+    "no_physical_size_or_host_inference": true
+  },
+  "judgments": {
+    "keep": "Alternation/dynamics,4bar then3bar rows,interior-rest beat beaming and pickup slurs.",
+    "conditional_compare": "First/complex partial3shortbracket;complete triplet-to-arrival spacing if editable input available.",
+    "counterexample": "Additional lower onset does not by itself justify uneven upper pulse;only measuring3heads misses the tighter following arrival.",
+    "source_software": "unknown;do not transfer prior12/11engine explanation to thisJPEG",
+    "preference_or_adoption_increment": 0
+  },
+  "acquisition": {
+    "ordinary_public_GETs": 3,
+    "asset_saved_copies": 1,
+    "initial_two_local_signature_checks_did_not_save_or_view_image": true,
+    "actual_format_mismatch_found": "JPEG despite.png/PNGtype;Pillow used to identify format,not decrypt/transform",
+    "full_paid_score_requested": false,
+    "credentials_used": false,
+    "new_browser_tabs": 0
+  },
+  "protected_sources": [
+    {
+      "id": "mscz",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "original_unchanged": true,
+      "sha256_now": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "id": "pdf",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "original_unchanged": true,
+      "sha256_now": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "id": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "original_unchanged": true,
+      "sha256_now": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "cache": {
+    "private_root": "tmp/engraving/shamshir-preview-2026-11-01",
+    "final_private_bytes": 556867,
+    "budget_bytes": 2097152,
+    "files": [
+      {
+        "path": "download-first-check.json",
+        "bytes": 627,
+        "sha256": "ec4d414ad5405ced50a77421223750a286c7cc7b7b92af504ac3e47336a5c22f"
+      },
+      {
+        "path": "download.json",
+        "bytes": 787,
+        "sha256": "ca5a72712deb169fcdf082561d8ddb243ab0c331d8953e6b056223afd3ca9e3f"
+      },
+      {
+        "path": "download.py",
+        "bytes": 1456,
+        "sha256": "0447c78a7bfa2d00f58aeabc8ffa4e3df35d590c3b34bacc26ba77baa24ba1a6"
+      },
+      {
+        "path": "head-gap-measurement.json",
+        "bytes": 1627,
+        "sha256": "c9783bc4313588da46c43711404fa721e2371b46aab09c1db2bebdc20df66bb6"
+      },
+      {
+        "path": "initial-judgments.json",
+        "bytes": 1293,
+        "sha256": "1dceb8b0c4e31095cf95301cee6ec6fa463daa6c366302af89cfa569b144acf3"
+      },
+      {
+        "path": "measure.py",
+        "bytes": 1272,
+        "sha256": "eefca0758d518eacc6952d30a515a7600088630662003daab489dd2f34486fee"
+      },
+      {
+        "path": "public-preview.jpg",
+        "bytes": 548741,
+        "sha256": "f16b040854e87d8edcf239ec4466c63f5888ae826efa583b31e3e777cd359b9b"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 1064,
+        "sha256": "4253c540a303bc1315d983992cc47750846c4c26f2d451d0a4a91e99fd26206a"
+      }
+    ],
+    "new_public_Git_reference_assets": 0,
+    "new_reference_PDFs": 0,
+    "new_user_original_copies": 0,
+    "new_runtime_copies": 0,
+    "new_video_downloads": 0,
+    "files_deleted": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3267821568
+  },
+  "software_adaptation_changes": 0,
+  "validation": {
+    "status": "pass",
+    "progress_check": "pass",
+    "skill_quick_validate": "pass",
+    "library_regressions": [
+      6,
+      6
+    ],
+    "all_topic_routes": [
+      20,
+      20
+    ],
+    "queries": [
+      {
+        "topic": "spacing",
+        "query": "m18 接收",
+        "new_case_rank": 1,
+        "limit": 3
+      },
+      {
+        "topic": "rhythm",
+        "query": "组内 休止",
+        "new_case_rank": 2,
+        "limit": 3
+      }
+    ],
+    "query_limit": "Generic 三连/接收/边界 did not retrieve new case within3; published example now includes m18. Lexical location is not semantic correctness.",
+    "private_files_checked": 8,
+    "local_markdown_links_checked": 447,
+    "coverage_completion_counters_unchanged": true,
+    "preferences_unchanged": true,
+    "fixed_prior_tag_unchanged": true,
+    "diff_check": "pass"
+  }
+}
