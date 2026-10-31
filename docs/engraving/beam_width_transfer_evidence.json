@@ -1,0 +1,729 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31",
+  "kind": "known-source real-score application of beam-width judgment;five contextual decisions and one local private candidate",
+  "study": "BEAM_WIDTH_TRANSFER.md",
+  "coverage_increment": 0,
+  "independent_judgment_accuracy_claim": false,
+  "protected_sources": [
+    {
+      "role": "user MSCZ",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "role": "user PDF",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "role": "official A040 PDF",
+      "path": "C:/Users/Fred/OneDrive - yunzd/cloudreve/Sheets/【2021-】新官谱/EONIAN - Expelled from Paradise - Theme song.pdf",
+      "sha256": "9ebee9d51247c7e96b49759418a30dd62e79e3de59686315dd54b347f8cf01f4"
+    },
+    {
+      "role": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "actual_views": {
+    "user_pdf_pages": [
+      3,
+      4,
+      5,
+      7
+    ],
+    "official_pdf_pages": [
+      6
+    ],
+    "official_focus": "p6 system5 middle bar;upper staff four groups of16rest plus three16ths;not triplets",
+    "gould_printed_pages": [
+      22,
+      23,
+      24
+    ],
+    "gould_physical_pages": [
+      42,
+      43,
+      44
+    ],
+    "viewing": "full pages followed by focused view;source renders in memory only",
+    "gould_locator_correction": "nearest-chord-head clause is printedp24;previous topic range22–23 corrected to22–24"
+  },
+  "native_host": {
+    "path": "E:/programming/funcodes/mcp-musescore/tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "svg_reported_version": "3.7.0",
+    "build_relationship_to_current_source": "unverified"
+  },
+  "baseline": {
+    "directory": "tmp/engraving/user-combined-2026-10-31/native",
+    "input": "baseline.mscz",
+    "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+    "relationship": "identical input payload bytes to originalrelease5;reuse existing SVG/MusicXML/MIDI exports",
+    "not_previous_combined_candidate": true
+  },
+  "cases": [
+    {
+      "id": "RB01",
+      "case": "Userm57",
+      "judgment": "retain0.25sp cue-sized measured pair"
+    },
+    {
+      "id": "RB02",
+      "case": "Userm103",
+      "judgment": "retain longer six-note group;two small measured16ths are not grace"
+    },
+    {
+      "id": "RB03",
+      "case": "Userm130",
+      "judgment": "retain;measure upstem chord from highest visible head,includingplay0head"
+    },
+    {
+      "id": "RB04",
+      "case": "A040p6s5",
+      "judgment": "retain repeated shallow three-note form and staffline attachments"
+    },
+    {
+      "id": "RB05",
+      "case": "Userm81",
+      "judgment": "compare1sp automatic to0.5sp local slant atsamewidth"
+    }
+  ],
+  "source_interpretation": {
+    "main_piano_source_staff_ids": [
+      3,
+      4
+    ],
+    "source_voice_index": 0,
+    "source_program_version": "3.6.3",
+    "m57": "ordinary measured16ths with Chord/small=1;size ratio0.75;retain existing0.25sp shallow slant",
+    "m103": "six plus two ordinary-duration16ths then actual6:4six16ths;only first low note normal size;last six all moved to upper staff as independent downstem layer,not alternating crossstaff group",
+    "m130": "first group nearest headsD3/D3 flat;secondA3/A2 descending;visible parenthesizedA3play0still participates in geometry",
+    "m81": "normal-sized measuredA3–D3pair atq2.5/2.75;no grace/tuplet/chord;empty sourceBeam gains oneFragment"
+  },
+  "metrics": {
+    "m57": {
+      "span_sp": 2.394391515369403,
+      "slant_sp": -0.24999999999999936,
+      "angle_degrees": 5.96069246953283,
+      "head_to_primary_center_sp": [
+        2.9421175624662923,
+        3.192117562466294
+      ],
+      "stems": [
+        [
+          [
+            776.697,
+            394.046
+          ],
+          [
+            776.697,
+            456.71
+          ]
+        ],
+        [
+          [
+            829.977,
+            382.92
+          ],
+          [
+            829.977,
+            451.147
+          ]
+        ]
+      ],
+      "note_scale_ratio": 0.7499997191260551
+    },
+    "m103_six": {
+      "span_sp": 10.191663857993483,
+      "slant_sp": -1.6613863610830257,
+      "angle_degrees": 9.25858979998911,
+      "head_to_primary_center_sp": [
+        3.4929221435793707,
+        6.831535782496347
+      ],
+      "stems": [
+        [
+          [
+            2502.45,
+            1946.61
+          ],
+          [
+            2502.45,
+            2021.54
+          ]
+        ],
+        [
+          [
+            2729.24,
+            1835.35
+          ],
+          [
+            2729.24,
+            1984.57
+          ]
+        ]
+      ]
+    },
+    "m130_first": {
+      "span_sp": 8.616528851339213,
+      "slant_sp": 0,
+      "angle_degrees": 0,
+      "head_to_primary_center_sp": [
+        3.0000000000000013,
+        3.0000000000000013
+      ],
+      "stems": [
+        [
+          [
+            440.956,
+            807.978
+          ],
+          [
+            440.956,
+            666.901
+          ]
+        ],
+        [
+          [
+            632.691,
+            730.096
+          ],
+          [
+            632.691,
+            666.901
+          ]
+        ]
+      ]
+    },
+    "m130_second": {
+      "span_sp": 7.6591317634369975,
+      "slant_sp": 1.9999999999999973,
+      "angle_degrees": 14.634640508901937,
+      "head_to_primary_center_sp": [
+        3.0000000000000013,
+        4.500000000000004
+      ],
+      "stems": [
+        [
+          [
+            717.907,
+            707.844
+          ],
+          [
+            717.907,
+            622.397
+          ]
+        ],
+        [
+          [
+            888.338,
+            841.356
+          ],
+          [
+            888.338,
+            666.901
+          ]
+        ]
+      ]
+    },
+    "m81_original": {
+      "span_sp": 2.002471632400857,
+      "slant_sp": 0.9998876530726911,
+      "angle_degrees": 26.534183381098963,
+      "head_to_primary_center_sp": [
+        4,
+        2.9998876530727014
+      ],
+      "stems": [
+        [
+          [
+            1192.56,
+            2075.89
+          ],
+          [
+            1192.56,
+            2161.16
+          ]
+        ],
+        [
+          [
+            1237.12,
+            2120.4
+          ],
+          [
+            1237.12,
+            2183.41
+          ]
+        ]
+      ]
+    },
+    "m81_candidate": {
+      "span_sp": 2.002471632400857,
+      "slant_sp": 0.4997191326817176,
+      "angle_degrees": 14.012037394371545,
+      "head_to_primary_center_sp": [
+        4.500168520390973,
+        2.9998876530727014
+      ],
+      "stems": [
+        [
+          [
+            1192.56,
+            2075.89
+          ],
+          [
+            1192.56,
+            2172.29
+          ]
+        ],
+        [
+          [
+            1237.12,
+            2120.4
+          ],
+          [
+            1237.12,
+            2183.41
+          ]
+        ]
+      ]
+    }
+  },
+  "metric_definition": "User span uses stem axes;slant and endpoint lengths use primary-beam reference at SVGStemend,not total chord stem line or exact filled polygon centre.All lengths normalized to local mean staffspace.",
+  "official_pdf_metrics": {
+    "upper_staff_space_pt": 4.229999625000005,
+    "staff_line_width_pt": 0.36,
+    "groups": [
+      {
+        "index": 1,
+        "polygon_span_pt": 19.43998725,
+        "primary_rise_pt": 2.03997824999999,
+        "primary_rise_sp": 0.48226440445606134,
+        "angle_degrees": 5.990535212477515,
+        "white_gap_left_sp": 0.2269555165740727,
+        "white_gap_right_sp": 0.255319526180831,
+        "left_top_edge_minus_staffbottom_pt": 0,
+        "right_bottom_edge_minus_staffbottom_pt": 0.1199797500000841
+      },
+      {
+        "index": 2,
+        "polygon_span_pt": 19.56001274999994,
+        "primary_rise_pt": 2.03997824999999,
+        "primary_rise_sp": 0.48226440445606134,
+        "angle_degrees": 5.954040552702896,
+        "white_gap_left_sp": 0.2269555165740727,
+        "white_gap_right_sp": 0.255319526180831,
+        "left_top_edge_minus_staffbottom_pt": 0,
+        "right_bottom_edge_minus_staffbottom_pt": 0.1199797500000841
+      },
+      {
+        "index": 3,
+        "polygon_span_pt": 19.800017999999966,
+        "primary_rise_pt": 2.03997824999999,
+        "primary_rise_sp": 0.48226440445606134,
+        "angle_degrees": 5.882378002515207,
+        "white_gap_left_sp": 0.2269555165740727,
+        "white_gap_right_sp": 0.255319526180831,
+        "left_top_edge_minus_staffbottom_pt": 0,
+        "right_bottom_edge_minus_staffbottom_pt": 0.1199797500000841
+      },
+      {
+        "index": 4,
+        "polygon_span_pt": 19.679970000000026,
+        "primary_rise_pt": 2.03997824999999,
+        "primary_rise_sp": 0.48226440445606134,
+        "angle_degrees": 5.918006660279379,
+        "white_gap_left_sp": 0.2269555165740727,
+        "white_gap_right_sp": 0.255319526180831,
+        "left_top_edge_minus_staffbottom_pt": 0,
+        "right_bottom_edge_minus_staffbottom_pt": 0.1199797500000841
+      }
+    ],
+    "reading_inference": "repeated shallow outlines,staffline attachment and clear interbeam white space reinforce group recognition;author workflow and global house settings unknown"
+  },
+  "candidate": {
+    "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-m81-halfsp.mscz",
+    "sha256": "08c9b74e1f8805ba9fe9ea6c6d34816c68044c47d915958d677b6f9eb932c7bb",
+    "bytes": 68512,
+    "exact_patch": {
+      "staff_id": 4,
+      "measure": 81,
+      "voice0": 0,
+      "byte_start": 792397,
+      "old_ascii": "<Beam>\n            </Beam>",
+      "new_ascii": "<Beam>\n            <Fragment><y1>4.5</y1><y2>5</y2></Fragment></Beam>",
+      "reverse_restores_original_bytes": true,
+      "all_other_zip_payloads_identical": true
+    },
+    "beam_edges": [
+      {
+        "key": "original",
+        "staff_line_width_sp": 0.08987754184923066,
+        "beams": [
+          {
+            "index": 1140,
+            "edges_at_stems_sp": [
+              [
+                3.7480887937919256,
+                4.30711534602388
+              ],
+              [
+                4.748259692085307,
+                5.306860277154456
+              ]
+            ]
+          },
+          {
+            "index": 1141,
+            "edges_at_stems_sp": [
+              [
+                2.9980607070600933,
+                3.557087259292048
+              ],
+              [
+                3.998231605353475,
+                4.556832190422623
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "key": "candidate",
+        "staff_line_width_sp": 0.08987754184923066,
+        "beams": [
+          {
+            "index": 1140,
+            "edges_at_stems_sp": [
+              [
+                4.2560239497551935,
+                4.771471652260522
+              ],
+              [
+                4.756109398901894,
+                5.271557101407223
+              ]
+            ]
+          },
+          {
+            "index": 1141,
+            "edges_at_stems_sp": [
+              [
+                3.5059958630233607,
+                4.021443565528689
+              ],
+              [
+                4.006081312170062,
+                4.521529014675391
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "judgment": "prefer for a limited local comparison;short end retained,long end adds0.5sp;not adopted by user",
+    "combination_with_previous_candidates": false
+  },
+  "native_checks": {
+    "new_cli_calls": 3,
+    "formats": [
+      "svg",
+      "mxl",
+      "mid"
+    ],
+    "all_exit_codes": [
+      0,
+      0,
+      0
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "old_count": 1188,
+        "new_count": 1188,
+        "structure_equal": true,
+        "changed_elements": []
+      },
+      {
+        "page": 2,
+        "old_count": 1359,
+        "new_count": 1359,
+        "structure_equal": true,
+        "changed_elements": []
+      },
+      {
+        "page": 3,
+        "old_count": 1200,
+        "new_count": 1200,
+        "structure_equal": true,
+        "changed_elements": []
+      },
+      {
+        "page": 4,
+        "old_count": 1310,
+        "new_count": 1310,
+        "structure_equal": true,
+        "changed_elements": [
+          {
+            "index": 476,
+            "cls": "Stem",
+            "differences": [
+              {
+                "attribute": "points",
+                "max_numeric_delta": 11.13000000000011
+              }
+            ]
+          },
+          {
+            "index": 1140,
+            "cls": "Beam",
+            "differences": [
+              {
+                "attribute": "d",
+                "max_numeric_delta": 11.610000000000127
+              }
+            ]
+          },
+          {
+            "index": 1141,
+            "cls": "Beam",
+            "differences": [
+              {
+                "attribute": "d",
+                "max_numeric_delta": 11.610000000000127
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "old_count": 1208,
+        "new_count": 1208,
+        "structure_equal": true,
+        "changed_elements": []
+      },
+      {
+        "page": 6,
+        "old_count": 1262,
+        "new_count": 1262,
+        "structure_equal": true,
+        "changed_elements": []
+      },
+      {
+        "page": 7,
+        "old_count": 1138,
+        "new_count": 1138,
+        "structure_equal": true,
+        "changed_elements": []
+      },
+      {
+        "page": 8,
+        "old_count": 517,
+        "new_count": 517,
+        "structure_equal": true,
+        "changed_elements": []
+      }
+    ],
+    "musicxml_note_rest_objects_compared": [
+      3203,
+      3203
+    ],
+    "musicxml_note_signature_differences": [],
+    "musicxml_ignored_attributes": [
+      "default-x",
+      "default-y",
+      "relative-x",
+      "relative-y",
+      "bezier-x",
+      "bezier-y",
+      "bezier-x2",
+      "bezier-y2",
+      "bezier-offset",
+      "bezier-offset2"
+    ],
+    "musicxml_scope": "note/rest subtrees,all other attributes and children retained;not every non-note element compared",
+    "midi_bytes_identical": true,
+    "midi_bytes": 19491,
+    "svg_comparison": "graphical attributes and numeric tokens;exclude root/title/desc and normalize path command separators only",
+    "save_reload_performed": false,
+    "musicxml_reimport_performed": false,
+    "print_or_performance_tested": false,
+    "user_preference_confirmed": false
+  },
+  "views": {
+    "context": "tmp/engraving/real-beam-transfer-2026-10-31/m81-system-comparison.png",
+    "detail": "tmp/engraving/real-beam-transfer-2026-10-31/m81-detail-comparison.png",
+    "source": "same frozen native host SVGs,identical physical scale and crop per comparison;labels outside music",
+    "physical_dpi": {
+      "context": 200,
+      "detail": 300
+    }
+  },
+  "private_records": {
+    "directory": "tmp/engraving/real-beam-transfer-2026-10-31",
+    "calls": "calls.json",
+    "scope": "scope.json",
+    "audit": "audit.json",
+    "metrics": "metrics.json",
+    "beam_edges": "beam-edges.json"
+  },
+  "cache": {
+    "as_of": "2026-10-31T06:45:39.747Z",
+    "batch_logical_bytes": 3725136,
+    "batch_budget_bytes": 6291456,
+    "new_source_pdf_copies": 0,
+    "new_runtime_copies": 0,
+    "new_source_page_raster_files": 0,
+    "new_native_svg_pages": 8,
+    "new_preview_png_files": 2,
+    "no_deletions": true,
+    "total_exact_bytes": null,
+    "total_scan_gap": "oldtmp/engraving/skill-review-2026-10-19/locator-m6az562xdenied access;no ACL changes",
+    "previous_check_allowance_bytes": 3221946368,
+    "new_batch_allowance_bytes": 6291456,
+    "current_check_allowance_bytes": 3228237824,
+    "reason": "eight vector pages needed to test nonlocal geometry;reuse complete baseline/runtime;one private score candidate,compressedMXL,MIDI,two useful previews,small records only;6MiB allowance explicitly recorded,not assertion of exact total"
+  },
+  "progress": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resource_scopes": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "contextual_cases": [
+      5,
+      5
+    ],
+    "private_local_candidate": [
+      1,
+      1
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ],
+    "software_adaptation_changes": 0
+  },
+  "release_boundary": "working-branch supplement;fixedengraving-v0.20.0and its certificate unchanged",
+  "validation": {
+    "as_of": "2026-10-31T06:48:26.934Z",
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "existing_cli_regressions": [
+      6,
+      6
+    ],
+    "question_lookup": [
+      {
+        "topic": "beams",
+        "query": "m81 半谱间",
+        "new_study_within_first_three": true
+      },
+      {
+        "topic": "notation",
+        "query": "m103 小音符 占时",
+        "new_study_within_first_three": true
+      }
+    ],
+    "changed_markdown_local_links_checked": 711,
+    "broken_local_links": [],
+    "protected_source_and_artifact_hashes_checked": 17,
+    "hash_errors": [],
+    "private_cache_bytes_after_checks": 3725136,
+    "git_diff_check": "passed",
+    "existing_tags_certificates_modified": false
+  },
+  "artifacts": [
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-m81-halfsp.mscz",
+      "bytes": 68512,
+      "sha256": "08c9b74e1f8805ba9fe9ea6c6d34816c68044c47d915958d677b6f9eb932c7bb"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-1.svg",
+      "bytes": 522286,
+      "sha256": "605d7da6565ff952390de71e694894a643a79c843f9f276316460ab4cc690774"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-2.svg",
+      "bytes": 430205,
+      "sha256": "6a24ab3f93411432240d71f7f5d25eab8da00c46dbd220fb2e794ed003ea89b0"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-3.svg",
+      "bytes": 363773,
+      "sha256": "957bec429267025c89c82df850fe0cae012b36c167fd3d607f97a6e24485f43e"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-4.svg",
+      "bytes": 559387,
+      "sha256": "2115a0c04bcc25060efb865d3d8f824728a1a834970323ce0d93458dab9402cf"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-5.svg",
+      "bytes": 342841,
+      "sha256": "c606ad1040d832eec698f05a08187bb5026c17c585a7a911023a3da1976c0c2f"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-6.svg",
+      "bytes": 431710,
+      "sha256": "ce38d844c466bc4ba4d28f7d2d1f848700a3076c79642f9dc666415565491148"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-7.svg",
+      "bytes": 377853,
+      "sha256": "b7aa0f118eefda5a2862771028fbd341d9b44c14953993cc74471e8c70f032d3"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate-8.svg",
+      "bytes": 304720,
+      "sha256": "2a3ee380cf147025c6935d36e1719395c359f3810b98029af4c65c38d3a90f10"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate.mxl",
+      "bytes": 66201,
+      "sha256": "1819f667dab8f57d0d29ef641a1bfa01905cfe3e5068036ab5869ea09654a0de"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/candidate.mid",
+      "bytes": 19491,
+      "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/m81-system-comparison.png",
+      "bytes": 133996,
+      "sha256": "c1b0503019d12593355dc7b9f6b1cde7411eda281ac6cc46fae08c15d4e72565"
+    },
+    {
+      "path": "tmp/engraving/real-beam-transfer-2026-10-31/m81-detail-comparison.png",
+      "bytes": 76970,
+      "sha256": "c47f69c1104bc64e7d78d8c35e05ac4de101eb29008f7f33474b273f72d737e3"
+    }
+  ]
+}

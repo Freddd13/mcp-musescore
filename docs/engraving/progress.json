@@ -3143,7 +3143,7 @@
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "Skill local question-to-passage retrieval and0.20release;ChromeR12same-tab content timeout,no new learning coverage.",
+    "scope": "Five real-score beam-width decisions;four retain and one local m81private candidate.Native eight-page geometry and music checks;no new unique source reading coverage.",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3153,24 +3153,24 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 0,
+    "book_reread_pages": 3,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 0,
+    "new_native_candidate_scenarios": 1,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "../ENGRAVING_SKILL.md"
+      "BEAM_WIDTH_TRANSFER.md"
     ],
-    "review_evidence": "release_0_20_0_evidence.json",
+    "review_evidence": "beam_width_transfer_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "BEAM_WIDTH_STUDY.md",
-    "evidence": "beam_width_evidence.json",
-    "completed_conditions": 5,
-    "planned_conditions": 5,
-    "description": "Original two-note double beams at40/50/70/100mm,plus50mm local half-sp slant;40mm rejected capacity diagnostic.13CLIcalls,60note records,one native save/reload;not user aesthetic acceptance.",
+    "reference": "BEAM_WIDTH_TRANSFER.md",
+    "evidence": "beam_width_transfer_evidence.json",
+    "completed_conditions": 1,
+    "planned_conditions": 1,
+    "description": "Private local m81beam candidate from originalrelease5;3CLIcalls,8page geometry audit,3203note/rest subtrees and19491byte MIDI equal;no save/reload or user adoption.",
     "reading_increment": 0,
     "user_preference_confirmed": false,
     "software_adaptation_changes": 0
@@ -3236,18 +3236,29 @@
       "reading_increment": 0,
       "user_preference_confirmed": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "BEAM_WIDTH_STUDY.md",
+      "evidence": "beam_width_evidence.json",
+      "completed_conditions": 5,
+      "planned_conditions": 5,
+      "description": "Original two-note double beams at40/50/70/100mm,plus50mm local half-sp slant;40mm rejected capacity diagnostic.13CLIcalls,60note records,one native save/reload;not user aesthetic acceptance.",
+      "reading_increment": 0,
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
-    "reference": "EONIAN_SPACING_REVIEW.md",
-    "evidence": "eonian_spacing_review_evidence.json",
-    "reviewed_groups": 4,
-    "planned_groups": 4,
-    "glyph_pairs_checked": 14,
-    "planned_glyph_pairs": 14,
-    "scope": "Known-score glyph occupancy preliminary screen;not native alternate or independent transfer.",
-    "decision": "Retain original;low-priority common-column rebalance candidate.",
-    "new_native_conditions": 0
+    "reference": "BEAM_WIDTH_TRANSFER.md",
+    "evidence": "beam_width_transfer_evidence.json",
+    "reviewed_cases": 5,
+    "planned_cases": 5,
+    "decisions": {
+      "retain": 4,
+      "local_candidate": 1
+    },
+    "scope": "Known source contextual application;not new blind accuracy or integrated whole-score round.",
+    "new_native_conditions": 1
   },
   "latest_supplemental_reading": {
     "reference": "HOSHIDE_ONDINE_READING.md",
@@ -3273,6 +3284,17 @@
         "ratio": 2
       },
       "scope": "Cross-source contextual review,not a new blind transfer test or reading coverage",
+      "new_native_conditions": 0
+    },
+    {
+      "reference": "EONIAN_SPACING_REVIEW.md",
+      "evidence": "eonian_spacing_review_evidence.json",
+      "reviewed_groups": 4,
+      "planned_groups": 4,
+      "glyph_pairs_checked": 14,
+      "planned_glyph_pairs": 14,
+      "scope": "Known-score glyph occupancy preliminary screen;not native alternate or independent transfer.",
+      "decision": "Retain original;low-priority common-column rebalance candidate.",
       "new_native_conditions": 0
     }
   ],
