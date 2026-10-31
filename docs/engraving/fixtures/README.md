@@ -1,5 +1,7 @@
 # 独立净书复现谱例
 
+2026-10-31新增[摇摆／三连研究](../SWING_ALIGNMENT_STUDY.md)四份CC0原创MSCX：swing-implicit、swing-aligned、swing-explicit、swing-straight-diagnostic。固定100×64mm、Leland／Leland Text、10音；分别为67%普通八分、局部解释性对齐、显式3:2和50%诊断。偏移仅对本宽度有效，诊断版不作摇摆候选；本机原生验证与限制见专题及证据。
+
 ## 十二对十一与联合时间轴间距
 
 2026-10-23原创CC0两小节4/4、33音及两个八分休止，固定Leland／Leland Text、1.57mm sp、A4满行预算；音符独立设计，不是官谱转写。上方十二个普通三十二分、下方11:6十六分在同一时段运行，后者中途换谱号。

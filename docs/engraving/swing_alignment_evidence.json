@@ -1,0 +1,1414 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-31T03:29:16.259Z",
+  "previous_goal_turn_classification": "progress:56d9398published EONIAN occupancy review;clean worktree and ff-only pull confirmed.",
+  "scope": "One original swing/triplet alignment experiment,fourconditions and one saved/reloaded candidate;not an altered private score.",
+  "reference": "SWING_ALIGNMENT_STUDY.md",
+  "protected_sources": [
+    {
+      "id": "A135",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Tokimeki poporon - Gochuumon wa usagi desu ka？？ - Ending Theme.pdf",
+      "sha256": "164705fb4581b6a6e8708a2a74a700f8de57d91282e0b1e1ad1196719d194949",
+      "pages": 7,
+      "unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "unchanged": true
+    }
+  ],
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "source_build_correspondence_verified": false,
+    "configuration": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\swing-alignment-2026-10-31\\config",
+    "configuration_precreated": true,
+    "existing_runtime_reused": true
+  },
+  "source_reading": {
+    "working_tree_commit": "d7adc0902d964a11535ffd100d09c54b62487c64",
+    "files": [
+      {
+        "path": "E:/programming/funcodes/muse3_dev/MuseScore/libmscore/rendermidi.cpp",
+        "sha256": "88289cd4024680e28fbc2209adf47bc394cc6a0f3fd45d78100c5edc818c43ea",
+        "read_only": true
+      },
+      {
+        "path": "E:/programming/funcodes/muse3_dev/MuseScore/libmscore/staff.cpp",
+        "sha256": "61bef67e1eb9f31fa14bb44d949d0376be56133310c9be620ac9e5351b5b07ee",
+        "read_only": true
+      },
+      {
+        "path": "E:/programming/funcodes/muse3_dev/MuseScore/libmscore/stafftextbase.cpp",
+        "sha256": "31a9e0d1a7ae2313fab946b25461bb562c22d81a2225fbea0993ad8f80054633",
+        "read_only": true
+      }
+    ],
+    "sections": [
+      "Score::swingAdjustParams and isSubdivided",
+      "Score::renderChord playback call excluding Tuplet",
+      "Staff::swing and StaffTextBase swing serialization"
+    ],
+    "not_a_binary_build_proof": true
+  },
+  "primary_web": {
+    "url": "https://musescore.org/en/handbook/3/swing",
+    "body_read": true,
+    "used_for": [
+      "Visible text and playback settings",
+      "System/staff scope",
+      "Straight restoration"
+    ]
+  },
+  "recipe": {
+    "upper_pitches": [
+      72,
+      74,
+      76,
+      77,
+      76,
+      74
+    ],
+    "upper_q": [
+      "0",
+      "1/3",
+      "2/3",
+      "1",
+      "4/3",
+      "5/3"
+    ],
+    "lower_pitches": [
+      48,
+      55,
+      50,
+      57
+    ],
+    "lower_implicit_q": [
+      "0",
+      "1/2",
+      "1",
+      "3/2"
+    ],
+    "lower_explicit_q": [
+      "0",
+      "2/3",
+      "1",
+      "5/3"
+    ],
+    "bar_quarters": 2,
+    "expected_note_ons": 10,
+    "tempo_quarters_per_second": 2
+  },
+  "conditions": [
+    {
+      "id": "implicit",
+      "role": "67percent playback,ordinarylower eighths"
+    },
+    {
+      "id": "aligned",
+      "role": "Two localChordoffsets only;implicit music and playback preserved"
+    },
+    {
+      "id": "explicit",
+      "role": "Actual lower3:2quarter+eighth,exact two-thirds onset"
+    },
+    {
+      "id": "straight-diagnostic",
+      "role": "50percent playback,graphics control only"
+    }
+  ],
+  "native_commands": [
+    {
+      "condition": "implicit",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\implicit-1.svg"
+      ]
+    },
+    {
+      "condition": "implicit",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\implicit.mid"
+      ]
+    },
+    {
+      "condition": "implicit",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\implicit.musicxml"
+      ]
+    },
+    {
+      "condition": "implicit",
+      "format": "pdf",
+      "returncode": 0,
+      "outputs": [
+        "exports\\implicit.pdf"
+      ]
+    },
+    {
+      "condition": "aligned",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\aligned-1.svg"
+      ]
+    },
+    {
+      "condition": "straight-diagnostic",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\straight-diagnostic-1.svg"
+      ]
+    },
+    {
+      "condition": "straight-diagnostic",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\straight-diagnostic.mid"
+      ]
+    },
+    {
+      "condition": "explicit",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\explicit-1.svg"
+      ]
+    },
+    {
+      "condition": "explicit",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\explicit.mid"
+      ]
+    },
+    {
+      "condition": "explicit",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\explicit.musicxml"
+      ]
+    },
+    {
+      "condition": "explicit",
+      "format": "pdf",
+      "returncode": 0,
+      "outputs": [
+        "exports\\explicit.pdf"
+      ]
+    },
+    {
+      "condition": "aligned",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\aligned.mid"
+      ]
+    },
+    {
+      "condition": "aligned",
+      "format": "musicxml",
+      "returncode": 0,
+      "outputs": [
+        "exports\\aligned.musicxml"
+      ]
+    },
+    {
+      "condition": "aligned",
+      "format": "pdf",
+      "returncode": 0,
+      "outputs": [
+        "exports\\aligned.pdf"
+      ]
+    },
+    {
+      "condition": "aligned",
+      "format": "mscx",
+      "returncode": 0,
+      "outputs": [
+        "exports\\aligned.mscx"
+      ]
+    },
+    {
+      "condition": "aligned-reload",
+      "format": "svg",
+      "returncode": 0,
+      "outputs": [
+        "exports\\aligned-reload-1.svg"
+      ]
+    },
+    {
+      "condition": "aligned-reload",
+      "format": "mid",
+      "returncode": 0,
+      "outputs": [
+        "exports\\aligned-reload.mid"
+      ]
+    }
+  ],
+  "native_validation": {
+    "status": "passed",
+    "native_calls": 17,
+    "geometry": {
+      "implicit": {
+        "upper": [
+          [
+            441.626,
+            302.528
+          ],
+          [
+            570.592,
+            291.402
+          ],
+          [
+            731.8,
+            280.276
+          ],
+          [
+            860.766,
+            269.15
+          ],
+          [
+            989.731,
+            280.276
+          ],
+          [
+            1150.94,
+            291.402
+          ]
+        ],
+        "lower": [
+          [
+            441.626,
+            602.929
+          ],
+          [
+            651.196,
+            558.425
+          ],
+          [
+            860.766,
+            591.803
+          ],
+          [
+            1070.34,
+            547.299
+          ]
+        ],
+        "staff": [
+          269.15,
+          291.402,
+          313.654,
+          335.906,
+          358.157,
+          547.299,
+          569.551,
+          591.803,
+          614.055,
+          636.307
+        ]
+      },
+      "aligned": {
+        "upper": [
+          [
+            441.626,
+            302.528
+          ],
+          [
+            570.592,
+            291.402
+          ],
+          [
+            731.8,
+            280.276
+          ],
+          [
+            860.766,
+            269.15
+          ],
+          [
+            989.731,
+            280.276
+          ],
+          [
+            1150.94,
+            291.402
+          ]
+        ],
+        "lower": [
+          [
+            441.626,
+            602.929
+          ],
+          [
+            731.801,
+            558.425
+          ],
+          [
+            860.766,
+            591.803
+          ],
+          [
+            1150.94,
+            547.299
+          ]
+        ],
+        "staff": [
+          269.15,
+          291.402,
+          313.654,
+          335.906,
+          358.157,
+          547.299,
+          569.551,
+          591.803,
+          614.055,
+          636.307
+        ]
+      },
+      "explicit": {
+        "upper": [
+          [
+            441.626,
+            302.528
+          ],
+          [
+            581.339,
+            291.402
+          ],
+          [
+            721.052,
+            280.276
+          ],
+          [
+            860.766,
+            269.15
+          ],
+          [
+            1000.48,
+            280.276
+          ],
+          [
+            1140.19,
+            291.402
+          ]
+        ],
+        "lower": [
+          [
+            441.626,
+            602.929
+          ],
+          [
+            721.052,
+            558.425
+          ],
+          [
+            860.766,
+            591.803
+          ],
+          [
+            1140.19,
+            547.299
+          ]
+        ],
+        "staff": [
+          269.15,
+          291.402,
+          313.654,
+          335.906,
+          358.157,
+          547.299,
+          569.551,
+          591.803,
+          614.055,
+          636.307
+        ]
+      },
+      "straight-diagnostic": {
+        "upper": [
+          [
+            441.626,
+            302.528
+          ],
+          [
+            570.592,
+            291.402
+          ],
+          [
+            731.8,
+            280.276
+          ],
+          [
+            860.766,
+            269.15
+          ],
+          [
+            989.731,
+            280.276
+          ],
+          [
+            1150.94,
+            291.402
+          ]
+        ],
+        "lower": [
+          [
+            441.626,
+            602.929
+          ],
+          [
+            651.196,
+            558.425
+          ],
+          [
+            860.766,
+            591.803
+          ],
+          [
+            1070.34,
+            547.299
+          ]
+        ],
+        "staff": [
+          269.15,
+          291.402,
+          313.654,
+          335.906,
+          358.157,
+          547.299,
+          569.551,
+          591.803,
+          614.055,
+          636.307
+        ]
+      },
+      "aligned-reload": {
+        "upper": [
+          [
+            441.626,
+            302.528
+          ],
+          [
+            570.592,
+            291.402
+          ],
+          [
+            731.8,
+            280.276
+          ],
+          [
+            860.766,
+            269.15
+          ],
+          [
+            989.732,
+            280.276
+          ],
+          [
+            1150.94,
+            291.402
+          ]
+        ],
+        "lower": [
+          [
+            441.626,
+            602.929
+          ],
+          [
+            731.801,
+            558.425
+          ],
+          [
+            860.766,
+            591.803
+          ],
+          [
+            1150.94,
+            547.299
+          ]
+        ],
+        "staff": [
+          269.15,
+          291.402,
+          313.654,
+          335.906,
+          358.158,
+          547.299,
+          569.551,
+          591.803,
+          614.055,
+          636.307
+        ]
+      }
+    },
+    "note_recipes": {
+      "implicit": [
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 72,
+          "q": "0",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 74,
+          "q": "1/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 76,
+          "q": "2/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 77,
+          "q": "1",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 76,
+          "q": "4/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 74,
+          "q": "5/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 48,
+          "q": "0",
+          "duration": "1/2",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 55,
+          "q": "1/2",
+          "duration": "1/2",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 50,
+          "q": "1",
+          "duration": "1/2",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 57,
+          "q": "3/2",
+          "duration": "1/2",
+          "type": "eighth"
+        }
+      ],
+      "aligned": [
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 72,
+          "q": "0",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 74,
+          "q": "1/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 76,
+          "q": "2/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 77,
+          "q": "1",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 76,
+          "q": "4/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 74,
+          "q": "5/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 48,
+          "q": "0",
+          "duration": "1/2",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 55,
+          "q": "1/2",
+          "duration": "1/2",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 50,
+          "q": "1",
+          "duration": "1/2",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 57,
+          "q": "3/2",
+          "duration": "1/2",
+          "type": "eighth"
+        }
+      ],
+      "explicit": [
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 72,
+          "q": "0",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 74,
+          "q": "1/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 76,
+          "q": "2/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 77,
+          "q": "1",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 76,
+          "q": "4/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 1,
+          "voice": "1",
+          "pitch": 74,
+          "q": "5/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 48,
+          "q": "0",
+          "duration": "2/3",
+          "type": "quarter"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 55,
+          "q": "2/3",
+          "duration": "1/3",
+          "type": "eighth"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 50,
+          "q": "1",
+          "duration": "2/3",
+          "type": "quarter"
+        },
+        {
+          "staff": 2,
+          "voice": "5",
+          "pitch": 57,
+          "q": "5/3",
+          "duration": "1/3",
+          "type": "eighth"
+        }
+      ]
+    },
+    "all_ten_notes_checked_against_independent_recipe": true,
+    "implicit_aligned_full_MIDI_equal": true,
+    "native_reload_full_MIDI_equal": true,
+    "straight_diagnostic_graphics_equal": true,
+    "aligned_upper_unchanged": true,
+    "saved_offsets": [
+      {
+        "x": "3.62237",
+        "y": "0"
+      },
+      {
+        "x": "3.62219",
+        "y": "0"
+      }
+    ],
+    "native_reload_all_graphic_attribute_max_numeric_delta": 0.009999999999990905,
+    "native_reload_notehead_max_numeric_delta": 0.0009999999999763531,
+    "native_reload_pixel_identity_claimed": false,
+    "notehead_alignment_tolerance_SVG_units": 0.0011,
+    "artifacts": [
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\aligned-reload.mscx",
+        "bytes": 6933,
+        "sha256": "708fce19ee84ecc75f8f1921a5e043087a7273cf2a6e990f82bd5bcf6c36a9e9"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\aligned.mscx",
+        "bytes": 6925,
+        "sha256": "71df4b34c188a01e4d7f6856de16ce17a7b00f47ed413442098d929180449747"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\explicit.mscx",
+        "bytes": 7225,
+        "sha256": "82c69ab80e7f235e0abc1fe5f2cbcdd62969e0008b0740dab434cc1658d7255d"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\implicit.mscx",
+        "bytes": 6833,
+        "sha256": "83f06bbe91b98337baae7a261c421e2945ec15093b3b04a7726c385e97302b97"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\straight-diagnostic.mscx",
+        "bytes": 6833,
+        "sha256": "e4d9b1306311ff74c2723dfe17a29fa49e1cfa61fb7612b6d5059b8cb6937d3f"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\aligned-1.svg",
+        "bytes": 28670,
+        "sha256": "903c8159a16fb14461abecc801471292f1e3bb5ac181b16965ddacfa09abb55d"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\aligned-reload-1.svg",
+        "bytes": 28695,
+        "sha256": "2cd4e1a3d2ea34856a3cbf829194b2d4297cf8c34293c224eac00281ba5444c9"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\aligned-reload.mid",
+        "bytes": 217,
+        "sha256": "d8898efe575779757cf55461f8f4f6aa5bfcace2b53dc5fc4a0872c198050f44"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\aligned.mid",
+        "bytes": 217,
+        "sha256": "d8898efe575779757cf55461f8f4f6aa5bfcace2b53dc5fc4a0872c198050f44"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\aligned.mscx",
+        "bytes": 6933,
+        "sha256": "708fce19ee84ecc75f8f1921a5e043087a7273cf2a6e990f82bd5bcf6c36a9e9"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\aligned.musicxml",
+        "bytes": 9449,
+        "sha256": "4d5294c35ac625c2168ad1aef6f7c32949f7a1fc0cba5c3ca2e99992643111d3"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\aligned.pdf",
+        "bytes": 22505,
+        "sha256": "61aebe0748887617f47a89c03b382aba93bb70d86e7979df853d903a755d657a"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\explicit-1.svg",
+        "bytes": 33257,
+        "sha256": "2f53869598db1de1dde1d4a3207e36182b035e39b12cc4c3247d0b6255b5d07a"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\explicit.mid",
+        "bytes": 217,
+        "sha256": "eab02dc1f8134a171512ae2b9c7b4b50377fbde4e54f0f0181de0309084ab298"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\explicit.musicxml",
+        "bytes": 10372,
+        "sha256": "7414b89d1b1876fad9ff2179d80e3e745e2224b2c69b010ea9d6f4f0404c8394"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\explicit.pdf",
+        "bytes": 22712,
+        "sha256": "fd8dd3ac25582c2aabbd9e2bb93744230c6360d5182a146547291d4d98d86a7b"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\implicit-1.svg",
+        "bytes": 28665,
+        "sha256": "4d8a96b702885bf002323c95c71f9e6cd1248f7355c13ce71a5d63f818ad48f3"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\implicit.mid",
+        "bytes": 217,
+        "sha256": "d8898efe575779757cf55461f8f4f6aa5bfcace2b53dc5fc4a0872c198050f44"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\implicit.musicxml",
+        "bytes": 9449,
+        "sha256": "01a33ba743cf3f4c5d3bb0c367f0db857b3d077d74a8fdcc119309654df56dcf"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\implicit.pdf",
+        "bytes": 22517,
+        "sha256": "a3ffebc9086e2a4509334216e9506f46111cee1084bf994e59ec66c34514425b"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\straight-diagnostic-1.svg",
+        "bytes": 28676,
+        "sha256": "433ff01e65c219fb67bba76d9d32ea69350cc51d95af4c8424a9765c80acc3fd"
+      },
+      {
+        "path": "tmp\\engraving\\swing-alignment-2026-10-31\\exports\\straight-diagnostic.mid",
+        "bytes": 217,
+        "sha256": "1d501de1bc45466105f3f0a9bf71c703011e71227524b84efdeef00e2841c02d"
+      }
+    ]
+  },
+  "playback": {
+    "implicit": {
+      "ppq": 480,
+      "upper": [
+        {
+          "kind": "on",
+          "tick": 0,
+          "pitch": 72,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 160,
+          "pitch": 74,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 320,
+          "pitch": 76,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 480,
+          "pitch": 77,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 640,
+          "pitch": 76,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 800,
+          "pitch": 74,
+          "velocity": 80,
+          "channel": 0
+        }
+      ],
+      "lower": [
+        {
+          "kind": "on",
+          "tick": 0,
+          "pitch": 48,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 321,
+          "pitch": 55,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 480,
+          "pitch": 50,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 801,
+          "pitch": 57,
+          "velocity": 80,
+          "channel": 0
+        }
+      ]
+    },
+    "aligned": {
+      "ppq": 480,
+      "upper": [
+        {
+          "kind": "on",
+          "tick": 0,
+          "pitch": 72,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 160,
+          "pitch": 74,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 320,
+          "pitch": 76,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 480,
+          "pitch": 77,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 640,
+          "pitch": 76,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 800,
+          "pitch": 74,
+          "velocity": 80,
+          "channel": 0
+        }
+      ],
+      "lower": [
+        {
+          "kind": "on",
+          "tick": 0,
+          "pitch": 48,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 321,
+          "pitch": 55,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 480,
+          "pitch": 50,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 801,
+          "pitch": 57,
+          "velocity": 80,
+          "channel": 0
+        }
+      ]
+    },
+    "explicit": {
+      "ppq": 480,
+      "upper": [
+        {
+          "kind": "on",
+          "tick": 0,
+          "pitch": 72,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 160,
+          "pitch": 74,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 320,
+          "pitch": 76,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 480,
+          "pitch": 77,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 640,
+          "pitch": 76,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 800,
+          "pitch": 74,
+          "velocity": 80,
+          "channel": 0
+        }
+      ],
+      "lower": [
+        {
+          "kind": "on",
+          "tick": 0,
+          "pitch": 48,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 320,
+          "pitch": 55,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 480,
+          "pitch": 50,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 800,
+          "pitch": 57,
+          "velocity": 80,
+          "channel": 0
+        }
+      ]
+    },
+    "straight-diagnostic": {
+      "ppq": 480,
+      "upper": [
+        {
+          "kind": "on",
+          "tick": 0,
+          "pitch": 72,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 160,
+          "pitch": 74,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 320,
+          "pitch": 76,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 480,
+          "pitch": 77,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 640,
+          "pitch": 76,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 800,
+          "pitch": 74,
+          "velocity": 80,
+          "channel": 0
+        }
+      ],
+      "lower": [
+        {
+          "kind": "on",
+          "tick": 0,
+          "pitch": 48,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 240,
+          "pitch": 55,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 480,
+          "pitch": 50,
+          "velocity": 80,
+          "channel": 0
+        },
+        {
+          "kind": "on",
+          "tick": 720,
+          "pitch": 57,
+          "velocity": 80,
+          "channel": 0
+        }
+      ]
+    }
+  },
+  "global_67percent_is_exact_two_to_one": false,
+  "observed_late_pair_tick_difference": 1,
+  "one_tick_seconds_at_fixture_tempo": 0.0010416666666666667,
+  "images": [
+    {
+      "path": "tmp/engraving/corpus/A135/page-1.jpg",
+      "role": "reference-interpretation",
+      "sha256": "494c94b8b7820ea4f60dc8dd8fe262869f422504bb18d2376a82daa662515a5d",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/tokimeki-uchiage-2026-10-30/A135-p4-s1-zoom.jpg",
+      "role": "reference-context",
+      "sha256": "4256df6a2d242bf09c25ab31a78cba502cc3d9ce8cf71e2bea9b01df7df77761",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "role": "complete-book-page",
+      "printed_page": 200,
+      "pdf_page": 220,
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "condition": "implicit",
+      "role": "whole-native-PDF-page",
+      "path": "tmp/engraving/swing-alignment-2026-10-31/exports/implicit.pdf",
+      "image_sha256": "dc740123d56a2475a9fc878d268ac8ca2e508aadc48debaed73128d81cd49a43",
+      "image_bytes": 45642,
+      "actually_viewed": true,
+      "stored_raster": false,
+      "render": "PDFium scale3,PIL RGB JPEG quality91/subsampling0"
+    },
+    {
+      "condition": "aligned",
+      "role": "whole-native-PDF-page",
+      "path": "tmp/engraving/swing-alignment-2026-10-31/exports/aligned.pdf",
+      "image_sha256": "deac48a0c1a0fb9688efa295c919a00a3a60cd7526c84ea9a27ec35ccc23802e",
+      "image_bytes": 46146,
+      "actually_viewed": true,
+      "stored_raster": false,
+      "render": "PDFium scale3,PIL RGB JPEG quality91/subsampling0"
+    },
+    {
+      "condition": "explicit",
+      "role": "whole-native-PDF-page",
+      "path": "tmp/engraving/swing-alignment-2026-10-31/exports/explicit.pdf",
+      "image_sha256": "e334f68143e46f6d1c19ca75647bc08f0b7e663596034abdb29fe4b4ce20fc11",
+      "image_bytes": 46092,
+      "actually_viewed": true,
+      "stored_raster": false,
+      "render": "PDFium scale3,PIL RGB JPEG quality91/subsampling0"
+    }
+  ],
+  "published_fixtures": [
+    {
+      "condition": "implicit",
+      "path": "docs/engraving/fixtures/swing-implicit.mscx",
+      "sha256": "901bcdd13ad4e906b35d27e429496b7c160cdc12da25ec8c6cb84e331aafb2c9",
+      "metadata_only_clarification": false,
+      "publication_line_endings": "LF"
+    },
+    {
+      "condition": "aligned",
+      "path": "docs/engraving/fixtures/swing-aligned.mscx",
+      "sha256": "e9d0b525d7b821b2efe099647164400207a6da72c1a1ce1ec2643cac111e49ea",
+      "metadata_only_clarification": false,
+      "publication_line_endings": "LF"
+    },
+    {
+      "condition": "explicit",
+      "path": "docs/engraving/fixtures/swing-explicit.mscx",
+      "sha256": "9a1ca8d543e74050252c209690716bb42ae71708b2176ba9fd9b28ab0786b2a1",
+      "metadata_only_clarification": false,
+      "publication_line_endings": "LF"
+    },
+    {
+      "condition": "straight-diagnostic",
+      "path": "docs/engraving/fixtures/swing-straight-diagnostic.mscx",
+      "sha256": "f824c91c0a3e0e8989cf5149f4f874e23bf7f6cdbd91886cbe49f2216f010717",
+      "metadata_only_clarification": true,
+      "publication_line_endings": "LF"
+    }
+  ],
+  "public_straight_metadata_note": "Only the source-description sentence was clarified for diagnostic50;musical/Style tree must match actual native input.",
+  "judgment": {
+    "preferred_comparison": "Local explicit tuplets when strict simultaneous attacks are intended",
+    "alternative": "Interpretation-based visual alignment can retain ordinary-eighth house style,but requires width/context revalidation",
+    "retain_case": "Familiar single swing layer or intentional/free/straight alternative not forced to2:1",
+    "user_preference_confirmed": false
+  },
+  "new_official_reading": 0,
+  "new_Gould_coverage": 0,
+  "book_reread_pages": 1,
+  "new_complete_resources": 0,
+  "new_fixed_transfer_scenarios": 0,
+  "new_user_integrated_rounds": 0,
+  "new_native_studies": 1,
+  "new_native_conditions": 4,
+  "native_CLI_calls": 17,
+  "saved_reloaded_candidates": 1,
+  "software_adaptation_changes": 0,
+  "new_font_work": 0,
+  "cache": {
+    "batch_budget_bytes": 393216,
+    "initial_batch_budget_bytes": 262144,
+    "budget_revision_reason": "Measured first exports236937bytes;retain aligned nativePDF and save/reload checks within unchanged3GiB+512KiB total ceiling.",
+    "total_cache_ceiling_bytes": 3221749760,
+    "new_runtime_copies": 0,
+    "new_original_reference_copies": 0,
+    "new_raster_files": 0,
+    "files_deleted": 0,
+    "logical_bytes_at_check": 3221615709,
+    "batch_logical_bytes_at_check": 349887
+  },
+  "not_done": [
+    "Original Tokimeki native replacement",
+    "Other widths/reflow",
+    "User aesthetic adoption",
+    "MusicXML reimport",
+    "Pixel-identical save/reload",
+    "Current installed-host or code-build equivalence",
+    "Software/font adaptation"
+  ],
+  "private_directory": "tmp/engraving/swing-alignment-2026-10-31",
+  "validation": {
+    "status": "passed",
+    "native_calls": 17,
+    "conditions": 4,
+    "notes_per_condition": 10,
+    "independent_music_recipe_checked": true,
+    "full_MIDI_AB_and_reload_equal": true,
+    "native_resave_all_graphic_attributes_checked": true,
+    "pixel_identity_claimed": false,
+    "protected_source_hashes_checked": 2,
+    "existing_host_hash_checked": true,
+    "public_original_inputs_hashed": 4,
+    "skill_routes_executed": 20,
+    "prior_release_unchanged": true,
+    "new_reading_coverage": 0,
+    "goal_active": true
+  },
+  "spacing_comparison": {
+    "SVG_units": true,
+    "first_upper_triplet_internal_gaps": {
+      "implicit": [
+        128.966,
+        161.208
+      ],
+      "aligned": [
+        128.966,
+        161.208
+      ],
+      "explicit": [
+        139.713,
+        139.713
+      ]
+    },
+    "implicit_long_over_short_ratio": 1.2500038769908346,
+    "nominal_half_beat_columns_retained_by_local_offset": true,
+    "explicit_changes_written_grid_and_symbol_requirements": true,
+    "not_all_minimum_space_contributions_isolated": true
+  }
+}

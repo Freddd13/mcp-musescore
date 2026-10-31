@@ -3135,11 +3135,11 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.19.0 fixed usable research release:146/146 official question-reading closeouts,1135/1135 pages;Gould696/696 coverage;resources16/25,remainingR07-R15;20skill routes;fixed transfer8/8 coverage.User combined private experiment1/1,milestones4/4,not aesthetic adoption/print/performance.Eight contextual tuplet decisions and four supplemental Hoshide Ondine sample pages included.No software/font adaptation.Historical release notes,commits,tags and certificates preserve earlier states. After0.19:four EONIAN groups/14glyph pairs reviewed;small common-column redistribution is a low-priority unrendered candidate. No coverage,resource,transfer,user-round,native or adaptation increment;fixed0.19certificate/tag unchanged."
+    "working_branch_note": "0.19.0 fixed usable research release:146/146 official question-reading closeouts,1135/1135 pages;Gould696/696 coverage;resources16/25,remainingR07-R15;20skill routes;fixed transfer8/8 coverage.User combined private experiment1/1,milestones4/4,not aesthetic adoption/print/performance.Eight contextual tuplet decisions and four supplemental Hoshide Ondine sample pages included.No software/font adaptation.Historical release notes,commits,tags and certificates preserve earlier states. After0.19:four EONIAN groups/14glyph pairs reviewed;small common-column redistribution is a low-priority unrendered candidate. No coverage,resource,transfer,user-round,native or adaptation increment;fixed0.19certificate/tag unchanged. Subsequent swing/triplet study adds1original native scenario at4conditions,17CLIcalls,one resaved/reloaded candidate.Four CC0 inputs available;no reading/resource/fixed-transfer/user-round or adaptation increment;0.19snapshot immutable."
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "EONIANp6s5middle-bar spacing/occupancy review;4groups,14glyph pairs,3book reread pages;no new coverage or native.",
+    "scope": "Original swing/triplet comparison4conditions,17CLIcalls,one resave;known Tokimeki/Gould context reread.",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3149,24 +3149,24 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 3,
+    "book_reread_pages": 1,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 0,
+    "new_native_candidate_scenarios": 1,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "EONIAN_SPACING_REVIEW.md"
+      "SWING_ALIGNMENT_STUDY.md"
     ],
-    "review_evidence": "eonian_spacing_review_evidence.json",
+    "review_evidence": "swing_alignment_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "USER_COMBINED_REVIEW.md",
-    "evidence": "user_combined_review_evidence.json",
-    "completed_conditions": 3,
-    "planned_conditions": 3,
-    "description": "Private real-score baseline,minimum and spacing extension;all8page reload,18CLIcalls,2extra all-parts MIDI diagnostics.",
+    "reference": "SWING_ALIGNMENT_STUDY.md",
+    "evidence": "swing_alignment_evidence.json",
+    "completed_conditions": 4,
+    "planned_conditions": 4,
+    "description": "Original10-note swing/triplet alignment;implicit,aligned,explicit,straightdiagnostic;17CLIcalls;one native resave/reload.",
     "reading_increment": 0,
     "user_preference_confirmed": false,
     "software_adaptation_changes": 0
@@ -3199,6 +3199,16 @@
       "completed_conditions": 3,
       "planned_conditions": 3,
       "description": "Original nested3+2+1 tuplets;implicitcontrol,autopositionoverlap,tieredcandidate;notnewreadingcoverageoruserintegratedround",
+      "reading_increment": 0,
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0
+    },
+    {
+      "reference": "USER_COMBINED_REVIEW.md",
+      "evidence": "user_combined_review_evidence.json",
+      "completed_conditions": 3,
+      "planned_conditions": 3,
+      "description": "Private real-score baseline,minimum and spacing extension;all8page reload,18CLIcalls,2extra all-parts MIDI diagnostics.",
       "reading_increment": 0,
       "user_preference_confirmed": false,
       "software_adaptation_changes": 0
