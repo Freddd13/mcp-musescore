@@ -1,5 +1,7 @@
 # 用户所给资源规划：落实顺序与证据范围
 
+2026-10-31[R05作者与版本关联](LEGATISSIMO_SOURCE_MAP.md)闭合：两处B站作者链接核到UID372657607，自述Legatissimo／Legato Music Publishing，IMSLP分类与#918406／918407及原PDF封面／元数据对应。资料现**16/25、余9项R07–R15**。主页正文与R07–R09目标谱面／视频仍未读，分类15条不算15份成品学习；浏览器目标页虽创建，正文读取超时，原状态如实保留。
+
 2026-10-30[R17英文完整补读](MOLA_READING.md)：16/16页实际看图，13页首次（7技术＋6辅助）、3页复读，7个图例全部核到；纠正旧笔记对中文奇数页上角的误读，详见[证据](mola_english_reading_evidence.json)。R17原已完成，资料15/25、余10项保持。[R14琶音页面](musescore3_arpeggio_video_partial_evidence.json)补三段06:43／05:35／19:03，合31:21；Chrome建页后读取与内置浏览器均超时，画面／声音仍未读，保留partial。R12／R13未取得目标内容，R15开页Cache miss；不重复尝试浏览器，以可得材料继续学习。
 
 2026-10-30[R11连梁视频部分证据](musescore3_beam_video_partial_evidence.json)：已核公开标题／作者、3.6.2说明、两分P11:09＋28:29及第一P04:01一帧的Beam Properties／No beam。只有页面与该帧实际看过，自动播放走过的时间不计观看，第二P／完整操作／声音未读；unread更新partial，资料仍15/25、余10项。10月30日重开浏览器超时，后续可再尝试正常公开页面；未下载或重发画面。
@@ -38,7 +40,7 @@
 | Kokecola [准备篇](https://note.com/kokecola/n/n5203d1df81ca) | 已读正文；续看初版来源谱图；涉及模板、纸幅与谱表尺寸 | 其余设置截图未补齐；不照搬具体尺寸为用户默认 |
 | Kokecola [输入篇](https://note.com/kokecola/n/n67b13d01c746) | 已读正文；续看音符完成、全部元素完成两图 | 其余界面截图未看完；凌乱图包含关闭部分自动调整的状态，不能当本项目全局设置建议或默认引擎比较 |
 | Kokecola [净书篇](https://note.com/kokecola/n/n6df2c29e9942) | 已读正文；同日续学取得并实际看过梁、变音、休止、间距、综合调整、成品、默认对照7图 | 图例与原生实验见[间距取舍](SPACING_DECISIONS.md)。正文省略的详细规则仍须其它依据；准备/输入篇截图不因此算已读 |
-| Legatissimo- [主页](https://space.bilibili.com/372657607/) | 动态页读取失败；后续核实首条作品页面的署名与账号链接 | 核实主页及每条作品署名；成品不能证明做过哪些人工操作 |
+| Legatissimo- [主页](https://space.bilibili.com/372657607/) | R05身份／具体作品关联已核：两处作者链接同UID、明确别名与IMSLP版本对应，见[来源图](LEGATISSIMO_SOURCE_MAP.md) | 主页正文／完整履历未取得；R07–R09目标谱面仍分别partial。成品不能证明人工操作过程 |
 | [À la manière de…](https://www.bilibili.com/video/BV1mz421b77e/) | 已读公开页面说明，核实Legatissimo署名、IMSLP发布与演奏者信息 | 2026-10-27已补Legato2024两份成品7/7页及署名／版本；视频画面与其它底本未读，调整过程未知，见[R06案例](LEGATO_RAVEL_READING.md) |
 | [第一叙事曲](https://www.bilibili.com/video/BV1wwH5esEBt/) | 页面读取失败 | 待核所用Henle/PWM版本及其校对与净书的区别 |
 | [Imaginary Polonaise](https://www.bilibili.com/video/BV1Ff4y1B7WW/) | 页面读取失败 | 待核采谱/净书署名及具体谱例 |

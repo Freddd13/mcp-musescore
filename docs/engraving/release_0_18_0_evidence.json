@@ -1,0 +1,1405 @@
+{
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-31T01:21:11.136626+00:00",
+  "version": "0.18.0",
+  "tag": "engraving-v0.18.0",
+  "publication_base_commit": "39971897b43f527643d0521d707f3c021f231aa6",
+  "previous_release": {
+    "version": "0.17.0",
+    "tag_commit": "f80da0416eedad8ff3ada86c5338e3b02264464e",
+    "certificate_sha256": "a9f1328bc80258a7d82f907bdf0ae742bc8cb8ee743701eb1c7ba816b3f93b3a"
+  },
+  "changes_since_0_17_0": {
+    "new_all_score_closeouts": 2,
+    "new_whole_score_pages": 162,
+    "new_Gould_pages": 0,
+    "new_complete_resource_scopes": 1,
+    "new_complete_resource_ids": [
+      "R05"
+    ],
+    "new_native_studies": 0,
+    "new_user_integrated_rounds": 0,
+    "software_adaptation_changes": 0
+  },
+  "sources_checked": [
+    {
+      "id": "A005",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\200 Anime Songs Medley.pdf",
+      "sha256": "de0c99dd322419b5f607234a5a5a22e7f987e9bcd80647e09f7e6e81a5e6b8de",
+      "pages": 154,
+      "read_only": true
+    },
+    {
+      "id": "A031",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Connect - Puella Magi Madoka☆Magica - Opening Theme.pdf",
+      "sha256": "f1d642c27f1180f359015797f5e721925046d040c6fd9d2600d6b00788355f70",
+      "pages": 8,
+      "read_only": true
+    }
+  ],
+  "book_source_checked": {
+    "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "pages": 696,
+    "read_only": true
+  },
+  "study_evidence_hashes": [
+    {
+      "path": "connect_evidence.json",
+      "sha256": "1a3b9d7f44c73959442feb042e3cc8430860815e91832ede49f97c46676c56f4",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T18:39:52.049034+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 88,
+        "reused_images": 29,
+        "new_images": 59,
+        "individual_metric_glyphs_rechecked": 45,
+        "time_series": 5,
+        "rational_duration_recipes": 10,
+        "whole_score_pages": 8,
+        "system_rows": 49,
+        "book_rereads": 21,
+        "new_book_coverage": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "markings",
+          "octaves",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 20,
+        "local_markdown_links_checked": 1446,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "remaining_pages": 154,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3169112378,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch01_evidence.json",
+      "sha256": "697eea7a74d980fa096cf3aafa1a2842240dc90fde6bf728df81148acc951e0c",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T19:08:19.174681+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 38,
+        "reused_images": 32,
+        "new_images": 6,
+        "individual_metric_glyphs_rechecked": 29,
+        "time_series": 4,
+        "rational_duration_recipes": 3,
+        "partial_score_pages": 12,
+        "context_only_pages": 1,
+        "system_rows": 71,
+        "book_rereads": 19,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "octaves",
+          "navigation",
+          "cross-staff",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 16,
+        "local_markdown_links_checked": 1086,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          1,
+          13
+        ],
+        "partial_A005_pages": [
+          12,
+          154
+        ],
+        "remaining_substantive_pages": 142,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3170017154,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch02_evidence.json",
+      "sha256": "ec7fc38d5fca9ac1f648d80ac8626c1d24bf1c6cdffa9210d5e51db966335f5d",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T19:32:50.559516+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 50,
+        "reused_images": 39,
+        "new_images": 11,
+        "individual_metric_glyphs_rechecked": 44,
+        "time_series": 5,
+        "cross_staff_stem_axis_sequences": 2,
+        "source_vertical_stems_rechecked": 11,
+        "rational_duration_recipes": 10,
+        "partial_score_pages": 15,
+        "context_only_pages": 2,
+        "system_rows": 89,
+        "split_final_row": true,
+        "book_rereads": 22,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "markings",
+          "octaves",
+          "navigation",
+          "piano",
+          "cross-staff",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 18,
+        "local_markdown_links_checked": 1207,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          2,
+          13
+        ],
+        "partial_A005_pages": [
+          27,
+          154
+        ],
+        "remaining_substantive_pages": 127,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3171536557,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch03_evidence.json",
+      "sha256": "6aaa216e8f6e3ca85207df9ebe8151cf9e267d27f3c89b59d5b8f121e03cb52c",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T20:01:33.900030+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 47,
+        "reused_images": 35,
+        "new_images": 12,
+        "individual_metric_glyphs_rechecked": 112,
+        "time_series": 10,
+        "beam_groups": 4,
+        "rational_duration_recipes": 16,
+        "partial_score_pages": 12,
+        "context_only_pages": 2,
+        "system_rows": 71,
+        "book_rereads": 21,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "markings",
+          "ornaments",
+          "clefs",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 20,
+        "local_markdown_links_checked": 1309,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          3,
+          13
+        ],
+        "partial_A005_pages": [
+          39,
+          154
+        ],
+        "remaining_substantive_pages": 115,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3173314476,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch04_evidence.json",
+      "sha256": "1cd27896f01dd50dc05f0bae4a1a97e78a75087470c02b8500570588f8811d55",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T20:20:51.629320+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 45,
+        "reused_images": 32,
+        "new_images": 13,
+        "individual_metric_glyphs_rechecked": 77,
+        "time_series": 8,
+        "beam_groups": 6,
+        "rational_duration_recipes": 11,
+        "partial_score_pages": 13,
+        "context_only_pages": 2,
+        "system_rows": 77,
+        "book_rereads": 17,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "markings",
+          "clefs",
+          "octaves",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 20,
+        "local_markdown_links_checked": 1368,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          4,
+          13
+        ],
+        "partial_A005_pages": [
+          52,
+          154
+        ],
+        "remaining_substantive_pages": 102,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3175022595,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch05_evidence.json",
+      "sha256": "a91562e21a1222625dcab2200a7eb8fe16e3da29360ffaaf4e6ed732de275853",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T20:46:43.231629+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 39,
+        "reused_images": 26,
+        "new_images": 13,
+        "individual_metric_glyphs_rechecked": 71,
+        "time_series": 10,
+        "beam_groups": 8,
+        "rational_duration_recipes": 11,
+        "partial_score_pages": 12,
+        "context_only_pages": 2,
+        "system_rows": 71,
+        "book_rereads": 12,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "markings",
+          "octaves",
+          "navigation",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 20,
+        "local_markdown_links_checked": 1375,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          5,
+          13
+        ],
+        "partial_A005_pages": [
+          64,
+          154
+        ],
+        "remaining_substantive_pages": 90,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3176703374,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch06_evidence.json",
+      "sha256": "6984ddbeba0c9ee469adf3c2e1a3e8dea1f64755e47a89f13f8d58302b4e6536",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T21:05:45.981083+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 45,
+        "reused_images": 29,
+        "new_images": 16,
+        "individual_metric_glyphs_rechecked": 96,
+        "time_series": 15,
+        "beam_groups": 11,
+        "rational_duration_recipes": 13,
+        "partial_score_pages": 12,
+        "context_only_pages": 2,
+        "system_rows": 71,
+        "book_rereads": 16,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "markings",
+          "ornaments",
+          "clefs",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 20,
+        "local_markdown_links_checked": 1411,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          6,
+          13
+        ],
+        "partial_A005_pages": [
+          76,
+          154
+        ],
+        "remaining_substantive_pages": 78,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3178349702,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch07_evidence.json",
+      "sha256": "c9acbd5fa2d218151a79be180fddd0f59a05342bc1d075258be8496316421c48",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T21:40:16.086546+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 46,
+        "reused_images": 31,
+        "new_images": 15,
+        "individual_metric_glyphs_rechecked": 121,
+        "time_series": 14,
+        "beam_groups": 13,
+        "rational_duration_recipes": 16,
+        "partial_score_pages": 13,
+        "context_only_pages": 2,
+        "system_rows": 77,
+        "book_rereads": 16,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "curves",
+          "markings",
+          "octaves",
+          "navigation",
+          "piano",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 20,
+        "local_markdown_links_checked": 1421,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          7,
+          13
+        ],
+        "partial_A005_pages": [
+          89,
+          154
+        ],
+        "remaining_substantive_pages": 65,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3180418129,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch08_evidence.json",
+      "sha256": "3b96be2226cc65119e6d76bc2315f84546fde701314fc95575cd517cc2beb2ec",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T22:01:21.739334+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 50,
+        "reused_images": 32,
+        "new_images": 18,
+        "individual_metric_glyphs_rechecked": 159,
+        "time_series": 11,
+        "beam_groups": 7,
+        "partial_three_groups": 4,
+        "rational_duration_recipes": 13,
+        "partial_score_pages": 10,
+        "context_only_pages": 2,
+        "system_rows": 59,
+        "independent_segments": 60,
+        "book_rereads": 20,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "curves",
+          "markings",
+          "octaves",
+          "navigation",
+          "piano",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 20,
+        "local_markdown_links_checked": 1435,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          8,
+          13
+        ],
+        "partial_A005_pages": [
+          99,
+          154
+        ],
+        "remaining_substantive_pages": 55,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3182924966,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch09_evidence.json",
+      "sha256": "1348b9cf9b9d4a0001582f191ef8cdf253549f21b64ff33c91d3e5eaa1fe4054",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T22:25:53.967630+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 47,
+        "reused_images": 30,
+        "new_images": 17,
+        "individual_metric_glyphs_rechecked": 118,
+        "time_series": 16,
+        "beam_groups": 8,
+        "rational_duration_recipes": 17,
+        "partial_score_pages": 9,
+        "context_only_pages": 2,
+        "system_rows": 53,
+        "independent_segments": 53,
+        "book_rereads": 20,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "ornaments",
+          "clefs",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 20,
+        "local_markdown_links_checked": 1451,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          9,
+          13
+        ],
+        "partial_A005_pages": [
+          108,
+          154
+        ],
+        "remaining_substantive_pages": 46,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3184941971,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch10_evidence.json",
+      "sha256": "90db92e99c4b45cbf9237f768d30467a2ff8d105d1ff6f9a09b0bf0d833c6c74",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T22:49:00.454526+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 57,
+        "reused_images": 36,
+        "new_images": 21,
+        "individual_metric_glyphs_rechecked": 129,
+        "time_series": 18,
+        "beam_groups": 8,
+        "rational_duration_recipes": 18,
+        "partial_score_pages": 13,
+        "context_only_pages": 2,
+        "system_rows": 77,
+        "independent_segments": 77,
+        "book_rereads": 21,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "ornaments",
+          "clefs",
+          "octaves",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 20,
+        "local_markdown_links_checked": 1494,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          10,
+          13
+        ],
+        "partial_A005_pages": [
+          121,
+          154
+        ],
+        "remaining_substantive_pages": 33,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3187290921,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch11_evidence.json",
+      "sha256": "2e2b836bec1d6841d64ab852362aca6216695ba0167799cd25f794df468aa770",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T23:19:12.621346+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 57,
+        "reused_images": 35,
+        "new_images": 22,
+        "individual_metric_glyphs_rechecked": 143,
+        "time_series": 18,
+        "beam_groups": 10,
+        "rational_duration_recipes": 13,
+        "partial_score_pages": 11,
+        "context_only_pages": 2,
+        "system_rows": 65,
+        "independent_segments": 65,
+        "book_rereads": 22,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "ornaments",
+          "glissandi",
+          "octaves",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 21,
+        "local_markdown_links_checked": 1455,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          11,
+          13
+        ],
+        "partial_A005_pages": [
+          132,
+          154
+        ],
+        "remaining_substantive_pages": 22,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3190155698,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch12_evidence.json",
+      "sha256": "63118c3207576c7a946f1d15369baf6050c38ffe02efc339ed9d64f011994dc2",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-30T23:49:25.259851+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 65,
+        "reused_images": 39,
+        "new_images": 26,
+        "individual_metric_glyphs_rechecked": 127,
+        "time_series": 15,
+        "beam_groups": 10,
+        "rational_duration_recipes": 16,
+        "partial_score_pages": 13,
+        "context_only_pages": 2,
+        "system_rows": 77,
+        "independent_segments": 78,
+        "book_rereads": 24,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "ornaments",
+          "octaves",
+          "navigation",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 21,
+        "local_markdown_links_checked": 1554,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          12,
+          13
+        ],
+        "partial_A005_pages": [
+          145,
+          154
+        ],
+        "remaining_substantive_pages": 9,
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3193035471,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_ch13_evidence.json",
+      "sha256": "9516f5987442efdbef8fb292de78a18901c1e77c2d60a0d23786d7fbd8d64e78",
+      "validation": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-31T00:25:07.991734+00:00",
+        "source_hashes_and_pages_checked": 2,
+        "viewed_image_hashes_checked": 61,
+        "reused_images": 33,
+        "new_images": 28,
+        "individual_metric_glyphs_rechecked": 186,
+        "actual_stems_checked": 16,
+        "time_series": 17,
+        "beam_groups": 13,
+        "rational_duration_recipes": 13,
+        "partial_score_pages": 9,
+        "context_only_pages": 1,
+        "system_rows": 53,
+        "independent_segments": 53,
+        "book_rereads": 23,
+        "new_book_coverage": 0,
+        "whole_score_closeout_increment": 0,
+        "skill_routes_executed": 20,
+        "direct_study_routes": [
+          "overview",
+          "spacing",
+          "rhythm",
+          "tempo",
+          "beams",
+          "curves",
+          "markings",
+          "glissandi",
+          "clefs",
+          "octaves",
+          "piano",
+          "cross-staff",
+          "notation",
+          "layout",
+          "cases"
+        ],
+        "public_paths_utf8_lf": 22,
+        "local_markdown_links_checked": 1513,
+        "corpus_closeouts": [
+          145,
+          146
+        ],
+        "corpus_closeout_pages": [
+          981,
+          1135
+        ],
+        "partial_A005_chapters": [
+          13,
+          13
+        ],
+        "partial_A005_pages": [
+          154,
+          154
+        ],
+        "remaining_chapter_pages": 0,
+        "final_cross_chapter_audit": "pending",
+        "resources": [
+          15,
+          25
+        ],
+        "user_integrated": [
+          0,
+          1
+        ],
+        "new_native_conditions": 0,
+        "new_software_adaptation": 0,
+        "goal_status": "active",
+        "reading_not_inferred_from_validation": true,
+        "arithmetic_not_sufficient_to_prove_author_or_native_intent": true,
+        "cache_total_logical_bytes": 3196277496,
+        "files_deleted": 0
+      }
+    },
+    {
+      "path": "medley_200_closeout_evidence.json",
+      "sha256": "0b1e2f0fe2d7683d36362bab733c3f5bb040e3a6814b1b51c6c0813d1fd5e50a",
+      "validation": {
+        "status": "passed",
+        "at_utc": "2026-10-31T01:00:51.732962+00:00",
+        "public_paths": 15,
+        "chapters_unchanged": 13,
+        "pages": 154,
+        "rows": 911,
+        "segments": 914,
+        "transition_cases": 12,
+        "optional_coda_routes": 4,
+        "actual_views": 63,
+        "ratio_candidate_families": 7,
+        "metric_heads_freshly_checked": 1208,
+        "beam_groups_freshly_checked": 98,
+        "fraction_recipes_checked": 178,
+        "skill_topic_calls": 20,
+        "new_note_links": 10,
+        "whole_score_progress": [
+          146,
+          146
+        ],
+        "resource_progress": [
+          15,
+          25
+        ],
+        "cache_logical_bytes": 3197982682,
+        "batch_logical_bytes": 1536749,
+        "no_new_native_or_adaptation": true,
+        "limits": "Confirms stated source/read/geometry/arithmetic scope;musical intent,playback,print and user adoption remain unverified."
+      }
+    },
+    {
+      "path": "legatissimo_source_map_evidence.json",
+      "sha256": "42405695301b44df6fddc8d8c19cfd6fc28ad0905d99019f7d9bfc165728fafb",
+      "validation": {
+        "status": "passed",
+        "original_pdf_hashes_and_metadata": 2,
+        "actual_cover_rereads": 2,
+        "public_primary_pages": 5,
+        "no_new_media_downloads": true
+      }
+    }
+  ],
+  "public_native_artifacts_checked": [
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-comparison.png",
+      "sha256": "e7e1ed14f8bde83ab11a8b720d4ebbfed79ee60eedcceae65f30777ac6f22b02",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-default.mscx",
+      "sha256": "137f7fa6296adcc9a57cc769ec0a7f11cdd4107e2bfe3c01b7d06e00deaccc93",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-uniform-rejected.mscx",
+      "sha256": "05613fe6a3f46f1220bb1bff3e87cfb6504dd4f66c1e31c3b99dde9cd8d4303c",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-comparison.png",
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-default.mscx",
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-pulse-candidate.mscx",
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-candidate.mscx",
+      "sha256": "9595459dcd6a8d79adccff31af0998fbffcf613c5f49aa13e17e6fe9795badff",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-comparison.png",
+      "sha256": "a3bfd34a884ff6db9b71ecabe11d3eb90dfda971b617b02b4151b17e3c045cbc",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-default.mscx",
+      "sha256": "55718a3d194aadab49bd1fed9ec2d8a44a2ca18e1ba41eac99b3172fdec2ff48",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+      "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+      "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+      "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+      "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+      "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-continuous.mscx",
+      "sha256": "7d07dd4f64c9e7e93ef7e8265c6d5867443cfa7803822a5cabc1040b1c9b5c86",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-four.mscx",
+      "sha256": "37aa041c5826e3abd79050ba64f618c4100dc3fc52d6ec55df7a00789c48c99f",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-nested.mscx",
+      "sha256": "29d2e93cf5ea4ce587853b2d307c6b7cf3666701ae0d607f176030be6fd951b3",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-comparison.png",
+      "sha256": "23844cef5fa01c33c7827f96961f92b97839e3f830b13c1ead3c8d99c0245102",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-full-context.png",
+      "sha256": "cbc5ebdd13115d38cc7b7ee756125e6e72f24a0c7d0e9fe35cf6ac27a3b741bc",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-bare.mscx",
+      "sha256": "8050d939dc6156b01c80740625576ebc9b8d967c2930eee6aca0492a916ad7cc",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-short.mscx",
+      "sha256": "c07663991331902d7d8c38b1b5c6094dd6a0ffb31e827dd7ed89a753a85c783d",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-auto-probe.mscx",
+      "sha256": "638b411732187390af3973cc3d91df410e04478a2e2c2bb457f9e2a0111b725c",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-comparison.png",
+      "sha256": "0d936b66eeb119d5ab6e2191f782c4e674b36336f4fed5a306b86f65a4110bc5",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-full-context.png",
+      "sha256": "6b940ed9e96c7923bc404f7f5b989c25131d33f4bb3c122186186b4b9a89808f",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-implicit.mscx",
+      "sha256": "e1ff8b293945fa57324d0c2be8f65b697550827e008f18791bd71aad06c66ee2",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-auto-position.mscx",
+      "sha256": "2e12f271298827aee4ae21479b9c447dfb6b41abf9402c09253bbd1ed199b801",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-tiered.mscx",
+      "sha256": "31fa4f4f3cff8abc84f6853239d0a88aa35b9b0ee5e137e5d71beee507802979",
+      "unchanged_from_0_17_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-comparison.png",
+      "sha256": "42cc691e8be88b69f7e02ccd282ed42434a63422a9ca6e212c64207a3c8aa6a1",
+      "unchanged_from_0_17_0": true
+    }
+  ],
+  "skill_routes": [
+    {
+      "topic": "overview",
+      "references": 64
+    },
+    {
+      "topic": "spacing",
+      "references": 88
+    },
+    {
+      "topic": "rhythm",
+      "references": 84
+    },
+    {
+      "topic": "tempo",
+      "references": 70
+    },
+    {
+      "topic": "beams",
+      "references": 59
+    },
+    {
+      "topic": "curves",
+      "references": 63
+    },
+    {
+      "topic": "markings",
+      "references": 65
+    },
+    {
+      "topic": "ornaments",
+      "references": 27
+    },
+    {
+      "topic": "glissandi",
+      "references": 20
+    },
+    {
+      "topic": "clefs",
+      "references": 40
+    },
+    {
+      "topic": "octaves",
+      "references": 69
+    },
+    {
+      "topic": "navigation",
+      "references": 32
+    },
+    {
+      "topic": "piano",
+      "references": 83
+    },
+    {
+      "topic": "cross-staff",
+      "references": 67
+    },
+    {
+      "topic": "notation",
+      "references": 80
+    },
+    {
+      "topic": "layout",
+      "references": 75
+    },
+    {
+      "topic": "sources",
+      "references": 35
+    },
+    {
+      "topic": "cases",
+      "references": 51
+    },
+    {
+      "topic": "baseline",
+      "references": 3
+    },
+    {
+      "topic": "implementation",
+      "references": 1
+    }
+  ],
+  "native_validation_reexecuted_for_release": false,
+  "scope": "Fixed research library/skill,full-corpus reading coverage plus author/version association.No source editing/media/font extraction/native/adaptation.",
+  "not_done": [
+    "Nine resource scopes R07-R15",
+    "Cross-score conflicts and high-value original native comparisons",
+    "User integrated round0/1 preparation2/4",
+    "Unresolved intent/sourceobject/playback/physical turns/print/aesthetic adoption",
+    "MuseScore adaptation deferred"
+  ],
+  "validation": {
+    "status": "passed",
+    "original_score_sources_hash_and_pages_checked": 2,
+    "original_score_pages": 162,
+    "study_evidence_files_hashed": 16,
+    "study_viewed_image_records_hashed": 800,
+    "unique_image_paths_hashed": 516,
+    "public_native_artifact_hashes_checked": 29,
+    "skill_routes_executed": 20,
+    "prior_certificate_and_tag_unchanged": true,
+    "native_validation_reexecuted": false,
+    "all_material_goal_still_active": true
+  },
+  "cache": {
+    "logical_bytes": 3198003815,
+    "new_media_downloads": 0,
+    "files_deleted": 0
+  },
+  "progress_snapshot": {
+    "as_of": "2026-10-31",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      146,
+      146
+    ],
+    "gould_pages_conservative": [
+      696,
+      696
+    ],
+    "gould_substantive_pages": 598,
+    "gould_non_substantive_pages": 98,
+    "gould_title_or_contents_pages": 98,
+    "public_resource_scopes": [
+      16,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      0,
+      1
+    ],
+    "user_milestones": [
+      2,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.18.0"
+  }
+}

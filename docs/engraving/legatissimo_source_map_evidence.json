@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "note": "LEGATISSIMO_SOURCE_MAP.md",
+  "scope": "R05 public author identity and work/version association;unchanged planned scope.",
+  "status": "complete",
+  "primary_pages_read": [
+    {
+      "url": "https://www.bilibili.com/video/BV1mz421b77e/",
+      "observed": "Author description explicitly links Legatissimo and Legato Music Publishing, separates performance/engraving, points to IMSLP.",
+      "author_link": "https://space.bilibili.com/372657607/?spm_id_from=333.788.upinfo.detail.click"
+    },
+    {
+      "url": "https://www.bilibili.com/list/ml1185088038?bvid=BV1Ff4y1B7WW&oid=287364574",
+      "observed": "Composition Sumino,transcription/engraving Legatissimo-,video author UID372657607;playlist creator is distinct.",
+      "author_link": "https://space.bilibili.com/372657607/?spm_id_from=333.788.upinfo.detail.click"
+    },
+    {
+      "url": "https://imslp.org/wiki/Category:Legato_Music_Publishing",
+      "observed": "15 current editor work entries include both Ravel pieces;category is an index,not15 scores read."
+    },
+    {
+      "url": "https://imslp.org/wiki/%C3%80_la_mani%C3%A8re_de_Borodine,_M.63/1_(Ravel,_Maurice)",
+      "observed": "File918406,editor/uploader/publisher Legato Music Publishing,2024."
+    },
+    {
+      "url": "https://imslp.org/wiki/%C3%80_la_mani%C3%A8re_de_Chabrier,_M.63/2_(Ravel,_Maurice)",
+      "observed": "File918407,editor/uploader/publisher Legato Music Publishing,2024."
+    }
+  ],
+  "related_prior_actual_score_reading": "legato_ravel_reading_evidence.json",
+  "related_prior_evidence_sha256": "bda37bd1828fb637dd298cae53f4d6bf189263ae3b27bf5e4694e3e7c4366a0b",
+  "reused_pdf_files_checked": [
+    {
+      "path": "tmp/engraving/legato-ravel-2026-10-27/borodine.pdf",
+      "sha256": "82bcd86a3251e0a7da08649524222963c73fd2560dd7b988f860e5ba05183108",
+      "pages": 4,
+      "metadata": {
+        "Title": "",
+        "Author": "Legato Music Publishing",
+        "Subject": "",
+        "Keywords": "",
+        "Creator": "Sibelius version 22.9.0 on Windows 10 Version 2004",
+        "Producer": "Qt 5.15.8",
+        "CreationDate": "D:20240609193628+08'00'",
+        "ModDate": "D:20240610072042+08'00'"
+      },
+      "unchanged": true
+    },
+    {
+      "path": "tmp/engraving/legato-ravel-2026-10-27/chabrier.pdf",
+      "sha256": "0034ad19c43f6eead7acf8609dfcf270867c3a613b2c16966b40d8684b075feb",
+      "pages": 3,
+      "metadata": {
+        "Title": "",
+        "Author": "Legato Music Publishing",
+        "Subject": "",
+        "Keywords": "",
+        "Creator": "Sibelius version 22.9.0 on Windows 10 Version 2004",
+        "Producer": "Qt 5.15.8",
+        "CreationDate": "D:20240609193628+08'00'",
+        "ModDate": "D:20240610072436+08'00'"
+      },
+      "unchanged": true
+    }
+  ],
+  "images": [
+    {
+      "role": "cover-reread",
+      "path": "tmp/engraving/legato-ravel-2026-10-27/borodine-p1.jpg",
+      "sha256": "ad9e4ba8100f2e508fbeac3a31ff5d3d31ea4035d1f7ce5740e972702aa0ff8e",
+      "actually_viewed": true,
+      "reused": true,
+      "new_reading_credit": false
+    },
+    {
+      "role": "cover-reread",
+      "path": "tmp/engraving/legato-ravel-2026-10-27/chabrier-p1.jpg",
+      "sha256": "302ca591c0c148f2b78181ebda1f01f23b8a61750774870fa20efb99808a4d87",
+      "actually_viewed": true,
+      "reused": true,
+      "new_reading_credit": false
+    }
+  ],
+  "access_gaps": [
+    {
+      "resource": "R05 homepage",
+      "result": "Target UID confirmed via two author links;homepage body cache miss,not read."
+    },
+    {
+      "resource": "R07",
+      "chrome_tab": "1280814952",
+      "url": "https://www.bilibili.com/video/BV1wwH5esEBt/",
+      "result": "Tab created and title observed in inventory;binding/read timed out.No video or score visual credit."
+    },
+    {
+      "resource": "R07/R08/R09",
+      "result": "Some direct requests internal errors or412;public metadata only,actual target score/video not read."
+    },
+    {
+      "resource": "R10",
+      "result": "Searches did not locate correct author;unverified,not absence proven."
+    }
+  ],
+  "new_complete_resources": [
+    "R05"
+  ],
+  "new_score_pages": 0,
+  "new_native_candidate_conditions": 0,
+  "software_adaptation_changes": 0,
+  "judgments": [
+    "Track public author UID and explicit alias separately from performer and playlist owner.",
+    "Identify exact edition before assigning pitch/slur differences to engraving or host.",
+    "PDF Creator identifies these two outputs only;does not prove all author workflow/manual choices."
+  ],
+  "unfinished": [
+    "R07-R09 actual score/video content",
+    "R10 identity",
+    "R11-R15 complete operation examples/audio",
+    "Homepage biography/real identity not inferred"
+  ],
+  "validation": {
+    "status": "passed",
+    "original_pdf_hashes_and_metadata": 2,
+    "actual_cover_rereads": 2,
+    "public_primary_pages": 5,
+    "no_new_media_downloads": true
+  }
+}
