@@ -1,5 +1,7 @@
 # 用户所给资源规划：落实顺序与证据范围
 
+2026-10-31补[8项视频身份复核](SOURCE_IDENTITY_REVIEW.md)：修正R08错误作品链接；R09实际只看一帧、后续自动跳转另记。J哥五项3.6.2／11分段时长现可核，实际视频学习状态保持；资源16/25、余9。新增官方两页样本用于[乐器条件学习](INSTRUMENT_CONTEXT_READING.md)，不替代R09。
+
 2026-10-31续查可得谱面：R10所关联《狮尾之舞》的虫钢页面普通HTTP可读，确认一张公开预览及完整谱付费说明；预览画面仍未读到（IAB同一标签3观察超时，未重建），未取完整谱。另核R05的Gaspard目录，Legato#935324是《绞刑架》，不能当《水妖》与星出样本作同曲比较；PDF入口遇JS跳转／验证，未读谱。资料仍**16/25、余9项**，实际转入[行宽与梁坡](BEAM_WIDTH_STUDY.md)原创原生学习，[本批证据](beam_width_evidence.json)分开记录来源核查与试验。
 
 2026-10-31用户将作者名更正为**拾廿七**。两位发布者的公开作品简介中，该署名均链接UID **341170626**，R10由未定位更新为**身份已核、材料待读（partial）**；见下文[署名关联](#拾廿七作者名更正与署名关联r10)及[核查证据](shinianqi_source_evidence.json)。本人主页正文、作品目录及实际净书图例／教程尚未读到，资料仍**16/25，余9项R07–R15**。下文“廿十七”与未定位是更正前的历史记录。
@@ -52,9 +54,9 @@
 | Kokecola [净书篇](https://note.com/kokecola/n/n6df2c29e9942) | 已读正文；同日续学取得并实际看过梁、变音、休止、间距、综合调整、成品、默认对照7图 | 图例与原生实验见[间距取舍](SPACING_DECISIONS.md)。正文省略的详细规则仍须其它依据；准备/输入篇截图不因此算已读 |
 | Legatissimo- [主页](https://space.bilibili.com/372657607/) | R05身份／具体作品关联已核：两处作者链接同UID、明确别名与IMSLP版本对应，见[来源图](LEGATISSIMO_SOURCE_MAP.md) | 主页正文／完整履历未取得；R07–R09目标谱面仍分别partial。成品不能证明人工操作过程 |
 | [À la manière de…](https://www.bilibili.com/video/BV1mz421b77e/) | 已读公开页面说明，核实Legatissimo署名、IMSLP发布与演奏者信息 | 2026-10-27已补Legato2024两份成品7/7页及署名／版本；视频画面与其它底本未读，调整过程未知，见[R06案例](LEGATO_RAVEL_READING.md) |
-| [第一叙事曲](https://www.bilibili.com/video/BV1wwH5esEBt/) | 页面读取失败 | 待核所用Henle/PWM版本及其校对与净书的区别 |
-| [Imaginary Polonaise](https://www.bilibili.com/video/BV1Ff4y1B7WW/) | 页面读取失败 | 待核采谱/净书署名及具体谱例 |
-| [Por Una Cabeza](https://www.bilibili.com/video/BV1UX4y167md/) | 页面返回412 | 待核MuseScore版本与实图，不因平台说明直接推断全部布局操作 |
+| [第一叙事曲](https://www.bilibili.com/video/BV1wwH5esEBt/) | 正常官方公开信息已核目标ID、作者署名及所声明Henle1976／PWM1997参考 | 实际目标谱面与逐版校勘未读，R07仍partial |
+| [Imaginary Polonaise](https://www.bilibili.com/video/BV1L6RsBeEwy/) | 已核正确作品ID、Legatissimo署名；见[身份更正](SOURCE_IDENTITY_REVIEW.md) | 实际谱面／完整视频未读，R08仍partial |
+| [Por Una Cabeza](https://www.bilibili.com/video/BV1UX4y167md/) | 已核作者／标题并看一帧；后续自动跳转另记 | 完整目标谱面及确切MuseScore版本待核；官方独立两页版本不能替代R09 |
 | 拾廿七（用户更正原“廿十七”） | 两处公开简介的署名均链接[UID341170626](https://space.bilibili.com/341170626)；身份关联已核 | 本人主页／目录、具体净书图例或教程待读；两条作品署名不折算为教程学习 |
 | 萌象的J哥：连梁[视频](https://www.bilibili.com/video/BV14Z4y1f7bG/)、页面[视频](https://www.bilibili.com/video/BV1k34y1B7Jc/)、声部[视频](https://www.bilibili.com/video/BV19r4y177GY/)、琶音[视频](https://www.bilibili.com/video/BV1F44y1L7u8/)、符号[视频](https://www.bilibili.com/video/BV1uu411d7Fq/) | 用户所给线索 | 核具体视频、版本和操作；操作会做不等于知道何时应该做 |
 | [Behind Bars官方目录](https://behindbarsnotation.co.uk/contents/)及用户本地书 | 已有实际图页阅读，见[教材笔记](BEHIND_BARS_NOTES.md) | 用户规划写704页，本地文件实际696页；以实际PDF/印刷映射定位，不用总页数猜章页 |
@@ -104,6 +106,8 @@ R07由unread改为partial；完成项仍13/25，余12项。[作者公开视频�
 [IMSLP的Legato分类](https://imslp.org/wiki/Category:Legato_Music_Publishing)列15个作品页，本次列表未见目标叙事曲；不能据此断言未曾上传。R05主页也仍未闭合。下一步寻找该目标实际谱面及核署名／版次，不用同作者另一作品替代。[本批记录](key_kick_closeout_evidence.json)。
 
 ## 2026-10-29：R08／R09补署名线索，实图仍缺
+
+**2026-10-31更正：** 下段R08收藏列表标题没有对应到查询参数中的旧bvid；正确作品为[BV1L6RsBeEwy](https://www.bilibili.com/video/BV1L6RsBeEwy/)。旧JSON保留当时的索引记录，当前以[身份复核](SOURCE_IDENTITY_REVIEW.md)为准。R09现仅补看一帧；两项仍partial。
 
 R08 [目标bvid关联的公开列表索引](https://www.bilibili.com/list/ml1185088038?bvid=BV1Ff4y1B7WW&oid=287364574)给出2026-05-06及Legatissimo-，说明作曲Hayato Sumino、采谱／净书及音视频后期Legatissimo-。R09 [作者作品页索引](https://www.bilibili.com/video/BV1UX4y167md/)给出2023-04-09，标题明确MuseScore制作、Augustin Hadelich改编。两项由unread记为partial，仅表示读到这些主来源索引信息，未读视频谱面或完整技术过程；R09版本未知。
 

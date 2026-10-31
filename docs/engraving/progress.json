@@ -2883,7 +2883,10 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "key_kick_closeout_evidence.json",
-        "remaining": "Primary indexed author description confirms stated Henle1976/PWM1997references and credits;actual target score/video figures not viewed,edition collation pending."
+        "remaining": "Primary indexed author description confirms stated Henle1976/PWM1997references and credits;actual target score/video figures not viewed,edition collation pending.",
+        "identity_evidence": "resource_identity_evidence.json",
+        "canonical_url": "https://www.bilibili.com/video/BV1wwH5esEBt/",
+        "metadata_identity_verified": true
       },
       {
         "id": "R08",
@@ -2891,7 +2894,11 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "kura_kuusou_closeout_evidence.json",
-        "remaining": "Primary indexed byline/title/description only;target score/video figures not actually viewed;not completion. R09 MuseScore version unknown."
+        "remaining": "Correct work ID BV1L6RsBeEwy/title/UID verified. Old playlist query BVID belongs to another work; historical indexed snapshot corrected by resource_identity_evidence.json. Target score/video not viewed.",
+        "identity_evidence": "resource_identity_evidence.json",
+        "canonical_url": "https://www.bilibili.com/video/BV1L6RsBeEwy/",
+        "metadata_identity_verified": true,
+        "obsolete_wrong_url": "https://www.bilibili.com/video/BV1Ff4y1B7WW/"
       },
       {
         "id": "R09",
@@ -2899,7 +2906,10 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "kura_kuusou_closeout_evidence.json",
-        "remaining": "Primary indexed byline/title/description only;target score/video figures not actually viewed;not completion. R09 MuseScore version unknown."
+        "remaining": "One actual frame under target title seen (system starts33/37/41,ossia); later autoplay moved to a different author. Full target score/video unread, exact MuseScore version unknown. Hadelich official2-page violin PDF read separately, not a substitute.",
+        "identity_evidence": "resource_identity_evidence.json",
+        "canonical_url": "https://www.bilibili.com/video/BV1UX4y167md/",
+        "metadata_identity_verified": true
       },
       {
         "id": "R10",
@@ -2915,29 +2925,45 @@
         "scope": "萌象的J哥：连梁视频",
         "status": "partial",
         "evidence": "musescore3_beam_video_partial_evidence.json",
-        "remaining": "Full11:09firstpart and28:29secondpart operation sequence/audio not read. Only public metadata and one04:01frame actually viewed."
+        "remaining": "Full11:09firstpart and28:29secondpart operation sequence/audio not read. Only public metadata and one04:01frame actually viewed.",
+        "identity_evidence": "resource_identity_evidence.json",
+        "canonical_url": "https://www.bilibili.com/video/BV14Z4y1f7bG/",
+        "metadata_identity_verified": true
       },
       {
         "id": "R12",
         "scope": "萌象的J哥：页面视频",
-        "status": "unread"
+        "status": "unread",
+        "identity_evidence": "resource_identity_evidence.json",
+        "canonical_url": "https://www.bilibili.com/video/BV1k34y1B7Jc/",
+        "metadata_identity_verified": true
       },
       {
         "id": "R13",
         "scope": "萌象的J哥：多声部视频",
-        "status": "unread"
+        "status": "unread",
+        "identity_evidence": "resource_identity_evidence.json",
+        "canonical_url": "https://www.bilibili.com/video/BV19r4y177GY/",
+        "metadata_identity_verified": true,
+        "scope_note": "Metadata says adding low staff/part to existing single staff; actual staff-versus-voice1–4 operations not viewed."
       },
       {
         "id": "R14",
         "scope": "萌象的J哥：跨表琶音视频",
         "status": "partial",
         "evidence": "musescore3_arpeggio_video_partial_evidence.json",
-        "remaining": "Actual31:21operation sequence,examples,and audio have not been studied; page metadata is not tutorial completion."
+        "remaining": "Actual31:21operation sequence,examples,and audio have not been studied; page metadata is not tutorial completion.",
+        "identity_evidence": "resource_identity_evidence.json",
+        "canonical_url": "https://www.bilibili.com/video/BV1F44y1L7u8/",
+        "metadata_identity_verified": true
       },
       {
         "id": "R15",
         "scope": "萌象的J哥：符号模板视频",
-        "status": "unread"
+        "status": "unread",
+        "identity_evidence": "resource_identity_evidence.json",
+        "canonical_url": "https://www.bilibili.com/video/BV1uu411d7Fq/",
+        "metadata_identity_verified": true
       },
       {
         "id": "R16",
@@ -3141,17 +3167,17 @@
     ]
   },
   "release": {
-    "version": "0.22.0",
-    "tag": "engraving-v0.22.0",
+    "version": "0.23.0",
+    "tag": "engraving-v0.23.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.22可用研究版：固定连音通道、独立层／标记／紧行宽三情境及m97实际1/1迁移，八份新原创输入与两图；旧m97端点推荐已撤回，新比较候选音乐保持、加线与整页联动保留，视觉选择待回复。覆盖及20入口保持，无软件／字体适配。"
+    "working_branch_note": "0.23固定梁内换号条件、整行容量两类及来源身份纠正／乐器条件补读；两份新原创输入与一图，20入口保持。资料16/25余9，软件／字体适配0；R08旧错误链接修正，R09仍仅一帧partial。"
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "整行容量计划两类2/2；同曲三小节密集行与七小节末行均保留，补脉冲、混合细分和全小节值位置。",
+    "scope": "8项来源身份复核及1处R08错误链接修正；官方独奏小提琴样本2/2页用于乐器条件判断，Gould6页完整复读。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3161,7 +3187,7 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 7,
+    "book_reread_pages": 6,
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
@@ -3170,16 +3196,18 @@
     "new_native_diagnostic_conditions": 0,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "CASTING_OFF_READING.md"
+      "SOURCE_IDENTITY_REVIEW.md",
+      "INSTRUMENT_CONTEXT_READING.md"
     ],
-    "review_evidence": "casting_off_evidence.json",
-    "software_adaptation": false,
-    "official_pdf_pages_reread": 2,
-    "official_detail_views": 5,
-    "retained_real_contexts": 2,
-    "paper_capacity_bounds": 1,
+    "review_evidence": "resource_identity_evidence.json",
+    "official_pdf_pages_reread": 0,
     "new_native_renditions": 0,
-    "native_CLI_calls": 0
+    "native_CLI_calls": 0,
+    "software_adaptation": false,
+    "video_metadata_identities_verified": 8,
+    "corrected_work_links": 1,
+    "partial_target_frames_viewed": 1,
+    "supplemental_official_pdf_pages_read": 2
   },
   "latest_native_study": {
     "reference": "CLEF_IN_GROUP_READING.md",
@@ -3345,16 +3373,17 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "HOSHIDE_ONDINE_READING.md",
-    "evidence": "hoshide_ondine_evidence.json",
+    "reference": "INSTRUMENT_CONTEXT_READING.md",
+    "evidence": "resource_identity_evidence.json",
     "sample_pages": [
-      4,
-      4
+      2,
+      2
     ],
-    "systems": 20,
-    "resource_id": "R01",
+    "systems": 14,
+    "resource_id": null,
     "new_resource_completion": false,
-    "full_work_read": false
+    "full_work_read": true,
+    "boundary": "Complete two-page official solo violin arrangement; separate from R09 Legatissimo rendering. Instrument-specific notation and6Gould pages reviewed; no native/printing/performance verification."
   },
   "judgment_review_history": [
     {
@@ -3499,7 +3528,7 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "整行容量两类2/2、复杂换号正面1/1已闭合条件解释；继续余九项可得的实际资料，标题／署名／连接尝试不折算正文阅读。已有知识继续用于审谱，遇到实际新缺口再补原生验证。"
+    "scope": "余9项R07–R15：正确目标身份现已可核，继续实际谱面／讲解。R10拾廿七UID已核、本人材料待取得；R09官方独立版本不能替代目标。读取下一项可正常取得的完整内容，不反复循环失败路径。"
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -3523,5 +3552,29 @@
     ],
     "scope": "计划两类条件阅读2/2闭合；同曲四行实际测量与七页规范复读，均保留参考排法。没有新增原生候选，精确引擎约束、印刷／实奏及个人采用未核。",
     "evidence": "casting_off_evidence.json"
+  },
+  "supplemental_reading_history": [
+    {
+      "reference": "HOSHIDE_ONDINE_READING.md",
+      "evidence": "hoshide_ondine_evidence.json",
+      "sample_pages": [
+        4,
+        4
+      ],
+      "systems": 20,
+      "resource_id": "R01",
+      "new_resource_completion": false,
+      "full_work_read": false
+    }
+  ],
+  "latest_source_identity_review": {
+    "reference": "SOURCE_IDENTITY_REVIEW.md",
+    "evidence": "resource_identity_evidence.json",
+    "audited": [
+      8,
+      8
+    ],
+    "corrected_work_links": 1,
+    "new_resource_completions": 0
   }
 }

@@ -2,7 +2,7 @@
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
 metadata:
-  version: "0.22.0"
+  version: "0.23.0"
 ---
 
 # 钢琴净书
@@ -46,6 +46,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 不默认读全部JSON、全书或每篇逐谱笔记。需要具体依据时，从专题链接追到原案例、页／小节、证据和教材章节。Gould长材料的路径、版本及已核页码映射在教材笔记中；不可得的教程、图或视频保持未读状态，不想象其内容。
 
 ## 对当前乐谱作判断
+
+先核当前作品／版本、乐器及演奏任务；视频／收藏列表须核作品ID、标题和作者，自动跳转后重新确认。同名官方PDF与视频成品分别记录，不用一份补足另一份未读范围。具体反例经`sources`查`SOURCE_IDENTITY_REVIEW.md`；跨乐器套用谱号、弧线或奏法前，经`notation`查`INSTRUMENT_CONTEXT_READING.md`的条件。
 
 看完整系统和邻近上下文，再近看可疑处。PDF提供可见版面，不提供全部voice、手分配、播放或对象范围；OCR、字符码与外框不能独自证明音乐语义。有工程时补读结构和有效样式，区分未保存字段、实际默认与手动覆盖。
 

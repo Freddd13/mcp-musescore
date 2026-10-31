@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+当前可用研究版为**[0.23.0／engraving-v0.23.0](ENGRAVING_RELEASES.md)**，包括换号、整行容量及作品／乐器条件的新案例。可查`--topic sources --query "收藏列表 作品ID 自动跳转"`或`--topic notation --query "弦号 弓法 乐器条件"`。修正R08旧链接，资料仍16/25余9；以下旧版介绍保留为使用历史。关联安装更新项目即可，复制安装同步同版skill和库，无需重配MCP。
+
 0.22已固定[连音范围／归属及m97实曲迁移](ENGRAVING_RELEASES.md)。可查`--topic notation --query "m97 首休止 加线"`或`--topic layout --query "端点 整页 间距"`；新候选的加线、显示分配与整页联动一并说明，用户选择尚待反馈。原谱／比较图留本机，使用方式沿用下文。
 
 最新工作分支已补[三层连音归属](engraving/TUPLET_OWNERSHIP_STUDY.md)：可用`--topic cross-staff --query "换表点 连音 加线"`查外置与近梁的实际取舍。三种上下文已核，后续[m97实曲迁移](engraving/M97_TUPLET_TRANSFER.md)已完成1/1并收录0.22；0.21保留此前快照。
@@ -8,7 +10,7 @@
 
 0.21纳入[梁坡与实曲应用](engraving/BEAM_WIDTH_TRANSFER.md)、[共梁范围](engraving/BEAM_SCOPE_TRANSFER.md)和[交换机理／换号回查](engraving/BEAM_EXCHANGE_CLEF_STUDY.md)。可查`--topic beams --query "声部归属 第一音 干向"`或`--topic clefs --query "E4 G4 换号"`。新案例在音乐起音保持时仍暴露图面、轨道和释放变化，先读实际验证范围；XML诊断输入用于复现，不能当通用转换补丁。关联／复制更新方式沿用下文，无新增MCP配置步骤。
 
-2026-10-31。最近发布的可用研究版为**[0.22.0／engraving-v0.22.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
+2026-10-31。最近发布的可用研究版为**[0.23.0／engraving-v0.23.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
 
 ## 按具体问题定位来源
 
