@@ -1,0 +1,294 @@
+{
+  "date": "2026-10-31",
+  "version": "0.21.0",
+  "tag": "engraving-v0.21.0",
+  "publication_base_commit": "6325613691181d13e17ae6256afc72541d9442a9",
+  "status": "verified research snapshot;known failures retained",
+  "previous_release": {
+    "version": "0.20.0",
+    "tag_commit": "86808c48934174dad20e9196ea640d8e5e939e97",
+    "certificate_sha256": "19d74960bf41f36d0bdded9bdac91037126e47c9cd47ae02968b3484607f720b"
+  },
+  "changes_since_0_20_0": {
+    "new_official_closeouts": 0,
+    "new_official_pages": 0,
+    "new_gould_coverage": 0,
+    "new_complete_resources": 0,
+    "new_user_integrated_rounds": 0,
+    "new_fixed_transfer_scenarios": 0,
+    "included_native_studies": 4,
+    "included_native_export_candidate_calls": 38,
+    "included_help_queries": 1,
+    "new_editable_score_inputs": 9,
+    "new_experimental_styles": 1,
+    "new_original_figures": 2,
+    "software_adaptation_changes": 0,
+    "font_work": 0
+  },
+  "validation": {
+    "as_of": "2026-10-31T08:44:22.772Z",
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "CLI_regressions": [
+      6,
+      6
+    ],
+    "new_known_source_queries": [
+      2,
+      2
+    ],
+    "topic_names_preserved": [
+      20,
+      20
+    ],
+    "experimental_single_variable_design_verified": {
+      "only_two_staffmoves_changed": true,
+      "only_two_layer_labels_changed": true,
+      "only_first_stem_removed": true
+    },
+    "public_artifact_count": 12,
+    "included_study_artifact_hashes_verified": 69,
+    "hash_errors": [],
+    "markdown_file_links_checked": 1091,
+    "broken_file_links": [],
+    "old_release_certificate_and_tag_unchanged": true,
+    "publication_does_not_reexecute_historical_native_studies": true,
+    "software_and_font_changes": 0
+  },
+  "recorded_at_utc": "2026-10-31T08:44:22.760Z",
+  "study_evidence_hashes": [
+    {
+      "path": "docs/engraving/beam_width_evidence.json",
+      "bytes": 34075,
+      "sha256": "6fa7555aa3713671a739d96371057491485d12430611fd34c8be8c1e41ecb459"
+    },
+    {
+      "path": "docs/engraving/beam_width_transfer_evidence.json",
+      "bytes": 20458,
+      "sha256": "5c4c36b0ea105b10334c26d764a2701ce255d5d56e0ae7becae0c5252c111847"
+    },
+    {
+      "path": "docs/engraving/beam_scope_transfer_evidence.json",
+      "bytes": 14174,
+      "sha256": "946bfead52ff4b2a0d6a82e56974ac4d2c7621fe41e374f6d467dbad2efbf2cc"
+    },
+    {
+      "path": "docs/engraving/beam_exchange_clef_evidence.json",
+      "bytes": 27597,
+      "sha256": "ce8b0fdf5c36435e038e93efd235e520b35cb4d1e7793d85e627350fae81da7c"
+    }
+  ],
+  "public_native_artifacts_checked": [
+    {
+      "path": "docs/engraving/fixtures/beam-width-40mm.mscx",
+      "bytes": 5443,
+      "sha256": "a526bae8400f87250e14091c218598bd5c2e3d566366af677521f39ed6505413"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-50mm.mscx",
+      "bytes": 5442,
+      "sha256": "f649dc20c7488683b2382a8fc53d0c99ff3fc96ad7e5449d24f5d90b3869c004"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-70mm.mscx",
+      "bytes": 5444,
+      "sha256": "446f25da982469f83f552483ec468c7dcd11247a0a1df0d91c4a304d79e61d66"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-100mm.mscx",
+      "bytes": 5442,
+      "sha256": "55b19b50b2617b4c60aed4c9804ca284748135266f312519f4fabfde59ff06e1"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-50mm-shallow.mscx",
+      "bytes": 6170,
+      "sha256": "e4bc46c453d21e2ff1e9460fc019a3b4d62e90063359281fee1fdf77d49031d0"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-comparison.png",
+      "bytes": 54137,
+      "sha256": "0fddb60c2d48b3e95636dd1cfc2f6ceb689784de3e0b2cf90738523816e59ace"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-source.mscx",
+      "bytes": 5005,
+      "sha256": "36c75b5f4af47389b8e7bc4b93f3219b9600dd1ce479c5c516d94500c0ab90ab"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-owner-control.mscx",
+      "bytes": 4929,
+      "sha256": "946575a3b82ebc443e475a375f82470a27c03d1f0bb033f9435cbf0f2c96141b"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-style.mss",
+      "bytes": 783,
+      "sha256": "50642f0fec452cd3786d553a320cf7a13e7a74d61d90fe49a3e00a37804aef07"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-explicit-layers.musicxml",
+      "bytes": 9330,
+      "sha256": "bd7d506877a7d4020ce974b88cf1278c3810d442ed520e5e41f9deb5a46ce626"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-auto-direction.musicxml",
+      "bytes": 9306,
+      "sha256": "35c9b9375fc317bfcc9a77ecb0a19a25402a54e78e7ca6a07f8b3e62a72f1b30"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-comparison.png",
+      "bytes": 171610,
+      "sha256": "a3e806b7cce142434a2e3c831e48c59fb44aa27940c30d7c300e7107bed7a92d"
+    }
+  ],
+  "sources_checked": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "bytes": 68488,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "bytes": 249752,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "bytes": 249473889,
+      "fresh_hash_check": true
+    }
+  ],
+  "included_study_artifact_fingerprints_checked": 69,
+  "new_native_experiment": {
+    "conditions": [
+      6,
+      6
+    ],
+    "native_export_calls": 19,
+    "help_queries": 1,
+    "independent_pitched_recipe": [
+      48,
+      48
+    ],
+    "pooled_noteon_recipe": [
+      48,
+      48
+    ],
+    "partial_vs_full_preservation": "Actual written pitches/timing and pooled NoteOn preserved;voice ownership,beam stems/layers,MIDI tracks/releases and whole-page layout differ.",
+    "original_editable_inputs": 4,
+    "experimental_style": 1,
+    "original_figure": 1
+  },
+  "query_validation": {
+    "kind": "Known-source retrieval smoke and existing CLI compatibility;not independent engraving accuracy",
+    "legacy_topic_names_preserved": 20,
+    "existing_curated_cases": 5,
+    "existing_CLI_regression_tests": 6,
+    "new_query_cases": [
+      {
+        "topic": "beams",
+        "query": "声部归属 第一音 干向",
+        "expected": "BEAM_EXCHANGE_CLEF_STUDY.md",
+        "expected_within_first_three": true,
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_SCOPE_TRANSFER.md",
+            "line": 3,
+            "heading": "共梁、连音与实际范围：m71／m70／m97"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_EXCHANGE_CLEF_STUDY.md",
+            "line": 42,
+            "heading": "第一音干向被用于整根梁"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_STEM_STUDY.md",
+            "line": 3,
+            "heading": "符梁、符干与加线：出版观感为什么不能只靠换字体"
+          }
+        ]
+      },
+      {
+        "topic": "clefs",
+        "query": "E4 G4 换号",
+        "expected": "CLEF_READING.md",
+        "expected_within_first_three": true,
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_EXCHANGE_CLEF_STUDY.md",
+            "line": 66,
+            "heading": "5. 组内换号的待办怎样收束"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CLEF_READING.md",
+            "line": 3,
+            "heading": "换谱号：保住音程轮廓，再减少加线负担"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SKILL_TRANSFER_CLEFS.md",
+            "line": 9,
+            "heading": "1. F入口为什么要换，而不把运行搬上表"
+          }
+        ]
+      }
+    ]
+  },
+  "progress": {
+    "goal_status": "active",
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "gould_file_coverage": [
+      696,
+      696
+    ],
+    "resource_scopes": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "fixed_skill_transfer_coverage": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ],
+    "user_milestones": [
+      4,
+      4
+    ]
+  },
+  "cache": {
+    "batch_directory": "tmp/engraving/beam-exchange-clef-2026-10-31",
+    "private_bytes": 244433,
+    "private_budget_bytes": 262144,
+    "new_public_native_artifact_bytes": 283041,
+    "new_runtime_copies": 0,
+    "new_original_user_pdf_or_score_copies": 0,
+    "new_source_page_rasters": 0,
+    "deletions": 0,
+    "total_exact_bytes": null,
+    "existing_total_scan_gap": "tmp/engraving/skill-review-2026-10-19/locator-m6az562x denied access;no ACL changes",
+    "current_check_allowance_bytes": 3232694272,
+    "no_duplicated_release_cache": true
+  }
+}

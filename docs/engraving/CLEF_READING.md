@@ -1,5 +1,7 @@
 # 换谱号：保住音程轮廓，再减少加线负担
 
+2026-10-31复看[组内换号基础反例](BEAM_EXCHANGE_CLEF_STUDY.md#5-组内换号的待办怎样收束)与Gould p23：m1 E4→G4实际上行，换号后谱面位置却向下，梁随谱位连接；本例可利用前面的休止提前换号。基础情境已在本页，未重跑旧四版或把旧配置核查升级；复杂／不可避免换号的正面情境仍待补。
+
 2026-10-27[Legato拉威尔案例](LEGATO_RAVEL_READING.md)：Borodine m17–26下表反复换号处理音区往返，当前保留；减少换号要连新增加线与整句音程轮廓比较。Chabrier m28／30另置括起低音号不可直接改成全表新有效谱号，底本定义仍待校。
 
 2026-10-24补[T04／aLIEz](SKILL_TRANSFER_CLEFS.md)：F/m49先用低音谱号写正常十六分C3，后15个快头在一个高音参照中读完，末尾再返回。全低音会让反复B4写四条上加线，全高音则加重低入口；上表已有旋律八度，保留当前分配。初判未锁定的小音身份已核清，不把换号次数或单音阈值当自动改写标准。
@@ -58,7 +60,7 @@ p8 m148的活动层在原生跨表运行中换号，另两条背景谱表继续�
 
 ![少加线但破坏连续轮廓的原生拒绝例](fixtures/clef-frequent-rejected.png)
 
-**延后一个八分的拒绝例。** [原生谱](fixtures/clef-late-in-group-rejected.mscx)／[图](fixtures/clef-late-in-group-rejected.png)把m1的换号推到二音梁组中间。实际E4→G4仍上行，但两个头在各自谱号下的位置反向跳变，梁也大斜跨过换号；原本休止后可整组读取的动作被拆开。本例有更清楚的边界，故保留原排，不把“所有梁内换号都错”作为通则。
+**延后一个八分的拒绝例。** [原生谱](fixtures/clef-late-in-group-rejected.mscx)／[图](fixtures/clef-late-in-group-rejected.png)把m1的换号推到二音梁组中间。实际E4→G4仍上行，但两个头在各自谱号下的位置反向跳变，梁按实际谱面位置向下跨过换号；原本休止后可整组读取的动作被拆开。本例有更清楚的边界，故保留原排，不把“所有梁内换号都错”作为通则。
 
 **隐藏换号拒绝例。** [原生谱](fixtures/clef-hidden-change-rejected.mscx)／[图](fixtures/clef-hidden-change-rejected.png)只将m1高音Clef设为不可见；其后音头仍按高音谱号定位，读者却只看到低音谱号。完整MIDI、音高字段和实际时值均与保留版相同，仍丢失正确读法。MusicXML也记录`print-object="no"`，不能据格式忠实保存这个隐藏状态就认定净书成功。
 

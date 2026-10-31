@@ -2,7 +2,7 @@
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
 metadata:
-  version: "0.20.0"
+  version: "0.21.0"
 ---
 
 # 钢琴净书
@@ -70,6 +70,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 用户只需在有明显、可解释取舍的候选时提供少量直观反馈。微差未显出收益时，由agent继续诊断或保留原样，不反复要求选图；技术核查不转给用户。打印／试奏在准备采用时再核，未做则如实记录。
 
 播放保护须核覆盖范围：mute／solo或不播放的层可能不进入MIDI；必要时另建明确标为诊断的参与播放对照，不悄改最终候选的混音。SVG字符串次序不等也不直接证明几何／像素变化；变换后的坐标、绘图对象与实际图分别核，详见原生保护参考。
+
+涉及MusicXML导回时，经`beams`／`notation`查`BEAM_EXCHANGE_CLEF_STUDY.md`：逻辑归属、显示staffMove、逐音干向和逐层梁断口分别核；合并后的起音相同仍可能改变轨道、释放与读法。原生副本候选和格式转换各记验证范围。
 
 ## 积累经验
 

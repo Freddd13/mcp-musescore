@@ -333,3 +333,10 @@ MuseScore3Evo.exe -s -m -c <已有独立配置目录> -r 180 -o <新目录>/widt
 ```
 
 本宿主单页SVG实际生成width-50-1.svg；页面可打印宽还含首系统左部空间，要核实际谱线／音组宽度。原生SVG／MusicXML／保存文件留在私有研究批次；图中字形按字体自身许可，不打包字库。
+
+
+## 2026-10-31：跨表交换与逐层断口（0.21）
+
+[研究与六条件图](../BEAM_EXCHANGE_CLEF_STUDY.md)提供一个CC0八音C大调小样本、两个单变量MusicXML输入，用户音乐未复制。四份可编辑谱例为`mixed-beam-exchange-source.mscx`、`mixed-beam-exchange-owner-control.mscx`、`mixed-beam-exchange-explicit-layers.musicxml`、`mixed-beam-exchange-auto-direction.musicxml`；`mixed-beam-exchange-style.mss`固定Leland／Leland Text、单位及实验参数，供CLI的-S使用，不是个人净书样式推荐。
+
+`mixed-beam-exchange-comparison.png`以200dpi同物理比例保留全部六条件，含失败。8音实际时值与合并起音保持，原生和交换的声部归属、干向、梁段、MIDI轨道与释放有差别；自动连音括号及整页布局未完成美化。不要把恢复两向干的一格当整谱无损转换。旧组内换号图仅复看，没有重跑旧四版。

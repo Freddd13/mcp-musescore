@@ -3133,17 +3133,17 @@
     "integrated_round_evidence": "user_combined_review_evidence.json"
   },
   "release": {
-    "version": "0.20.0",
-    "tag": "engraving-v0.20.0",
+    "version": "0.21.0",
+    "tag": "engraving-v0.21.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.20.0 usable research release:146/146official closeouts,1135/1135pages;Gould696/696coverage,resources16/25remainingR07-R15;fixedtransfer8/8,userintegrated1/1,milestones4/4. Optional local question-to-passage lookup added;old20topic routes preserved. Includes EONIAN glyph screen,swing four-condition and doubled-tuplet two-notation native studies,five CC0 source inputs. Five curated retrieval locations and sixCLIregressions are not engraving accuracy or new reading. No software/font adaptation;historical tags/certificates immutable."
+    "working_branch_note": "0.21可用研究版：固定近期行宽5/5、实曲5/5及3/3、跨表交换6/6条件；九份新可编辑输入、一份MSS和两张原创图。20入口和既有查询保留；阅读／资料／组合计数保持，无软件或字体适配，旧标签证据保持。"
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "三处共梁／范围判断：两保留、一处m97私有端点候选；原PDF整页与原生上下文、Gould八页复读、八页几何及音乐检查。",
+    "scope": "跨表交换六条件与旧组内换号反例复看，发布0.21研究版；R10既有标签正文观察超时，未新增谱例阅读。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3153,24 +3153,27 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 8,
+    "book_reread_pages": 1,
+    "supplemental_element_reference_pages_read": 4,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 1,
+    "new_native_candidate_scenarios": 0,
+    "new_native_diagnostic_conditions": 6,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "BEAM_SCOPE_TRANSFER.md"
+      "BEAM_EXCHANGE_CLEF_STUDY.md",
+      "../ENGRAVING_RELEASES.md"
     ],
-    "review_evidence": "beam_scope_transfer_evidence.json",
+    "review_evidence": "beam_exchange_clef_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "BEAM_SCOPE_TRANSFER.md",
-    "evidence": "beam_scope_transfer_evidence.json",
-    "completed_conditions": 1,
-    "planned_conditions": 1,
-    "description": "原件release5独立副本只恢复m97的Tuplet右端横向偏移；3次CLI、8页几何、3203音休止对象和完整19,491字节MIDI已核，仅Tuplet图形变化。未另存重载、导回或用户采用。",
+    "reference": "BEAM_EXCHANGE_CLEF_STUDY.md",
+    "evidence": "beam_exchange_clef_evidence.json",
+    "completed_conditions": 6,
+    "planned_conditions": 6,
+    "description": "原创八音跨表组的六条件诊断，含失败：归属、首音梁向和第二层断口分别核查。19次导出＋1次help；48音书面配方和合并起音保持，MIDI轨道／释放及图面未全保持。旧换号反例仅复看，无软件修改。",
     "reading_increment": 0,
     "user_preference_confirmed": false,
     "software_adaptation_changes": 0
@@ -3256,6 +3259,16 @@
       "reading_increment": 0,
       "user_preference_confirmed": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "BEAM_SCOPE_TRANSFER.md",
+      "evidence": "beam_scope_transfer_evidence.json",
+      "completed_conditions": 1,
+      "planned_conditions": 1,
+      "description": "原件release5独立副本只恢复m97的Tuplet右端横向偏移；3次CLI、8页几何、3203音休止对象和完整19,491字节MIDI已核，仅Tuplet图形变化。未另存重载、导回或用户采用。",
+      "reading_increment": 0,
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
@@ -3321,12 +3334,13 @@
     }
   ],
   "latest_library_query": {
-    "evidence": "release_0_20_0_evidence.json",
+    "evidence": "release_0_21_0_evidence.json",
     "guide": "../ENGRAVING_SKILL.md",
     "curated_known_source_cases": 5,
     "planned_curated_cases": 5,
     "CLI_regression_tests": 6,
     "planned_CLI_regressions": 6,
-    "scope": "Retrieval and backwards compatibility only;not independent musical judgment or new source reading."
+    "scope": "既有五类来源定位与六项CLI回归，另补两个新问题定位；不计独立净书判断准确率或新增阅读。",
+    "new_known_source_smoke_cases": 2
   }
 }

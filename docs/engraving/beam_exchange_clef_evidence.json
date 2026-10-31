@@ -1,0 +1,1059 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31",
+  "kind": "Original cross-staff MusicXML exchange diagnosis and reuse of an existing clef counterexample",
+  "study": "BEAM_EXCHANGE_CLEF_STUDY.md",
+  "conditions_planned": 6,
+  "conditions_executed": 6,
+  "scope_history": [
+    {
+      "as_of": "2026-10-31T07:51:27.722Z",
+      "from_native_conditions": 2,
+      "to_native_conditions": 4,
+      "reason": "First roundtrip reassigned home staff and changed rest placement/stems;add lower-majority display control and its roundtrip,holding all pitches and durations fixed.",
+      "predicted_baseline_counts": {
+        "upper": 5,
+        "lower": 5
+      },
+      "predicted_control_counts": {
+        "upper": 3,
+        "lower": 7
+      }
+    },
+    {
+      "as_of": "2026-10-31T07:57:09.260Z",
+      "from_native_conditions": 4,
+      "to_native_conditions": 6,
+      "reason": "Lower-majority control retained home staff but still lost second-layer gap and mixed stems.Add explicit second-layer end/begin,then remove only first-note stem to test separate mechanisms."
+    }
+  ],
+  "not_success_or_accuracy_rate": true,
+  "native_host": {
+    "path": "E:/programming/funcodes/mcp-musescore/tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "svg_reported_version": "3.7.0",
+    "build_relationship_to_current_source": "unverified"
+  },
+  "new_native_export_calls": 19,
+  "help_queries": 1,
+  "configuration": {
+    "path": "tmp/engraving/beam-exchange-clef-2026-10-31/config",
+    "created_before_calls": true,
+    "complete_existing_runtime_reused": true,
+    "new_runtime_copies": 0,
+    "style_option_verified_from_host_help": "-S, --style <style> Load style file"
+  },
+  "source_recipe": {
+    "pitches": [
+      60,
+      62,
+      64,
+      65,
+      67,
+      69,
+      71,
+      72
+    ],
+    "quarter_onsets": [
+      "11/6",
+      "2",
+      "13/6",
+      "7/3",
+      "5/2",
+      "21/8",
+      "11/4",
+      "23/8"
+    ],
+    "quarter_durations": [
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8"
+    ],
+    "note_attack_count": 8
+  },
+  "conditions": {
+    "baseline": {
+      "pitched_objects": 8,
+      "total_note_rest_objects": 11,
+      "stems": [
+        "up",
+        "up",
+        "up",
+        "down",
+        "down",
+        "down",
+        "down",
+        "down"
+      ],
+      "note_staffs": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "note_voices": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "second_layer_labels": [
+        "begin",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "end"
+      ],
+      "beam_polygons": 4,
+      "staff_space_svg": 22.251999999999953,
+      "rest_records": [
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3",
+          "staff": "1",
+          "voice": "1",
+          "stem": null,
+          "type": null,
+          "dots": 0,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3/2",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "quarter",
+          "dots": 1,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "3/2",
+          "d": "1/3",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "eighth",
+          "dots": 0,
+          "tm": [
+            "6",
+            "4",
+            "16th"
+          ],
+          "beams": []
+        }
+      ],
+      "midi_sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2",
+      "midi_bytes": 195,
+      "midi_noteon_counts_by_zero_based_track": {
+        "2": 8
+      }
+    },
+    "roundtrip": {
+      "pitched_objects": 8,
+      "total_note_rest_objects": 12,
+      "stems": [
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "note_staffs": [
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "note_voices": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      "second_layer_labels": [
+        "begin",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "end"
+      ],
+      "beam_polygons": 3,
+      "staff_space_svg": 22.252000000000066,
+      "rest_records": [
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3",
+          "staff": "1",
+          "voice": "1",
+          "stem": null,
+          "type": null,
+          "dots": 0,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3/2",
+          "staff": "1",
+          "voice": "2",
+          "stem": null,
+          "type": "quarter",
+          "dots": 1,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "3/2",
+          "d": "1/3",
+          "staff": "1",
+          "voice": "2",
+          "stem": null,
+          "type": "eighth",
+          "dots": 0,
+          "tm": [
+            "6",
+            "4",
+            "16th"
+          ],
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": null,
+          "dots": 0,
+          "tm": null,
+          "beams": []
+        }
+      ],
+      "midi_sha256": "b57c316bff64bd1afd00f4f597986cd53f63a8be4b2f9a19bb7eaeda5634a646",
+      "midi_bytes": 190,
+      "midi_noteon_counts_by_zero_based_track": {
+        "1": 8
+      }
+    },
+    "control": {
+      "pitched_objects": 8,
+      "total_note_rest_objects": 11,
+      "stems": [
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "down",
+        "down",
+        "down"
+      ],
+      "note_staffs": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "note_voices": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "second_layer_labels": [
+        "begin",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "end"
+      ],
+      "beam_polygons": 4,
+      "staff_space_svg": 22.251999999999953,
+      "rest_records": [
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3",
+          "staff": "1",
+          "voice": "1",
+          "stem": null,
+          "type": null,
+          "dots": 0,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3/2",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "quarter",
+          "dots": 1,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "3/2",
+          "d": "1/3",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "eighth",
+          "dots": 0,
+          "tm": [
+            "6",
+            "4",
+            "16th"
+          ],
+          "beams": []
+        }
+      ],
+      "midi_sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2",
+      "midi_bytes": 195,
+      "midi_noteon_counts_by_zero_based_track": {
+        "2": 8
+      }
+    },
+    "control-roundtrip": {
+      "pitched_objects": 8,
+      "total_note_rest_objects": 11,
+      "stems": [
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "note_staffs": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "note_voices": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "second_layer_labels": [
+        "begin",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "continue",
+        "end"
+      ],
+      "beam_polygons": 3,
+      "staff_space_svg": 22.252000000000066,
+      "rest_records": [
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3",
+          "staff": "1",
+          "voice": "1",
+          "stem": null,
+          "type": null,
+          "dots": 0,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3/2",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "quarter",
+          "dots": 1,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "3/2",
+          "d": "1/3",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "eighth",
+          "dots": 0,
+          "tm": [
+            "6",
+            "4",
+            "16th"
+          ],
+          "beams": []
+        }
+      ],
+      "midi_sha256": "9847adbb65b1faf92ccc5afe302c968b9046d068dbbb0cd2df8351f7e569db91",
+      "midi_bytes": 190,
+      "midi_noteon_counts_by_zero_based_track": {
+        "2": 8
+      }
+    },
+    "layers": {
+      "pitched_objects": 8,
+      "total_note_rest_objects": 11,
+      "stems": [
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "note_staffs": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "note_voices": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "second_layer_labels": [
+        "begin",
+        "continue",
+        "continue",
+        "end",
+        "begin",
+        "continue",
+        "continue",
+        "end"
+      ],
+      "beam_polygons": 4,
+      "staff_space_svg": 22.252000000000066,
+      "rest_records": [
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3",
+          "staff": "1",
+          "voice": "1",
+          "stem": null,
+          "type": null,
+          "dots": 0,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3/2",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "quarter",
+          "dots": 1,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "3/2",
+          "d": "1/3",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "eighth",
+          "dots": 0,
+          "tm": [
+            "6",
+            "4",
+            "16th"
+          ],
+          "beams": []
+        }
+      ],
+      "midi_sha256": "9847adbb65b1faf92ccc5afe302c968b9046d068dbbb0cd2df8351f7e569db91",
+      "midi_bytes": 190,
+      "midi_noteon_counts_by_zero_based_track": {
+        "2": 8
+      }
+    },
+    "auto": {
+      "pitched_objects": 8,
+      "total_note_rest_objects": 11,
+      "stems": [
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "down",
+        "down",
+        "down"
+      ],
+      "note_staffs": [
+        "2",
+        "2",
+        "2",
+        "2",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "note_voices": [
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5",
+        "5"
+      ],
+      "second_layer_labels": [
+        "begin",
+        "continue",
+        "continue",
+        "end",
+        "begin",
+        "continue",
+        "continue",
+        "end"
+      ],
+      "beam_polygons": 4,
+      "staff_space_svg": 22.252000000000066,
+      "rest_records": [
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3",
+          "staff": "1",
+          "voice": "1",
+          "stem": null,
+          "type": null,
+          "dots": 0,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "0",
+          "d": "3/2",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "quarter",
+          "dots": 1,
+          "tm": null,
+          "beams": []
+        },
+        {
+          "pitch": null,
+          "q": "3/2",
+          "d": "1/3",
+          "staff": "2",
+          "voice": "5",
+          "stem": null,
+          "type": "eighth",
+          "dots": 0,
+          "tm": [
+            "6",
+            "4",
+            "16th"
+          ],
+          "beams": []
+        }
+      ],
+      "midi_sha256": "9847adbb65b1faf92ccc5afe302c968b9046d068dbbb0cd2df8351f7e569db91",
+      "midi_bytes": 190,
+      "midi_noteon_counts_by_zero_based_track": {
+        "2": 8
+      }
+    }
+  },
+  "checks": {
+    "independent_pitched_recipe": [
+      48,
+      48
+    ],
+    "independent_midi_noteon_recipe": [
+      48,
+      48
+    ],
+    "all_midi_noteon_events_equal": true,
+    "all_noteon_off_events_equal": false,
+    "all_raw_midi_equal": false,
+    "noteoff_differences": {
+      "ppq": 480,
+      "imported_first_four_noteoff_ticks": -4,
+      "imported_last_four_noteoff_ticks": -3,
+      "source_default_instrument_articulation_present": false,
+      "imported_default_gate_percent": 95,
+      "interpretation": "Gate difference matches the imported piano template;not treated as a written-duration failure or claimed MIDI identity."
+    },
+    "source_controls": "A and B differ only in two staffMove nodes.Fourth and fifth notes remain on lower staff in B;all pitches and durations retained.",
+    "layer_control": "Only beam2 continue->end on F4 and continue->begin on G4.",
+    "direction_control": "Only first C4 stem element removed from explicit-layer input;other declared note stems retained.",
+    "native_save_reload_graphical_test": false,
+    "full_user_score_roundtrip": false,
+    "print_performance_or_aesthetic_acceptance": false,
+    "native_source_and_control_raw_midi_equal": true,
+    "imported_four_raw_midi_equal": false,
+    "imported_four_note_events_equal": true,
+    "noteon_comparison_scope": "pooled across tracks;A reimport changes note track assignment and that difference is preserved separately"
+  },
+  "rest_display": {
+    "imported_logical_owner": "Staff1 voice index1",
+    "visible_staff_move": 1,
+    "new_lower_whole_rest": "Staff2,visible0",
+    "scope": "Original two rests still display on lower staff;MusicXML exported staff tag is not a sufficient native display reference."
+  },
+  "instrument_gate": {
+    "source_default_articulation_absent": true,
+    "imported_default_gate_percent": 95,
+    "observed_noteoff_delta_ticks": {
+      "first_four": -4,
+      "last_four": -3
+    },
+    "ppq": 480,
+    "causal_boundary": "Default-template difference matches observed release differences;not a written rhythm failure and not used to claim playback identity."
+  },
+  "source_code": {
+    "repository": "E:/programming/funcodes/muse3_dev/MuseScore",
+    "head": "d7adc0902d964a11535ffd100d09c54b62487c64",
+    "read_files_worktree_status": "clean for these files",
+    "binary_built_from_this_commit": "unverified",
+    "files": [
+      {
+        "path": "E:/programming/funcodes/muse3_dev/MuseScore/importexport/musicxml/importxml.cpp",
+        "sha256": "496f06e558d878ff5106e227fbf779906572a8556a92155e24922e6ae42f68d1"
+      },
+      {
+        "path": "E:/programming/funcodes/muse3_dev/MuseScore/importexport/musicxml/importmxmlpass1.cpp",
+        "sha256": "8ac1f94b431a30043a14d0debeb754429c85ceb22cf267711a7790aa21a7260d"
+      },
+      {
+        "path": "E:/programming/funcodes/muse3_dev/MuseScore/importexport/musicxml/importmxmlpass2.cpp",
+        "sha256": "1f6b267a4ceb791ecfe400e3f9b8893b240cda567278bbb03efaed603e14960c"
+      }
+    ],
+    "locations": {
+      "preferredStaff": "importxml.cpp:348–357",
+      "staffAllocation": "importmxmlpass1.cpp:63–91,133–147,3688–3698",
+      "beamStem": "importmxmlpass2.cpp:2521–2578",
+      "beamLevels": "importmxmlpass2.cpp:6208–6227"
+    },
+    "changes": 0
+  },
+  "existing_clef_review": {
+    "source": "docs/engraving/fixtures/clef-late-in-group-rejected.mscx",
+    "figure": "docs/engraving/fixtures/clef-late-in-group-rejected.png",
+    "reviewed_case": [
+      1,
+      1
+    ],
+    "description": "m1lasttwo eighths E4/G4 sound upward,written F-to-Gclef positions go downward;existing rest allows earlier clef at whole group boundary.",
+    "new_native_calls": 0,
+    "historical_configuration_caveat_preserved": true,
+    "artifacts": [
+      {
+        "path": "docs/engraving/fixtures/clef-late-in-group-rejected.mscx",
+        "bytes": 9510,
+        "sha256": "8fd6ad78e7cbd1acd2ec93bbd73309c059f69fa150037f0b07b31f40c7de6c54"
+      },
+      {
+        "path": "docs/engraving/fixtures/clef-late-in-group-rejected.png",
+        "bytes": 39862,
+        "sha256": "582cdac877a93f8c2b59d502edd72ff99158aa77e19cec0452f2f982ddf5357a"
+      },
+      {
+        "path": "docs/engraving/fixtures/clef-boundaries.mscx",
+        "bytes": 9510,
+        "sha256": "212d9b06602dd1dca1ce326628962d87acba997ac74f8819edce19b9ab37bcdd"
+      }
+    ]
+  },
+  "source_reading": {
+    "gould_printed_full_pages": [
+      23
+    ],
+    "physical_pages": [
+      43
+    ],
+    "new_coverage": 0,
+    "source_page_rasters": "memory only",
+    "musicxml_reference_pages": [
+      "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/beam/",
+      "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/stem/",
+      "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/voice/",
+      "https://www.w3.org/2021/06/musicxml40/musicxml-reference/elements/staff/"
+    ],
+    "targeted_reference_pages_read": [
+      4,
+      4
+    ],
+    "scope": "Element descriptions only,not all linked examples or complete specification."
+  },
+  "figure": {
+    "path": "docs/engraving/fixtures/mixed-beam-exchange-comparison.png",
+    "dpi": 200,
+    "dimensions": [
+      2850,
+      1394
+    ],
+    "all_conditions_same_physical_scale": true,
+    "page_layout_not_equal": true,
+    "automatic_tuplet_channel_not_corrected": true,
+    "source_native_outputs_not_beautified": true
+  },
+  "resource_followup": {
+    "resource": "R10",
+    "browser": "IAB2",
+    "tab_id": "3",
+    "observed_url": "https://www.gangqinpu.com/cchtml/1050811.htm",
+    "inventory_confirmed_existing": true,
+    "content_observation_timeouts": 2,
+    "new_tabs": 0,
+    "new_preview_content_read": 0,
+    "interpretation": "Observation timeout is not terminal tab state;no restart/replacement or media download workaround."
+  },
+  "private_records": {
+    "directory": "tmp/engraving/beam-exchange-clef-2026-10-31",
+    "files": [
+      "scope.json",
+      "run.py",
+      "audit.py",
+      "audit.json",
+      "inspect-native-calls.json",
+      "roundtrip-inspect.mscx"
+    ],
+    "phase_records": [
+      "baseline-calls.json",
+      "roundtrip-calls.json",
+      "control-calls.json",
+      "control-roundtrip-calls.json",
+      "layers-calls.json",
+      "auto-calls.json"
+    ]
+  },
+  "cache": {
+    "as_of": "2026-10-31T08:21:27.008Z",
+    "private_bytes": 244433,
+    "private_budget_bytes": 262144,
+    "additional_check_allowance_bytes": 262144,
+    "current_check_allowance_bytes": 3232694272,
+    "exact_total_bytes": null,
+    "existing_total_scan_gap": "tmp/engraving/skill-review-2026-10-19/locator-m6az562x denied access;no ACL changes",
+    "new_source_pdf_or_book_copies": 0,
+    "new_source_page_image_files": 0,
+    "new_user_score_copies": 0,
+    "new_runtime_copies": 0,
+    "deletions": 0,
+    "public_sources_and_figure_bytes": 200963
+  },
+  "progress": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "gould_coverage": [
+      696,
+      696
+    ],
+    "resource_scopes": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ],
+    "software_adaptation_changes": 0
+  },
+  "validation": {
+    "as_of": "2026-10-31T08:44:22.754Z",
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "existing_cli_regressions": [
+      6,
+      6
+    ],
+    "independent_pitched_recipe": [
+      48,
+      48
+    ],
+    "pooled_midi_noteon_recipe": [
+      48,
+      48
+    ],
+    "graphical_roundtrip_preservation": false,
+    "full_midi_identity": false,
+    "known_failures_retained": true,
+    "experimental_design": {
+      "only_two_staffmoves_changed": true,
+      "only_two_layer_labels_changed": true,
+      "only_first_stem_removed": true
+    },
+    "new_query_checks": [
+      {
+        "topic": "beams",
+        "query": "声部归属 第一音 干向",
+        "expected": "BEAM_EXCHANGE_CLEF_STUDY.md",
+        "expected_within_first_three": true
+      },
+      {
+        "topic": "clefs",
+        "query": "E4 G4 换号",
+        "expected": "CLEF_READING.md",
+        "expected_within_first_three": true
+      }
+    ],
+    "publication_study_asset_fingerprints_verified": 69,
+    "changed_markdown_file_links_checked": 1091,
+    "broken_local_links": [],
+    "private_cache_bytes_after_checks": 244433,
+    "private_budget_bytes": 262144,
+    "existing_tag_and_certificate_unchanged": true
+  },
+  "public_artifacts": [
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-source.mscx",
+      "bytes": 5005,
+      "sha256": "36c75b5f4af47389b8e7bc4b93f3219b9600dd1ce479c5c516d94500c0ab90ab"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-owner-control.mscx",
+      "bytes": 4929,
+      "sha256": "946575a3b82ebc443e475a375f82470a27c03d1f0bb033f9435cbf0f2c96141b"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-style.mss",
+      "bytes": 783,
+      "sha256": "50642f0fec452cd3786d553a320cf7a13e7a74d61d90fe49a3e00a37804aef07"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-explicit-layers.musicxml",
+      "bytes": 9330,
+      "sha256": "bd7d506877a7d4020ce974b88cf1278c3810d442ed520e5e41f9deb5a46ce626"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-auto-direction.musicxml",
+      "bytes": 9306,
+      "sha256": "35c9b9375fc317bfcc9a77ecb0a19a25402a54e78e7ca6a07f8b3e62a72f1b30"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-comparison.png",
+      "bytes": 171610,
+      "sha256": "a3e806b7cce142434a2e3c831e48c59fb44aa27940c30d7c300e7107bed7a92d"
+    }
+  ],
+  "private_artifacts": [
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/baseline-1.svg",
+      "bytes": 19401,
+      "sha256": "0c4ce7393075c575880a7c4625e2a6bda82abdf13c078ab0cd8635f261ce5efa"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/baseline.mxl",
+      "bytes": 2224,
+      "sha256": "b5d325ba070be00dab7a782b28aa9b577252e3f7f1cc756b437d94a5ebfa8cb4"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/baseline.mid",
+      "bytes": 195,
+      "sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/roundtrip-1.svg",
+      "bytes": 18680,
+      "sha256": "fc5fcfce7605bcbc41c7697ab07ddadcb587f019856fbbc93363b6efe7247fb2"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/roundtrip.mxl",
+      "bytes": 2239,
+      "sha256": "b0887a32352647ade929fb31007e6782689a9c582482b2cc78a0979f985cf5c0"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/roundtrip.mid",
+      "bytes": 190,
+      "sha256": "b57c316bff64bd1afd00f4f597986cd53f63a8be4b2f9a19bb7eaeda5634a646"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/control-1.svg",
+      "bytes": 20125,
+      "sha256": "69ee9f11729a9979fc1e97adfea76ecc035507c4231c4a2e9a9526a4ffc91b34"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/control.mxl",
+      "bytes": 2219,
+      "sha256": "6e826109a194285b20d989a9cd8d24ac264caddc8a359f16302c24f7fc21a6af"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/control.mid",
+      "bytes": 195,
+      "sha256": "0fc34bd68fdcc121e4f8471f05470d1ff5f966c3ff83881c04ca9e61141bacd2"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/control-roundtrip-1.svg",
+      "bytes": 19413,
+      "sha256": "392d55a6645ebcbf3a7a3d74c9eafc2f3a5acb678f17d09ed2012f010156faff"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/control-roundtrip.mxl",
+      "bytes": 2241,
+      "sha256": "46c1ecce3cddef38d622397040b024d24925fb9fc420e5a5734cce2516f5c47a"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/control-roundtrip.mid",
+      "bytes": 190,
+      "sha256": "9847adbb65b1faf92ccc5afe302c968b9046d068dbbb0cd2df8351f7e569db91"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/layers-1.svg",
+      "bytes": 19571,
+      "sha256": "b8d795710ebc709e12ac189bad739eafaf026665be355e3f16c154ec62761690"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/layers.mxl",
+      "bytes": 2218,
+      "sha256": "b556589e2f433df898b0c1f4517d13437143f9e76da8da7a430a87d4f6ea0b33"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/layers.mid",
+      "bytes": 190,
+      "sha256": "9847adbb65b1faf92ccc5afe302c968b9046d068dbbb0cd2df8351f7e569db91"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/auto-1.svg",
+      "bytes": 19559,
+      "sha256": "1bec8c9ec0fd23cf836891d056a0d5473cbb64e904d6a196696a71ea437ada07"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/auto.mxl",
+      "bytes": 2213,
+      "sha256": "747cf45cb147e11a1e9d0b8899da2c98ddae8f610657ced8ad22164c5e752cea"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/auto.mid",
+      "bytes": 190,
+      "sha256": "9847adbb65b1faf92ccc5afe302c968b9046d068dbbb0cd2df8351f7e569db91"
+    },
+    {
+      "path": "tmp/engraving/beam-exchange-clef-2026-10-31/roundtrip-inspect.mscx",
+      "bytes": 8655,
+      "sha256": "4ca442b94bbf3593bd4eccad1d100cdd24284dd2f7897dc7126804415feb4e2e"
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "bytes": 68488,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "bytes": 249752,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "bytes": 249473889,
+      "fresh_hash_check": true
+    }
+  ]
+}
