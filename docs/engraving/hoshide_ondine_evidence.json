@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-31T02:40:56.329Z",
+  "note": "Actual viewing by the primary agent; coverage and visual interpretation are distinguished. Original excerpt PDF retained read-only; raster images generated/viewed in memory only.",
+  "scope": {
+    "sample_pages_read": 4,
+    "sample_pages_planned": 4,
+    "systems": 20,
+    "bar_regions": 40,
+    "includes_two_beat_opening": true,
+    "full_work_read": false,
+    "resource_id": "R01",
+    "resource_scope_changed": false
+  },
+  "primary_page": {
+    "url": "https://www.kazuhirohoshide.com/studio/engraving",
+    "read": true,
+    "claims_used": [
+      "Author states Finale + Illustrator workflow",
+      "Author states site samples use Pavane",
+      "Official Gaspard sample link"
+    ]
+  },
+  "source": {
+    "url": "https://www.kazuhirohoshide.com/pdf/gaspard%20de%20la%20nuit.pdf",
+    "path": "tmp/engraving/hoshide-gaspard-2026-10-31/hoshide-gaspard-sample.pdf",
+    "bytes": 162413,
+    "sha256": "7441981987a24c3288af6ed0d90d0956003ef35f7535a1dc7d5d8c5b4e7dab6d",
+    "pages": 4,
+    "metadata": {
+      "Title": "gaspard de la nuit.mus",
+      "Author": "星出和宏",
+      "Subject": "",
+      "Keywords": "",
+      "Creator": "Finale 2012",
+      "Producer": "Mac OS X 10.9.5 Quartz PDFContext",
+      "CreationDate": "D:20260124033752Z",
+      "ModDate": "D:20260126095152+08'00'"
+    },
+    "page_sizes": [
+      [
+        595,
+        842
+      ],
+      [
+        595,
+        842
+      ],
+      [
+        595,
+        842
+      ],
+      [
+        595,
+        842
+      ]
+    ]
+  },
+  "images": [
+    {
+      "id": "full-1",
+      "page": 1,
+      "kind": "full-page",
+      "scale": 1.9,
+      "mimeType": "image/jpeg",
+      "sha256": "0938792cc10598fe8a58e42ad9e71be67beade9c180eaf252a61e8581c371f22",
+      "bytes": 335289,
+      "actually_viewed": true,
+      "stored_on_disk": false
+    },
+    {
+      "id": "full-2",
+      "page": 2,
+      "kind": "full-page",
+      "scale": 1.9,
+      "mimeType": "image/jpeg",
+      "sha256": "06d5f6881805a1ce876197d3a705f9fd1c8f9551d5baf051e6bf35eb81ec6d5a",
+      "bytes": 334545,
+      "actually_viewed": true,
+      "stored_on_disk": false
+    },
+    {
+      "id": "full-3",
+      "page": 3,
+      "kind": "full-page",
+      "scale": 1.9,
+      "mimeType": "image/jpeg",
+      "sha256": "004b87d76f93104cb7ec1c61f52f0b7f5700df694cda578465deb45523be818d",
+      "bytes": 352964,
+      "actually_viewed": true,
+      "stored_on_disk": false
+    },
+    {
+      "id": "full-4",
+      "page": 4,
+      "kind": "full-page",
+      "scale": 1.9,
+      "mimeType": "image/jpeg",
+      "sha256": "d1b83c3e44cbd645057730a504b9be9e2e32935ee87f2ec41196108ed0e8dd0b",
+      "bytes": 319525,
+      "actually_viewed": true,
+      "stored_on_disk": false
+    },
+    {
+      "id": "detail-1",
+      "page": 1,
+      "kind": "detail",
+      "box_pdf_points": [
+        100,
+        160,
+        565,
+        265
+      ],
+      "scale": 3,
+      "mimeType": "image/jpeg",
+      "sha256": "2f5893022ac782344ae24f2725fc223e52059f8c21bc2ead6d56b46e56d292b4",
+      "bytes": 96049,
+      "actually_viewed": true,
+      "stored_on_disk": false
+    },
+    {
+      "id": "detail-2",
+      "page": 3,
+      "kind": "detail",
+      "box_pdf_points": [
+        288,
+        190,
+        565,
+        465
+      ],
+      "scale": 3,
+      "mimeType": "image/jpeg",
+      "sha256": "ec38f55eb69aa1f08793b7f9d95cc91787bfd71eb95824fbdede1304370fb4de",
+      "bytes": 128478,
+      "actually_viewed": true,
+      "stored_on_disk": false
+    },
+    {
+      "id": "detail-3",
+      "page": 2,
+      "kind": "detail",
+      "box_pdf_points": [
+        80,
+        488,
+        565,
+        627
+      ],
+      "scale": 3,
+      "mimeType": "image/jpeg",
+      "sha256": "17c822472242c69e124c5aa0615f495e51eb49fa769d7517f8c0580160401e78",
+      "bytes": 120455,
+      "actually_viewed": true,
+      "stored_on_disk": false
+    }
+  ],
+  "render_recipe": {
+    "renderer": "pypdfium2 via bundled Python, PIL RGB JPEG",
+    "full_page_scale": 1.9,
+    "full_page_quality": 88,
+    "detail_scale": 3,
+    "detail_quality": 90,
+    "subsampling": 0,
+    "stored_raster_files": 0
+  },
+  "observations": [
+    {
+      "id": "H01",
+      "location": "p1 s1",
+      "decision": "Retain two-beat opening versus four-beat next-bar width; inspect mixed values before judging pulse gaps."
+    },
+    {
+      "id": "H02",
+      "location": "p3 s2 right and s3",
+      "decision": "Retain common alternating accompaniment beams plus independent melody stems and sustained values."
+    },
+    {
+      "id": "H03",
+      "location": "p2 s4 right",
+      "decision": "Route the long curve around the connected run; independent high white chord need not determine the entire outer route."
+    },
+    {
+      "id": "H04",
+      "location": "p2 s4;p3 s2 right/s3 right",
+      "decision": "Keep local dynamic channels and within-bar turn; time and affected layer precede geometric baseline."
+    },
+    {
+      "id": "H05",
+      "location": "p2 s2;p3 running figures;p4 s4",
+      "decision": "Judge changing clefs/meters with the surrounding run and line budget."
+    }
+  ],
+  "prior_normative_context": {
+    "book_source": "BEHIND_BARS_NOTES.md",
+    "printed_pages": [
+      315,
+      316,
+      317,
+      320,
+      321,
+      322,
+      323,
+      324
+    ],
+    "reread_this_batch": false,
+    "new_coverage": 0
+  },
+  "pedal_scope": "Ped. signs observed; no complete capture/release schedule inferred. Sample slurs do not override the user-defined sustained A octave in the user score.",
+  "new_coverage": {
+    "official_scores": 0,
+    "official_pages": 0,
+    "Gould_pages": 0,
+    "complete_resource_scopes": 0,
+    "supplemental_external_sample_pages": 4,
+    "fixed_transfer_scenarios": 0,
+    "user_integrated_rounds": 0,
+    "native_conditions": 0
+  },
+  "source_protection": {
+    "pdf_unchanged": true,
+    "font_extraction": false,
+    "pdf_or_score_editing": false,
+    "user_sources_touched": false
+  },
+  "cache": {
+    "new_pdf_bytes": 162413,
+    "new_rendered_media_files": 0,
+    "new_runtime_copies": 0,
+    "files_deleted": 0,
+    "batch_budget_bytes": 524288,
+    "total_cache_check_line_bytes": 3221225472,
+    "authorized_budget_exception_reason": "Retain one 159KiB primary-source excerpt and compact records; viewing images remain in memory. Total may exceed the 3GiB review line by no more than 512KiB for this batch."
+  },
+  "not_done": [
+    "Complete Ondine/Gaspard",
+    "Author project/edit-history inspection",
+    "Piano page-turn/print/performance testing",
+    "Native MuseScore alternate for this excerpt",
+    "Font or software adaptation"
+  ],
+  "private_record": "tmp/engraving/hoshide-gaspard-2026-10-31/reading.json"
+}

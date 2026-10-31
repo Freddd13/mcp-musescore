@@ -1,0 +1,403 @@
+{
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-31T02:44:49.232068+00:00",
+  "version": "0.19.0",
+  "tag": "engraving-v0.19.0",
+  "publication_base_commit": "f575ee1c577c28f8fadcf5e30702e3df9118ae8e",
+  "previous_release": {
+    "version": "0.18.0",
+    "tag_commit": "711cd28eb50dcde3e7a6d7d024f26119f05f855e",
+    "certificate_sha256": "3a1803728f9c5e2c1db38832026dc55e149e9548a9336d53f78e41518d77b3ef"
+  },
+  "changes_since_0_18_0": {
+    "new_official_closeouts": 0,
+    "new_official_pages": 0,
+    "new_Gould_coverage": 0,
+    "new_complete_resource_scopes": 0,
+    "new_user_integrated_rounds": 1,
+    "user_milestones_from": [
+      2,
+      4
+    ],
+    "user_milestones_to": [
+      4,
+      4
+    ],
+    "contextual_tuplet_cases": 8,
+    "supplemental_external_sample_pages": 4,
+    "supplemental_external_sample_systems": 20,
+    "new_native_studies_included": 1,
+    "included_native_CLI_calls": 18,
+    "software_adaptation_changes": 0,
+    "new_font_work": 0
+  },
+  "sources_checked": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "bytes": 68488,
+      "read_only": true,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "bytes": 249752,
+      "read_only": true,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "bytes": 249473889,
+      "read_only": true,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\hoshide-gaspard-2026-10-31\\hoshide-gaspard-sample.pdf",
+      "sha256": "7441981987a24c3288af6ed0d90d0956003ef35f7535a1dc7d5d8c5b4e7dab6d",
+      "bytes": 162413,
+      "read_only": true,
+      "fresh_hash_check": true
+    }
+  ],
+  "frozen_native_host_checked": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25"
+  },
+  "study_evidence_hashes": [
+    {
+      "path": "user_combined_review_evidence.json",
+      "sha256": "9172aaa5e20ab667f8a5a7a818baedd932a741296ca2493be83f75e8e5b133ee"
+    },
+    {
+      "path": "tuplet_decisions_evidence.json",
+      "sha256": "7e492095e3b373ebfc4e1e95a7a2260c3a2d98b9a9bda29a442b55e90161e6ac"
+    },
+    {
+      "path": "hoshide_ondine_evidence.json",
+      "sha256": "51cab7f37b2d3659fc5ac56baf546e091bd0b3ee3cabe9cb237d7644651532b6"
+    }
+  ],
+  "public_native_artifacts_checked": [
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-comparison.png",
+      "sha256": "e7e1ed14f8bde83ab11a8b720d4ebbfed79ee60eedcceae65f30777ac6f22b02",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-default.mscx",
+      "sha256": "137f7fa6296adcc9a57cc769ec0a7f11cdd4107e2bfe3c01b7d06e00deaccc93",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-uniform-rejected.mscx",
+      "sha256": "05613fe6a3f46f1220bb1bff3e87cfb6504dd4f66c1e31c3b99dde9cd8d4303c",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-comparison.png",
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-default.mscx",
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-pulse-candidate.mscx",
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-candidate.mscx",
+      "sha256": "9595459dcd6a8d79adccff31af0998fbffcf613c5f49aa13e17e6fe9795badff",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-comparison.png",
+      "sha256": "a3bfd34a884ff6db9b71ecabe11d3eb90dfda971b617b02b4151b17e3c045cbc",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-default.mscx",
+      "sha256": "55718a3d194aadab49bd1fed9ec2d8a44a2ca18e1ba41eac99b3172fdec2ff48",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+      "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+      "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+      "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+      "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+      "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-continuous.mscx",
+      "sha256": "7d07dd4f64c9e7e93ef7e8265c6d5867443cfa7803822a5cabc1040b1c9b5c86",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-four.mscx",
+      "sha256": "37aa041c5826e3abd79050ba64f618c4100dc3fc52d6ec55df7a00789c48c99f",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-nested.mscx",
+      "sha256": "29d2e93cf5ea4ce587853b2d307c6b7cf3666701ae0d607f176030be6fd951b3",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-comparison.png",
+      "sha256": "23844cef5fa01c33c7827f96961f92b97839e3f830b13c1ead3c8d99c0245102",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-full-context.png",
+      "sha256": "cbc5ebdd13115d38cc7b7ee756125e6e72f24a0c7d0e9fe35cf6ac27a3b741bc",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-bare.mscx",
+      "sha256": "8050d939dc6156b01c80740625576ebc9b8d967c2930eee6aca0492a916ad7cc",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-short.mscx",
+      "sha256": "c07663991331902d7d8c38b1b5c6094dd6a0ffb31e827dd7ed89a753a85c783d",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-auto-probe.mscx",
+      "sha256": "638b411732187390af3973cc3d91df410e04478a2e2c2bb457f9e2a0111b725c",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-comparison.png",
+      "sha256": "0d936b66eeb119d5ab6e2191f782c4e674b36336f4fed5a306b86f65a4110bc5",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-full-context.png",
+      "sha256": "6b940ed9e96c7923bc404f7f5b989c25131d33f4bb3c122186186b4b9a89808f",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-implicit.mscx",
+      "sha256": "e1ff8b293945fa57324d0c2be8f65b697550827e008f18791bd71aad06c66ee2",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-auto-position.mscx",
+      "sha256": "2e12f271298827aee4ae21479b9c447dfb6b41abf9402c09253bbd1ed199b801",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-tiered.mscx",
+      "sha256": "31fa4f4f3cff8abc84f6853239d0a88aa35b9b0ee5e137e5d71beee507802979",
+      "unchanged_from_0_18_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-comparison.png",
+      "sha256": "42cc691e8be88b69f7e02ccd282ed42434a63422a9ca6e212c64207a3c8aa6a1",
+      "unchanged_from_0_18_0": true
+    }
+  ],
+  "private_combined_native_artifacts_checked": 72,
+  "skill_routes": [
+    {
+      "topic": "overview",
+      "references": 65
+    },
+    {
+      "topic": "spacing",
+      "references": 89
+    },
+    {
+      "topic": "rhythm",
+      "references": 85
+    },
+    {
+      "topic": "tempo",
+      "references": 70
+    },
+    {
+      "topic": "beams",
+      "references": 60
+    },
+    {
+      "topic": "curves",
+      "references": 64
+    },
+    {
+      "topic": "markings",
+      "references": 66
+    },
+    {
+      "topic": "ornaments",
+      "references": 27
+    },
+    {
+      "topic": "glissandi",
+      "references": 20
+    },
+    {
+      "topic": "clefs",
+      "references": 40
+    },
+    {
+      "topic": "octaves",
+      "references": 69
+    },
+    {
+      "topic": "navigation",
+      "references": 32
+    },
+    {
+      "topic": "piano",
+      "references": 84
+    },
+    {
+      "topic": "cross-staff",
+      "references": 68
+    },
+    {
+      "topic": "notation",
+      "references": 81
+    },
+    {
+      "topic": "layout",
+      "references": 77
+    },
+    {
+      "topic": "sources",
+      "references": 36
+    },
+    {
+      "topic": "cases",
+      "references": 53
+    },
+    {
+      "topic": "baseline",
+      "references": 4
+    },
+    {
+      "topic": "implementation",
+      "references": 1
+    }
+  ],
+  "native_validation_reexecuted_for_release": false,
+  "scope": "Usable research release. Prior completed native combination is included,not rerun;four-page professional sample is supplemental,not a complete work or another resource completion.",
+  "not_done": [
+    "User aesthetic adoption, print/performance",
+    "R07-R15 completion",
+    "Complete Ondine/Gaspard reading",
+    "All-corpus mastery or independent accuracy",
+    "MuseScore/plugin/MCP/core/font adaptation"
+  ],
+  "validation": {
+    "status": "passed",
+    "source_fresh_hashes": 4,
+    "frozen_host_hash_checked": true,
+    "study_evidence_files_hashed": 3,
+    "prior_stored_actually_viewed_image_records_hashed": 42,
+    "unique_stored_image_paths_hashed": 42,
+    "new_in_memory_actually_viewed_records": 7,
+    "private_combined_native_artifact_hashes_checked": 72,
+    "public_native_artifact_hashes_checked": 29,
+    "skill_routes_executed": 20,
+    "prior_certificates_and_0_18_tag_unchanged": true,
+    "native_validation_reexecuted": false,
+    "all_material_goal_still_active": true
+  },
+  "cache": {
+    "logical_bytes": 3221235104,
+    "batch_logical_bytes_at_check": 178813,
+    "new_media_download_bytes": 162413,
+    "stored_new_raster_files": 0,
+    "new_runtime_copies": 0,
+    "files_deleted": 0,
+    "check_line_bytes": 3221225472,
+    "batch_budget_bytes": 524288,
+    "permitted_total_ceiling_for_this_batch": 3221749760,
+    "exception_reason": "One small primary sample plus compact audit records; all new raster viewing in memory."
+  },
+  "progress_snapshot": {
+    "as_of": "2026-10-31",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      146,
+      146
+    ],
+    "gould_pages_conservative": [
+      696,
+      696
+    ],
+    "gould_substantive_pages": 598,
+    "gould_non_substantive_pages": 98,
+    "gould_title_or_contents_pages": 98,
+    "public_resource_scopes": [
+      16,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ],
+    "user_milestones": [
+      4,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.19.0"
+  }
+}
