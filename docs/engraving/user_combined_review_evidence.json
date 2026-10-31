@@ -1,0 +1,1554 @@
+{
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-31T01:53:54.512148+00:00",
+  "note": "USER_COMBINED_REVIEW.md",
+  "scope": "Root-only current real-score private combined experiment,not blinded/user adoption or all-style redesign.",
+  "protected_inputs": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "bytes": 68488
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "bytes": 249752
+    }
+  ],
+  "host": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25"
+  },
+  "input_exact_delta_reversal": true,
+  "unchanged_other_zip_payloads": true,
+  "changes": [
+    {
+      "location": "staff1 m146 TextLine",
+      "change": "visible=0; ritMode/ritPlay and all range/offset fields preserved"
+    },
+    {
+      "location": "staff6 m148 8vb",
+      "change": "end m153q0 to m150q0 over chord-free staff6 measures150-152; matching receiver moved; first off2.x to0"
+    },
+    {
+      "location": "staff1 m50/m52",
+      "change": "stretch0.93/1.07"
+    },
+    {
+      "location": "staff1/staff4 m86",
+      "change": "stretch0.35; leadingSpace3.0sp after zero-based Chord indices1,2,3 in voice0"
+    }
+  ],
+  "not_combined": [
+    "m51 joint-uniform",
+    "pedal appearance",
+    "tie width",
+    "sustain/rest/hand/voice rewriting",
+    "font or global style changes"
+  ],
+  "native_commands": [
+    {
+      "variant": "baseline",
+      "format": "svg",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\baseline.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\baseline.mscz"
+      ]
+    },
+    {
+      "variant": "baseline",
+      "format": "png",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\baseline.png",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\baseline.mscz"
+      ]
+    },
+    {
+      "variant": "baseline",
+      "format": "musicxml",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\baseline.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\baseline.mscz"
+      ]
+    },
+    {
+      "variant": "baseline",
+      "format": "mid",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\baseline.mid",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\baseline.mscz"
+      ]
+    },
+    {
+      "variant": "minimum",
+      "format": "svg",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\minimum.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\minimum.mscz"
+      ]
+    },
+    {
+      "variant": "minimum",
+      "format": "musicxml",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\minimum.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\minimum.mscz"
+      ]
+    },
+    {
+      "variant": "minimum",
+      "format": "mid",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\minimum.mid",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\minimum.mscz"
+      ]
+    },
+    {
+      "variant": "combined",
+      "format": "svg",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined.mscz"
+      ]
+    },
+    {
+      "variant": "combined",
+      "format": "png",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined.png",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined.mscz"
+      ]
+    },
+    {
+      "variant": "combined",
+      "format": "musicxml",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined.mscz"
+      ]
+    },
+    {
+      "variant": "combined",
+      "format": "mid",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined.mid",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined.mscz"
+      ]
+    },
+    {
+      "variant": "combined-resaved",
+      "format": "mscz",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined-resaved.mscz",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined.mscz"
+      ]
+    },
+    {
+      "variant": "combined-resaved",
+      "format": "svg",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined-resaved.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined-resaved.mscz"
+      ]
+    },
+    {
+      "variant": "combined-resaved",
+      "format": "png",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined-resaved.png",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined-resaved.mscz"
+      ]
+    },
+    {
+      "variant": "combined-resaved",
+      "format": "musicxml",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined-resaved.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined-resaved.mscz"
+      ]
+    },
+    {
+      "variant": "combined-resaved",
+      "format": "mid",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined-resaved.mid",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\combined-resaved.mscz"
+      ]
+    },
+    {
+      "variant": "diagnostic-baseline",
+      "format": "mid",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\diagnostic-baseline.mid",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\diagnostic-baseline.mscz"
+      ]
+    },
+    {
+      "variant": "diagnostic-combined",
+      "format": "mid",
+      "exit_code": 0,
+      "command": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\seconds-ownership-2026-10-19\\frozen-host-7b4e6fbf\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\cli-config",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\diagnostic-combined.mid",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\user-combined-2026-10-31\\native\\diagnostic-combined.mscz"
+      ]
+    }
+  ],
+  "native_validation": {
+    "status": "passed",
+    "input_exact_delta_reversal": true,
+    "native_calls": 18,
+    "note_and_rest_records_equal": 3203,
+    "pages": 8,
+    "systems": 38,
+    "all_measure_row_page_assignments_equal": true,
+    "musicxml_whole_tree_equal_after_explicit_geometry_print_date_single_tail_stop_and_exact_empty_staff_visibility_exclusions": true,
+    "tail_stop_records": {
+      "baseline": {
+        "measure": 152,
+        "offset": null,
+        "staff": "2",
+        "octave_attrib": {
+          "type": "stop",
+          "size": "8",
+          "number": "1"
+        }
+      },
+      "minimum": {
+        "measure": 149,
+        "offset": null,
+        "staff": "2",
+        "octave_attrib": {
+          "type": "stop",
+          "size": "8",
+          "number": "1"
+        }
+      },
+      "combined": {
+        "measure": 149,
+        "offset": null,
+        "staff": "2",
+        "octave_attrib": {
+          "type": "stop",
+          "size": "8",
+          "number": "1"
+        }
+      },
+      "combined-resaved": {
+        "measure": 149,
+        "offset": null,
+        "staff": "2",
+        "octave_attrib": {
+          "type": "stop",
+          "size": "8",
+          "number": "1"
+        }
+      }
+    },
+    "hidden_staff_export_exact_text": {
+      "baseline": [],
+      "minimum": [
+        "<attributes><staff-details>number=\"2\" print-object=\"no\"</staff-details></attributes>"
+      ],
+      "combined": [
+        "<attributes><staff-details>number=\"2\" print-object=\"no\"</staff-details></attributes>"
+      ],
+      "combined-resaved": [
+        "<attributes><staff-details>number=\"2\" print-object=\"no\"</staff-details></attributes>"
+      ]
+    },
+    "SVG_pages": [
+      {
+        "page": 1,
+        "minimum_equals_baseline": true,
+        "combined_equals_baseline": true,
+        "combined_equals_minimum": true,
+        "reload_objects_and_native_pixels_equal": true,
+        "combined_svg_sha256": "4023d6b775dc88f9541d6ff5ec720feef93e681a1bc8d2cf1be34cf1a50e4359",
+        "combined_png_sha256": "2f7bca82ba1a2e8ec541cc566b36d4db341e96c3bdd30da41f78fc07246c704c"
+      },
+      {
+        "page": 2,
+        "minimum_equals_baseline": true,
+        "combined_equals_baseline": false,
+        "combined_equals_minimum": false,
+        "reload_objects_and_native_pixels_equal": true,
+        "combined_svg_sha256": "57f27536b75f121f564957fb8c63729bf65d7f1ac0868b8e39279043eeb8de57",
+        "combined_png_sha256": "c82e9df7defdac06b5ef7f571408ddbfc6911ce637caff4417ad69712ab4692d"
+      },
+      {
+        "page": 3,
+        "minimum_equals_baseline": true,
+        "combined_equals_baseline": true,
+        "combined_equals_minimum": true,
+        "reload_objects_and_native_pixels_equal": true,
+        "combined_svg_sha256": "343ac3ae32784f74d18c3a1b43aaafa304b07035a01ee36ed3ab68c20c4741e6",
+        "combined_png_sha256": "be27e4b953a3f0f90fbdc2443cfa3a7140cdf057fcc633401803062142c5efc0"
+      },
+      {
+        "page": 4,
+        "minimum_equals_baseline": true,
+        "combined_equals_baseline": false,
+        "combined_equals_minimum": false,
+        "reload_objects_and_native_pixels_equal": true,
+        "combined_svg_sha256": "186e297259c5f57019e2f25436c76164d8f6324cad4ab4ebd722511022f0de51",
+        "combined_png_sha256": "6a29801da26a9c784e952f70798de9400738ce85f31d447efa2633fdc65d8861"
+      },
+      {
+        "page": 5,
+        "minimum_equals_baseline": true,
+        "combined_equals_baseline": true,
+        "combined_equals_minimum": true,
+        "reload_objects_and_native_pixels_equal": true,
+        "combined_svg_sha256": "10e8d129958fbf9c8752b8fee689ccedaa10a98d15fbaa09df2b42ace174f980",
+        "combined_png_sha256": "c2d0257d7cf0d4a63310f9e1198fd2b0b7d4261b93442bfdfdaff6f475d961ac"
+      },
+      {
+        "page": 6,
+        "minimum_equals_baseline": true,
+        "combined_equals_baseline": true,
+        "combined_equals_minimum": true,
+        "reload_objects_and_native_pixels_equal": true,
+        "combined_svg_sha256": "ae296722ad35b35d4a6d0e84e84a9d9f0f1a0d58778c30fead733c3c28ae74a4",
+        "combined_png_sha256": "1ff041bbcc39f403cd04a0c3c5925699e27b9ca75c2639195416137fd7e04556"
+      },
+      {
+        "page": 7,
+        "minimum_equals_baseline": false,
+        "combined_equals_baseline": false,
+        "combined_equals_minimum": true,
+        "reload_objects_and_native_pixels_equal": true,
+        "combined_svg_sha256": "ed2ec08800918ad269ff78a3cba0778c436d09027fcdbeb4f4b59b974324c636",
+        "combined_png_sha256": "78fe70a2847f35b11390aec83d7729d184dbdc768af7736b68a4cbccdf25bb2e"
+      },
+      {
+        "page": 8,
+        "minimum_equals_baseline": false,
+        "combined_equals_baseline": false,
+        "combined_equals_minimum": true,
+        "reload_objects_and_native_pixels_equal": true,
+        "combined_svg_sha256": "7a907963439c6ac0491e224735de1467e554c28a2cc03a8dbe84c0bab27e566a",
+        "combined_png_sha256": "0e56d114c4db0b7829b55b1aba286b64bd112d6f3cc3a1592175a3715017f2fc"
+      }
+    ],
+    "original_mix_midi_byte_equal": true,
+    "original_note_ons": 2310,
+    "diagnostic_all_parts_midi_byte_equal": true,
+    "diagnostic_note_ons": 2315,
+    "diagnostic_m148_five_background_ons": [
+      {
+        "track": 5,
+        "note": 73
+      },
+      {
+        "track": 5,
+        "note": 76
+      },
+      {
+        "track": 5,
+        "note": 85
+      },
+      {
+        "track": 6,
+        "note": 33
+      },
+      {
+        "track": 6,
+        "note": 49
+      }
+    ],
+    "full_tempo_event_count": 391,
+    "existing_sustain_CC66_implementation_not_claimed": true,
+    "original_inputs_still_unchanged": true,
+    "saved_rit": {
+      "visible": "0",
+      "ritMode": "1",
+      "ritPlay": "1"
+    },
+    "saved_stretches": [
+      0.93,
+      1.07,
+      0.35
+    ],
+    "saved_m86_spaces": [
+      {
+        "staff": "3",
+        "voice_container": 0,
+        "after_chord_index": 1,
+        "value": "3"
+      },
+      {
+        "staff": "4",
+        "voice_container": 0,
+        "after_chord_index": 1,
+        "value": "3"
+      },
+      {
+        "staff": "4",
+        "voice_container": 0,
+        "after_chord_index": 2,
+        "value": "3"
+      }
+    ]
+  },
+  "geometry": [
+    {
+      "variant": "baseline",
+      "measurements": [
+        {
+          "measure": 50,
+          "gaps_pt": [
+            16.28799,
+            16.28999,
+            16.28999,
+            16.28799,
+            16.28999
+          ],
+          "mean_pt": 16.289188795796072,
+          "max_min": 1.0001227897838927
+        },
+        {
+          "measure": 51,
+          "gaps_pt": [
+            15.67599,
+            15.67799,
+            15.67799,
+            19.59599,
+            19.59799
+          ],
+          "mean_pt": 17.245188138230386,
+          "max_min": 1.250191375350856
+        },
+        {
+          "measure": 52,
+          "gaps_pt": [
+            14.49999,
+            14.49999,
+            14.50199,
+            14.49999,
+            14.49999
+          ],
+          "mean_pt": 14.500390026186768,
+          "max_min": 1.0001379310344858
+        },
+        {
+          "measure": 86,
+          "gaps_pt": [
+            18.85099,
+            18.85079,
+            18.85179,
+            29.18798,
+            27.88798
+          ],
+          "mean_pt": 22.725904368425567,
+          "max_min": 1.548369299976659
+        }
+      ],
+      "shared_normal_side_head_origins": [
+        {
+          "measure": 50,
+          "q": "0",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 50,
+          "q": "1",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 50,
+          "q": "3/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 50,
+          "q": "5/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "q": "0",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "q": "1",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "q": "2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "q": "5/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "q": "0",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "q": "1",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "q": "3/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "q": "5/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 86,
+          "q": "0",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 86,
+          "q": "3/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 86,
+          "q": "2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 86,
+          "q": "5/2",
+          "difference_pt": 0.0
+        }
+      ]
+    },
+    {
+      "variant": "combined",
+      "measurements": [
+        {
+          "measure": 50,
+          "gaps_pt": [
+            15.37999,
+            15.37999,
+            15.37999,
+            15.37999,
+            15.37999
+          ],
+          "mean_pt": 15.379989421171299,
+          "max_min": 1.000000000000003
+        },
+        {
+          "measure": 51,
+          "gaps_pt": [
+            15.70199,
+            15.69999,
+            15.70199,
+            19.62599,
+            19.62599
+          ],
+          "mean_pt": 17.271188120346807,
+          "max_min": 1.2500636942675174
+        },
+        {
+          "measure": 52,
+          "gaps_pt": [
+            15.35799,
+            15.35999,
+            15.35799,
+            15.35799,
+            15.35999
+          ],
+          "mean_pt": 15.358789435753309,
+          "max_min": 1.0001302252897541
+        },
+        {
+          "measure": 86,
+          "gaps_pt": [
+            20.91539,
+            20.91539,
+            20.91459,
+            27.78798,
+            26.48598
+          ],
+          "mean_pt": 23.40386390210419,
+          "max_min": 1.328641236265576
+        }
+      ],
+      "shared_normal_side_head_origins": [
+        {
+          "measure": 50,
+          "q": "0",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 50,
+          "q": "1",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 50,
+          "q": "3/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 50,
+          "q": "5/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "q": "0",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "q": "1",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "q": "2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 51,
+          "q": "5/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "q": "0",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "q": "1",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "q": "3/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 52,
+          "q": "5/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 86,
+          "q": "0",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 86,
+          "q": "3/2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 86,
+          "q": "2",
+          "difference_pt": 0.0
+        },
+        {
+          "measure": 86,
+          "q": "5/2",
+          "difference_pt": 0.0
+        }
+      ]
+    }
+  ],
+  "last_background_octave_endpoint": {
+    "combined": {
+      "lower_line": [
+        478.305,
+        2071.32,
+        1997.97,
+        2071.32
+      ],
+      "last_chord_control_hull_bounds": [
+        [
+          1942.52,
+          1988.8304440898,
+          1975.7171874551,
+          2012.8626660977
+        ],
+        [
+          1942.52,
+          1888.6904440898,
+          1975.7171874551,
+          1912.7226660976999
+        ]
+      ],
+      "corner_beyond_conservative_head_right": true
+    },
+    "combined-resaved": {
+      "lower_line": [
+        478.305,
+        2071.32,
+        1997.97,
+        2071.32
+      ],
+      "last_chord_control_hull_bounds": [
+        [
+          1942.52,
+          1988.8304440898,
+          1975.7171874551,
+          2012.8626660977
+        ],
+        [
+          1942.52,
+          1888.6904440898,
+          1975.7171874551,
+          1912.7226660976999
+        ]
+      ],
+      "corner_beyond_conservative_head_right": true
+    }
+  },
+  "images": [
+    {
+      "role": "full-native-page",
+      "variant": "baseline",
+      "page": 1,
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-page-1.jpg",
+      "sha256": "c277e5d9ab254769d683dc347626aa82412c42c416dbcfc2d59bf6e7be1d8324",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "baseline",
+      "page": 2,
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-page-2.jpg",
+      "sha256": "adfa511766859abc08741d3fc7ed29e903b0e19fbbcb29f8cd3f9a1286c6a0cb",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "baseline",
+      "page": 3,
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-page-3.jpg",
+      "sha256": "fc4d75a68024f8e0b33cf6922dcfbf265d785518de61750ef706f028ff81d939",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "baseline",
+      "page": 4,
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-page-4.jpg",
+      "sha256": "a67fac645e8cc108eb5c93581f21fcdfb9263045c11a73edf68e8a6ec6d1f561",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "baseline",
+      "page": 5,
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-page-5.jpg",
+      "sha256": "2710189c5712b09246fe977a9b32cd3e295890d8ec436006fb3a3c303a7bc084",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "baseline",
+      "page": 6,
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-page-6.jpg",
+      "sha256": "ffd98cd8c3e730219de8a6d55620bef1d8cbd8aa02e2f2bc81c35495043cd491",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "baseline",
+      "page": 7,
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-page-7.jpg",
+      "sha256": "48f332402c846c58cde07bbe1b55298dd35dd3057ed2a40b8498c97736f95205",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "baseline",
+      "page": 8,
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-page-8.jpg",
+      "sha256": "774281572490907d7b08f9d3fe19e6b83c351c19ff9d556aa4fd4c93ed24e1d9",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "combined",
+      "page": 1,
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-page-1.jpg",
+      "sha256": "c277e5d9ab254769d683dc347626aa82412c42c416dbcfc2d59bf6e7be1d8324",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "combined",
+      "page": 2,
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-page-2.jpg",
+      "sha256": "fc7fbae894ef47caf90c8e0a4860764750a99b784ebada43b00f479e35511690",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "combined",
+      "page": 3,
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-page-3.jpg",
+      "sha256": "fc4d75a68024f8e0b33cf6922dcfbf265d785518de61750ef706f028ff81d939",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "combined",
+      "page": 4,
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-page-4.jpg",
+      "sha256": "f5e804c4021eff56f0012a2e2ad9a61d02fe60c2dcab15d70554998851a3f564",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "combined",
+      "page": 5,
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-page-5.jpg",
+      "sha256": "2710189c5712b09246fe977a9b32cd3e295890d8ec436006fb3a3c303a7bc084",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "combined",
+      "page": 6,
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-page-6.jpg",
+      "sha256": "ffd98cd8c3e730219de8a6d55620bef1d8cbd8aa02e2f2bc81c35495043cd491",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "combined",
+      "page": 7,
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-page-7.jpg",
+      "sha256": "2682d5286824e85027d28cf79c4b944fdea370a5e6a460fdf0f3f0663a2ceb49",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-native-page",
+      "variant": "combined",
+      "page": 8,
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-page-8.jpg",
+      "sha256": "b80af0dfe5f81375c0570e7eacac036ba5cf8597327c1f68b8b1ad52d7283c62",
+      "actually_viewed": true,
+      "preview_only": true,
+      "native_PNG_retained_at_180dpi": true
+    },
+    {
+      "role": "full-two-staff-system",
+      "variant": "baseline",
+      "page": 2,
+      "crop_png_pixels": [
+        60,
+        1115,
+        1430,
+        1603
+      ],
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-focus-m49-52.jpg",
+      "sha256": "0c0d89c72210c7f089bdc4f282d3a92084c6079bcee83b6fd2c324af41339f91",
+      "actually_viewed": true
+    },
+    {
+      "role": "full-two-staff-system",
+      "variant": "baseline",
+      "page": 4,
+      "crop_png_pixels": [
+        60,
+        1128,
+        1430,
+        1557
+      ],
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-focus-m85-88.jpg",
+      "sha256": "17e4e75012e8cf3860abc5906c733b1581f565f114325f496e1dc6cd2b1e492b",
+      "actually_viewed": true
+    },
+    {
+      "role": "rit-system",
+      "variant": "baseline",
+      "page": 7,
+      "crop_png_pixels": [
+        60,
+        1576,
+        1430,
+        2054
+      ],
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-focus-page7.jpg",
+      "sha256": "f48cd95eaeb1ac97b2beabfae6a1641b3529e3c0a1eaee17161833ef5bd77cbf",
+      "actually_viewed": true
+    },
+    {
+      "role": "four-staff-and-ending",
+      "variant": "baseline",
+      "page": 8,
+      "crop_png_pixels": [
+        60,
+        437,
+        1430,
+        1749
+      ],
+      "path": "tmp/engraving/user-combined-2026-10-31/baseline-focus-page8.jpg",
+      "sha256": "7e16b0704cb0d2a251b5602d2a11f23ed2b469aca453b1f98e7669d51ade1cec",
+      "actually_viewed": true
+    },
+    {
+      "role": "full-two-staff-system",
+      "variant": "combined",
+      "page": 2,
+      "crop_png_pixels": [
+        60,
+        1115,
+        1430,
+        1603
+      ],
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-focus-m49-52.jpg",
+      "sha256": "e28f4d1a973dd89151a1ce54c06eebea1e142015f76fab32ea92aff429cb7cf0",
+      "actually_viewed": true
+    },
+    {
+      "role": "full-two-staff-system",
+      "variant": "combined",
+      "page": 4,
+      "crop_png_pixels": [
+        60,
+        1128,
+        1430,
+        1557
+      ],
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-focus-m85-88.jpg",
+      "sha256": "9996d9b5900c3fa1725dd5e191ec385235713b156a9892c0281b50d31e1f0880",
+      "actually_viewed": true
+    },
+    {
+      "role": "rit-system",
+      "variant": "combined",
+      "page": 7,
+      "crop_png_pixels": [
+        60,
+        1576,
+        1430,
+        2054
+      ],
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-focus-page7.jpg",
+      "sha256": "942a2eb1ba9966af076aba0961d6e7b4f1974edd1d4a7717854d1e590dfe0644",
+      "actually_viewed": true
+    },
+    {
+      "role": "four-staff-and-ending",
+      "variant": "combined",
+      "page": 8,
+      "crop_png_pixels": [
+        60,
+        437,
+        1430,
+        1749
+      ],
+      "path": "tmp/engraving/user-combined-2026-10-31/combined-focus-page8.jpg",
+      "sha256": "fb9cd2ae6fa519ed3c35794a671ee7283746ba9c6b72e0cb4ff46c3ede4dd277",
+      "actually_viewed": true
+    }
+  ],
+  "native_artifacts": [
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-1.png",
+      "sha256": "2f7bca82ba1a2e8ec541cc566b36d4db341e96c3bdd30da41f78fc07246c704c",
+      "bytes": 136152
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-1.svg",
+      "sha256": "1de1bc5296d4e55bd7af7a1787d0794f886ae3d48599bad6ced3143cf95638fe",
+      "bytes": 512982
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-2.png",
+      "sha256": "0224f54ad3331878bee93930daaaf6630593ee50f95c335c79d8c0a203896eda",
+      "bytes": 153011
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-2.svg",
+      "sha256": "dc0e92c0aeb99e3256e7d9e89b831695047f8c575ba6e744ce3e6ee49062a45e",
+      "bytes": 424015
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-3.png",
+      "sha256": "be27e4b953a3f0f90fbdc2443cfa3a7140cdf057fcc633401803062142c5efc0",
+      "bytes": 122957
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-3.svg",
+      "sha256": "05da75737d82bcb39d0d5f1af65a94761d13cd6b7c73012f5fc46bd8b6a9b738",
+      "bytes": 358459
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-4.png",
+      "sha256": "a17ea4968ac2baea4097e641f403551dda38f196d80ec655b5faf9b97cb9b53a",
+      "bytes": 132788
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-4.svg",
+      "sha256": "136d1d7a082bdda0acb7ca09c9a0aa57fba5fbe2763a97f3b14f0d09e2934b0b",
+      "bytes": 549817
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-5.png",
+      "sha256": "c2d0257d7cf0d4a63310f9e1198fd2b0b7d4261b93442bfdfdaff6f475d961ac",
+      "bytes": 127524
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-5.svg",
+      "sha256": "0a8fd5fa5267ab2d77d8d777c9239fac952080549ef98da4e276ae7271d240db",
+      "bytes": 338057
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-6.png",
+      "sha256": "1ff041bbcc39f403cd04a0c3c5925699e27b9ca75c2639195416137fd7e04556",
+      "bytes": 144663
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-6.svg",
+      "sha256": "f28855237a510a91980436d16c40cb5d0e0b633faebcf342adef9290a9f06f33",
+      "bytes": 424498
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-7.png",
+      "sha256": "558a6bb6f9fcc01000fb6602a904a4f21d7b7ff43bebb0b5747c8a3b91594498",
+      "bytes": 142310
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-7.svg",
+      "sha256": "176ca5e8f0ece930a6992436004afb18bbe6d5d44e7863215cb7b656cbbaabd0",
+      "bytes": 371368
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-8.png",
+      "sha256": "9b079b0ce5c4c5eddbcf321ab68eb2147be7c82f4651aa1c1e3e24196346a651",
+      "bytes": 98689
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline-8.svg",
+      "sha256": "836579be7c0db2033833423f4db306df549dd2b20014b4da6f2f4db37afa8317",
+      "bytes": 298076
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline.mid",
+      "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "bytes": 19491
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "bytes": 68488
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/baseline.musicxml",
+      "sha256": "c30ba772a5dde12bbc09a0f0fc5fe0076bfb8d30f953d7f946b5fcc08958820a",
+      "bytes": 907692
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-1.png",
+      "sha256": "2f7bca82ba1a2e8ec541cc566b36d4db341e96c3bdd30da41f78fc07246c704c",
+      "bytes": 136152
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-1.svg",
+      "sha256": "4023d6b775dc88f9541d6ff5ec720feef93e681a1bc8d2cf1be34cf1a50e4359",
+      "bytes": 512982
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-2.png",
+      "sha256": "c82e9df7defdac06b5ef7f571408ddbfc6911ce637caff4417ad69712ab4692d",
+      "bytes": 152025
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-2.svg",
+      "sha256": "57f27536b75f121f564957fb8c63729bf65d7f1ac0868b8e39279043eeb8de57",
+      "bytes": 424113
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-3.png",
+      "sha256": "be27e4b953a3f0f90fbdc2443cfa3a7140cdf057fcc633401803062142c5efc0",
+      "bytes": 122957
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-3.svg",
+      "sha256": "343ac3ae32784f74d18c3a1b43aaafa304b07035a01ee36ed3ab68c20c4741e6",
+      "bytes": 358459
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-4.png",
+      "sha256": "6a29801da26a9c784e952f70798de9400738ce85f31d447efa2633fdc65d8861",
+      "bytes": 132509
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-4.svg",
+      "sha256": "186e297259c5f57019e2f25436c76164d8f6324cad4ab4ebd722511022f0de51",
+      "bytes": 549864
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-5.png",
+      "sha256": "c2d0257d7cf0d4a63310f9e1198fd2b0b7d4261b93442bfdfdaff6f475d961ac",
+      "bytes": 127524
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-5.svg",
+      "sha256": "10e8d129958fbf9c8752b8fee689ccedaa10a98d15fbaa09df2b42ace174f980",
+      "bytes": 338057
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-6.png",
+      "sha256": "1ff041bbcc39f403cd04a0c3c5925699e27b9ca75c2639195416137fd7e04556",
+      "bytes": 144663
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-6.svg",
+      "sha256": "ae296722ad35b35d4a6d0e84e84a9d9f0f1a0d58778c30fead733c3c28ae74a4",
+      "bytes": 424498
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-7.png",
+      "sha256": "78fe70a2847f35b11390aec83d7729d184dbdc768af7736b68a4cbccdf25bb2e",
+      "bytes": 141618
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-7.svg",
+      "sha256": "ed2ec08800918ad269ff78a3cba0778c436d09027fcdbeb4f4b59b974324c636",
+      "bytes": 369116
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-8.png",
+      "sha256": "0e56d114c4db0b7829b55b1aba286b64bd112d6f3cc3a1592175a3715017f2fc",
+      "bytes": 93335
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-8.svg",
+      "sha256": "7a907963439c6ac0491e224735de1467e554c28a2cc03a8dbe84c0bab27e566a",
+      "bytes": 286301
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-1.png",
+      "sha256": "2f7bca82ba1a2e8ec541cc566b36d4db341e96c3bdd30da41f78fc07246c704c",
+      "bytes": 136152
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-1.svg",
+      "sha256": "4c251fcff2874d819f94f24cffcd2c5f5b30150b90806cb4349e15635ec1387d",
+      "bytes": 512990
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-2.png",
+      "sha256": "c82e9df7defdac06b5ef7f571408ddbfc6911ce637caff4417ad69712ab4692d",
+      "bytes": 152025
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-2.svg",
+      "sha256": "b12950a4dcce6205e9f5118fa933a45f0b44080911c37a0921d73027fe23ebb2",
+      "bytes": 424121
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-3.png",
+      "sha256": "be27e4b953a3f0f90fbdc2443cfa3a7140cdf057fcc633401803062142c5efc0",
+      "bytes": 122957
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-3.svg",
+      "sha256": "db5b75a2fdfe8a0c3c6aeb535c37c0e2c9810aa7bf16390f95a44f6e3c947247",
+      "bytes": 358467
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-4.png",
+      "sha256": "6a29801da26a9c784e952f70798de9400738ce85f31d447efa2633fdc65d8861",
+      "bytes": 132509
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-4.svg",
+      "sha256": "1ecdc33786a4806d977b653ba0214030b56322eb92831a1994a4b647ef08cfcd",
+      "bytes": 549872
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-5.png",
+      "sha256": "c2d0257d7cf0d4a63310f9e1198fd2b0b7d4261b93442bfdfdaff6f475d961ac",
+      "bytes": 127524
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-5.svg",
+      "sha256": "6e0abc8fb9752437e4ec96d0450cc3229e75e837514f93870a736251bb0a070c",
+      "bytes": 338065
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-6.png",
+      "sha256": "1ff041bbcc39f403cd04a0c3c5925699e27b9ca75c2639195416137fd7e04556",
+      "bytes": 144663
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-6.svg",
+      "sha256": "0b917d202b5de05d53ac9e6755ecb4b68983439e7259755de5210748600757f7",
+      "bytes": 424506
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-7.png",
+      "sha256": "78fe70a2847f35b11390aec83d7729d184dbdc768af7736b68a4cbccdf25bb2e",
+      "bytes": 141618
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-7.svg",
+      "sha256": "eb2ffcd2b2d4c9eec3c1fd52a72cdb294d8cdf960c86fa20a318a824577487d7",
+      "bytes": 369124
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-8.png",
+      "sha256": "0e56d114c4db0b7829b55b1aba286b64bd112d6f3cc3a1592175a3715017f2fc",
+      "bytes": 93335
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved-8.svg",
+      "sha256": "a1aa864eaf4303bd16d818cd5adf53b4f67e51d4cf8114e8e6c16b981a9888ba",
+      "bytes": 286309
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved.mid",
+      "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "bytes": 19491
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved.mscz",
+      "sha256": "fd82d826223fcc29c1d9d52f4a1ec0b12ff30a0b06fdf6ce49807846d48673ce",
+      "bytes": 68832
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined-resaved.musicxml",
+      "sha256": "17ce90f05f9367d464368f5d7207ab6e10f376a7f9aed8681022aa6369cb2a37",
+      "bytes": 907689
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined.mid",
+      "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "bytes": 19491
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined.mscz",
+      "sha256": "f11104ea9f53b6af7ccadc717671a72a181106940cfac254d9e75493696b2ea4",
+      "bytes": 68531
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/combined.musicxml",
+      "sha256": "17ce90f05f9367d464368f5d7207ab6e10f376a7f9aed8681022aa6369cb2a37",
+      "bytes": 907689
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/diagnostic-baseline.mid",
+      "sha256": "3dd3e837dfecfd7ee6fef5dab4266ed0fba9f8400c5933225d9db6effa6b80a3",
+      "bytes": 19529
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/diagnostic-baseline.mscz",
+      "sha256": "4f148adec615b77b0dd58275a1340c76342cf429d0ba02cf4aa6712d8c077ab0",
+      "bytes": 68486
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/diagnostic-combined.mid",
+      "sha256": "3dd3e837dfecfd7ee6fef5dab4266ed0fba9f8400c5933225d9db6effa6b80a3",
+      "bytes": 19529
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/diagnostic-combined.mscz",
+      "sha256": "032f66eaf6465699fdd460534e2bb7d7094f0689bc2bc6837c5350dcae00fd9a",
+      "bytes": 68837
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum-1.svg",
+      "sha256": "dc1e060deeb6e758cddc603492b79609e114f703390c879273ba641e5dcf1bce",
+      "bytes": 512981
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum-2.svg",
+      "sha256": "415442384a2a80dff170ad76e6a4887650e03360409fe012e31daa771e784696",
+      "bytes": 424014
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum-3.svg",
+      "sha256": "48426955befe4dfaee5323376525ad1e64028764ef7f51f779f146654a1a27c3",
+      "bytes": 358458
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum-4.svg",
+      "sha256": "0df5e5ab5a1e68bea69ef9718301b2f55f615663990663fffcf543715f98cece",
+      "bytes": 549816
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum-5.svg",
+      "sha256": "c59ce56d0033b1576a5e1b764377cae6c7abb2d41aa45c149ce3fa853fbff72e",
+      "bytes": 338056
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum-6.svg",
+      "sha256": "405d6a6d9bb47066e6e4fb8b7c809af03e09d97067259e48aa8244ddd3fa2a10",
+      "bytes": 424497
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum-7.svg",
+      "sha256": "bcec08f24b03ea5dd1adf2d826d46b459a19456d77db82e719900d7b2d224c8d",
+      "bytes": 369115
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum-8.svg",
+      "sha256": "8522364204467827d39578bda6104d1c5cd66f91108e1d55fae731c3e2bf2964",
+      "bytes": 286300
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum.mid",
+      "sha256": "cc265c62364ac401638668d77ad7846719c3b5ec3f661515756ab7ac9c6e02fe",
+      "bytes": 19491
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum.mscz",
+      "sha256": "5b047f3b8519c6cc9d33df06b9ea0f7c515aa68e1ea5484701d68a98701e39f1",
+      "bytes": 68470
+    },
+    {
+      "path": "tmp/engraving/user-combined-2026-10-31/native/minimum.musicxml",
+      "sha256": "85c7bf6e05c89f53826ed267fa74dabfca8f6b7a4fd5ac9396156c017821093f",
+      "bytes": 907686
+    }
+  ],
+  "new_corpus_reading": 0,
+  "new_Gould_pages": 0,
+  "new_complete_resources": 0,
+  "new_user_integrated_rounds": 1,
+  "user_milestones": [
+    4,
+    4
+  ],
+  "user_preference_confirmed": false,
+  "software_adaptation_changes": 0,
+  "cache": {
+    "logical_bytes": 3221017141,
+    "batch_bytes": 23004236,
+    "peak_observed_logical_bytes": 3229358368,
+    "files_deleted": 0,
+    "previous_research_files_modified": 0,
+    "new_host_copies": 0,
+    "compression": "Current-batch lossless PNG RGBA encoding,identical SVG path tokens,XML indentation and smaller JPEG previews;all native180dpi PNG pixels retained.",
+    "interrupted_and_resumed_missing_calls_only": "First export run stopped after resaved MusicXML completed at logical3GiB check; no live handle remained. New PNG pixels losslessly recompressed; new SVG path separators/MusicXML indentation compacted; smaller JPEG previews. Resumed only3 missing MIDI calls; no original or previous research file changed/deleted."
+  },
+  "remaining": [
+    "Nine resource scopes R07-R15",
+    "Cross-score conflicts and new situation judgments",
+    "User aesthetic adoption/print/performance and exact sostenuto action",
+    "MuseScore adaptation deferred"
+  ],
+  "validation": {
+    "status": "passed",
+    "original_inputs_hash_checked": 2,
+    "viewed_full_native_pages": 16,
+    "viewed_full_context_crops": 8,
+    "saved_all_eight_pages_equal": true,
+    "music_note_rest_records": 3203,
+    "logical_onset_columns_checked_each_variant": 16,
+    "full_midi_and_all_parts_diagnostic_preserved": true,
+    "reading_not_inferred_from_validation": true,
+    "goal_status": "active"
+  },
+  "private_scripts": {
+    "audit.py": "1868d306bfa3d7fa1f7c70fccc6e7ef354b500d36c8e5ec7a745b692acc40a54",
+    "build.py": "d0a25bc27dad848a7c9580764dde64fcf35f54577fa940d865684869dcb7eb27",
+    "common_frames.py": "d9da388516ce7abe5fdcdaff892da10d3df531c520cd8140e9855b823f1cd788",
+    "compact_previews.py": "eefdae84c12e024efab5e2d68c2b6bf9e6c22dc6e7fac776cca9a5daf2fe0d14",
+    "compact_vector_xml.py": "34edd1641e5077eb122baed5fd11cff5c96468e3ed25fa92fb9b64ee84bf9629",
+    "geometry.py": "b6cdd8265de07b80a3eec7c34cc49c2ad72707874602b8c8bd3ce25be572155d",
+    "inspect_inputs.py": "6ddd295ab94284701f87c3b10a8ae19d80fa4bb4a7ec0179521fcba76b08308b",
+    "preview.py": "9027e6c609bf748c8f8a650a9e685f80f2e7a3f81986d8c4e5eb3b02bc9516d0",
+    "publish.py": "d035f5a8a93216b1757d9a2a0a38314e775fa5274d225224b26e8a67ce6a2a97",
+    "resume_exports.py": "6be019c3fe92c9eb33b2ecc0f91766b1dbfde514027209eb47278fb2b2575c85"
+  }
+}

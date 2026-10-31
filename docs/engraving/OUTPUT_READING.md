@@ -45,3 +45,7 @@ A062 p1末音上方的开放slur接p2 B附近的接收和弦，邻近有奏法�
 
 
 2026-10-26[BOY回查](INTEGRATED_READING_BOY_BLUMENKRANZ.md)补一项计量教训：原始PDF drawing候选得到每页5／9／11／11／11组，实际渲染仅5／6／6／6／6横排；F在一排内另起谱头，合计30系统。先用整页与细图核可见谱线，不能按原始line对象或提取文字数计算页内系统／速度标记。当前未证明不可见候选的具体生成原因；有实际差异时再查裁切／变换。C跨行小节又需结合音值去重，横排数不能代替小节数。
+
+## 2026-10-31：组合保存与交换输出
+
+[用户谱组合](USER_COMBINED_REVIEW.md)在固定7b4e6fbf宿主复现：m86三个共同列leadingSpace经原生保存后，两处在staff4、一处在staff3，共同q1.5列的保存路径变化；八页实际绘图／像素和三个值保持。读回要结合逻辑时位，不能只数原路径节点。另P3／m150隐藏第二表的MusicXML将`number="2" print-object="no"`写作staff-details正文、属性表为空；完整音乐检查仅单列这一确切布局项及预期移动的尾部octave stop，未忽略其它attributes／directions，也未回导或修改软件。
