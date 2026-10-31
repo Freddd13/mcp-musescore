@@ -1,0 +1,350 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-31T03:00:08.557Z",
+  "previous_goal_turn_classification": "progress:0.19.0 released and pushed at ff3d3e4;checked clean tree,fast-forward pull already current.",
+  "scope": "Known A040 p6 s5 middle-bar occupancy/spacing review;four fixed groups and14glyph pairs,not native alternate or new independent transfer.",
+  "reference": "EONIAN_SPACING_REVIEW.md",
+  "source_protection": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/cloudreve/Sheets/【2021-】新官谱/EONIAN - Expelled from Paradise - Theme song.pdf",
+      "sha256": "9ebee9d51247c7e96b49759418a30dd62e79e3de59686315dd54b347f8cf01f4",
+      "pages": 6,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "images": [
+    {
+      "id": "A040-p6",
+      "page": 6,
+      "kind": "whole-score-page",
+      "bytes": 380055,
+      "sha256": "1d71e2503d903e38ae660aa71e4052688ddbb6bf6e734a75b75af1c671e4596d",
+      "actually_viewed": true,
+      "stored_on_disk": false,
+      "scale": 1.9,
+      "quality": 88
+    },
+    {
+      "id": "A040-p6-s5-middle",
+      "page": 6,
+      "kind": "score-detail",
+      "box_pdf_points": [
+        225,
+        549,
+        408,
+        664
+      ],
+      "bytes": 44706,
+      "sha256": "b73144516bd4b8d52291160694cda41aa37599fd81e4a7b019f814d2314e765b",
+      "actually_viewed": true,
+      "stored_on_disk": false,
+      "scale": 3,
+      "quality": 90
+    },
+    {
+      "id": "Gould-p41",
+      "printed_page": 41,
+      "pdf_page": 61,
+      "kind": "complete-book-page",
+      "bytes": 181210,
+      "sha256": "7938d2e8f5ff7fd5429a46d663b561224038dbb98827df0f944961b4dda7b259",
+      "actually_viewed": true,
+      "stored_on_disk": false,
+      "scale": 1.9,
+      "quality": 88
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 39,
+      "pdf_page": 59,
+      "path": "tmp/engraving/study-2026-10-19/book-39.jpg",
+      "sha256": "e54e35ecab84ac4044f4d55a70626b0f836dd16361a2fd442484c1a71923480d",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    },
+    {
+      "role": "complete-book-page",
+      "printed_position": 40,
+      "pdf_page": 60,
+      "path": "tmp/engraving/lazy-eien-2026-10-27/book-40.jpg",
+      "sha256": "cc0503c5419786e3081ce293800be01aacd13f14a7bd428efe4fcccc23be6ce2",
+      "reused": true,
+      "new_ledger_coverage": false,
+      "actually_viewed": true,
+      "new_ancillary_ledger_coverage": false
+    }
+  ],
+  "groups": [
+    {
+      "q": [
+        0.25,
+        0.5,
+        0.75
+      ],
+      "x": [
+        250.0800015,
+        258.95999925,
+        269.04000075
+      ]
+    },
+    {
+      "q": [
+        1.25,
+        1.5,
+        1.75
+      ],
+      "x": [
+        289.7999955,
+        298.6799925,
+        308.879997
+      ]
+    },
+    {
+      "q": [
+        2.25,
+        2.5,
+        2.75
+      ],
+      "x": [
+        332.63999175,
+        341.75999475,
+        351.95999925
+      ]
+    },
+    {
+      "q": [
+        3.25,
+        3.5,
+        3.75
+      ],
+      "x": [
+        372.36000825,
+        381.48001125,
+        391.56001275
+      ]
+    }
+  ],
+  "geometry_method": {
+    "coordinates": "PDF points,x right,y down",
+    "note_origins": "pdfplumber music glyph origins,checked against stems",
+    "tight_glyph_boxes": "PDFium textpage.get_charbox,not full font-metric character height",
+    "region": {
+      "x0": 232,
+      "x1": 402,
+      "top": 565,
+      "bottom": 673
+    },
+    "selected_time_columns": "q0.5,q1.5,q2.5,q3.5;move corresponding glyphs in both staves",
+    "matching_tolerance_pt": 0.02,
+    "glyphs_in_region": 42,
+    "moved_glyphs": 9,
+    "adjacent_pairs_with_vertical_overlap": 14,
+    "scope": "Glyph bounding-box preliminary screen only;stems,beams,ties/slurs and native relayout not simulated."
+  },
+  "column_shifts": [
+    {
+      "x": 258.96,
+      "dx": 0.600001875
+    },
+    {
+      "x": 298.68,
+      "dx": 0.66000375
+    },
+    {
+      "x": 341.76,
+      "dx": 0.54000075
+    },
+    {
+      "x": 381.48,
+      "dx": 0.47999925
+    }
+  ],
+  "glyph_pair_checks": [
+    {
+      "left": 1689,
+      "right": 1692,
+      "original_gap": 4.047607421875,
+      "candidate_gap": 3.4476055468749998
+    },
+    {
+      "left": 1689,
+      "right": 1695,
+      "original_gap": 4.047607421875,
+      "candidate_gap": 3.4476055468749998
+    },
+    {
+      "left": 1622,
+      "right": 1624,
+      "original_gap": 3.641082763671875,
+      "candidate_gap": 4.24108463867185
+    },
+    {
+      "left": 1633,
+      "right": 1635,
+      "original_gap": 3.641082763671875,
+      "candidate_gap": 4.301086513671862
+    },
+    {
+      "left": 1655,
+      "right": 1657,
+      "original_gap": 3.881072998046875,
+      "candidate_gap": 4.361072248046867
+    },
+    {
+      "left": 1644,
+      "right": 1646,
+      "original_gap": 3.881103515625,
+      "candidate_gap": 4.42110426562499
+    },
+    {
+      "left": 1683,
+      "right": 1689,
+      "original_gap": 13.163284301757812,
+      "candidate_gap": 13.763286176757788
+    },
+    {
+      "left": 1672,
+      "right": 1674,
+      "original_gap": 13.2410888671875,
+      "candidate_gap": 13.78108961718749
+    },
+    {
+      "left": 1663,
+      "right": 1665,
+      "original_gap": 13.241073608398438,
+      "candidate_gap": 13.841075483398413
+    },
+    {
+      "left": 1686,
+      "right": 1689,
+      "original_gap": 13.241073608398438,
+      "candidate_gap": 13.841075483398413
+    },
+    {
+      "left": 1689,
+      "right": 1697,
+      "original_gap": 15.207611083984375,
+      "candidate_gap": 14.607609208984375
+    },
+    {
+      "left": 1665,
+      "right": 1667,
+      "original_gap": 16.0010986328125,
+      "candidate_gap": 15.4010967578125
+    },
+    {
+      "left": 1674,
+      "right": 1677,
+      "original_gap": 16.001068115234375,
+      "candidate_gap": 15.461067365234374
+    },
+    {
+      "left": 1670,
+      "right": 1672,
+      "original_gap": 19.361083984375,
+      "candidate_gap": 18.701080234375
+    }
+  ],
+  "minimum_glyph_gap_pt": {
+    "baseline": 3.641082763671875,
+    "candidate": 3.4476055468749998
+  },
+  "first_beat_rest_gap_pt": {
+    "baseline": 4.047607421875,
+    "candidate": 3.447605546875
+  },
+  "lower_staff_space_pt": 4.259994750000004,
+  "book_conditions": {
+    "printed_pages": [
+      39,
+      40,
+      41
+    ],
+    "pdf_pages": [
+      59,
+      60,
+      61
+    ],
+    "reread": true,
+    "new_coverage": 0,
+    "summary": [
+      "Relative duration spacing compresses long values",
+      "Equal durations should retain stable scale within a system",
+      "Optical stem relationships may justify adjustment",
+      "Limited-space character clearance reference about half a staff space;not universal line/curve detector"
+    ]
+  },
+  "judgment": {
+    "decision": "Low-priority common-column rebalance candidate;retain original pending native comparison.",
+    "why": "No finer intermediate onset;four middle columns can move0.48-0.66pt without exhausting the screened glyph clearance.",
+    "not_inferred": "Exact original spacing algorithm,whole-ink collision freedom,aesthetic adoption,or native preservation."
+  },
+  "resource_access_observations": [
+    {
+      "id": "R07",
+      "url": "https://www.bilibili.com/video/BV1wwH5esEBt/",
+      "observation": "Indexed author description still available;target figures not obtained."
+    },
+    {
+      "id": "R07",
+      "url": "https://imslp.org/wiki/Category:Legato_Music_Publishing",
+      "observation": "Current category15entries inspected,noBalladeentry;this does not prove no separate edition exists."
+    },
+    {
+      "id": "R12",
+      "url": "https://www.bilibili.com/video/BV1k34y1B7Jc/",
+      "observation": "New hidden IAB target created,tab2confirmed in fresh inventory;creation and same-handle bind observations timed out. Target metadata title visible,video frames/audio not read;no duplicate creation or restart.",
+      "confirmed_tab": "2",
+      "confirmed_browser": "2",
+      "content_read": false
+    }
+  ],
+  "new_reading_coverage": 0,
+  "new_Gould_coverage": 0,
+  "new_complete_resources": 0,
+  "new_fixed_transfer_scenarios": 0,
+  "new_user_integrated_rounds": 0,
+  "new_native_conditions": 0,
+  "software_adaptation_changes": 0,
+  "new_font_work": 0,
+  "cache": {
+    "new_media_files": 0,
+    "source_copies": 0,
+    "runtime_copies": 0,
+    "files_deleted": 0,
+    "batch_budget_bytes": 131072,
+    "total_ceiling_bytes": 3221749760,
+    "policy": "Fits inside the existing3GiB+512KiB ceiling;no further ceiling increase.",
+    "logical_bytes_at_check": 3221263060,
+    "batch_logical_bytes_at_check": 24648
+  },
+  "private_record": "tmp/engraving/eonian-spacing-2026-10-31/reading.json",
+  "private_analysis_script": "tmp/engraving/eonian-spacing-2026-10-31/analyze_glyphs.py",
+  "not_done": [
+    "Native reconstruction/alternate",
+    "Stem/beam/slur/tie recomputation",
+    "Print/performance and user aesthetic choice",
+    "Exact original application algorithm"
+  ],
+  "validation": {
+    "status": "passed",
+    "protected_source_hashes_checked": 2,
+    "old_book_images_hashed": 2,
+    "memory_views_recorded": 3,
+    "actual_source_geometry_recomputed": true,
+    "groups_checked": 4,
+    "glyph_pairs_checked": 14,
+    "fixed_release_unchanged": true,
+    "new_native_conditions": 0,
+    "skill_routes_executed": 20
+  }
+}
