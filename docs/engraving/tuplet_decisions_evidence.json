@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-31T02:19:07.458469+00:00",
+  "note": "TUPLET_DECISIONS.md",
+  "scope": "Root-only cross-source review/consolidation,prior studies known.Not blind/independent transfer or new native execution.",
+  "source_protection": [
+    {
+      "id": "A005",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\200 Anime Songs Medley.pdf",
+      "sha256": "de0c99dd322419b5f607234a5a5a22e7f987e9bcd80647e09f7e6e81a5e6b8de",
+      "pages": 154,
+      "read_only": true
+    },
+    {
+      "id": "A071",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kenshi Yonezu, Hikaru Utada - JANE DOE (Chainsaw Man_ Reze Arc - ED).pdf",
+      "sha256": "66825f702ba3570385dfea6328088993f7dc76df0d825487586b3bebbb5120ca",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A076",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kimi no Shiranai Monogatari - Bakemonogatari - Ending Theme.pdf",
+      "sha256": "dfe0ee60f1cf18ece5cf9e3425d9d7133aab5b2547ea516f4b941455579b9008",
+      "pages": 10,
+      "read_only": true
+    },
+    {
+      "id": "A077",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kizuna Music - BangDream! S2 - Opening Theme.pdf",
+      "sha256": "db2d7e03303e8ac97a79a935c575ac482274f8054cde61ce236787561417b0ac",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "A088",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Merry-Go-Round of Life - Howl’s Moving Castle - Main Theme.pdf",
+      "sha256": "8558a8c2b5e5ed694156f302cd817b73c1e6a9ceb8ebb7af41d10509a15eb024",
+      "pages": 7,
+      "read_only": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "pages": 696,
+      "read_only": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "J01",
+      "source": "Gould",
+      "location": "printed208-209 5/8 whole-bar equal3",
+      "action": "retain",
+      "reason": "Whole bar establishes allotted duration;8th-unit6:5 is analytical equivalent,not mandatory display."
+    },
+    {
+      "id": "J02",
+      "source": "A076",
+      "page": 6,
+      "location": "s6 whole-bar22",
+      "action": "retain",
+      "image": "corpus/A076/page-06.jpg",
+      "note": "INTEGRATED_READING_KIMI_KIZUNA.md"
+    },
+    {
+      "id": "J03",
+      "source": "A088",
+      "page": 4,
+      "location": "F whole-bar17 after local13/15",
+      "action": "retain",
+      "image": "corpus/A088/page-4.jpg",
+      "note": "INTEGRATED_READING_MELISSA_MERRY.md"
+    },
+    {
+      "id": "J04",
+      "source": "A005",
+      "page": 149,
+      "location": "C s1 lastbar quarter+11+quarter",
+      "action": "retain",
+      "image": "corpus/A005/page-149.jpg",
+      "note": "MEDLEY_200_CH13.md"
+    },
+    {
+      "id": "J05",
+      "source": "A005",
+      "page": 136,
+      "location": "F s5 lastbar lower partial3 plus ordinary8",
+      "action": "scope",
+      "image": "corpus/A005/page-136.jpg",
+      "note": "MEDLEY_200_CH12.md"
+    },
+    {
+      "id": "J06",
+      "source": "A077",
+      "page": 3,
+      "location": "s1 preE 4ordinary32+5tuplet32 same mainbeam",
+      "action": "scope",
+      "image": "corpus/A077/page-3.jpg",
+      "note": "INTEGRATED_READING_KIMI_KIZUNA.md"
+    },
+    {
+      "id": "J07",
+      "source": "A071",
+      "page": 2,
+      "location": "s4 preD two5sixteenths over dotted beats",
+      "action": "ratio",
+      "image": "corpus/A071/page-2.jpg",
+      "note": "INTEGRATED_READING_KAWAKI_JANE.md"
+    },
+    {
+      "id": "J08",
+      "source": "A005",
+      "page": 152,
+      "location": "F s1 lastbar6+6+10+ordinary8",
+      "action": "ratio",
+      "image": "corpus/A005/page-152.jpg",
+      "note": "MEDLEY_200_CH13.md"
+    }
+  ],
+  "decision_counts": {
+    "retain": 4,
+    "scope": 2,
+    "ratio": 2
+  },
+  "rational_duration_checks": [
+    {
+      "case": "J01",
+      "total_quarters": "5/2",
+      "expected": "5/2",
+      "reading": "3 quarter-shaped members divide full5/8;equivalent6:5 on eighth unit is analysis,not mandatory printed label",
+      "arithmetic_checked": true
+    },
+    {
+      "case": "J02",
+      "total_quarters": "4",
+      "expected": "4",
+      "reading": "22sixteenth members fill whole4/4",
+      "arithmetic_checked": true
+    },
+    {
+      "case": "J03",
+      "total_quarters": "3",
+      "expected": "3",
+      "reading": "17sixteenth members fill whole3/4;13and15 local preceding groups have quarter prefix",
+      "arithmetic_checked": true
+    },
+    {
+      "case": "J04",
+      "total_quarters": "4",
+      "expected": "4",
+      "reading": "ordinary quarter+11:8sixteenths+ordinary quarter",
+      "arithmetic_checked": true
+    },
+    {
+      "case": "J05",
+      "total_quarters": "1",
+      "expected": "1",
+      "reading": "three triplet16ths+ordinary8th share primarybeam",
+      "arithmetic_checked": true
+    },
+    {
+      "case": "J06",
+      "total_quarters": "1",
+      "expected": "1",
+      "reading": "4ordinary32nds+5:4x32nds share primarybeam",
+      "arithmetic_checked": true
+    },
+    {
+      "case": "J07",
+      "total_quarters": "9/2",
+      "expected": "9/2",
+      "reading": "two5:6x16ths plus dottedquarter;each expanding group1.5q",
+      "arithmetic_checked": true
+    },
+    {
+      "case": "J08",
+      "total_quarters": "4",
+      "expected": "4",
+      "reading": "rest-included6+complete6+10:6x16ths+ordinary8th",
+      "arithmetic_checked": true
+    }
+  ],
+  "images": [
+    {
+      "role": "full-book-page-reread",
+      "printed_position": 203,
+      "pdf_page": 223,
+      "path": "tmp/engraving/connect-2026-10-21/book-203.png",
+      "sha256": "25796ab6c4c054906b4f4d8638d13014b918c13aa096771c3f02ca2bbc2563f0",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-book-page-reread",
+      "printed_position": 204,
+      "pdf_page": 224,
+      "path": "tmp/engraving/connect-2026-10-21/book-204.png",
+      "sha256": "ee7c933a9da049fd628d49d0e6bc549a7defd40afa5b6577dfe09ab4b304a7c2",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-book-page-reread",
+      "printed_position": 205,
+      "pdf_page": 225,
+      "path": "tmp/engraving/kawaki-jane-2026-10-29/book-205-reread.jpg",
+      "sha256": "83667d1520a1f0436fccd9af21ae3b767e9e2e092972e6dd71881b93070566ea",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-book-page-reread",
+      "printed_position": 206,
+      "pdf_page": 226,
+      "path": "tmp/engraving/kawaki-jane-2026-10-29/book-206-reread.jpg",
+      "sha256": "1cd05376c5a923327c1b4477eefb70956263a430112f3cb21c290f70d8a2320c",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-book-page-reread",
+      "printed_position": 207,
+      "pdf_page": 227,
+      "path": "tmp/engraving/god-pokemon-2026-10-27/book-207.jpg",
+      "sha256": "6d4692a77be97f8e3efcf7937b1f8cfae9b281b5a77f4f3e8c937b12d0298b3c",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-book-page-reread",
+      "printed_position": 208,
+      "pdf_page": 228,
+      "path": "tmp/engraving/tuplet-reading-2026-10-20/book-208.jpg",
+      "sha256": "41170f65c17495bd49991e6dfe4ce4891270e2a7672df0c5844c89eb04f558b0",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-book-page-reread",
+      "printed_position": 209,
+      "pdf_page": 229,
+      "path": "tmp/engraving/tuplet-reading-2026-10-20/book-209.jpg",
+      "sha256": "b4206fe9332ae9a5aecdce18f1d11fb776aa906f44999be39695b038972c26a2",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-score-page-reread",
+      "source": "A076",
+      "page": 6,
+      "path": "tmp/engraving/corpus/A076/page-06.jpg",
+      "sha256": "3702968dc77d7f1788c3113ce2da22e5e53d246d3b7938793c02ef2bdf4e9b36",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-score-page-reread",
+      "source": "A088",
+      "page": 4,
+      "path": "tmp/engraving/corpus/A088/page-4.jpg",
+      "sha256": "236b369854e37f1c2870771ea6abb6252ae6c05ef869d692f58a39dee58d5d09",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-score-page-reread",
+      "source": "A005",
+      "page": 149,
+      "path": "tmp/engraving/corpus/A005/page-149.jpg",
+      "sha256": "02024a9deb28c3e1ae89ab193baac311005b1616176e4c5e829f2e87e557c34e",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-score-page-reread",
+      "source": "A005",
+      "page": 136,
+      "path": "tmp/engraving/corpus/A005/page-136.jpg",
+      "sha256": "44c2dd0f61cb4e326582b7da9b9ed9dfb7815597a78ff433a442904cb73cba5a",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-score-page-reread",
+      "source": "A077",
+      "page": 3,
+      "path": "tmp/engraving/corpus/A077/page-3.jpg",
+      "sha256": "e43715019f884356703b703ebb4766ced4fce8b4b840ef603bab7e3c75264b33",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-score-page-reread",
+      "source": "A071",
+      "page": 2,
+      "path": "tmp/engraving/corpus/A071/page-2.jpg",
+      "sha256": "3897aa96f966180cefac1eae90f15f066bce065146ab1ae3d355e67ac096da25",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-score-page-reread",
+      "source": "A005",
+      "page": 152,
+      "path": "tmp/engraving/corpus/A005/page-152.jpg",
+      "sha256": "5da8f723cb12befb5256c58248c1f68425c204de30bd02fdabb945cf8d2aedbf",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false
+    },
+    {
+      "role": "full-book-page-reread",
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-200-reread.jpg",
+      "sha256": "d127ff95d65fa45ff44680c62113ad87297a38565d400bc364c6b8896abe33fb",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false,
+      "printed_position": 200,
+      "pdf_page": 220
+    },
+    {
+      "role": "score-metre-context",
+      "path": "tmp/engraving/corpus/A076/page-01.jpg",
+      "sha256": "28df1fc18da003956e0153c7cb9b13c531471db6a8afc2e25091182c715412a6",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false,
+      "source": "A076",
+      "page": 1,
+      "visible_time": "C=4/4"
+    },
+    {
+      "role": "score-metre-context",
+      "path": "tmp/engraving/corpus/A088/page-1.jpg",
+      "sha256": "080a474a4ab0e7863da8ae23a70bd83da6de1a245959c725177abf3bd1b7886a",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false,
+      "source": "A088",
+      "page": 1,
+      "visible_time": "3/4"
+    },
+    {
+      "role": "score-metre-context",
+      "path": "tmp/engraving/corpus/A071/page-1.jpg",
+      "sha256": "6e122e0d152dfdcad076fac0237578caf16fc2561e17d9f4bd33b5276c36159e",
+      "actually_viewed": true,
+      "reused": true,
+      "new_coverage": false,
+      "source": "A071",
+      "page": 1,
+      "visible_time": "9/8"
+    }
+  ],
+  "book_conditions": [
+    "p200 complete beam and extended beam covering rests may omit bracket;partial primary beam needs scope",
+    "p203 standard simple divisions",
+    "p204-206 compound/contemporary/traditional duplet conventions",
+    "p207 full ratio conditional;whole-bar equal division usually does not need full ratio",
+    "p208-209 irregular whole-duration division and note-value units"
+  ],
+  "judgment_changes": "Existing individual readings retained;clarified priority and exceptions to prevent turning analytical denominator into automatic display correction.",
+  "new_reading_coverage": 0,
+  "new_Gould_coverage": 0,
+  "new_complete_resources": 0,
+  "new_native_conditions": 0,
+  "new_user_integrated_rounds": 0,
+  "new_fixed_transfer_scenarios": 0,
+  "resource_observations": {
+    "public_resource_scopes": [
+      16,
+      25
+    ],
+    "remaining_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "searches": [
+      {
+        "query": "Legatissimo Por Una Cabeza",
+        "new_target_score_content": false
+      },
+      {
+        "query": "Legatissimo Ballade and exact Legato/Imaginary searches",
+        "new_target_score_content": false
+      },
+      {
+        "query": "廿十七 净书",
+        "correct_author_located": false
+      }
+    ],
+    "direct_pages": [
+      {
+        "url": "https://www.bilibili.com/video/BV1k34y1B7Jc/",
+        "result": "412,no target body/video"
+      },
+      {
+        "url": "https://www.bilibili.com/video/BV19r4y177GY/",
+        "result": "412,no target body/video"
+      }
+    ],
+    "browser": "2026-10-31 inventory succeeded;old Chrome tab1280814952 now different user video,untouched;getTab existing IAB R14 timed out35s/kernel reset.No new viewing credit.",
+    "R10_optional_link_question": "Asked user once this turn;no answer observed before this publication.",
+    "viewing_increment": 0
+  },
+  "cache": {
+    "logical_bytes": 3221048851,
+    "batch_bytes": 24826,
+    "new_media_bytes": 0,
+    "files_deleted": 0,
+    "new_runtime_copies": 0
+  },
+  "validation": {
+    "status": "passed",
+    "source_hashes_checked": 6,
+    "actually_viewed_reused_images": 18,
+    "book_reread_pages": 8,
+    "score_target_reread_pages": 7,
+    "score_context_pages": 3,
+    "cases_reviewed": [
+      8,
+      8
+    ],
+    "arithmetic_recipes": 8,
+    "analysis_not_aesthetic_accuracy": true,
+    "goal_status": "active"
+  },
+  "not_done": [
+    "Target videos/scores R07-R09,R11-R15",
+    "R10 correct author",
+    "New native alternatives or author ratio fields/actual performance",
+    "All-material goal completion"
+  ],
+  "private_scripts": {
+    "prepare.py": "ab2f1b1ad0d430c79d84dfafd67b752dfcdd577c3f648e293b1d754d90a72783",
+    "publish.py": "1fcbdbe3df59e18ab455527dc9548828aa1233a2d78de39b9d955cc918311418"
+  }
+}
