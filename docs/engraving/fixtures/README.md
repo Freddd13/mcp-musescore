@@ -314,3 +314,22 @@ MuseScore3Evo.exe -s -m -c <独立配置目录> -r 180 -o <独立输出目录>/p
 - [A内层省略](nested-tuplet-implicit.mscx)、[B显示但自动同高](nested-tuplet-auto-position.mscx)、[C外层分层](nested-tuplet-tiered.mscx)及[同框图](nested-tuplet-comparison.png)。
 
 三版保存／重载、分数时值、音位和完整MIDI保持，480PPQ最大误差2/3tick；C仅在B上外层p1/p2上移1.25sp，B同高相叠不采用。图为180dpi原生保存重载后合白底／同框裁切，无符号移位缩放。初次错误次梁指令探针保私有，不发布；最终30次CLI、总60次。[判断](../NESTED_TUPLET_SCOPE_STUDY.md)及[证据](../nested_tuplet_scope_evidence.json)，原官谱与用户谱不属本CC0资产。
+
+## 行宽与局部梁坡
+
+五份独立原创CC0输入均为一个2/4钢琴小节，固定Leland／Leland Text与1.57mm谱间；上部固定上干、四组两音十六分双梁是控制条件，不是通用钢琴写法。
+
+- [40mm自动诊断](beam-width-40mm.mscx)：容量不足，末端小节线越过五线末端约4.08sp；保留复现，不作为可用候选。
+- [50mm自动](beam-width-50mm.mscx)／[70mm自动](beam-width-70mm.mscx)／[100mm自动](beam-width-100mm.mscx)：本例梁端高差均约1sp，实际干轴跨度不同，角度约27.9／15.5／9.5度。
+- [50mm局部浅斜](beam-width-50mm-shallow.mscx)：只加四个局部Beam端点，半谱间高差；最短端3sp不动，四根长端各加0.5sp。
+- [原生对照图](beam-width-comparison.png)：200dpi共同物理比例，50mm自动／局部／100mm自动；先统一完整SVG页面比例，再裁外围空白，标签置于音乐外，未移动单个符号。
+
+[判断与理由](../BEAM_WIDTH_STUDY.md)、[证据](../beam_width_evidence.json)：13次CLI，五份导出＋一次重载共60音符记录符合独立配方，干向／两层梁分组及共同起点保持；候选除梁／干外图元与自动相同。原生保存的四组局部端点保持，重载55图元最大数值差0.002SVG单位，不能称逐像素相同。未做MIDI、MusicXML导回、打印、试奏或用户采用。
+
+按本页既有导出方式使用预先建立的独立配置和新输出目录，例如：
+
+```text
+MuseScore3Evo.exe -s -m -c <已有独立配置目录> -r 180 -o <新目录>/width-50.svg beam-width-50mm.mscx
+```
+
+本宿主单页SVG实际生成width-50-1.svg；页面可打印宽还含首系统左部空间，要核实际谱线／音组宽度。原生SVG／MusicXML／保存文件留在私有研究批次；图中字形按字体自身许可，不打包字库。

@@ -1,0 +1,954 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31T05:23:10.349Z",
+  "kind": "independent-original-native-beam-width-study",
+  "source_book": {
+    "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+    "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+    "printed_pages": [
+      19,
+      20
+    ],
+    "physical_pdf_pages": [
+      39,
+      40
+    ],
+    "actual_full_page_views": 2,
+    "new_coverage_pages": 0,
+    "scope": "Short horizontal spans,quantized beam slant,stem extension;within-staff lattice/wedge rationale read from book,not fixture collision measurement."
+  },
+  "native_host": {
+    "path": "E:/programming/funcodes/mcp-musescore/tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "svg_reported_version": "3.7.0",
+    "build_relationship_to_current_source": "unverified"
+  },
+  "current_source": {
+    "repo_head": "d7adc0902d964a11535ffd100d09c54b62487c64",
+    "file": "libmscore/beam.cpp",
+    "sha256": "72398d3e00cee865d77ea8c39bd9f1572c7eac87b858d12aab8a05f981d76cbd",
+    "read_locations": [
+      "1194-1230 ordinary metric setup",
+      "1337 double-beam branch location;1496-1504 slope assignment",
+      "1537-1565 layout2 references;1596-1612 selected user-endpoint lines",
+      "2100-2160 writer;2156-2225 reader excerpts",
+      "127-133 pagePos"
+    ],
+    "interpretation": "For these measured ordinary two-note double beams,the chosen1sp vertical delta is retained as span changes. Current function uses bm.s*quarter-sp/dx. Not universal all-beam or installed-host claim.",
+    "read_scope": "Selected excerpts and keyword locations,not full-function or binary-build proof."
+  },
+  "controls": {
+    "music_license": "CC0-1.0 independent original",
+    "font": "Leland",
+    "text_font": "Leland Text",
+    "spatium_mm": 1.57,
+    "recipe": {
+      "upper_pitches": [
+        72,
+        84,
+        72,
+        77,
+        77,
+        72,
+        84,
+        72
+      ],
+      "upper_q": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1,
+        1.25,
+        1.5,
+        1.75
+      ],
+      "upper_duration_q": 0.25,
+      "upper_beam_groups": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "lower_pitches": [
+        48,
+        55
+      ],
+      "lower_q": [
+        0,
+        1
+      ],
+      "lower_duration_q": 1
+    },
+    "initial_widths_mm": [
+      40,
+      70,
+      100
+    ],
+    "supplemental_width_mm": 50,
+    "supplement_reason": "40mm output exceeded intended staffline end;retained as rejected diagnostic,50mm valid compact condition added.",
+    "candidate": "50mm:four manual Beam Fragment endpoints,0.5sp slant;keep shortest ends fixed.",
+    "completed_conditions": 5,
+    "planned_conditions": 5,
+    "valid_automatic_conditions": 3,
+    "local_candidates": 1,
+    "rejected_capacity_conditions": 1,
+    "independent_song_or_user_preference_evaluation": false
+  },
+  "conditions": [
+    {
+      "key": "width-40",
+      "nominal_printable_mm": 40,
+      "actual_staff_width_mm": 29.946839834621603,
+      "sp_svg": 22.25200000000001,
+      "native_note_count": 10,
+      "groups": [
+        {
+          "stem_span_sp": 1.8499910120438603,
+          "slant_sp": -1,
+          "angle_degrees": 28.393135865450706,
+          "head_to_primary_center_sp": [
+            5.499999999999999,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 1.5000000000000013,
+          "slant_sp": -0.9999999999999987,
+          "angle_degrees": 33.690067525979735,
+          "head_to_primary_center_sp": [
+            3.5,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 1.4996854215351414,
+          "slant_sp": 0.9999999999999987,
+          "angle_degrees": 33.69561418308564,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            3.5
+          ]
+        },
+        {
+          "stem_span_sp": 1.4996854215351414,
+          "slant_sp": 1,
+          "angle_degrees": 33.69561418308567,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            5.499999999999999
+          ]
+        }
+      ],
+      "right_bar_past_staffline_sp": 4.077431242135536,
+      "common_head_x_q0": true,
+      "common_head_x_q1": true
+    },
+    {
+      "key": "width-50",
+      "nominal_printable_mm": 50,
+      "actual_staff_width_mm": 39.946805680388266,
+      "sp_svg": 22.25200000000001,
+      "native_note_count": 10,
+      "groups": [
+        {
+          "stem_span_sp": 1.8880100665108746,
+          "slant_sp": -1,
+          "angle_degrees": 27.908298221577635,
+          "head_to_primary_center_sp": [
+            5.499999999999999,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 1.888010066510872,
+          "slant_sp": -0.9999999999999987,
+          "angle_degrees": 27.908298221577635,
+          "head_to_primary_center_sp": [
+            3.5,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 1.8879651267301794,
+          "slant_sp": 0.9999999999999987,
+          "angle_degrees": 27.908862327474317,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            3.5
+          ]
+        },
+        {
+          "stem_span_sp": 1.8880100665108772,
+          "slant_sp": 1,
+          "angle_degrees": 27.908298221577606,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            5.499999999999999
+          ]
+        }
+      ],
+      "right_bar_past_staffline_sp": 0,
+      "common_head_x_q0": true,
+      "common_head_x_q1": true
+    },
+    {
+      "key": "width-70",
+      "nominal_printable_mm": 70,
+      "actual_staff_width_mm": 59.946666816465914,
+      "sp_svg": 22.25200000000001,
+      "native_note_count": 10,
+      "groups": [
+        {
+          "stem_span_sp": 3.594373539457127,
+          "slant_sp": -1,
+          "angle_degrees": 15.547237132215312,
+          "head_to_primary_center_sp": [
+            5.499999999999999,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 3.594373539457125,
+          "slant_sp": -0.9999999999999987,
+          "angle_degrees": 15.547237132215304,
+          "head_to_primary_center_sp": [
+            3.5,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 3.594328599676437,
+          "slant_sp": 0.9999999999999987,
+          "angle_degrees": 15.547422116283366,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            3.5
+          ]
+        },
+        {
+          "stem_span_sp": 3.594283659895739,
+          "slant_sp": 1,
+          "angle_degrees": 15.547607104644918,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            5.499999999999999
+          ]
+        }
+      ],
+      "right_bar_past_staffline_sp": 0,
+      "common_head_x_q0": true,
+      "common_head_x_q1": true
+    },
+    {
+      "key": "width-100",
+      "nominal_printable_mm": 100,
+      "actual_staff_width_mm": 89.94684657558867,
+      "sp_svg": 22.25200000000001,
+      "native_note_count": 10,
+      "groups": [
+        {
+          "stem_span_sp": 5.982877943555634,
+          "slant_sp": -1,
+          "angle_degrees": 9.488910125305397,
+          "head_to_primary_center_sp": [
+            5.499999999999999,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 5.98292288333633,
+          "slant_sp": -0.9999999999999987,
+          "angle_degrees": 9.488840146967208,
+          "head_to_primary_center_sp": [
+            3.5,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 5.982833003774939,
+          "slant_sp": 0.9999999999999987,
+          "angle_degrees": 9.488980104666268,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            3.5
+          ]
+        },
+        {
+          "stem_span_sp": 5.982833003774944,
+          "slant_sp": 1,
+          "angle_degrees": 9.488980104666274,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            5.499999999999999
+          ]
+        }
+      ],
+      "right_bar_past_staffline_sp": 0,
+      "common_head_x_q0": true,
+      "common_head_x_q1": true
+    },
+    {
+      "key": "width-50-shallow",
+      "nominal_printable_mm": 50,
+      "actual_staff_width_mm": 39.946805680388266,
+      "sp_svg": 22.25200000000001,
+      "native_note_count": 10,
+      "groups": [
+        {
+          "stem_span_sp": 1.8880100665108746,
+          "slant_sp": -0.5,
+          "angle_degrees": 14.833077144100155,
+          "head_to_primary_center_sp": [
+            5.999999999999999,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 1.888010066510872,
+          "slant_sp": -0.5,
+          "angle_degrees": 14.833077144100173,
+          "head_to_primary_center_sp": [
+            3.9999999999999987,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 1.8879651267301794,
+          "slant_sp": 0.5,
+          "angle_degrees": 14.833414653823588,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            3.9999999999999987
+          ]
+        },
+        {
+          "stem_span_sp": 1.8880100665108772,
+          "slant_sp": 0.5,
+          "angle_degrees": 14.833077144100136,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            5.999999999999999
+          ]
+        }
+      ],
+      "right_bar_past_staffline_sp": 0,
+      "common_head_x_q0": true,
+      "common_head_x_q1": true
+    },
+    {
+      "key": "width-50-shallow-reloaded",
+      "nominal_printable_mm": 50,
+      "actual_staff_width_mm": 39.94673512493258,
+      "sp_svg": 22.25200000000001,
+      "native_note_count": 10,
+      "groups": [
+        {
+          "stem_span_sp": 1.8880100665108746,
+          "slant_sp": -0.5,
+          "angle_degrees": 14.833077144100155,
+          "head_to_primary_center_sp": [
+            5.999999999999999,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 1.8880100665108772,
+          "slant_sp": -0.5,
+          "angle_degrees": 14.833077144100136,
+          "head_to_primary_center_sp": [
+            3.9999999999999987,
+            2.9999999999999973
+          ]
+        },
+        {
+          "stem_span_sp": 1.8880100665108772,
+          "slant_sp": 0.5,
+          "angle_degrees": 14.833077144100136,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            3.9999999999999987
+          ]
+        },
+        {
+          "stem_span_sp": 1.8880100665108772,
+          "slant_sp": 0.5,
+          "angle_degrees": 14.833077144100136,
+          "head_to_primary_center_sp": [
+            2.9999999999999973,
+            5.999999999999999
+          ]
+        }
+      ],
+      "right_bar_past_staffline_sp": 0,
+      "common_head_x_q0": true,
+      "common_head_x_q1": true
+    }
+  ],
+  "checks": {
+    "native_cli_calls": 13,
+    "all_exit_zero": true,
+    "input_only_width_and_four_candidate_beams_differ": true,
+    "independent_recipe_note_records": 60,
+    "musicxml_records_equal": true,
+    "common_q0_q1_head_positions_checked": true,
+    "candidate_non_beam_non_stem_svg_equal": true,
+    "saved_reloaded_conditions": [
+      1,
+      1
+    ],
+    "saved_beam_fragments_sp": [
+      [
+        -4.5,
+        -5
+      ],
+      [
+        -2.5,
+        -3
+      ],
+      [
+        -3,
+        -2.5
+      ],
+      [
+        -5,
+        -4.5
+      ]
+    ],
+    "reload_graphical_elements": 55,
+    "reload_exact_graphical_attributes_equal": false,
+    "reload_max_coordinate_delta_svg": 0.002000000000066393,
+    "reload_max_coordinate_delta_sp": 0.00008987956139072412,
+    "changed_attribute_count": 36,
+    "midi_checked": false,
+    "musicxml_reimport": false,
+    "printing_or_performance": false
+  },
+  "judgment": {
+    "compact_50mm": "Prefer local0.5sp candidate in this controlled example;four long stems each+0.5sp,shortest remains3sp measured to main beam centre.",
+    "medium_70_wide_100": "Retain automatic;no universal flat-beam preset.",
+    "capacity_40": "Reject as usable layout;bar end beyond staffline by4.077sp.",
+    "not_proven": "Actual user aesthetic adoption,all minimum ink clearances,other groups/registers,other fonts,all MuseScore versions."
+  },
+  "views": {
+    "native_unique_conditions_actually_seen": 5,
+    "initial_three_condition_composite": {
+      "sha256": "abc4e86398b4bc6368fa15b307e72712884a72de9f57e36a339e7ccf447e2145",
+      "storage": "memory only"
+    },
+    "intermediate_three_condition_composite": {
+      "sha256": "1d9365855b91407d272a4bd7b4c131d738005c35cb69822ea1e4451025fd7159",
+      "status": "Discarded for comparative judgment:trim executed before resize,creating unequal physical scale. No file written."
+    },
+    "canonical_comparison": {
+      "path": "docs/engraving/fixtures/beam-width-comparison.png",
+      "sha256": "0fddb60c2d48b3e95636dd1cfc2f6ceb689784de3e0b2cf90738523816e59ace",
+      "bytes": 54137,
+      "physical_dpi": 200,
+      "method": "Render native full SVG,resize whole page uniformly to target physical width;materialize in-memory;second pipeline trims blank exterior;compose with outside labels. No individual symbol moves.",
+      "conditions": [
+        {
+          "key": "width-50",
+          "width": 331,
+          "height": 271,
+          "sha256": "5d821a88aa20db309d91b117b8fc0d012b5758bf168edf1808fb2045fcb1a715"
+        },
+        {
+          "key": "width-50-shallow",
+          "width": 331,
+          "height": 271,
+          "sha256": "c8910bfc51fedfa3c806279a4f0c46fa76f57c97a85d2fc5d6da79c13ed00bd9"
+        },
+        {
+          "key": "width-100",
+          "width": 725,
+          "height": 271,
+          "sha256": "86db4bad45f031e595c5aeb44a796adbd4e451c8271da5318c97f3a038f89198"
+        }
+      ]
+    }
+  },
+  "artifacts": [
+    {
+      "path": "docs/engraving/fixtures/beam-width-40mm.mscx",
+      "bytes": 5443,
+      "sha256": "a526bae8400f87250e14091c218598bd5c2e3d566366af677521f39ed6505413"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-50mm.mscx",
+      "bytes": 5442,
+      "sha256": "f649dc20c7488683b2382a8fc53d0c99ff3fc96ad7e5449d24f5d90b3869c004"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-70mm.mscx",
+      "bytes": 5444,
+      "sha256": "446f25da982469f83f552483ec468c7dcd11247a0a1df0d91c4a304d79e61d66"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-100mm.mscx",
+      "bytes": 5442,
+      "sha256": "55b19b50b2617b4c60aed4c9804ca284748135266f312519f4fabfde59ff06e1"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-50mm-shallow.mscx",
+      "bytes": 6170,
+      "sha256": "e4bc46c453d21e2ff1e9460fc019a3b4d62e90063359281fee1fdf77d49031d0"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-100-1.svg",
+      "bytes": 18154,
+      "sha256": "83bcb0aa8605aa6b888f987a7686cc45e276eefce78f69fac22dc27c841aaa89"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-100.musicxml",
+      "bytes": 8192,
+      "sha256": "1bf59f2248dbff76602c6eebefd64445ef8db32e3c9ab847e5899e7b3ad92e33"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-40-1.svg",
+      "bytes": 18153,
+      "sha256": "67f0a7ccaf7454ef11eb6744b0e53b4a8979b07753650b8de6c68797ac6e42df"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-40.musicxml",
+      "bytes": 8191,
+      "sha256": "36de00537f4e0feb6035f8de725bf352d3f3e23ee8489dfa9bb69e444ef31766"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-50-1.svg",
+      "bytes": 18151,
+      "sha256": "4900c26d8fc592c331e760fd99b24de3de2430734ad42c1059925d5f637be27b"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-50-shallow-1.svg",
+      "bytes": 18154,
+      "sha256": "36cfa784bd882a649cda8a19c09a3b4811daac251dc9985827bcad00fef0b169"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-50-shallow-reloaded-1.svg",
+      "bytes": 18159,
+      "sha256": "47ac0ba437d4e6e397a4fd410a3d1f383bc2b533057df232d11dc77ccbb140ab"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-50-shallow-reloaded.musicxml",
+      "bytes": 8192,
+      "sha256": "0ed3bd79d1a08ddad0b4d1ab8a5c6a6948ef858046c0101c39ca21b3e405a490"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-50-shallow-saved.mscx",
+      "bytes": 6415,
+      "sha256": "9cb7106bbf3c6a8eb042f8994b7f916cc848dfa183b04c586e127a1c7c9bf9c9"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-50-shallow.musicxml",
+      "bytes": 8191,
+      "sha256": "e9ccaa3fd0f4e01af75898f3b996ec19b4989ce0ac84e5792a1f1e3ef8802406"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-50.musicxml",
+      "bytes": 8191,
+      "sha256": "e9ccaa3fd0f4e01af75898f3b996ec19b4989ce0ac84e5792a1f1e3ef8802406"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-70-1.svg",
+      "bytes": 18151,
+      "sha256": "d9db4781fb45a4884625f161982776b50f96d722416dd313ea07b5d5dbc59bb5"
+    },
+    {
+      "path": "tmp/engraving/beam-width-2026-10-31/width-70.musicxml",
+      "bytes": 8191,
+      "sha256": "dc1301e7eb8d4dbe460def2d17f1d9b5a76c40b289aedbf35db14c3309476b22"
+    }
+  ],
+  "private_call_records": [
+    {
+      "width_mm": 40,
+      "format": "svg",
+      "start": "2026-10-31T05:06:12.606381+00:00",
+      "seconds": 2.031,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-40.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-40mm.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-40mm.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-40.svg>\n... success!\n"
+    },
+    {
+      "width_mm": 40,
+      "format": "musicxml",
+      "start": "2026-10-31T05:06:14.642848+00:00",
+      "seconds": 1.969,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-40.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-40mm.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-40mm.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-40.musicxml>\n... success!\n"
+    },
+    {
+      "width_mm": 70,
+      "format": "svg",
+      "start": "2026-10-31T05:06:16.620149+00:00",
+      "seconds": 1.984,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-70.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-70mm.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-70mm.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-70.svg>\n... success!\n"
+    },
+    {
+      "width_mm": 70,
+      "format": "musicxml",
+      "start": "2026-10-31T05:06:18.602759+00:00",
+      "seconds": 1.922,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-70.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-70mm.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-70mm.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-70.musicxml>\n... success!\n"
+    },
+    {
+      "width_mm": 100,
+      "format": "svg",
+      "start": "2026-10-31T05:06:20.533735+00:00",
+      "seconds": 2.125,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-100.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-100mm.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-100mm.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-100.svg>\n... success!\n"
+    },
+    {
+      "width_mm": 100,
+      "format": "musicxml",
+      "start": "2026-10-31T05:06:22.674683+00:00",
+      "seconds": 2.156,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-100.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-100mm.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-100mm.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-100.musicxml>\n... success!\n"
+    },
+    {
+      "width_mm": 50,
+      "format": "svg",
+      "start": "2026-10-31T05:10:24.535218+00:00",
+      "seconds": 2.328,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50.svg>\n... success!\n"
+    },
+    {
+      "width_mm": 50,
+      "format": "musicxml",
+      "start": "2026-10-31T05:10:26.875274+00:00",
+      "seconds": 2.234,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50.musicxml>\n... success!\n"
+    },
+    {
+      "width_mm": 50,
+      "format": "svg",
+      "start": "2026-10-31T05:12:12.602867+00:00",
+      "seconds": 2,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm-shallow.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm-shallow.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow.svg>\n... success!\n"
+    },
+    {
+      "width_mm": 50,
+      "format": "musicxml",
+      "start": "2026-10-31T05:12:14.612679+00:00",
+      "seconds": 1.968,
+      "exit_code": 0,
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm-shallow.mscx"
+      ],
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm-shallow.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow.musicxml>\n... success!\n"
+    },
+    {
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-saved.mscx",
+        "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm-shallow.mscx"
+      ],
+      "start": "2026-10-31T05:15:03.242736+00:00",
+      "seconds": 1.968,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\fixtures\\beam-width-50mm-shallow.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-saved.mscx>\n... success!\n"
+    },
+    {
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-reloaded.svg",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-saved.mscx"
+      ],
+      "start": "2026-10-31T05:15:05.211521+00:00",
+      "seconds": 2.047,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-saved.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-reloaded.svg>\n... success!\n"
+    },
+    {
+      "args": [
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+        "-s",
+        "-m",
+        "-c",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\config",
+        "-r",
+        "180",
+        "-o",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-reloaded.musicxml",
+        "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-saved.mscx"
+      ],
+      "start": "2026-10-31T05:15:07.259712+00:00",
+      "seconds": 1.969,
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-saved.mscx>...\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-width-2026-10-31\\width-50-shallow-reloaded.musicxml>\n... success!\n"
+    }
+  ],
+  "cache": {
+    "new_private_bytes": 194929,
+    "batch_budget_bytes": 196608,
+    "previous_total_allowance_bytes": 3221749760,
+    "explicit_new_check_allowance_bytes": 3221946368,
+    "reason": "Small repeatable native width/beam evidence;no new source/runtime/raster cache.",
+    "before_readable_logical_bytes": 3221551621,
+    "before_readable_on_disk_bytes": 3080262394,
+    "global_inventory_complete": false,
+    "scan_errors": [
+      {
+        "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\skill-review-2026-10-19\\locator-m6az562x",
+        "error": "[WinError 5] 拒绝访问。: 'E:\\\\programming\\\\funcodes\\\\mcp-musescore\\\\tmp\\\\engraving\\\\skill-review-2026-10-19\\\\locator-m6az562x'"
+      }
+    ],
+    "exact_global_total_unknown": true,
+    "new_public_original_input_bytes": 27941,
+    "new_public_preview_bytes": 54137,
+    "source_pdf_copies": 0,
+    "runtime_copies": 0,
+    "private_raster_files": 0,
+    "deleted_files": 0,
+    "originals_written": 0
+  },
+  "resource_followups": {
+    "R10": {
+      "page": "https://www.gangqinpu.com/cchtml/1050811.htm",
+      "ordinary_http_status": 200,
+      "page_bytes": 83206,
+      "page_sha256": "2a9bbfc920f4fed9620ee4a4efe639b58939e16fec8c524f031016ab313a173e",
+      "preview_image_count": 1,
+      "paid_full_score_notice_read": true,
+      "preview": "https://s201.lzjoy.com/res/statics/fileupload/5001b891a1ef6ce8e4c2de1ebdd112b76368af05c2466_3.png",
+      "actual_preview_viewed": false,
+      "full_score_obtained": false,
+      "browser": {
+        "kind": "iab",
+        "tab_id": "3",
+        "browser_id": "2",
+        "inventory_confirmed_target": true,
+        "create_navigation_timeout": true,
+        "same_handle_getTab_timeout": true,
+        "terminal": false,
+        "interpretation": "Observation failure is not terminal;no duplicate tab created."
+      },
+      "status": "partial"
+    },
+    "R05": {
+      "work_page": "https://imslp.org/wiki/Gaspard_de_la_nuit,_M.55_(Ravel,_Maurice)",
+      "actual_entry": "935324 Le Gibet (No.2),Legato2024,6pp,CC BY-SA4.0",
+      "correction": "Category Gaspard association does not establish a Legato Ondine edition;do not claim same-passsage comparison with Hoshide Ondine.",
+      "actual_pdf_viewed": false,
+      "download_result": "Friendly JS redirect and later bot-check/file cache miss;stopped,no verification or workaround."
+    }
+  },
+  "progress": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "gould_coverage": [
+      696,
+      696
+    ],
+    "resources": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "user_combination": [
+      1,
+      1
+    ],
+    "new_software_adaptation": 0
+  },
+  "release_boundary": "Working branch supplement to fixed0.20;old tags/certificates unchanged.",
+  "validation": {
+    "as_of": "2026-10-31T05:29:13.449Z",
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "existing_cli_regressions": [
+      6,
+      6
+    ],
+    "question_lookup": {
+      "query": "行宽 梁坡 短跨度",
+      "topic": "beams",
+      "new_study_within_first_three": true
+    },
+    "changed_markdown_local_links_checked": 1007,
+    "broken_local_links": [],
+    "artifact_hashes_checked": 19,
+    "hash_errors": [],
+    "private_cache_bytes_after_checks": 194929,
+    "existing_tags_certificates_modified": false
+  }
+}

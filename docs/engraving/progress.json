@@ -3166,11 +3166,11 @@
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "DOUBLED_TUPLET_STUDY.md",
-    "evidence": "doubled_tuplet_evidence.json",
-    "completed_conditions": 2,
-    "planned_conditions": 2,
-    "description": "One original two-bar score comparing regular32and actual6:3sixteenths;3CLIcalls,50note/restrecords,38noteon/offpairs;not original intent or repair.",
+    "reference": "BEAM_WIDTH_STUDY.md",
+    "evidence": "beam_width_evidence.json",
+    "completed_conditions": 5,
+    "planned_conditions": 5,
+    "description": "Original two-note double beams at40/50/70/100mm,plus50mm local half-sp slant;40mm rejected capacity diagnostic.13CLIcalls,60note records,one native save/reload;not user aesthetic acceptance.",
     "reading_increment": 0,
     "user_preference_confirmed": false,
     "software_adaptation_changes": 0
@@ -3223,6 +3223,16 @@
       "completed_conditions": 4,
       "planned_conditions": 4,
       "description": "Original10-note swing/triplet alignment;implicit,aligned,explicit,straightdiagnostic;17CLIcalls;one native resave/reload.",
+      "reading_increment": 0,
+      "user_preference_confirmed": false,
+      "software_adaptation_changes": 0
+    },
+    {
+      "reference": "DOUBLED_TUPLET_STUDY.md",
+      "evidence": "doubled_tuplet_evidence.json",
+      "completed_conditions": 2,
+      "planned_conditions": 2,
+      "description": "One original two-bar score comparing regular32and actual6:3sixteenths;3CLIcalls,50note/restrecords,38noteon/offpairs;not original intent or repair.",
       "reading_increment": 0,
       "user_preference_confirmed": false,
       "software_adaptation_changes": 0
