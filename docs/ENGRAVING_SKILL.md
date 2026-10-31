@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+0.25之后工作分支已补[R09原目标预览对照](engraving/R09_PREVIEW_COMPARISON.md)，可查`--topic sources --query "R09 弱起 编号"`。更正旧编号／分行推断，固定0.25标签保留原快照；用当前工作树时一并记录实际提交。
+
 当前研究版为**[0.25.0／engraving-v0.25.0](ENGRAVING_RELEASES.md)**，固定[版本语境](engraving/BALLADE_EDITORIAL_CONTEXT.md)、[英文评论20/20页](engraving/BALLADE_PERFORMANCE_CONTEXT.md)、[长动态原生条件](engraving/LONG_DYNAMIC_TEXT_STUDY.md)及[合作谱预览](engraving/SHAMSHIR_PREVIEW_READING.md)。可查`--topic spacing --query "m18 接收"`或`--topic rhythm --query "组内 休止"`；20入口、三原创输入一图可用。更新关联项目即可读取新知识，复制安装需同步同版skill与库；MCP配置不变。
 
 上一固定版为**[0.24.0／engraving-v0.24.0](ENGRAVING_RELEASES.md)**。新增[完整组梁](engraving/TUPLET_REST_SCOPE_STUDY.md)与[m97实曲平衡迁移](engraving/M97_GROUP_BOUNDARY_TRANSFER.md)，可查`--topic beams --query "m97 最短干 平衡"`或`--topic cross-staff --query "首休止 完整 六连"`。当前候选可比较，作者渐强作用层与审美采用待答；资料16/25余9、20入口保持。关联安装更新项目，复制安装同步同版skill和库，无需重配MCP。

@@ -2910,10 +2910,12 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "kura_kuusou_closeout_evidence.json",
-        "remaining": "One actual frame under target title seen (system starts33/37/41,ossia); later autoplay moved to a different author. Full target score/video unread, exact MuseScore version unknown. Hadelich official2-page violin PDF read separately, not a substitute.",
+        "remaining": "已核同一BVID/UID/CID，公开拼图实看9/32格，辨认5音乐视窗／14主系统总览。高分辨率符号、完整视频声音、两版逐音关系及确切MuseScore版本未核；仅凭行号判分行不同的旧依据已撤回。",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV1UX4y167md/",
-        "metadata_identity_verified": true
+        "metadata_identity_verified": true,
+        "preview_note": "R09_PREVIEW_COMPARISON.md",
+        "preview_evidence": "r09_preview_comparison_evidence.json"
       },
       {
         "id": "R10",
@@ -3208,12 +3210,12 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.25固定叙事曲版本语境／英文20页、长文字3原创条件／一次重载，以及R10合作谱预览实读；20入口、三原创输入一图。官谱／Gould覆盖与资料16/25余9保持，无适配。",
+    "working_branch_note": "0.25固定此前版本语境、长文字及R10预览；之后工作分支补R09实际目标总览及编号推断更正。固定标签保留，20入口；资料16/25余9，无新原生或适配。",
     "evidence": "release_0_25_0_evidence.json"
   },
   "last_study_batch": {
     "date": "2026-11-01",
-    "scope": "R10合作谱实际预览：1/1公开图、6系统m1–22、9近图；Gould39–41/164–165/200共6页复读。主脉冲／接收边界、组内休止和部分三连归纳；不证明具体校对者或源软件。",
+    "scope": "R09原目标公开预览：1/1拼图，实看9/32格、辨认5音乐视窗和14主系统总览；复看官方2页，Gould484一页及两个定向手册章节。更正编号推分行的旧理由，保护rubato限定及辅助谱。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3223,7 +3225,7 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 6,
+    "book_reread_pages": 1,
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
@@ -3232,14 +3234,17 @@
     "new_native_diagnostic_conditions": 0,
     "new_user_integrated_rounds": 0,
     "native_CLI_calls": 0,
-    "new_actual_credited_preview_images": 1,
-    "new_actual_credited_preview_systems": 6,
-    "new_actual_credited_preview_bars": 22,
-    "detail_image_views": 9,
+    "public_storyboard_images": 1,
+    "actual_preview_cells_viewed": 9,
+    "preview_time_index_entries": 32,
+    "identified_music_viewports": 5,
+    "main_system_overview": 14,
+    "official_supplement_PDF_pages_reread": 2,
+    "targeted_primary_manual_sections_read": 2,
     "notes": [
-      "SHAMSHIR_PREVIEW_READING.md"
+      "R09_PREVIEW_COMPARISON.md"
     ],
-    "review_evidence": "shamshir_preview_evidence.json",
+    "review_evidence": "r09_preview_comparison_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3497,29 +3502,27 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "SHAMSHIR_PREVIEW_READING.md",
-    "evidence": "shamshir_preview_evidence.json",
-    "preview_images": [
+    "reference": "R09_PREVIEW_COMPARISON.md",
+    "evidence": "r09_preview_comparison_evidence.json",
+    "public_storyboard_images": [
       1,
       1
     ],
-    "systems": 6,
-    "bars": [
+    "actual_preview_cells_viewed": 9,
+    "preview_time_index_entries": 32,
+    "music_viewports_identified": 5,
+    "main_system_overview": 14,
+    "official_supplement_full_PDF_pages_reread": [
       1,
-      22
+      2
     ],
-    "detail_views": 9,
     "Gould_full_printed_page_rereads": [
-      39,
-      40,
-      41,
-      164,
-      165,
-      200
+      484
     ],
+    "targeted_primary_manual_sections_read": 2,
     "new_Gould_coverage": 0,
     "new_fixed_resource_completions": 0,
-    "scope": "Actual publicly offered collaborative score preview; not complete score, not proof of individual reviewer decisions or source software. Six printed full Gould rereads applied to new context, not blind transfer score."
+    "scope": "Actual original R09 target overview,not high-resolution fullsymbolcollation or watched/audio video. Withdrawbar-number-onlylayout inference;pickup numbering remains explanation to verify against source fields."
   },
   "judgment_review_history": [
     {
@@ -3681,10 +3684,11 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15。R10现有一张明确公开提供的合作谱预览实读；仍需本人资料及具体干预。R07–R09目标原成品、R11–R15视频尚有缺口，保持原范围；同一错误页／空匿名字幕路径无变化时不重试。本地文件路径问题待答，以可得的实际材料继续学习。",
+    "scope": "余9项R07–R15保持。R09官方匿名预览路径已实际取得480×270格，接下来优先核R07／R08同类公开预览，先判断清晰度再读图，不下载原始视频或以元数据结项。R09细小符号仍需高分辨率；R10具体干预及R11–R15完整操作内容仍待读。旧错误页／空匿名字幕路径无变化不重试。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
-    "latest_available_supplement": "LONG_DYNAMIC_TEXT_STUDY.md: actual A137 context, Gould2rereads and5Dorico6.2bodies applied; not replacement of remaining9fixed targets."
+    "latest_available_supplement": "LONG_DYNAMIC_TEXT_STUDY.md: actual A137 context, Gould2rereads and5Dorico6.2bodies applied; not replacement of remaining9fixed targets.",
+    "official_preview_path_confirmed_for_R09": true
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -3846,6 +3850,31 @@
       "Dorico_runtime": false,
       "new_fixed_resource_completions": 0,
       "scope": "长动态文本的表达方式、范围、poco a poco、间距及声部条件；规范与软件策略分清，四张图片未取得，正文阅读不算图片已读。"
+    },
+    {
+      "reference": "SHAMSHIR_PREVIEW_READING.md",
+      "evidence": "shamshir_preview_evidence.json",
+      "preview_images": [
+        1,
+        1
+      ],
+      "systems": 6,
+      "bars": [
+        1,
+        22
+      ],
+      "detail_views": 9,
+      "Gould_full_printed_page_rereads": [
+        39,
+        40,
+        41,
+        164,
+        165,
+        200
+      ],
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "Actual publicly offered collaborative score preview; not complete score, not proof of individual reviewer decisions or source software. Six printed full Gould rereads applied to new context, not blind transfer score."
     }
   ],
   "latest_source_identity_review": {
@@ -3856,7 +3885,8 @@
       8
     ],
     "corrected_work_links": 1,
-    "new_resource_completions": 0
+    "new_resource_completions": 0,
+    "R09_actual_preview_followup": "r09_preview_comparison_evidence.json"
   },
   "next_beaming_followup": {
     "reference": "TUPLET_REST_SCOPE_STUDY.md",

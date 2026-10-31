@@ -1,5 +1,7 @@
 # Legatissimo：作者、作品与版本怎样对应
 
+2026-11-01[R09实际预览](R09_PREVIEW_COMPARISON.md)补九格实看、14主系统总览；可见独奏小提琴标题及若干版本文字／附小谱差别，先核弱起编号。R09继续partial，R07／R08尚未由这份材料完成。
+
 另一个作者条目R10现有[合作谱预览实读](SHAMSHIR_PREVIEW_READING.md)，但参与规范检查与整谱净书署名仍分记。R07–R09的未取得内容不由它代替。
 
 2026-10-31[更正R08作品ID](SOURCE_IDENTITY_REVIEW.md)：正确目标BV1L6RsBeEwy与Legatissimo署名已直接核对；此前收藏列表bvid参数不属于该作品。历史证据JSON保留，当前关联见本更正。R05完成范围不扩大，R07–R09仍partial，资料16/25余9。

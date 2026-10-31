@@ -55,6 +55,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 资料不一致时，先核对象、适用范围和本谱说明；区分一般概括的专门条件与真正的出版体例分歧，不按来源数量或年代自动判错。`sources`中的MPA对照保留了具体情境与备选边界。
 
+跨版本对照的小节号，先核弱起与显示计数，再按实际边界／音型对应。经`sources`／`layout`查`R09_PREVIEW_COMPARISON.md`；缩略预览可作段落总览，读不清的限定词、连音与辅助谱不能由另一版补成已核事实。
+
 符号的编辑角色先按本谱图例判断；不同出版者的括号、指法字体和弧线约定不能直接互套。经`sources`／`notation`查`BALLADE_EDITORIAL_CONTEXT.md`，遇到真实编辑分歧保留所选版本并单列音乐提议；PDF对齐有解释说明时，先核实际计量再作空间调整。
 
 重排表距、分行或标记位置后，即使无碰撞也重查作用层。经`spacing`／`markings`查`BALLADE_PERFORMANCE_CONTEXT.md`的印刷表距案例；局部长短节奏先分书面值与演奏实现，持低音先分仍响的音与指持／踏板动作，不从字形或对象类型独自推定功能。

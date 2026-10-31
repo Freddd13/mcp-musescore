@@ -1,5 +1,7 @@
 # 净书知识库与skill发布记录
 
+**0.25之后工作分支补充（2026-11-01，未另发标签）：** [R09原目标预览](engraving/R09_PREVIEW_COMPARISON.md)取得1/1拼图，实看9/32格，辨认14主系统总览。更正编号推分行的旧理由，保护弱起定位、rubato限定词和辅助小谱；细节及完整视频仍partial，资料16/25余9保持。固定0.25发布证据／标签保持，无新原生或适配。
+
 ## 0.25.0 — 2026-11-01
 
 审谱新增三类有依据的判断：[叙事曲版本约定及英文评论20/20页](engraving/BALLADE_PERFORMANCE_CONTEXT.md)，保护本版解释与真实编辑分歧；[长动态文字](engraving/LONG_DYNAMIC_TEXT_STUDY.md)3/3原创条件、1/1重载，比较完整短语及续行提醒；[狮尾之舞合作谱预览](engraving/SHAMSHIR_PREVIEW_READING.md)1/1图、6系统m1–22，区分主脉冲、接收边界、组内休止与部分三连。

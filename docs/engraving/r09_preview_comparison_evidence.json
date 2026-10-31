@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31T17:03:44.107Z",
+  "reference": "R09_PREVIEW_COMPARISON.md",
+  "previous_goal_turn": "progress:b4d19a9 released0.25 and first actual R10preview; this turn actual R09 target visual overview and numbered-layout inference correction",
+  "resource_id": "R09",
+  "resource_status": "partial",
+  "scope": {
+    "date": "2026-11-01",
+    "resource": "R09",
+    "planned_public_storyboard_images": 1,
+    "preview_cell_pixels": [
+      480,
+      270
+    ],
+    "metadata_time_entries": 32,
+    "planned_sample_cells": [
+      1,
+      10,
+      20,
+      31
+    ],
+    "original_video_audio_not_requested": true,
+    "private_budget_bytes": 2097152,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3269918720,
+    "completed": true,
+    "actual_unique_cells_viewed": [
+      1,
+      8,
+      10,
+      15,
+      20,
+      21,
+      26,
+      30,
+      31
+    ],
+    "actual_cell_views": 9,
+    "total_time_index_entries": 32,
+    "extra_nearest_neighbor_zoom_of_cell": 1,
+    "raw_video_watched": false,
+    "audio_read": false,
+    "manually_identified_music_viewports": 5,
+    "main_system_overview_count": 14,
+    "system_overview_only_not_full_symbol_collation": true,
+    "official_PDF_pages_reread": [
+      1,
+      2
+    ],
+    "Gould_printed_reread": [
+      484
+    ],
+    "targeted_primary_manual_sections_read": 2,
+    "R09_resource_status": "partial",
+    "new_complete_resource_scopes": 0,
+    "native_calls": 0
+  },
+  "identity": {
+    "http": 200,
+    "code": 0,
+    "bvid": "BV1UX4y167md",
+    "aid": 354722109,
+    "cid": 1088579701,
+    "title": "[曲谱同步/MuseScore制作]Por Una Cabeza，一步之遥 Augustin Hadelich改编",
+    "owner_mid": 372657607,
+    "sha256": "94dc804516fe8a8d2c8490e62e747f5ac4fcab6c8be97e4385e3885b67c619bb"
+  },
+  "source": {
+    "metadata": "https://api.bilibili.com/x/player/videoshot?bvid=BV1UX4y167md&index=1",
+    "provided_asset": "https://bimp.hdslb.com/videoshotpvhdboss/1088579701_xkypvb-0001.jpg",
+    "bytes": 375140,
+    "sha256": "eba2a4ce5148afa6d2016f7c743b4e8444f15cb2eb9f152c8dbe55ca15508f34",
+    "pixels": [
+      4800,
+      2700
+    ],
+    "cell_pixels": [
+      480,
+      270
+    ],
+    "anonymous_public": true,
+    "raw_video_requested": false,
+    "credentials_used": false,
+    "new_browser_tabs": 0
+  },
+  "actual_reading": {
+    "viewed_cells": [
+      1,
+      8,
+      10,
+      15,
+      20,
+      21,
+      26,
+      30,
+      31
+    ],
+    "time_s": [
+      0,
+      35,
+      45,
+      70,
+      95,
+      100,
+      125,
+      145,
+      150
+    ],
+    "unique_cells_viewed": 9,
+    "total_metadata_time_entries": 32,
+    "black_end_cell": 31,
+    "extra_zoom_cell": 1,
+    "zoom": "nearest-neighbor2x;no new detail",
+    "music_viewports_identified": 5,
+    "main_system_overview_by_viewport": [
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "main_system_overview_total": 14,
+    "all_symbol_details_read": false,
+    "all_video_frames_or_audio_read": false,
+    "clustering": "Frame RGB distance<=0.6 only schedules manual reading;not used as proof that all32cells were read."
+  },
+  "comparison": {
+    "official_reference": "INSTRUMENT_CONTEXT_READING.md",
+    "official_PDF_full_pages_reread": [
+      1,
+      2
+    ],
+    "exact_pixel_or_note_identity_proven": false,
+    "withdrawn_old_inference": "Different visible bar numbers alone prove different casting-off/layout.",
+    "reason": "Observed close musical/system sequence with approximately+1bar numbering;opening is quarter-length pickup in2/4. Verify pickup counting and actual boundaries first.",
+    "numbering_example_pairs": {
+      "official": [
+        5,
+        10,
+        15,
+        21,
+        27,
+        32
+      ],
+      "target": [
+        6,
+        11,
+        16,
+        22,
+        28,
+        33
+      ]
+    },
+    "native_numbering_fields_read": false,
+    "visible_word_difference": {
+      "official": "poco rubato",
+      "target": "sempre rubato",
+      "target_header": "Tempo di Tango (rubato)"
+    },
+    "target_auxiliary_small_staves_seen": true,
+    "auxiliary_caption_not_fully_read": true,
+    "small_tuplet_numerals_not_forced_into_definite_reading": true
+  },
+  "normative_reading": {
+    "Gould_full_printed_rereads": [
+      484
+    ],
+    "Gould_full_physical_rereads": [
+      504
+    ],
+    "new_Gould_coverage": 0,
+    "primary_sections": [
+      {
+        "url": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_time_signatures/notation_reference_time_signatures_pick_up_bars_c.html",
+        "scope": "actual concept body2398–2407;TOCnot counted as technicalbody",
+        "figures_viewed": 0
+      },
+      {
+        "url": "https://handbook.musescore.org/notation/rhythm-meter-and-measures/measure-numbering.md",
+        "scope": "numbering sequence/internal-versus-visible section20–34;currentStudio,notEvolutionruntime",
+        "figures_viewed": 0
+      }
+    ],
+    "old_MuseScore3_URL_redirected": true
+  },
+  "historical_evidence_preserved": "resource_identity_evidence.json retained as old snapshot; current correction in Markdown and this successor",
+  "protected_sources": [
+    {
+      "id": "mscz",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "original_unchanged": true,
+      "sha256_now": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "id": "pdf",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "original_unchanged": true,
+      "sha256_now": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "id": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "original_unchanged": true,
+      "sha256_now": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    },
+    {
+      "id": "official_Hadelich_PDF",
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\resource-source-audit-2026-10-31\\hadelich-por-una-cabeza-official.pdf",
+      "sha256": "95965d5fb5015da3a92b7dbb8efa33e0fe10feb09cf3c4678484ea93ac411dd9",
+      "sha256_now": "95965d5fb5015da3a92b7dbb8efa33e0fe10feb09cf3c4678484ea93ac411dd9"
+    }
+  ],
+  "coverage": {
+    "new_official_scores": 0,
+    "new_Gould_pages": 0,
+    "new_fixed_resource_completions": 0,
+    "resources": [
+      16,
+      25
+    ],
+    "remaining": 9,
+    "skill_topics": [
+      20,
+      20
+    ],
+    "new_native_calls": 0,
+    "new_user_preference_or_adoption": 0,
+    "software_adaptation_changes": 0
+  },
+  "cache": {
+    "private_root": "tmp/engraving/video-preview-access-2026-11-01",
+    "bytes": 390330,
+    "budget_bytes": 2097152,
+    "files": [
+      {
+        "path": "check.py",
+        "bytes": 981,
+        "sha256": "179c6e363b4006d4781bc1843029b50b263306f8a5d1c6b78fa0ffa773e52535"
+      },
+      {
+        "path": "cluster.py",
+        "bytes": 1269,
+        "sha256": "3b7672e64e0f11b0a20684ab758e8b5545d8e479ef7ae352e1857105e021ba68"
+      },
+      {
+        "path": "download.py",
+        "bytes": 1572,
+        "sha256": "a0e3d80940234d2958b23904aa530bad428f35330ababf5f9daf47f70d6d0410"
+      },
+      {
+        "path": "frame-clusters.json",
+        "bytes": 8430,
+        "sha256": "232b00a4f147b551f63eb3238981efe380998382c4bb2e01e54ffa1f6ff4aff7"
+      },
+      {
+        "path": "preview-access.json",
+        "bytes": 1125,
+        "sha256": "33ec824adee7d0a21c29a8be86a8046532fafed6c4f9850ed0ac0f598e26f7a8"
+      },
+      {
+        "path": "public-storyboard.jpg",
+        "bytes": 375140,
+        "sha256": "eba2a4ce5148afa6d2016f7c743b4e8444f15cb2eb9f152c8dbe55ca15508f34"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 1058,
+        "sha256": "37899a30536d7dc52d980242713f7562b906133f87a23add48f4252285508969"
+      },
+      {
+        "path": "storyboard.json",
+        "bytes": 755,
+        "sha256": "4dada02995b79eb504b884cab643ac31a097f159885a19b6a3415f5ba3b44e04"
+      }
+    ],
+    "new_raster_files": 1,
+    "new_reference_PDFs": 0,
+    "new_user_original_copies": 0,
+    "new_runtime_copies": 0,
+    "new_video_downloads": 0,
+    "files_deleted": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3269918720
+  },
+  "fixed_0_25_commit": "b4d19a9b86a25745cbc9a266b5b8a65461b8228a",
+  "validation": {
+    "status": "pass",
+    "progress_check": "pass",
+    "skill_quick_validate": "pass",
+    "library_regressions": [
+      6,
+      6
+    ],
+    "topic_routes": [
+      20,
+      20
+    ],
+    "query": {
+      "topic": "sources",
+      "query": "R09 弱起 编号",
+      "new_case_rank": 1,
+      "limit": 3
+    },
+    "private_fingerprints_checked": 8,
+    "local_markdown_links_checked": 263,
+    "coverage_completion_counters_unchanged": true,
+    "preferences_unchanged": true,
+    "historical_identity_JSON_preserved": true,
+    "fixed_0_25_release_preserved": true,
+    "diff_check": "pass"
+  }
+}
