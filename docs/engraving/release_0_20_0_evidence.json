@@ -1,0 +1,511 @@
+{
+  "date": "2026-10-31",
+  "recorded_at_utc": "2026-10-31T04:28:37.074497+00:00",
+  "version": "0.20.0",
+  "tag": "engraving-v0.20.0",
+  "publication_base_commit": "bc26ac531b7baa5af83c048dcbc2cb29799413fa",
+  "previous_release": {
+    "version": "0.19.0",
+    "tag_commit": "ff3d3e4ab8263fe7ad0659eae2fa976fd07137b9",
+    "certificate_sha256": "338bb488900a9a94e10362dbafbed0af84d057eb038296743ecdb4f0628dad17"
+  },
+  "changes_since_0_19_0": {
+    "new_official_closeouts": 0,
+    "new_official_pages": 0,
+    "new_Gould_coverage": 0,
+    "new_complete_resources": 0,
+    "new_user_integrated_rounds": 0,
+    "new_fixed_transfer_scenarios": 0,
+    "new_native_studies_included": 2,
+    "included_native_CLI_calls": 20,
+    "new_original_source_inputs": 5,
+    "local_query_mode": true,
+    "software_adaptation_changes": 0,
+    "font_work": 0
+  },
+  "sources_checked": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "bytes": 68488,
+      "read_only": true,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "bytes": 249752,
+      "read_only": true,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "bytes": 249473889,
+      "read_only": true,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\hoshide-gaspard-2026-10-31\\hoshide-gaspard-sample.pdf",
+      "sha256": "7441981987a24c3288af6ed0d90d0956003ef35f7535a1dc7d5d8c5b4e7dab6d",
+      "bytes": 162413,
+      "read_only": true,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\EONIAN - Expelled from Paradise - Theme song.pdf",
+      "sha256": "9ebee9d51247c7e96b49759418a30dd62e79e3de59686315dd54b347f8cf01f4",
+      "bytes": 333647,
+      "read_only": true,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Tokimeki poporon - Gochuumon wa usagi desu ka？？ - Ending Theme.pdf",
+      "sha256": "164705fb4581b6a6e8708a2a74a700f8de57d91282e0b1e1ad1196719d194949",
+      "bytes": 409136,
+      "read_only": true,
+      "fresh_hash_check": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\200 Anime Songs Medley.pdf",
+      "sha256": "de0c99dd322419b5f607234a5a5a22e7f987e9bcd80647e09f7e6e81a5e6b8de",
+      "bytes": 2698269,
+      "read_only": true,
+      "fresh_hash_check": true
+    }
+  ],
+  "study_evidence_hashes": [
+    {
+      "path": "eonian_spacing_review_evidence.json",
+      "sha256": "41f94c941f6b234a612307f10459ef835f6407d29634c84259c1106817e9f17f"
+    },
+    {
+      "path": "swing_alignment_evidence.json",
+      "sha256": "3bb4b4126e118bac99a773b833080f2fd81ce8a8f77aaa2a13b62838c92456e5"
+    },
+    {
+      "path": "doubled_tuplet_evidence.json",
+      "sha256": "a53ed14d35282a24f061fd9775d266b85d4a6f26f52dced0798e7b606c496b4c"
+    }
+  ],
+  "public_native_artifacts_checked": [
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-comparison.png",
+      "sha256": "e7e1ed14f8bde83ab11a8b720d4ebbfed79ee60eedcceae65f30777ac6f22b02",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-default.mscx",
+      "sha256": "137f7fa6296adcc9a57cc769ec0a7f11cdd4107e2bfe3c01b7d06e00deaccc93",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-uniform-rejected.mscx",
+      "sha256": "05613fe6a3f46f1220bb1bff3e87cfb6504dd4f66c1e31c3b99dde9cd8d4303c",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-comparison.png",
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-default.mscx",
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-pulse-candidate.mscx",
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-candidate.mscx",
+      "sha256": "9595459dcd6a8d79adccff31af0998fbffcf613c5f49aa13e17e6fe9795badff",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-comparison.png",
+      "sha256": "a3bfd34a884ff6db9b71ecabe11d3eb90dfda971b617b02b4151b17e3c045cbc",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-default.mscx",
+      "sha256": "55718a3d194aadab49bd1fed9ec2d8a44a2ca18e1ba41eac99b3172fdec2ff48",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+      "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+      "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+      "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+      "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+      "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-continuous.mscx",
+      "sha256": "7d07dd4f64c9e7e93ef7e8265c6d5867443cfa7803822a5cabc1040b1c9b5c86",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-four.mscx",
+      "sha256": "37aa041c5826e3abd79050ba64f618c4100dc3fc52d6ec55df7a00789c48c99f",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-nested.mscx",
+      "sha256": "29d2e93cf5ea4ce587853b2d307c6b7cf3666701ae0d607f176030be6fd951b3",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-comparison.png",
+      "sha256": "23844cef5fa01c33c7827f96961f92b97839e3f830b13c1ead3c8d99c0245102",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-full-context.png",
+      "sha256": "cbc5ebdd13115d38cc7b7ee756125e6e72f24a0c7d0e9fe35cf6ac27a3b741bc",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-bare.mscx",
+      "sha256": "8050d939dc6156b01c80740625576ebc9b8d967c2930eee6aca0492a916ad7cc",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-short.mscx",
+      "sha256": "c07663991331902d7d8c38b1b5c6094dd6a0ffb31e827dd7ed89a753a85c783d",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-auto-probe.mscx",
+      "sha256": "638b411732187390af3973cc3d91df410e04478a2e2c2bb457f9e2a0111b725c",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-comparison.png",
+      "sha256": "0d936b66eeb119d5ab6e2191f782c4e674b36336f4fed5a306b86f65a4110bc5",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-full-context.png",
+      "sha256": "6b940ed9e96c7923bc404f7f5b989c25131d33f4bb3c122186186b4b9a89808f",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-implicit.mscx",
+      "sha256": "e1ff8b293945fa57324d0c2be8f65b697550827e008f18791bd71aad06c66ee2",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-auto-position.mscx",
+      "sha256": "2e12f271298827aee4ae21479b9c447dfb6b41abf9402c09253bbd1ed199b801",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-tiered.mscx",
+      "sha256": "31fa4f4f3cff8abc84f6853239d0a88aa35b9b0ee5e137e5d71beee507802979",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-comparison.png",
+      "sha256": "42cc691e8be88b69f7e02ccd282ed42434a63422a9ca6e212c64207a3c8aa6a1",
+      "unchanged_from_0_19_0": true
+    },
+    {
+      "path": "docs/engraving/fixtures/swing-implicit.mscx",
+      "sha256": "901bcdd13ad4e906b35d27e429496b7c160cdc12da25ec8c6cb84e331aafb2c9",
+      "new_original_input": true
+    },
+    {
+      "path": "docs/engraving/fixtures/swing-aligned.mscx",
+      "sha256": "e9d0b525d7b821b2efe099647164400207a6da72c1a1ce1ec2643cac111e49ea",
+      "new_original_input": true
+    },
+    {
+      "path": "docs/engraving/fixtures/swing-explicit.mscx",
+      "sha256": "9a1ca8d543e74050252c209690716bb42ae71708b2176ba9fd9b28ab0786b2a1",
+      "new_original_input": true
+    },
+    {
+      "path": "docs/engraving/fixtures/swing-straight-diagnostic.mscx",
+      "sha256": "f824c91c0a3e0e8989cf5149f4f874e23bf7f6cdbd91886cbe49f2216f010717",
+      "new_original_input": true
+    },
+    {
+      "path": "docs/engraving/fixtures/doubled-tuplet-equivalent.mscx",
+      "sha256": "5e2588bf8518ce445acef5321399343d91e95c06db26a08b9ae23e667f859c5c",
+      "new_original_input": true
+    }
+  ],
+  "private_native_artifact_hashes_checked": 26,
+  "query_validation": {
+    "kind": "Curated known-source retrieval and CLI compatibility;not independent musical judgment",
+    "curated_cases": 5,
+    "CLI_regression_tests": 6,
+    "legacy_topic_routes": 20,
+    "TOPICS_unchanged": true,
+    "cases": [
+      {
+        "topic": "notation",
+        "query": "6:3 等值",
+        "expected_source": "DOUBLED_TUPLET_STUDY.md",
+        "actual_matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\DOUBLED_TUPLET_STUDY.md",
+            "line": 5,
+            "heading": "连音比例恰为2:1：多一条梁为什么可能更清楚",
+            "excerpt": "**判断：本例优先采用普通三十二分表达。** 两种记法在给定时段下完全等值，普通32直接给出熟悉的音值；6:3方案少一条梁，却要求读者额外处理比值，没有给这组六个同值音增加有效信息。净书不能只追求黑线和数字更少，还要看读者需要做多少转换。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 5,
+            "heading": "钢琴净书研究：规范、案例与实现依据",
+            "excerpt": "2026-10-31工作分支完成[压缩比2:1的等值记法研究](DOUBLED_TUPLET_STUDY.md)：**2/2记法、3次原生导出、50/50音休止记录**，两小节38音及全部NoteOn／Off按小节归一化相同。普通32与实际6:3十六分等值，增加一层梁可减少比例换算；原P段内部比值／作者意图仍待核，不把条件改写当原谱修正。官谱146/146、Gould696/696覆盖、资料16/25余9、用户组合1/1保持；0.19固定标签／证据保留，无适配。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\MEDLEY_200_CLOSEOUT.md",
+            "line": 51,
+            "heading": "3. 主要疑点怎样收束",
+            "excerpt": "| p51第二行P，首小节两组裸6 | 优先核音乐意图。按所写双梁6:4及普通尾部，上层4.5q，下层4q；若下层与同步点是本意，比较六个普通32的改写 | 每次6×1/8q＋普通16的1/4q＋八分休止1/2q，两次后四分休止，总4q；比再造6:3更直接。先解决计量，不靠挪头掩盖 |"
+          }
+        ],
+        "searched_files": 86,
+        "matching_files": 4
+      },
+      {
+        "topic": "rhythm",
+        "query": "摇摆 共同起点",
+        "expected_source": "SWING_ALIGNMENT_STUDY.md",
+        "actual_matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SWING_ALIGNMENT_STUDY.md",
+            "line": 5,
+            "heading": "摇摆八分与三连并行：显示、记法和播放怎样协调",
+            "excerpt": "**判断：遇到明确的2:1解释与显式三连并行，值得检查解释后的共同起点。** 本例可以保留普通八分并局部对齐，也可以局部写出真正三连。若编者要求严格同起，我优先比较显式三连写法；它把关系直接交给记法与布局。全曲熟悉的摇摆背景仍可保普通八分，不能全谱展开成三连，也不能统一按播放毫秒排版。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\METRE_TEMPO_READING.md",
+            "line": 219,
+            "heading": "2026-10-30：摇摆解释和真实三连并存",
+            "excerpt": "[Tokimeki／Uchiage](INTEGRATED_READING_TOKIMEKI_UCHIAGE.md)：Tokimeki开头两普通8解释成三连四分＋8，F同时有显式三连和普通8；书写中点与演奏后2/3相遇分查，候选同步排法需比较，未将Gould变速章节冒作摇摆专条。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 7,
+            "heading": "钢琴净书研究：规范、案例与实现依据",
+            "excerpt": "2026-10-31工作分支完成[摇摆／三连同步研究](SWING_ALIGNMENT_STUDY.md)：**4/4原创条件、1/1候选保存重载、17次原生调用**。普通八分播放可摇摆而图面仍按书面半拍；局部对齐版保10音及完整MIDI，显式三连版直接显示共同起点。67%本例比严格2:1晚一tick，显示／记法／播放分验。四份CC0输入可用；官谱146/146、Gould696/696覆盖、资料16/25余9、用户组合1/1保持；0.19固定标签／证据保留，无适配开发。"
+          }
+        ],
+        "searched_files": 90,
+        "matching_files": 89
+      },
+      {
+        "topic": "piano",
+        "query": "S.P. A八度",
+        "expected_source": "PREFERENCES.md",
+        "actual_matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 292,
+            "heading": "本批最重要的认识",
+            "excerpt": "用户已确认《如果有来生》m132的S.P.保持A八度，两条长弧表示持续，详见[PREFERENCES](PREFERENCES.md#作者已确认的音乐含义)。它不自动指定精确释放时点，也不是已采用某个线形候选。极简6/8两图的“暂时看不出差别”不构成等距偏好。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PREFERENCES.md",
+            "line": 29,
+            "heading": "作者已确认的音乐含义",
+            "excerpt": "2026-10-20，用户说明《如果有来生》m132的`(S.P. for A octave)`及延续到m135的上下两条长弧：“选择性延音踏板保持 A 八度，长弧表示持续”。这是作者对该处音乐功能的确认，后续须保护A八度的持续提示，不能把软件的Slur对象一律按普通分句弧处理或按同端点去重。具体依赖及既有拒绝试验见[持续与休止](SUSTAIN_AND_RESTS.md)。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\LILYPOND_KEYBOARD_CASES.md",
+            "line": 37,
+            "heading": "3. 踏板线：外形改变会影响人看见的时点",
+            "excerpt": "**本例保留第一组作为普通清晰范围的参照；另两组用于认识控制与反例，不推荐全曲套用。** 用户S.P.已有作者定义，先保护A八度持续和未知边界，再比较线形，不能从这个外部例补上用户未说明的释放时点。"
+          }
+        ],
+        "searched_files": 87,
+        "matching_files": 87
+      },
+      {
+        "topic": "baseline",
+        "query": "共同Segment 保存",
+        "expected_source": "USER_COMBINED_REVIEW.md",
+        "actual_matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\USER_COMBINED_REVIEW.md",
+            "line": 36,
+            "heading": "共同时间列的设置，保存位置可能换谱表",
+            "excerpt": "因此，固定XML路径下从三个变两个，不能独自证明丢设置。此次同时核到了三个实际保存值、16个目标共同起点、全部八页保存前后绘图与像素一致，才判断保存保持。后续读回应定位小节、逻辑时间及共同Segment，并检查相关谱表；这一结论来自本输入和冻结宿主，不代替未来接口定义检查。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md",
+            "line": 13,
+            "heading": "从参考谱学到的净书判断，怎样用于下一份谱",
+            "excerpt": "2026-10-31[组合应用](USER_COMBINED_REVIEW.md)：先分清可见干扰与风格备选，再验证局部方案合并后的整曲。保留m51细分所需差距、m86变音构型及M／echo／尾声层次；最小处理与间距扩展可分开采用。共同Segment保存后可能换谱表，须按逻辑时间、实际值及图形读回；记法范围变化另核目标成员和实际播放覆盖。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 15,
+            "heading": "钢琴净书研究：规范、案例与实现依据",
+            "excerpt": "2026-10-31工作分支完成[用户谱组合应用](USER_COMBINED_REVIEW.md)：**1/1轮、准备4/4项**。最小版处理重导出rit.／尾声空表，扩展版另比较m50／52和m86间距；8页38系统、3203音／休止记录、16共同起点、完整MIDI及第三Part参与诊断保持，八页原生重载一致。新记共同Segment保存位置变化及一处隐藏表MusicXML输出。原件只读，无审美采用／打印／试奏或适配。官谱146/146、Gould696/696覆盖、资料16/25余9保持；0.18.0固定标签仍是组合0/1的旧快照。"
+          }
+        ],
+        "searched_files": 7,
+        "matching_files": 7
+      },
+      {
+        "topic": "cross-staff",
+        "query": "跨谱表 休止",
+        "expected_source": "CROSS_STAFF_STUDY.md",
+        "actual_matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_SAKAYUME_SAYONARA.md",
+            "line": 35,
+            "heading": "2. 跨谱表的六连，先数时点，再看符头",
+            "excerpt": "**保留：**完整跨表主／次梁、六连数字、慢角色及必要休止。只看一表会报缺音，数全部头会报多音；把跨表和弦拆成三个顺序音也会破坏起点。Gould p315解释共同梁应让手的运行与干长清楚；p311提示同音多干或额外干可能表达角色，不意味着全部都是另一条独立攻击。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_TABI_TAMASHII.md",
+            "line": 46,
+            "heading": "4. 跨谱表看干轴，接手也看最后一个成员",
+            "excerpt": "Tamashii F后的下降（p4s5第三小节）从八分休止后开始14个普通十六分，两个谱表的头通过共同梁依次连接。一次上转下接手处，上头x365.850、下头x369.396pt，仅差3.546pt；对应实际符干轴x366.066、374.418pt，相隔8.352pt。头放在干两侧造成近邻，不能把它们误作同时或把上下头强行吸齐。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CROSS_STAFF_STUDY.md",
+            "line": 17,
+            "heading": "2. 休止不总要两手各写满，也不能随便藏（p317–318）",
+            "excerpt": "单线跨手运行，只要拍点清楚，可把休止放在这条线所属的位置。细分边缘的休止靠同一细分，其内部休止一般靠后接音所在谱表；整拍休止则较宜两谱表重复，让其它拍定位清楚。两种可接受方案可以在简洁与明确之间取舍。"
+          }
+        ],
+        "searched_files": 71,
+        "matching_files": 71
+      }
+    ],
+    "tests_path": "tests/test_engraving_library.py",
+    "tests_sha256": "4079574cb7ead524d4a27d09e020be4f26f037834640429319d648c8b0c51123",
+    "script_path": "skills\\piano-engraving\\scripts\\engraving_library.py",
+    "script_sha256": "927310b0b4f51704b9f511dd72c2a4ff6cb0ef9d77d92964d70dfc2023680bcd",
+    "readonly_library_check_passed": true
+  },
+  "browser_access_observation": {
+    "resource": "R12",
+    "url": "https://www.bilibili.com/video/BV1k34y1B7Jc/",
+    "browser": "Chrome",
+    "confirmed_tab": "1280814955",
+    "creation_and_same_handle_binding_observations": "timed out;tab metadata confirmed in fresh inventory",
+    "actual_video_frames_or_audio_read": false,
+    "duplicate_tab_creation": false
+  },
+  "native_validation_reexecuted_for_release": false,
+  "validation": {
+    "status": "passed",
+    "source_fresh_hashes": 7,
+    "study_evidence_files_hashed": 3,
+    "stored_actually_viewed_image_records_hashed": 8,
+    "prior_in_memory_actually_viewed_records": 8,
+    "private_native_artifacts_hashed": 26,
+    "public_native_artifacts_hashed": 34,
+    "skill_routes_exercised": 20,
+    "curated_source_queries": 5,
+    "CLI_regression_tests": 6,
+    "prior_releases_unchanged": true,
+    "goal_active": true
+  },
+  "cache": {
+    "logical_bytes_at_check": 3221739382,
+    "batch_bytes_at_check": 11318,
+    "batch_budget_bytes": 24576,
+    "total_cache_ceiling_bytes": 3221749760,
+    "new_media_files": 0,
+    "new_original_reference_copies": 0,
+    "new_runtime_copies": 0,
+    "files_deleted": 0
+  },
+  "scope": "Usable research/skill release with optional question-to-passage retrieval and two prior completed native studies;no reexecution of history.",
+  "not_done": [
+    "R07-R15 completion",
+    "Independent new-score engraving accuracy",
+    "User aesthetic adoption/print/performance",
+    "Original P native ratio/editor intent",
+    "Other widths for aligned swing offset",
+    "MuseScore/plugin/MCP/core/font adaptation"
+  ],
+  "progress_snapshot": {
+    "as_of": "2026-10-31",
+    "scope_revision": 1,
+    "goal_status": "active",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      146,
+      146
+    ],
+    "gould_pages_conservative": [
+      696,
+      696
+    ],
+    "gould_substantive_pages": 598,
+    "gould_non_substantive_pages": 98,
+    "gould_title_or_contents_pages": 98,
+    "public_resource_scopes": [
+      16,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ],
+    "user_milestones": [
+      4,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v0.20.0"
+  }
+}

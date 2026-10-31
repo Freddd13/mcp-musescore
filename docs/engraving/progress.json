@@ -3129,17 +3129,17 @@
     "integrated_round_evidence": "user_combined_review_evidence.json"
   },
   "release": {
-    "version": "0.19.0",
-    "tag": "engraving-v0.19.0",
+    "version": "0.20.0",
+    "tag": "engraving-v0.20.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.19.0 fixed usable research release:146/146 official question-reading closeouts,1135/1135 pages;Gould696/696 coverage;resources16/25,remainingR07-R15;20skill routes;fixed transfer8/8 coverage.User combined private experiment1/1,milestones4/4,not aesthetic adoption/print/performance.Eight contextual tuplet decisions and four supplemental Hoshide Ondine sample pages included.No software/font adaptation.Historical release notes,commits,tags and certificates preserve earlier states. After0.19:four EONIAN groups/14glyph pairs reviewed;small common-column redistribution is a low-priority unrendered candidate. No coverage,resource,transfer,user-round,native or adaptation increment;fixed0.19certificate/tag unchanged. Subsequent swing/triplet study adds1original native scenario at4conditions,17CLIcalls,one resaved/reloaded candidate.Four CC0 inputs available;no reading/resource/fixed-transfer/user-round or adaptation increment;0.19snapshot immutable. Subsequent doubled-tuplet study:one original two-bar score,two equivalent notations,three native exports;50musical records and38noteon/offpairs checked. Conditional source diagnosis retained,no reading/resource/user-round/fixed-transfer/adaptation increment;0.19snapshot unchanged."
+    "working_branch_note": "0.20.0 usable research release:146/146official closeouts,1135/1135pages;Gould696/696coverage,resources16/25remainingR07-R15;fixedtransfer8/8,userintegrated1/1,milestones4/4. Optional local question-to-passage lookup added;old20topic routes preserved. Includes EONIAN glyph screen,swing four-condition and doubled-tuplet two-notation native studies,five CC0 source inputs. Five curated retrieval locations and sixCLIregressions are not engraving accuracy or new reading. No software/font adaptation;historical tags/certificates immutable."
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "One original equivalent-value comparison,2notations,3native exports;A005p51andGould203reread.",
+    "scope": "Skill local question-to-passage retrieval and0.20release;ChromeR12same-tab content timeout,no new learning coverage.",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3149,16 +3149,16 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 1,
+    "book_reread_pages": 0,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 1,
+    "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
     "notes": [
-      "DOUBLED_TUPLET_STUDY.md"
+      "../ENGRAVING_SKILL.md"
     ],
-    "review_evidence": "doubled_tuplet_evidence.json",
+    "review_evidence": "release_0_20_0_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3261,5 +3261,14 @@
       "scope": "Cross-source contextual review,not a new blind transfer test or reading coverage",
       "new_native_conditions": 0
     }
-  ]
+  ],
+  "latest_library_query": {
+    "evidence": "release_0_20_0_evidence.json",
+    "guide": "../ENGRAVING_SKILL.md",
+    "curated_known_source_cases": 5,
+    "planned_curated_cases": 5,
+    "CLI_regression_tests": 6,
+    "planned_CLI_regressions": 6,
+    "scope": "Retrieval and backwards compatibility only;not independent musical judgment or new source reading."
+  }
 }

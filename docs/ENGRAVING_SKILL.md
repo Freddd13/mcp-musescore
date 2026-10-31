@@ -1,6 +1,17 @@
 # 钢琴净书skill：使用、关联与更新
 
-2026-10-31。最近发布的可用研究版为**[0.19.0／engraving-v0.19.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
+2026-10-31。最近发布的可用研究版为**[0.20.0／engraving-v0.20.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
+
+## 按具体问题定位来源
+
+保留原专题清单，另可直接查相关段落：
+
+    python <skill目录>/scripts/engraving_library.py --topic notation --query "6:3 等值" --limit 3
+    python <skill目录>/scripts/engraving_library.py --topic piano --query "S.P. A八度" --limit 3
+
+返回匹配文件、标题、行号和至多700字符的原文节选；默认最多5份，可用1–20调整。不带查询时仍返回完整专题清单。查询在当前专题与共同入口内进行，支持中文关键词、英文和比例；关键词间可加空格。作者定义仍先读，词语排序不代表规范或审美正确性，命中后继续读相关上下文及原例。未命中时换词或回到专题列表，不补写未读内容。
+
+脚本使用Python标准库、按需读取项目Markdown，不建立索引或媒体缓存。已知五类问题的来源定位属于检索回归，未计新的净书迁移成绩；旧命令、20专题、比例全角形式、空结果、限制参数及输入只读均已测试。
 
 ## 怎样使用
 

@@ -3,9 +3,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import os
 from pathlib import Path
+import re
 import sys
+import unicodedata
 
 COMMON = ("README.md", "PREFERENCES.md", "JUDGMENT_GUIDE.md")
 TOPICS = {
@@ -61,12 +64,117 @@ def locate_repo(explicit: str | None) -> tuple[Path, str]:
     raise ValueError("Engraving library not found. Pass --repo or set MCP_MUSESCORE_DIR to the maintained mcp-musescore checkout; copying this skill alone does not copy the library.")
 
 
+def normalized(text: str) -> str:
+    text = unicodedata.normalize("NFKC", text).lower()
+    return re.sub(r"(?<=\d)\s*:\s*(?=\d)", ":", text)
+
+
+def query_terms(query: str) -> dict[str, float]:
+    terms: dict[str, float] = {}
+    for word in re.findall(r"\d+(?::\d+)+|[a-z][a-z0-9_.-]*|[\u3400-\u9fff]+|\d+", normalized(query)):
+        terms[word] = 3.0
+        if re.fullmatch(r"[\u3400-\u9fff]{4,}", word):
+            for i in range(len(word) - 1):
+                terms.setdefault(word[i:i + 2], 0.5)
+    if not terms:
+        raise ValueError("Supply search words or a musical ratio, e.g. --query '6:3 等值'.")
+    return terms
+
+
+def term_score(text: str, terms: dict[str, float]) -> float:
+    text = normalized(text)
+    total = 0.0
+    for word, weight in terms.items():
+        if re.fullmatch(r"[a-z0-9_.:-]+", word):
+            found = re.search(r"(?<![a-z0-9])" + re.escape(word) + r"(?![a-z0-9])", text)
+        else:
+            found = word in text
+        if found:
+            total += weight
+    return total
+
+
+def search_library(library: Path, names: tuple[str, ...], query: str, limit: int) -> dict:
+    """Return bounded source passages; relevance is lexical, not musical validation."""
+    terms = query_terms(query)
+    candidates = []
+    files = list(dict.fromkeys((*COMMON, *names)))
+    documents = [(library / name, (library / name).read_text(encoding="utf-8")) for name in files]
+    # Rare terms and co-occurrence help distinguish S.P. A-octave from generic octaves.
+    for word in terms:
+        frequency = sum(bool(term_score(text, {word: 1})) for _, text in documents)
+        terms[word] *= 1 + math.log((len(documents) + 1) / (frequency + 1))
+    total_weight = sum(terms.values())
+    for file_order, (path, content) in enumerate(documents):
+        lines = content.splitlines()
+        title = next((line.lstrip("# ") for line in lines if line.startswith("# ")), path.stem)
+        heading = title
+        block: list[str] = []
+        start = 1
+        file_bonus = term_score(title, terms) * 2 + term_score(path.stem.replace("_", " "), terms)
+
+        def collect() -> None:
+            text = "\n".join(block).strip()
+            body_score = term_score(text, terms)
+            if not text or not body_score:
+                return
+            coverage = term_score("\n".join((text, heading, title)), terms) / total_weight
+            score = (body_score + term_score(heading, terms) * 3 + file_bonus) * coverage ** 2
+            # Repeated dated progress intros are less useful than the actual case.
+            if re.match(r"(?:此前)?20\d\d[-年]", text) and re.search(
+                    r"工作分支|发布|本批|本轮|新增|补读|续查", text[:100]):
+                score *= 0.4
+            excerpt = text
+            if len(excerpt) > 700:
+                folded = normalized(excerpt)
+                positions = [folded.find(word) for word in terms if word in folded]
+                at = max(0, min(positions, default=0) - 100)
+                excerpt = ("…" if at else "") + excerpt[at:at + 698] + "…"
+            candidates.append({"score": score, "order": file_order, "path": str(path), "line": start,
+                               "heading": heading, "excerpt": excerpt})
+
+        for i, line in enumerate([*lines, ""], 1):
+            if line.startswith("#") or not line.strip():
+                collect()
+                block = []
+                if line.startswith("#"):
+                    heading = line.lstrip("# ")
+            elif re.match(r"\s*(?:[-*+] |\d+[.)、]\s|\|)", line):
+                collect()
+                block, start = [line], i
+                collect()
+                block = []
+            else:
+                if not block:
+                    start = i
+                block.append(line)
+    candidates.sort(key=lambda row: (-row["score"], row["order"], row["line"]))
+    matches = []
+    seen_files, seen_passages = set(), set()
+    for row in candidates:
+        # One passage per file; omit repeated progress paragraphs across files.
+        key = re.sub(r"\]\([^)]*\)", "]", normalized(row["excerpt"]))
+        if row["path"] in seen_files or key in seen_passages:
+            continue
+        seen_files.add(row["path"])
+        seen_passages.add(key)
+        matches.append({k: v for k, v in row.items() if k not in ("score", "order")})
+    selected = matches[:limit]
+    return {"query": query.strip(), "search_method": "local lexical passages; not engraving correctness",
+            "searched_files": len(files), "matching_files": len(matches),
+            "references": [row["path"] for row in selected], "matches": selected}
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo", help="Maintained mcp-musescore checkout; explicit value takes precedence.")
     parser.add_argument("--topic", choices=TOPICS, default="overview")
     parser.add_argument("--list-topics", action="store_true")
+    parser.add_argument("--query", help="Find source passages for this question within the selected topic.")
+    parser.add_argument("--limit", type=int, help="Maximum matching files for --query (1-20; default 5).")
     args = parser.parse_args(argv)
+    if args.limit is not None and (args.query is None or not 1 <= args.limit <= 20):
+        parser.error("--limit requires --query and must be between 1 and 20")
     if args.list_topics:
         print(json.dumps({"topics": TOPICS}, ensure_ascii=False, indent=2))
         return 0
@@ -77,12 +185,15 @@ def main(argv: list[str] | None = None) -> int:
         for path in selected:
             if not path.is_file():
                 raise ValueError(f"Missing reference {path}; update or check this checkout before claiming it was read.")
-        print(json.dumps({
+        result = {
             "repository": str(root), "repository_resolution": origin,
             "knowledge_base": str(library), "topic": args.topic,
             "start_here": [str(library / name) for name in COMMON],
             "references": [str(path) for path in selected],
-        }, ensure_ascii=False, indent=2))
+        }
+        if args.query is not None:
+            result.update(search_library(library, TOPICS[args.topic], args.query, args.limit or 5))
+        print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
     except (OSError, ValueError) as error:
         print(str(error), file=sys.stderr)
