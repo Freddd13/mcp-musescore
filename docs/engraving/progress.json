@@ -2883,10 +2883,12 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "key_kick_closeout_evidence.json",
-        "remaining": "Primary indexed author description confirms stated Henle1976/PWM1997references and credits;actual target score/video figures not viewed,edition collation pending.",
+        "remaining": "Target Legatissimo engraving/video not viewed; exact1976Henle and1997PWM full scores not collated0/2. Related official current-family commentary Op23sections2/2 and7/7pageviews read separately; documented version conventions and editorial divergence do not complete target.",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV1wwH5esEBt/",
-        "metadata_identity_verified": true
+        "metadata_identity_verified": true,
+        "editorial_context_evidence": "ballade_editorial_context_evidence.json",
+        "editorial_context_note": "BALLADE_EDITORIAL_CONTEXT.md"
       },
       {
         "id": "R08",
@@ -3198,11 +3200,11 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.24固定m97方向反馈、含首休止完整梁六版原创研究、实曲干长平衡迁移；六原创输入一图，20入口。完整实曲比较候选1/1，渐强作用层及审美采用待答；资料16/25余9，无适配。"
+    "working_branch_note": "0.24固定m97方向反馈、含首休止完整梁六版原创研究、实曲干长平衡迁移；六原创输入一图，20入口。完整实曲比较候选1/1，渐强作用层及审美采用待答；资料16/25余9，无适配。 Working branch adds related official Op23 editorial-context reading7/7views; fixed0.24tag unchanged and R07 stayspartial."
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "m97完整组界／干长平衡迁移：四版实曲校准4/4、完整比较候选1/1、两版保存重载2/2。保原显示分配，六连两向最短干约4sp；作者渐强作用层与审美采用待答。",
+    "scope": "R07关联编辑语境：两份官方评论的指定Op23部分2/2、完整视图7/7页，另三近图。理解版本约定、真实编辑分歧与对齐解释；目标净书成品及所声明旧版主谱仍未读。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3212,19 +3214,20 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 3,
+    "book_reread_pages": 0,
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 1,
-    "new_native_diagnostic_conditions": 3,
+    "new_native_candidate_scenarios": 0,
+    "new_native_diagnostic_conditions": 0,
     "new_user_integrated_rounds": 0,
-    "native_CLI_calls": 16,
+    "native_CLI_calls": 0,
+    "supplemental_commentary_full_page_views": 7,
     "notes": [
-      "M97_GROUP_BOUNDARY_TRANSFER.md"
+      "BALLADE_EDITORIAL_CONTEXT.md"
     ],
-    "review_evidence": "m97_group_boundary_evidence.json",
+    "review_evidence": "ballade_editorial_context_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3463,16 +3466,30 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "M97_GROUP_BOUNDARY_TRANSFER.md",
-    "evidence": "m97_group_boundary_evidence.json",
-    "Gould_full_printed_page_rereads": [
-      200,
-      315,
-      323
+    "reference": "BALLADE_EDITORIAL_CONTEXT.md",
+    "evidence": "ballade_editorial_context_evidence.json",
+    "official_commentaries": [
+      2,
+      2
     ],
-    "new_coverage_pages": 0,
+    "targeted_full_page_views": [
+      7,
+      7
+    ],
+    "total_PDF_pages": 28,
+    "PDF_pages_outside_target_scope": 21,
+    "source_PDFs": [
+      "PWM current-linked Ballades commentaries",
+      "Henle HN862 current comments"
+    ],
+    "scope": "Read relevant English Op23 editorial principles/performance/source sections; Henle final sentence crosses physical11->12. Current-family documents distinct from1976HN295/1997PWM4927. R07 target engraving unread; no resource completion.",
     "new_fixed_resource_completions": 0,
-    "scope": "完整图文复读，省括号条件、两向最短干平衡、发夹作用层与斜穿条件；直接改变实曲候选，不以容器猜作者意图。"
+    "new_Gould_coverage": 0,
+    "exact_legacy_full_scores_read": [
+      0,
+      2
+    ],
+    "R07_target_engraving_read": false
   },
   "judgment_review_history": [
     {
@@ -3634,7 +3651,7 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15：正确目标身份现已可核，继续实际谱面／讲解。R10拾廿七UID已核、本人材料待取得；R09官方独立版本不能替代目标。读取下一项可正常取得的完整内容，不反复循环失败路径。"
+    "scope": "余9项R07–R15：正确目标身份现已可核，继续实际谱面／讲解。R10拾廿七UID已核、本人材料待取得；R09官方独立版本不能替代目标。读取下一项可正常取得的完整内容，不反复循环失败路径。 R07 now has current-family official commentary sections2/2 and7/7pageviews; exact legacy file access gated, target engraving unread. Do not repeat gate or replace target with these documents."
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -3706,6 +3723,18 @@
       "Dorico_runtime": false,
       "new_fixed_resource_completions": 0,
       "scope": "Gould9页既有覆盖复读；LilyPond2.26 stemlets正文／显示源码及一图，Dorico6.2休止连梁／短符干／显示操作三正文及两图；体例差异与适用条件已分清。"
+    },
+    {
+      "reference": "M97_GROUP_BOUNDARY_TRANSFER.md",
+      "evidence": "m97_group_boundary_evidence.json",
+      "Gould_full_printed_page_rereads": [
+        200,
+        315,
+        323
+      ],
+      "new_coverage_pages": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "完整图文复读，省括号条件、两向最短干平衡、发夹作用层与斜穿条件；直接改变实曲候选，不以容器猜作者意图。"
     }
   ],
   "latest_source_identity_review": {

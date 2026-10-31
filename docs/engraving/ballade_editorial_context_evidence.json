@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31T15:10:15.855Z",
+  "reference": "BALLADE_EDITORIAL_CONTEXT.md",
+  "kind": "R07 related official editorial-context reading; original target stays partial",
+  "scope": {
+    "context": "R07 exact legacy-reference file access gated; study separately identified official current-family commentaries without substituting target engraving",
+    "target_resource_id": "R07",
+    "target_resource_status_kept": "partial",
+    "targets": [
+      {
+        "source": "PWM official Ballades product commentary",
+        "full_physical_pages": [
+          1,
+          4,
+          5
+        ],
+        "scope": "General text conventions and complete Op23 performance/source commentary"
+      },
+      {
+        "source": "Henle HN862 official current comments",
+        "full_physical_pages": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "scope": "English editorial principles and complete Op23 source/comments; distinct from1976HN295"
+      }
+    ],
+    "planned_full_page_views": 7,
+    "planned_unique_PDFs": 2,
+    "private_budget_bytes": 2097152,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3265265664,
+    "raw_video_read": false,
+    "original_files_readonly": true,
+    "new_runtime_copy": false,
+    "software_adaptation": false,
+    "scope_revision": 2,
+    "actual_full_page_views": 7,
+    "scope_revision_reason": "Henle Op23 final sentence crosses physical11->12; add complete page12 view to close the selected chapter rather than claim the first3pages were complete.",
+    "actual_detail_views": [
+      {
+        "source": "PWM",
+        "physical": 1,
+        "topic": "m179 alignment",
+        "initial_crop_incomplete": true
+      },
+      {
+        "source": "PWM",
+        "physical": 5,
+        "topic": "m171 shifted note example",
+        "crop_read": true
+      },
+      {
+        "source": "PWM",
+        "physical": 1,
+        "topic": "m179 complete graphic",
+        "corrected_crop_complete": true
+      }
+    ],
+    "actual_PDF_total_pages": 28,
+    "PDF_pages_not_in_target_reading_scope": 21,
+    "fixed_resource_completion_increment": 0,
+    "r07_target_engraving_read": false,
+    "exact_legacy_full_scores_read": [
+      0,
+      2
+    ],
+    "supplemental_current_family_commentary_sections_read": [
+      2,
+      2
+    ],
+    "complete_target_page_views": [
+      7,
+      7
+    ],
+    "native_CLI_calls": 0,
+    "Gould_new_or_reread_pages": 0
+  },
+  "sources": [
+    {
+      "url": "https://serwer1374796.home.pl/wp-content/uploads/2013/05/ballades_commentaries.pdf",
+      "product": "https://www.chopin-nationaledition.com/en/product/test/",
+      "local_path": "tmp/engraving/ballade-editorial-context-2026-10-31/PWM-ballades-commentaries.pdf",
+      "path": "PWM-ballades-commentaries.pdf",
+      "bytes": 459787,
+      "sha256": "bdc657447c3cc6e8fb69942dc96cd0d65a04229c35eb7feff057dfa124b422a2",
+      "metadata": {
+        "Title": "Ami Pro - BALPCLI.SAM",
+        "Author": "",
+        "Subject": "",
+        "Keywords": "",
+        "Creator": "Windows PSCRIPT",
+        "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+        "CreationDate": "D:20101020233739+02'00'",
+        "ModDate": "D:20101026124156+02'00'"
+      },
+      "total_PDF_pages": 11,
+      "full_physical_pages_viewed": [
+        1,
+        4,
+        5
+      ],
+      "printed_pages": [
+        2,
+        5,
+        6
+      ],
+      "whole_PDF_read": false,
+      "complete_relevant_Op23_section_read": true
+    },
+    {
+      "url": "https://www.henle.de/media/ce/9d/79/1697725615/0862-1697725615-sync.pdf",
+      "product": "https://www.henle.de/de/Balladen/HN-862",
+      "local_path": "tmp/engraving/ballade-editorial-context-2026-10-31/Henle-HN862-comments.pdf",
+      "path": "Henle-HN862-comments.pdf",
+      "bytes": 972836,
+      "sha256": "d3ca22174d4f5b5088c791a563c60d086c586b6a007d23c72fbbc50241b3e283",
+      "metadata": {
+        "Title": "untitled",
+        "Author": "",
+        "Subject": "",
+        "Keywords": "",
+        "Creator": "FrameMaker 10.0.2",
+        "Producer": "Acrobat Distiller 10.1.10 (Windows)",
+        "CreationDate": "D:19991129141156Z",
+        "ModDate": "D:20180928135314+02'00'"
+      },
+      "total_PDF_pages": 17,
+      "full_physical_pages_viewed": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "printed_pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "whole_PDF_read": false,
+      "complete_relevant_Op23_section_read": true
+    }
+  ],
+  "observations": [
+    {
+      "key": "edition_specific_brackets",
+      "PWM_physical": 1,
+      "Henle_physical": [
+        9,
+        10
+      ],
+      "application": "Read the local legend; no universal optional-note or editorial-role mapping."
+    },
+    {
+      "key": "shared_slur_scope",
+      "Henle_physical": 11,
+      "measure": "9ff",
+      "application": "Edition explains upper slur scope includes lower accompaniment; do not duplicate from geometric proximity."
+    },
+    {
+      "key": "tie_and_phrase",
+      "PWM_physical": 4,
+      "Henle_physical": 11,
+      "measures": "26-27",
+      "application": "Verify sustained pitch and source before routing a curve."
+    },
+    {
+      "key": "genuine_editorial_divergence",
+      "PWM_physical": 4,
+      "Henle_physical": 11,
+      "measures": "103-105",
+      "application": "Author revision versus engraving-error interpretations differ; preserve the chosen edition before filling parallel passages."
+    },
+    {
+      "key": "alignment_as_interpretation",
+      "PWM_physical": 1,
+      "measure": 179,
+      "application": "Autograph alignment and approximate durations inform an explicit realization; x alone does not determine strict timing."
+    }
+  ],
+  "access_observations": [
+    {
+      "target": "R07 primary video",
+      "url": "https://www.bilibili.com/video/BV1wwH5esEBt/",
+      "result": "Indexed metadata and1976/1997references; no new target frames/audio."
+    },
+    {
+      "target": "Exact legacy scores",
+      "catalog": "https://imslp.org/wiki/Ballade_No.1,_Op.23_(Chopin,_Fr%C3%A9d%C3%A9ric)",
+      "files": [
+        "#833650 HN295/Zimmermann1976",
+        "#832005 PWM4927/Ekier-Kaminski1997"
+      ],
+      "result": "Catalog identity verified. File pages returned bot verification; no bypass or exact-score retrieval. No Legato match in fetched work-page text, not proof of absence elsewhere."
+    },
+    {
+      "target": "R10 credited preview listings",
+      "urls": [
+        "https://www.gangqinpu.com/cchtml/1050811.htm",
+        "https://mymusic.st/PurrvoiceHotdog/79353"
+      ],
+      "result": "Web inaccessible; no score preview read."
+    }
+  ],
+  "retrieval_followup": {
+    "initial": "30s Node tool timeout reset runtime after firstPDFwrite. Get-Process showed no live Python; firstPDFonly on disk. CIM query denied, no ACL changes.",
+    "continued": "Exact official Henle URL fetched once in tracked exec session16208; completed200. No duplicate first-PDF write.",
+    "initial_download_manifest": "not written when the two-file script stopped; final metadata/hash independently read from actual files"
+  },
+  "coverage": {
+    "new_official_scores": 0,
+    "new_official_pages": 0,
+    "new_Gould_pages": 0,
+    "new_Gould_reread_pages": 0,
+    "new_fixed_resource_completions": 0,
+    "resources": [
+      16,
+      25
+    ],
+    "remaining": 9,
+    "R07_status": "partial",
+    "R07_target_engraving_read": false,
+    "exact_legacy_full_scores_read": [
+      0,
+      2
+    ],
+    "current_family_targeted_sections_read": [
+      2,
+      2
+    ],
+    "full_target_page_views": [
+      7,
+      7
+    ],
+    "new_native_calls": 0,
+    "new_skill_evaluation_scenarios": 0
+  },
+  "protected_sources": [
+    {
+      "id": "mscz",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "original_unchanged": true
+    },
+    {
+      "id": "pdf",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "original_unchanged": true
+    },
+    {
+      "id": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "original_unchanged": true
+    }
+  ],
+  "cache": {
+    "private_root": "tmp/engraving/ballade-editorial-context-2026-10-31",
+    "final_private_bytes": 1436807,
+    "budget_bytes": 2097152,
+    "files": [
+      {
+        "path": "download-henle.py",
+        "bytes": 728,
+        "sha256": "677648cc0fd50203731c19d5f847c6010fb9938ad910dfbbc55e28dd64f67f1b"
+      },
+      {
+        "path": "download.py",
+        "bytes": 1000,
+        "sha256": "6bbc5a2290b6567ce02296252777487c8dc6acb20979ff1718b67d0bff2bbf7d"
+      },
+      {
+        "path": "Henle-download.json",
+        "bytes": 330,
+        "sha256": "18042655534314d4c9d1d5277cbe7172b4cc2cf6aa973f69fd300d378e079faa"
+      },
+      {
+        "path": "Henle-HN862-comments.pdf",
+        "bytes": 972836,
+        "sha256": "d3ca22174d4f5b5088c791a563c60d086c586b6a007d23c72fbbc50241b3e283"
+      },
+      {
+        "path": "PWM-ballades-commentaries.pdf",
+        "bytes": 459787,
+        "sha256": "bdc657447c3cc6e8fb69942dc96cd0d65a04229c35eb7feff057dfa124b422a2"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 2126,
+        "sha256": "039d1d2029989afc7b529927409af60f72393a3e565b72caeecc86b260d57c60"
+      }
+    ],
+    "new_reference_commentary_PDFs": 2,
+    "new_raster_files": 0,
+    "new_user_original_copies": 0,
+    "new_runtime_copies": 0,
+    "files_deleted": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3265265664
+  },
+  "fixed_0_24_tag_must_remain": "d2d9bfe18e61462dba5f27de835acb9ede52339a",
+  "software_adaptation_changes": 0,
+  "validation": {
+    "progress_check": "pass",
+    "skill_quick_validate": "pass",
+    "library_regressions": {
+      "passed": 6,
+      "total": 6
+    },
+    "all_topic_routes": [
+      20,
+      20
+    ],
+    "targeted_query": {
+      "topic": "sources",
+      "query": "括号 版本 编辑",
+      "new_case_rank": 1,
+      "limit": 3
+    },
+    "private_files_checked": 6,
+    "coverage_completion_counters_unchanged": true,
+    "preferences_unchanged": true,
+    "fixed_0_24_tag_unchanged": true,
+    "actual_source_scope_not_replaced": true
+  }
+}
