@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31T15:43:16.582Z",
+  "reference": "BALLADE_PERFORMANCE_CONTEXT.md",
+  "kind": "Complete English related Ballades commentary scope; not R07 target engraving",
+  "scope": {
+    "date": "2026-10-31",
+    "primary_goal": "Attempt R12 actual content once; browser page reads timed out. Check anonymous official subtitle availability without credentials or media download.",
+    "parallel_independent_reading": "Finish the remaining English/performance/source parts of already downloaded official Ballades commentary files; no substitution for R07 target.",
+    "planned_new_full_page_views": 13,
+    "previous_full_page_views": 7,
+    "combined_target_full_page_views": 20,
+    "total_PDF_pages": 28,
+    "remaining_duplicate_language_pages_outside_scope": 8,
+    "new_PWM_pages": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "new_Henle_pages": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "private_budget_bytes": 65536,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3265331200,
+    "new_reference_PDF_copies": 0,
+    "new_video_downloads": 0,
+    "new_runtime_copies": 0,
+    "software_adaptation": false,
+    "completed": true,
+    "actual_new_unique_full_pages": 13,
+    "actual_reread_full_pages": [
+      {
+        "source": "Henle",
+        "physical": 12,
+        "scope": "Op38 source and first comments; previous batch stopped after Op23 section"
+      }
+    ],
+    "actual_full_page_views": 14,
+    "actual_detail_views": [
+      {
+        "source": "PWM",
+        "physical": 3,
+        "box_pt": [
+          310,
+          305,
+          560,
+          340
+        ],
+        "topic": "Op52m191 dotted16+32 equals realized triplet8+16"
+      },
+      {
+        "source": "PWM",
+        "physical": 8,
+        "box_pt": [
+          307,
+          117,
+          561,
+          223
+        ],
+        "topic": "Op47tenor ownership and widened printed staff spacing"
+      },
+      {
+        "source": "Henle",
+        "physical": 17,
+        "box_pt": [
+          399,
+          65,
+          590,
+          325
+        ],
+        "topic": "Op52 rhythmic variants"
+      }
+    ],
+    "cumulative_English_scope_pages_read": 20,
+    "cumulative_English_scope_pages_planned": 20,
+    "remaining_unread_German_pages": 8,
+    "R12_R13_actual_video_audio_subtitle_read": false,
+    "new_fixed_resource_completions": 0,
+    "native_CLI_calls": 0
+  },
+  "previous_evidence": "ballade_editorial_context_evidence.json",
+  "sources": [
+    {
+      "url": "https://serwer1374796.home.pl/wp-content/uploads/2013/05/ballades_commentaries.pdf",
+      "product": "https://www.chopin-nationaledition.com/en/product/test/",
+      "local_path": "tmp/engraving/ballade-editorial-context-2026-10-31/PWM-ballades-commentaries.pdf",
+      "bytes": 459787,
+      "sha256": "bdc657447c3cc6e8fb69942dc96cd0d65a04229c35eb7feff057dfa124b422a2",
+      "sha256_now": "bdc657447c3cc6e8fb69942dc96cd0d65a04229c35eb7feff057dfa124b422a2",
+      "total_PDF_pages": 11,
+      "previous_pages": [
+        1,
+        4,
+        5
+      ],
+      "new_pages": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "cumulative_English_scope_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "whole_PDF_read": true,
+      "language_scope": "all11pages"
+    },
+    {
+      "url": "https://www.henle.de/media/ce/9d/79/1697725615/0862-1697725615-sync.pdf",
+      "product": "https://www.henle.de/de/Balladen/HN-862",
+      "local_path": "tmp/engraving/ballade-editorial-context-2026-10-31/Henle-HN862-comments.pdf",
+      "bytes": 972836,
+      "sha256": "d3ca22174d4f5b5088c791a563c60d086c586b6a007d23c72fbbc50241b3e283",
+      "sha256_now": "d3ca22174d4f5b5088c791a563c60d086c586b6a007d23c72fbbc50241b3e283",
+      "total_PDF_pages": 17,
+      "previous_pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "new_pages": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "cumulative_English_scope_pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "whole_PDF_read": false,
+      "language_scope": "English section physical9–17; German1–8 unread"
+    }
+  ],
+  "observations": [
+    {
+      "key": "marking_ownership_after_staff_separation",
+      "PWM_physical": 8,
+      "PWM_printed": 9,
+      "Henle_physical": 14,
+      "Henle_printed": 70,
+      "bars": "Op47m109–112,150–153",
+      "source_claim": "PWM editor connects larger printed staff gap with unclear tenor accent/diminuendo scope; pupil copies add accents or slurs. Henle discusses tenor emphasis and differing student-copy markings.",
+      "inference": "Recheck ownership after spacing or moving markings, even without collision.",
+      "limit": "Source-based editorial explanation, not independently established composer quotation; no choice of pending m97 author role."
+    },
+    {
+      "key": "written_rhythm_and_contextual_realization",
+      "PWM_physical": 3,
+      "PWM_printed": 4,
+      "Henle_physical": 17,
+      "Henle_printed": 73,
+      "bars": "PWM Op52m191sqq; Henle m192–195,197,211,213",
+      "source_observation": "PWM equation left dotted16+32, right triplet8+16, verified beam layers in detail view.",
+      "independent_arithmetic": {
+        "quarter_unit": 1,
+        "written": [
+          "3/8",
+          "1/8"
+        ],
+        "realized": [
+          "1/3",
+          "1/6"
+        ],
+        "total": "1/2",
+        "ratios": [
+          "3:1",
+          "2:1"
+        ]
+      },
+      "limit": "Scoped interpretive advice; no whole-score swing preset or new native playback claim."
+    },
+    {
+      "key": "sustain_separate_from_hand_and_pedal_motion",
+      "PWM_physical": [
+        2,
+        3
+      ],
+      "PWM_printed": [
+        3,
+        4
+      ],
+      "bars": "Op47m9–10; Op52m1,m134cadenza",
+      "source_claim": "Bass/harmonic legato can be kept by holding fingers or appropriate pedal handling while other harmony changes.",
+      "application": "Preserve previously confirmed user m132 A-octave sostenuto intent. No new user preference or controller/release inference."
+    },
+    {
+      "key": "wedge_interpretation",
+      "Henle_physical": 16,
+      "Henle_printed": 72,
+      "bars": "Op52m125f.l,127f.l",
+      "source_claim": "The local wedge is interpreted as a long accent on a held note.",
+      "application": "Interpret musical function from local voice and context, not glyph outline or HairPin object type alone."
+    }
+  ],
+  "access_observations": {
+    "R12_browser": "Created IAB target tab5; creation timed out; inventory confirmed exact target URL with error-page title. No video/audio frame received.",
+    "R10_existing_tab": "Existing IAB tab4 binding timed out; preserved, no score image read.",
+    "other_user_tabs": "Chrome inventory seen only; not selected or operated.",
+    "new_temp_tab_close_verified": false,
+    "anonymous_official_caption_results": [
+      {
+        "bvid": "BV1k34y1B7Jc",
+        "video_read": false,
+        "audio_read": false,
+        "subtitle_text_read": false,
+        "view": {
+          "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1k34y1B7Jc",
+          "status": 200,
+          "sha256": "6731716a36fae265ad8a4e2ad0eef980ddb9050d71ecc6acbd744151eb9ce708"
+        },
+        "view_code": 0,
+        "aid": 808178992,
+        "cid": 485501140,
+        "title": "[Musescore 3.6]五线谱页面，加小节加页，使用入门",
+        "owner": "萌象的J哥",
+        "public_player": {
+          "url": "https://api.bilibili.com/x/player/v2?aid=808178992&cid=485501140",
+          "status": 200,
+          "sha256": "5c272c3bb590c8e7b4d63a2342ffdd7199f25f42078ab480d772cd585e8b7761"
+        },
+        "player_code": 0,
+        "player_message": "OK",
+        "public_subtitle_tracks": [],
+        "public_subtitle_metadata_keys": [
+          "allow_submit",
+          "lan",
+          "lan_doc",
+          "subtitles",
+          "subtitle_position",
+          "font_size_type"
+        ]
+      },
+      {
+        "bvid": "BV19r4y177GY",
+        "video_read": false,
+        "audio_read": false,
+        "subtitle_text_read": false,
+        "view": {
+          "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV19r4y177GY",
+          "status": 200,
+          "sha256": "618510ffcc1ff6e1acd7cef931f86a09b51975c4c2e35df98414543da906e4cc"
+        },
+        "view_code": 0,
+        "aid": 770733163,
+        "cid": 768087505,
+        "title": "[Musescore3.6]为已有乐器，增加声部，钢琴五线谱谱表排版",
+        "owner": "萌象的J哥",
+        "public_player": {
+          "url": "https://api.bilibili.com/x/player/v2?aid=770733163&cid=768087505",
+          "status": 200,
+          "sha256": "630c26af80b4ffbe1a5a28016c43cdeadd4dae9c1935dd21618821570419f5b8"
+        },
+        "player_code": 0,
+        "player_message": "OK",
+        "public_subtitle_tracks": [],
+        "public_subtitle_metadata_keys": [
+          "allow_submit",
+          "lan",
+          "lan_doc",
+          "subtitles",
+          "subtitle_position",
+          "font_size_type"
+        ]
+      }
+    ],
+    "credentials_or_media_downloads": false,
+    "followup": "Optional local-file path question sent once; pending. Do not retry same failing browser/caption path unchanged."
+  },
+  "coverage": {
+    "new_official_scores": 0,
+    "new_official_pages": 0,
+    "new_Gould_pages": 0,
+    "new_Gould_reread_pages": 0,
+    "new_fixed_resource_completions": 0,
+    "resources": [
+      16,
+      25
+    ],
+    "remaining": 9,
+    "R07_status": "partial",
+    "R07_target_engraving_read": false,
+    "exact_legacy_full_scores_read": [
+      0,
+      2
+    ],
+    "new_unique_supplemental_pages": 13,
+    "new_reread_full_page_views": 1,
+    "new_total_full_page_views": 14,
+    "new_detail_views": 3,
+    "cumulative_English_commentary_scope": [
+      20,
+      20
+    ],
+    "total_PDF_pages": 28,
+    "German_pages_unread_outside_English_scope": 8,
+    "new_native_calls": 0,
+    "new_skill_evaluation_scenarios": 0,
+    "new_user_adoptions": 0
+  },
+  "protected_sources": [
+    {
+      "id": "mscz",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "original_unchanged": true,
+      "sha256_now": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "id": "pdf",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "original_unchanged": true,
+      "sha256_now": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "id": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "original_unchanged": true,
+      "sha256_now": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "cache": {
+    "private_root": "tmp/engraving/ballade-performance-followup-2026-10-31",
+    "final_private_bytes": 5517,
+    "budget_bytes": 65536,
+    "files": [
+      {
+        "path": "check-public-captions.py",
+        "bytes": 1405,
+        "sha256": "10ae5dca75840eaeb4721c95645b171f4dc3e4c5a09d0c0ae9e7d4c3e2f580fe"
+      },
+      {
+        "path": "public-caption-access.json",
+        "bytes": 2008,
+        "sha256": "be0fa1a54bde97000247e03caa9b3c0f5233acecdc0ad248b5e89dfc105671e7"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 2104,
+        "sha256": "7fbd7e542f9c46a62a108ee6bf7ca9d745fc7f6107b5473cfea247b424181408"
+      }
+    ],
+    "new_reference_commentary_PDFs": 0,
+    "new_raster_files": 0,
+    "new_user_original_copies": 0,
+    "new_runtime_copies": 0,
+    "new_video_downloads": 0,
+    "files_deleted": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3265331200
+  },
+  "fixed_0_24_tag_must_remain": "d2d9bfe18e61462dba5f27de835acb9ede52339a",
+  "software_adaptation_changes": 0,
+  "validation": {
+    "status": "pass",
+    "progress_check": "pass",
+    "skill_quick_validate": "pass",
+    "library_regressions": {
+      "passed": 6,
+      "total": 6
+    },
+    "all_topic_routes": [
+      20,
+      20
+    ],
+    "targeted_queries": [
+      {
+        "topic": "spacing",
+        "query": "谱表 距离 归属",
+        "new_case_rank": 1,
+        "limit": 3
+      },
+      {
+        "topic": "rhythm",
+        "query": "附点十六分 三十二分",
+        "new_case_rank": 1,
+        "limit": 3
+      }
+    ],
+    "private_files_checked": 3,
+    "local_markdown_links_checked": 720,
+    "coverage_completion_counters_unchanged": true,
+    "preferences_unchanged": true,
+    "fixed_0_24_tag_unchanged": true,
+    "actual_source_scope_not_replaced": true,
+    "diff_check": "pass"
+  },
+  "cross_case_application": {
+    "reference": "INTEGRATED_READING_BOY_BLUMENKRANZ.md",
+    "scope": "Same dotted16+32 ->triplet8+16 relation already studied in BOY. Reused contextual method, not new corpus reading or native transfer result."
+  }
+}

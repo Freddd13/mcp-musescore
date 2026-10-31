@@ -1,6 +1,6 @@
 # 钢琴净书skill：使用、关联与更新
 
-0.24之后工作分支已补[版本语境判断](engraving/BALLADE_EDITORIAL_CONTEXT.md)，可查`--topic sources --query "括号 版本 编辑"`。两份评论的指定部分已读，R07原目标仍partial；直接按项目现有skill路径使用，固定0.24标签保留原快照。
+0.24之后工作分支已补[版本语境](engraving/BALLADE_EDITORIAL_CONTEXT.md)及[留白／演奏实现判断](engraving/BALLADE_PERFORMANCE_CONTEXT.md)，可查`--topic spacing --query "谱表 距离 归属"`或`--topic rhythm --query "附点十六分 三十二分"`。相关英文评论20/20页已读，R07原目标仍partial；直接按项目现有skill路径使用，固定0.24标签保留原快照。
 
 当前可用研究版为**[0.24.0／engraving-v0.24.0](ENGRAVING_RELEASES.md)**。新增[完整组梁](engraving/TUPLET_REST_SCOPE_STUDY.md)与[m97实曲平衡迁移](engraving/M97_GROUP_BOUNDARY_TRANSFER.md)，可查`--topic beams --query "m97 最短干 平衡"`或`--topic cross-staff --query "首休止 完整 六连"`。当前候选可比较，作者渐强作用层与审美采用待答；资料16/25余9、20入口保持。关联安装更新项目，复制安装同步同版skill和库，无需重配MCP。
 

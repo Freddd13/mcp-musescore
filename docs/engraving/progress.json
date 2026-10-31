@@ -2883,12 +2883,14 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "key_kick_closeout_evidence.json",
-        "remaining": "Target Legatissimo engraving/video not viewed; exact1976Henle and1997PWM full scores not collated0/2. Related official current-family commentary Op23sections2/2 and7/7pageviews read separately; documented version conventions and editorial divergence do not complete target.",
+        "remaining": "Target Legatissimo engraving/video not viewed; exact1976Henle and1997PWM full scores not collated0/2. Related current-family commentaries English scope20/20pages read separately (PWM1–11,Henle9–17); German8pages outside scope unread. Does not complete R07.",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV1wwH5esEBt/",
         "metadata_identity_verified": true,
         "editorial_context_evidence": "ballade_editorial_context_evidence.json",
-        "editorial_context_note": "BALLADE_EDITORIAL_CONTEXT.md"
+        "editorial_context_note": "BALLADE_EDITORIAL_CONTEXT.md",
+        "performance_context_note": "BALLADE_PERFORMANCE_CONTEXT.md",
+        "performance_context_evidence": "ballade_performance_context_evidence.json"
       },
       {
         "id": "R08",
@@ -2940,7 +2942,9 @@
         "canonical_url": "https://www.bilibili.com/video/BV1k34y1B7Jc/",
         "metadata_identity_verified": true,
         "access_followup_evidence": "m97_direction_feedback_evidence.json",
-        "access_note": "Matched title/owner/body description and30s preview prompt in actual DOM; no screenshot or audio received. Remains video-unread, no completion."
+        "access_note": "Matched title/owner/body description and30s preview prompt in actual DOM; no screenshot or audio received. Remains video-unread, no completion.",
+        "latest_access_followup_evidence": "ballade_performance_context_evidence.json",
+        "latest_access_note": "Anonymous official view/player endpoints200code0; no public subtitle tracks returned. Video/audio/subtitle body unread. R12newbrowsererrorpage; stop same-path retries unchanged."
       },
       {
         "id": "R13",
@@ -2949,7 +2953,9 @@
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV19r4y177GY/",
         "metadata_identity_verified": true,
-        "scope_note": "Metadata says adding low staff/part to existing single staff; actual staff-versus-voice1–4 operations not viewed."
+        "scope_note": "Metadata says adding low staff/part to existing single staff; actual staff-versus-voice1–4 operations not viewed.",
+        "latest_access_followup_evidence": "ballade_performance_context_evidence.json",
+        "latest_access_note": "Anonymous official view/player endpoints200code0; no public subtitle tracks returned. Video/audio/subtitle body unread. R12newbrowsererrorpage; stop same-path retries unchanged."
       },
       {
         "id": "R14",
@@ -3200,11 +3206,11 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.24固定m97方向反馈、含首休止完整梁六版原创研究、实曲干长平衡迁移；六原创输入一图，20入口。完整实曲比较候选1/1，渐强作用层及审美采用待答；资料16/25余9，无适配。 Working branch adds related official Op23 editorial-context reading7/7views; fixed0.24tag unchanged and R07 stayspartial."
+    "working_branch_note": "0.24固定m97方向反馈、含首休止完整梁原创研究与实曲平衡迁移；20入口。工作分支补版本语境及相关英文评论累计20/20页，固定标签不变。R07原目标partial、资料16/25余9、无适配。"
   },
   "last_study_batch": {
     "date": "2026-10-31",
-    "scope": "R07关联编辑语境：两份官方评论的指定Op23部分2/2、完整视图7/7页，另三近图。理解版本约定、真实编辑分歧与对齐解释；目标净书成品及所声明旧版主谱仍未读。",
+    "scope": "四首叙事曲相关英文评论续读：13新整页＋1复看＋3近图，累计20/20英文范围页；分清表距与归属、书面节奏／演奏实现及持续方式。R12／R13匿名字幕为空，视频未读；固定资源完成数保持。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3223,11 +3229,14 @@
     "new_native_diagnostic_conditions": 0,
     "new_user_integrated_rounds": 0,
     "native_CLI_calls": 0,
-    "supplemental_commentary_full_page_views": 7,
+    "supplemental_commentary_new_unique_pages": 13,
+    "supplemental_commentary_reread_page_views": 1,
+    "supplemental_commentary_full_page_views": 14,
+    "supplemental_commentary_detail_views": 3,
     "notes": [
-      "BALLADE_EDITORIAL_CONTEXT.md"
+      "BALLADE_PERFORMANCE_CONTEXT.md"
     ],
-    "review_evidence": "ballade_editorial_context_evidence.json",
+    "review_evidence": "ballade_performance_context_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3466,23 +3475,27 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "BALLADE_EDITORIAL_CONTEXT.md",
-    "evidence": "ballade_editorial_context_evidence.json",
-    "official_commentaries": [
+    "reference": "BALLADE_PERFORMANCE_CONTEXT.md",
+    "evidence": "ballade_performance_context_evidence.json",
+    "reused_official_commentaries": [
       2,
       2
     ],
-    "targeted_full_page_views": [
-      7,
-      7
+    "new_unique_full_pages": 13,
+    "reread_full_page_views": 1,
+    "actual_new_full_page_views": 14,
+    "new_detail_views": 3,
+    "cumulative_English_scope_pages": [
+      20,
+      20
     ],
     "total_PDF_pages": 28,
-    "PDF_pages_outside_target_scope": 21,
+    "German_pages_unread_outside_English_scope": 8,
     "source_PDFs": [
-      "PWM current-linked Ballades commentaries",
-      "Henle HN862 current comments"
+      "PWM current-linked Ballades commentaries: physical1–11 complete",
+      "Henle HN862 English section physical9–17 complete; German1–8 unread"
     ],
-    "scope": "Read relevant English Op23 editorial principles/performance/source sections; Henle final sentence crosses physical11->12. Current-family documents distinct from1976HN295/1997PWM4927. R07 target engraving unread; no resource completion.",
+    "scope": "Completed related English comments for all four Ballades, not the main score/target engraving. Printed staff spacing and tenor ownership, localized long-short realization, sustained bass techniques and long accent interpretation. Separate from1976HN295/1997PWM4927 target.",
     "new_fixed_resource_completions": 0,
     "new_Gould_coverage": 0,
     "exact_legacy_full_scores_read": [
@@ -3651,7 +3664,9 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15：正确目标身份现已可核，继续实际谱面／讲解。R10拾廿七UID已核、本人材料待取得；R09官方独立版本不能替代目标。读取下一项可正常取得的完整内容，不反复循环失败路径。 R07 now has current-family official commentary sections2/2 and7/7pageviews; exact legacy file access gated, target engraving unread. Do not repeat gate or replace target with these documents."
+    "scope": "余9项R07–R15。R12错误页／R10已有页绑定超时，R12／R13官方匿名字幕列表为空；同一路径无变化不再重试。已询问可读本地文件，回复待到。先继续可得真实谱例及已读材料的跨情境应用；相关四首叙事曲英文评论20/20范围闭合，不代替R07原成品和旧版主谱。",
+    "pending_local_file_path_question": true,
+    "unchanged_access_path_retries_planned": 0
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -3735,6 +3750,32 @@
       "new_coverage_pages": 0,
       "new_fixed_resource_completions": 0,
       "scope": "完整图文复读，省括号条件、两向最短干平衡、发夹作用层与斜穿条件；直接改变实曲候选，不以容器猜作者意图。"
+    },
+    {
+      "reference": "BALLADE_EDITORIAL_CONTEXT.md",
+      "evidence": "ballade_editorial_context_evidence.json",
+      "official_commentaries": [
+        2,
+        2
+      ],
+      "targeted_full_page_views": [
+        7,
+        7
+      ],
+      "total_PDF_pages": 28,
+      "PDF_pages_outside_target_scope": 21,
+      "source_PDFs": [
+        "PWM current-linked Ballades commentaries",
+        "Henle HN862 current comments"
+      ],
+      "scope": "Read relevant English Op23 editorial principles/performance/source sections; Henle final sentence crosses physical11->12. Current-family documents distinct from1976HN295/1997PWM4927. R07 target engraving unread; no resource completion.",
+      "new_fixed_resource_completions": 0,
+      "new_Gould_coverage": 0,
+      "exact_legacy_full_scores_read": [
+        0,
+        2
+      ],
+      "R07_target_engraving_read": false
     }
   ],
   "latest_source_identity_review": {
