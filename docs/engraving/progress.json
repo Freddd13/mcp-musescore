@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope_revision": 1,
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "goal_status": "active",
   "goal": "理解全部新官谱及已有资料的排版理由，形成可迁移判断、持续可用的知识库与skill；后续自动净书适配本阶段不做。",
   "counting_policy": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
@@ -3206,11 +3206,11 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.24固定m97方向反馈、含首休止完整梁原创研究与实曲平衡迁移；20入口。工作分支补版本语境及相关英文评论累计20/20页，固定标签不变。R07原目标partial、资料16/25余9、无适配。"
+    "working_branch_note": "0.24固定既有m97方向／组梁／实曲平衡研究；工作分支另有英文评论20/20页及长动态文字3/3条件、1/1重载，三原创输入一图可用。固定标签不变，20入口；资料16/25余9，无适配。"
   },
   "last_study_batch": {
-    "date": "2026-10-31",
-    "scope": "四首叙事曲相关英文评论续读：13新整页＋1复看＋3近图，累计20/20英文范围页；分清表距与归属、书面节奏／演奏实现及持续方式。R12／R13匿名字幕为空，视频未读；固定资源完成数保持。",
+    "date": "2026-11-01",
+    "scope": "A137长动态文字：完整页／两行复看、Gould106–107两页复读、五篇Dorico6.2正文；原创3/3条件、1/1保存重载、15次CLI。铺词与完整短语的收益分别解释，无原官谱替代或用户偏好增量。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3220,48 +3220,45 @@
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 0,
+    "book_reread_pages": 2,
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 0,
+    "new_native_candidate_scenarios": 1,
+    "new_original_native_conditions": 3,
     "new_native_diagnostic_conditions": 0,
     "new_user_integrated_rounds": 0,
-    "native_CLI_calls": 0,
-    "supplemental_commentary_new_unique_pages": 13,
-    "supplemental_commentary_reread_page_views": 1,
-    "supplemental_commentary_full_page_views": 14,
-    "supplemental_commentary_detail_views": 3,
+    "native_CLI_calls": 15,
+    "valid_final_native_calls": 13,
+    "input_probe_native_calls": 2,
+    "official_full_page_rereads": 1,
+    "official_detail_views": 1,
+    "supplemental_primary_web_bodies_read": 5,
+    "supplemental_primary_figures_viewed": 0,
     "notes": [
-      "BALLADE_PERFORMANCE_CONTEXT.md"
+      "LONG_DYNAMIC_TEXT_STUDY.md"
     ],
-    "review_evidence": "ballade_performance_context_evidence.json",
+    "review_evidence": "long_dynamic_text_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "M97_GROUP_BOUNDARY_TRANSFER.md",
-    "evidence": "m97_group_boundary_evidence.json",
-    "completed_conditions": 4,
-    "planned_conditions": 4,
-    "intermediate_versions": 3,
-    "final_comparison_candidates": [
-      1,
-      1
-    ],
+    "reference": "LONG_DYNAMIC_TEXT_STUDY.md",
+    "evidence": "long_dynamic_text_evidence.json",
+    "completed_conditions": 3,
+    "planned_conditions": 3,
     "saved_reloaded_versions": [
-      2,
-      2
-    ],
-    "native_CLI_calls": 16,
-    "description": "完整组梁＋普通尾音分梁迁移实曲，保B4上表及C5括号；首版尾梁入谱线、数字不跟手调梁、v3最短干失衡均保存。v4六连两向最短干3.995sp，尾组浅斜，音乐／3203记录／完整MIDI保持，最终八页原生重载相同像素。分梁与浅尾梁有阅读代价，作者作用层／视觉采用待答。",
-    "new_conditions": 4,
-    "reused_conditions": 0,
-    "user_preference_confirmed": false,
-    "real_m97_successor_candidates": [
       1,
       1
     ],
+    "native_CLI_calls": 15,
+    "valid_final_native_calls": 13,
+    "input_probe_native_calls": 2,
+    "new_conditions": 3,
+    "reused_conditions": 0,
+    "description": "六小节原创钢琴例，完整dim. poco a poco与续行(dim.)在180/90mm比较；本例优先比较提醒版，未认定铺词不合规范。72条音符记录及完整MIDI保持；默认continueText省写仍实际显示，重载非逐像素相同。原A137未生成替代，用户采用未核。",
+    "user_preference_confirmed": false,
+    "user_real_score_candidate": false,
     "software_adaptation_changes": 0
   },
   "native_study_history": [
@@ -3460,6 +3457,31 @@
         0,
         1
       ]
+    },
+    {
+      "reference": "M97_GROUP_BOUNDARY_TRANSFER.md",
+      "evidence": "m97_group_boundary_evidence.json",
+      "completed_conditions": 4,
+      "planned_conditions": 4,
+      "intermediate_versions": 3,
+      "final_comparison_candidates": [
+        1,
+        1
+      ],
+      "saved_reloaded_versions": [
+        2,
+        2
+      ],
+      "native_CLI_calls": 16,
+      "description": "完整组梁＋普通尾音分梁迁移实曲，保B4上表及C5括号；首版尾梁入谱线、数字不跟手调梁、v3最短干失衡均保存。v4六连两向最短干3.995sp，尾组浅斜，音乐／3203记录／完整MIDI保持，最终八页原生重载相同像素。分梁与浅尾梁有阅读代价，作者作用层／视觉采用待答。",
+      "new_conditions": 4,
+      "reused_conditions": 0,
+      "user_preference_confirmed": false,
+      "real_m97_successor_candidates": [
+        1,
+        1
+      ],
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
@@ -3475,34 +3497,26 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "BALLADE_PERFORMANCE_CONTEXT.md",
-    "evidence": "ballade_performance_context_evidence.json",
-    "reused_official_commentaries": [
-      2,
-      2
+    "reference": "LONG_DYNAMIC_TEXT_STUDY.md",
+    "evidence": "long_dynamic_text_evidence.json",
+    "Gould_full_printed_page_rereads": [
+      106,
+      107
     ],
-    "new_unique_full_pages": 13,
-    "reread_full_page_views": 1,
-    "actual_new_full_page_views": 14,
-    "new_detail_views": 3,
-    "cumulative_English_scope_pages": [
-      20,
-      20
-    ],
-    "total_PDF_pages": 28,
-    "German_pages_unread_outside_English_scope": 8,
-    "source_PDFs": [
-      "PWM current-linked Ballades commentaries: physical1–11 complete",
-      "Henle HN862 English section physical9–17 complete; German1–8 unread"
-    ],
-    "scope": "Completed related English comments for all four Ballades, not the main score/target engraving. Printed staff spacing and tenor ownership, localized long-short realization, sustained bass techniques and long accent interpretation. Separate from1976HN295/1997PWM4927 target.",
-    "new_fixed_resource_completions": 0,
     "new_Gould_coverage": 0,
-    "exact_legacy_full_scores_read": [
-      0,
-      2
+    "official_full_page_rereads": [
+      {
+        "id": "A137",
+        "physical": 6
+      }
     ],
-    "R07_target_engraving_read": false
+    "official_detail_views": 1,
+    "targeted_primary_web_bodies_read": 5,
+    "targeted_distinct_images_viewed": 0,
+    "targeted_image_fetch_failures": 4,
+    "Dorico_runtime": false,
+    "new_fixed_resource_completions": 0,
+    "scope": "长动态文本的表达方式、范围、poco a poco、间距及声部条件；规范与软件策略分清，四张图片未取得，正文阅读不算图片已读。"
   },
   "judgment_review_history": [
     {
@@ -3666,7 +3680,8 @@
     },
     "scope": "余9项R07–R15。R12错误页／R10已有页绑定超时，R12／R13官方匿名字幕列表为空；同一路径无变化不再重试。已询问可读本地文件，回复待到。先继续可得真实谱例及已读材料的跨情境应用；相关四首叙事曲英文评论20/20范围闭合，不代替R07原成品和旧版主谱。",
     "pending_local_file_path_question": true,
-    "unchanged_access_path_retries_planned": 0
+    "unchanged_access_path_retries_planned": 0,
+    "latest_available_supplement": "LONG_DYNAMIC_TEXT_STUDY.md: actual A137 context, Gould2rereads and5Dorico6.2bodies applied; not replacement of remaining9fixed targets."
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -3769,6 +3784,36 @@
         "Henle HN862 current comments"
       ],
       "scope": "Read relevant English Op23 editorial principles/performance/source sections; Henle final sentence crosses physical11->12. Current-family documents distinct from1976HN295/1997PWM4927. R07 target engraving unread; no resource completion.",
+      "new_fixed_resource_completions": 0,
+      "new_Gould_coverage": 0,
+      "exact_legacy_full_scores_read": [
+        0,
+        2
+      ],
+      "R07_target_engraving_read": false
+    },
+    {
+      "reference": "BALLADE_PERFORMANCE_CONTEXT.md",
+      "evidence": "ballade_performance_context_evidence.json",
+      "reused_official_commentaries": [
+        2,
+        2
+      ],
+      "new_unique_full_pages": 13,
+      "reread_full_page_views": 1,
+      "actual_new_full_page_views": 14,
+      "new_detail_views": 3,
+      "cumulative_English_scope_pages": [
+        20,
+        20
+      ],
+      "total_PDF_pages": 28,
+      "German_pages_unread_outside_English_scope": 8,
+      "source_PDFs": [
+        "PWM current-linked Ballades commentaries: physical1–11 complete",
+        "Henle HN862 English section physical9–17 complete; German1–8 unread"
+      ],
+      "scope": "Completed related English comments for all four Ballades, not the main score/target engraving. Printed staff spacing and tenor ownership, localized long-short realization, sustained bass techniques and long accent interpretation. Separate from1976HN295/1997PWM4927 target.",
       "new_fixed_resource_completions": 0,
       "new_Gould_coverage": 0,
       "exact_legacy_full_scores_read": [

@@ -1,0 +1,573 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-31T16:10:25.851Z",
+  "completed_local_date": "2026-11-01",
+  "reference": "LONG_DYNAMIC_TEXT_STUDY.md",
+  "previous_goal_turn": "progress:7fe0513 published official Ballades commentary follow-up; this turn applies long-dynamic reading to an existing real-score gap and new original conditions",
+  "scope": {
+    "date": "2026-10-31",
+    "question": "Can a complete long gradual-dynamic instruction and a continuation reminder remain readable across systems at two widths?",
+    "target_reference": "A137 unlasting p6 L; review only, not a transcription or replacement",
+    "planned_original_conditions": 3,
+    "conditions": [
+      "wide-no-reminder",
+      "wide-reminder",
+      "narrow-reminder"
+    ],
+    "planned_native_save_reload_conditions": 1,
+    "planned_native_calls": 15,
+    "private_budget_bytes": 393216,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3265724416,
+    "new_reference_PDF_copies": 0,
+    "new_runtime_copies": 0,
+    "new_video_downloads": 0,
+    "software_adaptation": false,
+    "initial_input_probe": "Two exports had no gradual spanner because handwritten Hairpin child tag had wrong case. All three initial inputs retained. Corrected final-* inputs use observed native HairPin spelling.",
+    "completed_date": "2026-11-01",
+    "actual_native_calls": 15,
+    "valid_original_conditions_completed": 3,
+    "saved_reloaded_conditions_completed": 1,
+    "source_reading": {
+      "official_reread_pages": [
+        {
+          "id": "A137",
+          "physical": 6
+        }
+      ],
+      "official_detail_views": 1,
+      "Gould_full_printed_rereads": [
+        106,
+        107
+      ],
+      "primary_Dorico_6_2_bodies_read": 5,
+      "primary_Dorico_images_viewed": 0,
+      "primary_Dorico_image_fetch_failures": 4
+    },
+    "no_user_adoption_claim": true
+  },
+  "reading": {
+    "official": {
+      "id": "A137",
+      "physical_full_reread": [
+        6
+      ],
+      "detail_views": 1,
+      "first_read_increment": 0,
+      "target_recreated": false,
+      "reference": "INTEGRATED_READING_UNLASTING.md"
+    },
+    "Gould": {
+      "full_printed_rereads": [
+        106,
+        107
+      ],
+      "full_physical_rereads": [
+        126,
+        127
+      ],
+      "new_coverage_pages": 0
+    },
+    "primary_web": {
+      "product": "Dorico Pro6.2",
+      "complete_bodies_read": [
+        "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_dynamics/notation_reference_dynamics_gradual_c.html",
+        "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_dynamics/notation_reference_dynamics_gradual_appearance_changing_t.html",
+        "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_dynamics/notation_reference_dynamics_gradual_adding_poco_a_poco_text_t.html",
+        "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_dynamics/notation_reference_dynamics_placement_spacing_gradual_c.html",
+        "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_dynamics/notation_reference_dynamics_voice_specific_c.html"
+      ],
+      "figures_viewed": 0,
+      "figure_fetch_failures": 4,
+      "Dorico_runtime": false
+    },
+    "new_fixed_resource_completions": 0
+  },
+  "judgments": {
+    "reference": "Retain A137L as a defensible distribution style; complete phrase plus continuation reminder is a useful conditional candidate. No native replacement of reference.",
+    "fixture": "Prefer comparing B when a continuation reminder helps re-entry; A also readable, Cworks at90mm for this sparse example. No global rewrite rule.",
+    "spacing": "Dorico documented minimum hairpin length can affect note spacing; implementation policy, not a universal3sp rule or tested MuseScore value.",
+    "user_preference_increment": 0,
+    "user_adoption_increment": 0
+  },
+  "host": {
+    "path": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets/bin/MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "build_to_current_source": "unverified",
+    "reused_runtime": true,
+    "checked_before_after_each_export": true,
+    "actual_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25"
+  },
+  "original_fixture": {
+    "license": "CC0-1.0",
+    "reference_music_transcribed": false,
+    "bars": 6,
+    "staves": 2,
+    "time_signature": "4/4",
+    "notes": 18,
+    "upper_pitches": [
+      [
+        72,
+        76
+      ],
+      [
+        74,
+        71
+      ],
+      [
+        72,
+        69
+      ],
+      [
+        71,
+        67
+      ],
+      [
+        69,
+        65
+      ],
+      [
+        67,
+        72
+      ]
+    ],
+    "upper_values": "two halves/bar",
+    "lower_pitches": [
+      48,
+      43,
+      45,
+      41,
+      43,
+      48
+    ],
+    "lower_values": "whole/bar",
+    "gradual": "one HairPin DECRESC_LINE from m1q2 to m5q0 (14quarters)",
+    "conditions": [
+      3,
+      3
+    ],
+    "saved_reloaded": [
+      1,
+      1
+    ],
+    "fonts": {
+      "requested_music": "Leland",
+      "requested_musical_text": "Leland Text",
+      "actual_PDF_fonts": [
+        "Leland",
+        "LelandText",
+        "Edwin-Italic"
+      ],
+      "actual_Latin_dynamic_font": "Edwin-Italic",
+      "Latin_font_is_host_default_not_explicit_in_fixture": true
+    }
+  },
+  "native_validation": {
+    "actual_CLI_calls": 15,
+    "valid_final_comparison_save_reload_calls": 13,
+    "initial_input_probe_calls": 2,
+    "MXL_independent_recipe_records": 72,
+    "wide_music_positions_identical": true,
+    "raw_export_stop": "m4q4 equals m5q0 in absolute quarter time",
+    "MIDI_files_byte_equal": true,
+    "MIDI_summaries": {
+      "final-wide-no-reminder": {
+        "bytes": 464,
+        "sha256": "1a475f564f69e00fc336ae1c95baa3a08a4302fe1efc2a9dc0c466058013016d",
+        "PPQ": 480,
+        "NoteOn": 18,
+        "NoteOff": 18
+      },
+      "final-wide-reminder": {
+        "bytes": 464,
+        "sha256": "1a475f564f69e00fc336ae1c95baa3a08a4302fe1efc2a9dc0c466058013016d",
+        "PPQ": 480,
+        "NoteOn": 18,
+        "NoteOff": 18
+      },
+      "final-narrow-reminder": {
+        "bytes": 464,
+        "sha256": "1a475f564f69e00fc336ae1c95baa3a08a4302fe1efc2a9dc0c466058013016d",
+        "PPQ": 480,
+        "NoteOn": 18,
+        "NoteOff": 18
+      },
+      "saved": {
+        "bytes": 464,
+        "sha256": "1a475f564f69e00fc336ae1c95baa3a08a4302fe1efc2a9dc0c466058013016d",
+        "PPQ": 480,
+        "NoteOn": 18,
+        "NoteOff": 18
+      }
+    },
+    "saved_text_fields": {
+      "beginText_explicit": "dim. poco a poco",
+      "continueText_serialized": null,
+      "effective_continueText_from_reloaded_PDF": "(dim.)",
+      "reason": "Style-default continuation omitted by native writer; actual saved/reloaded output checked."
+    },
+    "reload_pixel_exact": false,
+    "reload_raster_difference": {
+      "different_pixels": 191,
+      "max_RGB_channel_delta": 1,
+      "bbox": [
+        70,
+        121,
+        916,
+        546
+      ]
+    },
+    "reload_vector_check": {
+      "char_count": 54,
+      "line_count": 92,
+      "text_and_object_counts_equal": true,
+      "max_coordinate_delta_pt": 0.00001600000007329072,
+      "scope": "All exported PDF char and line bboxes; PDF has no curve objects. Not pixel-exact."
+    },
+    "not_performed": [
+      "MusicXML reimport",
+      "printing",
+      "live playing",
+      "user adoption"
+    ]
+  },
+  "diagnostics": [
+    {
+      "kind": "initial_input_error",
+      "cause": "Hairpin child tag case incorrect; expected HairPin. Export exited0 but intended spanner absent.",
+      "action": "Retained all3initial inputs and2probeoutputs; corrected final-* variants only used as valid study results."
+    },
+    {
+      "kind": "MusicXML boundary representation",
+      "cause": "Stop direction on m4q4 initially failed local m5q0 assertion.",
+      "action": "Normalize only exact absolute quarter times; raw coordinates retained in audit."
+    },
+    {
+      "kind": "style default and PDF extraction",
+      "cause": "Default continueText omitted on save; PDF word grouper interleaved SMuFL notehead into Latin (dim.).",
+      "action": "Checked actual reload image, effective text; filtered PUA only for Latin text grouping, no PDF or music changes."
+    },
+    {
+      "kind": "reload quantization",
+      "cause": "Page not pixel-exact;191pixels maxRGBdelta1.",
+      "action": "Recorded all54chars/92lines maximum coordinate delta0.000016pt; do not claim pixel identity."
+    }
+  ],
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-no-reminder.mscx",
+      "bytes": 8348,
+      "sha256": "47ee0450af4c18e6bd3a767ff015aea4e98064f6e732ca5462075c7703331644"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-reminder.mscx",
+      "bytes": 8367,
+      "sha256": "51d9755b473598ec378c983284d545f86c97b275e2637bd72eac5936c3588703"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-reminder-90mm.mscx",
+      "bytes": 8368,
+      "sha256": "59d7cd434b666504076dcc47cb8caba1f41ad85adef8e05941f0d9e0e655006f"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-continuation-comparison.png",
+      "bytes": 149755,
+      "sha256": "7a8a43d1494f6c76558924f5d84a75b1d9490ec6559def5f67c98c16b1db8868"
+    }
+  ],
+  "protected_sources": [
+    {
+      "id": "mscz",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "original_unchanged": true,
+      "sha256_now": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "id": "pdf",
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "original_unchanged": true,
+      "sha256_now": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "id": "Gould",
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "original_unchanged": true,
+      "sha256_now": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    },
+    {
+      "id": "A137",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\unlasting - Sword Art Online Alicization War of Underworld - Ending Theme.pdf",
+      "sha256": "ba9876a02a5429c832920d9a14a18ae3a313a27018f24c3b741fbd0ba30827c9",
+      "sha256_now": "ba9876a02a5429c832920d9a14a18ae3a313a27018f24c3b741fbd0ba30827c9"
+    }
+  ],
+  "cache": {
+    "private_root": "tmp/engraving/long-dynamic-text-2026-10-31",
+    "final_private_bytes": 290795,
+    "budget_bytes": 393216,
+    "files": [
+      {
+        "path": "audit.json",
+        "bytes": 33495,
+        "sha256": "76f3907152e80bc9bf14c1e07e0c5ce38decd38a314573b84a05708bd54f22d0"
+      },
+      {
+        "path": "audit.py",
+        "bytes": 8461,
+        "sha256": "4e6c02fdd7aa4513ed5fcb18df22535bffa453eba6b2cff03ee8479a86ecc950"
+      },
+      {
+        "path": "batch.py",
+        "bytes": 571,
+        "sha256": "5f1b8b2e8a658e23c84b113e6d33255d6f7ae498bc2e39a4f76aa961e5c6a023"
+      },
+      {
+        "path": "build.py",
+        "bytes": 3693,
+        "sha256": "1d4c7aff0ae06ad5f216cda6b41116063fe3378ac4227609da21b6244ed4895b"
+      },
+      {
+        "path": "config/workspaces/global/menubar.xml",
+        "bytes": 10757,
+        "sha256": "ed16e6c8c724f9a925a2792277280075ee8e38edcad7fabae9081a9967a1d524"
+      },
+      {
+        "path": "final-narrow-reminder-mid-call.json",
+        "bytes": 1042,
+        "sha256": "695bb8b51889789fdc5d66bed3420e5a291fbc33e3f3f60770a357acc310f489"
+      },
+      {
+        "path": "final-narrow-reminder-mxl-call.json",
+        "bytes": 1042,
+        "sha256": "a46d5a42cb4bab40b1aeea691f852ffe5a0e961230242b172ac47bf201608670"
+      },
+      {
+        "path": "final-narrow-reminder-pdf-call.json",
+        "bytes": 1042,
+        "sha256": "66fcae60d12555abf2c16a47d2653bca6af857aa873779385f890326191021f1"
+      },
+      {
+        "path": "final-narrow-reminder.mid",
+        "bytes": 464,
+        "sha256": "1a475f564f69e00fc336ae1c95baa3a08a4302fe1efc2a9dc0c466058013016d"
+      },
+      {
+        "path": "final-narrow-reminder.mscx",
+        "bytes": 8368,
+        "sha256": "59d7cd434b666504076dcc47cb8caba1f41ad85adef8e05941f0d9e0e655006f"
+      },
+      {
+        "path": "final-narrow-reminder.mxl",
+        "bytes": 2341,
+        "sha256": "4e4be65d6e24321319a8876106120f838be3db733f75ae885049cf06c6295622"
+      },
+      {
+        "path": "final-narrow-reminder.pdf",
+        "bytes": 21934,
+        "sha256": "01970cd835b95bdd3d33c94ae5c12fc92d4871c13d68de9609eee574a45b5311"
+      },
+      {
+        "path": "final-wide-no-reminder-mid-call.json",
+        "bytes": 1045,
+        "sha256": "854133896452c876e990e831c91a041e9e33f6736668f04784b92ecedf808c0e"
+      },
+      {
+        "path": "final-wide-no-reminder-mxl-call.json",
+        "bytes": 1047,
+        "sha256": "252de25a0913166ef2578627ba267333545c6ee5826798f867c49c4ebba8f1e7"
+      },
+      {
+        "path": "final-wide-no-reminder-pdf-call.json",
+        "bytes": 1047,
+        "sha256": "7a1e524293c93742d6dd85f65ec0dbb2bba895be94e457ffce46b2b8175179c0"
+      },
+      {
+        "path": "final-wide-no-reminder.mid",
+        "bytes": 464,
+        "sha256": "1a475f564f69e00fc336ae1c95baa3a08a4302fe1efc2a9dc0c466058013016d"
+      },
+      {
+        "path": "final-wide-no-reminder.mscx",
+        "bytes": 8348,
+        "sha256": "47ee0450af4c18e6bd3a767ff015aea4e98064f6e732ca5462075c7703331644"
+      },
+      {
+        "path": "final-wide-no-reminder.mxl",
+        "bytes": 2349,
+        "sha256": "7822f2b156a5a0c2a2be539c1b6d1a6a8f806804dca600dd0c0fac98487288d4"
+      },
+      {
+        "path": "final-wide-no-reminder.pdf",
+        "bytes": 21709,
+        "sha256": "7d471b6210c3f6b48f9caca19c4f890bb41f606e49ad038df4e8724f228cfdd3"
+      },
+      {
+        "path": "final-wide-reminder-mid-call.json",
+        "bytes": 1032,
+        "sha256": "6b8d3ff28bb2a9b750f3326c3689d121f12429299914e8ce1c7b1372a4bcea4f"
+      },
+      {
+        "path": "final-wide-reminder-mscx-call.json",
+        "bytes": 1007,
+        "sha256": "9bd60b74573e906bbe72cd3c2a694ef9892f4748ec1ea094b6eaf491ea685c77"
+      },
+      {
+        "path": "final-wide-reminder-mxl-call.json",
+        "bytes": 1032,
+        "sha256": "90fef7ffbdb78475561cc7062af9e7a5cc7c10b2806b1f086359760f155ff74b"
+      },
+      {
+        "path": "final-wide-reminder-pdf-call.json",
+        "bytes": 1032,
+        "sha256": "aadb55f12aa01c7e8205a3d3141510d579c823b218405b2614d00544d50834b3"
+      },
+      {
+        "path": "final-wide-reminder.mid",
+        "bytes": 464,
+        "sha256": "1a475f564f69e00fc336ae1c95baa3a08a4302fe1efc2a9dc0c466058013016d"
+      },
+      {
+        "path": "final-wide-reminder.mscx",
+        "bytes": 8367,
+        "sha256": "51d9755b473598ec378c983284d545f86c97b275e2637bd72eac5936c3588703"
+      },
+      {
+        "path": "final-wide-reminder.mxl",
+        "bytes": 2342,
+        "sha256": "c9cf629338f6f56efc17646853a58c0f28f2ca913ef70366ae64d93a8e42956b"
+      },
+      {
+        "path": "final-wide-reminder.pdf",
+        "bytes": 21922,
+        "sha256": "ef26683093d73708e3025d3e3098f704d61e00da6ac860e76a3e805430a6fab2"
+      },
+      {
+        "path": "narrow-reminder.mscx",
+        "bytes": 8368,
+        "sha256": "fc5ed78d72d28d4d5fa6b2166d47c135a28a8a30fda0327b7754b0ffe40ff2a6"
+      },
+      {
+        "path": "run.py",
+        "bytes": 1526,
+        "sha256": "cd9146f01b112da483106f7e00e605109102f1513157583f338aeade1b5e3665"
+      },
+      {
+        "path": "saved-mid-call.json",
+        "bytes": 962,
+        "sha256": "195bfcdc813f0e6359925a159fe4f26e176e670fca120087fe013508eafba456"
+      },
+      {
+        "path": "saved-mxl-call.json",
+        "bytes": 962,
+        "sha256": "bdcdec89932a7169dc19d43271c52c8ce5d42b204d65da386580ae049b24b5c3"
+      },
+      {
+        "path": "saved-pdf-call.json",
+        "bytes": 962,
+        "sha256": "3556cead5be110972245c3d4b928514c63ffbda87a7fc3da71a9cc1b01898081"
+      },
+      {
+        "path": "saved.mid",
+        "bytes": 464,
+        "sha256": "1a475f564f69e00fc336ae1c95baa3a08a4302fe1efc2a9dc0c466058013016d"
+      },
+      {
+        "path": "saved.mscx",
+        "bytes": 8244,
+        "sha256": "c5d4fbae7dd5d128223de65ba0460489f571549cc76fb16181bd5171a1a1cd8b"
+      },
+      {
+        "path": "saved.mxl",
+        "bytes": 2303,
+        "sha256": "a9f68da73cdef0393841518526f4884e9c766aa5f34b99f2a7f7e13875a22eb6"
+      },
+      {
+        "path": "saved.pdf",
+        "bytes": 21906,
+        "sha256": "a91fa8fc064f0bae21c73c180e52c55a1df6387ea91ec3ae0d6d50140329baca"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 1451,
+        "sha256": "b7a68358c60e948271bcd9a3fdb2daded30c8d31832fff475b91c8820df21cef"
+      },
+      {
+        "path": "wide-no-reminder.mscx",
+        "bytes": 8348,
+        "sha256": "0d1ee537f4ffba9de39de01f72e7c148e7db00dba544a081f1b454d399f0265b"
+      },
+      {
+        "path": "wide-reminder-1.svg",
+        "bytes": 38032,
+        "sha256": "bb3983212f50d4b669b312e5caca0de09d86fe4caed15ad4829bd0b7cc824026"
+      },
+      {
+        "path": "wide-reminder-pdf-call.json",
+        "bytes": 1158,
+        "sha256": "8ef384b292db6b46053ce6c17a3c67c3acef9b63a2c0ecc974cb7cd75cbc497f"
+      },
+      {
+        "path": "wide-reminder-svg-call.json",
+        "bytes": 1158,
+        "sha256": "3ca2b3cc93b844b4f6c9a3c66b3e2590e824bf2bb12c7efc852e17976439b4ce"
+      },
+      {
+        "path": "wide-reminder.mscx",
+        "bytes": 8367,
+        "sha256": "eb90a81b31c91c3c1d33500b2fc60029efca8f6017e037565ed92c3b89990c58"
+      },
+      {
+        "path": "wide-reminder.pdf",
+        "bytes": 20167,
+        "sha256": "6adf828f871dec9a374ccb43950c98af3c2ca7e1e1a78e627964ecba76f8069f"
+      }
+    ],
+    "new_reference_PDF_copies": 0,
+    "new_user_original_copies": 0,
+    "new_runtime_copies": 0,
+    "new_video_downloads": 0,
+    "files_deleted": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3265724416
+  },
+  "fixed_0_24_tag_must_remain": "d2d9bfe18e61462dba5f27de835acb9ede52339a",
+  "software_adaptation_changes": 0,
+  "validation": {
+    "status": "pass",
+    "progress_check": "pass",
+    "skill_quick_validate": "pass",
+    "library_regressions": {
+      "passed": 6,
+      "total": 6
+    },
+    "all_topic_routes": [
+      20,
+      20
+    ],
+    "queries": [
+      {
+        "topic": "markings",
+        "query": "完整 短语 续行",
+        "new_case_rank": 1,
+        "limit": 3
+      },
+      {
+        "topic": "spacing",
+        "query": "发夹 最小 长度",
+        "new_case_rank": 1,
+        "limit": 3
+      }
+    ],
+    "private_files_checked": 43,
+    "published_inputs_match_validated_sources": 3,
+    "local_markdown_links_checked": 528,
+    "coverage_completion_counters_unchanged": true,
+    "preferences_unchanged": true,
+    "fixed_0_24_tag_unchanged": true,
+    "diff_check": "pass",
+    "software_adaptation_changes": 0
+  }
+}

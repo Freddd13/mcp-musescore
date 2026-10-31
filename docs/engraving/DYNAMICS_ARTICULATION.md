@@ -1,5 +1,7 @@
 # 力度与奏法：通道可以连续，归属必须贴音
 
+2026-11-01[长文字与续行](LONG_DYNAMIC_TEXT_STUDY.md)补3/3原创条件、1/1重载。保《unlasting》沿长过程铺词的解释，完整短语＋(dim.)是有条件候选；不能把几词或两行拆成数个音乐变化。90mm本稀疏例仍可读，密集原谱另核；没有原谱替代或用户采用。
+
 2026-10-31[m97方向反馈](M97_DIRECTION_FEEDBACK.md#hairpin-channel)补p323的双干梁条件：斜穿谱表且至少一端留外，可让发夹避开运行符干。原音型／六连保持的局部候选将六交点降为0，另核断奏净空；用户观感待答。谱线交叉按本例条件判断；原六连范围仍待改。
 
 2026-10-26[Blumenkranz再现](INTEGRATED_READING_BOY_BLUMENKRANZ.md#4-blumenkranz同一动机返回为什么不能恢复同一套短奏法)：J接收前行持续，长低音tie与上层释放不同于without Pedal开头，不能按相似音型补回全套点／休止。D旁实际是tenuto横线与短slur，旧记“相邻点”已纠正；non legato与局部短slur亦可并存。

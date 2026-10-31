@@ -83,6 +83,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 实曲的组界／干长联动，经`beams`／`cross-staff`查`M97_GROUP_BOUNDARY_TRANSFER.md`：重新检查全部梁层和谱线，按实际最短干平衡两向比例，再复查数字与休止；保存／音乐通过后仍可能有明显比例问题。当前平衡版保原显示分配，分梁与浅尾梁代价另列。发夹的源voice不证明作者作用层，未确认时保护原控制并保留音乐含义问题。
 
+长动态文字经`markings`／`layout`查`LONG_DYNAMIC_TEXT_STUDY.md`：先保完整指令、作用层和起止，再比较铺词、起点写全及续行提醒；多词／多行不自动变成多次力度。短发夹和文字也可能参与横向预算，软件最小值不能直接当规范。
+
 涉及MusicXML导回时，经`beams`／`notation`查`BEAM_EXCHANGE_CLEF_STUDY.md`：逻辑归属、显示staffMove、逐音干向和逐层梁断口分别核；合并后的起音相同仍可能改变轨道、释放与读法。原生副本候选和格式转换各记验证范围。
 
 ## 积累经验

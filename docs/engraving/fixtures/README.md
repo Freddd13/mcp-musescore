@@ -355,3 +355,13 @@ MuseScore3Evo.exe -s -m -c <已有独立配置目录> -r 180 -o <新目录>/widt
 - [六条件图](tuplet-rest-scope-comparison.png)：180dpi原生SVG合白底、同一物理比例／裁框，标签位于音乐外，F不拉宽；未移动单个绘图符号。
 
 [研究](../TUPLET_REST_SCOPE_STUDY.md)与[证据](../tuplet_rest_scope_evidence.json)：24次CLI，六版84条音休止配方及完整MIDI、重载14条／68图元已核。完整组界有收益，分梁也失去整串连续主梁；休止短符干的不同出版体例另列。没有m97实曲迁移、MusicXML导回、打印或用户采用。
+
+
+## 长动态文字与续行提醒
+
+2026-11-01独立原创CC0六小节钢琴例，18音，固定Leland／Leland Text、1.57mm谱间；同一渐弱从m1q2到m5q0，跨两系统。
+
+- [180mm完整短语，无提醒](dynamic-text-no-reminder.mscx)、[180mm带(dim.)提醒](dynamic-text-reminder.mscx)、[90mm同提醒](dynamic-text-reminder-90mm.mscx)。
+- [原生同框图](dynamic-text-continuation-comparison.png)：180dpi原生PDF、全部两行，同物理比例；90mm版未拉宽，标签在音乐外，无参考谱图片。
+
+[判断](../LONG_DYNAMIC_TEXT_STUDY.md)及[证据](../long_dynamic_text_evidence.json)：15次CLI含2次错误大小写输入探针及13次有效比较／保存重载；72条独立音符配方及四份完整MIDI保持。重载54字符／92线最大坐标差约0.000016pt，144dpi有191像素最大RGB差1，不称逐像素相同。无官谱转录／替代、MusicXML导回、打印或用户采用。
