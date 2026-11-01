@@ -91,6 +91,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 `AETHER_NATIVE_RECONSTRUCTION.md`补四处原生检查：新预算已近匀时保默认，5＋3分行不可代替原七小节预算。变音必要性结合调号和谱位，不能只凭cautionary标志；共享符头可以对应两个声部时值，先保护结构再调整间距。
 
+`AETHER_M33_BUDGET.md`把源密度比较推进到1/4：固定小节线宽和首末预算，保符号必要格，联合重分自由格；同时读回低部与力度。最小占位和弹性伸展分开判断，声明width或导出成功不证明真实预算成立。
+
 ## 需要候选时
 
 本项目提供的用户原PDF／MSCZ保持只读，使用独立副本或原创fixture，不操作当前GUI来做离线试验。其它工程按用户实际授权处理；分析请求不隐含覆盖源文件。详细原生比较方法见[references/native-review.md](references/native-review.md)。

@@ -1,0 +1,1118 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "AETHER_M33_BUDGET.md",
+  "scope": {
+    "date": "2026-11-02",
+    "planned_target_measures": [
+      33
+    ],
+    "source_budget_target_completed_before": [
+      0,
+      4
+    ],
+    "planned_final_conditions": 2,
+    "planned_reload": 1,
+    "private_budget_bytes": 2097152,
+    "runtime_copies": 0,
+    "original_sources_read_only": true,
+    "software_or_font_development": false,
+    "previous_goal_turn": {
+      "classification": "progress",
+      "commit": "a5c0cae18e7e98556f3355602868588ffbe09bf7",
+      "reason": "Corrected m31 accidental role; eight-bar private reconstruction and four native checks; no source-density comparison yet."
+    },
+    "final_conditions": [
+      3,
+      3
+    ],
+    "saved_reload": [
+      2,
+      2
+    ],
+    "scope_change": "Added joint candidate after measured valid width; preserve two original planned comparisons as baseline/no-shapes diagnostic. Reload both baseline and joint.",
+    "initial_planned_conditions_retained": 2,
+    "source_budget_scope": "One mid-system bar width/first/last target under Leland; not full publisher layout or font match."
+  },
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "a5c0cae18e7e98556f3355602868588ffbe09bf7",
+    "reason": "Corrected m31 accidental role; eight-bar private reconstruction and four native checks; no source-density comparison yet."
+  },
+  "native": {
+    "readbacks": [
+      {
+        "name": "budget-default",
+        "notes": 24,
+        "rests": 1,
+        "key_fifths": 4,
+        "meter": "6/8",
+        "ties_and_endpoints": 1,
+        "tenutos": 2,
+        "dynamic_marks": [
+          "mp",
+          "mf"
+        ]
+      },
+      {
+        "name": "budget-joint1",
+        "notes": 24,
+        "rests": 1,
+        "key_fifths": 4,
+        "meter": "6/8",
+        "ties_and_endpoints": 1,
+        "tenutos": 2,
+        "dynamic_marks": [
+          "mp",
+          "mf"
+        ]
+      },
+      {
+        "name": "budget-no-shapes",
+        "notes": 24,
+        "rests": 1,
+        "key_fifths": 4,
+        "meter": "6/8",
+        "ties_and_endpoints": 1,
+        "tenutos": 2,
+        "dynamic_marks": [
+          "mp",
+          "mf"
+        ]
+      },
+      {
+        "name": "budget-default-reload",
+        "notes": 24,
+        "rests": 1,
+        "key_fifths": 4,
+        "meter": "6/8",
+        "ties_and_endpoints": 1,
+        "tenutos": 2,
+        "dynamic_marks": [
+          "mp",
+          "mf"
+        ]
+      },
+      {
+        "name": "budget-joint1-reload",
+        "notes": 24,
+        "rests": 1,
+        "key_fifths": 4,
+        "meter": "6/8",
+        "ties_and_endpoints": 1,
+        "tenutos": 2,
+        "dynamic_marks": [
+          "mp",
+          "mf"
+        ]
+      }
+    ],
+    "diagnostic_readbacks": [
+      {
+        "name": "isolated-default",
+        "notes": 24,
+        "rests": 1,
+        "key_fifths": 4,
+        "meter": "6/8",
+        "ties_and_endpoints": 1,
+        "tenutos": 2,
+        "dynamic_marks": [
+          "mp",
+          "mf"
+        ]
+      },
+      {
+        "name": "isolated-upper",
+        "notes": 24,
+        "rests": 1,
+        "key_fifths": 4,
+        "meter": "6/8",
+        "ties_and_endpoints": 1,
+        "tenutos": 2,
+        "dynamic_marks": [
+          "mp",
+          "mf"
+        ]
+      }
+    ],
+    "outer_shape_probes": {
+      "isolated-default": {
+        "anchor_x_sp": [
+          2.85,
+          5.2490000000000006,
+          7.449,
+          10.581999999999999,
+          12.782,
+          14.982
+        ],
+        "gaps_sp": [
+          2.3990000000000005,
+          2.1999999999999993,
+          3.132999999999999,
+          2.200000000000001,
+          2.1999999999999993
+        ]
+      },
+      "isolated-upper": {
+        "anchor_x_sp": [
+          2.85,
+          5.05,
+          7.249,
+          10.383,
+          12.581999999999999,
+          14.782
+        ],
+        "gaps_sp": [
+          2.1999999999999997,
+          2.199,
+          3.1339999999999995,
+          2.199,
+          2.200000000000001
+        ]
+      },
+      "norm2-default": {
+        "anchor_x_sp": [
+          1.59,
+          4.05,
+          6.509,
+          9.643,
+          12.102,
+          14.562000000000001
+        ],
+        "gaps_sp": [
+          2.46,
+          2.4590000000000005,
+          3.1340000000000003,
+          2.4589999999999996,
+          2.460000000000001
+        ]
+      },
+      "norm2-upper": {
+        "anchor_x_sp": [
+          1.59,
+          4.05,
+          6.509,
+          9.643,
+          12.102,
+          14.562000000000001
+        ],
+        "gaps_sp": [
+          2.46,
+          2.4590000000000005,
+          3.1340000000000003,
+          2.4589999999999996,
+          2.460000000000001
+        ]
+      }
+    },
+    "final_conditions": [
+      3,
+      3
+    ],
+    "native_calls": 39,
+    "final_native_calls": 18,
+    "input_probe_calls": 21,
+    "reloads": [
+      {
+        "name": "budget-default",
+        "exact_except_title": false,
+        "max_serialized_numeric_delta_svg": 0.00100000000009004,
+        "changed_elements": 49
+      },
+      {
+        "name": "budget-joint1",
+        "exact_except_title": false,
+        "max_serialized_numeric_delta_svg": 0.00100000000009004,
+        "changed_elements": 47
+      }
+    ],
+    "saved_reload": [
+      2,
+      2
+    ],
+    "full_MIDI_bytes_equal": true,
+    "MIDI_bytes": 305,
+    "independent_MIDI_attacks": 23,
+    "note_records_per_condition": 24,
+    "rest_records_per_condition": 1,
+    "geometry": [
+      {
+        "name": "budget-default",
+        "sp_svg": 19.488249999999994,
+        "barline_center_width_sp": 17.251523353815767,
+        "staff_width_sp": 17.431529254807387,
+        "right_barline_beyond_staff_sp": -0.09000295049580675,
+        "first_offset_sp": 1.5003912614011001,
+        "last_margin_sp": 2.595512680717872,
+        "fast_span_sp": 13.155619411696795,
+        "gaps_sp": [
+          2.5055610431926945,
+          2.5055097302220566,
+          3.1334265518966564,
+          2.5055610431926945,
+          2.5055610431926945
+        ],
+        "normal_anchor_x_svg": [
+          242.195,
+          291.024,
+          339.852,
+          400.917,
+          449.746,
+          498.575
+        ],
+        "natural_box_svg": [
+          375.899,
+          401.63434,
+          389.2240957264,
+          452.1453378632
+        ],
+        "preceding_head_box_svg": [
+          339.852,
+          455.6528138632,
+          365.18665999999996,
+          476.31030586319997
+        ],
+        "natural_horizontal_box_gap_sp": 0.5496819878644846,
+        "natural_vertical_box_gap_sp": 0.1799790129950097,
+        "shared_mid_bass_anchor_difference_sp": 0.0,
+        "all_note_records": 24,
+        "first_bar_head_boxes": [
+          [
+            242.195,
+            699.2548138632001,
+            267.52966,
+            719.9123058632
+          ],
+          [
+            400.917,
+            660.2788138632001,
+            426.25165999999996,
+            680.9363058632
+          ],
+          [
+            242.195,
+            436.1648138632,
+            267.52966,
+            456.8223058632
+          ],
+          [
+            242.195,
+            406.9318138632,
+            267.52966,
+            427.58930586319997
+          ],
+          [
+            291.024,
+            455.6528138632,
+            316.35866,
+            476.31030586319997
+          ],
+          [
+            339.852,
+            455.6528138632,
+            365.18665999999996,
+            476.31030586319997
+          ],
+          [
+            400.917,
+            436.1648138632,
+            426.25165999999996,
+            456.8223058632
+          ],
+          [
+            400.917,
+            416.6768138632,
+            426.25165999999996,
+            437.3343058632
+          ],
+          [
+            449.746,
+            455.6528138632,
+            475.08065999999997,
+            476.31030586319997
+          ],
+          [
+            498.575,
+            455.6528138632,
+            523.90966,
+            476.31030586319997
+          ],
+          [
+            242.195,
+            387.4438138632,
+            267.52966,
+            408.10130586319997
+          ]
+        ],
+        "barline_right_svg": 549.157,
+        "dynamic_boxes_svg": [
+          [
+            226.297,
+            538.526,
+            283.75,
+            573.276
+          ],
+          [
+            384.519,
+            714.211,
+            443.05,
+            764.695
+          ]
+        ],
+        "mf_below_lowerstaff_box_gap_sp": 0.739317280925687,
+        "minimum_stem_center_to_barline_center_sp": 1.555398765923056
+      },
+      {
+        "name": "budget-joint1",
+        "sp_svg": 19.488249999999994,
+        "barline_center_width_sp": 17.251523353815767,
+        "staff_width_sp": 17.431529254807387,
+        "right_barline_beyond_staff_sp": -0.09000295049580675,
+        "first_offset_sp": 1.5003912614011001,
+        "last_margin_sp": 2.250279014277837,
+        "fast_span_sp": 13.500853078136831,
+        "gaps_sp": [
+          2.591612894949523,
+          2.5916128949495203,
+          3.1334265518966564,
+          2.5915615819788855,
+          2.5926391543622453
+        ],
+        "normal_anchor_x_svg": [
+          242.195,
+          292.701,
+          343.207,
+          404.272,
+          454.777,
+          505.303
+        ],
+        "natural_box_svg": [
+          379.254,
+          401.63434,
+          392.5790957264,
+          452.1453378632
+        ],
+        "preceding_head_box_svg": [
+          343.207,
+          455.6528138632,
+          368.54166,
+          476.31030586319997
+        ],
+        "natural_horizontal_box_gap_sp": 0.5496819878644846,
+        "natural_vertical_box_gap_sp": 0.1799790129950097,
+        "shared_mid_bass_anchor_difference_sp": 0.0,
+        "all_note_records": 24,
+        "first_bar_head_boxes": [
+          [
+            242.195,
+            699.2548138632001,
+            267.52966,
+            719.9123058632
+          ],
+          [
+            404.272,
+            660.2788138632001,
+            429.60666,
+            680.9363058632
+          ],
+          [
+            242.195,
+            436.1648138632,
+            267.52966,
+            456.8223058632
+          ],
+          [
+            242.195,
+            406.9318138632,
+            267.52966,
+            427.58930586319997
+          ],
+          [
+            292.701,
+            455.6528138632,
+            318.03566,
+            476.31030586319997
+          ],
+          [
+            343.207,
+            455.6528138632,
+            368.54166,
+            476.31030586319997
+          ],
+          [
+            404.272,
+            436.1648138632,
+            429.60666,
+            456.8223058632
+          ],
+          [
+            404.272,
+            416.6768138632,
+            429.60666,
+            437.3343058632
+          ],
+          [
+            454.777,
+            455.6528138632,
+            480.11166,
+            476.31030586319997
+          ],
+          [
+            505.303,
+            455.6528138632,
+            530.63766,
+            476.31030586319997
+          ],
+          [
+            242.195,
+            387.4438138632,
+            267.52966,
+            408.10130586319997
+          ]
+        ],
+        "barline_right_svg": 549.157,
+        "dynamic_boxes_svg": [
+          [
+            226.297,
+            538.526,
+            283.75,
+            573.276
+          ],
+          [
+            387.873,
+            710.307,
+            446.405,
+            760.791
+          ]
+        ],
+        "mf_below_lowerstaff_box_gap_sp": 0.5389914435621476,
+        "minimum_stem_center_to_barline_center_sp": 1.555398765923056
+      },
+      {
+        "name": "budget-no-shapes",
+        "sp_svg": 19.488249999999994,
+        "barline_center_width_sp": 17.251523353815767,
+        "staff_width_sp": 17.431529254807387,
+        "right_barline_beyond_staff_sp": -0.09000295049580675,
+        "first_offset_sp": 1.3303913896835273,
+        "last_margin_sp": 2.7285159006067787,
+        "fast_span_sp": 13.192616063525461,
+        "gaps_sp": [
+          2.638512950110966,
+          2.638512950110963,
+          2.638564263081601,
+          2.638512950110966,
+          2.638512950110966
+        ],
+        "normal_anchor_x_svg": [
+          238.882,
+          290.302,
+          341.722,
+          393.143,
+          444.563,
+          495.983
+        ],
+        "natural_box_svg": [
+          368.125,
+          401.63434,
+          381.4500957264,
+          452.1453378632
+        ],
+        "preceding_head_box_svg": [
+          341.722,
+          455.6528138632,
+          367.05665999999997,
+          476.31030586319997
+        ],
+        "natural_horizontal_box_gap_sp": 0.054819699049429016,
+        "natural_vertical_box_gap_sp": 0.1799790129950097,
+        "shared_mid_bass_anchor_difference_sp": 0.0,
+        "all_note_records": 24,
+        "first_bar_head_boxes": [
+          [
+            238.882,
+            699.2548138632001,
+            264.21666,
+            719.9123058632
+          ],
+          [
+            393.143,
+            660.2788138632001,
+            418.47765999999996,
+            680.9363058632
+          ],
+          [
+            238.882,
+            436.1648138632,
+            264.21666,
+            456.8223058632
+          ],
+          [
+            238.882,
+            406.9318138632,
+            264.21666,
+            427.58930586319997
+          ],
+          [
+            290.302,
+            455.6528138632,
+            315.63666,
+            476.31030586319997
+          ],
+          [
+            341.722,
+            455.6528138632,
+            367.05665999999997,
+            476.31030586319997
+          ],
+          [
+            393.143,
+            436.1648138632,
+            418.47765999999996,
+            456.8223058632
+          ],
+          [
+            393.143,
+            416.6768138632,
+            418.47765999999996,
+            437.3343058632
+          ],
+          [
+            444.563,
+            455.6528138632,
+            469.89766,
+            476.31030586319997
+          ],
+          [
+            495.983,
+            455.6528138632,
+            521.31766,
+            476.31030586319997
+          ],
+          [
+            238.882,
+            387.4438138632,
+            264.21666,
+            408.10130586319997
+          ]
+        ],
+        "barline_right_svg": 549.157,
+        "dynamic_boxes_svg": [
+          [
+            222.984,
+            538.526,
+            280.437,
+            573.276
+          ],
+          [
+            376.744,
+            714.211,
+            435.276,
+            764.695
+          ]
+        ],
+        "mf_below_lowerstaff_box_gap_sp": 0.739317280925687,
+        "minimum_stem_center_to_barline_center_sp": 1.385398894205483
+      }
+    ],
+    "mf_box_translation_sp": [
+      0.17210370351365495,
+      -0.20032583736353946,
+      0.17215501648428988,
+      -0.20032583736353946
+    ],
+    "mf_vertical_autoplace_change_retained": true,
+    "source_density_contexts": [
+      1,
+      4
+    ],
+    "remaining_source_density_contexts": 3,
+    "protected_sources": 6,
+    "runtime_files_after": 1936,
+    "false_collision_claim_avoided": true,
+    "source_original_or_software_changed": false,
+    "minimum_joint_stem_barline_ink_gap_sp": 1.410439623875925,
+    "measured_stem_width_sp": 0.10980975716136651,
+    "measured_barline_width_sp": 0.1801085269328955
+  },
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "id": "A045",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "pages": 14,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A128",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\The Song of Aether - Short Piano Composition in C# Minor.pdf",
+      "sha256": "51778876e470071763f9e5e7234dba5dd7f13d65ba695252c2b9d6874e40f280",
+      "pages": 2,
+      "unchanged": true
+    }
+  ],
+  "host": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "manifest": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets-manifest.json",
+    "runtime_files_before": 1936,
+    "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-m33-budget-2026-11-02\\native-config"
+  },
+  "normalization": {
+    "source_width_sp": 17.251561909922334,
+    "source_first_offset_sp": 1.5004135674761492,
+    "source_last_margin_sp": 2.2499148235719097,
+    "prior_measured_geometry": {
+      "sp": 19.488249999999994,
+      "borders": [
+        212.955,
+        566.306
+      ],
+      "bar_width_sp": 18.13148948725515,
+      "staff_width_sp": 15.868690108142086,
+      "barline_right_beyond_staff_sp": 2.3528023296088723
+    },
+    "printable_width_compensation_sp": 1.562871801780247,
+    "hidden_header_distance": 1.240413567476149,
+    "note_bar_distance": 1.0399148235719098,
+    "not_a_general_style_preset": true
+  },
+  "final_budget": {
+    "previous_width_sp": 17.251523353815767,
+    "previous_last_margin_sp": 2.7795233538157653,
+    "note_bar_distance": 0.5103062933280542,
+    "source_first_offset_sp": 1.5004135674761492,
+    "source_width_sp": 17.251561909922334,
+    "source_last_margin_sp": 2.2499148235719097,
+    "final_names": [
+      "budget-default",
+      "budget-no-shapes"
+    ]
+  },
+  "joint_targets": {
+    "target_x_sp": [
+      1.59,
+      4.182058379718568,
+      6.7741167594371365,
+      9.907116759437137,
+      12.499175139155707,
+      15.091233518874274
+    ],
+    "protected_native_gap_sp": 3.133,
+    "source_span_sp": 13.501233518874274
+  },
+  "joint_offsets": {
+    "targets": [
+      1.59,
+      4.182058379718568,
+      6.7741167594371365,
+      9.907116759437137,
+      12.499175139155707,
+      15.091233518874274
+    ],
+    "input_x": [
+      1.59,
+      4.096,
+      6.601999999999999,
+      9.735,
+      12.241,
+      14.746
+    ],
+    "correction": [
+      0.0,
+      0.08605837971856811,
+      0.1721167594371371,
+      0.172116759437138,
+      0.258175139155707,
+      0.34523351887427367
+    ],
+    "changed_events": [
+      [
+        "1",
+        0,
+        "0",
+        0.0
+      ],
+      [
+        "1",
+        1,
+        "0",
+        0.0
+      ],
+      [
+        "1",
+        1,
+        "1/2",
+        0.08605837971856811
+      ],
+      [
+        "1",
+        1,
+        "1",
+        0.1721167594371371
+      ],
+      [
+        "1",
+        1,
+        "3/2",
+        0.172116759437138
+      ],
+      [
+        "1",
+        1,
+        "2",
+        0.258175139155707
+      ],
+      [
+        "1",
+        1,
+        "5/2",
+        0.34523351887427367
+      ],
+      [
+        "2",
+        0,
+        "0",
+        0.0
+      ],
+      [
+        "2",
+        0,
+        "3/2",
+        0.172116759437138
+      ],
+      [
+        "2",
+        1,
+        "0",
+        0.0
+      ]
+    ]
+  },
+  "private_input_fingerprints": [
+    {
+      "name": "budget-default",
+      "sha256": "0aebd0ba2cdd86bc61795f4df5c9d0fb94b840793d337063ce6317d9162b89d5",
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-m33-budget-2026-11-02\\budget-default.mscx"
+    },
+    {
+      "name": "budget-joint1",
+      "sha256": "133182a8461d0dab518958fde2b12493186b1202e37396bb176a06090e657e70",
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-m33-budget-2026-11-02\\budget-joint1.mscx"
+    },
+    {
+      "name": "budget-no-shapes",
+      "sha256": "7880380424f82ecdff56806d8211933a97a96e5545bff817d01e80add99d0c6b",
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-m33-budget-2026-11-02\\budget-no-shapes.mscx"
+    }
+  ],
+  "source_geometry": {
+    "source_id": "A128",
+    "source_sha256": "51778876e470071763f9e5e7234dba5dd7f13d65ba695252c2b9d6874e40f280",
+    "barline_centers_pt": [
+      363.6237,
+      430.8667
+    ],
+    "spatium_pt": 3.897792,
+    "profile": {
+      "measure": 33,
+      "page": 1,
+      "fast_head_records": 8,
+      "normal_anchor_x_pt": [
+        369.472,
+        382.629,
+        391.521,
+        403.703,
+        413.205,
+        422.097
+      ],
+      "gaps_pt": [
+        13.157000000000039,
+        8.891999999999996,
+        12.18199999999996,
+        9.50200000000001,
+        8.891999999999996
+      ],
+      "first_gap_body_median_ratio": 1.430575187561165,
+      "spatium_pt": 3.897792,
+      "dot_tight_box_pt": [
+        376.7946673613281,
+        712.5330382080078,
+        378.22917663867185,
+        713.9985991210938
+      ],
+      "next_head_tight_box_pt": [
+        382.629,
+        724.8809631958007,
+        387.9616568603516,
+        728.9502609863281
+      ],
+      "dot_next_vertical_box_gap_pt": 10.88236407470697,
+      "dot_next_horizontal_box_gap_pt": 4.399823361328174,
+      "equal_grid_diagnostic_x_pt": [
+        369.472,
+        379.99699999999996,
+        390.522,
+        401.04699999999997,
+        411.572,
+        422.097
+      ],
+      "candidate_not_applied": true,
+      "protected_gap_indices": [
+        2
+      ],
+      "first_interval_head_boxes": [
+        [
+          369.472,
+          715.1359631958007,
+          374.80465686035154,
+          719.2052609863281
+        ],
+        [
+          369.472,
+          720.9826511958008,
+          374.80465686035154,
+          725.0519489863282
+        ]
+      ],
+      "normal_matching_glyph_box_translations_not_independent_charbox_measurements": true,
+      "ledger_centerline_endpoint_gaps_original_pt": [
+        4.872680000000059,
+        0.6090849999999932,
+        0.6090849999999932,
+        3.898144000000059,
+        1.2181699999999296,
+        0.6090849999999932,
+        0.6090849999999932
+      ],
+      "ledger_centerline_endpoint_gaps_candidate_pt": [
+        1.826430000000073,
+        1.827835000000107,
+        1.827835000000107,
+        3.898144000000059,
+        1.826919999999916,
+        1.8278349999999932,
+        1.8278349999999932
+      ],
+      "ledger_gaps_exclude_stroke_thickness": true,
+      "natural": {
+        "source_box": [
+          398.8147255175781,
+          713.7172721557617,
+          401.5590187304687,
+          724.4439948730469
+        ],
+        "preceding_head_box": [
+          391.521,
+          724.8809631958007,
+          396.8536568603516,
+          728.9502609863281
+        ],
+        "vertical_box_gap_pt": 0.4369683227538417,
+        "horizontal_gap_original_pt": 1.9610686572265763,
+        "horizontal_gap_naive_equal_pt": 0.3040686572265372,
+        "horizontal_gap_protected_candidate_pt": 1.9610686572264626,
+        "protected_interval_q": [
+          "1",
+          "3/2"
+        ]
+      },
+      "judgment": "protect natural interval before considering redistribution",
+      "diagnostic_redistribution_x_pt": [
+        369.472,
+        379.58275,
+        389.6935,
+        401.87549999999993,
+        411.9862499999999,
+        422.0969999999999
+      ],
+      "proposed_comparison_x_pt": [
+        369.472,
+        379.58275,
+        389.6935,
+        401.87549999999993,
+        411.9862499999999,
+        422.0969999999999
+      ],
+      "dot_next_horizontal_box_gap_diagnostic_pt": 1.353573361328074
+    }
+  },
+  "Gould": {
+    "full_pages_reread": [
+      {
+        "printed_page": 40,
+        "file_page": 60,
+        "source_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+        "whole_page_rendered": true,
+        "viewed": true
+      },
+      {
+        "printed_page": 42,
+        "file_page": 62,
+        "source_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+        "whole_page_rendered": true,
+        "viewed": true
+      },
+      {
+        "printed_page": 43,
+        "file_page": 63,
+        "source_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+        "whole_page_rendered": true,
+        "viewed": true
+      }
+    ],
+    "text_only_additional_page": 39,
+    "new_unique_pages": 0,
+    "source_read_only": true
+  },
+  "views": [
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-m33-budget-2026-11-02\\comparison-reading.jpg",
+      "sha256": "87bb9ff0bec86ca45682238726bbb33a621dfd15b0b4aa599d2acbe26fc62713",
+      "viewed": true
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-m33-budget-2026-11-02\\context-reading.jpg",
+      "sha256": "238aeb689027058977e3072d6867b19571c77d6208b25daa374a9a8326458032",
+      "viewed": true
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\rumbling-aether-2026-10-30\\A128-p1-s6.jpg",
+      "sha256": "6f2e388889e7d34f48af126817d9f19f5d46f29313840666d6fc0087ac733ec7",
+      "viewed": true
+    }
+  ],
+  "source_code": {
+    "head_observed": "f0c330926aedc7fd4367b237473e1ddb30d0f2d3",
+    "files": [
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\measure.cpp",
+        "sha256": "4a271597c8180ba6978c204fba722241ff85761de2cab528b9bd23924654a8f4",
+        "read_only": true
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\segment.cpp",
+        "sha256": "f978186e6b5216b25058cc282aa9c6641101b1cbe35f674fb78b29f0bb4c57d4",
+        "read_only": true
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\chord.cpp",
+        "sha256": "4bf70cd2b25d0a0415c55afc0229e0550c308926731b5ef0467b96ac2dc0ed65",
+        "read_only": true
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\style.cpp",
+        "sha256": "17b401e6c77e437c09d8558a37457c86e6e9543b8caabde505ec499c00712905",
+        "read_only": true
+      }
+    ],
+    "frozen_exe_same_build_not_proven": true,
+    "changes": 0
+  },
+  "judgment": {
+    "joint_candidate": "locally viable under source bar width,first,last budget; preserve wider natural gap",
+    "default": "retain as baseline; four free gaps already stable",
+    "no_shapes": "not adopted: near-corner natural clearance and shifted first anchor; no ink collision proven",
+    "source_density_contexts": [
+      1,
+      4
+    ],
+    "remaining_measures": [
+      30,
+      31,
+      35
+    ],
+    "full_seven_bar_system_migration": false,
+    "user_preference_confirmed": false,
+    "software_or_font_adaptation": false
+  },
+  "coverage": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "fixed_deep_scores": [
+      24,
+      24
+    ],
+    "fixed_deep_pages": [
+      164,
+      164
+    ],
+    "Gould_file_pages": [
+      696,
+      696
+    ],
+    "resources": [
+      16,
+      25
+    ],
+    "remaining_resources": 9,
+    "new_resource_completions": 0
+  },
+  "checks": {
+    "native": "passed:24notes/1rest,5finalMXL+2probe readbacks,23MIDI attacks,2reloads",
+    "protected": "6/6 passed",
+    "runtime": "1936/1936 passed",
+    "library": "passed:progress.py --check and6/6existing route/retrieval tests",
+    "skill": "passed:quick_validate.py",
+    "query": {
+      "topic": "spacing",
+      "query": "m33 边界 余白 还原",
+      "limit": 2,
+      "returned_files": [
+        "AETHER_M33_BUDGET.md",
+        "AETHER_SPACING_LAYERS.md"
+      ],
+      "not_engraving_accuracy": true
+    },
+    "case_links": "passed",
+    "stem_to_barline_ink": "passed:about1.410sp,above1sp"
+  },
+  "cache": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-m33-budget-2026-11-02",
+    "private_files": 82,
+    "private_bytes_excluding_audit": 1778481,
+    "private_budget_bytes": 2097152,
+    "private_audit_self_excluded": true,
+    "new_downloaded_source_media": 0,
+    "original_PDF_MSCZ_or_runtime_copies": 0,
+    "private_transcriptions": 3,
+    "new_public_score_assets": 0,
+    "reference_images_in_Git": 0,
+    "deletions": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3295608832
+  }
+}
