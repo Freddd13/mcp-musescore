@@ -49,6 +49,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 先核当前作品／版本、乐器及演奏任务；视频／收藏列表须核作品ID、标题和作者，自动跳转后重新确认。同名官方PDF与视频成品分别记录，不用一份补足另一份未读范围。具体反例经`sources`查`SOURCE_IDENTITY_REVIEW.md`；跨乐器套用谱号、弧线或奏法前，经`notation`查`INSTRUMENT_CONTEXT_READING.md`的条件。
 
+视频截取先分音乐视窗与物理页，局部空白不作分页诊断。经`piano`／`spacing`查`BALLADE_POLONAISE_PREVIEW_READING.md`：连续伴奏与独立上层先辨主读节奏和共同时间列，再评间距；段落标记与a tempo可在行中，保准备、到达及实际生效点。
+
 看完整系统和邻近上下文，再近看可疑处。PDF提供可见版面，不提供全部voice、手分配、播放或对象范围；OCR、字符码与外框不能独自证明音乐语义。有工程时补读结构和有效样式，区分未保存字段、实际默认与手动覆盖。
 
 先采用本谱已定义的缩写和作者说明，音乐功能不能由软件对象类型代替。名称、作用范围与播放实现分别查；本谱A八度持续的作者确认见偏好记录，具体边界从上表“作品定义／持音”读取。

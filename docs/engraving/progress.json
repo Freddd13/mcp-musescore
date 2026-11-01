@@ -2883,14 +2883,20 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "key_kick_closeout_evidence.json",
-        "remaining": "Target Legatissimo engraving/video not viewed; exact1976Henle and1997PWM full scores not collated0/2. Related current-family commentaries English scope20/20pages read separately (PWM1–11,Henle9–17); German8pages outside scope unread. Does not complete R07.",
+        "remaining": "目标成品已实际看11/118预览格（含封面），Largo至Moderato及若干织体总览；其余107格／高分辨率细节／完整声音未读。指定1976Henle与1997PWM全谱仍0/2；相关当前英文评论20/20页独立记录。",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV1wwH5esEBt/",
         "metadata_identity_verified": true,
         "editorial_context_evidence": "ballade_editorial_context_evidence.json",
         "editorial_context_note": "BALLADE_EDITORIAL_CONTEXT.md",
         "performance_context_note": "BALLADE_PERFORMANCE_CONTEXT.md",
-        "performance_context_evidence": "ballade_performance_context_evidence.json"
+        "performance_context_evidence": "ballade_performance_context_evidence.json",
+        "preview_note": "BALLADE_POLONAISE_PREVIEW_READING.md",
+        "preview_evidence": "ballade_polonaise_preview_evidence.json",
+        "actual_preview_cells": [
+          11,
+          118
+        ]
       },
       {
         "id": "R08",
@@ -2898,11 +2904,17 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "kura_kuusou_closeout_evidence.json",
-        "remaining": "Correct work ID BV1L6RsBeEwy/title/UID verified. Old playlist query BVID belongs to another work; historical indexed snapshot corrected by resource_identity_evidence.json. Target score/video not viewed.",
+        "remaining": "正确目标已实际看34/82格（含两黑场），预选概览批次30/30；持续低部、连续脉冲与行中入口已分析。其余48格／高分辨率细小记法、完整声音和采谱／制作过程未读；视频视窗未证明物理页布局。",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV1L6RsBeEwy/",
         "metadata_identity_verified": true,
-        "obsolete_wrong_url": "https://www.bilibili.com/video/BV1Ff4y1B7WW/"
+        "obsolete_wrong_url": "https://www.bilibili.com/video/BV1Ff4y1B7WW/",
+        "preview_note": "BALLADE_POLONAISE_PREVIEW_READING.md",
+        "preview_evidence": "ballade_polonaise_preview_evidence.json",
+        "actual_preview_cells": [
+          34,
+          82
+        ]
       },
       {
         "id": "R09",
@@ -3210,41 +3222,47 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.25固定此前版本语境、长文字及R10预览；之后工作分支补R09实际目标总览及编号推断更正。固定标签保留，20入口；资料16/25余9，无新原生或适配。",
+    "working_branch_note": "0.25固定此前版本语境、长文字及R10预览；工作分支补R09编号推断更正与R07/R08实际预览。20入口，资料16/25余9，固定标签保留，无新原生／适配。",
     "evidence": "release_0_25_0_evidence.json"
   },
   "last_study_batch": {
     "date": "2026-11-01",
-    "scope": "R09原目标公开预览：1/1拼图，实看9/32格、辨认5音乐视窗和14主系统总览；复看官方2页，Gould484一页及两个定向手册章节。更正编号推分行的旧理由，保护rubato限定及辅助谱。",
+    "scope": "R07/R08实际公开目标预览：三拼图，R07实看11/118、R08实看34/82格；R08概览预选30/30。保主读节奏／持续与活动层／行中入口；视频视窗不作纸页诊断。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
     "new_all_score_closeout_pages": 0,
-    "new_all_score_closeout_ids": [],
     "new_unique_ledger_book_pages": 0,
     "new_substantive_book_pages": 0,
     "new_reference_table_pages": 0,
     "new_ancillary_book_pages": 0,
-    "book_reread_pages": 1,
+    "book_reread_pages": 0,
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
-    "new_complete_resource_ids": [],
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "new_native_diagnostic_conditions": 0,
     "new_user_integrated_rounds": 0,
     "native_CLI_calls": 0,
-    "public_storyboard_images": 1,
-    "actual_preview_cells_viewed": 9,
-    "preview_time_index_entries": 32,
-    "identified_music_viewports": 5,
-    "main_system_overview": 14,
-    "official_supplement_PDF_pages_reread": 2,
-    "targeted_primary_manual_sections_read": 2,
+    "new_all_score_closeout_ids": [],
+    "new_complete_resource_ids": [],
+    "public_storyboard_images": 3,
+    "actual_preview_cells_viewed": 45,
+    "preview_time_index_entries": 200,
+    "actual_preview_cells_by_target": {
+      "R07": [
+        11,
+        118
+      ],
+      "R08": [
+        34,
+        82
+      ]
+    },
     "notes": [
-      "R09_PREVIEW_COMPARISON.md"
+      "BALLADE_POLONAISE_PREVIEW_READING.md"
     ],
-    "review_evidence": "r09_preview_comparison_evidence.json",
+    "review_evidence": "ballade_polonaise_preview_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3502,27 +3520,34 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "R09_PREVIEW_COMPARISON.md",
-    "evidence": "r09_preview_comparison_evidence.json",
-    "public_storyboard_images": [
-      1,
-      1
-    ],
-    "actual_preview_cells_viewed": 9,
-    "preview_time_index_entries": 32,
-    "music_viewports_identified": 5,
-    "main_system_overview": 14,
-    "official_supplement_full_PDF_pages_reread": [
-      1,
+    "reference": "BALLADE_POLONAISE_PREVIEW_READING.md",
+    "evidence": "ballade_polonaise_preview_evidence.json",
+    "targets": [
+      2,
       2
     ],
-    "Gould_full_printed_page_rereads": [
-      484
+    "public_storyboard_images": [
+      3,
+      3
     ],
-    "targeted_primary_manual_sections_read": 2,
+    "actual_preview_cells": {
+      "R07": [
+        11,
+        118
+      ],
+      "R08": [
+        34,
+        82
+      ]
+    },
+    "R08_selected_overview_batch": [
+      30,
+      30
+    ],
+    "Gould_full_printed_page_rereads": [],
     "new_Gould_coverage": 0,
     "new_fixed_resource_completions": 0,
-    "scope": "Actual original R09 target overview,not high-resolution fullsymbolcollation or watched/audio video. Withdrawbar-number-onlylayout inference;pickup numbering remains explanation to verify against source fields."
+    "scope": "Actual target preview reading,not full video/audio or fine-symbol collation. Main reading pulse, sustained/active layers, middle-row entries and video-window boundary."
   },
   "judgment_review_history": [
     {
@@ -3684,11 +3709,12 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15保持。R09官方匿名预览路径已实际取得480×270格，接下来优先核R07／R08同类公开预览，先判断清晰度再读图，不下载原始视频或以元数据结项。R09细小符号仍需高分辨率；R10具体干预及R11–R15完整操作内容仍待读。旧错误页／空匿名字幕路径无变化不重试。",
+    "scope": "余9项R07–R15保持。R07/R08/R09的匿名公开预览均实际可读；下一批优先补R07未覆盖旋律／快速伴奏／收束段的具体情境，再核R11–R15操作画面清晰度。高分辨率成品／细小符号、声音及R10具体干预仍待核。旧错误页／空匿名字幕路径无变化不重试。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
     "latest_available_supplement": "LONG_DYNAMIC_TEXT_STUDY.md: actual A137 context, Gould2rereads and5Dorico6.2bodies applied; not replacement of remaining9fixed targets.",
-    "official_preview_path_confirmed_for_R09": true
+    "official_preview_path_confirmed_for_R09": true,
+    "official_preview_path_confirmed_for_R07_R08": true
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -3875,6 +3901,29 @@
       "new_Gould_coverage": 0,
       "new_fixed_resource_completions": 0,
       "scope": "Actual publicly offered collaborative score preview; not complete score, not proof of individual reviewer decisions or source software. Six printed full Gould rereads applied to new context, not blind transfer score."
+    },
+    {
+      "reference": "R09_PREVIEW_COMPARISON.md",
+      "evidence": "r09_preview_comparison_evidence.json",
+      "public_storyboard_images": [
+        1,
+        1
+      ],
+      "actual_preview_cells_viewed": 9,
+      "preview_time_index_entries": 32,
+      "music_viewports_identified": 5,
+      "main_system_overview": 14,
+      "official_supplement_full_PDF_pages_reread": [
+        1,
+        2
+      ],
+      "Gould_full_printed_page_rereads": [
+        484
+      ],
+      "targeted_primary_manual_sections_read": 2,
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "Actual original R09 target overview,not high-resolution fullsymbolcollation or watched/audio video. Withdrawbar-number-onlylayout inference;pickup numbering remains explanation to verify against source fields."
     }
   ],
   "latest_source_identity_review": {

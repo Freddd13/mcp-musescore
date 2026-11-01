@@ -1,0 +1,639 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-01T15:38:56.974035+00:00",
+  "reference": "BALLADE_POLONAISE_PREVIEW_READING.md",
+  "previous_goal_turn": "progress:84a3e18 corrected R09 numbering inference; current turn reads actual R07/R08 target previews",
+  "scope": {
+    "date": "2026-11-01",
+    "targets": {
+      "R07": "BV1wwH5esEBt",
+      "R08": "BV1L6RsBeEwy"
+    },
+    "initial_target_count": 2,
+    "private_budget_bytes": 3145728,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3273064448,
+    "raw_video_or_audio_requested": false,
+    "software_adaptation": false,
+    "completed": true,
+    "scope_revision_reason": "可用预览确实显示两系统与多种织体，R08由初始抽查扩为30格概览批次并补4格；R07仅11格抽查，不推成全片或纸谱覆盖。",
+    "actual_unique_cells_viewed": {
+      "R07": [
+        1,
+        2,
+        13,
+        20,
+        30,
+        51,
+        54,
+        63,
+        70,
+        100,
+        116
+      ],
+      "R08": [
+        1,
+        3,
+        5,
+        7,
+        11,
+        13,
+        15,
+        18,
+        21,
+        24,
+        25,
+        27,
+        30,
+        32,
+        35,
+        38,
+        41,
+        45,
+        47,
+        50,
+        51,
+        54,
+        56,
+        58,
+        61,
+        63,
+        66,
+        70,
+        72,
+        75,
+        77,
+        79,
+        80,
+        81
+      ]
+    },
+    "selected_R08_overview_batch_cells": [
+      1,
+      3,
+      5,
+      7,
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30,
+      32,
+      35,
+      38,
+      41,
+      45,
+      47,
+      51,
+      54,
+      56,
+      58,
+      61,
+      63,
+      66,
+      70,
+      72,
+      77,
+      80,
+      81
+    ],
+    "selected_R08_overview_batch": [
+      30,
+      30
+    ],
+    "actual_preview_cells_over_time_index_entries": {
+      "R07": [
+        11,
+        118
+      ],
+      "R08": [
+        34,
+        82
+      ]
+    },
+    "R07_cover_cell": 1,
+    "R08_black_cells": [
+      80,
+      81
+    ],
+    "R08_cell79_reemitted_and_read": true,
+    "new_Gould_pages": 0,
+    "Gould_rereads": 0,
+    "raw_video_watched": false,
+    "audio_read": false,
+    "native_calls": 0,
+    "new_complete_resource_scopes": 0,
+    "resources_remain_partial": [
+      "R07",
+      "R08"
+    ]
+  },
+  "identities": {
+    "R07": {
+      "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1wwH5esEBt",
+      "http": 200,
+      "code": 0,
+      "message": "OK",
+      "sha256": "25d766d929a65806bdc05cdabf46d5adcbfe3616b0df892b2bae7eded80a9bbe",
+      "bvid": "BV1wwH5esEBt",
+      "aid": 113049897796606,
+      "cid": 25654529539,
+      "title": "【钢琴】肖邦/齐默尔曼：g小调第一叙事曲｜Chopin/Zimmerman - Ballade No. 1 in g Minor",
+      "duration": 585,
+      "owner_mid": 372657607
+    },
+    "R08": {
+      "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1L6RsBeEwy",
+      "http": 200,
+      "code": 0,
+      "message": "OK",
+      "sha256": "4ca9cb98520554f2e7c067a7d17ea3bb998e1a151e236d145061d9e8e05a3f50",
+      "bvid": "BV1L6RsBeEwy",
+      "aid": 116526153729992,
+      "cid": 38133894942,
+      "title": "【卡汀-Cateen】角野隼斗 - 幻想波兰舞曲 | Hayato Sumino - Imaginary Polonaise",
+      "duration": 403,
+      "owner_mid": 372657607
+    }
+  },
+  "source_images": [
+    {
+      "resource": "R07",
+      "part": 1,
+      "url": "https://bimp.hdslb.com/videoshotpvhdboss/25654529539_0y1acb-0001.jpg",
+      "credentials_used": false,
+      "raw_video_requested": false,
+      "http": 200,
+      "bytes": 1090029,
+      "format": "JPEG",
+      "size": [
+        4800,
+        2700
+      ],
+      "saved": true,
+      "sha256": "7e4408c48c50c68eff7290044f548c3efbe1c65f2c6d81afcfc5bfae1a592e39"
+    },
+    {
+      "resource": "R08",
+      "part": 1,
+      "url": "https://bimp.hdslb.com/videoshotpvhdboss/38133894942_3eizob-0001.jpg",
+      "credentials_used": false,
+      "raw_video_requested": false,
+      "http": 200,
+      "bytes": 796387,
+      "format": "JPEG",
+      "size": [
+        4800,
+        2700
+      ],
+      "saved": true,
+      "sha256": "3f6805546377d7f592a8474a473b5eeb8c430ed946a95beed407a3d22cf5de92"
+    },
+    {
+      "resource": "R07",
+      "part": 2,
+      "url": "https://bimp.hdslb.com/videoshotpvhdboss/25654529539_0y1acb-0002.jpg",
+      "credentials_used": false,
+      "raw_video_requested": false,
+      "http": 200,
+      "bytes": 269154,
+      "format": "JPEG",
+      "size": [
+        4800,
+        2700
+      ],
+      "saved": true,
+      "sha256": "46644dd3f867f5520ab8d58df1aa2b3890b189cbdf53e7706b1e43fd0e243923"
+    }
+  ],
+  "time_index_metadata": {
+    "url": "https://boss.hdslb.com/videoshotpvhdboss/38133894942_3eizob.bin",
+    "kind": "exact advertised public preview time-index metadata,not video",
+    "credentials_used": false,
+    "http": 200,
+    "bytes": 164,
+    "sha256": "277ed63f6b0f7e235bc5ec18962d8cb68f818548dc9fec90f89953326aba309b",
+    "first16bytes_hex": "000000000005000a000f00140019001e",
+    "interpretation": "Observed unsigned16big-endian seconds,accepted only if monotonic0..duration+5",
+    "plausible": true,
+    "index": [
+      0,
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40,
+      45,
+      50,
+      55,
+      60,
+      65,
+      70,
+      75,
+      80,
+      85,
+      90,
+      95,
+      100,
+      105,
+      110,
+      115,
+      120,
+      125,
+      130,
+      135,
+      140,
+      145,
+      150,
+      155,
+      160,
+      165,
+      170,
+      175,
+      180,
+      185,
+      190,
+      195,
+      200,
+      205,
+      210,
+      215,
+      220,
+      225,
+      230,
+      235,
+      240,
+      245,
+      250,
+      255,
+      260,
+      265,
+      270,
+      275,
+      280,
+      285,
+      290,
+      295,
+      300,
+      305,
+      310,
+      315,
+      320,
+      325,
+      330,
+      335,
+      340,
+      345,
+      350,
+      355,
+      360,
+      365,
+      370,
+      375,
+      380,
+      385,
+      390,
+      395,
+      400
+    ],
+    "first_values": [
+      0,
+      0,
+      5,
+      10,
+      15,
+      20,
+      25,
+      30,
+      35,
+      40
+    ]
+  },
+  "actual_reading": {
+    "R07": {
+      "cells": [
+        1,
+        2,
+        13,
+        20,
+        30,
+        51,
+        54,
+        63,
+        70,
+        100,
+        116
+      ],
+      "times_s": [
+        0,
+        5,
+        60,
+        95,
+        145,
+        250,
+        265,
+        310,
+        345,
+        495,
+        575
+      ],
+      "viewed_count": 11,
+      "time_index_entries": 118,
+      "high_resolution_full_symbol_collation": false,
+      "video_or_audio_read": false
+    },
+    "R08": {
+      "cells": [
+        1,
+        3,
+        5,
+        7,
+        11,
+        13,
+        15,
+        18,
+        21,
+        24,
+        25,
+        27,
+        30,
+        32,
+        35,
+        38,
+        41,
+        45,
+        47,
+        50,
+        51,
+        54,
+        56,
+        58,
+        61,
+        63,
+        66,
+        70,
+        72,
+        75,
+        77,
+        79,
+        80,
+        81
+      ],
+      "times_s": [
+        0,
+        10,
+        20,
+        30,
+        50,
+        60,
+        70,
+        85,
+        100,
+        115,
+        120,
+        130,
+        145,
+        155,
+        170,
+        185,
+        200,
+        220,
+        230,
+        245,
+        250,
+        265,
+        275,
+        285,
+        300,
+        310,
+        325,
+        345,
+        355,
+        370,
+        380,
+        390,
+        395,
+        400
+      ],
+      "viewed_count": 34,
+      "time_index_entries": 82,
+      "high_resolution_full_symbol_collation": false,
+      "video_or_audio_read": false
+    }
+  },
+  "judgments": [
+    {
+      "id": "R08-active-pulse",
+      "cells": [
+        47,
+        51
+      ],
+      "decision": "保留两层；先辨主读节奏和共同时间列，再判断空间异常。",
+      "exception": "主导层随织体改变；不能固定左手或全体音头等距。"
+    },
+    {
+      "id": "R08-sustained-background",
+      "cells": [
+        24,
+        63
+      ],
+      "decision": "保持续低部与活动上层，先校通道和归属。",
+      "exception": "具体持键／踏板动作未由预览补出。"
+    },
+    {
+      "id": "R08-middle-row-entry",
+      "cells": [
+        15
+      ],
+      "decision": "保准备至强奏的邻接，不仅因排练标记强制换行。",
+      "exception": "标记挤压、整行预算或物理翻页可改变决定。"
+    },
+    {
+      "id": "R08-restore-point",
+      "cells": [
+        51
+      ],
+      "decision": "a tempo保在实际恢复位置。",
+      "exception": "逐音作用点仍待清晰源，不能盲吸行首。"
+    },
+    {
+      "id": "R07-Largo-Moderato",
+      "cells": [
+        2
+      ],
+      "decision": "保收束和新段同系统的衔接。",
+      "exception": "原缩图不证明唯一最优，确切旧版校勘仍0/2。"
+    },
+    {
+      "id": "video-window-not-paper-page",
+      "cells": [
+        27,
+        30,
+        79,
+        80,
+        81
+      ],
+      "decision": "130秒的单系统视窗留白不触发纸谱分页诊断。",
+      "exception": "要完整物理页及前后页才评系统数／翻页；末段未核全部结束符号。"
+    }
+  ],
+  "unread": [
+    "R07其余107时间格及高分辨率细节",
+    "R07指定1976Henle／1997PWM全谱0/2",
+    "R08其余48时间格及高分辨率成品／细小记法",
+    "两项完整视频与声音、可编辑源／具体人工过程"
+  ],
+  "RGB_clustering": "Scheduling only; 49 R07 and41 R08 representatives do not prove all indexed cells viewed or tiny symbol changes absent.",
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    }
+  ],
+  "resources": {
+    "complete": 16,
+    "planned": 25,
+    "remaining": 9,
+    "new_completions": 0,
+    "R07": "partial",
+    "R08": "partial"
+  },
+  "native_calls": 0,
+  "software_adaptation": false,
+  "new_user_preferences": 0,
+  "cache": {
+    "directory": "tmp/engraving/ballade-polonaise-previews-2026-11-01",
+    "files": [
+      {
+        "path": "audit.py",
+        "bytes": 3029,
+        "sha256": "11fd41169d09fdd3087328fe0249f62894d84fe3c6b3ba7edaea7a92bc88103b"
+      },
+      {
+        "path": "cluster.py",
+        "bytes": 1519,
+        "sha256": "6fe93a820ba93593819809d8fc7589c2a59b094d032426743ade5f4d0cad1892"
+      },
+      {
+        "path": "download.py",
+        "bytes": 2503,
+        "sha256": "c2ba2de6ce7d8eb82136d6c7bd7aa4e1910f24bd09ac4403550c468b35b9b152"
+      },
+      {
+        "path": "downloads.json",
+        "bytes": 1251,
+        "sha256": "4fed36019c702c5f75fad92d79b74f14094fdd6e4530d2d69a02527c48655d04"
+      },
+      {
+        "path": "finalize.py",
+        "bytes": 13123,
+        "sha256": "cfaf197d3b33bb9dc7551037c771459024edfeafab5b31c3950a9a999fcc9905"
+      },
+      {
+        "path": "frame-clusters.json",
+        "bytes": 38151,
+        "sha256": "44b161206842f47ef8349582845062347eaa83df2334fc29eac29a9ff5361313"
+      },
+      {
+        "path": "metadata.py",
+        "bytes": 1595,
+        "sha256": "29a186d53d3d1601e1423b6161827cc0cc0ad83cfcae081e4bfc00b096d21e6e"
+      },
+      {
+        "path": "normalize.py",
+        "bytes": 699,
+        "sha256": "ae5204bb855bf52aa531ca37b7c7e7314a696738478c82a29fd263839b9fa6bf"
+      },
+      {
+        "path": "R07-metadata.json",
+        "bytes": 3025,
+        "sha256": "c7dca0921caae03e865051efc1b88cbd1c053c61134fbd03300fb85610084d7e"
+      },
+      {
+        "path": "R07-storyboard-1.jpg",
+        "bytes": 1090029,
+        "sha256": "7e4408c48c50c68eff7290044f548c3efbe1c65f2c6d81afcfc5bfae1a592e39"
+      },
+      {
+        "path": "R07-storyboard-2.jpg",
+        "bytes": 269154,
+        "sha256": "46644dd3f867f5520ab8d58df1aa2b3890b189cbdf53e7706b1e43fd0e243923"
+      },
+      {
+        "path": "R08-complete-preview-metadata.json",
+        "bytes": 1507,
+        "sha256": "52f7ccb142046e59d5c53cd236196bab412e3afe995207fb07cf6505ad5f378e"
+      },
+      {
+        "path": "R08-metadata.json",
+        "bytes": 1303,
+        "sha256": "8cad8de77dcfdd7a015e7cb9dc5d6f74861c2791580deed74e351a04bbfbdce0"
+      },
+      {
+        "path": "R08-public-time-index.bin",
+        "bytes": 164,
+        "sha256": "277ed63f6b0f7e235bc5ec18962d8cb68f818548dc9fec90f89953326aba309b"
+      },
+      {
+        "path": "R08-public-time-index.json",
+        "bytes": 1413,
+        "sha256": "0f2084b742d3b9653014089079c672bd4082f953a8957d49b3c094da9233b2de"
+      },
+      {
+        "path": "R08-storyboard-1.jpg",
+        "bytes": 796387,
+        "sha256": "3f6805546377d7f592a8474a473b5eeb8c430ed946a95beed407a3d22cf5de92"
+      },
+      {
+        "path": "read-index.py",
+        "bytes": 1196,
+        "sha256": "273035a2189a984177556f3d8e73fcf8f98a2ff1f6e88ef0aa33828032bb47b4"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 1979,
+        "sha256": "a9ddf5a09a2aa802f4aea7c76d7415fa648e6887bcd1df59516f23bc327b817f"
+      }
+    ],
+    "bytes": 2228027,
+    "file_count": 18,
+    "private_budget_bytes": 3145728,
+    "media_bytes": 2155570,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3273064448,
+    "reference_images_added_to_git": 0,
+    "new_source_PDF_or_runtime_copies": 0,
+    "deletions": 0
+  },
+  "checks": {
+    "coverage_ledger": "passed",
+    "skill_metadata": "passed",
+    "retrieval_regression": [
+      6,
+      6
+    ],
+    "targeted_query": "spacing / R08 主读 脉冲 → new case rank1",
+    "meaning": "Availability and retrieval checks,not aesthetic accuracy."
+  }
+}
