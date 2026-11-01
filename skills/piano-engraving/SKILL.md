@@ -77,6 +77,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 连梁及局部间距经`beams`／`spacing`查`BEAM_OPERATIONS_STUDY.md`：先区分拍号默认、成员连接与整组梁属性。Local relayout只重排所选组内部；先核其它层的共同起音，单层拉匀及完整MIDI保持仍可能误示先后。混合细分原生反例已拒绝，不机械套用为钢琴间距修复。
 
+特殊梁形经`beams`／`rhythm`查`FANNED_BEAMS_READING.md`：羽状梁保组内自由快慢与总时长，音头可等距，不用常规等距／MIDI检查替代其记法含义。半梁按拍内归属判断，休止邻近允许不同体例；普通休止与整小节休止的横向检查分别处理。
+
 ## 需要候选时
 
 本项目提供的用户原PDF／MSCZ保持只读，使用独立副本或原创fixture，不操作当前GUI来做离线试验。其它工程按用户实际授权处理；分析请求不隐含覆盖源文件。详细原生比较方法见[references/native-review.md](references/native-review.md)。
