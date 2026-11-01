@@ -1,0 +1,4258 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "STEM_OPTICAL_LIMITS.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "bde1c49999a48bb2b348ab9dd3782ef26a61f08e",
+    "reason": "Published seven native optical contexts and working KB/skill; next four boundary contexts explicitly planned."
+  },
+  "scope": {
+    "date": "2026-11-02",
+    "contexts": [
+      "45mm dense accidentals capacity",
+      "independent sixteenths with cross-staff eighths"
+    ],
+    "planned_conditions": 6,
+    "planned_saved_reload": 1,
+    "planned_native_calls": 26,
+    "private_budget_bytes": 2097152,
+    "global_check_allowance_bytes": 3286171648,
+    "global_exact_total_known": false,
+    "parent_boundary_batch_completed_before": 0,
+    "parent_boundary_batch_planned": 4,
+    "planned_this_batch_boundary_contexts": 2,
+    "original_sources_read_only": true,
+    "software_adaptation": false,
+    "runtime_copies": 0,
+    "source_score_copies": 0
+  },
+  "reference_views": [
+    {
+      "path": "tmp/engraving/study-2026-10-19/book-41.jpg",
+      "sha256": "e09b0e9b2e136364ea45cbc16e7a3c24f5c28c19fe8e719e940b3d83201bb021",
+      "actually_viewed": true,
+      "source_image_reused": true,
+      "scope": "complete pages; reading.png contains Gould40/43"
+    },
+    {
+      "path": "tmp/engraving/study-2026-10-19/book-42.jpg",
+      "sha256": "15cf35d8ae11284e579e502a1a1ad999bc24421dfee91876cc7c014d9a9db4ec",
+      "actually_viewed": true,
+      "source_image_reused": true,
+      "scope": "complete pages; reading.png contains Gould40/43"
+    },
+    {
+      "path": "tmp/engraving/stem-optical-limits-2026-11-02/reading.png",
+      "sha256": "76eb9674b32a97501396d97b8146832d02e056510e1fbcdbbd1a052be0d4de65",
+      "actually_viewed": true,
+      "source_image_reused": false,
+      "scope": "complete pages; reading.png contains Gould40/43"
+    },
+    {
+      "path": "tmp/engraving/corpus/A045/page-11.jpg",
+      "sha256": "4f1f3502b576b1433e81fcd9327f1380e875b59c0750eb561898f4f503b55bae",
+      "actually_viewed": true,
+      "source_image_reused": true,
+      "scope": "complete pages; reading.png contains Gould40/43"
+    }
+  ],
+  "official_pages_reread": {
+    "A045": [
+      11
+    ]
+  },
+  "Gould": {
+    "full_printed_page_rereads": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "physical_pages": [
+      60,
+      61,
+      62,
+      63
+    ],
+    "new_unique_coverage": 0
+  },
+  "primary_web": {
+    "version": "LilyPond2.26",
+    "url": "https://lilypond.org/doc/v2.26/Documentation/notation-big-page",
+    "target_sections": [
+      "30.3.1 Uniform stretching of tuplets",
+      "30.3.2 Strict note spacing",
+      "30.4.1 Overview of object-specific horizontal spacing tweaks"
+    ],
+    "body_and_code_read": true,
+    "figures_read": 0,
+    "whole_manual_read": false,
+    "failed_short_pages": [
+      "https://lilypond.org/doc/v2.26/Documentation/notation/strict-note-spacing",
+      "https://lilypond.org/doc/v2.26/Documentation/notation/common-notation-in-proportional-notation"
+    ],
+    "same_bigpage_anchor_clicks_not_counted_as_new_sections": true,
+    "new_fixed_resource_completion": 0
+  },
+  "read_only_software_source": {
+    "commit": "f0c330926aedc7fd4367b237473e1ddb30d0f2d3",
+    "files": [
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\segment.cpp",
+        "sha256": "f978186e6b5216b25058cc282aa9c6641101b1cbe35f674fb78b29f0bb4c57d4",
+        "read_lines_inclusive": [
+          2110,
+          2210
+        ],
+        "full_file_read": false
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\element.h",
+        "sha256": "760edf013e1bb663e70117997ca7dc365c2e1fb81eabd00cf6b193018bfcc05d",
+        "read_lines_inclusive": [
+          241,
+          247
+        ],
+        "full_file_read": false
+      }
+    ],
+    "related_chord_tie_fragment_read_but_not_used_as_spacing_cause": true,
+    "source_commit_equals_frozen_binary_build_not_proven": true,
+    "changes": 0
+  },
+  "native": {
+    "preparation": {
+      "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+      "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+      "manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+      "manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+      "runtime_files_before": 1936,
+      "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\native-config"
+    },
+    "conditions": [
+      {
+        "name": "tight-base",
+        "texture": "dense",
+        "printable_width_mm": 45,
+        "shift": "none"
+      },
+      {
+        "name": "tight-joint",
+        "texture": "dense",
+        "printable_width_mm": 45,
+        "shift": "joint"
+      },
+      {
+        "name": "fine-base",
+        "texture": "fine",
+        "printable_width_mm": 70,
+        "shift": "none"
+      },
+      {
+        "name": "fine-shared",
+        "texture": "fine",
+        "printable_width_mm": 70,
+        "shift": "shared"
+      },
+      {
+        "name": "fine-interpolate",
+        "texture": "fine",
+        "printable_width_mm": 70,
+        "shift": "interpolate"
+      },
+      {
+        "name": "fine-balanced",
+        "texture": "fine",
+        "printable_width_mm": 70,
+        "shift": "balanced"
+      }
+    ],
+    "offsets": {
+      "fine-base": {
+        "cross_group_sp": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "melody_sp": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "method": "none",
+        "last_intermediate_onset_q": "15/4",
+        "last_melody_offset_sp": 0
+      },
+      "fine-shared": {
+        "cross_group_sp": [
+          0,
+          -1.0200046223774408,
+          0.33995660101178915,
+          -0.6800480213656517,
+          0.6799132020235783,
+          -0.3401363601345604,
+          1.019959682596748,
+          0
+        ],
+        "melody_sp": [
+          0,
+          0,
+          -1.0200046223774408,
+          0,
+          0.33995660101178915,
+          0,
+          -0.6800480213656517,
+          0,
+          0.6799132020235783,
+          0,
+          -0.3401363601345604,
+          0,
+          1.019959682596748,
+          0,
+          0,
+          0
+        ],
+        "method": "shared",
+        "last_intermediate_onset_q": "15/4",
+        "last_melody_offset_sp": 0
+      },
+      "fine-interpolate": {
+        "cross_group_sp": [
+          0,
+          -1.0200046223774408,
+          0.33995660101178915,
+          -0.6800480213656517,
+          0.6799132020235783,
+          -0.3401363601345604,
+          1.019959682596748,
+          0
+        ],
+        "melody_sp": [
+          0,
+          -0.5100023111887204,
+          -1.0200046223774408,
+          -0.34002401068282584,
+          0.33995660101178915,
+          -0.17004571017693126,
+          -0.6800480213656517,
+          -6.740967103668893e-05,
+          0.6799132020235783,
+          0.16988842094450896,
+          -0.3401363601345604,
+          0.33991166123109384,
+          1.019959682596748,
+          0.509979841298374,
+          0,
+          0
+        ],
+        "method": "interpolate",
+        "last_intermediate_onset_q": "15/4",
+        "last_melody_offset_sp": 0
+      },
+      "fine-balanced": {
+        "cross_group_sp": [
+          0.0,
+          -0.5100023111887204,
+          0.16997830050589458,
+          -0.34002401068282584,
+          0.33995660101178915,
+          -0.1700681800672802,
+          0.509979841298374,
+          0.0
+        ],
+        "melody_sp": [
+          0.0,
+          -0.2550011555943602,
+          -0.5100023111887204,
+          -0.17001200534141292,
+          0.16997830050589458,
+          -0.08502285508846563,
+          -0.34002401068282584,
+          -3.370483551834447e-05,
+          0.33995660101178915,
+          0.08494421047225448,
+          -0.1700681800672802,
+          0.16995583061554692,
+          0.509979841298374,
+          0.254989920649187,
+          0.0,
+          0
+        ],
+        "method": "balanced",
+        "last_intermediate_onset_q": "15/4",
+        "last_melody_offset_sp": 0
+      }
+    },
+    "recipes": {
+      "tight-base": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 49,
+          "tpc": 21,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 51,
+          "tpc": 23,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 50,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 47,
+          "tpc": 7,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 49,
+          "tpc": 9,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 50,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "tight-joint": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 49,
+          "tpc": 21,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 51,
+          "tpc": 23,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 50,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 47,
+          "tpc": 7,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 49,
+          "tpc": 9,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 50,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "fine-base": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "5/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "7/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "9/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "11/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "13/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "15/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        }
+      ],
+      "fine-shared": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "5/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "7/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "9/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "11/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "13/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "15/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        }
+      ],
+      "fine-interpolate": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "5/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "7/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "9/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "11/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "13/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "15/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        }
+      ],
+      "fine-balanced": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "5/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "7/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "9/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "11/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "13/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "15/4",
+          "duration_q": "1/4",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "16th",
+          "stem": "up"
+        }
+      ]
+    },
+    "verification": {
+      "conditions": [
+        6,
+        6
+      ],
+      "this_batch_contexts": [
+        2,
+        2
+      ],
+      "parent_boundary_batch": [
+        2,
+        4
+      ],
+      "saved_reload": [
+        1,
+        1
+      ],
+      "saved_native_music_records": 24,
+      "MusicXML": [
+        {
+          "name": "tight-base",
+          "compared_note_records": 20,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "tight-joint",
+          "compared_note_records": 20,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "fine-base",
+          "compared_note_records": 24,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "fine-shared",
+          "compared_note_records": 24,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "fine-interpolate",
+          "compared_note_records": 24,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "fine-balanced",
+          "compared_note_records": 24,
+          "hidden_support_rests": 1
+        }
+      ],
+      "compared_note_records": 136,
+      "compared_hidden_rest_records": 6,
+      "MIDI": [
+        {
+          "texture": "dense",
+          "conditions": [
+            "tight-base",
+            "tight-joint"
+          ],
+          "full_MIDI_equal": true,
+          "MIDI_bytes": 274,
+          "attacks_per_condition": 20
+        },
+        {
+          "texture": "fine",
+          "conditions": [
+            "fine-base",
+            "fine-shared",
+            "fine-interpolate",
+            "fine-balanced"
+          ],
+          "full_MIDI_equal": true,
+          "MIDI_bytes": 290,
+          "attacks_per_condition": 24
+        }
+      ],
+      "MIDI_hashes": {
+        "tight-base": {
+          "sha256": "676128ca9ae46660bf4a8774b790a5a5f37e9734f8f18b3a222dff66b8c5b63a",
+          "bytes": 274,
+          "attacks": 20
+        },
+        "tight-joint": {
+          "sha256": "676128ca9ae46660bf4a8774b790a5a5f37e9734f8f18b3a222dff66b8c5b63a",
+          "bytes": 274,
+          "attacks": 20
+        },
+        "fine-base": {
+          "sha256": "737b3c2157de8097b39cf069e2e59b992ff5d6d16327b196b55ecf9d61999ebb",
+          "bytes": 290,
+          "attacks": 24
+        },
+        "fine-shared": {
+          "sha256": "737b3c2157de8097b39cf069e2e59b992ff5d6d16327b196b55ecf9d61999ebb",
+          "bytes": 290,
+          "attacks": 24
+        },
+        "fine-interpolate": {
+          "sha256": "737b3c2157de8097b39cf069e2e59b992ff5d6d16327b196b55ecf9d61999ebb",
+          "bytes": 290,
+          "attacks": 24
+        },
+        "fine-balanced": {
+          "sha256": "737b3c2157de8097b39cf069e2e59b992ff5d6d16327b196b55ecf9d61999ebb",
+          "bytes": 290,
+          "attacks": 24
+        }
+      },
+      "all_shared_onset_relationships_preserved": true,
+      "all_staff_line_spans_unchanged_within_pairs": true,
+      "outer_group_positions_unchanged": false,
+      "implicit_native_spacing_residual": {
+        "fine-shared": {
+          "cross_actual_shift_minus_explicit_offset_sp": [
+            0.0,
+            0.5593269304845783,
+            0.09807144141136198,
+            0.6573983718959402,
+            0.19614288282272907,
+            0.7555596928686981,
+            0.2940795048920126,
+            0.853406435376596
+          ],
+          "melody_actual_shift_minus_explicit_offset_sp": [
+            0.0,
+            -0.2303163760560849,
+            0.559371870265271,
+            0.32873449577566316,
+            0.09807144141136198,
+            0.20766672658637345,
+            0.6573983718959453,
+            0.4267930972496836,
+            0.19614288282272396,
+            0.6457397087902225,
+            0.7555147530880052,
+            0.5248966385044019,
+            0.2940795048920126,
+            1.083947510336145,
+            0.8538558331835342,
+            0.6228653604170368
+          ]
+        },
+        "fine-interpolate": {
+          "cross_actual_shift_minus_explicit_offset_sp": [
+            0.0,
+            0.5593269304845783,
+            0.09807144141136198,
+            0.6573983718959402,
+            0.19614288282272907,
+            0.7555596928686981,
+            0.2940795048920126,
+            0.853406435376596
+          ],
+          "melody_actual_shift_minus_explicit_offset_sp": [
+            0.0,
+            0.2796859351326355,
+            0.559371870265271,
+            0.32869918594797265,
+            0.09807144141136198,
+            0.3777124367633047,
+            0.6573983718959453,
+            0.4267706273593347,
+            0.19614288282272396,
+            0.4758512878457135,
+            0.7555147530880052,
+            0.5248645386610481,
+            0.2940795048920126,
+            0.5739676690377709,
+            0.8538558331835342,
+            0.6228653604170368
+          ]
+        },
+        "fine-balanced": {
+          "cross_actual_shift_minus_explicit_offset_sp": [
+            0.0,
+            0.0493246192958578,
+            -0.007026655709922197,
+            0.04229796358593563,
+            -0.014098251200532097,
+            0.03529377776636744,
+            -0.021035027349066204,
+            0.02786266403020485
+          ],
+          "melody_actual_shift_minus_explicit_offset_sp": [
+            0.0,
+            0.024684779538275303,
+            0.049369559076550606,
+            0.02117145168331422,
+            -0.007026655709922197,
+            0.017613184047660296,
+            0.04229796358593563,
+            0.014099856192699193,
+            -0.014098251200537204,
+            0.010597763282917658,
+            0.03524883798566952,
+            0.007061965537606296,
+            -0.021035027349066204,
+            0.0034138183405667544,
+            0.02831206183713293,
+            0.0
+          ]
+        }
+      },
+      "reload_max_head_stem_coordinate_delta_svg": 0.0,
+      "reload_staff_right_delta_svg": 0.009999999999990905,
+      "native_CLI_calls": 26,
+      "runtime_files_after": 1936,
+      "geometry": {
+        "tight-base": {
+          "heads": [
+            [
+              514.366,
+              401.74
+            ],
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              390.614
+            ],
+            [
+              574.21,
+              702.142
+            ],
+            [
+              598.329,
+              401.74
+            ],
+            [
+              600.69,
+              691.016
+            ],
+            [
+              624.802,
+              357.236
+            ],
+            [
+              624.802,
+              390.614
+            ],
+            [
+              675.394,
+              702.142
+            ],
+            [
+              701.873,
+              691.016
+            ],
+            [
+              702.364,
+              401.74
+            ],
+            [
+              728.837,
+              357.236
+            ],
+            [
+              728.837,
+              390.614
+            ],
+            [
+              782.279,
+              702.142
+            ],
+            [
+              806.399,
+              401.74
+            ],
+            [
+              808.759,
+              691.016
+            ],
+            [
+              832.871,
+              357.236
+            ],
+            [
+              832.871,
+              390.614
+            ],
+            [
+              883.463,
+              702.142
+            ],
+            [
+              909.943,
+              691.016
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                394.353,
+                535.252
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 601.913,
+              "ys": [
+                698.581,
+                539.298
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 626.025,
+              "ys": [
+                394.353,
+                540.705
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 703.097,
+              "ys": [
+                698.581,
+                545.869
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 730.06,
+              "ys": [
+                394.353,
+                547.462
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 809.983,
+              "ys": [
+                698.581,
+                552.811
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 834.095,
+              "ys": [
+                394.353,
+                554.218
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 911.167,
+              "ys": [
+                698.581,
+                559.383
+              ],
+              "width": 2.45
+            }
+          ],
+          "cross_normal_head_x": [
+            540.838,
+            624.8,
+            728.8349999999999,
+            832.87
+          ],
+          "melody_head_x": [
+            540.839,
+            624.802,
+            728.837,
+            832.871
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "staff_left_x": 355.083,
+          "staff_right_x": 850.394,
+          "barline_x": [
+            357.086,
+            974.244,
+            990.155
+          ],
+          "last_barline_minus_staff_end_sp": 6.280828689555995,
+          "actual_staff_line_span_mm": 34.94689331296064,
+          "last_cross_stem_minus_staff_end_sp": 2.731125292108576,
+          "stem_gaps": [
+            59.85000000000002,
+            24.111999999999966,
+            77.072,
+            26.962999999999965,
+            79.923,
+            24.11200000000008,
+            77.072
+          ],
+          "melody_gaps": [
+            83.96299999999997,
+            104.03499999999997,
+            104.03399999999999
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            8.987956139072413e-05,
+            8.987956139072413e-05,
+            4.493978069280754e-05
+          ],
+          "stem_gap_ratio": 3.3146566025215707,
+          "melody_gap_ratio": 1.239057680168646
+        },
+        "tight-joint": {
+          "heads": [
+            [
+              514.366,
+              401.74
+            ],
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              390.614
+            ],
+            [
+              551.513,
+              702.142
+            ],
+            [
+              577.992,
+              691.016
+            ],
+            [
+              602.111,
+              401.74
+            ],
+            [
+              628.584,
+              357.236
+            ],
+            [
+              628.584,
+              390.614
+            ],
+            [
+              652.696,
+              702.142
+            ],
+            [
+              679.176,
+              691.016
+            ],
+            [
+              706.146,
+              401.74
+            ],
+            [
+              732.619,
+              357.236
+            ],
+            [
+              732.619,
+              390.614
+            ],
+            [
+              759.582,
+              702.142
+            ],
+            [
+              786.062,
+              691.016
+            ],
+            [
+              810.182,
+              401.74
+            ],
+            [
+              836.655,
+              357.236
+            ],
+            [
+              836.655,
+              390.614
+            ],
+            [
+              860.766,
+              702.142
+            ],
+            [
+              887.246,
+              691.016
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                394.353,
+                535.252
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 579.216,
+              "ys": [
+                698.581,
+                538.006
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 629.808,
+              "ys": [
+                394.353,
+                541.355
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 680.4,
+              "ys": [
+                698.581,
+                545.044
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 733.843,
+              "ys": [
+                394.353,
+                548.591
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 787.286,
+              "ys": [
+                698.581,
+                552.478
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 837.879,
+              "ys": [
+                394.353,
+                555.827
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 888.47,
+              "ys": [
+                698.581,
+                559.516
+              ],
+              "width": 2.45
+            }
+          ],
+          "cross_normal_head_x": [
+            540.838,
+            628.583,
+            732.6179999999999,
+            836.654
+          ],
+          "melody_head_x": [
+            540.839,
+            628.584,
+            732.619,
+            836.655
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "staff_left_x": 355.083,
+          "staff_right_x": 850.394,
+          "barline_x": [
+            357.086,
+            951.547,
+            967.457
+          ],
+          "last_barline_minus_staff_end_sp": 5.260785547366529,
+          "actual_staff_line_span_mm": 34.94689331296064,
+          "last_cross_stem_minus_staff_end_sp": 1.7111270896998036,
+          "stem_gaps": [
+            37.15300000000002,
+            50.591999999999985,
+            50.591999999999985,
+            53.442999999999984,
+            53.442999999999984,
+            50.593000000000075,
+            50.59100000000001
+          ],
+          "melody_gaps": [
+            87.74499999999989,
+            104.03500000000008,
+            104.03599999999994
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            4.493978069280754e-05,
+            4.49397806979166e-05,
+            4.493978069280754e-05
+          ],
+          "stem_gap_ratio": 1.4384571905364292,
+          "melody_gap_ratio": 1.1856630007407838
+        },
+        "fine-base": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              579.342,
+              357.236
+            ],
+            [
+              617.845,
+              357.236
+            ],
+            [
+              617.845,
+              702.142
+            ],
+            [
+              656.348,
+              357.236
+            ],
+            [
+              694.851,
+              357.236
+            ],
+            [
+              694.851,
+              401.74
+            ],
+            [
+              733.355,
+              357.236
+            ],
+            [
+              771.858,
+              357.236
+            ],
+            [
+              771.858,
+              702.142
+            ],
+            [
+              810.361,
+              357.236
+            ],
+            [
+              848.864,
+              357.236
+            ],
+            [
+              848.864,
+              401.74
+            ],
+            [
+              887.367,
+              357.236
+            ],
+            [
+              925.871,
+              357.236
+            ],
+            [
+              925.871,
+              702.142
+            ],
+            [
+              964.374,
+              357.236
+            ],
+            [
+              1002.88,
+              357.236
+            ],
+            [
+              1002.88,
+              401.74
+            ],
+            [
+              1041.38,
+              357.236
+            ],
+            [
+              1079.88,
+              357.236
+            ],
+            [
+              1079.88,
+              702.142
+            ],
+            [
+              1118.39,
+              357.236
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 645.549,
+              "ys": [
+                698.581,
+                545.188
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 696.075,
+              "ys": [
+                405.478,
+                547.173
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 799.562,
+              "ys": [
+                698.581,
+                551.546
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 850.088,
+              "ys": [
+                405.478,
+                553.53
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 953.574,
+              "ys": [
+                698.581,
+                557.903
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1004.1,
+              "ys": [
+                405.478,
+                559.888
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1107.59,
+              "ys": [
+                698.581,
+                564.261
+              ],
+              "width": 2.45
+            }
+          ],
+          "cross_normal_head_x": [
+            540.839,
+            617.845,
+            694.851,
+            771.858,
+            848.864,
+            925.871,
+            1002.88,
+            1079.88
+          ],
+          "melody_head_x": [
+            540.839,
+            579.342,
+            617.845,
+            656.348,
+            694.851,
+            733.355,
+            771.858,
+            810.361,
+            848.864,
+            887.367,
+            925.871,
+            964.374,
+            1002.88,
+            1041.38,
+            1079.88,
+            1118.39
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "staff_left_x": 355.083,
+          "staff_right_x": 1204.72,
+          "barline_x": [
+            357.086,
+            1182.69,
+            1198.61
+          ],
+          "last_barline_minus_staff_end_sp": -0.27458206003955277,
+          "actual_staff_line_span_mm": 59.94652570555457,
+          "last_cross_stem_minus_staff_end_sp": -4.3650008987956195,
+          "stem_gaps": [
+            103.48599999999999,
+            50.52600000000007,
+            103.48699999999997,
+            50.525999999999954,
+            103.48599999999999,
+            50.52600000000007,
+            103.4899999999999
+          ],
+          "melody_gaps": [
+            38.50299999999993,
+            38.50300000000004,
+            38.50299999999993,
+            38.50300000000004,
+            38.50400000000002,
+            38.50299999999993,
+            38.50300000000004,
+            38.50300000000004,
+            38.50299999999993,
+            38.50400000000002,
+            38.50300000000004,
+            38.50599999999997,
+            38.500000000000114,
+            38.5,
+            38.50999999999999
+          ],
+          "shared_onset_anchor_difference_sp": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stem_gap_ratio": 2.048252384910739,
+          "melody_gap_ratio": 1.00025974025974
+        },
+        "fine-shared": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              574.217,
+              357.236
+            ],
+            [
+              607.595,
+              357.236
+            ],
+            [
+              607.595,
+              702.142
+            ],
+            [
+              663.663,
+              357.236
+            ],
+            [
+              704.598,
+              357.236
+            ],
+            [
+              704.598,
+              401.74
+            ],
+            [
+              737.976,
+              357.236
+            ],
+            [
+              771.354,
+              357.236
+            ],
+            [
+              771.354,
+              702.142
+            ],
+            [
+              819.858,
+              357.236
+            ],
+            [
+              868.358,
+              357.236
+            ],
+            [
+              868.358,
+              401.74
+            ],
+            [
+              901.736,
+              357.236
+            ],
+            [
+              935.114,
+              357.236
+            ],
+            [
+              935.114,
+              702.142
+            ],
+            [
+              976.054,
+              357.236
+            ],
+            [
+              1032.12,
+              357.236
+            ],
+            [
+              1032.12,
+              401.74
+            ],
+            [
+              1065.5,
+              357.236
+            ],
+            [
+              1098.88,
+              357.236
+            ],
+            [
+              1098.88,
+              702.142
+            ],
+            [
+              1132.25,
+              357.236
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 635.298,
+              "ys": [
+                698.581,
+                544.63
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 705.822,
+              "ys": [
+                405.478,
+                547.345
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 799.058,
+              "ys": [
+                698.581,
+                551.16
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 869.582,
+              "ys": [
+                405.478,
+                553.875
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 962.818,
+              "ys": [
+                698.581,
+                557.69
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1033.34,
+              "ys": [
+                405.478,
+                560.405
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1126.58,
+              "ys": [
+                698.581,
+                564.22
+              ],
+              "width": 2.45
+            }
+          ],
+          "cross_normal_head_x": [
+            540.839,
+            607.595,
+            704.598,
+            771.354,
+            868.358,
+            935.114,
+            1032.12,
+            1098.88
+          ],
+          "melody_head_x": [
+            540.839,
+            574.217,
+            607.595,
+            663.663,
+            704.598,
+            737.976,
+            771.354,
+            819.858,
+            868.358,
+            901.736,
+            935.114,
+            976.054,
+            1032.12,
+            1065.5,
+            1098.88,
+            1132.25
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "staff_left_x": 355.083,
+          "staff_right_x": 1204.72,
+          "barline_x": [
+            357.086,
+            1196.56,
+            1212.47
+          ],
+          "last_barline_minus_staff_end_sp": 0.3482833003774942,
+          "actual_staff_line_span_mm": 59.94652570555457,
+          "last_cross_stem_minus_staff_end_sp": -3.5115944634190237,
+          "stem_gaps": [
+            93.23500000000001,
+            70.524,
+            93.23599999999999,
+            70.524,
+            93.23599999999999,
+            70.52199999999993,
+            93.24000000000001
+          ],
+          "melody_gaps": [
+            33.37799999999993,
+            33.37800000000004,
+            56.067999999999984,
+            40.934999999999945,
+            33.37800000000004,
+            33.37800000000004,
+            48.503999999999905,
+            48.5,
+            33.37800000000004,
+            33.37800000000004,
+            40.93999999999994,
+            56.06599999999992,
+            33.38000000000011,
+            33.38000000000011,
+            33.36999999999989
+          ],
+          "shared_onset_anchor_difference_sp": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stem_gap_ratio": 1.3221406086044085,
+          "melody_gap_ratio": 1.6801917890320697
+        },
+        "fine-interpolate": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              574.217,
+              357.236
+            ],
+            [
+              607.595,
+              357.236
+            ],
+            [
+              607.595,
+              702.142
+            ],
+            [
+              656.096,
+              357.236
+            ],
+            [
+              704.598,
+              357.236
+            ],
+            [
+              704.598,
+              401.74
+            ],
+            [
+              737.976,
+              357.236
+            ],
+            [
+              771.354,
+              357.236
+            ],
+            [
+              771.354,
+              702.142
+            ],
+            [
+              819.856,
+              357.236
+            ],
+            [
+              868.358,
+              357.236
+            ],
+            [
+              868.358,
+              401.74
+            ],
+            [
+              901.736,
+              357.236
+            ],
+            [
+              935.114,
+              357.236
+            ],
+            [
+              935.114,
+              702.142
+            ],
+            [
+              983.617,
+              357.236
+            ],
+            [
+              1032.12,
+              357.236
+            ],
+            [
+              1032.12,
+              401.74
+            ],
+            [
+              1065.5,
+              357.236
+            ],
+            [
+              1098.88,
+              357.236
+            ],
+            [
+              1098.88,
+              702.142
+            ],
+            [
+              1132.25,
+              357.236
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 635.298,
+              "ys": [
+                698.581,
+                544.63
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 705.822,
+              "ys": [
+                405.478,
+                547.345
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 799.058,
+              "ys": [
+                698.581,
+                551.16
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 869.582,
+              "ys": [
+                405.478,
+                553.875
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 962.818,
+              "ys": [
+                698.581,
+                557.69
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1033.34,
+              "ys": [
+                405.478,
+                560.405
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1126.58,
+              "ys": [
+                698.581,
+                564.22
+              ],
+              "width": 2.45
+            }
+          ],
+          "cross_normal_head_x": [
+            540.839,
+            607.595,
+            704.598,
+            771.354,
+            868.358,
+            935.114,
+            1032.12,
+            1098.88
+          ],
+          "melody_head_x": [
+            540.839,
+            574.217,
+            607.595,
+            656.096,
+            704.598,
+            737.976,
+            771.354,
+            819.856,
+            868.358,
+            901.736,
+            935.114,
+            983.617,
+            1032.12,
+            1065.5,
+            1098.88,
+            1132.25
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "staff_left_x": 355.083,
+          "staff_right_x": 1204.72,
+          "barline_x": [
+            357.086,
+            1196.56,
+            1212.47
+          ],
+          "last_barline_minus_staff_end_sp": 0.3482833003774942,
+          "actual_staff_line_span_mm": 59.94652570555457,
+          "last_cross_stem_minus_staff_end_sp": -3.5115944634190237,
+          "stem_gaps": [
+            93.23500000000001,
+            70.524,
+            93.23599999999999,
+            70.524,
+            93.23599999999999,
+            70.52199999999993,
+            93.24000000000001
+          ],
+          "melody_gaps": [
+            33.37799999999993,
+            33.37800000000004,
+            48.500999999999976,
+            48.50199999999995,
+            33.37800000000004,
+            33.37800000000004,
+            48.50199999999995,
+            48.50199999999995,
+            33.37800000000004,
+            33.37800000000004,
+            48.50299999999993,
+            48.50299999999993,
+            33.38000000000011,
+            33.38000000000011,
+            33.36999999999989
+          ],
+          "shared_onset_anchor_difference_sp": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stem_gap_ratio": 1.3221406086044085,
+          "melody_gap_ratio": 1.4534911597243059
+        },
+        "fine-balanced": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              574.217,
+              357.236
+            ],
+            [
+              607.595,
+              357.236
+            ],
+            [
+              607.595,
+              702.142
+            ],
+            [
+              653.036,
+              357.236
+            ],
+            [
+              698.477,
+              357.236
+            ],
+            [
+              698.477,
+              401.74
+            ],
+            [
+              731.855,
+              357.236
+            ],
+            [
+              765.233,
+              357.236
+            ],
+            [
+              765.233,
+              702.142
+            ],
+            [
+              810.674,
+              357.236
+            ],
+            [
+              856.115,
+              357.236
+            ],
+            [
+              856.115,
+              401.74
+            ],
+            [
+              889.493,
+              357.236
+            ],
+            [
+              922.871,
+              357.236
+            ],
+            [
+              922.871,
+              702.142
+            ],
+            [
+              968.313,
+              357.236
+            ],
+            [
+              1013.76,
+              357.236
+            ],
+            [
+              1013.76,
+              401.74
+            ],
+            [
+              1047.13,
+              357.236
+            ],
+            [
+              1080.51,
+              357.236
+            ],
+            [
+              1080.51,
+              702.142
+            ],
+            [
+              1118.39,
+              357.236
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 635.298,
+              "ys": [
+                698.581,
+                544.76
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 699.701,
+              "ys": [
+                405.478,
+                547.315
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 792.937,
+              "ys": [
+                698.581,
+                551.26
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 857.339,
+              "ys": [
+                405.478,
+                553.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 950.575,
+              "ys": [
+                698.581,
+                557.76
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1014.98,
+              "ys": [
+                405.478,
+                560.314
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1108.21,
+              "ys": [
+                698.581,
+                564.26
+              ],
+              "width": 2.45
+            }
+          ],
+          "cross_normal_head_x": [
+            540.839,
+            607.595,
+            698.477,
+            765.233,
+            856.115,
+            922.871,
+            1013.76,
+            1080.51
+          ],
+          "melody_head_x": [
+            540.839,
+            574.217,
+            607.595,
+            653.036,
+            698.477,
+            731.855,
+            765.233,
+            810.674,
+            856.115,
+            889.493,
+            922.871,
+            968.313,
+            1013.76,
+            1047.13,
+            1080.51,
+            1118.39
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "staff_left_x": 355.083,
+          "staff_right_x": 1204.72,
+          "barline_x": [
+            357.086,
+            1182.69,
+            1198.61
+          ],
+          "last_barline_minus_staff_end_sp": -0.27458206003955277,
+          "actual_staff_line_span_mm": 59.94652570555457,
+          "last_cross_stem_minus_staff_end_sp": -4.337138234765415,
+          "stem_gaps": [
+            93.23500000000001,
+            64.40300000000002,
+            93.23599999999999,
+            64.40200000000004,
+            93.23599999999999,
+            64.40499999999997,
+            93.23000000000002
+          ],
+          "melody_gaps": [
+            33.37799999999993,
+            33.37800000000004,
+            45.44099999999992,
+            45.44100000000003,
+            33.37800000000004,
+            33.37799999999993,
+            45.44100000000003,
+            45.44100000000003,
+            33.37800000000004,
+            33.37799999999993,
+            45.44200000000001,
+            45.447,
+            33.37000000000012,
+            33.37999999999988,
+            37.88000000000011
+          ],
+          "shared_onset_anchor_difference_sp": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stem_gap_ratio": 1.4477190149374233,
+          "melody_gap_ratio": 1.3619118969133905
+        },
+        "fine-interpolate-reload": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              574.217,
+              357.236
+            ],
+            [
+              607.595,
+              357.236
+            ],
+            [
+              607.595,
+              702.142
+            ],
+            [
+              656.096,
+              357.236
+            ],
+            [
+              704.598,
+              357.236
+            ],
+            [
+              704.598,
+              401.74
+            ],
+            [
+              737.976,
+              357.236
+            ],
+            [
+              771.354,
+              357.236
+            ],
+            [
+              771.354,
+              702.142
+            ],
+            [
+              819.856,
+              357.236
+            ],
+            [
+              868.358,
+              357.236
+            ],
+            [
+              868.358,
+              401.74
+            ],
+            [
+              901.736,
+              357.236
+            ],
+            [
+              935.114,
+              357.236
+            ],
+            [
+              935.114,
+              702.142
+            ],
+            [
+              983.617,
+              357.236
+            ],
+            [
+              1032.12,
+              357.236
+            ],
+            [
+              1032.12,
+              401.74
+            ],
+            [
+              1065.5,
+              357.236
+            ],
+            [
+              1098.88,
+              357.236
+            ],
+            [
+              1098.88,
+              702.142
+            ],
+            [
+              1132.25,
+              357.236
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 635.298,
+              "ys": [
+                698.581,
+                544.63
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 705.822,
+              "ys": [
+                405.478,
+                547.345
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 799.058,
+              "ys": [
+                698.581,
+                551.16
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 869.582,
+              "ys": [
+                405.478,
+                553.875
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 962.818,
+              "ys": [
+                698.581,
+                557.69
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1033.34,
+              "ys": [
+                405.478,
+                560.405
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1126.58,
+              "ys": [
+                698.581,
+                564.22
+              ],
+              "width": 2.45
+            }
+          ],
+          "cross_normal_head_x": [
+            540.839,
+            607.595,
+            704.598,
+            771.354,
+            868.358,
+            935.114,
+            1032.12,
+            1098.88
+          ],
+          "melody_head_x": [
+            540.839,
+            574.217,
+            607.595,
+            656.096,
+            704.598,
+            737.976,
+            771.354,
+            819.856,
+            868.358,
+            901.736,
+            935.114,
+            983.617,
+            1032.12,
+            1065.5,
+            1098.88,
+            1132.25
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "staff_left_x": 355.083,
+          "staff_right_x": 1204.73,
+          "barline_x": [
+            357.086,
+            1196.56,
+            1212.47
+          ],
+          "last_barline_minus_staff_end_sp": 0.34783390257055596,
+          "actual_staff_line_span_mm": 59.947231260111465,
+          "last_cross_stem_minus_staff_end_sp": -3.512043861225962,
+          "stem_gaps": [
+            93.23500000000001,
+            70.524,
+            93.23599999999999,
+            70.524,
+            93.23599999999999,
+            70.52199999999993,
+            93.24000000000001
+          ],
+          "melody_gaps": [
+            33.37799999999993,
+            33.37800000000004,
+            48.500999999999976,
+            48.50199999999995,
+            33.37800000000004,
+            33.37800000000004,
+            48.50199999999995,
+            48.50199999999995,
+            33.37800000000004,
+            33.37800000000004,
+            48.50299999999993,
+            48.50299999999993,
+            33.38000000000011,
+            33.38000000000011,
+            33.36999999999989
+          ],
+          "shared_onset_anchor_difference_sp": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "stem_gap_ratio": 1.3221406086044085,
+          "melody_gap_ratio": 1.4534911597243059
+        }
+      }
+    },
+    "calls": [
+      {
+        "source": "tight-base.mscx",
+        "output": "exports/tight-base.svg",
+        "started_utc": "2026-11-01T20:14:27.470549+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.601,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\tight-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\tight-base.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "tight-base.mscx",
+        "output": "exports/tight-base.pdf",
+        "started_utc": "2026-11-01T20:14:30.190917+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.983,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\tight-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\tight-base.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "tight-base.mscx",
+        "output": "exports/tight-base.musicxml",
+        "started_utc": "2026-11-01T20:14:33.289425+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.392,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\tight-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\tight-base.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "tight-base.mscx",
+        "output": "exports/tight-base.mid",
+        "started_utc": "2026-11-01T20:14:35.790219+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.501,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\tight-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\tight-base.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "tight-joint.mscx",
+        "output": "exports/tight-joint.svg",
+        "started_utc": "2026-11-01T20:14:38.407778+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.532,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\tight-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\tight-joint.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "tight-joint.mscx",
+        "output": "exports/tight-joint.pdf",
+        "started_utc": "2026-11-01T20:14:41.053733+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.784,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\tight-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\tight-joint.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "tight-joint.mscx",
+        "output": "exports/tight-joint.musicxml",
+        "started_utc": "2026-11-01T20:14:43.951521+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.679,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\tight-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\tight-joint.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "tight-joint.mscx",
+        "output": "exports/tight-joint.mid",
+        "started_utc": "2026-11-01T20:14:46.750944+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.969,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\tight-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\tight-joint.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-base.mscx",
+        "output": "exports/fine-base.svg",
+        "started_utc": "2026-11-01T20:14:49.841923+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.772,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-base.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-base.mscx",
+        "output": "exports/fine-base.pdf",
+        "started_utc": "2026-11-01T20:14:52.741188+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.174,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-base.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-base.mscx",
+        "output": "exports/fine-base.musicxml",
+        "started_utc": "2026-11-01T20:14:56.034124+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.665,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-base.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-base.mscx",
+        "output": "exports/fine-base.mid",
+        "started_utc": "2026-11-01T20:14:58.820920+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.636,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-base.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-shared.mscx",
+        "output": "exports/fine-shared.svg",
+        "started_utc": "2026-11-01T20:15:01.582043+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.332,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-shared.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-shared.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-shared.mscx",
+        "output": "exports/fine-shared.pdf",
+        "started_utc": "2026-11-01T20:15:04.023743+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.072,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-shared.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-shared.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-shared.mscx",
+        "output": "exports/fine-shared.musicxml",
+        "started_utc": "2026-11-01T20:15:07.199934+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.406,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-shared.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-shared.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-shared.mscx",
+        "output": "exports/fine-shared.mid",
+        "started_utc": "2026-11-01T20:15:09.716251+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.437,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-shared.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-shared.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-interpolate.mscx",
+        "output": "exports/fine-interpolate.svg",
+        "started_utc": "2026-11-01T20:15:12.260436+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.476,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-interpolate.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-interpolate.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-interpolate.mscx",
+        "output": "exports/fine-interpolate.pdf",
+        "started_utc": "2026-11-01T20:15:14.850372+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.484,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-interpolate.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-interpolate.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-interpolate.mscx",
+        "output": "exports/fine-interpolate.musicxml",
+        "started_utc": "2026-11-01T20:15:17.505262+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.595,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-interpolate.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-interpolate.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-interpolate.mscx",
+        "output": "exports/fine-interpolate.mid",
+        "started_utc": "2026-11-01T20:15:20.217550+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.354,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-interpolate.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-interpolate.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-balanced.mscx",
+        "output": "exports/fine-balanced.svg",
+        "started_utc": "2026-11-01T20:15:22.677588+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.449,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-balanced.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-balanced.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-balanced.mscx",
+        "output": "exports/fine-balanced.pdf",
+        "started_utc": "2026-11-01T20:15:25.241043+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.704,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-balanced.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-balanced.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-balanced.mscx",
+        "output": "exports/fine-balanced.musicxml",
+        "started_utc": "2026-11-01T20:15:28.056260+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.804,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-balanced.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-balanced.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-balanced.mscx",
+        "output": "exports/fine-balanced.mid",
+        "started_utc": "2026-11-01T20:15:31.020712+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.157,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-balanced.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-balanced.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "fine-interpolate.mscx",
+        "output": "exports/fine-interpolate-saved.mscx",
+        "started_utc": "2026-11-01T20:15:34.321117+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.662,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\fine-interpolate.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-interpolate-saved.mscx>\r\n... success!\r\n"
+      },
+      {
+        "source": "exports/fine-interpolate-saved.mscx",
+        "output": "exports/fine-interpolate-reload.svg",
+        "started_utc": "2026-11-01T20:15:37.111298+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.789,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-interpolate-saved.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-limits-2026-11-02\\exports\\fine-interpolate-reload.svg>\r\n... success!\r\n"
+      }
+    ],
+    "all_six_panels_actually_viewed": true,
+    "crop": [
+      65,
+      60,
+      615,
+      335
+    ],
+    "pixels_per_point": 2,
+    "actual_font": "Leland,confirmed in MusicXML",
+    "reused_wide_control_reference": "stem_optical_contexts_evidence.json: dense70mm base/joint,not re-exported",
+    "software_adaptation": false,
+    "user_real_score_candidate": false
+  },
+  "judgment": {
+    "fine_context_when_continuous_sixteenths_are_primary": "preserve fine-base; fine-shared rejected as beautification,fine-interpolate not preferred,fine-balanced only records tradeoff",
+    "all_shared_onsets_preserved_does_not_prove_reading_quality": true,
+    "tight_context": "reject both tight-base and tight-joint; staff line ends before tail and detached ending barlines in this deliberately constrained fixture",
+    "tight_style": {
+      "pagePrintableWidth_mm": 45,
+      "minMeasureWidth": 0,
+      "lastSystemFillLimit": 0,
+      "not_universal_MuseScore_default_behavior": true
+    },
+    "head_side_optical_compensation_can_conflict_with_another_continuous_line": true,
+    "manual_offset_is_not_guaranteed_absolute_displacement": true,
+    "endpoints_preserved_not_generalized_from_prior_fixture": true,
+    "new_user_preferences": 0,
+    "boundary_plan": {
+      "completed": 2,
+      "planned": 4,
+      "completed_contexts": [
+        "tight accidentals capacity",
+        "independent finer subdivision"
+      ],
+      "remaining_contexts": [
+        "different head size or shape",
+        "slur hairpin fingering channels"
+      ]
+    }
+  },
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-base.mscx",
+      "bytes": 7077,
+      "sha256": "28d7e7c57d1e1c610452ae55933ca16fb26fea1daa1e91d259abbfc48bdc0a03",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-joint.mscx",
+      "bytes": 7653,
+      "sha256": "1449c84d612ac7eecd15dec5870a9f0a3d92e1358d442eda83a2559a6d433002",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-base.mscx",
+      "bytes": 9611,
+      "sha256": "323b48200163a81c476d94b37aa606be1fd2572459c1502e638c49522ec9f329",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-shared.mscx",
+      "bytes": 10661,
+      "sha256": "c775b19058e0c6a954d27d9ef33059ea27a7762f057dcce63828fb6b699972d9",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-interpolate.mscx",
+      "bytes": 10790,
+      "sha256": "7124c2e21de1087cb1ff5e14200688f4b87d400dd490ca58361ac4743f25e8b1",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-balanced.mscx",
+      "bytes": 10802,
+      "sha256": "657cfece27486bf8c32734078526d14ee724d721e0dba13095eafbca2f8e9b9b",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-comparison.png",
+      "bytes": 55433,
+      "sha256": "579e4ca1bd2ca36a419950ca511409db9aa38f508dfed204709984f3edf00f79",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-comparison.png",
+      "bytes": 33576,
+      "sha256": "d5bdc04089e934656866883d41959feb892595f435dcbd440d65a885225fdc01",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "id": "A045",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "pages": 14,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true,
+      "unchanged": true
+    }
+  ],
+  "coverage": {
+    "new_official_first_pass": 0,
+    "new_deep_scores": 0,
+    "new_Gould_coverage": 0,
+    "new_fixed_resource_completions": 0,
+    "complete_resources": [
+      16,
+      25
+    ],
+    "remaining": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "new_user_preferences": 0,
+    "software_adaptation_changes": 0
+  },
+  "cache": {
+    "batch": "tmp/engraving/stem-optical-limits-2026-11-02",
+    "budget_bytes": 2097152,
+    "global_check_allowance_bytes": 3286171648,
+    "global_exact_total_known": false,
+    "new_source_media": 0,
+    "source_score_copies": 0,
+    "runtime_copies": 0,
+    "deletions": 0,
+    "reference_images_in_Git": 0,
+    "private_bytes": 1097168,
+    "files": 54,
+    "at_utc": "2026-11-01T20:28:48.542244+00:00",
+    "measurement_includes_audit": true,
+    "audit": "tmp/engraving/stem-optical-limits-2026-11-02/audit.json",
+    "audit_sha256": "72dc2ffacca91947ae0551bfc3797f00a83782de9b31082afb5a8ff69f450aa6",
+    "public_assets_bytes": 145603
+  },
+  "checks": {
+    "native": "passed",
+    "protected_sources": "5/5 passed",
+    "library": "passed: progress.py --check",
+    "skill": "passed: quick_validate.py",
+    "query": "6/6 existing regression tests passed",
+    "actual_query": {
+      "topic": "spacing",
+      "query": "容量 独立十六分 偏移",
+      "limit": 2,
+      "first_result": "STEM_OPTICAL_LIMITS.md",
+      "second_result": "SPACING_DECISIONS.md",
+      "scope": "actual lexical retrieval,not engraving correctness"
+    },
+    "case_links": "8/8 local links passed",
+    "public_asset_hashes": "8/8 passed",
+    "protected_after": "5/5 passed",
+    "reference_views_after": "4/4 passed",
+    "read_only_software_source_after": "2/2 files passed",
+    "fixed_release_commit": "bd1d1d89b45133a4d19f6a3584743d2768e79b7e",
+    "git_diff_check": "passed tracked edits; staged new files checked before commit",
+    "working_branch_supplement": true
+  }
+}

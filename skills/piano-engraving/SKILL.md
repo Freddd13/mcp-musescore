@@ -83,6 +83,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 跨表间距经`spacing`／`cross-staff`查`STEM_OPTICAL_CONTEXTS.md`及前篇：头侧、干轴、真正先后和共同起音一起核。只移音组会错开独立层，联合同刻各层可在具体情境兼顾；二度按正常侧头辨列，不按最低头或外框中心吸附。相同挂头差可使偏移跨宽度复用，仍须看当前容量和其它层；本机Local relayout未自动提供该光学策略。
 
+`STEM_OPTICAL_LIMITS.md`补独立快线与容量：同步保持后仍须核各层节奏轮廓，主要跟读层按音乐任务辨认；行宽已装不下时先解决容量。横偏移会参与原生重排，端点offset为0也不保证实际不动，不能照搬孤立例的坐标假设。
+
 ## 需要候选时
 
 本项目提供的用户原PDF／MSCZ保持只读，使用独立副本或原创fixture，不操作当前GUI来做离线试验。其它工程按用户实际授权处理；分析请求不隐含覆盖源文件。详细原生比较方法见[references/native-review.md](references/native-review.md)。
