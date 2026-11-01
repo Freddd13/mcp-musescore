@@ -2949,7 +2949,8 @@
         "verified_account_uid": 341170626,
         "remaining": "UID与合作谱规范检查署名已核；已实际读1/1公开预览、6系统m1–22。本人主页／目录、具体干预、教程及完整谱未核；合作预览不证明全部排法出自该人，状态partial保持。",
         "actual_preview_note": "SHAMSHIR_PREVIEW_READING.md",
-        "actual_preview_evidence": "shamshir_preview_evidence.json"
+        "actual_preview_evidence": "shamshir_preview_evidence.json",
+        "latest_source_followup": "stem_optical_spacing_evidence.json: Purrvoice群青作者自述／杯中明月商品索引两合作线索，无新谱面或个人具体干预。"
       },
       {
         "id": "R11",
@@ -3245,7 +3246,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.27固定R08/R09续读、R11第一部分68/68预览、Local relayout四条件与速度关系三条件；20入口，资料16/25余9，无适配。",
+    "working_branch_note": "固定0.27之后补跨表光学参照3/3条件、1/1重载，均干收益与Local无效范围可查；原标签／发布证据保持，20入口，资料16/25余9，无适配。",
     "evidence": "release_0_27_0_evidence.json"
   },
   "last_study_batch": {
@@ -3264,36 +3265,36 @@
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
     "date": "2026-11-02",
-    "scope": "Madoka前四页与Gould184–186复读，核速度等式两种结构关系；原创三有效条件、一重载。24实际CLI含12失败输入探针，原意图未定，不改原谱。",
+    "scope": "三官谱页／Gould41复读及Lily两定向正文；跨表均头／均干／Local三原生条件，14调用与1重载。R10两新合作署名索引，无新谱面／具体干预。",
     "new_native_diagnostic_conditions": 3,
-    "native_CLI_calls": 24,
-    "native_input_probe_calls": 12,
-    "valid_final_native_calls": 12,
-    "book_reread_pages": 3,
-    "official_score_reread_pages": 4,
+    "native_CLI_calls": 14,
+    "valid_final_native_calls": 14,
+    "native_input_probe_calls": 0,
+    "book_reread_pages": 1,
+    "official_score_reread_pages": 3,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "TEMPO_EQUATION_CLARITY.md"
+      "STEM_OPTICAL_SPACING_STUDY.md"
     ],
-    "review_evidence": "tempo_equation_evidence.json",
+    "review_evidence": "stem_optical_spacing_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "TEMPO_EQUATION_CLARITY.md",
-    "evidence": "tempo_equation_evidence.json",
+    "reference": "STEM_OPTICAL_SPACING_STUDY.md",
+    "evidence": "stem_optical_spacing_evidence.json",
     "completed_conditions": 3,
     "planned_conditions": 3,
     "saved_reloaded_versions": [
       1,
       1
     ],
-    "native_CLI_calls": 24,
-    "valid_final_native_calls": 12,
-    "input_probe_native_calls": 12,
+    "native_CLI_calls": 14,
+    "valid_final_native_calls": 14,
+    "input_probe_native_calls": 0,
     "new_conditions": 3,
     "reused_conditions": 0,
-    "description": "确定的6/8附点四分80→4/4四分80关系，比较新行等式、方向提示与前行预告／确认；本例优先后者。63记录／21起音／310字节完整MIDI保持，B重载除title相同；Madoka作者方向未定。",
+    "description": "孤立单线跨表的均头／均干及Local比较；本例优先均干，头距变化有阅读收益。24音符记录／3隐藏休止及202字节完整MIDI保持；重载最大0.01SVG单位，未测独立活动层。",
     "user_preference_confirmed": false,
     "user_real_score_candidate": false,
     "software_adaptation_changes": 0
@@ -3557,6 +3558,25 @@
       "user_preference_confirmed": false,
       "user_real_score_candidate": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "TEMPO_EQUATION_CLARITY.md",
+      "evidence": "tempo_equation_evidence.json",
+      "completed_conditions": 3,
+      "planned_conditions": 3,
+      "saved_reloaded_versions": [
+        1,
+        1
+      ],
+      "native_CLI_calls": 24,
+      "valid_final_native_calls": 12,
+      "input_probe_native_calls": 12,
+      "new_conditions": 3,
+      "reused_conditions": 0,
+      "description": "确定的6/8附点四分80→4/4四分80关系，比较新行等式、方向提示与前行预告／确认；本例优先后者。63记录／21起音／310字节完整MIDI保持，B重载除title相同；Madoka作者方向未定。",
+      "user_preference_confirmed": false,
+      "user_real_score_candidate": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
@@ -3572,22 +3592,24 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "TEMPO_EQUATION_CLARITY.md",
-    "evidence": "tempo_equation_evidence.json",
-    "official_full_pages_reread": [
-      1,
-      2,
-      3,
-      4
-    ],
+    "reference": "STEM_OPTICAL_SPACING_STUDY.md",
+    "evidence": "stem_optical_spacing_evidence.json",
+    "official_pages_reread": {
+      "A045": [
+        11
+      ],
+      "A052": [
+        5,
+        6
+      ]
+    },
     "Gould_full_printed_page_rereads": [
-      184,
-      185,
-      186
+      41
     ],
+    "LilyPond_targeted_body_sections": 2,
     "new_Gould_coverage": 0,
     "new_fixed_resource_completions": 0,
-    "scope": "Directional hypotheses andadvance preparation testedonoriginalconfirmed-intent fixture,notMadokaadoption."
+    "scope": "Head/stem opticalreference andactualMuseScope;Doricoindextextonly,nofigures/runtime.NewR10creditsnotinterventions."
   },
   "judgment_review_history": [
     {
@@ -4113,6 +4135,24 @@
       "new_Gould_coverage": 0,
       "new_fixed_resource_completions": 0,
       "scope": "Fannedgroup speed/duration,conditionalhalfbeams andwholebarrestvisualcentre; continuousvideo/audio andpart2unread."
+    },
+    {
+      "reference": "TEMPO_EQUATION_CLARITY.md",
+      "evidence": "tempo_equation_evidence.json",
+      "official_full_pages_reread": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "Gould_full_printed_page_rereads": [
+        184,
+        185,
+        186
+      ],
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "Directional hypotheses andadvance preparation testedonoriginalconfirmed-intent fixture,notMadokaadoption."
     }
   ],
   "latest_source_identity_review": {

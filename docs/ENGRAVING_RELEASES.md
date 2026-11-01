@@ -1,5 +1,7 @@
 # 净书知识库与skill发布记录
 
+**0.27之后工作分支补充（2026-11-02）：** [跨表光学参照](engraving/STEM_OPTICAL_SPACING_STUDY.md)三条件／一重载，保音乐与首末位置；本构型均干更稳、Local无变化。三原创输入一图可用；固定0.27标签和证据保持，资料16/25余9，无适配。
+
 ## 0.27.0 — 2026-11-02
 
 固定R08技术恢复／持续、R09小谱角色、R11第一部分68/68预览与[梁形节奏含义](engraving/FANNED_BEAMS_READING.md)，以及两项原生研究：[Local relayout](engraving/BEAM_OPERATIONS_STUDY.md)4/4条件保护共同起音，[速度等式](engraving/TEMPO_EQUATION_CLARITY.md)3/3条件比较提前准备。七有效条件、两版重载；38次实际CLI含12失败输入探针，失败不作有效候选。

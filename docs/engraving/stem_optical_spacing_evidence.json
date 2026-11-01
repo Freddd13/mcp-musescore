@@ -1,0 +1,836 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "STEM_OPTICAL_SPACING_STUDY.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "bd1d1d89b45133a4d19f6a3584743d2768e79b7e",
+    "reason": "Published fixed0.27,tempo relation fixture andKB/skill"
+  },
+  "scope": {
+    "date": "2026-11-02",
+    "purpose": "Identify head-origin and stem-axis spacing in an original cross-staff beam,compare one explicit optical alternative",
+    "planned_conditions": 3,
+    "planned_saved_reload": 1,
+    "planned_native_calls": 14,
+    "private_budget_bytes": 786432,
+    "global_check_allowance_bytes": 3281977344,
+    "global_exact_total_known": false,
+    "original_sources_read_only": true,
+    "software_adaptation": false,
+    "runtime_copies": 0,
+    "source_score_copies": 0,
+    "initial_conditions": 2,
+    "scope_revision_reason": "Also check existing Local relayout on this isolatedcrossstaff group; priornegativeexample hadsynchronizedotherstaff anddoesnotdecidealluses."
+  },
+  "reference_views": [
+    {
+      "path": "tmp/engraving/corpus/A045/page-11.jpg",
+      "sha256": "4f1f3502b576b1433e81fcd9327f1380e875b59c0750eb561898f4f503b55bae",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A052/page-5.jpg",
+      "sha256": "2a897e74be8dc1fe3f3208f48e9691b3797eadf56b890b6f4d6d114318b3454b",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A052/page-6.jpg",
+      "sha256": "1943454f73550fad703c6e3663ae551cba15992c6b2fb0ea3b749061a8bdf816",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/study-2026-10-19/book-41.jpg",
+      "sha256": "e09b0e9b2e136364ea45cbc16e7a3c24f5c28c19fe8e719e940b3d83201bb021",
+      "actually_viewed": true,
+      "reused": true
+    }
+  ],
+  "official_PDFs_reread": {
+    "A045": [
+      11
+    ],
+    "A052": [
+      5,
+      6
+    ],
+    "old_coordinate_measurements_reused_not_new_measurements": {
+      "A045_source": "fate_frieren_closeout_evidence.json",
+      "A052_M": {
+        "where": "A052 M p6s6 first-bar final two beats",
+        "head_x_pt": [
+          126.612,
+          133.704,
+          150.174,
+          157.248,
+          174.6,
+          181.692,
+          198.342,
+          205.236
+        ],
+        "stem_axes_pt": [
+          126.828,
+          138.726,
+          150.39,
+          162.27,
+          174.816,
+          186.714,
+          198.558,
+          210.258
+        ],
+        "head_gap_range_pt": [
+          6.893999999999977,
+          17.352000000000004
+        ],
+        "stem_gap_range_pt": [
+          11.663999999999987,
+          12.545999999999992
+        ],
+        "decision": "Keep alternating16th chord attacks on shared two-beam groups. Opposite head sides make head-origin gaps alternate; stem axes retain near-stable pulse. Do not snap two staves into simultaneous chords or geometrically equalize head x."
+      }
+    }
+  },
+  "Gould": {
+    "full_printed_page_rereads": [
+      41
+    ],
+    "physical_pages": [
+      61
+    ],
+    "new_unique_coverage": 0
+  },
+  "primary_web": {
+    "LilyPond_version": "2.26",
+    "targeted_body_sections_read": [
+      "https://lilypond.org/doc/v2.26/Documentation/essay/optical-spacing",
+      "https://lilypond.org/doc/v2.26/Documentation/notation/horizontal-spacing-overview"
+    ],
+    "figures_read": 0,
+    "Dorico6_2": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_beaming/notation_reference_beaming_cross_staff_optical_changing_to_t.html",
+    "Dorico_actual_scope": "Search-index fullprocedure/result/captions; directbodyCachemiss,no actualfigures orruntime",
+    "Dorico4_3_30_tutorial": "https://www.steinberg.help/api/khub/documents/NCxfO9xLRKK36Jmv~ivZdg/content",
+    "tutorial_actual_scope": "Only search-index section onnoteandcrossstaff spacing; archive403,APItoolrejected12559521bytelength,noPDFdownload,nofiguresread"
+  },
+  "R10_followup": {
+    "resource": "R10",
+    "new_source_statements": [
+      {
+        "url": "https://www.mymusic5.com/zh-hans/video/56360",
+        "material": "Purrvoice群青中文作者简介，含多声部与和声密度的自述及多人鸣谢；机器翻译不另算来源",
+        "actual_access": "search-index body",
+        "credit_name": "拾廿七",
+        "score_images_read": 0,
+        "individual_intervention_confirmed": false
+      },
+      {
+        "url": "https://www.mymusic5.com/zh-hans/purrvoicehotdog/126684",
+        "material": "杯中明月商品索引；谱面参与者为待追线索，自动摘要中的速度／声部数未作谱面事实",
+        "actual_access": "search-index description",
+        "score_images_read": 0,
+        "individual_intervention_confirmed": false
+      }
+    ],
+    "direct_fetches": {
+      "https://www.mymusic5.com/PurrvoiceHotdog/56360": 403,
+      "https://www.mymusic5.com/zh-hans/purrvoicehotdog/126684": 403,
+      "https://www.mymusic5.com/zh-hans/video/56360": "web cache miss",
+      "https://www.bilibili.com/video/BV1iP41147ye/": 412
+    },
+    "irrelevant_image_search_results_not_used": true,
+    "fixed_resource_completion_delta": 0,
+    "repeated_unchanged_requests_planned": 0
+  },
+  "native": {
+    "preparation": {
+      "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+      "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+      "manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+      "manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+      "runtime_files_before": 1936,
+      "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\native-config"
+    },
+    "verification": {
+      "MusicXML": [
+        {
+          "name": "baseline",
+          "notes": 8,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "stem-even",
+          "notes": 8,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "local",
+          "notes": 8,
+          "hidden_support_rests": 1
+        }
+      ],
+      "compared_note_records": 24,
+      "compared_hidden_rests": 3,
+      "MIDI_full_bytes_equal": true,
+      "MIDI_bytes": 202,
+      "independent_attacks": 8,
+      "conditions": [
+        3,
+        3
+      ],
+      "saved_reload": [
+        1,
+        1
+      ],
+      "reload_max_coordinate_delta_svg": 0.009999999999990905,
+      "native_CLI_calls": 14,
+      "runtime_files_after": 1936,
+      "local_geometry_equals_baseline": true,
+      "outer_stem_and_head_endpoints_unchanged": true,
+      "glyph_outlines_unchanged": true,
+      "independent_other_voice_not_tested": true,
+      "geometry": {
+        "baseline": {
+          "head_x": [
+            540.839,
+            620.82,
+            700.802,
+            780.784,
+            860.765,
+            940.747,
+            1020.73,
+            1100.71
+          ],
+          "head_y": [
+            401.74,
+            702.142,
+            401.74,
+            702.142,
+            401.74,
+            702.142,
+            401.74,
+            702.142
+          ],
+          "stem_x": [
+            542.063,
+            648.524,
+            702.026,
+            808.487,
+            861.989,
+            968.451,
+            1021.95,
+            1128.41
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "head_gaps": [
+            79.981,
+            79.98199999999997,
+            79.98199999999997,
+            79.981,
+            79.98199999999997,
+            79.98300000000006,
+            79.98000000000002
+          ],
+          "head_max_min": 1.0000375093773448,
+          "stem_gaps": [
+            106.46100000000001,
+            53.50199999999995,
+            106.46100000000001,
+            53.502000000000066,
+            106.46199999999999,
+            53.499000000000024,
+            106.46000000000004
+          ],
+          "stem_max_min": 1.98998112114245
+        },
+        "stem-even": {
+          "head_x": [
+            540.839,
+            598.123,
+            708.367,
+            765.651,
+            875.895,
+            933.178,
+            1043.42,
+            1100.71
+          ],
+          "head_y": [
+            401.74,
+            702.142,
+            401.74,
+            702.142,
+            401.74,
+            702.142,
+            401.74,
+            702.142
+          ],
+          "stem_x": [
+            542.063,
+            625.827,
+            709.591,
+            793.355,
+            877.119,
+            960.882,
+            1044.65,
+            1128.41
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "head_gaps": [
+            57.28399999999999,
+            110.24399999999991,
+            57.28399999999999,
+            110.24400000000003,
+            57.283000000000015,
+            110.24200000000008,
+            57.289999999999964
+          ],
+          "head_max_min": 1.9245500410243876,
+          "stem_gaps": [
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76299999999992,
+            83.76800000000014,
+            83.75999999999999
+          ],
+          "stem_max_min": 1.000095510983765
+        },
+        "local": {
+          "head_x": [
+            540.839,
+            620.82,
+            700.802,
+            780.784,
+            860.765,
+            940.747,
+            1020.73,
+            1100.71
+          ],
+          "head_y": [
+            401.74,
+            702.142,
+            401.74,
+            702.142,
+            401.74,
+            702.142,
+            401.74,
+            702.142
+          ],
+          "stem_x": [
+            542.063,
+            648.524,
+            702.026,
+            808.487,
+            861.989,
+            968.451,
+            1021.95,
+            1128.41
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "head_gaps": [
+            79.981,
+            79.98199999999997,
+            79.98199999999997,
+            79.981,
+            79.98199999999997,
+            79.98300000000006,
+            79.98000000000002
+          ],
+          "head_max_min": 1.0000375093773448,
+          "stem_gaps": [
+            106.46100000000001,
+            53.50199999999995,
+            106.46100000000001,
+            53.502000000000066,
+            106.46199999999999,
+            53.499000000000024,
+            106.46000000000004
+          ],
+          "stem_max_min": 1.98998112114245
+        },
+        "stem-even-reload": {
+          "head_x": [
+            540.839,
+            598.124,
+            708.367,
+            765.652,
+            875.896,
+            933.179,
+            1043.43,
+            1100.71
+          ],
+          "head_y": [
+            401.74,
+            702.142,
+            401.74,
+            702.142,
+            401.74,
+            702.142,
+            401.74,
+            702.142
+          ],
+          "stem_x": [
+            542.063,
+            625.827,
+            709.591,
+            793.356,
+            877.12,
+            960.883,
+            1044.65,
+            1128.42
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "head_gaps": [
+            57.28499999999997,
+            110.24299999999994,
+            57.28500000000008,
+            110.24399999999991,
+            57.283000000000015,
+            110.25100000000009,
+            57.27999999999997
+          ],
+          "head_max_min": 1.92477304469274,
+          "stem_gaps": [
+            83.76400000000001,
+            83.76400000000001,
+            83.76499999999999,
+            83.76400000000001,
+            83.76300000000003,
+            83.76700000000005,
+            83.76999999999998
+          ],
+          "stem_max_min": 1.0000835691176289
+        }
+      }
+    },
+    "calls": [
+      {
+        "source": "baseline.mscx",
+        "output": "exports/baseline.svg",
+        "started_utc": "2026-11-01T19:22:05.983257+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.724,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\baseline.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\baseline.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "stem-even.mscx",
+        "output": "exports/stem-even.svg",
+        "started_utc": "2026-11-01T19:24:31.875906+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.631,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\stem-even.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\stem-even.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "local.mscx",
+        "output": "exports/local.svg",
+        "started_utc": "2026-11-01T19:26:26.638994+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.581,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\local.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\local.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "baseline.mscx",
+        "output": "exports/baseline.pdf",
+        "started_utc": "2026-11-01T19:27:42.772141+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.696,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\baseline.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\baseline.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "baseline.mscx",
+        "output": "exports/baseline.musicxml",
+        "started_utc": "2026-11-01T19:27:45.577934+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.48,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\baseline.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\baseline.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "baseline.mscx",
+        "output": "exports/baseline.mid",
+        "started_utc": "2026-11-01T19:27:48.188191+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.339,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\baseline.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\baseline.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "stem-even.mscx",
+        "output": "exports/stem-even.pdf",
+        "started_utc": "2026-11-01T19:27:50.646175+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.12,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\stem-even.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\stem-even.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "stem-even.mscx",
+        "output": "exports/stem-even.musicxml",
+        "started_utc": "2026-11-01T19:27:53.894842+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.714,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\stem-even.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\stem-even.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "stem-even.mscx",
+        "output": "exports/stem-even.mid",
+        "started_utc": "2026-11-01T19:27:56.727835+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.606,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\stem-even.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\stem-even.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "local.mscx",
+        "output": "exports/local.pdf",
+        "started_utc": "2026-11-01T19:27:59.447689+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.021,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\local.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\local.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "local.mscx",
+        "output": "exports/local.musicxml",
+        "started_utc": "2026-11-01T19:28:02.593373+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.621,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\local.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\local.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "local.mscx",
+        "output": "exports/local.mid",
+        "started_utc": "2026-11-01T19:28:05.329031+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.683,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\local.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\local.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "stem-even.mscx",
+        "output": "stem-even-saved.mscx",
+        "started_utc": "2026-11-01T19:28:08.156314+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.477,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\stem-even.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\stem-even-saved.mscx>\r\n... success!\r\n"
+      },
+      {
+        "source": "stem-even-saved.mscx",
+        "output": "exports/stem-even-reload.svg",
+        "started_utc": "2026-11-01T19:28:10.747664+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.449,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\stem-even-saved.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-spacing-2026-11-02\\exports\\stem-even-reload.svg>\r\n... success!\r\n"
+      }
+    ],
+    "recipe": [
+      {
+        "source_staff": 1,
+        "display_staff": 1,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth",
+        "stem": "down"
+      },
+      {
+        "source_staff": 1,
+        "display_staff": 2,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "eighth",
+        "stem": "up"
+      },
+      {
+        "source_staff": 1,
+        "display_staff": 1,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth",
+        "stem": "down"
+      },
+      {
+        "source_staff": 1,
+        "display_staff": 2,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "eighth",
+        "stem": "up"
+      },
+      {
+        "source_staff": 1,
+        "display_staff": 1,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth",
+        "stem": "down"
+      },
+      {
+        "source_staff": 1,
+        "display_staff": 2,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "eighth",
+        "stem": "up"
+      },
+      {
+        "source_staff": 1,
+        "display_staff": 1,
+        "measure": 1,
+        "onset_q": "3",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth",
+        "stem": "down"
+      },
+      {
+        "source_staff": 1,
+        "display_staff": 2,
+        "measure": 1,
+        "onset_q": "7/2",
+        "duration_q": "1/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "eighth",
+        "stem": "up"
+      }
+    ],
+    "candidate_construction": {
+      "method": "Equal stem axes between unchanged first and last stems,Chord offset only",
+      "target_stem_x_svg": [
+        542.063,
+        625.8268571428572,
+        709.5907142857143,
+        793.3545714285715,
+        877.1184285714287,
+        960.8822857142858,
+        1044.6461428571429,
+        1128.41
+      ],
+      "offset_sp": [
+        0.0,
+        -1.0200046223774408,
+        0.33995660101178915,
+        -0.6800480213656517,
+        0.6799132020235783,
+        -0.3401363601345604,
+        1.019959682596748,
+        0.0
+      ]
+    },
+    "published_comparison_panels": [
+      "baseline",
+      "stem-even"
+    ],
+    "all_three_PDF_panels_actually_viewed": true,
+    "published_crop": [
+      65,
+      70,
+      515,
+      345
+    ],
+    "pixels_per_point": 2,
+    "public_comparison_actually_viewed": true,
+    "glyphs": "Leland,confirmed inMusicXML;no fontchange",
+    "user_real_score_candidate": false,
+    "new_engine_or_plugin_code": false
+  },
+  "judgment": {
+    "preferred_for_this_fixture": "stem-even comparison",
+    "why": "Equalstemaxes givesstable commonbeam pulse; head-origin intervals arean unsuitable solecriterion here",
+    "local_relayout": "exactlybaselinegeometry inthisfixture",
+    "independent_active_voice_not_tested": true,
+    "fixed_width_only_mm": 70,
+    "max_Chord_offset_sp": 1.0200046223774408,
+    "not_global_style_preset": true,
+    "next_limits": [
+      "activeotherlayers/sharedonsets",
+      "accidentals andseconds/chords",
+      "otherwidths anddensities"
+    ],
+    "fixed_width_parameter": "pagePrintableWidth=70mm;native system indentation andprefatory material remainincluded inactual geometry"
+  },
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "id": "A045",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "pages": 14,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true,
+      "unchanged": true
+    }
+  ],
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/stem-optical-baseline.mscx",
+      "bytes": 5311,
+      "sha256": "19e4863e92e64a848415ff93a03cd319491b7e5b212bb4465bba49b7b728259a",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-even.mscx",
+      "bytes": 5584,
+      "sha256": "8521a608a2350323fa397bb10badee40233210ed2ad72ef0922958e879d745d8",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-local.mscx",
+      "bytes": 5385,
+      "sha256": "868c3827f1d23278f1f0b1bbfac221457dad4c784bf353715ede21b7fe87be00",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-comparison.png",
+      "bytes": 24597,
+      "sha256": "e159159ce121c880dc09cb2bd28ef9cb2472a5395aff92ed6a92cb96237ab46e",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "coverage": {
+    "new_official_first_pass": 0,
+    "new_deep_scores": 0,
+    "new_Gould_pages": 0,
+    "new_fixed_resource_completions": 0,
+    "complete_resources": [
+      16,
+      25
+    ],
+    "remaining": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "new_user_preferences": 0,
+    "new_software_adaptation": false
+  },
+  "cache": {
+    "batch": "tmp/engraving/stem-optical-spacing-2026-11-02",
+    "budget_bytes": 786432,
+    "global_check_allowance_bytes": 3281977344,
+    "global_exact_total_known": false,
+    "new_source_media": 0,
+    "original_score_copies": 0,
+    "runtime_copies": 0,
+    "deletions": 0,
+    "reference_images_in_Git": 0,
+    "private_bytes": 239939,
+    "files": 35,
+    "at_utc": "2026-11-01T19:41:44.291909+00:00",
+    "measurement_includes_audit": true,
+    "audit": "tmp/engraving/stem-optical-spacing-2026-11-02/audit.json",
+    "audit_sha256": "ddc82190eb21031dddd6c94f2b2ec848fc4e01a5aeffcf5d040fd2dade29c46d",
+    "public_assets_bytes": 40877
+  },
+  "checks": {
+    "native": "passed",
+    "protected_sources": "5/5 passed",
+    "library": "passed: progress.py --check",
+    "skill": "passed: quick_validate.py",
+    "query": "6/6 tests passed",
+    "actual_optical_query": "spacingquery符干头距光学 retrieves relevant STYX/SUGAR crossstaff case; routing isretrieval,notaccuracy",
+    "protected_after": "5/5 passed",
+    "reference_views_after": "4/4 passed",
+    "public_asset_hashes": "4/4 passed",
+    "case_links": "passed",
+    "fixed_release_fingerprints": "31/31 unchanged0.27 tag files",
+    "working_branch_supplement": true
+  }
+}

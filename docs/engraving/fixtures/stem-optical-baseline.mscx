@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<museScore version="3.02">
+  <programVersion>3.6.3</programVersion>
+  <programRevision />
+  <Score>
+    <LayerTag id="0" tag="default" />
+    <currentLayer>0</currentLayer>
+    <Division>480</Division>
+    <Style>
+      <pagePrintableWidth>2.7559055118110236</pagePrintableWidth>
+      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+      <akkoladeDistance>8.5</akkoladeDistance>
+      <minMeasureWidth>0</minMeasureWidth>
+      <lastSystemFillLimit>0</lastSystemFillLimit>
+      <showMeasureNumberOne>1</showMeasureNumberOne>
+      <measureNumberInterval>1</measureNumberInterval>
+      <Spatium>1.57</Spatium>
+    </Style>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <metaTag name="arranger" />
+    <metaTag name="composer" />
+    <metaTag name="copyright" />
+    <metaTag name="creationDate">2026-11-02</metaTag>
+    <metaTag name="lyricist" />
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
+    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="poet" />
+    <metaTag name="source">CC0-1.0 original alternating cross-staff eighths; notehead-versus-stem optical diagnostic,not a reference transcription or global4/4 beaming template.</metaTag>
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
+    <metaTag name="workTitle" />
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>std</name>
+        </StaffType>
+        <bracket type="1" span="2" col="0" />
+      </Staff>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>std</name>
+        </StaffType>
+        <defaultClef>F</defaultClef>
+      </Staff>
+      <trackName>Piano</trackName>
+      <Instrument id="piano">
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName />
+        <instrumentId>keyboard.piano</instrumentId>
+        <Channel>
+          <program value="0" />
+          <synti>Fluid</synti>
+        </Channel>
+      </Instrument>
+    </Part>
+    <Staff id="1">
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+          </Clef>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+          </TimeSig>
+          <Chord>
+            <BeamMode>begin</BeamMode>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <staffMove>1</staffMove>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <staffMove>1</staffMove>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <staffMove>1</staffMove>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <BeamMode>mid</BeamMode>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <staffMove>1</staffMove>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </voice>
+      </Measure>
+    </Staff>
+    <Staff id="2">
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+          </Clef>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+          </TimeSig>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+          </Rest>
+        </voice>
+      </Measure>
+    </Staff>
+  </Score>
+</museScore>
