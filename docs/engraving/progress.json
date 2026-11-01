@@ -3265,43 +3265,39 @@
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
     "date": "2026-11-02",
-    "scope": "Aether六间距小节／三动态语境、两问题回查，5Gould整页复读；四纸面候选，无新原生。",
-    "new_native_diagnostic_conditions": 0,
-    "native_CLI_calls": 0,
-    "book_reread_pages": 5,
-    "official_score_reread_pages": 2,
+    "scope": "Aether八小节原生重建及四目标检查；纠正必要D还原／共享头，等预算替代0/4。",
+    "new_native_diagnostic_conditions": 1,
+    "native_CLI_calls": 21,
+    "book_reread_pages": 0,
+    "official_score_reread_pages": 0,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "AETHER_SPACING_LAYERS.md"
+      "AETHER_NATIVE_RECONSTRUCTION.md"
     ],
-    "review_evidence": "aether_spacing_layers_evidence.json",
-    "software_adaptation": false
+    "review_evidence": "aether_native_reconstruction_evidence.json",
+    "software_adaptation": false,
+    "official_system_views_reused": 2
   },
   "latest_native_study": {
-    "reference": "STEM_OPTICAL_SHAPES_MARKS.md",
-    "evidence": "stem_optical_shapes_marks_evidence.json",
-    "completed_conditions": 9,
-    "planned_conditions": 9,
+    "reference": "AETHER_NATIVE_RECONSTRUCTION.md",
+    "evidence": "aether_native_reconstruction_evidence.json",
+    "completed_conditions": 1,
+    "planned_conditions": 1,
     "contexts": [
-      2,
-      2
-    ],
-    "parent_boundary_batch": [
       4,
       4
     ],
     "saved_reloaded_versions": [
-      2,
-      2
+      1,
+      1
     ],
-    "native_CLI_calls": 48,
-    "valid_final_native_calls": 40,
-    "input_probe_native_calls": 6,
-    "exchange_diagnostic_calls": 2,
-    "new_conditions": 9,
+    "native_CLI_calls": 21,
+    "valid_final_native_calls": 7,
+    "input_probe_native_calls": 14,
+    "new_conditions": 1,
     "reused_conditions": 0,
-    "description": "小头原干轴近保持，已有字体真实度量及微差分判；标记两版四交点，文字原生可比较、交换重显及移梁失败。84音／九隐藏休止及各组MIDI保持；四边界覆盖闭合，非全部问题解决。",
+    "description": "八小节私有重建，当前5＋3行四处近匀保默认；原等预算替代仍0/4。纠正m31 D还原，93音／3休止、86MIDI起音及微差重载已核。",
     "user_preference_confirmed": false,
     "user_real_score_candidate": false,
     "software_adaptation_changes": 0
@@ -3653,19 +3649,46 @@
       "user_preference_confirmed": false,
       "user_real_score_candidate": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "STEM_OPTICAL_SHAPES_MARKS.md",
+      "evidence": "stem_optical_shapes_marks_evidence.json",
+      "completed_conditions": 9,
+      "planned_conditions": 9,
+      "contexts": [
+        2,
+        2
+      ],
+      "parent_boundary_batch": [
+        4,
+        4
+      ],
+      "saved_reloaded_versions": [
+        2,
+        2
+      ],
+      "native_CLI_calls": 48,
+      "valid_final_native_calls": 40,
+      "input_probe_native_calls": 6,
+      "exchange_diagnostic_calls": 2,
+      "new_conditions": 9,
+      "reused_conditions": 0,
+      "description": "小头原干轴近保持，已有字体真实度量及微差分判；标记两版四交点，文字原生可比较、交换重显及移梁失败。84音／九隐藏休止及各组MIDI保持；四边界覆盖闭合，非全部问题解决。",
+      "user_preference_confirmed": false,
+      "user_real_score_candidate": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
-    "reference": "CASTING_OFF_READING.md",
-    "evidence": "casting_off_evidence.json",
-    "reviewed_cases": 2,
-    "planned_cases": 2,
+    "reference": "AETHER_NATIVE_RECONSTRUCTION.md",
+    "evidence": "aether_native_reconstruction_evidence.json",
+    "reviewed_cases": 4,
+    "planned_cases": 4,
     "decisions": {
-      "retain_dense_three_bar_system": 1,
-      "retain_sparse_seven_bar_ending": 1
+      "preserve_in_new_native_budget": 4
     },
-    "scope": "已知谱复读与规范／坐标核查；稳定脉冲、包络下界及长值位置的条件解释，不计独立审美准确率或原生迁移。",
-    "new_native_conditions": 0
+    "scope": "已知实谱的私有重建；不同于原七小节预算，非原谱改善或审美采用。",
+    "new_native_conditions": 1
   },
   "latest_supplemental_reading": {
     "reference": "AETHER_SPACING_LAYERS.md",
@@ -4348,5 +4371,13 @@
       "弧线／发夹／指法通道"
     ],
     "remaining_items": []
+  },
+  "next_aether_budget_comparison": {
+    "reference": "AETHER_NATIVE_RECONSTRUCTION.md",
+    "completed_target_reconstruction_checks": 4,
+    "planned_target_reconstruction_checks": 4,
+    "source_budget_comparable_replacements_completed": 0,
+    "source_budget_comparable_replacements_planned": 4,
+    "next": "先m33做1/4同预算比较；保E确认号前格、共同起音和完整标记。其它三处按实际可见问题推进，允许保留，不强做四个均分候选。"
   }
 }

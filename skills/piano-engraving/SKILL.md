@@ -89,6 +89,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 `AETHER_SPACING_LAYERS.md`把实谱宽首格分为优先比较、保护变音后比较和保留；先看相对波动及实际占位。提示变音可保读者确认功能，省写另列；将来重分须联合同刻低部和标记。上下力度通道按角色保留，PDF文本页漏头的实例也提醒先核原图与其它提取结果。纸面坐标不当原生候选。
 
+`AETHER_NATIVE_RECONSTRUCTION.md`补四处原生检查：新预算已近匀时保默认，5＋3分行不可代替原七小节预算。变音必要性结合调号和谱位，不能只凭cautionary标志；共享符头可以对应两个声部时值，先保护结构再调整间距。
+
 ## 需要候选时
 
 本项目提供的用户原PDF／MSCZ保持只读，使用独立副本或原创fixture，不操作当前GUI来做离线试验。其它工程按用户实际授权处理；分析请求不隐含覆盖源文件。详细原生比较方法见[references/native-review.md](references/native-review.md)。

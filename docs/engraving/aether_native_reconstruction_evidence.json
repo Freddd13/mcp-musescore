@@ -1,0 +1,561 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "AETHER_NATIVE_RECONSTRUCTION.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "ea8b6d3",
+    "reason": "Six paper spacing profiles and three dynamic contexts; native replacements were0/4."
+  },
+  "scope": {
+    "date": "2026-11-02",
+    "planned_target_measures": [
+      30,
+      31,
+      33,
+      35
+    ],
+    "planned_context_measures": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36
+    ],
+    "private_reconstruction": true,
+    "publisher_editable_source_available": false,
+    "planned_native_comparison_conditions": 2,
+    "planned_saved_reload": 1,
+    "private_budget_bytes": 3145728,
+    "original_sources_read_only": true,
+    "runtime_copies": 0,
+    "software_adaptation": false,
+    "font_development": false,
+    "completed_final_native_conditions": 1,
+    "reason_for_scope_change": "Four targets already regular in the new native budget; do not generate a nominal local equalization candidate. Keep source-equivalent budget0/4 explicit.",
+    "new_software_or_font_changes": 0
+  },
+  "native": {
+    "readbacks": [
+      {
+        "name": "baseline-v3",
+        "notes": 93,
+        "rests": 3,
+        "ties": 7,
+        "slurs": 2,
+        "tenutos": 4,
+        "tie_and_slur_endpoints_independently_checked": true
+      },
+      {
+        "name": "baseline-v3-reload",
+        "notes": 93,
+        "rests": 3,
+        "ties": 7,
+        "slurs": 2,
+        "tenutos": 4,
+        "tie_and_slur_endpoints_independently_checked": true
+      }
+    ],
+    "note_records_per_readback": 93,
+    "rest_records_per_readback": 3,
+    "independent_MIDI_attacks": 86,
+    "MIDI_bytes": 736,
+    "MIDI_unchanged_by_final_anchor_and_barline": true,
+    "reload_SVG_identical_except_title": false,
+    "reload_changed_elements": 86,
+    "reload_max_serialized_numeric_delta_svg": 0.010000000000218279,
+    "reload_delta_sp": 0.0005131297063727262,
+    "reload_style_precision_observed": {
+      "original_pagePrintableWidth": 7.244094488188977,
+      "saved_pagePrintableWidth": "7.24409"
+    },
+    "sp_svg": 19.488249999999994,
+    "target_profiles": [
+      {
+        "measure": 30,
+        "normal_side_fast_x_svg": [
+          1055.45,
+          1119.06,
+          1182.67,
+          1246.28,
+          1309.9,
+          1373.51
+        ],
+        "gaps_sp": [
+          3.26401806216566,
+          3.2640180621656714,
+          3.26401806216566,
+          3.264531191872033,
+          3.26401806216566
+        ],
+        "max_min_gap_ratio": 1.0001572079861691,
+        "native_measure_width_sp": 22.211000000000002,
+        "judgment": "preserve in this native row budget; no visible reason for a local even-spacing replacement"
+      },
+      {
+        "measure": 31,
+        "normal_side_fast_x_svg": [
+          1482.6,
+          1546.22,
+          1609.83,
+          1673.44,
+          1737.05,
+          1800.67
+        ],
+        "gaps_sp": [
+          3.264531191872033,
+          3.26401806216566,
+          3.2640180621656714,
+          3.26401806216566,
+          3.264531191872033
+        ],
+        "max_min_gap_ratio": 1.0001572079861691,
+        "native_measure_width_sp": 21.919,
+        "judgment": "preserve in this native row budget; no visible reason for a local even-spacing replacement"
+      },
+      {
+        "measure": 33,
+        "normal_side_fast_x_svg": [
+          2386.01,
+          2453.11,
+          2520.22,
+          2587.32,
+          2654.42,
+          2721.52
+        ],
+        "gaps_sp": [
+          3.4431003296858327,
+          3.443613459392182,
+          3.443100329685856,
+          3.4431003296858327,
+          3.4431003296858327
+        ],
+        "max_min_gap_ratio": 1.0001490312965688,
+        "native_measure_width_sp": 22.488999999999997,
+        "judgment": "preserve in this native row budget; no visible reason for a local even-spacing replacement"
+      },
+      {
+        "measure": 35,
+        "normal_side_fast_x_svg": [
+          1232.62,
+          1357.81,
+          1483.0,
+          1608.18,
+          1733.37,
+          1858.56
+        ],
+        "gaps_sp": [
+          6.423870793939943,
+          6.423870793939943,
+          6.423357664233582,
+          6.4238707939399315,
+          6.423870793939943
+        ],
+        "max_min_gap_ratio": 1.0000798849656494,
+        "native_measure_width_sp": 40.373000000000005,
+        "judgment": "preserve in this native row budget; no visible reason for a local even-spacing replacement"
+      }
+    ],
+    "native_target_checks": [
+      4,
+      4
+    ],
+    "local_replacements": 0,
+    "publisher_source_relayout": false,
+    "native_calls": 21,
+    "final_calls": 7,
+    "preliminary_or_rejected_probe_calls": 14,
+    "final_conditions": [
+      1,
+      1
+    ],
+    "saved_reload": [
+      1,
+      1
+    ],
+    "protected_sources": 6,
+    "runtime_files_after": 1936
+  },
+  "source_transcription_check": {
+    "staff_measure_checks": [
+      16,
+      16
+    ],
+    "source_visible_head_records": 92,
+    "logical_note_records": 93,
+    "shared_visible_heads": [
+      {
+        "measure": 36,
+        "staff": 1,
+        "pitch": "C#4",
+        "onset_q": "3/2",
+        "reason": "One visible shared head serves upper quarter and inner eighth; native logical recipe contains two notes."
+      }
+    ],
+    "m31_natural": {
+      "text": "n",
+      "x": 230.35732,
+      "y": 721.092
+    },
+    "m31_natural_diatonic": "D4",
+    "m31_natural_pitch_required": true,
+    "rows": [
+      {
+        "measure": 29,
+        "staff": 1,
+        "source_visible_head_records": 9,
+        "diatonic_pitch_counts": {
+          "B3": 2,
+          "D4": 2,
+          "G4": 1,
+          "G3": 4
+        },
+        "expected_logical_note_records": 9
+      },
+      {
+        "measure": 29,
+        "staff": 2,
+        "source_visible_head_records": 2,
+        "diatonic_pitch_counts": {
+          "G1": 1,
+          "G2": 1
+        },
+        "expected_logical_note_records": 2
+      },
+      {
+        "measure": 30,
+        "staff": 1,
+        "source_visible_head_records": 9,
+        "diatonic_pitch_counts": {
+          "G4": 1,
+          "D4": 2,
+          "B3": 2,
+          "G3": 4
+        },
+        "expected_logical_note_records": 9
+      },
+      {
+        "measure": 30,
+        "staff": 2,
+        "source_visible_head_records": 2,
+        "diatonic_pitch_counts": {
+          "G1": 1,
+          "G2": 1
+        },
+        "expected_logical_note_records": 2
+      },
+      {
+        "measure": 31,
+        "staff": 1,
+        "source_visible_head_records": 9,
+        "diatonic_pitch_counts": {
+          "G4": 1,
+          "D4": 2,
+          "B3": 2,
+          "G3": 4
+        },
+        "expected_logical_note_records": 9
+      },
+      {
+        "measure": 31,
+        "staff": 2,
+        "source_visible_head_records": 1,
+        "diatonic_pitch_counts": {
+          "G2": 1
+        },
+        "expected_logical_note_records": 1
+      },
+      {
+        "measure": 32,
+        "staff": 1,
+        "source_visible_head_records": 11,
+        "diatonic_pitch_counts": {
+          "G4": 2,
+          "C4": 2,
+          "B3": 3,
+          "G3": 2,
+          "B4": 1,
+          "E4": 1
+        },
+        "expected_logical_note_records": 11
+      },
+      {
+        "measure": 32,
+        "staff": 2,
+        "source_visible_head_records": 2,
+        "diatonic_pitch_counts": {
+          "C2": 1,
+          "E2": 1
+        },
+        "expected_logical_note_records": 2
+      },
+      {
+        "measure": 33,
+        "staff": 1,
+        "source_visible_head_records": 9,
+        "diatonic_pitch_counts": {
+          "A4": 1,
+          "F4": 1,
+          "C4": 2,
+          "A3": 4,
+          "E4": 1
+        },
+        "expected_logical_note_records": 9
+      },
+      {
+        "measure": 33,
+        "staff": 2,
+        "source_visible_head_records": 2,
+        "diatonic_pitch_counts": {
+          "F2": 1,
+          "C3": 1
+        },
+        "expected_logical_note_records": 2
+      },
+      {
+        "measure": 34,
+        "staff": 1,
+        "source_visible_head_records": 11,
+        "diatonic_pitch_counts": {
+          "A4": 2,
+          "F4": 1,
+          "D4": 2,
+          "B3": 2,
+          "A3": 4
+        },
+        "expected_logical_note_records": 11
+      },
+      {
+        "measure": 34,
+        "staff": 2,
+        "source_visible_head_records": 2,
+        "diatonic_pitch_counts": {
+          "D3": 1,
+          "B2": 1
+        },
+        "expected_logical_note_records": 2
+      },
+      {
+        "measure": 35,
+        "staff": 1,
+        "source_visible_head_records": 9,
+        "diatonic_pitch_counts": {
+          "G4": 1,
+          "E4": 1,
+          "B3": 2,
+          "G3": 4,
+          "D4": 1
+        },
+        "expected_logical_note_records": 9
+      },
+      {
+        "measure": 35,
+        "staff": 2,
+        "source_visible_head_records": 2,
+        "diatonic_pitch_counts": {
+          "E2": 1,
+          "B2": 1
+        },
+        "expected_logical_note_records": 2
+      },
+      {
+        "measure": 36,
+        "staff": 1,
+        "source_visible_head_records": 10,
+        "diatonic_pitch_counts": {
+          "G4": 2,
+          "C4": 2,
+          "A3": 2,
+          "G3": 4
+        },
+        "expected_logical_note_records": 11
+      },
+      {
+        "measure": 36,
+        "staff": 2,
+        "source_visible_head_records": 2,
+        "diatonic_pitch_counts": {
+          "C3": 1,
+          "A2": 1
+        },
+        "expected_logical_note_records": 2
+      }
+    ],
+    "limits": "Diatonic head census plus visual/manual voice and duration recipe; not an automatic PDF-to-MSCX parser or independent proof of every accidental and curve."
+  },
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "id": "A045",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "pages": 14,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A128",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\The Song of Aether - Short Piano Composition in C# Minor.pdf",
+      "sha256": "51778876e470071763f9e5e7234dba5dd7f13d65ba695252c2b9d6874e40f280",
+      "pages": 2,
+      "unchanged": true
+    }
+  ],
+  "host": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "manifest": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets-manifest.json",
+    "runtime_files_before": 1936,
+    "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-native-2026-11-02\\native-config"
+  },
+  "source_inputs": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-native-2026-11-02\\baseline-v3.mscx",
+    "sha256": "7d8c51f5091dd78737423ee01fce07849a1b0f7f6989f23b9ae081d672f7f32b",
+    "publisher_editable_source": false,
+    "private_not_CC0": true
+  },
+  "reference_views": [
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\rumbling-aether-2026-10-30\\A128-p1-s6.jpg",
+      "sha256": "6f2e388889e7d34f48af126817d9f19f5d46f29313840666d6fc0087ac733ec7",
+      "whole_system_viewed": true
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\rumbling-aether-2026-10-30\\A128-p2-s1.jpg",
+      "sha256": "14f0404892e2d22aba3b9ce3372f5cea1238c9b9460018acaf556347a77c721a",
+      "whole_system_viewed": true
+    }
+  ],
+  "final_view": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-native-2026-11-02\\native-reading.jpg",
+    "sha256": "7873e7c9b39de144b6422ae90c3ec9a2c8029ad94149181ffeff046bd7ef6dfc",
+    "whole_two_staff_systems_viewed": true
+  },
+  "probes": {
+    "initial_input_calls": 5,
+    "seven_bar_constraint_probe_calls": 2,
+    "second_input_calls": 7,
+    "seven_bar_probe_actual_rows": [
+      1,
+      6,
+      1
+    ],
+    "seven_bar_constraint_achieved": false,
+    "initial_tenuto_direction_did_not_fix_anchor": true
+  },
+  "judgment": {
+    "checked_native_targets": [
+      4,
+      4
+    ],
+    "preserve_in_new_budget": [
+      30,
+      31,
+      33,
+      35
+    ],
+    "source_equivalent_budget_replacements": [
+      0,
+      4
+    ],
+    "source_wide_first_gap_reproduced": false,
+    "software_root_cause_proven": false,
+    "source_original_layout_improved": false,
+    "main_limits": [
+      "Final native rows5+3 vs reference seven-bar system; different glyphs and full style.",
+      "M36-to-m37 outgoing slur outside excerpt.",
+      "No MusicXML reimport roundtrip or user preference test."
+    ]
+  },
+  "coverage": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "fixed_deep_scores": [
+      24,
+      24
+    ],
+    "fixed_deep_pages": [
+      164,
+      164
+    ],
+    "Gould_file_pages": [
+      696,
+      696
+    ],
+    "resource_scopes": [
+      16,
+      25
+    ],
+    "remaining_resource_scopes": 9,
+    "new_official_unique_pages": 0,
+    "new_Gould_unique_pages": 0,
+    "new_resource_completions": 0
+  },
+  "checks": {
+    "source_music_and_native": "passed: 16source staff-measure counts;2native readbacks;86independent MIDI attacks",
+    "protected_sources": "6/6 passed",
+    "runtime_files": "1936/1936 passed",
+    "library": "passed: progress.py --check and6/6existing retrieval tests",
+    "skill": "passed: quick_validate.py",
+    "query": {
+      "topic": "notation",
+      "query": "Aether D4 共享 还原",
+      "limit": 2,
+      "returned_files": [
+        "AETHER_SPACING_LAYERS.md",
+        "AETHER_NATIVE_RECONSTRUCTION.md"
+      ],
+      "not_engraving_accuracy": true
+    },
+    "new_case_relative_links": "passed"
+  },
+  "cache": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-native-2026-11-02",
+    "private_files": 44,
+    "private_bytes_excluding_audit": 1576749,
+    "private_budget_bytes": 3145728,
+    "private_audit_excluded": true,
+    "new_source_downloads": 0,
+    "original_PDF_MSCZ_or_runtime_copies": 0,
+    "private_transcription_not_original_copy": true,
+    "reference_images_in_Git": 0,
+    "deletions": 0,
+    "new_public_score_assets": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3293511680
+  }
+}

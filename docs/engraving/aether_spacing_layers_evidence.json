@@ -876,10 +876,11 @@
     }
   ],
   "cautionary_context": {
-    "m30_to_m31": "B-sharp3 to B-natural3 after barline",
-    "m32_to_m33": "E-sharp4 to E-natural4 after barline",
-    "editorial_decision": "preserve confirmation function in this layout study; omission would be a separate notation proposal",
-    "not_all_naturals_are_pitch_required": true
+    "m30_to_m31": "B-sharp3 to B-natural3 resets at barline without a printed B-natural sign; printed natural is D4, required against key-signature D-sharp.",
+    "m32_to_m33": "E-sharp4 to E-natural4 after barline; printed E-natural confirmation retained.",
+    "editorial_decision": "Preserve both; m31 D-natural pitch-required, m33 E-natural confirmation; only latter omission is a separate editorial option.",
+    "not_all_naturals_are_pitch_required": true,
+    "correction_reference": "AETHER_NATIVE_RECONSTRUCTION.md"
   },
   "native": {
     "new_conditions": 0,
@@ -1008,5 +1009,14 @@
     "fixed_release_commit": "b0b066e0a5818ed55c43775f843cc9a80487b337",
     "working_branch_supplement": true,
     "git_diff_check": "tracked edits passed; new staged files checked before commit"
-  }
+  },
+  "corrections": [
+    {
+      "date": "2026-11-02",
+      "withdrawn": "Printed m31 natural described as B-natural reminder.",
+      "corrected": "Printed natural aligns with D4; key-signature D-sharp requires cancellation. B3 separately resets at barline.",
+      "evidence": "aether_native_reconstruction_evidence.json",
+      "geometry_unchanged": true
+    }
+  ]
 }
