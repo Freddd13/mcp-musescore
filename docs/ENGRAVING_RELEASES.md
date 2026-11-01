@@ -1,5 +1,7 @@
 # 净书知识库与skill发布记录
 
+**0.26之后工作分支补充（2026-11-02）：** [R08全预览与技术范围](engraving/POLONAISE_TECHNIQUE_READING.md)累计82/82格、六页Gould复读；保Hand muting／ord.、持续背景与再现差异。20入口可用，资料16/25余9；固定0.26标签／证据保持，无新原生／适配。
+
 ## 0.26.0 — 2026-11-02
 
 把预览中的实际读谱任务接入间距判断：[R09](engraving/R09_PREVIEW_COMPARISON.md)修正仅凭编号推分行的旧依据；[R07／R08首批](engraving/BALLADE_POLONAISE_PREVIEW_READING.md)分析持续层与行中入口；[R07续读](engraving/BALLADE_PREVIEW_CONTINUATION.md)完成118/118个预览时间格，并结合Gould p40／43／490明确每拍复杂度、速度和符号空间。R08为34/82、R09为9/32格；R11第一部分6/68格能看梁／休止状态，完整步骤及声音未核。

@@ -2906,7 +2906,7 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "kura_kuusou_closeout_evidence.json",
-        "remaining": "正确目标已实际看34/82格（含两黑场），预选概览批次30/30；持续低部、连续脉冲与行中入口已分析。其余48格／高分辨率细小记法、完整声音和采谱／制作过程未读；视频视窗未证明物理页布局。",
+        "remaining": "正确目标预览时间格82/82已看（79有谱、一白、两黑），Hand muting／ord.、持续层、相似再现及预告调号已分析。高分辨率细小记法、完整声音与制作过程未读；未取得源PDF，视频视窗不证明物理页布局。",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV1L6RsBeEwy/",
         "metadata_identity_verified": true,
@@ -2914,9 +2914,11 @@
         "preview_note": "BALLADE_POLONAISE_PREVIEW_READING.md",
         "preview_evidence": "ballade_polonaise_preview_evidence.json",
         "actual_preview_cells": [
-          34,
+          82,
           82
-        ]
+        ],
+        "preview_continuation_note": "POLONAISE_TECHNIQUE_READING.md",
+        "preview_continuation_evidence": "polonaise_technique_evidence.json"
       },
       {
         "id": "R09",
@@ -3230,12 +3232,12 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.26固定R09编号推断更正、R07/R08实际预览及R07全时间格续读、R11六格。20入口，资料16/25余9；固定0.25及以前标签／证据保持，无新原生或适配。",
+    "working_branch_note": "固定0.26后补R08全部82/82预览、Hand muting／ord.、持续背景／再现／预告调号；20入口，资料16/25余9。固定标签及原发布证据保持，无新原生／适配。",
     "evidence": "release_0_26_0_evidence.json"
   },
   "last_study_batch": {
     "date": "2026-11-02",
-    "scope": "R07补107预览格、累计118/118，六代表格复看；Gould40/43/490三完整页复读。R11第一部分实际读6/68格，两次同格放大；形成每拍复杂度／速度间距／持续层判断，准备0.26。",
+    "scope": "R08补48/48格，累计82/82；四近图／六格复看，Gould92–93/332–333/337–338六完整页复读。确认Hand muting与ord.、持续／再现及预告调号条件，核目标说明及官方背景一段。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3253,23 +3255,17 @@
     "native_CLI_calls": 0,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
-    "book_reread_pages": 3,
-    "new_R07_time_cells": 107,
-    "new_R11_time_cells": 6,
-    "R07_time_grid": [
-      118,
-      118
+    "book_reread_pages": 6,
+    "new_R08_time_cells": 48,
+    "R08_time_grid": [
+      82,
+      82
     ],
-    "R11_part1_time_grid": [
-      6,
-      68
-    ],
-    "public_storyboard_images_downloaded": 1,
-    "public_storyboard_images_reused": 2,
+    "new_source_media": 0,
     "notes": [
-      "BALLADE_PREVIEW_CONTINUATION.md"
+      "POLONAISE_TECHNIQUE_READING.md"
     ],
-    "review_evidence": "ballade_preview_continuation_evidence.json",
+    "review_evidence": "polonaise_technique_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3527,29 +3523,31 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "BALLADE_PREVIEW_CONTINUATION.md",
-    "evidence": "ballade_preview_continuation_evidence.json",
-    "new_R07_preview_cells": [
-      107,
-      107
+    "reference": "POLONAISE_TECHNIQUE_READING.md",
+    "evidence": "polonaise_technique_evidence.json",
+    "new_R08_preview_cells": [
+      48,
+      48
     ],
-    "cumulative_R07_preview_cells": [
-      118,
-      118
+    "cumulative_R08_preview_cells": [
+      82,
+      82
     ],
-    "R07_representative_rereads": 6,
-    "R11_part1_preview_cells": [
-      6,
-      68
-    ],
+    "nearest_neighbor_rereads": 4,
+    "six_cell_rereads": 6,
     "Gould_full_printed_page_rereads": [
-      40,
-      43,
-      490
+      92,
+      93,
+      332,
+      333,
+      337,
+      338
     ],
     "new_Gould_coverage": 0,
+    "target_description_read": true,
+    "targeted_primary_context_paragraphs": 1,
     "new_fixed_resource_completions": 0,
-    "scope": "Per-beat complexity and tempo/spacingconditions; full public R07 time-grid overview,not fullsymbolcollation/audio. R11 actualpreviewreadability boundary."
+    "scope": "Technicaldirective/restorepoint,independentholds,similar-motif differences andcautionarykeys; previewoverview notfinesymbolcollation or fullvideo/audio."
   },
   "judgment_review_history": [
     {
@@ -3711,7 +3709,7 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15保持。先补R08余48个预览格，再检查其它教程实际谱例；R07全预览已读但高分辨率／旧版0/2／完整声音待核，R11第一部分六格不能复述全流程。R09细节和R10具体干预继续补。相同失败网页／空字幕路径不重复。",
+    "scope": "余9项R07–R15保持。R07/R08预览时间格均已读完118/118、82/82；下一批补R09余23格，再寻找能读清的实际教程内容。R07旧版0/2、三首高分辨率细节／完整声音、R10具体干预及R11–R15完整流程仍待核。相同失败网页／空字幕路径不重复。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
     "latest_available_supplement": "LONG_DYNAMIC_TEXT_STUDY.md: actual A137 context, Gould2rereads and5Dorico6.2bodies applied; not replacement of remaining9fixed targets.",
@@ -3956,6 +3954,31 @@
       "new_Gould_coverage": 0,
       "new_fixed_resource_completions": 0,
       "scope": "Actual target preview reading,not full video/audio or fine-symbol collation. Main reading pulse, sustained/active layers, middle-row entries and video-window boundary."
+    },
+    {
+      "reference": "BALLADE_PREVIEW_CONTINUATION.md",
+      "evidence": "ballade_preview_continuation_evidence.json",
+      "new_R07_preview_cells": [
+        107,
+        107
+      ],
+      "cumulative_R07_preview_cells": [
+        118,
+        118
+      ],
+      "R07_representative_rereads": 6,
+      "R11_part1_preview_cells": [
+        6,
+        68
+      ],
+      "Gould_full_printed_page_rereads": [
+        40,
+        43,
+        490
+      ],
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "Per-beat complexity and tempo/spacingconditions; full public R07 time-grid overview,not fullsymbolcollation/audio. R11 actualpreviewreadability boundary."
     }
   ],
   "latest_source_identity_review": {

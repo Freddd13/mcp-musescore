@@ -1,0 +1,505 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-01T16:40:41.396072+00:00",
+  "reference": "POLONAISE_TECHNIQUE_READING.md",
+  "previous_goal_turn": "progress:d5c1be9 released0.26,R07 all118preview cells andR11 sixcells; nowR08 remainder actuallyviewed.",
+  "scope": {
+    "date": "2026-11-02",
+    "resource": "R08",
+    "planned_new_time_cells": 48,
+    "planned_cumulative_time_cells": 82,
+    "private_budget_bytes": 786432,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3276734464,
+    "reused_source": "../ballade-polonaise-previews-2026-11-01/R08-storyboard-1.jpg",
+    "reading_sheet": "one overwritten PNG,not a set of retained crops",
+    "raw_video_audio_requested": false,
+    "software_adaptation": false,
+    "reference_images_in_git": false,
+    "completed": true,
+    "new_cells": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      17,
+      19,
+      20,
+      22,
+      23,
+      26,
+      28,
+      29,
+      31,
+      33,
+      34,
+      36,
+      37,
+      39,
+      40,
+      42,
+      43,
+      44,
+      46,
+      48,
+      49,
+      52,
+      53,
+      55,
+      57,
+      59,
+      60,
+      62,
+      64,
+      65,
+      67,
+      68,
+      69,
+      71,
+      73,
+      74,
+      76,
+      78
+    ],
+    "new_groups": [
+      [
+        0,
+        2,
+        4,
+        6,
+        8,
+        9
+      ],
+      [
+        10,
+        12,
+        14,
+        16,
+        17,
+        19
+      ],
+      [
+        20,
+        22,
+        23,
+        26,
+        28,
+        29
+      ],
+      [
+        31,
+        33,
+        34,
+        36,
+        37,
+        39
+      ],
+      [
+        40,
+        42,
+        43,
+        44,
+        46,
+        48
+      ],
+      [
+        49,
+        52,
+        53,
+        55,
+        57,
+        59
+      ],
+      [
+        60,
+        62,
+        64,
+        65,
+        67,
+        68
+      ],
+      [
+        69,
+        71,
+        73,
+        74,
+        76,
+        78
+      ]
+    ],
+    "prior_cells": [
+      1,
+      3,
+      5,
+      7,
+      11,
+      13,
+      15,
+      18,
+      21,
+      24,
+      25,
+      27,
+      30,
+      32,
+      35,
+      38,
+      41,
+      45,
+      47,
+      50,
+      51,
+      54,
+      56,
+      58,
+      61,
+      63,
+      66,
+      70,
+      72,
+      75,
+      77,
+      79,
+      80,
+      81
+    ],
+    "actual_new_time_cells": [
+      48,
+      48
+    ],
+    "cumulative_time_grid": [
+      82,
+      82
+    ],
+    "music_cells": 79,
+    "white_cells": [
+      0
+    ],
+    "black_cells": [
+      80,
+      81
+    ],
+    "nearest_neighbor_2x_detail_rereads": [
+      2,
+      28,
+      42,
+      64
+    ],
+    "six_cell_reread": [
+      4,
+      23,
+      28,
+      42,
+      10,
+      12
+    ],
+    "Gould_full_printed_pages_reread": [
+      92,
+      93,
+      332,
+      333,
+      337,
+      338
+    ],
+    "source_description_read": true,
+    "targeted_Sony_context_paragraph_read": 1,
+    "full_video_audio_read": false,
+    "fine_symbol_collation_complete": false,
+    "new_Gould_coverage": 0,
+    "new_complete_fixed_resources": 0,
+    "native_calls": 0,
+    "source_media_downloads": 0,
+    "R08_status": "partial"
+  },
+  "reused_source_sprite": {
+    "resource": "R08",
+    "part": 1,
+    "url": "https://bimp.hdslb.com/videoshotpvhdboss/38133894942_3eizob-0001.jpg",
+    "credentials_used": false,
+    "raw_video_requested": false,
+    "http": 200,
+    "bytes": 796387,
+    "format": "JPEG",
+    "size": [
+      4800,
+      2700
+    ],
+    "saved": true,
+    "sha256": "3f6805546377d7f592a8474a473b5eeb8c430ed946a95beed407a3d22cf5de92"
+  },
+  "time_index": {
+    "entries": 82,
+    "new_cell_times_s": [
+      0,
+      5,
+      15,
+      25,
+      35,
+      40,
+      45,
+      55,
+      65,
+      75,
+      80,
+      90,
+      95,
+      105,
+      110,
+      125,
+      135,
+      140,
+      150,
+      160,
+      165,
+      175,
+      180,
+      190,
+      195,
+      205,
+      210,
+      215,
+      225,
+      235,
+      240,
+      255,
+      260,
+      270,
+      280,
+      290,
+      295,
+      305,
+      315,
+      320,
+      330,
+      335,
+      340,
+      350,
+      360,
+      365,
+      375,
+      385
+    ]
+  },
+  "target_description": {
+    "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1L6RsBeEwy",
+    "anonymous": true,
+    "reference_only": true,
+    "http": 200,
+    "sha256": "2b830b2799b361b2040fd3ab533676284ddded3be02ca96c2d3d9951c4e13e5e",
+    "code": 0,
+    "identity": {
+      "bvid": "BV1L6RsBeEwy",
+      "aid": 116526153729992,
+      "cid": 38133894942,
+      "title": "【卡汀-Cateen】角野隼斗 - 幻想波兰舞曲 | Hayato Sumino - Imaginary Polonaise",
+      "pubdate": 1778061600
+    },
+    "owner_mid": 372657607,
+    "description": "幻想波兰舞曲 | Imaginary Polonaise\n\n作曲：角野隼斗 | Composed by Hayato Sumino (Cateen)\n採譜 / 浄書：Legatissimo- | Transcribed & Engraved by Legatissimo-\n后期音源 / 视频剪辑：Legatissimo\n\n© 2026 Sony Music Publishing (Japan) Inc.",
+    "description_links": []
+  },
+  "primary_supplement": {
+    "url": "https://www.sonymusic.co.jp/artist/HayatoSumino/info/578467",
+    "published": "2025-10-31",
+    "read_scope": "One complete paragraph about the paired polonaises and Japanese festival inspiration,not all linkedmedia/booklet.",
+    "use": "Musicbackground only; not targetscore authorization,exact handmutinginstructions or engravingintent.",
+    "target_PDF_obtained": false
+  },
+  "Gould": {
+    "printed_pages_reread": [
+      92,
+      93,
+      332,
+      333,
+      337,
+      338
+    ],
+    "physical_pages": [
+      112,
+      113,
+      352,
+      353,
+      357,
+      358
+    ],
+    "new_unique_coverage": 0,
+    "keyword_locator_is_not_reading_credit": true
+  },
+  "decisions": [
+    {
+      "id": "technique-start-restore",
+      "cells": [
+        2,
+        28,
+        42
+      ],
+      "retain": "Hand muting entry andexistingord. atits actualreturnpoint.",
+      "exception": "Otherreturns check scoreconvention/clearnewmaterial; no automaticord insertion atall entries.",
+      "unknown": "Specificstringcontact,handassignment,pedalaction."
+    },
+    {
+      "id": "sustained-background",
+      "cells": [
+        28,
+        64
+      ],
+      "retain": "Longbass andmovingupperlayer remainindependent.",
+      "exception": "Pedalsustainedconvenientduration onlywith confirmedcontrolrange; do notinfer fromstaff."
+    },
+    {
+      "id": "similar-motif",
+      "cells": [
+        4,
+        23
+      ],
+      "retain": "Consistentrecognition where role/rhythm match; retainmeaningfulendchanges.",
+      "unknown": "Fullpitch-by-pitchidentity andnativeimplementation notverified."
+    },
+    {
+      "id": "cautionary-key",
+      "cells": [
+        10,
+        12
+      ],
+      "retain": "System-endwarning andnew-system formalkey serve differentreadingmoments.",
+      "unknown": "Exact cancellationpolicies/pitchcounts notcollatedfromthumbnail."
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    }
+  ],
+  "new_native_calls": 0,
+  "new_software_adaptation": 0,
+  "new_user_preferences": 0,
+  "resources": {
+    "complete": 16,
+    "planned": 25,
+    "remaining": 9,
+    "new_completions": 0,
+    "R08": "partial"
+  },
+  "cache": {
+    "directory": "tmp/engraving/polonaise-preview-continuation-2026-11-02",
+    "files": [
+      {
+        "path": "audit.py",
+        "bytes": 3826,
+        "sha256": "db7c5a3fce66b58fffcb5e67fc185df1b8b4bc9f32e16edcae63ef7f1f5a2633"
+      },
+      {
+        "path": "book.py",
+        "bytes": 623,
+        "sha256": "ede70c995423016d71be6f5cab962fcab3e491b1e4a4e0b1cdd1da383b190527"
+      },
+      {
+        "path": "detail.py",
+        "bytes": 1000,
+        "sha256": "d651cd6584362638bf0e53c20090622795072cf32ec8450ab80f411a3946d10a"
+      },
+      {
+        "path": "finalize.py",
+        "bytes": 13013,
+        "sha256": "7506f2785357887c7c1b6b2c74f2948732a9bfb0664100295ea526db6511c682"
+      },
+      {
+        "path": "gould-keyword-locator.json",
+        "bytes": 3789,
+        "sha256": "f132a94addf67552bfbdd95917aa7802ebae7605bfbdcc9946389b2f3cf1d062"
+      },
+      {
+        "path": "reading-sheet.png",
+        "bytes": 398214,
+        "sha256": "327b5ed7c349de60608cb3deb111727f232485e1041d7f12adf65b02ea69bfaa"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 2538,
+        "sha256": "5bce76e9ed4b44bf8c0c384f1a05c3e0a302d04e618a78ef928ade119bd7a5a9"
+      },
+      {
+        "path": "source-context.py",
+        "bytes": 2126,
+        "sha256": "5a918008a7bbcd03702b4ee4b2ad1af826ac18bc9820c0b02d52022056e8188e"
+      },
+      {
+        "path": "target-description.json",
+        "bytes": 806,
+        "sha256": "6cadfd60c4c2e14fc8a2b3e2b6251028d9bf963a9be1c88d50a272ef0a6aaf8c"
+      },
+      {
+        "path": "view.py",
+        "bytes": 1551,
+        "sha256": "0f7a4a21f288ecc1b9447d42af85cddd3f4daa22d89cfcc3002f3c1e7823d54d"
+      }
+    ],
+    "bytes": 427486,
+    "budget_bytes": 786432,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3276734464,
+    "new_source_media": 0,
+    "new_reference_images_in_git": 0,
+    "source_PDF_runtime_copies": 0,
+    "deletions": 0
+  },
+  "checks": {
+    "checked_at": "2026-11-01T16:46:43.155802+00:00",
+    "ledger": "passed",
+    "skill_metadata": "passed",
+    "retrieval_regression": [
+      6,
+      6
+    ],
+    "specific_query": {
+      "topic": "piano",
+      "query": "Hand muting ord.",
+      "matches": [
+        {
+          "file": "POLONAISE_TECHNIQUE_READING.md",
+          "line": 17
+        },
+        {
+          "file": "BALLADE_POLONAISE_PREVIEW_READING.md",
+          "line": 3
+        },
+        {
+          "file": "README.md",
+          "line": 3
+        }
+      ]
+    },
+    "historical_files_unchanged": [
+      "PREFERENCES.md",
+      "release_0_26_0_evidence.json",
+      "release_0_25_0_evidence.json",
+      "resource_identity_evidence.json",
+      "ballade_polonaise_preview_evidence.json",
+      "ballade_preview_continuation_evidence.json"
+    ],
+    "fixed0_26_file_fingerprints": 11,
+    "local_links_checked": 1187,
+    "scope": "Availability/retrieval/release-integrity checks,not aestheticaccuracy or fullvideo mastery."
+  }
+}
