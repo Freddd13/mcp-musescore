@@ -1,5 +1,7 @@
 # 独立净书复现谱例
 
+2026-11-02[符头与标记通道](../STEM_OPTICAL_SHAPES_MARKS.md)新增九份CC0输入：`stem-optical-size-base/old/fit.mscx`、`stem-optical-font-base/old/fit.mscx`、`stem-optical-marked-base/joint/text-v2.mscx`，三张原生图。Note小头保持计量与播放，已有字体仅作输入；标记文字是有限通道下的记法比较，原生隐藏辅助在MusicXML导回重显，不能当可移植模板。
+
 2026-11-02[均干的代价](../STEM_OPTICAL_LIMITS.md)新增六份CC0输入：`stem-optical-fine-base/shared/interpolate/balanced.mscx`与`stem-optical-tight-base/joint.mscx`，两张完整两手原生图。细分组各24音，窄版各20音及隐藏整休止；前组按连续十六分读者任务保默认，后组两版都因45mm实验预算失效而拒绝。保留失败诊断；均非普通4/4分组模板。
 
 2026-11-02[均干与共同起音](../STEM_OPTICAL_CONTEXTS.md)新增七份CC0输入：`stem-optical-layered-base/group/joint.mscx`、`stem-optical-wide-base/joint.mscx`、`stem-optical-dense-base/joint.mscx`；两张完整两手原生图。分别12／20音和隐藏整休止，70／100mm为页面可打印宽参数；group版保留作为错开同步的失败诊断，joint版联合独立旋律。全部保持原音乐，非普通4/4分组模板。

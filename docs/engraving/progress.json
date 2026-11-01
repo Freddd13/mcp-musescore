@@ -3240,14 +3240,14 @@
     }
   },
   "release": {
-    "version": "0.27.0",
-    "tag": "engraving-v0.27.0",
+    "version": "0.28.0",
+    "tag": "engraving-v0.28.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.27之后补跨表光学与共同起音，四边界现2/4：独立十六分代价及45mm容量失效已接skill。原标签／证据保持，资料16/25余9，头型／标记通道余2，无适配。",
-    "evidence": "release_0_27_0_evidence.json"
+    "working_branch_note": "0.28固定四篇光学研究25最终条件、5最终重载与33原创资产；四边界覆盖4/4，资料16/25余9，无适配。",
+    "evidence": "release_0_28_0_evidence.json"
   },
   "last_study_batch": {
     "new_deep_scores": 0,
@@ -3265,44 +3265,46 @@
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
     "date": "2026-11-02",
-    "scope": "四边界前两类：紧行宽及独立十六分；六原生版26成功调用、1重载。Gould40–43／A045p11复读，Lily三限定正文及相关源码片段只读。",
-    "new_native_diagnostic_conditions": 6,
-    "native_CLI_calls": 26,
-    "valid_final_native_calls": 26,
-    "native_input_probe_calls": 0,
-    "book_reread_pages": 4,
+    "scope": "小头／已有字体与标记通道，原四边界覆盖4/4；9最终原生版、2最终重载，6定位探针调用、2导回图面诊断；Gould六整页及A128p2复读。",
+    "new_native_diagnostic_conditions": 9,
+    "native_CLI_calls": 48,
+    "valid_final_native_calls": 40,
+    "native_input_probe_calls": 6,
+    "exchange_diagnostic_calls": 2,
+    "book_reread_pages": 6,
     "official_score_reread_pages": 1,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "STEM_OPTICAL_LIMITS.md"
+      "STEM_OPTICAL_SHAPES_MARKS.md"
     ],
-    "review_evidence": "stem_optical_limits_evidence.json",
+    "review_evidence": "stem_optical_shapes_marks_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "STEM_OPTICAL_LIMITS.md",
-    "evidence": "stem_optical_limits_evidence.json",
-    "completed_conditions": 6,
-    "planned_conditions": 6,
+    "reference": "STEM_OPTICAL_SHAPES_MARKS.md",
+    "evidence": "stem_optical_shapes_marks_evidence.json",
+    "completed_conditions": 9,
+    "planned_conditions": 9,
     "contexts": [
       2,
       2
     ],
     "parent_boundary_batch": [
-      2,
+      4,
       4
     ],
     "saved_reloaded_versions": [
-      1,
-      1
+      2,
+      2
     ],
-    "native_CLI_calls": 26,
-    "valid_final_native_calls": 26,
-    "input_probe_native_calls": 0,
-    "new_conditions": 6,
+    "native_CLI_calls": 48,
+    "valid_final_native_calls": 40,
+    "input_probe_native_calls": 6,
+    "exchange_diagnostic_calls": 2,
+    "new_conditions": 9,
     "reused_conditions": 0,
-    "description": "同步保持仍有独立快线代价，本例保默认；45mm两版超容量均拒绝。136音／六隐藏休止、各织体完整MIDI与24音保存保持；重载头干0、谱线端0.01SVG，非整图相同。",
+    "description": "小头原干轴近保持，已有字体真实度量及微差分判；标记两版四交点，文字原生可比较、交换重显及移梁失败。84音／九隐藏休止及各组MIDI保持；四边界覆盖闭合，非全部问题解决。",
     "user_preference_confirmed": false,
     "user_real_score_candidate": false,
     "software_adaptation_changes": 0
@@ -3627,6 +3629,33 @@
       "user_preference_confirmed": false,
       "user_real_score_candidate": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "STEM_OPTICAL_LIMITS.md",
+      "evidence": "stem_optical_limits_evidence.json",
+      "completed_conditions": 6,
+      "planned_conditions": 6,
+      "contexts": [
+        2,
+        2
+      ],
+      "parent_boundary_batch": [
+        2,
+        4
+      ],
+      "saved_reloaded_versions": [
+        1,
+        1
+      ],
+      "native_CLI_calls": 26,
+      "valid_final_native_calls": 26,
+      "input_probe_native_calls": 0,
+      "new_conditions": 6,
+      "reused_conditions": 0,
+      "description": "同步保持仍有独立快线代价，本例保默认；45mm两版超容量均拒绝。136音／六隐藏休止、各织体完整MIDI与24音保存保持；重载头干0、谱线端0.01SVG，非整图相同。",
+      "user_preference_confirmed": false,
+      "user_real_score_candidate": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
@@ -3642,23 +3671,25 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "STEM_OPTICAL_LIMITS.md",
-    "evidence": "stem_optical_limits_evidence.json",
+    "reference": "STEM_OPTICAL_SHAPES_MARKS.md",
+    "evidence": "stem_optical_shapes_marks_evidence.json",
     "official_pages_reread": {
-      "A045": [
-        11
+      "A128": [
+        2
       ]
     },
     "Gould_full_printed_page_rereads": [
-      40,
-      41,
-      42,
-      43
+      106,
+      126,
+      308,
+      309,
+      315,
+      323
     ],
-    "LilyPond_targeted_body_sections": 3,
+    "MuseScore3_targeted_body_sections": 1,
     "new_Gould_coverage": 0,
     "new_fixed_resource_completions": 0,
-    "scope": "Rhythmic contour,optical compensation,prefatory ownership and capacity; body/code only,no newwebfigures. Source snippets read-only,build correspondence not proven."
+    "scope": "小音角色、挂干、Slur／指法与动态通道；101–108仅文本定位片段，不计完整八页。"
   },
   "judgment_review_history": [
     {
@@ -4222,6 +4253,25 @@
       "new_Gould_coverage": 0,
       "new_fixed_resource_completions": 0,
       "scope": "Head/stem opticalreference andactualMuseScope;Doricoindextextonly,nofigures/runtime.NewR10creditsnotinterventions."
+    },
+    {
+      "reference": "STEM_OPTICAL_LIMITS.md",
+      "evidence": "stem_optical_limits_evidence.json",
+      "official_pages_reread": {
+        "A045": [
+          11
+        ]
+      },
+      "Gould_full_printed_page_rereads": [
+        40,
+        41,
+        42,
+        43
+      ],
+      "LilyPond_targeted_body_sections": 3,
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "Rhythmic contour,optical compensation,prefatory ownership and capacity; body/code only,no newwebfigures. Source snippets read-only,build correspondence not proven."
     }
   ],
   "latest_source_identity_review": {
@@ -4247,23 +4297,22 @@
     "next": "原创方法已回迁m97，完整比较候选1/1；保留作者作用层及审美采用问题，继续其它学习。"
   },
   "next_optical_boundary_batch": {
-    "reference": "STEM_OPTICAL_LIMITS.md",
+    "reference": "STEM_OPTICAL_SHAPES_MARKS.md",
     "planned_contexts": 4,
-    "completed_contexts": 2,
+    "completed_contexts": 4,
     "items": [
       "更紧行宽的变音容量",
       "独立十六分／连音额外时点",
       "不同字号／头型",
       "弧线／发夹／指法通道"
     ],
-    "scope": "原计划四情境保留，前两类完成；本批细分仅十六分，连音等新构型按需继续，余两类未开始。",
+    "scope": "原计划四类均有具体原生情境覆盖，非该类所有实例已解决。当前文字候选交换失败，保原短发夹的本构型可移植替代仍未选定。",
     "completed_items": [
       "更紧行宽的变音容量",
-      "独立十六分／连音额外时点"
-    ],
-    "remaining_items": [
+      "独立十六分／连音额外时点",
       "不同字号／头型",
       "弧线／发夹／指法通道"
-    ]
+    ],
+    "remaining_items": []
   }
 }

@@ -1,0 +1,4126 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "STEM_OPTICAL_SHAPES_MARKS.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "21d8570f0384266dbd02dc0705baae36c0cd9d5e",
+    "reason": "Published fine-layer and capacity limits; two of four planned boundary contexts remained."
+  },
+  "scope": {
+    "date": "2026-11-02",
+    "parent_boundary_batch_before": [
+      2,
+      4
+    ],
+    "planned_this_batch_boundary_contexts": 2,
+    "subcontexts": [
+      "70% noteheads only",
+      "existing Emmentaler glyph input",
+      "slur hairpin fingering channels"
+    ],
+    "planned_conditions": 9,
+    "planned_saved_reload": 3,
+    "planned_native_calls": 48,
+    "private_budget_bytes": 3145728,
+    "global_check_allowance_bytes": 3289317376,
+    "global_exact_total_known": false,
+    "original_sources_read_only": true,
+    "software_adaptation": false,
+    "runtime_copies": 0,
+    "source_score_copies": 0,
+    "font_development": false,
+    "initial_planned_conditions": 8,
+    "initial_planned_native_calls": 34,
+    "scope_revision_reason": "Visible cross-staff stem intersections remain in both marked versions; add a printed cresc. alternative with hidden native range/playback helper and verify its saved reload. First printed text probe was too low because offset includes below-staff baseline; retain6 probe calls and verify v2 at offsety2.",
+    "planned_final_native_calls": 40,
+    "positioning_probe_calls": 6,
+    "planned_final_saved_reload": 2,
+    "exchange_diagnostic_calls": 2,
+    "exchange_scope": "One original text variant imported from MusicXML to SVG/PDF; hidden wedge reappears and beam moves,not a complete music/playback roundtrip verification."
+  },
+  "reference_views": [
+    {
+      "path": "tmp/engraving/corpus/A128/page-2.jpg",
+      "sha256": "2c95e626b9e4f659311d0fb18cb77ce27a9d25bd17fed8cf2cdfda2c1fad471b",
+      "actually_viewed": true,
+      "reused": true
+    }
+  ],
+  "official_pages_reread": {
+    "A128": [
+      2
+    ]
+  },
+  "Gould": {
+    "full_printed_page_rereads": [
+      106,
+      126,
+      308,
+      309,
+      315,
+      323
+    ],
+    "physical_pages": [
+      126,
+      146,
+      328,
+      329,
+      335,
+      343
+    ],
+    "reused_reading_buffer": true,
+    "render_and_actual_read_log": [
+      {
+        "printed_pages": [
+          126,
+          315
+        ],
+        "physical_pages": [
+          146,
+          335
+        ],
+        "sha256_at_render": "559240c45dfb60271c4e8fa588e98c44931b7d46785ea4b7265da653f2599e5f",
+        "complete_pages": true,
+        "actually_read": true
+      },
+      {
+        "printed_pages": [
+          323
+        ],
+        "physical_pages": [
+          343
+        ],
+        "sha256_at_render": "ebd4667818c9477ab7c076d125819ffa6cf1059514014ad7428fc83858e2a5a2",
+        "complete_pages": true,
+        "actually_read": true
+      },
+      {
+        "printed_pages": [
+          308,
+          309
+        ],
+        "physical_pages": [
+          328,
+          329
+        ],
+        "sha256_at_render": "72f7913ec19d9548855c711b5c3ac70d5a969088c26c0507f01182874ec00c27",
+        "complete_pages": true,
+        "actually_read": true
+      },
+      {
+        "printed_pages": [
+          106
+        ],
+        "physical_pages": [
+          126
+        ],
+        "sha256_at_render": "ac655e46df697959cc4c71760de2dbaf70dd1284bd686a448504093ec267f445",
+        "complete_pages": true,
+        "actually_read": true
+      }
+    ],
+    "new_unique_coverage": 0,
+    "text_locator_only_pages_not_counted_as_full_reading": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  "primary_web": {
+    "url": "https://musescore.org/en/print/book/export/html/278625?toc=1",
+    "version": "MuseScore3",
+    "target": "Small notes/small noteheads,lines935–940",
+    "body_read": true,
+    "whole_export_manual_read": false,
+    "new_fixed_resource_completion": 0
+  },
+  "read_only_software_source": {
+    "commit": "f0c330926aedc7fd4367b237473e1ddb30d0f2d3",
+    "files": [
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\style.cpp",
+        "sha256": "17b401e6c77e437c09d8558a37457c86e6e9543b8caabde505ec499c00712905",
+        "read_fragment_only": true
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\sym.cpp",
+        "sha256": "74c52b48b3ea66bbbb61929fd086dc161bc6d373d949db8c8580fb4a02dd60f1",
+        "read_fragment_only": true
+      }
+    ],
+    "binary_matches_source_commit_not_proven": true,
+    "changes": 0
+  },
+  "native": {
+    "preparation": {
+      "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+      "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+      "manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+      "manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+      "runtime_files_before": 1936,
+      "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\native-config"
+    },
+    "conditions": [
+      {
+        "name": "size-base",
+        "family": "size",
+        "variant": "base",
+        "font": "Leland",
+        "head_only_small_on_lower_attacks": true,
+        "derived_after_baseline_SVG": false
+      },
+      {
+        "name": "size-old",
+        "family": "size",
+        "variant": "old",
+        "font": "Leland",
+        "head_only_small_on_lower_attacks": true,
+        "derived_after_baseline_SVG": false
+      },
+      {
+        "name": "size-fit",
+        "family": "size",
+        "variant": "fit",
+        "font": "Leland",
+        "head_only_small_on_lower_attacks": true,
+        "derived_after_baseline_SVG": true
+      },
+      {
+        "name": "font-base",
+        "family": "font",
+        "variant": "base",
+        "font": "Emmentaler",
+        "head_only_small_on_lower_attacks": false,
+        "derived_after_baseline_SVG": false
+      },
+      {
+        "name": "font-old",
+        "family": "font",
+        "variant": "old",
+        "font": "Emmentaler",
+        "head_only_small_on_lower_attacks": false,
+        "derived_after_baseline_SVG": false
+      },
+      {
+        "name": "font-fit",
+        "family": "font",
+        "variant": "fit",
+        "font": "Emmentaler",
+        "head_only_small_on_lower_attacks": false,
+        "derived_after_baseline_SVG": true
+      },
+      {
+        "name": "marked-base",
+        "family": "marked",
+        "variant": "base",
+        "font": "Leland",
+        "head_only_small_on_lower_attacks": false,
+        "derived_after_baseline_SVG": false
+      },
+      {
+        "name": "marked-joint",
+        "family": "marked",
+        "variant": "joint",
+        "font": "Leland",
+        "head_only_small_on_lower_attacks": false,
+        "derived_after_baseline_SVG": false
+      },
+      {
+        "name": "marked-text-v2",
+        "family": "marked",
+        "variant": "text",
+        "font": "Leland",
+        "head_only_small_on_lower_attacks": false,
+        "derived_after_baseline_SVG": false,
+        "retained_hidden_playback_hairpin": true
+      }
+    ],
+    "derived_offsets": {
+      "size": {
+        "baseline_stems": [
+          542.063,
+          648.522,
+          702.026,
+          808.485,
+          861.989,
+          968.449,
+          1021.95,
+          1128.41
+        ],
+        "target_stems": [
+          542.063,
+          625.8268571428572,
+          709.5907142857143,
+          793.3545714285715,
+          877.1184285714287,
+          960.8822857142858,
+          1044.6461428571429,
+          1128.41
+        ],
+        "offset_sp": [
+          0.0,
+          -1.019914742816055,
+          0.33995660101178915,
+          -0.6799581418042661,
+          0.6799132020235783,
+          -0.34004648057316966,
+          1.019959682596748,
+          0.0
+        ],
+        "sp_svg": 22.251999999999995
+      },
+      "font": {
+        "baseline_stems": [
+          555.331,
+          660.482,
+          711.977,
+          817.128,
+          868.624,
+          973.774,
+          1025.27,
+          1130.42
+        ],
+        "target_stems": [
+          555.331,
+          637.4865714285714,
+          719.6421428571429,
+          801.7977142857144,
+          883.9532857142858,
+          966.1088571428572,
+          1048.2644285714287,
+          1130.42
+        ],
+        "offset_sp": [
+          0.0,
+          -1.0334095169615558,
+          0.34446983898718697,
+          -0.6889396779743688,
+          0.6888947381936811,
+          -0.34446983898718186,
+          1.033364577180868,
+          0.0
+        ],
+        "sp_svg": 22.251999999999995
+      }
+    },
+    "recipes": {
+      "size-base": [
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        }
+      ],
+      "size-old": [
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        }
+      ],
+      "size-fit": [
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        }
+      ],
+      "font-base": [
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        }
+      ],
+      "font-old": [
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        }
+      ],
+      "font-fit": [
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        }
+      ],
+      "marked-base": [
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 81,
+          "tpc": 17,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 83,
+          "tpc": 19,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 84,
+          "tpc": 14,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "marked-joint": [
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 81,
+          "tpc": 17,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 83,
+          "tpc": 19,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 84,
+          "tpc": 14,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "marked-text-v2": [
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "display_staff": 2,
+          "measure": 1,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up",
+          "voice_index": 0,
+          "mxl_voice": "1"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 81,
+          "tpc": 17,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 83,
+          "tpc": 19,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "measure": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 84,
+          "tpc": 14,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ]
+    },
+    "verification": {
+      "final_conditions": [
+        9,
+        9
+      ],
+      "parent_boundary_batch": [
+        4,
+        4
+      ],
+      "this_batch_boundary_contexts": [
+        2,
+        2
+      ],
+      "final_saved_reload": [
+        2,
+        2
+      ],
+      "probe_saved_reload": [
+        1,
+        1
+      ],
+      "native_calls": 48,
+      "valid_final_calls": 40,
+      "positioning_probe_calls": 6,
+      "exchange_diagnostic_calls": 2,
+      "MusicXML": [
+        {
+          "name": "size-base",
+          "compared_note_records": 8,
+          "hidden_support_rests": 1,
+          "cue_type_size_attributes": 4,
+          "cue_or_grace_note_elements": 0
+        },
+        {
+          "name": "size-old",
+          "compared_note_records": 8,
+          "hidden_support_rests": 1,
+          "cue_type_size_attributes": 4,
+          "cue_or_grace_note_elements": 0
+        },
+        {
+          "name": "size-fit",
+          "compared_note_records": 8,
+          "hidden_support_rests": 1,
+          "cue_type_size_attributes": 4,
+          "cue_or_grace_note_elements": 0
+        },
+        {
+          "name": "font-base",
+          "compared_note_records": 8,
+          "hidden_support_rests": 1,
+          "cue_type_size_attributes": 0,
+          "cue_or_grace_note_elements": 0
+        },
+        {
+          "name": "font-old",
+          "compared_note_records": 8,
+          "hidden_support_rests": 1,
+          "cue_type_size_attributes": 0,
+          "cue_or_grace_note_elements": 0
+        },
+        {
+          "name": "font-fit",
+          "compared_note_records": 8,
+          "hidden_support_rests": 1,
+          "cue_type_size_attributes": 0,
+          "cue_or_grace_note_elements": 0
+        },
+        {
+          "name": "marked-base",
+          "compared_note_records": 12,
+          "hidden_support_rests": 1,
+          "cue_type_size_attributes": 0,
+          "cue_or_grace_note_elements": 0
+        },
+        {
+          "name": "marked-joint",
+          "compared_note_records": 12,
+          "hidden_support_rests": 1,
+          "cue_type_size_attributes": 0,
+          "cue_or_grace_note_elements": 0
+        },
+        {
+          "name": "marked-text-v2",
+          "compared_note_records": 12,
+          "hidden_support_rests": 1,
+          "cue_type_size_attributes": 0,
+          "cue_or_grace_note_elements": 0
+        }
+      ],
+      "final_compared_note_records": 84,
+      "final_compared_hidden_rests": 9,
+      "annotations": [
+        {
+          "name": "marked-base",
+          "fingerings": [
+            [
+              "0",
+              79,
+              "2",
+              "1"
+            ],
+            [
+              "1",
+              81,
+              "2",
+              "2"
+            ],
+            [
+              "2",
+              83,
+              "2",
+              "3"
+            ],
+            [
+              "3",
+              84,
+              "2",
+              "5"
+            ]
+          ],
+          "slurs": [
+            [
+              "0",
+              79,
+              "2",
+              "start"
+            ],
+            [
+              "3",
+              84,
+              "2",
+              "stop"
+            ]
+          ],
+          "directions": [
+            {
+              "onset_q": "0",
+              "staff": "1",
+              "tag": "dynamics",
+              "type": null,
+              "text": "p",
+              "attributes": {
+                "default-x": "6.50",
+                "default-y": "-40.00",
+                "relative-y": "-25.00"
+              }
+            },
+            {
+              "onset_q": "0",
+              "staff": "1",
+              "tag": "wedge",
+              "type": "crescendo",
+              "text": null,
+              "attributes": {
+                "type": "crescendo",
+                "default-y": "-60.00",
+                "spread": "11.5",
+                "number": "1"
+              }
+            },
+            {
+              "onset_q": "3",
+              "staff": "1",
+              "tag": "wedge",
+              "type": "stop",
+              "text": null,
+              "attributes": {
+                "type": "stop",
+                "number": "1"
+              }
+            },
+            {
+              "onset_q": "3",
+              "staff": "1",
+              "tag": "dynamics",
+              "type": null,
+              "text": "f",
+              "attributes": {
+                "default-x": "6.50",
+                "default-y": "-40.00",
+                "relative-y": "-25.00"
+              }
+            }
+          ]
+        },
+        {
+          "name": "marked-joint",
+          "fingerings": [
+            [
+              "0",
+              79,
+              "2",
+              "1"
+            ],
+            [
+              "1",
+              81,
+              "2",
+              "2"
+            ],
+            [
+              "2",
+              83,
+              "2",
+              "3"
+            ],
+            [
+              "3",
+              84,
+              "2",
+              "5"
+            ]
+          ],
+          "slurs": [
+            [
+              "0",
+              79,
+              "2",
+              "start"
+            ],
+            [
+              "3",
+              84,
+              "2",
+              "stop"
+            ]
+          ],
+          "directions": [
+            {
+              "onset_q": "0",
+              "staff": "1",
+              "tag": "dynamics",
+              "type": null,
+              "text": "p",
+              "attributes": {
+                "default-x": "6.50",
+                "default-y": "-40.00",
+                "relative-y": "-25.00"
+              }
+            },
+            {
+              "onset_q": "0",
+              "staff": "1",
+              "tag": "wedge",
+              "type": "crescendo",
+              "text": null,
+              "attributes": {
+                "type": "crescendo",
+                "default-y": "-60.00",
+                "spread": "11.5",
+                "number": "1"
+              }
+            },
+            {
+              "onset_q": "3",
+              "staff": "1",
+              "tag": "wedge",
+              "type": "stop",
+              "text": null,
+              "attributes": {
+                "type": "stop",
+                "number": "1"
+              }
+            },
+            {
+              "onset_q": "3",
+              "staff": "1",
+              "tag": "dynamics",
+              "type": null,
+              "text": "f",
+              "attributes": {
+                "default-x": "6.50",
+                "default-y": "-40.00",
+                "relative-y": "-25.00"
+              }
+            }
+          ]
+        },
+        {
+          "name": "marked-text-v2",
+          "fingerings": [
+            [
+              "0",
+              79,
+              "2",
+              "1"
+            ],
+            [
+              "1",
+              81,
+              "2",
+              "2"
+            ],
+            [
+              "2",
+              83,
+              "2",
+              "3"
+            ],
+            [
+              "3",
+              84,
+              "2",
+              "5"
+            ]
+          ],
+          "slurs": [
+            [
+              "0",
+              79,
+              "2",
+              "start"
+            ],
+            [
+              "3",
+              84,
+              "2",
+              "stop"
+            ]
+          ],
+          "directions": [
+            {
+              "onset_q": "0",
+              "staff": "1",
+              "tag": "dynamics",
+              "type": null,
+              "text": "p",
+              "attributes": {
+                "default-x": "6.50",
+                "default-y": "-40.00",
+                "relative-y": "-25.00"
+              }
+            },
+            {
+              "onset_q": "0",
+              "staff": "1",
+              "tag": "words",
+              "type": null,
+              "text": "cresc.",
+              "attributes": {
+                "default-y": "-40.00",
+                "relative-x": "21.00",
+                "relative-y": "-20.00",
+                "font-style": "italic"
+              }
+            },
+            {
+              "onset_q": "0",
+              "staff": "1",
+              "tag": "wedge",
+              "type": "crescendo",
+              "text": null,
+              "attributes": {
+                "type": "crescendo",
+                "default-y": "-60.00",
+                "spread": "11.5",
+                "number": "1"
+              }
+            },
+            {
+              "onset_q": "3",
+              "staff": "1",
+              "tag": "wedge",
+              "type": "stop",
+              "text": null,
+              "attributes": {
+                "type": "stop",
+                "number": "1"
+              }
+            },
+            {
+              "onset_q": "3",
+              "staff": "1",
+              "tag": "dynamics",
+              "type": null,
+              "text": "f",
+              "attributes": {
+                "default-x": "6.50",
+                "default-y": "-40.00",
+                "relative-y": "-25.00"
+              }
+            }
+          ]
+        }
+      ],
+      "MIDI": [
+        {
+          "family": "size",
+          "conditions": [
+            "size-base",
+            "size-old",
+            "size-fit"
+          ],
+          "full_bytes_equal": true,
+          "bytes": 202,
+          "attacks_per_condition": 8,
+          "sha256": "d4c0eace02cfd072cb36343857c57470f0805ae48b457b738bda036b8fa280fb"
+        },
+        {
+          "family": "font",
+          "conditions": [
+            "font-base",
+            "font-old",
+            "font-fit"
+          ],
+          "full_bytes_equal": true,
+          "bytes": 202,
+          "attacks_per_condition": 8,
+          "sha256": "d4c0eace02cfd072cb36343857c57470f0805ae48b457b738bda036b8fa280fb"
+        },
+        {
+          "family": "marked",
+          "conditions": [
+            "marked-base",
+            "marked-joint",
+            "marked-text-v2"
+          ],
+          "full_bytes_equal": true,
+          "bytes": 375,
+          "attacks_per_condition": 12,
+          "sha256": "d20b7f253bcd485733aef4f5f35811a74a3ebad0a3a04ec941e9410f9338bb48"
+        }
+      ],
+      "reloads": [
+        {
+          "name": "font-fit",
+          "head_stem_max_delta_svg": 0.009999999999990905,
+          "native_music_records": 8,
+          "native_music_matches_recipe": true
+        },
+        {
+          "name": "marked-text-v2",
+          "head_stem_max_delta_svg": 0.009999999999990905,
+          "native_music_records": 12,
+          "native_music_matches_recipe": true
+        }
+      ],
+      "small_head_scale_ratio": 0.6999996629512661,
+      "small_head_stem_delta_from_normal_max_svg": 0.002000000000066393,
+      "different_font_outlines_verified": true,
+      "MusicXML_import_visible_hairpin_reappeared": true,
+      "roundtrip_SVG_counts": {
+        "BarLine": 6,
+        "StaffLines": 10,
+        "SlurSegment": 1,
+        "LedgerLine": 4,
+        "Stem": 12,
+        "Note": 12,
+        "Clef": 2,
+        "TimeSig": 4,
+        "Dynamic": 2,
+        "Beam": 1,
+        "Fingering": 4,
+        "StaffText": 1,
+        "HairpinSegment": 1,
+        "Bracket": 1
+      },
+      "roundtrip_music_or_playback_not_fully_verified": true,
+      "runtime_files_after": 1936,
+      "geometry": {
+        "size-base": {
+          "heads": [
+            {
+              "x": 540.839,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 629.497,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 700.802,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 789.46,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 860.765,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 949.423,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1020.73,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1109.39,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            }
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 648.522,
+              "ys": [
+                699.65,
+                545.143
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 702.026,
+              "ys": [
+                405.478,
+                547.173
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 808.485,
+              "ys": [
+                699.65,
+                551.501
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 861.989,
+              "ys": [
+                405.478,
+                553.53
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 968.449,
+              "ys": [
+                699.65,
+                557.859
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1021.95,
+              "ys": [
+                405.478,
+                559.888
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.41,
+              "ys": [
+                699.65,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gap_ratio": 1.9898693482364789,
+          "stem_gaps": [
+            106.45900000000006,
+            53.503999999999905,
+            106.45900000000006,
+            53.50400000000002,
+            106.45999999999992,
+            53.50100000000009,
+            106.46000000000004
+          ],
+          "head_scales": [
+            0.623055,
+            0.890079
+          ],
+          "head_outline_digests": [
+            "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          ],
+          "shared_onset_anchor_difference_sp": [],
+          "hairpin_points": [],
+          "hairpin_stem_intersections": [],
+          "hairpin_intersection_points": 0,
+          "hairpin_intersected_stems": 0,
+          "slur_paths": [],
+          "fingering_elements": [],
+          "stafftext_elements": []
+        },
+        "size-old": {
+          "heads": [
+            {
+              "x": 540.839,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 606.799,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 708.367,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 774.328,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 875.895,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 941.855,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1043.42,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1109.39,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            }
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 625.825,
+              "ys": [
+                699.65,
+                544.241
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 709.591,
+              "ys": [
+                405.478,
+                547.473
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 793.353,
+              "ys": [
+                699.65,
+                550.9
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 877.119,
+              "ys": [
+                405.478,
+                554.132
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 960.88,
+              "ys": [
+                699.65,
+                557.558
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1044.65,
+              "ys": [
+                405.478,
+                560.79
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.41,
+              "ys": [
+                699.65,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gap_ratio": 1.000119388729705,
+          "stem_gaps": [
+            83.76200000000006,
+            83.76599999999996,
+            83.76199999999994,
+            83.76600000000008,
+            83.76099999999997,
+            83.7700000000001,
+            83.75999999999999
+          ],
+          "head_scales": [
+            0.623055,
+            0.890079
+          ],
+          "head_outline_digests": [
+            "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          ],
+          "shared_onset_anchor_difference_sp": [],
+          "hairpin_points": [],
+          "hairpin_stem_intersections": [],
+          "hairpin_intersection_points": 0,
+          "hairpin_intersected_stems": 0,
+          "slur_paths": [],
+          "fingering_elements": [],
+          "stafftext_elements": []
+        },
+        "size-fit": {
+          "heads": [
+            {
+              "x": 540.839,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 606.801,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 708.367,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 774.33,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 875.895,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 941.857,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1043.42,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1109.39,
+              "y": 702.142,
+              "scale": 0.623055,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            }
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 625.827,
+              "ys": [
+                699.65,
+                544.241
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 709.591,
+              "ys": [
+                405.478,
+                547.473
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 793.355,
+              "ys": [
+                699.65,
+                550.9
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 877.119,
+              "ys": [
+                405.478,
+                554.132
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 960.882,
+              "ys": [
+                699.65,
+                557.558
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1044.65,
+              "ys": [
+                405.478,
+                560.79
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.41,
+              "ys": [
+                699.65,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gap_ratio": 1.000095510983765,
+          "stem_gaps": [
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76299999999992,
+            83.76800000000014,
+            83.75999999999999
+          ],
+          "head_scales": [
+            0.623055,
+            0.890079
+          ],
+          "head_outline_digests": [
+            "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          ],
+          "shared_onset_anchor_difference_sp": [],
+          "hairpin_points": [],
+          "hairpin_stem_intersections": [],
+          "hairpin_intersection_points": 0,
+          "hairpin_intersected_stems": 0,
+          "slur_paths": [],
+          "fingering_elements": [],
+          "stafftext_elements": []
+        },
+        "font-base": {
+          "heads": [
+            {
+              "x": 554.107,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 632.43,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 710.753,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 789.077,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 867.4,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 945.723,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 1024.05,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 1102.37,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            }
+          ],
+          "cross_stems": [
+            {
+              "x": 555.331,
+              "ys": [
+                406.964,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 660.482,
+              "ys": [
+                696.918,
+                545.182
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 711.977,
+              "ys": [
+                406.964,
+                547.173
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 817.128,
+              "ys": [
+                696.918,
+                551.54
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 868.624,
+              "ys": [
+                406.964,
+                553.53
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 973.774,
+              "ys": [
+                696.918,
+                557.897
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1025.27,
+              "ys": [
+                406.964,
+                559.888
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1130.42,
+              "ys": [
+                696.918,
+                564.255
+              ],
+              "width": 2.45
+            }
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gap_ratio": 2.0419652393436265,
+          "stem_gaps": [
+            105.15099999999995,
+            51.495000000000005,
+            105.15100000000007,
+            51.49599999999998,
+            105.14999999999998,
+            51.49599999999998,
+            105.15000000000009
+          ],
+          "head_scales": [
+            0.890079
+          ],
+          "head_outline_digests": [
+            "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+          ],
+          "shared_onset_anchor_difference_sp": [],
+          "hairpin_points": [],
+          "hairpin_stem_intersections": [],
+          "hairpin_intersection_points": 0,
+          "hairpin_intersected_stems": 0,
+          "slur_paths": [],
+          "fingering_elements": [],
+          "stafftext_elements": []
+        },
+        "font-old": {
+          "heads": [
+            {
+              "x": 554.107,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 609.733,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 718.318,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 773.944,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 882.529,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 938.154,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 1046.74,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 1102.37,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            }
+          ],
+          "cross_stems": [
+            {
+              "x": 555.331,
+              "ys": [
+                406.964,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 637.784,
+              "ys": [
+                696.918,
+                544.261
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 719.542,
+              "ys": [
+                406.964,
+                547.48
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 801.995,
+              "ys": [
+                696.918,
+                550.926
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 883.753,
+              "ys": [
+                406.964,
+                554.144
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 966.205,
+              "ys": [
+                696.918,
+                557.59
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1047.97,
+              "ys": [
+                406.964,
+                560.809
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1130.42,
+              "ys": [
+                696.918,
+                564.255
+              ],
+              "width": 2.45
+            }
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gap_ratio": 1.00850069717948,
+          "stem_gaps": [
+            82.45299999999997,
+            81.75800000000004,
+            82.45299999999997,
+            81.75800000000004,
+            82.452,
+            81.76499999999999,
+            82.45000000000005
+          ],
+          "head_scales": [
+            0.890079
+          ],
+          "head_outline_digests": [
+            "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+          ],
+          "shared_onset_anchor_difference_sp": [],
+          "hairpin_points": [],
+          "hairpin_stem_intersections": [],
+          "hairpin_intersection_points": 0,
+          "hairpin_intersected_stems": 0,
+          "slur_paths": [],
+          "fingering_elements": [],
+          "stafftext_elements": []
+        },
+        "font-fit": {
+          "heads": [
+            {
+              "x": 554.107,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 609.435,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 718.419,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 773.746,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 882.729,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 938.058,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 1047.04,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            },
+            {
+              "x": 1102.37,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+            }
+          ],
+          "cross_stems": [
+            {
+              "x": 555.331,
+              "ys": [
+                406.964,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 637.486,
+              "ys": [
+                696.918,
+                544.249
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 719.642,
+              "ys": [
+                406.964,
+                547.484
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 801.798,
+              "ys": [
+                696.918,
+                550.917
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 883.953,
+              "ys": [
+                406.964,
+                554.153
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 966.109,
+              "ys": [
+                696.918,
+                557.586
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1048.26,
+              "ys": [
+                406.964,
+                560.821
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1130.42,
+              "ys": [
+                696.918,
+                564.255
+              ],
+              "width": 2.45
+            }
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gap_ratio": 1.0001095543572218,
+          "stem_gaps": [
+            82.15499999999997,
+            82.15600000000006,
+            82.15599999999995,
+            82.15499999999997,
+            82.15600000000006,
+            82.15099999999995,
+            82.16000000000008
+          ],
+          "head_scales": [
+            0.890079
+          ],
+          "head_outline_digests": [
+            "a352ce1387df2183db2cd932da482b0e2e6707c65156eefb4e8ff3896d0ae3ac"
+          ],
+          "shared_onset_anchor_difference_sp": [],
+          "hairpin_points": [],
+          "hairpin_stem_intersections": [],
+          "hairpin_intersection_points": 0,
+          "hairpin_intersected_stems": 0,
+          "slur_paths": [],
+          "fingering_elements": [],
+          "stafftext_elements": []
+        },
+        "marked-base": {
+          "heads": [
+            {
+              "x": 540.839,
+              "y": 357.236,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 540.839,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 620.82,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 700.802,
+              "y": 346.11,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 700.802,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 780.784,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 860.765,
+              "y": 334.984,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 860.765,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 940.747,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1020.73,
+              "y": 323.858,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1020.73,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1100.71,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            }
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 648.524,
+              "ys": [
+                698.581,
+                545.144
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 702.026,
+              "ys": [
+                405.478,
+                547.173
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 808.487,
+              "ys": [
+                698.581,
+                551.501
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 861.989,
+              "ys": [
+                405.478,
+                553.53
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 968.451,
+              "ys": [
+                698.581,
+                557.859
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1021.95,
+              "ys": [
+                405.478,
+                559.888
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.41,
+              "ys": [
+                698.581,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gap_ratio": 1.98998112114245,
+          "stem_gaps": [
+            106.46100000000001,
+            53.50199999999995,
+            106.46100000000001,
+            53.502000000000066,
+            106.46199999999999,
+            53.499000000000024,
+            106.46000000000004
+          ],
+          "head_scales": [
+            0.890079
+          ],
+          "head_outline_digests": [
+            "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          ],
+          "shared_onset_anchor_difference_sp": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hairpin_points": [
+            [
+              [
+                997.925,
+                513.874
+              ],
+              [
+                585.925,
+                501.874
+              ],
+              [
+                997.925,
+                489.874
+              ]
+            ]
+          ],
+          "hairpin_stem_intersections": [
+            [
+              702.026,
+              505.25558252427186
+            ],
+            [
+              861.989,
+              509.9146990291262
+            ],
+            [
+              702.026,
+              498.4924174757282
+            ],
+            [
+              861.989,
+              493.8333009708738
+            ]
+          ],
+          "hairpin_intersection_points": 4,
+          "hairpin_intersected_stems": 2,
+          "slur_paths": [
+            "M577.547,307.169 C643.631,243.504 968.65,224.034 1041.86,279.354 C969.023,230.253 644.003,249.724 577.547,307.169"
+          ],
+          "fingering_elements": [
+            {
+              "class": "Fingering",
+              "d": "M538.591,311.515 C537.357,312.999 534.06,314.108 530.747,314.186 L530.747,315.733 L533.904,315.733 C535.997,315.765 536.216,315.983 536.138,317.999 L536.138,332.436 C536.138,334.265 536.138,334.343 535.919,334.655 C535.638,335.03 534.951,335.171 532.935,335.171 L530.591,335.171 L530.591,336.858 L544.857,336.858 L544.857,335.171 L542.872,335.171 C540.857,335.171 540.169,335.03 539.888,334.655 C539.638,334.343 539.638,334.296 539.638,332.436 L539.638,317.561 C539.638,315.546 539.701,313.858 539.888,311.515 L538.591,311.515 "
+            },
+            {
+              "class": "Fingering",
+              "d": "M705.633,317.951 L704.055,317.951 L703.695,319.795 C703.226,322.139 702.945,322.342 700.711,322.342 L692.648,322.342 C695.133,319.764 695.961,318.998 698.258,317.201 C701.539,314.685 702.945,313.42 703.773,312.342 C704.914,310.764 705.492,309.17 705.492,307.404 C705.492,303.31 702.117,300.389 697.398,300.389 C692.82,300.389 689.336,303.31 689.336,307.154 C689.336,309.42 690.492,310.967 692.18,310.967 C693.508,310.967 694.414,310.076 694.414,308.779 C694.414,307.873 693.898,307.045 693.148,306.732 C691.82,306.185 691.742,306.107 691.742,305.654 C691.742,305.107 692.101,304.279 692.601,303.67 C693.508,302.545 694.976,301.935 696.68,301.935 C699.664,301.935 701.43,303.779 701.43,306.795 C701.43,309.467 700.164,311.873 697.18,315.045 C694.523,317.842 692.867,319.607 692.242,320.295 C690.945,321.81 690.305,322.639 688.726,324.717 L688.726,325.732 L704.961,325.732 L705.633,317.951 "
+            },
+            {
+              "class": "Fingering",
+              "d": "M860.377,301.356 C863.659,300.169 865.159,298.341 865.159,295.45 C865.159,291.684 862.284,289.263 857.83,289.263 C853.612,289.263 850.409,291.747 850.409,295.028 C850.409,296.497 851.377,297.544 852.784,297.544 C854.049,297.544 854.909,296.684 854.909,295.388 C854.909,294.591 854.612,294.122 853.799,293.544 C853.424,293.294 853.33,293.153 853.33,292.903 C853.33,291.888 855.409,290.809 857.455,290.809 C860.049,290.809 861.424,292.434 861.424,295.497 C861.424,298.841 860.049,300.606 857.502,300.606 C857.174,300.606 856.565,300.575 856.018,300.528 C855.737,300.497 855.44,300.497 855.237,300.497 C854.471,300.497 854.08,300.825 854.08,301.466 C854.08,302.075 854.44,302.372 855.237,302.372 C855.44,302.372 855.737,302.372 856.065,302.325 C856.784,302.294 857.362,302.294 857.752,302.294 C860.409,302.294 861.862,304.2 861.862,307.763 C861.862,311.513 860.049,313.591 856.815,313.591 C854.549,313.591 852.096,312.372 852.096,311.263 C852.096,310.934 852.174,310.856 852.862,310.466 C853.862,309.856 854.252,309.247 854.252,308.341 C854.252,307.044 853.284,306.075 851.987,306.075 C850.44,306.075 849.44,307.341 849.44,309.247 C849.44,312.731 852.643,315.153 857.252,315.153 C862.471,315.153 865.846,312.263 865.846,307.841 C865.846,304.45 864.127,302.403 860.377,301.356"
+            },
+            {
+              "class": "Fingering",
+              "d": "M1013.29,282.715 C1015.23,283.168 1016.2,283.324 1017.65,283.324 C1020.7,283.324 1022.93,282.277 1024.12,280.262 C1024.53,279.605 1024.67,279.246 1024.67,278.965 C1024.67,278.746 1024.59,278.637 1024.37,278.637 C1024.26,278.637 1024.12,278.668 1023.9,278.777 C1022.15,279.543 1021.22,279.715 1019.12,279.715 C1016.83,279.715 1015.37,279.496 1011.7,278.637 C1011.56,281.668 1011.23,285.512 1010.73,289.98 C1009.98,290.777 1009.73,291.23 1009.73,291.808 C1009.73,292.574 1010.2,293.043 1010.87,293.043 C1011.81,293.043 1012.36,292.277 1012.5,290.84 C1013.76,289.949 1014.95,289.543 1016.39,289.543 C1019.62,289.543 1021.53,291.996 1021.53,296.137 C1021.53,299.871 1020.34,302.965 1016.17,302.965 C1014.01,302.965 1011.78,301.855 1011.78,300.746 C1011.78,300.496 1012,300.199 1012.43,299.949 C1013.54,299.262 1013.87,298.793 1013.87,297.824 C1013.87,296.558 1012.89,295.59 1011.61,295.59 C1010.15,295.59 1009.01,296.918 1009.01,298.621 C1009.01,300.418 1010.04,302.215 1011.67,303.34 C1012.89,304.121 1014.34,304.527 1016.25,304.527 C1021.89,304.527 1025.45,301.215 1025.45,295.918 C1025.45,291.027 1022.22,287.746 1017.33,287.746 C1015.78,287.746 1014.65,287.996 1012.68,288.824 L1013.29,282.715 "
+            }
+          ],
+          "stafftext_elements": []
+        },
+        "marked-joint": {
+          "heads": [
+            {
+              "x": 540.839,
+              "y": 357.236,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 540.839,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 598.123,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 708.367,
+              "y": 346.11,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 708.367,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 765.651,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 875.895,
+              "y": 334.984,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 875.895,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 933.178,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1043.42,
+              "y": 323.858,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1043.42,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1100.71,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            }
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 625.827,
+              "ys": [
+                698.581,
+                544.241
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 709.591,
+              "ys": [
+                405.478,
+                547.473
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 793.355,
+              "ys": [
+                698.581,
+                550.9
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 877.119,
+              "ys": [
+                405.478,
+                554.132
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 960.882,
+              "ys": [
+                698.581,
+                557.558
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1044.65,
+              "ys": [
+                405.478,
+                560.79
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.41,
+              "ys": [
+                698.581,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gap_ratio": 1.000095510983765,
+          "stem_gaps": [
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76299999999992,
+            83.76800000000014,
+            83.75999999999999
+          ],
+          "head_scales": [
+            0.890079
+          ],
+          "head_outline_digests": [
+            "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          ],
+          "shared_onset_anchor_difference_sp": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hairpin_points": [
+            [
+              [
+                997.925,
+                513.874
+              ],
+              [
+                585.925,
+                501.874
+              ],
+              [
+                997.925,
+                489.874
+              ]
+            ]
+          ],
+          "hairpin_stem_intersections": [
+            [
+              709.591,
+              505.4759223300971
+            ],
+            [
+              877.119,
+              510.35537864077673
+            ],
+            [
+              709.591,
+              498.27207766990296
+            ],
+            [
+              877.119,
+              493.3926213592233
+            ]
+          ],
+          "hairpin_intersection_points": 4,
+          "hairpin_intersected_stems": 2,
+          "slur_paths": [
+            "M577.547,307.169 C647.148,242.577 988.055,223.107 1064.56,279.354 C988.41,229.327 647.503,248.797 577.547,307.169"
+          ],
+          "fingering_elements": [
+            {
+              "class": "Fingering",
+              "d": "M538.591,311.515 C537.357,312.999 534.06,314.108 530.747,314.186 L530.747,315.733 L533.904,315.733 C535.997,315.765 536.216,315.983 536.138,317.999 L536.138,332.436 C536.138,334.265 536.138,334.343 535.919,334.655 C535.638,335.03 534.951,335.171 532.935,335.171 L530.591,335.171 L530.591,336.858 L544.857,336.858 L544.857,335.171 L542.872,335.171 C540.857,335.171 540.169,335.03 539.888,334.655 C539.638,334.343 539.638,334.296 539.638,332.436 L539.638,317.561 C539.638,315.546 539.701,313.858 539.888,311.515 L538.591,311.515 "
+            },
+            {
+              "class": "Fingering",
+              "d": "M713.197,317.951 L711.619,317.951 L711.26,319.795 C710.791,322.139 710.51,322.342 708.275,322.342 L700.213,322.342 C702.697,319.764 703.525,318.998 705.822,317.201 C709.104,314.685 710.51,313.42 711.338,312.342 C712.479,310.764 713.057,309.17 713.057,307.404 C713.057,303.31 709.682,300.389 704.963,300.389 C700.385,300.389 696.9,303.31 696.9,307.154 C696.9,309.42 698.057,310.967 699.744,310.967 C701.072,310.967 701.979,310.076 701.979,308.779 C701.979,307.873 701.463,307.045 700.713,306.732 C699.385,306.185 699.307,306.107 699.307,305.654 C699.307,305.107 699.666,304.279 700.166,303.67 C701.072,302.545 702.541,301.935 704.244,301.935 C707.229,301.935 708.994,303.779 708.994,306.795 C708.994,309.467 707.729,311.873 704.744,315.045 C702.088,317.842 700.432,319.607 699.807,320.295 C698.51,321.81 697.869,322.639 696.291,324.717 L696.291,325.732 L712.525,325.732 L713.197,317.951 "
+            },
+            {
+              "class": "Fingering",
+              "d": "M875.507,301.356 C878.788,300.169 880.288,298.341 880.288,295.45 C880.288,291.684 877.413,289.263 872.96,289.263 C868.741,289.263 865.538,291.747 865.538,295.028 C865.538,296.497 866.507,297.544 867.913,297.544 C869.179,297.544 870.038,296.684 870.038,295.388 C870.038,294.591 869.741,294.122 868.929,293.544 C868.554,293.294 868.46,293.153 868.46,292.903 C868.46,291.888 870.538,290.809 872.585,290.809 C875.179,290.809 876.554,292.434 876.554,295.497 C876.554,298.841 875.179,300.606 872.632,300.606 C872.304,300.606 871.694,300.575 871.147,300.528 C870.866,300.497 870.569,300.497 870.366,300.497 C869.6,300.497 869.21,300.825 869.21,301.466 C869.21,302.075 869.569,302.372 870.366,302.372 C870.569,302.372 870.866,302.372 871.194,302.325 C871.913,302.294 872.491,302.294 872.882,302.294 C875.538,302.294 876.991,304.2 876.991,307.763 C876.991,311.513 875.179,313.591 871.944,313.591 C869.679,313.591 867.225,312.372 867.225,311.263 C867.225,310.934 867.304,310.856 867.991,310.466 C868.991,309.856 869.382,309.247 869.382,308.341 C869.382,307.044 868.413,306.075 867.116,306.075 C865.569,306.075 864.569,307.341 864.569,309.247 C864.569,312.731 867.772,315.153 872.382,315.153 C877.6,315.153 880.975,312.263 880.975,307.841 C880.975,304.45 879.257,302.403 875.507,301.356"
+            },
+            {
+              "class": "Fingering",
+              "d": "M1035.99,282.715 C1037.93,283.168 1038.9,283.324 1040.35,283.324 C1043.4,283.324 1045.63,282.277 1046.82,280.262 C1047.22,279.605 1047.36,279.246 1047.36,278.965 C1047.36,278.746 1047.29,278.637 1047.07,278.637 C1046.96,278.637 1046.82,278.668 1046.6,278.777 C1044.85,279.543 1043.91,279.715 1041.82,279.715 C1039.52,279.715 1038.07,279.496 1034.4,278.637 C1034.26,281.668 1033.93,285.512 1033.43,289.98 C1032.68,290.777 1032.43,291.23 1032.43,291.808 C1032.43,292.574 1032.9,293.043 1033.57,293.043 C1034.51,293.043 1035.05,292.277 1035.19,290.84 C1036.46,289.949 1037.65,289.543 1039.08,289.543 C1042.32,289.543 1044.22,291.996 1044.22,296.137 C1044.22,299.871 1043.04,302.965 1038.86,302.965 C1036.71,302.965 1034.47,301.855 1034.47,300.746 C1034.47,300.496 1034.69,300.199 1035.13,299.949 C1036.24,299.262 1036.57,298.793 1036.57,297.824 C1036.57,296.558 1035.58,295.59 1034.3,295.59 C1032.85,295.59 1031.71,296.918 1031.71,298.621 C1031.71,300.418 1032.74,302.215 1034.36,303.34 C1035.58,304.121 1037.04,304.527 1038.94,304.527 C1044.58,304.527 1048.15,301.215 1048.15,295.918 C1048.15,291.027 1044.91,287.746 1040.02,287.746 C1038.47,287.746 1037.35,287.996 1035.38,288.824 L1035.99,282.715 "
+            }
+          ],
+          "stafftext_elements": []
+        },
+        "marked-text-v2": {
+          "heads": [
+            {
+              "x": 540.839,
+              "y": 357.236,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 540.839,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 598.123,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 708.367,
+              "y": 346.11,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 708.367,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 765.651,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 875.895,
+              "y": 334.984,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 875.895,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 933.178,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1043.42,
+              "y": 323.858,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1043.42,
+              "y": 401.74,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            },
+            {
+              "x": 1100.71,
+              "y": 702.142,
+              "scale": 0.890079,
+              "outline_sha256": "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+            }
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 625.827,
+              "ys": [
+                698.581,
+                544.241
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 709.591,
+              "ys": [
+                405.478,
+                547.473
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 793.355,
+              "ys": [
+                698.581,
+                550.9
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 877.119,
+              "ys": [
+                405.478,
+                554.132
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 960.882,
+              "ys": [
+                698.581,
+                557.558
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1044.65,
+              "ys": [
+                405.478,
+                560.79
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.41,
+              "ys": [
+                698.581,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gap_ratio": 1.000095510983765,
+          "stem_gaps": [
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76299999999992,
+            83.76800000000014,
+            83.75999999999999
+          ],
+          "head_scales": [
+            0.890079
+          ],
+          "head_outline_digests": [
+            "d24ddf639f11c176e34eac7c2ece6f15cccee060c17e013c7ae825526e8fd5c2"
+          ],
+          "shared_onset_anchor_difference_sp": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hairpin_points": [],
+          "hairpin_stem_intersections": [],
+          "hairpin_intersection_points": 0,
+          "hairpin_intersected_stems": 0,
+          "slur_paths": [
+            "M577.547,307.169 C647.148,242.577 988.055,223.107 1064.56,279.354 C988.41,229.327 647.503,248.797 577.547,307.169"
+          ],
+          "fingering_elements": [
+            {
+              "class": "Fingering",
+              "d": "M538.591,311.515 C537.357,312.999 534.06,314.108 530.747,314.186 L530.747,315.733 L533.904,315.733 C535.997,315.765 536.216,315.983 536.138,317.999 L536.138,332.436 C536.138,334.265 536.138,334.343 535.919,334.655 C535.638,335.03 534.951,335.171 532.935,335.171 L530.591,335.171 L530.591,336.858 L544.857,336.858 L544.857,335.171 L542.872,335.171 C540.857,335.171 540.169,335.03 539.888,334.655 C539.638,334.343 539.638,334.296 539.638,332.436 L539.638,317.561 C539.638,315.546 539.701,313.858 539.888,311.515 L538.591,311.515 "
+            },
+            {
+              "class": "Fingering",
+              "d": "M713.197,317.951 L711.619,317.951 L711.26,319.795 C710.791,322.139 710.51,322.342 708.275,322.342 L700.213,322.342 C702.697,319.764 703.525,318.998 705.822,317.201 C709.104,314.685 710.51,313.42 711.338,312.342 C712.479,310.764 713.057,309.17 713.057,307.404 C713.057,303.31 709.682,300.389 704.963,300.389 C700.385,300.389 696.9,303.31 696.9,307.154 C696.9,309.42 698.057,310.967 699.744,310.967 C701.072,310.967 701.979,310.076 701.979,308.779 C701.979,307.873 701.463,307.045 700.713,306.732 C699.385,306.185 699.307,306.107 699.307,305.654 C699.307,305.107 699.666,304.279 700.166,303.67 C701.072,302.545 702.541,301.935 704.244,301.935 C707.229,301.935 708.994,303.779 708.994,306.795 C708.994,309.467 707.729,311.873 704.744,315.045 C702.088,317.842 700.432,319.607 699.807,320.295 C698.51,321.81 697.869,322.639 696.291,324.717 L696.291,325.732 L712.525,325.732 L713.197,317.951 "
+            },
+            {
+              "class": "Fingering",
+              "d": "M875.507,301.356 C878.788,300.169 880.288,298.341 880.288,295.45 C880.288,291.684 877.413,289.263 872.96,289.263 C868.741,289.263 865.538,291.747 865.538,295.028 C865.538,296.497 866.507,297.544 867.913,297.544 C869.179,297.544 870.038,296.684 870.038,295.388 C870.038,294.591 869.741,294.122 868.929,293.544 C868.554,293.294 868.46,293.153 868.46,292.903 C868.46,291.888 870.538,290.809 872.585,290.809 C875.179,290.809 876.554,292.434 876.554,295.497 C876.554,298.841 875.179,300.606 872.632,300.606 C872.304,300.606 871.694,300.575 871.147,300.528 C870.866,300.497 870.569,300.497 870.366,300.497 C869.6,300.497 869.21,300.825 869.21,301.466 C869.21,302.075 869.569,302.372 870.366,302.372 C870.569,302.372 870.866,302.372 871.194,302.325 C871.913,302.294 872.491,302.294 872.882,302.294 C875.538,302.294 876.991,304.2 876.991,307.763 C876.991,311.513 875.179,313.591 871.944,313.591 C869.679,313.591 867.225,312.372 867.225,311.263 C867.225,310.934 867.304,310.856 867.991,310.466 C868.991,309.856 869.382,309.247 869.382,308.341 C869.382,307.044 868.413,306.075 867.116,306.075 C865.569,306.075 864.569,307.341 864.569,309.247 C864.569,312.731 867.772,315.153 872.382,315.153 C877.6,315.153 880.975,312.263 880.975,307.841 C880.975,304.45 879.257,302.403 875.507,301.356"
+            },
+            {
+              "class": "Fingering",
+              "d": "M1035.99,282.715 C1037.93,283.168 1038.9,283.324 1040.35,283.324 C1043.4,283.324 1045.63,282.277 1046.82,280.262 C1047.22,279.605 1047.36,279.246 1047.36,278.965 C1047.36,278.746 1047.29,278.637 1047.07,278.637 C1046.96,278.637 1046.82,278.668 1046.6,278.777 C1044.85,279.543 1043.91,279.715 1041.82,279.715 C1039.52,279.715 1038.07,279.496 1034.4,278.637 C1034.26,281.668 1033.93,285.512 1033.43,289.98 C1032.68,290.777 1032.43,291.23 1032.43,291.808 C1032.43,292.574 1032.9,293.043 1033.57,293.043 C1034.51,293.043 1035.05,292.277 1035.19,290.84 C1036.46,289.949 1037.65,289.543 1039.08,289.543 C1042.32,289.543 1044.22,291.996 1044.22,296.137 C1044.22,299.871 1043.04,302.965 1038.86,302.965 C1036.71,302.965 1034.47,301.855 1034.47,300.746 C1034.47,300.496 1034.69,300.199 1035.13,299.949 C1036.24,299.262 1036.57,298.793 1036.57,297.824 C1036.57,296.558 1035.58,295.59 1034.3,295.59 C1032.85,295.59 1031.71,296.918 1031.71,298.621 C1031.71,300.418 1032.74,302.215 1034.36,303.34 C1035.58,304.121 1037.04,304.527 1038.94,304.527 C1044.58,304.527 1048.15,301.215 1048.15,295.918 C1048.15,291.027 1044.91,287.746 1040.02,287.746 C1038.47,287.746 1037.35,287.996 1035.38,288.824 L1035.99,282.715 "
+            }
+          ],
+          "stafftext_elements": [
+            {
+              "class": "StaffText",
+              "d": "M602.912,495.937 C600.662,498.858 598.271,500.39 596.115,500.39 C593.458,500.39 591.927,498.452 591.927,495.03 C591.927,490.765 594.505,482.437 599.896,482.437 C601.333,482.437 602.771,483.155 602.771,483.921 C602.771,484.187 602.552,484.421 602.052,484.593 C600.849,485.14 600.396,485.671 600.396,486.749 C600.396,488.062 601.38,488.952 602.771,488.952 C604.396,488.952 605.615,487.515 605.615,485.577 C605.615,482.89 603.005,480.718 599.755,480.718 C593.458,480.718 587.787,487.202 587.787,494.452 C587.787,499.358 590.802,502.546 595.537,502.546 C598.912,502.546 601.833,500.655 604.224,496.921 L602.912,495.937 M617.646,480.718 L609.505,481.405 L609.318,483.015 L610.396,483.015 C612.208,483.015 613.005,483.421 613.005,484.28 C613.005,484.593 612.833,485.546 612.568,486.39 L607.974,501.874 L611.88,501.874 L614.005,494.765 C615.662,489.14 619.396,483.468 621.474,483.468 C622.099,483.468 622.287,483.78 622.287,484.999 C622.287,486.218 623.052,486.937 624.396,486.937 C625.927,486.937 627.052,485.718 627.052,484.062 C627.052,482.124 625.568,480.718 623.49,480.718 C620.974,480.718 618.99,482.202 616.615,485.952 L617.646,480.718 M642.818,496.655 C640.162,499.405 638.24,500.437 635.849,500.437 C633.146,500.437 631.49,498.64 631.49,495.749 C631.49,495.437 631.521,494.812 631.568,494.218 C636.88,492.968 637.693,492.702 639.755,491.796 C643.271,490.265 645.162,487.968 645.162,485.358 C645.162,482.608 643.005,480.718 639.802,480.718 C633.24,480.718 627.302,487.39 627.302,494.765 C627.302,499.624 630.224,502.546 635.083,502.546 C638.552,502.546 641.474,501.015 643.896,497.874 L642.818,496.655 M631.802,492.468 C632.833,486.39 635.583,482.53 638.912,482.53 C640.396,482.53 641.38,483.562 641.38,485.093 C641.38,487.249 639.99,489.187 637.505,490.53 C635.896,491.483 634.771,491.843 631.802,492.468 M657.552,480.718 C652.818,480.718 649.396,483.608 649.396,487.515 C649.396,489.452 650.521,491.077 652.505,492.108 C653.224,492.468 654.13,492.874 656.021,493.64 C658.583,494.671 659.208,495.312 659.208,496.874 C659.208,499.312 657.193,500.843 654.083,500.843 C651.787,500.843 650.162,500.202 650.162,499.312 C650.162,499.077 650.302,498.812 650.49,498.64 C651.333,497.733 651.427,497.515 651.427,496.702 C651.427,495.437 650.443,494.452 649.13,494.452 C647.646,494.452 646.521,495.702 646.521,497.468 C646.521,500.608 649.318,502.546 653.865,502.546 C659.037,502.546 662.583,499.718 662.583,495.624 C662.583,493.827 661.771,492.296 660.333,491.296 C659.349,490.624 658.896,490.452 656.427,489.546 C653.505,488.515 652.74,487.796 652.74,486.03 C652.74,483.968 654.708,482.437 657.318,482.437 C659.083,482.437 660.24,482.937 660.24,483.655 C660.24,483.827 660.162,484.062 660.021,484.28 C659.396,485.187 659.302,485.405 659.302,486.077 C659.302,487.296 660.24,488.155 661.646,488.155 C663.177,488.155 664.208,487.03 664.208,485.405 C664.208,482.655 661.458,480.718 657.552,480.718 M681.912,495.937 C679.662,498.858 677.271,500.39 675.115,500.39 C672.458,500.39 670.927,498.452 670.927,495.03 C670.927,490.765 673.505,482.437 678.896,482.437 C680.333,482.437 681.771,483.155 681.771,483.921 C681.771,484.187 681.552,484.421 681.052,484.593 C679.849,485.14 679.396,485.671 679.396,486.749 C679.396,488.062 680.38,488.952 681.771,488.952 C683.396,488.952 684.615,487.515 684.615,485.577 C684.615,482.89 682.005,480.718 678.755,480.718 C672.458,480.718 666.787,487.202 666.787,494.452 C666.787,499.358 669.802,502.546 674.537,502.546 C677.912,502.546 680.833,500.655 683.224,496.921 L681.912,495.937 M690.13,496.968 C688.599,496.968 687.333,498.233 687.333,499.765 C687.333,501.296 688.599,502.546 690.083,502.546 C691.693,502.546 692.912,501.327 692.912,499.765 C692.912,498.233 691.646,496.968 690.13,496.968"
+            }
+          ]
+        }
+      }
+    },
+    "calls": [
+      {
+        "source": "size-base.mscx",
+        "output": "exports/size-base.svg",
+        "started_utc": "2026-11-01T20:38:59.158189+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.04,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-base.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-base.mscx",
+        "output": "exports/font-base.svg",
+        "started_utc": "2026-11-01T20:39:02.342589+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.108,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-base.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-base.mscx",
+        "output": "exports/marked-base.svg",
+        "started_utc": "2026-11-01T20:39:05.595289+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.058,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-base.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-base.mscx",
+        "output": "exports/size-base.pdf",
+        "started_utc": "2026-11-01T20:39:08.927411+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.284,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-base.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-base.mscx",
+        "output": "exports/size-base.musicxml",
+        "started_utc": "2026-11-01T20:39:12.341818+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.587,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-base.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-base.mscx",
+        "output": "exports/size-base.mid",
+        "started_utc": "2026-11-01T20:39:15.040722+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.202,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-base.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-old.mscx",
+        "output": "exports/size-old.svg",
+        "started_utc": "2026-11-01T20:39:17.359137+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.816,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-old.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-old.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-old.mscx",
+        "output": "exports/size-old.pdf",
+        "started_utc": "2026-11-01T20:39:20.338181+00:00",
+        "returncode": 0,
+        "elapsed_s": 4.102,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-old.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-old.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-old.mscx",
+        "output": "exports/size-old.musicxml",
+        "started_utc": "2026-11-01T20:39:24.604482+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.644,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-old.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-old.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-old.mscx",
+        "output": "exports/size-old.mid",
+        "started_utc": "2026-11-01T20:39:28.414619+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.549,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-old.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-old.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-fit.mscx",
+        "output": "exports/size-fit.svg",
+        "started_utc": "2026-11-01T20:39:32.125891+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.023,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-fit.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-fit.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-fit.mscx",
+        "output": "exports/size-fit.pdf",
+        "started_utc": "2026-11-01T20:39:35.276218+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.228,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-fit.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-fit.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-fit.mscx",
+        "output": "exports/size-fit.musicxml",
+        "started_utc": "2026-11-01T20:39:38.628632+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.765,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-fit.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-fit.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "size-fit.mscx",
+        "output": "exports/size-fit.mid",
+        "started_utc": "2026-11-01T20:39:41.510408+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.755,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\size-fit.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\size-fit.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-base.mscx",
+        "output": "exports/font-base.pdf",
+        "started_utc": "2026-11-01T20:39:44.407909+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.021,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-base.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-base.mscx",
+        "output": "exports/font-base.musicxml",
+        "started_utc": "2026-11-01T20:39:47.566444+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.761,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-base.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-base.mscx",
+        "output": "exports/font-base.mid",
+        "started_utc": "2026-11-01T20:39:50.457303+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.682,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-base.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-old.mscx",
+        "output": "exports/font-old.svg",
+        "started_utc": "2026-11-01T20:39:53.272375+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.762,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-old.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-old.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-old.mscx",
+        "output": "exports/font-old.pdf",
+        "started_utc": "2026-11-01T20:39:56.167142+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.219,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-old.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-old.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-old.mscx",
+        "output": "exports/font-old.musicxml",
+        "started_utc": "2026-11-01T20:39:59.524634+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.075,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-old.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-old.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-old.mscx",
+        "output": "exports/font-old.mid",
+        "started_utc": "2026-11-01T20:40:02.744182+00:00",
+        "returncode": 0,
+        "elapsed_s": 4.372,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-old.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-old.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-fit.mscx",
+        "output": "exports/font-fit.svg",
+        "started_utc": "2026-11-01T20:40:07.310267+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.638,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-fit.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-fit.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-fit.mscx",
+        "output": "exports/font-fit.pdf",
+        "started_utc": "2026-11-01T20:40:11.107021+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.618,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-fit.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-fit.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-fit.mscx",
+        "output": "exports/font-fit.musicxml",
+        "started_utc": "2026-11-01T20:40:14.843982+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.717,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-fit.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-fit.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-fit.mscx",
+        "output": "exports/font-fit.mid",
+        "started_utc": "2026-11-01T20:40:17.679755+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.495,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-fit.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-fit.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-base.mscx",
+        "output": "exports/marked-base.pdf",
+        "started_utc": "2026-11-01T20:40:20.286776+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.834,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-base.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-base.mscx",
+        "output": "exports/marked-base.musicxml",
+        "started_utc": "2026-11-01T20:40:23.240166+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.439,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-base.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-base.mscx",
+        "output": "exports/marked-base.mid",
+        "started_utc": "2026-11-01T20:40:25.788810+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.499,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-base.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-joint.mscx",
+        "output": "exports/marked-joint.svg",
+        "started_utc": "2026-11-01T20:40:28.420754+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.923,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-joint.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-joint.mscx",
+        "output": "exports/marked-joint.pdf",
+        "started_utc": "2026-11-01T20:40:31.467669+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.227,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-joint.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-joint.mscx",
+        "output": "exports/marked-joint.musicxml",
+        "started_utc": "2026-11-01T20:40:34.839021+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.724,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-joint.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-joint.mscx",
+        "output": "exports/marked-joint.mid",
+        "started_utc": "2026-11-01T20:40:37.680965+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.438,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-joint.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "font-fit.mscx",
+        "output": "exports/font-fit-saved.mscx",
+        "started_utc": "2026-11-01T20:40:40.238028+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.389,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\font-fit.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-fit-saved.mscx>\r\n... success!\r\n"
+      },
+      {
+        "source": "exports/font-fit-saved.mscx",
+        "output": "exports/font-fit-reload.svg",
+        "started_utc": "2026-11-01T20:40:42.735890+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.489,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-fit-saved.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\font-fit-reload.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text.mscx",
+        "output": "exports/marked-text.svg",
+        "started_utc": "2026-11-01T20:47:45.662415+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.665,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text.mscx",
+        "output": "exports/marked-text.pdf",
+        "started_utc": "2026-11-01T20:47:48.483579+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.96,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text.mscx",
+        "output": "exports/marked-text.musicxml",
+        "started_utc": "2026-11-01T20:47:51.579153+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.623,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text.mscx",
+        "output": "exports/marked-text.mid",
+        "started_utc": "2026-11-01T20:47:54.325583+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.822,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text.mscx",
+        "output": "exports/marked-text-saved.mscx",
+        "started_utc": "2026-11-01T20:47:57.286601+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.659,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-saved.mscx>\r\n... success!\r\n"
+      },
+      {
+        "source": "exports/marked-text-saved.mscx",
+        "output": "exports/marked-text-reload.svg",
+        "started_utc": "2026-11-01T20:48:00.075102+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.33,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-saved.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-reload.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text-v2.mscx",
+        "output": "exports/marked-text-v2.svg",
+        "started_utc": "2026-11-01T20:51:35.403580+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.153,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text-v2.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text-v2.mscx",
+        "output": "exports/marked-text-v2.pdf",
+        "started_utc": "2026-11-01T20:51:37.656385+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.664,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text-v2.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text-v2.mscx",
+        "output": "exports/marked-text-v2.musicxml",
+        "started_utc": "2026-11-01T20:51:40.424816+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.285,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text-v2.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text-v2.mscx",
+        "output": "exports/marked-text-v2.mid",
+        "started_utc": "2026-11-01T20:51:42.829977+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.296,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text-v2.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "marked-text-v2.mscx",
+        "output": "exports/marked-text-v2-saved.mscx",
+        "started_utc": "2026-11-01T20:51:45.268008+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.689,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\marked-text-v2.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2-saved.mscx>\r\n... success!\r\n"
+      },
+      {
+        "source": "exports/marked-text-v2-saved.mscx",
+        "output": "exports/marked-text-v2-reload.svg",
+        "started_utc": "2026-11-01T20:51:48.111835+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.855,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2-saved.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2-reload.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "exports/marked-text-v2.musicxml",
+        "output": "exports/marked-text-v2-roundtrip.svg",
+        "started_utc": "2026-11-01T20:53:04.569973+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.079,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2.musicxml>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2-roundtrip.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "exports/marked-text-v2.musicxml",
+        "output": "exports/marked-text-v2-roundtrip.pdf",
+        "started_utc": "2026-11-01T20:53:07.788054+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.043,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2.musicxml>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-shape-marks-2026-11-02\\exports\\marked-text-v2-roundtrip.pdf>\r\n... success!\r\n"
+      }
+    ],
+    "positioning_probe": {
+      "condition": {
+        "name": "marked-text",
+        "family": "marked",
+        "variant": "text",
+        "font": "Leland",
+        "head_only_small_on_lower_attacks": false,
+        "derived_after_baseline_SVG": false,
+        "retained_hidden_playback_hairpin": true
+      },
+      "source_preserved": "marked-text.mscx",
+      "exports_preserved": true,
+      "reason": "offsety6 adds to below-staff base4sp,placing text below beam and across lower stem; revise to2sp while keeping native semantic/playback helper.",
+      "native_calls": 6,
+      "verdict": "rejected visual probe,not final condition"
+    },
+    "all_final_nine_native_panels_actually_viewed": true,
+    "probe_panel_actually_viewed": true,
+    "exchange_full_two_staff_panels_actually_viewed": true,
+    "published_crops": {
+      "shape_and_marked": [
+        65,
+        40,
+        615,
+        345
+      ],
+      "exchange": [
+        65,
+        40,
+        815,
+        510
+      ]
+    },
+    "pixels_per_point": 2,
+    "user_real_score_candidate": false,
+    "font_design_or_installation": false,
+    "software_adaptation": false
+  },
+  "judgment": {
+    "small_head_old_offset": "still appropriate in this head-only shrink; actual stem shift from normal <=0.002SVG",
+    "other_font_old_offset": "already close; do not require user to choose tiny difference; current-outline recalibration is available",
+    "marked_default_and_joint": "both retain4 hairpin/stem intersection points on2 stems; optical spacing does not fix the channel",
+    "printed_text_alternative": "native comparison only; printed range less direct than short hairpin,uses hidden native playback helper; not an unannounced automatic beautification",
+    "interchange": "actual MusicXML import re-displays hidden hairpin and moves beam below lower staff; not a portable candidate",
+    "native_and_exchange_verifications_separate": true,
+    "no_new_user_preference": true,
+    "boundary_plan": [
+      4,
+      4
+    ],
+    "unresolved": "No selected portable alternative retaining the original short hairpin for this particular fixture; future real-score decisions still conditional."
+  },
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-base.mscx",
+      "bytes": 5602,
+      "sha256": "ce70304dbc2bee3c31fb9e178cc71ff7915dc5a0c187067b94930061e2ae3801",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-old.mscx",
+      "bytes": 5987,
+      "sha256": "867454b568a4328cda57c0fb4668653c1a36730505cf76e3b056355456a52428",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-fit.mscx",
+      "bytes": 5991,
+      "sha256": "fe76feca937ba0325ec8398bd88f470d5b43c2396df3811143f84ef65bb2f171",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-base.mscx",
+      "bytes": 5482,
+      "sha256": "6d4715fd734c5eac56b2aafd13af34391c7e053f4150d3665c2f2aa20f7447d6",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-old.mscx",
+      "bytes": 5867,
+      "sha256": "8c99978ea2bf30c5e040f9c1fd69f301981e0301c765d4b818ff540f4c71bc78",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-fit.mscx",
+      "bytes": 5872,
+      "sha256": "17511b7ae8ac14c5865b8e967ef6bde606467fe42a5e6cf9a00e269023410c95",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-base.mscx",
+      "bytes": 8086,
+      "sha256": "168804ce81b2c303c089efd8119a55ad738c884ddb81e59776646c837171e09a",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-joint.mscx",
+      "bytes": 8662,
+      "sha256": "918ba663af56bddb244945870ea54efe35e53b85a2314269dd2338b38e4f5736",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-text-v2.mscx",
+      "bytes": 9222,
+      "sha256": "f3f95295bb5249ee470dbaf10c43ef1be104e1102c6be27336b78a4bc1f3f1a8",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-shape-comparison.png",
+      "bytes": 73557,
+      "sha256": "49466d9249d0fcea89e0a17d6a0e98097850f3ece034ebe747b7fb1047d09a95",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-comparison.png",
+      "bytes": 53674,
+      "sha256": "0690713d3aaf2f2c6159f2cd6880bd8c601ce74417b0b778fece61d772a55937",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-exchange-comparison.png",
+      "bytes": 43854,
+      "sha256": "0390e00356b568b9d7d6a5f62a22a2f4a0830117b74fe15f91a37a52aa8326e9",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "id": "A045",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "pages": 14,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A128",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\The Song of Aether - Short Piano Composition in C# Minor.pdf",
+      "sha256": "51778876e470071763f9e5e7234dba5dd7f13d65ba695252c2b9d6874e40f280",
+      "pages": 2,
+      "unchanged": true
+    }
+  ],
+  "coverage": {
+    "new_official_first_pass": 0,
+    "new_deep_scores": 0,
+    "new_Gould_coverage": 0,
+    "new_fixed_resource_completions": 0,
+    "complete_resources": [
+      16,
+      25
+    ],
+    "remaining": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "new_user_preferences": 0,
+    "software_adaptation_changes": 0
+  },
+  "cache": {
+    "batch": "tmp/engraving/stem-optical-shape-marks-2026-11-02",
+    "budget_bytes": 3145728,
+    "global_check_allowance_bytes": 3289317376,
+    "global_exact_total_known": false,
+    "new_source_media": 0,
+    "source_score_copies": 0,
+    "runtime_copies": 0,
+    "deletions": 0,
+    "reference_images_in_Git": 0,
+    "private_bytes": 1438634,
+    "files": 88,
+    "measurement_includes_audit": true,
+    "at_utc": "2026-11-01T21:08:02.153462+00:00",
+    "audit": "tmp/engraving/stem-optical-shape-marks-2026-11-02/audit.json",
+    "audit_sha256": "0950067f27b8c77e06ded1c7237a3388e159baae4aa9aee07c270ddd59d452ac",
+    "public_assets_bytes": 231856
+  },
+  "checks": {
+    "native": "passed",
+    "protected_sources": "6/6 passed",
+    "library": "passed: progress.py --check",
+    "skill": "passed: quick_validate.py",
+    "query": "6/6 existing regression tests passed",
+    "actual_query": {
+      "topic": "markings",
+      "query": "隐藏 交换 发夹",
+      "first_result": "STEM_OPTICAL_SHAPES_MARKS.md",
+      "second_result": "DYNAMICS_ARTICULATION.md",
+      "scope": "retrieval only,not correctness score"
+    },
+    "case_links": "7/7 local links passed",
+    "public_asset_hashes": "12/12 passed",
+    "protected_after": "6/6 passed",
+    "read_only_software_source_after": "2/2 files passed",
+    "prior_fixed_release_commit": "bd1d1d89b45133a4d19f6a3584743d2768e79b7e",
+    "git_diff_check": "tracked edits passed; staged new files checked before commit"
+  }
+}

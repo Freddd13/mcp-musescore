@@ -2,7 +2,7 @@
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
 metadata:
-  version: "0.27.0"
+  version: "0.28.0"
 ---
 
 # 钢琴净书
@@ -84,6 +84,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 跨表间距经`spacing`／`cross-staff`查`STEM_OPTICAL_CONTEXTS.md`及前篇：头侧、干轴、真正先后和共同起音一起核。只移音组会错开独立层，联合同刻各层可在具体情境兼顾；二度按正常侧头辨列，不按最低头或外框中心吸附。相同挂头差可使偏移跨宽度复用，仍须看当前容量和其它层；本机Local relayout未自动提供该光学策略。
 
 `STEM_OPTICAL_LIMITS.md`补独立快线与容量：同步保持后仍须核各层节奏轮廓，主要跟读层按音乐任务辨认；行宽已装不下时先解决容量。横偏移会参与原生重排，端点offset为0也不保证实际不动，不能照搬孤立例的坐标假设。
+
+`STEM_OPTICAL_SHAPES_MARKS.md`补余两类：Note小头与Chord整体缩放分辨，字号属性不独自决定grace／cue或播放。按当前真实挂头和干轴核补偿，不预断换字体／字号必失效。Slur、指法与共同列保持后仍要看动态通道；文字替代另列记法代价，隐藏播放辅助须验交换，本机实导回会重显发夹并移梁。
 
 ## 需要候选时
 
