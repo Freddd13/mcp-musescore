@@ -81,7 +81,7 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 速度等式经`tempo`／`layout`查`TEMPO_EQUATION_CLARITY.md`：确认音值归属后，比较前行预告、新行方向提示与速度确认；摆放提前不等于实际换速提前。含义未定时给可核对的结构假设，不用表情词或早先BPM自动改写。
 
-跨表间距经`spacing`／`cross-staff`查`STEM_OPTICAL_SPACING_STUDY.md`：头与干都可能影响节奏感；先核头侧、干轴和实际先后。单线均干候选不能直接用于带独立层的共同起音，局部值随行宽重查；本机Local relayout并不自动提供该光学策略。
+跨表间距经`spacing`／`cross-staff`查`STEM_OPTICAL_CONTEXTS.md`及前篇：头侧、干轴、真正先后和共同起音一起核。只移音组会错开独立层，联合同刻各层可在具体情境兼顾；二度按正常侧头辨列，不按最低头或外框中心吸附。相同挂头差可使偏移跨宽度复用，仍须看当前容量和其它层；本机Local relayout未自动提供该光学策略。
 
 ## 需要候选时
 

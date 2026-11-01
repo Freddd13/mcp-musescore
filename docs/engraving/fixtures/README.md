@@ -1,5 +1,7 @@
 # 独立净书复现谱例
 
+2026-11-02[均干与共同起音](../STEM_OPTICAL_CONTEXTS.md)新增七份CC0输入：`stem-optical-layered-base/group/joint.mscx`、`stem-optical-wide-base/joint.mscx`、`stem-optical-dense-base/joint.mscx`；两张完整两手原生图。分别12／20音和隐藏整休止，70／100mm为页面可打印宽参数；group版保留作为错开同步的失败诊断，joint版联合独立旋律。全部保持原音乐，非普通4/4分组模板。
+
 2026-11-02新增[跨表光学参照](../STEM_OPTICAL_SPACING_STUDY.md)三份CC0输入：`stem-optical-baseline/even/local.mscx`，配一张A／B原生图。可打印宽参数70mm、八个交替八分及一个隐藏整休止；均干比较改变内部Chord横偏移，保首末位置。整小节共梁只用于诊断；换行宽或加入独立声部须重新判断。
 
 2026-11-02新增[速度等式](../TEMPO_EQUATION_CLARITY.md)三份CC0输入`tempo-equation-plain/arrows/advance.mscx`及一张原生比较图；实际各21音，6/8附点四分80到4/4四分80，按同一0.75秒脉冲运行。关系已确定的机制例，不能代替Madoka未定关系；首轮失败输入仅保留本机。

@@ -1,0 +1,3304 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "STEM_OPTICAL_CONTEXTS.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "4330d2343b3959dc2889e6969c7ea917ca33827e",
+    "reason": "Isolated cross-staff optical fixture and KB/skill completed; this batch verifies three explicit limits."
+  },
+  "scope": {
+    "date": "2026-11-02",
+    "contexts": [
+      "independent melody and cross-staff beam",
+      "100mm width transfer",
+      "seconds and accidentals"
+    ],
+    "planned_conditions": 7,
+    "planned_saved_reload": 1,
+    "planned_native_calls": 30,
+    "private_budget_bytes": 2097152,
+    "global_check_allowance_bytes": 3284074496,
+    "global_exact_total_known": false,
+    "original_sources_read_only": true,
+    "software_adaptation": false,
+    "runtime_copies": 0,
+    "source_score_copies": 0
+  },
+  "reference_reading": {
+    "new_official_PDF_pages": 0,
+    "new_Gould_pages": 0,
+    "new_web_sections": 0,
+    "context_basis_reused_from": "STEM_OPTICAL_SPACING_STUDY.md",
+    "reference_figures_newly_copied_or_reread": 0
+  },
+  "native": {
+    "preparation": {
+      "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+      "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+      "manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+      "manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+      "runtime_files_before": 1936,
+      "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\native-config"
+    },
+    "conditions": [
+      {
+        "name": "layered-base",
+        "printable_width_mm": 70,
+        "texture": "simple",
+        "shift": "none"
+      },
+      {
+        "name": "layered-group",
+        "printable_width_mm": 70,
+        "texture": "simple",
+        "shift": "group"
+      },
+      {
+        "name": "layered-joint",
+        "printable_width_mm": 70,
+        "texture": "simple",
+        "shift": "joint"
+      },
+      {
+        "name": "wide-base",
+        "printable_width_mm": 100,
+        "texture": "simple",
+        "shift": "none"
+      },
+      {
+        "name": "wide-joint",
+        "printable_width_mm": 100,
+        "texture": "simple",
+        "shift": "joint"
+      },
+      {
+        "name": "dense-base",
+        "printable_width_mm": 70,
+        "texture": "dense",
+        "shift": "none"
+      },
+      {
+        "name": "dense-joint",
+        "printable_width_mm": 70,
+        "texture": "dense",
+        "shift": "joint"
+      }
+    ],
+    "offsets": {
+      "source": "previous verified single-layer fixture",
+      "units": "spatium",
+      "cross_group_offsets": [
+        0,
+        -1.0200046223774408,
+        0.33995660101178915,
+        -0.6800480213656517,
+        0.6799132020235783,
+        -0.3401363601345604,
+        1.019959682596748,
+        0
+      ],
+      "reused_without_recalculation": true
+    },
+    "recipes": {
+      "layered-base": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "layered-group": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "layered-joint": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "wide-base": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "wide-joint": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "dense-base": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 49,
+          "tpc": 21,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 51,
+          "tpc": 23,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 50,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 47,
+          "tpc": 7,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 49,
+          "tpc": 9,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 50,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ],
+      "dense-joint": [
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 49,
+          "tpc": 21,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "1/2",
+          "duration_q": "1/2",
+          "pitch": 51,
+          "tpc": 23,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "3/2",
+          "duration_q": "1/2",
+          "pitch": 50,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 47,
+          "tpc": 7,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "5/2",
+          "duration_q": "1/2",
+          "pitch": 49,
+          "tpc": 9,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 72,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1/2",
+          "pitch": 74,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "down"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 48,
+          "tpc": 14,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 0,
+          "mxl_voice": "1",
+          "display_staff": 2,
+          "onset_q": "7/2",
+          "duration_q": "1/2",
+          "pitch": 50,
+          "tpc": 16,
+          "written": "eighth",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "0",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "1",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "2",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        },
+        {
+          "source_staff": 1,
+          "voice_index": 1,
+          "mxl_voice": "2",
+          "display_staff": 1,
+          "onset_q": "3",
+          "duration_q": "1",
+          "pitch": 79,
+          "tpc": 15,
+          "written": "quarter",
+          "stem": "up"
+        }
+      ]
+    },
+    "verification": {
+      "conditions": [
+        7,
+        7
+      ],
+      "contexts": [
+        3,
+        3
+      ],
+      "saved_reload": [
+        1,
+        1
+      ],
+      "saved_native_music_records": 12,
+      "saved_native_music_matches_recipe": true,
+      "MusicXML": [
+        {
+          "name": "layered-base",
+          "compared_note_records": 12,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "layered-group",
+          "compared_note_records": 12,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "layered-joint",
+          "compared_note_records": 12,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "wide-base",
+          "compared_note_records": 12,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "wide-joint",
+          "compared_note_records": 12,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "dense-base",
+          "compared_note_records": 20,
+          "hidden_support_rests": 1
+        },
+        {
+          "name": "dense-joint",
+          "compared_note_records": 20,
+          "hidden_support_rests": 1
+        }
+      ],
+      "compared_note_records": 100,
+      "compared_hidden_rest_records": 7,
+      "MIDI": [
+        {
+          "texture": "simple",
+          "conditions": [
+            "layered-base",
+            "layered-group",
+            "layered-joint",
+            "wide-base",
+            "wide-joint"
+          ],
+          "full_MIDI_equal": true,
+          "MIDI_bytes": 226,
+          "attacks_per_condition": 12
+        },
+        {
+          "texture": "dense",
+          "conditions": [
+            "dense-base",
+            "dense-joint"
+          ],
+          "full_MIDI_equal": true,
+          "MIDI_bytes": 274,
+          "attacks_per_condition": 20
+        }
+      ],
+      "MIDI_hashes": {
+        "layered-base": {
+          "sha256": "ea8256fbddae84983352c0ffbe8f58083910440344c0a5e79c5cbd26972ad599",
+          "bytes": 226,
+          "attacks": 12
+        },
+        "layered-group": {
+          "sha256": "ea8256fbddae84983352c0ffbe8f58083910440344c0a5e79c5cbd26972ad599",
+          "bytes": 226,
+          "attacks": 12
+        },
+        "layered-joint": {
+          "sha256": "ea8256fbddae84983352c0ffbe8f58083910440344c0a5e79c5cbd26972ad599",
+          "bytes": 226,
+          "attacks": 12
+        },
+        "wide-base": {
+          "sha256": "ea8256fbddae84983352c0ffbe8f58083910440344c0a5e79c5cbd26972ad599",
+          "bytes": 226,
+          "attacks": 12
+        },
+        "wide-joint": {
+          "sha256": "ea8256fbddae84983352c0ffbe8f58083910440344c0a5e79c5cbd26972ad599",
+          "bytes": 226,
+          "attacks": 12
+        },
+        "dense-base": {
+          "sha256": "676128ca9ae46660bf4a8774b790a5a5f37e9734f8f18b3a222dff66b8c5b63a",
+          "bytes": 274,
+          "attacks": 20
+        },
+        "dense-joint": {
+          "sha256": "676128ca9ae46660bf4a8774b790a5a5f37e9734f8f18b3a222dff66b8c5b63a",
+          "bytes": 274,
+          "attacks": 20
+        }
+      },
+      "shared_relationship_change_sp": {
+        "layered-group": 1.020133021750861,
+        "layered-joint": 0.00044939780694340254,
+        "wide-joint": 0.0004493978069485116,
+        "dense-joint": 0.0004493978069382935
+      },
+      "reload_max_coordinate_delta_svg": 0.009999999999990905,
+      "native_CLI_calls": 30,
+      "runtime_files_after": 1936,
+      "geometry": {
+        "layered-base": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              620.82,
+              702.142
+            ],
+            [
+              700.802,
+              357.236
+            ],
+            [
+              700.802,
+              401.74
+            ],
+            [
+              780.784,
+              702.142
+            ],
+            [
+              860.765,
+              357.236
+            ],
+            [
+              860.765,
+              401.74
+            ],
+            [
+              940.747,
+              702.142
+            ],
+            [
+              1020.73,
+              357.236
+            ],
+            [
+              1020.73,
+              401.74
+            ],
+            [
+              1100.71,
+              702.142
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 648.524,
+              "ys": [
+                698.581,
+                545.144
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 702.026,
+              "ys": [
+                405.478,
+                547.173
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 808.487,
+              "ys": [
+                698.581,
+                551.501
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 861.989,
+              "ys": [
+                405.478,
+                553.53
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 968.451,
+              "ys": [
+                698.581,
+                557.859
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1021.95,
+              "ys": [
+                405.478,
+                559.888
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.41,
+              "ys": [
+                698.581,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "melody_head_x": [
+            540.839,
+            700.802,
+            860.765,
+            1020.73
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gaps": [
+            106.46100000000001,
+            53.50199999999995,
+            106.46100000000001,
+            53.502000000000066,
+            106.46199999999999,
+            53.499000000000024,
+            106.46000000000004
+          ],
+          "melody_gaps": [
+            159.96299999999997,
+            159.96299999999997,
+            159.96500000000003
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            4.49397806979166e-05,
+            4.493978069280754e-05,
+            0.00022469890346914675
+          ],
+          "stem_gap_ratio": 1.98998112114245,
+          "melody_gap_ratio": 1.000012502891294
+        },
+        "layered-group": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              598.123,
+              702.142
+            ],
+            [
+              700.802,
+              357.236
+            ],
+            [
+              708.367,
+              401.74
+            ],
+            [
+              765.651,
+              702.142
+            ],
+            [
+              860.765,
+              357.236
+            ],
+            [
+              875.895,
+              401.74
+            ],
+            [
+              933.178,
+              702.142
+            ],
+            [
+              1020.73,
+              357.236
+            ],
+            [
+              1043.42,
+              401.74
+            ],
+            [
+              1100.71,
+              702.142
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 625.827,
+              "ys": [
+                698.581,
+                544.241
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 709.591,
+              "ys": [
+                405.478,
+                547.473
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 793.355,
+              "ys": [
+                698.581,
+                550.9
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 877.119,
+              "ys": [
+                405.478,
+                554.132
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 960.882,
+              "ys": [
+                698.581,
+                557.558
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1044.65,
+              "ys": [
+                405.478,
+                560.79
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.41,
+              "ys": [
+                698.581,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "melody_head_x": [
+            540.839,
+            700.802,
+            860.765,
+            1020.73
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gaps": [
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76299999999992,
+            83.76800000000014,
+            83.75999999999999
+          ],
+          "melody_gaps": [
+            159.96299999999997,
+            159.96299999999997,
+            159.96500000000003
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            -0.33992450116843276,
+            -0.6798939421175635,
+            -1.019908322847392
+          ],
+          "stem_gap_ratio": 1.000095510983765,
+          "melody_gap_ratio": 1.000012502891294
+        },
+        "layered-joint": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              598.123,
+              702.142
+            ],
+            [
+              708.367,
+              357.236
+            ],
+            [
+              708.367,
+              401.74
+            ],
+            [
+              765.651,
+              702.142
+            ],
+            [
+              875.895,
+              357.236
+            ],
+            [
+              875.895,
+              401.74
+            ],
+            [
+              933.178,
+              702.142
+            ],
+            [
+              1043.42,
+              357.236
+            ],
+            [
+              1043.42,
+              401.74
+            ],
+            [
+              1100.71,
+              702.142
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 625.827,
+              "ys": [
+                698.581,
+                544.241
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 709.591,
+              "ys": [
+                405.478,
+                547.473
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 793.355,
+              "ys": [
+                698.581,
+                550.9
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 877.119,
+              "ys": [
+                405.478,
+                554.132
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 960.882,
+              "ys": [
+                698.581,
+                557.558
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1044.65,
+              "ys": [
+                405.478,
+                560.79
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.41,
+              "ys": [
+                698.581,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "melody_head_x": [
+            540.839,
+            708.367,
+            875.895,
+            1043.42
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gaps": [
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76400000000001,
+            83.76299999999992,
+            83.76800000000014,
+            83.75999999999999
+          ],
+          "melody_gaps": [
+            167.5279999999999,
+            167.52800000000002,
+            167.5250000000001
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            4.493978069280754e-05,
+            4.493978069280754e-05,
+            -0.0002246989034742558
+          ],
+          "stem_gap_ratio": 1.000095510983765,
+          "melody_gap_ratio": 1.0000179077749585
+        },
+        "wide-base": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              673.97,
+              702.142
+            ],
+            [
+              807.101,
+              357.236
+            ],
+            [
+              807.101,
+              401.74
+            ],
+            [
+              940.233,
+              702.142
+            ],
+            [
+              1073.36,
+              357.236
+            ],
+            [
+              1073.36,
+              401.74
+            ],
+            [
+              1206.5,
+              702.142
+            ],
+            [
+              1339.63,
+              357.236
+            ],
+            [
+              1339.63,
+              401.74
+            ],
+            [
+              1472.76,
+              702.142
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 701.674,
+              "ys": [
+                698.581,
+                544.685
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 808.325,
+              "ys": [
+                405.478,
+                547.173
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 967.936,
+              "ys": [
+                698.581,
+                551.042
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1074.59,
+              "ys": [
+                405.478,
+                553.53
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1234.2,
+              "ys": [
+                698.581,
+                557.4
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1340.85,
+              "ys": [
+                405.478,
+                559.888
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1500.46,
+              "ys": [
+                698.581,
+                563.758
+              ],
+              "width": 2.45
+            }
+          ],
+          "melody_head_x": [
+            540.839,
+            807.101,
+            1073.36,
+            1339.63
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gaps": [
+            159.611,
+            106.65100000000007,
+            159.611,
+            106.65399999999988,
+            159.61000000000013,
+            106.64999999999986,
+            159.61000000000013
+          ],
+          "melody_gaps": [
+            266.26199999999994,
+            266.2589999999999,
+            266.2700000000002
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            4.493978069280754e-05,
+            -0.0002246989034742558,
+            0.0002246989034742558
+          ],
+          "stem_gap_ratio": 1.4965869667135507,
+          "melody_gap_ratio": 1.0000413131574906
+        },
+        "wide-joint": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              651.273,
+              702.142
+            ],
+            [
+              814.666,
+              357.236
+            ],
+            [
+              814.666,
+              401.74
+            ],
+            [
+              925.1,
+              702.142
+            ],
+            [
+              1088.49,
+              357.236
+            ],
+            [
+              1088.49,
+              401.74
+            ],
+            [
+              1198.93,
+              702.142
+            ],
+            [
+              1362.32,
+              357.236
+            ],
+            [
+              1362.32,
+              401.74
+            ],
+            [
+              1472.76,
+              702.142
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 678.977,
+              "ys": [
+                698.581,
+                544.143
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 815.89,
+              "ys": [
+                405.478,
+                547.353
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 952.804,
+              "ys": [
+                698.581,
+                550.681
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1089.72,
+              "ys": [
+                405.478,
+                553.892
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1226.63,
+              "ys": [
+                698.581,
+                557.219
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1363.55,
+              "ys": [
+                405.478,
+                560.43
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1500.46,
+              "ys": [
+                698.581,
+                563.758
+              ],
+              "width": 2.45
+            }
+          ],
+          "melody_head_x": [
+            540.839,
+            814.666,
+            1088.49,
+            1362.32
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gaps": [
+            136.914,
+            136.913,
+            136.914,
+            136.91600000000005,
+            136.91000000000008,
+            136.91999999999985,
+            136.91000000000008
+          ],
+          "melody_gaps": [
+            273.827,
+            273.82399999999996,
+            273.8299999999999
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            4.49397806979166e-05,
+            -0.0002246989034742558,
+            -0.0002246989034742558
+          ],
+          "stem_gap_ratio": 1.000073040683659,
+          "melody_gap_ratio": 1.0000219118850062
+        },
+        "dense-base": {
+          "heads": [
+            [
+              514.366,
+              401.74
+            ],
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              390.614
+            ],
+            [
+              619.564,
+              702.142
+            ],
+            [
+              646.044,
+              691.016
+            ],
+            [
+              671.816,
+              401.74
+            ],
+            [
+              698.289,
+              357.236
+            ],
+            [
+              698.289,
+              390.614
+            ],
+            [
+              777.014,
+              702.142
+            ],
+            [
+              803.494,
+              691.016
+            ],
+            [
+              829.266,
+              401.74
+            ],
+            [
+              855.739,
+              357.236
+            ],
+            [
+              855.739,
+              390.614
+            ],
+            [
+              934.464,
+              702.142
+            ],
+            [
+              960.944,
+              691.016
+            ],
+            [
+              986.716,
+              401.74
+            ],
+            [
+              1013.19,
+              357.236
+            ],
+            [
+              1013.19,
+              390.614
+            ],
+            [
+              1091.91,
+              702.142
+            ],
+            [
+              1118.39,
+              691.016
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                394.353,
+                535.252
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 647.267,
+              "ys": [
+                698.581,
+                539.599
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 699.513,
+              "ys": [
+                394.353,
+                541.61
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 804.717,
+              "ys": [
+                698.581,
+                545.957
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 856.963,
+              "ys": [
+                394.353,
+                547.967
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 962.167,
+              "ys": [
+                698.581,
+                552.314
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1014.41,
+              "ys": [
+                394.353,
+                554.325
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1119.62,
+              "ys": [
+                698.581,
+                558.672
+              ],
+              "width": 2.45
+            }
+          ],
+          "melody_head_x": [
+            540.839,
+            698.289,
+            855.739,
+            1013.19
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gaps": [
+            105.20400000000006,
+            52.24599999999998,
+            105.20399999999995,
+            52.24599999999998,
+            105.20400000000006,
+            52.24299999999994,
+            105.20999999999992
+          ],
+          "melody_gaps": [
+            157.44999999999993,
+            157.45000000000005,
+            157.45100000000002
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            4.493978069280754e-05,
+            4.49397806979166e-05,
+            0.0002246989034742558
+          ],
+          "stem_gap_ratio": 2.013858315946635,
+          "melody_gap_ratio": 1.000006351222611
+        },
+        "dense-joint": {
+          "heads": [
+            [
+              514.366,
+              401.74
+            ],
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              390.614
+            ],
+            [
+              596.867,
+              702.142
+            ],
+            [
+              623.346,
+              691.016
+            ],
+            [
+              679.381,
+              401.74
+            ],
+            [
+              705.853,
+              357.236
+            ],
+            [
+              705.853,
+              390.614
+            ],
+            [
+              761.881,
+              702.142
+            ],
+            [
+              788.361,
+              691.016
+            ],
+            [
+              844.395,
+              401.74
+            ],
+            [
+              870.868,
+              357.236
+            ],
+            [
+              870.868,
+              390.614
+            ],
+            [
+              926.895,
+              702.142
+            ],
+            [
+              953.375,
+              691.016
+            ],
+            [
+              1009.41,
+              401.74
+            ],
+            [
+              1035.88,
+              357.236
+            ],
+            [
+              1035.88,
+              390.614
+            ],
+            [
+              1091.91,
+              702.142
+            ],
+            [
+              1118.39,
+              691.016
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                394.353,
+                535.252
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 624.57,
+              "ys": [
+                698.581,
+                538.682
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 707.077,
+              "ys": [
+                394.353,
+                541.915
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 789.585,
+              "ys": [
+                698.581,
+                545.346
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 872.092,
+              "ys": [
+                394.353,
+                548.578
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 954.599,
+              "ys": [
+                698.581,
+                552.009
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1037.11,
+              "ys": [
+                394.353,
+                555.242
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1119.62,
+              "ys": [
+                698.581,
+                558.672
+              ],
+              "width": 2.45
+            }
+          ],
+          "melody_head_x": [
+            540.839,
+            705.853,
+            870.868,
+            1035.88
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gaps": [
+            82.50700000000006,
+            82.50699999999995,
+            82.50800000000004,
+            82.50699999999995,
+            82.50700000000006,
+            82.51099999999985,
+            82.50999999999999
+          ],
+          "melody_gaps": [
+            165.0139999999999,
+            165.0150000000001,
+            165.01200000000006
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            4.493978069280754e-05,
+            4.49397806979166e-05,
+            -0.0002246989034640377
+          ],
+          "stem_gap_ratio": 1.0000484807349668,
+          "melody_gap_ratio": 1.0000181804959642
+        },
+        "layered-joint-reload": {
+          "heads": [
+            [
+              540.839,
+              357.236
+            ],
+            [
+              540.839,
+              401.74
+            ],
+            [
+              598.124,
+              702.142
+            ],
+            [
+              708.367,
+              357.236
+            ],
+            [
+              708.367,
+              401.74
+            ],
+            [
+              765.652,
+              702.142
+            ],
+            [
+              875.896,
+              357.236
+            ],
+            [
+              875.896,
+              401.74
+            ],
+            [
+              933.179,
+              702.142
+            ],
+            [
+              1043.43,
+              357.236
+            ],
+            [
+              1043.43,
+              401.74
+            ],
+            [
+              1100.71,
+              702.142
+            ]
+          ],
+          "cross_stems": [
+            {
+              "x": 542.063,
+              "ys": [
+                405.478,
+                540.815
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 625.827,
+              "ys": [
+                698.581,
+                544.241
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 709.591,
+              "ys": [
+                405.478,
+                547.473
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 793.356,
+              "ys": [
+                698.581,
+                550.9
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 877.12,
+              "ys": [
+                405.478,
+                554.132
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 960.883,
+              "ys": [
+                698.581,
+                557.558
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1044.65,
+              "ys": [
+                405.478,
+                560.79
+              ],
+              "width": 2.45
+            },
+            {
+              "x": 1128.42,
+              "ys": [
+                698.581,
+                564.217
+              ],
+              "width": 2.45
+            }
+          ],
+          "melody_head_x": [
+            540.839,
+            708.367,
+            875.896,
+            1043.43
+          ],
+          "sp_svg": 22.251999999999995,
+          "staff_lines": [
+            368.362,
+            390.614,
+            412.866,
+            435.118,
+            457.37,
+            646.512,
+            668.764,
+            691.016,
+            713.268,
+            735.52
+          ],
+          "stem_gaps": [
+            83.76400000000001,
+            83.76400000000001,
+            83.76499999999999,
+            83.76400000000001,
+            83.76300000000003,
+            83.76700000000005,
+            83.76999999999998
+          ],
+          "melody_gaps": [
+            167.5279999999999,
+            167.529,
+            167.5340000000001
+          ],
+          "shared_onset_anchor_difference_sp": [
+            4.49397806979166e-05,
+            4.493978069280754e-05,
+            4.493978069280754e-05,
+            0.0002246989034640377
+          ],
+          "stem_gap_ratio": 1.0000835691176289,
+          "melody_gap_ratio": 1.0000358149085538
+        }
+      }
+    },
+    "calls": [
+      {
+        "source": "layered-base.mscx",
+        "output": "exports/layered-base.svg",
+        "started_utc": "2026-11-01T19:54:42.134933+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.525,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-base.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-base.mscx",
+        "output": "exports/layered-base.pdf",
+        "started_utc": "2026-11-01T19:55:56.342156+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.932,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-base.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-base.mscx",
+        "output": "exports/layered-base.musicxml",
+        "started_utc": "2026-11-01T19:55:59.380569+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.71,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-base.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-base.mscx",
+        "output": "exports/layered-base.mid",
+        "started_utc": "2026-11-01T19:56:02.198207+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.63,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-base.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-group.mscx",
+        "output": "exports/layered-group.svg",
+        "started_utc": "2026-11-01T19:56:04.956744+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.385,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-group.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-group.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-group.mscx",
+        "output": "exports/layered-group.pdf",
+        "started_utc": "2026-11-01T19:56:07.446409+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.82,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-group.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-group.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-group.mscx",
+        "output": "exports/layered-group.musicxml",
+        "started_utc": "2026-11-01T19:56:10.376083+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.363,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-group.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-group.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-group.mscx",
+        "output": "exports/layered-group.mid",
+        "started_utc": "2026-11-01T19:56:12.858164+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.422,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-group.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-group.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-joint.mscx",
+        "output": "exports/layered-joint.svg",
+        "started_utc": "2026-11-01T19:56:15.390413+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.828,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-joint.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-joint.mscx",
+        "output": "exports/layered-joint.pdf",
+        "started_utc": "2026-11-01T19:56:18.369551+00:00",
+        "returncode": 0,
+        "elapsed_s": 4.006,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-joint.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-joint.mscx",
+        "output": "exports/layered-joint.musicxml",
+        "started_utc": "2026-11-01T19:56:22.552595+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.42,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-joint.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-joint.mscx",
+        "output": "exports/layered-joint.mid",
+        "started_utc": "2026-11-01T19:56:26.139105+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.637,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-joint.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "wide-base.mscx",
+        "output": "exports/wide-base.svg",
+        "started_utc": "2026-11-01T19:56:29.938800+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.609,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\wide-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\wide-base.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "wide-base.mscx",
+        "output": "exports/wide-base.pdf",
+        "started_utc": "2026-11-01T19:56:32.688011+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.311,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\wide-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\wide-base.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "wide-base.mscx",
+        "output": "exports/wide-base.musicxml",
+        "started_utc": "2026-11-01T19:56:36.130625+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.788,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\wide-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\wide-base.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "wide-base.mscx",
+        "output": "exports/wide-base.mid",
+        "started_utc": "2026-11-01T19:56:39.046716+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.684,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\wide-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\wide-base.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "wide-joint.mscx",
+        "output": "exports/wide-joint.svg",
+        "started_utc": "2026-11-01T19:56:41.844191+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.527,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\wide-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\wide-joint.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "wide-joint.mscx",
+        "output": "exports/wide-joint.pdf",
+        "started_utc": "2026-11-01T19:56:44.479119+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.133,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\wide-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\wide-joint.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "wide-joint.mscx",
+        "output": "exports/wide-joint.musicxml",
+        "started_utc": "2026-11-01T19:56:47.747734+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.924,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\wide-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\wide-joint.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "wide-joint.mscx",
+        "output": "exports/wide-joint.mid",
+        "started_utc": "2026-11-01T19:56:50.802355+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.608,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\wide-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\wide-joint.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "dense-base.mscx",
+        "output": "exports/dense-base.svg",
+        "started_utc": "2026-11-01T19:56:53.528526+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.743,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\dense-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\dense-base.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "dense-base.mscx",
+        "output": "exports/dense-base.pdf",
+        "started_utc": "2026-11-01T19:56:56.396188+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.383,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\dense-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\dense-base.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "dense-base.mscx",
+        "output": "exports/dense-base.musicxml",
+        "started_utc": "2026-11-01T19:56:59.920187+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.695,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\dense-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\dense-base.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "dense-base.mscx",
+        "output": "exports/dense-base.mid",
+        "started_utc": "2026-11-01T19:57:02.757203+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.202,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\dense-base.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\dense-base.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "dense-joint.mscx",
+        "output": "exports/dense-joint.svg",
+        "started_utc": "2026-11-01T19:57:06.093856+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.351,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\dense-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\dense-joint.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "dense-joint.mscx",
+        "output": "exports/dense-joint.pdf",
+        "started_utc": "2026-11-01T19:57:09.610478+00:00",
+        "returncode": 0,
+        "elapsed_s": 4.408,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\dense-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\dense-joint.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "dense-joint.mscx",
+        "output": "exports/dense-joint.musicxml",
+        "started_utc": "2026-11-01T19:57:14.159142+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.51,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\dense-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\dense-joint.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "dense-joint.mscx",
+        "output": "exports/dense-joint.mid",
+        "started_utc": "2026-11-01T19:57:17.862133+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.51,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\dense-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\dense-joint.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "layered-joint.mscx",
+        "output": "exports/layered-joint-saved.mscx",
+        "started_utc": "2026-11-01T19:57:21.522012+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.979,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\layered-joint.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-joint-saved.mscx>\r\n... success!\r\n"
+      },
+      {
+        "source": "exports/layered-joint-saved.mscx",
+        "output": "exports/layered-joint-reload.svg",
+        "started_utc": "2026-11-01T19:57:24.635645+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.931,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-joint-saved.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\stem-optical-contexts-2026-11-02\\exports\\layered-joint-reload.svg>\r\n... success!\r\n"
+      }
+    ],
+    "published_panels": {
+      "layered": [
+        "layered-base",
+        "layered-group",
+        "layered-joint"
+      ],
+      "contexts": [
+        "wide-base",
+        "wide-joint",
+        "dense-base",
+        "dense-joint"
+      ]
+    },
+    "published_comparisons_actually_viewed": true,
+    "PDF_render_pixels_per_point": 2,
+    "crops": {
+      "layered": [
+        65,
+        60,
+        615,
+        335
+      ],
+      "contexts": [
+        65,
+        60,
+        785,
+        335
+      ]
+    },
+    "Leland_actual_font_confirmed_in_MusicXML": true,
+    "saved_native_music_verified": true,
+    "normal_side_versus_flipped_heads": {
+      "dense-base": {
+        "C5_flipped_head_x_svg": [
+          514.366,
+          671.816,
+          829.266,
+          986.716
+        ],
+        "D5_normal_head_x_svg": [
+          540.839,
+          698.289,
+          855.739,
+          1013.19
+        ],
+        "G5_melody_x_svg": [
+          540.839,
+          698.289,
+          855.739,
+          1013.19
+        ],
+        "flipped_head_difference_sp": [
+          1.1896908143088296,
+          1.1896908143088245,
+          1.1896908143088296,
+          1.1897357540895224
+        ],
+        "D5_and_G5_heads_exactly_equal": true
+      },
+      "dense-joint": {
+        "C5_flipped_head_x_svg": [
+          514.366,
+          679.381,
+          844.395,
+          1009.41
+        ],
+        "D5_normal_head_x_svg": [
+          540.839,
+          705.853,
+          870.868,
+          1035.88
+        ],
+        "G5_melody_x_svg": [
+          540.839,
+          705.853,
+          870.868,
+          1035.88
+        ],
+        "flipped_head_difference_sp": [
+          1.1896908143088296,
+          1.1896458745281318,
+          1.1896908143088296,
+          1.1895559949667511
+        ],
+        "D5_and_G5_heads_exactly_equal": true
+      }
+    },
+    "user_real_score_candidate": false,
+    "engine_or_plugin_changes": 0
+  },
+  "judgment": {
+    "reject": [
+      "layered-group"
+    ],
+    "prefer_for_specific_context": [
+      "layered-joint",
+      "wide-joint",
+      "dense-joint"
+    ],
+    "reason": "Jointly adjust actual shared onsets while choosing stem axes for this cross-staff beam; retain normal-side anchors in seconds. Old offsets transfer here because attachment differences remain fixed and current spacing still accommodates glyphs.",
+    "group_only_max_shared_relationship_change_sp": 1.020133021750861,
+    "general_collision_detector_or_theoretical_minimum_spacing_verified": false,
+    "visual_review": "All seven panels seen; dense and wide candidates have no newly observed obstruction in these specific figures,not a universal clearance test.",
+    "new_user_preference": false,
+    "next_boundary_contexts": {
+      "completed": 0,
+      "planned": 4,
+      "items": [
+        "tighter accidentals and capacity",
+        "independent sixteenths or tuplets",
+        "different head size or shape",
+        "slurs hairpins fingering channels"
+      ]
+    }
+  },
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-base.mscx",
+      "bytes": 6294,
+      "sha256": "c41f88473fc4f61b9991833d0a69a12a8bdcd4c689b7ec9981a41e9ffdb61eb6",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-group.mscx",
+      "bytes": 6679,
+      "sha256": "565f40b94d0e4285412cf9bae368f59da04456d3279afcff1d67c4d926b1387e",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-joint.mscx",
+      "bytes": 6870,
+      "sha256": "044c5dc9152c82bd5b25a5c7cddad9dc342b2f9fbea13ea5f542f55e00a4f032",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-wide-base.mscx",
+      "bytes": 6293,
+      "sha256": "f1c2ccb96efccb84190683a0fae65820fdd0a07db207e42df90d8759f34c9678",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-wide-joint.mscx",
+      "bytes": 6869,
+      "sha256": "d18197f8a570cdef25a69615f3ee197f5c36edf83c114615da63d25cf6c8ab65",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-dense-base.mscx",
+      "bytes": 7084,
+      "sha256": "22caaa9c6861f7c97ff444e6f0b58db0842862b2560d9df18d08b70bee34aa10",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-dense-joint.mscx",
+      "bytes": 7660,
+      "sha256": "274c0b22e43625fce8a7148147fefd1c0c07caa12ee6d9d9c763cbde7ed02e07",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-comparison.png",
+      "bytes": 38778,
+      "sha256": "e31588638f14e56c424988e09010a21457d1db6a7b9fab5ebeaac06b252c4f62",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-contexts-comparison.png",
+      "bytes": 62527,
+      "sha256": "97fa638026f9bb179af8296487816e9ccd86cc36f31610bb324f2b6c029e567e",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "id": "A045",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "pages": 14,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true,
+      "unchanged": true
+    }
+  ],
+  "coverage": {
+    "new_official_first_pass": 0,
+    "new_deep_scores": 0,
+    "new_Gould_coverage": 0,
+    "new_fixed_resource_completions": 0,
+    "complete_resources": [
+      16,
+      25
+    ],
+    "remaining": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "new_user_preferences": 0,
+    "new_software_adaptation": false
+  },
+  "cache": {
+    "batch": "tmp/engraving/stem-optical-contexts-2026-11-02",
+    "budget_bytes": 2097152,
+    "global_check_allowance_bytes": 3284074496,
+    "global_exact_total_known": false,
+    "new_source_media": 0,
+    "source_score_copies": 0,
+    "runtime_copies": 0,
+    "deletions": 0,
+    "reference_images_in_Git": 0,
+    "private_bytes": 623436,
+    "files": 57,
+    "at_utc": "2026-11-01T20:07:33.507592+00:00",
+    "measurement_includes_audit": true,
+    "audit": "tmp/engraving/stem-optical-contexts-2026-11-02/audit.json",
+    "audit_sha256": "de546b8309b8f01be12aec849893abe706ade94501b24f582faf6856904ada9b",
+    "public_assets_bytes": 149054
+  },
+  "checks": {
+    "native": "passed",
+    "protected_sources": "5/5 passed",
+    "library": "passed: progress.py --check",
+    "skill": "passed: quick_validate.py",
+    "query": "6/6 existing regression tests passed",
+    "actual_query": {
+      "topic": "spacing",
+      "query": "均干 独立旋律 共同起音",
+      "limit": 2,
+      "first_result": "STEM_OPTICAL_CONTEXTS.md",
+      "second_result": "JUDGMENT_GUIDE.md",
+      "scope": "actual lexical retrieval; not an engraving accuracy score"
+    },
+    "case_links": "6/6 local links passed",
+    "public_asset_hashes": "9/9 passed",
+    "protected_after": "5/5 passed",
+    "fixed_release_commit": "bd1d1d89b45133a4d19f6a3584743d2768e79b7e",
+    "git_diff_check": "passed for tracked edits; newly staged files checked before commit",
+    "publication_script_followup": "Resumed after an already-correct old wording and then restored the brief variable; native runs remained 30 successful.",
+    "working_branch_supplement": true
+  }
+}

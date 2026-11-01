@@ -3246,7 +3246,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.27之后补跨表光学参照3/3条件、1/1重载，均干收益与Local无效范围可查；原标签／发布证据保持，20入口，资料16/25余9，无适配。",
+    "working_branch_note": "固定0.27之后补单线均干3/3及三边界情境7/7；联合共同起音与二度正常侧头已接skill，下一批四边界0/4。原标签／证据保持，资料16/25余9，无适配。",
     "evidence": "release_0_27_0_evidence.json"
   },
   "last_study_batch": {
@@ -3265,36 +3265,40 @@
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
     "date": "2026-11-02",
-    "scope": "三官谱页／Gould41复读及Lily两定向正文；跨表均头／均干／Local三原生条件，14调用与1重载。R10两新合作署名索引，无新谱面／具体干预。",
-    "new_native_diagnostic_conditions": 3,
-    "native_CLI_calls": 14,
-    "valid_final_native_calls": 14,
+    "scope": "独立旋律、100mm宽度及二度／变音三情境七原生条件，30成功调用与1重载；本批无新来源阅读覆盖。",
+    "new_native_diagnostic_conditions": 7,
+    "native_CLI_calls": 30,
+    "valid_final_native_calls": 30,
     "native_input_probe_calls": 0,
-    "book_reread_pages": 1,
-    "official_score_reread_pages": 3,
+    "book_reread_pages": 0,
+    "official_score_reread_pages": 0,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "STEM_OPTICAL_SPACING_STUDY.md"
+      "STEM_OPTICAL_CONTEXTS.md"
     ],
-    "review_evidence": "stem_optical_spacing_evidence.json",
+    "review_evidence": "stem_optical_contexts_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "STEM_OPTICAL_SPACING_STUDY.md",
-    "evidence": "stem_optical_spacing_evidence.json",
-    "completed_conditions": 3,
-    "planned_conditions": 3,
+    "reference": "STEM_OPTICAL_CONTEXTS.md",
+    "evidence": "stem_optical_contexts_evidence.json",
+    "completed_conditions": 7,
+    "planned_conditions": 7,
+    "contexts": [
+      3,
+      3
+    ],
     "saved_reloaded_versions": [
       1,
       1
     ],
-    "native_CLI_calls": 14,
-    "valid_final_native_calls": 14,
+    "native_CLI_calls": 30,
+    "valid_final_native_calls": 30,
     "input_probe_native_calls": 0,
-    "new_conditions": 3,
+    "new_conditions": 7,
     "reused_conditions": 0,
-    "description": "孤立单线跨表的均头／均干及Local比较；本例优先均干，头距变化有阅读收益。24音符记录／3隐藏休止及202字节完整MIDI保持；重载最大0.01SVG单位，未测独立活动层。",
+    "description": "仅音组均干错开三共同起音，联合独立旋律可保对齐；相同偏移在100mm及本次二度／变音仍成立。100音符与七隐藏休止、各织体完整MIDI和C保存音乐／原生图重载保持；无一般碰撞最优或用户采用成绩。",
     "user_preference_confirmed": false,
     "user_real_score_candidate": false,
     "software_adaptation_changes": 0
@@ -3574,6 +3578,25 @@
       "new_conditions": 3,
       "reused_conditions": 0,
       "description": "确定的6/8附点四分80→4/4四分80关系，比较新行等式、方向提示与前行预告／确认；本例优先后者。63记录／21起音／310字节完整MIDI保持，B重载除title相同；Madoka作者方向未定。",
+      "user_preference_confirmed": false,
+      "user_real_score_candidate": false,
+      "software_adaptation_changes": 0
+    },
+    {
+      "reference": "STEM_OPTICAL_SPACING_STUDY.md",
+      "evidence": "stem_optical_spacing_evidence.json",
+      "completed_conditions": 3,
+      "planned_conditions": 3,
+      "saved_reloaded_versions": [
+        1,
+        1
+      ],
+      "native_CLI_calls": 14,
+      "valid_final_native_calls": 14,
+      "input_probe_native_calls": 0,
+      "new_conditions": 3,
+      "reused_conditions": 0,
+      "description": "孤立单线跨表的均头／均干及Local比较；本例优先均干，头距变化有阅读收益。24音符记录／3隐藏休止及202字节完整MIDI保持；重载最大0.01SVG单位，未测独立活动层。",
       "user_preference_confirmed": false,
       "user_real_score_candidate": false,
       "software_adaptation_changes": 0
@@ -4176,5 +4199,17 @@
     ],
     "scope": "原创三层组界／力度通道已完成，宽／窄候选与1/1重载保持源staffMove和干向。已明确连续性代价及首休止自动反向复现。",
     "next": "原创方法已回迁m97，完整比较候选1/1；保留作者作用层及审美采用问题，继续其它学习。"
+  },
+  "next_optical_boundary_batch": {
+    "reference": "STEM_OPTICAL_CONTEXTS.md",
+    "planned_contexts": 4,
+    "completed_contexts": 0,
+    "items": [
+      "更紧行宽的变音容量",
+      "独立十六分／连音额外时点",
+      "不同字号／头型",
+      "弧线／发夹／指法通道"
+    ],
+    "scope": "下一轮预定验证边界；不将本轮简单正面例推广，尚未开始原生测试。"
   }
 }
