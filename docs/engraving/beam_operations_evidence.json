@@ -1,0 +1,1754 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "measured_at_utc": "2026-11-01T17:58:46.923678+00:00",
+  "reference": "BEAM_OPERATIONS_STUDY.md",
+  "previous_project_HEAD": "5d77739bb952fe0dfdc488557426d0e0a5eb51bd",
+  "scope": {
+    "date": "2026-11-02",
+    "purpose": "Read MuseScore3 beam operations and test Local relayout against shared piano onsets",
+    "manual_body": "https://musescore.org/en/print/book/export/html/278600",
+    "planned_targeted_manual_images": 8,
+    "planned_native_conditions": 4,
+    "native_scope_revision_reason": "Initial same-onset accidental pair alreadyuniform andunchanged; retain it as positivecontrol,add mixed-subdivision baseline/localpair to examine jointtimecolumns.",
+    "planned_saved_reload": 1,
+    "private_budget_bytes": 2097152,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3279355904,
+    "original_scores_read_only": true,
+    "software_source_read_only": true,
+    "software_adaptation": false,
+    "runtime_copies": 0
+  },
+  "manual": {
+    "canonical": "https://musescore.org/en/handbook/3/beams",
+    "print_body": "https://musescore.org/en/print/book/export/html/278600",
+    "complete_target_body": [
+      1,
+      1
+    ],
+    "targeted_images_viewed": [
+      5,
+      8
+    ],
+    "images": [
+      {
+        "name": "note-groups",
+        "url": "https://musescore.org/sites/musescore.org/files/2024-06/notegroups.png",
+        "credentials_used": false,
+        "actually_viewed": true,
+        "http": 200,
+        "bytes": 62513,
+        "sha256": "545401864b4be88241f834a7328ee3326f9cc97aa2aefcae5ca122ef96b162a9",
+        "pixels": [
+          456,
+          432
+        ],
+        "format": "PNG",
+        "saved": true,
+        "viewing_method": "Five original images on reading-sheet.png, actually viewed together",
+        "coverage_role": "targeted additional beam-operation figure"
+      },
+      {
+        "name": "beam-palette",
+        "url": "https://musescore.org/sites/musescore.org/files/2024-06/beampalette1.png",
+        "credentials_used": false,
+        "actually_viewed": true,
+        "http": 200,
+        "bytes": 18693,
+        "sha256": "2f59e7426f4ac4d32f76144c5cdd9b786b575f992da885ed7242130fa164ba84",
+        "pixels": [
+          285,
+          174
+        ],
+        "format": "PNG",
+        "saved": true,
+        "viewing_method": "Five original images on reading-sheet.png, actually viewed together",
+        "coverage_role": "targeted additional beam-operation figure"
+      },
+      {
+        "name": "over-rest",
+        "url": "https://musescore.org/sites/musescore.org/files/2024-06/beam%20over%20rest_0.png",
+        "credentials_used": false,
+        "actually_viewed": false,
+        "error": {
+          "type": "TimeoutError",
+          "message": "The read operation timed out"
+        },
+        "viewing_method": null,
+        "coverage_role": "targeted additional beam-operation figure"
+      },
+      {
+        "name": "over-barline",
+        "url": "https://musescore.org/sites/musescore.org/files/2024-06/beam%20over%20barline_0.png",
+        "credentials_used": false,
+        "actually_viewed": true,
+        "http": 200,
+        "bytes": 4025,
+        "sha256": "60db8a1e5934f52524a6677cc02d0f531d4400ca8cfac2c26a9389e5fee21b12",
+        "pixels": [
+          605,
+          121
+        ],
+        "format": "PNG",
+        "saved": true,
+        "viewing_method": "Five original images on reading-sheet.png, actually viewed together",
+        "coverage_role": "targeted additional beam-operation figure"
+      },
+      {
+        "name": "feathered",
+        "url": "https://musescore.org/sites/musescore.org/files/styles/image_700/public/2024-06/feathered%20beam_0.png?itok=LoR_O1M2",
+        "credentials_used": false,
+        "actually_viewed": false,
+        "error": {
+          "type": "URLError",
+          "message": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+        },
+        "viewing_method": null,
+        "coverage_role": "targeted additional beam-operation figure"
+      },
+      {
+        "name": "beam-angle",
+        "url": "https://musescore.org/sites/musescore.org/files/2024-06/beam%20angle_0.png",
+        "credentials_used": false,
+        "actually_viewed": true,
+        "http": 200,
+        "bytes": 6091,
+        "sha256": "0994d999f1d53692cc4bcc6938e5cf7bb3b48382db457d35f064ace7b46c0c99",
+        "pixels": [
+          395,
+          158
+        ],
+        "format": "PNG",
+        "saved": true,
+        "viewing_method": "Five original images on reading-sheet.png, actually viewed together",
+        "coverage_role": "targeted additional beam-operation figure"
+      },
+      {
+        "name": "layout-default",
+        "url": "https://musescore.org/sites/musescore.org/files/2017-11/normal_layout_100dpi.png",
+        "credentials_used": false,
+        "actually_viewed": false,
+        "error": {
+          "type": "URLError",
+          "message": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+        },
+        "viewing_method": null,
+        "coverage_role": "targeted additional beam-operation figure"
+      },
+      {
+        "name": "layout-local",
+        "url": "https://musescore.org/sites/musescore.org/files/2017-11/local_relayout_100dpi.png",
+        "credentials_used": false,
+        "actually_viewed": true,
+        "http": 200,
+        "bytes": 10009,
+        "sha256": "6c7a8faa7a0de8d6f20fa2f944b4040f8b83c92ee45007f20b6ba74a84518f8e",
+        "pixels": [
+          250,
+          144
+        ],
+        "format": "PNG",
+        "saved": true,
+        "viewing_method": "Five original images on reading-sheet.png, actually viewed together",
+        "coverage_role": "R20 previously viewed figure reread"
+      }
+    ],
+    "new_Studio_manual_not_counted": true,
+    "R11_full_video_completion": false
+  },
+  "primary_source": {
+    "observed_HEAD": "f0c330926aedc7fd4367b237473e1ddb30d0f2d3",
+    "files": [
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\beam.h",
+        "sha256": "7506042d88601d7ae2e7087954692165dc1774c488bed964fd6cfd3802749ce2",
+        "targeted_lines": [
+          [
+            73,
+            76
+          ]
+        ],
+        "full_file_read": false,
+        "matches_observed_commit_ignoring_line_endings": true
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\beam.cpp",
+        "sha256": "72398d3e00cee865d77ea8c39bd9f1572c7eac87b858d12aab8a05f981d76cbd",
+        "targeted_lines": [
+          [
+            1543,
+            1544
+          ],
+          [
+            1816,
+            1817
+          ]
+        ],
+        "full_file_read": false,
+        "matches_observed_commit_ignoring_line_endings": true
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\layout.cpp",
+        "sha256": "e006b83bfd7e4b5a42ddb144f4bf48c3b87f8056ee4f4af3c021c243f0ed4b49",
+        "targeted_lines": [
+          [
+            2142,
+            2202
+          ]
+        ],
+        "full_file_read": false,
+        "matches_observed_commit_ignoring_line_endings": true
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\libmscore\\chordrest.cpp",
+        "sha256": "2edb97490052a62ac16bc19727919072c8f2a423fc20d6e29519efcb509fcb87",
+        "targeted_lines": [
+          [
+            599,
+            614
+          ]
+        ],
+        "full_file_read": false,
+        "matches_observed_commit_ignoring_line_endings": true
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\mscore\\shortcut.cpp",
+        "sha256": "1c342ec9e290df4157f3b690f86ea832ed5f8b02c1f48c636c68ec1506bcca0d",
+        "targeted_lines": [
+          [
+            2055,
+            2110
+          ]
+        ],
+        "full_file_read": false,
+        "matches_observed_commit_ignoring_line_endings": true
+      },
+      {
+        "path": "E:\\programming\\funcodes\\muse3_dev\\MuseScore\\mscore\\inspector\\inspectorBeam.cpp",
+        "sha256": "03796dd7b668be72ff2df8f52e6e85d4d81ac64e541858ede4fe8a86784d42e8",
+        "targeted_lines": [
+          [
+            29,
+            29
+          ]
+        ],
+        "full_file_read": false,
+        "matches_observed_commit_ignoring_line_endings": true
+      }
+    ],
+    "software_source_modified": false,
+    "binary_build_correspondence_claimed": false
+  },
+  "native": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "runtime_manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+    "runtime_manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+    "runtime_files_verified_before": 1936,
+    "runtime_files_verified_after": 1936,
+    "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\beam-operations-2026-11-02\\native-config",
+    "completed_conditions": [
+      4,
+      4
+    ],
+    "saved_reloaded": [
+      1,
+      1
+    ],
+    "sole_logical_input_change": "Beam.distribute=1; whitespace excluded; XML trees independently compared",
+    "calls": [
+      {
+        "source": "baseline-input.mscx",
+        "destination": "baseline-saved.mscx",
+        "started_at": "2026-11-01T17:30:59.361116+00:00",
+        "returncode": 0,
+        "outputs": [
+          "baseline-saved.mscx"
+        ]
+      },
+      {
+        "source": "baseline-saved.mscx",
+        "destination": "exports/baseline.svg",
+        "started_at": "2026-11-01T17:32:39.008590+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/baseline-1.svg"
+        ]
+      },
+      {
+        "source": "local-input.mscx",
+        "destination": "exports/local.svg",
+        "started_at": "2026-11-01T17:32:42.091566+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/local-1.svg"
+        ]
+      },
+      {
+        "source": "mixed-baseline-input.mscx",
+        "destination": "mixed-baseline-saved.mscx",
+        "started_at": "2026-11-01T17:40:43.286232+00:00",
+        "returncode": 0,
+        "outputs": [
+          "mixed-baseline-saved.mscx"
+        ]
+      },
+      {
+        "source": "mixed-baseline-saved.mscx",
+        "destination": "exports/mixed-baseline.svg",
+        "started_at": "2026-11-01T17:40:46.493016+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/mixed-baseline-1.svg"
+        ]
+      },
+      {
+        "source": "mixed-local-input.mscx",
+        "destination": "exports/mixed-local.svg",
+        "started_at": "2026-11-01T17:40:49.426322+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/mixed-local-1.svg"
+        ]
+      },
+      {
+        "source": "mixed-baseline-saved.mscx",
+        "destination": "exports/mixed-baseline.musicxml",
+        "started_at": "2026-11-01T17:44:22.911249+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/mixed-baseline.musicxml"
+        ]
+      },
+      {
+        "source": "mixed-baseline-saved.mscx",
+        "destination": "exports/mixed-baseline.mid",
+        "started_at": "2026-11-01T17:44:25.468171+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/mixed-baseline.mid"
+        ]
+      },
+      {
+        "source": "mixed-baseline-saved.mscx",
+        "destination": "exports/mixed-baseline.pdf",
+        "started_at": "2026-11-01T17:44:27.803773+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/mixed-baseline.pdf"
+        ]
+      },
+      {
+        "source": "mixed-local-input.mscx",
+        "destination": "exports/mixed-local.musicxml",
+        "started_at": "2026-11-01T17:44:30.546398+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/mixed-local.musicxml"
+        ]
+      },
+      {
+        "source": "mixed-local-input.mscx",
+        "destination": "exports/mixed-local.mid",
+        "started_at": "2026-11-01T17:44:33.384461+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/mixed-local.mid"
+        ]
+      },
+      {
+        "source": "mixed-local-input.mscx",
+        "destination": "exports/mixed-local.pdf",
+        "started_at": "2026-11-01T17:44:36.731213+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/mixed-local.pdf"
+        ]
+      },
+      {
+        "source": "mixed-local-input.mscx",
+        "destination": "mixed-local-saved.mscx",
+        "started_at": "2026-11-01T17:44:40.228677+00:00",
+        "returncode": 0,
+        "outputs": [
+          "mixed-local-saved.mscx"
+        ]
+      },
+      {
+        "source": "mixed-local-saved.mscx",
+        "destination": "exports/mixed-local-reload.svg",
+        "started_at": "2026-11-01T17:44:43.063484+00:00",
+        "returncode": 0,
+        "outputs": [
+          "exports/mixed-local-reload-1.svg"
+        ]
+      }
+    ],
+    "geometry": {
+      "baseline": {
+        "sp_svg": 22.251999999999995,
+        "upper_x_svg": [
+          540.839,
+          669.701,
+          798.564,
+          927.427,
+          1056.29,
+          1185.15,
+          1314.01,
+          1442.88
+        ],
+        "lower_x_svg": [
+          540.839,
+          669.701,
+          798.564,
+          927.427,
+          1056.29,
+          1185.15,
+          1314.01,
+          1442.88
+        ],
+        "gap_svg": [
+          128.86199999999997,
+          128.86299999999994,
+          128.86300000000006,
+          128.86299999999994,
+          128.86000000000013,
+          128.8599999999999,
+          128.87000000000012
+        ],
+        "gap_max_min": 1.0000776036008088,
+        "simultaneous_delta_sp": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "control_upper_x_svg": [
+          1604.67,
+          1696.31,
+          1787.95,
+          1879.59
+        ],
+        "all_lower_x_svg": [
+          540.839,
+          540.839,
+          540.839,
+          669.701,
+          669.701,
+          669.701,
+          798.564,
+          798.564,
+          798.564,
+          927.427,
+          927.427,
+          927.427,
+          1056.29,
+          1056.29,
+          1056.29,
+          1185.15,
+          1185.15,
+          1185.15,
+          1314.01,
+          1314.01,
+          1314.01,
+          1442.88,
+          1442.88,
+          1442.88,
+          1604.67
+        ],
+        "root": {
+          "width": "210mm",
+          "height": "297mm",
+          "viewBox": "0 0 2976.38 4209.45",
+          "version": "1.2",
+          "baseProfile": "tiny"
+        }
+      },
+      "local": {
+        "sp_svg": 22.251999999999995,
+        "upper_x_svg": [
+          540.839,
+          669.701,
+          798.564,
+          927.427,
+          1056.29,
+          1185.15,
+          1314.01,
+          1442.88
+        ],
+        "lower_x_svg": [
+          540.839,
+          669.701,
+          798.564,
+          927.427,
+          1056.29,
+          1185.15,
+          1314.01,
+          1442.88
+        ],
+        "gap_svg": [
+          128.86199999999997,
+          128.86299999999994,
+          128.86300000000006,
+          128.86299999999994,
+          128.86000000000013,
+          128.8599999999999,
+          128.87000000000012
+        ],
+        "gap_max_min": 1.0000776036008088,
+        "simultaneous_delta_sp": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "control_upper_x_svg": [
+          1604.67,
+          1696.31,
+          1787.95,
+          1879.59
+        ],
+        "all_lower_x_svg": [
+          540.839,
+          540.839,
+          540.839,
+          669.701,
+          669.701,
+          669.701,
+          798.564,
+          798.564,
+          798.564,
+          927.427,
+          927.427,
+          927.427,
+          1056.29,
+          1056.29,
+          1056.29,
+          1185.15,
+          1185.15,
+          1185.15,
+          1314.01,
+          1314.01,
+          1314.01,
+          1442.88,
+          1442.88,
+          1442.88,
+          1604.67
+        ],
+        "root": {
+          "width": "210mm",
+          "height": "297mm",
+          "viewBox": "0 0 2976.38 4209.45",
+          "version": "1.2",
+          "baseProfile": "tiny"
+        }
+      },
+      "mixed-baseline": {
+        "sp_svg": 22.251999999999995,
+        "upper_x_svg": [
+          540.839,
+          663.505,
+          829.166,
+          951.832,
+          1074.5,
+          1246.93,
+          1369.6,
+          1539.18
+        ],
+        "lower_x_svg": [
+          540.839,
+          663.505,
+          829.166,
+          951.832,
+          1074.5,
+          1246.93,
+          1369.6,
+          1539.18
+        ],
+        "gap_svg": [
+          122.66599999999994,
+          165.66100000000006,
+          122.66599999999994,
+          122.668,
+          172.43000000000006,
+          122.66999999999985,
+          169.58000000000015
+        ],
+        "gap_max_min": 1.4056869874292808,
+        "simultaneous_delta_sp": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "control_upper_x_svg": [
+          1694.77,
+          1778.91,
+          1863.04,
+          1947.17
+        ],
+        "all_lower_x_svg": [
+          540.839,
+          540.839,
+          540.839,
+          663.505,
+          663.505,
+          663.505,
+          740.171,
+          740.171,
+          740.171,
+          829.166,
+          829.166,
+          829.166,
+          951.832,
+          951.832,
+          951.832,
+          1074.5,
+          1074.5,
+          1074.5,
+          1151.16,
+          1151.16,
+          1151.16,
+          1246.93,
+          1246.93,
+          1246.93,
+          1369.6,
+          1369.6,
+          1369.6,
+          1446.26,
+          1446.26,
+          1446.26,
+          1539.18,
+          1539.18,
+          1539.18,
+          1694.77
+        ],
+        "root": {
+          "width": "210mm",
+          "height": "297mm",
+          "viewBox": "0 0 2976.38 4209.45",
+          "version": "1.2",
+          "baseProfile": "tiny"
+        }
+      },
+      "mixed-local": {
+        "sp_svg": 22.251999999999995,
+        "upper_x_svg": [
+          540.839,
+          683.458,
+          826.078,
+          968.697,
+          1111.32,
+          1253.94,
+          1396.56,
+          1539.18
+        ],
+        "lower_x_svg": [
+          540.839,
+          663.505,
+          829.166,
+          951.832,
+          1074.5,
+          1246.93,
+          1369.6,
+          1539.18
+        ],
+        "gap_svg": [
+          142.61899999999991,
+          142.62,
+          142.61900000000003,
+          142.62299999999993,
+          142.62000000000012,
+          142.6199999999999,
+          142.62000000000012
+        ],
+        "gap_max_min": 1.0000280467539389,
+        "simultaneous_delta_sp": [
+          0.0,
+          0.8966834441847914,
+          -0.1387740427826748,
+          0.7579094014021217,
+          1.6546827251482987,
+          0.3150278626640299,
+          1.211576487506743,
+          0.0
+        ],
+        "control_upper_x_svg": [
+          1694.77,
+          1778.91,
+          1863.04,
+          1947.17
+        ],
+        "all_lower_x_svg": [
+          540.839,
+          540.839,
+          540.839,
+          663.505,
+          663.505,
+          663.505,
+          740.171,
+          740.171,
+          740.171,
+          829.166,
+          829.166,
+          829.166,
+          951.832,
+          951.832,
+          951.832,
+          1074.5,
+          1074.5,
+          1074.5,
+          1151.16,
+          1151.16,
+          1151.16,
+          1246.93,
+          1246.93,
+          1246.93,
+          1369.6,
+          1369.6,
+          1369.6,
+          1446.26,
+          1446.26,
+          1446.26,
+          1539.18,
+          1539.18,
+          1539.18,
+          1694.77
+        ],
+        "root": {
+          "width": "210mm",
+          "height": "297mm",
+          "viewBox": "0 0 2976.38 4209.45",
+          "version": "1.2",
+          "baseProfile": "tiny"
+        }
+      },
+      "mixed-local-reload": {
+        "sp_svg": 22.251999999999995,
+        "upper_x_svg": [
+          540.839,
+          683.458,
+          826.078,
+          968.697,
+          1111.32,
+          1253.94,
+          1396.56,
+          1539.18
+        ],
+        "lower_x_svg": [
+          540.839,
+          663.505,
+          829.166,
+          951.832,
+          1074.5,
+          1246.93,
+          1369.6,
+          1539.18
+        ],
+        "gap_svg": [
+          142.61899999999991,
+          142.62,
+          142.61900000000003,
+          142.62299999999993,
+          142.62000000000012,
+          142.6199999999999,
+          142.62000000000012
+        ],
+        "gap_max_min": 1.0000280467539389,
+        "simultaneous_delta_sp": [
+          0.0,
+          0.8966834441847914,
+          -0.1387740427826748,
+          0.7579094014021217,
+          1.6546827251482987,
+          0.3150278626640299,
+          1.211576487506743,
+          0.0
+        ],
+        "control_upper_x_svg": [
+          1694.77,
+          1778.91,
+          1863.04,
+          1947.17
+        ],
+        "all_lower_x_svg": [
+          540.839,
+          540.839,
+          540.839,
+          663.505,
+          663.505,
+          663.505,
+          740.171,
+          740.171,
+          740.171,
+          829.166,
+          829.166,
+          829.166,
+          951.832,
+          951.832,
+          951.832,
+          1074.5,
+          1074.5,
+          1074.5,
+          1151.16,
+          1151.16,
+          1151.16,
+          1246.93,
+          1246.93,
+          1246.93,
+          1369.6,
+          1369.6,
+          1369.6,
+          1446.26,
+          1446.26,
+          1446.26,
+          1539.18,
+          1539.18,
+          1539.18,
+          1694.77
+        ],
+        "root": {
+          "width": "210mm",
+          "height": "297mm",
+          "viewBox": "0 0 2976.38 4209.45",
+          "version": "1.2",
+          "baseProfile": "tiny"
+        }
+      }
+    },
+    "verification": {
+      "MusicXML": [
+        {
+          "name": "mixed-baseline",
+          "records": 47,
+          "music_font": "Leland"
+        },
+        {
+          "name": "mixed-local",
+          "records": 47,
+          "music_font": "Leland"
+        }
+      ],
+      "total_compared_records": 94,
+      "MIDI_full_bytes_equal": true,
+      "MIDI_bytes": 441,
+      "independent_attacks": 46,
+      "reload_SVG_byte_equal": false,
+      "reload_SVG_identical_except_filename_title": true,
+      "reload_titles": [
+        "mixed-local-input",
+        "mixed-local-saved"
+      ],
+      "native_CLI_calls": 14,
+      "runtime_files_verified_after": 1936
+    },
+    "uniform_control_independent_recipe": [
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "3",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "7/2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "0",
+        "duration_q": "1",
+        "pitch": 74,
+        "tpc": 16,
+        "written": "quarter"
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "1",
+        "duration_q": "1",
+        "pitch": 76,
+        "tpc": 18,
+        "written": "quarter"
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "2",
+        "duration_q": "1",
+        "pitch": 77,
+        "tpc": 13,
+        "written": "quarter"
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "3",
+        "duration_q": "1",
+        "pitch": 79,
+        "tpc": 15,
+        "written": "quarter"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 52,
+        "tpc": 18,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 55,
+        "tpc": 15,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/2",
+        "pitch": 49,
+        "tpc": 21,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/2",
+        "pitch": 53,
+        "tpc": 25,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/2",
+        "pitch": 56,
+        "tpc": 22,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 52,
+        "tpc": 18,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 55,
+        "tpc": 15,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 49,
+        "tpc": 9,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 53,
+        "tpc": 13,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 56,
+        "tpc": 10,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/2",
+        "pitch": 50,
+        "tpc": 16,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/2",
+        "pitch": 54,
+        "tpc": 20,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/2",
+        "pitch": 57,
+        "tpc": 17,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 51,
+        "tpc": 11,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 54,
+        "tpc": 8,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 58,
+        "tpc": 12,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3",
+        "duration_q": "1/2",
+        "pitch": 52,
+        "tpc": 18,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3",
+        "duration_q": "1/2",
+        "pitch": 55,
+        "tpc": 15,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3",
+        "duration_q": "1/2",
+        "pitch": 59,
+        "tpc": 19,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "7/2",
+        "duration_q": "1/2",
+        "pitch": 49,
+        "tpc": 9,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "7/2",
+        "duration_q": "1/2",
+        "pitch": 53,
+        "tpc": 13,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "7/2",
+        "duration_q": "1/2",
+        "pitch": 56,
+        "tpc": 10,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 2,
+        "onset_q": "0",
+        "duration_q": "2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "half"
+      },
+      {
+        "staff": 2,
+        "measure": 2,
+        "onset_q": "2",
+        "duration_q": "2",
+        "rest": true,
+        "written": "half"
+      }
+    ],
+    "mixed_independent_recipe": [
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "3",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "7/2",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "0",
+        "duration_q": "1",
+        "pitch": 74,
+        "tpc": 16,
+        "written": "quarter"
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "1",
+        "duration_q": "1",
+        "pitch": 76,
+        "tpc": 18,
+        "written": "quarter"
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "2",
+        "duration_q": "1",
+        "pitch": 77,
+        "tpc": 13,
+        "written": "quarter"
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "3",
+        "duration_q": "1",
+        "pitch": 79,
+        "tpc": 15,
+        "written": "quarter"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 52,
+        "tpc": 18,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 55,
+        "tpc": 15,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/4",
+        "pitch": 49,
+        "tpc": 21,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/4",
+        "duration_q": "1/4",
+        "pitch": 49,
+        "tpc": 21,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/4",
+        "pitch": 53,
+        "tpc": 25,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/4",
+        "duration_q": "1/4",
+        "pitch": 53,
+        "tpc": 25,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/4",
+        "pitch": 56,
+        "tpc": 22,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/4",
+        "duration_q": "1/4",
+        "pitch": 56,
+        "tpc": 22,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 52,
+        "tpc": 18,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 55,
+        "tpc": 15,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 49,
+        "tpc": 9,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 53,
+        "tpc": 13,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 56,
+        "tpc": 10,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/4",
+        "pitch": 50,
+        "tpc": 16,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "9/4",
+        "duration_q": "1/4",
+        "pitch": 50,
+        "tpc": 16,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/4",
+        "pitch": 54,
+        "tpc": 20,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "9/4",
+        "duration_q": "1/4",
+        "pitch": 54,
+        "tpc": 20,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/4",
+        "pitch": 57,
+        "tpc": 17,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "9/4",
+        "duration_q": "1/4",
+        "pitch": 57,
+        "tpc": 17,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 51,
+        "tpc": 11,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 54,
+        "tpc": 8,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 58,
+        "tpc": 12,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3",
+        "duration_q": "1/4",
+        "pitch": 52,
+        "tpc": 18,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "13/4",
+        "duration_q": "1/4",
+        "pitch": 52,
+        "tpc": 18,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3",
+        "duration_q": "1/4",
+        "pitch": 55,
+        "tpc": 15,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "13/4",
+        "duration_q": "1/4",
+        "pitch": 55,
+        "tpc": 15,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3",
+        "duration_q": "1/4",
+        "pitch": 59,
+        "tpc": 19,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "13/4",
+        "duration_q": "1/4",
+        "pitch": 59,
+        "tpc": 19,
+        "written": "16th"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "7/2",
+        "duration_q": "1/2",
+        "pitch": 49,
+        "tpc": 9,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "7/2",
+        "duration_q": "1/2",
+        "pitch": 53,
+        "tpc": 13,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "7/2",
+        "duration_q": "1/2",
+        "pitch": 56,
+        "tpc": 10,
+        "written": "eighth"
+      },
+      {
+        "staff": 2,
+        "measure": 2,
+        "onset_q": "0",
+        "duration_q": "2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "half"
+      },
+      {
+        "staff": 2,
+        "measure": 2,
+        "onset_q": "2",
+        "duration_q": "2",
+        "rest": true,
+        "written": "half"
+      }
+    ],
+    "actually_rendered_PDF_pages": 2,
+    "native_comparison_actually_viewed": true,
+    "comparison_method": "Both PDFs rendered at 2.5 pixels/point; same (100,150,1100,430) crop, same scale, outside labels; no symbol movement",
+    "font": "Leland confirmed in mixed-pair MusicXML; input relies on frozen runtime defaults, not portable pixel baseline"
+  },
+  "judgment": {
+    "mixed_local_adopted": false,
+    "reason": "Six internal common onsets lose alignment; maximum absolute horizontal delta 1.6546827251482987sp despite near-uniform upper intervals and identical MIDI",
+    "uniform_accidental_control": "Already uniform; feature leaves geometry unchanged",
+    "baseline_not_proven_optimal": true,
+    "future_evaluation": "Joint time columns, collision space and main pulse shape together; this is existing feature scope, not an engine modification"
+  },
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/local-relayout-uniform-baseline.mscx",
+      "bytes": 12328,
+      "sha256": "5506fa16a86088d32e4cd4cfd2e275c8b6ffe46cc9f92e6184ec795fe30997ea",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-uniform-on.mscx",
+      "bytes": 12046,
+      "sha256": "efd41c694441316380a8cc5622fed7715deee8b8a729ad754523755b859a22da",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-mixed-baseline.mscx",
+      "bytes": 13630,
+      "sha256": "433e0df711c6d5dd267e044d1c968c5e7719d14efd7ad53660f6166b752de67c",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-mixed-on.mscx",
+      "bytes": 13669,
+      "sha256": "baca26204e4736a169b1aa1ec466a69811c4dfb7419cc27649ee9ef553646e4d",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-comparison.png",
+      "bytes": 63143,
+      "sha256": "f6cbeab1da0da2a888a4f8dd9ebe57cf8a92d2b5f7308aea2d6b57a3238bbdf6",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    }
+  ],
+  "coverage": {
+    "new_official_scores": 0,
+    "new_Gould_pages": 0,
+    "Gould_reread_pages_this_batch": 0,
+    "new_fixed_resource_completions": 0,
+    "complete_resource_scopes": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "new_user_preferences": 0,
+    "new_independent_accuracy_score": false
+  },
+  "cache": {
+    "batch": "tmp/engraving/beam-operations-2026-11-02",
+    "private_budget_bytes": 2097152,
+    "global_check_allowance_bytes": 3279355904,
+    "global_exact_total_known": false,
+    "new_source_media_files": 5,
+    "new_source_media_bytes": 101331,
+    "runtime_copies": 0,
+    "original_score_copies": 0,
+    "deletions": 0,
+    "reference_images_in_Git": 0,
+    "measured_at_utc": "2026-11-01T18:03:48.734426+00:00",
+    "private_batch_bytes": 741466,
+    "private_file_count": 63,
+    "audit": "tmp/engraving/beam-operations-2026-11-02/closeout-audit.json",
+    "audit_sha256": "f508e1d5e20addc502e6298d108996050346407209c45f60ecf6da3f18baa3e7",
+    "measurement_includes_audit": true,
+    "public_assets_bytes": 114816
+  },
+  "checks": {
+    "native_music_and_geometry": "passed",
+    "protected_hashes": "passed",
+    "library_validation": "passed: tools/engraving/progress.py --check",
+    "skill_validation": "passed: skill-creator quick_validate.py",
+    "query_tests": "passed: 6 tests in test_engraving_library.py",
+    "actual_spacing_query": "Local relayout 共同起音 returns BEAM_OPERATIONS_STUDY.md first; retrieval only, not accuracy",
+    "fixed_release_fingerprints": "11/11 verified against unchanged engraving-v0.26.0, target d5c1be9b79318a33628f5ce7f072b453e456c6ee",
+    "protected_hashes_after": "3/3 passed",
+    "primary_source_hashes_after": "6/6 passed",
+    "new_case_links": "passed"
+  },
+  "limitations": [
+    "Three manual figure fetches timed out; no unchanged retries",
+    "R11 full procedure/audio remains incomplete",
+    "No print, performance or user adoption test",
+    "No plugin/MCP/software/font adaptation"
+  ]
+}

@@ -3238,12 +3238,10 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.26后补R08全82格及R09全32格，技术恢复／持续／再现与ossia角色可检索；20入口，资料16/25余9。原标签／发布证据保持，无新原生／适配。",
+    "working_branch_note": "固定0.26后补R08全82格、R09全32格及Local relayout四原生条件；操作范围与共同起音反例可检索。20入口，资料16/25余9；原标签／发布证据保持，无适配。",
     "evidence": "release_0_26_0_evidence.json"
   },
   "last_study_batch": {
-    "date": "2026-11-02",
-    "scope": "R09补23/23格，累计32/32；两近图／六格复看，Gould495–498四完整页及官网两页复读。确认两处局部ossia及编辑材料差别；浏览器状态调用一次10秒超时，实际教程画面增量0。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3256,40 +3254,48 @@
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
-    "new_native_diagnostic_conditions": 0,
     "new_user_integrated_rounds": 0,
-    "native_CLI_calls": 0,
+    "book_reread_pages": 0,
+    "date": "2026-11-02",
+    "scope": "3版Beams正文1/1、定向图5/8（含一旧图复读）；Local relayout四原生诊断条件、一版保存重载。混合组局部拉匀破坏六处共同起音，拒绝；未增加固定资料完成数。",
+    "new_native_diagnostic_conditions": 4,
+    "native_CLI_calls": 14,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
-    "book_reread_pages": 4,
-    "new_R09_time_cells": 23,
-    "R09_time_grid": [
-      32,
-      32
+    "manual_body": [
+      1,
+      1
     ],
-    "new_source_media": 0,
-    "official_PDF_reread_pages": 2,
+    "manual_targeted_images": [
+      5,
+      8
+    ],
+    "native_saved_reload": [
+      1,
+      1
+    ],
+    "new_source_media": 5,
     "notes": [
-      "R09_OSSIA_READING.md"
+      "BEAM_OPERATIONS_STUDY.md"
     ],
-    "review_evidence": "r09_ossia_evidence.json",
+    "review_evidence": "beam_operations_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
-    "reference": "LONG_DYNAMIC_TEXT_STUDY.md",
-    "evidence": "long_dynamic_text_evidence.json",
-    "completed_conditions": 3,
-    "planned_conditions": 3,
+    "reference": "BEAM_OPERATIONS_STUDY.md",
+    "evidence": "beam_operations_evidence.json",
+    "completed_conditions": 4,
+    "planned_conditions": 4,
     "saved_reloaded_versions": [
       1,
       1
     ],
-    "native_CLI_calls": 15,
-    "valid_final_native_calls": 13,
-    "input_probe_native_calls": 2,
-    "new_conditions": 3,
+    "native_CLI_calls": 14,
+    "valid_final_native_calls": 14,
+    "input_probe_native_calls": 0,
+    "new_conditions": 4,
     "reused_conditions": 0,
-    "description": "六小节原创钢琴例，完整dim. poco a poco与续行(dim.)在180/90mm比较；本例优先比较提醒版，未认定铺词不合规范。72条音符记录及完整MIDI保持；默认continueText省写仍实际显示，重载非逐像素相同。原A137未生成替代，用户采用未核。",
+    "description": "同起点变音控制组两版、下表增加细分两版；上表Local relayout近等距却错开六处共同起音，最大1.655sp，混合开启版拒绝。94条配方对照／46起音／441字节完整MIDI保持；重载SVG仅title不同。",
     "user_preference_confirmed": false,
     "user_real_score_candidate": false,
     "software_adaptation_changes": 0
@@ -3515,6 +3521,25 @@
         1
       ],
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "LONG_DYNAMIC_TEXT_STUDY.md",
+      "evidence": "long_dynamic_text_evidence.json",
+      "completed_conditions": 3,
+      "planned_conditions": 3,
+      "saved_reloaded_versions": [
+        1,
+        1
+      ],
+      "native_CLI_calls": 15,
+      "valid_final_native_calls": 13,
+      "input_probe_native_calls": 2,
+      "new_conditions": 3,
+      "reused_conditions": 0,
+      "description": "六小节原创钢琴例，完整dim. poco a poco与续行(dim.)在180/90mm比较；本例优先比较提醒版，未认定铺词不合规范。72条音符记录及完整MIDI保持；默认continueText省写仍实际显示，重载非逐像素相同。原A137未生成替代，用户采用未核。",
+      "user_preference_confirmed": false,
+      "user_real_score_candidate": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
@@ -3530,31 +3555,20 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "R09_OSSIA_READING.md",
-    "evidence": "r09_ossia_evidence.json",
-    "new_R09_preview_cells": [
-      23,
-      23
-    ],
-    "cumulative_R09_preview_cells": [
-      32,
-      32
-    ],
-    "confirmed_local_ossia_labels": 2,
-    "footer_auxiliary_staff": 1,
-    "Gould_full_printed_page_rereads": [
-      495,
-      496,
-      497,
-      498
-    ],
-    "official_full_PDF_pages_reread": [
+    "reference": "BEAM_OPERATIONS_STUDY.md",
+    "evidence": "beam_operations_evidence.json",
+    "MuseScore3_beams_target_body": [
       1,
-      2
+      1
     ],
+    "targeted_images": [
+      5,
+      8
+    ],
+    "Gould_full_printed_page_rereads": [],
     "new_Gould_coverage": 0,
     "new_fixed_resource_completions": 0,
-    "scope": "Actual ossialabels andlocalfragment roles; footerfullcaption/sourceevolution unknown; no fullvideo/audio."
+    "scope": "操作层级、模式映射与Local relayout实际反例；不是R11完整教程成绩。"
   },
   "judgment_review_history": [
     {
@@ -3719,10 +3733,10 @@
     "scope": "余9项R07–R15保持。R07/R08/R09预览时间格118/118、82/82、32/32已闭合，后续转清晰实际教程和已有钢琴输入的角色判断，不以穷举缩图代替完整流程。R07旧版0/2、三首细小校勘／完整声音、R10具体干预及R11–R15完整流程仍待核。浏览器状态一次超时，路径无变化不重复。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
-    "latest_available_supplement": "LONG_DYNAMIC_TEXT_STUDY.md: actual A137 context, Gould2rereads and5Dorico6.2bodies applied; not replacement of remaining9fixed targets.",
+    "latest_available_supplement": "BEAM_OPERATIONS_STUDY.md: body1/1, targetedimages5/8, nativeconditions4/4, savedreload1/1; not replacement of remaining9fixedtargets.",
     "official_preview_path_confirmed_for_R09": true,
     "official_preview_path_confirmed_for_R07_R08": true,
-    "next_readable_operation_reference": "MuseScore3 official beaming instructions and illustrations,checked against musical cases; separate from R11 fullvideo completion."
+    "next_readable_operation_reference": "MuseScore3连梁正文1/1、定向图5/8已读，四原生诊断条件已核；转向可得清晰实际教程及钢琴情境。三失败图不重复请求，R11完整流程仍待补。"
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -4014,6 +4028,33 @@
       "targeted_primary_context_paragraphs": 1,
       "new_fixed_resource_completions": 0,
       "scope": "Technicaldirective/restorepoint,independentholds,similar-motif differences andcautionarykeys; previewoverview notfinesymbolcollation or fullvideo/audio."
+    },
+    {
+      "reference": "R09_OSSIA_READING.md",
+      "evidence": "r09_ossia_evidence.json",
+      "new_R09_preview_cells": [
+        23,
+        23
+      ],
+      "cumulative_R09_preview_cells": [
+        32,
+        32
+      ],
+      "confirmed_local_ossia_labels": 2,
+      "footer_auxiliary_staff": 1,
+      "Gould_full_printed_page_rereads": [
+        495,
+        496,
+        497,
+        498
+      ],
+      "official_full_PDF_pages_reread": [
+        1,
+        2
+      ],
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "Actual ossialabels andlocalfragment roles; footerfullcaption/sourceevolution unknown; no fullvideo/audio."
     }
   ],
   "latest_source_identity_review": {
