@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "version": "0.26.0",
+  "tag": "engraving-v0.26.0",
+  "as_of": "2026-11-01T16:09:30.292615+00:00",
+  "stage": "usable-research",
+  "starting_commit": "939c369ce0cf9b3d97ba22178ce2ab79f3fd7fce",
+  "prior_fixed_tag": {
+    "name": "engraving-v0.25.0",
+    "commit": "b4d19a9b86a25745cbc9a266b5b8a65461b8228a",
+    "preserve": true
+  },
+  "publication": "Create unused tag only after actual checks pass,then verify Git refs; no old tag moved.",
+  "included_notes": [
+    "R09_PREVIEW_COMPARISON.md",
+    "BALLADE_POLONAISE_PREVIEW_READING.md",
+    "BALLADE_PREVIEW_CONTINUATION.md"
+  ],
+  "coverage": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "Gould_file_pages": [
+      696,
+      696
+    ],
+    "fixed_resource_scopes": [
+      16,
+      25
+    ],
+    "remaining_resources": 9,
+    "topics": [
+      20,
+      20
+    ],
+    "transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ]
+  },
+  "actual_preview_time_grid": {
+    "R07": [
+      118,
+      118
+    ],
+    "R08": [
+      34,
+      82
+    ],
+    "R09": [
+      9,
+      32
+    ],
+    "R11_part1": [
+      6,
+      68
+    ]
+  },
+  "boundaries": [
+    "Preview time-grid coverage is not fullvideo/audio or finesymbolcollation.",
+    "R07 specifiedlegacy fullscores0/2 remainunread.",
+    "Uservisualadoption/printing unconfirmed."
+  ],
+  "new_native_calls": 0,
+  "new_software_adaptation": false,
+  "new_public_music_assets": 0,
+  "checks_status": "passed actual ledger,skill validation and6retrieval regressions",
+  "checks": {
+    "ledger": "passed",
+    "skill_metadata": "passed",
+    "retrieval_regression": [
+      6,
+      6
+    ],
+    "specific_query": {
+      "query": "每拍 复杂度",
+      "results": [
+        {
+          "filename": "EONIAN_SPACING_REVIEW.md",
+          "line": 9
+        },
+        {
+          "filename": "BALLADE_PREVIEW_CONTINUATION.md",
+          "line": 3
+        },
+        {
+          "filename": "README.md",
+          "line": 3
+        },
+        {
+          "filename": "BALLADE_POLONAISE_PREVIEW_READING.md",
+          "line": 3
+        },
+        {
+          "filename": "SPACING_STUDY.md",
+          "line": 50
+        }
+      ]
+    },
+    "historical_files_unchanged": [
+      "PREFERENCES.md",
+      "release_0_25_0_evidence.json",
+      "resource_identity_evidence.json",
+      "ballade_polonaise_preview_evidence.json",
+      "r09_preview_comparison_evidence.json"
+    ],
+    "local_markdown_links_checked": 1161,
+    "scope": "Checks cover structure,availability and retrieval; not aesthetic accuracy or full audio/video mastery."
+  },
+  "checked_at": "2026-11-01T16:13:14.586059+00:00",
+  "files": [
+    {
+      "path": "skills/piano-engraving/SKILL.md",
+      "bytes": 14265,
+      "sha256": "7951cc5b97f92e6cae895c324958dbc0921bd1d9f183e0f6eecf1d52b1b80a10"
+    },
+    {
+      "path": "skills/piano-engraving/scripts/engraving_library.py",
+      "bytes": 49503,
+      "sha256": "08e77b233e04d5cf39b2842b6548dec01c7b579fd6b453243ae6c24d80b2286b"
+    },
+    {
+      "path": "docs/engraving/progress.json",
+      "bytes": 156534,
+      "sha256": "d0fd7261518ccdf9a5357bc63fe268bbc9a1c2caf5b72664abaf25c9e15057ef"
+    },
+    {
+      "path": "docs/ENGRAVING_RELEASES.md",
+      "bytes": 105723,
+      "sha256": "eb430c197046b4b525b9a0b86f4c63652ea6ba80622cb74b6dcc3ecb76c120b6"
+    },
+    {
+      "path": "docs/ENGRAVING_SKILL.md",
+      "bytes": 10354,
+      "sha256": "73757be4b02d5fdf8aae722ad3d421e51b8143e4690b37b096dc177b19015f30"
+    },
+    {
+      "path": "docs/engraving/R09_PREVIEW_COMPARISON.md",
+      "bytes": 5371,
+      "sha256": "3dc604d9d3424224f7e594135bd5ce41f88c909281af8b71d448da6e55ca5b77"
+    },
+    {
+      "path": "docs/engraving/r09_preview_comparison_evidence.json",
+      "bytes": 9362,
+      "sha256": "887635ccfdaa921dbc831f17afc7d109de657f6333c981e90b9ba8441dcf4579"
+    },
+    {
+      "path": "docs/engraving/BALLADE_POLONAISE_PREVIEW_READING.md",
+      "bytes": 8295,
+      "sha256": "4545ec1cefc82d6e211469ad2a961678aeb5c25fc286e5ac579842bed062ae4f"
+    },
+    {
+      "path": "docs/engraving/ballade_polonaise_preview_evidence.json",
+      "bytes": 14445,
+      "sha256": "9f8bccc3790badde5e545f7e169de69848dab81db3e1ff846fd6c2e7a84ca1c8"
+    },
+    {
+      "path": "docs/engraving/BALLADE_PREVIEW_CONTINUATION.md",
+      "bytes": 6987,
+      "sha256": "2ccb6afaeb98c1e30390efe207e312120f3b287aaacbf9399df357513325c2c5"
+    },
+    {
+      "path": "docs/engraving/ballade_preview_continuation_evidence.json",
+      "bytes": 17987,
+      "sha256": "e87ec33350a7d4fd2733c0fc0023103eec0e552a5c14db653a994d9546952acc"
+    }
+  ],
+  "cache_current_turn_bytes": 1296561
+}

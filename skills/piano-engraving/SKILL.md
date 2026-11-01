@@ -2,7 +2,7 @@
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
 metadata:
-  version: "0.25.0"
+  version: "0.26.0"
 ---
 
 # 钢琴净书
@@ -48,6 +48,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 ## 对当前乐谱作判断
 
 先核当前作品／版本、乐器及演奏任务；视频／收藏列表须核作品ID、标题和作者，自动跳转后重新确认。同名官方PDF与视频成品分别记录，不用一份补足另一份未读范围。具体反例经`sources`查`SOURCE_IDENTITY_REVIEW.md`；跨乐器套用谱号、弧线或奏法前，经`notation`查`INSTRUMENT_CONTEXT_READING.md`的条件。
+
+间距按每拍实际复杂度选择空间重点，旋律身份通过声部／干向／标记另行保护；不能固定照顾某只手、某一表或全曲音头最多的层。速度改变不自动改变同系统同类时值的间距，必要变音／换号空间按条件处理；经`spacing`查`BALLADE_PREVIEW_CONTINUATION.md`的350／400秒对照与Gould三页。
 
 视频截取先分音乐视窗与物理页，局部空白不作分页诊断。经`piano`／`spacing`查`BALLADE_POLONAISE_PREVIEW_READING.md`：连续伴奏与独立上层先辨主读节奏和共同时间列，再评间距；段落标记与a tempo可在行中，保准备、到达及实际生效点。
 

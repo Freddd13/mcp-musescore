@@ -1,0 +1,778 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-01T16:09:30.265224+00:00",
+  "reference": "BALLADE_PREVIEW_CONTINUATION.md",
+  "previous_goal_turn": "progress:939c369 read first actual R07/R08 target previews; this batch completes R07 time-grid and refines per-beat spacing reasoning.",
+  "R07": {
+    "scope": {
+      "date": "2026-11-01",
+      "resource": "R07",
+      "planned_preview_time_cells": 118,
+      "previously_viewed_cells": [
+        1,
+        2,
+        13,
+        20,
+        30,
+        51,
+        54,
+        63,
+        70,
+        100,
+        116
+      ],
+      "planned_new_cells": 107,
+      "private_budget_bytes": 786432,
+      "budget_revision_reason": "Six detailed cells produced525572byte contact sheet,above initial512KiB before small records; reserve768KiB and keep one overwritten sheet only.",
+      "global_exact_cache_total_known": false,
+      "global_check_allowance_bytes": 3273850880,
+      "reuse_source_images": "../ballade-polonaise-previews-2026-11-01",
+      "single_reading_sheet_overwritten": true,
+      "original_PDF_MSCZ_read_only": true,
+      "software_adaptation": false,
+      "raw_video_audio_requested": false,
+      "completed": true,
+      "completed_date": "2026-11-02",
+      "actual_new_cells": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        52,
+        53,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        117
+      ],
+      "actual_new_groups": [
+        [
+          0,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        [
+          15,
+          16,
+          17,
+          18,
+          19,
+          21
+        ],
+        [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27
+        ],
+        [
+          28,
+          29,
+          31,
+          32,
+          33,
+          34
+        ],
+        [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        [
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        [
+          47,
+          48,
+          49,
+          50,
+          52,
+          53
+        ],
+        [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        [
+          61,
+          62,
+          64,
+          65,
+          66,
+          67
+        ],
+        [
+          68,
+          69,
+          71,
+          72,
+          73,
+          74
+        ],
+        [
+          75,
+          76,
+          77,
+          78,
+          79,
+          80
+        ],
+        [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86
+        ],
+        [
+          87,
+          88,
+          89,
+          90,
+          91,
+          92
+        ],
+        [
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ],
+        [
+          99,
+          101,
+          102,
+          103,
+          104,
+          105
+        ],
+        [
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ],
+        [
+          112,
+          113,
+          114,
+          115,
+          117
+        ]
+      ],
+      "new_time_cells": [
+        107,
+        107
+      ],
+      "cumulative_time_cells": [
+        118,
+        118
+      ],
+      "music_cells": 115,
+      "cover_cells": [
+        1
+      ],
+      "black_cells": [
+        0,
+        117
+      ],
+      "representative_cells_reread": [
+        71,
+        81,
+        93,
+        101,
+        108,
+        111
+      ],
+      "Gould_full_printed_pages_reread": [
+        40,
+        43,
+        490
+      ],
+      "R07_status": "partial",
+      "new_complete_fixed_resources": 0,
+      "native_calls": 0,
+      "largest_observed_contact_sheet_bytes": 525572,
+      "scope_boundary": "Full public time-grid overview,not full video/audio,fine-symbol collation or physical PDF page layout."
+    },
+    "identity": {
+      "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1wwH5esEBt",
+      "http": 200,
+      "code": 0,
+      "message": "OK",
+      "sha256": "25d766d929a65806bdc05cdabf46d5adcbfe3616b0df892b2bae7eded80a9bbe",
+      "bvid": "BV1wwH5esEBt",
+      "aid": 113049897796606,
+      "cid": 25654529539,
+      "title": "【钢琴】肖邦/齐默尔曼：g小调第一叙事曲｜Chopin/Zimmerman - Ballade No. 1 in g Minor",
+      "duration": 585,
+      "owner_mid": 372657607
+    },
+    "reused_source_images": [
+      {
+        "resource": "R07",
+        "part": 1,
+        "url": "https://bimp.hdslb.com/videoshotpvhdboss/25654529539_0y1acb-0001.jpg",
+        "credentials_used": false,
+        "raw_video_requested": false,
+        "http": 200,
+        "bytes": 1090029,
+        "format": "JPEG",
+        "size": [
+          4800,
+          2700
+        ],
+        "saved": true,
+        "sha256": "7e4408c48c50c68eff7290044f548c3efbe1c65f2c6d81afcfc5bfae1a592e39"
+      },
+      {
+        "resource": "R07",
+        "part": 2,
+        "url": "https://bimp.hdslb.com/videoshotpvhdboss/25654529539_0y1acb-0002.jpg",
+        "credentials_used": false,
+        "raw_video_requested": false,
+        "http": 200,
+        "bytes": 269154,
+        "format": "JPEG",
+        "size": [
+          4800,
+          2700
+        ],
+        "saved": true,
+        "sha256": "46644dd3f867f5520ab8d58df1aa2b3890b189cbdf53e7706b1e43fd0e243923"
+      }
+    ],
+    "exact_legacy_full_scores": [
+      0,
+      2
+    ],
+    "full_video_audio_read": false,
+    "fine_symbol_collation_complete": false
+  },
+  "Gould": {
+    "printed_pages_reread": [
+      40,
+      43,
+      490
+    ],
+    "physical_pages": [
+      60,
+      63,
+      510
+    ],
+    "new_first_read_coverage": 0,
+    "reading_method": "Fullpage render from protected localPDF; same scratch image overwritten afterwards."
+  },
+  "R11": {
+    "scope": {
+      "date_started": "2026-11-01",
+      "date_completed": "2026-11-02",
+      "resource": "R11",
+      "part": 1,
+      "private_budget_bytes": 2097152,
+      "initial_budget_bytes": 3145728,
+      "budget_revision_reason": "One652141byte public sprite and one overwritten reading image suffice; reduce3MiB reservation to2MiB.",
+      "actual_preview_cells": [
+        1,
+        7,
+        13,
+        25,
+        43,
+        65
+      ],
+      "time_s": [
+        0,
+        60,
+        120,
+        240,
+        420,
+        640
+      ],
+      "preview_time_entries": 68,
+      "selected_batch": [
+        6,
+        6
+      ],
+      "total_preview_grid": [
+        6,
+        68
+      ],
+      "nearest_neighbor_2x_rereads": [
+        43,
+        65
+      ],
+      "actual_new_browser_tabs": 0,
+      "second_part_frames_read": 0,
+      "raw_video_watched": false,
+      "audio_read": false,
+      "button_labels_or_full_click_sequence_verified": false,
+      "status": "partial",
+      "software_adaptation": false,
+      "global_exact_cache_total_known": false,
+      "global_check_allowance_bytes": 3275948032
+    },
+    "identity": {
+      "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV14Z4y1f7bG",
+      "http": 200,
+      "code": 0,
+      "sha256": "9a3a1d9bc89fcdb36f5af455d82775a77729b987d3afcbad2ee6ebff135bedc9",
+      "bvid": "BV14Z4y1f7bG",
+      "aid": 380666127,
+      "title": "[musescore 3.6]常见音符符杠联携样式，排版小技巧",
+      "cid": 485366503,
+      "duration": 2378,
+      "pages": [
+        {
+          "cid": 485366503,
+          "page": 1,
+          "from": "vupload",
+          "part": "mu36符杠样式1",
+          "duration": 669,
+          "vid": "",
+          "weblink": "",
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i0.hdslb.com/bfs/storyff/n220116a21e3u3sffgug1u3u89x9c3hw_firsti.jpg",
+          "ctime": 1642304068
+        },
+        {
+          "cid": 30199448950,
+          "page": 2,
+          "from": "vupload",
+          "part": "mu36跨小节线符杠样式p2",
+          "duration": 1709,
+          "vid": "",
+          "weblink": "",
+          "dimension": {
+            "width": 1920,
+            "height": 1080,
+            "rotate": 0
+          },
+          "first_frame": "http://i2.hdslb.com/bfs/storyff/n250528sa137in2agxy6c52b6cki556l_firsti.jpg",
+          "ctime": 1748440556
+        }
+      ],
+      "owner": {
+        "mid": 46935732,
+        "name": "萌象的J哥",
+        "face": "https://i0.hdslb.com/bfs/face/f04eb1f000c7a783a49da4862ef220d6c2c89a38.jpg"
+      }
+    },
+    "preview_metadata_url": "https://api.bilibili.com/x/player/videoshot?bvid=BV14Z4y1f7bG&cid=485366503&index=1",
+    "preview_metadata_sha256": "f63ab92aa224be705b6b2138ee0048e4e09f6550dfa761a4454ef9c9bbe08b9c",
+    "public_assets": [
+      {
+        "kind": "time-index",
+        "url": "https://boss.hdslb.com/videoshotpvhdboss/485366503_9350bb.bin",
+        "anonymous": true,
+        "raw_video_requested": false,
+        "http": 200,
+        "bytes": 136,
+        "sha256": "9b856003545827154f21d7efa62e38b3afb20d7ecc6380e997bd936dadde3bd7",
+        "index": [
+          0,
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+          110,
+          120,
+          130,
+          140,
+          150,
+          160,
+          170,
+          180,
+          190,
+          200,
+          210,
+          220,
+          230,
+          240,
+          250,
+          260,
+          270,
+          280,
+          290,
+          300,
+          310,
+          320,
+          330,
+          340,
+          350,
+          360,
+          370,
+          380,
+          390,
+          400,
+          410,
+          420,
+          430,
+          440,
+          450,
+          460,
+          470,
+          480,
+          490,
+          500,
+          510,
+          520,
+          530,
+          540,
+          550,
+          560,
+          570,
+          580,
+          590,
+          600,
+          610,
+          620,
+          630,
+          640,
+          650,
+          660
+        ],
+        "plausible_seconds": true
+      },
+      {
+        "kind": "storyboard",
+        "url": "https://bimp.hdslb.com/videoshotpvhdboss/485366503_9350bb-0001.jpg",
+        "anonymous": true,
+        "raw_video_requested": false,
+        "http": 200,
+        "bytes": 652141,
+        "sha256": "fcbd9f3dff167dfc59091e2a844dda31ce940eaa38862ee67251e87e4402e3f4",
+        "pixels": [
+          4800,
+          2700
+        ],
+        "format": "JPEG"
+      }
+    ],
+    "visible": "Top magnified score strip,lower two-page example layout,left panel; beam/rest states visible.",
+    "not_verified": "Tinybutton labels,completeclick sequence,fullaudio andpart2; no commands inferred fromcursor."
+  },
+  "decisions": [
+    {
+      "case": "350/400s upper/lower continuous motion",
+      "decision": "Keep independentlayers; allocate per-beatcomplexity,then recheck otherlayer and synchronizedpoints."
+    },
+    {
+      "case": "200/460/500s tempo entries",
+      "decision": "Keep effective location; tempo alone doesnotjustify spacing discontinuity or mandatorylinebreak."
+    },
+    {
+      "case": "accidentals andclefs under tightbudget",
+      "decision": "Use realprefix space andlocal symbolneed,conditional on p43; no exactmeasurements fromthumbnail."
+    },
+    {
+      "case": "535/550s closinglayers",
+      "decision": "Preserve runningfigure→chords/rest→finalhold; upperrest doesnotprove global silence."
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    }
+  ],
+  "new_native_calls": 0,
+  "new_software_adaptation": 0,
+  "new_user_preferences": 0,
+  "resource_progress": {
+    "complete": 16,
+    "planned": 25,
+    "remaining": 9,
+    "new_completions": 0
+  },
+  "cache": {
+    "R07": {
+      "directory": "tmp/engraving/ballade-preview-continuation-2026-11-01",
+      "files": [
+        {
+          "path": "book.py",
+          "bytes": 623,
+          "sha256": "ede70c995423016d71be6f5cab962fcab3e491b1e4a4e0b1cdd1da383b190527"
+        },
+        {
+          "path": "finalize.py",
+          "bytes": 19245,
+          "sha256": "898ccda2f262dcac74e72d757d9f61f3bed81038bd07801b16c5e0502e0b1aae"
+        },
+        {
+          "path": "reading-sheet.png",
+          "bytes": 512225,
+          "sha256": "a33349b19eb7e686a77b957e246b5a46b69cea0ec60bf9d395a0285e3d3b5e10"
+        },
+        {
+          "path": "release-audit.py",
+          "bytes": 5376,
+          "sha256": "ae261b25562610c77e07ff9819d4374a1178917f2ad4de9480357737a1b8ae77"
+        },
+        {
+          "path": "scope.json",
+          "bytes": 3632,
+          "sha256": "8131d9bef9c5e9c458133bcf77c3f4d250e0006815883e9f1b4d84d3a119d855"
+        },
+        {
+          "path": "view.py",
+          "bytes": 1551,
+          "sha256": "0f7a4a21f288ecc1b9447d42af85cddd3f4daa22d89cfcc3002f3c1e7823d54d"
+        }
+      ],
+      "bytes": 542652,
+      "budget_bytes": 786432
+    },
+    "R11": {
+      "directory": "tmp/engraving/beam-tutorial-preview-2026-11-01",
+      "files": [
+        {
+          "path": "download.py",
+          "bytes": 1995,
+          "sha256": "3572d2128cf907696e5a86db82879e1a96456c6e02904fb5defb373d709b0669"
+        },
+        {
+          "path": "downloads.json",
+          "bytes": 1434,
+          "sha256": "719f298574bf04a086da4d4145b3b35a86a391961591c5ea6b296b94a442cfcb"
+        },
+        {
+          "path": "metadata.json",
+          "bytes": 2225,
+          "sha256": "4fe99f0ce41acbaaa7005afcbde5c7639b895a09cfba9d0eea78abc97e9a90fa"
+        },
+        {
+          "path": "probe.py",
+          "bytes": 1831,
+          "sha256": "d094af6560cfae82d6d5acdf015bd6188a82de429fe39ad9bedb4aba428ff4dc"
+        },
+        {
+          "path": "public-time-index.bin",
+          "bytes": 136,
+          "sha256": "9b856003545827154f21d7efa62e38b3afb20d7ecc6380e997bd936dadde3bd7"
+        },
+        {
+          "path": "reading-sheet.png",
+          "bytes": 91796,
+          "sha256": "cfe123215781bad17e61b7b99b8ac7388f1051394891bae9986425c608d74cdf"
+        },
+        {
+          "path": "scope.json",
+          "bytes": 942,
+          "sha256": "49df70d681adb5904babd5da4b1aba3c9167ecc0fc9d97e578edc02ffe81a032"
+        },
+        {
+          "path": "storyboard.jpg",
+          "bytes": 652141,
+          "sha256": "fcbd9f3dff167dfc59091e2a844dda31ce940eaa38862ee67251e87e4402e3f4"
+        },
+        {
+          "path": "view.py",
+          "bytes": 1409,
+          "sha256": "0f3baa923121bd8538a76ce0d88fc9e9e0f8c5a32e976f1fa169ee7aac08ba8b"
+        }
+      ],
+      "bytes": 753909,
+      "budget_bytes": 2097152
+    },
+    "combined_bytes": 1296561,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3275948032,
+    "new_source_PDF_runtime_copies": 0,
+    "new_reference_images_in_git": 0,
+    "deletions": 0
+  },
+  "checks": {
+    "ledger": "passed",
+    "skill_metadata": "passed",
+    "retrieval_regression": [
+      6,
+      6
+    ],
+    "specific_query": {
+      "query": "每拍 复杂度",
+      "results": [
+        {
+          "filename": "EONIAN_SPACING_REVIEW.md",
+          "line": 9
+        },
+        {
+          "filename": "BALLADE_PREVIEW_CONTINUATION.md",
+          "line": 3
+        },
+        {
+          "filename": "README.md",
+          "line": 3
+        },
+        {
+          "filename": "BALLADE_POLONAISE_PREVIEW_READING.md",
+          "line": 3
+        },
+        {
+          "filename": "SPACING_STUDY.md",
+          "line": 50
+        }
+      ]
+    },
+    "historical_files_unchanged": [
+      "PREFERENCES.md",
+      "release_0_25_0_evidence.json",
+      "resource_identity_evidence.json",
+      "ballade_polonaise_preview_evidence.json",
+      "r09_preview_comparison_evidence.json"
+    ],
+    "local_markdown_links_checked": 1161,
+    "scope": "Checks cover structure,availability and retrieval; not aesthetic accuracy or full audio/video mastery."
+  }
+}
