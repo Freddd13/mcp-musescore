@@ -87,6 +87,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 `STEM_OPTICAL_SHAPES_MARKS.md`补余两类：Note小头与Chord整体缩放分辨，字号属性不独自决定grace／cue或播放。按当前真实挂头和干轴核补偿，不预断换字体／字号必失效。Slur、指法与共同列保持后仍要看动态通道；文字替代另列记法代价，隐藏播放辅助须验交换，本机实导回会重显发夹并移梁。
 
+`AETHER_SPACING_LAYERS.md`把实谱宽首格分为优先比较、保护变音后比较和保留；先看相对波动及实际占位。提示变音可保读者确认功能，省写另列；将来重分须联合同刻低部和标记。上下力度通道按角色保留，PDF文本页漏头的实例也提醒先核原图与其它提取结果。纸面坐标不当原生候选。
+
 ## 需要候选时
 
 本项目提供的用户原PDF／MSCZ保持只读，使用独立副本或原创fixture，不操作当前GUI来做离线试验。其它工程按用户实际授权处理；分析请求不隐含覆盖源文件。详细原生比较方法见[references/native-review.md](references/native-review.md)。

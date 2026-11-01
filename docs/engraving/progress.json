@@ -3246,7 +3246,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.28固定四篇光学研究25最终条件、5最终重载与33原创资产；四边界覆盖4/4，资料16/25余9，无适配。",
+    "working_branch_note": "固定0.28后补Aether六处间距／三动态语境；四处纸面比较、原生后继0/4。提示变音和加线余白分判；资料16/25余9，无适配。",
     "evidence": "release_0_28_0_evidence.json"
   },
   "last_study_batch": {
@@ -3265,20 +3265,17 @@
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
     "date": "2026-11-02",
-    "scope": "小头／已有字体与标记通道，原四边界覆盖4/4；9最终原生版、2最终重载，6定位探针调用、2导回图面诊断；Gould六整页及A128p2复读。",
-    "new_native_diagnostic_conditions": 9,
-    "native_CLI_calls": 48,
-    "valid_final_native_calls": 40,
-    "native_input_probe_calls": 6,
-    "exchange_diagnostic_calls": 2,
-    "book_reread_pages": 6,
-    "official_score_reread_pages": 1,
+    "scope": "Aether六间距小节／三动态语境、两问题回查，5Gould整页复读；四纸面候选，无新原生。",
+    "new_native_diagnostic_conditions": 0,
+    "native_CLI_calls": 0,
+    "book_reread_pages": 5,
+    "official_score_reread_pages": 2,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "STEM_OPTICAL_SHAPES_MARKS.md"
+      "AETHER_SPACING_LAYERS.md"
     ],
-    "review_evidence": "stem_optical_shapes_marks_evidence.json",
+    "review_evidence": "aether_spacing_layers_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3671,25 +3668,41 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "STEM_OPTICAL_SHAPES_MARKS.md",
-    "evidence": "stem_optical_shapes_marks_evidence.json",
+    "reference": "AETHER_SPACING_LAYERS.md",
+    "evidence": "aether_spacing_layers_evidence.json",
+    "questions": [
+      2,
+      2
+    ],
+    "spacing_bars": [
+      6,
+      6
+    ],
+    "dynamic_contexts": [
+      3,
+      3
+    ],
     "official_pages_reread": {
       "A128": [
+        1,
         2
       ]
     },
     "Gould_full_printed_page_rereads": [
-      106,
-      126,
-      308,
-      309,
-      315,
-      323
+      43,
+      81,
+      82,
+      323,
+      490
     ],
-    "MuseScore3_targeted_body_sections": 1,
     "new_Gould_coverage": 0,
     "new_fixed_resource_completions": 0,
-    "scope": "小音角色、挂干、Slur／指法与动态通道；101–108仅文本定位片段，不计完整八页。"
+    "paper_candidates": 4,
+    "native_replacements": [
+      0,
+      4
+    ],
+    "scope": "Actual occupancy,cautionary functions and dynamic roles; no native replacement or engine attribution."
   },
   "judgment_review_history": [
     {
@@ -4272,6 +4285,27 @@
       "new_Gould_coverage": 0,
       "new_fixed_resource_completions": 0,
       "scope": "Rhythmic contour,optical compensation,prefatory ownership and capacity; body/code only,no newwebfigures. Source snippets read-only,build correspondence not proven."
+    },
+    {
+      "reference": "STEM_OPTICAL_SHAPES_MARKS.md",
+      "evidence": "stem_optical_shapes_marks_evidence.json",
+      "official_pages_reread": {
+        "A128": [
+          2
+        ]
+      },
+      "Gould_full_printed_page_rereads": [
+        106,
+        126,
+        308,
+        309,
+        315,
+        323
+      ],
+      "MuseScore3_targeted_body_sections": 1,
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "小音角色、挂干、Slur／指法与动态通道；101–108仅文本定位片段，不计完整八页。"
     }
   ],
   "latest_source_identity_review": {

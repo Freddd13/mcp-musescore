@@ -1,0 +1,1012 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "AETHER_SPACING_LAYERS.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "b0b066e0a5818ed55c43775f843cc9a80487b337",
+    "reason": "Published and remotely verified fixed engraving-v0.28.0 with61 fingerprints and33 original assets."
+  },
+  "scope": {
+    "date": "2026-11-02",
+    "planned_questions": 2,
+    "planned_full_official_page_rereads": [
+      1,
+      2
+    ],
+    "planned_spacing_bars": [
+      30,
+      31,
+      33,
+      35,
+      37,
+      38
+    ],
+    "planned_dynamic_contexts": [
+      "m26",
+      "m28",
+      "m41–43"
+    ],
+    "planned_full_Gould_pages": [
+      43,
+      81,
+      82,
+      323,
+      490
+    ],
+    "private_budget_bytes": 1048576,
+    "global_check_allowance_bytes": 3290365952,
+    "global_exact_total_known": false,
+    "new_native_conditions": 0,
+    "software_adaptation": false,
+    "source_media_or_runtime_copies": 0,
+    "initial_planned_full_Gould_pages": [
+      43,
+      323,
+      490
+    ],
+    "scope_revision_reason": "Verify the distinction between source cautionary naturals and pitch-required alterations after reading m30–33."
+  },
+  "reference_views": [
+    {
+      "path": "tmp/engraving/corpus/A128/page-1.jpg",
+      "sha256": "58a70eebb9af00cffd05093a13a471aac527c53b9815c0ac1b8dba9dfbe97f63",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A128/page-2.jpg",
+      "sha256": "2c95e626b9e4f659311d0fb18cb77ce27a9d25bd17fed8cf2cdfda2c1fad471b",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/rumbling-aether-2026-10-30/A128-p1-s5.jpg",
+      "sha256": "922dacd316b38ac87bb073feda054009d5ec1333330dada897d71b7621a8b43b",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/rumbling-aether-2026-10-30/A128-p1-s6.jpg",
+      "sha256": "6f2e388889e7d34f48af126817d9f19f5d46f29313840666d6fc0087ac733ec7",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/rumbling-aether-2026-10-30/A128-p2-s1.jpg",
+      "sha256": "14f0404892e2d22aba3b9ce3372f5cea1238c9b9460018acaf556347a77c721a",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/rumbling-aether-2026-10-30/A128-p2-s2.jpg",
+      "sha256": "ede2f57ef7006f26d08531b5f556dc2a461acd3becf1e60ca5e6564884c34e47",
+      "actually_viewed": true,
+      "reused": true
+    }
+  ],
+  "official_pages_reread": {
+    "A128": [
+      1,
+      2
+    ]
+  },
+  "Gould": {
+    "full_printed_page_rereads": [
+      43,
+      81,
+      82,
+      323,
+      490
+    ],
+    "physical_pages": [
+      63,
+      101,
+      102,
+      343,
+      510
+    ],
+    "read_log": [
+      {
+        "printed": 490,
+        "physical": 510,
+        "render_sha256": "c18aba18344097dc3c0d934c32e8eda5c9f9cee3980388f637ec3cb0da1b2c10",
+        "full_page": true,
+        "actually_read": true
+      },
+      {
+        "printed": 43,
+        "physical": 63,
+        "render_sha256": "2935098555cd30b8811f7f6b7f5b83020b1e8ed684aacae697be4a7d78435662",
+        "full_page": true,
+        "actually_read": true
+      },
+      {
+        "printed": 323,
+        "physical": 343,
+        "render_sha256": "81cee032297e9a8205f09c48171720080640985e053202585f813394b9ac7ee3",
+        "full_page": true,
+        "actually_read": true
+      },
+      {
+        "printed": 81,
+        "physical": 101,
+        "render_sha256": "55df7741e305dcf234a179b75c72053f2ba9322196096a5323a4794e74b8c95b",
+        "full_page": true,
+        "actually_read": true
+      },
+      {
+        "printed": 82,
+        "physical": 102,
+        "render_sha256": "67ed47490123325846de5529e1bbc404b28598be1684365a247f1cb5e1106815",
+        "full_page": true,
+        "actually_read": true
+      }
+    ],
+    "new_unique_coverage": 0,
+    "reused_single_reading_buffer": true
+  },
+  "source_metadata": {
+    "Title": "",
+    "Author": "",
+    "Subject": "",
+    "Keywords": "",
+    "Creator": "Sibelius version 7.0.0 on Windows 7\n",
+    "Producer": "Qt 4.7.2 (C) 2010 Nokia Corporation and/or its subsidiary(-ies)",
+    "CreationDate": "D:20160411092740",
+    "ModDate": "D:20220222213453+09'00'"
+  },
+  "source_metadata_limits": "Creator identifies this file exporter; dates do not establish publication date or individual spacing decisions. No MuseScore engine attribution from this PDF.",
+  "geometry": {
+    "questions": [
+      2,
+      2
+    ],
+    "spacing_bars": [
+      6,
+      6
+    ],
+    "dynamic_contexts": [
+      3,
+      3
+    ],
+    "source_id": "A128",
+    "source_sha256": "51778876e470071763f9e5e7234dba5dd7f13d65ba695252c2b9d6874e40f280",
+    "profiles": [
+      {
+        "measure": 30,
+        "page": 1,
+        "fast_head_records": 8,
+        "normal_anchor_x_pt": [
+          171.519,
+          184.553,
+          193.568,
+          202.461,
+          211.475,
+          220.368
+        ],
+        "gaps_pt": [
+          13.033999999999992,
+          9.015000000000015,
+          8.893,
+          9.013999999999982,
+          8.893
+        ],
+        "first_gap_body_median_ratio": 1.455743563969398,
+        "spatium_pt": 3.897792,
+        "dot_tight_box_pt": [
+          178.84166736132812,
+          712.5321422080078,
+          180.27617663867187,
+          713.9977031210938
+        ],
+        "next_head_tight_box_pt": [
+          184.553,
+          726.8299631958008,
+          189.88565686035156,
+          730.8992609863282
+        ],
+        "dot_next_vertical_box_gap_pt": 12.832260074707051,
+        "dot_next_horizontal_box_gap_pt": 4.276823361328127,
+        "equal_grid_diagnostic_x_pt": [
+          171.519,
+          181.2888,
+          191.0586,
+          200.8284,
+          210.5982,
+          220.368
+        ],
+        "candidate_not_applied": true,
+        "protected_gap_indices": [],
+        "first_interval_head_boxes": [
+          [
+            171.519,
+            719.0339631958008,
+            176.85165686035157,
+            723.1032609863281
+          ],
+          [
+            171.519,
+            722.9317551958007,
+            176.85165686035157,
+            727.0010529863281
+          ]
+        ],
+        "normal_matching_glyph_box_translations_not_independent_charbox_measurements": true,
+        "ledger_centerline_endpoint_gaps_original_pt": [
+          4.750862999999981,
+          0.7309019999999862,
+          0.7309019999999862,
+          0.6090850000000216,
+          0.7309019999999862,
+          0.6090849999999648,
+          0.6090849999999648
+        ],
+        "ledger_centerline_endpoint_gaps_candidate_pt": [
+          1.4866629999999645,
+          1.4857019999999181,
+          1.4857019999999181,
+          1.4858849999999677,
+          1.4867020000000082,
+          1.4858849999999677,
+          1.4858849999999677
+        ],
+        "ledger_gaps_exclude_stroke_thickness": true,
+        "natural": null,
+        "judgment": "priority for joint local comparison",
+        "diagnostic_redistribution_x_pt": [
+          171.519,
+          181.2888,
+          191.0586,
+          200.8284,
+          210.5982,
+          220.368
+        ],
+        "proposed_comparison_x_pt": [
+          171.519,
+          181.2888,
+          191.0586,
+          200.8284,
+          210.5982,
+          220.368
+        ],
+        "dot_next_horizontal_box_gap_diagnostic_pt": 1.012623361328167
+      },
+      {
+        "measure": 31,
+        "page": 1,
+        "fast_head_records": 8,
+        "normal_anchor_x_pt": [
+          235.23,
+          248.264,
+          257.278,
+          266.171,
+          275.186,
+          284.078
+        ],
+        "gaps_pt": [
+          13.03400000000002,
+          9.01400000000001,
+          8.892999999999972,
+          9.014999999999986,
+          8.891999999999996
+        ],
+        "first_gap_body_median_ratio": 1.4557435639694012,
+        "spatium_pt": 3.897792,
+        "dot_tight_box_pt": [
+          242.5526673613281,
+          712.5321422080078,
+          243.98717663867185,
+          713.9977031210938
+        ],
+        "next_head_tight_box_pt": [
+          248.264,
+          726.8299631958008,
+          253.59665686035157,
+          730.8992609863282
+        ],
+        "dot_next_vertical_box_gap_pt": 12.832260074707051,
+        "dot_next_horizontal_box_gap_pt": 4.276823361328155,
+        "equal_grid_diagnostic_x_pt": [
+          235.23,
+          244.9996,
+          254.76919999999998,
+          264.5388,
+          274.3084,
+          284.078
+        ],
+        "candidate_not_applied": true,
+        "protected_gap_indices": [],
+        "first_interval_head_boxes": [
+          [
+            235.23,
+            719.0339631958008,
+            240.56265686035155,
+            723.1032609863281
+          ],
+          [
+            235.23,
+            722.9317551958007,
+            240.56265686035155,
+            727.0010529863281
+          ]
+        ],
+        "normal_matching_glyph_box_translations_not_independent_charbox_measurements": true,
+        "ledger_centerline_endpoint_gaps_original_pt": [
+          4.75086300000001,
+          0.7309020000000146,
+          0.7309020000000146,
+          0.6090849999999932,
+          0.7309020000001283,
+          0.6090850000001069,
+          0.6090850000001069
+        ],
+        "ledger_centerline_endpoint_gaps_candidate_pt": [
+          1.4864629999999863,
+          1.4865019999999731,
+          1.4865019999999731,
+          1.4856850000000463,
+          1.4855020000001105,
+          1.4866850000000227,
+          1.4866850000000227
+        ],
+        "ledger_gaps_exclude_stroke_thickness": true,
+        "natural": null,
+        "judgment": "priority for joint local comparison",
+        "diagnostic_redistribution_x_pt": [
+          235.23,
+          244.9996,
+          254.76919999999998,
+          264.5388,
+          274.3084,
+          284.078
+        ],
+        "proposed_comparison_x_pt": [
+          235.23,
+          244.9996,
+          254.76919999999998,
+          264.5388,
+          274.3084,
+          284.078
+        ],
+        "dot_next_horizontal_box_gap_diagnostic_pt": 1.012423361328132
+      },
+      {
+        "measure": 33,
+        "page": 1,
+        "fast_head_records": 8,
+        "normal_anchor_x_pt": [
+          369.472,
+          382.629,
+          391.521,
+          403.703,
+          413.205,
+          422.097
+        ],
+        "gaps_pt": [
+          13.157000000000039,
+          8.891999999999996,
+          12.18199999999996,
+          9.50200000000001,
+          8.891999999999996
+        ],
+        "first_gap_body_median_ratio": 1.430575187561165,
+        "spatium_pt": 3.897792,
+        "dot_tight_box_pt": [
+          376.7946673613281,
+          712.5330382080078,
+          378.22917663867185,
+          713.9985991210938
+        ],
+        "next_head_tight_box_pt": [
+          382.629,
+          724.8809631958007,
+          387.9616568603516,
+          728.9502609863281
+        ],
+        "dot_next_vertical_box_gap_pt": 10.88236407470697,
+        "dot_next_horizontal_box_gap_pt": 4.399823361328174,
+        "equal_grid_diagnostic_x_pt": [
+          369.472,
+          379.99699999999996,
+          390.522,
+          401.04699999999997,
+          411.572,
+          422.097
+        ],
+        "candidate_not_applied": true,
+        "protected_gap_indices": [
+          2
+        ],
+        "first_interval_head_boxes": [
+          [
+            369.472,
+            715.1359631958007,
+            374.80465686035154,
+            719.2052609863281
+          ],
+          [
+            369.472,
+            720.9826511958008,
+            374.80465686035154,
+            725.0519489863282
+          ]
+        ],
+        "normal_matching_glyph_box_translations_not_independent_charbox_measurements": true,
+        "ledger_centerline_endpoint_gaps_original_pt": [
+          4.872680000000059,
+          0.6090849999999932,
+          0.6090849999999932,
+          3.898144000000059,
+          1.2181699999999296,
+          0.6090849999999932,
+          0.6090849999999932
+        ],
+        "ledger_centerline_endpoint_gaps_candidate_pt": [
+          1.826430000000073,
+          1.827835000000107,
+          1.827835000000107,
+          3.898144000000059,
+          1.826919999999916,
+          1.8278349999999932,
+          1.8278349999999932
+        ],
+        "ledger_gaps_exclude_stroke_thickness": true,
+        "natural": {
+          "source_box": [
+            398.8147255175781,
+            713.7172721557617,
+            401.5590187304687,
+            724.4439948730469
+          ],
+          "preceding_head_box": [
+            391.521,
+            724.8809631958007,
+            396.8536568603516,
+            728.9502609863281
+          ],
+          "vertical_box_gap_pt": 0.4369683227538417,
+          "horizontal_gap_original_pt": 1.9610686572265763,
+          "horizontal_gap_naive_equal_pt": 0.3040686572265372,
+          "horizontal_gap_protected_candidate_pt": 1.9610686572264626,
+          "protected_interval_q": [
+            "1",
+            "3/2"
+          ]
+        },
+        "judgment": "protect natural interval before considering redistribution",
+        "diagnostic_redistribution_x_pt": [
+          369.472,
+          379.58275,
+          389.6935,
+          401.87549999999993,
+          411.9862499999999,
+          422.0969999999999
+        ],
+        "proposed_comparison_x_pt": [
+          369.472,
+          379.58275,
+          389.6935,
+          401.87549999999993,
+          411.9862499999999,
+          422.0969999999999
+        ],
+        "dot_next_horizontal_box_gap_diagnostic_pt": 1.353573361328074
+      },
+      {
+        "measure": 35,
+        "page": 1,
+        "fast_head_records": 8,
+        "normal_anchor_x_pt": [
+          500.792,
+          513.948,
+          522.841,
+          531.855,
+          541.357,
+          550.371
+        ],
+        "gaps_pt": [
+          13.156000000000006,
+          8.893000000000029,
+          9.01400000000001,
+          9.501999999999953,
+          9.01400000000001
+        ],
+        "first_gap_body_median_ratio": 1.4595074328821822,
+        "spatium_pt": 3.897792,
+        "dot_tight_box_pt": [
+          508.1146673613281,
+          712.5321422080078,
+          509.54917663867184,
+          713.9977031210938
+        ],
+        "next_head_tight_box_pt": [
+          513.948,
+          726.8299631958008,
+          519.2806568603515,
+          730.8992609863282
+        ],
+        "dot_next_vertical_box_gap_pt": 12.832260074707051,
+        "dot_next_horizontal_box_gap_pt": 4.398823361328141,
+        "equal_grid_diagnostic_x_pt": [
+          500.792,
+          510.70779999999996,
+          520.6236,
+          530.5394,
+          540.4552,
+          550.371
+        ],
+        "candidate_not_applied": true,
+        "protected_gap_indices": [],
+        "first_interval_head_boxes": [
+          [
+            500.792,
+            717.0849631958008,
+            506.12465686035154,
+            721.1542609863282
+          ],
+          [
+            500.792,
+            722.9316511958008,
+            506.12465686035154,
+            727.0009489863281
+          ]
+        ],
+        "normal_matching_glyph_box_translations_not_independent_charbox_measurements": true,
+        "ledger_centerline_endpoint_gaps_original_pt": [
+          4.872680000000116,
+          0.6090850000000501,
+          0.6090850000000501,
+          0.7309020000001283,
+          1.2181699999998727,
+          0.7309019999999009,
+          0.7309019999999009
+        ],
+        "ledger_centerline_endpoint_gaps_candidate_pt": [
+          1.63247999999993,
+          1.6318850000000111,
+          1.6318850000000111,
+          1.6327019999999948,
+          1.6319700000001376,
+          1.6327019999999948,
+          1.6327019999999948
+        ],
+        "ledger_gaps_exclude_stroke_thickness": true,
+        "natural": null,
+        "judgment": "priority for joint local comparison",
+        "diagnostic_redistribution_x_pt": [
+          500.792,
+          510.70779999999996,
+          520.6236,
+          530.5394,
+          540.4552,
+          550.371
+        ],
+        "proposed_comparison_x_pt": [
+          500.792,
+          510.70779999999996,
+          520.6236,
+          530.5394,
+          540.4552,
+          550.371
+        ],
+        "dot_next_horizontal_box_gap_diagnostic_pt": 1.158623361328182
+      },
+      {
+        "measure": 37,
+        "page": 2,
+        "fast_head_records": 8,
+        "normal_anchor_x_pt": [
+          163.357181,
+          176.878917,
+          188.573391,
+          200.267864,
+          211.962338,
+          223.534995
+        ],
+        "gaps_pt": [
+          13.521736000000004,
+          11.694473999999985,
+          11.694473000000016,
+          11.694473999999985,
+          11.57265700000002
+        ],
+        "first_gap_body_median_ratio": 1.156250086846578,
+        "spatium_pt": 3.897792,
+        "dot_tight_box_pt": [
+          170.67987701493186,
+          76.94831563441001,
+          172.1143872137081,
+          78.41387748887394
+        ],
+        "next_head_tight_box_pt": [
+          176.87891672352,
+          89.29652055385603,
+          182.21157700921245,
+          93.36582095822718
+        ],
+        "dot_next_vertical_box_gap_pt": 10.88264306498209,
+        "dot_next_horizontal_box_gap_pt": 4.764529509811894,
+        "equal_grid_diagnostic_x_pt": [
+          163.357181,
+          175.3927438,
+          187.4283066,
+          199.46386940000002,
+          211.4994322,
+          223.534995
+        ],
+        "candidate_not_applied": true,
+        "protected_gap_indices": [],
+        "first_interval_head_boxes": [
+          [
+            163.35718135416,
+            81.50093154649599,
+            168.68984163985243,
+            85.57023195086714
+          ],
+          [
+            163.35718135416,
+            85.39872605017607,
+            168.68984163985243,
+            89.46802645454721
+          ]
+        ],
+        "normal_matching_glyph_box_translations_not_independent_charbox_measurements": true,
+        "ledger_centerline_endpoint_gaps_original_pt": [
+          5.238149737680004,
+          5.238149737680004,
+          3.4108882012800734,
+          3.4108882012800734,
+          3.4108882012800734,
+          3.410888201279988,
+          3.410888201279988,
+          3.4108882012800166,
+          3.4108882012800166,
+          3.2890707655200515,
+          3.2890707655200515,
+          3.2890707655200515
+        ],
+        "ledger_centerline_endpoint_gaps_candidate_pt": [
+          3.751976537680008,
+          3.751976537680008,
+          3.7519770012800393,
+          3.7519770012800393,
+          3.7519770012800393,
+          3.7519780012800084,
+          3.7519780012800084,
+          3.7519770012800393,
+          3.7519770012800393,
+          3.751976565519982,
+          3.751976565519982,
+          3.751976565519982
+        ],
+        "ledger_gaps_exclude_stroke_thickness": true,
+        "natural": null,
+        "judgment": "preserve; lower priority or already regular",
+        "diagnostic_redistribution_x_pt": [
+          163.357181,
+          175.3927438,
+          187.4283066,
+          199.46386940000002,
+          211.4994322,
+          223.534995
+        ],
+        "proposed_comparison_x_pt": null,
+        "dot_next_horizontal_box_gap_diagnostic_pt": 3.278356309811926
+      },
+      {
+        "measure": 38,
+        "page": 2,
+        "fast_head_records": 7,
+        "normal_anchor_x_pt": [
+          242.416697,
+          254.111171,
+          265.805645,
+          277.500119,
+          289.194592,
+          300.767249
+        ],
+        "gaps_pt": [
+          11.694474000000014,
+          11.694474000000014,
+          11.694473999999957,
+          11.694473000000016,
+          11.572656999999992
+        ],
+        "first_gap_body_median_ratio": 1.0000000427552405,
+        "spatium_pt": 3.897792,
+        "dot_tight_box_pt": [
+          249.61757538741188,
+          76.94831563441001,
+          251.05208558618813,
+          78.41387748887394
+        ],
+        "next_head_tight_box_pt": [
+          254.11117099536,
+          89.29652055385603,
+          259.44383128105244,
+          93.36582095822718
+        ],
+        "dot_next_vertical_box_gap_pt": 10.88264306498209,
+        "dot_next_horizontal_box_gap_pt": 3.059085409171871,
+        "equal_grid_diagnostic_x_pt": [
+          242.416697,
+          254.0868074,
+          265.7569178,
+          277.4270282,
+          289.0971386,
+          300.767249
+        ],
+        "candidate_not_applied": true,
+        "protected_gap_indices": [],
+        "first_interval_head_boxes": [
+          [
+            242.4166971624,
+            83.44982879833609,
+            247.74935744809244,
+            87.51912920270723
+          ],
+          [
+            242.4166971624,
+            87.34762330201605,
+            247.74935744809244,
+            91.4169237063872
+          ]
+        ],
+        "normal_matching_glyph_box_translations_not_independent_charbox_measurements": true,
+        "ledger_centerline_endpoint_gaps_original_pt": [
+          3.4108882012799313,
+          3.4108882012799313,
+          3.4108882012799313,
+          3.4108882012799313,
+          3.4108882012799313,
+          3.4108882012798745,
+          3.4108882012799313,
+          3.2890707655199662,
+          3.2890707655199662,
+          3.2890707655199662
+        ],
+        "ledger_centerline_endpoint_gaps_candidate_pt": [
+          3.386524601279916,
+          3.386524601279916,
+          3.386524601279916,
+          3.386524601279916,
+          3.386524601279916,
+          3.386524601279973,
+          3.3865256012800273,
+          3.3865241655200293,
+          3.3865241655200293,
+          3.3865241655200293
+        ],
+        "ledger_gaps_exclude_stroke_thickness": true,
+        "natural": null,
+        "judgment": "preserve; lower priority or already regular",
+        "diagnostic_redistribution_x_pt": [
+          242.416697,
+          254.0868074,
+          265.7569178,
+          277.4270282,
+          289.0971386,
+          300.767249
+        ],
+        "proposed_comparison_x_pt": null,
+        "dot_next_horizontal_box_gap_diagnostic_pt": 3.034721809171856
+      }
+    ],
+    "tight_box_templates": {
+      "œ": {
+        "offset": [
+          0.0,
+          -2.0580368041992188,
+          5.3326568603515625,
+          2.011260986328125
+        ],
+        "source_index": 1737,
+        "source_origin": [
+          171.5189971923828,
+          721.0920028686523
+        ]
+      },
+      "˙": {
+        "offset": [
+          -0.015594482421875,
+          -2.1515884399414062,
+          5.441802978515625,
+          2.0736236572265625
+        ],
+        "source_index": 1734,
+        "source_origin": [
+          171.5189971923828,
+          715.245002746582
+        ]
+      },
+      "™": {
+        "offset": [
+          -0.717254638671875,
+          -0.7639617919921875,
+          0.717254638671875,
+          0.70159912109375
+        ],
+        "source_index": 1735,
+        "source_origin": [
+          179.5589141845703,
+          713.2961120605469
+        ]
+      },
+      "n": {
+        "offset": [
+          -0.015594482421875,
+          -5.425727844238281,
+          2.72869873046875,
+          5.300994873046875
+        ],
+        "source_index": 1815,
+        "source_origin": [
+          398.830322265625,
+          719.1429977416992
+        ]
+      }
+    },
+    "extraction_counterexample": {
+      "where": "m30 fast-layer ROI",
+      "pdfplumber_heads": 8,
+      "PDFium_textpage_heads": 6,
+      "distinct_onset_columns": 6,
+      "reason_not_proven": "Observed missing same-x lower chord head in PDFium textpage; do not attribute to a specific dedup algorithm without source proof.",
+      "templates_translated_only_for_same_face_character_size": true
+    },
+    "no_native_candidate_or_PDF_edit": true,
+    "source_software_metadata_not_layout_root_cause_proof": true
+  },
+  "dynamic_contexts": [
+    {
+      "context": "m26",
+      "judgment": "Preserve upper diminuendo and bass mp in separate channels; do not align into one apparent dynamic sequence.",
+      "classification": "visible layout plus norm-supported reading,not playback scope proof"
+    },
+    {
+      "context": "m28",
+      "judgment": "Preserve upper diminuendo and lower p; do not merge or delete repeated-looking dynamics.",
+      "classification": "visible layout plus norm-supported reading,not playback scope proof"
+    },
+    {
+      "context": "m41–43",
+      "judgment": "Preserve lower active-run hairpins and upper entrance mf; closer to distinct activity,not all marks at one Y.",
+      "classification": "visible layout plus norm-supported reading,author scope not confirmed"
+    }
+  ],
+  "cautionary_context": {
+    "m30_to_m31": "B-sharp3 to B-natural3 after barline",
+    "m32_to_m33": "E-sharp4 to E-natural4 after barline",
+    "editorial_decision": "preserve confirmation function in this layout study; omission would be a separate notation proposal",
+    "not_all_naturals_are_pitch_required": true
+  },
+  "native": {
+    "new_conditions": 0,
+    "original_PDF_or_MSCZ_edits": 0,
+    "paper_coordinate_comparisons": 4,
+    "real_score_native_replacements": 0,
+    "candidate_scope": "Preserve first/last anchor,width and retained natural gap in paper model; full curves,other layers and actual native layout not tested."
+  },
+  "judgment": {
+    "priority_comparison_measures": [
+      30,
+      31,
+      35
+    ],
+    "protected_comparison_measures": [
+      33
+    ],
+    "preserve_measures": [
+      37,
+      38
+    ],
+    "source_software_cause_not_proven": true,
+    "dot_alone_does_not_establish_full_first_gap": true,
+    "ledger_values_are_centerline_endpoint_gaps_not_ink_minimums": true,
+    "cautionary_role_and_spacing_separated": true,
+    "new_user_preferences": 0
+  },
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "id": "A045",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "pages": 14,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A128",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\The Song of Aether - Short Piano Composition in C# Minor.pdf",
+      "sha256": "51778876e470071763f9e5e7234dba5dd7f13d65ba695252c2b9d6874e40f280",
+      "pages": 2,
+      "unchanged": true
+    }
+  ],
+  "coverage": {
+    "new_official_first_pass": 0,
+    "new_deep_scores": 0,
+    "new_Gould_coverage": 0,
+    "new_fixed_resource_completions": 0,
+    "complete_resources": [
+      16,
+      25
+    ],
+    "remaining": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "new_user_preferences": 0,
+    "software_adaptation_changes": 0
+  },
+  "cache": {
+    "batch": "tmp/engraving/aether-occupancy-2026-11-02",
+    "budget_bytes": 1048576,
+    "global_check_allowance_bytes": 3290365952,
+    "global_exact_total_known": false,
+    "new_source_media": 0,
+    "runtime_or_original_score_copies": 0,
+    "deletions": 0,
+    "reference_images_in_Git": 0,
+    "private_bytes": 838784,
+    "private_files": 12,
+    "measurement_includes_audit": true,
+    "audit": "tmp/engraving/aether-occupancy-2026-11-02/audit.json",
+    "audit_sha256": "aaf77d5f0914e879603e83e91e1983d6e5f70e84e14a1eb4cdaa9732ea65a819",
+    "at_utc": "2026-11-01T21:48:28.592697+00:00"
+  },
+  "checks": {
+    "geometry_script": "passed: six profiles,font-matched bounds and protected natural gap assertions",
+    "source_protection": "6/6 passed",
+    "library": "passed: progress.py --check",
+    "skill": "passed: quick_validate.py",
+    "query": "6/6 existing regression tests passed",
+    "actual_query": {
+      "topic": "spacing",
+      "query": "Aether 还原号 首格",
+      "first_result": "AETHER_SPACING_LAYERS.md",
+      "second_result": "INTEGRATED_READING_RUMBLING_AETHER.md",
+      "scope": "actual retrieval,not correctness score"
+    },
+    "case_links": "2/2 passed",
+    "reference_views_after": "6/6 passed",
+    "protected_after": "6/6 passed",
+    "fixed_release_commit": "b0b066e0a5818ed55c43775f843cc9a80487b337",
+    "working_branch_supplement": true,
+    "git_diff_check": "tracked edits passed; new staged files checked before commit"
+  }
+}

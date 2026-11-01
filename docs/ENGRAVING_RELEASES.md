@@ -1,5 +1,7 @@
 # 净书知识库与skill发布记录
 
+**0.28之后工作分支补充（2026-11-02）：** [Aether实谱判断](engraving/AETHER_SPACING_LAYERS.md)六处间距、三动态语境及五页Gould回查。四处仅纸面比较、原生后继0/4；提醒变音的功能与占位分开判断，三动态通道保留。固定0.28标签保持，资料16/25余9，无适配。
+
 ## 0.28.0 — 2026-11-02
 
 固定[均头／均干](engraving/STEM_OPTICAL_SPACING_STUDY.md)、[共同起音与宽度](engraving/STEM_OPTICAL_CONTEXTS.md)、[独立快线与容量](engraving/STEM_OPTICAL_LIMITS.md)、[符头与标记通道](engraving/STEM_OPTICAL_SHAPES_MARKS.md)四篇。25个最终原生条件、五版最终重载；118次实际CLI含六次已拒绝定位探针、两次交换图面诊断，最终范围110次。四类边界覆盖4/4，不能当所有实例均已解决。
