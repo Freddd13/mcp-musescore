@@ -1,0 +1,392 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-01T17:11:54.733041+00:00",
+  "reference": "R09_OSSIA_READING.md",
+  "previous_goal_turn": "progress:b96b4cf completed R08 preview82/82 and technicalstart/restore analysis; currentturn actualR09 remainder and ossiarole interpretation.",
+  "scope": {
+    "date": "2026-11-02",
+    "resource": "R09",
+    "previous_cells": [
+      1,
+      8,
+      10,
+      15,
+      20,
+      21,
+      26,
+      30,
+      31
+    ],
+    "planned_new_cells": 23,
+    "planned_total_time_cells": 32,
+    "private_budget_bytes": 524288,
+    "global_exact_cache_total_known": false,
+    "global_check_allowance_bytes": 3277258752,
+    "source_media_reused": "../video-preview-access-2026-11-01/public-storyboard.jpg",
+    "raw_video_audio_requested": false,
+    "software_adaptation": false,
+    "completed": true,
+    "actual_new_cells": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      22,
+      23,
+      24,
+      25,
+      27,
+      28,
+      29
+    ],
+    "actual_groups": [
+      [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      [
+        7,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      [
+        16,
+        17,
+        18,
+        19,
+        22,
+        23
+      ],
+      [
+        24,
+        25,
+        27,
+        28,
+        29
+      ]
+    ],
+    "new_time_cells": [
+      23,
+      23
+    ],
+    "cumulative_time_grid": [
+      32,
+      32
+    ],
+    "music_cells": 30,
+    "black_cells": [
+      0,
+      31
+    ],
+    "main_system_overview": 14,
+    "music_viewports": 5,
+    "nearest_neighbor_2x_rereads": [
+      16,
+      27
+    ],
+    "six_cell_reread": [
+      9,
+      16,
+      19,
+      23,
+      27,
+      29
+    ],
+    "Gould_full_printed_pages_reread": [
+      495,
+      496,
+      497,
+      498
+    ],
+    "official_PDF_full_pages_reread": [
+      1,
+      2
+    ],
+    "confirmed_local_ossia_labels": 2,
+    "footer_auxiliary_staff": 1,
+    "footer_caption_fully_read": false,
+    "browser_state_probe": {
+      "calls": 1,
+      "timeout_ms": 10000,
+      "result": "execution timed out,kernel reset",
+      "frames_read": 0,
+      "retries": 0
+    },
+    "full_video_audio_read": false,
+    "fine_symbol_collation_complete": false,
+    "new_Gould_coverage": 0,
+    "new_complete_fixed_resources": 0,
+    "native_calls": 0,
+    "R09_status": "partial"
+  },
+  "reused_source_sprite": {
+    "asset_url": "https://bimp.hdslb.com/videoshotpvhdboss/1088579701_xkypvb-0001.jpg",
+    "kind": "official public storyboard image as provided",
+    "raw_video_requested": false,
+    "credentials_used": false,
+    "identity": {
+      "http": 200,
+      "code": 0,
+      "bvid": "BV1UX4y167md",
+      "aid": 354722109,
+      "cid": 1088579701,
+      "title": "[曲谱同步/MuseScore制作]Por Una Cabeza，一步之遥 Augustin Hadelich改编",
+      "owner_mid": 372657607,
+      "sha256": "94dc804516fe8a8d2c8490e62e747f5ac4fcab6c8be97e4385e3885b67c619bb"
+    },
+    "http": 200,
+    "bytes": 375140,
+    "format": "JPEG",
+    "size": [
+      4800,
+      2700
+    ],
+    "saved": true,
+    "sha256": "eba2a4ce5148afa6d2016f7c743b4e8444f15cb2eb9f152c8dbe55ca15508f34"
+  },
+  "target_description": {
+    "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1UX4y167md",
+    "anonymous": true,
+    "http": 200,
+    "code": 0,
+    "sha256": "ece045226cc347f68a4cb93f88e7d8af89ee9dd8f3aeae9dc141a276c1616512",
+    "identity": {
+      "bvid": "BV1UX4y167md",
+      "aid": 354722109,
+      "cid": 1088579701,
+      "title": "[曲谱同步/MuseScore制作]Por Una Cabeza，一步之遥 Augustin Hadelich改编",
+      "pubdate": 1681006461
+    },
+    "owner_mid": 372657607,
+    "description": "",
+    "description_links": []
+  },
+  "official_PDF": {
+    "path": "tmp/engraving/resource-source-audit-2026-10-31/hadelich-por-una-cabeza-official.pdf",
+    "sha256": "95965d5fb5015da3a92b7dbb8efa33e0fe10feb09cf3c4678484ea93ac411dd9",
+    "pages_reread": [
+      1,
+      2
+    ],
+    "visible_main_systems": 14,
+    "visible_ossia_staves": 0,
+    "text_locator_failed_to_find_captions": true,
+    "absence_checked_visually": true,
+    "separate_from_target": true
+  },
+  "Gould": {
+    "printed_full_pages_reread": [
+      495,
+      496,
+      497,
+      498
+    ],
+    "physical_pages": [
+      515,
+      516,
+      517,
+      518
+    ],
+    "new_unique_coverage": 0
+  },
+  "judgments": [
+    {
+      "id": "local-ossia",
+      "cells": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "confirmed_labels": 2,
+      "decision": "Preserve mainpath andlocal alternatives; shortfloatingfragments canbe appropriate.",
+      "exceptions": "Boundaryconnectors,clef clarity,completeperformanceinformation needlocal checks; not assume allsmallnotes areunplayed."
+    },
+    {
+      "id": "footer-reference",
+      "cells": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "auxiliary_staves": 1,
+      "decision": "Keep editorialmaterial andrange text; locate againstactualmusic andnumbering convention.",
+      "unknown": "Fullcaption/numbers andprecise role/scope notcollated; no replacementnumber proposed."
+    },
+    {
+      "id": "role-classification",
+      "Gould": [
+        496,
+        497,
+        498
+      ],
+      "decision": "Ossia,conditionalplayingcue,sustainedreminder andoptionalcut have differentreadingtasks."
+    },
+    {
+      "id": "version-materials",
+      "official_pages": [
+        1,
+        2
+      ],
+      "decision": "Compare commonmusic separatelyfromadditional editorialcontent; originofdifferences unverified."
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    }
+  ],
+  "new_native_calls": 0,
+  "new_software_adaptation": 0,
+  "new_user_preferences": 0,
+  "resources": {
+    "complete": 16,
+    "planned": 25,
+    "remaining": 9,
+    "new_completions": 0,
+    "R09": "partial"
+  },
+  "cache": {
+    "directory": "tmp/engraving/r09-preview-continuation-2026-11-02",
+    "files": [
+      {
+        "path": "audit.py",
+        "bytes": 3714,
+        "sha256": "d468eca626707656ae411f36de9206dae087278c452b732a34b7ca30f9c99cb4"
+      },
+      {
+        "path": "book.py",
+        "bytes": 623,
+        "sha256": "ede70c995423016d71be6f5cab962fcab3e491b1e4a4e0b1cdd1da383b190527"
+      },
+      {
+        "path": "detail.py",
+        "bytes": 1006,
+        "sha256": "adf04178b0456abf91ccbedfd5d2d2212d78571f8a228cf553bc0eb13b6d39fd"
+      },
+      {
+        "path": "finalize.py",
+        "bytes": 12451,
+        "sha256": "ad5aeb87ad3cd55a635cd83689a94afb0f9cb9b88c782cac27f378bcc6f6e80b"
+      },
+      {
+        "path": "official-caption-locator.json",
+        "bytes": 50,
+        "sha256": "ca4efd15bc7f4f4d947554b32e3e6a7f5475c6d2da985dfd2825c5ebcd0a4ad3"
+      },
+      {
+        "path": "pdf.py",
+        "bytes": 619,
+        "sha256": "c47341548ebf052eb2604d07ebcd7d27d739adf036e977504b7b6731532ad77a"
+      },
+      {
+        "path": "reading-sheet.png",
+        "bytes": 370182,
+        "sha256": "e9105bb4ea8dee6f0c2edd03215a16376398acb3856fe4ba18b1626a3fe5d037"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 1927,
+        "sha256": "f2932f44733ff6459a1d4eec4f70a609cbf51ef7a0cecf5adb0a505c593f39c8"
+      },
+      {
+        "path": "source-context.py",
+        "bytes": 2100,
+        "sha256": "5ec1f8dfc317ffacbffb38aadd827cace588766a414ad8c524675527db882f0c"
+      },
+      {
+        "path": "target-description.json",
+        "bytes": 502,
+        "sha256": "b01a5eb4de33a2c0ad1c525e0a08e3c7311676ea1216acab0eca4eccb78a6577"
+      },
+      {
+        "path": "view.py",
+        "bytes": 1172,
+        "sha256": "476365a6f53518fbacc6b4d8612c501d4e956fe886ef3ec1eefc2683900d95ae"
+      }
+    ],
+    "bytes": 394346,
+    "budget_bytes": 524288,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3277258752,
+    "source_media_downloads": 0,
+    "source_PDF_runtime_copies": 0,
+    "reference_images_in_git": 0,
+    "deletions": 0
+  },
+  "checks": {
+    "at": "2026-11-01T17:15:15.198509+00:00",
+    "ledger": "passed",
+    "skill_metadata": "passed",
+    "retrieval_regression": [
+      6,
+      6
+    ],
+    "specific_query": {
+      "topic": "notation",
+      "query": "ossia 浮置 主谱",
+      "matches": [
+        {
+          "file": "R09_OSSIA_READING.md",
+          "line": 17
+        },
+        {
+          "file": "R09_PREVIEW_COMPARISON.md",
+          "line": 37
+        },
+        {
+          "file": "BALLADE_EDITORIAL_CONTEXT.md",
+          "line": 3
+        }
+      ]
+    },
+    "fixed0_26_fingerprints_checked": 11,
+    "historical_files_unchanged": [
+      "PREFERENCES.md",
+      "release_0_26_0_evidence.json",
+      "release_0_25_0_evidence.json",
+      "r09_preview_comparison_evidence.json",
+      "resource_identity_evidence.json",
+      "polonaise_technique_evidence.json"
+    ],
+    "local_links_checked": 1073,
+    "scope": "Availability,retrieval andsnapshotintegrity,not aestheticaccuracy or sourcefullmastery."
+  }
+}

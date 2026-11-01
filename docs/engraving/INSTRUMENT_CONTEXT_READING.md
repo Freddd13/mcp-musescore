@@ -1,5 +1,7 @@
 # 先确认演奏任务，再判断净书：Hadelich《一步之遥》补读
 
+[R09小谱续读](R09_OSSIA_READING.md)补32/32格、两处ossia标签和官网两页复看：两份成品的编辑材料范围不同；先分版本选择，再比同一音乐的外观，不从小提琴弓法推出钢琴分句规则。
+
 2026-10-31。完整看过[改编者官网](https://augustinhadelich.com/en/scores)所附2022独奏小提琴版的[两页PDF](https://augustinhadelich.com/wp-content/uploads/augustinhadelich-gardel-por-una-cabeza-solo-violin-2023.pdf)，补读Gould印刷p393、394、396、398、401、402。**保留本谱的乐器条件，再讨论几何改进。** 这份补充样本不计入146份官谱或25项的新增完成数，也不替代R09的Legatissimo成品。
 
 ## 实际看到了什么

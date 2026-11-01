@@ -2926,12 +2926,18 @@
         "status": "partial",
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "kura_kuusou_closeout_evidence.json",
-        "remaining": "已核同一BVID/UID/CID，公开拼图实看9/32格，辨认5音乐视窗／14主系统总览。高分辨率符号、完整视频声音、两版逐音关系及确切MuseScore版本未核；仅凭行号判分行不同的旧依据已撤回。",
+        "remaining": "目标公开预览时间格32/32已看（30音乐、两黑场），五视窗／14主系统总览；两处局部ossia标签可读，末尾附小谱完整文字／数字未核。高分辨率细节、完整声音、确切软件版本和源工程仍待核；编号推分行旧依据保持撤回。",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV1UX4y167md/",
         "metadata_identity_verified": true,
         "preview_note": "R09_PREVIEW_COMPARISON.md",
-        "preview_evidence": "r09_preview_comparison_evidence.json"
+        "preview_evidence": "r09_preview_comparison_evidence.json",
+        "actual_preview_cells": [
+          32,
+          32
+        ],
+        "preview_continuation_note": "R09_OSSIA_READING.md",
+        "preview_continuation_evidence": "r09_ossia_evidence.json"
       },
       {
         "id": "R10",
@@ -3232,12 +3238,12 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.26后补R08全部82/82预览、Hand muting／ord.、持续背景／再现／预告调号；20入口，资料16/25余9。固定标签及原发布证据保持，无新原生／适配。",
+    "working_branch_note": "固定0.26后补R08全82格及R09全32格，技术恢复／持续／再现与ossia角色可检索；20入口，资料16/25余9。原标签／发布证据保持，无新原生／适配。",
     "evidence": "release_0_26_0_evidence.json"
   },
   "last_study_batch": {
     "date": "2026-11-02",
-    "scope": "R08补48/48格，累计82/82；四近图／六格复看，Gould92–93/332–333/337–338六完整页复读。确认Hand muting与ord.、持续／再现及预告调号条件，核目标说明及官方背景一段。",
+    "scope": "R09补23/23格，累计32/32；两近图／六格复看，Gould495–498四完整页及官网两页复读。确认两处局部ossia及编辑材料差别；浏览器状态调用一次10秒超时，实际教程画面增量0。",
     "new_deep_scores": 0,
     "new_deep_pages": 0,
     "new_all_score_closeouts": 0,
@@ -3255,17 +3261,18 @@
     "native_CLI_calls": 0,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
-    "book_reread_pages": 6,
-    "new_R08_time_cells": 48,
-    "R08_time_grid": [
-      82,
-      82
+    "book_reread_pages": 4,
+    "new_R09_time_cells": 23,
+    "R09_time_grid": [
+      32,
+      32
     ],
     "new_source_media": 0,
+    "official_PDF_reread_pages": 2,
     "notes": [
-      "POLONAISE_TECHNIQUE_READING.md"
+      "R09_OSSIA_READING.md"
     ],
-    "review_evidence": "polonaise_technique_evidence.json",
+    "review_evidence": "r09_ossia_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3523,31 +3530,31 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "POLONAISE_TECHNIQUE_READING.md",
-    "evidence": "polonaise_technique_evidence.json",
-    "new_R08_preview_cells": [
-      48,
-      48
+    "reference": "R09_OSSIA_READING.md",
+    "evidence": "r09_ossia_evidence.json",
+    "new_R09_preview_cells": [
+      23,
+      23
     ],
-    "cumulative_R08_preview_cells": [
-      82,
-      82
+    "cumulative_R09_preview_cells": [
+      32,
+      32
     ],
-    "nearest_neighbor_rereads": 4,
-    "six_cell_rereads": 6,
+    "confirmed_local_ossia_labels": 2,
+    "footer_auxiliary_staff": 1,
     "Gould_full_printed_page_rereads": [
-      92,
-      93,
-      332,
-      333,
-      337,
-      338
+      495,
+      496,
+      497,
+      498
+    ],
+    "official_full_PDF_pages_reread": [
+      1,
+      2
     ],
     "new_Gould_coverage": 0,
-    "target_description_read": true,
-    "targeted_primary_context_paragraphs": 1,
     "new_fixed_resource_completions": 0,
-    "scope": "Technicaldirective/restorepoint,independentholds,similar-motif differences andcautionarykeys; previewoverview notfinesymbolcollation or fullvideo/audio."
+    "scope": "Actual ossialabels andlocalfragment roles; footerfullcaption/sourceevolution unknown; no fullvideo/audio."
   },
   "judgment_review_history": [
     {
@@ -3709,12 +3716,13 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15保持。R07/R08预览时间格均已读完118/118、82/82；下一批补R09余23格，再寻找能读清的实际教程内容。R07旧版0/2、三首高分辨率细节／完整声音、R10具体干预及R11–R15完整流程仍待核。相同失败网页／空字幕路径不重复。",
+    "scope": "余9项R07–R15保持。R07/R08/R09预览时间格118/118、82/82、32/32已闭合，后续转清晰实际教程和已有钢琴输入的角色判断，不以穷举缩图代替完整流程。R07旧版0/2、三首细小校勘／完整声音、R10具体干预及R11–R15完整流程仍待核。浏览器状态一次超时，路径无变化不重复。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
     "latest_available_supplement": "LONG_DYNAMIC_TEXT_STUDY.md: actual A137 context, Gould2rereads and5Dorico6.2bodies applied; not replacement of remaining9fixed targets.",
     "official_preview_path_confirmed_for_R09": true,
-    "official_preview_path_confirmed_for_R07_R08": true
+    "official_preview_path_confirmed_for_R07_R08": true,
+    "next_readable_operation_reference": "MuseScore3 official beaming instructions and illustrations,checked against musical cases; separate from R11 fullvideo completion."
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -3979,6 +3987,33 @@
       "new_Gould_coverage": 0,
       "new_fixed_resource_completions": 0,
       "scope": "Per-beat complexity and tempo/spacingconditions; full public R07 time-grid overview,not fullsymbolcollation/audio. R11 actualpreviewreadability boundary."
+    },
+    {
+      "reference": "POLONAISE_TECHNIQUE_READING.md",
+      "evidence": "polonaise_technique_evidence.json",
+      "new_R08_preview_cells": [
+        48,
+        48
+      ],
+      "cumulative_R08_preview_cells": [
+        82,
+        82
+      ],
+      "nearest_neighbor_rereads": 4,
+      "six_cell_rereads": 6,
+      "Gould_full_printed_page_rereads": [
+        92,
+        93,
+        332,
+        333,
+        337,
+        338
+      ],
+      "new_Gould_coverage": 0,
+      "target_description_read": true,
+      "targeted_primary_context_paragraphs": 1,
+      "new_fixed_resource_completions": 0,
+      "scope": "Technicaldirective/restorepoint,independentholds,similar-motif differences andcautionarykeys; previewoverview notfinesymbolcollation or fullvideo/audio."
     }
   ],
   "latest_source_identity_review": {
