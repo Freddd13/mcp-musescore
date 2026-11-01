@@ -2,7 +2,7 @@
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
 metadata:
-  version: "0.26.0"
+  version: "0.27.0"
 ---
 
 # 钢琴净书
@@ -78,6 +78,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 连梁及局部间距经`beams`／`spacing`查`BEAM_OPERATIONS_STUDY.md`：先区分拍号默认、成员连接与整组梁属性。Local relayout只重排所选组内部；先核其它层的共同起音，单层拉匀及完整MIDI保持仍可能误示先后。混合细分原生反例已拒绝，不机械套用为钢琴间距修复。
 
 特殊梁形经`beams`／`rhythm`查`FANNED_BEAMS_READING.md`：羽状梁保组内自由快慢与总时长，音头可等距，不用常规等距／MIDI检查替代其记法含义。半梁按拍内归属判断，休止邻近允许不同体例；普通休止与整小节休止的横向检查分别处理。
+
+速度等式经`tempo`／`layout`查`TEMPO_EQUATION_CLARITY.md`：确认音值归属后，比较前行预告、新行方向提示与速度确认；摆放提前不等于实际换速提前。含义未定时给可核对的结构假设，不用表情词或早先BPM自动改写。
 
 ## 需要候选时
 

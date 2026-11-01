@@ -1,8 +1,16 @@
 # 净书知识库与skill发布记录
 
-**0.26之后工作分支补充（2026-11-02）：** [R09小谱角色](engraving/R09_OSSIA_READING.md)累计32/32格，确认两处局部ossia；Gould四页及官网两页复读。20入口、资料16/25余9保持；原标签／证据不动，无新原生／适配。
+## 0.27.0 — 2026-11-02
 
-**0.26之后工作分支补充（2026-11-02）：** [R08全预览与技术范围](engraving/POLONAISE_TECHNIQUE_READING.md)累计82/82格、六页Gould复读；保Hand muting／ord.、持续背景与再现差异。20入口可用，资料16/25余9；固定0.26标签／证据保持，无新原生／适配。
+固定R08技术恢复／持续、R09小谱角色、R11第一部分68/68预览与[梁形节奏含义](engraving/FANNED_BEAMS_READING.md)，以及两项原生研究：[Local relayout](engraving/BEAM_OPERATIONS_STUDY.md)4/4条件保护共同起音，[速度等式](engraving/TEMPO_EQUATION_CLARITY.md)3/3条件比较提前准备。七有效条件、两版重载；38次实际CLI含12失败输入探针，失败不作有效候选。
+
+新增四份Local relayout输入／一图、三份速度关系输入／一图，共九份原创CC0资产。20专题入口保持，可查`--topic beams --query "羽状梁 等距"`或`--topic tempo --query "等式 预告"`。官谱146/146份1135/1135页、Gould696/696覆盖、资料16/25余9保持；预览不代表完整视频或细小校勘，Madoka方向仍缺作者证据，无软件／字体适配。
+
+标签`engraving-v0.27.0`，[发布证据](engraving/release_0_27_0_evidence.json)固定范围及文件指纹，旧标签保持。关联安装更新项目即可；复制安装同步同版skill与库，无需重配MCP，见[使用与更新](ENGRAVING_SKILL.md)。
+
+**0.26之后工作分支补充（2026-11-02，现收录0.27）：** [R09小谱角色](engraving/R09_OSSIA_READING.md)累计32/32格，确认两处局部ossia；Gould四页及官网两页复读。20入口、资料16/25余9保持；原标签／证据不动，无新原生／适配。
+
+**0.26之后工作分支补充（2026-11-02，现收录0.27）：** [R08全预览与技术范围](engraving/POLONAISE_TECHNIQUE_READING.md)累计82/82格、六页Gould复读；保Hand muting／ord.、持续背景与再现差异。20入口可用，资料16/25余9；固定0.26标签／证据保持，无新原生／适配。
 
 ## 0.26.0 — 2026-11-02
 

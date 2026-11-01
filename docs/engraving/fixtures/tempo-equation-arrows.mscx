@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='utf-8'?>
+<museScore version="3.02">
+  <programVersion>3.6.3</programVersion>
+  <programRevision />
+  <Score>
+    <LayerTag id="0" tag="default" />
+    <currentLayer>0</currentLayer>
+    <Division>480</Division>
+    <Style>
+      <pagePrintableWidth>5.90551</pagePrintableWidth>
+      <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
+      <pageOddLeftMargin>0.590551</pageOddLeftMargin>
+      <akkoladeDistance>8.5</akkoladeDistance>
+      <minMeasureWidth>0</minMeasureWidth>
+      <lastSystemFillLimit>1</lastSystemFillLimit>
+      <showMeasureNumberOne>1</showMeasureNumberOne>
+      <measureNumberInterval>1</measureNumberInterval>
+      <Spatium>1.57</Spatium>
+      <minSystemDistance>16</minSystemDistance>
+    </Style>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <metaTag name="arranger" />
+    <metaTag name="composer" />
+    <metaTag name="copyright" />
+    <metaTag name="creationDate">2026-11-02</metaTag>
+    <metaTag name="lyricist" />
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
+    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="poet" />
+    <metaTag name="source">CC0-1.0 original tempo-equation engraving diagnostic; independent scale/chords,not a transcription. Fixed explicit tempo events,followText=0.</metaTag>
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
+    <metaTag name="workTitle" />
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>std</name>
+        </StaffType>
+        <bracket type="1" span="2" col="0" />
+      </Staff>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>std</name>
+        </StaffType>
+        <defaultClef>F</defaultClef>
+      </Staff>
+      <trackName>Piano</trackName>
+      <Instrument id="piano">
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName />
+        <instrumentId>keyboard.piano</instrumentId>
+        <Channel>
+          <program value="0" />
+          <synti>Fluid</synti>
+        </Channel>
+      </Instrument>
+    </Part>
+    <Staff id="1">
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+          </Clef>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>8</sigD>
+          </TimeSig>
+          <Tempo>
+            <tempo>2</tempo>
+            <followText>0</followText>
+            <text><sym>metNoteQuarterUp</sym><sym>space</sym><sym>metAugmentationDot</sym> = 80</text>
+          </Tempo>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+            </Note>
+          </Chord>
+        </voice>
+      </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+            </Note>
+          </Chord>
+        </voice>
+        <LayoutBreak>
+          <subtype>line</subtype>
+        </LayoutBreak>
+      </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+          </TimeSig>
+          <Tempo>
+            <tempo>1.3333333333333333</tempo>
+            <followText>0</followText>
+            <text>← <sym>metNoteQuarterUp</sym><sym>space</sym><sym>metAugmentationDot</sym> = <sym>metNoteQuarterUp</sym> →</text>
+          </Tempo>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </voice>
+      </Measure>
+    </Staff>
+    <Staff id="2">
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+          </Clef>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>8</sigD>
+          </TimeSig>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+            </Note>
+          </Chord>
+        </voice>
+      </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+            </Note>
+          </Chord>
+        </voice>
+      </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+          </TimeSig>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </voice>
+      </Measure>
+    </Staff>
+  </Score>
+</museScore>

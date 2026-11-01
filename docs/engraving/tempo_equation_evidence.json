@@ -1,0 +1,733 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "TEMPO_EQUATION_CLARITY.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "44ce62d688de46b46938099242035187e973f07b"
+  },
+  "scope": {
+    "date": "2026-11-02",
+    "purpose": "Read unresolved Madoka tempo relation and test confirmed-intent engraving forms on an original piano miniature",
+    "planned_native_conditions": 3,
+    "planned_saved_reload": 1,
+    "planned_native_CLI_calls": 24,
+    "private_budget_bytes": 1048576,
+    "global_check_allowance_bytes": 3281190912,
+    "global_exact_total_known": false,
+    "original_scores_read_only": true,
+    "software_adaptation": false,
+    "source_score_copies": 0,
+    "runtime_copies": 0,
+    "initial_planned_native_CLI_calls": 12,
+    "scope_revision_reason": "Retain12failedinputprobecalls;richtextindentationanddotserializationorder repairedbefore12finalcalls",
+    "input_probe_calls": 12
+  },
+  "reference_views": [
+    {
+      "path": "tmp/engraving/corpus/A085/page-01.jpg",
+      "sha256": "2646ef245526c0188897e5460c5d5b6691b626d40735764dd0f7bebf8abe4109",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A085/page-02.jpg",
+      "sha256": "e11d094cbfe670186423ce8e5e0c78969eaa78f74aae701259181ab09c02d07d",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A085/page-03.jpg",
+      "sha256": "a13976b9690bcd0014b5b3e57fd44aee8361d59efc442499c354419828b2134b",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/corpus/A085/page-04.jpg",
+      "sha256": "7b5d3ef6c1369f71a3a6db3072492c4ac113ae9c4b78154f9a39e6b4cef3a153",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/madoka-whole-2026-10-23/p4-m87-96.jpg",
+      "sha256": "18a2d30a15e53795f32862de4a9201418c1f653c3005f02d15bd881fd37a950f",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p184.jpg",
+      "printed_page": 184,
+      "physical_page": 204,
+      "sha256": "222171418db6fb21f843c2685ff670cd6b69cc7bec7d52f910f1f38b48b7ec14",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p185.jpg",
+      "printed_page": 185,
+      "physical_page": 205,
+      "sha256": "5fe512725fc710b968f7b086a6673460b0776cb02312df9da3786f7a7f18cf20",
+      "actually_viewed": true,
+      "reused": true
+    },
+    {
+      "path": "tmp/engraving/metre-relations-2026-10-20/book-p186.jpg",
+      "printed_page": 186,
+      "physical_page": 206,
+      "sha256": "3ef476c407c3b9388150e0c409dbb93ff0ad0424161a30c1b469d5c201d6a445",
+      "actually_viewed": true,
+      "reused": true
+    }
+  ],
+  "Madoka": {
+    "source": {
+      "id": "A085",
+      "relative_path": "Madoka Magica - Piano Suite Medley.pdf",
+      "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Madoka Magica - Piano Suite Medley.pdf",
+      "sha256": "8a603a4602c9bdaf54420da947d06302337bacb1b247bfb5b5818b4934fdbda7",
+      "bytes": 226822,
+      "pages": 10,
+      "metadata": {
+        "/CreationDate": "D:20221221135354",
+        "/Creator": "PDFium",
+        "/Producer": "PDFium"
+      },
+      "page_sizes_pt": [
+        [
+          595.22,
+          842.0
+        ]
+      ],
+      "inventory_status": "readable"
+    },
+    "whole_pages_reread": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "context_crop_reread": [
+      87,
+      96
+    ],
+    "relations": [
+      {
+        "meaning": "old_half_equals_new_dotted_half",
+        "new_quarter_rate_over_old": "3/2",
+        "new_bar_duration_over_old": "8/9"
+      },
+      {
+        "meaning": "new_half_equals_old_dotted_half",
+        "new_quarter_rate_over_old": "2/3",
+        "new_bar_duration_over_old": "2"
+      }
+    ],
+    "prioritize_for_further_check": "New half equals old dotted half; maps old wholebar to newhalfbar and fits thinningtexture",
+    "author_intent_confirmed": false,
+    "original_modified": false,
+    "prior154_not_assumed_boundary_tempo": true,
+    "E_unit": "dotted eighth=164;quarter=123,dottedquarter=82"
+  },
+  "Gould": {
+    "printed_pages_reread": [
+      184,
+      185,
+      186
+    ],
+    "full_pages": [
+      3,
+      3
+    ],
+    "new_unique_coverage": 0,
+    "key_conditions": [
+      "Old/newconventions differ; placeunits by respectivebars ordisambiguate",
+      "Acrosssystembreak,advanceequation canpreparepulse;newtempo confirmationornew-sidearrowsareoptions",
+      "Consistentdistance frommusic canmattermorethanrigidhorizontal alignment"
+    ]
+  },
+  "native": {
+    "preparation": {
+      "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+      "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+      "manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+      "manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+      "runtime_files_before": 1936,
+      "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\native-config"
+    },
+    "verification": {
+      "MusicXML": [
+        {
+          "name": "plain",
+          "compared_records": 21
+        },
+        {
+          "name": "arrows",
+          "compared_records": 21
+        },
+        {
+          "name": "advance",
+          "compared_records": 21
+        }
+      ],
+      "total_compared_records": 63,
+      "MIDI_full_bytes_equal": true,
+      "MIDI_bytes": 310,
+      "independent_attacks": 21,
+      "MIDI_tempo_events_q_us": [
+        [
+          "0",
+          500000
+        ],
+        [
+          "6",
+          750000
+        ]
+      ],
+      "old_dotted_quarter_and_new_quarter_seconds": "3/4",
+      "reload_SVG_identical_except_filename_title": true,
+      "reload_titles": [
+        "v2-arrows",
+        "v2-arrows-saved"
+      ],
+      "runtime_files_after": 1936,
+      "native_calls": 24,
+      "input_probe_calls": 12,
+      "valid_final_native_calls": 12,
+      "final_conditions": [
+        3,
+        3
+      ],
+      "saved_reload": [
+        1,
+        1
+      ]
+    },
+    "calls": [
+      {
+        "source": "plain.mscx",
+        "output": "exports/plain.pdf",
+        "started_utc": "2026-11-01T18:45:20.175390+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.582,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\plain.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\plain.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "plain.mscx",
+        "output": "exports/plain.musicxml",
+        "started_utc": "2026-11-01T18:46:11.109088+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.47,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\plain.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\plain.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "plain.mscx",
+        "output": "exports/plain.mid",
+        "started_utc": "2026-11-01T18:46:13.703103+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.534,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\plain.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\plain.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "arrows.mscx",
+        "output": "exports/arrows.pdf",
+        "started_utc": "2026-11-01T18:46:16.398659+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.625,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\arrows.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "arrows.mscx",
+        "output": "exports/arrows.musicxml",
+        "started_utc": "2026-11-01T18:46:20.147604+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.907,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\arrows.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "arrows.mscx",
+        "output": "exports/arrows.mid",
+        "started_utc": "2026-11-01T18:46:23.187360+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.683,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\arrows.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "advance.mscx",
+        "output": "exports/advance.pdf",
+        "started_utc": "2026-11-01T18:46:25.997828+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.266,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\advance.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\advance.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "advance.mscx",
+        "output": "exports/advance.musicxml",
+        "started_utc": "2026-11-01T18:46:29.384234+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.734,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\advance.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\advance.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "advance.mscx",
+        "output": "exports/advance.mid",
+        "started_utc": "2026-11-01T18:46:32.242700+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.864,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\advance.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\advance.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "arrows.mscx",
+        "output": "arrows-saved.mscx",
+        "started_utc": "2026-11-01T18:46:35.229550+00:00",
+        "returncode": 0,
+        "elapsed_s": 3.006,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\arrows-saved.mscx>\r\n... success!\r\n"
+      },
+      {
+        "source": "arrows.mscx",
+        "output": "exports/arrows.svg",
+        "started_utc": "2026-11-01T18:46:38.398274+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.679,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\arrows.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "arrows-saved.mscx",
+        "output": "exports/arrows-reload.svg",
+        "started_utc": "2026-11-01T18:46:41.195595+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.622,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\arrows-saved.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\arrows-reload.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-plain.mscx",
+        "output": "exports/v2-plain.pdf",
+        "started_utc": "2026-11-01T18:49:11.601423+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.85,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-plain.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-plain.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-plain.mscx",
+        "output": "exports/v2-plain.musicxml",
+        "started_utc": "2026-11-01T18:49:14.557684+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.521,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-plain.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-plain.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-plain.mscx",
+        "output": "exports/v2-plain.mid",
+        "started_utc": "2026-11-01T18:49:17.189059+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.673,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-plain.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-plain.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-arrows.mscx",
+        "output": "exports/v2-arrows.pdf",
+        "started_utc": "2026-11-01T18:49:19.975573+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.566,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-arrows.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-arrows.mscx",
+        "output": "exports/v2-arrows.musicxml",
+        "started_utc": "2026-11-01T18:49:22.654442+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.59,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-arrows.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-arrows.mscx",
+        "output": "exports/v2-arrows.mid",
+        "started_utc": "2026-11-01T18:49:25.362058+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.412,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-arrows.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-advance.mscx",
+        "output": "exports/v2-advance.pdf",
+        "started_utc": "2026-11-01T18:49:27.882042+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.898,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-advance.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-advance.pdf>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-advance.mscx",
+        "output": "exports/v2-advance.musicxml",
+        "started_utc": "2026-11-01T18:49:30.896464+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.518,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-advance.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-advance.musicxml>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-advance.mscx",
+        "output": "exports/v2-advance.mid",
+        "started_utc": "2026-11-01T18:49:33.535004+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.743,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-advance.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-advance.mid>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-arrows.mscx",
+        "output": "v2-arrows-saved.mscx",
+        "started_utc": "2026-11-01T18:49:36.441671+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.741,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-arrows-saved.mscx>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-arrows.mscx",
+        "output": "exports/v2-arrows.svg",
+        "started_utc": "2026-11-01T18:49:39.295070+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.549,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-arrows.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-arrows.svg>\r\n... success!\r\n"
+      },
+      {
+        "source": "v2-arrows-saved.mscx",
+        "output": "exports/v2-arrows-reload.svg",
+        "started_utc": "2026-11-01T18:49:41.956165+00:00",
+        "returncode": 0,
+        "elapsed_s": 2.508,
+        "stderr": "convert <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\v2-arrows-saved.mscx>...\r\n\tto <E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\tempo-equation-2026-11-02\\exports\\v2-arrows-reload.svg>\r\n... success!\r\n"
+      }
+    ],
+    "recipe": [
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "1/2",
+        "duration_q": "1/2",
+        "pitch": 74,
+        "tpc": 16,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 76,
+        "tpc": 18,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 77,
+        "tpc": 13,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "2",
+        "duration_q": "1/2",
+        "pitch": 79,
+        "tpc": 15,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 1,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 76,
+        "tpc": 18,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "0",
+        "duration_q": "1/2",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "1/2",
+        "duration_q": "1/2",
+        "pitch": 76,
+        "tpc": 18,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "1",
+        "duration_q": "1/2",
+        "pitch": 79,
+        "tpc": 15,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "3/2",
+        "duration_q": "1/2",
+        "pitch": 81,
+        "tpc": 17,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "2",
+        "duration_q": "1/2",
+        "pitch": 79,
+        "tpc": 15,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 2,
+        "onset_q": "5/2",
+        "duration_q": "1/2",
+        "pitch": 76,
+        "tpc": 18,
+        "written": "eighth",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 3,
+        "onset_q": "0",
+        "duration_q": "1",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "quarter",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 3,
+        "onset_q": "1",
+        "duration_q": "1",
+        "pitch": 74,
+        "tpc": 16,
+        "written": "quarter",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 3,
+        "onset_q": "2",
+        "duration_q": "1",
+        "pitch": 76,
+        "tpc": 18,
+        "written": "quarter",
+        "dots": 0
+      },
+      {
+        "staff": 1,
+        "measure": 3,
+        "onset_q": "3",
+        "duration_q": "1",
+        "pitch": 72,
+        "tpc": 14,
+        "written": "quarter",
+        "dots": 0
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "0",
+        "duration_q": "3/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "quarter",
+        "dots": 1
+      },
+      {
+        "staff": 2,
+        "measure": 1,
+        "onset_q": "3/2",
+        "duration_q": "3/2",
+        "pitch": 55,
+        "tpc": 15,
+        "written": "quarter",
+        "dots": 1
+      },
+      {
+        "staff": 2,
+        "measure": 2,
+        "onset_q": "0",
+        "duration_q": "3/2",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "quarter",
+        "dots": 1
+      },
+      {
+        "staff": 2,
+        "measure": 2,
+        "onset_q": "3/2",
+        "duration_q": "3/2",
+        "pitch": 50,
+        "tpc": 16,
+        "written": "quarter",
+        "dots": 1
+      },
+      {
+        "staff": 2,
+        "measure": 3,
+        "onset_q": "0",
+        "duration_q": "4",
+        "pitch": 48,
+        "tpc": 14,
+        "written": "whole",
+        "dots": 0
+      }
+    ],
+    "comparison_actually_viewed": true,
+    "comparison_crop": [
+      40,
+      70,
+      900,
+      590
+    ],
+    "comparison_pixels_per_point": 1.8,
+    "user_score_candidate": false,
+    "explicit_tempo_followText": false,
+    "first_probe_failures": [
+      "XMLrichtextindentation introducedlinebreaks",
+      "Dotsafternotetype produceddisplayeddotswithquarterduration andfilledrests; retainedasinputfailure,notenginebug"
+    ],
+    "selected_for_this_fixture": "advance equation plus newtempo confirmation; arrowswhenprevioussystemcrowded",
+    "print_or_audition": false
+  },
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-plain.mscx",
+      "bytes": 7860,
+      "sha256": "87edb1df5200d67eead96fc63dfd828d402004d21cefc2e39cb6a14543e69318",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-arrows.mscx",
+      "bytes": 7868,
+      "sha256": "3c4539170d097c752950d4fc213505c46be66a729b299d6e69422d8bb5417421",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-advance.mscx",
+      "bytes": 8043,
+      "sha256": "e81b43facb316cf42370ee63ad2675320ec7bf9d3bb459f8a38108b2cdb195ce",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-comparison.png",
+      "bytes": 96896,
+      "sha256": "0038a7fe0a8e8d901415f366d1238ced4b88a6435a5b6259aca465ef710a838d",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Madoka Magica - Piano Suite Medley.pdf",
+      "sha256": "8a603a4602c9bdaf54420da947d06302337bacb1b247bfb5b5818b4934fdbda7",
+      "read_only": true,
+      "unchanged": true
+    }
+  ],
+  "resources": {
+    "complete": [
+      16,
+      25
+    ],
+    "new_completions": 0,
+    "remaining": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ]
+  },
+  "new_user_preferences": 0,
+  "new_software_adaptation": false,
+  "cache": {
+    "directory": "tmp/engraving/tempo-equation-2026-11-02",
+    "budget_bytes": 1048576,
+    "global_check_allowance_bytes": 3281190912,
+    "global_exact_total_known": false,
+    "new_source_media": 0,
+    "original_score_copies": 0,
+    "runtime_copies": 0,
+    "deletions": 0,
+    "reference_images_in_Git": 0,
+    "private_bytes": 715674,
+    "files": 46,
+    "at_utc": "2026-11-01T19:03:41.099611+00:00",
+    "measurement_includes_audit": true,
+    "audit": "tmp/engraving/tempo-equation-2026-11-02/audit.json",
+    "audit_sha256": "4d02805d707d1ad514b51404cda14b2447a2f658a05d6e6f2d5f3f9cd2230c6e"
+  },
+  "checks": {
+    "native": "passed",
+    "protected": "4/4 passed",
+    "library": "passed: progress.py --check",
+    "skill": "passed: quick_validate.py",
+    "query": "6/6 regression tests passed",
+    "protected_after": "4/4 passed",
+    "source_views_after": "8/8 passed",
+    "case_links": "passed",
+    "prior_fixed_release": "11/11 fingerprints match unchanged0.26tag",
+    "public_XML_line_endings": "3 inputs normalized CRLF toLF;parsedXMLtrees identical,no newnativecallsrequired"
+  }
+}

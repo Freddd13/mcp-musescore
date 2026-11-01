@@ -1,6 +1,8 @@
 # 钢琴净书skill：使用、关联与更新
 
-当前研究版为**[0.26.0／engraving-v0.26.0](ENGRAVING_RELEASES.md)**：每拍复杂度与间距、R07全预览、R08／R09定位及R11可读范围见[续读](engraving/BALLADE_PREVIEW_CONTINUATION.md)。可查`--topic spacing --query "每拍 复杂度"`。20入口可用；关联安装更新项目即可，复制安装同步同版skill和库，MCP配置不变。
+当前研究版为**[0.27.0／engraving-v0.27.0](ENGRAVING_RELEASES.md)**：可查羽状梁／休止的条件、Local relayout共同起音反例、速度等式预告，以及R08／R09的角色判断。20入口、九份新增原创资产可用；资料16/25余9保持。关联安装更新项目即可，复制安装同步同版skill与库，MCP配置不变。
+
+此前研究版为**[0.26.0／engraving-v0.26.0](ENGRAVING_RELEASES.md)**：每拍复杂度与间距、R07全预览、R08／R09定位及R11可读范围见[续读](engraving/BALLADE_PREVIEW_CONTINUATION.md)。可查`--topic spacing --query "每拍 复杂度"`。20入口可用；关联安装更新项目即可，复制安装同步同版skill和库，MCP配置不变。
 
 0.25之后的补充（现收录0.26）包括[R09原目标预览对照](engraving/R09_PREVIEW_COMPARISON.md)，可查`--topic sources --query "R09 弱起 编号"`。更正旧编号／分行推断，固定0.25标签保留原快照；用当前工作树时一并记录实际提交。
 

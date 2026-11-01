@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "version": "0.27.0",
+  "tag": "engraving-v0.27.0",
+  "as_of": "2026-11-02",
+  "stage": "usable-research",
+  "starting_commit": "44ce62d688de46b46938099242035187e973f07b",
+  "prior_fixed_tag": "engraving-v0.26.0",
+  "checks_status": "passed",
+  "publication": {
+    "method": "Git tag; no new archive or runtime copy",
+    "prior_fixed_tag_target": "d5c1be9b79318a33628f5ce7f072b453e456c6ee",
+    "older_tags_not_moved": true
+  },
+  "files": [
+    {
+      "path": "skills/piano-engraving/SKILL.md",
+      "bytes": 15737,
+      "sha256": "e8ad9a065357d7df4eb96bd50652c6bb5b51cc50a413640cf4c8c20fc2b25212"
+    },
+    {
+      "path": "skills/piano-engraving/scripts/engraving_library.py",
+      "bytes": 50419,
+      "sha256": "df5f46af26c87345e18a0be9bb090e704b233a934836a2264dcbd51efad99fef"
+    },
+    {
+      "path": "skills/piano-engraving/references/native-review.md",
+      "bytes": 29234,
+      "sha256": "1aef16794573ac0f007b7cb945ef3611fdc54f1998beef22ec8ead34c4da1648"
+    },
+    {
+      "path": "docs/ENGRAVING_RELEASES.md",
+      "bytes": 107457,
+      "sha256": "9836610f2fd5e3764a6cccf593e046a6763dca78d61eabadcc442b33e06a84ae"
+    },
+    {
+      "path": "docs/ENGRAVING_SKILL.md",
+      "bytes": 10714,
+      "sha256": "c00ef6d651ac3e8d975b2ae08c13194592fe1c34f0402fed2c9ae1252361b608"
+    },
+    {
+      "path": "docs/engraving/progress.json",
+      "bytes": 162103,
+      "sha256": "bd7c0b7a424726008dcb28949e0b9e8eccf413e9f5fe966068714320ca3d7bea"
+    },
+    {
+      "path": "docs/engraving/STATUS_AND_ROADMAP.md",
+      "bytes": 131544,
+      "sha256": "3512c211a9716dccdf522829bd7273d874b69b1d9a7de6af6461fceee9fe4cdb"
+    },
+    {
+      "path": "docs/engraving/README.md",
+      "bytes": 79098,
+      "sha256": "a9588c59c1c5d70a541b3343c9c96dc0ab2a4bab75d0ff711a0652555234e85d"
+    },
+    {
+      "path": "docs/engraving/JUDGMENT_GUIDE.md",
+      "bytes": 54850,
+      "sha256": "4b74351e41ddc40a52b11780e2e8c518560972e0880b5d175f4bcd13371789e3"
+    },
+    {
+      "path": "docs/engraving/METRE_TEMPO_READING.md",
+      "bytes": 33359,
+      "sha256": "5fcf51fc23046f27057303485a63826954a447431c546754661b7b57d7da8a5a"
+    },
+    {
+      "path": "docs/engraving/RESOURCE_PLAN_MAPPING.md",
+      "bytes": 28848,
+      "sha256": "e0249be4c796d2c2e93ea9d73b24c65b7868d54750bc1a484451f3bfa6ea9e09"
+    },
+    {
+      "path": "docs/engraving/CACHE_LOCATIONS.md",
+      "bytes": 45315,
+      "sha256": "6447336a7e399c08ed304dca2c1f5c8e108b261ddebc03a8cd735f7dd03ef9fb"
+    },
+    {
+      "path": "docs/engraving/TEMPO_EQUATION_CLARITY.md",
+      "bytes": 6668,
+      "sha256": "82bb55e7382ac8f62593ab4c4d2710195166f586ddeb4fcbff0c0abe0745acfc"
+    },
+    {
+      "path": "docs/engraving/tempo_equation_evidence.json",
+      "bytes": 26124,
+      "sha256": "77aca5b1d9f6965d23dc8951db406234692f45d6f1a667491a92e5a908e59fe2"
+    },
+    {
+      "path": "docs/engraving/FANNED_BEAMS_READING.md",
+      "bytes": 8960,
+      "sha256": "b5e0cfaa91b81531cc20cf09aeac3f3f77a1c37a19f3908f3465ef8d79a30a40"
+    },
+    {
+      "path": "docs/engraving/fanned_beams_reading_evidence.json",
+      "bytes": 11395,
+      "sha256": "c3b16203a126304faabe15e2b91b4fabb4e88836fd9e017435a1123f80e382c0"
+    },
+    {
+      "path": "docs/engraving/BEAM_OPERATIONS_STUDY.md",
+      "bytes": 9273,
+      "sha256": "6f4571c733b438adc012c86e406cb3b1c8e906c2bc2405995158dee9e5be5436"
+    },
+    {
+      "path": "docs/engraving/beam_operations_evidence.json",
+      "bytes": 43332,
+      "sha256": "cfec1363d932a3d47e8ba61dd984fd3fdb2590fd1f56e25a42b2e405b7957455"
+    },
+    {
+      "path": "docs/engraving/POLONAISE_TECHNIQUE_READING.md",
+      "bytes": 7522,
+      "sha256": "f745dbb5596c37efb28e8df270c043a60ee1c202b1335e66b2155a8bec6ef814"
+    },
+    {
+      "path": "docs/engraving/polonaise_technique_evidence.json",
+      "bytes": 11022,
+      "sha256": "8d3804487277ec9535aae48210543583b8b3dbdf88ca4ad74f0447f76ea36a6a"
+    },
+    {
+      "path": "docs/engraving/R09_OSSIA_READING.md",
+      "bytes": 6566,
+      "sha256": "d2a5272798e84e18218a5ea63eb950c60f4e362eeefda0c6e6370dfc7d2e3fd5"
+    },
+    {
+      "path": "docs/engraving/r09_ossia_evidence.json",
+      "bytes": 9859,
+      "sha256": "1d500968528baeb817893b62e9013976b731f881f9d31c028f53f0f9fe47804c"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-uniform-baseline.mscx",
+      "bytes": 12328,
+      "sha256": "5506fa16a86088d32e4cd4cfd2e275c8b6ffe46cc9f92e6184ec795fe30997ea"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-uniform-on.mscx",
+      "bytes": 12046,
+      "sha256": "efd41c694441316380a8cc5622fed7715deee8b8a729ad754523755b859a22da"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-mixed-baseline.mscx",
+      "bytes": 13630,
+      "sha256": "433e0df711c6d5dd267e044d1c968c5e7719d14efd7ad53660f6166b752de67c"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-mixed-on.mscx",
+      "bytes": 13669,
+      "sha256": "baca26204e4736a169b1aa1ec466a69811c4dfb7419cc27649ee9ef553646e4d"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-comparison.png",
+      "bytes": 63143,
+      "sha256": "f6cbeab1da0da2a888a4f8dd9ebe57cf8a92d2b5f7308aea2d6b57a3238bbdf6"
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-plain.mscx",
+      "bytes": 7860,
+      "sha256": "87edb1df5200d67eead96fc63dfd828d402004d21cefc2e39cb6a14543e69318"
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-arrows.mscx",
+      "bytes": 7868,
+      "sha256": "3c4539170d097c752950d4fc213505c46be66a729b299d6e69422d8bb5417421"
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-advance.mscx",
+      "bytes": 8043,
+      "sha256": "e81b43facb316cf42370ee63ad2675320ec7bf9d3bb459f8a38108b2cdb195ce"
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-comparison.png",
+      "bytes": 96896,
+      "sha256": "0038a7fe0a8e8d901415f366d1238ced4b88a6435a5b6259aca465ef710a838d"
+    }
+  ],
+  "included_notes": [
+    "POLONAISE_TECHNIQUE_READING.md",
+    "R09_OSSIA_READING.md",
+    "BEAM_OPERATIONS_STUDY.md",
+    "FANNED_BEAMS_READING.md",
+    "TEMPO_EQUATION_CLARITY.md"
+  ],
+  "coverage": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "Gould_file_coverage": [
+      696,
+      696
+    ],
+    "new_Gould_coverage": 0,
+    "resources": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "fixed_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ],
+    "coverage_is_not_mastery": true
+  },
+  "preview_scope": {
+    "R07": [
+      118,
+      118
+    ],
+    "R08": [
+      82,
+      82
+    ],
+    "R09": [
+      32,
+      32
+    ],
+    "R11_part1": [
+      68,
+      68
+    ],
+    "R11_part2_frames_read": 0,
+    "full_video_or_audio_completion_claimed": false
+  },
+  "new_native": {
+    "conditions": [
+      7,
+      7
+    ],
+    "saved_reload": [
+      2,
+      2
+    ],
+    "actual_CLI_calls": 38,
+    "valid_final_calls": 26,
+    "input_probe_calls": 12,
+    "user_real_score_candidate": false,
+    "software_adaptation": false
+  },
+  "new_public_assets": [
+    {
+      "path": "docs/engraving/fixtures/local-relayout-uniform-baseline.mscx",
+      "bytes": 12328,
+      "sha256": "5506fa16a86088d32e4cd4cfd2e275c8b6ffe46cc9f92e6184ec795fe30997ea",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-uniform-on.mscx",
+      "bytes": 12046,
+      "sha256": "efd41c694441316380a8cc5622fed7715deee8b8a729ad754523755b859a22da",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-mixed-baseline.mscx",
+      "bytes": 13630,
+      "sha256": "433e0df711c6d5dd267e044d1c968c5e7719d14efd7ad53660f6166b752de67c",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-mixed-on.mscx",
+      "bytes": 13669,
+      "sha256": "baca26204e4736a169b1aa1ec466a69811c4dfb7419cc27649ee9ef553646e4d",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-comparison.png",
+      "bytes": 63143,
+      "sha256": "f6cbeab1da0da2a888a4f8dd9ebe57cf8a92d2b5f7308aea2d6b57a3238bbdf6",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-plain.mscx",
+      "bytes": 7860,
+      "sha256": "87edb1df5200d67eead96fc63dfd828d402004d21cefc2e39cb6a14543e69318",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-arrows.mscx",
+      "bytes": 7868,
+      "sha256": "3c4539170d097c752950d4fc213505c46be66a729b299d6e69422d8bb5417421",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-advance.mscx",
+      "bytes": 8043,
+      "sha256": "e81b43facb316cf42370ee63ad2675320ec7bf9d3bb459f8a38108b2cdb195ce",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-comparison.png",
+      "bytes": 96896,
+      "sha256": "0038a7fe0a8e8d901415f366d1238ced4b88a6435a5b6259aca465ef710a838d",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "new_public_assets_bytes": 235483,
+  "bounds": [
+    "Madoka direction remains author-unconfirmed;structuralhypothesis isnotadoptedrevision",
+    "Previewcoverage notfinesymbolcollation/fullvideo/audio",
+    "No newprinting/performance/useradoption orindependentaccuracy claim",
+    "Frozenruntimeidentity notclaimedcurrent softwareHEADbuild"
+  ],
+  "checks": {
+    "progress": "passed",
+    "skill": "passed",
+    "query_tests": "6/6 passed",
+    "all_twenty_routes": "passed",
+    "original_score_book_hashes": "4/4 passed",
+    "native_written_recipe_records": 63,
+    "native_MIDI_full_bytes": "three variants equal,310bytes",
+    "native_runtime_files_before_after": "1936/1936",
+    "prior_fixed_release_files": "11/11 passed",
+    "new_asset_hashes": "9/9 passed"
+  },
+  "checked_at_utc": "2026-11-01T19:03:41.127071+00:00",
+  "current_turn_cache_bytes": 715674
+}

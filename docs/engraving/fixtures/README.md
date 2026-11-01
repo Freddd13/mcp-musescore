@@ -1,5 +1,7 @@
 # 独立净书复现谱例
 
+2026-11-02新增[速度等式](../TEMPO_EQUATION_CLARITY.md)三份CC0输入`tempo-equation-plain/arrows/advance.mscx`及一张原生比较图；实际各21音，6/8附点四分80到4/4四分80，按同一0.75秒脉冲运行。关系已确定的机制例，不能代替Madoka未定关系；首轮失败输入仅保留本机。
+
 2026-11-02新增[Local relayout研究](../BEAM_OPERATIONS_STUDY.md)四份CC0原创输入：`local-relayout-uniform-baseline/on`及`local-relayout-mixed-baseline/on`（实际文件名见专题链接），配一张原生PDF比较图。前组37音／1休止，后组46音／1休止；开启版属于机制诊断，混合组因破坏两手同步而拒绝。实际Leland依赖冻结宿主默认，不能当跨版本像素基准。
 
 2026-10-31新增[等值记法研究](../DOUBLED_TUPLET_STUDY.md)的doubled-tuplet-equivalent.mscx：一份CC0原创两小节谱，普通32与实际6:3十六分分别出现；38音、12休止、有效时值与全部音符起止相同。原生输出两页，表头不同，本例不作相同音符区宽的几何评分。原P段意图未取得，不能直接覆盖官谱。
