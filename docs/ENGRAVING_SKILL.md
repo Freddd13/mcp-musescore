@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+当前工作分支新增[三类实谱判断](engraving/REAL_SCORE_READING_TRADEOFFS.md)，固定0.30标签不含此补充。可查`--topic rhythm --query "三音 显拍"`、`--topic layout --query "跨页 终点"`；3/3任务已核，资料16/25余9。使用工作分支时记录实际Git提交；关联安装更新项目即可，复制安装同步skill与库，MCP无需重配。
+
 工作分支在固定0.30之后补[跨线显示组合](engraving/CROSSBAR_DISPLAY_COMPOSITION.md)，可查`--topic notation --query "显示组合 gate"`。固定单行可比较，换行／交换仍有边界；关联安装读取项目更新，复制安装同步当前skill与库并记录Git提交。固定0.30标签保留原范围，MCP无需重配。
 
 当前研究版为**[0.30.0／engraving-v0.30.0](ENGRAVING_RELEASES.md)**：跨线连音的真实时点、显拍与长小节结构代价可直接查；三情境3/3、换行1/1、最终重载1/1，五份新原创资产可用。真两小节完整显示仍0/1，资料16/25余9。用`--topic notation --query "跨线 拍号"`定位；关联安装更新项目即可，复制安装同步同版skill与库，无需重配MCP。

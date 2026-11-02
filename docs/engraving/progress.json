@@ -3236,15 +3236,18 @@
     ],
     "m97_successor": {
       "planned_viable_candidates": 1,
-      "ready_viable_candidates": 0,
+      "ready_viable_candidates": 1,
       "geometry_probes_completed": 3,
       "geometry_probes_planned": 3,
-      "reference": "M97_DIRECTION_FEEDBACK.md",
+      "reference": "M97_GROUP_BOUNDARY_TRANSFER.md",
       "partial_hairpin_candidate": [
         1,
         1
       ],
-      "partial_hairpin_adopted": false
+      "partial_hairpin_adopted": false,
+      "direction_probes_reference": "M97_DIRECTION_FEEDBACK.md",
+      "whole_candidate_evidence": "m97_group_boundary_evidence.json",
+      "adopted": false
     }
   },
   "release": {
@@ -3254,7 +3257,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定R11第二部分165/165格、跨线三条件与拍号代价；保真实两小节完整显示0/1，资料16/25余9，无适配。 0.30之后补显示组合：单行候选1/1、三情境3/3、动态／交换仍0/1；固定0.30标签不含此补充。",
+    "working_branch_note": "固定0.30保留原范围；后补显示组合单行1/1、动态／交换0/1，再补三类实谱判断3/3、15官谱页／13教材页。资料16/25余9，无新适配。",
     "evidence": "release_0_30_0_evidence.json"
   },
   "last_study_batch": {
@@ -3269,23 +3272,23 @@
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 1,
+    "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
+    "new_native_diagnostic_conditions": 0,
+    "native_CLI_calls": 0,
+    "book_reread_pages": 13,
+    "official_score_reread_pages": 15,
+    "official_system_views_reused": 0,
     "date": "2026-11-02",
-    "scope": "保真实小节的显示组合：3/3情境，固定单行候选1/1；重载1/1，导回核查1/1揭示失败，动态／交换方案0/1。",
-    "new_native_diagnostic_conditions": 3,
-    "native_CLI_calls": 30,
-    "book_reread_pages": 3,
-    "official_score_reread_pages": 0,
+    "scope": "完整组／显拍／跨行归属三类实谱3/3；15官谱页／13Gould页复核，无新覆盖、原生或适配。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "CROSSBAR_DISPLAY_COMPOSITION.md"
+      "REAL_SCORE_READING_TRADEOFFS.md"
     ],
-    "review_evidence": "crossbar_display_composition_evidence.json",
-    "software_adaptation": false,
-    "official_system_views_reused": 0
+    "review_evidence": "real_score_reading_tradeoffs_evidence.json",
+    "software_adaptation": false
   },
   "latest_native_study": {
     "reference": "CROSSBAR_DISPLAY_COMPOSITION.md",
@@ -3813,15 +3816,14 @@
     }
   ],
   "latest_judgment_review": {
-    "reference": "AETHER_ENTRY_CLEARANCE.md",
-    "evidence": "aether_entry_clearance_evidence.json",
-    "reviewed_cases": 2,
-    "planned_cases": 2,
-    "decisions": {
-      "prefer_wider_entry_for_reconstruction": 2
-    },
-    "scope": "agent按当前字形和密度选择，非用户已确认偏好或全谱常量。",
-    "new_native_conditions": 1
+    "reference": "REAL_SCORE_READING_TRADEOFFS.md",
+    "evidence": "real_score_reading_tradeoffs_evidence.json",
+    "reviewed_cases": 3,
+    "planned_cases": 3,
+    "official_full_page_rereads": 15,
+    "Gould_full_printed_page_rereads": 13,
+    "scope": "主agent预选／冻结后复核，历史已读材料；A079在核查阶段补入，不计独立盲测或准确率。Kura处理顺序修正，跨页cresc.终点仍未知。",
+    "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
     "reference": "BEAM_ACROSS_BAR_READING.md",
@@ -3949,6 +3951,17 @@
       },
       "scope": "复看已知官谱与规范，复杂正面为有理由保留，未证明唯一不可避免；原生窄音域反例另判断，不计独立准确率。",
       "new_native_conditions": 2
+    },
+    {
+      "reference": "AETHER_ENTRY_CLEARANCE.md",
+      "evidence": "aether_entry_clearance_evidence.json",
+      "reviewed_cases": 2,
+      "planned_cases": 2,
+      "decisions": {
+        "prefer_wider_entry_for_reconstruction": 2
+      },
+      "scope": "agent按当前字形和密度选择，非用户已确认偏好或全谱常量。",
+      "new_native_conditions": 1
     }
   ],
   "latest_library_query": {
@@ -4592,17 +4605,25 @@
         0,
         1
       ],
-      "next": "技术边界已留复现，后续适配按需继续；学习线转三类实谱取舍，不反复追加孤立坐标微差。"
+      "next": "三类实谱判断3/3已核；本构型动态维护／交换缺口留待后续适配按需处理。"
     }
   },
   "next_real_score_judgment_batch": {
-    "completed": 0,
+    "completed": 3,
     "planned": 3,
     "tasks": [
       "完整组的阅读收益",
       "显拍的实际必要性",
       "标记跨行归属"
     ],
-    "method": "先冻结具体判断再查规范与旧笔记；已读材料上的迁移练习，不计独立盲测准确率。"
+    "method": "先冻结具体判断再查规范与旧笔记；已读材料上的迁移练习，不计独立盲测准确率。",
+    "reference": "REAL_SCORE_READING_TRADEOFFS.md",
+    "evidence": "real_score_reading_tradeoffs_evidence.json",
+    "remaining_tasks": [],
+    "unresolved_source_questions": [
+      "A080 H权威连音比例与跨线接点",
+      "A137 p5cresc跨页逻辑终点"
+    ],
+    "next": "本批判断已闭合；继续不同织体的综合审谱和可得余9项，权威时值与作用范围到手再回访，不反复做孤立坐标微差。"
   }
 }

@@ -99,6 +99,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 完整跨线组的显示组合经`notation`／`layout`查`CROSSBAR_DISPLAY_COMPOSITION.md`：同音tie片段可在受控单行合并显示，先核真实持续和独立起音。父对象visible不独自证明子元素隐藏；宽度改变重查端点与居中，换行核新段。原生保存稳定不保证交换稳定；导回播放变化加普通基线控制，不把gate或CC变化一概归因显示修改。
 
+完整组、显拍与续行的实谱取舍经`rhythm`／`layout`查`REAL_SCORE_READING_TRADEOFFS.md`：普通三音梁不自动构成三连音；分别解释保组形、保第三拍接收和保行中八度终点的阅读收益。比例或跨页终点未定时保存具体问题，先处理能确认的部分。
+
 ## 需要候选时
 
 本项目提供的用户原PDF／MSCZ保持只读，使用独立副本或原创fixture，不操作当前GUI来做离线试验。其它工程按用户实际授权处理；分析请求不隐含覆盖源文件。详细原生比较方法见[references/native-review.md](references/native-review.md)。

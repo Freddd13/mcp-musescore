@@ -1,0 +1,709 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "REAL_SCORE_READING_TRADEOFFS.md",
+  "previous_goal_turn": {
+    "classification": "no_progress",
+    "reason": "Status-only answer; clean worktree and upstream revalidated, then planned real-score judgments started."
+  },
+  "scope": {
+    "tasks": [
+      3,
+      3
+    ],
+    "official_sources": 4,
+    "official_full_page_rereads": [
+      15,
+      15
+    ],
+    "Gould_full_printed_rereads": [
+      30,
+      106,
+      107,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      207,
+      210,
+      211,
+      323
+    ],
+    "new_official_coverage": 0,
+    "new_Gould_coverage": 0,
+    "resources_complete": [
+      16,
+      25
+    ],
+    "resource_remaining": 9,
+    "native_conditions": 0,
+    "software_adaptation_changes": 0,
+    "user_preference_additions": 0
+  },
+  "method": {
+    "registered_at_utc": "2026-11-02T04:05:44.657356+00:00",
+    "preselected_tasks": [
+      {
+        "task": "完整组的阅读收益",
+        "score": {
+          "id": "A080",
+          "relative_path": "Kura Kura - SPY × FAMILY S2 - Opening Theme.pdf",
+          "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kura Kura - SPY × FAMILY S2 - Opening Theme.pdf",
+          "sha256": "8ba563bd3d8b6d14862c83d9cc1c2944fa60e4472a30fd105b990bbbf8bb6989",
+          "bytes": 193745,
+          "pages": 7,
+          "metadata": {},
+          "page_sizes_pt": [
+            [
+              595.22,
+              842.0
+            ]
+          ],
+          "inventory_status": "readable"
+        },
+        "initial_page": 4,
+        "image": "tmp\\engraving\\corpus\\A080\\page-4.jpg",
+        "image_sha256": "77695fa2703d6a8fd72622f72ef1f0d54635df872c956d875e459eb64a2f6e58"
+      },
+      {
+        "task": "显拍的实际必要性",
+        "score": {
+          "id": "A091",
+          "relative_path": "Mixed Nuts - SPY×FAMILY - Opening Theme.pdf",
+          "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Mixed Nuts - SPY×FAMILY - Opening Theme.pdf",
+          "sha256": "a90ec5f84ac02781135891e067565e25971752bdd965150b039b4d4687d5aad4",
+          "bytes": 169278,
+          "pages": 5,
+          "metadata": {
+            "/CreationDate": "D:20221011091330",
+            "/Creator": "PDFium",
+            "/Producer": "PDFium"
+          },
+          "page_sizes_pt": [
+            [
+              595.22,
+              842.0
+            ]
+          ],
+          "inventory_status": "readable"
+        },
+        "initial_page": 3,
+        "image": "tmp\\engraving\\corpus\\A091\\page-3.jpg",
+        "image_sha256": "cb3f305d52b99d0855175c53875bbd5b30946b9e65b912b999d5e1a0a3309a3a"
+      },
+      {
+        "task": "标记跨行归属",
+        "score": {
+          "id": "A137",
+          "relative_path": "unlasting - Sword Art Online Alicization War of Underworld - Ending Theme.pdf",
+          "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\unlasting - Sword Art Online Alicization War of Underworld - Ending Theme.pdf",
+          "sha256": "ba9876a02a5429c832920d9a14a18ae3a313a27018f24c3b741fbd0ba30827c9",
+          "bytes": 165248,
+          "pages": 6,
+          "metadata": {
+            "/CreationDate": "D:20220611161418",
+            "/Creator": "PDFium",
+            "/Producer": "PDFium"
+          },
+          "page_sizes_pt": [
+            [
+              595.22,
+              842.0
+            ]
+          ],
+          "inventory_status": "readable"
+        },
+        "initial_page": 5,
+        "image": "tmp\\engraving\\corpus\\A137\\page-5.jpg",
+        "image_sha256": "292ca590964311b188245d62bbd9a4e79038bc33b0d559ffad50b9b6b34d2719"
+      }
+    ],
+    "frozen_initial": {
+      "frozen_at_utc": "2026-11-02T04:07:17.184803+00:00",
+      "before": "issue-specific old notes, extra page context, geometry and Gould rereads",
+      "method_limit": "Historically read scores, root-only. This is a fresh frozen pass, not blind or independent.",
+      "judgments": [
+        {
+          "id": "J01",
+          "source": "A080 p4",
+          "judgment": "优先保留第二行快音8、7、8、5、5的完整组形；不按下表每一八分攻击强拆上表。",
+          "reason": "完整下行／回转音形可分块跟读，下表重复节奏提供另一条拍位参照；跨线tie本身也让重音先后可读。",
+          "candidate": "若有必要，保完整主梁，以内梁层级说明拍组；不能只按音头数吸齐两手。",
+          "uncertain": "精确连音比例、快组各自占时与所有实际共同点尚未核；从可见数字不能补出未写比例。"
+        },
+        {
+          "id": "J02",
+          "source": "A091 p3 D/E",
+          "judgment": "优先保留D的简明长值和熟悉切分，不为显出每个拍点一律加tie；E保留独立休止／错开入口。",
+          "reason": "D下部规则四分可认拍，拆分会增加音头和tie；E的独立层休止承担起音先后信息。",
+          "candidate": "若其它段存在更难计数的跨主拍持续，应单列显拍提议，不能把D的省写条件推成全曲规则。",
+          "uncertain": "拍号、D每组准确时值及B/F较复杂实例须回看。"
+        },
+        {
+          "id": "J03",
+          "source": "A137 p5",
+          "judgment": "保留上部pp与下部p sub.分层；8va跨行重复起点数字并保真实终点。底行cresc.到页末须核下页，不能就页边截断或当作已结束。",
+          "reason": "层别、时点及继续生效各有不同线索；清掉续线或机械加新力度可能误示动作。",
+          "candidate": "重排时核完整起点—续行—终点链；若首次跨页拼接困难，再比较明确延续提示。",
+          "uncertain": "cresc.完整延续、最终目标与本页末实音的关系待下页确认；没有给出修改后原生图。"
+        }
+      ]
+    },
+    "frozen_initial_sha256": "8d2ec497122597c1f40d8d2d05372222de593030848039d88901707c23e96112",
+    "evaluation_limit": "Root-only, historically read works; not blind, independent, or measured accuracy. A079/context added after freeze.",
+    "corrections": [
+      {
+        "id": "J01",
+        "change": "From prioritize complete shape to first resolve ratio and crossbar timing; original preserved.",
+        "reason": "Authoritative timing missing; geometry comparison remains conditional."
+      },
+      {
+        "id": "J03",
+        "change": "Next page checked; p5cresc logical endpoint remains unknown.",
+        "reason": "No explicit matching continuation at p6top; nearestff or latercresc not automatically a receiver."
+      }
+    ]
+  },
+  "readings": {
+    "full_source_images": [
+      {
+        "score": "A080",
+        "page": 1,
+        "image": "tmp\\engraving\\corpus\\A080\\page-1.jpg",
+        "sha256": "a06aff66192f27e252bbeca9a4c36b1cb453a36e87e301e41b3e0cf34eea3239",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A080",
+        "page": 2,
+        "image": "tmp\\engraving\\corpus\\A080\\page-2.jpg",
+        "sha256": "264b4e4c23bacb42ed15878998a6c87b40b09255fc5cd1f93700732f0fc7d047",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A080",
+        "page": 3,
+        "image": "tmp\\engraving\\corpus\\A080\\page-3.jpg",
+        "sha256": "de0055ee081b0703161971fae84cfd0056a2ec73e0655a326a203213ee760f1a",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A080",
+        "page": 4,
+        "image": "tmp\\engraving\\corpus\\A080\\page-4.jpg",
+        "sha256": "77695fa2703d6a8fd72622f72ef1f0d54635df872c956d875e459eb64a2f6e58",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A079",
+        "page": 1,
+        "image": "tmp\\engraving\\corpus\\A079\\page-1.jpg",
+        "sha256": "228c38fca8bf0b877a43939b20b55c79d57b18ca1f99852cf07ddabad07d325e",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A079",
+        "page": 2,
+        "image": "tmp\\engraving\\corpus\\A079\\page-2.jpg",
+        "sha256": "49b25b9f9f9b91a322a13705eacff912155dbc096105f6a8736b73f668f5b90b",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A079",
+        "page": 3,
+        "image": "tmp\\engraving\\corpus\\A079\\page-3.jpg",
+        "sha256": "384e411a008df9943357c7a6c600dea0e97ca19353d4fb2b190debf104af676e",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A079",
+        "page": 4,
+        "image": "tmp\\engraving\\corpus\\A079\\page-4.jpg",
+        "sha256": "7832cd371c431aaa5c38bfa38f7a4a95abab1cb545c2cfa150b5eb8f66141ebb",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A079",
+        "page": 5,
+        "image": "tmp\\engraving\\corpus\\A079\\page-5.jpg",
+        "sha256": "78c530ffdcbf2e38e5614c9d8ab93f797cc6953693004b6fc8209c792d25126e",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A091",
+        "page": 1,
+        "image": "tmp\\engraving\\corpus\\A091\\page-1.jpg",
+        "sha256": "f7e68ab7204b60f21ff9bdda66d20cc67080c50e3c8cf82ffe2ba94145eaa75f",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A091",
+        "page": 2,
+        "image": "tmp\\engraving\\corpus\\A091\\page-2.jpg",
+        "sha256": "a8063040551a889bd9b1adb9b24f7172ff9c785084b63872451a75abfb88d68c",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A091",
+        "page": 3,
+        "image": "tmp\\engraving\\corpus\\A091\\page-3.jpg",
+        "sha256": "cb3f305d52b99d0855175c53875bbd5b30946b9e65b912b999d5e1a0a3309a3a",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A091",
+        "page": 4,
+        "image": "tmp\\engraving\\corpus\\A091\\page-4.jpg",
+        "sha256": "2771b723bbc9821e4bfc91d77dcf8c27a85bd8a92814c4ed8209d01ed3d521fd",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A137",
+        "page": 5,
+        "image": "tmp\\engraving\\corpus\\A137\\page-5.jpg",
+        "sha256": "292ca590964311b188245d62bbd9a4e79038bc33b0d559ffad50b9b6b34d2719",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "score": "A137",
+        "page": 6,
+        "image": "tmp\\engraving\\corpus\\A137\\page-6.jpg",
+        "sha256": "1eac2e7102259d3e80e391c2b93171ac2aacf1114db0b6900c3484b7518dabef",
+        "inspection": "full image viewed this turn"
+      }
+    ],
+    "full_Gould_images": [
+      {
+        "printed_page": 106,
+        "file_page_1based": 126,
+        "image": "tmp\\engraving\\integrated-unlasting-2026-10-22\\Gould-printed-106.png",
+        "sha256": "62dae45219178088f10c8dce1e369c2cf70e75bca5da609ba60a398f468cf0bc",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 107,
+        "file_page_1based": 127,
+        "image": "tmp\\engraving\\integrated-unlasting-2026-10-22\\Gould-printed-107.png",
+        "sha256": "de21b696d29131e806654a497bf4e643c96818b15a8631a3f1d2d983039d7ba0",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 166,
+        "file_page_1based": 186,
+        "image": "tmp\\engraving\\integrated-mixed-nuts-2026-10-22\\Gould-p166.png",
+        "sha256": "978eac08385453df5e927c67e167cde1b5b27ce6ce7b69228a995a4df5c00564",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 167,
+        "file_page_1based": 187,
+        "image": "tmp\\engraving\\integrated-mixed-nuts-2026-10-22\\Gould-p167.png",
+        "sha256": "9330395061ded2ae613c63cae1e51631cd1a45a62ace823e2ed49ca53e3a44b5",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 168,
+        "file_page_1based": 188,
+        "image": "tmp\\engraving\\integrated-mixed-nuts-2026-10-22\\Gould-p168.png",
+        "sha256": "8b48e9fe9ae56eae50f6f717beb38c824eb626c7561cdebeee81abeb99925dd0",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 169,
+        "file_page_1based": 189,
+        "image": "tmp\\engraving\\integrated-mixed-nuts-2026-10-22\\Gould-p169.png",
+        "sha256": "5a35d0c9a6e8fae684ff24d58ff75746dff755ae5b495b15823ddde116630fb9",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 170,
+        "file_page_1based": 190,
+        "image": "tmp\\engraving\\integrated-mixed-nuts-2026-10-22\\Gould-p170.png",
+        "sha256": "6928a86a3e4c933d4670c2db1c973c488552e15d468763ea5e30f084a5f15efd",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 171,
+        "file_page_1based": 191,
+        "image": "tmp\\engraving\\integrated-mixed-nuts-2026-10-22\\Gould-p171.png",
+        "sha256": "12a0392a7467d282f0cbc2ddf89ef6a5dcffcc504d8ca5acf0cb01a209b2ddb8",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 207,
+        "file_page_1based": 227,
+        "image": "tmp\\engraving\\integrated-rumbling-unravel-2026-10-22\\gould-p207.png",
+        "sha256": "6d16c63e7533c6a057e574f991b2c142c96d30c28f78b53142567f72a8c61ed2",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 323,
+        "file_page_1based": 343,
+        "image": "tmp\\engraving\\integrated-unlasting-2026-10-22\\Gould-printed-323.png",
+        "sha256": "b3ff84788ccdee10fd9fa7fd6dffe31017b2d5c22b16ce5099a4bf6f920c317d",
+        "inspection": "full image viewed this turn"
+      },
+      {
+        "printed_page": 30,
+        "file_page_1based": 50,
+        "image": "tmp\\engraving\\real-score-judgment-2026-11-02\\read.png",
+        "inspection": "full page rendered at1.7, viewed, then overwritten"
+      },
+      {
+        "printed_page": 210,
+        "file_page_1based": 230,
+        "image": "tmp\\engraving\\real-score-judgment-2026-11-02\\read.png",
+        "inspection": "full page rendered at1.7, viewed, then overwritten"
+      },
+      {
+        "printed_page": 211,
+        "file_page_1based": 231,
+        "image": "tmp\\engraving\\real-score-judgment-2026-11-02\\read.png",
+        "inspection": "full page rendered at1.7, viewed, then overwritten"
+      }
+    ],
+    "new_render_operations": [
+      {
+        "source": "A080",
+        "file_page_1based": 4,
+        "scale": 4.4,
+        "crop_left_bottom_right_top": [
+          20,
+          555,
+          25,
+          175
+        ],
+        "target": "s2 complete fast groups",
+        "inspection": "viewed before next overwrite"
+      },
+      {
+        "source": "Gould",
+        "file_page_1based": 230,
+        "scale": 1.7,
+        "crop_left_bottom_right_top": null,
+        "target": "printed210 full",
+        "inspection": "viewed before next overwrite"
+      },
+      {
+        "source": "Gould",
+        "file_page_1based": 231,
+        "scale": 1.7,
+        "crop_left_bottom_right_top": null,
+        "target": "printed211 full",
+        "inspection": "viewed before next overwrite"
+      },
+      {
+        "source": "A091",
+        "file_page_1based": 2,
+        "scale": 4.2,
+        "crop_left_bottom_right_top": [
+          25,
+          410,
+          25,
+          292
+        ],
+        "target": "B first system",
+        "inspection": "viewed before next overwrite"
+      },
+      {
+        "source": "A091",
+        "file_page_1based": 3,
+        "scale": 4,
+        "crop_left_bottom_right_top": [
+          25,
+          285,
+          25,
+          305
+        ],
+        "target": "D two systems",
+        "inspection": "viewed before next overwrite"
+      },
+      {
+        "source": "Gould",
+        "file_page_1based": 50,
+        "scale": 1.7,
+        "crop_left_bottom_right_top": null,
+        "target": "printed30 full",
+        "inspection": "viewed before next overwrite"
+      },
+      {
+        "source": "A137",
+        "file_page_1based": 5,
+        "scale": 4,
+        "crop_left_bottom_right_top": [
+          25,
+          450,
+          25,
+          162
+        ],
+        "target": "octave continuation s2/3",
+        "inspection": "viewed before next overwrite"
+      },
+      {
+        "source": "A137",
+        "file_page_1based": 6,
+        "scale": 3.5,
+        "crop_left_bottom_right_top": [
+          25,
+          32,
+          25,
+          535
+        ],
+        "target": "L last two systems",
+        "inspection": "viewed before next overwrite"
+      },
+      {
+        "source": "A079",
+        "file_page_1based": 4,
+        "scale": 4,
+        "crop_left_bottom_right_top": [
+          25,
+          175,
+          25,
+          545
+        ],
+        "target": "J first three bars",
+        "inspection": "viewed before next overwrite"
+      },
+      {
+        "source": "A080",
+        "file_page_1based": 4,
+        "scale": 7,
+        "crop_left_bottom_right_top": [
+          285,
+          580,
+          200,
+          185
+        ],
+        "target": "both5 beam-layer audit",
+        "inspection": "viewed before next overwrite"
+      }
+    ],
+    "new_render_count": 10,
+    "source_detail_count": 7,
+    "new_book_render_count": 3,
+    "new_render_file": "tmp\\engraving\\real-score-judgment-2026-11-02\\read.png",
+    "last_render_sha256": "d4a44169d441be5bade8b519270b57a55d4de7c7aff5e62b8bcaf335827a0ac3"
+  },
+  "music_checks": {
+    "A079_J": {
+      "written_unit": "ordinary eighth",
+      "bars": 3,
+      "heads": 24,
+      "beamed_groups": 8,
+      "onsets_quarter_units": [
+        "0",
+        "1/2",
+        "1",
+        "3/2",
+        "2",
+        "5/2",
+        "3",
+        "7/2",
+        "4",
+        "9/2",
+        "5",
+        "11/2",
+        "6",
+        "13/2",
+        "7",
+        "15/2",
+        "8",
+        "17/2",
+        "9",
+        "19/2",
+        "10",
+        "21/2",
+        "11",
+        "23/2"
+      ],
+      "group_onsets": [
+        "0",
+        "3/2",
+        "3",
+        "9/2",
+        "6",
+        "15/2",
+        "9",
+        "21/2"
+      ],
+      "bar2_first_head_group_position": [
+        3,
+        3
+      ],
+      "bar3_first_head_group_position": [
+        6,
+        2
+      ],
+      "judgment": "retain; no newtuplet"
+    },
+    "A080_H": {
+      "heads_per_group": [
+        8,
+        7,
+        8,
+        5,
+        5
+      ],
+      "crossbar8_heads_left_right": [
+        3,
+        5
+      ],
+      "both5_beams": 2,
+      "conditional_only_ratios": [
+        "8:6",
+        "7:6",
+        "8:6",
+        "5:4",
+        "5:4"
+      ],
+      "conditional_crossbar_group_start": "7/2",
+      "conditional_fourth_head": "65/16",
+      "observed_upper_fourth_and_lower_bar_head_x_pt": 242.424,
+      "pitch_or_time_correction_authorized": false,
+      "judgment": "verify rhythm authority before layout; preserve original now"
+    },
+    "A091_D": {
+      "q_durations": [
+        "3/2",
+        "1/4",
+        "1/4",
+        "3/2",
+        "1/4",
+        "1/4"
+      ],
+      "q_starts": [
+        "0",
+        "3/2",
+        "7/4",
+        "2",
+        "7/2",
+        "15/4"
+      ],
+      "judgment": "retain simple long values"
+    },
+    "A091_B": {
+      "early_attack": "7/4",
+      "tied_receiver": "2",
+      "next_attack": "5/2",
+      "judgment": "retain visible third beat"
+    },
+    "A137_octave": {
+      "continuation": "p5s2 to p5s3",
+      "end": "p5s3bar2 tied eighth receiver atq3/2",
+      "following_two_eighth_onsets_q": [
+        "2",
+        "5/2"
+      ],
+      "judgment": "retain exact midbar endpoint"
+    },
+    "A137_dynamics": {
+      "I": "psub at initial lower entry;pp after upper dotted-quarter rest",
+      "L": "dim poco a poco linked across final two systems to pp; later tempo text separate",
+      "p5cresc_endpoint": "unknown; p6top has no visible matching continuation"
+    }
+  },
+  "source_protection": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kura Kura - SPY × FAMILY S2 - Opening Theme.pdf",
+      "bytes": 193745,
+      "sha256": "8ba563bd3d8b6d14862c83d9cc1c2944fa60e4472a30fd105b990bbbf8bb6989",
+      "after_sha256": "8ba563bd3d8b6d14862c83d9cc1c2944fa60e4472a30fd105b990bbbf8bb6989",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Mixed Nuts - SPY×FAMILY - Opening Theme.pdf",
+      "bytes": 169278,
+      "sha256": "a90ec5f84ac02781135891e067565e25971752bdd965150b039b4d4687d5aad4",
+      "after_sha256": "a90ec5f84ac02781135891e067565e25971752bdd965150b039b4d4687d5aad4",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\unlasting - Sword Art Online Alicization War of Underworld - Ending Theme.pdf",
+      "bytes": 165248,
+      "sha256": "ba9876a02a5429c832920d9a14a18ae3a313a27018f24c3b741fbd0ba30827c9",
+      "after_sha256": "ba9876a02a5429c832920d9a14a18ae3a313a27018f24c3b741fbd0ba30827c9",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "bytes": 68488,
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "after_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "bytes": 249752,
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "after_sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "bytes": 249473889,
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "after_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Kuchizuke Diamond - Yamada-kun and the Seven Witches - Opening Theme.pdf",
+      "sha256": "6a86fa3515a6b7da8c45abecebd10a9d1131655b26769a4305d69ca1cb2260f7",
+      "after_sha256": "6a86fa3515a6b7da8c45abecebd10a9d1131655b26769a4305d69ca1cb2260f7",
+      "unchanged_from_inventory": true,
+      "role": "supplement selected after initial freeze"
+    }
+  ],
+  "cache": {
+    "private_path": "tmp\\engraving\\real-score-judgment-2026-11-02",
+    "batch_budget_bytes": 1048576,
+    "global_cache_check_allowance_bytes": 3311337472,
+    "allowance_is_measured_total": false,
+    "method": "15full source and10full book images reused; onePNG overwritten10times; no original/runtime/media copies; no deletions",
+    "bytes_before_final_small_validation_record": 45655,
+    "files_before_final_small_validation_record": 5,
+    "actual_audit": {
+      "measured_at_utc": "2026-11-02T04:46:46.235178+00:00",
+      "global_bytes": 3281670420,
+      "global_files": 19154,
+      "global_scope": "tmp/engraving regular files, no symlink traversal; before this small record",
+      "local_bytes": 45655,
+      "local_files": 5,
+      "batch_budget_bytes": 1048576,
+      "global_check_allowance_bytes": 3311337472
+    }
+  },
+  "validation": {
+    "timing_arithmetic": "passed using Fraction; stated readings only, not author intent/playback",
+    "progress_check": "passed tools/engraving/progress.py --check",
+    "skill_frontmatter": "passed quick_validate.py",
+    "retrieval_regression": "6/6 passed test_engraving_library.py",
+    "diff_check": "passed after preserving LF line endings",
+    "new_note_routes": {
+      "available": [
+        "overview",
+        "spacing",
+        "rhythm",
+        "beams",
+        "markings",
+        "octaves",
+        "notation",
+        "layout"
+      ],
+      "coverage": [
+        8,
+        8
+      ]
+    },
+    "new_known_source_query": {
+      "topic": "layout",
+      "query": "跨页 终点",
+      "top_match": "REAL_SCORE_READING_TRADEOFFS.md",
+      "line": 51,
+      "scope": "source retrieval, not engraving judgment"
+    },
+    "generic_query_observation": "三音 显拍 and unlasting 行中 return existing relevant studies first; source-specific new study is also directly linked. No new accuracy claim."
+  }
+}
