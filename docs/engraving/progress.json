@@ -2947,10 +2947,22 @@
         "note": "RESOURCE_PLAN_MAPPING.md",
         "evidence": "shinianqi_source_evidence.json",
         "verified_account_uid": 341170626,
-        "remaining": "UID与合作谱规范检查署名已核；已实际读1/1公开预览、6系统m1–22。本人主页／目录、具体干预、教程及完整谱未核；合作预览不证明全部排法出自该人，状态partial保持。",
+        "remaining": "UID与合作谱规范检查署名已核；原狮尾之舞首图1/1（6系统m1–22）及补充两首图2/2已读。拾廿七本人主页／目录、具体干预、教程及完整谱未核；合作预览不证明全部排法出自该人，状态partial保持。",
         "actual_preview_note": "SHAMSHIR_PREVIEW_READING.md",
         "actual_preview_evidence": "shamshir_preview_evidence.json",
-        "latest_source_followup": "stem_optical_spacing_evidence.json: Purrvoice群青作者自述／杯中明月商品索引两合作线索，无新谱面或个人具体干预。"
+        "source_followup_history": [
+          "stem_optical_spacing_evidence.json: Purrvoice群青作者自述／杯中明月商品索引两合作线索，无新谱面或个人具体干预。"
+        ],
+        "latest_source_followup": "purrvoice_preview_reading_evidence.json: 两虫钢公开首图定位与读图2/2；没有取得个人具体干预依据。",
+        "supplemental_public_preview_reading": {
+          "reference": "PURRVOICE_PREVIEW_READING.md",
+          "evidence": "purrvoice_preview_reading_evidence.json",
+          "works_read": [
+            2,
+            2
+          ],
+          "scope": "Other Purrvoice public previews, no Shinianqi intervention attribution."
+        }
       },
       {
         "id": "R11",
@@ -3257,7 +3269,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.31固定显示组合、实谱3/3及Kokecola4/4；之后补充再按实际提交记录。资料16/25余9、动态／交换方案0/1，无新适配。",
+    "working_branch_note": "0.31之后补Purrvoice两公开预览2/2、四判断4/4；m8实为6＋6，m6显拍仅纸面候选。固定标签保持，资料16/25余9，无新原生或适配。",
     "evidence": "release_0_31_0_evidence.json"
   },
   "last_study_batch": {
@@ -3277,18 +3289,19 @@
     "new_source_media": 0,
     "new_native_diagnostic_conditions": 0,
     "native_CLI_calls": 0,
-    "book_reread_pages": 9,
+    "book_reread_pages": 7,
     "official_score_reread_pages": 0,
     "official_system_views_reused": 0,
     "date": "2026-11-02",
-    "scope": "Kokecola四问题4/4、七图7/7、九规范页复读；旧事实更正，无新首次覆盖、原生或适配。",
+    "scope": "Purrvoice两预览定位／读图2/2、四判断4/4；七完整规范页复读，另查五页正文。无首次覆盖、资源完成或原生适配。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "KOKE_COLA_CAUSAL_REVIEW.md"
+      "PURRVOICE_PREVIEW_READING.md"
     ],
-    "review_evidence": "kokecola_causal_review_evidence.json",
-    "software_adaptation": false
+    "review_evidence": "purrvoice_preview_reading_evidence.json",
+    "software_adaptation": false,
+    "new_public_preview_readings": 2
   },
   "latest_native_study": {
     "reference": "CROSSBAR_DISPLAY_COMPOSITION.md",
@@ -3826,30 +3839,43 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "KOKE_COLA_CAUSAL_REVIEW.md",
-    "evidence": "kokecola_causal_review_evidence.json",
+    "reference": "PURRVOICE_PREVIEW_READING.md",
+    "evidence": "purrvoice_preview_reading_evidence.json",
     "questions": [
       4,
       4
     ],
-    "author_figures_reread": [
-      7,
-      7
+    "public_previews_located": [
+      2,
+      2
+    ],
+    "public_previews_read": [
+      2,
+      2
+    ],
+    "systems": [
+      8,
+      8
     ],
     "Gould_full_printed_page_rereads": [
-      17,
-      18,
-      40,
-      43,
-      88,
-      89,
-      311,
-      312,
-      313
+      153,
+      156,
+      157,
+      167,
+      168,
+      169,
+      307
+    ],
+    "additional_Gould_text_checks": [
+      304,
+      305,
+      306,
+      310,
+      312
     ],
     "new_Gould_coverage": 0,
     "new_fixed_resource_completions": 0,
-    "scope": "更正两降号合列误读，区分声部休止、间距图混合变化及梁弧依赖；R10正文／浏览器仍不可读，无新增谱图。"
+    "scope": "两公开首图的具体分层／显拍／梁弧／容量判断；m8全小节连梁初读更正为6＋6，m6仅纸面候选。"
   },
   "judgment_review_history": [
     {
@@ -4025,19 +4051,23 @@
     "scope": "余9项R07–R15保持。R07/R08/R09预览118/118、82/82、32/32，R11两部分68/68＋165/165已看；仍缺细小校勘／声音／连续流程及R07旧版0/2、R10具体干预和R12–15实际教程。新CID公开预览已取得，不重试无变化的拒绝入口。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
-    "latest_available_supplement": "KOKE_COLA_CAUSAL_REVIEW.md",
+    "latest_available_supplement": "PURRVOICE_PREVIEW_READING.md",
     "official_preview_path_confirmed_for_R09": true,
     "official_preview_path_confirmed_for_R07_R08": true,
-    "next_readable_operation_reference": "跨线时点／显示组合和实谱3/3本批均已闭合；技术缺口留后续适配。继续可得实际讲解与新织体判断，不能反推Kura未知比例。",
+    "next_readable_operation_reference": "公开首图定位闭合；继续分层复拍子及内层保持两类真实上下文，余9项在有新可得材料时续读。",
     "next_R10_public_preview_search": {
       "planned_candidate_works": 2,
-      "source_previews_located": 0,
+      "source_previews_located": 2,
       "works": [
         "Purrvoice群青",
         "Purrvoice杯中明月"
       ],
       "purpose": "查作者其它公开预览来源，先核身份和实际可读图；不重复同一正文／浏览器失败路线，不把合作署名当具体干预。",
-      "scope": "两候选作品的来源定位，非新增固定资源项或完整谱页数"
+      "scope": "两来源定位与公开首图读图2/2；不代表两份完整谱或拾廿七具体干预已核。",
+      "source_previews_read": 2,
+      "reference": "PURRVOICE_PREVIEW_READING.md",
+      "evidence": "purrvoice_preview_reading_evidence.json",
+      "status": "public_preview_scope_complete"
     }
   },
   "next_layout_reading": {
@@ -4540,6 +4570,32 @@
       "new_Gould_coverage": 0,
       "new_fixed_resource_completions": 0,
       "scope": "跨线真实时点、常规拍组／无重音音阶／表情乐句、双音震音与图形补法分辨；声音／完整操作未核。"
+    },
+    {
+      "reference": "KOKE_COLA_CAUSAL_REVIEW.md",
+      "evidence": "kokecola_causal_review_evidence.json",
+      "questions": [
+        4,
+        4
+      ],
+      "author_figures_reread": [
+        7,
+        7
+      ],
+      "Gould_full_printed_page_rereads": [
+        17,
+        18,
+        40,
+        43,
+        88,
+        89,
+        311,
+        312,
+        313
+      ],
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "更正两降号合列误读，区分声部休止、间距图混合变化及梁弧依赖；R10正文／浏览器仍不可读，无新增谱图。"
     }
   ],
   "latest_source_identity_review": {
@@ -4661,5 +4717,15 @@
       "A137 p5cresc跨页逻辑终点"
     ],
     "next": "本批判断已闭合；继续不同织体的综合审谱和可得余9项，权威时值与作用范围到手再回访，不反复做孤立坐标微差。"
+  },
+  "next_layered_compound_reading_batch": {
+    "completed": 0,
+    "planned": 2,
+    "tasks": [
+      "慢线2＋1与复拍子运行的重音关系",
+      "内层换表引导与独立保持的关系"
+    ],
+    "method": "用真实完整系统及相邻上下文判断保留／候选，必要时原创等时值例；不以新计数替代未完成资源或开展软件适配。",
+    "reference": "PURRVOICE_PREVIEW_READING.md"
   }
 }

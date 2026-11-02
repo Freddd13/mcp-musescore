@@ -123,6 +123,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 长动态文字经`markings`／`layout`查`LONG_DYNAMIC_TEXT_STUDY.md`：先保完整指令、作用层和起止，再比较铺词、起点写全及续行提醒；多词／多行不自动变成多次力度。短发夹和文字也可能参与横向预算，软件最小值不能直接当规范。
 
+分层复拍子可经`piano`／`rhythm`查`PURRVOICE_PREVIEW_READING.md`：先核真实梁端，再分长弧、拍组和换表；共头双干可有不同释放与休止，不自动合并。显拍改写须保每层持续，并核是否刻意表达异重音。
+
 间距检查须量到接收点，不只看连音内部几个头。经`spacing`／`rhythm`查`SHAMSHIR_PREVIEW_READING.md`：另一层插入事件仍应保护主要脉冲；梁内休止与拍端延梁分别判断。公开合作署名不证明具体排法的修改者，也不证明源软件。
 
 涉及MusicXML导回时，经`beams`／`notation`查`BEAM_EXCHANGE_CLEF_STUDY.md`：逻辑归属、显示staffMove、逐音干向和逐层梁断口分别核；合并后的起音相同仍可能改变轨道、释放与读法。原生副本候选和格式转换各记验证范围。

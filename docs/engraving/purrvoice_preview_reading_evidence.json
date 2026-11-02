@@ -1,0 +1,342 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "scope": "Two already acquired public first-preview images; four contextual reading questions, no full paid scores or author intervention attribution.",
+  "previous_goal_turn": "no progress on learning: status reply; local command and node observation failed. Current turn recovered using explicit cmd launch and inspected actual worktree before edits.",
+  "source_previews_located": [
+    2,
+    2
+  ],
+  "source_previews_read": [
+    2,
+    2
+  ],
+  "source_metadata": [
+    {
+      "work_id": "1017408",
+      "detail_url": "https://www.gangqinpu.com/cchtml/1017408.htm",
+      "source_url": "https://s201.lzjoy.com/res/statics/fileupload/7a65c522976a8dbd28eea797826a2ce262a68f012bb11_3.png",
+      "http": 200,
+      "content_type": "image/png",
+      "actual_format": "JPEG",
+      "width": 1600,
+      "height": 2262,
+      "bytes": 569786,
+      "sha256": "ea481e6bf8a7ebe0e51af04b7f3b163dac4e8befd831fe3348299fa82005e86b",
+      "private_path": "tmp\\engraving\\purrvoice-previews-2026-11-02\\gunjou-public-preview.jpg",
+      "purpose": "ingest the author-platform public score preview for notation analysis, no full/paywalled score, no display publication",
+      "readable_image_inspection": "full first preview plus targeted crops actually inspected; no full paid score"
+    },
+    {
+      "work_id": "1078420",
+      "detail_url": "https://www.gangqinpu.com/cchtml/1078420.htm",
+      "source_url": "https://s201.lzjoy.com/res/statics/fileupload/img/20231023151228_5053865361d0853b06_3.png",
+      "http": 200,
+      "content_type": "image/png",
+      "actual_format": "JPEG",
+      "width": 1600,
+      "height": 2261,
+      "bytes": 359033,
+      "sha256": "8cdb5934684cc34bfb4d1b2a4c623b493c79a5025638452dd375904b6e4a7f8f",
+      "private_path": "tmp\\engraving\\purrvoice-previews-2026-11-02\\moon-public-preview.jpg",
+      "purpose": "ingest the author-platform public score preview for notation analysis, no full/paywalled score, no display publication",
+      "readable_image_inspection": "full first preview plus targeted crops actually inspected; no full paid score"
+    }
+  ],
+  "systems_read": [
+    8,
+    8
+  ],
+  "visible_ranges": [
+    {
+      "work": "Gunjou",
+      "work_id": "1017408",
+      "systems": [
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "complete_measures": 17,
+      "public_preview": "1/9"
+    },
+    {
+      "work": "Moon in Ones Cup",
+      "work_id": "1078420",
+      "systems": [
+        [
+          1,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "complete_measures": 9,
+      "pickup": true,
+      "public_preview": "1/5",
+      "version_boundary": "Other previously read storefront listed four pages; identity with this five-page version unproven."
+    }
+  ],
+  "questions_analyzed": [
+    4,
+    4
+  ],
+  "questions": [
+    {
+      "case": "Gunjou m9 and m11-13",
+      "judgment": "Preserve dotted inner-line guides and independent sustains; no glissando inference or automatic single-voice consolidation."
+    },
+    {
+      "case": "Moon m6, related long values m8",
+      "judgment": "Preserve opposite stems and distinct release/rest. Conditional beat-exposing notation proposal; check 2+1 counter-metric intent and consistent context first."
+    },
+    {
+      "case": "Moon m8",
+      "judgment": "Preserve two six-head ordinary semiquaver beams, cross-staff transfer within first beat and long slur over the complete ascent."
+    },
+    {
+      "case": "Gunjou row capacities and m14-17 marks; Moon pickup and transitions",
+      "judgment": "Preserve context-dependent row capacity and time-specific entries; visible page edge is not a spanner endpoint."
+    }
+  ],
+  "initial_reading_correction": "Moon m8 was initially described as a whole-bar undivided beam. Targeted beam-end crop shows 6+6, first group four lower-staff plus two upper-staff heads. Long slur was conflated with beam continuity; prior undivided-beam explanation withdrawn.",
+  "source_crops_inspected": [
+    {
+      "source": "moon-public-preview.jpg",
+      "box": [
+        180,
+        1040,
+        1490,
+        1480
+      ]
+    },
+    {
+      "source": "moon-public-preview.jpg",
+      "box": [
+        1070,
+        1090,
+        1490,
+        1430
+      ]
+    },
+    {
+      "source": "gunjou-public-preview.jpg",
+      "box": [
+        580,
+        985,
+        1535,
+        1315
+      ]
+    },
+    {
+      "source": "moon-public-preview.jpg",
+      "box": [
+        580,
+        1535,
+        1090,
+        1940
+      ]
+    },
+    {
+      "source": "gunjou-public-preview.jpg",
+      "box": [
+        80,
+        1730,
+        1530,
+        2160
+      ]
+    },
+    {
+      "source": "moon-public-preview.jpg",
+      "box": [
+        605,
+        1575,
+        1080,
+        1780
+      ]
+    }
+  ],
+  "gould_full_page_rereads": [
+    153,
+    156,
+    157,
+    167,
+    168,
+    169,
+    307
+  ],
+  "gould_additional_text_checks": [
+    304,
+    305,
+    306,
+    310,
+    312
+  ],
+  "book_page_mapping": "Printed p -> zero-based file index p+19",
+  "new_gould_first_coverage": 0,
+  "new_official_corpus_coverage": 0,
+  "new_fixed_resource_completions": 0,
+  "r10_status": "partial; these author previews do not prove Shinianqi-specific intervention",
+  "m6_paper_arithmetic": {
+    "checked": true,
+    "bar_quarters": "3",
+    "upper_hold_until": "9/4",
+    "inner_release": "2",
+    "inner_rest": [
+      "2",
+      "9/4"
+    ],
+    "new_attacks": [
+      "9/4",
+      "5/2",
+      "11/4"
+    ],
+    "native_candidate_generated": false
+  },
+  "m8_rhythm": {
+    "ordinary_sixteenths": 12,
+    "beam_groups": [
+      6,
+      6
+    ],
+    "first_group_display_staves": [
+      "lower",
+      "lower",
+      "lower",
+      "lower",
+      "upper",
+      "upper"
+    ],
+    "second_group_display_staves": [
+      "upper",
+      "upper",
+      "upper",
+      "upper",
+      "upper",
+      "upper"
+    ],
+    "beam_boundary_q": "3/2",
+    "staff_transfer_q": "1",
+    "tuplet_inferred": false
+  },
+  "web_documentation_checked": [
+    "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_page_layout_options_r.html",
+    "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_individual_rhythmic_positions_t.html",
+    "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/engrave_mode/engrave_mode_note_spacing_individual_notes_independent_of_rhythmic_position_t.html",
+    "https://lilypond.org/doc/v2.26/Documentation/notation/horizontal-spacing-overview",
+    "https://lilypond.org/doc/v2.26/Documentation/notation/changing-horizontal-spacing-globally",
+    "https://lilypond.org/doc/v2.26/Documentation/notation/proportional-notation"
+  ],
+  "native_calls": 0,
+  "new_user_preferences": 0,
+  "software_adaptation": false,
+  "source_media_downloads_this_turn": 0,
+  "original_inputs_before": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "original_inputs_after": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    }
+  ],
+  "original_inputs_unchanged": true,
+  "private_cache": {
+    "path": "tmp/engraving/purrvoice-previews-2026-11-02",
+    "budget_bytes": 2097152,
+    "bytes": 1054930,
+    "files": [
+      {
+        "path": "details.json",
+        "bytes": 17673
+      },
+      {
+        "path": "gunjou-public-preview.jpg",
+        "bytes": 569786
+      },
+      {
+        "path": "lookup.json",
+        "bytes": 11531
+      },
+      {
+        "path": "moon-public-preview.jpg",
+        "bytes": 359033
+      },
+      {
+        "path": "protection_before.json",
+        "bytes": 618
+      },
+      {
+        "path": "publish_notes.py",
+        "bytes": 14846
+      },
+      {
+        "path": "read.png",
+        "bytes": 77555
+      },
+      {
+        "path": "review_batch.py",
+        "bytes": 2186
+      },
+      {
+        "path": "source_images.json",
+        "bytes": 1702
+      }
+    ],
+    "one_overwritten_read_image": "read.png",
+    "overwrites_this_turn": 13,
+    "source_images_in_git": false,
+    "deletions": 0
+  },
+  "verification": {
+    "status": "passed",
+    "progress_check": true,
+    "skill_structure_valid": true,
+    "existing_retrieval_regression": [6, 6],
+    "targeted_new_case_queries": [3, 3],
+    "new_reference_routes": [8, 8],
+    "diff_check": true,
+    "scope": "Reference availability, retrieval and progress consistency; not engraving accuracy, user adoption or native rendering."
+  }
+}
