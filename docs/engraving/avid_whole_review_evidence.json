@@ -1,0 +1,398 @@
+{
+  "date": "2026-11-03",
+  "reference": "AVID_WHOLE_REVIEW.md",
+  "scope": {
+    "whole_scores": [
+      1,
+      1
+    ],
+    "full_score_pages": [
+      5,
+      5
+    ],
+    "planned_questions": [
+      3,
+      3
+    ],
+    "focused_crop_views": [
+      5,
+      5
+    ],
+    "Gould_full_page_rereads": [
+      6,
+      6
+    ]
+  },
+  "method": "Root-only whole-score rereading. Previously included in corpus first-pass/closeout; not unseen/independent/blind. This pass freezes initial judgments before consulting score-specific older notes or targeted norms.",
+  "frozen_initial": {
+    "path": "tmp\\engraving\\whole-review-avid-2026-11-03\\initial_judgment.md",
+    "sha256": "0890ffad2b7a1d9c55de7e0a5484417064bf15d5f8abe465fdf889ac3e57dc12",
+    "contents": "# A016 Avid：本轮初判冻结\n\n已顺序实看现有整页图1–5。以下在查本曲旧笔记、定向规范和放大／计量前记录；历史上读过全目录，本轮不称陌生谱或独立盲测。\n\n1. **导航与分层力度：优先保留，核实际来路。** 首次顺序经过C、D、E、F，p3的D.S.应回p2 C处segno，再在p2的to Coda转p3行中尾声，接G。E有una corda，F有tre corde，C附近另有高层mp与主层f。需要按两次来路解释其状态，不能把多个力度当作重复错误或仅按上下谱表合并。尚未展开核到每个连接／标记的精确时点。\n\n2. **H行中入口：有另起行的比较价值，暂不判为错误。** p4第二行第三小节H在sfz及收束之后，以p calando／una corda开始，上层有跨边界tie。另起行可能更利于准备软化段；前面两小节的疏密、全页行数和持续连接是代价。需核规范条件及可用预算，不能套上次“段首优先另起行”的结论。\n\n3. **结尾长串音：先核时值，再评价间距。** p5末系统由3/4回C，长串小音值、8va与末尾长音／延长相接。当前整页图不足以确认全部数量和实际比例；暂不报缺连音数字，也不把整串等距当节拍正确的证明。p2末行的九音组、p4连接I前10／5组可作本曲体例对照。\n\n整体判断：多数拍内不均匀与附点／切分、独立层事件有关；现无理由为了“出版感”全谱拉匀。空高谱表上的低表r.h.及K段上表l.h.提示值得保留，说明显示谱表不能直接决定用手。还需细读，不把初判写成最终结论。\n"
+  },
+  "source": {
+    "id": "A016",
+    "relative_path": "Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "sha256": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+    "bytes": 161754,
+    "pages": 5,
+    "metadata": {
+      "/CreationDate": "D:20221010191207",
+      "/Creator": "PDFium",
+      "/Producer": "PDFium"
+    },
+    "page_sizes_pt": [
+      [
+        595.22,
+        842.0
+      ]
+    ],
+    "inventory_status": "readable"
+  },
+  "score_source_sha256_before": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+  "score_source_sha256_after": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+  "source_render_manifest": {
+    "path": "tmp/engraving/corpus/A016/render.json",
+    "sha256": "9c26b66c72dfb3551f14675025f68397d16ea5d5dfaed2318c9c4b0336100d31",
+    "method": "Reused1800px Poppler full-page JPEGs bound to the recorded source hash; no new reference-PDF copies."
+  },
+  "full_score_images_actually_viewed": [
+    {
+      "page": 1,
+      "path": "tmp/engraving/corpus/A016/page-1.jpg",
+      "sha256": "e2a8840ae0c01b3e9ffe4bbaa86e8f5a44b2fb570be98ed90d387ccd37cdcd51"
+    },
+    {
+      "page": 2,
+      "path": "tmp/engraving/corpus/A016/page-2.jpg",
+      "sha256": "ddd3830a2fc30126d1e40c642b83c06293f8650f0292dda8cd9cf4f87b726e2c"
+    },
+    {
+      "page": 3,
+      "path": "tmp/engraving/corpus/A016/page-3.jpg",
+      "sha256": "a25c924757567bb0156a3e2349438639db06bb5f638ff79526d55e24690daf80"
+    },
+    {
+      "page": 4,
+      "path": "tmp/engraving/corpus/A016/page-4.jpg",
+      "sha256": "f3c743c6833e18d87a19817680161c8827ca0a4acfb436edcb5d110c133036ff"
+    },
+    {
+      "page": 5,
+      "path": "tmp/engraving/corpus/A016/page-5.jpg",
+      "sha256": "06f9c4ea5b95b3a27bad0a16c1a91500dce48977b0820ae80b224c45cc098abf"
+    }
+  ],
+  "Gould_images_actually_viewed": [
+    {
+      "printed_page": 240,
+      "path": "tmp/engraving/repeat-navigation-2026-10-20/book-p240.jpg",
+      "sha256": "a73e6a89cf3704a0ed3519e6f20aeeaeeba1a3a78e5ce35c0fa4830f75e80a4f"
+    },
+    {
+      "printed_page": 336,
+      "path": "tmp/engraving/piano-2026-10-19/book-336.jpg",
+      "sha256": "e5a6181fa3f47bbd8b0397ffcba0f60c2e51ff34b164c41e973a721f99c1a8ed"
+    },
+    {
+      "printed_page": 337,
+      "path": "tmp/engraving/piano-2026-10-19/book-337.jpg",
+      "sha256": "f829990ad08fe0abe3be5c36c330297de27cd14c3635709a4a36a2b2969ae286"
+    },
+    {
+      "printed_page": 487,
+      "path": "tmp/engraving/nagi-nier-2026-10-29/book-printed-487.jpg",
+      "sha256": "ee00d7b198334cf964a0efd08fdd2f800fa4b18b83a98cfa40c5454171b3c6ae"
+    },
+    {
+      "printed_page": 489,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-489-reread.jpg",
+      "sha256": "ac045d65331dc657d6377b966383dc95e7322b8a53c1ecbf27ca34956324cf6d"
+    },
+    {
+      "printed_page": 490,
+      "path": "tmp/engraving/continuity-reading-2026-10-26/book-490-reread.jpg",
+      "sha256": "9023550d44cc4266a0f26ff6bc2732c1a7eb7f529fa8c7251465d20af3c7ffb3"
+    }
+  ],
+  "geometry": {
+    "score_id": "A016",
+    "page": 4,
+    "system": 2,
+    "written_measures": [
+      56,
+      57,
+      58
+    ],
+    "H_measure": 58,
+    "vertical_lines_pt": [
+      36.234,
+      233.154,
+      396.432,
+      398.556,
+      558.918
+    ],
+    "line_y_range_pt": [
+      204.498,
+      266.148
+    ],
+    "double_bar_before_H_pt": [
+      396.432,
+      398.556
+    ],
+    "system_staff_width_pt": 522.684,
+    "H_width_pt": 160.36200000000002,
+    "H_share_of_staff_width_percent": 30.6804876368896,
+    "scope": "Measured printed geometry only. Removing H frees this width; neither exact MuseScore reflow nor alternative feasibility has been tested.",
+    "regular_lower_sixteenths": [
+      {
+        "written_measure": 56,
+        "lower_staff_heads": 16,
+        "x_pt": [
+          64.638,
+          75.078,
+          85.356,
+          95.796,
+          106.254,
+          116.514,
+          126.972,
+          137.232,
+          147.69,
+          158.13,
+          168.408,
+          178.848,
+          189.306,
+          199.566,
+          210.024,
+          220.284
+        ],
+        "gaps_pt": [
+          10.439999999999998,
+          10.277999999999992,
+          10.440000000000012,
+          10.457999999999998,
+          10.259999999999991,
+          10.457999999999998,
+          10.260000000000005,
+          10.457999999999998,
+          10.439999999999998,
+          10.277999999999992,
+          10.440000000000026,
+          10.457999999999998,
+          10.259999999999991,
+          10.457999999999998,
+          10.259999999999991
+        ],
+        "median_gap_pt": 10.439999999999998,
+        "min_gap_pt": 10.259999999999991,
+        "max_gap_pt": 10.457999999999998
+      },
+      {
+        "written_measure": 57,
+        "lower_staff_heads": 8,
+        "x_pt": [
+          239.058,
+          249.516,
+          259.956,
+          270.414,
+          281.034,
+          291.474,
+          301.932,
+          312.372
+        ],
+        "gaps_pt": [
+          10.457999999999998,
+          10.440000000000026,
+          10.45799999999997,
+          10.620000000000005,
+          10.439999999999998,
+          10.458000000000027,
+          10.439999999999998
+        ],
+        "median_gap_pt": 10.45799999999997,
+        "min_gap_pt": 10.439999999999998,
+        "max_gap_pt": 10.620000000000005
+      }
+    ],
+    "cross_bar_head_gap_pt": 18.774
+  },
+  "questions_addressed": [
+    {
+      "question": "whole-score roles and navigation",
+      "judgment": "Keep the independent same-row Coda segment and layer-specific dynamics; follow1-48,21-27,49-88. F tre corde precedes the D.S. return; E is not replayed.",
+      "evidence": "Five complete pages,focused p2segno/toCoda and p3D.S./Coda; Gould240,336-337,487. Written bar numbering is reused fromT06,not a new independent count."
+    },
+    {
+      "question": "spacing occupancy versus distortion",
+      "judgment": "H uses30.6805%of its printed row. Lower sixteenth pulse is stable within m56/m57; cross-bar gap is a separate context. Removing H requires redistribution,not free space.",
+      "evidence": "One printed system measured from PDF vector lines and24same-size notehead origins; no native alternate layout tested."
+    },
+    {
+      "question": "voice/staff/marking consistency and scope",
+      "judgment": "Retain hand and layer cues,lower H reflow priority; prioritize comparison of m65whole-measure/continuation readability. Reuse m87free-ending interpretation without resolving unknown exact timing.",
+      "evidence": "Whole-score images and Gould489-490; prior T06technical results explicitly reused,not new discoveries."
+    }
+  ],
+  "prior_work_reused": {
+    "note": "SKILL_TRANSFER_NOTATION.md",
+    "evidence": "skill_transfer_notation_evidence.json",
+    "facts": [
+      "88written bars/29physical rows/30staff segments",
+      "m65whole-bar split and10/5/ordinary-eighth scope",
+      "m87small0.75notes andfree-ending interpretation",
+      "written navigation route"
+    ]
+  },
+  "initial_to_final": {
+    "H": "Initial worth-comparing judgment refined to low-priority retention after whole-page cost and norms; alternate not disproved.",
+    "m87": "Recognized existing explanation and unresolved author timing; no fabricated new solution.",
+    "priority": "m65continuation count burden precedes optional Hvisual separation."
+  },
+  "new_corpus_or_Gould_coverage": 0,
+  "new_fixed_resource_completions": 0,
+  "fixed_resources": [
+    16,
+    25
+  ],
+  "remaining_resources": [
+    "R07",
+    "R08",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15"
+  ],
+  "new_skill_transfer_scenario_count": 0,
+  "fixed_skill_transfer_coverage": [
+    8,
+    8
+  ],
+  "native_or_software_changes": false,
+  "user_aesthetic_adoption": false,
+  "not_achieved": [
+    "native H/m65alternative layouts",
+    "m87author timing/source project",
+    "runtime playback routes andpedal mapping",
+    "actual paper-turn usability",
+    "independent/blind general accuracy"
+  ],
+  "private_cache": {
+    "path": "tmp\\engraving\\whole-review-avid-2026-11-03",
+    "budget_bytes": 1048576,
+    "policy": "Reuse five score images andsixbook images; one overwritten crop PNG. No source PDF/MSCZ/runtime copies or deletion.",
+    "bytes": 95930,
+    "files": [
+      {
+        "path": "checks.json",
+        "bytes": 3114,
+        "sha256": "5ab58061bea7023310173975e452e94b527f37a2794613cad100a6f37cbb49c7"
+      },
+      {
+        "path": "geometry.json",
+        "bytes": 2185,
+        "sha256": "a4a4131cdf845b455a1e6cca68bfc369bd9996ee77b1f47cbfaaa33c21a6f82e"
+      },
+      {
+        "path": "initial_judgment.md",
+        "bytes": 1633,
+        "sha256": "0890ffad2b7a1d9c55de7e0a5484417064bf15d5f8abe465fdf889ac3e57dc12"
+      },
+      {
+        "path": "measure.py",
+        "bytes": 2201,
+        "sha256": "0e64704534cdb616c36178c1cf6538f4303220c9e4d2e2cfcd8983d25dc9cbce"
+      },
+      {
+        "path": "plan_before_views.json",
+        "bytes": 1639,
+        "sha256": "12195ff22e4b9e267cbbda7eee078b8ee4ec837815d3343fcfa55eedfa2d5815"
+      },
+      {
+        "path": "publish.py",
+        "bytes": 10228,
+        "sha256": "a153f7dc6ebef537e13621716d26a87949ac69d4e0f773d840ea4c41095c827c"
+      },
+      {
+        "path": "queries.json",
+        "bytes": 14575,
+        "sha256": "ecd8c6cc6732d9d47c7c1828bf3693ba10fefd1b6e2bceeceba31721cf0c52d0"
+      },
+      {
+        "path": "read.png",
+        "bytes": 51955,
+        "sha256": "7530500d5040b0f6a5f52225e034af03f49f874a5bb9f7fdfbf9843aa5d035f2"
+      },
+      {
+        "path": "render_log.jsonl",
+        "bytes": 1063,
+        "sha256": "7a5a24d93ea0014b765b58b8842f9dd5d8dac5ef479d3519b1b27dba63488463"
+      },
+      {
+        "path": "validate.py",
+        "bytes": 5710,
+        "sha256": "e7451663be38789cccdf90e496bf1ca85d40bd2135793f0cc4097fb1ae349a0b"
+      },
+      {
+        "path": "validation_report.json",
+        "bytes": 809,
+        "sha256": "268a20b2002fa62322b9fcdc3aae76291f978770cc4e38fe3c6073e4b28e903b"
+      },
+      {
+        "path": "view.py",
+        "bytes": 818,
+        "sha256": "53442ac2e03a86beaf97511993224fd6735252175f031b89a2821a3b3f2f2978"
+      }
+    ],
+    "maximum_overwritten_read_png_bytes": 167557,
+    "conservative_peak_upper_bound_bytes": 211532
+  },
+  "validation": {
+    "status": "passed",
+    "recorded_at_utc": "2026-11-02T19:20:17.540699+00:00",
+    "checks": [
+      {
+        "name": "progress",
+        "exit_code": 0
+      },
+      {
+        "name": "skill",
+        "exit_code": 0
+      },
+      {
+        "name": "retrieval",
+        "exit_code": 0
+      },
+      {
+        "name": "diff",
+        "exit_code": 0
+      }
+    ],
+    "CLI_regressions": [
+      6,
+      6
+    ],
+    "targeted_queries": [
+      4,
+      4
+    ],
+    "topic_routes": [
+      7,
+      7
+    ],
+    "fixed_resources": [
+      16,
+      25
+    ],
+    "fixed_skill_transfer_coverage": [
+      8,
+      8
+    ],
+    "source_PDF_and11_reused_images_unchanged": true,
+    "initial_judgment_unchanged": true,
+    "fixed_0_33_tag_and_manifest_unchanged": true,
+    "boundary": "Retrieval/format/evidence consistency only; not blind musical accuracy or native-layout validation."
+  }
+}

@@ -3285,7 +3285,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.33保留；工作分支补R12预览117/117及R13预览89/89，两项均partial。资料16/25余9，无新原生／适配，当前增量引用实际分支提交。",
+    "working_branch_note": "固定0.33保留；工作分支含R12／R13公开预览partial及Avid整曲复审。H与连续细分新增纸面计量，资料16/25余9，无新原生／适配；增量引用实际分支提交。",
     "evidence": "release_0_33_0_evidence.json"
   },
   "last_study_batch": {
@@ -3302,25 +3302,25 @@
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
-    "new_source_media": 1,
+    "new_source_media": 0,
     "new_native_diagnostic_conditions": 0,
     "native_CLI_calls": 0,
-    "book_reread_pages": 0,
-    "official_score_reread_pages": 0,
+    "book_reread_pages": 6,
+    "official_score_reread_pages": 5,
     "official_system_views_reused": 0,
     "date": "2026-11-03",
-    "scope": "增加／拆分谱表及图形补法条件已梳理；整条源表的按音高拆分与局部跨表需求分开，未验证完整操作／声音。",
+    "scope": "Avid五页／三问题复审闭合；H新计量一系统，保分层及独立Coda，m65续读优先比较。旧m87问题保持，不增加首次覆盖。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "STAFF_TUTORIAL_READING.md"
+      "AVID_WHOLE_REVIEW.md"
     ],
-    "review_evidence": "staff_tutorial_reading_evidence.json",
+    "review_evidence": "avid_whole_review_evidence.json",
     "software_adaptation": false,
-    "new_public_preview_readings": 1,
+    "new_public_preview_readings": 0,
     "public_preview_rereads": 0,
-    "public_preview_cells_read": 89,
-    "focused_preview_rechecks": 12
+    "public_preview_cells_read": 0,
+    "focused_preview_rechecks": 0
   },
   "latest_native_study": {
     "reference": "SECTION_ENTRY_CASTING_STUDY.md",
@@ -3874,19 +3874,25 @@
     }
   ],
   "latest_judgment_review": {
-    "reference": "SUGAR_HANDOVER_REVIEW.md",
-    "evidence": "sugar_handover_review_evidence.json",
-    "reviewed_cases": 3,
-    "planned_cases": 3,
-    "official_full_page_rereads": 7,
-    "Gould_full_printed_page_rereads": 6,
-    "decisions": {
-      "retain_six_note_handover": 1,
-      "retain_prefix_space_baseline": 1,
-      "raise_L_new_system_comparison_priority": 1
-    },
-    "scope": "七页先读、冻结初判后查旧笔记／规范；已读材料的主agent自复核，不计独立盲测。L初判优先级修正，无原生重排或个人审美反馈。",
-    "new_native_conditions": 0
+    "reference": "AVID_WHOLE_REVIEW.md",
+    "evidence": "avid_whole_review_evidence.json",
+    "whole_scores": [
+      1,
+      1
+    ],
+    "full_pages": [
+      5,
+      5
+    ],
+    "questions": [
+      3,
+      3
+    ],
+    "Gould_rereads": [
+      6,
+      6
+    ],
+    "scope": "整曲复审及H纸面容量／连续细分新计量；旧T06结论明确复用，不增加覆盖、独立迁移或原生候选。"
   },
   "latest_supplemental_reading": {
     "reference": "STAFF_TUTORIAL_READING.md",
@@ -4024,6 +4030,21 @@
       "Gould_full_printed_page_rereads": 13,
       "scope": "主agent预选／冻结后复核，历史已读材料；A079在核查阶段补入，不计独立盲测或准确率。Kura处理顺序修正，跨页cresc.终点仍未知。",
       "new_native_conditions": 0
+    },
+    {
+      "reference": "SUGAR_HANDOVER_REVIEW.md",
+      "evidence": "sugar_handover_review_evidence.json",
+      "reviewed_cases": 3,
+      "planned_cases": 3,
+      "official_full_page_rereads": 7,
+      "Gould_full_printed_page_rereads": 6,
+      "decisions": {
+        "retain_six_note_handover": 1,
+        "retain_prefix_space_baseline": 1,
+        "raise_L_new_system_comparison_priority": 1
+      },
+      "scope": "七页先读、冻结初判后查旧笔记／规范；已读材料的主agent自复核，不计独立盲测。L初判优先级修正，无原生重排或个人审美反馈。",
+      "new_native_conditions": 0
     }
   ],
   "latest_library_query": {
@@ -4036,20 +4057,20 @@
     "scope": "20入口、既有五类来源与六项回归保持；新m97／端点整页问题定位另核，不计独立净书判断准确率。",
     "new_known_source_smoke_cases": 2,
     "latest_supplemental_query_check": {
-      "evidence": "staff_tutorial_reading_evidence.json",
+      "evidence": "avid_whole_review_evidence.json",
       "targeted_queries": [
         4,
         4
       ],
       "topic_routes": [
-        6,
-        6
+        7,
+        7
       ],
       "CLI_regressions": [
         6,
         6
       ],
-      "scope": "Known-source retrieval and usability checks; not engraving judgment accuracy."
+      "scope": "Retrieval/format/evidence consistency only; not blind musical accuracy or native-layout validation."
     }
   },
   "next_native_batch": {
@@ -4109,7 +4130,7 @@
     "latest_available_supplement": "STAFF_TUTORIAL_READING.md",
     "official_preview_path_confirmed_for_R09": true,
     "official_preview_path_confirmed_for_R07_R08": true,
-    "next_readable_operation_reference": "R13公开预览89/89及三问题已梳理；接着将现有知识用于完整上下文综合审谱，余9项原范围保持，实际遇到需要时继续补可得讲解。",
+    "next_readable_operation_reference": "R13公开预览89/89之后，Avid完整上下文复审1/1首、5/5页已核。优先比较m65完整小节／续读方案；九项资料范围保持，继续补可得实际内容。",
     "next_R10_public_preview_search": {
       "planned_candidate_works": 2,
       "source_previews_located": 2,
@@ -4891,5 +4912,26 @@
       "Gunjou精确指持／踏板与工程voice"
     ],
     "next": "本批分析闭合；显拍原生比较仍待做。优先补可得余9项的完整讲解／操作，并在真实谱例中继续检验。"
+  },
+  "latest_whole_score_review": {
+    "reference": "AVID_WHOLE_REVIEW.md",
+    "evidence": "avid_whole_review_evidence.json",
+    "whole_scores": [
+      1,
+      1
+    ],
+    "full_pages": [
+      5,
+      5
+    ],
+    "questions": [
+      3,
+      3
+    ],
+    "Gould_rereads": [
+      6,
+      6
+    ],
+    "scope": "整曲复审及H纸面容量／连续细分新计量；旧T06结论明确复用，不增加覆盖、独立迁移或原生候选。"
   }
 }
