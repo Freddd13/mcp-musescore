@@ -1,5 +1,10 @@
 # 独立净书复现谱例
 
+## 半小节续行与MIDI拍号
+
+2026-11-03原创三小节模型，CC0-1.0：[完整A](split-bar-intact.mscx)、[拆行B](split-bar-unmarked-experimental.mscx)、[提示C](split-bar-reminder-experimental.mscx)及[原生对照图](split-bar-native-comparison.png)。44次原生起音／释放／控制相同，拆行导出新增2/4；C为固定印刷实验，非通用导出方案。图仅白底、裁空白与标记，音乐比例保持。见[研究及范围](../SPLIT_BAR_CONTINUATION_STUDY.md)。
+
+
 2026-11-03新增[段首／末行研究](../SECTION_ENTRY_CASTING_STUDY.md)八份CC0资产：`section-entry-continuous/reflow/extra-row/filled.mscx`四输入及同名四张原生整页PNG。16小节222音；A／B／C只改分行，D在B上补末行填充。本例优先D、C过松不取；有2/2重载及完整MIDI核对，均非官谱转写或全谱预设。
 
 2026-11-02新增[显示组合研究](../CROSSBAR_DISPLAY_COMPOSITION.md)五份CC0资产：`crossbar-display-wide/narrow/linebreak-experimental.mscx`三输入和宽度／失败两图。宽版只作固定单行候选；窄版显示旧偏移的变化，换行版拒绝。保同音真实tie及计量，内部仍为局部Tuplet；不作全谱或交换模板。

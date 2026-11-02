@@ -1,0 +1,1074 @@
+{
+  "date": "2026-11-03",
+  "reference": "SPLIT_BAR_CONTINUATION_STUDY.md",
+  "scope": {
+    "date": "2026-11-03",
+    "purpose": "Original three-bar piano model of mid-bar a tempo/ff and10:8 plus5:4 run. Not an Avid transcription or proof its full page fits.",
+    "conditions": {
+      "A": "three intact4/4bars",
+      "B": "logical65 stored as two2/4actual segments,4/4nominal retained,open end andnumber compensation",
+      "C": "B plus explicit parenthesized65/beat3reminder"
+    },
+    "planned_conditions": 3,
+    "planned_saved_reload": 1,
+    "planned_native_calls": 13,
+    "cache_budget_bytes": 4194304,
+    "source_Avid_native_candidate": [
+      0,
+      1
+    ],
+    "new_reference_coverage": 0,
+    "software_adaptation": false,
+    "source_or_runtime_copies": 0,
+    "original_scores_read_only": true,
+    "original_composition": true,
+    "license": "CC0-1.0"
+  },
+  "followup_scope": {
+    "reason": "Native note events appear preserved but split MIDI adds2/4atq4 and4/4atq8. Check MusicXML import andordinary intact control before judging exchange safety.",
+    "planned_extra_calls": 5,
+    "planned_total_calls": 18,
+    "new_conditions": 0,
+    "new_save_reload": 0
+  },
+  "verification": {
+    "status": "passed",
+    "conditions": [
+      3,
+      3
+    ],
+    "saved_reload": [
+      1,
+      1
+    ],
+    "MusicXML_import_scope": [
+      1,
+      1
+    ],
+    "native_calls": 18,
+    "recipe_events": 32,
+    "written_records_per_readback": {
+      "A": 47,
+      "B": 47,
+      "C": 47,
+      "C-reload": 47,
+      "C-import": 47
+    },
+    "note_attacks": 44,
+    "all_six_MIDI_note_onsets_match_recipe": true,
+    "native_channel_events_identical": true,
+    "native_non_meter_non_EOT_events_identical": true,
+    "native_complete_MIDI_equal": false,
+    "B_C_reload_complete_MIDI_equal": true,
+    "MIDI_bytes": {
+      "A": 441,
+      "B": 459,
+      "C": 459,
+      "C-reload": 459,
+      "A-import": 431,
+      "C-import": 449
+    },
+    "MIDI_meters": {
+      "A": [
+        [
+          "0",
+          4,
+          4
+        ]
+      ],
+      "B": [
+        [
+          "0",
+          4,
+          4
+        ],
+        [
+          "4",
+          2,
+          4
+        ],
+        [
+          "8",
+          4,
+          4
+        ]
+      ],
+      "C": [
+        [
+          "0",
+          4,
+          4
+        ],
+        [
+          "4",
+          2,
+          4
+        ],
+        [
+          "8",
+          4,
+          4
+        ]
+      ],
+      "C-reload": [
+        [
+          "0",
+          4,
+          4
+        ],
+        [
+          "4",
+          2,
+          4
+        ],
+        [
+          "8",
+          4,
+          4
+        ]
+      ],
+      "A-import": [
+        [
+          "0",
+          4,
+          4
+        ]
+      ],
+      "C-import": [
+        [
+          "0",
+          4,
+          4
+        ],
+        [
+          "4",
+          2,
+          4
+        ],
+        [
+          "8",
+          4,
+          4
+        ]
+      ]
+    },
+    "MIDI_end_markers": {
+      "A": [
+        [
+          0,
+          "2881/480"
+        ],
+        [
+          1,
+          "12"
+        ],
+        [
+          2,
+          "12"
+        ]
+      ],
+      "B": [
+        [
+          0,
+          "3841/480"
+        ],
+        [
+          1,
+          "12"
+        ],
+        [
+          2,
+          "12"
+        ]
+      ],
+      "C": [
+        [
+          0,
+          "3841/480"
+        ],
+        [
+          1,
+          "12"
+        ],
+        [
+          2,
+          "12"
+        ]
+      ],
+      "C-reload": [
+        [
+          0,
+          "3841/480"
+        ],
+        [
+          1,
+          "12"
+        ],
+        [
+          2,
+          "12"
+        ]
+      ],
+      "A-import": [
+        [
+          0,
+          "2881/480"
+        ],
+        [
+          1,
+          "119/10"
+        ],
+        [
+          2,
+          "59/5"
+        ]
+      ],
+      "C-import": [
+        [
+          0,
+          "3841/480"
+        ],
+        [
+          1,
+          "119/10"
+        ],
+        [
+          2,
+          "59/5"
+        ]
+      ]
+    },
+    "import_non_meter_non_EOT_A_vs_C_equal": true,
+    "import_channel_events_preserved": false,
+    "verification_probe_correction": "The first non-meter assertion exposed a track0EndOfTrack shift as well as meters. Revised verification records EOT separately; does not claim complete non-meter equality.",
+    "layouts": {
+      "A": [
+        {
+          "number": "64",
+          "start_q": "0",
+          "duration_q": "4",
+          "new_system": true
+        },
+        {
+          "number": "65",
+          "start_q": "4",
+          "duration_q": "4",
+          "new_system": false
+        },
+        {
+          "number": "66",
+          "start_q": "8",
+          "duration_q": "4",
+          "new_system": false
+        }
+      ],
+      "B": [
+        {
+          "number": "64",
+          "start_q": "0",
+          "duration_q": "4",
+          "new_system": true
+        },
+        {
+          "number": "65",
+          "start_q": "4",
+          "duration_q": "2",
+          "new_system": false
+        },
+        {
+          "number": "65",
+          "start_q": "6",
+          "duration_q": "2",
+          "new_system": true
+        },
+        {
+          "number": "66",
+          "start_q": "8",
+          "duration_q": "4",
+          "new_system": false
+        }
+      ],
+      "C": [
+        {
+          "number": "64",
+          "start_q": "0",
+          "duration_q": "4",
+          "new_system": true
+        },
+        {
+          "number": "65",
+          "start_q": "4",
+          "duration_q": "2",
+          "new_system": false
+        },
+        {
+          "number": "65",
+          "start_q": "6",
+          "duration_q": "2",
+          "new_system": true
+        },
+        {
+          "number": "66",
+          "start_q": "8",
+          "duration_q": "4",
+          "new_system": false
+        }
+      ],
+      "C-reload": [
+        {
+          "number": "64",
+          "start_q": "0",
+          "duration_q": "4",
+          "new_system": true
+        },
+        {
+          "number": "65",
+          "start_q": "4",
+          "duration_q": "2",
+          "new_system": false
+        },
+        {
+          "number": "65",
+          "start_q": "6",
+          "duration_q": "2",
+          "new_system": true
+        },
+        {
+          "number": "66",
+          "start_q": "8",
+          "duration_q": "4",
+          "new_system": false
+        }
+      ],
+      "C-import": [
+        {
+          "number": "64",
+          "start_q": "0",
+          "duration_q": "4",
+          "new_system": true
+        },
+        {
+          "number": "65",
+          "start_q": "4",
+          "duration_q": "2",
+          "new_system": false
+        },
+        {
+          "number": "65",
+          "start_q": "6",
+          "duration_q": "2",
+          "new_system": true
+        },
+        {
+          "number": "66",
+          "start_q": "8",
+          "duration_q": "4",
+          "new_system": false
+        }
+      ]
+    },
+    "directions": {
+      "A": [
+        {
+          "q": "0",
+          "words": [
+            "quarter = 84"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [
+            "a tempo"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [],
+          "dynamic": [
+            "ff"
+          ]
+        }
+      ],
+      "B": [
+        {
+          "q": "0",
+          "words": [
+            "quarter = 84"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [
+            "a tempo"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [],
+          "dynamic": [
+            "ff"
+          ]
+        }
+      ],
+      "C": [
+        {
+          "q": "0",
+          "words": [
+            "quarter = 84"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [
+            "a tempo"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [],
+          "dynamic": [
+            "ff"
+          ]
+        },
+        {
+          "q": "6",
+          "words": [
+            "(65) - beat 3 continues"
+          ],
+          "dynamic": []
+        }
+      ],
+      "C-reload": [
+        {
+          "q": "0",
+          "words": [
+            "quarter = 84"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [
+            "a tempo"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [],
+          "dynamic": [
+            "ff"
+          ]
+        },
+        {
+          "q": "6",
+          "words": [
+            "(65) - beat 3 continues"
+          ],
+          "dynamic": []
+        }
+      ],
+      "C-import": [
+        {
+          "q": "0",
+          "words": [
+            "quarter = 84"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [
+            "(65) - beat 3 continues"
+          ],
+          "dynamic": []
+        },
+        {
+          "q": "6",
+          "words": [],
+          "dynamic": [
+            "ff"
+          ]
+        },
+        {
+          "q": "6",
+          "words": [
+            "a tempo"
+          ],
+          "dynamic": []
+        }
+      ]
+    },
+    "cross_staff_MusicXML": {
+      "A": [
+        [
+          "61/10",
+          2,
+          1,
+          72
+        ],
+        [
+          "31/5",
+          2,
+          1,
+          71
+        ],
+        [
+          "63/10",
+          2,
+          1,
+          69
+        ],
+        [
+          "32/5",
+          2,
+          1,
+          67
+        ]
+      ],
+      "B": [
+        [
+          "61/10",
+          2,
+          1,
+          72
+        ],
+        [
+          "31/5",
+          2,
+          1,
+          71
+        ],
+        [
+          "63/10",
+          2,
+          1,
+          69
+        ],
+        [
+          "32/5",
+          2,
+          1,
+          67
+        ]
+      ],
+      "C": [
+        [
+          "61/10",
+          2,
+          1,
+          72
+        ],
+        [
+          "31/5",
+          2,
+          1,
+          71
+        ],
+        [
+          "63/10",
+          2,
+          1,
+          69
+        ],
+        [
+          "32/5",
+          2,
+          1,
+          67
+        ]
+      ],
+      "C-reload": [
+        [
+          "61/10",
+          2,
+          1,
+          72
+        ],
+        [
+          "31/5",
+          2,
+          1,
+          71
+        ],
+        [
+          "63/10",
+          2,
+          1,
+          69
+        ],
+        [
+          "32/5",
+          2,
+          1,
+          67
+        ]
+      ],
+      "C-import": [
+        [
+          "61/10",
+          2,
+          1,
+          72
+        ],
+        [
+          "31/5",
+          2,
+          1,
+          71
+        ],
+        [
+          "63/10",
+          2,
+          1,
+          69
+        ],
+        [
+          "32/5",
+          2,
+          1,
+          67
+        ]
+      ]
+    },
+    "reload_RGBA": {
+      "changed_pixels": 9,
+      "max_channel_difference": 1,
+      "identical": false
+    },
+    "runtime_files_before_after": 1936,
+    "scope": "Original three-bar model. Split containers can represent logical continuation with compensating numbers,open end andreminder; MIDI meter is changed. Avid source-native migration0/1 remains. No GUI Split command/undo,metronome,accidental carry orfull-page source reflow verified."
+  },
+  "runtime": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "runtime_manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+    "manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+    "runtime_files_verified": 1936,
+    "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\split-bar-2026-11-03\\native-config"
+  },
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/split-bar-intact.mscx",
+      "bytes": 11888,
+      "sha256": "5f761d25270c9357ab45afb4344c388a546e942172d814357928461bd247c414",
+      "source_sha256": "5f761d25270c9357ab45afb4344c388a546e942172d814357928461bd247c414",
+      "license": "CC0-1.0",
+      "processing": "Exact tested input bytes; original music,not Avid transcription."
+    },
+    {
+      "path": "docs/engraving/fixtures/split-bar-unmarked-experimental.mscx",
+      "bytes": 12525,
+      "sha256": "2fdd07132728978ca7b74a34f7c702076ee8a45e816fc10e7f6e415ed970396e",
+      "source_sha256": "2fdd07132728978ca7b74a34f7c702076ee8a45e816fc10e7f6e415ed970396e",
+      "license": "CC0-1.0",
+      "processing": "Exact tested input bytes; original music,not Avid transcription."
+    },
+    {
+      "path": "docs/engraving/fixtures/split-bar-reminder-experimental.mscx",
+      "bytes": 12655,
+      "sha256": "26102d32723141462a191454803b7d0d8d558c4d4b1391140359fdc1aa41aa6e",
+      "source_sha256": "26102d32723141462a191454803b7d0d8d558c4d4b1391140359fdc1aa41aa6e",
+      "license": "CC0-1.0",
+      "processing": "Exact tested input bytes; original music,not Avid transcription."
+    },
+    {
+      "path": "docs/engraving/fixtures/split-bar-native-comparison.png",
+      "bytes": 97867,
+      "sha256": "bd843b38a41c34a191815fbd118032578aba87be673e38e9e70bf82b06d343fb",
+      "license": "CC0-1.0",
+      "processing": "120dpi native pages; white alpha composite,blank-bottom crops andlabels only. All notes/context at original pixel scale; no symbol movement."
+    }
+  ],
+  "recipe_sha256": "57edcfb571ee4ea4b9b04ac0209a57abbc23ee423556ab6e615f9f8dbc7a95f5",
+  "logical_mapping": {
+    "A": [
+      {
+        "container": 1,
+        "logical_bar": 64,
+        "global_start_q": "0",
+        "duration_q": "4"
+      },
+      {
+        "container": 2,
+        "logical_bar": 65,
+        "global_start_q": "4",
+        "duration_q": "4"
+      },
+      {
+        "container": 3,
+        "logical_bar": 66,
+        "global_start_q": "8",
+        "duration_q": "4"
+      }
+    ],
+    "B": [
+      {
+        "container": 1,
+        "logical_bar": 64,
+        "global_start_q": "0",
+        "duration_q": "4"
+      },
+      {
+        "container": 2,
+        "logical_bar": 65,
+        "global_start_q": "4",
+        "duration_q": "2"
+      },
+      {
+        "container": 3,
+        "logical_bar": 65,
+        "global_start_q": "6",
+        "duration_q": "2"
+      },
+      {
+        "container": 4,
+        "logical_bar": 66,
+        "global_start_q": "8",
+        "duration_q": "4"
+      }
+    ],
+    "C": [
+      {
+        "container": 1,
+        "logical_bar": 64,
+        "global_start_q": "0",
+        "duration_q": "4"
+      },
+      {
+        "container": 2,
+        "logical_bar": 65,
+        "global_start_q": "4",
+        "duration_q": "2"
+      },
+      {
+        "container": 3,
+        "logical_bar": 65,
+        "global_start_q": "6",
+        "duration_q": "2"
+      },
+      {
+        "container": 4,
+        "logical_bar": 66,
+        "global_start_q": "8",
+        "duration_q": "4"
+      }
+    ]
+  },
+  "native_calls_sha256": "cfb029450f00a0daa607bd77839f2c13d106cff49909ef7c25bd969b686fdc16",
+  "visual_review": {
+    "full_native_pages_viewed": [
+      "A",
+      "B",
+      "C",
+      "C-reload",
+      "C-import"
+    ],
+    "public_comparison_viewed": true,
+    "initial_transparent_A_view_repeated_with_white_background": true
+  },
+  "primary_source": {
+    "url": "https://musescore.org/en/print/book/export/html/278625",
+    "sections_read": [
+      "Measure operations: Split and join",
+      "Breaks and spacers"
+    ],
+    "fact": "Split/join changesActual but not printed time signature; break is attached to measure/frame.",
+    "old_howto_url": "https://musescore.org/en/node/8540",
+    "old_howto_http": 403,
+    "old_howto_body_read": false
+  },
+  "source_code_inspection": {
+    "root": "E:\\programming\\funcodes\\muse3_dev\\MuseScore",
+    "head": "8f81421a5cc965dbb32a81fcecf39d626b5610ff",
+    "files_clean": true,
+    "files": [
+      {
+        "path": "libmscore/splitMeasure.cpp",
+        "sha256": "2a540741412ff93706f466b3bf75757da19ca9c6b018e6925f94d6250874c04e"
+      },
+      {
+        "path": "libmscore/cmd.cpp",
+        "sha256": "7d95c4f5332023f632724a6499422b604007cbcab6c366ed4fee50b81899eb8d"
+      },
+      {
+        "path": "libmscore/measure.cpp",
+        "sha256": "4a271597c8180ba6978c204fba722241ff85761de2cab528b9bd23924654a8f4"
+      },
+      {
+        "path": "libmscore/measure.h",
+        "sha256": "e10647932b014969633ecb6d9a152641cb2e18028cee64d6fd0b50f4bb73c6fe"
+      }
+    ],
+    "runtime_commit_correspondence_verified": false,
+    "source_changed": false
+  },
+  "source_Avid_native_migration": [
+    0,
+    1
+  ],
+  "new_corpus_Gould_or_resource_completions": 0,
+  "fixed_resources": [
+    16,
+    25
+  ],
+  "new_software_adaptation": false,
+  "user_aesthetic_adoption": false,
+  "original_PDF_MSCZ_access": "No original PDF/MSCZ was opened or written in this native-model batch.",
+  "private_cache": {
+    "path": "tmp/engraving/split-bar-2026-11-03",
+    "budget_bytes": 4194304,
+    "policy": "Reuse frozen runtime. No referencePDF/MSCZ/runtime copies or deletion. One overwritten white-background read.png.",
+    "bytes": 452216,
+    "files": [
+      {
+        "path": "A.mscx",
+        "bytes": 11888,
+        "sha256": "5f761d25270c9357ab45afb4344c388a546e942172d814357928461bd247c414"
+      },
+      {
+        "path": "B.mscx",
+        "bytes": 12525,
+        "sha256": "2fdd07132728978ca7b74a34f7c702076ee8a45e816fc10e7f6e415ed970396e"
+      },
+      {
+        "path": "C-imported.mscx",
+        "bytes": 16408,
+        "sha256": "6ab5f1c0ea3d6bc953bc1b4a34ba1d269aa9be5dcaf6f445333571f96e8cfed5"
+      },
+      {
+        "path": "C-saved.mscx",
+        "bytes": 12515,
+        "sha256": "77d700da2918dd4d1588ab683b7177d19cbfece5ec1b6c067d051541b12f140e"
+      },
+      {
+        "path": "C.mscx",
+        "bytes": 12655,
+        "sha256": "26102d32723141462a191454803b7d0d8d558c4d4b1391140359fdc1aa41aa6e"
+      },
+      {
+        "path": "exports\\A-1.png",
+        "bytes": 22739,
+        "sha256": "e461263f1891048da114a63fbb3844b713ad322c0efe3c13920a5104cd89d2a9"
+      },
+      {
+        "path": "exports\\A-import.mid",
+        "bytes": 431,
+        "sha256": "c856ed3c62537c6f90a539ce622a6c88434a3e919c4b3f6cbc4885dbe224d45d"
+      },
+      {
+        "path": "exports\\A.mid",
+        "bytes": 441,
+        "sha256": "ae3a43092ff252e655f9e0183c8cb367fac0e1aebf67d9349a81399ba53252cc"
+      },
+      {
+        "path": "exports\\A.musicxml",
+        "bytes": 23658,
+        "sha256": "28c494a0e49cf96955c999b602733b5573af8db631c09b8b9a66334bf928d8b1"
+      },
+      {
+        "path": "exports\\B-1.png",
+        "bytes": 26962,
+        "sha256": "d962fbbe4ab040a90e332d05b9fcf5144912c0c2f452b0836ea821d1355ec4d9"
+      },
+      {
+        "path": "exports\\B.mid",
+        "bytes": 459,
+        "sha256": "bd709f3514df99a6d6cfac1f1c1541163f562dbd11526c270ba266c6d1f024a9"
+      },
+      {
+        "path": "exports\\B.musicxml",
+        "bytes": 24275,
+        "sha256": "32ee763ea46b682c20c51a51b45debd2d277d721701cc1a40f0adf244d8f8fa9"
+      },
+      {
+        "path": "exports\\C-1.png",
+        "bytes": 28616,
+        "sha256": "89d447d0e46455b096107925f7741d5d5ba1462a93b8e0777bf651ddb2553402"
+      },
+      {
+        "path": "exports\\C-import-1.png",
+        "bytes": 28800,
+        "sha256": "0bb2dfa1d1c262402b48ba99d244125702802549d853fe4250953c17f9b24854"
+      },
+      {
+        "path": "exports\\C-import.mid",
+        "bytes": 449,
+        "sha256": "9a5e49856f24e1a9c7b5e5a2e50cb1475d30198d85bd7addd5801f39ff2ff619"
+      },
+      {
+        "path": "exports\\C-import.musicxml",
+        "bytes": 24503,
+        "sha256": "d96493e41cda02eadd5a2e28971706b760f3d318f0a6bbd86eebe681b82e965e"
+      },
+      {
+        "path": "exports\\C-reload-1.png",
+        "bytes": 28619,
+        "sha256": "120ba37b5c90b5e36e4f770355d3b6fc19a2409c18ccb26c07eceb5a32d3232b"
+      },
+      {
+        "path": "exports\\C-reload.mid",
+        "bytes": 459,
+        "sha256": "bd709f3514df99a6d6cfac1f1c1541163f562dbd11526c270ba266c6d1f024a9"
+      },
+      {
+        "path": "exports\\C-reload.musicxml",
+        "bytes": 24478,
+        "sha256": "f9913753faefbf6da2be4d9d81dd0cedef999ab983c8c04fe061d4eba6272ca7"
+      },
+      {
+        "path": "exports\\C.mid",
+        "bytes": 459,
+        "sha256": "bd709f3514df99a6d6cfac1f1c1541163f562dbd11526c270ba266c6d1f024a9"
+      },
+      {
+        "path": "exports\\C.musicxml",
+        "bytes": 24478,
+        "sha256": "f9913753faefbf6da2be4d9d81dd0cedef999ab983c8c04fe061d4eba6272ca7"
+      },
+      {
+        "path": "followup_scope.json",
+        "bytes": 278,
+        "sha256": "013a10f696335c3b591f47abd9c5f467034b688d6511e720d2ad0f77de910030"
+      },
+      {
+        "path": "integrate.py",
+        "bytes": 8041,
+        "sha256": "de2be2de47b93c4d905660c3f6807f79c7ae474e024074440f24b692ddf9abe0"
+      },
+      {
+        "path": "library_checks.json",
+        "bytes": 2289,
+        "sha256": "d7dbd0afb5f5525689846939750e5c31aae68acbdd936caee5327e9ab0916683"
+      },
+      {
+        "path": "library_validation.json",
+        "bytes": 389,
+        "sha256": "969d89f8e66000a047183b08d5590c933ade84bc2602e224a37b78de1d9bac8e"
+      },
+      {
+        "path": "logical_mapping.json",
+        "bytes": 1285,
+        "sha256": "c88be096e83a458b1d56a2e536cdaaa9682d29db48c86fef0c34611cdcf1ce03"
+      },
+      {
+        "path": "midi_read.py",
+        "bytes": 1350,
+        "sha256": "19d39d67bb944a33a9b6f0850174d78c204aebfdb69d9d9a78dd09090d9c985b"
+      },
+      {
+        "path": "native-config\\workspaces\\global\\menubar.xml",
+        "bytes": 10757,
+        "sha256": "ed16e6c8c724f9a925a2792277280075ee8e38edcad7fabae9081a9967a1d524"
+      },
+      {
+        "path": "native.py",
+        "bytes": 1058,
+        "sha256": "c9036a7a6655feac4a1d22dbd6d7cba5fbe04a37839bde45312608320c29cabf"
+      },
+      {
+        "path": "native_calls.json",
+        "bytes": 7488,
+        "sha256": "cfb029450f00a0daa607bd77839f2c13d106cff49909ef7c25bd969b686fdc16"
+      },
+      {
+        "path": "preparation.json",
+        "bytes": 572,
+        "sha256": "6ac753c89f61b128a47fdce198be113b9a53869fe1671f6148c676da9be513f9"
+      },
+      {
+        "path": "prepare.py",
+        "bytes": 7245,
+        "sha256": "acd380870844c4a98feea37d39c7c04cfcec5c235c72d0a4a317474119e30202"
+      },
+      {
+        "path": "public_assets.json",
+        "bytes": 1518,
+        "sha256": "c8ad9e7f369838e5435e12c71d5f708440843033220f8e93d4072be394dfe503"
+      },
+      {
+        "path": "publish_assets.py",
+        "bytes": 2010,
+        "sha256": "3038149539f515631364fd8fb95a40bd61ad846e82869acef1143d54c763218b"
+      },
+      {
+        "path": "queries.json",
+        "bytes": 14326,
+        "sha256": "2e78e40d4c74ccfb0d71a0266c8de48697b811b77e8f9ab2bb28d816cccd8f18"
+      },
+      {
+        "path": "read.png",
+        "bytes": 38186,
+        "sha256": "c05160353b6b4f89bd8531ac0ff9c126dc59be6d4a41419253c5ed2609944925"
+      },
+      {
+        "path": "recipe.json",
+        "bytes": 6418,
+        "sha256": "57edcfb571ee4ea4b9b04ac0209a57abbc23ee423556ab6e615f9f8dbc7a95f5"
+      },
+      {
+        "path": "scope.json",
+        "bytes": 752,
+        "sha256": "98556817328fbd8af54041a69cf2e1911c3b15d5cc5bf6982e3de676fe7cca6d"
+      },
+      {
+        "path": "validate_library.py",
+        "bytes": 4792,
+        "sha256": "36661e6eb87ee864f9bea1d8640384e2af36b39323165410c70ceb256d26115c"
+      },
+      {
+        "path": "verification.json",
+        "bytes": 9165,
+        "sha256": "83bf05ebb0293ba3281419380a504a4db316f6978d865a43207aa9e2d79fe95c"
+      },
+      {
+        "path": "verify.py",
+        "bytes": 7302,
+        "sha256": "df46e37416ffef4b971709e246a9d3a0f7f941745440b7e47ba1bf84359ca8ce"
+      },
+      {
+        "path": "view.py",
+        "bytes": 584,
+        "sha256": "1656c00036ee5c2e791791275822bfe6ae31f3d93ed8d74be7fec58d200e88d7"
+      },
+      {
+        "path": "views.jsonl",
+        "bytes": 594,
+        "sha256": "f2ad03462ef684073507c7e14160441ddaeac633165a855e3610512d6a519d9b"
+      }
+    ],
+    "public_assets_bytes": 134935
+  },
+  "library_validation": {
+    "status": "passed",
+    "recorded_at_utc": "2026-11-02T20:00:38.863982+00:00",
+    "CLI_regressions": [
+      6,
+      6
+    ],
+    "targeted_queries": [
+      4,
+      4
+    ],
+    "topic_routes": [
+      7,
+      7
+    ],
+    "public_assets_checked": [
+      4,
+      4
+    ],
+    "fixed_0_33_tag_and_manifest_unchanged": true,
+    "fixed_resources": [
+      16,
+      25
+    ],
+    "not_a_general_musical_accuracy_test": true
+  }
+}

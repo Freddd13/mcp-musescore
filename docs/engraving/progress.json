@@ -3285,7 +3285,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.33保留；工作分支含R12／R13公开预览partial及Avid整曲复审。H与连续细分新增纸面计量，资料16/25余9，无新原生／适配；增量引用实际分支提交。",
+    "working_branch_note": "固定0.33保留；工作分支补R12／R13预览、Avid复审及半小节续行3版／1重载／导回控制。四原创资产可用，MIDI拍号差明确；资料16/25余9，无适配。",
     "evidence": "release_0_33_0_evidence.json"
   },
   "last_study_batch": {
@@ -3303,19 +3303,19 @@
     "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
-    "new_native_diagnostic_conditions": 0,
-    "native_CLI_calls": 0,
-    "book_reread_pages": 6,
-    "official_score_reread_pages": 5,
+    "new_native_diagnostic_conditions": 3,
+    "native_CLI_calls": 18,
+    "book_reread_pages": 0,
+    "official_score_reread_pages": 0,
     "official_system_views_reused": 0,
     "date": "2026-11-03",
-    "scope": "Avid五页／三问题复审闭合；H新计量一系统，保分层及独立Coda，m65续读优先比较。旧m87问题保持，不增加首次覆盖。",
+    "scope": "原创三版／一重载及导回控制已核；保逻辑续行不按容器数判错，MIDI拍号副作用明确。新资产4，原曲迁移0/1，资料16/25余9。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "AVID_WHOLE_REVIEW.md"
+      "SPLIT_BAR_CONTINUATION_STUDY.md"
     ],
-    "review_evidence": "avid_whole_review_evidence.json",
+    "review_evidence": "split_bar_continuation_evidence.json",
     "software_adaptation": false,
     "new_public_preview_readings": 0,
     "public_preview_rereads": 0,
@@ -3323,30 +3323,26 @@
     "focused_preview_rechecks": 0
   },
   "latest_native_study": {
-    "reference": "SECTION_ENTRY_CASTING_STUDY.md",
-    "evidence": "section_entry_casting_evidence.json",
-    "planned_casting_conditions": [
+    "reference": "SPLIT_BAR_CONTINUATION_STUDY.md",
+    "evidence": "split_bar_continuation_evidence.json",
+    "conditions": [
       3,
       3
     ],
-    "additional_fill_condition": [
+    "save_reload": [
       1,
       1
     ],
-    "final_conditions": [
-      4,
-      4
+    "exchange": [
+      1,
+      1
     ],
-    "saved_reload": [
-      2,
-      2
-    ],
-    "native_CLI_calls": 20,
-    "written_notes_per_readback": 222,
-    "readbacks": 6,
-    "complete_MIDI_identical": true,
-    "A120_native_full_page_reflow": "not produced",
-    "new_software_adaptation": false
+    "native_CLI_calls": 18,
+    "note_attacks": 44,
+    "full_MIDI_equal_across_all_conditions": false,
+    "decisions": "本原创例优先完整A；拆行C可比较固定印刷，但MIDI新增2/4，交换还有共同释放／控制及梁形变化。原曲候选0/1保持。",
+    "new_public_assets": 4,
+    "software_adaptation": false
   },
   "native_study_history": [
     {
@@ -3871,6 +3867,32 @@
       "all_native_variant_MIDI_matches_real_bar_baseline": true,
       "MusicXML_readback_display_retained": false,
       "new_software_adaptation": false
+    },
+    {
+      "reference": "SECTION_ENTRY_CASTING_STUDY.md",
+      "evidence": "section_entry_casting_evidence.json",
+      "planned_casting_conditions": [
+        3,
+        3
+      ],
+      "additional_fill_condition": [
+        1,
+        1
+      ],
+      "final_conditions": [
+        4,
+        4
+      ],
+      "saved_reload": [
+        2,
+        2
+      ],
+      "native_CLI_calls": 20,
+      "written_notes_per_readback": 222,
+      "readbacks": 6,
+      "complete_MIDI_identical": true,
+      "A120_native_full_page_reflow": "not produced",
+      "new_software_adaptation": false
     }
   ],
   "latest_judgment_review": {
@@ -4057,7 +4079,7 @@
     "scope": "20入口、既有五类来源与六项回归保持；新m97／端点整页问题定位另核，不计独立净书判断准确率。",
     "new_known_source_smoke_cases": 2,
     "latest_supplemental_query_check": {
-      "evidence": "avid_whole_review_evidence.json",
+      "evidence": "split_bar_continuation_evidence.json",
       "targeted_queries": [
         4,
         4
@@ -4070,7 +4092,7 @@
         6,
         6
       ],
-      "scope": "Retrieval/format/evidence consistency only; not blind musical accuracy or native-layout validation."
+      "scope": "Known-source retrieval/format checks; native verification separately recorded; not blind musical accuracy."
     }
   },
   "next_native_batch": {
@@ -4130,7 +4152,7 @@
     "latest_available_supplement": "STAFF_TUTORIAL_READING.md",
     "official_preview_path_confirmed_for_R09": true,
     "official_preview_path_confirmed_for_R07_R08": true,
-    "next_readable_operation_reference": "R13公开预览89/89之后，Avid完整上下文复审1/1首、5/5页已核。优先比较m65完整小节／续读方案；九项资料范围保持，继续补可得实际内容。",
+    "next_readable_operation_reference": "Avid整曲复审之后，半小节续行原创三版／重载／导回控制已核；实际原曲上下文替代仍0/1，余9项范围保持。",
     "next_R10_public_preview_search": {
       "planned_candidate_works": 2,
       "source_previews_located": 2,
@@ -4933,5 +4955,17 @@
       6
     ],
     "scope": "整曲复审及H纸面容量／连续细分新计量；旧T06结论明确复用，不增加覆盖、独立迁移或原生候选。"
+  },
+  "next_split_bar_followup": {
+    "reference": "SPLIT_BAR_CONTINUATION_STUDY.md",
+    "mechanism_conditions": [
+      3,
+      3
+    ],
+    "source_contexts": [
+      0,
+      1
+    ],
+    "next": "本机制例闭合，回到实际m65完整上下文容量／续读提示或可得余项。不要将原创三小节能放下当原曲页重排已验证，不重复扩充同类坐标图。"
   }
 }
