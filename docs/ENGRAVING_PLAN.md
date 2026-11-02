@@ -1,5 +1,7 @@
 # 钢琴净书研究与自动净书准备计划
 
+2026-11-02固定0.31研究版：收录[跨线显示组合](engraving/CROSSBAR_DISPLAY_COMPOSITION.md)、[三类实谱判断3/3](engraving/REAL_SCORE_READING_TRADEOFFS.md)与[Kokecola四问题4/4](engraving/KOKE_COLA_CAUSAL_REVIEW.md)，更正两降号合列误读。官谱146/146、1135/1135页及Gould696/696覆盖保持；资料16/25余9，20个skill入口可用。继续学习和实际判断，本阶段不做自动净书软件适配。
+
 2026-11-02[入口后继](engraving/AETHER_ENTRY_CLEARANCE.md)完成2/2，四源预算4/4和七小节1/1保持；本例优先入口放宽版，发布0.29研究快照供直接使用。此组研究先闭合，后转新情境／余9项资料，实际尺寸与用户采用仍待，无适配开发。
 
 2026-11-02[Aether整行](engraving/AETHER_SYSTEM_TRANSFER.md)：四源预算4/4、七小节1/1与两重载已核；入口余白m30／31两处待比，暂不自动采用。保持学习／知识库／skill范围，资料16/25余9，无软件／MCP／字体适配。

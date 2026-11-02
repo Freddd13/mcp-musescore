@@ -3251,14 +3251,14 @@
     }
   },
   "release": {
-    "version": "0.30.0",
-    "tag": "engraving-v0.30.0",
+    "version": "0.31.0",
+    "tag": "engraving-v0.31.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.30保留原范围；后补显示组合单行1/1、动态／交换0/1，再补三类实谱判断3/3、15官谱页／13教材页。资料16/25余9，无新适配。",
-    "evidence": "release_0_30_0_evidence.json"
+    "working_branch_note": "0.31固定显示组合、实谱3/3及Kokecola4/4；之后补充再按实际提交记录。资料16/25余9、动态／交换方案0/1，无新适配。",
+    "evidence": "release_0_31_0_evidence.json"
   },
   "last_study_batch": {
     "new_deep_scores": 0,
@@ -3277,17 +3277,17 @@
     "new_source_media": 0,
     "new_native_diagnostic_conditions": 0,
     "native_CLI_calls": 0,
-    "book_reread_pages": 13,
-    "official_score_reread_pages": 15,
+    "book_reread_pages": 9,
+    "official_score_reread_pages": 0,
     "official_system_views_reused": 0,
     "date": "2026-11-02",
-    "scope": "完整组／显拍／跨行归属三类实谱3/3；15官谱页／13Gould页复核，无新覆盖、原生或适配。",
+    "scope": "Kokecola四问题4/4、七图7/7、九规范页复读；旧事实更正，无新首次覆盖、原生或适配。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "REAL_SCORE_READING_TRADEOFFS.md"
+      "KOKE_COLA_CAUSAL_REVIEW.md"
     ],
-    "review_evidence": "real_score_reading_tradeoffs_evidence.json",
+    "review_evidence": "kokecola_causal_review_evidence.json",
     "software_adaptation": false
   },
   "latest_native_study": {
@@ -3826,33 +3826,30 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "BEAM_ACROSS_BAR_READING.md",
-    "evidence": "beam_across_bar_reading_evidence.json",
-    "R11_part2_public_preview_cells": [
-      165,
-      165
+    "reference": "KOKE_COLA_CAUSAL_REVIEW.md",
+    "evidence": "kokecola_causal_review_evidence.json",
+    "questions": [
+      4,
+      4
     ],
-    "R11_two_part_public_preview_cells": [
-      233,
-      233
+    "author_figures_reread": [
+      7,
+      7
     ],
     "Gould_full_printed_page_rereads": [
-      153,
-      154,
-      155,
-      157,
-      169,
-      210,
-      211,
-      225,
-      226,
-      227,
-      228,
-      317
+      17,
+      18,
+      40,
+      43,
+      88,
+      89,
+      311,
+      312,
+      313
     ],
     "new_Gould_coverage": 0,
     "new_fixed_resource_completions": 0,
-    "scope": "跨线真实时点、常规拍组／无重音音阶／表情乐句、双音震音与图形补法分辨；声音／完整操作未核。"
+    "scope": "更正两降号合列误读，区分声部休止、间距图混合变化及梁弧依赖；R10正文／浏览器仍不可读，无新增谱图。"
   },
   "judgment_review_history": [
     {
@@ -4028,10 +4025,20 @@
     "scope": "余9项R07–R15保持。R07/R08/R09预览118/118、82/82、32/32，R11两部分68/68＋165/165已看；仍缺细小校勘／声音／连续流程及R07旧版0/2、R10具体干预和R12–15实际教程。新CID公开预览已取得，不重试无变化的拒绝入口。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
-    "latest_available_supplement": "BEAM_ACROSS_BAR_READING.md",
+    "latest_available_supplement": "KOKE_COLA_CAUSAL_REVIEW.md",
     "official_preview_path_confirmed_for_R09": true,
     "official_preview_path_confirmed_for_R07_R08": true,
-    "next_readable_operation_reference": "R11两部分233/233公开预览；下一步清晰连续讲解／源工程，或独立原生跨线时点学习，不能反推Kura未知比例。"
+    "next_readable_operation_reference": "跨线时点／显示组合和实谱3/3本批均已闭合；技术缺口留后续适配。继续可得实际讲解与新织体判断，不能反推Kura未知比例。",
+    "next_R10_public_preview_search": {
+      "planned_candidate_works": 2,
+      "source_previews_located": 0,
+      "works": [
+        "Purrvoice群青",
+        "Purrvoice杯中明月"
+      ],
+      "purpose": "查作者其它公开预览来源，先核身份和实际可读图；不重复同一正文／浏览器失败路线，不把合作署名当具体干预。",
+      "scope": "两候选作品的来源定位，非新增固定资源项或完整谱页数"
+    }
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -4504,6 +4511,35 @@
         4
       ],
       "scope": "Actual occupancy,cautionary functions and dynamic roles; no native replacement or engine attribution."
+    },
+    {
+      "reference": "BEAM_ACROSS_BAR_READING.md",
+      "evidence": "beam_across_bar_reading_evidence.json",
+      "R11_part2_public_preview_cells": [
+        165,
+        165
+      ],
+      "R11_two_part_public_preview_cells": [
+        233,
+        233
+      ],
+      "Gould_full_printed_page_rereads": [
+        153,
+        154,
+        155,
+        157,
+        169,
+        210,
+        211,
+        225,
+        226,
+        227,
+        228,
+        317
+      ],
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "scope": "跨线真实时点、常规拍组／无重音音阶／表情乐句、双音震音与图形补法分辨；声音／完整操作未核。"
     }
   ],
   "latest_source_identity_review": {

@@ -2,7 +2,7 @@
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
 metadata:
-  version: "0.30.0"
+  version: "0.31.0"
 ---
 
 # 钢琴净书
@@ -100,6 +100,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 完整跨线组的显示组合经`notation`／`layout`查`CROSSBAR_DISPLAY_COMPOSITION.md`：同音tie片段可在受控单行合并显示，先核真实持续和独立起音。父对象visible不独自证明子元素隐藏；宽度改变重查端点与居中，换行核新段。原生保存稳定不保证交换稳定；导回播放变化加普通基线控制，不把gate或CC变化一概归因显示修改。
 
 完整组、显拍与续行的实谱取舍经`rhythm`／`layout`查`REAL_SCORE_READING_TRADEOFFS.md`：普通三音梁不自动构成三连音；分别解释保组形、保第三拍接收和保行中八度终点的阅读收益。比例或跨页终点未定时保存具体问题，先处理能确认的部分。
+
+教程对照经`sources`／`spacing`查`KOKE_COLA_CAUSAL_REVIEW.md`：Kokecola两降号仍错列，缩列距不等于合列；间距图还改变休止高度。将作者明确操作、可见变化和本次解释分别记录，比较布局收益时核同一音乐及其它条件。
 
 ## 需要候选时
 

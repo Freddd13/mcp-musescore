@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+当前固定试用为**[0.31.0／engraving-v0.31.0](ENGRAVING_RELEASES.md)**，收录此前工作分支的显示组合、实谱3/3与Kokecola4/4更正。可查`--topic spacing --query "Kokecola 降号"`；两降号仍错列，间距图还改变休止。关联安装更新项目即可，复制安装同步同版skill与库，无需重配MCP。下文0.30及其补充按历史范围保留。
+
 当前工作分支新增[三类实谱判断](engraving/REAL_SCORE_READING_TRADEOFFS.md)，固定0.30标签不含此补充。可查`--topic rhythm --query "三音 显拍"`、`--topic layout --query "跨页 终点"`；3/3任务已核，资料16/25余9。使用工作分支时记录实际Git提交；关联安装更新项目即可，复制安装同步skill与库，MCP无需重配。
 
 工作分支在固定0.30之后补[跨线显示组合](engraving/CROSSBAR_DISPLAY_COMPOSITION.md)，可查`--topic notation --query "显示组合 gate"`。固定单行可比较，换行／交换仍有边界；关联安装读取项目更新，复制安装同步当前skill与库并记录Git提交。固定0.30标签保留原范围，MCP无需重配。

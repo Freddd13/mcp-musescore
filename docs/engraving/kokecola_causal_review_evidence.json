@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "KOKE_COLA_CAUSAL_REVIEW.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "ef61889648786dd06aa285cd04f73e8669a1dd1a",
+    "reason": "Real-score judgment batch3/3 committed and pushed; current upstream revalidated."
+  },
+  "scope": {
+    "questions": [
+      4,
+      4
+    ],
+    "existing_author_illustrations_reread": [
+      7,
+      7
+    ],
+    "Gould_full_printed_page_rereads": [
+      17,
+      18,
+      40,
+      43,
+      88,
+      89,
+      311,
+      312,
+      313
+    ],
+    "new_Gould_coverage": 0,
+    "new_official_coverage": 0,
+    "new_resource_completions": 0,
+    "resources": [
+      16,
+      25
+    ],
+    "remaining_resources": 9,
+    "native_conditions": 0,
+    "software_adaptation_changes": 0,
+    "new_user_preferences": 0
+  },
+  "registration": {
+    "at_utc": "2026-11-02T05:38:55.176079+00:00",
+    "previous_goal_turn": "progress: ef61889648786dd06aa285cd04f73e8669a1dd1a committed real-score judgment batch3/3",
+    "focus": "Re-read actual before/after causal changes; verify old accidental-column claim; rest and spacing reading tasks; author composite comparison limits",
+    "planned_cases": 4,
+    "cases": [
+      "accidental bundle and notehead clearance",
+      "voice rest identity and location",
+      "spacing joint columns and bar budget",
+      "beam/curve dependencies and composite control"
+    ],
+    "preliminary_observation": "Old note says flats become one column; original may still show separate columns. Do not adopt until pixel/visual check.",
+    "source": "tmp\\engraving\\study-2026-10-19\\kokecola-accidentals.png",
+    "sha256": "cec0b34e6e4ff090cc356d7b9345ed478f3922d13a8bc9bd54e23c7dd13a473d",
+    "batch_budget_bytes": 524288,
+    "reuse": "seven existing original illustrations, one overwritable local view; no external source media downloads"
+  },
+  "primary_article": {
+    "url": "https://note.com/kokecola/n/n6df2c29e9942",
+    "published_date": "2020-05-25",
+    "read": "Complete displayed article body this turn via web",
+    "role": "Author procedure and stated intent; not source project or parameters"
+  },
+  "illustrations": [
+    {
+      "url": "https://assets.st-note.com/production/uploads/images/26428200/picture_pc_304ddfa3523d592d1e103f592430e8ba.png",
+      "cache": "tmp/engraving/study-2026-10-19/kokecola-accidentals.png",
+      "sha256": "cec0b34e6e4ff090cc356d7b9345ed478f3922d13a8bc9bd54e23c7dd13a473d",
+      "bytes": 4938,
+      "visually_viewed": true,
+      "inspected_this_turn": true,
+      "original_reused": true
+    },
+    {
+      "url": "https://assets.st-note.com/production/uploads/images/26428078/picture_pc_5ef9a24df4f4b707841cbe3407983c3d.png",
+      "cache": "tmp/engraving/study-2026-10-19/kokecola-beams.png",
+      "sha256": "8316f928f877a8a74a645ca8fbdf96bf633e148bca0e0bcbe04a2a1fce53d976",
+      "bytes": 35973,
+      "visually_viewed": true,
+      "inspected_this_turn": true,
+      "original_reused": true
+    },
+    {
+      "url": "https://assets.st-note.com/production/uploads/images/26428305/picture_pc_aed6ba8665fa9b23704f3e9ce92bcf2a.png",
+      "cache": "tmp/engraving/study-2026-10-19/kokecola-rests.png",
+      "sha256": "bb84432b963fddebe67fd395b90cfa981eb98a94a097ad96cba85d0bd8c5b008",
+      "bytes": 38845,
+      "visually_viewed": true,
+      "inspected_this_turn": true,
+      "original_reused": true
+    },
+    {
+      "url": "https://assets.st-note.com/production/uploads/images/26428653/picture_pc_a44d9ad618690b9586b696459eccd083.png",
+      "cache": "tmp/engraving/study-2026-10-19/kokecola-spacing.png",
+      "sha256": "7b082f9d9367c1e6a34aa806efbc465bd67c87e2a1ac58b99d476e360ea3aa82",
+      "bytes": 54570,
+      "visually_viewed": true,
+      "inspected_this_turn": true,
+      "original_reused": true
+    },
+    {
+      "url": "https://assets.st-note.com/production/uploads/images/26506713/picture_pc_ffea88773902ccc9d93f9ef4b443681a.png",
+      "cache": "tmp/engraving/study-2026-10-19/kokecola-final-adjustments.png",
+      "sha256": "8cac870d1566b095d90ef5791b561b23c5f15b6a769ca3942293fc57ee39bdcc",
+      "bytes": 58874,
+      "visually_viewed": true,
+      "inspected_this_turn": true,
+      "original_reused": true
+    },
+    {
+      "url": "https://assets.st-note.com/production/uploads/images/26629549/picture_pc_e9caac80180dd48c4428c4da625c32da.png",
+      "cache": "tmp/engraving/study-2026-10-19/kokecola-complete.png",
+      "sha256": "4e12dbf08a2c6f42390bd452d8fad9e1c67c1a42c941bd2ca4aa2ffe0c97eae0",
+      "bytes": 155224,
+      "visually_viewed": true,
+      "inspected_this_turn": true,
+      "original_reused": true
+    },
+    {
+      "url": "https://assets.st-note.com/production/uploads/images/26666498/picture_pc_aebf2b8aea9641c8de60da4d73cb302e.png",
+      "cache": "tmp/engraving/study-2026-10-19/kokecola-default-comparison.png",
+      "sha256": "17d6a7027fe32e6875f24e073fbbba016ecac158950ff72ead8f58fa7353b6c7",
+      "bytes": 84038,
+      "visually_viewed": true,
+      "inspected_this_turn": true,
+      "original_reused": true
+    }
+  ],
+  "Gould": [
+    {
+      "printed_page": 17,
+      "file_page_1based": 37,
+      "image": "tmp/engraving/book-2026-10-18/beam-pdf-037.png",
+      "sha256": "2b919bf60c2a4d7ec2b44f572b305e174a3459c682c41c08a2143a6041d4b774",
+      "inspected_full_page_this_turn": true,
+      "reused": true
+    },
+    {
+      "printed_page": 18,
+      "file_page_1based": 38,
+      "image": "tmp/engraving/book-2026-10-18/beam-pdf-038.png",
+      "sha256": "af8d227a095493a9e2e612b40e1ed6a7bbf197103ca969e692368c837c4ec908",
+      "inspected_full_page_this_turn": true,
+      "reused": true
+    },
+    {
+      "printed_page": 40,
+      "file_page_1based": 60,
+      "image": "tmp/engraving/integrated-my-dearest-2026-10-23/Gould-p40.png",
+      "sha256": "3bca1d815468f11e854ff811fff77782b399767f31be79d4546df20b8cd8c60f",
+      "inspected_full_page_this_turn": true,
+      "reused": true
+    },
+    {
+      "printed_page": 43,
+      "file_page_1based": 63,
+      "image": "tmp/engraving/integrated-my-dearest-2026-10-23/Gould-p43.png",
+      "sha256": "7f25fa3d6883bf7551fe59785dff1c95d33a7583ae77751c3f01a9ba94238530",
+      "inspected_full_page_this_turn": true,
+      "reused": true
+    },
+    {
+      "printed_page": 88,
+      "file_page_1based": 108,
+      "render_scale": 1.7,
+      "image": "tmp\\engraving\\kokecola-detail-2026-11-02\\read.png",
+      "inspected_full_page_this_turn": true,
+      "retained_snapshot": false,
+      "note": "Viewed then overwritten by next inspection"
+    },
+    {
+      "printed_page": 89,
+      "file_page_1based": 109,
+      "render_scale": 1.7,
+      "image": "tmp\\engraving\\kokecola-detail-2026-11-02\\read.png",
+      "inspected_full_page_this_turn": true,
+      "retained_snapshot": false,
+      "note": "Viewed then overwritten by next inspection"
+    },
+    {
+      "printed_page": 311,
+      "file_page_1based": 331,
+      "render_scale": 1.7,
+      "image": "tmp\\engraving\\kokecola-detail-2026-11-02\\read.png",
+      "inspected_full_page_this_turn": true,
+      "retained_snapshot": false,
+      "note": "Viewed then overwritten by next inspection"
+    },
+    {
+      "printed_page": 312,
+      "file_page_1based": 332,
+      "render_scale": 1.7,
+      "image": "tmp\\engraving\\kokecola-detail-2026-11-02\\read.png",
+      "inspected_full_page_this_turn": true,
+      "retained_snapshot": false,
+      "note": "Viewed then overwritten by next inspection"
+    },
+    {
+      "printed_page": 313,
+      "file_page_1based": 333,
+      "render_scale": 1.7,
+      "image": "tmp\\engraving\\kokecola-detail-2026-11-02\\read.png",
+      "inspected_full_page_this_turn": true,
+      "retained_snapshot": false,
+      "note": "Viewed then overwritten by next inspection"
+    }
+  ],
+  "questions": [
+    {
+      "id": "K01",
+      "topic": "accidental bundle",
+      "decision": "Preserve staggered columns; compact lower flat toward upper",
+      "corrected_prior_reference": "SPACING_DECISIONS.md section4",
+      "corrected_prior_claim": "把两降号收为同列",
+      "correction": "Two columns remain; stem separation13to7px; upper-to-head center remains24.5px",
+      "measurement": {
+        "source": "tmp\\engraving\\study-2026-10-19\\kokecola-accidentals.png",
+        "image_size": [
+          385,
+          187
+        ],
+        "threshold": "maxRGB<100",
+        "staff_rows": [
+          84,
+          96,
+          108,
+          121,
+          133
+        ],
+        "staff_space_px": 12.25,
+        "metrics": {
+          "A": {
+            "upper_stem_x": 48.0,
+            "lower_stem_x": 35.0,
+            "head_x_bbox_center": 72.5,
+            "head_bbox_x": [
+              62,
+              83
+            ],
+            "column_sep_px": 13.0,
+            "lower_to_head_px": 37.5,
+            "upper_to_head_px": 24.5
+          },
+          "B": {
+            "upper_stem_x": 223.0,
+            "lower_stem_x": 216.0,
+            "head_x_bbox_center": 247.5,
+            "head_bbox_x": [
+              237,
+              258
+            ],
+            "column_sep_px": 7.0,
+            "lower_to_head_px": 31.5,
+            "upper_to_head_px": 24.5
+          }
+        },
+        "limits": "raster figure pixels,not source font metrics; threshold and stem bands inspected against magnified original",
+        "units_note": "Stem centers and notehead-bbox centers; not ink clearance or font anchors."
+      },
+      "norms_printed": [
+        88,
+        89
+      ]
+    },
+    {
+      "id": "K02",
+      "topic": "rest ownership",
+      "decision": "Keep visible inner-line entry rest, move from melody/tie channel toward corresponding line",
+      "scope": "Observed independent entry, not universal full-voice-rest requirement",
+      "norms_printed": [
+        311,
+        312,
+        313
+      ]
+    },
+    {
+      "id": "K03",
+      "topic": "spacing attribution",
+      "decision": "Different bar budgets and m13rest height both change; no single-factor engine claim",
+      "measurement": {
+        "before": {
+          "barline_x_centers": [
+            222.0,
+            349.0,
+            481.0,
+            590.0,
+            739.0
+          ],
+          "barline_dark_scan_rows": [
+            45,
+            141
+          ],
+          "threshold_black_rows": 85,
+          "internal_widths_px": [
+            127.0,
+            132.0,
+            109.0,
+            149.0
+          ]
+        },
+        "after": {
+          "barline_x_centers": [
+            225.0,
+            357.0,
+            482.0,
+            591.0,
+            739.0
+          ],
+          "barline_dark_scan_rows": [
+            232,
+            329
+          ],
+          "threshold_black_rows": 85,
+          "internal_widths_px": [
+            132.0,
+            125.0,
+            109.0,
+            148.0
+          ]
+        }
+      },
+      "source_rest_height_change": "m13 at first red quarter rest, visible in both full panels and focused crop",
+      "limits": "Bar widths do not establish all rhythmic positions, source structure or performance equivalence",
+      "norms_printed": [
+        40,
+        43
+      ]
+    },
+    {
+      "id": "K04",
+      "topic": "beam/curve dependency",
+      "decision": "Local recheck after row width or staff distance changes; distinguish author multi-stage choices",
+      "author_stated": [
+        "Stem tool first; beam angle later",
+        "Cross-staff groups m10/14/16 deferred until staff distance",
+        "May revise beams again after other objects",
+        "Default comparison also changes Kousaku and MSMincho"
+      ],
+      "term": "Author explicitly uses符尾 for note stick/stem, not flag",
+      "norms_printed": [
+        17,
+        18
+      ]
+    }
+  ],
+  "R10_followup": {
+    "searches": [
+      "Purrvoice 群青 拾廿七",
+      "Purrvoice 杯中明月 谱"
+    ],
+    "readable_index_urls": [
+      "https://www.mymusic5.com/PurrvoiceHotdog/56360",
+      "https://www.mymusic5.com/zh-hans/purrvoicehotdog/126684"
+    ],
+    "direct_web_open": "Both Cache miss; no full source page or new score image",
+    "browser": {
+      "target": "https://www.mymusic5.com/PurrvoiceHotdog/56360",
+      "provider": "iab",
+      "created_tab_id": "6",
+      "create_navigation": "timeout",
+      "same_tab_recheck": "20s execution timeout; kernel reset",
+      "unrelated_user_tabs_operated": false
+    },
+    "specific_individual_intervention_verified": false,
+    "new_score_images": 0,
+    "remaining_status": "partial; no unchanged browser/fetch retry planned",
+    "index_metadata_limit": "Do not promote generated key facts/BPM/voice summaries to score evidence"
+  },
+  "protected_sources": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "bytes": 68488,
+      "after_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "bytes": 249752,
+      "after_sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "bytes": 249473889,
+      "after_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    }
+  ],
+  "new_views": {
+    "overwritable_file": "tmp\\engraving\\kokecola-detail-2026-11-02\\read.png",
+    "source_raster_views": 5,
+    "full_book_renders": 5,
+    "total": 10,
+    "last_sha256": "bc23a6b6d51ac3144af83802259c68d54bbbabdec954b65de597489e2b36322b",
+    "method": "Local original figures inspected full, then nearest-neighbor magnification/crop; book pages rendered full1.7"
+  },
+  "cache": {
+    "path": "tmp\\engraving\\kokecola-detail-2026-11-02",
+    "batch_budget_bytes": 524288,
+    "existing_illustrations_and_book_files_reused": 11,
+    "new_source_downloads": 0,
+    "original_or_runtime_copies": 0,
+    "files_deleted": 0,
+    "bytes_before_final_record": 310998,
+    "actual_audit": {
+      "at_utc": "2026-11-02T07:38:41.249665+00:00",
+      "local_bytes": 310998,
+      "local_files": 6,
+      "batch_budget_bytes": 524288,
+      "global_bytes": 3281985159,
+      "global_files": 19162,
+      "global_check_allowance_bytes": 3311337472,
+      "scope": "regular tmp/engraving files, no symlink traversal; before this audit and final small records"
+    }
+  },
+  "validation": {
+    "measurements": "passed stated center/width relations; not author intent or native behavior",
+    "progress": "passed tools/engraving/progress.py --check",
+    "skill": "passed quick_validate.py",
+    "query_regressions": "passed6/6 test_engraving_library.py",
+    "new_note_routes": {
+      "checked": [
+        "overview",
+        "spacing",
+        "beams",
+        "piano",
+        "notation",
+        "sources",
+        "baseline"
+      ],
+      "coverage": [
+        7,
+        7
+      ]
+    },
+    "actual_query": {
+      "topic": "spacing",
+      "query": "Kokecola 降号",
+      "first_match": "KOKE_COLA_CAUSAL_REVIEW.md",
+      "line": 7,
+      "scope": "known source retrieval,not independent judgment"
+    },
+    "new_note_links": "passed all local targets",
+    "diff_check": "passed git diff --check"
+  }
+}
