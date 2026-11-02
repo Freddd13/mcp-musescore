@@ -1,0 +1,1219 @@
+{
+  "schema_version": 1,
+  "version": "0.32.0",
+  "tag": "engraving-v0.32.0",
+  "as_of": "2026-11-02",
+  "stage": "usable-research",
+  "starting_commit": "8e853b0bd258181d4cf2628a8f0cbb40e1bbac03",
+  "prior_fixed_tag": {
+    "tag": "engraving-v0.31.0",
+    "commit": "6f53e113dbb30c97133aaf4c74463a909a017587"
+  },
+  "checks_status": "passed",
+  "publication": "Git tag; no reference-media or runtime archive",
+  "files": [
+    {
+      "path": "docs/ENGRAVING_PLAN.md",
+      "bytes": 90765,
+      "sha256": "6af3124cbaf024c666a2926aad3146f3717b28621df1d030745bac5fa5cb4e31"
+    },
+    {
+      "path": "docs/ENGRAVING_RELEASES.md",
+      "bytes": 115145,
+      "sha256": "455ac74c7343992b10c0f5d4340aac16b92ec95237e1347b869bcf349e907b65"
+    },
+    {
+      "path": "docs/ENGRAVING_SKILL.md",
+      "bytes": 13709,
+      "sha256": "99f67ab6578f1b107556d5923ee6ae8efc478a1c35f9a497722c13d076b63f25"
+    },
+    {
+      "path": "docs/engraving/ACCIDENTAL_SPACING.md",
+      "bytes": 11757,
+      "sha256": "b8f3f848148bfd009c22a860f35723882040ac51b9e89aebbf3b62c2548812bd"
+    },
+    {
+      "path": "docs/engraving/AETHER_ENTRY_CLEARANCE.md",
+      "bytes": 4892,
+      "sha256": "920be25b07e83647b560b17dced43341df4e6850447a168e31b96eef15c1dfa3"
+    },
+    {
+      "path": "docs/engraving/AETHER_M33_BUDGET.md",
+      "bytes": 8241,
+      "sha256": "d0d1a5d5698447b31c9995c4b39199e4e3935c419c3ce38e4139969767048291"
+    },
+    {
+      "path": "docs/engraving/AETHER_NATIVE_RECONSTRUCTION.md",
+      "bytes": 8081,
+      "sha256": "5c42c4d814f254fe4cce838f13bd410f218d9049e88c35fc5982f6621b87b123"
+    },
+    {
+      "path": "docs/engraving/AETHER_SPACING_LAYERS.md",
+      "bytes": 8362,
+      "sha256": "27f9de46deabd721c5a3a551789ac3afbc9debebe439988a6eda74fc2791716a"
+    },
+    {
+      "path": "docs/engraving/AETHER_SYSTEM_TRANSFER.md",
+      "bytes": 6993,
+      "sha256": "66d971ec28749184a7fbd79a31c82d3a3ba0182de3a12ec99af333853ed2924f"
+    },
+    {
+      "path": "docs/engraving/BEAM_ACROSS_BAR_READING.md",
+      "bytes": 9812,
+      "sha256": "1f9a8da5a4a69ede6da307c790d5dc9f64643abf3a1e1270087c99b8cf63e195"
+    },
+    {
+      "path": "docs/engraving/BEAM_OPERATIONS_STUDY.md",
+      "bytes": 9575,
+      "sha256": "e7a2332724b539e6914dbdea20b40924ba2e130d6d3ca3f356f3aa1f7803fe66"
+    },
+    {
+      "path": "docs/engraving/CACHE_LOCATIONS.md",
+      "bytes": 53750,
+      "sha256": "e82f2f348f8325c5d5b4d34bcafb6552cff23e283cc4a84b007256d1aa23590d"
+    },
+    {
+      "path": "docs/engraving/CROSSBAR_DISPLAY_COMPOSITION.md",
+      "bytes": 7367,
+      "sha256": "01ad86bb2ccd0b693f6877ca093efeaf67afd7222e52bcd9172fffbe34d6db91"
+    },
+    {
+      "path": "docs/engraving/CROSSBAR_TUPLET_NATIVE_STUDY.md",
+      "bytes": 8566,
+      "sha256": "c51ea5653c294136ddb11c509d67ca3123e579ee869ef260468f80e215ce2fe2"
+    },
+    {
+      "path": "docs/engraving/CROSS_STAFF_STUDY.md",
+      "bytes": 38621,
+      "sha256": "1adccbebb43cda0b5fb78f2f0d1d6afebd1a3f85c7ec12a7106906452fd239f1"
+    },
+    {
+      "path": "docs/engraving/DYNAMICS_ARTICULATION.md",
+      "bytes": 29660,
+      "sha256": "da4cb263c7f8829a6b1198ae03d4fd9e540bdea6b43432cbb91aea2f9cce71ad"
+    },
+    {
+      "path": "docs/engraving/EXTERNAL_PRACTICE.md",
+      "bytes": 14972,
+      "sha256": "3a042f2311902367da22699b1ceed22595df3f05e09b70305016cfd3c92a6906"
+    },
+    {
+      "path": "docs/engraving/FINGERING_STUDY.md",
+      "bytes": 9311,
+      "sha256": "8709916e19058b82c21148c5663881ce3ebb5652c1316d92abd1433a7bf166b8"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md",
+      "bytes": 11868,
+      "sha256": "c7308382727d6228a87e316e585677b274f0582568fea3970fb677d4851ec50b"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KAKYOIN.md",
+      "bytes": 18302,
+      "sha256": "793467774fea9465ee5e86e66a283c6bbb68addc1bdd6da2814aa6d08ee3e5c8"
+    },
+    {
+      "path": "docs/engraving/JUDGMENT_GUIDE.md",
+      "bytes": 58763,
+      "sha256": "ed64e4e331015476cfd103f4e895eea4c0fe5f4ea8fc291179c29438cf0d7c9b"
+    },
+    {
+      "path": "docs/engraving/KOKE_COLA_CAUSAL_REVIEW.md",
+      "bytes": 7113,
+      "sha256": "77e23b6be05dcd68fe1a46dfa4e9d67311b07ed79dbdaf50458d23d7eb15f014"
+    },
+    {
+      "path": "docs/engraving/LAYERED_COMPOUND_READING.md",
+      "bytes": 7504,
+      "sha256": "e94841a6fe0a677bd41d10387cc323bd62bc3532486fb3c4ab5cd639bcb866c2"
+    },
+    {
+      "path": "docs/engraving/NOTATION_DETAILS.md",
+      "bytes": 58249,
+      "sha256": "15454ff1c93247b8c66a5e7116533a8d67509cff004cc8bbdde59a33db69e0e5"
+    },
+    {
+      "path": "docs/engraving/OUTPUT_READING.md",
+      "bytes": 8741,
+      "sha256": "c76410f291785f07c78cd4e64df6fd59b8a5a8d782c76dcd0cb61c15086f175d"
+    },
+    {
+      "path": "docs/engraving/PIANO_TEXTURE_STUDY.md",
+      "bytes": 44207,
+      "sha256": "c0ed4a3358cd9aa5c59503d8e9f8a3fd115dd7fa7fae945cf7bce255fd63b136"
+    },
+    {
+      "path": "docs/engraving/PREFERENCES.md",
+      "bytes": 9587,
+      "sha256": "563376fcd0d64c801cd46cf5043f0fe60bea74114cfa2820dfa0c01f3c57eec4"
+    },
+    {
+      "path": "docs/engraving/PURRVOICE_PREVIEW_READING.md",
+      "bytes": 9693,
+      "sha256": "400d98d2ebc556d302125871499fe394aad3a50b125c7d06b02582c0afdd4552"
+    },
+    {
+      "path": "docs/engraving/README.md",
+      "bytes": 85649,
+      "sha256": "f3dafd293f0ed51c99ce7cb70654ca498df28c0fb56365651cb3bc64e1564d21"
+    },
+    {
+      "path": "docs/engraving/REAL_SCORE_READING_TRADEOFFS.md",
+      "bytes": 8557,
+      "sha256": "9c59e65d78aef4d10454192f5616ae03ffeba3bae63db8d5c029f3e39966cb6d"
+    },
+    {
+      "path": "docs/engraving/RESOURCE_PLAN_MAPPING.md",
+      "bytes": 30368,
+      "sha256": "717735fa5cd7399e30343a3130435ba3210170090bdf6c9357c02545cb396944"
+    },
+    {
+      "path": "docs/engraving/RHYTHM_READING.md",
+      "bytes": 43214,
+      "sha256": "0e2def09e7dfc1d6254f7a46832ff233c1bafb5e011672c1327b58e91c31999f"
+    },
+    {
+      "path": "docs/engraving/SPACING_DECISIONS.md",
+      "bytes": 51558,
+      "sha256": "cadb5a9bf7371e04802e8f6ef44f03b76a4740af9c932299e88734358298e776"
+    },
+    {
+      "path": "docs/engraving/SPACING_STUDY.md",
+      "bytes": 27354,
+      "sha256": "9f3b30ddebdabd740ccc4fd5de1dc49bb1b6b4574b1c5411f0d4d27f406ca950"
+    },
+    {
+      "path": "docs/engraving/STATUS_AND_ROADMAP.md",
+      "bytes": 140125,
+      "sha256": "4829adda8413de7a6e51dffd104ddeba1c8e40ecb2aec3bab7b1ba6411837ee6"
+    },
+    {
+      "path": "docs/engraving/STEM_OPTICAL_CONTEXTS.md",
+      "bytes": 7774,
+      "sha256": "228bc8c9c4127de4432f5fa4ef798e8ec2668723e440f72bd3d52e2aa76eef3f"
+    },
+    {
+      "path": "docs/engraving/STEM_OPTICAL_LIMITS.md",
+      "bytes": 8186,
+      "sha256": "4ea31f620ba03a18660bc92fa811f9d7aacd8f1b9aa3aebe3395f35a54c16c42"
+    },
+    {
+      "path": "docs/engraving/STEM_OPTICAL_SHAPES_MARKS.md",
+      "bytes": 7588,
+      "sha256": "1658e08dbce29477faeb59ab27efabcb3dc2c1a94e263cdc50aa5004a73acc78"
+    },
+    {
+      "path": "docs/engraving/STEM_OPTICAL_SPACING_STUDY.md",
+      "bytes": 7426,
+      "sha256": "80bd8d04ff0730cbdb25907110b9eb47971260257263ca927b9ae3079e9e2580"
+    },
+    {
+      "path": "docs/engraving/aether_entry_clearance_evidence.json",
+      "bytes": 22212,
+      "sha256": "ec21c5d5f2c01ca549fb9d3ff757ced35d7e8d2588c86fdbbc88f43f0c45c51f"
+    },
+    {
+      "path": "docs/engraving/aether_m33_budget_evidence.json",
+      "bytes": 29457,
+      "sha256": "9ce4fe43e28b4048e0c5bea22c2cf272c2592b5f38b21e460d4b8981c76ec396"
+    },
+    {
+      "path": "docs/engraving/aether_native_reconstruction_evidence.json",
+      "bytes": 15764,
+      "sha256": "35039709552abd0bca8c2907b35dab213a40ebe93cc803063f13daeb3778629a"
+    },
+    {
+      "path": "docs/engraving/aether_spacing_layers_evidence.json",
+      "bytes": 30175,
+      "sha256": "b25bfe3caf68047ecb78bc23e098e410cb2491278db140a2a4c88fd78ad323bc"
+    },
+    {
+      "path": "docs/engraving/aether_system_transfer_evidence.json",
+      "bytes": 28275,
+      "sha256": "361edf33aaa1443db78742258a10d0a94ca42f99843854d572ac639ff2ee528a"
+    },
+    {
+      "path": "docs/engraving/beam_across_bar_reading_evidence.json",
+      "bytes": 14126,
+      "sha256": "7547950cb27671a93d837455e9923f6c769dadbf46626d0f077d850999f2a4e4"
+    },
+    {
+      "path": "docs/engraving/crossbar_display_composition_evidence.json",
+      "bytes": 13584,
+      "sha256": "8e27a50283a64b572343cec0f37dd7810fd77c14e9a93881347ac6529b693879"
+    },
+    {
+      "path": "docs/engraving/crossbar_tuplet_native_evidence.json",
+      "bytes": 30214,
+      "sha256": "760d92f83c301845b55063aab5b71613aeb85668bce65a217183fc7c3b0266f3"
+    },
+    {
+      "path": "docs/engraving/fixtures/README.md",
+      "bytes": 55052,
+      "sha256": "588f59bf4c22db567760201660c6e1549d3bcf71132f0d81ca63f2da98240774"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-limits.png",
+      "bytes": 48789,
+      "sha256": "d3dfcf6e2a8f7c3320343c09bc7bcc4a3b331601756a36d838adbf36600f3252"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-linebreak-experimental.mscx",
+      "bytes": 7670,
+      "sha256": "6a852e3673d4683628afbb183e5f4fa851cb457493ee7c0cb0ab4c8f74f810a9"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-narrow-experimental.mscx",
+      "bytes": 7592,
+      "sha256": "5ca933fe866abdacdfef2344cfb42cd43afaf0251bc5a1c68cbd9408ec69dee3"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-wide-experimental.mscx",
+      "bytes": 7591,
+      "sha256": "7fd8f022686189c5d98bdb9f0e3114fc57fc37f9ebf33d7bcb3d50386ae7a82e"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-widths.png",
+      "bytes": 56569,
+      "sha256": "b005e6f01effb51ee54e967d7a83e94a1c830e1c3093818db0d1227b21f95ec3"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-false-alignment-rejected.mscx",
+      "bytes": 5296,
+      "sha256": "a573ac66929e83dcdd66b4c3c64c3ecc88fef57307eaec679e6f40fbe681ef4d"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-merged-diagnostic.mscx",
+      "bytes": 5241,
+      "sha256": "f34122a58002dbc85a2505dc22a68680855fd5f7be607fcc97b4f9f74d3bdde3"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-split-retained.mscx",
+      "bytes": 6883,
+      "sha256": "a43ada7eff99d226f2de6030ed98a936ccecb1726245e64f1f9470e5a4b41813"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-split-system-context.png",
+      "bytes": 27374,
+      "sha256": "97d36f0655eaea2f91515ce1eeba5b8478fdcdda93fe6fd072503634658a8d88"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-tuplet-comparison.png",
+      "bytes": 67592,
+      "sha256": "e2495d6ce843f94039ed168a5ec04497b05aaaa22c723a16841e01cbabfbb884"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-baseline.mscx",
+      "bytes": 5311,
+      "sha256": "19e4863e92e64a848415ff93a03cd319491b7e5b212bb4465bba49b7b728259a"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-comparison.png",
+      "bytes": 24597,
+      "sha256": "e159159ce121c880dc09cb2bd28ef9cb2472a5395aff92ed6a92cb96237ab46e"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-contexts-comparison.png",
+      "bytes": 62527,
+      "sha256": "97fa638026f9bb179af8296487816e9ccd86cc36f31610bb324f2b6c029e567e"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-dense-base.mscx",
+      "bytes": 7084,
+      "sha256": "22caaa9c6861f7c97ff444e6f0b58db0842862b2560d9df18d08b70bee34aa10"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-dense-joint.mscx",
+      "bytes": 7660,
+      "sha256": "274c0b22e43625fce8a7148147fefd1c0c07caa12ee6d9d9c763cbde7ed02e07"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-even.mscx",
+      "bytes": 5584,
+      "sha256": "8521a608a2350323fa397bb10badee40233210ed2ad72ef0922958e879d745d8"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-exchange-comparison.png",
+      "bytes": 43854,
+      "sha256": "0390e00356b568b9d7d6a5f62a22a2f4a0830117b74fe15f91a37a52aa8326e9"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-balanced.mscx",
+      "bytes": 10802,
+      "sha256": "657cfece27486bf8c32734078526d14ee724d721e0dba13095eafbca2f8e9b9b"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-base.mscx",
+      "bytes": 9611,
+      "sha256": "323b48200163a81c476d94b37aa606be1fd2572459c1502e638c49522ec9f329"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-comparison.png",
+      "bytes": 55433,
+      "sha256": "579e4ca1bd2ca36a419950ca511409db9aa38f508dfed204709984f3edf00f79"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-interpolate.mscx",
+      "bytes": 10790,
+      "sha256": "7124c2e21de1087cb1ff5e14200688f4b87d400dd490ca58361ac4743f25e8b1"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-shared.mscx",
+      "bytes": 10661,
+      "sha256": "c775b19058e0c6a954d27d9ef33059ea27a7762f057dcce63828fb6b699972d9"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-base.mscx",
+      "bytes": 5482,
+      "sha256": "6d4715fd734c5eac56b2aafd13af34391c7e053f4150d3665c2f2aa20f7447d6"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-fit.mscx",
+      "bytes": 5872,
+      "sha256": "17511b7ae8ac14c5865b8e967ef6bde606467fe42a5e6cf9a00e269023410c95"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-old.mscx",
+      "bytes": 5867,
+      "sha256": "8c99978ea2bf30c5e040f9c1fd69f301981e0301c765d4b818ff540f4c71bc78"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-base.mscx",
+      "bytes": 6294,
+      "sha256": "c41f88473fc4f61b9991833d0a69a12a8bdcd4c689b7ec9981a41e9ffdb61eb6"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-comparison.png",
+      "bytes": 38778,
+      "sha256": "e31588638f14e56c424988e09010a21457d1db6a7b9fab5ebeaac06b252c4f62"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-group.mscx",
+      "bytes": 6679,
+      "sha256": "565f40b94d0e4285412cf9bae368f59da04456d3279afcff1d67c4d926b1387e"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-joint.mscx",
+      "bytes": 6870,
+      "sha256": "044c5dc9152c82bd5b25a5c7cddad9dc342b2f9fbea13ea5f542f55e00a4f032"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-local.mscx",
+      "bytes": 5385,
+      "sha256": "868c3827f1d23278f1f0b1bbfac221457dad4c784bf353715ede21b7fe87be00"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-base.mscx",
+      "bytes": 8086,
+      "sha256": "168804ce81b2c303c089efd8119a55ad738c884ddb81e59776646c837171e09a"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-comparison.png",
+      "bytes": 53674,
+      "sha256": "0690713d3aaf2f2c6159f2cd6880bd8c601ce74417b0b778fece61d772a55937"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-joint.mscx",
+      "bytes": 8662,
+      "sha256": "918ba663af56bddb244945870ea54efe35e53b85a2314269dd2338b38e4f5736"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-text-v2.mscx",
+      "bytes": 9222,
+      "sha256": "f3f95295bb5249ee470dbaf10c43ef1be104e1102c6be27336b78a4bc1f3f1a8"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-shape-comparison.png",
+      "bytes": 73557,
+      "sha256": "49466d9249d0fcea89e0a17d6a0e98097850f3ece034ebe747b7fb1047d09a95"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-base.mscx",
+      "bytes": 5602,
+      "sha256": "ce70304dbc2bee3c31fb9e178cc71ff7915dc5a0c187067b94930061e2ae3801"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-fit.mscx",
+      "bytes": 5991,
+      "sha256": "fe76feca937ba0325ec8398bd88f470d5b43c2396df3811143f84ef65bb2f171"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-old.mscx",
+      "bytes": 5987,
+      "sha256": "867454b568a4328cda57c0fb4668653c1a36730505cf76e3b056355456a52428"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-base.mscx",
+      "bytes": 7077,
+      "sha256": "28d7e7c57d1e1c610452ae55933ca16fb26fea1daa1e91d259abbfc48bdc0a03"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-comparison.png",
+      "bytes": 33576,
+      "sha256": "d5bdc04089e934656866883d41959feb892595f435dcbd440d65a885225fdc01"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-joint.mscx",
+      "bytes": 7653,
+      "sha256": "1449c84d612ac7eecd15dec5870a9f0a3d92e1358d442eda83a2559a6d433002"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-wide-base.mscx",
+      "bytes": 6293,
+      "sha256": "f1c2ccb96efccb84190683a0fae65820fdd0a07db207e42df90d8759f34c9678"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-wide-joint.mscx",
+      "bytes": 6869,
+      "sha256": "d18197f8a570cdef25a69615f3ee197f5c36edf83c114615da63d25cf6c8ab65"
+    },
+    {
+      "path": "docs/engraving/kokecola_causal_review_evidence.json",
+      "bytes": 15705,
+      "sha256": "9080c902eab4faf06ceef1f33102c83ba73d7f7da3eb4669fec3bd846a0b2341"
+    },
+    {
+      "path": "docs/engraving/layered_compound_reading_evidence.json",
+      "bytes": 26373,
+      "sha256": "6e7aca3786240ece975fe3835ed90806153bd1002d892e86c1c6b56c4d6f4332"
+    },
+    {
+      "path": "docs/engraving/progress.json",
+      "bytes": 181692,
+      "sha256": "49b68d3b6d22e074e484fc5377432954d4d09154464cead279b8f21ed6463277"
+    },
+    {
+      "path": "docs/engraving/purrvoice_preview_reading_evidence.json",
+      "bytes": 10409,
+      "sha256": "16e97d8fe24a72b163c660b66daad2a47a809bf060103f1ac022a380ba493885"
+    },
+    {
+      "path": "docs/engraving/real_score_reading_tradeoffs_evidence.json",
+      "bytes": 24624,
+      "sha256": "a8261444b2c615bb80e059d7493f0bbf116186ba0359983db4fd6e244ff3e4ff"
+    },
+    {
+      "path": "docs/engraving/release_0_29_0_evidence.json",
+      "bytes": 24910,
+      "sha256": "039d115a30f0b6cff03649bf1da660c5d500c67795931ceb66cddfb9c32f7df3"
+    },
+    {
+      "path": "docs/engraving/release_0_30_0_evidence.json",
+      "bytes": 28087,
+      "sha256": "4614c5514fcee1a23cd7bc477dba648f2498bbabc1d171ff6de082b4b22a41a8"
+    },
+    {
+      "path": "docs/engraving/release_0_31_0_evidence.json",
+      "bytes": 33600,
+      "sha256": "f3bc6ed34014aa232f50c13546b1c9e5c565b475f18eaa98ae81998c4c9d0c92"
+    },
+    {
+      "path": "docs/engraving/stem_optical_contexts_evidence.json",
+      "bytes": 88919,
+      "sha256": "04b355cf2450ef936e0e1ce65351134181b6862ef5fe18c2cd1b9bccdbfe5a91"
+    },
+    {
+      "path": "docs/engraving/stem_optical_limits_evidence.json",
+      "bytes": 111429,
+      "sha256": "b38e75be9dbf846bc919c7030d37ac45347677886a472da24e124b7d52ac380d"
+    },
+    {
+      "path": "docs/engraving/stem_optical_shapes_marks_evidence.json",
+      "bytes": 140402,
+      "sha256": "de0946f42da78d367a63e236ab0b0a1c4d4e2f13c58237ce25c31957fefa5c6f"
+    },
+    {
+      "path": "docs/engraving/stem_optical_spacing_evidence.json",
+      "bytes": 27616,
+      "sha256": "0b95664ea01d9f8ca1a20c549dc8772055388805b74f30d40ca16f871e8ac339"
+    },
+    {
+      "path": "skills/piano-engraving/SKILL.md",
+      "bytes": 20017,
+      "sha256": "6f0315f41eeb7777fee112aa0a76ddc27a12f7e8d7c86a01c831b6d1183d654b"
+    },
+    {
+      "path": "skills/piano-engraving/agents/openai.yaml",
+      "bytes": 321,
+      "sha256": "8df86c0a5767aab008e41e5ee675e88b26bf3eb7a6f142a2e9f615d03c64a3e9"
+    },
+    {
+      "path": "skills/piano-engraving/references/judgment-details.md",
+      "bytes": 99738,
+      "sha256": "def1327569b9c30f2f4f905c6c10d4e3a430e61c8f7eba5b18d0fb021209ff88"
+    },
+    {
+      "path": "skills/piano-engraving/references/native-review.md",
+      "bytes": 32804,
+      "sha256": "fa1b50ec5d84070e398eb8c09f3176b4434b6bf116fbf8eda0e61175c35ace90"
+    },
+    {
+      "path": "skills/piano-engraving/scripts/engraving_library.py",
+      "bytes": 53387,
+      "sha256": "024711f7d8ade25684306905f634e296577578d4773969694ca248fc8667d3e3"
+    }
+  ],
+  "manifest_scope": "Inherited0.31 required-file cohort plus both supplemental studies, affected canonical notes and prior release evidence; not every repository file. Manifest self excluded.",
+  "included_notes": [
+    "PURRVOICE_PREVIEW_READING.md",
+    "LAYERED_COMPOUND_READING.md"
+  ],
+  "coverage": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "fixed_deep_scores": [
+      24,
+      24
+    ],
+    "Gould_file_reading": [
+      696,
+      696
+    ],
+    "resources": [
+      16,
+      25
+    ],
+    "remaining_resources": 9,
+    "skill_topics": [
+      20,
+      20
+    ],
+    "public_previews": [
+      2,
+      2
+    ],
+    "preview_questions": [
+      4,
+      4
+    ],
+    "layered_contexts": [
+      2,
+      2
+    ],
+    "official_pages_reread_in_followup": [
+      7,
+      7
+    ],
+    "Gould_pages_in_followup": [
+      12,
+      12
+    ],
+    "distinct_Gould_full_page_rereads_in_both_batches": [
+      153,
+      156,
+      157,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      307,
+      308,
+      310,
+      311,
+      312,
+      315
+    ],
+    "new_first_reading_coverage": 0
+  },
+  "semantic_corrections": [
+    {
+      "file": "PURRVOICE_PREVIEW_READING.md",
+      "old": "inner part releases at q2",
+      "current": "inner notated value ends at q2; the same pitch continues in the other part, physical key/pedal realization unproven"
+    },
+    {
+      "file": "INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md",
+      "old": "Again I bass dotted half",
+      "current": "filled dotted-quarter chord ends q1.5, crossing inner transfer q1"
+    },
+    {
+      "file": "INTEGRATED_READING_KAKYOIN.md",
+      "old": "Gould p307 favors less conspicuous dotted guides",
+      "current": "p307 says dotted line is most conspicuous; distinguishes it from a potentially glissando-like solid line; no new Kakyoin score view claimed"
+    }
+  ],
+  "initial_preview_correction": "Moon m8 was initially described as a whole-bar undivided beam. Targeted beam-end crop shows 6+6, first group four lower-staff plus two upper-staff heads. Long slur was conflated with beam continuity; prior undivided-beam explanation withdrawn.",
+  "native_summary": {
+    "new_calls": 0,
+    "inherited_native_studies": "release_0_31_0_evidence.json; not rerun in these two reading batches"
+  },
+  "new_public_assets": [],
+  "inherited_public_assets": [
+    {
+      "path": "docs/engraving/fixtures/stem-optical-baseline.mscx",
+      "bytes": 5311,
+      "sha256": "19e4863e92e64a848415ff93a03cd319491b7e5b212bb4465bba49b7b728259a",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-even.mscx",
+      "bytes": 5584,
+      "sha256": "8521a608a2350323fa397bb10badee40233210ed2ad72ef0922958e879d745d8",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-local.mscx",
+      "bytes": 5385,
+      "sha256": "868c3827f1d23278f1f0b1bbfac221457dad4c784bf353715ede21b7fe87be00",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-comparison.png",
+      "bytes": 24597,
+      "sha256": "e159159ce121c880dc09cb2bd28ef9cb2472a5395aff92ed6a92cb96237ab46e",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-base.mscx",
+      "bytes": 6294,
+      "sha256": "c41f88473fc4f61b9991833d0a69a12a8bdcd4c689b7ec9981a41e9ffdb61eb6",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-group.mscx",
+      "bytes": 6679,
+      "sha256": "565f40b94d0e4285412cf9bae368f59da04456d3279afcff1d67c4d926b1387e",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-joint.mscx",
+      "bytes": 6870,
+      "sha256": "044c5dc9152c82bd5b25a5c7cddad9dc342b2f9fbea13ea5f542f55e00a4f032",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-wide-base.mscx",
+      "bytes": 6293,
+      "sha256": "f1c2ccb96efccb84190683a0fae65820fdd0a07db207e42df90d8759f34c9678",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-wide-joint.mscx",
+      "bytes": 6869,
+      "sha256": "d18197f8a570cdef25a69615f3ee197f5c36edf83c114615da63d25cf6c8ab65",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-dense-base.mscx",
+      "bytes": 7084,
+      "sha256": "22caaa9c6861f7c97ff444e6f0b58db0842862b2560d9df18d08b70bee34aa10",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-dense-joint.mscx",
+      "bytes": 7660,
+      "sha256": "274c0b22e43625fce8a7148147fefd1c0c07caa12ee6d9d9c763cbde7ed02e07",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-comparison.png",
+      "bytes": 38778,
+      "sha256": "e31588638f14e56c424988e09010a21457d1db6a7b9fab5ebeaac06b252c4f62",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-contexts-comparison.png",
+      "bytes": 62527,
+      "sha256": "97fa638026f9bb179af8296487816e9ccd86cc36f31610bb324f2b6c029e567e",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-base.mscx",
+      "bytes": 7077,
+      "sha256": "28d7e7c57d1e1c610452ae55933ca16fb26fea1daa1e91d259abbfc48bdc0a03",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-joint.mscx",
+      "bytes": 7653,
+      "sha256": "1449c84d612ac7eecd15dec5870a9f0a3d92e1358d442eda83a2559a6d433002",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-base.mscx",
+      "bytes": 9611,
+      "sha256": "323b48200163a81c476d94b37aa606be1fd2572459c1502e638c49522ec9f329",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-shared.mscx",
+      "bytes": 10661,
+      "sha256": "c775b19058e0c6a954d27d9ef33059ea27a7762f057dcce63828fb6b699972d9",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-interpolate.mscx",
+      "bytes": 10790,
+      "sha256": "7124c2e21de1087cb1ff5e14200688f4b87d400dd490ca58361ac4743f25e8b1",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-balanced.mscx",
+      "bytes": 10802,
+      "sha256": "657cfece27486bf8c32734078526d14ee724d721e0dba13095eafbca2f8e9b9b",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-comparison.png",
+      "bytes": 55433,
+      "sha256": "579e4ca1bd2ca36a419950ca511409db9aa38f508dfed204709984f3edf00f79",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-comparison.png",
+      "bytes": 33576,
+      "sha256": "d5bdc04089e934656866883d41959feb892595f435dcbd440d65a885225fdc01",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-base.mscx",
+      "bytes": 5602,
+      "sha256": "ce70304dbc2bee3c31fb9e178cc71ff7915dc5a0c187067b94930061e2ae3801",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-old.mscx",
+      "bytes": 5987,
+      "sha256": "867454b568a4328cda57c0fb4668653c1a36730505cf76e3b056355456a52428",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-fit.mscx",
+      "bytes": 5991,
+      "sha256": "fe76feca937ba0325ec8398bd88f470d5b43c2396df3811143f84ef65bb2f171",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-base.mscx",
+      "bytes": 5482,
+      "sha256": "6d4715fd734c5eac56b2aafd13af34391c7e053f4150d3665c2f2aa20f7447d6",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-old.mscx",
+      "bytes": 5867,
+      "sha256": "8c99978ea2bf30c5e040f9c1fd69f301981e0301c765d4b818ff540f4c71bc78",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-fit.mscx",
+      "bytes": 5872,
+      "sha256": "17511b7ae8ac14c5865b8e967ef6bde606467fe42a5e6cf9a00e269023410c95",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-base.mscx",
+      "bytes": 8086,
+      "sha256": "168804ce81b2c303c089efd8119a55ad738c884ddb81e59776646c837171e09a",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-joint.mscx",
+      "bytes": 8662,
+      "sha256": "918ba663af56bddb244945870ea54efe35e53b85a2314269dd2338b38e4f5736",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-text-v2.mscx",
+      "bytes": 9222,
+      "sha256": "f3f95295bb5249ee470dbaf10c43ef1be104e1102c6be27336b78a4bc1f3f1a8",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-shape-comparison.png",
+      "bytes": 73557,
+      "sha256": "49466d9249d0fcea89e0a17d6a0e98097850f3ece034ebe747b7fb1047d09a95",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-comparison.png",
+      "bytes": 53674,
+      "sha256": "0690713d3aaf2f2c6159f2cd6880bd8c601ce74417b0b778fece61d772a55937",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-exchange-comparison.png",
+      "bytes": 43854,
+      "sha256": "0390e00356b568b9d7d6a5f62a22a2f4a0830117b74fe15f91a37a52aa8326e9",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-false-alignment-rejected.mscx",
+      "bytes": 5296,
+      "sha256": "a573ac66929e83dcdd66b4c3c64c3ecc88fef57307eaec679e6f40fbe681ef4d",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-merged-diagnostic.mscx",
+      "bytes": 5241,
+      "sha256": "f34122a58002dbc85a2505dc22a68680855fd5f7be607fcc97b4f9f74d3bdde3",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-split-retained.mscx",
+      "bytes": 6883,
+      "sha256": "a43ada7eff99d226f2de6030ed98a936ccecb1726245e64f1f9470e5a4b41813",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-split-system-context.png",
+      "bytes": 27374,
+      "sha256": "97d36f0655eaea2f91515ce1eeba5b8478fdcdda93fe6fd072503634658a8d88",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-tuplet-comparison.png",
+      "bytes": 67592,
+      "sha256": "e2495d6ce843f94039ed168a5ec04497b05aaaa22c723a16841e01cbabfbb884",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-limits.png",
+      "bytes": 48789,
+      "sha256": "d3dfcf6e2a8f7c3320343c09bc7bcc4a3b331601756a36d838adbf36600f3252",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-linebreak-experimental.mscx",
+      "bytes": 7670,
+      "sha256": "6a852e3673d4683628afbb183e5f4fa851cb457493ee7c0cb0ab4c8f74f810a9",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-narrow-experimental.mscx",
+      "bytes": 7592,
+      "sha256": "5ca933fe866abdacdfef2344cfb42cd43afaf0251bc5a1c68cbd9408ec69dee3",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-wide-experimental.mscx",
+      "bytes": 7591,
+      "sha256": "7fd8f022686189c5d98bdb9f0e3114fc57fc37f9ebf33d7bcb3d50386ae7a82e",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-widths.png",
+      "bytes": 56569,
+      "sha256": "b005e6f01effb51ee54e967d7a83e94a1c830e1c3093818db0d1227b21f95ec3",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "bounds": {
+    "automatic_reflow_and_exchange_ready_display": [
+      0,
+      1
+    ],
+    "authoritative_Kura_ratio": "unknown",
+    "p5cresc_logical_endpoint": "unknown",
+    "independent_judgment_accuracy": "not measured",
+    "full_remaining_resource_reading": "not complete",
+    "software_adaptation": false,
+    "new_user_preference": false,
+    "original_sources_modified": false,
+    "complete_publisher_project_reconstructed": false,
+    "Moon_author_cross_accent_intention": "unconfirmed",
+    "actual_key_or_pedal_release_from_part_rest": "not inferred",
+    "new_native_notation_candidate": false
+  },
+  "checks": {
+    "prior_release_cohort_from_tag_blobs": [
+      99,
+      99
+    ],
+    "public_assets_hashes": [
+      43,
+      43
+    ],
+    "current_task_validation": {
+      "status": "passed",
+      "recorded_at_utc": "2026-11-02T13:37:21.441847+00:00",
+      "regression_tests": [
+        6,
+        6
+      ],
+      "targeted_queries": [
+        4,
+        4
+      ],
+      "new_routes": [
+        9,
+        9
+      ],
+      "queries": [
+        {
+          "topic": "piano",
+          "query": "共头 琴键 提前释放",
+          "expected": "LAYERED_COMPOUND_READING.md",
+          "matches": [
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\LAYERED_COMPOUND_READING.md",
+              "line": 25,
+              "heading": "m6候选保什么",
+              "excerpt": "**更正“内层在2释放”的表述：它指该阅读线所写时值在q=2结束。** 共头的同音上层仍通过tie持续，不能据另一层休止要求琴键在q=2提前释放，或让一个声部的NoteOff截掉另一层持续。实际持键／踏板实现没有从PDF确定。Gould p307–308的键盘共头与双手同音惯例，要求保住分部读法，同时按技术条件执行，并不把每条视觉声部变成独立琴键。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+              "line": 3,
+              "heading": "钢琴净书研究：规范、案例与实现依据",
+              "excerpt": "2026-11-02，[分层复拍子与换表续核](LAYERED_COMPOUND_READING.md)完成**2/2情境、7/7官谱页、2/2预览复看及12/12规范页**。保实际拍组、独立保持及引导；更正共头内线结束≠琴键释放、Again低音为附点四分及p307虚线辨识度。两批补充纳入**0.32研究版**；资料仍**16/25、余9项**，无新原生或适配。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PURRVOICE_PREVIEW_READING.md",
+              "line": 35,
+              "heading": "2. 《杯中明月》m6：共用白头的两层，持续和休止不同",
+              "excerpt": "2026-11-02续核更正：表中是各阅读线的记谱时值，不能将旧称“内层在2释放”理解成琴键在2释放。同音上层仍在持续；实际持键／踏板未由PDF确定。详见[分层复拍子续核](LAYERED_COMPOUND_READING.md)。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SUSTAIN_CONTINUATION.md",
+              "line": 13,
+              "heading": "1. 四种动作为什么需要不同线索",
+              "excerpt": "| 无声按下琴键以产生共鸣 | p338以菱形头交代特殊动作，手仍要按键并保持相应时长。它与“先奏过、已由中踏板接住”的提示不同；两者都可能没有新的NoteOn，不能据此互换字形 |"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OCTAVE_READING.md",
+              "line": 28,
+              "heading": "2. 线的位置在帮助读者记住什么",
+              "excerpt": "| 普通长音结尾 | p30通常在线尾角越过最后音头及其附点处结束，不必拖到该音书写时长的右边界；八度线不表示放开琴键的时间 |"
+            }
+          ]
+        },
+        {
+          "topic": "rhythm",
+          "query": "异重音 分组",
+          "expected": "LAYERED_COMPOUND_READING.md",
+          "matches": [
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PURRVOICE_PREVIEW_READING.md",
+              "line": 39,
+              "heading": "2. 《杯中明月》m6：共用白头的两层，持续和休止不同",
+              "excerpt": "这只是已核时间关系的纸面记法候选，尚未生成原生版。m8的上层也有二分后接十六分的型，后续应一起审查，避免只改一个小节造成体例不一致。若完整语境表明慢线刻意突出2＋1，与下层复拍子形成异重音，Gould p169又允许按该重心分组；当前没有作者对这种意图的说明。候选优先回答“怎样更快数到进入”，采用前再核整段慢线的重音任务。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md",
+              "line": 3,
+              "heading": "节拍怎样显露：连梁、休止、切分与换拍",
+              "excerpt": "新增[复拍子续核](LAYERED_COMPOUND_READING.md)：History Maker的Tempo di valse未改6/8，Merry有真正拍号／单位变化。Gould169–172允许分组自身表达异重音，无须一律另加重音；Moon m6／m8显拍仍列记法比较，保原时值与快组。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md",
+              "line": 3,
+              "heading": "从参考谱学到的净书判断，怎样用于下一份谱",
+              "excerpt": "新增[分层续核](LAYERED_COMPOUND_READING.md)：6/8的显拍与异重音分条件，共头两线的记谱结束与实际止声分开；虚线交接可与独立持音重叠。先保护时值、起音和归属，再提少量记法候选。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\LAYERED_COMPOUND_READING.md",
+              "line": 7,
+              "heading": "1. 6/8中的二分长值，先判断读者需要跟哪种重心",
+              "excerpt": "**本批判断：将《杯中明月》m6与m8的显拍写法列为同一组记法比较，保留慢线的实际时值和表达异重音的可能。** 不因“二分跨过大拍”就自动拆遍全谱，也不由两次相同长值宣布作者已经采用3/4。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_MELISSA_MERRY.md",
+              "line": 64,
+              "heading": "6. 三拍、复合拍和震音分别说明什么",
+              "excerpt": "Merry开头3/4六个普通八分按2＋2＋2分梁，F主题复现同样处理。到6/8，G的普通型按附点大拍组织；I连续十二16也以每大拍六音连接。G低部八分和弦后写两个八分休止，显示该拍三份；完整附点拍的休止则写附点四分。Gould p153–154、163提供这些条件，也允许有明确音乐依据的反拍／异重音写法（p169–170），所以不能只按每小节音数选模板。"
+            }
+          ]
+        },
+        {
+          "topic": "piano",
+          "query": "Again 附点四分 q1.5",
+          "expected": "INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md",
+          "matches": [
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md",
+              "line": 49,
+              "heading": "4. 两手、持续与休止一起决定白带怎么用",
+              "excerpt": "《Again》I末小节内线从下表q0四分移到上表q1，虚线帮助跟踪；低音另为附点四分，持续到q1.5，跨过交接点。2026-11-02放大核到填黑符头，已更正旧称“附点二分”，见[分层续核](LAYERED_COMPOUND_READING.md)。p3s2的波浪下滑则是另一种动作。后者末端没有明示固定终点音高，修正首轮“连接低处目标”的过强说法，不能据其落在低区就生成特定终音。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md",
+              "line": 3,
+              "heading": "钢琴织体：简洁何时帮助阅读，何时隐去必要的信息",
+              "excerpt": "新增[两类分层续核](LAYERED_COMPOUND_READING.md)：Again I末低音为附点四分到q1.5，内线q1已换表；群青m9有书面时值重叠。共头某层休止不要求提前结束同音另一层，虚线也不规定串行voice；附加旋律提示按Gould311与独立节奏分读。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+              "line": 3,
+              "heading": "钢琴净书研究：规范、案例与实现依据",
+              "excerpt": "2026-11-02，[分层复拍子与换表续核](LAYERED_COMPOUND_READING.md)完成**2/2情境、7/7官谱页、2/2预览复看及12/12规范页**。保实际拍组、独立保持及引导；更正共头内线结束≠琴键释放、Again低音为附点四分及p307虚线辨识度。两批补充纳入**0.32研究版**；资料仍**16/25、余9项**，无新原生或适配。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\LAYERED_COMPOUND_READING.md",
+              "line": 36,
+              "heading": "2. 虚线追踪的是音乐路线，不规定所有音必须串行",
+              "excerpt": "| A010《Again》p3末系统I的末小节，p4作后续上下文 | 内线先下表q=0四分，再于q=1转到上表；低音另为附点四分，直到q=3/2。它跨过交接点，之后低部另有新音 | 内线交接与低音持续并存。旧笔记把低音误记附点二分，本批已更正；不能声称它持续三拍 |"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_EXCHANGE_CLEF_STUDY.md",
+              "line": 9,
+              "heading": "1. 要保住的音乐与读者任务",
+              "excerpt": "原创6/8单小节：q0–1.5为下部附点四分休止；q1.5–2.5是6:4十六分单位，成员为八分休止及C4、D4、E4、F4四个十六分；q2.5–3为G4、A4、B4、C5四个普通三十二分。八个有声音共主梁，连音范围包括前面的休止，普通尾部在外。"
+            }
+          ]
+        },
+        {
+          "topic": "sources",
+          "query": "p307 虚线 显著",
+          "expected": "LAYERED_COMPOUND_READING.md",
+          "matches": [
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\LAYERED_COMPOUND_READING.md",
+              "line": 39,
+              "heading": "2. 虚线追踪的是音乐路线，不规定所有音必须串行",
+              "excerpt": "Gould p307允许虚线追踪跨表进程，p308要求真正跨表tie接到音头。这里还须纠正一处旧规范转述：p307认为虚线更显著、便于识别，避免实线像glissando；它没有要求虚线更不显眼。可以按出版风格保持线条轻巧，不能把这项风格观察冒充该页规范。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PURRVOICE_PREVIEW_READING.md",
+              "line": 18,
+              "heading": "1. 《群青》m9、m11–13：虚线帮助追内层，不能丢掉保持",
+              "excerpt": "Gould p307的跨表声部引导采用朝系统中部的干向，并允许斜向虚线追踪；实线近接两音头可能看成滑奏。这里的读法与该语法相符。虚线不要求演奏沿途所有音，也不自动赋予glissando、连音比例或八度移位。PDF同样不能证明这些音在源工程中属于同一个voice容器。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md",
+              "line": 33,
+              "heading": "3. 声部接手的虚线值得保留",
+              "excerpt": "当前判断是保留这条较淡的路线：读者无需在密集运动中猜哪几个音组成内线，tenuto、独立干和虚线提供一致线索。将它改成滑音会暗示连续滑奏；简单删除又会增加跨表寻找。Gould p307也以较轻的虚线区分声部引导与可能像滑奏的实线。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+              "line": 3,
+              "heading": "钢琴净书研究：规范、案例与实现依据",
+              "excerpt": "2026-11-02，[分层复拍子与换表续核](LAYERED_COMPOUND_READING.md)完成**2/2情境、7/7官谱页、2/2预览复看及12/12规范页**。保实际拍组、独立保持及引导；更正共头内线结束≠琴键释放、Again低音为附点四分及p307虚线辨识度。两批补充纳入**0.32研究版**；资料仍**16/25、余9项**，无新原生或适配。"
+            },
+            {
+              "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEHIND_BARS_NOTES.md",
+              "line": 137,
+              "heading": "已读范围与证据等级",
+              "excerpt": "| 303–308 | 钢琴章节正文；p307/308图页复核 | 手/谱表分配、交叉、虚线声部引导、同音共头、跨谱表tie | 手分配算法和实际触键验证 |"
+            }
+          ]
+        }
+      ],
+      "local_links": [
+        {
+          "from": "LAYERED_COMPOUND_READING.md",
+          "target": "PURRVOICE_PREVIEW_READING.md"
+        },
+        {
+          "from": "LAYERED_COMPOUND_READING.md",
+          "target": "layered_compound_reading_evidence.json"
+        },
+        {
+          "from": "LAYERED_COMPOUND_READING.md",
+          "target": "PURRVOICE_PREVIEW_READING.md"
+        },
+        {
+          "from": "LAYERED_COMPOUND_READING.md",
+          "target": "STATUS_AND_ROADMAP.md"
+        },
+        {
+          "from": "PURRVOICE_PREVIEW_READING.md",
+          "target": "purrvoice_preview_reading_evidence.json"
+        },
+        {
+          "from": "PURRVOICE_PREVIEW_READING.md",
+          "target": "LAYERED_COMPOUND_READING.md"
+        },
+        {
+          "from": "PURRVOICE_PREVIEW_READING.md",
+          "target": "STEM_OPTICAL_SPACING_STUDY.md"
+        },
+        {
+          "from": "PURRVOICE_PREVIEW_READING.md",
+          "target": "STEM_OPTICAL_CONTEXTS.md"
+        },
+        {
+          "from": "PURRVOICE_PREVIEW_READING.md",
+          "target": "SPACING_MODELS.md"
+        },
+        {
+          "from": "PURRVOICE_PREVIEW_READING.md",
+          "target": "LAYERED_COMPOUND_READING.md"
+        }
+      ],
+      "command_results": [
+        {
+          "check": "progress",
+          "exit_code": 0,
+          "stdout": "{\n  \"as_of\": \"2026-11-02\",\n  \"scope_revision\": 1,\n  \"goal_status\": \"active\",\n  \"note\": \"数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。\",\n  \"first_pass_scores\": [\n    146,\n    146\n  ],\n  \"first_pass_pages\": [\n    1135,\n    1135\n  ],\n  \"historical_detail_pages\": 379,\n  \"deep_scores\": [\n    24,\n    24\n  ],\n  \"deep_pages\": [\n    164,\n    164\n  ],\n  \"all_score_closeout\": [\n    146,\n    146\n  ],\n  \"gould_pages_conservative\": [\n    696,\n    696\n  ],\n  \"gould_substantive_pages\": 598,\n  \"gould_non_substantive_pages\": 98,\n  \"gould_title_or_contents_pages\": 98,\n  \"public_resource_scopes\": [\n    16,\n    25\n  ],\n  \"skill_transfer_scenarios\": [\n    8,\n    8\n  ],\n  \"user_integrated_rounds\": [\n    1,\n    1\n  ],\n  \"user_milestones\": [\n    4,\n    4\n  ],\n  \"skill_topics\": [\n    20,\n    20\n  ],\n  \"release\": \"engraving-v0.32.0\"\n}\n",
+          "stderr": ""
+        },
+        {
+          "check": "skill",
+          "exit_code": 0,
+          "stdout": "Skill is valid!\n",
+          "stderr": ""
+        },
+        {
+          "check": "retrieval_regression",
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "test_curated_source_locations (test_engraving_library.EngravingLibraryTests.test_curated_source_locations) ... ok\ntest_existing_topic_listing_and_all_twenty_routes (test_engraving_library.EngravingLibraryTests.test_existing_topic_listing_and_all_twenty_routes) ... ok\ntest_fullwidth_ratio_works_like_ascii (test_engraving_library.EngravingLibraryTests.test_fullwidth_ratio_works_like_ascii) ... ok\ntest_invalid_limits_and_empty_search (test_engraving_library.EngravingLibraryTests.test_invalid_limits_and_empty_search) ... ok\ntest_missing_query_has_no_fake_references (test_engraving_library.EngravingLibraryTests.test_missing_query_has_no_fake_references) ... ok\ntest_search_keeps_library_sources_unchanged (test_engraving_library.EngravingLibraryTests.test_search_keeps_library_sources_unchanged) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 8.710s\n\nOK\n"
+        },
+        {
+          "check": "diff_check",
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ],
+      "scope": "Source retrieval, link/format and progress consistency only; not independent engraving accuracy or user aesthetic adoption."
+    },
+    "source_inputs_unchanged": [
+      9,
+      9
+    ]
+  },
+  "private_cache_bytes": 124318
+}

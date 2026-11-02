@@ -110,7 +110,7 @@
     },
     {
       "case": "Moon m6, related long values m8",
-      "judgment": "Preserve opposite stems and distinct release/rest. Conditional beat-exposing notation proposal; check 2+1 counter-metric intent and consistent context first."
+      "judgment": "Preserve opposite stems, distinct notated durations/rest and continuing same-pitch upper tie. Conditional beat-exposing notation proposal; check counter-metric intent."
     },
     {
       "case": "Moon m8",
@@ -213,7 +213,9 @@
       "5/2",
       "11/4"
     ],
-    "native_candidate_generated": false
+    "native_candidate_generated": false,
+    "inner_notated_end": "2",
+    "inner_release_field_note": "Legacy field names the end of the written inner value, not physical key/pedal release; same-pitch upper tie continues."
   },
   "m8_rhythm": {
     "ordinary_sixteenths": 12,
@@ -333,10 +335,24 @@
     "status": "passed",
     "progress_check": true,
     "skill_structure_valid": true,
-    "existing_retrieval_regression": [6, 6],
-    "targeted_new_case_queries": [3, 3],
-    "new_reference_routes": [8, 8],
+    "existing_retrieval_regression": [
+      6,
+      6
+    ],
+    "targeted_new_case_queries": [
+      3,
+      3
+    ],
+    "new_reference_routes": [
+      8,
+      8
+    ],
     "diff_check": true,
     "scope": "Reference availability, retrieval and progress consistency; not engraving accuracy, user adoption or native rendering."
+  },
+  "interpretation_followup": {
+    "reference": "LAYERED_COMPOUND_READING.md",
+    "evidence": "layered_compound_reading_evidence.json",
+    "scope": "Clarifies notated-end versus actual release; original timing values and reading counts unchanged."
   }
 }

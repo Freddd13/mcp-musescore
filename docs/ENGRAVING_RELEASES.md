@@ -1,5 +1,14 @@
 # 净书知识库与skill发布记录
 
+## 0.32.0 — 2026-11-02
+
+固定[Purrvoice两预览](engraving/PURRVOICE_PREVIEW_READING.md)2/2图、四问题4/4，以及[分层续核](engraving/LAYERED_COMPOUND_READING.md)2/2情境、四谱7/7页、两预览复看2/2和Gould12/12页。两批完整规范图页去重15页，覆盖不增加；m8已6＋6分梁，长弧保方向，m6／m8显拍仍是待原生比较的记法候选。
+
+更正共头内线记谱结束与琴键释放的混同、Again I低音的附点四分，以及Gould p307虚线辨识度的旧转述。保每层时值、真正tie、新起音及独立保持；分组自身也可表达异重音。九个相关入口接入新续核，20入口、六项检索回归与定向查询验证可查[证据](engraving/release_0_32_0_evidence.json)。
+
+官谱146/146、1135/1135页、Gould696/696覆盖、资料16/25余9保持；没有新增原生条件、可分发音乐资产、软件／MCP／字体适配。沿用43份CC0资产，参考图和书页不打包。标签`engraving-v0.32.0`固定本版，旧标签保持。关联安装更新项目，复制安装同步同版skill与库，MCP无需重配。
+
+
 ## 0.31.0 — 2026-11-02
 
 固定近期三批：[跨线显示组合](engraving/CROSSBAR_DISPLAY_COMPOSITION.md)三情境3/3及受控单行1/1；[实谱取舍](engraving/REAL_SCORE_READING_TRADEOFFS.md)三类3/3；[Kokecola因果细读](engraving/KOKE_COLA_CAUSAL_REVIEW.md)四问题4/4、七图7/7。更正旧“两个降号收为同列”：实际保错列、压紧列距；间距图同时改变休止高度，不能单因归因。三批规范按页去重共25页复读，不新增首次覆盖。

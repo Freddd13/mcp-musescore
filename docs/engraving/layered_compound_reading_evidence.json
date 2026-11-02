@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "previous_goal_turn": "progress: 8e853b0 published two preview readings and corrected m8 beaming.",
+  "scope": "Two previously selected known-material reading contexts, not independent blind assessment or native optimization.",
+  "contexts_analyzed": [
+    2,
+    2
+  ],
+  "official_full_pages_reread": [
+    7,
+    7
+  ],
+  "official_sources": {
+    "A058": [
+      1,
+      2
+    ],
+    "A088": [
+      4,
+      5
+    ],
+    "A010": [
+      3,
+      4
+    ],
+    "A005": [
+      154
+    ]
+  },
+  "public_previews_reread": [
+    2,
+    2
+  ],
+  "gould_full_pages_reread": [
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    307,
+    308,
+    310,
+    311,
+    312,
+    315
+  ],
+  "gould_initial_planned_pages": [
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    307,
+    310,
+    311,
+    312,
+    315
+  ],
+  "scope_change": {
+    "added_Gould_pages": [
+      308
+    ],
+    "reason": "Unison parts, actual hand execution and notated duration must be distinguished; clarifies legacy release wording."
+  },
+  "book_page_mapping": "Printed p -> zero-based file index p+19",
+  "initial_judgments": [
+    "Keep layer durations; beat-exposing rewrite is worth comparing, but repeated half values alone do not establish intended cross-accent.",
+    "Preserve dotted voice guides and distinct sustained notes; inspect actual time overlap before consolidating voices."
+  ],
+  "final_judgments": [
+    "Compare beat-exposing notation for Moon m6 and m8 without changing layer durations. Valse is not a meter change; grouping itself can express cross-accent without extra labels. No mandatory whole-score rewrite.",
+    "Preserve guided melodic paths, independent holds and true ties separately. Guidance need not be a sequential single-voice model; a notated end does not alone mandate physical key release."
+  ],
+  "specific_checks": {
+    "History_Maker": "p1 Tempo di valse has no new 3/4; two compound-beat accompaniment groups and p2 six-head groups remain.",
+    "Merry_Go_Round": "p4 fourth-system last bar explicitly 6/8 with dotted-quarter115 before G; p5 J explicitly 3/4 quarter95.",
+    "Gunjou_m9": {
+      "held_written_value_q": [
+        "0",
+        "2"
+      ],
+      "guided_eighth_q": "3/2",
+      "next_upper_group_q": "2",
+      "written_overlap_q": "1/2",
+      "physical_hold_or_source_voice_inferred": false
+    },
+    "Again_I_last_bar": {
+      "source": "A010 p3 last system; p4 context",
+      "inner_transfer_q": "1",
+      "independent_bass_written_value": "dotted quarter",
+      "bass_end_q": "3/2",
+      "legacy_dotted_half_claim": "corrected"
+    },
+    "Medley_p154_s4": "Dotted guide from preceding last lower eighth goes to new upper inner note; simultaneous upper chord tie is a different connection.",
+    "Moon_m6": {
+      "upper_notated_tie_continuation_end_q": "9/4",
+      "inner_notated_end_q": "2",
+      "inner_rest_q": [
+        "2",
+        "9/4"
+      ],
+      "physical_key_release_q": "not determined from this rest/PDF"
+    }
+  },
+  "corrections": [
+    {
+      "file": "PURRVOICE_PREVIEW_READING.md",
+      "old": "inner part releases at q2",
+      "current": "inner notated value ends at q2; the same pitch continues in the other part, physical key/pedal realization unproven"
+    },
+    {
+      "file": "INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md",
+      "old": "Again I bass dotted half",
+      "current": "filled dotted-quarter chord ends q1.5, crossing inner transfer q1"
+    },
+    {
+      "file": "INTEGRATED_READING_KAKYOIN.md",
+      "old": "Gould p307 favors less conspicuous dotted guides",
+      "current": "p307 says dotted line is most conspicuous; distinguishes it from a potentially glissando-like solid line; no new Kakyoin score view claimed"
+    }
+  ],
+  "targeted_crops": [
+    {
+      "source": "A058 p1",
+      "box_pt": [
+        180,
+        415,
+        590,
+        545
+      ],
+      "scale": 2
+    },
+    {
+      "source": "A010 p3",
+      "box_pt": [
+        425,
+        685,
+        590,
+        800
+      ],
+      "scale": 3
+    },
+    {
+      "source": "A005 p154",
+      "box_pt": [
+        265,
+        418,
+        590,
+        535
+      ],
+      "scale": 3
+    },
+    {
+      "source": "Gunjou JPEG",
+      "box_px": [
+        580,
+        985,
+        1060,
+        1315
+      ],
+      "scale": 2
+    },
+    {
+      "source": "Moon JPEG",
+      "box_px": [
+        1070,
+        1090,
+        1490,
+        1430
+      ],
+      "scale": 2
+    },
+    {
+      "source": "Moon JPEG",
+      "box_px": [
+        605,
+        1575,
+        1080,
+        1780
+      ],
+      "scale": 2
+    }
+  ],
+  "new_first_reading_coverage": 0,
+  "new_fixed_resource_completions": 0,
+  "new_source_downloads": 0,
+  "new_native_calls": 0,
+  "new_user_preferences": 0,
+  "software_adaptation": false,
+  "original_inputs_before": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\200 Anime Songs Medley.pdf",
+      "sha256": "de0c99dd322419b5f607234a5a5a22e7f987e9bcd80647e09f7e6e81a5e6b8de"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Again - Fullmetal Alchemist Brotherhood - Opening Theme.pdf",
+      "sha256": "6f1af8d0d02173de5d4d4fd714ddca047c75a35bfa52483d5a2c018be241bcd5"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\History Maker - Yuri!!! on ICE - Opening Theme.pdf",
+      "sha256": "7b33071cb762e00ec0f220a257a78c3bf97d00910617db39b00649c5163ad39a"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Merry-Go-Round of Life - Howl’s Moving Castle - Main Theme.pdf",
+      "sha256": "8558a8c2b5e5ed694156f302cd817b73c1e6a9ceb8ebb7af41d10509a15eb024"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\purrvoice-previews-2026-11-02\\gunjou-public-preview.jpg",
+      "sha256": "ea481e6bf8a7ebe0e51af04b7f3b163dac4e8befd831fe3348299fa82005e86b"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\purrvoice-previews-2026-11-02\\moon-public-preview.jpg",
+      "sha256": "8cdb5934684cc34bfb4d1b2a4c623b493c79a5025638452dd375904b6e4a7f8f"
+    }
+  ],
+  "original_inputs_after": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\200 Anime Songs Medley.pdf",
+      "sha256": "de0c99dd322419b5f607234a5a5a22e7f987e9bcd80647e09f7e6e81a5e6b8de"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Again - Fullmetal Alchemist Brotherhood - Opening Theme.pdf",
+      "sha256": "6f1af8d0d02173de5d4d4fd714ddca047c75a35bfa52483d5a2c018be241bcd5"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\History Maker - Yuri!!! on ICE - Opening Theme.pdf",
+      "sha256": "7b33071cb762e00ec0f220a257a78c3bf97d00910617db39b00649c5163ad39a"
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Merry-Go-Round of Life - Howl’s Moving Castle - Main Theme.pdf",
+      "sha256": "8558a8c2b5e5ed694156f302cd817b73c1e6a9ceb8ebb7af41d10509a15eb024"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\purrvoice-previews-2026-11-02\\gunjou-public-preview.jpg",
+      "sha256": "ea481e6bf8a7ebe0e51af04b7f3b163dac4e8befd831fe3348299fa82005e86b"
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\purrvoice-previews-2026-11-02\\moon-public-preview.jpg",
+      "sha256": "8cdb5934684cc34bfb4d1b2a4c623b493c79a5025638452dd375904b6e4a7f8f"
+    }
+  ],
+  "original_inputs_unchanged": true,
+  "private_cache": {
+    "path": "tmp/engraving/layered-compound-2026-11-02",
+    "budget_bytes": 1048576,
+    "one_overwritten_image": "read.png",
+    "image_overwrites": 25,
+    "source_pdf_or_runtime_copies": 0,
+    "deletions": 0,
+    "accounting": "Final batch inventory after helper scripts and validation report; reference input files reused outside this directory.",
+    "bytes": 124318,
+    "files": [
+      {
+        "path": "build_release.py",
+        "bytes": 6202
+      },
+      {
+        "path": "plan_before_views.json",
+        "bytes": 3248
+      },
+      {
+        "path": "publish_notes.py",
+        "bytes": 13945
+      },
+      {
+        "path": "read.png",
+        "bytes": 77555
+      },
+      {
+        "path": "study_batch.py",
+        "bytes": 4101
+      },
+      {
+        "path": "validate_release.py",
+        "bytes": 3378
+      },
+      {
+        "path": "validation_report.json",
+        "bytes": 15889
+      }
+    ]
+  },
+  "verification": {
+    "status": "passed",
+    "recorded_at_utc": "2026-11-02T13:37:21.441847+00:00",
+    "regression_tests": [
+      6,
+      6
+    ],
+    "targeted_queries": [
+      4,
+      4
+    ],
+    "new_routes": [
+      9,
+      9
+    ],
+    "queries": [
+      {
+        "topic": "piano",
+        "query": "共头 琴键 提前释放",
+        "expected": "LAYERED_COMPOUND_READING.md",
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\LAYERED_COMPOUND_READING.md",
+            "line": 25,
+            "heading": "m6候选保什么",
+            "excerpt": "**更正“内层在2释放”的表述：它指该阅读线所写时值在q=2结束。** 共头的同音上层仍通过tie持续，不能据另一层休止要求琴键在q=2提前释放，或让一个声部的NoteOff截掉另一层持续。实际持键／踏板实现没有从PDF确定。Gould p307–308的键盘共头与双手同音惯例，要求保住分部读法，同时按技术条件执行，并不把每条视觉声部变成独立琴键。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 3,
+            "heading": "钢琴净书研究：规范、案例与实现依据",
+            "excerpt": "2026-11-02，[分层复拍子与换表续核](LAYERED_COMPOUND_READING.md)完成**2/2情境、7/7官谱页、2/2预览复看及12/12规范页**。保实际拍组、独立保持及引导；更正共头内线结束≠琴键释放、Again低音为附点四分及p307虚线辨识度。两批补充纳入**0.32研究版**；资料仍**16/25、余9项**，无新原生或适配。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PURRVOICE_PREVIEW_READING.md",
+            "line": 35,
+            "heading": "2. 《杯中明月》m6：共用白头的两层，持续和休止不同",
+            "excerpt": "2026-11-02续核更正：表中是各阅读线的记谱时值，不能将旧称“内层在2释放”理解成琴键在2释放。同音上层仍在持续；实际持键／踏板未由PDF确定。详见[分层复拍子续核](LAYERED_COMPOUND_READING.md)。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SUSTAIN_CONTINUATION.md",
+            "line": 13,
+            "heading": "1. 四种动作为什么需要不同线索",
+            "excerpt": "| 无声按下琴键以产生共鸣 | p338以菱形头交代特殊动作，手仍要按键并保持相应时长。它与“先奏过、已由中踏板接住”的提示不同；两者都可能没有新的NoteOn，不能据此互换字形 |"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\OCTAVE_READING.md",
+            "line": 28,
+            "heading": "2. 线的位置在帮助读者记住什么",
+            "excerpt": "| 普通长音结尾 | p30通常在线尾角越过最后音头及其附点处结束，不必拖到该音书写时长的右边界；八度线不表示放开琴键的时间 |"
+          }
+        ]
+      },
+      {
+        "topic": "rhythm",
+        "query": "异重音 分组",
+        "expected": "LAYERED_COMPOUND_READING.md",
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PURRVOICE_PREVIEW_READING.md",
+            "line": 39,
+            "heading": "2. 《杯中明月》m6：共用白头的两层，持续和休止不同",
+            "excerpt": "这只是已核时间关系的纸面记法候选，尚未生成原生版。m8的上层也有二分后接十六分的型，后续应一起审查，避免只改一个小节造成体例不一致。若完整语境表明慢线刻意突出2＋1，与下层复拍子形成异重音，Gould p169又允许按该重心分组；当前没有作者对这种意图的说明。候选优先回答“怎样更快数到进入”，采用前再核整段慢线的重音任务。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\RHYTHM_READING.md",
+            "line": 3,
+            "heading": "节拍怎样显露：连梁、休止、切分与换拍",
+            "excerpt": "新增[复拍子续核](LAYERED_COMPOUND_READING.md)：History Maker的Tempo di valse未改6/8，Merry有真正拍号／单位变化。Gould169–172允许分组自身表达异重音，无须一律另加重音；Moon m6／m8显拍仍列记法比较，保原时值与快组。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md",
+            "line": 3,
+            "heading": "从参考谱学到的净书判断，怎样用于下一份谱",
+            "excerpt": "新增[分层续核](LAYERED_COMPOUND_READING.md)：6/8的显拍与异重音分条件，共头两线的记谱结束与实际止声分开；虚线交接可与独立持音重叠。先保护时值、起音和归属，再提少量记法候选。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\LAYERED_COMPOUND_READING.md",
+            "line": 7,
+            "heading": "1. 6/8中的二分长值，先判断读者需要跟哪种重心",
+            "excerpt": "**本批判断：将《杯中明月》m6与m8的显拍写法列为同一组记法比较，保留慢线的实际时值和表达异重音的可能。** 不因“二分跨过大拍”就自动拆遍全谱，也不由两次相同长值宣布作者已经采用3/4。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_MELISSA_MERRY.md",
+            "line": 64,
+            "heading": "6. 三拍、复合拍和震音分别说明什么",
+            "excerpt": "Merry开头3/4六个普通八分按2＋2＋2分梁，F主题复现同样处理。到6/8，G的普通型按附点大拍组织；I连续十二16也以每大拍六音连接。G低部八分和弦后写两个八分休止，显示该拍三份；完整附点拍的休止则写附点四分。Gould p153–154、163提供这些条件，也允许有明确音乐依据的反拍／异重音写法（p169–170），所以不能只按每小节音数选模板。"
+          }
+        ]
+      },
+      {
+        "topic": "piano",
+        "query": "Again 附点四分 q1.5",
+        "expected": "INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md",
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md",
+            "line": 49,
+            "heading": "4. 两手、持续与休止一起决定白带怎么用",
+            "excerpt": "《Again》I末小节内线从下表q0四分移到上表q1，虚线帮助跟踪；低音另为附点四分，持续到q1.5，跨过交接点。2026-11-02放大核到填黑符头，已更正旧称“附点二分”，见[分层续核](LAYERED_COMPOUND_READING.md)。p3s2的波浪下滑则是另一种动作。后者末端没有明示固定终点音高，修正首轮“连接低处目标”的过强说法，不能据其落在低区就生成特定终音。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PIANO_TEXTURE_STUDY.md",
+            "line": 3,
+            "heading": "钢琴织体：简洁何时帮助阅读，何时隐去必要的信息",
+            "excerpt": "新增[两类分层续核](LAYERED_COMPOUND_READING.md)：Again I末低音为附点四分到q1.5，内线q1已换表；群青m9有书面时值重叠。共头某层休止不要求提前结束同音另一层，虚线也不规定串行voice；附加旋律提示按Gould311与独立节奏分读。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 3,
+            "heading": "钢琴净书研究：规范、案例与实现依据",
+            "excerpt": "2026-11-02，[分层复拍子与换表续核](LAYERED_COMPOUND_READING.md)完成**2/2情境、7/7官谱页、2/2预览复看及12/12规范页**。保实际拍组、独立保持及引导；更正共头内线结束≠琴键释放、Again低音为附点四分及p307虚线辨识度。两批补充纳入**0.32研究版**；资料仍**16/25、余9项**，无新原生或适配。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\LAYERED_COMPOUND_READING.md",
+            "line": 36,
+            "heading": "2. 虚线追踪的是音乐路线，不规定所有音必须串行",
+            "excerpt": "| A010《Again》p3末系统I的末小节，p4作后续上下文 | 内线先下表q=0四分，再于q=1转到上表；低音另为附点四分，直到q=3/2。它跨过交接点，之后低部另有新音 | 内线交接与低音持续并存。旧笔记把低音误记附点二分，本批已更正；不能声称它持续三拍 |"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEAM_EXCHANGE_CLEF_STUDY.md",
+            "line": 9,
+            "heading": "1. 要保住的音乐与读者任务",
+            "excerpt": "原创6/8单小节：q0–1.5为下部附点四分休止；q1.5–2.5是6:4十六分单位，成员为八分休止及C4、D4、E4、F4四个十六分；q2.5–3为G4、A4、B4、C5四个普通三十二分。八个有声音共主梁，连音范围包括前面的休止，普通尾部在外。"
+          }
+        ]
+      },
+      {
+        "topic": "sources",
+        "query": "p307 虚线 显著",
+        "expected": "LAYERED_COMPOUND_READING.md",
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\LAYERED_COMPOUND_READING.md",
+            "line": 39,
+            "heading": "2. 虚线追踪的是音乐路线，不规定所有音必须串行",
+            "excerpt": "Gould p307允许虚线追踪跨表进程，p308要求真正跨表tie接到音头。这里还须纠正一处旧规范转述：p307认为虚线更显著、便于识别，避免实线像glissando；它没有要求虚线更不显眼。可以按出版风格保持线条轻巧，不能把这项风格观察冒充该页规范。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\PURRVOICE_PREVIEW_READING.md",
+            "line": 18,
+            "heading": "1. 《群青》m9、m11–13：虚线帮助追内层，不能丢掉保持",
+            "excerpt": "Gould p307的跨表声部引导采用朝系统中部的干向，并允许斜向虚线追踪；实线近接两音头可能看成滑奏。这里的读法与该语法相符。虚线不要求演奏沿途所有音，也不自动赋予glissando、连音比例或八度移位。PDF同样不能证明这些音在源工程中属于同一个voice容器。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md",
+            "line": 33,
+            "heading": "3. 声部接手的虚线值得保留",
+            "excerpt": "当前判断是保留这条较淡的路线：读者无需在密集运动中猜哪几个音组成内线，tenuto、独立干和虚线提供一致线索。将它改成滑音会暗示连续滑奏；简单删除又会增加跨表寻找。Gould p307也以较轻的虚线区分声部引导与可能像滑奏的实线。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 3,
+            "heading": "钢琴净书研究：规范、案例与实现依据",
+            "excerpt": "2026-11-02，[分层复拍子与换表续核](LAYERED_COMPOUND_READING.md)完成**2/2情境、7/7官谱页、2/2预览复看及12/12规范页**。保实际拍组、独立保持及引导；更正共头内线结束≠琴键释放、Again低音为附点四分及p307虚线辨识度。两批补充纳入**0.32研究版**；资料仍**16/25、余9项**，无新原生或适配。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\BEHIND_BARS_NOTES.md",
+            "line": 137,
+            "heading": "已读范围与证据等级",
+            "excerpt": "| 303–308 | 钢琴章节正文；p307/308图页复核 | 手/谱表分配、交叉、虚线声部引导、同音共头、跨谱表tie | 手分配算法和实际触键验证 |"
+          }
+        ]
+      }
+    ],
+    "local_links": [
+      {
+        "from": "LAYERED_COMPOUND_READING.md",
+        "target": "PURRVOICE_PREVIEW_READING.md"
+      },
+      {
+        "from": "LAYERED_COMPOUND_READING.md",
+        "target": "layered_compound_reading_evidence.json"
+      },
+      {
+        "from": "LAYERED_COMPOUND_READING.md",
+        "target": "PURRVOICE_PREVIEW_READING.md"
+      },
+      {
+        "from": "LAYERED_COMPOUND_READING.md",
+        "target": "STATUS_AND_ROADMAP.md"
+      },
+      {
+        "from": "PURRVOICE_PREVIEW_READING.md",
+        "target": "purrvoice_preview_reading_evidence.json"
+      },
+      {
+        "from": "PURRVOICE_PREVIEW_READING.md",
+        "target": "LAYERED_COMPOUND_READING.md"
+      },
+      {
+        "from": "PURRVOICE_PREVIEW_READING.md",
+        "target": "STEM_OPTICAL_SPACING_STUDY.md"
+      },
+      {
+        "from": "PURRVOICE_PREVIEW_READING.md",
+        "target": "STEM_OPTICAL_CONTEXTS.md"
+      },
+      {
+        "from": "PURRVOICE_PREVIEW_READING.md",
+        "target": "SPACING_MODELS.md"
+      },
+      {
+        "from": "PURRVOICE_PREVIEW_READING.md",
+        "target": "LAYERED_COMPOUND_READING.md"
+      }
+    ],
+    "command_results": [
+      {
+        "check": "progress",
+        "exit_code": 0,
+        "stdout": "{\n  \"as_of\": \"2026-11-02\",\n  \"scope_revision\": 1,\n  \"goal_status\": \"active\",\n  \"note\": \"数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。\",\n  \"first_pass_scores\": [\n    146,\n    146\n  ],\n  \"first_pass_pages\": [\n    1135,\n    1135\n  ],\n  \"historical_detail_pages\": 379,\n  \"deep_scores\": [\n    24,\n    24\n  ],\n  \"deep_pages\": [\n    164,\n    164\n  ],\n  \"all_score_closeout\": [\n    146,\n    146\n  ],\n  \"gould_pages_conservative\": [\n    696,\n    696\n  ],\n  \"gould_substantive_pages\": 598,\n  \"gould_non_substantive_pages\": 98,\n  \"gould_title_or_contents_pages\": 98,\n  \"public_resource_scopes\": [\n    16,\n    25\n  ],\n  \"skill_transfer_scenarios\": [\n    8,\n    8\n  ],\n  \"user_integrated_rounds\": [\n    1,\n    1\n  ],\n  \"user_milestones\": [\n    4,\n    4\n  ],\n  \"skill_topics\": [\n    20,\n    20\n  ],\n  \"release\": \"engraving-v0.32.0\"\n}\n",
+        "stderr": ""
+      },
+      {
+        "check": "skill",
+        "exit_code": 0,
+        "stdout": "Skill is valid!\n",
+        "stderr": ""
+      },
+      {
+        "check": "retrieval_regression",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "test_curated_source_locations (test_engraving_library.EngravingLibraryTests.test_curated_source_locations) ... ok\ntest_existing_topic_listing_and_all_twenty_routes (test_engraving_library.EngravingLibraryTests.test_existing_topic_listing_and_all_twenty_routes) ... ok\ntest_fullwidth_ratio_works_like_ascii (test_engraving_library.EngravingLibraryTests.test_fullwidth_ratio_works_like_ascii) ... ok\ntest_invalid_limits_and_empty_search (test_engraving_library.EngravingLibraryTests.test_invalid_limits_and_empty_search) ... ok\ntest_missing_query_has_no_fake_references (test_engraving_library.EngravingLibraryTests.test_missing_query_has_no_fake_references) ... ok\ntest_search_keeps_library_sources_unchanged (test_engraving_library.EngravingLibraryTests.test_search_keeps_library_sources_unchanged) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 8.710s\n\nOK\n"
+      },
+      {
+        "check": "diff_check",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "scope": "Source retrieval, link/format and progress consistency only; not independent engraving accuracy or user aesthetic adoption."
+  }
+}

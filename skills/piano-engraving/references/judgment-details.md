@@ -893,3 +893,5 @@ FREE_PASSAGE_READING接入TIME_SPACE_AND_REPETITION：独立反复分同速、�
 ## purrvoice-preview
 
 [两份公开预览](../../../docs/engraving/PURRVOICE_PREVIEW_READING.md)提供可直接查的反例：《杯中明月》m8长弧跨整次上行，梁已按6＋6；换表发生在第一组内。先核端点再判未分组，十二普通十六分不加6:4比例。m6共头双干之后，延音接收与另一层十六分休止各自保护；显出复拍子大拍属于记法候选，需核慢线异重音。
+
+[分层续核](../../../docs/engraving/LAYERED_COMPOUND_READING.md)将记谱时值、旋律路线与实际持键分开：同音另一层继续时，休止不要求琴键提前释放；虚线不规定串行voice。按拍号与具体组形判断显拍／异重音；分组已表达交错时，不强迫再添括形、重音或新拍号。

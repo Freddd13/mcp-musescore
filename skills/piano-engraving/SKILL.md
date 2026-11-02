@@ -2,7 +2,7 @@
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
 metadata:
-  version: "0.31.0"
+  version: "0.32.0"
 ---
 
 # 钢琴净书
@@ -123,7 +123,7 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 长动态文字经`markings`／`layout`查`LONG_DYNAMIC_TEXT_STUDY.md`：先保完整指令、作用层和起止，再比较铺词、起点写全及续行提醒；多词／多行不自动变成多次力度。短发夹和文字也可能参与横向预算，软件最小值不能直接当规范。
 
-分层复拍子可经`piano`／`rhythm`查`PURRVOICE_PREVIEW_READING.md`：先核真实梁端，再分长弧、拍组和换表；共头双干可有不同释放与休止，不自动合并。显拍改写须保每层持续，并核是否刻意表达异重音。
+分层复拍子可经`piano`／`rhythm`查`PURRVOICE_PREVIEW_READING.md`与`LAYERED_COMPOUND_READING.md`：先核真实梁端，再分长弧、拍组和换表；共头双干可有不同记谱时值和休止，同音另一层继续时不推成琴键提前释放。显拍改写须保各层时值，分组自身也可表达异重音；虚线不规定所有节点必须串行。
 
 间距检查须量到接收点，不只看连音内部几个头。经`spacing`／`rhythm`查`SHAMSHIR_PREVIEW_READING.md`：另一层插入事件仍应保护主要脉冲；梁内休止与拍端延梁分别判断。公开合作署名不证明具体排法的修改者，也不证明源软件。
 

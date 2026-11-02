@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+2026-11-02发布**0.32.0研究版／engraving-v0.32.0**：[两预览](engraving/PURRVOICE_PREVIEW_READING.md)及[分层续核](engraving/LAYERED_COMPOUND_READING.md)固定，含共头止声、Again低音与p307旧引文更正。关联安装更新项目即可，复制安装同步同版skill与库；MCP配置无需重配。
+
 2026-11-02工作分支在固定0.31之后补[Purrvoice两预览](engraving/PURRVOICE_PREVIEW_READING.md)：两图2/2、四判断4/4，八相关专题可直接检索。更新项目checkout即可读取本批；固定engraving-v0.31.0标签不含此补充，MCP配置不变。
 
 当前固定试用为**[0.31.0／engraving-v0.31.0](ENGRAVING_RELEASES.md)**，收录此前工作分支的显示组合、实谱3/3与Kokecola4/4更正。可查`--topic spacing --query "Kokecola 降号"`；两降号仍错列，间距图还改变休止。关联安装更新项目即可，复制安装同步同版skill与库，无需重配MCP。下文0.30及其补充按历史范围保留。
