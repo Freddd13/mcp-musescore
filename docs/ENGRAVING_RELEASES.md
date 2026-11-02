@@ -1,5 +1,15 @@
 # 净书知识库与skill发布记录
 
+## 0.29.0 — 2026-11-02
+
+把Aether的[纸面判断](engraving/AETHER_SPACING_LAYERS.md)、[音乐重建](engraving/AETHER_NATIVE_RECONSTRUCTION.md)、[局部预算](engraving/AETHER_M33_BUDGET.md)、[完整系统](engraving/AETHER_SYSTEM_TRANSFER.md)与[入口取舍](engraving/AETHER_ENTRY_CLEARANCE.md)固定为可追溯研究。四源预算4/4、七小节上下文1/1、入口比较2/2；本例优先入口放宽版，约0.50sp净距与稳定内层、原小节宽和末音预算可以兼顾。m31必要D还原及m29休止梁的更正一并保留。
+
+本版重点完整系统／入口两项研究共三个原生条件、三次保存重载；65次CLI中最终21次、前置／修正前44次。早期重建和局部预算作背景，数字不混算；早期m29休止误入梁的输入已撤回作正确范例。93音／3休止及完整MIDI在最终各版保持；实际打印、用户审美采用和MusicXML重新导入未完成。
+
+20入口可查`--topic spacing --query "入口 dim. 半格"`。沿用0.28的33份原创资产，本次不新增可分发谱例，私有参考／重建及运行时不打包。资料16/25余R07–R15九项，阅读覆盖不作掌握率，无软件／MCP／字体适配，学习目标继续。标签`engraving-v0.29.0`及[证据](engraving/release_0_29_0_evidence.json)固定范围。关联安装更新项目即可，复制安装同步同版skill与库；MCP配置不变，见[指南](ENGRAVING_SKILL.md)。
+
+以下为历史范围；0.28之后的Aether补充现纳入0.29。
+
 **0.28之后工作分支补充（2026-11-02）：** [Aether实谱判断](engraving/AETHER_SPACING_LAYERS.md)六处间距、三动态语境及五页Gould回查。四处仅纸面比较、原生后继0/4；提醒变音的功能与占位分开判断，三动态通道保留。固定0.28标签保持，资料16/25余9，无适配。
 
 ## 0.28.0 — 2026-11-02

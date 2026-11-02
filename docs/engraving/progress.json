@@ -3240,14 +3240,14 @@
     }
   },
   "release": {
-    "version": "0.28.0",
-    "tag": "engraving-v0.28.0",
+    "version": "0.29.0",
+    "tag": "engraving-v0.29.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.28后补Aether六处间距／三动态语境；四处纸面比较、原生后继0/4。提示变音和加线余白分判；资料16/25余9，无适配。",
-    "evidence": "release_0_28_0_evidence.json"
+    "working_branch_note": "0.29固定Aether五篇由纸面到完整系统/入口取舍的学习，含m31音名和m29休止梁更正；入口2/2，本例优先新候选，资料16/25余9，无适配。",
+    "evidence": "release_0_29_0_evidence.json"
   },
   "last_study_batch": {
     "new_deep_scores": 0,
@@ -3265,43 +3265,39 @@
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
     "date": "2026-11-02",
-    "scope": "Aether四源预算4/4及完整七小节回迁1/1；修正休止梁，入口两处待比。",
-    "new_native_diagnostic_conditions": 2,
-    "native_CLI_calls": 49,
-    "book_reread_pages": 1,
+    "scope": "Aether入口两处2/2，新增1版/1重载；同刻与dim.跟随，准备0.29固定研究版。",
+    "new_native_diagnostic_conditions": 1,
+    "native_CLI_calls": 16,
+    "book_reread_pages": 0,
     "official_score_reread_pages": 0,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "AETHER_SYSTEM_TRANSFER.md"
+      "AETHER_ENTRY_CLEARANCE.md"
     ],
-    "review_evidence": "aether_system_transfer_evidence.json",
+    "review_evidence": "aether_entry_clearance_evidence.json",
     "software_adaptation": false,
-    "official_system_views_reused": 1
+    "official_system_views_reused": 0
   },
   "latest_native_study": {
-    "reference": "AETHER_SYSTEM_TRANSFER.md",
-    "evidence": "aether_system_transfer_evidence.json",
-    "completed_conditions": 2,
-    "planned_conditions": 2,
+    "reference": "AETHER_ENTRY_CLEARANCE.md",
+    "evidence": "aether_entry_clearance_evidence.json",
+    "completed_conditions": 1,
+    "planned_conditions": 1,
+    "reused_conditions": 1,
     "contexts": [
-      4,
-      4
-    ],
-    "whole_system": [
-      1,
-      1
-    ],
-    "saved_reloaded_versions": [
       2,
       2
     ],
-    "native_CLI_calls": 49,
-    "valid_final_native_calls": 14,
-    "input_probe_native_calls": 35,
-    "new_conditions": 2,
-    "reused_conditions": 0,
-    "description": "四源预算及七小节上下文完成；93音／3休止、48梁事件及完整MIDI保持，修正m29休止误入梁。入口两处偏紧，采用仍待。",
+    "saved_reloaded_versions": [
+      1,
+      1
+    ],
+    "native_CLI_calls": 16,
+    "valid_final_native_calls": 7,
+    "input_probe_native_calls": 9,
+    "new_conditions": 1,
+    "description": "入口净距约0.50sp、原小节宽和末音预算保持；持音/dim.同列，93音/3休止/48梁事件与完整MIDI核对；本构型优先新候选。",
     "user_preference_confirmed": false,
     "user_real_score_candidate": false,
     "software_adaptation_changes": 0
@@ -3727,19 +3723,45 @@
       "user_preference_confirmed": false,
       "user_real_score_candidate": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "AETHER_SYSTEM_TRANSFER.md",
+      "evidence": "aether_system_transfer_evidence.json",
+      "completed_conditions": 2,
+      "planned_conditions": 2,
+      "contexts": [
+        4,
+        4
+      ],
+      "whole_system": [
+        1,
+        1
+      ],
+      "saved_reloaded_versions": [
+        2,
+        2
+      ],
+      "native_CLI_calls": 49,
+      "valid_final_native_calls": 14,
+      "input_probe_native_calls": 35,
+      "new_conditions": 2,
+      "reused_conditions": 0,
+      "description": "四源预算及七小节上下文完成；93音／3休止、48梁事件及完整MIDI保持，修正m29休止误入梁。入口两处偏紧，采用仍待。",
+      "user_preference_confirmed": false,
+      "user_real_score_candidate": false,
+      "software_adaptation_changes": 0
     }
   ],
   "latest_judgment_review": {
-    "reference": "AETHER_SYSTEM_TRANSFER.md",
-    "evidence": "aether_system_transfer_evidence.json",
-    "reviewed_cases": 4,
-    "planned_cases": 4,
+    "reference": "AETHER_ENTRY_CLEARANCE.md",
+    "evidence": "aether_entry_clearance_evidence.json",
+    "reviewed_cases": 2,
+    "planned_cases": 2,
     "decisions": {
-      "budget_comparison_completed": 4,
-      "adoption_deferred_due_to_boundary_review": 2
+      "prefer_wider_entry_for_reconstruction": 2
     },
-    "scope": "源预算和完整上下文已核，未认定两版可自动采用。",
-    "new_native_conditions": 2
+    "scope": "agent按当前字形和密度选择，非用户已确认偏好或全谱常量。",
+    "new_native_conditions": 1
   },
   "latest_supplemental_reading": {
     "reference": "AETHER_SPACING_LAYERS.md",
@@ -4424,22 +4446,22 @@
     "remaining_items": []
   },
   "next_aether_budget_comparison": {
-    "reference": "AETHER_SYSTEM_TRANSFER.md",
-    "completed_target_reconstruction_checks": 4,
-    "planned_target_reconstruction_checks": 4,
+    "reference": "AETHER_ENTRY_CLEARANCE.md",
     "source_density_local_contexts_completed": 4,
     "source_density_local_contexts_planned": 4,
-    "remaining_source_density_measures": [],
     "full_system_migration_complete": true,
-    "adoption_ready": false,
-    "next_boundary_comparison": {
+    "entry_comparison": {
       "planned_measures": [
         30,
         31
       ],
-      "completed_measures": [],
-      "next": "先在同小节宽内放宽首变音与小节线的净空，联合低部、持续及dim.起点；必要时再比较重新分行宽。"
+      "completed_measures": [
+        30,
+        31
+      ]
     },
-    "next": "先解决明确入口边界，随后转其它织体及剩余九项可得资料；避免反复制造同类等距图。"
+    "agent_preferred_candidate": "entry-fitted",
+    "user_adoption_confirmed": false,
+    "next": "此组研究闭合；转新织体/可得余9项资料，真实使用反馈再回访，不反复制作同类微差图。"
   }
 }

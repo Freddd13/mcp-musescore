@@ -1,0 +1,726 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "AETHER_ENTRY_CLEARANCE.md",
+  "scope": {
+    "date": "2026-11-02",
+    "previous_goal_turn": {
+      "classification": "progress",
+      "commit": "7a87dd3d1212eb340867d42ade082175afda033d",
+      "reason": "Four exact source-budget comparisons in complete seven-bar system; two tight entry clearances remain."
+    },
+    "planned_measures": [
+      30,
+      31
+    ],
+    "planned_new_conditions": 2,
+    "reused_baseline_conditions": 1,
+    "planned_new_saved_reload": 1,
+    "private_budget_bytes": 2097152,
+    "original_sources_read_only": true,
+    "runtime_copies": 0,
+    "software_or_font_development": false,
+    "calibration_policy": "One reusable private input/MusicXML buffer; record input/output hashes and width parameters per call.",
+    "final_new_conditions": 1,
+    "condition_scope_change": "The first fitted variant already preserves uniform activity and old endpoints; do not create a duplicate second candidate."
+  },
+  "native": {
+    "new_conditions": [
+      1,
+      1
+    ],
+    "reused_baseline_conditions": 1,
+    "entry_contexts": [
+      2,
+      2
+    ],
+    "new_saved_reload": [
+      1,
+      1
+    ],
+    "native_calls": 16,
+    "final_native_calls": 7,
+    "input_probe_calls": 9,
+    "reused_buffer_calls": 7,
+    "readbacks": [
+      {
+        "name": "entry-fitted",
+        "notes": 93,
+        "rests": 3,
+        "stem_checked": true,
+        "tie_endpoints": 7,
+        "slur_endpoints": 2,
+        "beam_events": 48,
+        "entry_shared_onset_head_counts": {
+          "30": 5,
+          "31": 4
+        },
+        "dim_endpoints": [
+          [
+            "30",
+            "0",
+            "start"
+          ],
+          [
+            "32",
+            "3/2",
+            "stop"
+          ]
+        ]
+      },
+      {
+        "name": "entry-fitted-reload",
+        "notes": 93,
+        "rests": 3,
+        "stem_checked": true,
+        "tie_endpoints": 7,
+        "slur_endpoints": 2,
+        "beam_events": 48,
+        "entry_shared_onset_head_counts": {
+          "30": 5,
+          "31": 4
+        },
+        "dim_endpoints": [
+          [
+            "30",
+            "0",
+            "start"
+          ],
+          [
+            "32",
+            "3/2",
+            "stop"
+          ]
+        ]
+      }
+    ],
+    "geometry": {
+      "name": "entry-fitted",
+      "sp_svg": 19.488249999999994,
+      "borders_svg": [
+        212.955,
+        810.415,
+        1133.84,
+        1453.0,
+        1806.87,
+        2143.07,
+        2463.44,
+        2783.81
+      ],
+      "source_frame_width_sp": 131.91816212871285,
+      "frame_width_sp": 131.91820712480603,
+      "barline_beyond_staff_sp": -0.09031082831963973,
+      "rows": [
+        {
+          "measure": 29,
+          "width_sp": 30.65744743627571,
+          "first_offset_sp": 13.907713622310887,
+          "last_margin_sp": 2.736828601849834,
+          "fast_x_sp": [
+            13.907713622310887,
+            16.5545392736649,
+            19.201364925018922,
+            22.626967531717835,
+            25.273793183071856,
+            27.920618834425877
+          ],
+          "gaps_sp": [
+            2.6468256513540185,
+            2.6468256513540216,
+            3.4256026066989103,
+            2.6468256513540216,
+            2.6468256513540216
+          ],
+          "source_width_sp": 30.65901849046845,
+          "source_first_offset_sp": 13.907705695942727
+        },
+        {
+          "measure": 30,
+          "width_sp": 16.595897527997643,
+          "first_offset_sp": 2.1659718035226367,
+          "last_margin_sp": 2.2177465908945155,
+          "fast_x_sp": [
+            2.1659718035226367,
+            4.608417892832866,
+            7.050915295113729,
+            9.493412697394586,
+            11.93565353482227,
+            14.378150937103127
+          ],
+          "gaps_sp": [
+            2.4424460893102284,
+            2.4424974022808636,
+            2.442497402280858,
+            2.442240837427683,
+            2.442497402280858
+          ],
+          "source_width_sp": 16.595248540712284,
+          "source_first_offset_sp": 1.8440868573797708,
+          "first_accidental_barline_ink_gap_sp": 0.4999965363744847
+        },
+        {
+          "measure": 31,
+          "width_sp": 16.377047708234457,
+          "first_offset_sp": 1.8734365579259298,
+          "last_margin_sp": 2.2500737623952856,
+          "fast_x_sp": [
+            1.8734365579259298,
+            4.323630905802215,
+            6.774851513091223,
+            9.22555899067388,
+            11.675753338550166,
+            14.126973945839174
+          ],
+          "gaps_sp": [
+            2.4501943478762853,
+            2.4512206072890073,
+            2.450707477582658,
+            2.4501943478762853,
+            2.4512206072890073
+          ],
+          "source_width_sp": 16.376478785938296,
+          "source_first_offset_sp": 1.594246178349174,
+          "first_accidental_barline_ink_gap_sp": 0.4995860326093935
+        },
+        {
+          "measure": 32,
+          "width_sp": 18.158120919015303,
+          "first_offset_sp": 2.000179595397228,
+          "last_margin_sp": 3.056200531089244,
+          "fast_x_sp": [
+            2.000179595397228,
+            4.419073031185453,
+            6.8384795966800525,
+            10.264133516349597,
+            12.683026952137835,
+            15.10192038792606
+          ],
+          "gaps_sp": [
+            2.4188934357882257,
+            2.419406565494598,
+            3.425653919669545,
+            2.4188934357882372,
+            2.4188934357882257
+          ],
+          "source_width_sp": 18.157889646240736,
+          "source_first_offset_sp": 2.0003458368224805
+        },
+        {
+          "measure": 33,
+          "width_sp": 17.251420727874507,
+          "first_offset_sp": 1.5003912614011017,
+          "last_margin_sp": 2.250586892101658,
+          "fast_x_sp": [
+            1.5003912614011017,
+            4.092209408233168,
+            6.684027555065245,
+            9.817197542108719,
+            12.409015688940773,
+            15.00083383577285
+          ],
+          "gaps_sp": [
+            2.591818146832066,
+            2.5918181468320776,
+            3.1331699870434733,
+            2.591818146832054,
+            2.5918181468320776
+          ],
+          "source_width_sp": 17.251557805034246,
+          "source_first_offset_sp": 1.5004020224783658,
+          "natural_previous_head_gap_sp": [
+            0.5493227970700284,
+            0.1799790129950097
+          ],
+          "shared_mid_bass_difference_sp": 0.0
+        },
+        {
+          "measure": 34,
+          "width_sp": 16.439136402704193,
+          "first_offset_sp": 1.50039126140109,
+          "last_margin_sp": 3.056200531089244,
+          "fast_x_sp": [
+            1.50039126140109,
+            3.8997857683475954,
+            6.270445011737834,
+            8.641617384834447,
+            11.012276628224686,
+            13.382935871614949
+          ],
+          "gaps_sp": [
+            2.3993945069465052,
+            2.3706592433902394,
+            2.3711723730966123,
+            2.3706592433902394,
+            2.370659243390263
+          ],
+          "source_width_sp": 16.438984430159433,
+          "source_first_offset_sp": 1.5006626828727616
+        },
+        {
+          "measure": 35,
+          "width_sp": 16.439136402704193,
+          "first_offset_sp": 1.501417520813812,
+          "last_margin_sp": 2.2182597206008765,
+          "fast_x_sp": [
+            1.501417520813812,
+            4.045001475247903,
+            6.589098559388344,
+            9.132682513822436,
+            11.676779597962875,
+            14.220876682103317
+          ],
+          "gaps_sp": [
+            2.5435839544340912,
+            2.5440970841404407,
+            2.5435839544340912,
+            2.5440970841404407,
+            2.5440970841404407
+          ],
+          "source_width_sp": 16.43898443015942,
+          "source_first_offset_sp": 1.5007288741933795,
+          "shared_mid_bass_difference_sp": 0.0
+        }
+      ],
+      "all_note_records": 93,
+      "first_row_stems": 62,
+      "minimum_stem_barline_ink_gap_sp": 1.4103912614010983,
+      "slur_segments": 2,
+      "tie_segments": 8,
+      "first_row_note_boxes_within_staff": true
+    },
+    "entry_changes": [
+      {
+        "measure": 30,
+        "old_gap_sp": 0.17816158454453326,
+        "new_gap_sp": 0.4999965363744847,
+        "old_gaps_sp": [
+          2.5064846766641438,
+          2.5064846766641438,
+          2.5064846766641438,
+          2.506228111810963,
+          2.50663861557606
+        ],
+        "new_gaps_sp": [
+          2.4424460893102284,
+          2.4424974022808636,
+          2.442497402280858,
+          2.442240837427683,
+          2.442497402280858
+        ],
+        "last_margin_change_sp": -0.0005131297063494245
+      },
+      {
+        "measure": 31,
+        "old_gap_sp": 0.22044347234873238,
+        "new_gap_sp": 0.4995860326093935,
+        "old_gaps_sp": [
+          2.5061254858696875,
+          2.5066386155760485,
+          2.506125485869699,
+          2.5061254858696875,
+          2.50663861557606
+        ],
+        "new_gaps_sp": [
+          2.4501943478762853,
+          2.4512206072890073,
+          2.450707477582658,
+          2.4501943478762853,
+          2.4512206072890073
+        ],
+        "last_margin_change_sp": -0.0005131297063609708
+      }
+    ],
+    "dim": {
+      "text_relative_shift_sp": 0.3218349518299514,
+      "line_start_relative_shift_sp": 0.3218349518299514,
+      "line_end_global_shift_sp": -0.000513129706361059,
+      "logical_start": [
+        "30",
+        "0"
+      ],
+      "logical_end": [
+        "32",
+        "3/2"
+      ]
+    },
+    "MIDI_full_bytes_equal": true,
+    "MIDI_bytes": 736,
+    "independent_MIDI_attacks": 86,
+    "reload": {
+      "max_numeric_delta_svg": 0.010000000000218279,
+      "changed_elements": 45,
+      "exact_except_title": false
+    },
+    "protected_sources": 6,
+    "runtime_files_after": 1936,
+    "reused_baseline_artifacts": [
+      {
+        "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-system-2026-11-02\\full-joint.mscx",
+        "sha256": "b067b6442d37e9db219d99cd7b0f130e71d764009cb5417b1ac618b7cc1cfc75"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-system-2026-11-02\\exports\\full-joint-1.svg",
+        "sha256": "8a1151c4120e8247a557daa16a5aa9bbb436f55ee66a890d53e183093d7884d5"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-system-2026-11-02\\exports\\full-joint.pdf",
+        "sha256": "e9241ec9f3db9c7523fdcdaa0e6ccd18c7f6eb5eeb4d3370eee18ea8ccdf91ae"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-system-2026-11-02\\exports\\full-joint.musicxml",
+        "sha256": "44c40146bf920854abb6c4b7090abeda0fb8863510ce3af7f5c556d5ae1db1f4"
+      },
+      {
+        "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-system-2026-11-02\\exports\\full-joint.mid",
+        "sha256": "f4da0329563e78b57f19d2e275e459b8fea5793fdf1d0d09bfb9e4ad24e83f98"
+      }
+    ],
+    "judgment": "Prefer current wider-entrance candidate for this reconstruction; no user aesthetic adoption or printing yet.",
+    "software_or_font_changes": false
+  },
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "id": "A045",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\FRIEREN Beyond Journey's End - Soundtrack Medley.pdf",
+      "sha256": "34a0cb0895f89b23fe23d45411c6e0d558c4d999e1c03cb7045b7aa7f0b356bf",
+      "pages": 14,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A052",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Great Days - JoJo’s Bizarre Adventure Diamond Is Unbreakable - 3rd Opening Theme.pdf",
+      "sha256": "1e9ad84ef736e0107e94bdd42a7358bb6b2cd586c43a8a92e22c1e1f399793b2",
+      "pages": 6,
+      "read_only": true,
+      "unchanged": true
+    },
+    {
+      "id": "A128",
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\The Song of Aether - Short Piano Composition in C# Minor.pdf",
+      "sha256": "51778876e470071763f9e5e7234dba5dd7f13d65ba695252c2b9d6874e40f280",
+      "pages": 2,
+      "unchanged": true
+    }
+  ],
+  "host": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "manifest": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets-manifest.json",
+    "runtime_files_before": 1936,
+    "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-entry-2026-11-02\\native-config"
+  },
+  "fit_summary": {
+    "target_widths_sp": [
+      30.83901849046845,
+      16.595248540712284,
+      16.376478785938296,
+      18.157889646240736,
+      17.251557805034246,
+      16.438984430159433,
+      16.43898443015942
+    ],
+    "steps": [
+      {
+        "iteration": 1,
+        "widths_before": [
+          30.748,
+          16.830000000000002,
+          16.57,
+          18.077,
+          17.165,
+          16.358,
+          16.351
+        ],
+        "weights": [
+          1.118897571664836,
+          1.0421796818314428,
+          1.044360221609362,
+          1.0,
+          1.0613083102785656,
+          1.001080813284429,
+          1.0801376713094584
+        ],
+        "max_error_before": 0.23475145928771823,
+        "input_sha256": "71582086b524e0fadbcaa813cdba81cc2a21bc9ee69c8745b80c213bdb5ed418",
+        "output_sha256": "e2023ef9ca479464ea7f247ab43acbc2dbf61dc602388d704010d25f7e227bb9"
+      },
+      {
+        "iteration": 2,
+        "widths_before": [
+          30.788,
+          16.679,
+          16.443,
+          18.128999999999998,
+          17.227,
+          16.415,
+          16.418
+        ],
+        "weights": [
+          1.1189685424454465,
+          1.0352967029840991,
+          1.0384803146444994,
+          1.0,
+          1.061130274833371,
+          1.0009484501006414,
+          1.0797975117678633
+        ],
+        "max_error_before": 0.08375145928771488,
+        "input_sha256": "8938cebf461483317bbcc2184264773960196b0afd94f107cbcb2bedef472bab",
+        "output_sha256": "6008abf8c9469a3b63638dfac6041be4af2b87e708167c703ddc08049eab7a17"
+      },
+      {
+        "iteration": 3,
+        "widths_before": [
+          30.810000000000002,
+          16.625999999999998,
+          16.4,
+          18.148,
+          17.246000000000002,
+          16.433,
+          16.435
+        ],
+        "weights": [
+          1.1194124290645688,
+          1.0328189889439845,
+          1.0364261106889125,
+          1.0,
+          1.0608941133574412,
+          1.0007676045521003,
+          1.079471041778228
+        ],
+        "max_error_before": 0.030751459287714056,
+        "input_sha256": "febcb2d0549579f03c9d115f91527195615d78917b901ae1866c6a141fabf17e",
+        "output_sha256": "4d58c6d5a69dc0f8b5517301d71104579c1e73a1a1240281fb1b8f028be14dcc"
+      },
+      {
+        "iteration": 4,
+        "widths_before": [
+          30.823,
+          16.606,
+          16.386000000000003,
+          18.155,
+          17.250999999999998,
+          16.438,
+          16.439
+        ],
+        "weights": [
+          1.1198159437643893,
+          1.0319860398437206,
+          1.0356590461577417,
+          1.0,
+          1.0607595808667643,
+          1.0006682663106938,
+          1.0792982325407514
+        ],
+        "max_error_before": 0.016018490468450608,
+        "input_sha256": "13c421b498649316a2c19df62595fbceb9493b8f1809aa4b48ea7a774b3b7366",
+        "output_sha256": "aeed4d6e056fce4cec60230e9845fd7e98f0a87b679942eeb64afeca0066c5e7"
+      },
+      {
+        "iteration": 5,
+        "widths_before": [
+          30.830000000000002,
+          16.6,
+          16.380000000000003,
+          18.158,
+          17.252000000000002,
+          16.439,
+          16.44
+        ],
+        "weights": [
+          1.1201503235373247,
+          1.0316969219663954,
+          1.0354427030055666,
+          1.0,
+          1.0607388385409136,
+          1.000673400060266,
+          1.07923811860642
+        ],
+        "max_error_before": 0.009018490468449158,
+        "input_sha256": "2e7ea5a32c45218d29eb769760f583741b70a5bc80349b6143ee1c22a3bdb9d3",
+        "output_sha256": "fe1d37d0e5cce5eb1694ec903d2b2036c7015108f17c980e106b2fbb1f17de73"
+      },
+      {
+        "iteration": 6,
+        "widths_before": [
+          30.835,
+          16.597,
+          16.378,
+          18.158,
+          17.252000000000002,
+          16.44,
+          16.44
+        ],
+        "weights": [
+          1.1203031127396301,
+          1.0315943177954365,
+          1.0353528217521706,
+          1.0,
+          1.0607180966206626,
+          1.0006176653122196,
+          1.0791780080202686
+        ],
+        "max_error_before": 0.004018490468450153,
+        "input_sha256": "e5384c39e00364997f4533d320db9fe9347b04b9f075327e4a5b4ff879bc3133",
+        "output_sha256": "88be301572eb6970cc5f40b4d98299aace233aaaa6ea2be623c7fec07e139e53"
+      },
+      {
+        "iteration": 7,
+        "widths_before": [
+          30.837,
+          16.596,
+          16.377000000000002,
+          18.158,
+          17.252000000000002,
+          16.439,
+          16.439
+        ],
+        "weights": [
+          1.1203832532022475,
+          1.0315538768609394,
+          1.0353261627448198,
+          1.0,
+          1.060697355106004,
+          1.000622798802192,
+          1.0791835445500284
+        ],
+        "max_error_before": 0.0020184904684512617,
+        "input_sha256": "d4780fb8ecf97a14f671a0cfdd6d3af5d3b3586c6e7f78ed374ca799cf10672d",
+        "output_sha256": "165e22904b8e7ac81d885c1ace783145d604ac3d20acf2592f8b35cd5a48bd65"
+      }
+    ],
+    "final_max_width_error_sp": 0.0010184904684500395,
+    "reusable_input": "width-probe.mscx",
+    "reusable_output": "exports/width-probe.musicxml"
+  },
+  "entry_targets": [
+    {
+      "measure": 30,
+      "old_ink_gap_sp": 0.17816158454453326,
+      "added_segment_leading_sp": 0.32183841545546676,
+      "target_ink_gap_sp": 0.5,
+      "prior_first_leading_sp": -0.6918001514588872,
+      "new_first_leading_sp": -0.3699617360034204
+    },
+    {
+      "measure": 31,
+      "old_ink_gap_sp": 0.22044347234873238,
+      "added_segment_leading_sp": 0.2795565276512676,
+      "target_ink_gap_sp": 0.5,
+      "prior_first_leading_sp": -0.6496700275697791,
+      "new_first_leading_sp": -0.3701134999185115
+    }
+  ],
+  "input": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-entry-2026-11-02\\entry-fitted.mscx",
+    "sha256": "d4780fb8ecf97a14f671a0cfdd6d3af5d3b3586c6e7f78ed374ca799cf10672d",
+    "private_not_distributed": true
+  },
+  "views": [
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-entry-2026-11-02\\comparison-reading.jpg",
+      "sha256": "145a678b22edc8e34fbfd7ee3ba3ec9cca5bbd94605ed03d9e225ddd343349ff",
+      "viewed": true
+    },
+    {
+      "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-entry-2026-11-02\\context-reading.jpg",
+      "sha256": "a32a227c6780484367846b11d16b165650c6be7003315d8fd352c79f3c6a2ab0",
+      "viewed": true
+    }
+  ],
+  "judgment": {
+    "preferred_for_this_reconstruction": "entry-fitted",
+    "agent_decision": true,
+    "user_preference_confirmed": false,
+    "actual_size_printing_done": false,
+    "full_score_original_changed": false,
+    "half_space_not_universal_threshold": true,
+    "software_or_MCP_or_font_adaptation": false
+  },
+  "coverage": {
+    "entry_contexts": [
+      2,
+      2
+    ],
+    "source_budget_contexts": [
+      4,
+      4
+    ],
+    "whole_system_contexts": [
+      1,
+      1
+    ],
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "Gould_file_pages": [
+      696,
+      696
+    ],
+    "resources": [
+      16,
+      25
+    ],
+    "remaining_resources": 9,
+    "new_resource_completions": 0,
+    "new_unique_reference_pages": 0
+  },
+  "checks": {
+    "native": "passed:93notes/3rests,48beam events,tie/slur/marking endpoints,86MIDI attacks,one new reload",
+    "protected": "6/6 passed",
+    "runtime": "1936/1936 passed",
+    "library": "passed:progress.py --check and6/6existing route/retrieval tests",
+    "skill": "passed:quick_validate.py",
+    "query": {
+      "topic": "spacing",
+      "query": "入口 dim. 半格",
+      "limit": 2,
+      "returned_files": [
+        "JUDGMENT_GUIDE.md",
+        "AETHER_ENTRY_CLEARANCE.md"
+      ],
+      "not_engraving_accuracy": true
+    },
+    "case_links": "passed"
+  },
+  "cache": {
+    "path": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\aether-entry-2026-11-02",
+    "private_files": 35,
+    "private_bytes_excluding_audit": 1132340,
+    "private_budget_bytes": 2097152,
+    "private_audit_self_excluded": true,
+    "mutable_calibration_buffer_calls": 7,
+    "calibration_archives": 0,
+    "new_downloaded_source_media": 0,
+    "original_PDF_MSCZ_or_runtime_copies": 0,
+    "new_public_score_assets": 0,
+    "reference_images_in_Git": 0,
+    "deletions": 0,
+    "global_exact_total_known": false,
+    "global_check_allowance_bytes": 3301900288
+  }
+}
