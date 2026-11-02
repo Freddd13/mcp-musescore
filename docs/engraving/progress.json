@@ -3254,7 +3254,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定R11第二部分165/165格、跨线三条件与拍号代价；保真实两小节完整显示0/1，资料16/25余9，无适配。",
+    "working_branch_note": "固定R11第二部分165/165格、跨线三条件与拍号代价；保真实两小节完整显示0/1，资料16/25余9，无适配。 0.30之后补显示组合：单行候选1/1、三情境3/3、动态／交换仍0/1；固定0.30标签不含此补充。",
     "evidence": "release_0_30_0_evidence.json"
   },
   "last_study_batch": {
@@ -3273,41 +3273,47 @@
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
     "date": "2026-11-02",
-    "scope": "跨线三条件3/3、换行1/1、最终重载1/1；真两小节完整显示仍0/1，准备0.30研究版。",
-    "new_native_diagnostic_conditions": 4,
-    "native_CLI_calls": 44,
-    "book_reread_pages": 2,
+    "scope": "保真实小节的显示组合：3/3情境，固定单行候选1/1；重载1/1，导回核查1/1揭示失败，动态／交换方案0/1。",
+    "new_native_diagnostic_conditions": 3,
+    "native_CLI_calls": 30,
+    "book_reread_pages": 3,
     "official_score_reread_pages": 0,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "CROSSBAR_TUPLET_NATIVE_STUDY.md"
+      "CROSSBAR_DISPLAY_COMPOSITION.md"
     ],
-    "review_evidence": "crossbar_tuplet_native_evidence.json",
+    "review_evidence": "crossbar_display_composition_evidence.json",
     "software_adaptation": false,
     "official_system_views_reused": 0
   },
   "latest_native_study": {
-    "reference": "CROSSBAR_TUPLET_NATIVE_STUDY.md",
-    "evidence": "crossbar_tuplet_native_evidence.json",
-    "planned_conditions": 3,
-    "conditions_studied": 3,
-    "native_final_versions": 3,
-    "system_break_conditions": 1,
+    "reference": "CROSSBAR_DISPLAY_COMPOSITION.md",
+    "evidence": "crossbar_display_composition_evidence.json",
+    "planned_contexts": 3,
+    "contexts_studied": 3,
+    "controlled_one_system_candidate": [
+      1,
+      1
+    ],
     "saved_reload": [
       1,
       1
     ],
-    "native_CLI_calls": 44,
-    "final_CLI_calls": 21,
-    "preliminary_CLI_calls": 23,
-    "actual_onsets_per_version": 9,
-    "MIDI_note_events_identical": true,
-    "complete_MIDI_identical": false,
-    "true_two_measure_intact_solution": [
+    "MusicXML_readback_checked": [
+      1,
+      1
+    ],
+    "automatic_reflow_and_exchange_ready_solution": [
       0,
       1
     ],
+    "native_CLI_calls": 30,
+    "final_CLI_calls": 22,
+    "preliminary_CLI_calls": 5,
+    "control_CLI_calls": 3,
+    "all_native_variant_MIDI_matches_real_bar_baseline": true,
+    "MusicXML_readback_display_retained": false,
     "new_software_adaptation": false
   },
   "native_study_history": [
@@ -3781,6 +3787,29 @@
       "user_preference_confirmed": false,
       "user_real_score_candidate": false,
       "software_adaptation_changes": 0
+    },
+    {
+      "reference": "CROSSBAR_TUPLET_NATIVE_STUDY.md",
+      "evidence": "crossbar_tuplet_native_evidence.json",
+      "planned_conditions": 3,
+      "conditions_studied": 3,
+      "native_final_versions": 3,
+      "system_break_conditions": 1,
+      "saved_reload": [
+        1,
+        1
+      ],
+      "native_CLI_calls": 44,
+      "final_CLI_calls": 21,
+      "preliminary_CLI_calls": 23,
+      "actual_onsets_per_version": 9,
+      "MIDI_note_events_identical": true,
+      "complete_MIDI_identical": false,
+      "true_two_measure_intact_solution": [
+        0,
+        1
+      ],
+      "new_software_adaptation": false
     }
   ],
   "latest_judgment_review": {
@@ -4547,6 +4576,33 @@
       0,
       1
     ],
-    "next": "先研究保真实小节的显示组合与既有对象，不改实际拍号／吸齐首头；无MCP或本体开发。"
+    "next": "先研究保真实小节的显示组合与既有对象，不改实际拍号／吸齐首头；无MCP或本体开发。",
+    "display_composition_followup": {
+      "reference": "CROSSBAR_DISPLAY_COMPOSITION.md",
+      "evidence": "crossbar_display_composition_evidence.json",
+      "contexts": [
+        3,
+        3
+      ],
+      "controlled_single_system_candidate": [
+        1,
+        1
+      ],
+      "automatic_reflow_and_exchange_ready_solution": [
+        0,
+        1
+      ],
+      "next": "技术边界已留复现，后续适配按需继续；学习线转三类实谱取舍，不反复追加孤立坐标微差。"
+    }
+  },
+  "next_real_score_judgment_batch": {
+    "completed": 0,
+    "planned": 3,
+    "tasks": [
+      "完整组的阅读收益",
+      "显拍的实际必要性",
+      "标记跨行归属"
+    ],
+    "method": "先冻结具体判断再查规范与旧笔记；已读材料上的迁移练习，不计独立盲测准确率。"
   }
 }

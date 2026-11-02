@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- CC0 EXPERIMENTAL display composition: two real bars with hidden tied fragments; not a single cross-bar Tuplet. Review layout. Breaks and MusicXML reimport need separate handling. -->
+<museScore version="3.02">
+  <programVersion>3.6.3</programVersion>
+  <programRevision />
+  <Score>
+    <LayerTag id="0" tag="default" />
+    <currentLayer>0</currentLayer>
+    <Division>480</Division>
+    <Style>
+      <Spatium>1.57</Spatium>
+      <musicalSymbolFont>Leland</musicalSymbolFont>
+      <musicalTextFont>Leland Text</musicalTextFont>
+      <pageWidth>8.26772</pageWidth>
+      <pageHeight>11.6929</pageHeight>
+      <pageOddLeftMargin>0.59</pageOddLeftMargin>
+      <pageEvenLeftMargin>0.59</pageEvenLeftMargin>
+      <pagePrintableWidth>3.937007874015748</pagePrintableWidth>
+      <measureSpacing>1.2</measureSpacing>
+      <minNoteDistance>0.2</minNoteDistance>
+      <enableVerticalSpread>0</enableVerticalSpread>
+      <lastSystemFillLimit>0</lastSystemFillLimit>
+      <showMeasureNumber>0</showMeasureNumber>
+    </Style>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <metaTag name="arranger" />
+    <metaTag name="composer" />
+    <metaTag name="copyright" />
+    <metaTag name="creationDate" />
+    <metaTag name="lyricist" />
+    <metaTag name="movementNumber" />
+    <metaTag name="movementTitle" />
+    <metaTag name="originalFormat" />
+    <metaTag name="platform" />
+    <metaTag name="poet" />
+    <metaTag name="source">CC0-1.0 independent original cross-bar triplet study; split form with true bars.</metaTag>
+    <metaTag name="translator" />
+    <metaTag name="workNumber" />
+    <metaTag name="workTitle" />
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>std</name>
+          <lines>5</lines>
+        </StaffType>
+        <bracket type="1" span="2" col="0" />
+      </Staff>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>std</name>
+          <lines>5</lines>
+        </StaffType>
+        <defaultClef>F</defaultClef>
+      </Staff>
+      <trackName>Piano</trackName>
+      <Instrument>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <instrumentId>keyboard.piano</instrumentId>
+        <Channel>
+          <program value="0" />
+          <controller ctrl="7" value="100" />
+          <synti>Fluid</synti>
+        </Channel>
+      </Instrument>
+    </Part>
+    <Staff id="1">
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+          </Clef>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+          </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+            </Note>
+          </Chord>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+            </Number>
+            <p1 x="0" y="-0.5" />
+            <p2 x="15.27035772065436" y="-0.5" />
+          </Tuplet>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  <visible>0</visible>
+                  <SlurSegment>
+                    <subtype>0</subtype>
+                    <visible>0</visible>
+                  </SlurSegment>
+                </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-5/12</fractions>
+                  </location>
+                </next>
+              </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+            </Note>
+            <Hook>
+              <visible>0</visible>
+            </Hook>
+          </Chord>
+          <endTuplet />
+        </voice>
+      </Measure>
+      <Measure>
+        <voice>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+            </Number>
+            <numberType>2</numberType>
+            <bracketType>2</bracketType>
+          </Tuplet>
+          <Chord>
+            <durationType>eighth</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>5/12</fractions>
+                  </location>
+                </prev>
+              </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <visible>0</visible>
+            </Note>
+            <visible>0</visible>
+            <Stem>
+              <visible>0</visible>
+            </Stem>
+            <Hook>
+              <visible>0</visible>
+            </Hook>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+            </Note>
+          </Chord>
+          <endTuplet />
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+            </Note>
+          </Chord>
+          <BarLine>
+            <subtype>end</subtype>
+          </BarLine>
+        </voice>
+      </Measure>
+    </Staff>
+    <Staff id="2">
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+          </Clef>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+          </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+            </Note>
+          </Chord>
+        </voice>
+      </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <BarLine>
+            <subtype>end</subtype>
+          </BarLine>
+        </voice>
+      </Measure>
+    </Staff>
+  </Score>
+</museScore>

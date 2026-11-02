@@ -1,5 +1,7 @@
 # 净书知识库与skill发布记录
 
+**0.30之后工作分支补充（2026-11-02）：** [显示组合](engraving/CROSSBAR_DISPLAY_COMPOSITION.md)三情境3/3、受控单行候选1/1，重载／导回核查各1/1；动态与交换仍0/1。五份新原创资产可用，固定0.30标签保持原范围，引用此补充时记录实际Git提交。
+
 ## 0.30.0 — 2026-11-02
 
 固定[R11跨小节预览学习](engraving/BEAM_ACROSS_BAR_READING.md)与[三连音原生判断](engraving/CROSSBAR_TUPLET_NATIVE_STUDY.md)。第二部分165/165格，两部分233/233；相关规范两批共14次页复读，按页去重12页。完整声音／连续步骤仍缺。

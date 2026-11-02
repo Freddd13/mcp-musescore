@@ -1,5 +1,7 @@
 # 独立净书复现谱例
 
+2026-11-02新增[显示组合研究](../CROSSBAR_DISPLAY_COMPOSITION.md)五份CC0资产：`crossbar-display-wide/narrow/linebreak-experimental.mscx`三输入和宽度／失败两图。宽版只作固定单行候选；窄版显示旧偏移的变化，换行版拒绝。保同音真实tie及计量，内部仍为局部Tuplet；不作全谱或交换模板。
+
 2026-11-02新增[跨线三连研究](../CROSSBAR_TUPLET_NATIVE_STUDY.md)三份CC0输入和两张原生图：`crossbar-split-retained.mscx`保真实2/4小节；`crossbar-merged-diagnostic.mscx`有4/4 MIDI拍号代价；`crossbar-false-alignment-rejected.mscx`刻意误示同时。后两份仅供诊断，不能当净书模板。独立9次起音配方与重载／换行验证见专题。
 
 2026-11-02[符头与标记通道](../STEM_OPTICAL_SHAPES_MARKS.md)新增九份CC0输入：`stem-optical-size-base/old/fit.mscx`、`stem-optical-font-base/old/fit.mscx`、`stem-optical-marked-base/joint/text-v2.mscx`，三张原生图。Note小头保持计量与播放，已有字体仅作输入；标记文字是有限通道下的记法比较，原生隐藏辅助在MusicXML导回重显，不能当可移植模板。

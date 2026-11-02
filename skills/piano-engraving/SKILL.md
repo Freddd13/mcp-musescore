@@ -97,6 +97,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 跨线时点的原生例经`notation`／`spacing`查`CROSSBAR_TUPLET_NATIVE_STUDY.md`：本例优先真实两小节显拍；把E5吸到首拍会误示同时，完整MIDI保持也不能放行。长小节补形虽音符事件相同，MIDI拍号变4/4，作诊断；核播放时包含拍号和小节结构，分开记录音符与完整文件等价。真两小节完整显示仍缺，不预断必需改本体。
 
+完整跨线组的显示组合经`notation`／`layout`查`CROSSBAR_DISPLAY_COMPOSITION.md`：同音tie片段可在受控单行合并显示，先核真实持续和独立起音。父对象visible不独自证明子元素隐藏；宽度改变重查端点与居中，换行核新段。原生保存稳定不保证交换稳定；导回播放变化加普通基线控制，不把gate或CC变化一概归因显示修改。
+
 ## 需要候选时
 
 本项目提供的用户原PDF／MSCZ保持只读，使用独立副本或原创fixture，不操作当前GUI来做离线试验。其它工程按用户实际授权处理；分析请求不隐含覆盖源文件。详细原生比较方法见[references/native-review.md](references/native-review.md)。

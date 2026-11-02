@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "CROSSBAR_DISPLAY_COMPOSITION.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "9ff6c8677a74d9ba9b499545cb9ff928e8104738",
+    "reason": "0.30 released, crossbar semantics and MIDI meter difference verified; true-bar intact display remains0/1."
+  },
+  "scope": {
+    "planned_contexts": [
+      "135mm one system",
+      "100mm one system",
+      "135mm real bar break"
+    ],
+    "studied_contexts": [
+      3,
+      3
+    ],
+    "one_system_forms": [
+      2,
+      2
+    ],
+    "controlled_135mm_candidate": [
+      1,
+      1
+    ],
+    "native_save_reload": [
+      1,
+      1
+    ],
+    "MusicXML_readback_checked": [
+      1,
+      1
+    ],
+    "automatic_reflow_and_exchange_ready_solution": [
+      0,
+      1
+    ],
+    "Gould_full_printed_rereads": [
+      196,
+      197,
+      198
+    ],
+    "new_Gould_coverage": 0,
+    "new_official_score_reading": 0
+  },
+  "judgments": {
+    "wide": "Controlled one-system alternative when intact-flow display is wanted; real bars and complete baseline MIDI retained.",
+    "narrow": "Still excludes ordinary A4, but reused fixed endpoint loses outer-head reference; not an automatic error threshold.",
+    "linebreak": "Rejected: bracket stays first system, E5 on next system outside display scope, newly visible tie segment orphaned.",
+    "MusicXML_readback": "Rejected for intact display: Hook, TieSegment and two local brackets reappear; ordinary baseline performance control separates import changes.",
+    "prior_split_preference": "Retained for beat-reading task; no new user aesthetic preference."
+  },
+  "musicxml": {
+    "wide": {
+      "written_notes": 10,
+      "sounding_events": 9,
+      "actual_bar_quarters": [
+        "2",
+        "2"
+      ],
+      "tuplet_starts": 2,
+      "recipe_matches": true
+    },
+    "narrow": {
+      "written_notes": 10,
+      "sounding_events": 9,
+      "actual_bar_quarters": [
+        "2",
+        "2"
+      ],
+      "tuplet_starts": 2,
+      "recipe_matches": true
+    },
+    "linebreak": {
+      "written_notes": 10,
+      "sounding_events": 9,
+      "actual_bar_quarters": [
+        "2",
+        "2"
+      ],
+      "tuplet_starts": 2,
+      "recipe_matches": true
+    },
+    "wide-saved": {
+      "written_notes": 10,
+      "sounding_events": 9,
+      "actual_bar_quarters": [
+        "2",
+        "2"
+      ],
+      "tuplet_starts": 2,
+      "recipe_matches": true
+    },
+    "wide-reimported": {
+      "written_notes": 10,
+      "sounding_events": 9,
+      "actual_bar_quarters": [
+        "2",
+        "2"
+      ],
+      "tuplet_starts": 2,
+      "recipe_matches": true
+    }
+  },
+  "independent_expected_events": [
+    [
+      48,
+      "0",
+      "1"
+    ],
+    [
+      53,
+      "1",
+      "1"
+    ],
+    [
+      55,
+      "2",
+      "1"
+    ],
+    [
+      60,
+      "3",
+      "1"
+    ],
+    [
+      67,
+      "0",
+      "1"
+    ],
+    [
+      69,
+      "3",
+      "1"
+    ],
+    [
+      72,
+      "1",
+      "2/3"
+    ],
+    [
+      74,
+      "5/3",
+      "2/3"
+    ],
+    [
+      76,
+      "7/3",
+      "2/3"
+    ]
+  ],
+  "geometry": {
+    "wide": {
+      "classes": {
+        "Note": 9,
+        "Hook": 0,
+        "Stem": 9,
+        "TieSegment": 0,
+        "Tuplet": 3,
+        "StaffLines": 10
+      },
+      "sp": 22.251999999999953,
+      "upper_visible_heads": [
+        [
+          540.64,
+          435.118
+        ],
+        [
+          872.435,
+          401.74
+        ],
+        [
+          1144.54,
+          390.614
+        ],
+        [
+          1513.26,
+          379.488
+        ],
+        [
+          1778.43,
+          423.992
+        ]
+      ],
+      "bracket_left": 883.561,
+      "bracket_right": 1524.38,
+      "E5_head_x": 1513.26,
+      "right_of_E5_sp": 0.49973036131584314,
+      "midpoint_bias_from_visible_outer_heads_sp": -0.00013481934206820476
+    },
+    "narrow": {
+      "classes": {
+        "Note": 9,
+        "Hook": 0,
+        "Stem": 9,
+        "TieSegment": 0,
+        "Tuplet": 3,
+        "StaffLines": 10
+      },
+      "sp": 22.251999999999953,
+      "upper_visible_heads": [
+        [
+          540.64,
+          435.118
+        ],
+        [
+          766.105,
+          401.74
+        ],
+        [
+          951.009,
+          390.614
+        ],
+        [
+          1210.73,
+          379.488
+        ],
+        [
+          1388.69,
+          423.992
+        ]
+      ],
+      "bracket_left": 777.231,
+      "bracket_right": 1330.85,
+      "E5_head_x": 1210.73,
+      "right_of_E5_sp": 5.398166456947696,
+      "midpoint_bias_from_visible_outer_heads_sp": 2.4490832284738535
+    },
+    "linebreak": {
+      "classes": {
+        "Note": 9,
+        "Hook": 0,
+        "Stem": 9,
+        "TieSegment": 1,
+        "Tuplet": 3,
+        "StaffLines": 20
+      },
+      "sp": 22.251999999999953,
+      "upper_visible_heads": [],
+      "bracket_left": 1229.59,
+      "bracket_right": 2154.19
+    },
+    "wide-saved": {
+      "classes": {
+        "Note": 9,
+        "Hook": 0,
+        "Stem": 9,
+        "TieSegment": 0,
+        "Tuplet": 3,
+        "StaffLines": 10
+      },
+      "sp": 22.251999999999953,
+      "upper_visible_heads": [
+        [
+          540.64,
+          435.118
+        ],
+        [
+          872.435,
+          401.74
+        ],
+        [
+          1144.54,
+          390.614
+        ],
+        [
+          1513.26,
+          379.488
+        ],
+        [
+          1778.43,
+          423.992
+        ]
+      ],
+      "bracket_left": 883.561,
+      "bracket_right": 1524.38,
+      "E5_head_x": 1513.26,
+      "right_of_E5_sp": 0.49973036131584314,
+      "midpoint_bias_from_visible_outer_heads_sp": -0.00013481934206820476
+    },
+    "wide-reimported": {
+      "classes": {
+        "Note": 9,
+        "Hook": 1,
+        "Stem": 9,
+        "TieSegment": 1,
+        "Tuplet": 6,
+        "StaffLines": 10
+      },
+      "sp": 22.252000000000066,
+      "upper_visible_heads": [
+        [
+          542.865,
+          657.638
+        ],
+        [
+          754.771,
+          624.26
+        ],
+        [
+          928.555,
+          613.134
+        ],
+        [
+          1174.77,
+          602.008
+        ],
+        [
+          1342.24,
+          646.512
+        ]
+      ],
+      "bracket_left": 765.897,
+      "bracket_right": 1214.82,
+      "E5_head_x": 1174.77,
+      "right_of_E5_sp": 1.7998382167894946,
+      "midpoint_bias_from_visible_outer_heads_sp": 0.6499191083947486
+    }
+  },
+  "native_saved_max_numeric_SVG_delta": 0.0009999999999763531,
+  "native_saved_drawables_exactly_equal": false,
+  "MIDI": {
+    "wide": {
+      "bytes": 210,
+      "sha256": "b1838739ee4ff4b9c15761477184876fab2c2569b6d00ae4b5d4f5087f30a4ba",
+      "ppq": 480,
+      "attacks": 9,
+      "complete_baseline_bytes_match": true
+    },
+    "narrow": {
+      "bytes": 210,
+      "sha256": "b1838739ee4ff4b9c15761477184876fab2c2569b6d00ae4b5d4f5087f30a4ba",
+      "ppq": 480,
+      "attacks": 9,
+      "complete_baseline_bytes_match": true
+    },
+    "linebreak": {
+      "bytes": 210,
+      "sha256": "b1838739ee4ff4b9c15761477184876fab2c2569b6d00ae4b5d4f5087f30a4ba",
+      "ppq": 480,
+      "attacks": 9,
+      "complete_baseline_bytes_match": true
+    },
+    "wide-saved": {
+      "bytes": 210,
+      "sha256": "b1838739ee4ff4b9c15761477184876fab2c2569b6d00ae4b5d4f5087f30a4ba",
+      "ppq": 480,
+      "attacks": 9,
+      "complete_baseline_bytes_match": true
+    },
+    "wide-reimported": {
+      "bytes": 205,
+      "sha256": "524d38a3f626a01d1fdca5b1669de850a2fd465c636f1094d963bc2cff13d96a",
+      "ppq": 480,
+      "attacks": 9,
+      "complete_baseline_bytes_match": false
+    }
+  },
+  "performance_controls": {
+    "ordinary_baseline_reimport_complete_MIDI_equal_to_composite_reimport": true,
+    "ordinary_reimport_bytes": 205,
+    "native_baseline_bytes": 210,
+    "note_on_pitch_velocity_channel_preserved_in_readback": true,
+    "note_off_tick_differences": [
+      [
+        48,
+        479,
+        455,
+        -24
+      ],
+      [
+        53,
+        959,
+        935,
+        -24
+      ],
+      [
+        55,
+        1439,
+        1415,
+        -24
+      ],
+      [
+        60,
+        1919,
+        1895,
+        -24
+      ],
+      [
+        67,
+        479,
+        455,
+        -24
+      ],
+      [
+        69,
+        1919,
+        1895,
+        -24
+      ],
+      [
+        72,
+        799,
+        783,
+        -16
+      ],
+      [
+        74,
+        1119,
+        1103,
+        -16
+      ],
+      [
+        76,
+        1439,
+        1423,
+        -16
+      ]
+    ],
+    "default_Articulation_gateTime_after_import": 95,
+    "gate100_intervention_note_events_and_metadata_restored": true,
+    "gate100_intervention_complete_MIDI_restored": false,
+    "remaining_channel_differences": {
+      "pan_CC10": [
+        64,
+        63
+      ],
+      "baseline_CC2_80_event_missing_after_import": true
+    },
+    "gate100_not_global_recommendation": true
+  },
+  "native_calls": {
+    "total": 30,
+    "final": 22,
+    "preliminary": 5,
+    "controls": 3,
+    "all_successful": true,
+    "process_log": "E:/programming/funcodes/mcp-musescore/tmp/engraving/crossbar-display-2026-11-02/processes.json"
+  },
+  "runtime": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "reused": true,
+    "new_copies": 0,
+    "read_only_source_HEAD": "e1a52c03763f98048678508f5f4bbef9510ee025",
+    "source_build_correspondence_verified": false
+  },
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    }
+  ],
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-limits.png",
+      "bytes": 48789,
+      "sha256": "d3dfcf6e2a8f7c3320343c09bc7bcc4a3b331601756a36d838adbf36600f3252",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-linebreak-experimental.mscx",
+      "bytes": 7670,
+      "sha256": "6a852e3673d4683628afbb183e5f4fa851cb457493ee7c0cb0ab4c8f74f810a9",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-narrow-experimental.mscx",
+      "bytes": 7592,
+      "sha256": "5ca933fe866abdacdfef2344cfb42cd43afaf0251bc5a1c68cbd9408ec69dee3",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-wide-experimental.mscx",
+      "bytes": 7591,
+      "sha256": "7fd8f022686189c5d98bdb9f0e3114fc57fc37f9ebf33d7bcb3d50386ae7a82e",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-widths.png",
+      "bytes": 56569,
+      "sha256": "b005e6f01effb51ee54e967d7a83e94a1c830e1c3093818db0d1227b21f95ec3",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "parsers_reused": {
+    "path": "E:/programming/funcodes/mcp-musescore/tmp/engraving/crossbar-tuplet-2026-11-02/verify.py",
+    "sha256": "8e13390c0ca7b161d7f47d0a4355f716d937449aaf89ee644e6eccf524584bee",
+    "old_module_body_executed": false
+  },
+  "resources": {
+    "complete": 16,
+    "planned": 25,
+    "remaining_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "new_completions": 0
+  },
+  "new_user_preferences": 0,
+  "new_software_adaptation": false,
+  "next_real_score_judgment_batch": {
+    "completed": 0,
+    "planned": 3,
+    "tasks": [
+      "完整组的阅读收益",
+      "显拍的实际必要性",
+      "标记跨行归属"
+    ],
+    "method": "先冻结具体判断再查规范与旧笔记；已读材料上的迁移练习，不计独立盲测准确率。"
+  },
+  "cache": {
+    "directory": "E:/programming/funcodes/mcp-musescore/tmp/engraving/crossbar-display-2026-11-02",
+    "budget_bytes": 2097152,
+    "original_copies": 0,
+    "runtime_copies": 0,
+    "deleted_files": 0,
+    "new_source_media_downloads": 0,
+    "reference_images_published": 0,
+    "actual_whole_cache_total_known": false,
+    "next_global_check_allowance_bytes": 3311337472,
+    "measured_bytes_excluding_audit": 507060,
+    "file_count_excluding_audit": 51
+  },
+  "checks": {
+    "native": "passed:3contexts,save,reimport,3controls",
+    "protected_sources": "3/3 unchanged",
+    "progress": "passed",
+    "skill": "passed",
+    "existing_query_regressions": "6/6 passed; retrieval only",
+    "actual_query": "notation: 显示组合 gate retrieves new case",
+    "public_inputs": "3/3 parsed trees equal tested inputs; purpose comments only",
+    "public_figures": "2/2 actually viewed",
+    "case_links": "passed",
+    "fixed_release": "engraving-v0.30.0 remains9ff6c8677a74d9ba9b499545cb9ff928e8104738; tag file fingerprints checked separately"
+  }
+}
