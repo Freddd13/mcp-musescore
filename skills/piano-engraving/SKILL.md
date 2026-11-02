@@ -103,9 +103,7 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 教程对照经`sources`／`spacing`查`KOKE_COLA_CAUSAL_REVIEW.md`：Kokecola两降号仍错列，缩列距不等于合列；间距图还改变休止高度。将作者明确操作、可见变化和本次解释分别记录，比较布局收益时核同一音乐及其它条件。
 
-跨表长弧及限定词保存，经`curves`／`markings`查`AVID_NATIVE_CONTEXT.md`：两端靠头／靠干和弧体路径分别核，单改方向仍可能穿音或包住独立旋律。保存后检查ff sub.等完整限定词，完整MIDI相同也可能丢文字；自定义力度须保实际力度值并验证重载。
-
-跨表弧与连音通道，经`curves`／`notation`查`AVID_CURVE_SCOPE_STUDY.md`：按组内包含和独立层选梁端路线，交干与穿头／梁分判；普通控制柄在本例已够用。数字白底会影响同曲其它数字并可遮弧，Gould p194优先全部或部分谱外；局部白底候选不作全谱预设，缓存名也不代替教材页眉。
+复杂跨表片段先按音乐层次联合安排弧线、连音和奏法，分别检查端点依附、整组范围、交干与穿头／梁。连音数字优先全部或部分谱外，白底另核遮挡；保存后核完整限定词与实际力度。移动前量本行已有上下沿，再按材料分配谱间距，局部成立不证明整页成立。Avid三批实曲正反例经`curves`／`notation`／`layout`／`markings`定位，原生检查见[候选参考](references/native-review.md)。
 
 ## 需要候选时
 

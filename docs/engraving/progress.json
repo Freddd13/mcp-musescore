@@ -3285,7 +3285,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.33保留；工作分支补Avid实际弧线／数字候选与保存验证，局部比较1/1，谱外及原页各0/1。资料16/25余9，无适配。",
+    "working_branch_note": "固定0.33保留；工作分支Avid谱外1/1及重载已核，原页六行18小节、输入4/18余14，页迁移0/1。资料16/25余9，无适配。",
     "evidence": "release_0_33_0_evidence.json"
   },
   "last_study_batch": {
@@ -3303,19 +3303,19 @@
     "new_native_candidate_scenarios": 1,
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
-    "new_native_diagnostic_conditions": 5,
-    "native_CLI_calls": 31,
-    "book_reread_pages": 4,
-    "official_score_reread_pages": 0,
+    "new_native_diagnostic_conditions": 1,
+    "native_CLI_calls": 8,
+    "book_reread_pages": 0,
+    "official_score_reread_pages": 1,
     "official_system_views_reused": 0,
     "date": "2026-11-03",
-    "scope": "Avid实际弧线三条件／数字三条件、局部比较1/1与最终重载；白底遮弧已修，Gould194优先谱外，外置与原页各0/1。",
+    "scope": "谱外1/1与重载1/1优先，原页六行18小节及按行净距已核；输入4/18余14、整页0/1。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "AVID_CURVE_SCOPE_STUDY.md"
+      "AVID_OUTSIDE_NUMERAL.md"
     ],
-    "review_evidence": "avid_curve_scope_evidence.json",
+    "review_evidence": "avid_outside_numeral_evidence.json",
     "software_adaptation": false,
     "new_public_preview_readings": 0,
     "public_preview_rereads": 0,
@@ -3323,36 +3323,29 @@
     "focused_preview_rechecks": 0
   },
   "latest_native_study": {
-    "reference": "AVID_CURVE_SCOPE_STUDY.md",
-    "evidence": "avid_curve_scope_evidence.json",
-    "slur_conditions": [
-      3,
-      3
-    ],
-    "numeral_conditions": [
-      3,
-      3
-    ],
-    "local_comparison_candidate": [
+    "reference": "AVID_OUTSIDE_NUMERAL.md",
+    "evidence": "avid_outside_numeral_evidence.json",
+    "outside_candidate": [
       1,
       1
     ],
-    "final_saved_reload": [
+    "save_reload": [
       1,
       1
     ],
-    "native_CLI_calls": 31,
-    "readbacks": [
-      7,
-      7
-    ],
+    "native_CLI_calls": 8,
     "written_records_each": 177,
+    "readbacks": [
+      2,
+      2
+    ],
     "complete_MIDI_equal": true,
-    "other_painted_objects_unchanged": 541,
-    "intermediate_stem_crossings": 5,
-    "outside_numeral_followup": [
-      0,
-      1
+    "other_painted_objects_unchanged": 543,
+    "all_four_slurs_preserved": true,
+    "first_system_ink_bounds_equal": true,
+    "source_page_input_measures": [
+      4,
+      18
     ],
     "source_page_migration": [
       0,
@@ -3975,6 +3968,46 @@
       "decisions": "自动与down弧都拒绝。输入richtext缩进已修；预定义ff丢sub.，自定义力度保持112后保存稳定。",
       "new_public_assets": 0,
       "software_adaptation": false
+    },
+    {
+      "reference": "AVID_CURVE_SCOPE_STUDY.md",
+      "evidence": "avid_curve_scope_evidence.json",
+      "slur_conditions": [
+        3,
+        3
+      ],
+      "numeral_conditions": [
+        3,
+        3
+      ],
+      "local_comparison_candidate": [
+        1,
+        1
+      ],
+      "final_saved_reload": [
+        1,
+        1
+      ],
+      "native_CLI_calls": 31,
+      "readbacks": [
+        7,
+        7
+      ],
+      "written_records_each": 177,
+      "complete_MIDI_equal": true,
+      "other_painted_objects_unchanged": 541,
+      "intermediate_stem_crossings": 5,
+      "outside_numeral_followup": [
+        0,
+        1
+      ],
+      "source_page_migration": [
+        0,
+        1
+      ],
+      "user_adopted": false,
+      "new_public_assets": 0,
+      "software_adaptation": false
     }
   ],
   "latest_judgment_review": {
@@ -4161,7 +4194,7 @@
     "scope": "20入口、既有五类来源与六项回归保持；新m97／端点整页问题定位另核，不计独立净书判断准确率。",
     "new_known_source_smoke_cases": 2,
     "latest_supplemental_query_check": {
-      "evidence": "avid_curve_scope_evidence.json",
+      "evidence": "avid_outside_numeral_evidence.json",
       "targeted_queries": [
         2,
         2
@@ -4174,7 +4207,7 @@
         6,
         6
       ],
-      "scope": "Known-source retrieval; source/native verification andmusicaljudgment separately recorded."
+      "scope": "Known-source retrieval/format checks; musicalmeaningandnativegeometryseparate."
     }
   },
   "next_native_batch": {
@@ -5048,8 +5081,8 @@
       0,
       1
     ],
-    "next": "普通S弧与白底数字已构成局部比较1/1；Gould194使谱外10比较优先，新增1项0/1。连同trecorde与最低尾音预算核后，再回完整m65／续行及原页，原页仍0/1。",
-    "actual_local_reference": "AVID_CURVE_SCOPE_STUDY.md",
+    "next": "谱外后继已闭合，本例优先；原六行18小节，输入4/18余14。先扩展并恢复片段外接延音，再比完整m65与续行的整页，原页仍0/1。",
+    "actual_local_reference": "AVID_OUTSIDE_NUMERAL.md",
     "actual_local_transcription_measures": [
       4,
       4
@@ -5067,15 +5100,52 @@
       1
     ],
     "outside_numeral_followup": [
-      0,
+      1,
       1
+    ],
+    "source_page_input_measures": [
+      4,
+      18
     ]
   },
   "next_avid_external_numeral": {
-    "reference": "AVID_CURVE_SCOPE_STUDY.md",
+    "reference": "AVID_OUTSIDE_NUMERAL.md",
     "planned_candidates": 1,
-    "completed_candidates": 0,
+    "completed_candidates": 1,
     "reason": "Gouldp194prefersthenumeralwhollyorpartlyoutsidestaff;currentinsidewhiteoutcandidateisconditional.",
-    "scope": "Comparebelowstaff10withtrecordeandlowesttailbudget;keepmusic,S-curveandlogical10/5scopes. Noenginechange."
+    "scope": "Joint10/trecordeplacementusesexistingE1lowerenvelope;localcomparisonclosed. Noenginechange.",
+    "agent_preferred": "outside",
+    "user_adopted": false,
+    "next": "结束数字同类微调，扩展原页缺少的14小节输入后，核完整页分行与上下表预算。"
+  },
+  "next_avid_page_migration": {
+    "reference": "AVID_OUTSIDE_NUMERAL.md",
+    "source_page": 4,
+    "source_rows": 6,
+    "source_logical_measures": [
+      53,
+      70
+    ],
+    "planned_input_measures": 18,
+    "completed_input_measures": 4,
+    "remaining_input_measures": [
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      68,
+      69,
+      70
+    ],
+    "planned_page_comparisons": 1,
+    "completed_page_comparisons": 0,
+    "scope": "Originalpagebasisfreeze;priorm64-67clipmustrestoreincoming/outgoingties afternewneighborschecked. Sourcefontobservationseparate fromfixednativefontA/B. Noengineadaptation."
   }
 }

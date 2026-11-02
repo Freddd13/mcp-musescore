@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+工作分支补[Avid谱外数字](engraving/AVID_OUTSIDE_NUMERAL.md)：数字、奏法和已有下沿联合放置，及按行分配上下表净距的真实例。layout／notation等六入口可查；原生局部候选可比较，完整页输入4/18，固定发布仍0.33。
+
 工作分支新增[Avid弧线／数字后继](engraving/AVID_CURVE_SCOPE_STUDY.md)：普通控制柄能处理本例梁端S形；白底数字需核遮弧，Gould p194更支持谱外位置。六个入口可查，局部候选已可比较，整页迁移仍0/1；固定发布保持0.33。
 
 工作分支新增[Avid实际片段](engraving/AVID_NATIVE_CONTEXT.md)，可从curves、markings、piano、layout、overview、baseline六个入口检索：跨表弧两端依附与限定词原生重载。固定发布仍为0.33；知识补充不要求重配MCP。
