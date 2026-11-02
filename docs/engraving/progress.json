@@ -3285,7 +3285,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.33保留；工作分支补Avid实曲四小节与跨表弧、ffsub.保存研究。资料16/25余9，实曲整页0/1，无适配。",
+    "working_branch_note": "固定0.33保留；工作分支补Avid实际弧线／数字候选与保存验证，局部比较1/1，谱外及原页各0/1。资料16/25余9，无适配。",
     "evidence": "release_0_33_0_evidence.json"
   },
   "last_study_batch": {
@@ -3300,22 +3300,22 @@
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 0,
+    "new_native_candidate_scenarios": 1,
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
-    "new_native_diagnostic_conditions": 2,
-    "native_CLI_calls": 24,
-    "book_reread_pages": 0,
+    "new_native_diagnostic_conditions": 5,
+    "native_CLI_calls": 31,
+    "book_reread_pages": 4,
     "official_score_reread_pages": 0,
     "official_system_views_reused": 0,
     "date": "2026-11-03",
-    "scope": "Avid实曲四小节／163音头与七份177记录；弧向两条件拒绝，限定词两保存条件已核，自定义力度保住sub.。可印刷后继与整页各0/1。",
+    "scope": "Avid实际弧线三条件／数字三条件、局部比较1/1与最终重载；白底遮弧已修，Gould194优先谱外，外置与原页各0/1。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "AVID_NATIVE_CONTEXT.md"
+      "AVID_CURVE_SCOPE_STUDY.md"
     ],
-    "review_evidence": "avid_native_context_evidence.json",
+    "review_evidence": "avid_curve_scope_evidence.json",
     "software_adaptation": false,
     "new_public_preview_readings": 0,
     "public_preview_rereads": 0,
@@ -3323,36 +3323,34 @@
     "focused_preview_rechecks": 0
   },
   "latest_native_study": {
-    "reference": "AVID_NATIVE_CONTEXT.md",
-    "evidence": "avid_native_context_evidence.json",
-    "local_transcription_measures": [
-      4,
-      4
+    "reference": "AVID_CURVE_SCOPE_STUDY.md",
+    "evidence": "avid_curve_scope_evidence.json",
+    "slur_conditions": [
+      3,
+      3
     ],
-    "source_heads": [
-      163,
-      163
+    "numeral_conditions": [
+      3,
+      3
     ],
-    "slur_direction_conditions": [
-      2,
-      2
+    "local_comparison_candidate": [
+      1,
+      1
     ],
-    "text_persistence_conditions": [
-      2,
-      2
+    "final_saved_reload": [
+      1,
+      1
     ],
-    "save_reload": [
-      2,
-      2
-    ],
-    "native_CLI_calls": 24,
+    "native_CLI_calls": 31,
     "readbacks": [
       7,
       7
     ],
-    "flattened_music_records_each": 177,
-    "full_MIDI_equal_across_all_conditions": true,
-    "print_ready_source_candidate": [
+    "written_records_each": 177,
+    "complete_MIDI_equal": true,
+    "other_painted_objects_unchanged": 541,
+    "intermediate_stem_crossings": 5,
+    "outside_numeral_followup": [
       0,
       1
     ],
@@ -3360,7 +3358,7 @@
       0,
       1
     ],
-    "decisions": "自动与down弧都拒绝。输入richtext缩进已修；预定义ff丢sub.，自定义力度保持112后保存稳定。",
+    "user_adopted": false,
     "new_public_assets": 0,
     "software_adaptation": false
   },
@@ -3935,6 +3933,48 @@
       "decisions": "本原创例优先完整A；拆行C可比较固定印刷，但MIDI新增2/4，交换还有共同释放／控制及梁形变化。原曲候选0/1保持。",
       "new_public_assets": 4,
       "software_adaptation": false
+    },
+    {
+      "reference": "AVID_NATIVE_CONTEXT.md",
+      "evidence": "avid_native_context_evidence.json",
+      "local_transcription_measures": [
+        4,
+        4
+      ],
+      "source_heads": [
+        163,
+        163
+      ],
+      "slur_direction_conditions": [
+        2,
+        2
+      ],
+      "text_persistence_conditions": [
+        2,
+        2
+      ],
+      "save_reload": [
+        2,
+        2
+      ],
+      "native_CLI_calls": 24,
+      "readbacks": [
+        7,
+        7
+      ],
+      "flattened_music_records_each": 177,
+      "full_MIDI_equal_across_all_conditions": true,
+      "print_ready_source_candidate": [
+        0,
+        1
+      ],
+      "source_page_migration": [
+        0,
+        1
+      ],
+      "decisions": "自动与down弧都拒绝。输入richtext缩进已修；预定义ff丢sub.，自定义力度保持112后保存稳定。",
+      "new_public_assets": 0,
+      "software_adaptation": false
     }
   ],
   "latest_judgment_review": {
@@ -4121,7 +4161,7 @@
     "scope": "20入口、既有五类来源与六项回归保持；新m97／端点整页问题定位另核，不计独立净书判断准确率。",
     "new_known_source_smoke_cases": 2,
     "latest_supplemental_query_check": {
-      "evidence": "avid_native_context_evidence.json",
+      "evidence": "avid_curve_scope_evidence.json",
       "targeted_queries": [
         2,
         2
@@ -4134,7 +4174,7 @@
         6,
         6
       ],
-      "scope": "Known-source retrieval/format checks; actual native music/visual failures separately recorded,not blind accuracy."
+      "scope": "Known-source retrieval; source/native verification andmusicaljudgment separately recorded."
     }
   },
   "next_native_batch": {
@@ -5008,8 +5048,8 @@
       0,
       1
     ],
-    "next": "实际四小节基线已核；先检查弧端／控制柄与10组数字通道，再比较完整m65或续行提醒，回原页预算。自动与down两探针均拒绝，不反复调同一方向开关。",
-    "actual_local_reference": "AVID_NATIVE_CONTEXT.md",
+    "next": "普通S弧与白底数字已构成局部比较1/1；Gould194使谱外10比较优先，新增1项0/1。连同trecorde与最低尾音预算核后，再回完整m65／续行及原页，原页仍0/1。",
+    "actual_local_reference": "AVID_CURVE_SCOPE_STUDY.md",
     "actual_local_transcription_measures": [
       4,
       4
@@ -5021,6 +5061,21 @@
     "print_ready_local_candidate": [
       0,
       1
+    ],
+    "comparison_candidate": [
+      1,
+      1
+    ],
+    "outside_numeral_followup": [
+      0,
+      1
     ]
+  },
+  "next_avid_external_numeral": {
+    "reference": "AVID_CURVE_SCOPE_STUDY.md",
+    "planned_candidates": 1,
+    "completed_candidates": 0,
+    "reason": "Gouldp194prefersthenumeralwhollyorpartlyoutsidestaff;currentinsidewhiteoutcandidateisconditional.",
+    "scope": "Comparebelowstaff10withtrecordeandlowesttailbudget;keepmusic,S-curveandlogical10/5scopes. Noenginechange."
   }
 }

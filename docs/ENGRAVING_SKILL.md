@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+工作分支新增[Avid弧线／数字后继](engraving/AVID_CURVE_SCOPE_STUDY.md)：普通控制柄能处理本例梁端S形；白底数字需核遮弧，Gould p194更支持谱外位置。六个入口可查，局部候选已可比较，整页迁移仍0/1；固定发布保持0.33。
+
 工作分支新增[Avid实际片段](engraving/AVID_NATIVE_CONTEXT.md)，可从curves、markings、piano、layout、overview、baseline六个入口检索：跨表弧两端依附与限定词原生重载。固定发布仍为0.33；知识补充不要求重配MCP。
 
 2026-11-03发布**0.33.0研究版／engraving-v0.33.0**：[Sugar复核](engraving/SUGAR_HANDOVER_REVIEW.md)与[段首／末行对照](engraving/SECTION_ENTRY_CASTING_STUDY.md)可查，新增八份原创CC0资产。例：`--topic layout --query "末行 恢复点 伸展"`。关联安装更新项目即可，复制安装同步同版skill与库；MCP配置不变。

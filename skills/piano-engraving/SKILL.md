@@ -105,6 +105,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 跨表长弧及限定词保存，经`curves`／`markings`查`AVID_NATIVE_CONTEXT.md`：两端靠头／靠干和弧体路径分别核，单改方向仍可能穿音或包住独立旋律。保存后检查ff sub.等完整限定词，完整MIDI相同也可能丢文字；自定义力度须保实际力度值并验证重载。
 
+跨表弧与连音通道，经`curves`／`notation`查`AVID_CURVE_SCOPE_STUDY.md`：按组内包含和独立层选梁端路线，交干与穿头／梁分判；普通控制柄在本例已够用。数字白底会影响同曲其它数字并可遮弧，Gould p194优先全部或部分谱外；局部白底候选不作全谱预设，缓存名也不代替教材页眉。
+
 ## 需要候选时
 
 本项目提供的用户原PDF／MSCZ保持只读，使用独立副本或原创fixture，不操作当前GUI来做离线试验。其它工程按用户实际授权处理；分析请求不隐含覆盖源文件。详细原生比较方法见[references/native-review.md](references/native-review.md)。
