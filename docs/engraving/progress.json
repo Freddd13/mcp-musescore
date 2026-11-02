@@ -3285,7 +3285,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.33保留；工作分支Avid音乐输入18/18、633/633头及三份679记录已核，两准备版仍两页九行，整页0/1、边界上下文0/2；资料16/25余9，无适配。",
+    "working_branch_note": "固定0.33保留；工作分支Avid18/18目标及2/2上下文已核，容量3/3、目标仍两页八行，整页0/1；资料16/25余9，无适配。",
     "evidence": "release_0_33_0_evidence.json"
   },
   "last_study_batch": {
@@ -3303,19 +3303,19 @@
     "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
-    "new_native_diagnostic_conditions": 2,
+    "new_native_diagnostic_conditions": 3,
     "native_CLI_calls": 9,
     "book_reread_pages": 0,
-    "official_score_reread_pages": 1,
+    "official_score_reread_pages": 2,
     "official_system_views_reused": 0,
     "date": "2026-11-03",
-    "scope": "Avid整页音乐输入18/18、633头及三份679记录已核；两准备条件均2页9行，完整原页比较0/1、边界上下文0/2。",
+    "scope": "上下文2/2、84符头及两份768记录已核；容量三条件3/3，1.0与0.8导出坐标一致，目标仍两页八行，整页0/1。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "AVID_PAGE_INPUT.md"
+      "AVID_CAPACITY_BOUNDARIES.md"
     ],
-    "review_evidence": "avid_page_input_evidence.json",
+    "review_evidence": "avid_capacity_boundaries_evidence.json",
     "software_adaptation": false,
     "new_public_preview_readings": 0,
     "public_preview_rereads": 0,
@@ -3323,8 +3323,8 @@
     "focused_preview_rechecks": 0
   },
   "latest_native_study": {
-    "reference": "AVID_PAGE_INPUT.md",
-    "evidence": "avid_page_input_evidence.json",
+    "reference": "AVID_CAPACITY_BOUNDARIES.md",
+    "evidence": "avid_capacity_boundaries_evidence.json",
     "source_page_input_measures": [
       18,
       18
@@ -3333,29 +3333,39 @@
       633,
       633
     ],
-    "native_preparation_conditions": [
+    "boundary_context": [
       2,
       2
     ],
-    "native_CLI_calls": 9,
-    "written_records_each": 679,
-    "readbacks": [
+    "context_heads": [
+      84,
+      84
+    ],
+    "capacity_conditions": [
       3,
       3
     ],
-    "complete_MIDI_equal": true,
-    "save_reload": [
+    "capacity_records_each": 679,
+    "capacity_readbacks": [
+      3,
+      3
+    ],
+    "context_records_each": 768,
+    "context_readbacks": [
+      2,
+      2
+    ],
+    "structural_save_reload": [
       1,
       1
     ],
-    "internal_tied_pitches": 140,
-    "native_systems_each": 9,
-    "native_pages_each": 2,
-    "six_row_request_succeeded": false,
-    "boundary_context": [
-      0,
-      2
-    ],
+    "native_CLI_calls": 9,
+    "complete_context_MIDI_equal": true,
+    "one_vs_low_export_geometry_equal": true,
+    "target_native_systems": 8,
+    "target_native_pages": 2,
+    "context_total_systems": 10,
+    "context_total_pages": 4,
     "source_page_migration": [
       0,
       1
@@ -4042,6 +4052,48 @@
       "source_page_input_measures": [
         4,
         18
+      ],
+      "source_page_migration": [
+        0,
+        1
+      ],
+      "user_adopted": false,
+      "new_public_assets": 0,
+      "software_adaptation": false
+    },
+    {
+      "reference": "AVID_PAGE_INPUT.md",
+      "evidence": "avid_page_input_evidence.json",
+      "source_page_input_measures": [
+        18,
+        18
+      ],
+      "source_heads": [
+        633,
+        633
+      ],
+      "native_preparation_conditions": [
+        2,
+        2
+      ],
+      "native_CLI_calls": 9,
+      "written_records_each": 679,
+      "readbacks": [
+        3,
+        3
+      ],
+      "complete_MIDI_equal": true,
+      "save_reload": [
+        1,
+        1
+      ],
+      "internal_tied_pitches": 140,
+      "native_systems_each": 9,
+      "native_pages_each": 2,
+      "six_row_request_succeeded": false,
+      "boundary_context": [
+        0,
+        2
       ],
       "source_page_migration": [
         0,
@@ -5161,7 +5213,7 @@
     "next": "结束数字同类微调，扩展原页缺少的14小节输入后，核完整页分行与上下表预算。"
   },
   "next_avid_page_migration": {
-    "reference": "AVID_PAGE_INPUT.md",
+    "reference": "AVID_CAPACITY_BOUNDARIES.md",
     "source_page": 4,
     "source_rows": 6,
     "source_logical_measures": [
@@ -5173,14 +5225,20 @@
     "remaining_input_measures": [],
     "planned_page_comparisons": 1,
     "completed_page_comparisons": 0,
-    "scope": "Complete18targetbarswithinternaltiesslursandaccents,notfaithfulpagecompletion. Supplyboundarycontext52/71,establishsixrowcapacity,thencomparelogical65splitandintact.Newfontandlayoutnotmixed;noengineadaptation.",
+    "scope": "18targetbars plus2verifiedcontextbars. Targetpageboundaryties restored. Explicitspacing1fits53-55buttargetstill8systems/2pages;0.8andminNoteDistance0.2sameexportgeometry. Establishactualsixrowcapacityandcompare65split/intact;noengineadaptation.",
     "planned_boundary_context_measures": 2,
-    "completed_boundary_context_measures": 0,
+    "completed_boundary_context_measures": 2,
     "native_preparation_conditions": [
       2,
       2
     ],
-    "actual_native_systems_each": 9,
-    "actual_native_pages_each": 2
+    "actual_native_systems_each": 8,
+    "actual_native_pages_each": 2,
+    "native_capacity_conditions": [
+      3,
+      3
+    ],
+    "context_total_systems": 10,
+    "context_total_pages": 4
   }
 }
