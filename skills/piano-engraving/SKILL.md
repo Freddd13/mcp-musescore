@@ -79,6 +79,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 特殊梁形经`beams`／`rhythm`查`FANNED_BEAMS_READING.md`：羽状梁保组内自由快慢与总时长，音头可等距，不用常规等距／MIDI检查替代其记法含义。半梁按拍内归属判断，休止邻近允许不同体例；普通休止与整小节休止的横向检查分别处理。
 
+跨小节梁经`beams`／`notation`查`BEAM_ACROSS_BAR_READING.md`：连音跨线后的首个头可能晚于新小节起点，先算时值再查对齐。常规认拍、无内部重音音阶及整段乐句的分组条件分别读；震音连接另保逻辑中点。教程的同voice连接条件不决定用手；图形补梁须核音乐模型与重排依附，静帧不补成完整操作配方。
+
 速度等式经`tempo`／`layout`查`TEMPO_EQUATION_CLARITY.md`：确认音值归属后，比较前行预告、新行方向提示与速度确认；摆放提前不等于实际换速提前。含义未定时给可核对的结构假设，不用表情词或早先BPM自动改写。
 
 跨表间距经`spacing`／`cross-staff`查`STEM_OPTICAL_CONTEXTS.md`及前篇：头侧、干轴、真正先后和共同起音一起核。只移音组会错开独立层，联合同刻各层可在具体情境兼顾；二度按正常侧头辨列，不按最低头或外框中心吸附。相同挂头差可使偏移跨宽度复用，仍须看当前容量和其它层；本机Local relayout未自动提供该光学策略。

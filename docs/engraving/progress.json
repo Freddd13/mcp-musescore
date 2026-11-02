@@ -2957,7 +2957,7 @@
         "scope": "萌象的J哥：连梁视频",
         "status": "partial",
         "evidence": "musescore3_beam_video_partial_evidence.json",
-        "remaining": "第一部分11:09公开预览累计68/68格（65编辑状态、2介绍、1黑场），本批补62格及三近图；完整点击顺序／声音仍缺。第二部分28:29实际画面／声音未读。",
+        "remaining": "第一部分68/68、第二部分165/165，累计233/233个公开预览格已看；完整声音、缺失的连续操作、细小参数及源工程仍缺。保持partial。",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV14Z4y1f7bG/",
         "metadata_identity_verified": true,
@@ -2967,8 +2967,16 @@
           68,
           68
         ],
-        "latest_preview_note": "FANNED_BEAMS_READING.md",
-        "latest_preview_evidence": "fanned_beams_reading_evidence.json"
+        "latest_preview_note": "BEAM_ACROSS_BAR_READING.md",
+        "latest_preview_evidence": "beam_across_bar_reading_evidence.json",
+        "part2_public_preview_cells": [
+          165,
+          165
+        ],
+        "two_part_public_preview_cells": [
+          233,
+          233
+        ]
       },
       {
         "id": "R12",
@@ -3246,7 +3254,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.29固定Aether五篇由纸面到完整系统/入口取舍的学习，含m31音名和m29休止梁更正；入口2/2，本例优先新候选，资料16/25余9，无适配。",
+    "working_branch_note": "0.29固定Aether五篇由纸面到完整系统/入口取舍的学习，含m31音名和m29休止梁更正；入口2/2，本例优先新候选，资料16/25余9，无适配。 之后分支补R11第二部分165/165格与Gould12页，固定0.29标签保持。",
     "evidence": "release_0_29_0_evidence.json"
   },
   "last_study_batch": {
@@ -3263,19 +3271,19 @@
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
-    "new_source_media": 0,
+    "new_source_media": 2,
     "date": "2026-11-02",
-    "scope": "Aether入口两处2/2，新增1版/1重载；同刻与dim.跟随，准备0.29固定研究版。",
-    "new_native_diagnostic_conditions": 1,
-    "native_CLI_calls": 16,
-    "book_reread_pages": 0,
+    "scope": "R11第二部分165/165格、两部分233/233格；Gould12/12页复读，资料16/25余9，原生0。",
+    "new_native_diagnostic_conditions": 0,
+    "native_CLI_calls": 0,
+    "book_reread_pages": 12,
     "official_score_reread_pages": 0,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "AETHER_ENTRY_CLEARANCE.md"
+      "BEAM_ACROSS_BAR_READING.md"
     ],
-    "review_evidence": "aether_entry_clearance_evidence.json",
+    "review_evidence": "beam_across_bar_reading_evidence.json",
     "software_adaptation": false,
     "official_system_views_reused": 0
   },
@@ -3764,41 +3772,33 @@
     "new_native_conditions": 1
   },
   "latest_supplemental_reading": {
-    "reference": "AETHER_SPACING_LAYERS.md",
-    "evidence": "aether_spacing_layers_evidence.json",
-    "questions": [
-      2,
-      2
+    "reference": "BEAM_ACROSS_BAR_READING.md",
+    "evidence": "beam_across_bar_reading_evidence.json",
+    "R11_part2_public_preview_cells": [
+      165,
+      165
     ],
-    "spacing_bars": [
-      6,
-      6
+    "R11_two_part_public_preview_cells": [
+      233,
+      233
     ],
-    "dynamic_contexts": [
-      3,
-      3
-    ],
-    "official_pages_reread": {
-      "A128": [
-        1,
-        2
-      ]
-    },
     "Gould_full_printed_page_rereads": [
-      43,
-      81,
-      82,
-      323,
-      490
+      153,
+      154,
+      155,
+      157,
+      169,
+      210,
+      211,
+      225,
+      226,
+      227,
+      228,
+      317
     ],
     "new_Gould_coverage": 0,
     "new_fixed_resource_completions": 0,
-    "paper_candidates": 4,
-    "native_replacements": [
-      0,
-      4
-    ],
-    "scope": "Actual occupancy,cautionary functions and dynamic roles; no native replacement or engine attribution."
+    "scope": "跨线真实时点、常规拍组／无重音音阶／表情乐句、双音震音与图形补法分辨；声音／完整操作未核。"
   },
   "judgment_review_history": [
     {
@@ -3960,13 +3960,13 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15保持。R07/R08/R09预览118/118、82/82、32/32，R11第一部分68/68已看；仍缺细节／声音／连续流程，R11第二部分28:29未读。R07旧版0/2、R10具体干预及R12–15实际教程待核。匿名元数据本轮412，不重复同一拒绝路径；继续可得谱例与规则应用。",
+    "scope": "余9项R07–R15保持。R07/R08/R09预览118/118、82/82、32/32，R11两部分68/68＋165/165已看；仍缺细小校勘／声音／连续流程及R07旧版0/2、R10具体干预和R12–15实际教程。新CID公开预览已取得，不重试无变化的拒绝入口。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
-    "latest_available_supplement": "TEMPO_EQUATION_CLARITY.md: fourMadokapages,threeGouldrereads,threeoriginalnativeforms; authorintentunresolved,remaining9resourcesunchanged.",
+    "latest_available_supplement": "BEAM_ACROSS_BAR_READING.md",
     "official_preview_path_confirmed_for_R09": true,
     "official_preview_path_confirmed_for_R07_R08": true,
-    "next_readable_operation_reference": "3版Beams操作正文1/1、定向图5/8及R11第一部分预览68/68已核；转向清晰连续教程及实际钢琴判断，受拒路径不重复。"
+    "next_readable_operation_reference": "R11两部分233/233公开预览；下一步清晰连续讲解／源工程，或独立原生跨线时点学习，不能反推Kura未知比例。"
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -4402,6 +4402,43 @@
       "new_Gould_coverage": 0,
       "new_fixed_resource_completions": 0,
       "scope": "小音角色、挂干、Slur／指法与动态通道；101–108仅文本定位片段，不计完整八页。"
+    },
+    {
+      "reference": "AETHER_SPACING_LAYERS.md",
+      "evidence": "aether_spacing_layers_evidence.json",
+      "questions": [
+        2,
+        2
+      ],
+      "spacing_bars": [
+        6,
+        6
+      ],
+      "dynamic_contexts": [
+        3,
+        3
+      ],
+      "official_pages_reread": {
+        "A128": [
+          1,
+          2
+        ]
+      },
+      "Gould_full_printed_page_rereads": [
+        43,
+        81,
+        82,
+        323,
+        490
+      ],
+      "new_Gould_coverage": 0,
+      "new_fixed_resource_completions": 0,
+      "paper_candidates": 4,
+      "native_replacements": [
+        0,
+        4
+      ],
+      "scope": "Actual occupancy,cautionary functions and dynamic roles; no native replacement or engine attribution."
     }
   ],
   "latest_source_identity_review": {
@@ -4463,5 +4500,15 @@
     "agent_preferred_candidate": "entry-fitted",
     "user_adoption_confirmed": false,
     "next": "此组研究闭合；转新织体/可得余9项资料，真实使用反馈再回访，不反复制作同类微差图。"
+  },
+  "next_crossbar_reading_batch": {
+    "completed": 0,
+    "planned": 3,
+    "conditions": [
+      "完整跨线连音",
+      "拆分显拍的等价记法",
+      "错误吸到新小节首拍的拒绝例"
+    ],
+    "scope": "原创材料验证读法与真实对齐，先检索已有例避免重复；不替未知官谱决定比例，不开发适配。"
   }
 }
