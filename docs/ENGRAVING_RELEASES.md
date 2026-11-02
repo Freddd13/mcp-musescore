@@ -1,5 +1,13 @@
 # 净书知识库与skill发布记录
 
+## 0.30.0 — 2026-11-02
+
+固定[R11跨小节预览学习](engraving/BEAM_ACROSS_BAR_READING.md)与[三连音原生判断](engraving/CROSSBAR_TUPLET_NATIVE_STUDY.md)。第二部分165/165格，两部分233/233；相关规范两批共14次页复读，按页去重12页。完整声音／连续步骤仍缺。
+
+三情境3/3、换行1/1、最终重载1/1；本例优先真实2/4小节显拍。错误吸齐虽完整MIDI保持仍误示同时；长小节补形的音符事件相同，却输出4/4 MIDI拍号，只作诊断。真两小节完整显示仍0/1，不宣称全方案无解。44次CLI中最终21、前置23（含不完整手写Tie超时1次）。
+
+新增三份CC0输入和两张原生图，20入口可用；检索`--topic notation --query "跨线 拍号"`。官谱146/146、1135/1135页、Gould696/696覆盖与资料16/25余9保持，无适配。[发布证据](engraving/release_0_30_0_evidence.json)及标签`engraving-v0.30.0`固定本版，旧标签保持。更新关联项目即可；复制安装同步同版skill与库，MCP无需重配。
+
 ## 0.29.0 — 2026-11-02
 
 把Aether的[纸面判断](engraving/AETHER_SPACING_LAYERS.md)、[音乐重建](engraving/AETHER_NATIVE_RECONSTRUCTION.md)、[局部预算](engraving/AETHER_M33_BUDGET.md)、[完整系统](engraving/AETHER_SYSTEM_TRANSFER.md)与[入口取舍](engraving/AETHER_ENTRY_CLEARANCE.md)固定为可追溯研究。四源预算4/4、七小节上下文1/1、入口比较2/2；本例优先入口放宽版，约0.50sp净距与稳定内层、原小节宽和末音预算可以兼顾。m31必要D还原及m29休止梁的更正一并保留。

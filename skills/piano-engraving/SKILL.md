@@ -2,7 +2,7 @@
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
 metadata:
-  version: "0.29.0"
+  version: "0.30.0"
 ---
 
 # 钢琴净书
@@ -94,6 +94,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 `AETHER_NATIVE_RECONSTRUCTION.md`补四处原生检查：新预算已近匀时保默认，5＋3分行不可代替原七小节预算。变音必要性结合调号和谱位，不能只凭cautionary标志；共享符头可以对应两个声部时值，先保护结构再调整间距。
 
 `AETHER_ENTRY_CLEARANCE.md`接续整行核查：本例优先入口放宽版，先使小节线与变音—和弦单元分开，再协调内层连续运动、持音和dim.起点。保原小节宽与末音预算；按正常侧定位翻头和弦，梁是否含休止单独核。半格净距只作为此构型候选，不设全谱常量。
+
+跨线时点的原生例经`notation`／`spacing`查`CROSSBAR_TUPLET_NATIVE_STUDY.md`：本例优先真实两小节显拍；把E5吸到首拍会误示同时，完整MIDI保持也不能放行。长小节补形虽音符事件相同，MIDI拍号变4/4，作诊断；核播放时包含拍号和小节结构，分开记录音符与完整文件等价。真两小节完整显示仍缺，不预断必需改本体。
 
 ## 需要候选时
 

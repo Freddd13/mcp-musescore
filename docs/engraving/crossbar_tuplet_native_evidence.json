@@ -1,0 +1,1584 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-02",
+  "reference": "CROSSBAR_TUPLET_NATIVE_STUDY.md",
+  "previous_goal_turn": {
+    "classification": "progress",
+    "commit": "b6f325c36b19b0f2311e07aee946c16f78ee33df",
+    "reason": "R11 second-part preview165/165 and12 full Gould pages, conditional rules now retrievable."
+  },
+  "scope": {
+    "planned_conditions": 3,
+    "conditions_studied": 3,
+    "final_conditions": 3,
+    "new_system_break_conditions": 1,
+    "final_saved_reload": [
+      1,
+      1
+    ],
+    "true_two_measure_intact_solution": [
+      0,
+      1
+    ],
+    "new_Gould_coverage": 0,
+    "Gould_full_printed_rereads": [
+      210,
+      211
+    ],
+    "new_official_score_reads": 0,
+    "new_resource_completions": 0
+  },
+  "recipe": {
+    "music": "Original G4 quarter; C5,D5,E5 quarter-triplet3:2 from q1 to q3; A4 quarter. Lower C3,F3,G3,C4 quarters. Nominal2/4 with boundary q2.",
+    "independent_expected_upper": [
+      [
+        67,
+        "0",
+        "1"
+      ],
+      [
+        72,
+        "1",
+        "2/3"
+      ],
+      [
+        74,
+        "5/3",
+        "2/3"
+      ],
+      [
+        76,
+        "7/3",
+        "2/3"
+      ],
+      [
+        69,
+        "3",
+        "1"
+      ]
+    ],
+    "independent_expected_lower": [
+      [
+        48,
+        "0",
+        "1"
+      ],
+      [
+        53,
+        "1",
+        "1"
+      ],
+      [
+        55,
+        "2",
+        "1"
+      ],
+      [
+        60,
+        "3",
+        "1"
+      ]
+    ]
+  },
+  "judgments": {
+    "retained": "B split, true2/4 bars, beat-reading task",
+    "rejected": "C false alignment; E5 remains q7/3",
+    "diagnostic_only": "A one long measure; printed2/4 but MIDI4/4; not a semantically equivalent solution",
+    "still_missing": "Intact visual group while keeping two real native bars; not claimed impossible via all other methods"
+  },
+  "native_verification": {
+    "as_of": "2026-11-02",
+    "musicxml": {
+      "whole-visible": {
+        "written_notes": 9,
+        "sounding_events": 9,
+        "actual_bar_quarters": [
+          "4"
+        ],
+        "normalized_events": [
+          [
+            48,
+            "0",
+            "1"
+          ],
+          [
+            53,
+            "1",
+            "1"
+          ],
+          [
+            55,
+            "2",
+            "1"
+          ],
+          [
+            60,
+            "3",
+            "1"
+          ],
+          [
+            67,
+            "0",
+            "1"
+          ],
+          [
+            69,
+            "3",
+            "1"
+          ],
+          [
+            72,
+            "1",
+            "2/3"
+          ],
+          [
+            74,
+            "5/3",
+            "2/3"
+          ],
+          [
+            76,
+            "7/3",
+            "2/3"
+          ]
+        ],
+        "tuplet_starts": 1
+      },
+      "split-common": {
+        "written_notes": 10,
+        "sounding_events": 9,
+        "actual_bar_quarters": [
+          "2",
+          "2"
+        ],
+        "normalized_events": [
+          [
+            48,
+            "0",
+            "1"
+          ],
+          [
+            53,
+            "1",
+            "1"
+          ],
+          [
+            55,
+            "2",
+            "1"
+          ],
+          [
+            60,
+            "3",
+            "1"
+          ],
+          [
+            67,
+            "0",
+            "1"
+          ],
+          [
+            69,
+            "3",
+            "1"
+          ],
+          [
+            72,
+            "1",
+            "2/3"
+          ],
+          [
+            74,
+            "5/3",
+            "2/3"
+          ],
+          [
+            76,
+            "7/3",
+            "2/3"
+          ]
+        ],
+        "tuplet_starts": 2
+      },
+      "false-final": {
+        "written_notes": 9,
+        "sounding_events": 9,
+        "actual_bar_quarters": [
+          "4"
+        ],
+        "normalized_events": [
+          [
+            48,
+            "0",
+            "1"
+          ],
+          [
+            53,
+            "1",
+            "1"
+          ],
+          [
+            55,
+            "2",
+            "1"
+          ],
+          [
+            60,
+            "3",
+            "1"
+          ],
+          [
+            67,
+            "0",
+            "1"
+          ],
+          [
+            69,
+            "3",
+            "1"
+          ],
+          [
+            72,
+            "1",
+            "2/3"
+          ],
+          [
+            74,
+            "5/3",
+            "2/3"
+          ],
+          [
+            76,
+            "7/3",
+            "2/3"
+          ]
+        ],
+        "tuplet_starts": 1
+      },
+      "split-common-saved": {
+        "written_notes": 10,
+        "sounding_events": 9,
+        "actual_bar_quarters": [
+          "2",
+          "2"
+        ],
+        "normalized_events": [
+          [
+            48,
+            "0",
+            "1"
+          ],
+          [
+            53,
+            "1",
+            "1"
+          ],
+          [
+            55,
+            "2",
+            "1"
+          ],
+          [
+            60,
+            "3",
+            "1"
+          ],
+          [
+            67,
+            "0",
+            "1"
+          ],
+          [
+            69,
+            "3",
+            "1"
+          ],
+          [
+            72,
+            "1",
+            "2/3"
+          ],
+          [
+            74,
+            "5/3",
+            "2/3"
+          ],
+          [
+            76,
+            "7/3",
+            "2/3"
+          ]
+        ],
+        "tuplet_starts": 2
+      },
+      "split-common-linebreak": {
+        "written_notes": 10,
+        "sounding_events": 9,
+        "actual_bar_quarters": [
+          "2",
+          "2"
+        ],
+        "normalized_events": [
+          [
+            48,
+            "0",
+            "1"
+          ],
+          [
+            53,
+            "1",
+            "1"
+          ],
+          [
+            55,
+            "2",
+            "1"
+          ],
+          [
+            60,
+            "3",
+            "1"
+          ],
+          [
+            67,
+            "0",
+            "1"
+          ],
+          [
+            69,
+            "3",
+            "1"
+          ],
+          [
+            72,
+            "1",
+            "2/3"
+          ],
+          [
+            74,
+            "5/3",
+            "2/3"
+          ],
+          [
+            76,
+            "7/3",
+            "2/3"
+          ]
+        ],
+        "tuplet_starts": 2
+      }
+    },
+    "midi": {
+      "whole-visible": {
+        "bytes": 210,
+        "sha256": "9e433048690758c62c47ca43008abb4c0cca5e6d6755553b3354956ace568afd",
+        "ppq": 480,
+        "attacks": 9,
+        "events": [
+          [
+            48,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            53,
+            480,
+            959,
+            80,
+            0
+          ],
+          [
+            55,
+            960,
+            1439,
+            80,
+            0
+          ],
+          [
+            60,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            67,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            69,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            72,
+            480,
+            799,
+            80,
+            0
+          ],
+          [
+            74,
+            800,
+            1119,
+            80,
+            0
+          ],
+          [
+            76,
+            1120,
+            1439,
+            80,
+            0
+          ]
+        ],
+        "metadata": [
+          [
+            0,
+            0,
+            88,
+            "04021808"
+          ],
+          [
+            0,
+            0,
+            81,
+            "07a120"
+          ],
+          [
+            0,
+            1,
+            47,
+            ""
+          ],
+          [
+            1,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            1,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            1,
+            0,
+            33,
+            "00"
+          ],
+          [
+            1,
+            1920,
+            47,
+            ""
+          ],
+          [
+            2,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            2,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            2,
+            0,
+            33,
+            "00"
+          ],
+          [
+            2,
+            1920,
+            47,
+            ""
+          ]
+        ]
+      },
+      "split-common": {
+        "bytes": 210,
+        "sha256": "b1838739ee4ff4b9c15761477184876fab2c2569b6d00ae4b5d4f5087f30a4ba",
+        "ppq": 480,
+        "attacks": 9,
+        "events": [
+          [
+            48,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            53,
+            480,
+            959,
+            80,
+            0
+          ],
+          [
+            55,
+            960,
+            1439,
+            80,
+            0
+          ],
+          [
+            60,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            67,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            69,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            72,
+            480,
+            799,
+            80,
+            0
+          ],
+          [
+            74,
+            800,
+            1119,
+            80,
+            0
+          ],
+          [
+            76,
+            1120,
+            1439,
+            80,
+            0
+          ]
+        ],
+        "metadata": [
+          [
+            0,
+            0,
+            88,
+            "02021808"
+          ],
+          [
+            0,
+            0,
+            81,
+            "07a120"
+          ],
+          [
+            0,
+            1,
+            47,
+            ""
+          ],
+          [
+            1,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            1,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            1,
+            0,
+            33,
+            "00"
+          ],
+          [
+            1,
+            1920,
+            47,
+            ""
+          ],
+          [
+            2,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            2,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            2,
+            0,
+            33,
+            "00"
+          ],
+          [
+            2,
+            1920,
+            47,
+            ""
+          ]
+        ]
+      },
+      "false-final": {
+        "bytes": 210,
+        "sha256": "9e433048690758c62c47ca43008abb4c0cca5e6d6755553b3354956ace568afd",
+        "ppq": 480,
+        "attacks": 9,
+        "events": [
+          [
+            48,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            53,
+            480,
+            959,
+            80,
+            0
+          ],
+          [
+            55,
+            960,
+            1439,
+            80,
+            0
+          ],
+          [
+            60,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            67,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            69,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            72,
+            480,
+            799,
+            80,
+            0
+          ],
+          [
+            74,
+            800,
+            1119,
+            80,
+            0
+          ],
+          [
+            76,
+            1120,
+            1439,
+            80,
+            0
+          ]
+        ],
+        "metadata": [
+          [
+            0,
+            0,
+            88,
+            "04021808"
+          ],
+          [
+            0,
+            0,
+            81,
+            "07a120"
+          ],
+          [
+            0,
+            1,
+            47,
+            ""
+          ],
+          [
+            1,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            1,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            1,
+            0,
+            33,
+            "00"
+          ],
+          [
+            1,
+            1920,
+            47,
+            ""
+          ],
+          [
+            2,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            2,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            2,
+            0,
+            33,
+            "00"
+          ],
+          [
+            2,
+            1920,
+            47,
+            ""
+          ]
+        ]
+      },
+      "split-common-saved": {
+        "bytes": 210,
+        "sha256": "b1838739ee4ff4b9c15761477184876fab2c2569b6d00ae4b5d4f5087f30a4ba",
+        "ppq": 480,
+        "attacks": 9,
+        "events": [
+          [
+            48,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            53,
+            480,
+            959,
+            80,
+            0
+          ],
+          [
+            55,
+            960,
+            1439,
+            80,
+            0
+          ],
+          [
+            60,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            67,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            69,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            72,
+            480,
+            799,
+            80,
+            0
+          ],
+          [
+            74,
+            800,
+            1119,
+            80,
+            0
+          ],
+          [
+            76,
+            1120,
+            1439,
+            80,
+            0
+          ]
+        ],
+        "metadata": [
+          [
+            0,
+            0,
+            88,
+            "02021808"
+          ],
+          [
+            0,
+            0,
+            81,
+            "07a120"
+          ],
+          [
+            0,
+            1,
+            47,
+            ""
+          ],
+          [
+            1,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            1,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            1,
+            0,
+            33,
+            "00"
+          ],
+          [
+            1,
+            1920,
+            47,
+            ""
+          ],
+          [
+            2,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            2,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            2,
+            0,
+            33,
+            "00"
+          ],
+          [
+            2,
+            1920,
+            47,
+            ""
+          ]
+        ]
+      },
+      "split-common-linebreak": {
+        "bytes": 210,
+        "sha256": "b1838739ee4ff4b9c15761477184876fab2c2569b6d00ae4b5d4f5087f30a4ba",
+        "ppq": 480,
+        "attacks": 9,
+        "events": [
+          [
+            48,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            53,
+            480,
+            959,
+            80,
+            0
+          ],
+          [
+            55,
+            960,
+            1439,
+            80,
+            0
+          ],
+          [
+            60,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            67,
+            0,
+            479,
+            80,
+            0
+          ],
+          [
+            69,
+            1440,
+            1919,
+            80,
+            0
+          ],
+          [
+            72,
+            480,
+            799,
+            80,
+            0
+          ],
+          [
+            74,
+            800,
+            1119,
+            80,
+            0
+          ],
+          [
+            76,
+            1120,
+            1439,
+            80,
+            0
+          ]
+        ],
+        "metadata": [
+          [
+            0,
+            0,
+            88,
+            "02021808"
+          ],
+          [
+            0,
+            0,
+            81,
+            "07a120"
+          ],
+          [
+            0,
+            1,
+            47,
+            ""
+          ],
+          [
+            1,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            1,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            1,
+            0,
+            33,
+            "00"
+          ],
+          [
+            1,
+            1920,
+            47,
+            ""
+          ],
+          [
+            2,
+            0,
+            3,
+            "5069616e6f"
+          ],
+          [
+            2,
+            0,
+            89,
+            "0000"
+          ],
+          [
+            2,
+            0,
+            33,
+            "00"
+          ],
+          [
+            2,
+            1920,
+            47,
+            ""
+          ]
+        ]
+      }
+    },
+    "all_normalized_onsets_and_durations_match_recipe": true,
+    "all_MIDI_note_events_identical": true,
+    "complete_MIDI_bytes_identical": false,
+    "geometry": {
+      "whole-visible": {
+        "sp": 22.251999999999953,
+        "rows": {
+          "1": [
+            [
+              540.64,
+              435.118,
+              1
+            ],
+            [
+              868.201,
+              401.74,
+              1
+            ],
+            [
+              1136.83,
+              390.614,
+              1
+            ],
+            [
+              1505.56,
+              379.488,
+              1
+            ],
+            [
+              1774.19,
+              423.992,
+              1
+            ]
+          ],
+          "2": [
+            [
+              540.64,
+              657.638,
+              2
+            ],
+            [
+              868.201,
+              624.26,
+              2
+            ],
+            [
+              1337.66,
+              613.134,
+              2
+            ],
+            [
+              1774.19,
+              579.756,
+              2
+            ]
+          ]
+        },
+        "staff_line_count": 10,
+        "tie_segments": 0
+      },
+      "split-common": {
+        "sp": 22.251999999999953,
+        "rows": {
+          "1": [
+            [
+              540.64,
+              435.118,
+              1
+            ],
+            [
+              866.368,
+              401.74,
+              1
+            ],
+            [
+              1133.5,
+              390.614,
+              1
+            ],
+            [
+              1333.39,
+              390.614,
+              1
+            ],
+            [
+              1502.22,
+              379.488,
+              1
+            ],
+            [
+              1772.36,
+              423.992,
+              1
+            ]
+          ],
+          "2": [
+            [
+              540.64,
+              657.638,
+              2
+            ],
+            [
+              866.368,
+              624.26,
+              2
+            ],
+            [
+              1333.39,
+              613.134,
+              2
+            ],
+            [
+              1772.36,
+              579.756,
+              2
+            ]
+          ]
+        },
+        "staff_line_count": 10,
+        "tie_segments": 1
+      },
+      "false-final": {
+        "sp": 22.251999999999953,
+        "rows": {
+          "1": [
+            [
+              540.64,
+              435.118,
+              1
+            ],
+            [
+              868.201,
+              401.74,
+              1
+            ],
+            [
+              1136.83,
+              390.614,
+              1
+            ],
+            [
+              1337.66,
+              379.488,
+              1
+            ],
+            [
+              1774.19,
+              423.992,
+              1
+            ]
+          ],
+          "2": [
+            [
+              540.64,
+              657.638,
+              2
+            ],
+            [
+              868.201,
+              624.26,
+              2
+            ],
+            [
+              1337.66,
+              613.134,
+              2
+            ],
+            [
+              1774.19,
+              579.756,
+              2
+            ]
+          ]
+        },
+        "staff_line_count": 10,
+        "tie_segments": 0
+      },
+      "split-common-saved": {
+        "sp": 22.251999999999953,
+        "rows": {
+          "1": [
+            [
+              540.64,
+              435.118,
+              1
+            ],
+            [
+              866.368,
+              401.74,
+              1
+            ],
+            [
+              1133.5,
+              390.614,
+              1
+            ],
+            [
+              1333.39,
+              390.614,
+              1
+            ],
+            [
+              1502.22,
+              379.488,
+              1
+            ],
+            [
+              1772.36,
+              423.992,
+              1
+            ]
+          ],
+          "2": [
+            [
+              540.64,
+              657.638,
+              2
+            ],
+            [
+              866.368,
+              624.26,
+              2
+            ],
+            [
+              1333.39,
+              613.134,
+              2
+            ],
+            [
+              1772.36,
+              579.756,
+              2
+            ]
+          ]
+        },
+        "staff_line_count": 10,
+        "tie_segments": 1
+      },
+      "split-common-linebreak": {
+        "sp": 22.251999999999953,
+        "rows": {
+          "1": [
+            [
+              540.64,
+              435.118,
+              1
+            ],
+            [
+              1218.47,
+              401.74,
+              1
+            ],
+            [
+              1774.35,
+              390.614,
+              1
+            ]
+          ],
+          "2": [
+            [
+              380.162,
+              1269.57,
+              2
+            ],
+            [
+              380.162,
+              1047.05,
+              2
+            ],
+            [
+              540.64,
+              657.638,
+              2
+            ],
+            [
+              758.452,
+              1035.92,
+              2
+            ],
+            [
+              1218.47,
+              624.26,
+              2
+            ],
+            [
+              1363.72,
+              1236.19,
+              2
+            ],
+            [
+              1363.72,
+              1080.43,
+              2
+            ]
+          ]
+        },
+        "staff_line_count": 20,
+        "tie_segments": 2
+      }
+    },
+    "whole_E5_after_lower_q2_sp": 7.545389178500819,
+    "false_E5_after_lower_q2_sp": 0.0,
+    "false_E5_is_still_at_q": "7/3",
+    "false_other_eight_head_origins_unchanged": true,
+    "split_saved_drawables_exactly_equal": true,
+    "linebreak_keeps_two_real_bars": true,
+    "import_readback_tuplet_count": 2,
+    "native_CLI_calls": 44,
+    "successes": 43,
+    "timeouts": 1,
+    "protected_fingerprints": 3,
+    "true_two_native_measure_intact_group_solution": [
+      0,
+      1
+    ],
+    "new_software_adaptation": false,
+    "new_user_preferences": 0,
+    "MIDI_time_signatures": {
+      "whole-visible": [
+        [
+          "04",
+          "02"
+        ]
+      ],
+      "split-common": [
+        [
+          "02",
+          "02"
+        ]
+      ],
+      "false-final": [
+        [
+          "04",
+          "02"
+        ]
+      ],
+      "split-common-saved": [
+        [
+          "02",
+          "02"
+        ]
+      ],
+      "split-common-linebreak": [
+        [
+          "02",
+          "02"
+        ]
+      ]
+    },
+    "whole_vs_split_MIDI_byte_differences": [
+      [
+        26,
+        4,
+        2
+      ]
+    ]
+  },
+  "native_cohort": {
+    "total_CLI_calls": 44,
+    "final_output_CLI_calls": 21,
+    "preliminary_CLI_calls": 23,
+    "successes": 43,
+    "malformed_Tie_input_timeouts": 1,
+    "timeout_s": 45,
+    "preliminary_saved_version_excluded_from_final_reload_count": true,
+    "input_corrections": {
+      "whole_initial": "Internal barline initially on lower staff only; add upper barline by relative location, no extra notes/rests.",
+      "split_initial": "Hand-written Tie start had wrong relative fraction; corrected fraction alone timed out. Hand-written start also lacked native Tie payload. Do not attribute this malformed-input timeout to valid tie support.",
+      "replacement": "Use successful native MusicXML import readback, with its explicit Tie child and relative locations; change common style/Part only.",
+      "old_inputs_preserved": true
+    },
+    "additional_corrections": "Remove imported empty Staff/VBox; harmonise final barline before final comparisons.",
+    "process_log": "E:/programming/funcodes/mcp-musescore/tmp/engraving/crossbar-tuplet-2026-11-02/processes.json"
+  },
+  "runtime": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "reused": true,
+    "new_copies": 0,
+    "source_HEAD_read_only": "f0c330926aedc7fd4367b237473e1ddb30d0f2d3",
+    "source_build_correspondence_verified": false
+  },
+  "primary_web_sources": [
+    {
+      "url": "https://github.com/musescore/MuseScore/issues/19234",
+      "body_read": true,
+      "scope": "Open request and reported limitation; actual frozen import tested separately."
+    },
+    {
+      "url": "https://musescore.org/en/print/book/export/html/278600",
+      "body_reread": true,
+      "scope": "Ordinary beam continuation; not proof of spanning tuplet support."
+    },
+    {
+      "url": "https://musescore.org/en/handbook/3/tuplets",
+      "redirected_to_Studio": true,
+      "used_as_v3_proof": false
+    },
+    {
+      "url": "https://www.sibelius.com/download/plugins/index.html?plugin=597",
+      "body_read": true,
+      "installed_or_run": false,
+      "scope": "Sub-tuples plus overall bracket; author warns of duration-edit limitations."
+    },
+    {
+      "url": "https://www.steinberg.help/r/dorico-pro/6.2/en/dorico/topics/notation_reference/notation_reference_tuplets/notation_reference_tuplets_span_barline_allow_disallow_t.html",
+      "search_abstract_read": true,
+      "body_read": false,
+      "run": false
+    }
+  ],
+  "protected_sources": [
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/arr/如果有来生/如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true,
+      "read_only": true
+    },
+    {
+      "path": "C:/Users/Fred/OneDrive - yunzd/Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true,
+      "read_only": true
+    }
+  ],
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/crossbar-false-alignment-rejected.mscx",
+      "bytes": 5296,
+      "sha256": "a573ac66929e83dcdd66b4c3c64c3ecc88fef57307eaec679e6f40fbe681ef4d",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-merged-diagnostic.mscx",
+      "bytes": 5241,
+      "sha256": "f34122a58002dbc85a2505dc22a68680855fd5f7be607fcc97b4f9f74d3bdde3",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-split-retained.mscx",
+      "bytes": 6883,
+      "sha256": "a43ada7eff99d226f2de6030ed98a936ccecb1726245e64f1f9470e5a4b41813",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-split-system-context.png",
+      "bytes": 27374,
+      "sha256": "97d36f0655eaea2f91515ce1eeba5b8478fdcdda93fe6fd072503634658a8d88",
+      "license": "CC0-1.0",
+      "original": true
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-tuplet-comparison.png",
+      "bytes": 67592,
+      "sha256": "e2495d6ce843f94039ed168a5ec04497b05aaaa22c723a16841e01cbabfbb884",
+      "license": "CC0-1.0",
+      "original": true
+    }
+  ],
+  "resources": {
+    "complete": 16,
+    "planned": 25,
+    "remaining_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ]
+  },
+  "new_user_preferences": 0,
+  "new_software_adaptation": false,
+  "cache": {
+    "directory": "E:/programming/funcodes/mcp-musescore/tmp/engraving/crossbar-tuplet-2026-11-02",
+    "budget_bytes": 3145728,
+    "raw_source_media_downloads": 0,
+    "original_copies": 0,
+    "runtime_copies": 0,
+    "deleted_files": 0,
+    "reference_images_published": 0,
+    "actual_whole_cache_total_known": false,
+    "next_global_check_allowance_bytes": 3309240320,
+    "measured_bytes_excluding_audit": 784345,
+    "file_count_excluding_audit": 72
+  },
+  "checks": {
+    "native": "passed",
+    "protected_sources": "3/3 passed",
+    "prior_release_assets": "33/33 unchanged",
+    "progress": "passed",
+    "skill": "passed",
+    "existing_query_regressions": "6/6 passed; retrieval only",
+    "actual_query": "notation: 跨线 拍号 retrieves the new case",
+    "public_inputs": "3/3 parse equal to tested inputs; purpose comments only",
+    "public_figures": "2/2 final images actually viewed",
+    "case_links": "passed"
+  },
+  "actual_PDF_fonts": {
+    "music": "Leland",
+    "tuplet_number": "Edwin-Italic",
+    "random_subset_prefix_ignored_only": true,
+    "checked_forms": 3
+  }
+}

@@ -1,5 +1,7 @@
 # 独立净书复现谱例
 
+2026-11-02新增[跨线三连研究](../CROSSBAR_TUPLET_NATIVE_STUDY.md)三份CC0输入和两张原生图：`crossbar-split-retained.mscx`保真实2/4小节；`crossbar-merged-diagnostic.mscx`有4/4 MIDI拍号代价；`crossbar-false-alignment-rejected.mscx`刻意误示同时。后两份仅供诊断，不能当净书模板。独立9次起音配方与重载／换行验证见专题。
+
 2026-11-02[符头与标记通道](../STEM_OPTICAL_SHAPES_MARKS.md)新增九份CC0输入：`stem-optical-size-base/old/fit.mscx`、`stem-optical-font-base/old/fit.mscx`、`stem-optical-marked-base/joint/text-v2.mscx`，三张原生图。Note小头保持计量与播放，已有字体仅作输入；标记文字是有限通道下的记法比较，原生隐藏辅助在MusicXML导回重显，不能当可移植模板。
 
 2026-11-02[均干的代价](../STEM_OPTICAL_LIMITS.md)新增六份CC0输入：`stem-optical-fine-base/shared/interpolate/balanced.mscx`与`stem-optical-tight-base/joint.mscx`，两张完整两手原生图。细分组各24音，窄版各20音及隐藏整休止；前组按连续十六分读者任务保默认，后组两版都因45mm实验预算失效而拒绝。保留失败诊断；均非普通4/4分组模板。

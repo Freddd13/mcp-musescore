@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- REJECTED DIAGNOSTIC: E5 display moved to a false common beat; its actual onset stays q7/3. Also retains long-measure MIDI 4/4 limitation. -->
+<museScore version="3.02">
+  <programVersion>3.6.2</programVersion>
+  <Score>
+    <Division>480</Division>
+    <Style>
+      <Spatium>1.57</Spatium>
+      <musicalSymbolFont>Leland</musicalSymbolFont>
+      <musicalTextFont>Leland Text</musicalTextFont>
+      <pageWidth>8.26772</pageWidth>
+      <pageHeight>11.6929</pageHeight>
+      <pageOddLeftMargin>0.59</pageOddLeftMargin>
+      <pageEvenLeftMargin>0.59</pageEvenLeftMargin>
+      <pagePrintableWidth>5.31496062992126</pagePrintableWidth>
+      <measureSpacing>1.2</measureSpacing>
+      <minNoteDistance>0.2</minNoteDistance>
+      <enableVerticalSpread>0</enableVerticalSpread>
+      <lastSystemFillLimit>0</lastSystemFillLimit>
+      <showMeasureNumber>0</showMeasureNumber>
+    </Style>
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>std</name>
+          <lines>5</lines>
+        </StaffType>
+        <bracket type="1" span="2" col="0" />
+      </Staff>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>std</name>
+          <lines>5</lines>
+        </StaffType>
+        <defaultClef>F</defaultClef>
+      </Staff>
+      <trackName>Piano</trackName>
+      <Instrument>
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <instrumentId>keyboard.piano</instrumentId>
+        <Channel>
+          <program value="0" />
+          <controller ctrl="7" value="100" />
+          <synti>Fluid</synti>
+        </Channel>
+      </Instrument>
+    </Part>
+    <Staff id="1">
+      <Measure len="4/4">
+        <voice>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+          </Clef>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+          </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+            </Note>
+          </Chord>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>quarter</baseNote>
+            <numberType>0</numberType>
+            <bracketType>1</bracketType>
+          </Tuplet>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+            </Note>
+            <offset x="-7.545389178500819" y="0" />
+          </Chord>
+          <endTuplet />
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>up</StemDirection>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+            </Note>
+          </Chord>
+          <location>
+            <fractions>-1/2</fractions>
+          </location>
+          <BarLine>
+            <subtype>normal</subtype>
+            <span>1</span>
+          </BarLine>
+          <location>
+            <fractions>1/2</fractions>
+          </location>
+        </voice>
+      </Measure>
+    </Staff>
+    <Staff id="2">
+      <Measure len="4/4">
+        <voice>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+          </Clef>
+          <TimeSig>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+          </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+            </Note>
+          </Chord>
+          <BarLine>
+            <subtype>normal</subtype>
+            <span>1</span>
+          </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+            </Note>
+          </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+            </Note>
+          </Chord>
+        </voice>
+      </Measure>
+    </Staff>
+    <metaTag name="source">CC0-1.0 independent original cross-bar triplet study; no reference score transcription.</metaTag>
+  </Score>
+</museScore>

@@ -3248,14 +3248,14 @@
     }
   },
   "release": {
-    "version": "0.29.0",
-    "tag": "engraving-v0.29.0",
+    "version": "0.30.0",
+    "tag": "engraving-v0.30.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.29固定Aether五篇由纸面到完整系统/入口取舍的学习，含m31音名和m29休止梁更正；入口2/2，本例优先新候选，资料16/25余9，无适配。 之后分支补R11第二部分165/165格与Gould12页，固定0.29标签保持。",
-    "evidence": "release_0_29_0_evidence.json"
+    "working_branch_note": "固定R11第二部分165/165格、跨线三条件与拍号代价；保真实两小节完整显示0/1，资料16/25余9，无适配。",
+    "evidence": "release_0_30_0_evidence.json"
   },
   "last_study_batch": {
     "new_deep_scores": 0,
@@ -3269,46 +3269,46 @@
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 0,
+    "new_native_candidate_scenarios": 1,
     "new_user_integrated_rounds": 0,
-    "new_source_media": 2,
+    "new_source_media": 0,
     "date": "2026-11-02",
-    "scope": "R11第二部分165/165格、两部分233/233格；Gould12/12页复读，资料16/25余9，原生0。",
-    "new_native_diagnostic_conditions": 0,
-    "native_CLI_calls": 0,
-    "book_reread_pages": 12,
+    "scope": "跨线三条件3/3、换行1/1、最终重载1/1；真两小节完整显示仍0/1，准备0.30研究版。",
+    "new_native_diagnostic_conditions": 4,
+    "native_CLI_calls": 44,
+    "book_reread_pages": 2,
     "official_score_reread_pages": 0,
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "BEAM_ACROSS_BAR_READING.md"
+      "CROSSBAR_TUPLET_NATIVE_STUDY.md"
     ],
-    "review_evidence": "beam_across_bar_reading_evidence.json",
+    "review_evidence": "crossbar_tuplet_native_evidence.json",
     "software_adaptation": false,
     "official_system_views_reused": 0
   },
   "latest_native_study": {
-    "reference": "AETHER_ENTRY_CLEARANCE.md",
-    "evidence": "aether_entry_clearance_evidence.json",
-    "completed_conditions": 1,
-    "planned_conditions": 1,
-    "reused_conditions": 1,
-    "contexts": [
-      2,
-      2
-    ],
-    "saved_reloaded_versions": [
+    "reference": "CROSSBAR_TUPLET_NATIVE_STUDY.md",
+    "evidence": "crossbar_tuplet_native_evidence.json",
+    "planned_conditions": 3,
+    "conditions_studied": 3,
+    "native_final_versions": 3,
+    "system_break_conditions": 1,
+    "saved_reload": [
       1,
       1
     ],
-    "native_CLI_calls": 16,
-    "valid_final_native_calls": 7,
-    "input_probe_native_calls": 9,
-    "new_conditions": 1,
-    "description": "入口净距约0.50sp、原小节宽和末音预算保持；持音/dim.同列，93音/3休止/48梁事件与完整MIDI核对；本构型优先新候选。",
-    "user_preference_confirmed": false,
-    "user_real_score_candidate": false,
-    "software_adaptation_changes": 0
+    "native_CLI_calls": 44,
+    "final_CLI_calls": 21,
+    "preliminary_CLI_calls": 23,
+    "actual_onsets_per_version": 9,
+    "MIDI_note_events_identical": true,
+    "complete_MIDI_identical": false,
+    "true_two_measure_intact_solution": [
+      0,
+      1
+    ],
+    "new_software_adaptation": false
   },
   "native_study_history": [
     {
@@ -3755,6 +3755,29 @@
       "new_conditions": 2,
       "reused_conditions": 0,
       "description": "四源预算及七小节上下文完成；93音／3休止、48梁事件及完整MIDI保持，修正m29休止误入梁。入口两处偏紧，采用仍待。",
+      "user_preference_confirmed": false,
+      "user_real_score_candidate": false,
+      "software_adaptation_changes": 0
+    },
+    {
+      "reference": "AETHER_ENTRY_CLEARANCE.md",
+      "evidence": "aether_entry_clearance_evidence.json",
+      "completed_conditions": 1,
+      "planned_conditions": 1,
+      "reused_conditions": 1,
+      "contexts": [
+        2,
+        2
+      ],
+      "saved_reloaded_versions": [
+        1,
+        1
+      ],
+      "native_CLI_calls": 16,
+      "valid_final_native_calls": 7,
+      "input_probe_native_calls": 9,
+      "new_conditions": 1,
+      "description": "入口净距约0.50sp、原小节宽和末音预算保持；持音/dim.同列，93音/3休止/48梁事件与完整MIDI核对；本构型优先新候选。",
       "user_preference_confirmed": false,
       "user_real_score_candidate": false,
       "software_adaptation_changes": 0
@@ -4502,13 +4525,28 @@
     "next": "此组研究闭合；转新织体/可得余9项资料，真实使用反馈再回访，不反复制作同类微差图。"
   },
   "next_crossbar_reading_batch": {
-    "completed": 0,
+    "completed": 3,
     "planned": 3,
     "conditions": [
       "完整跨线连音",
       "拆分显拍的等价记法",
       "错误吸到新小节首拍的拒绝例"
     ],
-    "scope": "原创材料验证读法与真实对齐，先检索已有例避免重复；不替未知官谱决定比例，不开发适配。"
+    "scope": "三情境均已研究：B显拍保留，C错误对齐拒绝，A长小节仅诊断；真两小节完整显示仍缺。",
+    "evidence": "crossbar_tuplet_native_evidence.json",
+    "reference": "CROSSBAR_TUPLET_NATIVE_STUDY.md",
+    "system_break": [
+      1,
+      1
+    ],
+    "saved_reload": [
+      1,
+      1
+    ],
+    "true_two_measure_intact_solution": [
+      0,
+      1
+    ],
+    "next": "先研究保真实小节的显示组合与既有对象，不改实际拍号／吸齐首头；无MCP或本体开发。"
   }
 }

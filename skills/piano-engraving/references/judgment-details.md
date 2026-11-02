@@ -1,5 +1,7 @@
 # 按问题读取的判断提醒
 
+跨线连音先查`CROSSBAR_TUPLET_NATIVE_STUDY.md`：低部稳定拍点时，本例优先拆分显拍；流动收益另保。E5在q7/3不能为整齐移到q2列；长小节中线不产生真实Measure，音符同序也可能改变拍号。三情境3/3已研究，真两小节完整显示0/1继续。
+
 这些段落从 skill 正文移到这里，保留条件、反例与来源。只读当前问题对应的小节；随后用定位器返回的知识库文件追到具体谱例。相同外形不代表相同音乐角色，旧实验数值也不是通用预设。
 
 目录：[作品定义](#interpretation) · [符号](#symbols) · [拼写](#spelling) · [持音](#sustain) · [页面](#layout) · [输出](#output) · [间距](#spacing) · [节奏](#rhythm) · [跨表](#cross-staff) · [力度](#markings) · [装饰](#ornaments) · [速度](#tempo) · [自由段](#free-passage) · [换号](#clefs) · [八度](#octaves) · [导航](#navigation)
