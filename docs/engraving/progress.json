@@ -3285,7 +3285,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.33保留；工作分支补R12／R13预览、Avid复审及半小节续行3版／1重载／导回控制。四原创资产可用，MIDI拍号差明确；资料16/25余9，无适配。",
+    "working_branch_note": "固定0.33保留；工作分支补Avid实曲四小节与跨表弧、ffsub.保存研究。资料16/25余9，实曲整页0/1，无适配。",
     "evidence": "release_0_33_0_evidence.json"
   },
   "last_study_batch": {
@@ -3303,19 +3303,19 @@
     "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
-    "new_native_diagnostic_conditions": 3,
-    "native_CLI_calls": 18,
+    "new_native_diagnostic_conditions": 2,
+    "native_CLI_calls": 24,
     "book_reread_pages": 0,
     "official_score_reread_pages": 0,
     "official_system_views_reused": 0,
     "date": "2026-11-03",
-    "scope": "原创三版／一重载及导回控制已核；保逻辑续行不按容器数判错，MIDI拍号副作用明确。新资产4，原曲迁移0/1，资料16/25余9。",
+    "scope": "Avid实曲四小节／163音头与七份177记录；弧向两条件拒绝，限定词两保存条件已核，自定义力度保住sub.。可印刷后继与整页各0/1。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "SPLIT_BAR_CONTINUATION_STUDY.md"
+      "AVID_NATIVE_CONTEXT.md"
     ],
-    "review_evidence": "split_bar_continuation_evidence.json",
+    "review_evidence": "avid_native_context_evidence.json",
     "software_adaptation": false,
     "new_public_preview_readings": 0,
     "public_preview_rereads": 0,
@@ -3323,25 +3323,45 @@
     "focused_preview_rechecks": 0
   },
   "latest_native_study": {
-    "reference": "SPLIT_BAR_CONTINUATION_STUDY.md",
-    "evidence": "split_bar_continuation_evidence.json",
-    "conditions": [
-      3,
-      3
+    "reference": "AVID_NATIVE_CONTEXT.md",
+    "evidence": "avid_native_context_evidence.json",
+    "local_transcription_measures": [
+      4,
+      4
+    ],
+    "source_heads": [
+      163,
+      163
+    ],
+    "slur_direction_conditions": [
+      2,
+      2
+    ],
+    "text_persistence_conditions": [
+      2,
+      2
     ],
     "save_reload": [
-      1,
+      2,
+      2
+    ],
+    "native_CLI_calls": 24,
+    "readbacks": [
+      7,
+      7
+    ],
+    "flattened_music_records_each": 177,
+    "full_MIDI_equal_across_all_conditions": true,
+    "print_ready_source_candidate": [
+      0,
       1
     ],
-    "exchange": [
-      1,
+    "source_page_migration": [
+      0,
       1
     ],
-    "native_CLI_calls": 18,
-    "note_attacks": 44,
-    "full_MIDI_equal_across_all_conditions": false,
-    "decisions": "本原创例优先完整A；拆行C可比较固定印刷，但MIDI新增2/4，交换还有共同释放／控制及梁形变化。原曲候选0/1保持。",
-    "new_public_assets": 4,
+    "decisions": "自动与down弧都拒绝。输入richtext缩进已修；预定义ff丢sub.，自定义力度保持112后保存稳定。",
+    "new_public_assets": 0,
     "software_adaptation": false
   },
   "native_study_history": [
@@ -3893,6 +3913,28 @@
       "complete_MIDI_identical": true,
       "A120_native_full_page_reflow": "not produced",
       "new_software_adaptation": false
+    },
+    {
+      "reference": "SPLIT_BAR_CONTINUATION_STUDY.md",
+      "evidence": "split_bar_continuation_evidence.json",
+      "conditions": [
+        3,
+        3
+      ],
+      "save_reload": [
+        1,
+        1
+      ],
+      "exchange": [
+        1,
+        1
+      ],
+      "native_CLI_calls": 18,
+      "note_attacks": 44,
+      "full_MIDI_equal_across_all_conditions": false,
+      "decisions": "本原创例优先完整A；拆行C可比较固定印刷，但MIDI新增2/4，交换还有共同释放／控制及梁形变化。原曲候选0/1保持。",
+      "new_public_assets": 4,
+      "software_adaptation": false
     }
   ],
   "latest_judgment_review": {
@@ -4079,20 +4121,20 @@
     "scope": "20入口、既有五类来源与六项回归保持；新m97／端点整页问题定位另核，不计独立净书判断准确率。",
     "new_known_source_smoke_cases": 2,
     "latest_supplemental_query_check": {
-      "evidence": "split_bar_continuation_evidence.json",
+      "evidence": "avid_native_context_evidence.json",
       "targeted_queries": [
-        4,
-        4
+        2,
+        2
       ],
       "topic_routes": [
-        7,
-        7
+        6,
+        6
       ],
       "CLI_regressions": [
         6,
         6
       ],
-      "scope": "Known-source retrieval/format checks; native verification separately recorded; not blind musical accuracy."
+      "scope": "Known-source retrieval/format checks; actual native music/visual failures separately recorded,not blind accuracy."
     }
   },
   "next_native_batch": {
@@ -4966,6 +5008,19 @@
       0,
       1
     ],
-    "next": "本机制例闭合，回到实际m65完整上下文容量／续读提示或可得余项。不要将原创三小节能放下当原曲页重排已验证，不重复扩充同类坐标图。"
+    "next": "实际四小节基线已核；先检查弧端／控制柄与10组数字通道，再比较完整m65或续行提醒，回原页预算。自动与down两探针均拒绝，不反复调同一方向开关。",
+    "actual_local_reference": "AVID_NATIVE_CONTEXT.md",
+    "actual_local_transcription_measures": [
+      4,
+      4
+    ],
+    "source_heads": [
+      163,
+      163
+    ],
+    "print_ready_local_candidate": [
+      0,
+      1
+    ]
   }
 }

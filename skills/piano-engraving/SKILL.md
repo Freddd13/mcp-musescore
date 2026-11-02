@@ -103,6 +103,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 
 教程对照经`sources`／`spacing`查`KOKE_COLA_CAUSAL_REVIEW.md`：Kokecola两降号仍错列，缩列距不等于合列；间距图还改变休止高度。将作者明确操作、可见变化和本次解释分别记录，比较布局收益时核同一音乐及其它条件。
 
+跨表长弧及限定词保存，经`curves`／`markings`查`AVID_NATIVE_CONTEXT.md`：两端靠头／靠干和弧体路径分别核，单改方向仍可能穿音或包住独立旋律。保存后检查ff sub.等完整限定词，完整MIDI相同也可能丢文字；自定义力度须保实际力度值并验证重载。
+
 ## 需要候选时
 
 本项目提供的用户原PDF／MSCZ保持只读，使用独立副本或原创fixture，不操作当前GUI来做离线试验。其它工程按用户实际授权处理；分析请求不隐含覆盖源文件。详细原生比较方法见[references/native-review.md](references/native-review.md)。

@@ -1,0 +1,639 @@
+{
+  "source_sha256": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+  "local_measures": [
+    4,
+    4
+  ],
+  "source_heads": [
+    163,
+    163
+  ],
+  "voice_streams": [
+    12,
+    12
+  ],
+  "recipe_events": 99,
+  "flattened_music_records": 177,
+  "tied_pitch_connections": 36,
+  "slurs": 4,
+  "native_xml_checks": {
+    "baseline": {
+      "rows": 177,
+      "matches_recipe": true,
+      "missing": [],
+      "extra": [],
+      "layout": [
+        {
+          "bar": 64,
+          "width_tenths": "476.29",
+          "new_system": false
+        },
+        {
+          "bar": 65,
+          "width_tenths": "690.42",
+          "new_system": false
+        },
+        {
+          "bar": 66,
+          "width_tenths": "668.13",
+          "new_system": true
+        },
+        {
+          "bar": 67,
+          "width_tenths": "548.58",
+          "new_system": false
+        }
+      ],
+      "clefs": [
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ],
+      "keys": [
+        {
+          "bar": 64,
+          "q": "0",
+          "fifths": "1"
+        },
+        {
+          "bar": 66,
+          "q": "0",
+          "fifths": "3"
+        }
+      ],
+      "sha256": "701f069408ef5a8993ac886f6e001878a344b354c33670c1fe36a8a8a641027e"
+    },
+    "reloaded": {
+      "rows": 177,
+      "matches_recipe": true,
+      "missing": [],
+      "extra": [],
+      "layout": [
+        {
+          "bar": 64,
+          "width_tenths": "476.29",
+          "new_system": false
+        },
+        {
+          "bar": 65,
+          "width_tenths": "690.42",
+          "new_system": false
+        },
+        {
+          "bar": 66,
+          "width_tenths": "668.13",
+          "new_system": true
+        },
+        {
+          "bar": 67,
+          "width_tenths": "548.58",
+          "new_system": false
+        }
+      ],
+      "clefs": [
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ],
+      "keys": [
+        {
+          "bar": 64,
+          "q": "0",
+          "fifths": "1"
+        },
+        {
+          "bar": 66,
+          "q": "0",
+          "fifths": "3"
+        }
+      ],
+      "sha256": "75c73de11a1fa3dc3b845ce8d3ab61d61b768cf7b5a03c4dc4f443b94e5b1691"
+    },
+    "corrected": {
+      "rows": 177,
+      "matches_recipe": true,
+      "missing": [],
+      "extra": [],
+      "layout": [
+        {
+          "bar": 64,
+          "width_tenths": "476.29",
+          "new_system": false
+        },
+        {
+          "bar": 65,
+          "width_tenths": "690.42",
+          "new_system": false
+        },
+        {
+          "bar": 66,
+          "width_tenths": "668.13",
+          "new_system": true
+        },
+        {
+          "bar": 67,
+          "width_tenths": "548.58",
+          "new_system": false
+        }
+      ],
+      "clefs": [
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ],
+      "keys": [
+        {
+          "bar": 64,
+          "q": "0",
+          "fifths": "1"
+        },
+        {
+          "bar": 66,
+          "q": "0",
+          "fifths": "3"
+        }
+      ],
+      "sha256": "8b44caa4875e792185fa6b4c54219e35ed1cf584aaee31eac0fbf367711849ac"
+    },
+    "corrected-reloaded": {
+      "rows": 177,
+      "matches_recipe": true,
+      "missing": [],
+      "extra": [],
+      "layout": [
+        {
+          "bar": 64,
+          "width_tenths": "476.29",
+          "new_system": false
+        },
+        {
+          "bar": 65,
+          "width_tenths": "690.42",
+          "new_system": false
+        },
+        {
+          "bar": 66,
+          "width_tenths": "668.13",
+          "new_system": true
+        },
+        {
+          "bar": 67,
+          "width_tenths": "548.58",
+          "new_system": false
+        }
+      ],
+      "clefs": [
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ],
+      "keys": [
+        {
+          "bar": 64,
+          "q": "0",
+          "fifths": "1"
+        },
+        {
+          "bar": 66,
+          "q": "0",
+          "fifths": "3"
+        }
+      ],
+      "sha256": "13fa80c39258bfad7ccf5730ab01125213f0762f8b8b9b4fde9b066688ab7457"
+    },
+    "down-probe": {
+      "rows": 177,
+      "matches_recipe": true,
+      "missing": [],
+      "extra": [],
+      "layout": [
+        {
+          "bar": 64,
+          "width_tenths": "476.29",
+          "new_system": false
+        },
+        {
+          "bar": 65,
+          "width_tenths": "690.42",
+          "new_system": false
+        },
+        {
+          "bar": 66,
+          "width_tenths": "668.13",
+          "new_system": true
+        },
+        {
+          "bar": 67,
+          "width_tenths": "548.58",
+          "new_system": false
+        }
+      ],
+      "clefs": [
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ],
+      "keys": [
+        {
+          "bar": 64,
+          "q": "0",
+          "fifths": "1"
+        },
+        {
+          "bar": 66,
+          "q": "0",
+          "fifths": "3"
+        }
+      ],
+      "sha256": "677c9bc3cb7e0b5b8e2eeef452f8b52e359fd8973ea55eb88cb734825b474ab1"
+    },
+    "stable": {
+      "rows": 177,
+      "matches_recipe": true,
+      "missing": [],
+      "extra": [],
+      "layout": [
+        {
+          "bar": 64,
+          "width_tenths": "476.29",
+          "new_system": false
+        },
+        {
+          "bar": 65,
+          "width_tenths": "690.42",
+          "new_system": false
+        },
+        {
+          "bar": 66,
+          "width_tenths": "668.13",
+          "new_system": true
+        },
+        {
+          "bar": 67,
+          "width_tenths": "548.58",
+          "new_system": false
+        }
+      ],
+      "clefs": [
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ],
+      "keys": [
+        {
+          "bar": 64,
+          "q": "0",
+          "fifths": "1"
+        },
+        {
+          "bar": 66,
+          "q": "0",
+          "fifths": "3"
+        }
+      ],
+      "sha256": "03fe37e8f3152ef4e8ea82c8d14e93c72abe48e38c664eb55bb2b4ca3fe7b844"
+    },
+    "stable-reloaded": {
+      "rows": 177,
+      "matches_recipe": true,
+      "missing": [],
+      "extra": [],
+      "layout": [
+        {
+          "bar": 64,
+          "width_tenths": "476.29",
+          "new_system": false
+        },
+        {
+          "bar": 65,
+          "width_tenths": "690.42",
+          "new_system": false
+        },
+        {
+          "bar": 66,
+          "width_tenths": "668.13",
+          "new_system": true
+        },
+        {
+          "bar": 67,
+          "width_tenths": "548.58",
+          "new_system": false
+        }
+      ],
+      "clefs": [
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 64,
+          "q": "0",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ],
+      "keys": [
+        {
+          "bar": 64,
+          "q": "0",
+          "fifths": "1"
+        },
+        {
+          "bar": 66,
+          "q": "0",
+          "fifths": "3"
+        }
+      ],
+      "sha256": "4b0cd82f09d6bb28c4f01c1ac14a296b931b2c74c32cdf351ba732ae0f545226"
+    }
+  },
+  "midi": {
+    "all_seven_complete_files_identical": true,
+    "bytes": 1132,
+    "sha256": "503d2d973d82b9f1b56fc5c30d70460efe47765274800e5663f35d2595ea7db4",
+    "note_ons": 127,
+    "ppq": 480,
+    "time_signatures": [
+      {
+        "track": 0,
+        "q": "0",
+        "kind": "meta",
+        "type": 88,
+        "data": [
+          4,
+          2,
+          24,
+          8
+        ]
+      }
+    ],
+    "scope": "Local clip andhostdefaulttiming; no originalperformance/sourceMIDI comparison."
+  },
+  "corrected_saved_reload": {
+    "size": [
+      992,
+      1403
+    ],
+    "rgb_different_pixels": 632,
+    "maximum_channel_difference": 255,
+    "bbox": [
+      234,
+      153,
+      808,
+      543
+    ]
+  },
+  "stable_text_saved_reload": {
+    "size": [
+      992,
+      1403
+    ],
+    "rgb_different_pixels": 85,
+    "maximum_channel_difference": 3,
+    "bbox": [
+      234,
+      153,
+      808,
+      543
+    ]
+  },
+  "custom_dynamic_stable": true,
+  "predefined_custom_text_failure_retained": true,
+  "runtime_verified_files_after": 1936,
+  "cache_bytes_before_this_report": 1665653,
+  "cache_budget_bytes": 4194304,
+  "native_calls": 24,
+  "print_ready_source_candidate": [
+    0,
+    1
+  ],
+  "full_source_page_migration": [
+    0,
+    1
+  ],
+  "software_adaptation": false,
+  "date": "2026-11-03",
+  "reference": "AVID_NATIVE_CONTEXT.md",
+  "source": {
+    "id": "A016",
+    "relative_path": "Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "sha256": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+    "bytes": 161754,
+    "pages": 5,
+    "metadata": {
+      "/CreationDate": "D:20221010191207",
+      "/Creator": "PDFium",
+      "/Producer": "PDFium"
+    },
+    "page_sizes_pt": [
+      [
+        595.22,
+        842.0
+      ]
+    ],
+    "inventory_status": "readable"
+  },
+  "private_cache": "tmp/engraving/avid-native-2026-11-03",
+  "source_material_stays_private": true,
+  "new_public_score_assets": 0,
+  "host": {
+    "host": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\leading-reserve-2026-10-21\\runtime-with-assets\\bin\\MuseScore3Evo.exe",
+    "host_sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "runtime_manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+    "runtime_manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+    "runtime_files_verified": 1936,
+    "isolated_config": "E:\\programming\\funcodes\\mcp-musescore\\tmp\\engraving\\avid-native-2026-11-03\\native-config",
+    "planned_native_baselines": 1,
+    "planned_saved_reload": 1,
+    "source_page_migration": [
+      0,
+      1
+    ],
+    "notes": "Actual4bar local source reproduction. Existing fontLeland,inputwidthmatchesstaffspace/usablepaperwidth; no claim wholepage fits."
+  },
+  "source_repo_head": "8f81421a5cc965dbb32a81fcecf39d626b5610ff",
+  "source_repo_files_clean": [
+    "libmscore/dynamic.cpp",
+    "libmscore/slur.cpp",
+    "libmscore/tuplet.cpp",
+    "libmscore/fermata.cpp"
+  ],
+  "source_and_runtime_commit_correspondence_verified": false,
+  "source_boundary_conventions": {
+    "m64": "External incoming ties reattacked locally.",
+    "m67": "Outgoing ties to68truncated locally."
+  },
+  "expressive_timing": "Rit.textonly;fermatas hostdefault;not authorperformance.",
+  "decisions": {
+    "automatic_crossstaff_slur": "reject;arches overindependentmelody",
+    "down_only_slur": "reject;intersectsdescendingline/beamchannel",
+    "custom_dynamic_text": "preserves ffsub.on nativesave withobservedvelocity112",
+    "whole_source_page": "0/1;local64-65,66-67two rows do notprove originalpagefits"
+  },
+  "known_input_failure": "RichtextE.indent introduceddisplaylinebreaks;fixedbeforeenginedecision.",
+  "private_evidence_hashes": {
+    "source_recipe.json": "e899ee061b719122a9a419105a731482d8883a33a6924738a17a23ecf901c947",
+    "verification.json": "26f0448d71c886d60776123a4819da4d87266e951fc092a64506e3ec1092caa8",
+    "scope.json": "d18324bc4046142993f7ba70ec4dfbd575ce7dd873af3ea7a0819b56a600238e",
+    "actual-corrected.mscx": "2118ad2d8e08db73b3a2483ac5f335b5a1d698e77831373ebe44af857b849780",
+    "actual-down-probe.mscx": "7bada37686b9e0fb40eb02dfecdfb9813b158ceddcad003e2337df9c1a48304f",
+    "actual-stable-text.mscx": "a8135b8285e251841732320bb5722c546e2ce550ebd869ebc66ba125e2528de6",
+    "stable-saved.mscx": "a05d0e9d1c103a212e9a5a5289b656e8235f4d53adff0ad25674d154b5698d8e"
+  },
+  "first_coverage_increments": {
+    "official_scores": 0,
+    "Gould_pages": 0,
+    "fixed_resources": 0,
+    "skill_transfer_scenarios": 0
+  },
+  "library_validation": {
+    "topic_routes": [
+      6,
+      6
+    ],
+    "known_source_queries": [
+      2,
+      2
+    ],
+    "queries": [
+      {
+        "topic": "markings",
+        "query": "限定词 保存",
+        "first_match": "AVID_NATIVE_CONTEXT.md"
+      },
+      {
+        "topic": "curves",
+        "query": "Avid 两端",
+        "first_match": "AVID_NATIVE_CONTEXT.md"
+      }
+    ],
+    "existing_regression_tests": [
+      6,
+      6
+    ],
+    "ledger_check": true,
+    "skill_quick_validate": true,
+    "scope": "Known-source retrieval and format checks,not musicalaccuracy."
+  },
+  "cache_bytes_at_finalization": 1673835
+}
