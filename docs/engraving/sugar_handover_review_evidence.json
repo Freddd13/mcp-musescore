@@ -1,0 +1,354 @@
+{
+  "date": "2026-11-03",
+  "reference": "SUGAR_HANDOVER_REVIEW.md",
+  "method": "Selected by title/page count only. Read complete score and freeze judgments before consulting A120-specific notes. Previously covered corpus, root agent self-review, not independent blind accuracy.",
+  "previous_goal_turn_classification": "No progress toward engraving judgment: access retries returned no musical content; this batch changes action to score-based review.",
+  "planned_judgments": 3,
+  "completed_judgments": 3,
+  "official_score_id": "A120",
+  "official_full_pages_visually_reread": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "official_systems_reread": 41,
+  "official_detailed_crops_visually_read": [
+    {
+      "page": 4,
+      "scope": "G complete first three systems",
+      "fractions": [
+        0.05,
+        0.05,
+        0.955,
+        0.51
+      ]
+    },
+    {
+      "page": 4,
+      "scope": "six-note hand bracket across system2 bars2-3",
+      "fractions": [
+        0.59,
+        0.21,
+        0.8,
+        0.34
+      ]
+    }
+  ],
+  "Gould_full_printed_pages_visually_reread": [
+    305,
+    306,
+    40,
+    43,
+    487,
+    490
+  ],
+  "Gould_printed_pages_text_looked_up": [
+    323,
+    324,
+    487,
+    488,
+    489,
+    490,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    304,
+    305,
+    306,
+    308,
+    309,
+    310
+  ],
+  "Gould_zero_based_file_index_formula": "printed_page + 19",
+  "judgments_before_checks": [
+    {
+      "id": "S1",
+      "location": "p4 G first and second systems",
+      "initial": "Keep the stable fast accompaniment as a principal spacing reference while preserving melody attack positions; accidental and clef entry clearances need local inspection. No automatic equal-head rewrite.",
+      "check": "Read complete G rows and measure selected equal written values, including their normal side/stem reference; interpret all onsets before causal claims."
+    },
+    {
+      "id": "S2",
+      "location": "p4 system2 bar2 r.h. at the end of the lower run; system3 continuation into H",
+      "initial": "Keep hand instruction and uninterrupted figuration while upper line sustains. Staff/clef do not alone define the hand. Inspect independent held notes before claiming that a hand can leave or a page can turn.",
+      "check": "Read actual head/stem/slur/time boundaries and Gould hand-change conditions."
+    },
+    {
+      "id": "S3",
+      "location": "p2 C/D and p6 L/M mid-system entries; p7 long initial run and final system",
+      "initial": "Preserve most casting-off: three or four bars per dense row and mid-row labels retain musical preparation and entry. Do not force every formal label to a new row.",
+      "check": "Check old study and page-level rhythm. For p7 21-note group and ottava, duration ratio and scope must be inspected rather than inferred from the printed number."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "S1",
+      "outcome": "retain baseline with necessary-prefix clearance",
+      "evidence": "16 normal sixteenths; 14 gaps10.280-10.458pt, one12.939pt before necessary double sharp; median10.281pt. Not a proven minimum or engraving-engine cause."
+    },
+    {
+      "id": "S2",
+      "outcome": "retain continuous figuration, metrical beams and temporary hand scope",
+      "evidence": "RH bracket covers previous final2 plus next first4 sixteenths; upper notated half continues while RH begins. No pedal/finger prescription inferred."
+    },
+    {
+      "id": "S3",
+      "outcome": "revise initial preserve-most priority: compare L new-system option before M",
+      "evidence": "Gould487 favors section changes at new systems where possible; L combines riten-to-a-tempo, f and figuration return. Source remains baseline; no native reflow/capacity or page-count claim."
+    }
+  ],
+  "measurements": {
+    "source_sha256": "e3570d49205ebc4c58b74cd9756a4cfea0b78e125ce3fb4d59aca43052275bfe",
+    "page": 4,
+    "staff_space_pt": 4.254,
+    "G_system1_bar3_lower": {
+      "head_x_pt": [
+        388.878,
+        399.158,
+        409.616,
+        419.896,
+        430.176,
+        440.634,
+        450.914,
+        461.194,
+        471.652,
+        481.932,
+        492.39,
+        505.329,
+        515.786,
+        526.066,
+        536.347,
+        546.804
+      ],
+      "successive_gaps_pt": [
+        10.28,
+        10.458,
+        10.28,
+        10.28,
+        10.458,
+        10.28,
+        10.28,
+        10.458,
+        10.28,
+        10.458,
+        12.939,
+        10.457,
+        10.28,
+        10.281,
+        10.457
+      ],
+      "median_gap_pt": 10.281,
+      "maximum_gap_pt": 12.939,
+      "minimum_gap_pt": 10.28,
+      "maximum_over_median": 1.2585351619492267,
+      "prefix_at_wide_gap": [
+        {
+          "text": "‹",
+          "x0": 499.834295,
+          "x1": 504.564743,
+          "top": 118.003384
+        }
+      ],
+      "scope": "Same filled-head glyph origin, same font/size. This is a head-step measurement, not stem-axis optical equivalence or an engraving-engine causality proof."
+    },
+    "G_system2_hand_bracket": {
+      "selected_head_x_pt": [
+        390.828,
+        400.222,
+        417.946,
+        427.34,
+        436.734,
+        446.128
+      ],
+      "bracket_end_shapes": [
+        {
+          "x0": 385.8648,
+          "top": 229.0808,
+          "x1": 389.9424,
+          "bottom": 246.452
+        },
+        {
+          "x0": 452.5104,
+          "top": 229.0832,
+          "x1": 456.4104,
+          "bottom": 246.2768
+        }
+      ],
+      "heads_before_barline": 2,
+      "heads_after_barline": 4,
+      "barline_between": true,
+      "interpreted_onsets_quarters_previous_bar": [
+        "7/2",
+        "15/4"
+      ],
+      "interpreted_onsets_quarters_next_bar": [
+        "0",
+        "1/4",
+        "1/2",
+        "3/4"
+      ],
+      "upper_half_head": [
+        {
+          "text": "˙",
+          "x0": 332.691,
+          "top": 210.34931593599993
+        }
+      ],
+      "upper_half_onset_q": "2",
+      "upper_half_written_end_q": "4",
+      "upper_melody_ottava": "Still in force; only upper staff.",
+      "meaning": "Six-note temporary right-hand assignment across the barline; finger release/pedal technique not specified."
+    }
+  },
+  "old_score_notes_consulted_after_freeze": [
+    "INTEGRATED_READING_STYX_SUGAR.md",
+    "corpus/READING_021.md"
+  ],
+  "independent_blind_accuracy": null,
+  "new_source_coverage": 0,
+  "new_resource_completions": 0,
+  "new_native_conditions": 0,
+  "new_software_changes": 0,
+  "new_user_preferences": 0,
+  "protected_sources": [
+    {
+      "source": "A120 official PDF",
+      "before_sha256": "e3570d49205ebc4c58b74cd9756a4cfea0b78e125ce3fb4d59aca43052275bfe",
+      "after_sha256": "e3570d49205ebc4c58b74cd9756a4cfea0b78e125ce3fb4d59aca43052275bfe",
+      "unchanged": true
+    },
+    {
+      "source": "Gould local PDF",
+      "before_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "after_sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "source": "user release5 MSCZ",
+      "before_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "after_sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "source": "user finished PDF",
+      "before_sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "after_sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    }
+  ],
+  "private_cache": {
+    "path": "tmp/engraving/sugar-first-pass-2026-11-03",
+    "budget_bytes": 1048576,
+    "policy": "One overwritten read.png; no PDF/runtime/source-image copies or deletion. Full manifest and final measured bytes added after validation.",
+    "files": [
+      {
+        "name": "book_lookup.py",
+        "bytes": 414,
+        "sha256": "bf9134595d0b09698c4ee476460107e7563a41adc818c1e574491e56842e5510"
+      },
+      {
+        "name": "geometry.py",
+        "bytes": 1085,
+        "sha256": "9c24e06a11486582c96721991d88bafe70a445ce52f9ae09b32f757ab53e22d6"
+      },
+      {
+        "name": "judgments_before_checks.json",
+        "bytes": 2291,
+        "sha256": "9685ca3232a08f0169adc71fa4dcb3f0eb204e66dd47a3f8715bf903a6793cfa"
+      },
+      {
+        "name": "measure.py",
+        "bytes": 2480,
+        "sha256": "f055ee58c5c06c3e9adf4c4a5c7b5f8e72c96b400b9a009e20ed946480aa58f9"
+      },
+      {
+        "name": "measurements.json",
+        "bytes": 2203,
+        "sha256": "9349623ad8dc7d2de7b9eada5a6b512a26016d9159ad9524c989c734c2ee33ed"
+      },
+      {
+        "name": "plan_before_views.json",
+        "bytes": 2434,
+        "sha256": "a8c4a32db382c5f5aa42e9a2c2f84136fb064e47eafd1c17d69e3f7538e88dca"
+      },
+      {
+        "name": "publish_notes.py",
+        "bytes": 6768,
+        "sha256": "947aadb3586e285bb19e09d795950b02dac42a1bd99b2109ae536c3dcc595ce1"
+      },
+      {
+        "name": "read.png",
+        "bytes": 272324,
+        "sha256": "fe776afc0e71cd552f0e0b522c0d362b3b3d2d86c837df9e955ff62ee4b825a4"
+      },
+      {
+        "name": "read_score.py",
+        "bytes": 2859,
+        "sha256": "02d3e31ddb62a12e3a5a4b9e8cb18a65c75bae81f4469cf7dd2b40757b058d77"
+      },
+      {
+        "name": "render_log.jsonl",
+        "bytes": 2314,
+        "sha256": "d135b10df3f17dcc3a34240b37ccd4d537bcbe8da487c5433f52c280b3f9ac77"
+      },
+      {
+        "name": "validate.py",
+        "bytes": 4068,
+        "sha256": "b978a866475d4fedc755134b786bcb70de3a9a7b55e4f828ee052d24a133c796"
+      },
+      {
+        "name": "validation_report.json",
+        "bytes": 15108,
+        "sha256": "2d39ee206da3f6e0cfc2370d2fa96bb6d3fabe42e704be9872066a105f4b8cbc"
+      }
+    ],
+    "measured_bytes": 314348,
+    "budget_satisfied": true
+  },
+  "private_evidence_sha256": {
+    "plan_before_views.json": "a8c4a32db382c5f5aa42e9a2c2f84136fb064e47eafd1c17d69e3f7538e88dca",
+    "judgments_before_checks.json": "9685ca3232a08f0169adc71fa4dcb3f0eb204e66dd47a3f8715bf903a6793cfa",
+    "measurements.json": "9349623ad8dc7d2de7b9eada5a6b512a26016d9159ad9524c989c734c2ee33ed",
+    "render_log.jsonl": "d135b10df3f17dcc3a34240b37ccd4d537bcbe8da487c5433f52c280b3f9ac77"
+  },
+  "validation": {
+    "status": "passed",
+    "recorded_at_utc": "2026-11-02T16:44:48.028877+00:00",
+    "retrieval_regressions": [
+      6,
+      6
+    ],
+    "targeted_queries": [
+      4,
+      4
+    ],
+    "new_routes": [
+      7,
+      7
+    ],
+    "all_topics": [
+      20,
+      20
+    ],
+    "protected_sources": [
+      4,
+      4
+    ],
+    "scope": "Retrieval/progress/format/source protection only; not independent engraving accuracy, native candidate validity or user adoption.",
+    "private_report_sha256": "2d39ee206da3f6e0cfc2370d2fa96bb6d3fabe42e704be9872066a105f4b8cbc"
+  },
+  "scope_change": "No change to16/25 resources or nine outstanding items; user has not accepted previous pruning proposal.",
+  "next": "Use these hand/beam and entry-boundary judgments in actual score reviews; a full-page native L alternative remains unbuilt, not a mandatory new reading gate."
+}

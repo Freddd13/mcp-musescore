@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "scope_revision": 1,
-  "as_of": "2026-11-02",
+  "as_of": "2026-11-03",
   "goal_status": "active",
   "goal": "理解全部新官谱及已有资料的排版理由，形成可迁移判断、持续可用的知识库与skill；后续自动净书适配本阶段不做。",
   "counting_policy": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
@@ -3269,7 +3269,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.32固定Purrvoice两预览4/4问题与分层2/2续核；内线记谱结束／实际止声、Again低音与虚线规范更正。资料16/25余9，未新增原生或适配。",
+    "working_branch_note": "0.32固定标签保留；2026-11-03工作分支补Sugar三判断3/3，七页／六规范图页及七个skill入口。L段分行初判修正；资料16/25余9，无新原生／适配。",
     "evidence": "release_0_32_0_evidence.json"
   },
   "last_study_batch": {
@@ -3830,13 +3830,18 @@
     }
   ],
   "latest_judgment_review": {
-    "reference": "REAL_SCORE_READING_TRADEOFFS.md",
-    "evidence": "real_score_reading_tradeoffs_evidence.json",
+    "reference": "SUGAR_HANDOVER_REVIEW.md",
+    "evidence": "sugar_handover_review_evidence.json",
     "reviewed_cases": 3,
     "planned_cases": 3,
-    "official_full_page_rereads": 15,
-    "Gould_full_printed_page_rereads": 13,
-    "scope": "主agent预选／冻结后复核，历史已读材料；A079在核查阶段补入，不计独立盲测或准确率。Kura处理顺序修正，跨页cresc.终点仍未知。",
+    "official_full_page_rereads": 7,
+    "Gould_full_printed_page_rereads": 6,
+    "decisions": {
+      "retain_six_note_handover": 1,
+      "retain_prefix_space_baseline": 1,
+      "raise_L_new_system_comparison_priority": 1
+    },
+    "scope": "七页先读、冻结初判后查旧笔记／规范；已读材料的主agent自复核，不计独立盲测。L初判优先级修正，无原生重排或个人审美反馈。",
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
@@ -3980,6 +3985,16 @@
       },
       "scope": "agent按当前字形和密度选择，非用户已确认偏好或全谱常量。",
       "new_native_conditions": 1
+    },
+    {
+      "reference": "REAL_SCORE_READING_TRADEOFFS.md",
+      "evidence": "real_score_reading_tradeoffs_evidence.json",
+      "reviewed_cases": 3,
+      "planned_cases": 3,
+      "official_full_page_rereads": 15,
+      "Gould_full_printed_page_rereads": 13,
+      "scope": "主agent预选／冻结后复核，历史已读材料；A079在核查阶段补入，不计独立盲测或准确率。Kura处理顺序修正，跨页cresc.终点仍未知。",
+      "new_native_conditions": 0
     }
   ],
   "latest_library_query": {
