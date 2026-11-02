@@ -1,0 +1,602 @@
+{
+  "date": "2026-11-03",
+  "resource": "R13",
+  "reference": "STAFF_TUTORIAL_READING.md",
+  "identity": {
+    "bvid": "BV19r4y177GY",
+    "aid": 770733163,
+    "cid": 768087505,
+    "title": "[Musescore3.6]为已有乐器，增加声部，钢琴五线谱谱表排版",
+    "owner": {
+      "name": "萌象的J哥",
+      "mid": 46935732
+    },
+    "duration_seconds": 876,
+    "description_source": "https://api.bilibili.com/x/web-interface/view?bvid=BV19r4y177GY",
+    "http": 200,
+    "code": 0,
+    "raw_response_sha256": "3448b380d74cf1c86119cf1aa706652c8b3841aad025c1b57d8a01215dedcc29",
+    "description_read": true,
+    "description_summary": "Author specifies MuseScore3.6.2; adding lower staves to existing single-staff instruments and graphical treatment of rare historical signs."
+  },
+  "public_preview": {
+    "url": "https://api.bilibili.com/x/player/videoshot?bvid=BV19r4y177GY&cid=768087505&index=1",
+    "http": 200,
+    "code": 0,
+    "anonymous": true,
+    "cookies_used": false,
+    "raw_video_audio_requested": false,
+    "metadata_sha256": "2dd49613a22b45cff61a94360a283bd8f1429ccd130fb5252fc44d901628dcbe",
+    "cell_pixels": [
+      480,
+      270
+    ],
+    "advertised_index": [
+      0,
+      0,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120,
+      130,
+      140,
+      150,
+      160,
+      170,
+      180,
+      190,
+      200,
+      210,
+      220,
+      230,
+      240,
+      250,
+      260,
+      270,
+      280,
+      290,
+      300,
+      310,
+      320,
+      330,
+      340,
+      350,
+      360,
+      370,
+      380,
+      390,
+      400,
+      410,
+      420,
+      430,
+      440,
+      450,
+      460,
+      470,
+      480,
+      490,
+      500,
+      510,
+      520,
+      530,
+      540,
+      550,
+      560,
+      570,
+      580,
+      590,
+      600,
+      610,
+      620,
+      630,
+      640,
+      650,
+      660,
+      670,
+      680,
+      690,
+      700,
+      710,
+      720,
+      730,
+      740,
+      750,
+      760,
+      770,
+      780,
+      790,
+      800,
+      810,
+      820,
+      830,
+      840,
+      850,
+      860,
+      870
+    ],
+    "source_image": {
+      "url": "https://bimp.hdslb.com/videoshotpvhdboss/768087505_7d99eb-0001.jpg",
+      "path": "storyboard-1.jpg",
+      "bytes": 733346,
+      "sha256": "6f692fcda7c99b6c39abdec9fba442be1cccafb543d47dcafe1839b365d0a3a4"
+    }
+  },
+  "visual_review": {
+    "planned_cells": 89,
+    "cells_actually_read": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
+    ],
+    "software_UI_cells": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "black_cells": [
+      88
+    ],
+    "distinct_sequential_montages": 10,
+    "focused_recheck_cells": [
+      6,
+      7,
+      8,
+      9,
+      20,
+      28,
+      49,
+      51,
+      72,
+      37,
+      40,
+      83
+    ],
+    "render_log_sha256": "abe74a98e1d1513fbbe610cc26b2a4f51eb8670169fd5f94428b7f9c87bee566",
+    "observation_boundary": "Earlier cell18-35 outputs were truncated before inspection; both batches were rerendered and actually read this turn. Render counts alone are not evidence of visual reading."
+  },
+  "planned_questions": 3,
+  "questions_addressed": [
+    {
+      "question": "adding staves within an instrument versus adding another instrument",
+      "observed_cells": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "judgment": "Establish staff/instrument grouping and independent musical role before selecting the action. Visible Add Linked Staff button is not evidence it was used."
+    },
+    {
+      "question": "actual staff split versus Voice1-4 workflow",
+      "observed_cells": [
+        20,
+        25,
+        26,
+        27,
+        28
+      ],
+      "judgment": "Tutorial includes pitch-threshold staff split, not a complete four-Voice workflow. Source inspection shows whole-staff scope across all ChordRest segments and four Voices; local cross-staff intent must not become global split."
+    },
+    {
+      "question": "rare-sign graphical workaround and musical meaning",
+      "observed_cells": [
+        48,
+        49,
+        50,
+        51,
+        62,
+        63,
+        66,
+        72,
+        81,
+        83,
+        87
+      ],
+      "judgment": "Symbols, lines, offsets and stacking are shown; exact historical identity, parent anchors, embedded PNG and saved result remain unproven. Keep reader meaning and functional structure separate."
+    }
+  ],
+  "read_only_source_inspection": {
+    "root": "E:\\programming\\funcodes\\muse3_dev\\MuseScore",
+    "head": "8f81421a5cc965dbb32a81fcecf39d626b5610ff",
+    "inspected_files_clean": true,
+    "files": [
+      {
+        "path": "libmscore/score.cpp",
+        "sha256": "5f500c999be67cf27e4b7367d3ade722eae808fc00e078d0809aaace3562636f"
+      },
+      {
+        "path": "mscore/scoreview.cpp",
+        "sha256": "de34faf2c68dbb6c5a9400460905d0bd84e921ca6e942f41ad079b5ef8e093c8"
+      },
+      {
+        "path": "mscore/splitstaff.ui",
+        "sha256": "cca791e5f7bd61581de4fd74a7be46febdae441d691748593deb061a4dbec9d9"
+      },
+      {
+        "path": "mscore/splitstaff.cpp",
+        "sha256": "3c3ca900f85f798f382bccc88c53136fb92934568fcdf124128abfcfe74604a8"
+      }
+    ],
+    "ranges": {
+      "libmscore/score.cpp": [
+        [
+          2573,
+          2730
+        ]
+      ],
+      "mscore/scoreview.cpp": [
+        [
+          517,
+          520
+        ]
+      ],
+      "mscore/splitstaff.cpp": [
+        [
+          29,
+          37
+        ]
+      ],
+      "mscore/splitstaff.ui": [
+        [
+          19,
+          69
+        ]
+      ]
+    },
+    "runtime_equivalence_checked": false,
+    "source_changed": false
+  },
+  "primary_manual_crosschecks": [
+    {
+      "url": "https://musescore.org/en/print/book/export/html/278625",
+      "sections_read": [
+        "Instruments: Add Staff/Add Linked Staff",
+        "Tablature: linked versus unlinked staves",
+        "Master palette: Symbols and Notation types"
+      ],
+      "figures_viewed": false,
+      "boundary": "Do not adopt contradictory read-only/editability wording as a runtime claim. Only shared musical content is used here."
+    },
+    {
+      "url": "https://musescore.org/en/handbook/3/working-multiple-voices",
+      "sections_read": [
+        "Overview",
+        "Reasons to use Voices"
+      ],
+      "figures_viewed": false
+    }
+  ],
+  "redirects_excluded_as_MuseScore3_evidence": [
+    {
+      "requested": "https://musescore.org/en/handbook/3/tools",
+      "actual": "https://handbook.musescore.org/navigation/the-user-interface"
+    },
+    {
+      "requested": "https://musescore.org/en/handbook/3/instruments",
+      "actual": "https://handbook.musescore.org/notation/instruments-staves-and-systems"
+    }
+  ],
+  "state_change": {
+    "R13": [
+      "unread",
+      "partial"
+    ],
+    "fixed_resource_completion_count": [
+      16,
+      25
+    ],
+    "remaining_resource_ids": [
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ]
+  },
+  "not_achieved": [
+    "continuous video/audio",
+    "exact historical-sign identity",
+    "all carrier/anchor identities",
+    "full Voice1-4 procedure",
+    "native split replay/undo/current-exe equivalence",
+    "source project or saved result"
+  ],
+  "new_official_score_or_Gould_coverage": 0,
+  "new_native_calls": 0,
+  "new_software_adaptation": false,
+  "original_PDF_MSCZ_access": "No original PDF/MSCZ opened or written in this batch.",
+  "private_cache": {
+    "path": "tmp/engraving/staff-tutorial-2026-11-03",
+    "budget_bytes": 3145728,
+    "policy": "One exact advertised public JPG and one overwritten read.png; no full video/audio, source PDF/MSCZ/runtime copy or deletion.",
+    "bytes": 1353151,
+    "files": [
+      {
+        "path": "description.json",
+        "bytes": 1279,
+        "sha256": "92cc43170a2fa67bcfc31583cd756569f816a285d7d44f95df21557466b233e6"
+      },
+      {
+        "path": "downloads.json",
+        "bytes": 288,
+        "sha256": "56295b2a483a8642180f762984ab5204aa53bbae4df8c34c8f72805a3bb27197"
+      },
+      {
+        "path": "fetch.py",
+        "bytes": 3445,
+        "sha256": "cd6ec3875e6c3585299292d66beeccea6766260cc1428b370b7dc976f9b67d38"
+      },
+      {
+        "path": "metadata.json",
+        "bytes": 2018,
+        "sha256": "2dd49613a22b45cff61a94360a283bd8f1429ccd130fb5252fc44d901628dcbe"
+      },
+      {
+        "path": "plan_before_views.json",
+        "bytes": 605,
+        "sha256": "44036589049fa35e64902e1543c203d388de4b9142917bac29efac3400a185aa"
+      },
+      {
+        "path": "publish.py",
+        "bytes": 13755,
+        "sha256": "3b7dcb2cccc419ea804946b0206a4599c098f368c2bc36a78897fb1906add171"
+      },
+      {
+        "path": "query_report.json",
+        "bytes": 14888,
+        "sha256": "5431271a69709e72ee1250ff7ef96b1a508c8c66e05bb46b7d504df1621aa019"
+      },
+      {
+        "path": "read.png",
+        "bytes": 572129,
+        "sha256": "d06cf5e635375c162c189e1f7fa3d435208f341e165cef24954c9ff6f0783a5b"
+      },
+      {
+        "path": "render_log.jsonl",
+        "bytes": 3296,
+        "sha256": "abe74a98e1d1513fbbe610cc26b2a4f51eb8670169fd5f94428b7f9c87bee566"
+      },
+      {
+        "path": "storyboard-1.jpg",
+        "bytes": 733346,
+        "sha256": "6f692fcda7c99b6c39abdec9fba442be1cccafb543d47dcafe1839b365d0a3a4"
+      },
+      {
+        "path": "validate.py",
+        "bytes": 5933,
+        "sha256": "a4a0e1d17eaae0605bc8c05b6f58eb8dff9ea2de549cf01e0c7fc9b882232548"
+      },
+      {
+        "path": "validation_report.json",
+        "bytes": 714,
+        "sha256": "7beaa3b6a11c9f8d15f300d50282686251ad6cec60761344804b142d348adef1"
+      },
+      {
+        "path": "view.py",
+        "bytes": 1455,
+        "sha256": "0dc04c676a389c4d6315e434142fc00ab20deb28e7b8ce22d2d51675b40a3711"
+      }
+    ],
+    "maximum_overwritten_read_png_bytes": 572129,
+    "conservative_peak_upper_bound_bytes": 1353151
+  },
+  "validation": {
+    "status": "passed",
+    "recorded_at_utc": "2026-11-02T18:49:34.719035+00:00",
+    "previous_tool_checks_passed": [
+      "tools/engraving/progress.py --check",
+      "skill-creator quick_validate.py skills/piano-engraving",
+      "unittest tests/test_engraving_library.py:6/6",
+      "git diff --check"
+    ],
+    "targeted_queries": [
+      4,
+      4
+    ],
+    "topic_routes": [
+      6,
+      6
+    ],
+    "total_skill_topics": [
+      20,
+      20
+    ],
+    "local_note_links_checked": 4,
+    "fixed_0_33_tag_and_manifest_unchanged": true,
+    "existing_CC0_assets_unchanged": [
+      51,
+      51
+    ],
+    "source_JPG_and_four_source_files_unchanged": true,
+    "fixed_resources": [
+      16,
+      25
+    ],
+    "changed_texts_utf8_LF": true,
+    "not_a_musical_accuracy_test": true,
+    "targeted_query_report_sha256": "5431271a69709e72ee1250ff7ef96b1a508c8c66e05bb46b7d504df1621aa019"
+  }
+}

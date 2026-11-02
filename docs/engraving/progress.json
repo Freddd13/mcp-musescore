@@ -3012,13 +3012,22 @@
       {
         "id": "R13",
         "scope": "萌象的J哥：多声部视频",
-        "status": "unread",
+        "status": "partial",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV19r4y177GY/",
         "metadata_identity_verified": true,
-        "scope_note": "Metadata says adding low staff/part to existing single staff; actual staff-versus-voice1–4 operations not viewed.",
-        "latest_access_followup_evidence": "fanned_beams_reading_evidence.json",
-        "latest_access_note": "Thisturnanonymousofficialmetadata412;nobodyornewpreviewreceived.Stopunchangedpaths;nocoverageincrement."
+        "scope_note": "已读增加／拆分谱表的公开预览；不能称完整Voice1–4教程。",
+        "latest_access_followup_evidence": "staff_tutorial_reading_evidence.json",
+        "latest_access_note": "2026-11-03官方公开预览89/89格已实读，12格放大复看；空表、音高拆分和图形补法分读。连续讲解／声音、罕见记号与源工程仍缺，保持partial。",
+        "reading_note": "STAFF_TUTORIAL_READING.md",
+        "preview_evidence": "staff_tutorial_reading_evidence.json",
+        "preview_cells_read": 89,
+        "preview_cells_available": 89,
+        "previous_latest_access": {
+          "evidence": "fanned_beams_reading_evidence.json",
+          "note": "Thisturnanonymousofficialmetadata412;nobodyornewpreviewreceived.Stopunchangedpaths;nocoverageincrement."
+        },
+        "remaining": "完整声音／连续步骤、罕见记号身份与对象依附、源工程及保存结果未核；源码范围核查不替代运行验证。"
       },
       {
         "id": "R14",
@@ -3276,7 +3285,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.33保留；工作分支补R12公开预览117/117及三问题3/3，未读转partial。资料16/25余9，无新原生／适配，当前分支增量引用实际提交。",
+    "working_branch_note": "固定0.33保留；工作分支补R12预览117/117及R13预览89/89，两项均partial。资料16/25余9，无新原生／适配，当前增量引用实际分支提交。",
     "evidence": "release_0_33_0_evidence.json"
   },
   "last_study_batch": {
@@ -3293,23 +3302,25 @@
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
-    "new_source_media": 0,
+    "new_source_media": 1,
     "new_native_diagnostic_conditions": 0,
     "native_CLI_calls": 0,
-    "book_reread_pages": 12,
-    "official_score_reread_pages": 7,
+    "book_reread_pages": 0,
+    "official_score_reread_pages": 0,
     "official_system_views_reused": 0,
-    "date": "2026-11-02",
-    "scope": "两预选情境2/2，官谱7页／预览2图／Gould12页复读；三处语义与规范旧误更正。无新首次覆盖、资源闭合或适配。",
+    "date": "2026-11-03",
+    "scope": "增加／拆分谱表及图形补法条件已梳理；整条源表的按音高拆分与局部跨表需求分开，未验证完整操作／声音。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "LAYERED_COMPOUND_READING.md"
+      "STAFF_TUTORIAL_READING.md"
     ],
-    "review_evidence": "layered_compound_reading_evidence.json",
+    "review_evidence": "staff_tutorial_reading_evidence.json",
     "software_adaptation": false,
-    "new_public_preview_readings": 0,
-    "public_preview_rereads": 2
+    "new_public_preview_readings": 1,
+    "public_preview_rereads": 0,
+    "public_preview_cells_read": 89,
+    "focused_preview_rechecks": 12
   },
   "latest_native_study": {
     "reference": "SECTION_ENTRY_CASTING_STUDY.md",
@@ -3878,22 +3889,22 @@
     "new_native_conditions": 0
   },
   "latest_supplemental_reading": {
-    "reference": "PAGE_TUTORIAL_READING.md",
-    "evidence": "page_tutorial_reading_evidence.json",
-    "resource_id": "R12",
+    "reference": "STAFF_TUTORIAL_READING.md",
+    "evidence": "staff_tutorial_reading_evidence.json",
+    "resource_id": "R13",
     "public_preview_cells": [
-      117,
-      117
+      89,
+      89
     ],
     "questions": [
       3,
       3
     ],
-    "focused_rechecks": 6,
+    "focused_rechecks": 12,
     "new_fixed_resource_completions": 0,
     "new_Gould_coverage": 0,
     "new_native_conditions": 0,
-    "scope": "R12未读转公开预览已读partial；实际时值／框架／空间控制分读，不等于完整视频及当前宿主操作验证。"
+    "scope": "增加／拆分谱表及图形补法条件已梳理；整条源表的按音高拆分与局部跨表需求分开，未验证完整操作／声音。"
   },
   "judgment_review_history": [
     {
@@ -4023,7 +4034,23 @@
     "CLI_regression_tests": 6,
     "planned_CLI_regressions": 6,
     "scope": "20入口、既有五类来源与六项回归保持；新m97／端点整页问题定位另核，不计独立净书判断准确率。",
-    "new_known_source_smoke_cases": 2
+    "new_known_source_smoke_cases": 2,
+    "latest_supplemental_query_check": {
+      "evidence": "staff_tutorial_reading_evidence.json",
+      "targeted_queries": [
+        4,
+        4
+      ],
+      "topic_routes": [
+        6,
+        6
+      ],
+      "CLI_regressions": [
+        6,
+        6
+      ],
+      "scope": "Known-source retrieval and usability checks; not engraving judgment accuracy."
+    }
   },
   "next_native_batch": {
     "reference": "TUPLET_OWNERSHIP_STUDY.md",
@@ -4076,13 +4103,13 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15保持。R07/R08/R09预览118/118、82/82、32/32，R11两部分68/68＋165/165，R12预览117/117已看；完整讲解／连续细步骤、细小校勘及其它缺口继续保留，不重复无变化的失败入口。",
+    "scope": "余9项R07–R15保持。R07/R08/R09预览118/118、82/82、32/32，R11两部分68/68＋165/165，R12预览117/117已看；完整讲解／连续细步骤、细小校勘及其它缺口继续保留，不重复无变化的失败入口。 R13预览现已89/89，仍partial。取舍建议未获用户确认，固定资料范围未改变。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
-    "latest_available_supplement": "PAGE_TUTORIAL_READING.md",
+    "latest_available_supplement": "STAFF_TUTORIAL_READING.md",
     "official_preview_path_confirmed_for_R09": true,
     "official_preview_path_confirmed_for_R07_R08": true,
-    "next_readable_operation_reference": "R12公开预览117/117与三问题已梳理；下一项优先R13已知CID768087505的官方公开预览，先核实际可读内容，当前不再调试同一浏览器超时路线。",
+    "next_readable_operation_reference": "R13公开预览89/89及三问题已梳理；接着将现有知识用于完整上下文综合审谱，余9项原范围保持，实际遇到需要时继续补可得讲解。",
     "next_R10_public_preview_search": {
       "planned_candidate_works": 2,
       "source_previews_located": 2,
@@ -4102,8 +4129,11 @@
       "bvid": "BV19r4y177GY",
       "known_cid": 768087505,
       "purpose": "核已有单谱表增加低谱表／乐器分组的实际演示；不直接当Voice1-4教程。",
-      "completed_parts": 0,
-      "remaining_parts": 1
+      "completed_parts": 1,
+      "remaining_parts": 0,
+      "reference": "STAFF_TUTORIAL_READING.md",
+      "evidence": "staff_tutorial_reading_evidence.json",
+      "scope": "仅公开预览范围完成；R13完整资料仍partial。"
     }
   },
   "next_layout_reading": {
@@ -4704,6 +4734,24 @@
       "new_Gould_coverage": 0,
       "new_fixed_resource_completions": 0,
       "scope": "显拍／异重音与引导／独立保持分读，三处旧表述更正；没有原生候选、物理释放或作者意图的验证。"
+    },
+    {
+      "reference": "PAGE_TUTORIAL_READING.md",
+      "evidence": "page_tutorial_reading_evidence.json",
+      "resource_id": "R12",
+      "public_preview_cells": [
+        117,
+        117
+      ],
+      "questions": [
+        3,
+        3
+      ],
+      "focused_rechecks": 6,
+      "new_fixed_resource_completions": 0,
+      "new_Gould_coverage": 0,
+      "new_native_conditions": 0,
+      "scope": "R12未读转公开预览已读partial；实际时值／框架／空间控制分读，不等于完整视频及当前宿主操作验证。"
     }
   ],
   "latest_source_identity_review": {
