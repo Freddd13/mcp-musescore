@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "as_of_utc": "2026-11-02T23:10:42.862370+00:00",
+  "reference": "AVID_PAGE_INPUT.md",
+  "scope": "A016 page4 m53-70 complete-input preparation and single-variable NoBreak control. Faithful page comparison not completed.",
+  "base_commit": "ce82cc460d1c2646aeb08ecd3fba96d12786d9fd",
+  "source": {
+    "id": "A016",
+    "relative_path": "Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "sha256": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+    "bytes": 161754,
+    "pages": 5,
+    "metadata": {
+      "/CreationDate": "D:20221010191207",
+      "/Creator": "PDFium",
+      "/Producer": "PDFium"
+    },
+    "page_sizes_pt": [
+      [
+        595.22,
+        842.0
+      ]
+    ],
+    "inventory_status": "readable"
+  },
+  "verified": {
+    "date": "2026-11-03",
+    "completed_input_measures": [
+      18,
+      18
+    ],
+    "source_heads": [
+      633,
+      633
+    ],
+    "half_heads": 3,
+    "quarter_voice_streams": [
+      54,
+      54
+    ],
+    "events": 427,
+    "expected_records": 679,
+    "native_conditions": {
+      "page-input": {
+        "records": 679,
+        "notes": 633,
+        "rest_records": 46,
+        "tie_starts": 140,
+        "tie_stops": 140,
+        "slur_starts": 9,
+        "accents": 16
+      },
+      "page-reloaded": {
+        "records": 679,
+        "notes": 633,
+        "rest_records": 46,
+        "tie_starts": 140,
+        "tie_stops": 140,
+        "slur_starts": 9,
+        "accents": 16
+      },
+      "page-held": {
+        "records": 679,
+        "notes": 633,
+        "rest_records": 46,
+        "tie_starts": 140,
+        "tie_stops": 140,
+        "slur_starts": 9,
+        "accents": 16
+      }
+    },
+    "native_layouts": {
+      "page-input": {
+        "pages": 2,
+        "systems": 9,
+        "rows": [
+          [
+            53,
+            54
+          ],
+          [
+            55
+          ],
+          [
+            56,
+            57,
+            58
+          ],
+          [
+            59,
+            60,
+            61
+          ],
+          [
+            62,
+            63,
+            64
+          ],
+          [
+            65,
+            66
+          ],
+          [
+            67
+          ],
+          [
+            68,
+            69
+          ],
+          [
+            70
+          ]
+        ],
+        "row_pages": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2
+        ]
+      },
+      "page-reloaded": {
+        "pages": 2,
+        "systems": 9,
+        "rows": [
+          [
+            53,
+            54
+          ],
+          [
+            55
+          ],
+          [
+            56,
+            57,
+            58
+          ],
+          [
+            59,
+            60,
+            61
+          ],
+          [
+            62,
+            63,
+            64
+          ],
+          [
+            65,
+            66
+          ],
+          [
+            67
+          ],
+          [
+            68,
+            69
+          ],
+          [
+            70
+          ]
+        ],
+        "row_pages": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2
+        ]
+      },
+      "page-held": {
+        "pages": 2,
+        "systems": 9,
+        "rows": [
+          [
+            53
+          ],
+          [
+            54,
+            55
+          ],
+          [
+            56,
+            57,
+            58
+          ],
+          [
+            59,
+            60,
+            61
+          ],
+          [
+            62,
+            63,
+            64
+          ],
+          [
+            65
+          ],
+          [
+            66,
+            67
+          ],
+          [
+            68
+          ],
+          [
+            69,
+            70
+          ]
+        ],
+        "row_pages": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2
+        ]
+      }
+    },
+    "clefs": {
+      "page-input": [
+        {
+          "bar": 53,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 53,
+          "q": "0",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        },
+        {
+          "bar": 57,
+          "q": "1",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ],
+      "page-reloaded": [
+        {
+          "bar": 53,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 53,
+          "q": "0",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        },
+        {
+          "bar": 57,
+          "q": "1",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ],
+      "page-held": [
+        {
+          "bar": 53,
+          "q": "0",
+          "staff": "1",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 53,
+          "q": "0",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        },
+        {
+          "bar": 57,
+          "q": "1",
+          "staff": "2",
+          "sign": "G",
+          "line": "2"
+        },
+        {
+          "bar": 65,
+          "q": "2",
+          "staff": "2",
+          "sign": "F",
+          "line": "4"
+        }
+      ]
+    },
+    "native_midi": {
+      "page-input": {
+        "ppq": 480,
+        "tracks": 3,
+        "note_ons": 493,
+        "bytes": 3529,
+        "sha256": "bbb68fe4c31432358d47548be2400a54f08353496e5f52e41531768ce7f0ff45"
+      },
+      "page-reloaded": {
+        "ppq": 480,
+        "tracks": 3,
+        "note_ons": 493,
+        "bytes": 3529,
+        "sha256": "bbb68fe4c31432358d47548be2400a54f08353496e5f52e41531768ce7f0ff45"
+      },
+      "page-held": {
+        "ppq": 480,
+        "tracks": 3,
+        "note_ons": 493,
+        "bytes": 3529,
+        "sha256": "bbb68fe4c31432358d47548be2400a54f08353496e5f52e41531768ce7f0ff45"
+      }
+    },
+    "native_calls": 9,
+    "saved_reload": [
+      1,
+      1
+    ],
+    "input_music_verification": [
+      3,
+      3
+    ],
+    "native_preparation_conditions": [
+      2,
+      2
+    ],
+    "source_unchanged": true,
+    "source_sha256_after": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+    "runtime_files_verified": 1936,
+    "runtime_manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+    "boundary_context_supplied": [
+      0,
+      2
+    ],
+    "faithful_source_page_comparison": [
+      0,
+      1
+    ],
+    "preferred_page_candidate": false,
+    "limitations": [
+      "Native conditions both occupy2pages/9systems; NoBreak changes splitlocation but fails intendedsixrows. Known NoBreak/capacity boundary, not a newlyprovenenginebug.",
+      "Source uppervoice role changes across page; implementation voice numbers do not specify stable musical role.",
+      "Local page boundaries reattack incoming3 and truncate outgoing4 source ties. Contextbars52and71stillneeded.",
+      "Normal clef/key/time header, terminalbarline, uniform7sp staffgap, text anchors and automaticm65slur are preparation choices,not matched sourcepage.",
+      "Source Chaconne versus fixed native Leland prevents attribution of densitydifference to enginealone."
+    ],
+    "cache_bytes_before_report": 3075527,
+    "cache_budget_bytes": 4194304,
+    "runtime_copies": 0,
+    "software_adaptation": false
+  },
+  "public_source_music_assets": 0,
+  "new_public_original_fixtures": 0,
+  "public_source_images": 0,
+  "whole_page_candidate_adopted": false,
+  "learning": [
+    "Musical role of an implementation voice changes between low fills, high accents and inner runs.",
+    "m57 secondbeat clef prepares the following fournote group; one lowerledger at B3 enables three following staffnotes.",
+    "Same harmony does not establish repeated rhythm: m69 entrance differs from m67.",
+    "NoBreak changes splitplacement but does not hold this intended sixrow preparation. Readactualrows,notjustwrittenrequests."
+  ],
+  "unchanged_coverage": {
+    "official_scores": [
+      146,
+      146
+    ],
+    "official_pages": [
+      1135,
+      1135
+    ],
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "gould_file_pages": [
+      696,
+      696
+    ],
+    "resources": [
+      16,
+      25
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "transfer_classes": [
+      8,
+      8
+    ]
+  },
+  "private_artifacts": {
+    "tmp/engraving/avid-page-2026-11-03/scope.json": {
+      "bytes": 1845,
+      "sha256": "bd2ef8b20ef98b6fe25d61a7c0a55cbad6bd7480074a584b34d005e8bc7522a4"
+    },
+    "tmp/engraving/avid-page-2026-11-03/glyphs.json": {
+      "bytes": 349462,
+      "sha256": "ff421d24f6a0e1e03a0890e7a5bbdec93f7f37c8203731e5f6cafbe7a98f7a85"
+    },
+    "tmp/engraving/avid-page-2026-11-03/beams.json": {
+      "bytes": 63973,
+      "sha256": "44226f27de29ba15d48abe14b8e624446c5f9087c70fc01861ae1e647c83ebfe"
+    },
+    "tmp/engraving/avid-page-2026-11-03/infer.py": {
+      "bytes": 3564,
+      "sha256": "f85650de6173eb34a2013b6b598d336b27eab91b525bbdcb9a19acdf995e5d31"
+    },
+    "tmp/engraving/avid-page-2026-11-03/preview_streams.py": {
+      "bytes": 2906,
+      "sha256": "d119fdeca4d84ee0023b835ec26471a27ba056801fe257ea3185cc30807a1fa4"
+    },
+    "tmp/engraving/avid-page-2026-11-03/build_recipe.py": {
+      "bytes": 9235,
+      "sha256": "2ee878e06cd8706c5d479e29c14ca3ecc5e970740baf0640132608c1abf3092c"
+    },
+    "tmp/engraving/avid-page-2026-11-03/build_native.py": {
+      "bytes": 8134,
+      "sha256": "bdfcd1bb1d3b79843d9e4669107ba1a850eebd88ce4156135eee00feb9ec955a"
+    },
+    "tmp/engraving/avid-page-2026-11-03/verify_page.py": {
+      "bytes": 7009,
+      "sha256": "5db5dde6810392830a28ebf211d6a5cad2c76c48e45ff9f6cf4d3b2de9d53605"
+    },
+    "tmp/engraving/avid-page-2026-11-03/source_recipe.json": {
+      "bytes": 304655,
+      "sha256": "655e92b2ead33dcc7d7d2cf927a1d66530594c89f31e967dba6a5bcdb90387d3"
+    },
+    "tmp/engraving/avid-page-2026-11-03/transcription_validation.json": {
+      "bytes": 577,
+      "sha256": "0115b9cdd36c7bc0cb19264baf519f465d0245a7f1e24dbe47dff4629b3ada10"
+    },
+    "tmp/engraving/avid-page-2026-11-03/native_input_scope.json": {
+      "bytes": 1057,
+      "sha256": "402c849537fd2df75e8446d601361f0c064a6e498a62cb2df5a2a6e553f05ae0"
+    },
+    "tmp/engraving/avid-page-2026-11-03/held_rows_scope.json": {
+      "bytes": 967,
+      "sha256": "de4d16ba26e104ac021e507c4b9fdac1f7a400d63e08700a1e4b1cdf9f8b38f2"
+    },
+    "tmp/engraving/avid-page-2026-11-03/verification.json": {
+      "bytes": 6277,
+      "sha256": "3c17582c4fe95cc02ad6525494b08051e9459987ef9a731717b081e91253d886"
+    },
+    "tmp/engraving/avid-page-2026-11-03/native_calls.json": {
+      "bytes": 4063,
+      "sha256": "9813b767d2a8ecda3548ffd21c22df6f929427ba0507c87a54c0fc5ac7c9e9fd"
+    },
+    "tmp/engraving/avid-page-2026-11-03/page-intact-input.mscx": {
+      "bytes": 109507,
+      "sha256": "ec4dc98b21f21b409f706217cd32a5cfd6d4a2a68f2588af20865c090bfd7e9c"
+    },
+    "tmp/engraving/avid-page-2026-11-03/page-held-rows.mscx": {
+      "bytes": 110779,
+      "sha256": "be1361f5354e51ff0d08cf4cf086ef91c4daffc395cf7528fa288af53ef3e4c9"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-held-1.png": {
+      "bytes": 126664,
+      "sha256": "a4148d4eeadf928c80697b6c8b425a67fe39c1d23c0d8da10b346c1c9e00a1a6"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-held-2.png": {
+      "bytes": 79945,
+      "sha256": "9291d8fe250d286d4dc1c19a28bc69ec034c931366645c13bce77b3127647d76"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-held.mid": {
+      "bytes": 3529,
+      "sha256": "bbb68fe4c31432358d47548be2400a54f08353496e5f52e41531768ce7f0ff45"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-held.musicxml": {
+      "bytes": 280282,
+      "sha256": "dbe54d27638c525f9a98f82a2b792489ecd56ded64e130ac60eb852aef6d8ea3"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-input-1.png": {
+      "bytes": 137717,
+      "sha256": "9548d0b0089e65af752495d41b8ee0f24a94682728211f6154604d80a1d15700"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-input-2.png": {
+      "bytes": 70739,
+      "sha256": "0bfdd549c38d936ec1ba3f3a076aa28d0bd1a9b5e2907f28d1648d0a930afe7e"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-input.mid": {
+      "bytes": 3529,
+      "sha256": "bbb68fe4c31432358d47548be2400a54f08353496e5f52e41531768ce7f0ff45"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-input.musicxml": {
+      "bytes": 280196,
+      "sha256": "7dc33305b9118f538600b720340548e8e40494f88a05a4660bdcf6810c9313bc"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-reloaded.mid": {
+      "bytes": 3529,
+      "sha256": "bbb68fe4c31432358d47548be2400a54f08353496e5f52e41531768ce7f0ff45"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-reloaded.musicxml": {
+      "bytes": 280196,
+      "sha256": "7dc33305b9118f538600b720340548e8e40494f88a05a4660bdcf6810c9313bc"
+    },
+    "tmp/engraving/avid-page-2026-11-03/exports/page-saved.mscx": {
+      "bytes": 222909,
+      "sha256": "6389b8351a27e06392cca5f194686de5f92dddd125e4e2bca6430b00eee18271"
+    },
+    "tmp/engraving/avid-page-2026-11-03/cache_audit.json": {
+      "bytes": 429,
+      "sha256": "d93acba68070e086f1d6924e784e5be0275147f604a7615f1089741dbcf5bf52"
+    }
+  },
+  "software_adaptation": false,
+  "font_development": false,
+  "new_user_aesthetic_preferences": 0,
+  "next": {
+    "boundary_context": [
+      0,
+      2
+    ],
+    "faithful_page_comparison": [
+      0,
+      1
+    ],
+    "remaining_resources": 9
+  },
+  "cache_audit": {
+    "as_of_utc": "2026-11-02T23:15:43.110844+00:00",
+    "root": "tmp/engraving",
+    "logical_bytes_before_audit": 3296719826,
+    "files_before_audit": 19499,
+    "error_count": 0,
+    "errors": [],
+    "existing_check_line_bytes": 3311337472,
+    "headroom_before_audit_bytes": 14617646,
+    "note": "Existing checkpoint retained,notraised. Reuse sourceimages and frozenruntime;no deletion. Snapshotprecedes replacing thissmall auditfile."
+  },
+  "checks": {
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "library_regressions": [
+      6,
+      6
+    ],
+    "diff_check": "passed",
+    "query": {
+      "topic": "clefs",
+      "query": "Avid m57 换号 B3",
+      "first_match": "AVID_PAGE_INPUT.md",
+      "first_heading": "2. m57的换号点给后半音组作准备",
+      "scope": "retrieval ofactualexplanation;notgeneraljudgmentaccuracy"
+    }
+  }
+}
