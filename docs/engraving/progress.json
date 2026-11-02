@@ -3263,14 +3263,14 @@
     }
   },
   "release": {
-    "version": "0.32.0",
-    "tag": "engraving-v0.32.0",
+    "version": "0.33.0",
+    "tag": "engraving-v0.33.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.32固定标签保留；2026-11-03工作分支补Sugar三判断3/3，七页／六规范图页及七个skill入口。L段分行初判修正；资料16/25余9，无新原生／适配。",
-    "evidence": "release_0_32_0_evidence.json"
+    "working_branch_note": "0.33固定Sugar3/3判断与原创分行3＋末行1、重载2/2；八份CC0资产。L力度为重申，A120实曲未重排；资料16/25余9，无适配。",
+    "evidence": "release_0_33_0_evidence.json"
   },
   "last_study_batch": {
     "new_deep_scores": 0,
@@ -3305,32 +3305,29 @@
     "public_preview_rereads": 2
   },
   "latest_native_study": {
-    "reference": "CROSSBAR_DISPLAY_COMPOSITION.md",
-    "evidence": "crossbar_display_composition_evidence.json",
-    "planned_contexts": 3,
-    "contexts_studied": 3,
-    "controlled_one_system_candidate": [
+    "reference": "SECTION_ENTRY_CASTING_STUDY.md",
+    "evidence": "section_entry_casting_evidence.json",
+    "planned_casting_conditions": [
+      3,
+      3
+    ],
+    "additional_fill_condition": [
       1,
       1
+    ],
+    "final_conditions": [
+      4,
+      4
     ],
     "saved_reload": [
-      1,
-      1
+      2,
+      2
     ],
-    "MusicXML_readback_checked": [
-      1,
-      1
-    ],
-    "automatic_reflow_and_exchange_ready_solution": [
-      0,
-      1
-    ],
-    "native_CLI_calls": 30,
-    "final_CLI_calls": 22,
-    "preliminary_CLI_calls": 5,
-    "control_CLI_calls": 3,
-    "all_native_variant_MIDI_matches_real_bar_baseline": true,
-    "MusicXML_readback_display_retained": false,
+    "native_CLI_calls": 20,
+    "written_notes_per_readback": 222,
+    "readbacks": 6,
+    "complete_MIDI_identical": true,
+    "A120_native_full_page_reflow": "not produced",
     "new_software_adaptation": false
   },
   "native_study_history": [
@@ -3826,6 +3823,35 @@
         0,
         1
       ],
+      "new_software_adaptation": false
+    },
+    {
+      "reference": "CROSSBAR_DISPLAY_COMPOSITION.md",
+      "evidence": "crossbar_display_composition_evidence.json",
+      "planned_contexts": 3,
+      "contexts_studied": 3,
+      "controlled_one_system_candidate": [
+        1,
+        1
+      ],
+      "saved_reload": [
+        1,
+        1
+      ],
+      "MusicXML_readback_checked": [
+        1,
+        1
+      ],
+      "automatic_reflow_and_exchange_ready_solution": [
+        0,
+        1
+      ],
+      "native_CLI_calls": 30,
+      "final_CLI_calls": 22,
+      "preliminary_CLI_calls": 5,
+      "control_CLI_calls": 3,
+      "all_native_variant_MIDI_matches_real_bar_baseline": true,
+      "MusicXML_readback_display_retained": false,
       "new_software_adaptation": false
     }
   ],

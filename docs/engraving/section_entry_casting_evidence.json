@@ -1,0 +1,1057 @@
+{
+  "date": "2026-11-03",
+  "reference": "SECTION_ENTRY_CASTING_STUDY.md",
+  "previous_goal_turn": "progress: Sugar judgment review and L dynamic reaffirmation corrected, committed2f193d8",
+  "scope": "Original16-bar context, not A120 transcription or full source-page reflow. No software adaptation, independent blind accuracy or user preference claim.",
+  "license": "CC0-1.0 for original public fixtures only",
+  "planned_casting_conditions": [
+    3,
+    3
+  ],
+  "additional_fill_condition": [
+    1,
+    1
+  ],
+  "final_conditions": [
+    4,
+    4
+  ],
+  "followup_reason": {
+    "date": "2026-11-03",
+    "original_conditions": 3,
+    "additional_conditions": 1,
+    "reason": "B has same-pattern three-bar rows but final row median lower step shrinks from38.275 to30.465 tenths(~20.4%). Template lastSystemFillLimit=1 leaves final row short. D changes only this parameter to0, testing equal full-width rows.",
+    "D_break_counts": [
+      5,
+      5,
+      3,
+      3
+    ],
+    "D_only_change_from_B": {
+      "lastSystemFillLimit": [
+        "1",
+        "0"
+      ]
+    },
+    "additional_native_calls": 7,
+    "additional_saved_reload": 1,
+    "cache_budget_bytes": 2097152
+  },
+  "native_host": {
+    "sha256": "7b4e6fbfdee1863a4801f018535fa6b2082500d9a2b851dc79579b9ace95aa25",
+    "runtime_manifest": "tmp/engraving/leading-reserve-2026-10-21/runtime-with-assets-manifest.json",
+    "runtime_manifest_sha256": "b51a08dc4257b21aea836f381ef7df2386ba74293398c0fd49857ebc1f7efe6d",
+    "runtime_files_before": 1936,
+    "runtime_files_after": 1936,
+    "saved_programVersion": "3.6.3",
+    "saved_programRevision": "",
+    "source_commit_identity": "Not inferred from the version string; frozen binary and asset hashes identify this run."
+  },
+  "fixed_settings": {
+    "page_mm": [
+      210,
+      297
+    ],
+    "music_width_mm": 170,
+    "spatium_mm": 1.57,
+    "fonts": {
+      "music": "Leland",
+      "musical_text": "Leland Text",
+      "words": "Edwin"
+    },
+    "A_B_C_lastSystemFillLimit": 1,
+    "D_lastSystemFillLimit": 0
+  },
+  "native_calls": 20,
+  "A_B_C_differ_only_by_LayoutBreak": true,
+  "D_differs_from_B_only_by_fill_setting": true,
+  "layouts": {
+    "A": {
+      "starts": [
+        1,
+        5,
+        9,
+        13
+      ],
+      "counts": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "pages": 1
+    },
+    "B": {
+      "starts": [
+        1,
+        6,
+        11,
+        14
+      ],
+      "counts": [
+        5,
+        5,
+        3,
+        3
+      ],
+      "pages": 1
+    },
+    "C": {
+      "starts": [
+        1,
+        5,
+        9,
+        11,
+        14
+      ],
+      "counts": [
+        4,
+        4,
+        2,
+        3,
+        3
+      ],
+      "pages": 1
+    },
+    "B-reload": {
+      "starts": [
+        1,
+        6,
+        11,
+        14
+      ],
+      "counts": [
+        5,
+        5,
+        3,
+        3
+      ],
+      "pages": 1
+    },
+    "D": {
+      "starts": [
+        1,
+        6,
+        11,
+        14
+      ],
+      "counts": [
+        5,
+        5,
+        3,
+        3
+      ],
+      "pages": 1
+    },
+    "D-reload": {
+      "starts": [
+        1,
+        6,
+        11,
+        14
+      ],
+      "counts": [
+        5,
+        5,
+        3,
+        3
+      ],
+      "pages": 1
+    }
+  },
+  "written_records_per_readback": {
+    "A": 222,
+    "B": 222,
+    "C": 222,
+    "B-reload": 222,
+    "D": 222,
+    "D-reload": 222
+  },
+  "independent_note_attacks": 222,
+  "MIDI_all_bytes_equal": true,
+  "MIDI_bytes": 1679,
+  "MIDI_tempo_q_microseconds": [
+    [
+      "0",
+      535714
+    ],
+    [
+      "36",
+      666667
+    ],
+    [
+      "40",
+      535714
+    ]
+  ],
+  "directions_identical_including_f_reaffirmation": true,
+  "saved_reload": [
+    2,
+    2
+  ],
+  "reload_RGBA": {
+    "B": {
+      "identical": false,
+      "changed_pixels": 71,
+      "diff_bbox": [
+        494,
+        133,
+        877,
+        701
+      ],
+      "maximum_channel_difference": 2,
+      "total_pixels": 1391776
+    },
+    "D": {
+      "identical": false,
+      "changed_pixels": 74,
+      "diff_bbox": [
+        494,
+        133,
+        891,
+        942
+      ],
+      "maximum_channel_difference": 2,
+      "total_pixels": 1391776
+    }
+  },
+  "selected_geometry_tenths": {
+    "A": {
+      "10": {
+        "measure_width_tenths": 229.97,
+        "lower_note_x_tenths": [
+          13.0,
+          39.74,
+          66.48,
+          93.22,
+          119.96,
+          146.69,
+          173.43,
+          200.17
+        ],
+        "lower_gaps_tenths": [
+          26.74,
+          26.74,
+          26.74,
+          26.74,
+          26.73,
+          26.74,
+          26.74
+        ],
+        "median_lower_gap_tenths": 26.74
+      },
+      "11": {
+        "measure_width_tenths": 265.96,
+        "lower_note_x_tenths": [
+          13.0,
+          49.94,
+          79.48,
+          109.03,
+          138.58,
+          168.13,
+          197.68,
+          234.61
+        ],
+        "lower_gaps_tenths": [
+          36.94,
+          29.54,
+          29.55,
+          29.55,
+          29.55,
+          29.55,
+          36.93
+        ],
+        "median_lower_gap_tenths": 29.55
+      },
+      "14": {
+        "measure_width_tenths": 231.61,
+        "lower_note_x_tenths": [
+          13.0,
+          44.47,
+          69.64,
+          94.82,
+          119.99,
+          145.17,
+          170.34,
+          201.81
+        ],
+        "lower_gaps_tenths": [
+          31.47,
+          25.17,
+          25.18,
+          25.17,
+          25.18,
+          25.17,
+          31.47
+        ],
+        "median_lower_gap_tenths": 25.18
+      }
+    },
+    "B": {
+      "10": {
+        "measure_width_tenths": 198.37,
+        "lower_note_x_tenths": [
+          13.0,
+          35.22,
+          57.45,
+          79.67,
+          101.9,
+          124.12,
+          146.35,
+          168.57
+        ],
+        "lower_gaps_tenths": [
+          22.22,
+          22.23,
+          22.22,
+          22.23,
+          22.22,
+          22.23,
+          22.22
+        ],
+        "median_lower_gap_tenths": 22.22
+      },
+      "11": {
+        "measure_width_tenths": 388.5,
+        "lower_note_x_tenths": [
+          61.36,
+          109.2,
+          147.48,
+          185.75,
+          224.03,
+          262.3,
+          300.58,
+          348.42
+        ],
+        "lower_gaps_tenths": [
+          47.84,
+          38.28,
+          38.27,
+          38.28,
+          38.27,
+          38.28,
+          47.84
+        ],
+        "median_lower_gap_tenths": 38.28
+      },
+      "14": {
+        "measure_width_tenths": 322.11,
+        "lower_note_x_tenths": [
+          61.36,
+          99.44,
+          129.9,
+          160.37,
+          190.83,
+          221.3,
+          251.76,
+          289.84
+        ],
+        "lower_gaps_tenths": [
+          38.08,
+          30.46,
+          30.47,
+          30.46,
+          30.47,
+          30.46,
+          38.08
+        ],
+        "median_lower_gap_tenths": 30.47
+      }
+    },
+    "C": {
+      "10": {
+        "measure_width_tenths": 495.93,
+        "lower_note_x_tenths": [
+          13.0,
+          73.14,
+          133.28,
+          193.42,
+          253.56,
+          313.71,
+          373.85,
+          433.99
+        ],
+        "lower_gaps_tenths": [
+          60.14,
+          60.14,
+          60.14,
+          60.14,
+          60.15,
+          60.14,
+          60.14
+        ],
+        "median_lower_gap_tenths": 60.14
+      },
+      "11": {
+        "measure_width_tenths": 388.5,
+        "lower_note_x_tenths": [
+          61.36,
+          109.2,
+          147.48,
+          185.75,
+          224.03,
+          262.3,
+          300.58,
+          348.42
+        ],
+        "lower_gaps_tenths": [
+          47.84,
+          38.28,
+          38.27,
+          38.28,
+          38.27,
+          38.28,
+          47.84
+        ],
+        "median_lower_gap_tenths": 38.28
+      },
+      "14": {
+        "measure_width_tenths": 322.11,
+        "lower_note_x_tenths": [
+          61.36,
+          99.44,
+          129.9,
+          160.37,
+          190.83,
+          221.3,
+          251.76,
+          289.84
+        ],
+        "lower_gaps_tenths": [
+          38.08,
+          30.46,
+          30.47,
+          30.46,
+          30.47,
+          30.46,
+          38.08
+        ],
+        "median_lower_gap_tenths": 30.47
+      }
+    },
+    "D": {
+      "10": {
+        "measure_width_tenths": 198.37,
+        "lower_note_x_tenths": [
+          13.0,
+          35.22,
+          57.45,
+          79.67,
+          101.9,
+          124.12,
+          146.35,
+          168.57
+        ],
+        "lower_gaps_tenths": [
+          22.22,
+          22.23,
+          22.22,
+          22.23,
+          22.22,
+          22.23,
+          22.22
+        ],
+        "median_lower_gap_tenths": 22.22
+      },
+      "11": {
+        "measure_width_tenths": 388.5,
+        "lower_note_x_tenths": [
+          61.36,
+          109.2,
+          147.48,
+          185.75,
+          224.03,
+          262.3,
+          300.58,
+          348.42
+        ],
+        "lower_gaps_tenths": [
+          47.84,
+          38.28,
+          38.27,
+          38.28,
+          38.27,
+          38.28,
+          47.84
+        ],
+        "median_lower_gap_tenths": 38.28
+      },
+      "14": {
+        "measure_width_tenths": 385.5,
+        "lower_note_x_tenths": [
+          61.36,
+          108.76,
+          146.68,
+          184.61,
+          222.53,
+          260.45,
+          298.37,
+          345.77
+        ],
+        "lower_gaps_tenths": [
+          47.4,
+          37.92,
+          37.93,
+          37.92,
+          37.92,
+          37.92,
+          47.4
+        ],
+        "median_lower_gap_tenths": 37.92
+      }
+    }
+  },
+  "geometry_units": "10MusicXML tenths=1sp at this scaling; measure widths and same-type notehead steps separately recorded.",
+  "decision": "Prefer D in this original context; retain A as workable baseline, B as intermediate and reject C excess spreading. No A120 full-score adoption.",
+  "learning": "A section entry can gain prominence without another system; density allocation and last-system filling require separate checks. Fill setting does not fix within-bar rhythmic subdivision distortion.",
+  "protected_sources": [
+    {
+      "source": "A120 official PDF",
+      "sha256": "e3570d49205ebc4c58b74cd9756a4cfea0b78e125ce3fb4d59aca43052275bfe",
+      "unchanged": true
+    },
+    {
+      "source": "Gould local PDF",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "unchanged": true
+    },
+    {
+      "source": "user release5 MSCZ",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "unchanged": true
+    },
+    {
+      "source": "user finished PDF",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "unchanged": true
+    }
+  ],
+  "public_assets": [
+    {
+      "path": "docs/engraving/fixtures/section-entry-continuous.mscx",
+      "bytes": 44432,
+      "sha256": "158932763d881c64c97215d4e50320b40c2ef8c7b8bebbb63568cd5b371446d9",
+      "source_sha256": "1165285bb281431c36e71577c018aaa958b4ec2359d41cd4cb98b5dea1161557",
+      "license": "CC0-1.0",
+      "processing": "Original editable source with CRLF normalized to LF only; parsed XML tree identical to the native-tested input."
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-continuous.png",
+      "bytes": 78832,
+      "sha256": "e991c2d5c373dbbb1dd4f91a4d4e8a0008526399fe68d34344c214ad1cd8a916",
+      "source_sha256": "6b0b925d2009837bc612d4d65281fb5b0301ec8a46a39c12613215e3b8ae5413",
+      "license": "CC0-1.0",
+      "processing": "MuseScore native120dpi full page, white alpha composite only; no crop, resizing or symbol movement"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-reflow.mscx",
+      "bytes": 44432,
+      "sha256": "76ef97ca296d976d3b935f2dd4a408978a01b6b51014e7fa1180593e928f2bf0",
+      "source_sha256": "a088159424bf485e5e3398b1c3b07eae00ce790ee8beffaafdfa9201a3e030de",
+      "license": "CC0-1.0",
+      "processing": "Original editable source with CRLF normalized to LF only; parsed XML tree identical to the native-tested input."
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-reflow.png",
+      "bytes": 81546,
+      "sha256": "6cb2d81c8fd5ca15c857bb4c5e1d7a1f4efb6e2e695e2f95cb0657321e9923e6",
+      "source_sha256": "3115f628ad7969cd153ca1cf42dc6495e4ce3dcf4dd3e6f4afb7de2367aa9625",
+      "license": "CC0-1.0",
+      "processing": "MuseScore native120dpi full page, white alpha composite only; no crop, resizing or symbol movement"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-extra-row.mscx",
+      "bytes": 44511,
+      "sha256": "b9cb60e7a8a750ac0967b39d718489535c8c6260749c6f83b5bca9d78ca8c14c",
+      "source_sha256": "3cf3cbca7af33200bec7b9bfedaf3058de2d4c5f9e0b41e886ec49bfff6b4dbb",
+      "license": "CC0-1.0",
+      "processing": "Original editable source with CRLF normalized to LF only; parsed XML tree identical to the native-tested input."
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-extra-row.png",
+      "bytes": 85831,
+      "sha256": "72deae94e5c6993a0585d8373110d8395e881628512149744221e0ce9232cb2e",
+      "source_sha256": "9a282634c68fdd6b91c19dfad661db85f8651dfc5fbadd8d5c16dac4ed18d991",
+      "license": "CC0-1.0",
+      "processing": "MuseScore native120dpi full page, white alpha composite only; no crop, resizing or symbol movement"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-filled.mscx",
+      "bytes": 44432,
+      "sha256": "76eace785c0036fa99be19e2bc4d0bf001868f7356f1357cd64f984814641c1f",
+      "source_sha256": "5d712b86686b1edaff33eade0f6cbf70932cbd25c3a5c474ff37122d1f60b45a",
+      "license": "CC0-1.0",
+      "processing": "Original editable source with CRLF normalized to LF only; parsed XML tree identical to the native-tested input."
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-filled.png",
+      "bytes": 81323,
+      "sha256": "a66d99eaf4c422f25fe42bb86c55391c22b5919f0f5aab5271b5c87b7180588a",
+      "source_sha256": "b685b88cb2da67fac10361f2ec22b82fd43f96497ae6a85daa109eec2bd19b7f",
+      "license": "CC0-1.0",
+      "processing": "MuseScore native120dpi full page, white alpha composite only; no crop, resizing or symbol movement"
+    }
+  ],
+  "raw_evidence_sha256": {
+    "scope.json": "7ddf20e7a2704e1836cab10da1963953251db8f92452c3123d39ebe30d3e7b17",
+    "followup_scope.json": "f732f55069b6d0cce1425d1872f7a7b9242f927e890df2aa9ee4d6d5adf88260",
+    "preparation.json": "dc6728ccd4ca08d9059855a945f98b7cdcad24785c3088404c14fcd07dafc876",
+    "recipe.json": "5043d0afed98cd48e75da1eaf090faab370b45da934c338f697c2595c2f31f2a",
+    "verification.json": "e334e0d9b19c9a2bfdf9942fe695021388fd6f1767917de4739919f490dc1ce4",
+    "native_calls.json": "a96cd9ba99b36af582ee105b30021aa36dc1ef341b735e443174c101e94a3bb0"
+  },
+  "private_cache": {
+    "path": "tmp/engraving/section-entry-2026-11-03",
+    "budget_bytes": 2097152,
+    "policy": "Reuse1936-file runtime and four protected sources; no source-PDF/runtime copy or file deletion. Final bytes/manifest recorded after checks.",
+    "bytes": 1387153,
+    "files": [
+      {
+        "path": "A.mscx",
+        "bytes": 46144
+      },
+      {
+        "path": "B-saved.mscx",
+        "bytes": 45077
+      },
+      {
+        "path": "B.mscx",
+        "bytes": 46144
+      },
+      {
+        "path": "build_release.py",
+        "bytes": 6206
+      },
+      {
+        "path": "C.mscx",
+        "bytes": 46226
+      },
+      {
+        "path": "D-saved.mscx",
+        "bytes": 45077
+      },
+      {
+        "path": "D.mscx",
+        "bytes": 46144
+      },
+      {
+        "path": "exports/A-1.png",
+        "bytes": 60893
+      },
+      {
+        "path": "exports/A.mid",
+        "bytes": 1679
+      },
+      {
+        "path": "exports/A.musicxml",
+        "bytes": 81828
+      },
+      {
+        "path": "exports/B-1.png",
+        "bytes": 63016
+      },
+      {
+        "path": "exports/B-reload-1.png",
+        "bytes": 62997
+      },
+      {
+        "path": "exports/B-reload.mid",
+        "bytes": 1679
+      },
+      {
+        "path": "exports/B-reload.musicxml",
+        "bytes": 81824
+      },
+      {
+        "path": "exports/B.mid",
+        "bytes": 1679
+      },
+      {
+        "path": "exports/B.musicxml",
+        "bytes": 81825
+      },
+      {
+        "path": "exports/C-1.png",
+        "bytes": 67026
+      },
+      {
+        "path": "exports/C.mid",
+        "bytes": 1679
+      },
+      {
+        "path": "exports/C.musicxml",
+        "bytes": 82251
+      },
+      {
+        "path": "exports/D-1.png",
+        "bytes": 63065
+      },
+      {
+        "path": "exports/D-reload-1.png",
+        "bytes": 63052
+      },
+      {
+        "path": "exports/D-reload.mid",
+        "bytes": 1679
+      },
+      {
+        "path": "exports/D-reload.musicxml",
+        "bytes": 81825
+      },
+      {
+        "path": "exports/D.mid",
+        "bytes": 1679
+      },
+      {
+        "path": "exports/D.musicxml",
+        "bytes": 81826
+      },
+      {
+        "path": "followup_scope.json",
+        "bytes": 571
+      },
+      {
+        "path": "integrate.py",
+        "bytes": 9851
+      },
+      {
+        "path": "native-config/workspaces/global/menubar.xml",
+        "bytes": 10757
+      },
+      {
+        "path": "native.py",
+        "bytes": 1058
+      },
+      {
+        "path": "native_calls.json",
+        "bytes": 8387
+      },
+      {
+        "path": "preparation.json",
+        "bytes": 1496
+      },
+      {
+        "path": "prepare.py",
+        "bytes": 7293
+      },
+      {
+        "path": "public_assets.json",
+        "bytes": 3345
+      },
+      {
+        "path": "publish_assets.py",
+        "bytes": 1306
+      },
+      {
+        "path": "read.png",
+        "bytes": 81310
+      },
+      {
+        "path": "recipe.json",
+        "bytes": 36497
+      },
+      {
+        "path": "run_D.py",
+        "bytes": 443
+      },
+      {
+        "path": "run_remaining.py",
+        "bytes": 558
+      },
+      {
+        "path": "scope.json",
+        "bytes": 731
+      },
+      {
+        "path": "validate_library.py",
+        "bytes": 3359
+      },
+      {
+        "path": "validation_report.json",
+        "bytes": 15265
+      },
+      {
+        "path": "verification.json",
+        "bytes": 33935
+      },
+      {
+        "path": "verify.py",
+        "bytes": 8117
+      },
+      {
+        "path": "view.py",
+        "bytes": 354
+      }
+    ],
+    "accounting": "Final batch inventory after scripts and checks; sources/runtime reused externally. No deletion."
+  },
+  "new_reference_reading_coverage": 0,
+  "new_resource_completions": 0,
+  "new_user_aesthetic_preferences": 0,
+  "new_software_adaptation": false,
+  "validation": {
+    "status": "passed",
+    "recorded_at_utc": "2026-11-02T17:38:45.201657+00:00",
+    "retrieval_regression": [
+      6,
+      6
+    ],
+    "targeted_queries": [
+      4,
+      4
+    ],
+    "new_routes": [
+      5,
+      5
+    ],
+    "all_topics": [
+      20,
+      20
+    ],
+    "local_links": [
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "SUGAR_HANDOVER_REVIEW.md"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "fixtures/section-entry-continuous.mscx"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "fixtures/section-entry-continuous.png"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "fixtures/section-entry-reflow.mscx"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "fixtures/section-entry-reflow.png"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "fixtures/section-entry-extra-row.mscx"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "fixtures/section-entry-extra-row.png"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "fixtures/section-entry-filled.mscx"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "fixtures/section-entry-filled.png"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "SPACING_MODELS.md"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "BEAM_OPERATIONS_STUDY.md"
+      },
+      {
+        "from": "SECTION_ENTRY_CASTING_STUDY.md",
+        "target": "section_entry_casting_evidence.json"
+      },
+      {
+        "from": "SUGAR_HANDOVER_REVIEW.md",
+        "target": "INTEGRATED_READING_STYX_SUGAR.md"
+      },
+      {
+        "from": "SUGAR_HANDOVER_REVIEW.md",
+        "target": "sugar_handover_review_evidence.json"
+      },
+      {
+        "from": "SUGAR_HANDOVER_REVIEW.md",
+        "target": "SECTION_ENTRY_CASTING_STUDY.md"
+      }
+    ],
+    "queries": [
+      {
+        "topic": "layout",
+        "query": "段首 末行 填充",
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SUGAR_HANDOVER_REVIEW.md",
+            "line": 70,
+            "heading": "怎样接入后续工作",
+            "excerpt": "2026-11-03后续：[原创分行对照](SECTION_ENTRY_CASTING_STUDY.md)已核3种分行＋1项末行填充、两重载，机制例优先D；A120实曲完整重排仍未制作。本篇及后续现收录0.33固定版。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\JUDGMENT_GUIDE.md",
+            "line": 3,
+            "heading": "从参考谱学到的净书判断，怎样用于下一份谱",
+            "excerpt": "新增[段首与末行实际对照](SECTION_ENTRY_CASTING_STUDY.md)：先比较邻行容量，再核末行填充。原生3＋1版中，直接插断行造成前段过松；重分邻行兼顾入口后，已有末行样式又可降低同型粒度差。所选D有情境依据，不作全谱阈值或源官谱已改进的结论。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SECTION_ENTRY_CASTING_STUDY.md",
+            "line": 41,
+            "heading": "2. 同样三小节一行，还要核末系统的实际填充",
+            "excerpt": "本输入沿用模板的`lastSystemFillLimit=1`。追加D只将其改为0后，末行伸展到音乐区右界；第11小节仍3.828sp，第14小节变为3.792sp，差约0.94%。剩余差与最终终止线等占位同处，不要求硬拖到完全相等。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 3,
+            "heading": "钢琴净书研究：规范、案例与实现依据",
+            "excerpt": "2026-11-03，[段首分行与末行伸展](SECTION_ENTRY_CASTING_STUDY.md)完成**分行3/3＋单参数补充1/1、重载2/2**。原创16小节222音与完整MIDI保持；本例优先D，L行首／四行预算兼顾，同型两行粒度差约20.40%降至0.94%，C过松不取。连同Sugar复核固定为**0.33研究版**；资料仍**16/25、余9项**，A120实曲替代未制作，无软件适配。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\CASTING_OFF_READING.md",
+            "line": 47,
+            "heading": "3. 末行七小节：主要压缩的是长值占用",
+            "excerpt": "**p8第五系统S有五小节，最后系统有七小节。** S行上部黑头数量为8／6／8／6／8；末行前三小节为6／8／6，随后是三个全小节长值和一个全小节休止。最后四小节的空间需求较小，可以接在活动音型后完成收束。"
+          }
+        ]
+      },
+      {
+        "topic": "spacing",
+        "query": "lastSystemFillLimit",
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SECTION_ENTRY_CASTING_STUDY.md",
+            "line": 18,
+            "heading": "四版实际怎样读",
+            "excerpt": "A／B／C的输入仅`LayoutBreak`不同。D在B上只把`lastSystemFillLimit`从1改为0；这是明确的一项样式变化，不能将D的全部收益都归给换行。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\STEM_OPTICAL_LIMITS.md",
+            "line": 32,
+            "heading": "2. 45mm两版都应先解决容量",
+            "excerpt": "将前轮二度／变音加四个G5四分的原创例压到页面可打印宽参数45mm，比较默认E与旧联合偏移F。保留实验样式的`minMeasureWidth=0`、`lastSystemFillLimit=0`及其余参数；这是一份明确压窄的压力构型，不能代表普通MuseScore默认样式的全部行为。"
+          }
+        ]
+      },
+      {
+        "topic": "tempo",
+        "query": "恢复点 另起行 末行",
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SECTION_ENTRY_CASTING_STUDY.md",
+            "line": 3,
+            "heading": "恢复点另起行：先重分邻行，再检查末行伸展",
+            "excerpt": "2026-11-03。接续[Sugar实谱复核](SUGAR_HANDOVER_REVIEW.md)中L段的判断，用一首独立16小节钢琴小品比较实际代价。**三种预定分行3/3，发现末行问题后追加单参数对照1/1；共4/4版、2/2保存重载、20次原生CLI。** 本例倾向D：恢复点在行首，前段适度压紧，重复音型两行的粒度接近。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_HOMURA_HYORI.md",
+            "line": 65,
+            "heading": "6. 行与页：换结构可以发生在行中，等待也是版面内容",
+            "excerpt": "Homura末页6系统，比首页4系统紧凑；音乐密度与标题占位不同，不能把首页行数当模板。末行先rit.两小节，**J Adagio sostenuto在第三小节**，仍可沿同一行进入稀疏琶音和弦，读者已有双线、文字和织体变化作识别。为J另起行可能浪费空间，但是否有利于实际翻页须另看装订／演奏条件。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_SOUL_WAR.md",
+            "line": 76,
+            "heading": "7. 下一步怎样用这些经验",
+            "excerpt": "先保：相同角色的稳定活动、必要前缀、慢线与背景、实际提前音和恢复点、不同类别线条。优先诊断：转换后H速度是否被错挂到下一小节、mf／pp是否被合并、自由段是否被自动补比例、重复强奏是否误复制了8va／手／gliss.范围。只有确认这些含义后才提出局部间距或通道候选。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 53,
+            "heading": "钢琴净书研究：规范、案例与实现依据",
+            "excerpt": "2026-11-01补[叙事曲／幻想波兰舞曲预览学习](BALLADE_POLONAISE_PREVIEW_READING.md)：R07实看**11/118格**，R08**34/82格**（预选概览30/30）；三图已取得。保持续与活动层、行中入口和恢复点，间距先认主读节奏；视频留白不作纸谱分页依据。两项仍partial，资料**16/25、余9**，无新原生／适配，固定0.25保留。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\POLONAISE_TECHNIQUE_READING.md",
+            "line": 3,
+            "heading": "幻想波兰舞曲：特殊奏法的范围、持续背景与再现变化",
+            "excerpt": "2026-11-02。**保住特殊奏法的开始和恢复点，再整理文字、线条和间距。** R08的Hand muting、ord.和独立持续层说明：外观相似的音型，可能要求不同动作；净书时需要把这些关系读出来。"
+          }
+        ]
+      },
+      {
+        "topic": "cases",
+        "query": "16小节 L 另起行",
+        "matches": [
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\SECTION_ENTRY_CASTING_STUDY.md",
+            "line": 3,
+            "heading": "恢复点另起行：先重分邻行，再检查末行伸展",
+            "excerpt": "2026-11-03。接续[Sugar实谱复核](SUGAR_HANDOVER_REVIEW.md)中L段的判断，用一首独立16小节钢琴小品比较实际代价。**三种预定分行3/3，发现末行问题后追加单参数对照1/1；共4/4版、2/2保存重载、20次原生CLI。** 本例倾向D：恢复点在行首，前段适度压紧，重复音型两行的粒度接近。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\README.md",
+            "line": 5,
+            "heading": "钢琴净书研究：规范、案例与实现依据",
+            "excerpt": "2026-11-03，[Sugar换手／间距／段首复核](SUGAR_HANDOVER_REVIEW.md)完成**3/3判断、7/7官谱页、6/6规范图页**：保跨线六音右手范围及重升号前宽格；修正L段分行初判，提高另起行比较优先级。已接入七个skill入口；资料仍**16/25、余9项**，原件只读，0.32之后工作分支补充，无新原生或适配。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\INTEGRATED_READING_NAGI_NIER.md",
+            "line": 9,
+            "heading": "1. L与X：整齐的骨架允许有理由的局部放宽",
+            "excerpt": "Nagi p5第四系统L，下部连续十六分在三小节中形成同类波形，上部四分、附点与tie保留旋律。三小节各16列，45个头原点间隔约9.900–9.918pt。慢旋律的进入和延续没有把快层拉成忽大忽小的洞，读者能在熟悉的步幅中预判下一音，同时跟踪上方较慢的线。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\MEDLEY_200_CH08.md",
+            "line": 41,
+            "heading": "3. K十一连、L六连：休止计入组，音头数量可以少一个",
+            "excerpt": "**p98 s2首小节，L：保q2的休止＋五个16组成的六连。** 快层六份占q2–3，括号从首休止开始，slur从首个实音开始，后面q3普通八分已经在组外。上部还有q2自己的普通四分八度，q3八分休止，q3.5新八度进入；下部二分持续。括号、slur、背景和快线各有任务，不能为了看起来少一层而把它们合并。"
+          },
+          {
+            "path": "E:\\programming\\funcodes\\mcp-musescore\\docs\\engraving\\MEDLEY_200_CH09.md",
+            "line": 43,
+            "heading": "4. H与L同为6/8：大拍、速度单位与起音数各自核对",
+            "excerpt": "**p108 s4，L／Tabibito no Uta：同样6/8，速度却明写八分＝130。** 可见速度符号为八分，与H的附点四分不同；换算为附点四分约43.33仅用于核读法，不据此改谱或替作者重定脉冲。上部首小节两次附点四分和弦各占一大拍，下部“附点8＋16＋四个8”合3q。"
+          }
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "check": "progress",
+        "exit_code": 0,
+        "stdout": "{\n  \"as_of\": \"2026-11-03\",\n  \"scope_revision\": 1,\n  \"goal_status\": \"active\",\n  \"note\": \"数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。\",\n  \"first_pass_scores\": [\n    146,\n    146\n  ],\n  \"first_pass_pages\": [\n    1135,\n    1135\n  ],\n  \"historical_detail_pages\": 379,\n  \"deep_scores\": [\n    24,\n    24\n  ],\n  \"deep_pages\": [\n    164,\n    164\n  ],\n  \"all_score_closeout\": [\n    146,\n    146\n  ],\n  \"gould_pages_conservative\": [\n    696,\n    696\n  ],\n  \"gould_substantive_pages\": 598,\n  \"gould_non_substantive_pages\": 98,\n  \"gould_title_or_contents_pages\": 98,\n  \"public_resource_scopes\": [\n    16,\n    25\n  ],\n  \"skill_transfer_scenarios\": [\n    8,\n    8\n  ],\n  \"user_integrated_rounds\": [\n    1,\n    1\n  ],\n  \"user_milestones\": [\n    4,\n    4\n  ],\n  \"skill_topics\": [\n    20,\n    20\n  ],\n  \"release\": \"engraving-v0.33.0\"\n}\n",
+        "stderr": ""
+      },
+      {
+        "check": "skill",
+        "exit_code": 0,
+        "stdout": "Skill is valid!\n",
+        "stderr": ""
+      },
+      {
+        "check": "retrieval_regression",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": "test_curated_source_locations (test_engraving_library.EngravingLibraryTests.test_curated_source_locations) ... ok\ntest_existing_topic_listing_and_all_twenty_routes (test_engraving_library.EngravingLibraryTests.test_existing_topic_listing_and_all_twenty_routes) ... ok\ntest_fullwidth_ratio_works_like_ascii (test_engraving_library.EngravingLibraryTests.test_fullwidth_ratio_works_like_ascii) ... ok\ntest_invalid_limits_and_empty_search (test_engraving_library.EngravingLibraryTests.test_invalid_limits_and_empty_search) ... ok\ntest_missing_query_has_no_fake_references (test_engraving_library.EngravingLibraryTests.test_missing_query_has_no_fake_references) ... ok\ntest_search_keeps_library_sources_unchanged (test_engraving_library.EngravingLibraryTests.test_search_keeps_library_sources_unchanged) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 8.539s\n\nOK\n"
+      },
+      {
+        "check": "diff_check",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      {
+        "check": "staged_diff_check",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    ],
+    "query_refinement": {
+      "initial_tempo_query": "恢复 入口",
+      "initial_new_case_in_top5": false,
+      "initial_returned_relevant_examples": [
+        "BALLADE_POLONAISE_PREVIEW_READING.md",
+        "INTEGRATED_READING_RAILGUN_PIERCE.md",
+        "METRE_TEMPO_READING.md",
+        "INTEGRATED_READING_DEAREST_HERO.md"
+      ],
+      "decision": "Broad query has many applicable old examples; no ranking change. Refine with actual casting-off/last-row context to verify discoverability of this case. This is not query accuracy or musical correctness scoring."
+    },
+    "scope": "Retrieval/progress/links/skill format only. Native evidence is separately verified; no independent engraving accuracy or user adoption claim."
+  },
+  "publication_line_ending_normalization": {
+    "files": [
+      "docs/engraving/fixtures/section-entry-continuous.mscx",
+      "docs/engraving/fixtures/section-entry-reflow.mscx",
+      "docs/engraving/fixtures/section-entry-extra-row.mscx",
+      "docs/engraving/fixtures/section-entry-filled.mscx"
+    ],
+    "XML_trees_identical_to_native_tested_inputs": true,
+    "native_rerender_required": false,
+    "scope": "Only serialized CRLF-to-LF; retained raw native-tested inputs and renders unchanged."
+  }
+}
