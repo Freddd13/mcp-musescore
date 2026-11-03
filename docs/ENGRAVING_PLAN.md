@@ -1,12 +1,14 @@
 # 钢琴净书研究与自动净书准备计划
 
+2026-11-03，工作分支补[R14跨表琶音教程](engraving/ARPEGGIO_TUTORIAL_READING.md)：三部分预览**188/188格（42＋35＋111）**、三问题**3/3**，另复看12格及Gould三完整页。贯通／分组、印刷／回放、直括形含义分别判断；同Voice与Part操作边界已核源码。R14仍partial，资料**16/25余9**；0.34固定发布保持，新增知识／skill可查，无新原生或适配。
+
 2026-11-03发布**0.34.0研究版**：[Avid指定整页对照](engraving/AVID_WIDTH_BUDGET.md)1/1、六行1/1、重载1/1。纸面预算已校准，源谱式续行在固定字体下可用，保MIDI拍号代价与紧容量条件；20个skill入口可用。资料16/25余9及完整目标保留，后续回到可得资料和实际应用，本阶段无适配。
 
 2026-11-03补[Avid边界与容量](engraving/AVID_CAPACITY_BOUNDARIES.md)：上下文2/2、容量3/3及两份768记录已核；目标18/18保持，1.0以下无额外压缩，仍两页八行。完整整页比较0/1、资料16/25余9保持，知识／skill可用，无软件适配。
 
 2026-11-03补[Avid整页准备](engraving/AVID_PAGE_INPUT.md)：目标输入18/18、633/633符头、三份679记录及重载已核；两原生准备版均两页九行。整页比较0/1、边界上下文0/2与资料16/25余9保留；固定0.33可用，本阶段继续学习与知识维护，不开发适配。
 
-当前固定研究版为**0.33.0**；随后补充的[R12页面操作](engraving/PAGE_TUTORIAL_READING.md)与[R13谱表操作边界](engraving/STAFF_TUTORIAL_READING.md)已接入可用skill。完整进度见[当前报告](engraving/STATUS_AND_ROADMAP.md)：官谱146/146、Gould696/696页阅读覆盖，资料16/25、余9项；原学习范围保持，接着在完整上下文审谱中检验判断，本阶段不开发软件适配。
+此前固定研究版为**0.33.0**；随后补充的[R12页面操作](engraving/PAGE_TUTORIAL_READING.md)与[R13谱表操作边界](engraving/STAFF_TUTORIAL_READING.md)已接入可用skill。完整进度见[当前报告](engraving/STATUS_AND_ROADMAP.md)：官谱146/146、Gould696/696页阅读覆盖，资料16/25、余9项；原学习范围保持，接着在完整上下文审谱中检验判断，本阶段不开发软件适配。
 
 2026-11-02固定0.31研究版：收录[跨线显示组合](engraving/CROSSBAR_DISPLAY_COMPOSITION.md)、[三类实谱判断3/3](engraving/REAL_SCORE_READING_TRADEOFFS.md)与[Kokecola四问题4/4](engraving/KOKE_COLA_CAUSAL_REVIEW.md)，更正两降号合列误读。官谱146/146、1135/1135页及Gould696/696覆盖保持；资料16/25余9，20个skill入口可用。继续学习和实际判断，本阶段不做自动净书软件适配。
 

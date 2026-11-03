@@ -3033,13 +3033,13 @@
         "id": "R14",
         "scope": "萌象的J哥：跨表琶音视频",
         "status": "partial",
-        "evidence": "musescore3_arpeggio_video_partial_evidence.json",
-        "remaining": "Actual31:21operation sequence,examples,and audio have not been studied; page metadata is not tutorial completion.",
+        "evidence": "arpeggio_tutorial_reading_evidence.json",
+        "remaining": "All188advertisedpreviewcellsread;full31:21audio/continuousactions,sourceproject,preciseeventtimingsandsavedresultnotverified.",
         "identity_evidence": "resource_identity_evidence.json",
         "canonical_url": "https://www.bilibili.com/video/BV1F44y1L7u8/",
         "metadata_identity_verified": true,
-        "latest_access_followup_evidence": "fanned_beams_reading_evidence.json",
-        "latest_access_note": "Thisturnanonymousofficialmetadata412;nobodyornewpreviewreceived.Stopunchangedpaths;nocoverageincrement."
+        "latest_access_followup_evidence": "arpeggio_tutorial_reading_evidence.json",
+        "latest_access_note": "Anonymousofficialpreviewpathnowreadable:3parts188/188cells;notfullvideo/audio."
       },
       {
         "id": "R15",
@@ -3285,7 +3285,7 @@
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.34固定Avid整页预算校准、六行续行候选与前序研究；原学习范围和资料16/25余9保持，无软件适配。",
+    "working_branch_note": "0.34固定发布保持；工作分支补R14三部分188格预览、含义及操作边界，固定资料16/25余9，无软件适配。",
     "evidence": "release_0_34_0_evidence.json"
   },
   "last_study_batch": {
@@ -3300,28 +3300,28 @@
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 1,
+    "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
-    "new_source_media": 0,
-    "new_native_diagnostic_conditions": 7,
-    "native_CLI_calls": 31,
-    "book_reread_pages": 0,
+    "new_source_media": 4,
+    "new_native_diagnostic_conditions": 0,
+    "native_CLI_calls": 0,
+    "book_reread_pages": 3,
     "official_score_reread_pages": 0,
-    "official_system_views_reused": 0,
+    "official_system_views_reused": 1,
     "date": "2026-11-03",
-    "scope": "实际谱线预算已校准，整页对照1/1、原生重载1/1：续行一页六行，完整另起行两页七行；两结构通道事件相同，MIDI拍号与控制轨结束不同。",
+    "scope": "R14三部分188/188预览、三问题3/3及12格复看；Gould三页和A089旧裁图复核。完整声音／操作未闭合。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "AVID_WIDTH_BUDGET.md"
+      "ARPEGGIO_TUTORIAL_READING.md"
     ],
-    "review_evidence": "avid_width_budget_evidence.json",
+    "review_evidence": "arpeggio_tutorial_reading_evidence.json",
     "software_adaptation": false,
-    "new_public_preview_readings": 0,
+    "new_public_preview_readings": 3,
     "public_preview_rereads": 0,
-    "public_preview_cells_read": 0,
-    "focused_preview_rechecks": 0,
-    "failed_style_override_probes": 1
+    "public_preview_cells_read": 188,
+    "focused_preview_rechecks": 12,
+    "failed_style_override_probes": 0
   },
   "latest_native_study": {
     "reference": "AVID_WIDTH_BUDGET.md",
@@ -4176,22 +4176,41 @@
     "scope": "整曲复审及H纸面容量／连续细分新计量；旧T06结论明确复用，不增加覆盖、独立迁移或原生候选。"
   },
   "latest_supplemental_reading": {
-    "reference": "STAFF_TUTORIAL_READING.md",
-    "evidence": "staff_tutorial_reading_evidence.json",
-    "resource_id": "R13",
-    "public_preview_cells": [
-      89,
-      89
+    "reference": "ARPEGGIO_TUTORIAL_READING.md",
+    "evidence": "arpeggio_tutorial_reading_evidence.json",
+    "resource_id": "R14",
+    "public_preview_parts": [
+      3,
+      3
     ],
+    "public_preview_cells": [
+      188,
+      188
+    ],
+    "per_part_cells": {
+      "1": [
+        42,
+        42
+      ],
+      "2": [
+        35,
+        35
+      ],
+      "3": [
+        111,
+        111
+      ]
+    },
     "questions": [
       3,
       3
     ],
     "focused_rechecks": 12,
+    "Gould_full_page_rereads": 3,
     "new_fixed_resource_completions": 0,
     "new_Gould_coverage": 0,
     "new_native_conditions": 0,
-    "scope": "增加／拆分谱表及图形补法条件已梳理；整条源表的按音高拆分与局部跨表需求分开，未验证完整操作／声音。"
+    "scope": "预览范围已闭合；连续音视频／源工程仍缺。先认动作及成员，区分印刷跨度、回放事件、直括形含义和同Voice／Part操作边界。"
   },
   "judgment_review_history": [
     {
@@ -4405,13 +4424,13 @@
       "evidence": "clef_in_group_evidence.json",
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
-    "scope": "余9项R07–R15保持。R07/R08/R09预览118/118、82/82、32/32，R11两部分68/68＋165/165，R12预览117/117已看；完整讲解／连续细步骤、细小校勘及其它缺口继续保留，不重复无变化的失败入口。 R13预览现已89/89，仍partial。取舍建议未获用户确认，固定资料范围未改变。",
+    "scope": "余9项R07–R15保持。R07/R08/R09预览118/118、82/82、32/32，R11两部分68/68＋165/165，R12预览117/117已看；完整讲解／连续细步骤、细小校勘及其它缺口继续保留，不重复无变化的失败入口。 R13预览现已89/89，仍partial。取舍建议未获用户确认，固定资料范围未改变。 R14三部分预览现188/188，仍partial；完整声音和连续步骤缺口保留。",
     "pending_local_file_path_question": true,
     "unchanged_access_path_retries_planned": 0,
-    "latest_available_supplement": "STAFF_TUTORIAL_READING.md",
+    "latest_available_supplement": "ARPEGGIO_TUTORIAL_READING.md",
     "official_preview_path_confirmed_for_R09": true,
     "official_preview_path_confirmed_for_R07_R08": true,
-    "next_readable_operation_reference": "Avid整曲复审之后，半小节续行原创三版／重载／导回控制已核；实际原曲上下文替代仍0/1，余9项范围保持。",
+    "next_readable_operation_reference": "R15自定义文字／图片作为符号模板；已核589秒身份，尚未读画面。已有Avid整页指定比较已完成，不再延伸本轮微调。",
     "next_R10_public_preview_search": {
       "planned_candidate_works": 2,
       "source_previews_located": 2,
@@ -4436,6 +4455,16 @@
       "reference": "STAFF_TUTORIAL_READING.md",
       "evidence": "staff_tutorial_reading_evidence.json",
       "scope": "仅公开预览范围完成；R13完整资料仍partial。"
+    },
+    "next_R14_public_preview_reading": {
+      "planned_parts": 3,
+      "completed_parts": 3,
+      "planned_cells": 188,
+      "read_cells": 188,
+      "reference": "ARPEGGIO_TUTORIAL_READING.md",
+      "evidence": "arpeggio_tutorial_reading_evidence.json",
+      "status": "public_preview_scope_complete",
+      "remaining": "full audio/continuous action and saved project"
     }
   },
   "next_layout_reading": {
@@ -5054,6 +5083,24 @@
       "new_Gould_coverage": 0,
       "new_native_conditions": 0,
       "scope": "R12未读转公开预览已读partial；实际时值／框架／空间控制分读，不等于完整视频及当前宿主操作验证。"
+    },
+    {
+      "reference": "STAFF_TUTORIAL_READING.md",
+      "evidence": "staff_tutorial_reading_evidence.json",
+      "resource_id": "R13",
+      "public_preview_cells": [
+        89,
+        89
+      ],
+      "questions": [
+        3,
+        3
+      ],
+      "focused_rechecks": 12,
+      "new_fixed_resource_completions": 0,
+      "new_Gould_coverage": 0,
+      "new_native_conditions": 0,
+      "scope": "增加／拆分谱表及图形补法条件已梳理；整条源表的按音高拆分与局部跨表需求分开，未验证完整操作／声音。"
     }
   ],
   "latest_source_identity_review": {

@@ -1,0 +1,624 @@
+{
+  "date": "2026-11-03",
+  "resource": "R14",
+  "reference": "ARPEGGIO_TUTORIAL_READING.md",
+  "status": "partial",
+  "identity": {
+    "url": "https://api.bilibili.com/x/web-interface/view?bvid=BV1F44y1L7u8",
+    "bvid": "BV1F44y1L7u8",
+    "author": "萌象的J哥",
+    "version_stated_by_author": "3.6.2",
+    "total_duration_seconds": 1881,
+    "full_video_audio_obtained": false
+  },
+  "public_preview": {
+    "anonymous": true,
+    "cookies_used": false,
+    "raw_video_audio_requested": false,
+    "parts": [
+      {
+        "part": 1,
+        "cid": 485433990,
+        "cells": [
+          42,
+          42
+        ],
+        "metadata_url": "https://api.bilibili.com/x/player/videoshot?bvid=BV1F44y1L7u8&cid=485433990&index=1",
+        "metadata_sha256": "dcc14dbe7c4732f7d2b0305fb8c27a2ef7e7fdae0108d1a4b52a585b1be2a156",
+        "time_index": {
+          "source": "JSON index as advertised"
+        },
+        "images": [
+          {
+            "url": "https://bimp.hdslb.com/videoshotpvhdboss/485433990_4fceab-0001.jpg",
+            "path": "part1-sheet1.jpg",
+            "bytes": 443913,
+            "sha256": "ae4ce2ad8e485e8ab3a1630e51adb689eef7d76bccbd503b5cd792a933ebd323",
+            "pixels": [
+              4800,
+              2700
+            ]
+          }
+        ]
+      },
+      {
+        "part": 2,
+        "cid": 789702289,
+        "cells": [
+          35,
+          35
+        ],
+        "metadata_url": "https://api.bilibili.com/x/player/videoshot?bvid=BV1F44y1L7u8&cid=789702289&index=1",
+        "metadata_sha256": "6332bc9101f45dcd1e09c6476ef1761d92082d0a9732fde9cf2b00b9e343b8b8",
+        "time_index": {
+          "source": "JSON index as advertised"
+        },
+        "images": [
+          {
+            "url": "https://bimp.hdslb.com/videoshotpvhdboss/789702289_69012b-0001.jpg",
+            "path": "part2-sheet1.jpg",
+            "bytes": 411485,
+            "sha256": "fd36da5c1825832862629c626decf703073db632e9f70fd258b308514a1e2cd4",
+            "pixels": [
+              4800,
+              2700
+            ]
+          }
+        ]
+      },
+      {
+        "part": 3,
+        "cid": 1227277207,
+        "cells": [
+          111,
+          111
+        ],
+        "metadata_url": "https://api.bilibili.com/x/player/videoshot?bvid=BV1F44y1L7u8&cid=1227277207&index=1",
+        "metadata_sha256": "6f2dbf62ec755cd859c37d581bc6adf631726003d7d61e82db2be6b693cf7a85",
+        "time_index": {
+          "source": "JSON index as advertised"
+        },
+        "images": [
+          {
+            "url": "https://bimp.hdslb.com/videoshotpvhdboss/1227277207_o32bmb-0001.jpg",
+            "path": "part3-sheet1.jpg",
+            "bytes": 966701,
+            "sha256": "4512d838cb709fb558526277b4671033c08af2b77663c543805df5783f0069b3",
+            "pixels": [
+              4800,
+              2700
+            ]
+          },
+          {
+            "url": "https://bimp.hdslb.com/videoshotpvhdboss/1227277207_o32bmb-0002.jpg",
+            "path": "part3-sheet2.jpg",
+            "bytes": 170180,
+            "sha256": "11fea39408134e71d4e08f26fd106a1ab728ccd554e853d49bba56795ed05fb4",
+            "pixels": [
+              4800,
+              2700
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "visual_review": {
+    "planned_cells": 188,
+    "cells_actually_read": {
+      "1": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "2": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "3": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ]
+    },
+    "sequential_montages": 22,
+    "focused_recheck_cells": {
+      "1": [
+        21,
+        22,
+        24
+      ],
+      "2": [
+        12,
+        13,
+        21
+      ],
+      "3": [
+        23,
+        35,
+        60,
+        61,
+        62,
+        91
+      ]
+    },
+    "focused_rechecks": 12,
+    "render_log_sha256": "43fd5102ae4f75fa784ef5a7e0637336d05871fb693d49aa040a81826c269ff5",
+    "all26renderedoutputs_actually_inspected": true,
+    "black_cells": {
+      "1": [
+        41
+      ],
+      "2": [
+        34
+      ],
+      "3": [
+        110
+      ]
+    },
+    "homepage_cells": {
+      "1": [
+        0
+      ],
+      "3": [
+        1
+      ]
+    },
+    "observations_not_full_click_or_audio_transcription": true
+  },
+  "questions": {
+    "planned": 3,
+    "addressed": 3,
+    "items": [
+      "continuous/separate membership and tied bass",
+      "printed span/stretch and per-note events",
+      "straight bracket semantics and instrument/staff scope"
+    ]
+  },
+  "primary_manual_crosschecks": [
+    {
+      "url": "https://musescore.org/en/handbook/3/arpeggios-and-glissandi",
+      "read_sections": [
+        "Adjust dimensions",
+        "Change appearance and playback",
+        "Adjust vertical range of an arpeggio"
+      ],
+      "figures_viewed": false,
+      "scope": "MuseScore3 page; reject silently substituted Studio4.2+ behavior"
+    },
+    {
+      "url": "https://lilypond.org/doc/v2.26/Documentation/notation/expressive-marks-as-lines#arpeggio",
+      "read_sections": [
+        "changing appearance versus nonArpeggiato and ChordBracket",
+        "cross-voice notes"
+      ],
+      "figures_viewed": false
+    },
+    {
+      "url": "https://lilypond.org/doc/v2.26/Documentation/notation/common-notation-for-keyboards#indicating-cross_002dstaff-chords-with-a-bracket",
+      "read_sections": [
+        "same-hand cross-staff bracket and Debussy source example"
+      ],
+      "figures_viewed_this_batch": false
+    }
+  ],
+  "book_reread": {
+    "printed_pages": [
+      131,
+      132,
+      133
+    ],
+    "PDF_pages": [
+      151,
+      152,
+      153
+    ],
+    "complete_existing_page_images_read": [
+      3,
+      3
+    ],
+    "new_coverage": 0
+  },
+  "official_reused_case": {
+    "id": "A089",
+    "context": "PDF6 finalsystem,existingendingcrop",
+    "new_score_or_page_coverage": 0,
+    "judgment": "retain wavy line extent above tied held bass; not every visible mark classified"
+  },
+  "read_only_source_inspection": {
+    "root": "E:\\programming\\funcodes\\muse3_dev\\MuseScore",
+    "head": "8f81421a5cc965dbb32a81fcecf39d626b5610ff",
+    "path": "libmscore/arpeggio.cpp",
+    "sha256": "cd50c8c667c7d335666707a90631f433d030c7329bd59ae7dd1710aa962225ed",
+    "ranges": [
+      [
+        382,
+        447
+      ],
+      [
+        170,
+        205
+      ],
+      [
+        237,
+        270
+      ]
+    ],
+    "finding": "Shift extension is bounded by currentPart; endanchor uses track+(span-1)*VOICES.",
+    "file_clean": true,
+    "runtime_equivalence_checked": false,
+    "source_changed": false
+  },
+  "reused_images": [
+    {
+      "path": "tmp\\engraving\\arpeggio-reading-2026-10-20\\book-151.jpg",
+      "sha256": "2214170bd3641e8d6d965d1c5fc2ebfbee032bb0b1edeb10148a3d7626f0c4ff",
+      "bytes": 288100
+    },
+    {
+      "path": "tmp\\engraving\\arpeggio-reading-2026-10-20\\book-152.jpg",
+      "sha256": "8bc74d9864b6f3872171839f594c66523d56845262b544eb994af2c933e0537a",
+      "bytes": 363630
+    },
+    {
+      "path": "tmp\\engraving\\arpeggio-reading-2026-10-20\\book-153.jpg",
+      "sha256": "eee2332a915c594c859943efb02a9b79fb4453508ccfe659b5cafd9c846f5563",
+      "bytes": 305121
+    },
+    {
+      "path": "tmp\\engraving\\arpeggio-reading-2026-10-20\\A089-ending-context.png",
+      "sha256": "9f6ca4c7e1d80d27f4c4bc5dc2cdf70eb17d37932fb3cfbbc178cee7a74f8b78",
+      "bytes": 134498
+    }
+  ],
+  "original_read_only_checks": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Michishirube - Violet Evergarden - Ending Theme.pdf",
+      "sha256": "a86101b56a9529be5937fd1c63b41b9df2d968d969f7e558f946c38bd371c9a3",
+      "matches_prior_baseline": true
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\Elaine Gould - Behind Bars_ The Definitive Guide to Music Notation-Faber Music (2011).pdf",
+      "sha256": "916cc63e3e06a8c1cb26ddeb2a28b71df7991c199e299717727d13dd7529d3d8",
+      "matches_prior_baseline": true
+    }
+  ],
+  "state_change": {
+    "R14": "partial metadata-only -> partial preview188/188",
+    "fixed_resource_completion": [
+      16,
+      25
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "new_topic_routes": [
+      "overview",
+      "piano",
+      "cross-staff",
+      "notation",
+      "baseline",
+      "sources",
+      "implementation"
+    ],
+    "software_adaptation": false,
+    "new_native_calls": 0,
+    "new_user_preference": false
+  },
+  "not_achieved": [
+    "31:21continuousvideo/audio",
+    "exactclicksequence",
+    "alltutorialsymbolcarriersandanchors",
+    "per-noteplaybackmeasurements",
+    "tutorialsavedproject/reload",
+    "globalmastery"
+  ],
+  "private_cache": {
+    "path": "tmp\\engraving\\arpeggio-tutorial-2026-11-03",
+    "budget_bytes": 3145728,
+    "policy": "four advertised public JPGs,one binary index,one overwritten reading PNG; no video/audio/runtime/original copies or deletion",
+    "global_checkpoint_bytes": 3311337472,
+    "bytes": 2607182,
+    "files": [
+      {
+        "path": "finalize.py",
+        "bytes": 4980,
+        "sha256": "2cd8c3be89de8ecb309fb3be4c7004d1ed01c4bf2c817b6c01832c787bdb8941"
+      },
+      {
+        "path": "identity.json",
+        "bytes": 2251,
+        "sha256": "ca49c4ce33404d0823df5459671edfb0edab37da2142e301debda2e3677b2a86"
+      },
+      {
+        "path": "metadata.json",
+        "bytes": 5583,
+        "sha256": "daf1aaad6b61e3ff6e6339a9fe76cd3723d1858190086a4be15c32b5b4b9f51b"
+      },
+      {
+        "path": "part1-sheet1.jpg",
+        "bytes": 443913,
+        "sha256": "ae4ce2ad8e485e8ab3a1630e51adb689eef7d76bccbd503b5cd792a933ebd323"
+      },
+      {
+        "path": "part2-sheet1.jpg",
+        "bytes": 411485,
+        "sha256": "fd36da5c1825832862629c626decf703073db632e9f70fd258b308514a1e2cd4"
+      },
+      {
+        "path": "part3-sheet1.jpg",
+        "bytes": 966701,
+        "sha256": "4512d838cb709fb558526277b4671033c08af2b77663c543805df5783f0069b3"
+      },
+      {
+        "path": "part3-sheet2.jpg",
+        "bytes": 170180,
+        "sha256": "11fea39408134e71d4e08f26fd106a1ab728ccd554e853d49bba56795ed05fb4"
+      },
+      {
+        "path": "plan_before_views.json",
+        "bytes": 475,
+        "sha256": "de05499a993930a4a58766c54341a20713537df92dab1ed315d95d464f2e8718"
+      },
+      {
+        "path": "publish.py",
+        "bytes": 9934,
+        "sha256": "a8bdb7b4588565c69ccd406c374836896c7bd751df86e44cc1061bfe40ba26bf"
+      },
+      {
+        "path": "query_report.json",
+        "bytes": 1141,
+        "sha256": "174b051b24adade021e1134d3f0cc922926b74e2f8b43e4440718308fea880a0"
+      },
+      {
+        "path": "read.png",
+        "bytes": 580289,
+        "sha256": "185bcd8bcc7ff7f88ecfd066872b0a4a48c7617dd0a122ba6c82bdd4e2da46c0"
+      },
+      {
+        "path": "render_log.jsonl",
+        "bytes": 5760,
+        "sha256": "43fd5102ae4f75fa784ef5a7e0637336d05871fb693d49aa040a81826c269ff5"
+      },
+      {
+        "path": "study.py",
+        "bytes": 4490,
+        "sha256": "82354b29614c9c289260f0ae23683ee88ebc73a7e2482b977634759fad8f1070"
+      }
+    ],
+    "maximum_overwritten_read_png_bytes": 660441,
+    "conservative_peak_upper_bound_bytes": 2687334,
+    "global_scan": {
+      "bytes": 3310562239,
+      "files": 19616,
+      "errors": [],
+      "recorded_at_utc": "2026-11-03T01:42:25.497910+00:00",
+      "checkpoint_bytes": 3311337472,
+      "remaining_bytes": 775233,
+      "scan_identity": "default sandbox; elevated scan separately failed on legacy locator test directory"
+    }
+  },
+  "validation": {
+    "status": "passed",
+    "recorded_at_utc": "2026-11-03T01:45:06.870893+00:00",
+    "observed_checks": [
+      {
+        "command": "tools/engraving/progress.py --check",
+        "exit_code": 0
+      },
+      {
+        "command": "skill-creator quick_validate.py skills/piano-engraving",
+        "exit_code": 0
+      },
+      {
+        "command": "unittest discover tests/test_engraving_library.py",
+        "exit_code": 0,
+        "tests_passed": [
+          6,
+          6
+        ]
+      },
+      {
+        "command": "git diff --check",
+        "exit_code": 0
+      }
+    ],
+    "targeted_queries": [
+      4,
+      4
+    ],
+    "query_report_sha256": "174b051b24adade021e1134d3f0cc922926b74e2f8b43e4440718308fea880a0",
+    "topic_routes": [
+      7,
+      7
+    ],
+    "total_skill_topics": [
+      20,
+      20
+    ],
+    "local_note_links_checked": 3,
+    "fixed0_34manifest_unchanged": true,
+    "not_an_independent_musical_accuracy_test": true
+  }
+}
