@@ -1,0 +1,4962 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "tag": "engraving-v1.0.0",
+  "as_of": "2026-11-03",
+  "stage": "initial-trial",
+  "baseline_commit": "d98eec3a6315a0e7272f32ca04cafdb6177bfeb2",
+  "prior_fixed_tag": "engraving-v0.34.0",
+  "scope_revision": 2,
+  "user_scope_change": "2026-11-03用户明确暂缓补齐外部资料，先收尾发布初版供试用，不完美处后续迭代；开发待试用认可。",
+  "checks_status": "passed",
+  "publication": {
+    "method": "Git annotated tag and GitHub release",
+    "repository": "https://github.com/Freddd13/mcp-musescore",
+    "tag": "engraving-v1.0.0",
+    "confirmation_receipt": "output/engraving/v1.0.0/publication.json"
+  },
+  "coverage": {
+    "as_of": "2026-11-03",
+    "scope_revision": 2,
+    "goal_status": "trial_ready",
+    "note": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
+    "first_pass_scores": [
+      146,
+      146
+    ],
+    "first_pass_pages": [
+      1135,
+      1135
+    ],
+    "historical_detail_pages": 379,
+    "deep_scores": [
+      24,
+      24
+    ],
+    "deep_pages": [
+      164,
+      164
+    ],
+    "all_score_closeout": [
+      146,
+      146
+    ],
+    "gould_pages_conservative": [
+      696,
+      696
+    ],
+    "gould_substantive_pages": 598,
+    "gould_non_substantive_pages": 98,
+    "gould_title_or_contents_pages": 98,
+    "public_resource_scopes": [
+      16,
+      25
+    ],
+    "skill_transfer_scenarios": [
+      8,
+      8
+    ],
+    "user_integrated_rounds": [
+      1,
+      1
+    ],
+    "user_milestones": [
+      4,
+      4
+    ],
+    "skill_topics": [
+      20,
+      20
+    ],
+    "release": "engraving-v1.0.0"
+  },
+  "checks": {
+    "archives_preserved": [
+      4,
+      4
+    ],
+    "moved_conditions_preserved": [
+      30,
+      30
+    ],
+    "skill_format": "passed",
+    "CLI_regressions": [
+      6,
+      6
+    ],
+    "topic_routes": [
+      20,
+      20
+    ],
+    "local_markdown_links": {
+      "checked": 4960,
+      "missing": []
+    },
+    "queries": [
+      {
+        "topic": "spacing",
+        "query": "Local relayout 共同起音",
+        "top_files": [
+          "BEAM_OPERATIONS_STUDY.md",
+          "STEM_OPTICAL_SPACING_STUDY.md",
+          "JUDGMENT_GUIDE.md",
+          "FANNED_BEAMS_READING.md",
+          "SPACING_DECISIONS.md"
+        ],
+        "expected_source_found": true
+      },
+      {
+        "topic": "cross-staff",
+        "query": "琶音 延续低音",
+        "top_files": [
+          "ARPEGGIO_TUTORIAL_READING.md",
+          "CROSS_STAFF_STUDY.md",
+          "MEDLEY_200_CH09.md",
+          "MEDLEY_200_CH10.md",
+          "INTEGRATED_READING_ICHIBAN_IDOL.md"
+        ],
+        "expected_source_found": true
+      },
+      {
+        "topic": "piano",
+        "query": "S.P. A八度",
+        "top_files": [
+          "PREFERENCES.md",
+          "R09_OSSIA_READING.md",
+          "BALLADE_PERFORMANCE_CONTEXT.md",
+          "LILYPOND_KEYBOARD_CASES.md",
+          "INTEGRATED_READING_CRY_DAISY.md"
+        ],
+        "expected_source_found": true
+      },
+      {
+        "topic": "layout",
+        "query": "pagePrintableWidth 括号",
+        "top_files": [
+          "JUDGMENT_GUIDE.md",
+          "AVID_WIDTH_BUDGET.md",
+          "AVID_CAPACITY_BOUNDARIES.md",
+          "INTEGRATED_READING_ICHIBAN_IDOL.md",
+          "INTEGRATED_READING_KYOURAN_CONAN.md"
+        ],
+        "expected_source_found": true
+      },
+      {
+        "topic": "cross-staff",
+        "query": "m97 原方向",
+        "top_files": [
+          "M97_GROUP_BOUNDARY_TRANSFER.md",
+          "M97_TUPLET_TRANSFER.md",
+          "M97_DIRECTION_FEEDBACK.md",
+          "STAFF_TUTORIAL_READING.md",
+          "TUPLET_REST_SCOPE_STUDY.md"
+        ],
+        "expected_source_found": true
+      }
+    ],
+    "visual_review": {
+      "readable_images": [
+        5,
+        5
+      ],
+      "files": [
+        {
+          "path": "docs/engraving/fixtures/arpeggio-continuous.png",
+          "sha256": "46f27708cce31a0ddf3684a9ca6a1142e57d8f0cdacfec31d35f33f6dc69c8e0"
+        },
+        {
+          "path": "docs/engraving/fixtures/arpeggio-continuous-clear.png",
+          "sha256": "e2702f3fc90b5d0b27349ae3a2f991399d6e66db023689790f6accb604429e23"
+        },
+        {
+          "path": "docs/engraving/fixtures/arpeggio-extent-rejected.png",
+          "sha256": "ea353228b14255c823e6de527da8ae0482ea3eb179e7909928b2ce0cadadffee"
+        },
+        {
+          "path": "tmp/engraving/user-combined-2026-10-31/baseline-page-5.jpg",
+          "sha256": "2710189c5712b09246fe977a9b32cd3e295890d8ec436006fb3a3c303a7bc084"
+        },
+        {
+          "path": "tmp/engraving/user-combined-2026-10-31/baseline-focus-m49-52.jpg",
+          "sha256": "0c0d89c72210c7f089bdc4f282d3a92084c6079bcee83b6fd2c324af41339f91"
+        }
+      ],
+      "transparent_PNG_attempt_not_counted": "tmp/engraving/user-combined-2026-10-31/native/baseline-5.png",
+      "known_case_rechecks_not_blind_tests": true,
+      "new_native_exports": 0,
+      "new_coverage": 0
+    },
+    "installer": {
+      "isolated_first_install": "observed linked earlier this turn",
+      "idempotent": {
+        "action": "already-linked",
+        "path": "E:\\programming\\funcodes\\mcp-musescore\\output\\engraving\\v1.0.0\\skill-link",
+        "source": "E:\\programming\\funcodes\\mcp-musescore\\skills\\piano-engraving",
+        "version": "version: \"1.0.0\"",
+        "mcp_configuration_changed": false
+      },
+      "existing_directory_preserved": true,
+      "linked_locator_readable": true
+    }
+  },
+  "preparation": {
+    "archives": [
+      {
+        "source": "docs/engraving/README.md",
+        "archive": "docs/engraving/README_RESEARCH_HISTORY_0_34.md",
+        "bytes": 90502,
+        "sha256": "5cbac330f8576c3b900788c895cbc66121ab4a8fb4826fa72b404bca4642b6f4"
+      },
+      {
+        "source": "docs/engraving/STATUS_AND_ROADMAP.md",
+        "archive": "docs/engraving/STATUS_RESEARCH_HISTORY_0_34.md",
+        "bytes": 147193,
+        "sha256": "2a47c4f1380c949ff2a6d74bf4ba7d92072b59ed7ee1db4fcfc3625c5c5a4a6c"
+      },
+      {
+        "source": "docs/ENGRAVING_PLAN.md",
+        "archive": "docs/ENGRAVING_PLAN_HISTORY_0_34.md",
+        "bytes": 92577,
+        "sha256": "1140a1a5a9aa202cbc819e32a7b8aff5e4ab8bdbea5d5be34a62a0901b3d8f26"
+      },
+      {
+        "source": "docs/ENGRAVING_SKILL.md",
+        "archive": "docs/ENGRAVING_SKILL_HISTORY_0_34.md",
+        "bytes": 15236,
+        "sha256": "02d96f01aa1b20248c8d72afdffe744a3d7f0f8d99e92f0edf0da1e5dd69f833"
+      },
+      {
+        "source": "skills/piano-engraving/SKILL.md",
+        "original_sha256": "832c9c32538bf72a4a5ade877acb1e7511778bf43227526349025c1aaaed134b",
+        "original_characters": 9307,
+        "current_characters": 4950,
+        "moved_paragraphs": 30,
+        "all_previous_paragraphs_preserved": true,
+        "conditional_reference": "skills/piano-engraving/references/case-routing.md"
+      }
+    ],
+    "no_files_deleted": true,
+    "no_original_music_changed": true,
+    "external_completion_deferred_by_user": true
+  },
+  "original_user_files_unchanged": [
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生-release5.mscz",
+      "sha256": "4a62cc33723b1c19a207102f27425c983e9fd40d570a2ff65d7a818b82ac91ad",
+      "bytes": 68488
+    },
+    {
+      "path": "C:\\Users\\Fred\\OneDrive - yunzd\\arr\\如果有来生\\如果有来生_arr_by_kumo.pdf",
+      "sha256": "58475eccac2a6e83f8da881ae2f44abeb3998ac7b8c236a33ab4c948f1f3faf5",
+      "bytes": 249752
+    }
+  ],
+  "portable_verification": {
+    "text_tree_real_CLI_queries": [
+      5,
+      5
+    ],
+    "queries": [
+      {
+        "topic": "spacing",
+        "query": "Local relayout 共同起音",
+        "same_results": true
+      },
+      {
+        "topic": "cross-staff",
+        "query": "琶音 延续低音",
+        "same_results": true
+      },
+      {
+        "topic": "piano",
+        "query": "S.P. A八度",
+        "same_results": true
+      },
+      {
+        "topic": "layout",
+        "query": "pagePrintableWidth 括号",
+        "same_results": true
+      },
+      {
+        "topic": "cross-staff",
+        "query": "m97 原方向",
+        "same_results": true
+      }
+    ],
+    "runtime_or_private_media_copied": false
+  },
+  "manifest_scope": "All public engraving library and skill files, helpers, original fixtures, license and linked documentation; manifest excludes its own hash. Historical manifests remain historical tag records.",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "99cf16dd9028497c37a93a21fbd09fc43a99f17472ca400253990196a76506e2"
+    },
+    {
+      "path": "docs/ARCHITECTURE_AND_PIANO.md",
+      "bytes": 7761,
+      "sha256": "0605ab46398229a80b57558a34d6bf7e78b07759ee7d847be060bd7c025aa849"
+    },
+    {
+      "path": "docs/ENGRAVING_PLAN.md",
+      "bytes": 2554,
+      "sha256": "603209f8cb8c8412b377a3a3085b3aa688b6538b1f5a5cb414a9476588a9ceee"
+    },
+    {
+      "path": "docs/ENGRAVING_PLAN_HISTORY_0_34.md",
+      "bytes": 92577,
+      "sha256": "1140a1a5a9aa202cbc819e32a7b8aff5e4ab8bdbea5d5be34a62a0901b3d8f26"
+    },
+    {
+      "path": "docs/ENGRAVING_RELEASES.md",
+      "bytes": 121182,
+      "sha256": "52bb260d23540f9b24f1b16cb7500988357681d79c1e5b050c8e181e9357fe0b"
+    },
+    {
+      "path": "docs/ENGRAVING_SKILL.md",
+      "bytes": 4218,
+      "sha256": "5b772ec8a4079b0c84b6114911e4bb3e98e664ad576ebed289bfcdeea15f706f"
+    },
+    {
+      "path": "docs/ENGRAVING_SKILL_HISTORY_0_34.md",
+      "bytes": 15236,
+      "sha256": "02d96f01aa1b20248c8d72afdffe744a3d7f0f8d99e92f0edf0da1e5dd69f833"
+    },
+    {
+      "path": "docs/FONT_PLAN.md",
+      "bytes": 23666,
+      "sha256": "9ac68f47dc352cbc405f9e385861c0f20d798d3945e39032979eb3658e0dfa38"
+    },
+    {
+      "path": "docs/P2_CONTEXT_API.md",
+      "bytes": 7989,
+      "sha256": "ccb4f0cbf8453af964cab223f5ae213b90497b58f3264a41acadb20083495f42"
+    },
+    {
+      "path": "docs/engraving/ACCIDENTAL_CONTEXT.md",
+      "bytes": 11476,
+      "sha256": "68260c142da50e8d0fb894bb3be0db50e7aea27ce8a154d0d018e0ebe5429f12"
+    },
+    {
+      "path": "docs/engraving/ACCIDENTAL_EDGE_CASES.md",
+      "bytes": 9666,
+      "sha256": "ec6b1b76c5986868e12bf761895dff02dc63a75166af3a3f2b06f66d5776baed"
+    },
+    {
+      "path": "docs/engraving/ACCIDENTAL_SPACING.md",
+      "bytes": 11757,
+      "sha256": "b8f3f848148bfd009c22a860f35723882040ac51b9e89aebbf3b62c2548812bd"
+    },
+    {
+      "path": "docs/engraving/ACCIDENTAL_SPELLING.md",
+      "bytes": 9264,
+      "sha256": "2b855fa1f298e07fdc18b6a80bf4cb665d52e386993ed6d60423c3084687b4c9"
+    },
+    {
+      "path": "docs/engraving/AETHER_ENTRY_CLEARANCE.md",
+      "bytes": 4892,
+      "sha256": "920be25b07e83647b560b17dced43341df4e6850447a168e31b96eef15c1dfa3"
+    },
+    {
+      "path": "docs/engraving/AETHER_M33_BUDGET.md",
+      "bytes": 8241,
+      "sha256": "d0d1a5d5698447b31c9995c4b39199e4e3935c419c3ce38e4139969767048291"
+    },
+    {
+      "path": "docs/engraving/AETHER_NATIVE_RECONSTRUCTION.md",
+      "bytes": 8081,
+      "sha256": "5c42c4d814f254fe4cce838f13bd410f218d9049e88c35fc5982f6621b87b123"
+    },
+    {
+      "path": "docs/engraving/AETHER_SPACING_LAYERS.md",
+      "bytes": 8362,
+      "sha256": "27f9de46deabd721c5a3a551789ac3afbc9debebe439988a6eda74fc2791716a"
+    },
+    {
+      "path": "docs/engraving/AETHER_SYSTEM_TRANSFER.md",
+      "bytes": 6993,
+      "sha256": "66d971ec28749184a7fbd79a31c82d3a3ba0182de3a12ec99af333853ed2924f"
+    },
+    {
+      "path": "docs/engraving/ARPEGGIO_TUTORIAL_READING.md",
+      "bytes": 6728,
+      "sha256": "f686f11fc989beaeadfb60e40a5a71990d03dc4ac81433f1083d76589fcc4e99"
+    },
+    {
+      "path": "docs/engraving/AUTOMATED_ENGRAVING_JUDGMENT.md",
+      "bytes": 8617,
+      "sha256": "d626b9ec01bf23d6fec8072f2d32f362f4257c926266ceaef065eb17fae46df4"
+    },
+    {
+      "path": "docs/engraving/AVID_CAPACITY_BOUNDARIES.md",
+      "bytes": 6014,
+      "sha256": "7c003d29493fd90928d92adf2cbd4dcaf2ec5f2fc88b6dd852d6e9373dfc4934"
+    },
+    {
+      "path": "docs/engraving/AVID_CURVE_SCOPE_STUDY.md",
+      "bytes": 6203,
+      "sha256": "6fc7e7a91dfc30b18da143af83a4ab8454e9a45c451e90cdde92fbbf49fd6593"
+    },
+    {
+      "path": "docs/engraving/AVID_NATIVE_CONTEXT.md",
+      "bytes": 6399,
+      "sha256": "a0e68b40d8e3766c4ee7b76d764ab71c17cdcfa9c3ecd6ec6b3ea48c5845bbdb"
+    },
+    {
+      "path": "docs/engraving/AVID_OUTSIDE_NUMERAL.md",
+      "bytes": 4773,
+      "sha256": "79ab92e55f4be5e79c2555bf8ea61c5684afc9e8870316868430d81ca4fadd7e"
+    },
+    {
+      "path": "docs/engraving/AVID_PAGE_INPUT.md",
+      "bytes": 7186,
+      "sha256": "61de73cf00431ee26e08a933f536228d164930101697e9a63e100846306b5842"
+    },
+    {
+      "path": "docs/engraving/AVID_WHOLE_REVIEW.md",
+      "bytes": 5973,
+      "sha256": "72f03df8dcdff36d562ea2a8d34a24d9ae951e536f6553fe2f242a6b2e13a9d3"
+    },
+    {
+      "path": "docs/engraving/AVID_WIDTH_BUDGET.md",
+      "bytes": 6704,
+      "sha256": "f05163583a7676f38c0bf1b4b1197f6426d4ea87ce67b07a245d4dc752a9c701"
+    },
+    {
+      "path": "docs/engraving/BALLADE_EDITORIAL_CONTEXT.md",
+      "bytes": 4455,
+      "sha256": "c49261032b2cf2ffa832eee3c75d0d14e21caa3d6228588ff0613bf338a9e15e"
+    },
+    {
+      "path": "docs/engraving/BALLADE_PERFORMANCE_CONTEXT.md",
+      "bytes": 4635,
+      "sha256": "ba2b7cd0af1a4426faae00892993dc45a73abfa8eeaf78dde196758643491bae"
+    },
+    {
+      "path": "docs/engraving/BALLADE_POLONAISE_PREVIEW_READING.md",
+      "bytes": 8492,
+      "sha256": "3acae6c6592f503d7cc61c1154530c9ea118bd44a48e17ef33127be503d887fc"
+    },
+    {
+      "path": "docs/engraving/BALLADE_PREVIEW_CONTINUATION.md",
+      "bytes": 6987,
+      "sha256": "2ccb6afaeb98c1e30390efe207e312120f3b287aaacbf9399df357513325c2c5"
+    },
+    {
+      "path": "docs/engraving/BEAM_ACROSS_BAR_READING.md",
+      "bytes": 9812,
+      "sha256": "1f9a8da5a4a69ede6da307c790d5dc9f64643abf3a1e1270087c99b8cf63e195"
+    },
+    {
+      "path": "docs/engraving/BEAM_EXCHANGE_CLEF_STUDY.md",
+      "bytes": 10311,
+      "sha256": "e2908b9e75be4a7adf382316dd0615b5b5965553ecbb6a89680386f0c9d07993"
+    },
+    {
+      "path": "docs/engraving/BEAM_OPERATIONS_STUDY.md",
+      "bytes": 9575,
+      "sha256": "e7a2332724b539e6914dbdea20b40924ba2e130d6d3ca3f356f3aa1f7803fe66"
+    },
+    {
+      "path": "docs/engraving/BEAM_SCOPE_TRANSFER.md",
+      "bytes": 9021,
+      "sha256": "fe28b591dedfbd61776a103ed696ab9595fc9089b4d872f8cc988f60339d973b"
+    },
+    {
+      "path": "docs/engraving/BEAM_STEM_STUDY.md",
+      "bytes": 26910,
+      "sha256": "893990bf01bc5b9a738e7316eb75a8ec333eea8a1325287988c820dfdb19cc2b"
+    },
+    {
+      "path": "docs/engraving/BEAM_WIDTH_STUDY.md",
+      "bytes": 7742,
+      "sha256": "f6e47f31902b442fad21c7bc02eeaf12c944e08cdf82ee53266e5f961e1907d2"
+    },
+    {
+      "path": "docs/engraving/BEAM_WIDTH_TRANSFER.md",
+      "bytes": 9247,
+      "sha256": "9be27d0907950e48ccc20972b238755991df509deda7b04502778a754f3cc28a"
+    },
+    {
+      "path": "docs/engraving/BEHIND_BARS_NOTES.md",
+      "bytes": 66328,
+      "sha256": "c80c4fa3813e660a1b94d63bafa82ea0ab6c33bbbf3a82cd67b34c41e29644fa"
+    },
+    {
+      "path": "docs/engraving/CACHE_LOCATIONS.md",
+      "bytes": 58393,
+      "sha256": "34e9ce8a142efff7f66e67fead803b6e468613aee4160555143bfd688060c1bf"
+    },
+    {
+      "path": "docs/engraving/CASES.md",
+      "bytes": 17315,
+      "sha256": "5198580f5668b9c8b5e16d6e01e89dc487a8aaeba8260c08acf3aeb6c7e9cefa"
+    },
+    {
+      "path": "docs/engraving/CASES_EXPANDED.md",
+      "bytes": 27800,
+      "sha256": "c09f4d97ce9888d4926c0e61582d4bfe02229f9924f2bbf9d9ba413274729839"
+    },
+    {
+      "path": "docs/engraving/CASTING_OFF_READING.md",
+      "bytes": 10473,
+      "sha256": "8540ef7d2b50421ca7236dc46c925f64b4884ec2744ef78700f9d7e38c8a1b6b"
+    },
+    {
+      "path": "docs/engraving/CLEF_IN_GROUP_READING.md",
+      "bytes": 8956,
+      "sha256": "2386c930ae1470908fa58b64713e9156974673a15d25b38ce342fed7ee87c410"
+    },
+    {
+      "path": "docs/engraving/CLEF_READING.md",
+      "bytes": 19572,
+      "sha256": "fc591c5fbf93a425bee81de9a7acdc370f2bfc92be6fd261a8adeca2156998a3"
+    },
+    {
+      "path": "docs/engraving/COMPLETION_REVIEW.md",
+      "bytes": 5830,
+      "sha256": "48204dbc0d7bbe72bb06046dcd611c0bb78ea2d9cbac45883552f968d3382dd6"
+    },
+    {
+      "path": "docs/engraving/CONTINUOUS_STUDY.md",
+      "bytes": 27374,
+      "sha256": "1dfb58674142be146760e3777558dc15158b682f6ac12768a4f5ff1a62702199"
+    },
+    {
+      "path": "docs/engraving/CROSSBAR_DISPLAY_COMPOSITION.md",
+      "bytes": 7367,
+      "sha256": "01ad86bb2ccd0b693f6877ca093efeaf67afd7222e52bcd9172fffbe34d6db91"
+    },
+    {
+      "path": "docs/engraving/CROSSBAR_TUPLET_NATIVE_STUDY.md",
+      "bytes": 8566,
+      "sha256": "c51ea5653c294136ddb11c509d67ca3123e579ee869ef260468f80e215ce2fe2"
+    },
+    {
+      "path": "docs/engraving/CROSS_STAFF_SLUR_ROUTING.md",
+      "bytes": 6795,
+      "sha256": "a4295010c2b1a794c781913195f440e96025df7192d80628ad8311a645eb148b"
+    },
+    {
+      "path": "docs/engraving/CROSS_STAFF_STUDY.md",
+      "bytes": 39038,
+      "sha256": "e7bdd5c6c281293bd0008536690f44e2b154865884de8ccb8382db5ea55d2e63"
+    },
+    {
+      "path": "docs/engraving/CURVES_STUDY.md",
+      "bytes": 28023,
+      "sha256": "4f29fb9d17e2fc99a78a4bfaed33e3d74b91b5741444eb0f454f1d1be62863e3"
+    },
+    {
+      "path": "docs/engraving/DORICO_EDITORIAL_PRACTICE.md",
+      "bytes": 10738,
+      "sha256": "c9d8d42631f7fb4185c408a7dfed1942aabe7e84cd66ae70a842534762896dd8"
+    },
+    {
+      "path": "docs/engraving/DOUBLED_TUPLET_STUDY.md",
+      "bytes": 5683,
+      "sha256": "b72627f7ac401f2323fbb128bffc249c523f2840c90b876b84b27f25a24550ee"
+    },
+    {
+      "path": "docs/engraving/DYNAMICS_ARTICULATION.md",
+      "bytes": 29660,
+      "sha256": "da4cb263c7f8829a6b1198ae03d4fd9e540bdea6b43432cbb91aea2f9cce71ad"
+    },
+    {
+      "path": "docs/engraving/EDITORIAL_ALTERNATIVES.md",
+      "bytes": 11735,
+      "sha256": "0a9b91b78691424b06460afeb557b026f612f4f75fe2b59d549c9f15e1990516"
+    },
+    {
+      "path": "docs/engraving/EONIAN_SPACING_REVIEW.md",
+      "bytes": 5494,
+      "sha256": "3ae19b9f696f1b3250f2a5ee55b4bc944d44935a8037374d44db43e41dba8aa0"
+    },
+    {
+      "path": "docs/engraving/EXPANDED_RESEARCH.md",
+      "bytes": 11534,
+      "sha256": "1bf84ae42349f5a4590012b647b986d3413bb409cd32cdc71866eb70a685c5a7"
+    },
+    {
+      "path": "docs/engraving/EXTERNAL_PRACTICE.md",
+      "bytes": 14972,
+      "sha256": "3a042f2311902367da22699b1ceed22595df3f05e09b70305016cfd3c92a6906"
+    },
+    {
+      "path": "docs/engraving/FANNED_BEAMS_READING.md",
+      "bytes": 9288,
+      "sha256": "d79171cd9027dcaae9492cb589ed7a8363db03d2c3bb94b682cd67f0e3f3fa8e"
+    },
+    {
+      "path": "docs/engraving/FINGERING_STUDY.md",
+      "bytes": 9311,
+      "sha256": "8709916e19058b82c21148c5663881ce3ebb5652c1316d92abd1433a7bf166b8"
+    },
+    {
+      "path": "docs/engraving/FIVE_FOUR_SPACING_STUDY.md",
+      "bytes": 12186,
+      "sha256": "832960e984325f5ef09126e03b1a14032f7b2ab4468fb65ce8b2092d7e985feb"
+    },
+    {
+      "path": "docs/engraving/FOUNDATION_REVIEW.md",
+      "bytes": 8549,
+      "sha256": "bd7d864dd81849a546e5792458438f1a9a31c3b7b4d78aed6e379acc438bb632"
+    },
+    {
+      "path": "docs/engraving/FREE_PASSAGE_READING.md",
+      "bytes": 14621,
+      "sha256": "342f494fe1893d737bde838b88f6f3050a0810a8bd5081d8d07c9048d992d3fb"
+    },
+    {
+      "path": "docs/engraving/GLISSANDO_READING.md",
+      "bytes": 14960,
+      "sha256": "208d3066584c271e808a47bb0beda4bfe7c462d91de400c98afeb4d52dd401ec"
+    },
+    {
+      "path": "docs/engraving/GOULD_READING_CLOSEOUT.md",
+      "bytes": 3783,
+      "sha256": "4a7798a0a5efd9130f64dcc1afc3c9e20c271892276bb02f79b011f065c0b16f"
+    },
+    {
+      "path": "docs/engraving/HOSHIDE_ONDINE_READING.md",
+      "bytes": 8640,
+      "sha256": "5684a4bd5bde59044db2d2a7bc6aa74ee92969adff7ed801a9f51883db2d3915"
+    },
+    {
+      "path": "docs/engraving/IMPLEMENTATION.md",
+      "bytes": 13251,
+      "sha256": "bb57830872cdc0681050b754d35a106f1b7b17fbd0165163cad30265d2186ef5"
+    },
+    {
+      "path": "docs/engraving/INNER_BEAM_HIERARCHY_STUDY.md",
+      "bytes": 5663,
+      "sha256": "638b13add8e8adeae1bd0d8854515e615e94724ea8ed4e01c5e4892f56c13506"
+    },
+    {
+      "path": "docs/engraving/INPUT_HISTORY.md",
+      "bytes": 10728,
+      "sha256": "240b677d29cb6ba93e91c0be687739652ce85132d8931f4f736dafc87672785f"
+    },
+    {
+      "path": "docs/engraving/INSTRUMENT_CONTEXT_READING.md",
+      "bytes": 4800,
+      "sha256": "07aa13772c164ec5748fd34ae6abed2a3da254a1c10737b0338daf7bc464ae2f"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_ADABANA.md",
+      "bytes": 15727,
+      "sha256": "558cc22b2d9d3d1c06fdb88b092f6e14a017c1a078243735beb6a1c75f113a13"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_AGAIN_AKUMA_CLOSEOUT.md",
+      "bytes": 11868,
+      "sha256": "c7308382727d6228a87e316e585677b274f0582568fea3970fb677d4851ec50b"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_AKUMA.md",
+      "bytes": 11328,
+      "sha256": "be4b3b68fd1e763a45df98bfe920b83c028384a1cfb49e366f465581e39c815b"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_AO_ATTACK.md",
+      "bytes": 11409,
+      "sha256": "937ba628f75c64a304166552f5ed97c1274e930da40676cbaa92507822cbf0a9"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_BAUKLOTZE_BEFORE.md",
+      "bytes": 12808,
+      "sha256": "8417eb29963a8c225f667adc831e08b66bf7a7abc2d4f176a0c827b70bf418f9"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_BEGINNING_TO_YOU.md",
+      "bytes": 13391,
+      "sha256": "66a5a0734ad3903db429e7f3f063260dbb2871e6ef645f193f54b293f63eee05"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_BLACK_BLUE.md",
+      "bytes": 11520,
+      "sha256": "76929d0bbee8c4ac3215256621c52c065971d5e2ad45598a68805bc6d9f8de8c"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_BLOODY_STREAM.md",
+      "bytes": 9533,
+      "sha256": "a7852ed5fe60f376626720f0c44aceefbe9f8df89ec81eba7bc35269a91fcfce"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_BOY_BLUMENKRANZ.md",
+      "bytes": 13091,
+      "sha256": "ee8273973d4b55cb85dbf05e03db14b1a9ab3a4cd65a1ebb77e1a172a7cc39dc"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_BUTTERFLY_SILENCE.md",
+      "bytes": 11165,
+      "sha256": "2d799a9daa3717c993fad21ecdf2426985e20f075cee22b5e4b6cf5517b94a56"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_CATCH_CHANGE.md",
+      "bytes": 11895,
+      "sha256": "a05f4de48ccc403af0ea9813d0e5bf253f3176f4b39413fc6153d510ab1055cb"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_COLORS_CROSSING.md",
+      "bytes": 11884,
+      "sha256": "b7e533ea24d14db9b4b1e0f3ff4ca1fe17727b586c190e648183364bcf73baef"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_CONNECT.md",
+      "bytes": 17170,
+      "sha256": "946d5ff452af7b22ce9e967fbebaadeaa69733f6739b4a1c21f6f859cf1d3f36"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_CRY_DAISY.md",
+      "bytes": 11026,
+      "sha256": "28e36d4ed63256f738f3335c99758230e77ad23133971861116460c021c60657"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_DANGO_HANEZEVE.md",
+      "bytes": 11412,
+      "sha256": "3eee8d77c39464407705633c4e04e785062e3c2e803906d3a0768ca1f2acd224"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_DEAREST_HERO.md",
+      "bytes": 12066,
+      "sha256": "a1877b292965806f2947d4b189d73e4ffe06a10faab148075f47b4461248b935"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_DEPARTURES.md",
+      "bytes": 9986,
+      "sha256": "1b2325c5ff93bf5d3e49fc073cf12fa0ba66f9a9797492abe7c501f5ab4c5103"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_EONIAN_EUTERPE.md",
+      "bytes": 12060,
+      "sha256": "80148f8695c6bb87c843c693b8d043470c3be1d5625a4c7e45687b597f3a164d"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_EVERLASTING_HEROES.md",
+      "bytes": 9121,
+      "sha256": "94ae2a771f9ccfb62eabe13b62b6df54f046a4e98c9013944aba49b83d44c393"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_EVERYDAY_EXTRA.md",
+      "bytes": 10252,
+      "sha256": "62bbb4f1bcd8398fa43cccabea831e6c3aa96bcbfe860786741f26251ef755b8"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_FATE_FRIEREN.md",
+      "bytes": 12820,
+      "sha256": "7f86063cf46ad3f2419ce4dcac3aa78dbd1c7968136882db93c1f6f0408ec1ed"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_FUBUKI_CASTLE.md",
+      "bytes": 11573,
+      "sha256": "f2f19d66437d3aa23dfbe2cd4bfeb4d633a220f4e1b274e5f3f7ebfb258ce0a0"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_GIORNO.md",
+      "bytes": 11752,
+      "sha256": "486181e74a0d2c7ac7c4e5d17d030c8062a535405e6b9cfa03962a2a2a5cd738"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_GOD_POKEMON.md",
+      "bytes": 13388,
+      "sha256": "24ee1c0f1ec849966e2d66d0f6bf733089488dc3212325bebcfe18de729bc559"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_GRACE_PRICE.md",
+      "bytes": 9268,
+      "sha256": "e01132728e413c784c5506e2b0e8a3b5a1ab2d09b1154db2fd4dbdfe14362c2a"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_GRAND_GREAT.md",
+      "bytes": 9264,
+      "sha256": "bace93cbff148ba48215e0bad474475e66745272602d5766447708024b8e7bef"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_GURENGE_HACKING.md",
+      "bytes": 8895,
+      "sha256": "7e4dcbc1576bde2a38479bb4a182b45ea35c8ce6c82ece4559e78e0d1213eafa"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_HERE.md",
+      "bytes": 14234,
+      "sha256": "0076231b5c7cfea2a15a41200470e04ca7a835a59d2ece23b8a5961f17c6a87d"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_HIKARU_HISTORY.md",
+      "bytes": 11829,
+      "sha256": "69fc97ddb37d94f9efa4339a5abff02d691f4e3747d00e6a107b912444eb9a57"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_HOMURA_HYORI.md",
+      "bytes": 11093,
+      "sha256": "515a76045c42872aec024254fb1c8fef77b499243522a82b158af0bf6262612d"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_ICHIBAN_IDOL.md",
+      "bytes": 10938,
+      "sha256": "e08496577a9260ec0e3b3d322859c97ffdb743725c16b85ffb436b29ad02c6c3"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_IMAGINATION_POOL.md",
+      "bytes": 10469,
+      "sha256": "076661ad5100a8df9236e9d471ff3f7c6d31b3cc99f42b8f58913ea782e3a280"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_IRIS_KAIBUTSU.md",
+      "bytes": 9803,
+      "sha256": "49113e3f76d574ec1ef1d0dfefa7373c017aaf8d89c0e88cee7c4627f0d8d892"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KAIKAI.md",
+      "bytes": 10773,
+      "sha256": "8b69f4707c79a069d5f75b2b7ac3d3ca49504b6711cb0a261d7eb0cd87a7e777"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KAIKAI_CRUEL_CLOSEOUT.md",
+      "bytes": 12354,
+      "sha256": "34f611554022efadb86351e4898e1352c5b79db3c55a5af10e12469950bcedec"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KAKYOIN.md",
+      "bytes": 18302,
+      "sha256": "793467774fea9465ee5e86e66a283c6bbb68addc1bdd6da2814aa6d08ee3e5c8"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KAWAKI_JANE.md",
+      "bytes": 7410,
+      "sha256": "9e44034d7a6e783f5eced63049908524b93481aaf9cc4d7ba928a970cc1764ac"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KEY_KICK.md",
+      "bytes": 9838,
+      "sha256": "ef9ce82d9d3ab02a09917496abace4e4df1db930481bc68fc3312dd2175c0bfc"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KIGEKI_KILLY.md",
+      "bytes": 10206,
+      "sha256": "f6354c766cbf0f3f79181a96999937a09800ea3661530d3429079f6c3cdf0d66"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KIMI_KIZUNA.md",
+      "bytes": 10111,
+      "sha256": "ac83c42eed3c7ec56a79122bb2e130527377366c38a063229e9fbe6792aee92b"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KISS_CHANCE.md",
+      "bytes": 11638,
+      "sha256": "348540061b4a6d25b0a17a51514f1635b181e3fab814288383bd042dd1b50d26"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KONOSUBA_KUCHIZUKE.md",
+      "bytes": 10339,
+      "sha256": "5c136d55f15837d5cdaeb31ac3a510543a1b9a25b233fdbc0410e78e56bb585d"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KURA_KUUSOU.md",
+      "bytes": 12372,
+      "sha256": "46b2788f4c3b644b40781ae27487bf71dfbe07e06020d30bd8a7237cd7749377"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_KYOURAN_CONAN.md",
+      "bytes": 11874,
+      "sha256": "7ca144c749b73490b5f82ce6fb7c78322b06fdd68217fcbde3eee12eaa618972"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_LAST_STARDUST.md",
+      "bytes": 6964,
+      "sha256": "694f88155b38f5260ffd7f3ee5e05eee9fb9864a39354c145feebf98fc07858e"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_LAZY_EIEN.md",
+      "bytes": 10437,
+      "sha256": "44e61792122fd5764c1c5da2448a349a1191914f77f12eea5a140b64c58fbb5f"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_LINK_MEDLEY.md",
+      "bytes": 12000,
+      "sha256": "a60b493588f587e25f4535d65cb7ae785f68d6183a1fa9fb997815e5e467de99"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_LIT.md",
+      "bytes": 9455,
+      "sha256": "b6bd8bdfede6d5d1d1c06ef1973925359b4998d99e1011a1ed5255a5960f4dd4"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_MADOKA.md",
+      "bytes": 13538,
+      "sha256": "52b12361f5a0f7da2f91ee51b510ee715dc728b95c3323291e0a0b6d01148130"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_MELISSA_MERRY.md",
+      "bytes": 12286,
+      "sha256": "0435c2abe5cb2dc3c1ae6c0c6068aa009ee1df432dafb4babeab2f0caca9e95b"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_MICHISHIRUBE.md",
+      "bytes": 10849,
+      "sha256": "ff9b24b315f9dc6ad36295793d3a985d776f488042ee1af3036cda626c6bad5d"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_MIIRO_MIXED.md",
+      "bytes": 8900,
+      "sha256": "cb0adb304628399a9efa2b4e1dd671dc227b77871b084a3ff65056e9da100c3e"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_MIXED_NUTS.md",
+      "bytes": 7142,
+      "sha256": "406f8cb93e5d2e947724e8338a057466ee50834b7ae024e2017d10a527f10ba5"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_MY_DEAREST.md",
+      "bytes": 8664,
+      "sha256": "0ed07ab4acd1d7e9f54ff2888337e621805ade011aaf9fdb089ac4b15c2581e2"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_NAGI_NIER.md",
+      "bytes": 12817,
+      "sha256": "f305b6d2ed70a1c861f770139b05f1578b41362c821709ca5b158e2e326ee59f"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_NINELIE.md",
+      "bytes": 17080,
+      "sha256": "effa06c58247b2014f0bcfbb4f66794b4d172f49eb4d5ba06c934e8e4fa2edba"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_OWARI.md",
+      "bytes": 13143,
+      "sha256": "7006bae03c8cf67522a1fa9f7d6f63a0ccd49cbd47cc499fed69ef70610803f6"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_RAILGUN_PIERCE.md",
+      "bytes": 11892,
+      "sha256": "28966e8615e5395043ab3412cd2b6fc36d891f353e76e85f3bcffcf77870545f"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_RESONANCE_RISING.md",
+      "bytes": 11916,
+      "sha256": "02f59c44e678f0923e205c08ff49dc38d20e0d818955b2b0b768b32d4642db19"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_RUMBLING_AETHER.md",
+      "bytes": 9434,
+      "sha256": "010b314bf8cb1bb6a31879ce02f2c3644fce76707d2ec42d5f89786f5ed2f87b"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_RUMBLING_UNRAVEL.md",
+      "bytes": 10229,
+      "sha256": "64e65a69b54521269224273eef66afe0c894bc8998ad0e7f1f50863e5b319612"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SADNESS.md",
+      "bytes": 12355,
+      "sha256": "22ecc682b74b92ee36290434e3712b15fa01bfae5ae418a80a2dd0d4e7253ea9"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SAKAYUME_SAYONARA.md",
+      "bytes": 13580,
+      "sha256": "b030665d0b0df293e6fc7c680c4d19b9e1b8fca092095a47c66ad3305b4d007d"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SECRET_BASE.md",
+      "bytes": 10935,
+      "sha256": "8ac19ce8845bd19d864acab1ac8d9e30991d25beccd1d5e4d9625db5b7a5ff98"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SHINZOU_SHIRUSHI.md",
+      "bytes": 12839,
+      "sha256": "15bcf4dd792cf76aad367664ccfa0f963435b2cdfb41cd879bd86ed5a7600cdf"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SILHOUETTE_SIRIUS.md",
+      "bytes": 11751,
+      "sha256": "3622b2333ce09c5a13fbe49ddb3bfb7434551b3fdedb45b601acc2267237d214"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SINCERELY.md",
+      "bytes": 9131,
+      "sha256": "8573f84fc36e383f86d81e06cb2e07d236613926f3c14a1367809ee73eabc641"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SNOW_SPARKLE.md",
+      "bytes": 10848,
+      "sha256": "eee237687e8e126c57efc8be80f5096aa6cae26c582d1c59722b75c984975e22"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SOUL_WAR.md",
+      "bytes": 10691,
+      "sha256": "33e3cf9b74cef558c71d87d12583c6f81ab5fe4144b195b25ae676db50d9f3c9"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SPECIALZ_GHIBLI.md",
+      "bytes": 11797,
+      "sha256": "cbc6168d9bd946078d41ebf0cfbb2f2458519c7578b17a3261e8e0574ece6e1e"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_STYX_SUGAR.md",
+      "bytes": 10704,
+      "sha256": "fb10ae32fb281dbbbfc01b45e1d5982f9d0d1361c8c2b9f947d1b9b3a4bf1f48"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_SUZUME_SWORDLAND.md",
+      "bytes": 10198,
+      "sha256": "c7252585ed89cf69d1375e032789a95a1ef7b3b86d6e90274d6576f68d0dea2a"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_TABI_TAMASHII.md",
+      "bytes": 9721,
+      "sha256": "db5519639e64ea31079b6d0cb1f4eae4249b40d546b87dc1c01c39052cc4346e"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_TANJIRO_KANTAI.md",
+      "bytes": 8777,
+      "sha256": "44a3cb9e98ad1e80f30c0ec9c9ce79faa526d855a86599c8bf517783d96a97b4"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_THIS_GAME.md",
+      "bytes": 12662,
+      "sha256": "d49658ca756f6b5416639f274739605fe656cff0e99ca82a42390b16f51292fc"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_TOKIMEKI_UCHIAGE.md",
+      "bytes": 9167,
+      "sha256": "3aa3d499938ce14576a33b99a71ec49f10c75596680d3a7d613a6430f318bf62"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_UNLASTING.md",
+      "bytes": 8316,
+      "sha256": "8e0d82f62d35957212d4adcfd887c2de75ab6c96e0c5b102c3a9e470861c0794"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_UNLASTING_UNRAVEL_CLOSEOUT.md",
+      "bytes": 10958,
+      "sha256": "c8548a38911ccefdc4dcb0f67c7f8414d99091efbac289d1cfd9659197cc4185"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_URAGIRI_VOGEL.md",
+      "bytes": 10612,
+      "sha256": "1ba08ae8e41340b1cd41775223784fe4633c69c4029427023b767721d9677913"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_WEARE_WEIGHT.md",
+      "bytes": 11356,
+      "sha256": "5e829541766eb570fe17dc47a4f445030fd010963b8476e13cc9960486a3eab0"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_WILL_BIGGIRL.md",
+      "bytes": 12358,
+      "sha256": "ce39ab143f2ad4972cb28d0668be8fba255b2f128872a5e1c0615f6a617b2da3"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_WORLD_REASON.md",
+      "bytes": 11534,
+      "sha256": "97f1d809d26125ac169bca23ee46d90a8cab7d934130c22304a261bf33d875f8"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_ZANKYOU_GUREN.md",
+      "bytes": 14445,
+      "sha256": "6dd9a69a2f7f1789d5992160e8e223dafea9f1bd1fc0ea2ce2a05859d0eac3fd"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_READING_ZEN_ZEN_ZENSE.md",
+      "bytes": 9235,
+      "sha256": "57ccb567af9a453caf8af50dd6e4545bd8b810202c8a4be4e1a30e7e371fdd33"
+    },
+    {
+      "path": "docs/engraving/INTEGRATED_REVIEW.md",
+      "bytes": 11381,
+      "sha256": "f195ed773097e3ab0b69b83628745e930899007602a71c3364b412cb7eafaa9b"
+    },
+    {
+      "path": "docs/engraving/ITERATION_BACKLOG.md",
+      "bytes": 3619,
+      "sha256": "ff09f7a1327db5288bf390fa0a23591e13024d93d7279dc969c37519c12f4f25"
+    },
+    {
+      "path": "docs/engraving/JUDGMENT_GUIDE.md",
+      "bytes": 62553,
+      "sha256": "9f765208c15a7b5b9183143b16026ea5df096247fdd1f788f61967b5c527c887"
+    },
+    {
+      "path": "docs/engraving/KOKE_COLA_CAUSAL_REVIEW.md",
+      "bytes": 7113,
+      "sha256": "77e23b6be05dcd68fe1a46dfa4e9d67311b07ed79dbdaf50458d23d7eb15f014"
+    },
+    {
+      "path": "docs/engraving/KOKE_COLA_WORKFLOW.md",
+      "bytes": 8383,
+      "sha256": "516aefaad4deeba0d7cba434ae29457d6d2ddbae846fe59f9123586dae50e1aa"
+    },
+    {
+      "path": "docs/engraving/LAYERED_COMPOUND_READING.md",
+      "bytes": 7504,
+      "sha256": "e94841a6fe0a677bd41d10387cc323bd62bc3532486fb3c4ab5cd639bcb866c2"
+    },
+    {
+      "path": "docs/engraving/LEADING_RESERVE.md",
+      "bytes": 7359,
+      "sha256": "1a0502a8c911aa56504c01acb2734550c8b3c745f66637137c75d2873ecc5b2e"
+    },
+    {
+      "path": "docs/engraving/LEGATISSIMO_SOURCE_MAP.md",
+      "bytes": 6566,
+      "sha256": "fe5ce796c7c57268b9b8fede1e5becc7b181fd1a00734082bc5f0a73e69a3014"
+    },
+    {
+      "path": "docs/engraving/LEGATO_RAVEL_READING.md",
+      "bytes": 10241,
+      "sha256": "66d123b44e5d5e64f78062cc7909440143156d5f10c6f08eacef97d1d1c45dec"
+    },
+    {
+      "path": "docs/engraving/LILYPOND_KEYBOARD_CASES.md",
+      "bytes": 11305,
+      "sha256": "728952800a38f62ea895cd169a8b1c5eb0b5b509b396fe84a39f764a23cb9480"
+    },
+    {
+      "path": "docs/engraving/LONG_DYNAMIC_TEXT_STUDY.md",
+      "bytes": 6460,
+      "sha256": "ff6284d67a4a6d945c1efe70e6903718e5f25cb56e0669004d4f6b54c586f322"
+    },
+    {
+      "path": "docs/engraving/M97_DIRECTION_FEEDBACK.md",
+      "bytes": 8313,
+      "sha256": "58cd601c90dd0254ae2a80dcc2face1a99f7e3f8953c0f802ab292db618a662b"
+    },
+    {
+      "path": "docs/engraving/M97_GROUP_BOUNDARY_TRANSFER.md",
+      "bytes": 8862,
+      "sha256": "fed270bf34548e6b314be75a3dc52df51bca804a585a97ec003f98dbc52ff190"
+    },
+    {
+      "path": "docs/engraving/M97_TUPLET_TRANSFER.md",
+      "bytes": 8493,
+      "sha256": "5ca6d81914a17fd0e29d30396f6efd19b40bd7934a146d08ab09b4ddbce4fa34"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH01.md",
+      "bytes": 11145,
+      "sha256": "136df9663d21ee8a36ee7bb104589f00f4defea872a247cea649ba3fac49c929"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH02.md",
+      "bytes": 12544,
+      "sha256": "2b6b042eb5b5de7be6e5250184c5e650c3a60b1b36ea584d82e12c48aef2ff8b"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH03.md",
+      "bytes": 11741,
+      "sha256": "92402d9d6985b65c802d6c8928f1655937e565aefa4f24aea23e6a2523ab9142"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH04.md",
+      "bytes": 13314,
+      "sha256": "8e705116aa4b16b5110e1853ee9742bcfdaef67540ec74d4d944f74444798f34"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH05.md",
+      "bytes": 12342,
+      "sha256": "faf572388cd9f4b8426bee878f6caf78d1095413370e2dbfaffddabb906468bc"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH06.md",
+      "bytes": 13052,
+      "sha256": "647383a39bd2babc8d4a7c89cd95dc8e2951a4ca1b6a76f4d6355d056add3aa8"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH07.md",
+      "bytes": 13046,
+      "sha256": "2df088cf8d686fcb6f9cdc50a5cc66661e9464e9869a9c0245005c736759bae3"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH08.md",
+      "bytes": 13574,
+      "sha256": "e4a04e0c3ab94b977d2eebbe05727bb9157b349f4de37e28e418c7d2e87f4464"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH09.md",
+      "bytes": 13395,
+      "sha256": "1b9bc594236595022efb9e1443a030ff2062558bde3b7a87eae97448dd0876fd"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH10.md",
+      "bytes": 14535,
+      "sha256": "ed8ccd1a7f7d3b243d89fc94d973fa56a590a97edc4fb00ac166ce3151519438"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH11.md",
+      "bytes": 12918,
+      "sha256": "75495adbbfbb872cdaf3e32dc032766842d17f0615f8eadd9bb700934e5d1b46"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH12.md",
+      "bytes": 14250,
+      "sha256": "0fc886b063f82a848e7c8255cd3f3ec62c88c1209da09166debdc09c636758c8"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CH13.md",
+      "bytes": 12489,
+      "sha256": "bcc3f0110450f6a5ad859791421dbcd464d87c31b8ab2fac7d32f715d816b661"
+    },
+    {
+      "path": "docs/engraving/MEDLEY_200_CLOSEOUT.md",
+      "bytes": 15358,
+      "sha256": "81d03b5141db70ad3f3bfa99c88e95bfab6f34678617a77837f244047659098b"
+    },
+    {
+      "path": "docs/engraving/METRE_TEMPO_READING.md",
+      "bytes": 33359,
+      "sha256": "5fcf51fc23046f27057303485a63826954a447431c546754661b7b57d7da8a5a"
+    },
+    {
+      "path": "docs/engraving/MOLA_READING.md",
+      "bytes": 16163,
+      "sha256": "d3989ce37103db7f933276791c42bc09d6a3cc54ea8fd75c2c44b7eebd3fe8ae"
+    },
+    {
+      "path": "docs/engraving/MPA_READING.md",
+      "bytes": 5614,
+      "sha256": "1941b4514f9ccf0c8bf7a827ffda63ab12a1ad2e59731200592046b9c956a1bc"
+    },
+    {
+      "path": "docs/engraving/MUSESCORE3_LAYOUT_READING.md",
+      "bytes": 12513,
+      "sha256": "08b1b1609318b8d191219cebd472b55b8e6a6ba53f74daa25d7166808ddde57b"
+    },
+    {
+      "path": "docs/engraving/NATIVE_EXPORT_ENVIRONMENT.md",
+      "bytes": 3817,
+      "sha256": "99d9c1f89e4f9c4b2e0f34a47f28409651136a4244368723ac966b7b42b0b512"
+    },
+    {
+      "path": "docs/engraving/NESTED_TUPLET_SCOPE_STUDY.md",
+      "bytes": 5188,
+      "sha256": "19f0c3a96f6b6f6a791f829a8d0fd1bc3edabcc293439d8fe161b6934207e207"
+    },
+    {
+      "path": "docs/engraving/NOTATION_DETAILS.md",
+      "bytes": 58249,
+      "sha256": "15454ff1c93247b8c66a5e7116533a8d67509cff004cc8bbdde59a33db69e0e5"
+    },
+    {
+      "path": "docs/engraving/OCTAVE_READING.md",
+      "bytes": 31010,
+      "sha256": "645c637b46be76ce30953556d88047d1d7ceeb292290c1c0ce6d563cf275a75e"
+    },
+    {
+      "path": "docs/engraving/OUTPUT_READING.md",
+      "bytes": 8741,
+      "sha256": "c76410f291785f07c78cd4e64df6fd59b8a5a8d782c76dcd0cb61c15086f175d"
+    },
+    {
+      "path": "docs/engraving/PAGE_FLOW_STUDY.md",
+      "bytes": 33773,
+      "sha256": "7e9f29073c042f00c001e78c687b8dee84cdf81443752039ea342bbc0d2399ef"
+    },
+    {
+      "path": "docs/engraving/PAGE_HIERARCHY.md",
+      "bytes": 10403,
+      "sha256": "65987a4106482e38d6b43730340007346421c2051226c469a734bedebc007c11"
+    },
+    {
+      "path": "docs/engraving/PAGE_TUTORIAL_READING.md",
+      "bytes": 6636,
+      "sha256": "687bdbd9fe4927052bf99321c8e07f7986ee6c4016bb9ecc13b85f75a733af8a"
+    },
+    {
+      "path": "docs/engraving/PARTIAL_TUPLET_BRACKETS_STUDY.md",
+      "bytes": 5215,
+      "sha256": "f59f148d21d23a5fe68e74c7d27d10090abd4ad2beebef77e1d12741fe309b73"
+    },
+    {
+      "path": "docs/engraving/PERCUSSION_NOTATION_READING.md",
+      "bytes": 9628,
+      "sha256": "e1bf252b7f71b90a57e00dd4e512b85329d1f7978325e13dc601da8bde282b05"
+    },
+    {
+      "path": "docs/engraving/PIANO_TEXTURE_STUDY.md",
+      "bytes": 44207,
+      "sha256": "c0ed4a3358cd9aa5c59503d8e9f8a3fd115dd7fa7fae945cf7bce255fd63b136"
+    },
+    {
+      "path": "docs/engraving/POLONAISE_TECHNIQUE_READING.md",
+      "bytes": 7522,
+      "sha256": "f745dbb5596c37efb28e8df270c043a60ee1c202b1335e66b2155a8bec6ef814"
+    },
+    {
+      "path": "docs/engraving/POLYRHYTHM_SPACING_STUDY.md",
+      "bytes": 8153,
+      "sha256": "a63134bd6ccda78fc594970412c623f324cd97f5e97a5f65bcf43836818e67cc"
+    },
+    {
+      "path": "docs/engraving/PREFERENCES.md",
+      "bytes": 9587,
+      "sha256": "563376fcd0d64c801cd46cf5043f0fe60bea74114cfa2820dfa0c01f3c57eec4"
+    },
+    {
+      "path": "docs/engraving/PURRVOICE_PREVIEW_READING.md",
+      "bytes": 9693,
+      "sha256": "400d98d2ebc556d302125871499fe394aad3a50b125c7d06b02582c0afdd4552"
+    },
+    {
+      "path": "docs/engraving/R09_OSSIA_READING.md",
+      "bytes": 6566,
+      "sha256": "d2a5272798e84e18218a5ea63eb950c60f4e362eeefda0c6e6370dfc7d2e3fd5"
+    },
+    {
+      "path": "docs/engraving/R09_PREVIEW_COMPARISON.md",
+      "bytes": 5601,
+      "sha256": "76c86a1ee59db162e6593ab74624ac56b395c863a868e19967b356c35d757153"
+    },
+    {
+      "path": "docs/engraving/READING_LOG_2026-10-20.md",
+      "bytes": 25731,
+      "sha256": "dfd218e247741c906c4fc79e718b17da0aab2918efd3261d4d167fc6c7eef073"
+    },
+    {
+      "path": "docs/engraving/README.md",
+      "bytes": 4295,
+      "sha256": "be4c5a94d05567767c653a4b2a2cb90d6cf19aa0345c07a92b74e39b3b40a7da"
+    },
+    {
+      "path": "docs/engraving/README_RESEARCH_HISTORY_0_34.md",
+      "bytes": 90502,
+      "sha256": "5cbac330f8576c3b900788c895cbc66121ab4a8fb4826fa72b404bca4642b6f4"
+    },
+    {
+      "path": "docs/engraving/REAL_SCORE_READING_TRADEOFFS.md",
+      "bytes": 8557,
+      "sha256": "9c59e65d78aef4d10454192f5616ae03ffeba3bae63db8d5c029f3e39966cb6d"
+    },
+    {
+      "path": "docs/engraving/REPEAT_NAVIGATION.md",
+      "bytes": 19705,
+      "sha256": "3c98fcd97247afb7c042d065ffe2e738777ee21b18a2c595ae3a05f0b1fb2615"
+    },
+    {
+      "path": "docs/engraving/RESOURCE_PLAN_MAPPING.md",
+      "bytes": 31527,
+      "sha256": "78487aaf419edfa73e16a33002d38591c84fac3f6f7f71ed4d300194158c276c"
+    },
+    {
+      "path": "docs/engraving/RESOURCE_RESEARCH.md",
+      "bytes": 12965,
+      "sha256": "a1c3c1ec017a0bc2242475458f3c49a2ec66512cab15ce5bd36069f7b82d1cff"
+    },
+    {
+      "path": "docs/engraving/RHYTHM_READING.md",
+      "bytes": 43214,
+      "sha256": "0e2def09e7dfc1d6254f7a46832ff233c1bafb5e011672c1327b58e91c31999f"
+    },
+    {
+      "path": "docs/engraving/RULES.md",
+      "bytes": 11523,
+      "sha256": "e1ba6198daaab6cb1c7415d8b7c6c41a4c1985560b0e1a3fd270bf4dd50bccf2"
+    },
+    {
+      "path": "docs/engraving/RULES_EXPANDED.md",
+      "bytes": 13204,
+      "sha256": "01bfac3c98252dce98e001f22604dddfc47bea991379ba07fc521e46bbc93fb0"
+    },
+    {
+      "path": "docs/engraving/SECONDS_OWNERSHIP.md",
+      "bytes": 8299,
+      "sha256": "57888892f0a8aeb8403b0d9c3cbc29fe3259a3675cb37c40fde924e9e2895956"
+    },
+    {
+      "path": "docs/engraving/SECTION_ENTRY_CASTING_STUDY.md",
+      "bytes": 5907,
+      "sha256": "fe1357f6868b17e57b22f087220b086dabddc5b146aee98ef558bc871509ef5d"
+    },
+    {
+      "path": "docs/engraving/SHAMSHIR_PREVIEW_READING.md",
+      "bytes": 6290,
+      "sha256": "ab67751cfec9a076f1c80757c64f2f86d29471ca466a73bd58f28976c52805bb"
+    },
+    {
+      "path": "docs/engraving/SKILL_REVIEW.md",
+      "bytes": 30456,
+      "sha256": "3188d379602d22da4887a8249bfc62a78fc8bbc35a3fc56c4aa3040a6bfefc87"
+    },
+    {
+      "path": "docs/engraving/SKILL_TRANSFER_CLEFS.md",
+      "bytes": 7779,
+      "sha256": "19813f9b1932077d1ae4b70064a740508ed86abd93461adae968567c32237c4e"
+    },
+    {
+      "path": "docs/engraving/SKILL_TRANSFER_CONTINUITY.md",
+      "bytes": 10591,
+      "sha256": "85c792059cba6b10255804358c06ba86aac4fd8020509b8d54c299fde4177854"
+    },
+    {
+      "path": "docs/engraving/SKILL_TRANSFER_MARKINGS.md",
+      "bytes": 6179,
+      "sha256": "07747a5a090ee9672f67148d7231c05f3c08b3bc45d707e796f3ea13877a68d6"
+    },
+    {
+      "path": "docs/engraving/SKILL_TRANSFER_NOTATION.md",
+      "bytes": 9444,
+      "sha256": "7b7535d9495f2181246ff5e0121441f98f63979ee51baebe7807e26928169d5d"
+    },
+    {
+      "path": "docs/engraving/SKILL_TRANSFER_PAGES.md",
+      "bytes": 11422,
+      "sha256": "a0e14efb3a9fa7d2ff50c8641c6006daaaef2d195aa07accfe4cb13f1778efd2"
+    },
+    {
+      "path": "docs/engraving/SKILL_TRANSFER_RHYTHM.md",
+      "bytes": 6770,
+      "sha256": "ff3f64c958558adc6470183dfbb7fc34205f2d741d94db1729efb871a18f377b"
+    },
+    {
+      "path": "docs/engraving/SKILL_TRANSFER_SPACING.md",
+      "bytes": 8239,
+      "sha256": "990e4ad8e7372086fd0f6bcbcd6c9a06594f03c6e416c15eac3dcb8d2d403fcd"
+    },
+    {
+      "path": "docs/engraving/SOURCES.md",
+      "bytes": 11045,
+      "sha256": "1d6d5835b8e1b64883e0a196a50a63a085d0b6e9aabf8f2b705596c26a44b649"
+    },
+    {
+      "path": "docs/engraving/SOURCE_IDENTITY_REVIEW.md",
+      "bytes": 4537,
+      "sha256": "6368d2c00223735b007f7a4e3fc9596300b64baf7c102f5d44db8fa82b37c5d7"
+    },
+    {
+      "path": "docs/engraving/SPACING_CANDIDATES.md",
+      "bytes": 7935,
+      "sha256": "8d4d8dd7ed345218a3d0b47c94a30938bb40697216de56b44f4c95f2235175d8"
+    },
+    {
+      "path": "docs/engraving/SPACING_DECISIONS.md",
+      "bytes": 51558,
+      "sha256": "cadb5a9bf7371e04802e8f6ef44f03b76a4740af9c932299e88734358298e776"
+    },
+    {
+      "path": "docs/engraving/SPACING_MODELS.md",
+      "bytes": 12469,
+      "sha256": "f7f2d0f787a0fa51f465b5e5ac5d041e3f4099ef36fd7559c52d2f6426327edf"
+    },
+    {
+      "path": "docs/engraving/SPACING_STUDY.md",
+      "bytes": 27354,
+      "sha256": "9f3b30ddebdabd740ccc4fd5de1dc49bb1b6b4574b1c5411f0d4d27f406ca950"
+    },
+    {
+      "path": "docs/engraving/SPACING_TRANSFER.md",
+      "bytes": 9175,
+      "sha256": "5b328c38704c0a44e2ba920de78b8cb6a54d9d957f00054d7892004867c5eaf0"
+    },
+    {
+      "path": "docs/engraving/SPLIT_BAR_CONTINUATION_STUDY.md",
+      "bytes": 5300,
+      "sha256": "5dc4be0e6cf41a1a2af9dc3df7d59abbeee7fa501f9e13f503cc7bda6046b3c5"
+    },
+    {
+      "path": "docs/engraving/STAFF_TUTORIAL_READING.md",
+      "bytes": 7384,
+      "sha256": "4635549be7653484a6e299df406b13a13243b0c2980e36a437489c6da71a7102"
+    },
+    {
+      "path": "docs/engraving/STATUS_AND_ROADMAP.md",
+      "bytes": 4940,
+      "sha256": "38e11e45022de18a88b391802232fe2de5d97198823b76c1c12c85ee7e753305"
+    },
+    {
+      "path": "docs/engraving/STATUS_RESEARCH_HISTORY_0_34.md",
+      "bytes": 147193,
+      "sha256": "2a47c4f1380c949ff2a6d74bf4ba7d92072b59ed7ee1db4fcfc3625c5c5a4a6c"
+    },
+    {
+      "path": "docs/engraving/STEM_OPTICAL_CONTEXTS.md",
+      "bytes": 7774,
+      "sha256": "228bc8c9c4127de4432f5fa4ef798e8ec2668723e440f72bd3d52e2aa76eef3f"
+    },
+    {
+      "path": "docs/engraving/STEM_OPTICAL_LIMITS.md",
+      "bytes": 8186,
+      "sha256": "4ea31f620ba03a18660bc92fa811f9d7aacd8f1b9aa3aebe3395f35a54c16c42"
+    },
+    {
+      "path": "docs/engraving/STEM_OPTICAL_SHAPES_MARKS.md",
+      "bytes": 7588,
+      "sha256": "1658e08dbce29477faeb59ab27efabcb3dc2c1a94e263cdc50aa5004a73acc78"
+    },
+    {
+      "path": "docs/engraving/STEM_OPTICAL_SPACING_STUDY.md",
+      "bytes": 7426,
+      "sha256": "80bd8d04ff0730cbdb25907110b9eb47971260257263ca927b9ae3079e9e2580"
+    },
+    {
+      "path": "docs/engraving/SUGAR_HANDOVER_REVIEW.md",
+      "bytes": 7661,
+      "sha256": "644752a3ea4f703f43ee7dd9279162aed86fea55a12886505ea7634726de56b3"
+    },
+    {
+      "path": "docs/engraving/SUSTAIN_AND_RESTS.md",
+      "bytes": 22223,
+      "sha256": "48ea90306afb935fb8b9be6b532f96aa4e05429e7ac87687fe3b25a946ec60ab"
+    },
+    {
+      "path": "docs/engraving/SUSTAIN_CONTINUATION.md",
+      "bytes": 10631,
+      "sha256": "2d12efc15d68a741d641e0cf2af260a14ff6987985931f2cb5f396ea5eca171b"
+    },
+    {
+      "path": "docs/engraving/SWING_ALIGNMENT_STUDY.md",
+      "bytes": 7594,
+      "sha256": "9cfc26735c4763952608389d511aef90e33a28f44f15d53cdcf0e0bd3c5c22cc"
+    },
+    {
+      "path": "docs/engraving/SYMBOL_READING.md",
+      "bytes": 9610,
+      "sha256": "731bc5a783c7735163eeb71a005d23a869028f582a3020c46d10c6300a7b4168"
+    },
+    {
+      "path": "docs/engraving/TEMPO_EQUATION_CLARITY.md",
+      "bytes": 6668,
+      "sha256": "82bb55e7382ac8f62593ab4c4d2710195166f586ddeb4fcbff0c0abe0745acfc"
+    },
+    {
+      "path": "docs/engraving/TIME_SPACE_AND_REPETITION.md",
+      "bytes": 14388,
+      "sha256": "24e3cc57b04a28b67af24d6a046914991350b0bbb141e7481e0b3210b2e19804"
+    },
+    {
+      "path": "docs/engraving/TRILL_READING.md",
+      "bytes": 14175,
+      "sha256": "d9a0a17c5649aeb3692a09489b3a9133c7817260996bd87570ddbaf4bd16c45f"
+    },
+    {
+      "path": "docs/engraving/TUPLET_CHANNEL_STUDY.md",
+      "bytes": 10637,
+      "sha256": "ca26d0622f0f3a15589fd3ad640faa82f9b9453b7461fb9ee928a98d7131a812"
+    },
+    {
+      "path": "docs/engraving/TUPLET_DECISIONS.md",
+      "bytes": 9423,
+      "sha256": "9aa60174288980c54422655ce7c64373b6a806247d52404163fae1332eddf5f3"
+    },
+    {
+      "path": "docs/engraving/TUPLET_OWNERSHIP_STUDY.md",
+      "bytes": 9567,
+      "sha256": "53f68c922b1f53e4fb8dd42e8fff99f70838c166f25d3269bb9783cdd2df177c"
+    },
+    {
+      "path": "docs/engraving/TUPLET_READING.md",
+      "bytes": 24655,
+      "sha256": "d89195b712750d27f726c1965792ba47a5bd6d2f086ab1d5f6010b63596cba3c"
+    },
+    {
+      "path": "docs/engraving/TUPLET_REST_SCOPE_STUDY.md",
+      "bytes": 11415,
+      "sha256": "5644c35db6c44da3db401d65966da25ed89be537cfdbe9db0f76b3a34fc24095"
+    },
+    {
+      "path": "docs/engraving/TWENTY_TO_SIX_OCCUPANCY_STUDY.md",
+      "bytes": 7677,
+      "sha256": "541bde0050d70c2d0dc9e1122c2d69d0561d0760fb5a9b63afcc846299846741"
+    },
+    {
+      "path": "docs/engraving/TWENTY_TO_SIX_SPACING_STUDY.md",
+      "bytes": 10494,
+      "sha256": "c46db336d8f731cd3c3240d01c000f5bf9e34daea1540b00fd60bfdc25120c80"
+    },
+    {
+      "path": "docs/engraving/UNISON_DOTS_STUDY.md",
+      "bytes": 9807,
+      "sha256": "b3374f44e705f06f8ed9558d44ad9622c18cd1af794cd358964f0b7339863a0d"
+    },
+    {
+      "path": "docs/engraving/USER_COMBINED_REVIEW.md",
+      "bytes": 8410,
+      "sha256": "c84af2fc06fd550a6ab75afc7eec645054c282db21ac4291537156f75eea1c0e"
+    },
+    {
+      "path": "docs/engraving/USER_PAGE4_REVIEW.md",
+      "bytes": 9174,
+      "sha256": "6b8eae60fcd559a3579b75c03a00af3573ba037c5ae919417e856d896eded923"
+    },
+    {
+      "path": "docs/engraving/USER_SPACING_APPLICATION.md",
+      "bytes": 14834,
+      "sha256": "e7537cd9806a60d0a9b29013ea744b68c86ad26da04d0091240081b9ce22ea9d"
+    },
+    {
+      "path": "docs/engraving/V1_TRIAL.md",
+      "bytes": 3437,
+      "sha256": "066a49cfa4f611436ca582a29fd297aa19915515f3712090d8b0f1383a7839c1"
+    },
+    {
+      "path": "docs/engraving/VOCAL_TEXT_READING.md",
+      "bytes": 14604,
+      "sha256": "4d3f1bc49a48c0629fbeef4a6126e6667872d29edad19e03492a8f2fdd1575c0"
+    },
+    {
+      "path": "docs/engraving/WHOLE_SCORE_REVIEW.md",
+      "bytes": 13019,
+      "sha256": "3e583f32dee782b9282b8547a099f02817f53421058c26906836546031d2cec2"
+    },
+    {
+      "path": "docs/engraving/WIND_NOTATION_READING.md",
+      "bytes": 6389,
+      "sha256": "2e9295f30cbce4cc588a43c7e6c5ea26016a742847c4646a4908ed551a631e6a"
+    },
+    {
+      "path": "docs/engraving/accidental_edge_cases_evidence.json",
+      "bytes": 20054,
+      "sha256": "f7e68d3ebc13d755ebbca0a654a4c5b9e866c0511df74c407cfab5a2bad12b0a"
+    },
+    {
+      "path": "docs/engraving/accidental_spacing_evidence.json",
+      "bytes": 25124,
+      "sha256": "c573bb69706723a49c11e00dd90182b77b3ef305acd44e3ac4561c7b9afc7d97"
+    },
+    {
+      "path": "docs/engraving/accidental_spelling_evidence.json",
+      "bytes": 14850,
+      "sha256": "44e65f63d38050b00453e15fafc5238a108ae229b6445caeef32a443ada8a689"
+    },
+    {
+      "path": "docs/engraving/accidental_state_evidence.json",
+      "bytes": 28307,
+      "sha256": "86079e4550838e6ca2acb365ad9e1116bb142303fe0e0b79787ba31cf4919b06"
+    },
+    {
+      "path": "docs/engraving/adabana_reading_evidence.json",
+      "bytes": 35511,
+      "sha256": "3dfd19b9b8ce607610fbb6d967a6f2c2fba7e76058855f2a51e0fad8ba262eb3"
+    },
+    {
+      "path": "docs/engraving/aether_entry_clearance_evidence.json",
+      "bytes": 22212,
+      "sha256": "ec21c5d5f2c01ca549fb9d3ff757ced35d7e8d2588c86fdbbc88f43f0c45c51f"
+    },
+    {
+      "path": "docs/engraving/aether_m33_budget_evidence.json",
+      "bytes": 29457,
+      "sha256": "9ce4fe43e28b4048e0c5bea22c2cf272c2592b5f38b21e460d4b8981c76ec396"
+    },
+    {
+      "path": "docs/engraving/aether_native_reconstruction_evidence.json",
+      "bytes": 15764,
+      "sha256": "35039709552abd0bca8c2907b35dab213a40ebe93cc803063f13daeb3778629a"
+    },
+    {
+      "path": "docs/engraving/aether_spacing_layers_evidence.json",
+      "bytes": 30175,
+      "sha256": "b25bfe3caf68047ecb78bc23e098e410cb2491278db140a2a4c88fd78ad323bc"
+    },
+    {
+      "path": "docs/engraving/aether_system_transfer_evidence.json",
+      "bytes": 28275,
+      "sha256": "361edf33aaa1443db78742258a10d0a94ca42f99843854d572ac639ff2ee528a"
+    },
+    {
+      "path": "docs/engraving/again_akuma_closeout_evidence.json",
+      "bytes": 108280,
+      "sha256": "503cc26fed53c357d68050b3c5072df409be23383b7beb8c9931257368715b13"
+    },
+    {
+      "path": "docs/engraving/akuma_reading_evidence.json",
+      "bytes": 15028,
+      "sha256": "41bd8b50bf4e36fefb99120930f0d3f6de11506994f814ee8dcfdf10168e4cbb"
+    },
+    {
+      "path": "docs/engraving/ao_attack_evidence.json",
+      "bytes": 111361,
+      "sha256": "97c16db23400dc764d2e595b5c1e4e284d9fd865e136f36e2371609848630b2c"
+    },
+    {
+      "path": "docs/engraving/arpeggio_reading_evidence.json",
+      "bytes": 20738,
+      "sha256": "e5bafa13091a513f538fd70e349b5035b8b1bbfa0c81a0573e3aa6c19cb3bf30"
+    },
+    {
+      "path": "docs/engraving/arpeggio_tutorial_reading_evidence.json",
+      "bytes": 14590,
+      "sha256": "4501d757023f8174774c6936b2a45ed04a499763638bdfce47e8c57ea4b93518"
+    },
+    {
+      "path": "docs/engraving/avid_capacity_boundaries_evidence.json",
+      "bytes": 15990,
+      "sha256": "fe0a9c385183ba637bfc0c0de09bbbbfb4cf4312eac9874cfd281c3112b69576"
+    },
+    {
+      "path": "docs/engraving/avid_curve_scope_evidence.json",
+      "bytes": 9231,
+      "sha256": "a215553aaad3a31c2492ac6e6e8a04e3b0fd127eca988d8c568ddd1e02e7d7ac"
+    },
+    {
+      "path": "docs/engraving/avid_native_context_evidence.json",
+      "bytes": 14625,
+      "sha256": "9b25ae379f90f885d56e1ac13fc743bf8e431560d10185bc8025632db2f073e1"
+    },
+    {
+      "path": "docs/engraving/avid_outside_numeral_evidence.json",
+      "bytes": 10852,
+      "sha256": "ba16213fab39ea83d203358f57a4dd6af21f707dc36cc2cd8bad19f3ed30ac83"
+    },
+    {
+      "path": "docs/engraving/avid_page_input_evidence.json",
+      "bytes": 15078,
+      "sha256": "471d646eeb87bd9a415f4f337065ea049d21e93543df646ef2b745e001c5dae0"
+    },
+    {
+      "path": "docs/engraving/avid_whole_review_evidence.json",
+      "bytes": 13816,
+      "sha256": "0de32335e1589436a1dee0f67e5e6b3d1f5354c8ea9162a9aca743d9ba5a4b15"
+    },
+    {
+      "path": "docs/engraving/avid_width_budget_evidence.json",
+      "bytes": 25702,
+      "sha256": "c7c39aedb7c6db720891624a4c7b53c263d94f9b91239cfdc77d69ff8a160a5e"
+    },
+    {
+      "path": "docs/engraving/ballade_editorial_context_evidence.json",
+      "bytes": 10632,
+      "sha256": "9adab0a890f95caaa04b397d88542edaeea578c4a27fbfdc6d1a1a3bb1ee5c46"
+    },
+    {
+      "path": "docs/engraving/ballade_performance_context_evidence.json",
+      "bytes": 13529,
+      "sha256": "90acae134ac9fc3d8da00a2d66e26b52c72b56a6964a713523d0743ba9114f28"
+    },
+    {
+      "path": "docs/engraving/ballade_polonaise_preview_evidence.json",
+      "bytes": 14445,
+      "sha256": "9f8bccc3790badde5e545f7e169de69848dab81db3e1ff846fd6c2e7a84ca1c8"
+    },
+    {
+      "path": "docs/engraving/ballade_preview_continuation_evidence.json",
+      "bytes": 17987,
+      "sha256": "e87ec33350a7d4fd2733c0fc0023103eec0e552a5c14db653a994d9546952acc"
+    },
+    {
+      "path": "docs/engraving/bauklotze_before_evidence.json",
+      "bytes": 127490,
+      "sha256": "86ee73332a4e551cd1bf89f9d2ffc9e9e0d9613401f6c270e3baf3d60c81f28b"
+    },
+    {
+      "path": "docs/engraving/beam_across_bar_reading_evidence.json",
+      "bytes": 14126,
+      "sha256": "7547950cb27671a93d837455e9923f6c769dadbf46626d0f077d850999f2a4e4"
+    },
+    {
+      "path": "docs/engraving/beam_exchange_clef_evidence.json",
+      "bytes": 27597,
+      "sha256": "ce8b0fdf5c36435e038e93efd235e520b35cb4d1e7793d85e627350fae81da7c"
+    },
+    {
+      "path": "docs/engraving/beam_operations_evidence.json",
+      "bytes": 43332,
+      "sha256": "cfec1363d932a3d47e8ba61dd984fd3fdb2590fd1f56e25a42b2e405b7957455"
+    },
+    {
+      "path": "docs/engraving/beam_rhythm_evidence.json",
+      "bytes": 19036,
+      "sha256": "2b027379dc647d22da28c96360629d583f26ffda07c5b2bc1d272a700096e74b"
+    },
+    {
+      "path": "docs/engraving/beam_scope_transfer_evidence.json",
+      "bytes": 14174,
+      "sha256": "946bfead52ff4b2a0d6a82e56974ac4d2c7621fe41e374f6d467dbad2efbf2cc"
+    },
+    {
+      "path": "docs/engraving/beam_width_evidence.json",
+      "bytes": 34075,
+      "sha256": "6fa7555aa3713671a739d96371057491485d12430611fd34c8be8c1e41ecb459"
+    },
+    {
+      "path": "docs/engraving/beam_width_transfer_evidence.json",
+      "bytes": 20458,
+      "sha256": "5c4c36b0ea105b10334c26d764a2701ce255d5d56e0ae7becae0c5252c111847"
+    },
+    {
+      "path": "docs/engraving/beginning_to_you_closeout_evidence.json",
+      "bytes": 85021,
+      "sha256": "237824802651277cb60439c23afaa5d69640db6dec7392192de28bb923a3165c"
+    },
+    {
+      "path": "docs/engraving/black_blue_evidence.json",
+      "bytes": 132251,
+      "sha256": "6da942089c2ff46651768474025a593406004d4604ef56fe74c2a20f7b1e87b3"
+    },
+    {
+      "path": "docs/engraving/bloody_stream_whole_reading_evidence.json",
+      "bytes": 46274,
+      "sha256": "1f401edf10e46982b70f72043ac2d56646ebe32f0e43db9022d0c2e60d8f2d14"
+    },
+    {
+      "path": "docs/engraving/boy_blumenkranz_closeout_evidence.json",
+      "bytes": 26650,
+      "sha256": "eedeaeddc702e7573ac2cbc38b01f427ed939f9fd3d38e372fb18a2824e9d72c"
+    },
+    {
+      "path": "docs/engraving/butterfly_silence_closeout_evidence.json",
+      "bytes": 26637,
+      "sha256": "61d289a7390932305ee91fc5d96fcd63759a20ceac0b7d42530834b99e991464"
+    },
+    {
+      "path": "docs/engraving/cache_maintenance_evidence.json",
+      "bytes": 2281,
+      "sha256": "b91ae7fcb34030c437be319f34017c621605868371159e00ea1692463e31fc14"
+    },
+    {
+      "path": "docs/engraving/cases.json",
+      "bytes": 21282,
+      "sha256": "ba8989593c13e81e2fa417c17686a6e750ab9cea9fe833c0120637a240d57a19"
+    },
+    {
+      "path": "docs/engraving/casting_off_evidence.json",
+      "bytes": 17299,
+      "sha256": "816878944fbb18c5887829b754372496c2e9687d572918fd3d97c121066fc3ba"
+    },
+    {
+      "path": "docs/engraving/catch_change_closeout_evidence.json",
+      "bytes": 35155,
+      "sha256": "f5675dcd63a405551dbc9b20d78ee87ab884ca0f17f0442f61fded3597c6ea89"
+    },
+    {
+      "path": "docs/engraving/clef_in_group_evidence.json",
+      "bytes": 19469,
+      "sha256": "1fa178f68e4bda044994abf2f0be87a4951ca2c852deda6aa8ae224d6e851636"
+    },
+    {
+      "path": "docs/engraving/clef_reading_evidence.json",
+      "bytes": 16169,
+      "sha256": "cf7f92059889b9fb5903542d4333e5997e77630a8fde4915d9addf92f44c7431"
+    },
+    {
+      "path": "docs/engraving/colors_crossing_closeout_evidence.json",
+      "bytes": 39898,
+      "sha256": "0ae1d89c9ad88c931dbab74231b1cd87bd624999b4d975173c3a4684330b61de"
+    },
+    {
+      "path": "docs/engraving/connect_evidence.json",
+      "bytes": 53007,
+      "sha256": "1a3b9d7f44c73959442feb042e3cc8430860815e91832ede49f97c46676c56f4"
+    },
+    {
+      "path": "docs/engraving/connect_reading_evidence.json",
+      "bytes": 13051,
+      "sha256": "0ae0b47f27a18da95affa8725c8b8ba01b6d0fa62f2a4844326864a972e0959c"
+    },
+    {
+      "path": "docs/engraving/corpus/INDEX.md",
+      "bytes": 21516,
+      "sha256": "2e5e7cb82a90eeaa3a3210c37e3305c84f03078304cfdd11e21171864d9a99bf"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_001.md",
+      "bytes": 12218,
+      "sha256": "9459126d7e1c83d7f83b8d98e11625ccd474bee20ba835c62fbc75dc045500fd"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_002.md",
+      "bytes": 7253,
+      "sha256": "c99424f88fcd1310b4016ca150bf2c53c31d5d92d15d2ac646c6ba83ecb0d9cf"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_003.md",
+      "bytes": 10908,
+      "sha256": "909b94f13900860fd032d5e2e6c6dc4d56bd6f4ef21228b39417142ec2bc9d12"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_004.md",
+      "bytes": 10044,
+      "sha256": "12de93e4cbbd717b6f70a1f065c0b9199d567bf0848e3b293490f3a4061ac311"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_005.md",
+      "bytes": 9811,
+      "sha256": "398cd1cf88715d4a65212a8aacb6638f4e6fdb03f480c8c3bf3b8c0f71b3c66f"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_006.md",
+      "bytes": 8802,
+      "sha256": "12a40a78de408f1148cd611e3864096226c33e3101a08d27057ab78636d0f8d2"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_007.md",
+      "bytes": 7786,
+      "sha256": "135129f52ec2ca1def3d2c6c7df9a22c9288fc07e96694e74e6dd4ba7f981329"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_008.md",
+      "bytes": 8637,
+      "sha256": "be1ee65660d68cf53519ead3f7536959f981366c5a98a38db20941973815f2bb"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_009.md",
+      "bytes": 8932,
+      "sha256": "de8ca7a969dcce38a3d62f7ff8486694a14876ecd3ee4734b4f42e48c091fa8b"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_010.md",
+      "bytes": 7090,
+      "sha256": "2d0c96d4be7bd928263cd5e5c1624bcee20a1e09d7e50e9420f43ef159895be3"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_011.md",
+      "bytes": 7144,
+      "sha256": "6f253b03cb4a0c39a3ee229eaf43d4f094f7fbedfef724b92ccba3ed3071e672"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_012.md",
+      "bytes": 7385,
+      "sha256": "3a5476c2239ac66dc44f5b25e1b0e2770497152854ffb372a8fc78c08e072c49"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_013.md",
+      "bytes": 7249,
+      "sha256": "790a42dd8d68379db81a5a53d00ccc12e5e6cc7c12dd41fbbdbe385b8ffabc6b"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_014.md",
+      "bytes": 7932,
+      "sha256": "78c6a2c8b2586e73040b1a1ed98b82278eeac54c5937698e97557b79e7f13eed"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_015.md",
+      "bytes": 8087,
+      "sha256": "9d37f45743b018e5fad02cb837cba3a817b0431624f0592235ccf91f53977e81"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_016.md",
+      "bytes": 7516,
+      "sha256": "adb9ae143251d96f6b03276c7174b4f0e5a38e184988a65d4fbad4d5cc69e705"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_017.md",
+      "bytes": 9350,
+      "sha256": "2257896d507755b1ad892512b5d98a2847f2a2d26d375ef1fa83edc6daeab2cd"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_018.md",
+      "bytes": 7858,
+      "sha256": "54a49cafda3f8e079959fddf3d769cb8c812d2c72d1a66f45f02d1c4bd298192"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_019.md",
+      "bytes": 9132,
+      "sha256": "da3e163ef2a4d936427d3bb17be02a2c258b2d12afe55f206c111a0b977e7391"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_020.md",
+      "bytes": 8599,
+      "sha256": "2609e85113e1aa17e20a0ef0c67fb3d6f82646158da53ed4b027a34249a15d78"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_021.md",
+      "bytes": 9203,
+      "sha256": "fa11d7db3665a665bf18f03d2cf705fcef75bbecc56cf9e7050584503982d47b"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_022.md",
+      "bytes": 7581,
+      "sha256": "fd9aa8c576491523abd17d61963621ddca231ca9b74cb2039b2969b4effe04b4"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_023.md",
+      "bytes": 6717,
+      "sha256": "f03b5ac870b5392f4dc406d7f18dd2f9c9fb1ea418f426c701631f6b717701d0"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_024.md",
+      "bytes": 7258,
+      "sha256": "464d5a6bd19c7c41a49c628c3b9fdc288fd393dbb5b6748fbb887dad6b67b893"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_025.md",
+      "bytes": 6819,
+      "sha256": "204e991b0b888a11d6e78df11ed9ea0925a4bdebfb7d03dd3abd690415c3d5c5"
+    },
+    {
+      "path": "docs/engraving/corpus/READING_MEDLEY_200.md",
+      "bytes": 25713,
+      "sha256": "c86c82cbe14d09a177f40d231ac10eea6bcc45b614b72125bba6a796ba54166b"
+    },
+    {
+      "path": "docs/engraving/corpus/inventory.json",
+      "bytes": 100274,
+      "sha256": "5dbde66f7777413a53cbd2d79c56507084e0a1c212c1db3128d1657d7b713711"
+    },
+    {
+      "path": "docs/engraving/corpus/reviews.json",
+      "bytes": 128493,
+      "sha256": "7a67dd16fa1496adeb3d06c1b200acd3c6d548a3f2d5bc778954399490c2355a"
+    },
+    {
+      "path": "docs/engraving/corpus/verification.json",
+      "bytes": 10932,
+      "sha256": "0486077b3f6a9faeb18e78744f508acaa1560e806398c33846b2bd7fd6b6c148"
+    },
+    {
+      "path": "docs/engraving/cross_staff_beams_evidence.json",
+      "bytes": 30830,
+      "sha256": "123680d6ab68ad1fdaa56b7e5c3a85e69550c4fd7c3d62a840f929c5b933b433"
+    },
+    {
+      "path": "docs/engraving/cross_staff_slur_routing_evidence.json",
+      "bytes": 35932,
+      "sha256": "22e00bb0c98e61618e69f69b516075ca45d9ea3b22f876be3babe48c8166df45"
+    },
+    {
+      "path": "docs/engraving/crossbar_display_composition_evidence.json",
+      "bytes": 13584,
+      "sha256": "8e27a50283a64b572343cec0f37dd7810fd77c14e9a93881347ac6529b693879"
+    },
+    {
+      "path": "docs/engraving/crossbar_tuplet_native_evidence.json",
+      "bytes": 30214,
+      "sha256": "760d92f83c301845b55063aab5b71613aeb85668bce65a217183fc7c3b0266f3"
+    },
+    {
+      "path": "docs/engraving/cry_daisy_closeout_evidence.json",
+      "bytes": 49157,
+      "sha256": "eb32a21cfcaffa5138f7656453383dac6f2b068394e1435eb2afa91608f5b67f"
+    },
+    {
+      "path": "docs/engraving/curves_evidence.json",
+      "bytes": 11699,
+      "sha256": "4878370f83c9e4a1814a6b7bacc4c9406d771a87f1169d8e77e44cb32972be25"
+    },
+    {
+      "path": "docs/engraving/dango_hanezeve_closeout_evidence.json",
+      "bytes": 26598,
+      "sha256": "4d3cf6f601b992e2cb5d3707868f669555904211dc4a717e17d4ba01270fdb09"
+    },
+    {
+      "path": "docs/engraving/dearest_hero_closeout_evidence.json",
+      "bytes": 111362,
+      "sha256": "6dc5e36c49e8bf9df8aa31a13858d1d7e288c2d11fa027bc84932292ad9d9f11"
+    },
+    {
+      "path": "docs/engraving/departures_closeout_evidence.json",
+      "bytes": 51348,
+      "sha256": "3eb7775eb086fdf322f3fb79117ce7eb9985bd2979731168d8e9f4fe8bc949b2"
+    },
+    {
+      "path": "docs/engraving/dorico_editorial_figures_evidence.json",
+      "bytes": 5215,
+      "sha256": "de242f109a790ce4249015f174e3ad4f1863b88439c59afd1a4703e5e45c8ddb"
+    },
+    {
+      "path": "docs/engraving/dorico_editorial_practice_evidence.json",
+      "bytes": 13131,
+      "sha256": "f7d3f2d0837b6c05b20828ed5e0519a6d1e4bb670ed4819346900a8f09aaaa3a"
+    },
+    {
+      "path": "docs/engraving/doubled_tuplet_evidence.json",
+      "bytes": 27202,
+      "sha256": "a53ed14d35282a24f061fd9775d266b85d4a6f26f52dced0798e7b606c496b4c"
+    },
+    {
+      "path": "docs/engraving/dynamics_articulation_evidence.json",
+      "bytes": 7540,
+      "sha256": "7c22106a03a523279e72d6810553b3bd11cf08f268f994b341872bd8ec746f9f"
+    },
+    {
+      "path": "docs/engraving/eonian_euterpe_closeout_evidence.json",
+      "bytes": 80878,
+      "sha256": "61154857a4ca0f33c25e27779ae6fa1e9fc3310ee489cfecd189ef9ce640181d"
+    },
+    {
+      "path": "docs/engraving/eonian_spacing_review_evidence.json",
+      "bytes": 9661,
+      "sha256": "41f94c941f6b234a612307f10459ef835f6407d29634c84259c1106817e9f17f"
+    },
+    {
+      "path": "docs/engraving/everlasting_heroes_closeout_evidence.json",
+      "bytes": 96886,
+      "sha256": "953024bb426df0b61962e71ee1eb2a7675d82341868bd3ff593badf85ef9b761"
+    },
+    {
+      "path": "docs/engraving/everyday_extra_closeout_evidence.json",
+      "bytes": 93035,
+      "sha256": "1da6a717a7a393a55a981c620c9b6f25d187ae9da9c3873318e91d3b909c6d8a"
+    },
+    {
+      "path": "docs/engraving/expanded_cases.json",
+      "bytes": 74989,
+      "sha256": "cbb6254686064f6ebb42627a09080d0de1585d17e7f27bea6f39d21b2ba65c39"
+    },
+    {
+      "path": "docs/engraving/expanded_verification.json",
+      "bytes": 9634,
+      "sha256": "e4a875a39ecc22c98c29cfb616959fdd09539ed01337e129419463b87996d953"
+    },
+    {
+      "path": "docs/engraving/fanned_beams_reading_evidence.json",
+      "bytes": 11395,
+      "sha256": "c3b16203a126304faabe15e2b91b4fabb4e88836fd9e017435a1123f80e382c0"
+    },
+    {
+      "path": "docs/engraving/fate_frieren_closeout_evidence.json",
+      "bytes": 112275,
+      "sha256": "113d0c34f87b04981d314283a31f5dec7a531ab91d69d6d38e0c9b658a94137c"
+    },
+    {
+      "path": "docs/engraving/fingering_evidence.json",
+      "bytes": 14205,
+      "sha256": "2b66b86345905a4c6208cbbf5a578efe1ba92e81d9c463b3bf8376c34675e3d7"
+    },
+    {
+      "path": "docs/engraving/five_four_spacing_evidence.json",
+      "bytes": 75039,
+      "sha256": "6d165a7b6d2723d53514a1f44c457610510a937b042fde3960f8a6cbf997822c"
+    },
+    {
+      "path": "docs/engraving/fixtures/README.md",
+      "bytes": 55913,
+      "sha256": "9de408ef7f3dad15c76d5612e0e0a6cccbc83929dab4f8d54b97c26ab0c6d40f"
+    },
+    {
+      "path": "docs/engraving/fixtures/accidental-state-automatic.mscx",
+      "bytes": 10136,
+      "sha256": "6f13c665ef072e97283e06754aff0c95d63c14a8f191403e6595576bb93fde48"
+    },
+    {
+      "path": "docs/engraving/fixtures/accidental-state-automatic.png",
+      "bytes": 57665,
+      "sha256": "bd66b05080c53610cf2000e2ede84fdc038687218e1c6e4dad03d50a1c61c778"
+    },
+    {
+      "path": "docs/engraving/fixtures/accidental-state-extra-tied.mscx",
+      "bytes": 10660,
+      "sha256": "9f59859c597fc2ad5fece99cf930af7255d754ed260e1e80bb550ad8375e45ce"
+    },
+    {
+      "path": "docs/engraving/fixtures/accidental-state-extra-tied.png",
+      "bytes": 58635,
+      "sha256": "c0e804c55d117d3dd2cf02cde152655922bff792e470a0c3f72bb5219675544c"
+    },
+    {
+      "path": "docs/engraving/fixtures/accidental-state-selective.mscx",
+      "bytes": 10486,
+      "sha256": "f876619ec3d6742461c9349433e01d39b5bad00f6ccfc3b76591857166a801d9"
+    },
+    {
+      "path": "docs/engraving/fixtures/accidental-state-selective.png",
+      "bytes": 58398,
+      "sha256": "89b9013ce57bece7e418440b6460de778ed813bb704a9be1f97ca4dbab4fcfa1"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-continuous-clear.mscx",
+      "bytes": 4604,
+      "sha256": "79b73048bb2e4e4dd885dc1fab3712c10885551f7f8dfb7f1eba8b0b8ac4d072"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-continuous-clear.png",
+      "bytes": 24847,
+      "sha256": "e2702f3fc90b5d0b27349ae3a2f991399d6e66db023689790f6accb604429e23"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-continuous.mscx",
+      "bytes": 4478,
+      "sha256": "69d272c2cc99fddad6d81f236afe9a9ab79414d9cc9ef02adac05cb6b4934e38"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-continuous.png",
+      "bytes": 24494,
+      "sha256": "46f27708cce31a0ddf3684a9ca6a1142e57d8f0cdacfec31d35f33f6dc69c8e0"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-extent-rejected.mscx",
+      "bytes": 4643,
+      "sha256": "ac9bafb117135688e5a6fb8e32f2b51e40d8f6f1f8a5ea9b231ab749fb2fbf28"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-extent-rejected.png",
+      "bytes": 25929,
+      "sha256": "ea353228b14255c823e6de527da8ae0482ea3eb179e7909928b2ce0cadadffee"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-separate.mscx",
+      "bytes": 4626,
+      "sha256": "a03e32c925304e9b9d56047ec5f1348e0daea71fbc201be3a26128243ff62d8e"
+    },
+    {
+      "path": "docs/engraving/fixtures/arpeggio-separate.png",
+      "bytes": 23858,
+      "sha256": "2982117c08773512784a887e2f5317519df3cc49c2047d9d5446dd12e9f9a417"
+    },
+    {
+      "path": "docs/engraving/fixtures/articulation-flat-dots-rejected.mscx",
+      "bytes": 14794,
+      "sha256": "49934265a8f22cadf8736e2b56600cd01d35145bb657921f5dcd8cd63274e973"
+    },
+    {
+      "path": "docs/engraving/fixtures/articulation-flat-dots-rejected.png",
+      "bytes": 36459,
+      "sha256": "aefd0922eb9f8dcf736bf600f5cd53e24bcf3228526c64d9e24e55431bb117df"
+    },
+    {
+      "path": "docs/engraving/fixtures/articulation-ownership.mscx",
+      "bytes": 14356,
+      "sha256": "de12a9898e6cd9c826f6c463b25ec4d532ed0dfcfdbb0ba1fc86337c58bc7eb9"
+    },
+    {
+      "path": "docs/engraving/fixtures/articulation-ownership.png",
+      "bytes": 36742,
+      "sha256": "bb263b35153826124e894d6ddf68d4b4497de2b365d425955917757d6cc53bfa"
+    },
+    {
+      "path": "docs/engraving/fixtures/articulation-source.musicxml",
+      "bytes": 11489,
+      "sha256": "17ffe522dbfe1de927e49868fb25d277a72a3e836fa20d9df0ee38c9539e2672"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-shape-all-flat.mscx",
+      "bytes": 23463,
+      "sha256": "40cddd3b69df6eac29e38a172ed9c3071b9bf88aef596971289e4a14357efdca"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-shape-all-flat.png",
+      "bytes": 45731,
+      "sha256": "a71df1cc4b47f6aa808c8ac8522d8f770f76398b9598c953de724d8248533706"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-shape-auto.mscx",
+      "bytes": 23463,
+      "sha256": "e351a05f3f619b5a6ceffaf1aaf891bbf2b15e675c6f675358ead89fa0fac17b"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-shape-auto.png",
+      "bytes": 48136,
+      "sha256": "4e98d1cedaa99b814f0e965f7c85f2b19a26735123e78f68f40f17f63fd4d425"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-shape-source.musicxml",
+      "bytes": 29069,
+      "sha256": "b427030029588b3e21ac4f8855f396e6310c92c8ed1daa1ab0d1c83d64851541"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-100mm.mscx",
+      "bytes": 5442,
+      "sha256": "55b19b50b2617b4c60aed4c9804ca284748135266f312519f4fabfde59ff06e1"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-40mm.mscx",
+      "bytes": 5443,
+      "sha256": "a526bae8400f87250e14091c218598bd5c2e3d566366af677521f39ed6505413"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-50mm-shallow.mscx",
+      "bytes": 6170,
+      "sha256": "e4bc46c453d21e2ff1e9460fc019a3b4d62e90063359281fee1fdf77d49031d0"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-50mm.mscx",
+      "bytes": 5442,
+      "sha256": "f649dc20c7488683b2382a8fc53d0c99ff3fc96ad7e5449d24f5d90b3869c004"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-70mm.mscx",
+      "bytes": 5444,
+      "sha256": "446f25da982469f83f552483ec468c7dcd11247a0a1df0d91c4a304d79e61d66"
+    },
+    {
+      "path": "docs/engraving/fixtures/beam-width-comparison.png",
+      "bytes": 54137,
+      "sha256": "0fddb60c2d48b3e95636dd1cfc2f6ceb689784de3e0b2cf90738523816e59ace"
+    },
+    {
+      "path": "docs/engraving/fixtures/chromatic-spacing-attempt.mscx",
+      "bytes": 9886,
+      "sha256": "6af3601536587708b42fa77e5ea000825f70c75567371d8ddeee9a4142fcdf7e"
+    },
+    {
+      "path": "docs/engraving/fixtures/chromatic-spacing-attempt.png",
+      "bytes": 30114,
+      "sha256": "acb8ab994556fe856b5b1358103f29a7374c277259908a902b918f051a9c7402"
+    },
+    {
+      "path": "docs/engraving/fixtures/chromatic-spacing-source.mscx",
+      "bytes": 9639,
+      "sha256": "ae0e3099ff1d01aca04bd1f755ec2f2250da4a2ce8693816d42e41b2b6f850a1"
+    },
+    {
+      "path": "docs/engraving/fixtures/chromatic-spacing-source.png",
+      "bytes": 30003,
+      "sha256": "73a8ddcfb13e9715a6806288aeadd6321620443f4e8467afbfa848f6aaec679a"
+    },
+    {
+      "path": "docs/engraving/fixtures/chromatic-tight-accidentals.mscx",
+      "bytes": 9735,
+      "sha256": "bb98d2c5be56d6dcc00482f709a4d746c78e8ba5fcc292db4eb28a88683ec8b7"
+    },
+    {
+      "path": "docs/engraving/fixtures/chromatic-tight-accidentals.png",
+      "bytes": 30263,
+      "sha256": "4ae8fc48af65c6f43f5d3e5856355d27b0aa74294fb6998d0c4bd13603ba5e1d"
+    },
+    {
+      "path": "docs/engraving/fixtures/clef-boundaries.mscx",
+      "bytes": 9510,
+      "sha256": "212d9b06602dd1dca1ce326628962d87acba997ac74f8819edce19b9ab37bcdd"
+    },
+    {
+      "path": "docs/engraving/fixtures/clef-boundaries.png",
+      "bytes": 38999,
+      "sha256": "c8ebe707a59c7dafc436fc6d017b652b63983d7f23feacf09a5b611f4cc06d2c"
+    },
+    {
+      "path": "docs/engraving/fixtures/clef-frequent-rejected.mscx",
+      "bytes": 10074,
+      "sha256": "b70dd65483cf0aab84fb7e6f7eda43da96bf2f48a8076117d6224a273ab86947"
+    },
+    {
+      "path": "docs/engraving/fixtures/clef-frequent-rejected.png",
+      "bytes": 43604,
+      "sha256": "4c8fb8866f7d412ee716051177e935e6ec5a28b07aecf67eb6ba86c9337556b5"
+    },
+    {
+      "path": "docs/engraving/fixtures/clef-hidden-change-rejected.mscx",
+      "bytes": 9543,
+      "sha256": "407270edc980800969d9837c56268d66f646ff98f12e568164a4a09746d86634"
+    },
+    {
+      "path": "docs/engraving/fixtures/clef-hidden-change-rejected.png",
+      "bytes": 37345,
+      "sha256": "ff451bcc68e3a9b16459dee2fd2f9f45f44900ef054e86dee2be2359505e9ec3"
+    },
+    {
+      "path": "docs/engraving/fixtures/clef-late-in-group-rejected.mscx",
+      "bytes": 9510,
+      "sha256": "8fd6ad78e7cbd1acd2ec93bbd73309c059f69fa150037f0b07b31f40c7de6c54"
+    },
+    {
+      "path": "docs/engraving/fixtures/clef-late-in-group-rejected.png",
+      "bytes": 39862,
+      "sha256": "582cdac877a93f8c2b59d502edd72ff99158aa77e19cec0452f2f982ddf5357a"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-beam-baseline.mscx",
+      "bytes": 9573,
+      "sha256": "280f9e976ccdf74065d37f32dac029aef879b910616262f39e9ae123d30ec105"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-beam-baseline.png",
+      "bytes": 24569,
+      "sha256": "944b4a846cfdabc56ea2178fc05dc852a69600d32e65eafa28b21127af9d0ee3"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-beam-flat-guided.mscx",
+      "bytes": 9682,
+      "sha256": "3d0b710f1b7dde6a20efafbdf7cfdb43052fbece2681e399db392f28a37b1b0f"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-beam-flat-guided.png",
+      "bytes": 19269,
+      "sha256": "2b47a245423269a24fd51dbdef6b4505012b3ec7d2a97e7f145518614425125c"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-beam-rest-cut-rejected.mscx",
+      "bytes": 9762,
+      "sha256": "3f38ed55fcc023b44cf285a18d17065f3e771b74f52b57bb6d1e3da918e3249c"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-beam-rest-cut-rejected.png",
+      "bytes": 19718,
+      "sha256": "8445e7cfad4d46dfb463b4b7c136686c9ecbd47146db45d916e5faaac1958b83"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-beam-sloped-guided.mscx",
+      "bytes": 9645,
+      "sha256": "98b899bda5177ffb448e1ed8d9260f97c583b7322c2919c630d804f7362a12fa"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-beam-sloped-guided.png",
+      "bytes": 24704,
+      "sha256": "639cfe25654e818b66eba3dc921e4ca0cc34eb187f183db8956c561b334f9277"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-slur-auto.mscx",
+      "bytes": 6621,
+      "sha256": "c3a4e93a6a092b9676d9e15179e7819a459e71ec7dd65e74ce7c2fc4e4464755"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-slur-head-route.mscx",
+      "bytes": 6884,
+      "sha256": "c57cd21892a4b8522d5d0b2f0733dda7a44d2635a4aa7d55917ee3995670e9c4"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-slur-routing-comparison.png",
+      "bytes": 85773,
+      "sha256": "0f7530a32a60817234d5fd3fadcc8c720880383e305ad4ee38a61a1607101ae7"
+    },
+    {
+      "path": "docs/engraving/fixtures/cross-slur-stem-control.mscx",
+      "bytes": 6796,
+      "sha256": "64bc7f56b94b68d74eb42fab3b8762c15930ce86ee2f5513c90a11d3d1427be7"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-limits.png",
+      "bytes": 48789,
+      "sha256": "d3dfcf6e2a8f7c3320343c09bc7bcc4a3b331601756a36d838adbf36600f3252"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-linebreak-experimental.mscx",
+      "bytes": 7670,
+      "sha256": "6a852e3673d4683628afbb183e5f4fa851cb457493ee7c0cb0ab4c8f74f810a9"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-narrow-experimental.mscx",
+      "bytes": 7592,
+      "sha256": "5ca933fe866abdacdfef2344cfb42cd43afaf0251bc5a1c68cbd9408ec69dee3"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-wide-experimental.mscx",
+      "bytes": 7591,
+      "sha256": "7fd8f022686189c5d98bdb9f0e3114fc57fc37f9ebf33d7bcb3d50386ae7a82e"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-display-widths.png",
+      "bytes": 56569,
+      "sha256": "b005e6f01effb51ee54e967d7a83e94a1c830e1c3093818db0d1227b21f95ec3"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-false-alignment-rejected.mscx",
+      "bytes": 5296,
+      "sha256": "a573ac66929e83dcdd66b4c3c64c3ecc88fef57307eaec679e6f40fbe681ef4d"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-merged-diagnostic.mscx",
+      "bytes": 5241,
+      "sha256": "f34122a58002dbc85a2505dc22a68680855fd5f7be607fcc97b4f9f74d3bdde3"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-split-retained.mscx",
+      "bytes": 6883,
+      "sha256": "a43ada7eff99d226f2de6030ed98a936ccecb1726245e64f1f9470e5a4b41813"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-split-system-context.png",
+      "bytes": 27374,
+      "sha256": "97d36f0655eaea2f91515ce1eeba5b8478fdcdda93fe6fd072503634658a8d88"
+    },
+    {
+      "path": "docs/engraving/fixtures/crossbar-tuplet-comparison.png",
+      "bytes": 67592,
+      "sha256": "e2495d6ce843f94039ed168a5ec04497b05aaaa22c723a16841e01cbabfbb884"
+    },
+    {
+      "path": "docs/engraving/fixtures/curves-and-break.mscx",
+      "bytes": 11599,
+      "sha256": "95be346287d13d1695ba77126689a11c44237638704232fe9dcb231e31c4d80f"
+    },
+    {
+      "path": "docs/engraving/fixtures/curves-source.musicxml",
+      "bytes": 7115,
+      "sha256": "af954a682e2bfc4129d813ca3ad81b2afa6ecde530c7fbff701265e7244c6199"
+    },
+    {
+      "path": "docs/engraving/fixtures/curves-split.png",
+      "bytes": 44016,
+      "sha256": "acaaba83ddaea78b41e41af25db7e2ea7738197b56607a1ed9acbfdf7d39c75e"
+    },
+    {
+      "path": "docs/engraving/fixtures/curves-unbroken.png",
+      "bytes": 27109,
+      "sha256": "1e53a726aa160c289470437bd1c16cfb61b51e2e5d40b73fdeef657337a6a67f"
+    },
+    {
+      "path": "docs/engraving/fixtures/dense-spacing-copied-settings.mscx",
+      "bytes": 10574,
+      "sha256": "116a9fdd474469bccc4810683aab359927eeb1d46c2c81534862fc5ffdaff392"
+    },
+    {
+      "path": "docs/engraving/fixtures/dense-spacing-copied-settings.png",
+      "bytes": 45521,
+      "sha256": "22f457f0fbdf8177fa0d2a481efcb023475902723b403fcf8b221c67bd6a8e50"
+    },
+    {
+      "path": "docs/engraving/fixtures/dense-spacing-source.mscx",
+      "bytes": 10327,
+      "sha256": "1632d7daceec1956eee58c5842bb79b2f10e740c435e7d70aaa1aa53cbf6078a"
+    },
+    {
+      "path": "docs/engraving/fixtures/dense-spacing-source.png",
+      "bytes": 31922,
+      "sha256": "be2fccc39d0f23db65f7f27d8fba7ea94c6dc7f2a72bb61ac070f805818d39e8"
+    },
+    {
+      "path": "docs/engraving/fixtures/dense-spacing-two-systems.mscx",
+      "bytes": 10377,
+      "sha256": "c30043725387bd38a5af489dec37d6f713dbf2576c5a45bef8685e229290c2c3"
+    },
+    {
+      "path": "docs/engraving/fixtures/dense-spacing-two-systems.png",
+      "bytes": 45595,
+      "sha256": "1ef0e26181ce135fba809655f70b3ac2582c6b5be7117aa53d2788adb4668e0c"
+    },
+    {
+      "path": "docs/engraving/fixtures/doubled-tuplet-equivalent.mscx",
+      "bytes": 15134,
+      "sha256": "5e2588bf8518ce445acef5321399343d91e95c06db26a08b9ae23e667f859c5c"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-continuation-comparison.png",
+      "bytes": 149755,
+      "sha256": "7a8a43d1494f6c76558924f5d84a75b1d9490ec6559def5f67c98c16b1db8868"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-no-reminder.mscx",
+      "bytes": 8348,
+      "sha256": "47ee0450af4c18e6bd3a767ff015aea4e98064f6e732ca5462075c7703331644"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-reminder-90mm.mscx",
+      "bytes": 8368,
+      "sha256": "59d7cd434b666504076dcc47cb8caba1f41ad85adef8e05941f0d9e0e655006f"
+    },
+    {
+      "path": "docs/engraving/fixtures/dynamic-text-reminder.mscx",
+      "bytes": 8367,
+      "sha256": "51d9755b473598ec378c983284d545f86c97b275e2637bd72eac5936c3588703"
+    },
+    {
+      "path": "docs/engraving/fixtures/fingerings-automatic.mscx",
+      "bytes": 8817,
+      "sha256": "2763a2324dc09d63b6e1841ffef92503c5b0f1daca98e8fbbec3b0ff902c0b07"
+    },
+    {
+      "path": "docs/engraving/fixtures/fingerings-automatic.png",
+      "bytes": 38757,
+      "sha256": "cd931694aa1c4d7d1007528e5226d5a7ce43c2741f18098f4ed454abba05c063"
+    },
+    {
+      "path": "docs/engraving/fixtures/fingerings-export.musicxml",
+      "bytes": 15457,
+      "sha256": "e8b1d79f772ea65642151f92c022b25bf7868a96a8ae2aca4eee0326dc93036b"
+    },
+    {
+      "path": "docs/engraving/fixtures/fingerings-musicxml-roundtrip.mscx",
+      "bytes": 13307,
+      "sha256": "69e659dce7d2261d1557787ca388fa5cd8cf6a9a90d43f1aa79a22ec4eb8f57d"
+    },
+    {
+      "path": "docs/engraving/fixtures/fingerings-musicxml-roundtrip.png",
+      "bytes": 49386,
+      "sha256": "93908c6486b8dd7f9d770463e893c231d78ecc4a97345fc79cb6a96167edc34c"
+    },
+    {
+      "path": "docs/engraving/fixtures/fingerings-near-notes-rejected.mscx",
+      "bytes": 8902,
+      "sha256": "7510b071def7d759c6fa8a4006f01cc47b137cceb9eba96832afdc365645135c"
+    },
+    {
+      "path": "docs/engraving/fixtures/fingerings-near-notes-rejected.png",
+      "bytes": 38689,
+      "sha256": "e60dde340f4cfd21ee87a2e86ef8b3ebc4b6d8bbcff435a4e00ef5ec7cb79e3c"
+    },
+    {
+      "path": "docs/engraving/fixtures/fingerings-stripped-rejected.mscx",
+      "bytes": 8730,
+      "sha256": "c69221b00eb6eac300fd490ed8e39c3887cadf0e3b1de8c87f2a249d3e99b1e8"
+    },
+    {
+      "path": "docs/engraving/fixtures/fingerings-stripped-rejected.png",
+      "bytes": 38554,
+      "sha256": "c3bb8e6ee71b2d8b0bc0746c17cd5ec6d05097288092e06211d3dfedae6a3cd2"
+    },
+    {
+      "path": "docs/engraving/fixtures/five-four-spacing-comparison.png",
+      "bytes": 48266,
+      "sha256": "e6af54e808fc97451a10a1fc0fe420187176dca8c0e20357d0596d976836378d"
+    },
+    {
+      "path": "docs/engraving/fixtures/five-four-spacing-default.mscx",
+      "bytes": 8952,
+      "sha256": "37e2779ba90cb9be885bc8f5cec821e1ac195f660dec88787fb5f340beb56516"
+    },
+    {
+      "path": "docs/engraving/fixtures/five-four-spacing-pulse-candidate.mscx",
+      "bytes": 9424,
+      "sha256": "7d9e8f59db5a9126ed7e72905914969a25b8b9c749bf2ef32a33e3ae4434581f"
+    },
+    {
+      "path": "docs/engraving/fixtures/grace-as-measured-rejected.mscx",
+      "bytes": 6026,
+      "sha256": "35d6490d6063257af72bc62142dc49ed0d65861c271fe5d0a983e8fd9d50290f"
+    },
+    {
+      "path": "docs/engraving/fixtures/grace-as-measured-rejected.png",
+      "bytes": 18510,
+      "sha256": "5c5392670d06ee0a1c6e1171e1203f4a77a600261c187d2218d20f898315717d"
+    },
+    {
+      "path": "docs/engraving/fixtures/grace-identity-source.mscx",
+      "bytes": 6014,
+      "sha256": "72e9f6873c3d6897c8e6e14b453eef8af8aaac15ef21e7e5f753eed0668b10ed"
+    },
+    {
+      "path": "docs/engraving/fixtures/grace-identity-source.png",
+      "bytes": 18017,
+      "sha256": "205198774976bcf637a003d216a2009759d60b9ff7fc296327d1e73dda5ae1a3"
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-comparison.png",
+      "bytes": 151845,
+      "sha256": "23844cef5fa01c33c7827f96961f92b97839e3f830b13c1ead3c8d99c0245102"
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-continuous.mscx",
+      "bytes": 23908,
+      "sha256": "7d07dd4f64c9e7e93ef7e8265c6d5867443cfa7803822a5cabc1040b1c9b5c86"
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-four.mscx",
+      "bytes": 23936,
+      "sha256": "37aa041c5826e3abd79050ba64f618c4100dc3fc52d6ec55df7a00789c48c99f"
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-full-context.png",
+      "bytes": 198350,
+      "sha256": "cbc5ebdd13115d38cc7b7ee756125e6e72f24a0c7d0e9fe35cf6ac27a3b741bc"
+    },
+    {
+      "path": "docs/engraving/fixtures/inner-beams-nested.mscx",
+      "bytes": 23992,
+      "sha256": "29d2e93cf5ea4ce587853b2d307c6b7cf3666701ae0d607f176030be6fd951b3"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-base.mscx",
+      "bytes": 9138,
+      "sha256": "ad045bb8e1df8c2c5be69644e973c0fc60a75e5ebb23a743df91c2b47947bf0d"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-inside-comparison.png",
+      "bytes": 45516,
+      "sha256": "3d864eeb2483421e6be832fad7ac30ac1801a3bea16b0124583aa18dc0eb303c"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-inside-one.mscx",
+      "bytes": 9314,
+      "sha256": "94918d2c2708803dfa065ca5c2d5973bc6b4f6e949f09ed4a6f3bc4fe36de583"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-inside-three.mscx",
+      "bytes": 9666,
+      "sha256": "6295268f05e9343ffb88bff4ccc40abd070a6482fe13b8b20ab86cd48b6e7618"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-one-reserve.mscx",
+      "bytes": 9408,
+      "sha256": "d0e150b4f50aa810d2831e465f92712f1128251e44a8ecade0faab446676c448"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-opening-comparison.png",
+      "bytes": 49527,
+      "sha256": "e98454cf5e65f0917f42cde5932bd619b80a86a6c940aaf4d0402f14ae1f584c"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-opening-one.mscx",
+      "bytes": 9314,
+      "sha256": "c75d0f0a24e2f5dbae9105ba5fe1eac0a8846505e552dcf0b75642c190614e91"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-opening-three.mscx",
+      "bytes": 9666,
+      "sha256": "bb7f73cf102cc6945410e0d20d055b7417c5faff590040b10b284d20ddab619f"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-reserve-controls.png",
+      "bytes": 67985,
+      "sha256": "33683f0f7650e85921caeaba9ca919d4e988875c450322d9639f5dc546ff7c2b"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-row-comparison.png",
+      "bytes": 45260,
+      "sha256": "418fd04ea2014eef690ead44cb4854451d28dfffe053e15cff98b8792efd8e0b"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-row-one.mscx",
+      "bytes": 9314,
+      "sha256": "6d62343e0d821d607d982a9c095465ae795e19076d8f2bfabf7bbe034e521f2f"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-row-three.mscx",
+      "bytes": 9666,
+      "sha256": "e9b571caeedc94853e20dc6f361b37a1d775572e4c6c6df87d514ca07c7f7c1d"
+    },
+    {
+      "path": "docs/engraving/fixtures/leading-three-overreserve-rejected.mscx",
+      "bytes": 9760,
+      "sha256": "a42daa522889d9524578fe496bfcff02825fcf1efcb1ed11f3c092d4e9348a48"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-comparison.png",
+      "bytes": 63143,
+      "sha256": "f6cbeab1da0da2a888a4f8dd9ebe57cf8a92d2b5f7308aea2d6b57a3238bbdf6"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-mixed-baseline.mscx",
+      "bytes": 13630,
+      "sha256": "433e0df711c6d5dd267e044d1c968c5e7719d14efd7ad53660f6166b752de67c"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-mixed-on.mscx",
+      "bytes": 13669,
+      "sha256": "baca26204e4736a169b1aa1ec466a69811c4dfb7419cc27649ee9ef553646e4d"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-uniform-baseline.mscx",
+      "bytes": 12328,
+      "sha256": "5506fa16a86088d32e4cd4cfd2e275c8b6ffe46cc9f92e6184ec795fe30997ea"
+    },
+    {
+      "path": "docs/engraving/fixtures/local-relayout-uniform-on.mscx",
+      "bytes": 12046,
+      "sha256": "efd41c694441316380a8cc5622fed7715deee8b8a729ad754523755b859a22da"
+    },
+    {
+      "path": "docs/engraving/fixtures/long-short-split-beams.mscx",
+      "bytes": 14560,
+      "sha256": "cd32fd7334b7ea492314f645dc3a5cc70754784f06cb14acf22b763a3d5d5dc3"
+    },
+    {
+      "path": "docs/engraving/fixtures/long-short-split-beams.png",
+      "bytes": 26101,
+      "sha256": "f6e7361d71fb860f895605dadd69683132ef6527222d5c0933777e8c0e9410cd"
+    },
+    {
+      "path": "docs/engraving/fixtures/long-short-triplets.mscx",
+      "bytes": 9160,
+      "sha256": "0df2ef3de193ae920e992c1d7da8f315b9ba0a76e86271080f54ad516725c110"
+    },
+    {
+      "path": "docs/engraving/fixtures/long-short-triplets.png",
+      "bytes": 21873,
+      "sha256": "0cf45ae47b1e5bd302281cea44edbe9e4ca08c66f0a865fd4358f1c90a0567ae"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-auto-direction.musicxml",
+      "bytes": 9306,
+      "sha256": "35c9b9375fc317bfcc9a77ecb0a19a25402a54e78e7ca6a07f8b3e62a72f1b30"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-comparison.png",
+      "bytes": 171610,
+      "sha256": "a3e806b7cce142434a2e3c831e48c59fb44aa27940c30d7c300e7107bed7a92d"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-explicit-layers.musicxml",
+      "bytes": 9330,
+      "sha256": "bd7d506877a7d4020ce974b88cf1278c3810d442ed520e5e41f9deb5a46ce626"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-owner-control.mscx",
+      "bytes": 4929,
+      "sha256": "946575a3b82ebc443e475a375f82470a27c03d1f0bb033f9435cbf0f2c96141b"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-source.mscx",
+      "bytes": 5005,
+      "sha256": "36c75b5f4af47389b8e7bc4b93f3219b9600dd1ce479c5c516d94500c0ab90ab"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-beam-exchange-style.mss",
+      "bytes": 783,
+      "sha256": "50642f0fec452cd3786d553a320cf7a13e7a74d61d90fe49a3e00a37804aef07"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-subdivision-balanced.mscx",
+      "bytes": 10514,
+      "sha256": "539b4ecef7bcfffde6260aa1e4001cf41d8615113e15da58fcce3a98ec97bd02"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-subdivision-balanced.png",
+      "bytes": 21157,
+      "sha256": "549b33a392227b7c1b2c94e4d1190cc17b5fe10448597b9f38f7b85e65512204"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-subdivision-original.png",
+      "bytes": 20804,
+      "sha256": "b3194c2c06ad8ae98378a33b572cf759e8aa2e7e2f3e6ac409299f815d2004fa"
+    },
+    {
+      "path": "docs/engraving/fixtures/mixed-subdivision.mscx",
+      "bytes": 10267,
+      "sha256": "28d7399457dd08a7416bc5e269db0df7b78ed309d929edbec154297519c7418e"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-baseline.mscx",
+      "bytes": 14040,
+      "sha256": "7288f9980c9acf9ed91de312d0b380158996628e5b7c10cfc452de78154c0ad6"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-baseline.png",
+      "bytes": 39007,
+      "sha256": "84f65f083004cfa4e54b2f5731a7b33fed39a89cfa88bf385b19bf9a9f966b7c"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-coda-gap.mscx",
+      "bytes": 14143,
+      "sha256": "51d3c6cc6e85e3bab930ca27510263d530418ffeb0491ddfac02d4660c8a549e"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-coda-gap.png",
+      "bytes": 40274,
+      "sha256": "10bb4b5efe4fa4ac0e7d5461d61d0b9505897a2f2a0e2ad91c094caca1c71c85"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-coda-new-system.mscx",
+      "bytes": 14119,
+      "sha256": "768f769af3b1e4e93d481aceea192ee844bf904b1b85bc1ea7ff5718dec73d18"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-coda-new-system.png",
+      "bytes": 50000,
+      "sha256": "f666a22c51285c293faafc1b4e6e07e75a562611d2af095bc46103e4457bacd9"
+    },
+    {
+      "path": "docs/engraving/fixtures/navigation-rejected-wrong-return.mscx",
+      "bytes": 14119,
+      "sha256": "856ebc305a15d29a3c80895bf07b8e7583d4918aefa533c9855f5263862fbb4f"
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-auto-position.mscx",
+      "bytes": 12003,
+      "sha256": "2e12f271298827aee4ae21479b9c447dfb6b41abf9402c09253bbd1ed199b801"
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-comparison.png",
+      "bytes": 71849,
+      "sha256": "42cc691e8be88b69f7e02ccd282ed42434a63422a9ca6e212c64207a3c8aa6a1"
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-implicit.mscx",
+      "bytes": 11932,
+      "sha256": "e1ff8b293945fa57324d0c2be8f65b697550827e008f18791bd71aad06c66ee2"
+    },
+    {
+      "path": "docs/engraving/fixtures/nested-tuplet-tiered.mscx",
+      "bytes": 12071,
+      "sha256": "31fa4f4f3cff8abc84f6853239d0a88aa35b9b0ee5e137e5d71beee507802979"
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-at-pitch.mscx",
+      "bytes": 6244,
+      "sha256": "151ea6502d059c6339461b890af4f3061816f70cffc1382317a99323210d2ff1"
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-at-pitch.png",
+      "bytes": 19179,
+      "sha256": "ed1d87bff6a9fb06d1c62d922618fe434adb32c91781abc205fa041eb2b6c292"
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-separate-staff.mscx",
+      "bytes": 6964,
+      "sha256": "ed9e941b1c4008a7fce329b9e335735206da8b81745be8b4b5987ec64acc8365"
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-separate-staff.png",
+      "bytes": 26295,
+      "sha256": "a9770ecbfee79d7187867fce093fb1933c1d0e9d338850772a966997451f811c"
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-unsafe-staff-ottava.mscx",
+      "bytes": 6701,
+      "sha256": "0f424a36bc4c5c3e001261e61e5c86940702300422fd40b67665333c68ba2420"
+    },
+    {
+      "path": "docs/engraving/fixtures/octave-scope-unsafe-staff-ottava.png",
+      "bytes": 19981,
+      "sha256": "59a8983f5921e303ff21a4620a4ab86a065e2d74c9df218becb74a0c8c93c7fb"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-auto-probe.mscx",
+      "bytes": 14611,
+      "sha256": "638b411732187390af3973cc3d91df410e04478a2e2c2bb457f9e2a0111b725c"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-bare.mscx",
+      "bytes": 15308,
+      "sha256": "8050d939dc6156b01c80740625576ebc9b8d967c2930eee6aca0492a916ad7cc"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-comparison.png",
+      "bytes": 45075,
+      "sha256": "0d936b66eeb119d5ab6e2191f782c4e674b36336f4fed5a306b86f65a4110bc5"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-brackets-full-context.png",
+      "bytes": 81973,
+      "sha256": "6b940ed9e96c7923bc404f7f5b989c25131d33f4bb3c122186186b4b9a89808f"
+    },
+    {
+      "path": "docs/engraving/fixtures/partial-tuplet-short.mscx",
+      "bytes": 15308,
+      "sha256": "c07663991331902d7d8c38b1b5c6094dd6a0ffb31e827dd7ed89a753a85c783d"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-arrival-shift-rejected.mscx",
+      "bytes": 11965,
+      "sha256": "ac7f72848a91dd6b0932ed82f0da00497f57813a529a6ec839063fa235a56e42"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-auto.mscx",
+      "bytes": 11919,
+      "sha256": "12ec1af0dce30ce2438b9f3929f3f370bf354329783877c4414a5946b3505dc4"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-clef-after-run.mscx",
+      "bytes": 11918,
+      "sha256": "bbc8bcd61d3c79f01a475d27481a6d9693fc052231c4259bfcf82d11a61116ad"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-clef-before-run.mscx",
+      "bytes": 11918,
+      "sha256": "fdff3699bf6a684fd1173d1cb0fd81ac38590967567bd058b782b65097976cf3"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-clef-placement.png",
+      "bytes": 165167,
+      "sha256": "fb1dfa76edef2b612fbdbdd0bcc376e48f29149d3f089c3d58cfa68a457dd36d"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-comparison.png",
+      "bytes": 103768,
+      "sha256": "c790bae6c65d196ffa7b8fc8c759218a237e6d764edba00307c20eb513a54109"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-edge-reserve.mscx",
+      "bytes": 12093,
+      "sha256": "4e8f9d56666f37255fb6343edc7f86fb71acc47119749f12512797b0950ffc1b"
+    },
+    {
+      "path": "docs/engraving/fixtures/poly12-11-hidden-clef-diagnostic.mscx",
+      "bytes": 11952,
+      "sha256": "510c6ea76aac8c4e1399a9381b00d80698a2187683d3329a12307ee1a7d933c9"
+    },
+    {
+      "path": "docs/engraving/fixtures/rest-reading-baseline.mscx",
+      "bytes": 4862,
+      "sha256": "fcb0ad8af772c5a704cf3e9448a061d6879580361c78c1fd54c6da1f5054a7b9"
+    },
+    {
+      "path": "docs/engraving/fixtures/rest-reading-baseline.png",
+      "bytes": 13670,
+      "sha256": "e8088a9c4de37e750bacf2f4a5ba41f2d4da06a543494e323c0092bc6c0c82fd"
+    },
+    {
+      "path": "docs/engraving/fixtures/rest-reading-half-space-rejected.mscx",
+      "bytes": 4865,
+      "sha256": "f8f259f86c13075c4bcff2150944706ff88fb6486b9bc1fa0a381b025cbd6369"
+    },
+    {
+      "path": "docs/engraving/fixtures/rest-reading-half-space-rejected.png",
+      "bytes": 13683,
+      "sha256": "f5f6b5ca122b769d55b7a6c81ac5457eace1a11b49cc5f3048585d6cf0ec414b"
+    },
+    {
+      "path": "docs/engraving/fixtures/rest-reading-whole-space-control.mscx",
+      "bytes": 4863,
+      "sha256": "a868406be62129f38c48298a11ac3fec1b7ddf0a41cb995b0bb3092e35a8aab5"
+    },
+    {
+      "path": "docs/engraving/fixtures/rest-reading-whole-space-control.png",
+      "bytes": 13683,
+      "sha256": "1a76414337dd9c409f33c23ade3af277cc1226c699271686abdd978c939a83c7"
+    },
+    {
+      "path": "docs/engraving/fixtures/seconds-dots-automatic.mscx",
+      "bytes": 5394,
+      "sha256": "7b050a7be8e0ba8ff7d283c3ad92e20a38f0c6b8f03c394873c00000fbe008fa"
+    },
+    {
+      "path": "docs/engraving/fixtures/seconds-dots-automatic.png",
+      "bytes": 34507,
+      "sha256": "1ab5ff4cb95cfb572673f694bb0d5f2647f46c4cb4f0ad0e162657c4104619a9"
+    },
+    {
+      "path": "docs/engraving/fixtures/seconds-dots-between.mscx",
+      "bytes": 5443,
+      "sha256": "39d046b0611d17ce2d2ffe8056bb55e44fac97e5b4e6682aaf8c7b85e76cb2a5"
+    },
+    {
+      "path": "docs/engraving/fixtures/seconds-dots-between.png",
+      "bytes": 34373,
+      "sha256": "0681a5c0def2a45e5940edf78e2d0c334a4c5b5c041258a8ed4133fdd8c6a5e3"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-continuous.mscx",
+      "bytes": 44432,
+      "sha256": "158932763d881c64c97215d4e50320b40c2ef8c7b8bebbb63568cd5b371446d9"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-continuous.png",
+      "bytes": 78832,
+      "sha256": "e991c2d5c373dbbb1dd4f91a4d4e8a0008526399fe68d34344c214ad1cd8a916"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-extra-row.mscx",
+      "bytes": 44511,
+      "sha256": "b9cb60e7a8a750ac0967b39d718489535c8c6260749c6f83b5bca9d78ca8c14c"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-extra-row.png",
+      "bytes": 85831,
+      "sha256": "72deae94e5c6993a0585d8373110d8395e881628512149744221e0ce9232cb2e"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-filled.mscx",
+      "bytes": 44432,
+      "sha256": "76eace785c0036fa99be19e2bc4d0bf001868f7356f1357cd64f984814641c1f"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-filled.png",
+      "bytes": 81323,
+      "sha256": "a66d99eaf4c422f25fe42bb86c55391c22b5919f0f5aab5271b5c87b7180588a"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-reflow.mscx",
+      "bytes": 44432,
+      "sha256": "76ef97ca296d976d3b935f2dd4a408978a01b6b51014e7fa1180593e928f2bf0"
+    },
+    {
+      "path": "docs/engraving/fixtures/section-entry-reflow.png",
+      "bytes": 81546,
+      "sha256": "6cb2d81c8fd5ca15c857bb4c5e1d7a1f4efb6e2e695e2f95cb0657321e9923e6"
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-080.mscx",
+      "bytes": 4043,
+      "sha256": "aba56fcfd80bc6b4592e4cad43a55b1ad04ab1bc81486ce27ac0893a34c1a455"
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-100.mscx",
+      "bytes": 4043,
+      "sha256": "846224208c290d3a875c42cd9650605d5eda5a1c8398a834eb64fad7a33d95b1"
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-120.mscx",
+      "bytes": 4222,
+      "sha256": "12a4e0d5e63789b42bde4e1ad23eaa391dd002cb3b9bb7143ec5c53bee2830a3"
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-162.mscx",
+      "bytes": 4266,
+      "sha256": "4e57972fefe7340c6caddc665ab8f8ff19c1dab643dc9daaa487cfda0de8b287"
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-200.mscx",
+      "bytes": 4043,
+      "sha256": "c9dec52914c11bc2f2a799a2f331bd74779b440b441f306d4900beb17fb6c680"
+    },
+    {
+      "path": "docs/engraving/fixtures/spacing-factor-comparison.png",
+      "bytes": 91762,
+      "sha256": "68dd6ffe2018366c984457344c74d6530fd15190d431500d346c797babe6618c"
+    },
+    {
+      "path": "docs/engraving/fixtures/spelling-enharmonic-rejected.mscx",
+      "bytes": 5359,
+      "sha256": "b7d388aa649fc59ba5e80cb10f45744708033189267f08c6d27384695945491b"
+    },
+    {
+      "path": "docs/engraving/fixtures/spelling-enharmonic-rejected.png",
+      "bytes": 21651,
+      "sha256": "02b41a65260247f899cfd2e2ddcbd1e00ac05ce34336e8b05cbfe2bcde036321"
+    },
+    {
+      "path": "docs/engraving/fixtures/spelling-functional.mscx",
+      "bytes": 5359,
+      "sha256": "cccb29c003ef54ab3b3e834eac7b915a70affb2c30a15ca7fc2847e2b1247377"
+    },
+    {
+      "path": "docs/engraving/fixtures/spelling-functional.png",
+      "bytes": 21552,
+      "sha256": "c12dbbb1186b0f9ff1ccee45a754f4fa00ae8dd19054bce02bffbc1e43da10b4"
+    },
+    {
+      "path": "docs/engraving/fixtures/split-bar-intact.mscx",
+      "bytes": 11888,
+      "sha256": "5f761d25270c9357ab45afb4344c388a546e942172d814357928461bd247c414"
+    },
+    {
+      "path": "docs/engraving/fixtures/split-bar-native-comparison.png",
+      "bytes": 97867,
+      "sha256": "bd843b38a41c34a191815fbd118032578aba87be673e38e9e70bf82b06d343fb"
+    },
+    {
+      "path": "docs/engraving/fixtures/split-bar-reminder-experimental.mscx",
+      "bytes": 12655,
+      "sha256": "26102d32723141462a191454803b7d0d8d558c4d4b1391140359fdc1aa41aa6e"
+    },
+    {
+      "path": "docs/engraving/fixtures/split-bar-unmarked-experimental.mscx",
+      "bytes": 12525,
+      "sha256": "2fdd07132728978ca7b74a34f7c702076ee8a45e816fc10e7f6e415ed970396e"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-baseline.mscx",
+      "bytes": 5311,
+      "sha256": "19e4863e92e64a848415ff93a03cd319491b7e5b212bb4465bba49b7b728259a"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-comparison.png",
+      "bytes": 24597,
+      "sha256": "e159159ce121c880dc09cb2bd28ef9cb2472a5395aff92ed6a92cb96237ab46e"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-contexts-comparison.png",
+      "bytes": 62527,
+      "sha256": "97fa638026f9bb179af8296487816e9ccd86cc36f31610bb324f2b6c029e567e"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-dense-base.mscx",
+      "bytes": 7084,
+      "sha256": "22caaa9c6861f7c97ff444e6f0b58db0842862b2560d9df18d08b70bee34aa10"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-dense-joint.mscx",
+      "bytes": 7660,
+      "sha256": "274c0b22e43625fce8a7148147fefd1c0c07caa12ee6d9d9c763cbde7ed02e07"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-even.mscx",
+      "bytes": 5584,
+      "sha256": "8521a608a2350323fa397bb10badee40233210ed2ad72ef0922958e879d745d8"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-exchange-comparison.png",
+      "bytes": 43854,
+      "sha256": "0390e00356b568b9d7d6a5f62a22a2f4a0830117b74fe15f91a37a52aa8326e9"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-balanced.mscx",
+      "bytes": 10802,
+      "sha256": "657cfece27486bf8c32734078526d14ee724d721e0dba13095eafbca2f8e9b9b"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-base.mscx",
+      "bytes": 9611,
+      "sha256": "323b48200163a81c476d94b37aa606be1fd2572459c1502e638c49522ec9f329"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-comparison.png",
+      "bytes": 55433,
+      "sha256": "579e4ca1bd2ca36a419950ca511409db9aa38f508dfed204709984f3edf00f79"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-interpolate.mscx",
+      "bytes": 10790,
+      "sha256": "7124c2e21de1087cb1ff5e14200688f4b87d400dd490ca58361ac4743f25e8b1"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-fine-shared.mscx",
+      "bytes": 10661,
+      "sha256": "c775b19058e0c6a954d27d9ef33059ea27a7762f057dcce63828fb6b699972d9"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-base.mscx",
+      "bytes": 5482,
+      "sha256": "6d4715fd734c5eac56b2aafd13af34391c7e053f4150d3665c2f2aa20f7447d6"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-fit.mscx",
+      "bytes": 5872,
+      "sha256": "17511b7ae8ac14c5865b8e967ef6bde606467fe42a5e6cf9a00e269023410c95"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-font-old.mscx",
+      "bytes": 5867,
+      "sha256": "8c99978ea2bf30c5e040f9c1fd69f301981e0301c765d4b818ff540f4c71bc78"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-base.mscx",
+      "bytes": 6294,
+      "sha256": "c41f88473fc4f61b9991833d0a69a12a8bdcd4c689b7ec9981a41e9ffdb61eb6"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-comparison.png",
+      "bytes": 38778,
+      "sha256": "e31588638f14e56c424988e09010a21457d1db6a7b9fab5ebeaac06b252c4f62"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-group.mscx",
+      "bytes": 6679,
+      "sha256": "565f40b94d0e4285412cf9bae368f59da04456d3279afcff1d67c4d926b1387e"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-layered-joint.mscx",
+      "bytes": 6870,
+      "sha256": "044c5dc9152c82bd5b25a5c7cddad9dc342b2f9fbea13ea5f542f55e00a4f032"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-local.mscx",
+      "bytes": 5385,
+      "sha256": "868c3827f1d23278f1f0b1bbfac221457dad4c784bf353715ede21b7fe87be00"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-base.mscx",
+      "bytes": 8086,
+      "sha256": "168804ce81b2c303c089efd8119a55ad738c884ddb81e59776646c837171e09a"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-comparison.png",
+      "bytes": 53674,
+      "sha256": "0690713d3aaf2f2c6159f2cd6880bd8c601ce74417b0b778fece61d772a55937"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-joint.mscx",
+      "bytes": 8662,
+      "sha256": "918ba663af56bddb244945870ea54efe35e53b85a2314269dd2338b38e4f5736"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-marked-text-v2.mscx",
+      "bytes": 9222,
+      "sha256": "f3f95295bb5249ee470dbaf10c43ef1be104e1102c6be27336b78a4bc1f3f1a8"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-shape-comparison.png",
+      "bytes": 73557,
+      "sha256": "49466d9249d0fcea89e0a17d6a0e98097850f3ece034ebe747b7fb1047d09a95"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-base.mscx",
+      "bytes": 5602,
+      "sha256": "ce70304dbc2bee3c31fb9e178cc71ff7915dc5a0c187067b94930061e2ae3801"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-fit.mscx",
+      "bytes": 5991,
+      "sha256": "fe76feca937ba0325ec8398bd88f470d5b43c2396df3811143f84ef65bb2f171"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-size-old.mscx",
+      "bytes": 5987,
+      "sha256": "867454b568a4328cda57c0fb4668653c1a36730505cf76e3b056355456a52428"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-base.mscx",
+      "bytes": 7077,
+      "sha256": "28d7e7c57d1e1c610452ae55933ca16fb26fea1daa1e91d259abbfc48bdc0a03"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-comparison.png",
+      "bytes": 33576,
+      "sha256": "d5bdc04089e934656866883d41959feb892595f435dcbd440d65a885225fdc01"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-tight-joint.mscx",
+      "bytes": 7653,
+      "sha256": "1449c84d612ac7eecd15dec5870a9f0a3d92e1358d442eda83a2559a6d433002"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-wide-base.mscx",
+      "bytes": 6293,
+      "sha256": "f1c2ccb96efccb84190683a0fae65820fdd0a07db207e42df90d8759f34c9678"
+    },
+    {
+      "path": "docs/engraving/fixtures/stem-optical-wide-joint.mscx",
+      "bytes": 6869,
+      "sha256": "d18197f8a570cdef25a69615f3ee197f5c36edf83c114615da63d25cf6c8ab65"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-baseline.mscx",
+      "bytes": 11889,
+      "sha256": "e52c2cb8abe1ffae14ca2a2f23862c9dc577526e835cac8e2144bfd5928f8377"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-baseline.png",
+      "bytes": 38167,
+      "sha256": "b5ad32b18cfde314dc9f3f8a08afdcbd25a13a4f3b5b03d8ccc93eaab5fb3e78"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-bracket-reminder.mscx",
+      "bytes": 12539,
+      "sha256": "f618712d69bf36766fd473daf532bcf0c3e87a5930d6c7f29cda2e219f6a8b63"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-bracket-reminder.png",
+      "bytes": 39333,
+      "sha256": "7472322a943aab26b57e8696af0cf092d6c2a2487ff2a0728a8007785b29f7e0"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-ordinary-note-control.mscx",
+      "bytes": 12108,
+      "sha256": "6f598794bad554a8461fb5cc6793732c822818217fd7b53ee54b0e08b2f5dddf"
+    },
+    {
+      "path": "docs/engraving/fixtures/sustain-ordinary-note-control.png",
+      "bytes": 38681,
+      "sha256": "56814604110e25a8570d3546b9a70fc832a8bced6cdc233121976520bf191db0"
+    },
+    {
+      "path": "docs/engraving/fixtures/swing-aligned.mscx",
+      "bytes": 6716,
+      "sha256": "e9d0b525d7b821b2efe099647164400207a6da72c1a1ce1ec2643cac111e49ea"
+    },
+    {
+      "path": "docs/engraving/fixtures/swing-explicit.mscx",
+      "bytes": 7006,
+      "sha256": "9a1ca8d543e74050252c209690716bb42ae71708b2176ba9fd9b28ab0786b2a1"
+    },
+    {
+      "path": "docs/engraving/fixtures/swing-implicit.mscx",
+      "bytes": 6626,
+      "sha256": "901bcdd13ad4e906b35d27e429496b7c160cdc12da25ec8c6cb84e331aafb2c9"
+    },
+    {
+      "path": "docs/engraving/fixtures/swing-straight-diagnostic.mscx",
+      "bytes": 6661,
+      "sha256": "f824c91c0a3e0e8989cf5149f4f874e23bf7f6cdbd91886cbe49f2216f010717"
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-advance.mscx",
+      "bytes": 8043,
+      "sha256": "e81b43facb316cf42370ee63ad2675320ec7bf9d3bb459f8a38108b2cdb195ce"
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-arrows.mscx",
+      "bytes": 7868,
+      "sha256": "3c4539170d097c752950d4fc213505c46be66a729b299d6e69422d8bb5417421"
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-comparison.png",
+      "bytes": 96896,
+      "sha256": "0038a7fe0a8e8d901415f366d1238ced4b88a6435a5b6259aca465ef710a838d"
+    },
+    {
+      "path": "docs/engraving/fixtures/tempo-equation-plain.mscx",
+      "bytes": 7860,
+      "sha256": "87edb1df5200d67eead96fc63dfd828d402004d21cefc2e39cb6a14543e69318"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-reading-source.mscx",
+      "bytes": 9692,
+      "sha256": "e39371fab688905124cf3166eb8fda1df5caa0f8cb437de947abdffb2a74635e"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-reading-source.png",
+      "bytes": 27577,
+      "sha256": "a48af22fa12ff0dac7b0e15f8df97daa04c8bf744af26ab7dc8ce37f07f76aff"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-shorter-strokes.mscx",
+      "bytes": 9766,
+      "sha256": "b2c68f6299dee80de7fff12b46a9779c1190e1ceefc2e4bdf018bae8b2ec5692"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-shorter-strokes.png",
+      "bytes": 27381,
+      "sha256": "e1f3db889da92c9860b8e11f08ca248b294896dbb11190cef9ba78ca7f93e342"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-visual-midpoint-rejected.mscx",
+      "bytes": 9737,
+      "sha256": "a08b47600716e5c7274cd27351b36ed11ad3264c28cbe349c95464801edc742d"
+    },
+    {
+      "path": "docs/engraving/fixtures/tremolo-visual-midpoint-rejected.png",
+      "bytes": 27499,
+      "sha256": "1e388dfa00e66dab26475ab3e801fd8916274cf799a0036dcce51c722906d6da"
+    },
+    {
+      "path": "docs/engraving/fixtures/trill-continuation.mscx",
+      "bytes": 11007,
+      "sha256": "439223e8b3ccaaa858052b19675ba8c2904d8dd463e8275d0fca8ad9a2e883be"
+    },
+    {
+      "path": "docs/engraving/fixtures/trill-continuation.png",
+      "bytes": 36251,
+      "sha256": "37e7fbd5b346a8570b6434649acd01474aae0c25b4a4ceae4bacdd71f75a520d"
+    },
+    {
+      "path": "docs/engraving/fixtures/trill-endpoint-rejected.mscx",
+      "bytes": 11424,
+      "sha256": "863aca5577490764c03837ffdd7991555dc32b24fb32aba00574f5817585f8f5"
+    },
+    {
+      "path": "docs/engraving/fixtures/trill-endpoint-rejected.png",
+      "bytes": 36203,
+      "sha256": "31dd28bf710c4c7685543ae1433b208ba3b32ce483fd289b73077738cb4d803a"
+    },
+    {
+      "path": "docs/engraving/fixtures/trill-source.musicxml",
+      "bytes": 8055,
+      "sha256": "76f73f9b0935b4371545feaa6bde56797de777a9749711c660dbacfbe3ae0342"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-channel-comparison.png",
+      "bytes": 125728,
+      "sha256": "00a2e49bd14c156b95b834cfd52d81c7d82ab06cac35384a38f6528636c1f1da"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-channel-near-beam-flat.mscx",
+      "bytes": 5086,
+      "sha256": "2a0d44577358bf616a00e8a8243e0fff6a07bfa61f7644c369d87b9bec1a0c8c"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-channel-outside-above-flat.mscx",
+      "bytes": 5088,
+      "sha256": "312da12d7cc2fc2b79b9558af247f97702cd916b219fa80666a3fe0e77d429db"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-comparison.png",
+      "bytes": 284544,
+      "sha256": "a98d27548616e1f325c6e4b2efccda217faa66b79bcb78f7576c2a63547ff7ac"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-marked-above.mscx",
+      "bytes": 6597,
+      "sha256": "ebd2aba15eccc901cd46720f398a5ae780606187b19526db2d90e95e86c1cfa3"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-marked-near.mscx",
+      "bytes": 6558,
+      "sha256": "e624930333c8b33757eac0e0c66f3e50a3b1b32ce7361a20aff217cc763be7d2"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-melody-above.mscx",
+      "bytes": 5973,
+      "sha256": "a499b968e9bf8a4f5ef18f1f41f23fa696b69e77a9b4afa7c85c6e531927f410"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-melody-near.mscx",
+      "bytes": 5934,
+      "sha256": "ce388f712bd6ed21e66387cbb391576af9decd03065eb198816338103949f20e"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-narrow-above.mscx",
+      "bytes": 6608,
+      "sha256": "d00b6590d30ce34ba71deaf0b9ad38970a33f2bb498c26f3614e553b2807b20b"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-ownership-narrow-near.mscx",
+      "bytes": 6569,
+      "sha256": "c783e3d37c3f82268af3e4ac8060fbc91e074fdea2cf921b4bd1e3b1abf2716c"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-180mm-candidate.mscx",
+      "bytes": 8136,
+      "sha256": "ce10a7ea8f87a99b00f782bdcb48703a468dd0d485ddd62bcdc88a647390c552"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-90mm-candidate.mscx",
+      "bytes": 8260,
+      "sha256": "1dfe130f6dc6e798d71c50a4a974e0bf18c06c2fa478d7e25926ab760d959276"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-comparison.png",
+      "bytes": 301063,
+      "sha256": "137ad1adaa0a7ead9111fa0d3e114631e16673710614bc36df15099442cc1af6"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-continuous.mscx",
+      "bytes": 7636,
+      "sha256": "47e0a358364db14294b732055f02aa4de9dc0bcab26e4ae1fc9e259407eb3298"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-covered-bracket.mscx",
+      "bytes": 7676,
+      "sha256": "b0f529a699612e08165d9f98cf5a0a1214dfe62a8a2a266c6f4d474f2ad69261"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-covered-number.mscx",
+      "bytes": 7676,
+      "sha256": "751f33b23a71f9e4b3d51d11412d5c5d7edc7dc04e98a2485b58c61ad3bb0fd3"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplet-rest-scope-split.mscx",
+      "bytes": 7638,
+      "sha256": "9e93570ec6033a4180a3edeb2eb10d2080b6d3d09c8ac2c6a171ac7a1a0cfc30"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplets-all-hidden.mscx",
+      "bytes": 20573,
+      "sha256": "66c0d54b1d70592eb4505807cd416e172564c58ff8e5ea3b1c9516ebf6ce39ca"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplets-all-hidden.png",
+      "bytes": 36023,
+      "sha256": "743079a09838bd5db38393fbc596a57af4d160fbc2370e4348410567d9f331d8"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplets-all-shown.mscx",
+      "bytes": 20573,
+      "sha256": "a70d17b9bd3060b622c3b49cb2092444b9d011f3a133f4db24dd7b434deb4513"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplets-all-shown.png",
+      "bytes": 38300,
+      "sha256": "5ded77859d7291644066a09d3bdd698b4c0cf9a8ac3ec2b1ae55757a9765a4be"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplets-selective-clear.mscx",
+      "bytes": 20641,
+      "sha256": "b575f02782314251d97bbced994f38e36c9c7dc082f5e9c94ce91a14f8a49a09"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplets-selective-clear.png",
+      "bytes": 38160,
+      "sha256": "05eada60d2fa680abc05841dd0292db82e2fdc0faa295334f2cc0b34b5fcf706"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplets-selective.mscx",
+      "bytes": 20573,
+      "sha256": "ed7a52b7d51a4d319d4271a72ba3d84333e4e2687fc9f29fb687cc9dbd1a5564"
+    },
+    {
+      "path": "docs/engraving/fixtures/tuplets-selective.png",
+      "bytes": 38142,
+      "sha256": "40dbc850526d313c7a9fc946dd61dc0c88e43deb51bb4c9195c35aa1fa9fc5bc"
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-comparison.png",
+      "bytes": 48951,
+      "sha256": "e7e1ed14f8bde83ab11a8b720d4ebbfed79ee60eedcceae65f30777ac6f22b02"
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-default.mscx",
+      "bytes": 12882,
+      "sha256": "137f7fa6296adcc9a57cc769ec0a7f11cdd4107e2bfe3c01b7d06e00deaccc93"
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-cluster-uniform-rejected.mscx",
+      "bytes": 13907,
+      "sha256": "05613fe6a3f46f1220bb1bff3e87cfb6504dd4f66c1e31c3b99dde9cd8d4303c"
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-comparison.png",
+      "bytes": 43551,
+      "sha256": "6e080f4db236ec191dbac1b5b0b2126b410ddfaf03c4c1b32bbb21aa1c69b77c"
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-default.mscx",
+      "bytes": 13007,
+      "sha256": "925fdb13394f5548db4e94f3b24f7525462183ae2fe4cefce6d20faa677fbb88"
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-pulse-candidate.mscx",
+      "bytes": 13991,
+      "sha256": "0039671a53d59b704b98deec4130da1de2929700eab7b7edca040d4367e8b24f"
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-candidate.mscx",
+      "bytes": 14337,
+      "sha256": "9595459dcd6a8d79adccff31af0998fbffcf613c5f49aa13e17e6fe9795badff"
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-comparison.png",
+      "bytes": 46920,
+      "sha256": "a3bfd34a884ff6db9b71ecabe11d3eb90dfda971b617b02b4151b17e3c045cbc"
+    },
+    {
+      "path": "docs/engraving/fixtures/twenty-to-six-single-default.mscx",
+      "bytes": 13351,
+      "sha256": "55718a3d194aadab49bd1fed9ec2d8a44a2ca18e1ba41eac99b3172fdec2ff48"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-all-shared.mscx",
+      "bytes": 5221,
+      "sha256": "67730d01e447c32827c762273886e9b67cb85a109242402f1ec7c7a19b6fd520"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-all-shared.png",
+      "bytes": 24048,
+      "sha256": "a3f999bae9e13d646eebb84a1130df146509b1d1779368e36558c9f0950aee66"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-selective.mscx",
+      "bytes": 5168,
+      "sha256": "2a4d3cc17c32efc2ff0ffaabfd76e03f4c508d1d7017cb12087e4cea270a37ec"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-selective.png",
+      "bytes": 23854,
+      "sha256": "1561bfb4f0111fdd29c5e3a2cd35f22b7368fbd2997a1a7e4bf4c202418598df"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-separate.mscx",
+      "bytes": 5112,
+      "sha256": "4a71aaa6e8e7843c4d91acaa12c09458fb7604a810d03501635099c7eb1d0fdc"
+    },
+    {
+      "path": "docs/engraving/fixtures/unison-dots-separate.png",
+      "bytes": 24078,
+      "sha256": "9b42c044f5dbe9c3d8d86fdc9ec8b608490b0e11bd4e4f6d67efa74eec99bc4f"
+    },
+    {
+      "path": "docs/engraving/fixtures/voices-rests-hidden.mscx",
+      "bytes": 11536,
+      "sha256": "41732c47c75958850d4f0158eda1002d55b0302fb2833e7597368f35281ab0c8"
+    },
+    {
+      "path": "docs/engraving/fixtures/voices-rests-hidden.png",
+      "bytes": 21708,
+      "sha256": "2392598b3cf6fd20ac394a09c9e52a2b54f6304b3c014b608e395e5fd24f61a3"
+    },
+    {
+      "path": "docs/engraving/fixtures/voices-rests-shown.mscx",
+      "bytes": 11496,
+      "sha256": "3002c41abdab22d38114b2afc4fe97dd5a154aacf545da75fa4774d1d1b9d42f"
+    },
+    {
+      "path": "docs/engraving/fixtures/voices-rests-shown.png",
+      "bytes": 22279,
+      "sha256": "da8d7d148468cf3e0539aaa143c177ded8f84395d2539a9bad504e4351571302"
+    },
+    {
+      "path": "docs/engraving/fixtures/voices-rests-source.musicxml",
+      "bytes": 8507,
+      "sha256": "cfb31d61767031695726c448ca33803290bcbf8c36fb923fa96984fbf6db7dc6"
+    },
+    {
+      "path": "docs/engraving/flag_reading_evidence.json",
+      "bytes": 9376,
+      "sha256": "7d4ffdd8d86dee7fde051796268022cba60d6afb67da1f4f4b740d867396e890"
+    },
+    {
+      "path": "docs/engraving/free_passage_evidence.json",
+      "bytes": 6788,
+      "sha256": "7ee3535f0597a5a603f1aaa9e463c0e1f75ffe1e3f87bb16f40d431d61234fa9"
+    },
+    {
+      "path": "docs/engraving/fubuki_castle_closeout_evidence.json",
+      "bytes": 111522,
+      "sha256": "25d7d1176ad53ca15b509cf0600e50d2a469a0010231cc5df1f0576206303348"
+    },
+    {
+      "path": "docs/engraving/giorno_whole_reading_evidence.json",
+      "bytes": 16338,
+      "sha256": "c9791c6291c169181d79e82140cb5adac74443df03d9095ede00a5766af48a31"
+    },
+    {
+      "path": "docs/engraving/glissando_reading_evidence.json",
+      "bytes": 12018,
+      "sha256": "4d45d45e9a18bd33d833ec204184c939de06157459d7922d24f880fb3de18a6a"
+    },
+    {
+      "path": "docs/engraving/god_pokemon_closeout_evidence.json",
+      "bytes": 92617,
+      "sha256": "415164e91ef4c3e9d4783e268be35afe29ce151042758352d191ab16caa040a4"
+    },
+    {
+      "path": "docs/engraving/grace_price_closeout_evidence.json",
+      "bytes": 52219,
+      "sha256": "82a26f9338b8349674c84cfe7c7a04425cee4d3ef52474eafe5a021e325089ff"
+    },
+    {
+      "path": "docs/engraving/grace_reading_evidence.json",
+      "bytes": 19556,
+      "sha256": "11f5dfafc4560bdbdf891b71ead64267b30271da39b9a084505b619e0fae93ad"
+    },
+    {
+      "path": "docs/engraving/grand_great_closeout_evidence.json",
+      "bytes": 137742,
+      "sha256": "8b44b8bb3042ff729b2ad392892fd7e10d95c9563707dd63b850925f74260aee"
+    },
+    {
+      "path": "docs/engraving/gurenge_hacking_closeout_evidence.json",
+      "bytes": 104481,
+      "sha256": "8660614983e434edac36651650a6ed618eb1e744818064f4bcb006ed8be3cec1"
+    },
+    {
+      "path": "docs/engraving/here_reading_evidence.json",
+      "bytes": 26453,
+      "sha256": "22feb2868dda780cf02fc7bb33a9859f6770be31e463a276abd766740a8253a0"
+    },
+    {
+      "path": "docs/engraving/hikaru_history_closeout_evidence.json",
+      "bytes": 105206,
+      "sha256": "f822bbe542db7696bed771d89a8168f25975a0fa6f159e6a2dcf332125487e49"
+    },
+    {
+      "path": "docs/engraving/homura_hyori_closeout_evidence.json",
+      "bytes": 128847,
+      "sha256": "1c33c0de77476e0d137b90e9f73d7fe027b548656673766798514501872d1c11"
+    },
+    {
+      "path": "docs/engraving/hoshide_ondine_evidence.json",
+      "bytes": 6790,
+      "sha256": "51cab7f37b2d3659fc5ac56baf546e091bd0b3ee3cabe9cb237d7644651532b6"
+    },
+    {
+      "path": "docs/engraving/ichiban_idol_closeout_evidence.json",
+      "bytes": 127492,
+      "sha256": "0ca0b6a5675bbda583c644d07eb6240210916e5314626b4ed8d8cae37b7089d7"
+    },
+    {
+      "path": "docs/engraving/imagination_pool_closeout_evidence.json",
+      "bytes": 114790,
+      "sha256": "0ce18db60d7a0debf4d8e036866aa39736cb48976628146a76e5f7ebcbfd6128"
+    },
+    {
+      "path": "docs/engraving/inner_beam_hierarchy_evidence.json",
+      "bytes": 17789,
+      "sha256": "77c4e7b160cf3febe9fbef2874615f680c672ae688564b70fd77fe1b201f9634"
+    },
+    {
+      "path": "docs/engraving/integrated_reading_ninelie_evidence.json",
+      "bytes": 23260,
+      "sha256": "a4cc28d796cfac9f3cf35d00c4bc2068d92449f7bd46576596e36fedee2dfe00"
+    },
+    {
+      "path": "docs/engraving/integrated_reading_rumbling_unravel_evidence.json",
+      "bytes": 23819,
+      "sha256": "e4bdec8aa70a2abe1374979915117e506a227065316a98556ca59f1b57c057d3"
+    },
+    {
+      "path": "docs/engraving/integrated_review_evidence.json",
+      "bytes": 18079,
+      "sha256": "6e02e93c0aa87b001d68aac05c6f3f33266caf23d42297c4ab3a6e3be08d87f7"
+    },
+    {
+      "path": "docs/engraving/iris_kaibutsu_closeout_evidence.json",
+      "bytes": 77380,
+      "sha256": "5d29b9830a7a5eb2057bebd85ea72a0380eec274600b6a7d1ef906820577f0a0"
+    },
+    {
+      "path": "docs/engraving/kaikai_cruel_closeout_evidence.json",
+      "bytes": 112821,
+      "sha256": "52928b8e209a45d007d9d02d5eea08baf2e45a4c813f7c30770225a3217e8cbf"
+    },
+    {
+      "path": "docs/engraving/kaikai_reading_evidence.json",
+      "bytes": 10326,
+      "sha256": "7e848675804a36dc7c6191774136b642b1feae750e7af0d13dafaad4449de64c"
+    },
+    {
+      "path": "docs/engraving/kakyoin_whole_reading_evidence.json",
+      "bytes": 21700,
+      "sha256": "7dc1f17d200616c76151f9de842892769f09ecfea86d635ff7aada19955dbf1e"
+    },
+    {
+      "path": "docs/engraving/kawaki_jane_closeout_evidence.json",
+      "bytes": 78500,
+      "sha256": "65dc9411d43fe67bcc9e7b26d5b9a6fcb0907cf41f222481b849fc6e10be0595"
+    },
+    {
+      "path": "docs/engraving/key_kick_closeout_evidence.json",
+      "bytes": 61542,
+      "sha256": "819e1b08edc64816685d649361ef698418485815bee5aa3d9aecf9b0d1d00776"
+    },
+    {
+      "path": "docs/engraving/kigeki_killy_closeout_evidence.json",
+      "bytes": 78018,
+      "sha256": "f0a05e9637ff1e0c2fc481c28566ccb4b016831f6aa9057bf44d35b5c9ad3467"
+    },
+    {
+      "path": "docs/engraving/kimi_kizuna_closeout_evidence.json",
+      "bytes": 83282,
+      "sha256": "8101dfc1881b035cf090a455d33aa8bb2c97a6cc1fcb3d275d5daf28c2c001c8"
+    },
+    {
+      "path": "docs/engraving/kiss_chance_closeout_evidence.json",
+      "bytes": 149502,
+      "sha256": "1897c064d1d9a971c5282faf3fe46242ef65a78ef41f4c32ac156b55960004b7"
+    },
+    {
+      "path": "docs/engraving/kokecola_causal_review_evidence.json",
+      "bytes": 15705,
+      "sha256": "9080c902eab4faf06ceef1f33102c83ba73d7f7da3eb4669fec3bd846a0b2341"
+    },
+    {
+      "path": "docs/engraving/kokecola_workflow_evidence.json",
+      "bytes": 29749,
+      "sha256": "e5919ef296f077b011048bc7d25a38fbb41ad3d9a3ce1af57d9b957426d538ff"
+    },
+    {
+      "path": "docs/engraving/konosuba_kuchizuke_closeout_evidence.json",
+      "bytes": 113000,
+      "sha256": "de03fbd1997f2c74c14ced5707d4f54a837d88f8d02d27f6707f0517848d5c93"
+    },
+    {
+      "path": "docs/engraving/kura_kuusou_closeout_evidence.json",
+      "bytes": 92815,
+      "sha256": "d88311ba4d136e8823be732eef563b6a7202d0d3acecc8867a2a5f91e41a1da6"
+    },
+    {
+      "path": "docs/engraving/kyouran_conan_closeout_evidence.json",
+      "bytes": 92692,
+      "sha256": "16b3b41610901afe3e5aa5e9cef0f2934fcb53cdbe5b6fb91fc125e4704daf7c"
+    },
+    {
+      "path": "docs/engraving/last_stardust_reading_evidence.json",
+      "bytes": 9908,
+      "sha256": "e912b61ba1a54ddacfd7a16a913540c7eb48fb573d8589a2ab0482869a9ec142"
+    },
+    {
+      "path": "docs/engraving/layered_compound_reading_evidence.json",
+      "bytes": 26373,
+      "sha256": "6e7aca3786240ece975fe3835ed90806153bd1002d892e86c1c6b56c4d6f4332"
+    },
+    {
+      "path": "docs/engraving/lazy_eien_closeout_evidence.json",
+      "bytes": 51817,
+      "sha256": "f0669cf8b54f4b0e9b306b380ca95b58f2c16a353504fed61a491f0292165504"
+    },
+    {
+      "path": "docs/engraving/leading_reserve_evidence.json",
+      "bytes": 36062,
+      "sha256": "e4903bbe8fde7247fcabff57f5f13660ba5428f067593c2426a67c629a05edf5"
+    },
+    {
+      "path": "docs/engraving/legatissimo_source_map_evidence.json",
+      "bytes": 4943,
+      "sha256": "42405695301b44df6fddc8d8c19cfd6fc28ad0905d99019f7d9bfc165728fafb"
+    },
+    {
+      "path": "docs/engraving/legato_ravel_reading_evidence.json",
+      "bytes": 71885,
+      "sha256": "bda37bd1828fb637dd298cae53f4d6bf189263ae3b27bf5e4694e3e7c4366a0b"
+    },
+    {
+      "path": "docs/engraving/lily_essay_reading_evidence.json",
+      "bytes": 52784,
+      "sha256": "85b39c998c4ee896bab0ee471f9a83a3092e1cf0023998ec46054aaf7df770f8"
+    },
+    {
+      "path": "docs/engraving/lilypond_keyboard_cases_evidence.json",
+      "bytes": 17536,
+      "sha256": "87f25eed50115bde82a0e95978ece428b7453bd597f3a0238d5a0a1b02670de3"
+    },
+    {
+      "path": "docs/engraving/link_medley_reading_evidence.json",
+      "bytes": 23232,
+      "sha256": "aca3aebdf347bbb90d5f62115afac07e15dcd27710edc251a7c13d78b7162867"
+    },
+    {
+      "path": "docs/engraving/lit_whole_reading_evidence.json",
+      "bytes": 16099,
+      "sha256": "465a2a3555166bf7e26c861bccb1b35349799b6095b97cfd11b1672af0c5661c"
+    },
+    {
+      "path": "docs/engraving/long_dynamic_text_evidence.json",
+      "bytes": 19538,
+      "sha256": "4210941abb06aa2edaf12731cd2b88ec7915ad5270a6759b99174250ef393408"
+    },
+    {
+      "path": "docs/engraving/m97_direction_feedback_evidence.json",
+      "bytes": 41161,
+      "sha256": "b644466ad031fc12bae2025aa3963e93fa3d9e96b1c0ce73998f4aef734e5836"
+    },
+    {
+      "path": "docs/engraving/m97_group_boundary_evidence.json",
+      "bytes": 31213,
+      "sha256": "3b1c7256417392f428e3022d4691f4d3bb723ede48f842f96f6c0233723d70f1"
+    },
+    {
+      "path": "docs/engraving/m97_tuplet_transfer_evidence.json",
+      "bytes": 15420,
+      "sha256": "0030cd16e712bd8ae0bb249c6325509c7fcc66a3c0a30bdd828f8e7ae1002c78"
+    },
+    {
+      "path": "docs/engraving/madoka_whole_reading_evidence.json",
+      "bytes": 21021,
+      "sha256": "9d6fb47195e6c2aef7b2d382e407bc847dcc1cfec7e74d0a0074968701b57dff"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch01_evidence.json",
+      "bytes": 30319,
+      "sha256": "697eea7a74d980fa096cf3aafa1a2842240dc90fde6bf728df81148acc951e0c"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch02_evidence.json",
+      "bytes": 42549,
+      "sha256": "ec7fc38d5fca9ac1f648d80ac8626c1d24bf1c6cdffa9210d5e51db966335f5d"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch03_evidence.json",
+      "bytes": 58680,
+      "sha256": "6aaa216e8f6e3ca85207df9ebe8151cf9e267d27f3c89b59d5b8f121e03cb52c"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch04_evidence.json",
+      "bytes": 50733,
+      "sha256": "1cd27896f01dd50dc05f0bae4a1a97e78a75087470c02b8500570588f8811d55"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch05_evidence.json",
+      "bytes": 46658,
+      "sha256": "a91562e21a1222625dcab2200a7eb8fe16e3da29360ffaaf4e6ed732de275853"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch06_evidence.json",
+      "bytes": 59537,
+      "sha256": "6984ddbeba0c9ee469adf3c2e1a3e8dea1f64755e47a89f13f8d58302b4e6536"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch07_evidence.json",
+      "bytes": 64745,
+      "sha256": "c9acbd5fa2d218151a79be180fddd0f59a05342bc1d075258be8496316421c48"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch08_evidence.json",
+      "bytes": 75907,
+      "sha256": "3b96be2226cc65119e6d76bc2315f84546fde701314fc95575cd517cc2beb2ec"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch09_evidence.json",
+      "bytes": 65280,
+      "sha256": "1348b9cf9b9d4a0001582f191ef8cdf253549f21b64ff33c91d3e5eaa1fe4054"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch10_evidence.json",
+      "bytes": 74058,
+      "sha256": "90db92e99c4b45cbf9237f768d30467a2ff8d105d1ff6f9a09b0bf0d833c6c74"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch11_evidence.json",
+      "bytes": 76817,
+      "sha256": "2e2b836bec1d6841d64ab852362aca6216695ba0167799cd25f794df468aa770"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch12_evidence.json",
+      "bytes": 79932,
+      "sha256": "63118c3207576c7a946f1d15369baf6050c38ffe02efc339ed9d64f011994dc2"
+    },
+    {
+      "path": "docs/engraving/medley_200_ch13_evidence.json",
+      "bytes": 92444,
+      "sha256": "9516f5987442efdbef8fb292de78a18901c1e77c2d60a0d23786d7fbd8d64e78"
+    },
+    {
+      "path": "docs/engraving/medley_200_closeout_evidence.json",
+      "bytes": 47086,
+      "sha256": "0b1e2f0fe2d7683d36362bab733c3f5bb040e3a6814b1b51c6c0813d1fd5e50a"
+    },
+    {
+      "path": "docs/engraving/melissa_merry_closeout_evidence.json",
+      "bytes": 103776,
+      "sha256": "8612500ca8ba5df68c9f2e4f8097bca2778d48a68be6d9e5e0e005ec7115386d"
+    },
+    {
+      "path": "docs/engraving/metre_tempo_evidence.json",
+      "bytes": 8760,
+      "sha256": "e75cb915041a77360f1f23c719981544aa7f2939556a5c53550f4019e09030fe"
+    },
+    {
+      "path": "docs/engraving/michishirube_whole_reading_evidence.json",
+      "bytes": 44110,
+      "sha256": "7e913a9a473b7edd4cafabf1c631f3d65dcc48c07335df489ddbb20510b22681"
+    },
+    {
+      "path": "docs/engraving/miiro_mixed_closeout_evidence.json",
+      "bytes": 71327,
+      "sha256": "de1e6cd48b4ee766b8210cf4354d18dcbcf4cbc99fe95503ab75b71f5a774cce"
+    },
+    {
+      "path": "docs/engraving/mixed_nuts_reading_evidence.json",
+      "bytes": 22260,
+      "sha256": "212e3b7df081f3829e4d7ed90d0e053e50efe55584a45263eee68f30a708165d"
+    },
+    {
+      "path": "docs/engraving/mola_english_reading_evidence.json",
+      "bytes": 14494,
+      "sha256": "9e2e33a97cf0682f2d0e727578466d07bc2c89f331cd4e781b38395f5a41e725"
+    },
+    {
+      "path": "docs/engraving/mola_reading_evidence.json",
+      "bytes": 20297,
+      "sha256": "0949e3feb7507d246a1869d476a83eed26651f6bd2873ab6ac968410c3c0d48a"
+    },
+    {
+      "path": "docs/engraving/mpa_reading_evidence.json",
+      "bytes": 9999,
+      "sha256": "8cc3ded6c6892b85242e422655d2849e7dbdcbe7375e5fb55a919f3a74163acc"
+    },
+    {
+      "path": "docs/engraving/musescore3_arpeggio_video_partial_evidence.json",
+      "bytes": 1893,
+      "sha256": "216387fd216fc73105f7763b3f543917675db628eabd7040a119891d1fb74518"
+    },
+    {
+      "path": "docs/engraving/musescore3_beam_video_partial_evidence.json",
+      "bytes": 2054,
+      "sha256": "970664bd3e274d08a8e45e91d34ed4d5d824f8aefbdb261cc8b13af26f3398ff"
+    },
+    {
+      "path": "docs/engraving/musescore3_layout_figures_evidence.json",
+      "bytes": 8523,
+      "sha256": "61142a8c4ae43a0c5033f49853e8244fd5f996930352e87715f1d85dd6a6305c"
+    },
+    {
+      "path": "docs/engraving/musescore3_layout_reading_evidence.json",
+      "bytes": 47109,
+      "sha256": "8f5594ab6e613c90694386b93d841861225963907b6ff46a590ff764b677ea6f"
+    },
+    {
+      "path": "docs/engraving/my_dearest_reading_evidence.json",
+      "bytes": 27425,
+      "sha256": "3ce5c6dc12d30c693e403a540e2c29c0bdc5cb7e0b47f2674f62118294db5f19"
+    },
+    {
+      "path": "docs/engraving/nagi_nier_closeout_evidence.json",
+      "bytes": 112983,
+      "sha256": "ba9f09d1331e380719b9afef9ed23e29b5590c97d836141d58949f97b95debd6"
+    },
+    {
+      "path": "docs/engraving/nested_tuplet_scope_evidence.json",
+      "bytes": 14733,
+      "sha256": "2f409fc804d8fe5c6048b042625762e60b7dec37caea409956364407de91a0c2"
+    },
+    {
+      "path": "docs/engraving/ninelie_whole_reading_evidence.json",
+      "bytes": 21457,
+      "sha256": "9a6e7abce908ccd3861edb6980ca1a0c6a2e920c1badb0e9e40e2e96a108573f"
+    },
+    {
+      "path": "docs/engraving/octave_reading_evidence.json",
+      "bytes": 22810,
+      "sha256": "daba068168bae03ff14067aac4dd11b2eada12c2e32f70eae9ad402bfd37b36b"
+    },
+    {
+      "path": "docs/engraving/output_reading_evidence.json",
+      "bytes": 6402,
+      "sha256": "5b4c389d8b06e8ac1b33f7ac1b28c48a8a89618dfce491120497646cf0d6364b"
+    },
+    {
+      "path": "docs/engraving/owari_reading_evidence.json",
+      "bytes": 55106,
+      "sha256": "62ef736bbde2e1988c96ddfee7fdde0e7dd031e171e5c90a6391de4682afecf4"
+    },
+    {
+      "path": "docs/engraving/page4_review_evidence.json",
+      "bytes": 24963,
+      "sha256": "28af4d4433757448d3af56d7a2d23c4ef1f97ae78ee2421fe10edba3d219e2d7"
+    },
+    {
+      "path": "docs/engraving/page_flow_evidence.json",
+      "bytes": 52647,
+      "sha256": "9f5de323b3082ce80774a90c7413df99262abb72f9989e2cef2c756bc95a3306"
+    },
+    {
+      "path": "docs/engraving/page_hierarchy_evidence.json",
+      "bytes": 12977,
+      "sha256": "df71754372bd73fd2e16da1183d8dee2d323e720b92dadd2766f9ee22d28542c"
+    },
+    {
+      "path": "docs/engraving/page_tutorial_reading_evidence.json",
+      "bytes": 26306,
+      "sha256": "0110068270cec6230174dff51f5536c8373d53f6f8321435eabacedae274222f"
+    },
+    {
+      "path": "docs/engraving/partial_tuplet_brackets_evidence.json",
+      "bytes": 21832,
+      "sha256": "5284e14c7cf5e95fd2c818ab9b034e822310b64e6ffb7937ae8dffd5172e7fb5"
+    },
+    {
+      "path": "docs/engraving/piano_texture_evidence.json",
+      "bytes": 5192,
+      "sha256": "927363220e04823d7139397c19f2380b7fd8c80e4b65472f61819fbf21e7da2c"
+    },
+    {
+      "path": "docs/engraving/polonaise_technique_evidence.json",
+      "bytes": 11022,
+      "sha256": "8d3804487277ec9535aae48210543583b8b3dbdf88ca4ad74f0447f76ea36a6a"
+    },
+    {
+      "path": "docs/engraving/polyrhythm_spacing_evidence.json",
+      "bytes": 35651,
+      "sha256": "2cdb323f3dde29fa0406558d72ab7e48fb53da2e75985c43efaf6d39f28279b9"
+    },
+    {
+      "path": "docs/engraving/practice_followup_evidence.json",
+      "bytes": 5506,
+      "sha256": "a6c4708bf8939720eb71bbce84ccb592deeb11c9e0368a359c5c88b2ebcc844b"
+    },
+    {
+      "path": "docs/engraving/progress.json",
+      "bytes": 199146,
+      "sha256": "8dd646f00c84c3c44693615e276d175671873d5f8cb55260653b543689c56f50"
+    },
+    {
+      "path": "docs/engraving/purrvoice_preview_reading_evidence.json",
+      "bytes": 10409,
+      "sha256": "16e97d8fe24a72b163c660b66daad2a47a809bf060103f1ac022a380ba493885"
+    },
+    {
+      "path": "docs/engraving/r09_ossia_evidence.json",
+      "bytes": 9859,
+      "sha256": "1d500968528baeb817893b62e9013976b731f881f9d31c028f53f0f9fe47804c"
+    },
+    {
+      "path": "docs/engraving/r09_preview_comparison_evidence.json",
+      "bytes": 9362,
+      "sha256": "887635ccfdaa921dbc831f17afc7d109de657f6333c981e90b9ba8441dcf4579"
+    },
+    {
+      "path": "docs/engraving/railgun_pierce_closeout_evidence.json",
+      "bytes": 117436,
+      "sha256": "2e562a2d08d148ec88a857d57bde851946fdab2e466ed3a055fe9b12204c2b74"
+    },
+    {
+      "path": "docs/engraving/real_score_reading_tradeoffs_evidence.json",
+      "bytes": 24624,
+      "sha256": "a8261444b2c615bb80e059d7493f0bbf116186ba0359983db4fd6e244ff3e4ff"
+    },
+    {
+      "path": "docs/engraving/release_0_10_0_evidence.json",
+      "bytes": 19412,
+      "sha256": "662ccfaf89b3628e0cf0ffac4527b1f1b7ceab90152626441dc6d418d32551b5"
+    },
+    {
+      "path": "docs/engraving/release_0_11_0_evidence.json",
+      "bytes": 19958,
+      "sha256": "7c0d27e868fd608ed6831b22fac6c390c7e1014e70b4001edf5f41065aaa5aae"
+    },
+    {
+      "path": "docs/engraving/release_0_12_0_evidence.json",
+      "bytes": 22870,
+      "sha256": "f68c5623030f69caec5deee58d197c561ceb25e489174eaecf6ddc34345c1402"
+    },
+    {
+      "path": "docs/engraving/release_0_13_0_evidence.json",
+      "bytes": 23250,
+      "sha256": "02ba62719d5f9beec130edeeeb618b69d802c0060a89167692aa8188f1f2d708"
+    },
+    {
+      "path": "docs/engraving/release_0_14_0_evidence.json",
+      "bytes": 23221,
+      "sha256": "2810cc22c8e38a2135c8799a6c4eff37e677c1e374dfb993c5eced84e5190747"
+    },
+    {
+      "path": "docs/engraving/release_0_15_0_evidence.json",
+      "bytes": 22524,
+      "sha256": "8a4c2a1f7541b30893f0cc4150a5058eb4a9545c3213ff4b10453b534bfec81b"
+    },
+    {
+      "path": "docs/engraving/release_0_16_0_evidence.json",
+      "bytes": 23419,
+      "sha256": "f74faefcb8cfa1c1c82b194dac388fbf7c06b6dd6d43463a5b9d623c87a007ed"
+    },
+    {
+      "path": "docs/engraving/release_0_17_0_evidence.json",
+      "bytes": 23875,
+      "sha256": "a9f1328bc80258a7d82f907bdf0ae742bc8cb8ee743701eb1c7ba816b3f93b3a"
+    },
+    {
+      "path": "docs/engraving/release_0_18_0_evidence.json",
+      "bytes": 39986,
+      "sha256": "3a1803728f9c5e2c1db38832026dc55e149e9548a9336d53f78e41518d77b3ef"
+    },
+    {
+      "path": "docs/engraving/release_0_19_0_evidence.json",
+      "bytes": 12809,
+      "sha256": "338bb488900a9a94e10362dbafbed0af84d057eb038296743ecdb4f0628dad17"
+    },
+    {
+      "path": "docs/engraving/release_0_20_0_evidence.json",
+      "bytes": 24478,
+      "sha256": "19d74960bf41f36d0bdded9bdac91037126e47c9cd47ae02968b3484607f720b"
+    },
+    {
+      "path": "docs/engraving/release_0_21_0_evidence.json",
+      "bytes": 9480,
+      "sha256": "566bdfaae401b5ad636fb3d24f69f0f48b297f979d1beabdd0c1501fc9f7fb64"
+    },
+    {
+      "path": "docs/engraving/release_0_22_0_evidence.json",
+      "bytes": 25578,
+      "sha256": "bb0091f990b13aa4496d4eb8e3ace5c23b466707cf318d2c0cd5abcdcbeb0a8d"
+    },
+    {
+      "path": "docs/engraving/release_0_23_0_evidence.json",
+      "bytes": 30746,
+      "sha256": "6b22521a3ffc954f54bc5a5b2866bfd7a8264b48c11930cfd9d88f2f11ff2db2"
+    },
+    {
+      "path": "docs/engraving/release_0_24_0_evidence.json",
+      "bytes": 8646,
+      "sha256": "f8bae9638160e9506febe7a81aa06b5ef620d0b18cfe843c73d0a36aa943a58c"
+    },
+    {
+      "path": "docs/engraving/release_0_25_0_evidence.json",
+      "bytes": 6156,
+      "sha256": "14d9d47b12e769c7cff13e1eec8270a9b262fc80edf1aa248f8d09330a3f91e7"
+    },
+    {
+      "path": "docs/engraving/release_0_26_0_evidence.json",
+      "bytes": 4745,
+      "sha256": "697b1f701e3e26db092681f4789356c8f3528b156e2a4fca06af0d96f8cf4ef6"
+    },
+    {
+      "path": "docs/engraving/release_0_27_0_evidence.json",
+      "bytes": 10505,
+      "sha256": "7059b66c86c5ed056130af8ec35f2718772414500f65baad9b3a332cd54fa37a"
+    },
+    {
+      "path": "docs/engraving/release_0_28_0_evidence.json",
+      "bytes": 21617,
+      "sha256": "88386a96ac23a432744f7daac23cb8f1b9fa63a480dd1128ef7b56aa81b06108"
+    },
+    {
+      "path": "docs/engraving/release_0_29_0_evidence.json",
+      "bytes": 24910,
+      "sha256": "039d115a30f0b6cff03649bf1da660c5d500c67795931ceb66cddfb9c32f7df3"
+    },
+    {
+      "path": "docs/engraving/release_0_2_0_evidence.json",
+      "bytes": 4189,
+      "sha256": "eae472601c90c90763f6b175f8af65ba02cea1514384cd96126764e97061ba81"
+    },
+    {
+      "path": "docs/engraving/release_0_30_0_evidence.json",
+      "bytes": 28087,
+      "sha256": "4614c5514fcee1a23cd7bc477dba648f2498bbabc1d171ff6de082b4b22a41a8"
+    },
+    {
+      "path": "docs/engraving/release_0_31_0_evidence.json",
+      "bytes": 33600,
+      "sha256": "f3bc6ed34014aa232f50c13546b1c9e5c565b475f18eaa98ae81998c4c9d0c92"
+    },
+    {
+      "path": "docs/engraving/release_0_32_0_evidence.json",
+      "bytes": 50647,
+      "sha256": "9741e6c40dcd2a4c88e55b7928674faaeaaa0e0f53fcf071d16330dd92cf3bb3"
+    },
+    {
+      "path": "docs/engraving/release_0_33_0_evidence.json",
+      "bytes": 55707,
+      "sha256": "9aec909efc39c7d4019253b271e5133ca1516db8d127cb6eb2de052d7bd12421"
+    },
+    {
+      "path": "docs/engraving/release_0_34_0_evidence.json",
+      "bytes": 46006,
+      "sha256": "3efc8647508a27f05e99aae02fae21c6207875a5abf87e68a74a431712ee775d"
+    },
+    {
+      "path": "docs/engraving/release_0_3_0_evidence.json",
+      "bytes": 5853,
+      "sha256": "4340bb9f354bb7fd3f65f08dee3baeefda1e0a5eb3cf42f263aa92146470fdfd"
+    },
+    {
+      "path": "docs/engraving/release_0_4_0_evidence.json",
+      "bytes": 14734,
+      "sha256": "b28867de7b3bfb4d62342acfad20fdd2c321e76a402986b81ec31500f1d90927"
+    },
+    {
+      "path": "docs/engraving/release_0_5_0_evidence.json",
+      "bytes": 8341,
+      "sha256": "04dac490cebe1eff54997398dc22850cb7db224ccb7feab1db4b85aec79e478f"
+    },
+    {
+      "path": "docs/engraving/release_0_6_0_evidence.json",
+      "bytes": 10283,
+      "sha256": "5e9e1643d5341ed18be092522e4ec770f2307912200a2171a745d0d67e1379c5"
+    },
+    {
+      "path": "docs/engraving/release_0_7_0_evidence.json",
+      "bytes": 15242,
+      "sha256": "6ab9ed7486abc0fd9852d0ae9984b818cdd19e1105580c9d8f45e91fe658fa5f"
+    },
+    {
+      "path": "docs/engraving/release_0_8_0_evidence.json",
+      "bytes": 16533,
+      "sha256": "4418a1180f7681b5faa04d4c6790beebf6905577b0b0ef8fffec441c2fec9dca"
+    },
+    {
+      "path": "docs/engraving/release_0_9_0_evidence.json",
+      "bytes": 30376,
+      "sha256": "5ed510f1c4bc7a60662a377fd5271c2bf45d8ceec96f17b83ed0cef3b12782b4"
+    },
+    {
+      "path": "docs/engraving/repeat_navigation_evidence.json",
+      "bytes": 17237,
+      "sha256": "595641097c432fbecd01157e91e5f1694eed8bc3393f362db28e97dd523bfed6"
+    },
+    {
+      "path": "docs/engraving/resonance_rising_closeout_evidence.json",
+      "bytes": 146777,
+      "sha256": "de88dc85f2743e207f224187e0575b47ffc1a65e1624b5ce1bac856694c4f647"
+    },
+    {
+      "path": "docs/engraving/resource_identity_evidence.json",
+      "bytes": 16346,
+      "sha256": "ec1085cd6aff6fe4202c80f951df452ebf8f189c5e8178ec2d78e9a17a8c4ad6"
+    },
+    {
+      "path": "docs/engraving/rumbling_aether_closeout_evidence.json",
+      "bytes": 71602,
+      "sha256": "0e10c5076f13f93fa8d5db9b9aca2caef927d386d27391d97131fd4df4eb04a8"
+    },
+    {
+      "path": "docs/engraving/sadness_whole_reading_evidence.json",
+      "bytes": 58129,
+      "sha256": "418fdb45bd942d9c3f0926500040771788d0c56411914d822cc1bcb45276c5e5"
+    },
+    {
+      "path": "docs/engraving/sakayume_sayonara_closeout_evidence.json",
+      "bytes": 155504,
+      "sha256": "f6ecf8f7414423f727889e89fc616f83afa5710e3eccce38a9d8260a22502212"
+    },
+    {
+      "path": "docs/engraving/seconds_ownership_evidence.json",
+      "bytes": 22407,
+      "sha256": "86f60a312d951480dafc4f2ef185518e0ddfe9e0597b55c19658d8d2c7fa587a"
+    },
+    {
+      "path": "docs/engraving/secret_base_whole_reading_evidence.json",
+      "bytes": 46482,
+      "sha256": "c7944bfb9b4f694ce348a6750c1b4e06d65142d9f65e6802741362daf548ce2f"
+    },
+    {
+      "path": "docs/engraving/section_entry_casting_evidence.json",
+      "bytes": 35077,
+      "sha256": "f0605c938d7c173e83ba69a4fa2f4317b33d18bbb6a7fcbeea2c1d68e6a8434c"
+    },
+    {
+      "path": "docs/engraving/shamshir_preview_evidence.json",
+      "bytes": 10511,
+      "sha256": "2ca9ec43e842d5f4f059b9226bf0188f926b9e50004dbe498f685bb7be1a8026"
+    },
+    {
+      "path": "docs/engraving/shinianqi_source_evidence.json",
+      "bytes": 4510,
+      "sha256": "2eb659397544c1e6754f3766601f69ebafc876122aed2b9db13f5fd58b900f0b"
+    },
+    {
+      "path": "docs/engraving/shinzou_shirushi_closeout_evidence.json",
+      "bytes": 202842,
+      "sha256": "f31c339c9f8d5c3c5d334d160041cb043d069c80143447aa9ff9cf11639d2fc4"
+    },
+    {
+      "path": "docs/engraving/silhouette_sirius_closeout_evidence.json",
+      "bytes": 96570,
+      "sha256": "9a5f59bc65371203bbb01ab12bc35a2fee74f836230a95d76e88f06420b07e17"
+    },
+    {
+      "path": "docs/engraving/sincerely_whole_reading_evidence.json",
+      "bytes": 90725,
+      "sha256": "7bdb1f66584a95d228795ce470c5f498f8d54a35d57e5bb7d9f667f5f50fb612"
+    },
+    {
+      "path": "docs/engraving/skill_forward_reading_evidence.json",
+      "bytes": 9140,
+      "sha256": "33861703f9b18f5981f3c13bd26991da9cccc6e6912bb7eb2855798454ed09a5"
+    },
+    {
+      "path": "docs/engraving/skill_transfer_clefs_evidence.json",
+      "bytes": 62452,
+      "sha256": "362c23dc042490c65ecfa2c4c4e74413e1aa201c71e907c0a82fa9bb0b83c0ca"
+    },
+    {
+      "path": "docs/engraving/skill_transfer_continuity_evidence.json",
+      "bytes": 47609,
+      "sha256": "7775c998d644fbc57c84f30a1324fcdb0b15bc8697a2696b75ea7035445eac2a"
+    },
+    {
+      "path": "docs/engraving/skill_transfer_markings_evidence.json",
+      "bytes": 61827,
+      "sha256": "884acf3e925426aad05f6f9b21f10277b1e3eeaf3f1aa27a8ad8911130f2faa3"
+    },
+    {
+      "path": "docs/engraving/skill_transfer_notation_evidence.json",
+      "bytes": 65076,
+      "sha256": "4b35e232d5246482fb74ea7a34ff9ef7b20121ca8ff3a7e0a4d5d6eabd0dffe0"
+    },
+    {
+      "path": "docs/engraving/skill_transfer_pages_evidence.json",
+      "bytes": 45062,
+      "sha256": "a32d3e486ce708c00e0c46d2eb4710fba0d0d111fb48693c71b68ba33a7a5205"
+    },
+    {
+      "path": "docs/engraving/skill_transfer_rhythm_evidence.json",
+      "bytes": 36300,
+      "sha256": "a3cdbf6f04e2b7f3445f5ca1e5285dbabb3f8241edbcad1688f1e212c4c819e6"
+    },
+    {
+      "path": "docs/engraving/skill_transfer_spacing_evidence.json",
+      "bytes": 26559,
+      "sha256": "5745154a472b394eb56b5c1093cf7ae9bb2b05b659d25877f0c243e589bf168d"
+    },
+    {
+      "path": "docs/engraving/skill_validation.json",
+      "bytes": 123063,
+      "sha256": "55d2fac4c49d9af2f8df007e51211f8d59d4a7b607fc443ab05b8426e93cd4bd"
+    },
+    {
+      "path": "docs/engraving/snow_sparkle_closeout_evidence.json",
+      "bytes": 115526,
+      "sha256": "05cb8158b19a79cd10a2779903f509a92cb3c6b017903ea94caf22746e07e410"
+    },
+    {
+      "path": "docs/engraving/soul_war_closeout_evidence.json",
+      "bytes": 104542,
+      "sha256": "09225d0fde7d34379eff6c0e10f37566e8d72b1b9839ebfe1868043b6671846e"
+    },
+    {
+      "path": "docs/engraving/spacing_candidates_evidence.json",
+      "bytes": 14839,
+      "sha256": "db222fe13618e206604ef3107e440252dfe265d75320f32dbcdb0d6a8a1c8987"
+    },
+    {
+      "path": "docs/engraving/spacing_decisions_evidence.json",
+      "bytes": 16626,
+      "sha256": "980b28e5c849f0016fa50e5905ffb6af39723b3001dd6f5fe0911aa81dc1e3d8"
+    },
+    {
+      "path": "docs/engraving/spacing_evidence.json",
+      "bytes": 24371,
+      "sha256": "9aaa0dc09b73668c8c9715c02430fc9bd74d068520c24c01f00cd068e9ef2a25"
+    },
+    {
+      "path": "docs/engraving/spacing_geometry_evidence.json",
+      "bytes": 57250,
+      "sha256": "c33a87ff8d32c55f2476807209464219f95f55d0cf1ea787a3f6c1b4110db353"
+    },
+    {
+      "path": "docs/engraving/spacing_models_evidence.json",
+      "bytes": 22332,
+      "sha256": "590a16cc95170c954741e029a1e01c4b6730ee172f7d903ad0715d7973a8dccb"
+    },
+    {
+      "path": "docs/engraving/spacing_transfer_evidence.json",
+      "bytes": 15119,
+      "sha256": "6c36e118458b498434096bca61283dc2bc0d1995e05fed0774a11f3cdb8e445c"
+    },
+    {
+      "path": "docs/engraving/spacing_verification.json",
+      "bytes": 7252,
+      "sha256": "4fd0bbc0556e5f7528d2e67da13da922815a834c74b4ce6c7df5c1b106ba7b22"
+    },
+    {
+      "path": "docs/engraving/specialz_ghibli_closeout_evidence.json",
+      "bytes": 113126,
+      "sha256": "c23fd5d4399d9674a882ffb11377a5ea06cc46230de98785d7a3f76bff404e11"
+    },
+    {
+      "path": "docs/engraving/split_bar_continuation_evidence.json",
+      "bytes": 24994,
+      "sha256": "58e539fd800c72d52e5876c9776bcbba2a5baf02a94410f91c5743d40382038e"
+    },
+    {
+      "path": "docs/engraving/staff_tutorial_reading_evidence.json",
+      "bytes": 12561,
+      "sha256": "cea65485c25f571614d98fd7c1192853769e42203210f34edb20e671ff9c38ef"
+    },
+    {
+      "path": "docs/engraving/stem_optical_contexts_evidence.json",
+      "bytes": 88919,
+      "sha256": "04b355cf2450ef936e0e1ce65351134181b6862ef5fe18c2cd1b9bccdbfe5a91"
+    },
+    {
+      "path": "docs/engraving/stem_optical_limits_evidence.json",
+      "bytes": 111429,
+      "sha256": "b38e75be9dbf846bc919c7030d37ac45347677886a472da24e124b7d52ac380d"
+    },
+    {
+      "path": "docs/engraving/stem_optical_shapes_marks_evidence.json",
+      "bytes": 140402,
+      "sha256": "de0946f42da78d367a63e236ab0b0a1c4d4e2f13c58237ce25c31957fefa5c6f"
+    },
+    {
+      "path": "docs/engraving/stem_optical_spacing_evidence.json",
+      "bytes": 27616,
+      "sha256": "0b95664ea01d9f8ca1a20c549dc8772055388805b74f30d40ca16f871e8ac339"
+    },
+    {
+      "path": "docs/engraving/styx_sugar_closeout_evidence.json",
+      "bytes": 111107,
+      "sha256": "7cad44f859f9b486ba24473911dc44f1a06a7ac6153898522c97fcda22212c95"
+    },
+    {
+      "path": "docs/engraving/sugar_handover_review_evidence.json",
+      "bytes": 11298,
+      "sha256": "2b3838ebbb8b8aa2754033357c13d88b3992770ff0b9c0dc6255459fa8e2033b"
+    },
+    {
+      "path": "docs/engraving/sustain_continuation_evidence.json",
+      "bytes": 13299,
+      "sha256": "0700680220049402a19c9fd0c2522ed3dd2bca3813013855c749a78e8710bc38"
+    },
+    {
+      "path": "docs/engraving/sustain_rest_evidence.json",
+      "bytes": 15758,
+      "sha256": "2b07242b0188a074b3e62918c20805f493a870bd0cbbc238345ee55c769678aa"
+    },
+    {
+      "path": "docs/engraving/suzume_swordland_closeout_evidence.json",
+      "bytes": 141800,
+      "sha256": "108c8c07f37441817e743bdeb84734f71f442d07802b538a773f1cf3a71db9b3"
+    },
+    {
+      "path": "docs/engraving/swing_alignment_evidence.json",
+      "bytes": 33975,
+      "sha256": "3bb4b4126e118bac99a773b833080f2fd81ce8a8f77aaa2a13b62838c92456e5"
+    },
+    {
+      "path": "docs/engraving/symbol_reading_evidence.json",
+      "bytes": 9410,
+      "sha256": "26ec2bcc7e2cb7eaade3bac6a37da7cf301fd32bded606ed5e40ee932c4169fc"
+    },
+    {
+      "path": "docs/engraving/tabi_tamashii_closeout_evidence.json",
+      "bytes": 114127,
+      "sha256": "fe377f877859036a5e731fabb4e8532a0a07c2b4978e3f5b3cd12c324be4f48c"
+    },
+    {
+      "path": "docs/engraving/tanjiro_kantai_closeout_evidence.json",
+      "bytes": 106400,
+      "sha256": "7a4217a5f257ded46946cd2f1adfe06cabc7f12d038ca510cccac99e64b156ba"
+    },
+    {
+      "path": "docs/engraving/tempo_equation_evidence.json",
+      "bytes": 26124,
+      "sha256": "77aca5b1d9f6965d23dc8951db406234692f45d6f1a667491a92e5a908e59fe2"
+    },
+    {
+      "path": "docs/engraving/this_game_closeout_evidence.json",
+      "bytes": 70486,
+      "sha256": "06e70f1a88c86fdd09abb53317239d587b722b8dfb24fa2d24577e3c7e7782ec"
+    },
+    {
+      "path": "docs/engraving/time_space_repetition_evidence.json",
+      "bytes": 20635,
+      "sha256": "705e120ba4a824fdeb3fd929391560e1e3691b5922393cfcea4199d995c60340"
+    },
+    {
+      "path": "docs/engraving/tokimeki_uchiage_closeout_evidence.json",
+      "bytes": 88493,
+      "sha256": "717d89ed79ab37a3c9104a7fcc241c981aaebca8670ac039d1f334e63b41420a"
+    },
+    {
+      "path": "docs/engraving/tremolo_reading_evidence.json",
+      "bytes": 17896,
+      "sha256": "61ac8a7fdaa6c80df8f405e8741f2af95ce8d25f142cb4a0149839ccfecfcd90"
+    },
+    {
+      "path": "docs/engraving/trill_reading_evidence.json",
+      "bytes": 7637,
+      "sha256": "05e06fd39184fd3dfa06c005a452799208b02e788b2559ea615e07e6a60e2604"
+    },
+    {
+      "path": "docs/engraving/tuplet_channel_evidence.json",
+      "bytes": 13447,
+      "sha256": "ae402e210378f1a9c1811971abdcab6f3129fce19857e7288a48e25c7876a6c9"
+    },
+    {
+      "path": "docs/engraving/tuplet_decisions_evidence.json",
+      "bytes": 14657,
+      "sha256": "7e492095e3b373ebfc4e1e95a7a2260c3a2d98b9a9bda29a442b55e90161e6ac"
+    },
+    {
+      "path": "docs/engraving/tuplet_ownership_evidence.json",
+      "bytes": 26239,
+      "sha256": "c2a68c3f541e13f48fd86106b551fbc1f8abde38cca3a4fce5dd3eed864156f3"
+    },
+    {
+      "path": "docs/engraving/tuplet_reading_evidence.json",
+      "bytes": 14441,
+      "sha256": "73d9b78f8c7292b9748e0b1b1e17c97a335e2f6b8b96e9dcb5500dd4340cb88c"
+    },
+    {
+      "path": "docs/engraving/tuplet_rest_scope_evidence.json",
+      "bytes": 71301,
+      "sha256": "39285be81d9df2c674e4a7a0ede510b8432a534b5fda5461f4ff9e8bfaf7f6dd"
+    },
+    {
+      "path": "docs/engraving/twenty_to_six_occupancy_evidence.json",
+      "bytes": 97008,
+      "sha256": "db55b72d33d822a53c02c3b56424a86e293dd594ae2b6e4a57c7138dc65fcbf5"
+    },
+    {
+      "path": "docs/engraving/twenty_to_six_spacing_evidence.json",
+      "bytes": 72436,
+      "sha256": "963f7bfe8de5e03db07f164df63836ee91ec68cfa9fa30163a492710795ef8cc"
+    },
+    {
+      "path": "docs/engraving/unison_dots_evidence.json",
+      "bytes": 21874,
+      "sha256": "0be1fc01585f09b35580140daa73ce178728a2271bee5a70734a2a66c262443c"
+    },
+    {
+      "path": "docs/engraving/unlasting_reading_evidence.json",
+      "bytes": 19146,
+      "sha256": "67309f237eebfe11fe29c90f3c7e838cb609aeb7dfe23108c99a119b80f2f32c"
+    },
+    {
+      "path": "docs/engraving/unlasting_unravel_closeout_evidence.json",
+      "bytes": 103980,
+      "sha256": "454722bb3d1b7836ab2c8ca51628206c2d5cba13fea0027a0ca59a4fdba16824"
+    },
+    {
+      "path": "docs/engraving/uragiri_vogel_closeout_evidence.json",
+      "bytes": 108660,
+      "sha256": "a069329788b7316728b1d63b96f0de43fbd9fba270722962647c057f75339ac9"
+    },
+    {
+      "path": "docs/engraving/user_combined_review_evidence.json",
+      "bytes": 52659,
+      "sha256": "9172aaa5e20ab667f8a5a7a818baedd932a741296ca2493be83f75e8e5b133ee"
+    },
+    {
+      "path": "docs/engraving/user_spacing_evidence.json",
+      "bytes": 12823,
+      "sha256": "2b0a9ae94a7abce842294edab65197fcc9d8cb6113da2bf1f224206aa7939dff"
+    },
+    {
+      "path": "docs/engraving/verification.json",
+      "bytes": 3966,
+      "sha256": "85757354965047b23ff492e2229cc3698acd80a6330c0bdafaf54e3e645fcaea"
+    },
+    {
+      "path": "docs/engraving/weare_weight_closeout_evidence.json",
+      "bytes": 116863,
+      "sha256": "ac1b84646b29eb6fd9ca64b07e21032e33eb237ab25822e781c8fec65542dad9"
+    },
+    {
+      "path": "docs/engraving/whole_context_batch_2026_10_23_evidence.json",
+      "bytes": 7015,
+      "sha256": "512ba1bf016fa1f51e459358ca62219699db9ce374fa96bef22189aba9c6a7d3"
+    },
+    {
+      "path": "docs/engraving/whole_score_review_evidence.json",
+      "bytes": 10234,
+      "sha256": "930cd2cbc217acfdcd0ce00cb8957dc8294ad1604778d52c182cf2a329605df2"
+    },
+    {
+      "path": "docs/engraving/will_biggirl_closeout_evidence.json",
+      "bytes": 117578,
+      "sha256": "74b7ed8dc931479bc14b1ba2fd969eb665de18ba13692b06ad05879cbaff1f0b"
+    },
+    {
+      "path": "docs/engraving/world_reason_closeout_evidence.json",
+      "bytes": 84072,
+      "sha256": "3951d87f6548110cafed7ac9f5dd45a1ec6ec02477f694625d56cfb2a70a585c"
+    },
+    {
+      "path": "docs/engraving/zankyou_guren_closeout_evidence.json",
+      "bytes": 128907,
+      "sha256": "2a38a7e835b621ab45b7a4c0124ea745f0b376d4d4a512b12e275968b4189adf"
+    },
+    {
+      "path": "docs/engraving/zenzenzense_whole_reading_evidence.json",
+      "bytes": 69430,
+      "sha256": "f9e186297948e45ee48c7e721cf77597c56e452be99f3494e078c4dd192143fd"
+    },
+    {
+      "path": "fonts/kumo-engrave/ANIMENZ_REFERENCE.md",
+      "bytes": 5191,
+      "sha256": "05d912f8be20368a6f9cdbc15e6de39e18ba4a2781cd6ba2e52b12c188ebbe80"
+    },
+    {
+      "path": "fonts/kumo-engrave/APPEARANCE_REVIEW.md",
+      "bytes": 3234,
+      "sha256": "1078396860405e54d6d0722f6ed32ed0fdcf4c7c766317d4baeb8ae5c9fd51e1"
+    },
+    {
+      "path": "fonts/kumo-engrave/CATALOG_COVERAGE.md",
+      "bytes": 6293,
+      "sha256": "3281e4b78405a35488375ef133130685f5cc6f9720eca8ccef8cc63c84c62741"
+    },
+    {
+      "path": "fonts/kumo-engrave/CORPUS_STUDY.md",
+      "bytes": 18057,
+      "sha256": "811575f020a1516fb887a96f808b301232e6353aad1e2921c3a1ef4ba534646b"
+    },
+    {
+      "path": "fonts/kumo-engrave/COVERAGE_RECONCILIATION.md",
+      "bytes": 6032,
+      "sha256": "d2e4d07aff743500f7621b2cc25e0c6f58b8f0054c77d6df0cf98882570d1d93"
+    },
+    {
+      "path": "fonts/kumo-engrave/CURRENT_USAGE.md",
+      "bytes": 3115,
+      "sha256": "1bcb4941859a43312f66bd7517686c290a22b94ffab36e9f35e2e13fae8b739d"
+    },
+    {
+      "path": "fonts/kumo-engrave/CURVE_REFINEMENT.md",
+      "bytes": 6076,
+      "sha256": "9032ae4042cf6bf76839d9769a30bdfa9794aa13d1259c5518c91caa5d27dc44"
+    },
+    {
+      "path": "fonts/kumo-engrave/DELIVERY_VERIFICATION.md",
+      "bytes": 1966,
+      "sha256": "578ac1975fa217586c22bcde8af9199811223d8c7bdb28ca3a8cf40b23301cef"
+    },
+    {
+      "path": "fonts/kumo-engrave/DESIGN_BRIEF.md",
+      "bytes": 3122,
+      "sha256": "b2e2a91d8048b3eafa871ecabef3ac2825e0bb39b0354f65863996d5fc4dd83c"
+    },
+    {
+      "path": "fonts/kumo-engrave/ENCODING_VARIANTS.md",
+      "bytes": 6067,
+      "sha256": "82c570be0036126d745d616f934ade6c3e620c2c30915897eb74a695b2754f4b"
+    },
+    {
+      "path": "fonts/kumo-engrave/EX_REDRAW.md",
+      "bytes": 3801,
+      "sha256": "be6ea8a611da876b1398737c7491561640a21fd906a1532478a90a33bd01cec8"
+    },
+    {
+      "path": "fonts/kumo-engrave/FONT_DELIVERY.md",
+      "bytes": 7592,
+      "sha256": "eb2349eecf5f5e44a91e64ba2d1f5985b4981e97c769501fdd80dcf360276aec"
+    },
+    {
+      "path": "fonts/kumo-engrave/HIDDEN_FONT_COVERAGE.md",
+      "bytes": 5661,
+      "sha256": "66886b0d23bf9295f5da039d86750163aa25aada7f3728766b17243cbdbccfa3"
+    },
+    {
+      "path": "fonts/kumo-engrave/NATIVE_GLISSANDO.md",
+      "bytes": 3918,
+      "sha256": "b6de5e20c3f60280beb8d95eb7bcaf2b3f9f7b173693e23cc8ad4c42bd654504"
+    },
+    {
+      "path": "fonts/kumo-engrave/OBSERVED_SYMBOLS.md",
+      "bytes": 6805,
+      "sha256": "671b96a646ecdf17a0f6315933c3b35a1cc734ff4f3a46d62e1a40d49d7b8003"
+    },
+    {
+      "path": "fonts/kumo-engrave/PATH_ROLE_COVERAGE.md",
+      "bytes": 5814,
+      "sha256": "afbc83f28c854e3fcee8ca8d96baad056a7ba978cadf3bdd263d925ee8d4d810"
+    },
+    {
+      "path": "fonts/kumo-engrave/PDF_REFERENCE_STUDY.md",
+      "bytes": 3907,
+      "sha256": "295bb2b92bb42769e9a99942517763ed3f9ce36dd1c4031bf720b814f944f513"
+    },
+    {
+      "path": "fonts/kumo-engrave/PER_PDF_KEY_COVERAGE.md",
+      "bytes": 7483,
+      "sha256": "14a58f8c84c136807db94d1b251d4348f7427a9476d8135f7a41113c52eb564b"
+    },
+    {
+      "path": "fonts/kumo-engrave/README.md",
+      "bytes": 18237,
+      "sha256": "593d9395ae5e4273e0e5c1c4c897cecd2d5f625e6e54dfa8b30d9a7c035f2e50"
+    },
+    {
+      "path": "fonts/kumo-engrave/REMAINING_CURVES.md",
+      "bytes": 4393,
+      "sha256": "9be319d1be90be2ca2020f69324b49620535589dcca7fd87477a0bb7c8a5ea47"
+    },
+    {
+      "path": "fonts/kumo-engrave/SOURCE_CHARACTER_INVENTORY.md",
+      "bytes": 6975,
+      "sha256": "b5fd839a62bd6463ff7ef03da1948b949b0f11c635d2045039bfa83b69784c55"
+    },
+    {
+      "path": "fonts/kumo-engrave/TEXT_EXTRAS.md",
+      "bytes": 2915,
+      "sha256": "d3a4ecd39e3faccdcc7ebceb5a3da778277b9ac511e9fb37287f2d30c9139b4a"
+    },
+    {
+      "path": "fonts/kumo-engrave/TEXT_SIZING.md",
+      "bytes": 6133,
+      "sha256": "f202313d0776c954bf44a13bd35ef9dbbfd296b2e73d7218471b65a1ad280a39"
+    },
+    {
+      "path": "fonts/kumo-engrave/VECTOR_STUDY.md",
+      "bytes": 5821,
+      "sha256": "a9b895fc5f21572c8bc31cf90980b56b76a2e7549ab08ab6057e44fc03acb024"
+    },
+    {
+      "path": "fonts/kumo-engrave/VERIFICATION.md",
+      "bytes": 10269,
+      "sha256": "25834e9ab589dcc47c1c768b601d6fbf1af2f93072e0193b059ca4ba88f3d8f3"
+    },
+    {
+      "path": "fonts/kumo-engrave/WAVE_STUDY.md",
+      "bytes": 4302,
+      "sha256": "6cd4b6a6e519321cb5012417ac7e80a513ef9119e5af17ef9f812066be669d62"
+    },
+    {
+      "path": "skills/piano-engraving/SKILL.md",
+      "bytes": 10670,
+      "sha256": "d6bfeb453e7afd6acad882401605532f7fd1172be6453cfdd830e15a08e0fb60"
+    },
+    {
+      "path": "skills/piano-engraving/agents/openai.yaml",
+      "bytes": 321,
+      "sha256": "8df86c0a5767aab008e41e5ee675e88b26bf3eb7a6f142a2e9f615d03c64a3e9"
+    },
+    {
+      "path": "skills/piano-engraving/references/case-routing.md",
+      "bytes": 10680,
+      "sha256": "1ffb2224811a53142e5295e4a6309fdd1158e0b60d275a9ad10b467bd554d412"
+    },
+    {
+      "path": "skills/piano-engraving/references/judgment-details.md",
+      "bytes": 99738,
+      "sha256": "def1327569b9c30f2f4f905c6c10d4e3a430e61c8f7eba5b18d0fb021209ff88"
+    },
+    {
+      "path": "skills/piano-engraving/references/native-review.md",
+      "bytes": 36158,
+      "sha256": "5dac39dfbc0047053737397cf33f23e75fef5a1396a9988f3e8dcc6de1821f3b"
+    },
+    {
+      "path": "skills/piano-engraving/scripts/engraving_library.py",
+      "bytes": 55833,
+      "sha256": "95b11b765d60581b29b36bbda7b1030d0cb6da85f38cb27cb9c303da11351033"
+    },
+    {
+      "path": "tests/test_engraving_library.py",
+      "bytes": 4128,
+      "sha256": "4079574cb7ead524d4a27d09e020be4f26f037834640429319d648c8b0c51123"
+    },
+    {
+      "path": "tools/engraving/build_catalog.py",
+      "bytes": 4720,
+      "sha256": "cfba4ece443893300922897fa18c1ccd827db146cc60f68e5fa940cabf0bbb53"
+    },
+    {
+      "path": "tools/engraving/cache_inventory.py",
+      "bytes": 3559,
+      "sha256": "5e6ecca71b44cd6fb414cd09ed0182c7cf2de9bf99bee00f57522853afe1cd06"
+    },
+    {
+      "path": "tools/engraving/corpus.py",
+      "bytes": 7823,
+      "sha256": "6a7c09f0c316bbfdd182948279d5fb16e90086599318d964e12ff067dc774bd4"
+    },
+    {
+      "path": "tools/engraving/install_skill.ps1",
+      "bytes": 1973,
+      "sha256": "30474920ad70750e45aa6e38612abcdb52bd8995a674c4322272eba5a498a923"
+    },
+    {
+      "path": "tools/engraving/progress.py",
+      "bytes": 7332,
+      "sha256": "9270418a4b97799f0a6ce5e1edc488fa51eb0926da7bb043dee7a3194b376b0a"
+    },
+    {
+      "path": "tools/engraving/verify_corpus.py",
+      "bytes": 6871,
+      "sha256": "ac6f230afeb5083afb759a224186250ed0090552f6090973d0fedfbc0cf15833"
+    }
+  ],
+  "public_assets": {
+    "count": 299,
+    "bytes": 7756481,
+    "types": {
+      ".mscx": 181,
+      ".png": 109,
+      ".musicxml": 8,
+      ".mss": 1
+    },
+    "license_scope": "Existing project license and individual fixture README declarations; no embedded publisher/book/font/runtime assets added."
+  },
+  "bundle_entrypoint": {
+    "path": "START_HERE.md",
+    "sha256": "0a0ca6f35e03bd131e104e747f052504a70c41dd35aea233039b447e99b64f83"
+  },
+  "nonbundled_cross_references": [
+    {
+      "from": "docs/engraving/EXPANDED_RESEARCH.md",
+      "target": "fonts/kumo-engrave/verify_bracket_branch.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/CATALOG_COVERAGE.md",
+      "target": "fonts/kumo-engrave/audit_catalog_coverage.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/CATALOG_COVERAGE.md",
+      "target": "fonts/kumo-engrave/source/reviewed_catalog_roles.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/COVERAGE_RECONCILIATION.md",
+      "target": "fonts/kumo-engrave/source/reviewed_role_decisions.json",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/ENCODING_VARIANTS.md",
+      "target": "fonts/kumo-engrave/audit_catalog_coverage.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/ENCODING_VARIANTS.md",
+      "target": "fonts/kumo-engrave/audit_catalog_empty_occurrences.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/ENCODING_VARIANTS.md",
+      "target": "fonts/kumo-engrave/audit_encoding_variant_coverage.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/ENCODING_VARIANTS.md",
+      "target": "fonts/kumo-engrave/catalog_per_pdf_variants.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/ENCODING_VARIANTS.md",
+      "target": "fonts/kumo-engrave/source/reviewed_encoding_variants.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/FONT_DELIVERY.md",
+      "target": "fonts/kumo-engrave/source/reviewed_font_resources.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/HIDDEN_FONT_COVERAGE.md",
+      "target": "fonts/kumo-engrave/audit_hidden_font_coverage.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/HIDDEN_FONT_COVERAGE.md",
+      "target": "fonts/kumo-engrave/audit_hidden_object_visibility.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/HIDDEN_FONT_COVERAGE.md",
+      "target": "fonts/kumo-engrave/catalog_hidden_font_objects.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/HIDDEN_FONT_COVERAGE.md",
+      "target": "fonts/kumo-engrave/source/reviewed_catalog_roles.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/PATH_ROLE_COVERAGE.md",
+      "target": "fonts/kumo-engrave/audit_path_fill_cancellation.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/PATH_ROLE_COVERAGE.md",
+      "target": "fonts/kumo-engrave/audit_path_role_coverage.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/PATH_ROLE_COVERAGE.md",
+      "target": "fonts/kumo-engrave/source/reviewed_path_roles.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/PER_PDF_KEY_COVERAGE.md",
+      "target": "fonts/kumo-engrave/source/reviewed_corpus_keys.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/SOURCE_CHARACTER_INVENTORY.md",
+      "target": "fonts/kumo-engrave/source/reviewed_inventory_delta.py",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    },
+    {
+      "from": "fonts/kumo-engrave/TEXT_SIZING.md",
+      "target": "fonts/kumo-engrave/source/text_calibration.json",
+      "reason": "outside public engraving/text scope; no private music/media or unrelated development assets"
+    }
+  ],
+  "bounds": {
+    "external_resources_complete": [
+      16,
+      25
+    ],
+    "external_deferred": 9,
+    "no_new_reading_coverage": true,
+    "no_blind_accuracy_claim": true,
+    "user_adoption_not_assumed": true,
+    "no_software_adaptation": true,
+    "originals_read_only": true,
+    "no_files_deleted": true,
+    "private_research_cache_new_media_bytes": 0
+  }
+}

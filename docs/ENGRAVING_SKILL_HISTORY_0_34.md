@@ -1,0 +1,121 @@
+# 钢琴净书skill：使用、关联与更新
+
+当前可用研究版为**0.34.0／engraving-v0.34.0**，见[发布证据](engraving/release_0_34_0_evidence.json)与[进度](engraving/STATUS_AND_ROADMAP.md)。本版补实际谱线预算和完整原生整页案例；20个检索入口保持，知识库／skill更新没有新增MCP接口。下文安装和读取方式继续适用。
+
+工作分支补[Avid谱外数字](engraving/AVID_OUTSIDE_NUMERAL.md)：数字、奏法和已有下沿联合放置，及按行分配上下表净距的真实例。layout／notation等六入口可查；原生局部候选可比较，完整页输入4/18，固定发布仍0.33。
+
+工作分支新增[Avid弧线／数字后继](engraving/AVID_CURVE_SCOPE_STUDY.md)：普通控制柄能处理本例梁端S形；白底数字需核遮弧，Gould p194更支持谱外位置。六个入口可查，局部候选已可比较，整页迁移仍0/1；固定发布保持0.33。
+
+工作分支新增[Avid实际片段](engraving/AVID_NATIVE_CONTEXT.md)，可从curves、markings、piano、layout、overview、baseline六个入口检索：跨表弧两端依附与限定词原生重载。固定发布仍为0.33；知识补充不要求重配MCP。
+
+2026-11-03发布**0.33.0研究版／engraving-v0.33.0**：[Sugar复核](engraving/SUGAR_HANDOVER_REVIEW.md)与[段首／末行对照](engraving/SECTION_ENTRY_CASTING_STUDY.md)可查，新增八份原创CC0资产。例：`--topic layout --query "末行 恢复点 伸展"`。关联安装更新项目即可，复制安装同步同版skill与库；MCP配置不变。
+
+2026-11-02发布**0.32.0研究版／engraving-v0.32.0**：[两预览](engraving/PURRVOICE_PREVIEW_READING.md)及[分层续核](engraving/LAYERED_COMPOUND_READING.md)固定，含共头止声、Again低音与p307旧引文更正。关联安装更新项目即可，复制安装同步同版skill与库；MCP配置无需重配。
+
+2026-11-02工作分支在固定0.31之后补[Purrvoice两预览](engraving/PURRVOICE_PREVIEW_READING.md)：两图2/2、四判断4/4，八相关专题可直接检索。更新项目checkout即可读取本批；固定engraving-v0.31.0标签不含此补充，MCP配置不变。
+
+此前0.31固定试用为**[0.31.0／engraving-v0.31.0](ENGRAVING_RELEASES.md)**，收录此前工作分支的显示组合、实谱3/3与Kokecola4/4更正。可查`--topic spacing --query "Kokecola 降号"`；两降号仍错列，间距图还改变休止。关联安装更新项目即可，复制安装同步同版skill与库，无需重配MCP。下文0.30及其补充按历史范围保留。
+
+当前工作分支新增[三类实谱判断](engraving/REAL_SCORE_READING_TRADEOFFS.md)，固定0.30标签不含此补充。可查`--topic rhythm --query "三音 显拍"`、`--topic layout --query "跨页 终点"`；3/3任务已核，资料16/25余9。使用工作分支时记录实际Git提交；关联安装更新项目即可，复制安装同步skill与库，MCP无需重配。
+
+工作分支在固定0.30之后补[跨线显示组合](engraving/CROSSBAR_DISPLAY_COMPOSITION.md)，可查`--topic notation --query "显示组合 gate"`。固定单行可比较，换行／交换仍有边界；关联安装读取项目更新，复制安装同步当前skill与库并记录Git提交。固定0.30标签保留原范围，MCP无需重配。
+
+当前研究版为**[0.30.0／engraving-v0.30.0](ENGRAVING_RELEASES.md)**：跨线连音的真实时点、显拍与长小节结构代价可直接查；三情境3/3、换行1/1、最终重载1/1，五份新原创资产可用。真两小节完整显示仍0/1，资料16/25余9。用`--topic notation --query "跨线 拍号"`定位；关联安装更新项目即可，复制安装同步同版skill与库，无需重配MCP。
+
+此前研究版为**[0.29.0／engraving-v0.29.0](ENGRAVING_RELEASES.md)**：Aether入口、固定预算与完整系统的实际取舍可直接检索，m31音名和m29休止梁的更正已收录。入口2/2、四源预算4/4、完整上下文1/1；20入口和原33份原创资产保持，私有参考／重建不打包，资料16/25余9。使用`--topic spacing --query "入口 dim. 半格"`定位。关联安装更新项目即可，复制安装同步同版skill与库，无需重配MCP。
+
+此前研究版为**[0.28.0／engraving-v0.28.0](ENGRAVING_RELEASES.md)**：均头／均干、共同起音、独立快线、容量、实际字形与标记通道已有25个最终原生条件。20入口与33份新增原创资产可用；资料16/25余9，学习继续。关联安装更新项目即可；复制安装同步同版skill与库，无需重配MCP。
+
+此前研究版为**[0.27.0／engraving-v0.27.0](ENGRAVING_RELEASES.md)**：可查羽状梁／休止的条件、Local relayout共同起音反例、速度等式预告，以及R08／R09的角色判断。20入口、九份新增原创资产可用；资料16/25余9保持。关联安装更新项目即可，复制安装同步同版skill与库，MCP配置不变。
+
+此前研究版为**[0.26.0／engraving-v0.26.0](ENGRAVING_RELEASES.md)**：每拍复杂度与间距、R07全预览、R08／R09定位及R11可读范围见[续读](engraving/BALLADE_PREVIEW_CONTINUATION.md)。可查`--topic spacing --query "每拍 复杂度"`。20入口可用；关联安装更新项目即可，复制安装同步同版skill和库，MCP配置不变。
+
+0.25之后的补充（现收录0.26）包括[R09原目标预览对照](engraving/R09_PREVIEW_COMPARISON.md)，可查`--topic sources --query "R09 弱起 编号"`。更正旧编号／分行推断，固定0.25标签保留原快照；用当前工作树时一并记录实际提交。
+
+此前研究版为**[0.25.0／engraving-v0.25.0](ENGRAVING_RELEASES.md)**，固定[版本语境](engraving/BALLADE_EDITORIAL_CONTEXT.md)、[英文评论20/20页](engraving/BALLADE_PERFORMANCE_CONTEXT.md)、[长动态原生条件](engraving/LONG_DYNAMIC_TEXT_STUDY.md)及[合作谱预览](engraving/SHAMSHIR_PREVIEW_READING.md)。可查`--topic spacing --query "m18 接收"`或`--topic rhythm --query "组内 休止"`；20入口、三原创输入一图可用。更新关联项目即可读取新知识，复制安装需同步同版skill与库；MCP配置不变。
+
+上一固定版为**[0.24.0／engraving-v0.24.0](ENGRAVING_RELEASES.md)**。新增[完整组梁](engraving/TUPLET_REST_SCOPE_STUDY.md)与[m97实曲平衡迁移](engraving/M97_GROUP_BOUNDARY_TRANSFER.md)，可查`--topic beams --query "m97 最短干 平衡"`或`--topic cross-staff --query "首休止 完整 六连"`。当前候选可比较，作者渐强作用层与审美采用待答；资料16/25余9、20入口保持。关联安装更新项目，复制安装同步同版skill和库，无需重配MCP。
+
+此前0.23研究版包括换号、整行容量及作品／乐器条件的新案例。可查`--topic sources --query "收藏列表 作品ID 自动跳转"`或`--topic notation --query "弦号 弓法 乐器条件"`。修正R08旧链接，资料仍16/25余9；以下旧版介绍保留为使用历史。关联安装更新项目即可，复制安装同步同版skill和库，无需重配MCP。
+
+0.22已固定[连音范围／归属及m97实曲迁移](ENGRAVING_RELEASES.md)。可查`--topic notation --query "m97 首休止 加线"`或`--topic layout --query "端点 整页 间距"`；新候选的加线、显示分配与整页联动一并说明，用户选择尚待反馈。原谱／比较图留本机，使用方式沿用下文。
+
+最新工作分支已补[三层连音归属](engraving/TUPLET_OWNERSHIP_STUDY.md)：可用`--topic cross-staff --query "换表点 连音 加线"`查外置与近梁的实际取舍。三种上下文已核，后续[m97实曲迁移](engraving/M97_TUPLET_TRANSFER.md)已完成1/1并收录0.22；0.21保留此前快照。
+
+0.21之后的工作分支已补[跨表连音通道及旧候选修正](engraving/TUPLET_CHANNEL_STUDY.md)。可查`--topic notation --query "跨表 连音 穿干"`；m97仅伸长右端的采用倾向已撤回，须结合范围、连接及独立层继续判断。关联安装读取更新后的项目即可；固定0.21标签保留原研究快照，尚不含本补充。
+
+0.21纳入[梁坡与实曲应用](engraving/BEAM_WIDTH_TRANSFER.md)、[共梁范围](engraving/BEAM_SCOPE_TRANSFER.md)和[交换机理／换号回查](engraving/BEAM_EXCHANGE_CLEF_STUDY.md)。可查`--topic beams --query "声部归属 第一音 干向"`或`--topic clefs --query "E4 G4 换号"`。新案例在音乐起音保持时仍暴露图面、轨道和释放变化，先读实际验证范围；XML诊断输入用于复现，不能当通用转换补丁。关联／复制更新方式沿用下文，无新增MCP配置步骤。
+
+2026-11-01历史记录：当时发布的可用研究版为**[0.25.0／engraving-v0.25.0](ENGRAVING_RELEASES.md)**；工作目录可含之后的知识更新，引用时同时记录实际Git提交。学习未完也可直接试用，能力与已知限制随版记录。入口为[skills/piano-engraving/SKILL.md](../skills/piano-engraving/SKILL.md)，基础判断核查见[FOUNDATION_REVIEW](engraving/FOUNDATION_REVIEW.md)。它把当前PDF／工程的阅读问题与项目知识库连接，形成有依据的保留、建议或原生副本候选；没有新增MCP、MuseScore插件／本体接口，也不是一键全谱净书。
+
+## 按具体问题定位来源
+
+保留原专题清单，另可直接查相关段落：
+
+    python <skill目录>/scripts/engraving_library.py --topic notation --query "6:3 等值" --limit 3
+    python <skill目录>/scripts/engraving_library.py --topic piano --query "S.P. A八度" --limit 3
+
+返回匹配文件、标题、行号和至多700字符的原文节选；默认最多5份，可用1–20调整。不带查询时仍返回完整专题清单。查询在当前专题与共同入口内进行，支持中文关键词、英文和比例；关键词间可加空格。作者定义仍先读，词语排序不代表规范或审美正确性，命中后继续读相关上下文及原例。未命中时换词或回到专题列表，不补写未读内容。
+
+脚本使用Python标准库、按需读取项目Markdown，不建立索引或媒体缓存。已知五类问题的来源定位属于检索回归，未计新的净书迁移成绩；旧命令、20专题、比例全角形式、空结果、限制参数及输入只读均已测试。
+
+## 怎样使用
+
+将这个项目保留在可读位置。skill先读知识库入口与偏好，再按当前情境取判断指南、专题／案例；skill自身的详细提醒也由表格链接按问题读取，不默认整库加载。长书和教程只在需要具体依据时查。项目的教材、原谱及图片缓存没有打包进skill，不能在另一电脑冒称这些私有材料都已存在。
+
+可在支持技能选择的输入框选择“钢琴净书”；Codex CLI／IDE可显式写`$piano-engraving`。尚未安装发现入口时，也可以直接提供本项目`skills/piano-engraving/SKILL.md`的完整路径，要求读取并按其执行。例子：
+
+```text
+使用 $piano-engraving 只读分析这份钢琴PDF，找出最影响跟读和归属的地方。
+先解释为什么值得改，以及哪些排法应该保留；不要修改原件。
+```
+
+```text
+使用 $piano-engraving 比较这两个原生排版候选。
+不要只看是否等距，检查拍组、声部、标记层次和其它系统的连带效果。
+```
+
+分析不要求先启动MCP。需要生成原生候选时，使用本机确实可用的宿主／工具，先在副本完成音乐、记法和版面核查。打印／试奏未做时列明状态，不当作阅读分析的前置门槛。
+
+## 本地发现与维护方式
+
+OpenAI官方说明：本地技能从项目`.agents/skills`及用户`~/.agents/skills`等位置发现，支持符号链接技能目录。详见[官方Build skills](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)。以下只关联这个净书skill，不调用原项目MCP安装器或改动MCP配置。2026-10-24检查上述用户位置及旧`~/.codex/skills`同名位置均未发现安装；本次验证的是项目内入口可用，没有宣称当前App已发现此skill。
+
+在Windows上可把用户技能目录中的一个目录联接指向本项目skill，避免复制后维护两份。以下命令在同名目标已存在时停止，不删除或覆盖任何内容：
+
+```powershell
+$engravingRepo = 'E:\programming\funcodes\mcp-musescore'
+$engravingSource = Join-Path $engravingRepo 'skills\piano-engraving'
+$engravingRoot = Join-Path $HOME '.agents\skills'
+$engravingTarget = Join-Path $engravingRoot 'piano-engraving'
+if (-not (Test-Path -LiteralPath (Join-Path $engravingSource 'SKILL.md'))) {
+    throw 'Skill source missing; check the checkout path.'
+}
+if (Get-Item -LiteralPath $engravingTarget -Force -ErrorAction SilentlyContinue) {
+    throw 'Target already exists; inspect it before changing its installation.'
+}
+New-Item -ItemType Directory -Path $engravingRoot -Force | Out-Null
+New-Item -ItemType Junction -Path $engravingTarget -Target $engravingSource
+```
+
+也可在本机支持时使用`SymbolicLink`，或在其它系统按官方支持的符号链接关联同一文件夹。目录联接的文件访问和知识库定位可在项目隔离目录验证；本轮不把这种检查冒充已修改用户技能目录或在当前App中成功发现。本轮交付的是项目内skill及安装方法，没有自动执行上面的用户目录写入。
+
+若选择复制安装，保留整个skill文件夹；知识库仍以此项目的`docs/engraving`为准。定位器可显式指定仓库，不必复制整套教材：
+
+```text
+python <skill目录>/scripts/engraving_library.py --repo <mcp-musescore项目路径> --topic spacing
+```
+
+定位器只输出实际文件路径，不读取／修改乐谱、不启动软件或网络；只需Python 3.10+标准库。源位置的关联安装会解析真实目录；复制后可用`--repo`、已有`MCP_MUSESCORE_DIR`或在本项目中运行来定位。错误的显式位置会报错，避免悄悄读另一份库。
+
+## 以后更新需要重装吗
+
+关联安装时，`git pull`更新这个项目即可同时更新skill正文和知识库，通常不需重装；App未重新显示时按官方说明刷新／重启。仓库搬家时才需更新关联位置。复制安装则需同步改变过的skill文件；知识库路径仍指向更新后的项目。
+
+仅更新这些净书文档／skill，不需要重新注册或配置MCP。MCP代码、依赖、启动路径或宿主插件另有变更时，按那一组件的实际更新要求处理；技能安装与MCP连接是两件事。不要为了加载净书知识而重装软件环境。
+
+## 验证范围
+
+创建格式使用系统skill-creator校验；路径定位测试覆盖源码目录、复制目录、关联目录、显式／环境位置优先级、错误位置和专题引用。它们只证明技能包与定位器的结构／行为，不证明审美判断正确。实际任务使用与已知边界记录在[SKILL_REVIEW](engraving/SKILL_REVIEW.md)，机器可复查结果在[skill_validation.json](engraving/skill_validation.json)。
+
+后续根据真实乐谱判断和用户反馈更新对应专题，不通过复制整本资料、追加无条件规则或改一组默认数值声称知识已经掌握。软件自动净书适配留到以后单独开展。

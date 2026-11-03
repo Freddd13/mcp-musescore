@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "scope_revision": 1,
+  "scope_revision": 2,
   "as_of": "2026-11-03",
-  "goal_status": "active",
+  "goal_status": "trial_ready",
   "goal": "理解全部新官谱及已有资料的排版理由，形成可迁移判断、持续可用的知识库与skill；后续自动净书适配本阶段不做。",
   "counting_policy": "数量是阅读／核查覆盖，不是理解百分比。渲染、取得、文本索引、格式通过均不算学会；复读不重算首次覆盖。",
-  "scope_policy": "24首为固定的下一轮深化批次，不替代146份的全目录目标。其余122份仍须问题回查；未解问题继续研读。调整范围需记版本、原因与新增分母，不以删除难项完成任务。",
+  "scope_policy": "2026-11-03用户明确暂缓外部资料补齐，先收尾并发布1.0初版供试用；原25项资料及9项缺口保留，后续按实际需要迭代。自动净书开发待用户试用认可后启动。",
   "corpus": {
     "inventory": "corpus/inventory.json",
     "first_pass": "corpus/reviews.json",
@@ -2835,7 +2835,7 @@
   "resources": {
     "source_note": "RESOURCE_PLAN_MAPPING.md",
     "planned_items": 25,
-    "completion_definition": "完成该行明确的公开材料范围；YMD／ICS只核公开纲要／样本，不代表学过付费课程。未取得项保留，不以链接代替内容。",
+    "completion_definition": "完成该行明确的公开材料范围；YMD／ICS只核公开纲要／样本，不代表学过付费课程。未取得项保留，不以链接代替内容。 用户2026-11-03决定暂缓R07–R15，保留原分母和实际阅读状态，不作为1.0首版发布阻塞。",
     "items": [
       {
         "id": "R01",
@@ -2899,7 +2899,8 @@
           118
         ],
         "preview_continuation_note": "BALLADE_PREVIEW_CONTINUATION.md",
-        "preview_continuation_evidence": "ballade_preview_continuation_evidence.json"
+        "preview_continuation_evidence": "ballade_preview_continuation_evidence.json",
+        "execution_status": "deferred_by_user_2026_11_03"
       },
       {
         "id": "R08",
@@ -2919,7 +2920,8 @@
           82
         ],
         "preview_continuation_note": "POLONAISE_TECHNIQUE_READING.md",
-        "preview_continuation_evidence": "polonaise_technique_evidence.json"
+        "preview_continuation_evidence": "polonaise_technique_evidence.json",
+        "execution_status": "deferred_by_user_2026_11_03"
       },
       {
         "id": "R09",
@@ -2938,7 +2940,8 @@
           32
         ],
         "preview_continuation_note": "R09_OSSIA_READING.md",
-        "preview_continuation_evidence": "r09_ossia_evidence.json"
+        "preview_continuation_evidence": "r09_ossia_evidence.json",
+        "execution_status": "deferred_by_user_2026_11_03"
       },
       {
         "id": "R10",
@@ -2962,7 +2965,8 @@
             2
           ],
           "scope": "Other Purrvoice public previews, no Shinianqi intervention attribution."
-        }
+        },
+        "execution_status": "deferred_by_user_2026_11_03"
       },
       {
         "id": "R11",
@@ -2988,7 +2992,8 @@
         "two_part_public_preview_cells": [
           233,
           233
-        ]
+        ],
+        "execution_status": "deferred_by_user_2026_11_03"
       },
       {
         "id": "R12",
@@ -3007,7 +3012,8 @@
         },
         "reading_note": "PAGE_TUTORIAL_READING.md",
         "preview_cells_read": 117,
-        "preview_cells_available": 117
+        "preview_cells_available": 117,
+        "execution_status": "deferred_by_user_2026_11_03"
       },
       {
         "id": "R13",
@@ -3027,7 +3033,8 @@
           "evidence": "fanned_beams_reading_evidence.json",
           "note": "Thisturnanonymousofficialmetadata412;nobodyornewpreviewreceived.Stopunchangedpaths;nocoverageincrement."
         },
-        "remaining": "完整声音／连续步骤、罕见记号身份与对象依附、源工程及保存结果未核；源码范围核查不替代运行验证。"
+        "remaining": "完整声音／连续步骤、罕见记号身份与对象依附、源工程及保存结果未核；源码范围核查不替代运行验证。",
+        "execution_status": "deferred_by_user_2026_11_03"
       },
       {
         "id": "R14",
@@ -3039,7 +3046,8 @@
         "canonical_url": "https://www.bilibili.com/video/BV1F44y1L7u8/",
         "metadata_identity_verified": true,
         "latest_access_followup_evidence": "arpeggio_tutorial_reading_evidence.json",
-        "latest_access_note": "Anonymousofficialpreviewpathnowreadable:3parts188/188cells;notfullvideo/audio."
+        "latest_access_note": "Anonymousofficialpreviewpathnowreadable:3parts188/188cells;notfullvideo/audio.",
+        "execution_status": "deferred_by_user_2026_11_03"
       },
       {
         "id": "R15",
@@ -3049,7 +3057,8 @@
         "canonical_url": "https://www.bilibili.com/video/BV1uu411d7Fq/",
         "metadata_identity_verified": true,
         "latest_access_followup_evidence": "fanned_beams_reading_evidence.json",
-        "latest_access_note": "Thisturnanonymousofficialmetadata412;nobodyornewpreviewreceived.Stopunchangedpaths;nocoverageincrement."
+        "latest_access_note": "Thisturnanonymousofficialmetadata412;nobodyornewpreviewreceived.Stopunchangedpaths;nocoverageincrement.",
+        "execution_status": "deferred_by_user_2026_11_03"
       },
       {
         "id": "R16",
@@ -3279,14 +3288,14 @@
     }
   },
   "release": {
-    "version": "0.34.0",
-    "tag": "engraving-v0.34.0",
-    "stage": "usable-research",
+    "version": "1.0.0",
+    "tag": "engraving-v1.0.0",
+    "stage": "initial-trial",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "0.34固定发布保持；工作分支补R14三部分188格预览、含义及操作边界，固定资料16/25余9，无软件适配。",
-    "evidence": "release_0_34_0_evidence.json"
+    "working_branch_note": "1.0首版知识库／skill，用户试用；外部余9项暂缓。",
+    "evidence": "release_1_0_0_evidence.json"
   },
   "last_study_batch": {
     "new_deep_scores": 0,
@@ -3302,25 +3311,26 @@
     "new_skill_transfer_scenarios": 0,
     "new_native_candidate_scenarios": 0,
     "new_user_integrated_rounds": 0,
-    "new_source_media": 4,
+    "new_source_media": 0,
     "new_native_diagnostic_conditions": 0,
     "native_CLI_calls": 0,
-    "book_reread_pages": 3,
+    "book_reread_pages": 0,
     "official_score_reread_pages": 0,
-    "official_system_views_reused": 1,
+    "official_system_views_reused": 0,
     "date": "2026-11-03",
-    "scope": "R14三部分188/188预览、三问题3/3及12格复看；Gould三页和A089旧裁图复核。完整声音／操作未闭合。",
+    "scope": "按用户新范围收束首版：入口去历史噪声、30段条件按需读取、缺口分类、使用／安装与发布包核查。无新增阅读覆盖。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "ARPEGGIO_TUTORIAL_READING.md"
+      "V1_TRIAL.md",
+      "ITERATION_BACKLOG.md"
     ],
-    "review_evidence": "arpeggio_tutorial_reading_evidence.json",
+    "review_evidence": "release_1_0_0_evidence.json",
     "software_adaptation": false,
-    "new_public_preview_readings": 3,
+    "new_public_preview_readings": 0,
     "public_preview_rereads": 0,
-    "public_preview_cells_read": 188,
-    "focused_preview_rechecks": 12,
+    "public_preview_cells_read": 0,
+    "focused_preview_rechecks": 0,
     "failed_style_override_probes": 0
   },
   "latest_native_study": {
@@ -4377,7 +4387,8 @@
     "reference": "TUPLET_OWNERSHIP_STUDY.md",
     "planned_conditions": 3,
     "completed_conditions": 3,
-    "scope": "此前预定独立上方旋律、该层弧线／力度、紧行宽三个对照已完成；均固定增加低音持续以核真正内层。"
+    "scope": "此前预定独立上方旋律、该层弧线／力度、紧行宽三个对照已完成；均固定增加低音持续以核真正内层。",
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "next_real_score_migration": {
     "reference": "M97_TUPLET_TRANSFER.md",
@@ -4400,7 +4411,8 @@
         1
       ],
       "author_dynamic_scope": "pending; source voice is not evidence of author musical scope"
-    }
+    },
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "next_source_reading": {
     "reference": "STATUS_AND_ROADMAP.md",
@@ -4425,12 +4437,12 @@
       "scope": "复杂真实梁内换号的保留理由与替代代价；此前不可避免措辞过强，未证明精确位置唯一最优。"
     },
     "scope": "余9项R07–R15保持。R07/R08/R09预览118/118、82/82、32/32，R11两部分68/68＋165/165，R12预览117/117已看；完整讲解／连续细步骤、细小校勘及其它缺口继续保留，不重复无变化的失败入口。 R13预览现已89/89，仍partial。取舍建议未获用户确认，固定资料范围未改变。 R14三部分预览现188/188，仍partial；完整声音和连续步骤缺口保留。",
-    "pending_local_file_path_question": true,
+    "pending_local_file_path_question": false,
     "unchanged_access_path_retries_planned": 0,
     "latest_available_supplement": "ARPEGGIO_TUTORIAL_READING.md",
     "official_preview_path_confirmed_for_R09": true,
     "official_preview_path_confirmed_for_R07_R08": true,
-    "next_readable_operation_reference": "R15自定义文字／图片作为符号模板；已核589秒身份，尚未读画面。已有Avid整页指定比较已完成，不再延伸本轮微调。",
+    "next_readable_operation_reference": "无自动续读；R07–R15保留，按后续实际需要再补。",
     "next_R10_public_preview_search": {
       "planned_candidate_works": 2,
       "source_previews_located": 2,
@@ -4465,7 +4477,8 @@
       "evidence": "arpeggio_tutorial_reading_evidence.json",
       "status": "public_preview_scope_complete",
       "remaining": "full audio/continuous action and saved project"
-    }
+    },
+    "execution_status": "deferred_by_user_2026_11_03"
   },
   "next_layout_reading": {
     "reference": "CASTING_OFF_READING.md",
@@ -4488,7 +4501,8 @@
       }
     ],
     "scope": "计划两类条件阅读2/2闭合；同曲四行实际测量与七页规范复读，均保留参考排法。没有新增原生候选，精确引擎约束、印刷／实奏及个人采用未核。",
-    "evidence": "casting_off_evidence.json"
+    "evidence": "casting_off_evidence.json",
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "supplemental_reading_history": [
     {
@@ -5123,7 +5137,8 @@
       4
     ],
     "scope": "原创三层组界／力度通道已完成，宽／窄候选与1/1重载保持源staffMove和干向。已明确连续性代价及首休止自动反向复现。",
-    "next": "原创方法已回迁m97，完整比较候选1/1；保留作者作用层及审美采用问题，继续其它学习。"
+    "next": "原创方法已回迁m97，完整比较候选1/1；保留作者作用层及审美采用问题，继续其它学习。",
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "next_optical_boundary_batch": {
     "reference": "STEM_OPTICAL_SHAPES_MARKS.md",
@@ -5142,7 +5157,8 @@
       "不同字号／头型",
       "弧线／发夹／指法通道"
     ],
-    "remaining_items": []
+    "remaining_items": [],
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "next_aether_budget_comparison": {
     "reference": "AETHER_ENTRY_CLEARANCE.md",
@@ -5161,7 +5177,8 @@
     },
     "agent_preferred_candidate": "entry-fitted",
     "user_adoption_confirmed": false,
-    "next": "此组研究闭合；转新织体/可得余9项资料，真实使用反馈再回访，不反复制作同类微差图。"
+    "next": "此组研究闭合；转新织体/可得余9项资料，真实使用反馈再回访，不反复制作同类微差图。",
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "next_crossbar_reading_batch": {
     "completed": 3,
@@ -5203,7 +5220,8 @@
         1
       ],
       "next": "三类实谱判断3/3已核；本构型动态维护／交换缺口留待后续适配按需处理。"
-    }
+    },
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "next_real_score_judgment_batch": {
     "completed": 3,
@@ -5221,7 +5239,8 @@
       "A080 H权威连音比例与跨线接点",
       "A137 p5cresc跨页逻辑终点"
     ],
-    "next": "本批判断已闭合；继续不同织体的综合审谱和可得余9项，权威时值与作用范围到手再回访，不反复做孤立坐标微差。"
+    "next": "本批判断已闭合；继续不同织体的综合审谱和可得余9项，权威时值与作用范围到手再回访，不反复做孤立坐标微差。",
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "next_layered_compound_reading_batch": {
     "completed": 2,
@@ -5239,7 +5258,8 @@
       "Moon m6/m8慢线是否刻意异重音",
       "Gunjou精确指持／踏板与工程voice"
     ],
-    "next": "本批分析闭合；显拍原生比较仍待做。优先补可得余9项的完整讲解／操作，并在真实谱例中继续检验。"
+    "next": "本批分析闭合；显拍原生比较仍待做。优先补可得余9项的完整讲解／操作，并在真实谱例中继续检验。",
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "latest_whole_score_review": {
     "reference": "AVID_WHOLE_REVIEW.md",
@@ -5263,16 +5283,16 @@
     "scope": "整曲复审及H纸面容量／连续细分新计量；旧T06结论明确复用，不增加覆盖、独立迁移或原生候选。"
   },
   "next_split_bar_followup": {
-    "reference": "SPLIT_BAR_CONTINUATION_STUDY.md",
+    "reference": "AVID_WIDTH_BUDGET.md",
     "mechanism_conditions": [
       3,
       3
     ],
     "source_contexts": [
-      0,
+      1,
       1
     ],
-    "next": "谱外后继已闭合，本例优先；原六行18小节，输入4/18余14。先扩展并恢复片段外接延音，再比完整m65与续行的整页，原页仍0/1。",
+    "next": "指定整页比较已1/1，旧4/18与0/1是历史准备状态；本组不再继续试排。",
     "actual_local_reference": "AVID_OUTSIDE_NUMERAL.md",
     "actual_local_transcription_measures": [
       4,
@@ -5283,7 +5303,7 @@
       163
     ],
     "print_ready_local_candidate": [
-      0,
+      1,
       1
     ],
     "comparison_candidate": [
@@ -5295,9 +5315,10 @@
       1
     ],
     "source_page_input_measures": [
-      4,
+      18,
       18
-    ]
+    ],
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "next_avid_external_numeral": {
     "reference": "AVID_OUTSIDE_NUMERAL.md",
@@ -5307,7 +5328,8 @@
     "scope": "Joint10/trecordeplacementusesexistingE1lowerenvelope;localcomparisonclosed. Noenginechange.",
     "agent_preferred": "outside",
     "user_adopted": false,
-    "next": "结束数字同类微调，扩展原页缺少的14小节输入后，核完整页分行与上下表预算。"
+    "next": "谱外后继及指定整页比较均已闭合；等待实际使用，不继续同处微调。",
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
   },
   "next_avid_page_migration": {
     "reference": "AVID_WIDTH_BUDGET.md",
@@ -5346,6 +5368,26 @@
       1,
       1
     ],
-    "source_barline_span_matched": true
+    "source_barline_span_matched": true,
+    "execution_status": "historical_plan_closed_or_deferred_for_v1_trial"
+  },
+  "scope_changes": [
+    {
+      "revision": 2,
+      "date": "2026-11-03",
+      "authority": "user explicit instruction",
+      "decision": "defer external completion; publish initial knowledge/skill; iterate later; development after trial acceptance",
+      "original_resource_denominator": 25,
+      "completed_resources": 16,
+      "deferred_resources": 9,
+      "coverage_reclassified_as_complete": false
+    }
+  ],
+  "next_stage": {
+    "status": "user_trial",
+    "initial_release": "engraving-v1.0.0",
+    "external_reading": "deferred",
+    "software_development": "requires user trial acceptance and scope confirmation",
+    "reference": "ITERATION_BACKLOG.md"
   }
 }
