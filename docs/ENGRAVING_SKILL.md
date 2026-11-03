@@ -1,5 +1,7 @@
 # 钢琴净书skill：使用、关联与更新
 
+当前可用研究版为**0.34.0／engraving-v0.34.0**，见[发布证据](engraving/release_0_34_0_evidence.json)与[进度](engraving/STATUS_AND_ROADMAP.md)。本版补实际谱线预算和完整原生整页案例；20个检索入口保持，知识库／skill更新没有新增MCP接口。下文安装和读取方式继续适用。
+
 工作分支补[Avid谱外数字](engraving/AVID_OUTSIDE_NUMERAL.md)：数字、奏法和已有下沿联合放置，及按行分配上下表净距的真实例。layout／notation等六入口可查；原生局部候选可比较，完整页输入4/18，固定发布仍0.33。
 
 工作分支新增[Avid弧线／数字后继](engraving/AVID_CURVE_SCOPE_STUDY.md)：普通控制柄能处理本例梁端S形；白底数字需核遮弧，Gould p194更支持谱外位置。六个入口可查，局部候选已可比较，整页迁移仍0/1；固定发布保持0.33。

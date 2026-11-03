@@ -2,7 +2,7 @@
 name: piano-engraving
 description: "分析钢琴谱的净书、出版风格与阅读问题，结合本项目知识库解释排法、提出建议或原生副本候选。用于PDF或MuseScore排版审查；编曲、移调、演奏编辑和字体制作使用相应工作流。"
 metadata:
-  version: "0.33.0"
+  version: "0.34.0"
 ---
 
 # 钢琴净书
@@ -104,6 +104,8 @@ python <skill目录>/scripts/engraving_library.py --topic spacing --query "变�
 教程对照经`sources`／`spacing`查`KOKE_COLA_CAUSAL_REVIEW.md`：Kokecola两降号仍错列，缩列距不等于合列；间距图还改变休止高度。将作者明确操作、可见变化和本次解释分别记录，比较布局收益时核同一音乐及其它条件。
 
 复杂跨表片段先按音乐层次联合安排弧线、连音和奏法，分别检查端点依附、整组范围、交干与穿头／梁。连音数字优先全部或部分谱外，白底另核遮挡；保存后核完整限定词与实际力度。移动前量本行已有上下沿，再按材料分配谱间距，局部成立不证明整页成立。Avid三批实曲正反例经`curves`／`notation`／`layout`／`markings`定位，原生检查见[候选参考](references/native-review.md)。
+
+定版面预算先量实际谱线起止，分清括号／缩进及片段首末附加元素；最小占位与撑满行分验。经`layout`／`baseline`查`AVID_WIDTH_BUDGET.md`，具体原生检查见候选参考。
 
 ## 需要候选时
 

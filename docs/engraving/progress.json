@@ -3279,14 +3279,14 @@
     }
   },
   "release": {
-    "version": "0.33.0",
-    "tag": "engraving-v0.33.0",
+    "version": "0.34.0",
+    "tag": "engraving-v0.34.0",
     "stage": "usable-research",
     "source_skill": "../../skills/piano-engraving/SKILL.md",
     "release_notes": "../ENGRAVING_RELEASES.md",
     "planned_topics": 20,
-    "working_branch_note": "固定0.33保留；工作分支Avid18/18目标及2/2上下文已核，容量3/3、目标仍两页八行，整页0/1；资料16/25余9，无适配。",
-    "evidence": "release_0_33_0_evidence.json"
+    "working_branch_note": "0.34固定Avid整页预算校准、六行续行候选与前序研究；原学习范围和资料16/25余9保持，无软件适配。",
+    "evidence": "release_0_34_0_evidence.json"
   },
   "last_study_batch": {
     "new_deep_scores": 0,
@@ -3300,78 +3300,76 @@
     "supplemental_element_reference_pages_read": 0,
     "new_complete_resource_scopes": 0,
     "new_skill_transfer_scenarios": 0,
-    "new_native_candidate_scenarios": 0,
+    "new_native_candidate_scenarios": 1,
     "new_user_integrated_rounds": 0,
     "new_source_media": 0,
-    "new_native_diagnostic_conditions": 3,
-    "native_CLI_calls": 9,
+    "new_native_diagnostic_conditions": 7,
+    "native_CLI_calls": 31,
     "book_reread_pages": 0,
-    "official_score_reread_pages": 2,
+    "official_score_reread_pages": 0,
     "official_system_views_reused": 0,
     "date": "2026-11-03",
-    "scope": "上下文2/2、84符头及两份768记录已核；容量三条件3/3，1.0与0.8导出坐标一致，目标仍两页八行，整页0/1。",
+    "scope": "实际谱线预算已校准，整页对照1/1、原生重载1/1：续行一页六行，完整另起行两页七行；两结构通道事件相同，MIDI拍号与控制轨结束不同。",
     "new_all_score_closeout_ids": [],
     "new_complete_resource_ids": [],
     "notes": [
-      "AVID_CAPACITY_BOUNDARIES.md"
+      "AVID_WIDTH_BUDGET.md"
     ],
-    "review_evidence": "avid_capacity_boundaries_evidence.json",
+    "review_evidence": "avid_width_budget_evidence.json",
     "software_adaptation": false,
     "new_public_preview_readings": 0,
     "public_preview_rereads": 0,
     "public_preview_cells_read": 0,
-    "focused_preview_rechecks": 0
+    "focused_preview_rechecks": 0,
+    "failed_style_override_probes": 1
   },
   "latest_native_study": {
-    "reference": "AVID_CAPACITY_BOUNDARIES.md",
-    "evidence": "avid_capacity_boundaries_evidence.json",
+    "reference": "AVID_WIDTH_BUDGET.md",
+    "evidence": "avid_width_budget_evidence.json",
     "source_page_input_measures": [
       18,
       18
-    ],
-    "source_heads": [
-      633,
-      633
     ],
     "boundary_context": [
       2,
       2
     ],
-    "context_heads": [
-      84,
-      84
+    "whole_page_comparison": [
+      1,
+      1
     ],
-    "capacity_conditions": [
-      3,
-      3
-    ],
-    "capacity_records_each": 679,
-    "capacity_readbacks": [
-      3,
-      3
-    ],
-    "context_records_each": 768,
-    "context_readbacks": [
-      2,
-      2
+    "six_row_structure": [
+      1,
+      1
     ],
     "structural_save_reload": [
       1,
       1
     ],
-    "native_CLI_calls": 9,
-    "complete_context_MIDI_equal": true,
-    "one_vs_low_export_geometry_equal": true,
-    "target_native_systems": 8,
-    "target_native_pages": 2,
-    "context_total_systems": 10,
-    "context_total_pages": 4,
-    "source_page_migration": [
-      0,
-      1
+    "target_heads": [
+      633,
+      633
     ],
+    "context_heads": [
+      84,
+      84
+    ],
+    "context_records_each": 768,
+    "native_CLI_calls": 31,
+    "raw_layout_readbacks": 8,
+    "candidate_readbacks": 5,
+    "final_target_pages": 1,
+    "final_target_systems": 6,
+    "intact_target_pages": 2,
+    "intact_target_systems": 7,
+    "ordered_channel_events_equal": 1207,
+    "split_full_MIDI_bytes_equal": true,
+    "MIDI_time_signature_equal_to_intact": false,
+    "S_note_intersections": 0,
+    "S_beam_intersections": 0,
+    "S_stem_crossings": 5,
+    "raw_fifth_row_reserve_mm": 0.04851,
     "user_adopted": false,
-    "new_public_assets": 0,
     "software_adaptation": false
   },
   "native_study_history": [
@@ -4095,6 +4093,58 @@
         0,
         2
       ],
+      "source_page_migration": [
+        0,
+        1
+      ],
+      "user_adopted": false,
+      "new_public_assets": 0,
+      "software_adaptation": false
+    },
+    {
+      "reference": "AVID_CAPACITY_BOUNDARIES.md",
+      "evidence": "avid_capacity_boundaries_evidence.json",
+      "source_page_input_measures": [
+        18,
+        18
+      ],
+      "source_heads": [
+        633,
+        633
+      ],
+      "boundary_context": [
+        2,
+        2
+      ],
+      "context_heads": [
+        84,
+        84
+      ],
+      "capacity_conditions": [
+        3,
+        3
+      ],
+      "capacity_records_each": 679,
+      "capacity_readbacks": [
+        3,
+        3
+      ],
+      "context_records_each": 768,
+      "context_readbacks": [
+        2,
+        2
+      ],
+      "structural_save_reload": [
+        1,
+        1
+      ],
+      "native_CLI_calls": 9,
+      "complete_context_MIDI_equal": true,
+      "one_vs_low_export_geometry_equal": true,
+      "target_native_systems": 8,
+      "target_native_pages": 2,
+      "context_total_systems": 10,
+      "context_total_pages": 4,
       "source_page_migration": [
         0,
         1
@@ -5213,7 +5263,7 @@
     "next": "结束数字同类微调，扩展原页缺少的14小节输入后，核完整页分行与上下表预算。"
   },
   "next_avid_page_migration": {
-    "reference": "AVID_CAPACITY_BOUNDARIES.md",
+    "reference": "AVID_WIDTH_BUDGET.md",
     "source_page": 4,
     "source_rows": 6,
     "source_logical_measures": [
@@ -5224,8 +5274,8 @@
     "completed_input_measures": 18,
     "remaining_input_measures": [],
     "planned_page_comparisons": 1,
-    "completed_page_comparisons": 0,
-    "scope": "18targetbars plus2verifiedcontextbars. Targetpageboundaryties restored. Explicitspacing1fits53-55buttargetstill8systems/2pages;0.8andminNoteDistance0.2sameexportgeometry. Establishactualsixrowcapacityandcompare65split/intact;noengineadaptation.",
+    "completed_page_comparisons": 1,
+    "scope": "18target+2context. Specifiedintact-newrow/split65comparisonclosed;fixedfonttightreserve0.049mm,notglobaloptimum. MIDI2/4/EOTdifference retained. ReturntoavailableR07-R15andskilluse;noengineadaptation.",
     "planned_boundary_context_measures": 2,
     "completed_boundary_context_measures": 2,
     "native_preparation_conditions": [
@@ -5239,6 +5289,16 @@
       3
     ],
     "context_total_systems": 10,
-    "context_total_pages": 4
+    "context_total_pages": 4,
+    "status": "complete_for_specified_two_casts",
+    "final_source_style_target_systems": 6,
+    "final_source_style_target_pages": 1,
+    "intact_target_systems": 7,
+    "intact_target_pages": 2,
+    "critical_geometry_save_reload": [
+      1,
+      1
+    ],
+    "source_barline_span_matched": true
   }
 }

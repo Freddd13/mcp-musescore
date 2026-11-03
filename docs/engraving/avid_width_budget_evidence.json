@@ -1,0 +1,856 @@
+{
+  "schema_version": 1,
+  "as_of_utc": "2026-11-03T00:51:04.237069+00:00",
+  "reference": "AVID_WIDTH_BUDGET.md",
+  "base_commit": "3abfe028e8df5c1c54201b7cd09888e06f571e47",
+  "source": {
+    "id": "A016",
+    "relative_path": "Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "source_path": "C:\\Users\\Fred\\OneDrive - yunzd\\cloudreve\\Sheets\\【2021-】新官谱\\Avid - 86 (Eighty-Six) - Ending Theme.pdf",
+    "sha256": "82c4e7129a23eded4cadffe838786469d7d386623b1821078e25edf10d9a933c",
+    "bytes": 161754,
+    "pages": 5,
+    "metadata": {
+      "/CreationDate": "D:20221010191207",
+      "/Creator": "PDFium",
+      "/Producer": "PDFium"
+    },
+    "page_sizes_pt": [
+      [
+        595.22,
+        842.0
+      ]
+    ],
+    "inventory_status": "readable"
+  },
+  "complete_private_verification": {
+    "path": "tmp/engraving/avid-minwidth-2026-11-03/verification.json",
+    "sha256": "9cbeb527cbfacdc20cf3f0e30b6b95928baba73f57c0401eae13866dee45548a"
+  },
+  "target_measures": [
+    18,
+    18
+  ],
+  "context_measures": [
+    2,
+    2
+  ],
+  "whole_page_comparison": [
+    1,
+    1
+  ],
+  "six_row_structure": [
+    1,
+    1
+  ],
+  "structural_save_reload": [
+    1,
+    1
+  ],
+  "music_records": {
+    "raw_18_each": 679,
+    "context_20_each": 768,
+    "target_heads": 633,
+    "context_heads": 84,
+    "all_context_heads": 717
+  },
+  "candidate_layouts": {
+    "intact": {
+      "target_systems": 7,
+      "target_pages": 2,
+      "total_pages": 4,
+      "target_rows": [
+        {
+          "page": 2,
+          "bars": [
+            "53",
+            "54",
+            "55"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "56",
+            "57",
+            "58"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "59",
+            "60",
+            "61"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "62",
+            "63",
+            "64"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "65",
+            "66"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "67"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 3,
+          "bars": [
+            "68",
+            "69",
+            "70"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        }
+      ]
+    },
+    "split": {
+      "target_systems": 6,
+      "target_pages": 1,
+      "total_pages": 3,
+      "target_rows": [
+        {
+          "page": 2,
+          "bars": [
+            "53",
+            "54",
+            "55"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "56",
+            "57",
+            "58"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "59",
+            "60",
+            "61"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "62",
+            "63",
+            "64",
+            "65"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "65b",
+            "66",
+            "67"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "68",
+            "69",
+            "70"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        }
+      ]
+    },
+    "working": {
+      "target_systems": 6,
+      "target_pages": 1,
+      "total_pages": 3,
+      "target_rows": [
+        {
+          "page": 2,
+          "bars": [
+            "53",
+            "54",
+            "55"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "56",
+            "57",
+            "58"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "59",
+            "60",
+            "61"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "62",
+            "63",
+            "64",
+            "65"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "65b",
+            "66",
+            "67"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "68",
+            "69",
+            "70"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        }
+      ]
+    },
+    "reloaded": {
+      "target_systems": 6,
+      "target_pages": 1,
+      "total_pages": 3,
+      "target_rows": [
+        {
+          "page": 2,
+          "bars": [
+            "53",
+            "54",
+            "55"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "56",
+            "57",
+            "58"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "59",
+            "60",
+            "61"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "62",
+            "63",
+            "64",
+            "65"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "65b",
+            "66",
+            "67"
+          ],
+          "body_width_mm": 184.39074,
+          "left_reserve_mm": 2.05458
+        },
+        {
+          "page": 2,
+          "bars": [
+            "68",
+            "69",
+            "70"
+          ],
+          "body_width_mm": 184.39224,
+          "left_reserve_mm": 2.05458
+        }
+      ]
+    }
+  },
+  "calibration": {
+    "source_visible_left_mm": 12.78255,
+    "source_barline_span_mm": 184.39129999999997,
+    "measured_native_reserve_tenths": 13.71,
+    "measured_native_reserve_mm": 2.0545806,
+    "page_printable_mm": 186.44588059999998,
+    "page_left_mm": 10.727969400000001,
+    "first_indent_disabled": true,
+    "target_measures": [
+      18,
+      18
+    ],
+    "context_measures": [
+      2,
+      2
+    ],
+    "split_physical_measures": 21,
+    "split_logical_input_measures": 20,
+    "fonts_unchanged": true,
+    "music_unchanged_in_recipe": true,
+    "relinked_spanners": true,
+    "MIDI_time_signature_equivalence": false,
+    "candidate_adopted": false
+  },
+  "actual_staffline_left_mm": 12.78283222222225,
+  "actual_staffline_width_mm": 184.3910177777782,
+  "midi": {
+    "intact": {
+      "bytes": 3931,
+      "sha256": "5a1b6f40014cc5659d146aa2ce494284cd63ebfe8f4e6019b2b383785f035d72",
+      "note_ons": 557,
+      "ppq": 480,
+      "channel_events": 1207,
+      "channel_hash": "34fab054feb3667638d38739aecb01de3797cfe583ffa1195b8ebc0a4a5bd510",
+      "time_signatures": [
+        {
+          "tick": 0,
+          "bytes": "04021808"
+        }
+      ]
+    },
+    "split": {
+      "bytes": 3948,
+      "sha256": "dabc3e5ff5617cce82b92bd16e36aa8bb3a4a3e01942ad5a94b60eef310c8fe6",
+      "note_ons": 557,
+      "ppq": 480,
+      "channel_events": 1207,
+      "channel_hash": "34fab054feb3667638d38739aecb01de3797cfe583ffa1195b8ebc0a4a5bd510",
+      "time_signatures": [
+        {
+          "tick": 0,
+          "bytes": "04021808"
+        },
+        {
+          "tick": 24960,
+          "bytes": "02021808"
+        },
+        {
+          "tick": 26880,
+          "bytes": "04021808"
+        }
+      ]
+    },
+    "working": {
+      "bytes": 3948,
+      "sha256": "dabc3e5ff5617cce82b92bd16e36aa8bb3a4a3e01942ad5a94b60eef310c8fe6",
+      "note_ons": 557,
+      "ppq": 480,
+      "channel_events": 1207,
+      "channel_hash": "34fab054feb3667638d38739aecb01de3797cfe583ffa1195b8ebc0a4a5bd510",
+      "time_signatures": [
+        {
+          "tick": 0,
+          "bytes": "04021808"
+        },
+        {
+          "tick": 24960,
+          "bytes": "02021808"
+        },
+        {
+          "tick": 26880,
+          "bytes": "04021808"
+        }
+      ]
+    },
+    "reloaded": {
+      "bytes": 3948,
+      "sha256": "dabc3e5ff5617cce82b92bd16e36aa8bb3a4a3e01942ad5a94b60eef310c8fe6",
+      "note_ons": 557,
+      "ppq": 480,
+      "channel_events": 1207,
+      "channel_hash": "34fab054feb3667638d38739aecb01de3797cfe583ffa1195b8ebc0a4a5bd510",
+      "time_signatures": [
+        {
+          "tick": 0,
+          "bytes": "04021808"
+        },
+        {
+          "tick": 24960,
+          "bytes": "02021808"
+        },
+        {
+          "tick": 26880,
+          "bytes": "04021808"
+        }
+      ]
+    }
+  },
+  "intact_vs_split_ordered_channel_events_equal": true,
+  "MIDI_metadata_difference": {
+    "only_intact": [
+      [
+        0,
+        25921,
+        47,
+        ""
+      ]
+    ],
+    "only_split": [
+      [
+        0,
+        24960,
+        88,
+        "02021808"
+      ],
+      [
+        0,
+        26880,
+        88,
+        "04021808"
+      ],
+      [
+        0,
+        26881,
+        47,
+        ""
+      ]
+    ]
+  },
+  "critical_slur_reload_max_delta_svg": 0.0,
+  "slur_geometry": {
+    "slur_bbox_svg": [
+      410.991,
+      2895.09,
+      1057.83,
+      3047.23
+    ],
+    "sample_scale": 4,
+    "curve_samples_per_cubic": 256,
+    "white_frames": [],
+    "note_overlap_pixels": 0,
+    "beam_overlap_pixels": 0,
+    "intersecting_stems": 5
+  },
+  "native_calls": {
+    "minwidth": 8,
+    "candidate": 23
+  },
+  "runtime_files_verified": 1936,
+  "source_unchanged": true,
+  "context_subtrees": {
+    "same65_67": [
+      {
+        "staff": "1",
+        "bar": 65,
+        "equal": true
+      },
+      {
+        "staff": "1",
+        "bar": 66,
+        "equal": true
+      },
+      {
+        "staff": "1",
+        "bar": 67,
+        "equal": true
+      },
+      {
+        "staff": "2",
+        "bar": 65,
+        "equal": true
+      },
+      {
+        "staff": "2",
+        "bar": 66,
+        "equal": true
+      },
+      {
+        "staff": "2",
+        "bar": 67,
+        "equal": true
+      }
+    ],
+    "all_equal": true,
+    "style_override_width_effective": false,
+    "observed_page_width_mm": 210.0003166,
+    "scope": "Raw65-67width uses18barwideprobe; exactsixmeasureXMLsubtrees match20barcontextinput. Style-S wideningprobe didnotapply desiredpagewidth andnotcountedaswidecondition."
+  },
+  "native_style_override_probe": "Didnotapplywidepage;notcountedassuccessfulwideprobe.",
+  "visual_review_scope": "NativeA targetonepage120dpi andB targettwopages72dpi reviewed forcasting/context;not a cross-DPIglyphqualitycomparison. Originalreferencegeometry usespriorreadPDF.",
+  "private_artifacts": {
+    "tmp/engraving/avid-minwidth-2026-11-03/build_calibrated.py": {
+      "bytes": 5483,
+      "sha256": "cb8f368bd9c9e411dc94642452a23c9679b791083922a2adb411b3676354cf67"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/calibrated-intact.mscx": {
+      "bytes": 123200,
+      "sha256": "6e307e4550a2a2579e596916649bd918eae205df222623107601870facb2c4da"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/calibrated-split.mscx": {
+      "bytes": 123569,
+      "sha256": "3a5c9529b252a92022e0ab80f643d610b0c24a2a5993762eba286f01dc51e681"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/calibration.json": {
+      "bytes": 612,
+      "sha256": "75bf04b45c2d2fa7cbd676ad5fcfb133d59a58a19a7014d754eb74e63936ea36"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/constraint_probe.json": {
+      "bytes": 6013,
+      "sha256": "54fe07f7d33212b5caef9c12740792e42e776aed7b82bdbf87dbcb6c79dc2bc8"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/context_subtree_check.json": {
+      "bytes": 729,
+      "sha256": "eb11bde33929ad4599c845e556c108ff31b6d3adfd876352f433939bad9360c3"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/exports/calibrated-intact.musicxml": {
+      "bytes": 315375,
+      "sha256": "7a64c17d756448741e3ddf3197d08afd67203470a0d3136ca11df98dbb77185c"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/exports/calibrated-split.musicxml": {
+      "bytes": 315503,
+      "sha256": "3d5cd5e6a224f6f33cd828f653998f85af8dbb8ae9d9593c02a6f0fc84b73eb7"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/exports/context-raw-wide.musicxml": {
+      "bytes": 315336,
+      "sha256": "dfd64f240a4b03c213413856ff7bb75b1fff134815c2b4cf2ae7ab125386e45b"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/exports/raw-narrow.musicxml": {
+      "bytes": 279746,
+      "sha256": "704386163d11e5273e41cb1a12ab8c31336486809a856fab55e740aaa2eb289a"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/exports/raw-wide.musicxml": {
+      "bytes": 278880,
+      "sha256": "cb090eb4f2c6c252e54683d05cbab186cdd30d8bfc62e225a293846a6262c478"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/exports/split-ledger-short.musicxml": {
+      "bytes": 315037,
+      "sha256": "b402ccb3fe316e9241cf031cd5ca047ebf24bd319f542ab58082aed08f9e55b7"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/exports/split-tie-half.musicxml": {
+      "bytes": 315039,
+      "sha256": "6829fc6e76f601ca336eb2e826da3121e8893fd18ab0307141311150696f0952"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/exports/split-wide.musicxml": {
+      "bytes": 315042,
+      "sha256": "d5c1cdc7bef493620f71c2d9db127cb1a2f53027804c2a5d13fbf235fa2312fd"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/native.py": {
+      "bytes": 1310,
+      "sha256": "d15673d2d65748926359430bffffe7491d0e28f92fe604769a41f17b6986520a"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/native_calls.json": {
+      "bytes": 4656,
+      "sha256": "f4e98c848902b0d055b8dae058b4a226c5d102defa30b85f2c178c9d6a114786"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/preparation.json": {
+      "bytes": 836,
+      "sha256": "bbc3c0add3bc7fafed518abd5e37e2a8e26d47977a91abc9dd21e45aaf48bbc4"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/publish_knowledge.py": {
+      "bytes": 12042,
+      "sha256": "fb3db7eb64c9170480031f4adc83f6afa18a3e726182ce9a1ee9f77f05e1f1d5"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/raw_widths.json": {
+      "bytes": 3442,
+      "sha256": "ac8a4015861ff70afe376297c974759c066318e1d724837a7fa7f9f55fe6aca6"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/scope.json": {
+      "bytes": 3232,
+      "sha256": "70e31b8f33a7716d9731ddf7e2422a96c287ce045e0f112611d3d2c93e160aa6"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/split-ledger-short.mscx": {
+      "bytes": 123621,
+      "sha256": "c2ea3d2d70e086b71ab5464711781c26f5e7f09c41b174b1999006991437ce1f"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/split-tie-half.mscx": {
+      "bytes": 123612,
+      "sha256": "a317e21a89b4ea55922588d8248fd376fe62344942ac404d62a1f786737f0d43"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/split-wide.mscx": {
+      "bytes": 123580,
+      "sha256": "95a2ad9797e0d1245630963ffda11da49084f56a58f11853e29de72fb44ac33d"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/verification.json": {
+      "bytes": 34285,
+      "sha256": "9cbeb527cbfacdc20cf3f0e30b6b95928baba73f57c0401eae13866dee45548a"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/verify_study.py": {
+      "bytes": 8883,
+      "sha256": "50d80d0aa9b4d8c8ce717db6f9480640bac6b0463b28e36b7408b278fd150217"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/wide-style.mss": {
+      "bytes": 191,
+      "sha256": "94dbdd50e3730d040913f41a589aa05ef5a0e5165294049d95ae9fc1a1adaa40"
+    },
+    "tmp/engraving/avid-minwidth-2026-11-03/wide.mscx": {
+      "bytes": 109556,
+      "sha256": "4039fd9e3260f2a790a788936302c1c2b1716dfedddbd377c0b43535648457a5"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/critical_before_reload.json": {
+      "bytes": 5736,
+      "sha256": "327936e0d76b390ea9d565ff49745ef4c224baf4c2ed229e6117b8d1e0b69fa4"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/axis-1.svg": {
+      "bytes": 35969,
+      "sha256": "198077b6d39f86c652e4c5a9489754cc5c26dd24af2bfafd26bf06f435760b14"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/axis-2.svg": {
+      "bytes": 496311,
+      "sha256": "15d5f84bf02c89f017509835907d0255442d8289a206a9cea9b27d61b3dc7b43"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/axis-3.svg": {
+      "bytes": 42092,
+      "sha256": "1a8ad539562de9c3f8624a60237188e02ad9b27efca349a6345d9904b41a0725"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/endpoints-1.svg": {
+      "bytes": 35959,
+      "sha256": "2588ccc262a9ebe56a32cae899b93d1b17ba29205c9e73b3db97138c912cca55"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/endpoints-2.svg": {
+      "bytes": 496310,
+      "sha256": "9f794c7f18b70abb73276ecfd54c0d7583134efad2087e25d19539f03daac896"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/endpoints-3.svg": {
+      "bytes": 42087,
+      "sha256": "35dab7ea6fddea71afc7b2933e5c2b98c5fff1f1057d3b0df32262d785d11ff8"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/fitted-1.png": {
+      "bytes": 20498,
+      "sha256": "b7d53b4e538995f89eec41822de3d03916b2e02e48ff3c06806304c5e1bce4c5"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/fitted-1.svg": {
+      "bytes": 35959,
+      "sha256": "2588ccc262a9ebe56a32cae899b93d1b17ba29205c9e73b3db97138c912cca55"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/fitted-2.png": {
+      "bytes": 169349,
+      "sha256": "abe87bade9894747c424c81c73431f487a5de5f70f4b3471b9a7e9928eab106d"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/fitted-2.svg": {
+      "bytes": 496307,
+      "sha256": "f334cce3606782a17930fb19a9233ca86f03491955fe90c4204f0b255bb6f8b2"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/fitted-3.png": {
+      "bytes": 22936,
+      "sha256": "fb6b3dbde7ed88c542f3ed9997a231e969c98334ba6767a82af1a7f14be2c4d5"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/fitted-3.svg": {
+      "bytes": 42087,
+      "sha256": "35dab7ea6fddea71afc7b2933e5c2b98c5fff1f1057d3b0df32262d785d11ff8"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/intact-1.png": {
+      "bytes": 11128,
+      "sha256": "879ce5141f88e8cf0ffe1967df0c76e8e15ab5a4316c183c1e75b51a7ec67bd1"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/intact-2.png": {
+      "bytes": 90354,
+      "sha256": "c4bbec95916a11297ce7d2b2958570f8f7993ff56a7bd94e3fcb03dc13ab9323"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/intact-3.png": {
+      "bytes": 24035,
+      "sha256": "a31d386001b34364b59bbded855462e925fe900f79242885ac535a068bcda4d0"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/intact-4.png": {
+      "bytes": 13068,
+      "sha256": "aa571054b8c363b980d93e20fed6f1620c93f6b4f411cec3c37441d8f2482888"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/intact.mid": {
+      "bytes": 3931,
+      "sha256": "5a1b6f40014cc5659d146aa2ce494284cd63ebfe8f4e6019b2b383785f035d72"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/intact.musicxml": {
+      "bytes": 315373,
+      "sha256": "b141a7fbff9e9ca1d8aea1ce5a74e0aa2bcafe43ab4c6bdfbcf2b8b312580a98"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/reloaded.mid": {
+      "bytes": 3948,
+      "sha256": "dabc3e5ff5617cce82b92bd16e36aa8bb3a4a3e01942ad5a94b60eef310c8fe6"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/reloaded.musicxml": {
+      "bytes": 315199,
+      "sha256": "3d7eb0760ab8752226a3c1ed2d7f6a3e0c72b68d39efafc09406d037e87190ac"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/split-1.png": {
+      "bytes": 20498,
+      "sha256": "b7d53b4e538995f89eec41822de3d03916b2e02e48ff3c06806304c5e1bce4c5"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/split-2.png": {
+      "bytes": 169725,
+      "sha256": "7e5f3ab597ce714a8dcfd4b10df6871492da7d5a1101e2f754d193c1dd4d17c8"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/split-3.png": {
+      "bytes": 22936,
+      "sha256": "fb6b3dbde7ed88c542f3ed9997a231e969c98334ba6767a82af1a7f14be2c4d5"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/split.mid": {
+      "bytes": 3948,
+      "sha256": "dabc3e5ff5617cce82b92bd16e36aa8bb3a4a3e01942ad5a94b60eef310c8fe6"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/split.musicxml": {
+      "bytes": 315056,
+      "sha256": "383a27f6744aeb99833be6b0145405bab413f5ad48b45739bf4a76cc39132c82"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/working-raw.musicxml": {
+      "bytes": 315172,
+      "sha256": "a9efb107cffdf666779959ddf1bbf9bf2ea65acd710c51fc14533cb61fcc6416"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/working-saved.mscx": {
+      "bytes": 252578,
+      "sha256": "a9666c4e908b0bc621ea68ff6d65dfd8528b9e494ad0055a0b90cd8886b12fbe"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/working.mid": {
+      "bytes": 3948,
+      "sha256": "dabc3e5ff5617cce82b92bd16e36aa8bb3a4a3e01942ad5a94b60eef310c8fe6"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/exports/working.musicxml": {
+      "bytes": 315200,
+      "sha256": "609e03c496bb4a6a4bf376018e441f51d3eb872a0c1e8cb46c60941919616877"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/fit_log.json": {
+      "bytes": 3736,
+      "sha256": "f00904d2109ac6afa12823fc0e2fecd6d793e45e86a91a1eb409e62aeb73500f"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/fit_page.py": {
+      "bytes": 5791,
+      "sha256": "224cb95e5251ea4f68f7df435203b77c3f1866ecfacba9e28fc0fbfbfcc138f5"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/intact.mscx": {
+      "bytes": 123232,
+      "sha256": "aa1e3543d7963d08ae43f7d997169c69ed1251864854f4b7fd66f94cdb674df8"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/native.py": {
+      "bytes": 1300,
+      "sha256": "bb23128a8115c60e0c02c62303e5bd2ddc2288c174002c238f5fddf97b3b0795"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/native_calls.json": {
+      "bytes": 12157,
+      "sha256": "8a3b83ef19c00d21450ec2e961303f37a1b0c536b001d1634ce6c5de00f9ade3"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/preparation.json": {
+      "bytes": 842,
+      "sha256": "dbebdfab2616d00c3546dce4fc366d5cc136b83f9223c61d4d3770c8cd5bddbc"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/scope.json": {
+      "bytes": 3622,
+      "sha256": "8817bf450b9e03e0cf1998de736cb30fd9e6f706946a13787778368a40e60e69"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/slur_geometry.json": {
+      "bytes": 240,
+      "sha256": "51d4bdfe99a28412e6635387cfddc30b9e86f41a4e6fbd9ba136006152d3a638"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/split.mscx": {
+      "bytes": 123601,
+      "sha256": "157196c10ae2d1ef8cc00a3564f9850e98b0ff3f6ba4344c1142b3425248758e"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/verification.json": {
+      "bytes": 304,
+      "sha256": "9b244f8a6481d18573689a9d3c01e9077d6643eeb550d53493da288be32f912b"
+    },
+    "tmp/engraving/avid-page-candidate-2026-11-03/working.mscx": {
+      "bytes": 124144,
+      "sha256": "c947b0b31c129284387b63a98d2c5da7d0d36c802e7abb4d5cf1cb06d76d6277"
+    }
+  },
+  "new_public_source_music_assets": 0,
+  "new_public_source_images": 0,
+  "new_user_preferences": 0,
+  "user_adopted": false,
+  "software_adaptation": false,
+  "resource_scopes": [
+    16,
+    25
+  ],
+  "checks_status": "passed",
+  "bounds": [
+    "Exact fixedfont/page specimen;fifthrowrawreserve about0.049mm.",
+    "No physicalprint/useradoption or generalautomaticengraving claim.",
+    "SplitphysicalMeasureschangeMIDI2/4andconductorEOT;channelstreamssame.",
+    "Outercontext52incoming/71outgoingclipped.",
+    "SVG axisandPNGread buffers reused;fit_log preserves observations;not all intermediates immutable."
+  ],
+  "cache_audit": {
+    "as_of_utc": "2026-11-03T00:55:57.981208+00:00",
+    "logical_bytes": 3307948309,
+    "files": 19602,
+    "errors": [],
+    "error_count": 0,
+    "existing_check_line_bytes": 3311337472,
+    "remaining_bytes": 3389163
+  },
+  "library_checks": {
+    "progress_check": "passed",
+    "skill_quick_validate": "passed",
+    "library_regressions": [
+      6,
+      6
+    ],
+    "diff_check": "passed",
+    "query": {
+      "topic": "layout",
+      "query": "pagePrintableWidth 括号",
+      "top_matches": [
+        "JUDGMENT_GUIDE.md",
+        "AVID_WIDTH_BUDGET.md",
+        "AVID_CAPACITY_BOUNDARIES.md"
+      ],
+      "scope": "Retrievedactualbudgetexplanation/correction,notgeneralaccuracy."
+    }
+  }
+}
