@@ -1,2 +1,2 @@
 """Version of the bundled MCP runtime."""
-VERSION = "2.7.3"
+VERSION = "2.7.4"

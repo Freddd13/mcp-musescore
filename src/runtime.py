@@ -1,6 +1,7 @@
 """Installed MuseScore discovery and the configuration shared with its native panel."""
 from __future__ import annotations
 import configparser
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -180,6 +181,50 @@ def _link_skill(source: Path, target: Path) -> None:
     )
 
 
+def _skill_version(contents: bytes) -> str:
+    lines = contents.decode("utf-8-sig", errors="replace").splitlines()
+    if not lines or lines[0].strip() != "---":
+        return ""
+    for line in lines[1:]:
+        if line.strip() == "---":
+            break
+        match = re.fullmatch(r"""[ \t]*version:[ \t]*["']?([^"'\r\n]+?)["']?[ \t]*""", line)
+        if match:
+            return match.group(1).strip()
+    return ""
+
+
+def _matches_digest(contents: bytes, expected: str) -> bool:
+    return (hashlib.sha256(contents).hexdigest() == expected
+            or (b"\r\n" in contents
+                and hashlib.sha256(contents.replace(b"\r\n", b"\n")).hexdigest() == expected))
+
+
+def _research_manifest(path: Path) -> dict:
+    try:
+        result = json.loads(path.read_text("utf-8-sig"))
+        return result if isinstance(result, dict) else {}
+    except (OSError, ValueError):
+        return {}
+
+
+def _pinned_skill_digest(guide: Path, source: Path, version: str) -> str:
+    manifest = _research_manifest(guide.parent / "manifest.json")
+    digests = manifest.get("sha256")
+    if manifest.get("version") != version or not isinstance(digests, dict):
+        return ""
+    expected = digests.get("skill/SKILL.md", "")
+    if not isinstance(expected, str) or not re.fullmatch(r"[0-9a-f]{64}", expected):
+        return ""
+    try:
+        if (_matches_digest(source.read_bytes(), expected)
+                and _matches_digest(guide.read_bytes(), digests.get(guide.name, ""))):
+            return expected
+    except OSError:
+        pass
+    return ""
+
+
 def check_codex_skills(application: str | None, configure: bool = False) -> list[dict]:
     """Locate installed skills and their local research, optionally linking known sources."""
     executable = Path(application).absolute() if application else Path(sys.executable).absolute()
@@ -200,8 +245,20 @@ def check_codex_skills(application: str | None, configure: bool = False) -> list
             roots.insert(0, Path(os.environ[variable]).expanduser())
         roots.extend(parent / directory for parent in executable.parents)
         roots.append(upstream.parent / directory)
-        matching = next((root for root in roots if (root / library).is_file()
-                         and (root / skill_source / "SKILL.md").is_file()), None)
+        matching = None
+        rejected = None
+        expected = ""
+        for root in roots:
+            guide, source = root / library, root / skill_source / "SKILL.md"
+            if not guide.is_file() or not source.is_file():
+                continue
+            if pinned:
+                expected = _pinned_skill_digest(guide, source, pinned)
+                if not expected:
+                    rejected = rejected or guide.parent
+                    continue
+            matching = root
+            break
         install_error = ""
         skill = next((directory / "SKILL.md" for directory in (target, codex)
                       if (directory / "SKILL.md").is_file()), target / "SKILL.md")
@@ -210,20 +267,26 @@ def check_codex_skills(application: str | None, configure: bool = False) -> list
                 _link_skill((matching / skill_source).resolve(), target)
             except (OSError, subprocess.SubprocessError) as error:
                 install_error = str(error).splitlines()[0]
-        installed = skill.is_file()
-        version = pinned or ""
-        if installed and not pinned:
-            try:
-                match = re.search(r'''(?m)^[ \t]+version:[ \t]*["']?([^"'\r\n]+)''', skill.read_text(encoding="utf-8"))
-                if match:
-                    version = match.group(1).strip()
-            except OSError:
-                pass
+        try:
+            contents = skill.read_bytes()
+        except OSError:
+            contents = None
+        installed = contents is not None
+        matches = _matches_digest(contents, expected) if installed and expected else None
+        version = pinned if matches else _skill_version(contents) if installed else ""
+        library_version = ""
+        if matching:
+            library_version = pinned or _research_manifest(
+                matching / "docs/engraving/release_1_0_0_evidence.json").get("version", "")
         reports.append({
             "name": name, "label": label, "installed": installed,
             "skill": str(skill), "source": str(skill.resolve()) if installed else "",
             "research": str((matching / library).resolve()) if matching else "",
-            "version": version, "configureError": install_error,
+            "version": version, "researchVersion": library_version,
+            "requiredVersion": pinned or "", "matchesRelease": matches,
+            "researchError": (f"资料版本或校验值与 {pinned} 不符：{rejected}"
+                              if rejected and not matching else ""),
+            "configureError": install_error,
         })
     return reports
 
