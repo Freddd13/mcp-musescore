@@ -4,6 +4,8 @@ import configparser
 import json
 import os
 from pathlib import Path
+import re
+import subprocess
 import sys
 import time
 
@@ -163,6 +165,69 @@ def set_codex_enabled(value: bool) -> dict:
             "message": "已开启。请在 Codex 重新连接 MuseScore。" if value else "已关闭 Codex 自动启动。已打开的会话可在下方选择结束。"}
 
 
+def _link_skill(source: Path, target: Path) -> None:
+    target.parent.mkdir(parents=True, exist_ok=True)
+    if sys.platform != "win32":
+        target.symlink_to(source, target_is_directory=True)
+        return
+    script = ("$ErrorActionPreference = 'Stop'; "
+              "New-Item -ItemType Junction -Path $env:MUSESCORE_SKILL_TARGET "
+              "-Target $env:MUSESCORE_SKILL_SOURCE | Out-Null")
+    subprocess.run(
+        ["powershell.exe", "-NoProfile", "-NonInteractive", "-Command", script],
+        env={**os.environ, "MUSESCORE_SKILL_TARGET": str(target), "MUSESCORE_SKILL_SOURCE": str(source)},
+        check=True, capture_output=True, timeout=8, creationflags=subprocess.CREATE_NO_WINDOW,
+    )
+
+
+def check_codex_skills(application: str | None, configure: bool = False) -> list[dict]:
+    """Locate installed skills and their local research, optionally linking known sources."""
+    executable = Path(application).absolute() if application else Path(sys.executable).absolute()
+    upstream = Path(__file__).resolve().parents[1]
+    specifications = [
+        ("piano-engraving", "钢琴净书", "mcp-musescore", "MCP_MUSESCORE_DIR",
+         Path("docs/engraving/README.md"), Path("skills/piano-engraving"), None),
+        ("piano-midi-expression", "钢琴力度", "music-explore", "PIANO_EXPRESSION_DIR",
+         Path("output/releases/piano-expression-0.3.3/START_HERE.md"),
+         Path("output/releases/piano-expression-0.3.3/skill"), "piano-expression-0.3.3"),
+    ]
+    reports = []
+    for name, label, directory, variable, library, skill_source, pinned in specifications:
+        target = Path.home() / ".agents" / "skills" / name
+        codex = Path(os.environ.get("CODEX_HOME", Path.home() / ".codex")) / "skills" / name
+        roots = [target.resolve().parents[1], upstream]
+        if os.environ.get(variable):
+            roots.insert(0, Path(os.environ[variable]).expanduser())
+        roots.extend(parent / directory for parent in executable.parents)
+        roots.append(upstream.parent / directory)
+        matching = next((root for root in roots if (root / library).is_file()
+                         and (root / skill_source / "SKILL.md").is_file()), None)
+        install_error = ""
+        skill = next((directory / "SKILL.md" for directory in (target, codex)
+                      if (directory / "SKILL.md").is_file()), target / "SKILL.md")
+        if configure and matching and not (skill.is_file() or target.exists() or target.is_symlink()):
+            try:
+                _link_skill((matching / skill_source).resolve(), target)
+            except (OSError, subprocess.SubprocessError) as error:
+                install_error = str(error).splitlines()[0]
+        installed = skill.is_file()
+        version = pinned or ""
+        if installed and not pinned:
+            try:
+                match = re.search(r'''(?m)^[ \t]+version:[ \t]*["']?([^"'\r\n]+)''', skill.read_text(encoding="utf-8"))
+                if match:
+                    version = match.group(1).strip()
+            except OSError:
+                pass
+        reports.append({
+            "name": name, "label": label, "installed": installed,
+            "skill": str(skill), "source": str(skill.resolve()) if installed else "",
+            "research": str((matching / library).resolve()) if matching else "",
+            "version": version, "configureError": install_error,
+        })
+    return reports
+
+
 def register_codex(application: str | None = None) -> dict:
     import tomlkit
     config = codex_configuration()
@@ -184,4 +249,5 @@ def register_codex(application: str | None = None) -> dict:
     server["tool_timeout_sec"] = 60
     backup = _save_codex(document, old)
     return {"ok": True, "configuration": str(config), "backup": backup, "codex": codex_status(),
+            "skills": check_codex_skills(application, configure=True),
             "message": "已配置 MuseScore。重新连接 Codex 或新建对话后，可以读取当前乐谱。" if server["enabled"] else "已配置 MuseScore。Codex 启动仍为关闭，可在下方勾选开启。"}

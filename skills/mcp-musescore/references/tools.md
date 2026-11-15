@@ -13,7 +13,11 @@ The server registers 30 public tools. Python names use snake_case except the pre
 | `get_score` | none | Requests the current score analysis, including title, measure data, staves, voices, durations, lyrics, and pitch information when available. |
 | `get_score_data` | `first_measure=1`, `last_measure=None` | JSON with inclusive 1-based measure bounds, actual/written durations and per-note ties/tuning/velocity properties. Does not change selection. Filtering occurs in Python after a full QML read. |
 | `get_capabilities` | none | Bridge/application version, ticks per quarter, score availability, optional ScoreObserver presence. |
-| `show_score` | `first_measure: int = 1`, `last_measure: int \| None = None` | Read-only. Renders the score as sheet music in MCP Apps hosts (VexFlow viewer). Other hosts get only a text summary; use `get_score` for data. |
+| `show_score` | `first_measure`, `last_measure`, `image_index=0`, `whole_system=false`, `format="native"` | 默认由 MuseScore 按当前选区或指定小节取图，模型和查看界面共用同一张 PNG。`whole_system` 展开原生整行。`format="schematic"` 查看简化示意。 |
+| `propose_velocity_adjustment` | `context_id`, `kind`, `amount=3`, `roles`, `note_roles`, `locked_notes`, `peak_tick`, `preserve_manual=true` | 提出突出旋律、收轻背景或向句峰推进的力度建议。`roles` 用声部 track，`note_roles` 与 `locked_notes` 用读出的音符编号。回到「编配建议」查看音、拍位、前后实际力度并试听。 |
+| `read_engraving_layout` | `context_id` | 读取选段的真实分行、可见谱表、共同时间列与元素位置。用同一个 `context_id` 读取原生谱图，共同核对排版。 |
+| `compare_engraving_option` | `option_id`, `at_tick`, `whole_system=true` | 比较同一位置的原生前后谱图。先用 `submit_arrangement_options` 提交只含 `engravingChanges` 的建议。 |
+| `save_engraving_copy` | `option_id`, `destination`, `overwrite=false` | 按用户选定的路径另存 MSCZ，当前谱留在原窗口。 |
 
 Call `ping_musescore` before a mutation. Call `get_score` before and after a complex edit.
 

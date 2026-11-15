@@ -21,7 +21,8 @@ def main() -> None:
     parser.add_argument("--end-session")
     parser.add_argument("--application", help="要连接的 MuseScore 程序路径")
     options = parser.parse_args()
-    from src.runtime import configuration_path, enabled, instances, installed_connection, register_codex, set_codex_enabled
+    from src.runtime import (check_codex_skills, configuration_path, enabled, instances,
+                             installed_connection, register_codex, set_codex_enabled)
     try:
         if options.sessions or options.end_session:
             from src.sessions import sessions, end_session
@@ -34,7 +35,8 @@ def main() -> None:
         elif options.diagnose or not options.stdio:
             config = configuration_path(options.application)
             result = {"configuration": str(config), "enabled": enabled(config),
-                      "instances": instances(options.application), "mcpVersion": VERSION}
+                      "instances": instances(options.application), "mcpVersion": VERSION,
+                      "skills": check_codex_skills(options.application)}
             if result["enabled"] and result["instances"]:
                 from src.client import MuseScoreClient
                 host, port = installed_connection(options.application)

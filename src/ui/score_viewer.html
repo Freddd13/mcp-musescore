@@ -8,6 +8,7 @@
     #title { font-size: 15px; font-weight: 600; margin: 0 0 6px; }
     #meta, #status { font-size: 12px; opacity: 0.7; margin: 4px 0; }
     #score { background: #fff; color: #000; border-radius: 8px; overflow-x: auto; padding: 4px; }
+    #score img { display: block; max-width: 100%; height: auto; margin: auto; }
     #status.error { color: #c00; opacity: 1; }
   </style>
 </head>
@@ -17,11 +18,10 @@
   <div id="meta"></div>
   <div id="status">Waiting for score...</div>
 
-  <script src="https://unpkg.com/vexflow@4.2.5/build/cjs/vexflow.js"></script>
   <script type="module">
     import { App } from "https://unpkg.com/@modelcontextprotocol/ext-apps@0.4.0/app-with-deps";
 
-    const VF = Vex.Flow;
+    let VF;
     const els = {
       title: document.getElementById("title"),
       score: document.getElementById("score"),
@@ -223,7 +223,7 @@
       return null;
     }
 
-    function show(result) {
+    async function show(result) {
       const analysis = extractScore(result);
       if (!analysis) {
         els.status.className = "error";
@@ -232,11 +232,44 @@
       }
       els.status.className = "";
       els.status.textContent = "";
+      if (analysis.schemaVersion === "score-image/1") {
+        const imageBlock = (result.content || []).find((block) =>
+          block.type === "image" && (block.mimeType ?? block.mime_type) === "image/png");
+        els.score.replaceChildren();
+        if (!imageBlock?.data) {
+          els.status.className = "error";
+          els.status.textContent = "未收到原生谱图，请重新读取。";
+          return;
+        }
+        const caption = (result.content || []).find((block) => block.type === "text")?.text;
+        const picture = document.createElement("img");
+        picture.src = `data:image/png;base64,${imageBlock.data}`;
+        picture.alt = caption || "MuseScore 原生谱图";
+        els.title.textContent = caption || analysis.identity?.displayTitle || "MuseScore";
+        els.score.append(picture);
+        els.meta.textContent = analysis.nextImage == null ? "" : `下一张的 image_index 为 ${analysis.nextImage}`;
+        return;
+      }
+      if (!VF) {
+        try {
+          await new Promise((resolve, reject) => {
+            const script = document.createElement("script");
+            script.src = "https://unpkg.com/vexflow@4.2.5/build/cjs/vexflow.js";
+            script.onload = resolve;
+            script.onerror = reject;
+            document.head.append(script);
+          });
+          VF = window.Vex.Flow;
+        } catch (_) {
+          els.status.className = "error";
+          els.status.textContent = "无法载入示意图组件。请使用原生谱图。";
+          return;
+        }
+      }
       renderScore(analysis);
     }
 
-    // Exposed so the page can be previewed without a host by calling window.renderScore(data).
-    window.renderScore = renderScore;
+    window.renderScore = (data) => show({ structuredContent: data });
 
     const app = new App({ name: "MuseScore Score Viewer", version: "1.0.0" });
     app.ontoolresult = show;

@@ -7,9 +7,11 @@ from typing import Annotated, Optional
 from fastmcp.apps import AppConfig, ResourceCSP
 from fastmcp.exceptions import ToolError
 from fastmcp.tools import ToolResult
+from mcp.types import ImageContent, TextContent
 
 from ..client import MuseScoreClient
 from ..client.responses import unwrap_response
+from ..context.service import ContextError
 
 VIEWER_URI = "ui://musescore/score-viewer.html"
 VIEWER_HTML = Path(__file__).resolve().parent.parent / "ui" / "score_viewer.html"
@@ -28,6 +30,27 @@ def _unwrap(response: dict) -> dict:
 def setup_viewer_tools(mcp, client: MuseScoreClient, context_service=None):
     """Setup the score viewer (an MCP App: tool plus ui:// resource)."""
 
+    async def read_native(context, image_index, whole_system=False):
+        request = {"snapshotId": context["snapshotId"], "scope": context["scope"],
+                   "imageIndex": image_index}
+        if whole_system:
+            request["wholeSystem"] = True
+        try:
+            result = await context_service.command("arrangementImage", request)
+        except ContextError as error:
+            raise ToolError(str(error)) from error
+        if result.get("snapshotId") != context["snapshotId"] or not result.get("pngBase64"):
+            raise ToolError("请更新 MuseScore 后重新读取这一段的谱图。")
+        metadata = {key: value for key, value in result.items() if key != "pngBase64"}
+        if "contextId" in context:
+            metadata["contextId"] = context["contextId"]
+        measures = result["measures"]
+        title = result.get("identity", {}).get("displayTitle", "当前乐谱")
+        caption = (f"{title} · 第{measures[0]['firstMeasure']}—{measures[-1]['lastMeasure']}小节"
+                   f" · 谱图{image_index + 1}/{result['imageCount']}")
+        return ToolResult(content=[TextContent(text=caption),
+            ImageContent(data=result["pngBase64"], mimeType="image/png")], structured_content=metadata)
+
     @mcp.resource(
         VIEWER_URI,
         app=AppConfig(csp=ResourceCSP(resource_domains=["https://unpkg.com"])),
@@ -39,18 +62,35 @@ def setup_viewer_tools(mcp, client: MuseScoreClient, context_service=None):
     @mcp.tool(
         app=AppConfig(resource_uri=VIEWER_URI),
         description=(
-            "显示按音符数据绘制的简略示意图。查看MuseScore实际排版用get_score_image，"
-            "先用read_arrangement_context读取指定段落。示意图适合浏览音高与时值。"
+            "查看当前选段或指定小节的 MuseScore 原生谱图。whole_system 可展开到原生整行。"
+            "长选段使用 nextImage 分页。format=schematic 可显式查看简略示意图。"
         ),
         tags={"score"},
         annotations={"readOnlyHint": True},
     )
     async def show_score(
-        first_measure: Annotated[int, "First measure to show (1-based)"] = 1,
-        last_measure: Annotated[
-            Optional[int], "Last measure to show (1-based). Defaults to the end of the score."
-        ] = None,
+        first_measure: Annotated[Optional[int], "起始小节，从 1 开始。省略时使用当前选段。"] = None,
+        last_measure: Annotated[Optional[int], "末小节，包含该小节。"] = None,
+        image_index: Annotated[int, "从 0 开始的图片序号"] = 0,
+        whole_system: Annotated[bool, "展开为当前原生整行"] = False,
+        format: Annotated[str, "native 或 schematic"] = "native",
     ) -> ToolResult:
+        if format == "native":
+            if context_service is None:
+                raise ToolError("请使用支持原生谱图的 MuseScore 连接。")
+            request = {}
+            if first_measure is not None or last_measure is not None:
+                request["firstMeasure"] = first_measure if first_measure is not None else 1
+                request["lastMeasure"] = last_measure if last_measure is not None else first_measure
+            try:
+                context = await context_service.command("arrangementState", request)
+            except ContextError as error:
+                raise ToolError(str(error)) from error
+            if not context.get("snapshotId") or not context.get("scope"):
+                raise ToolError("请打开乐谱后重试。")
+            return await read_native(context, image_index, whole_system)
+        if format != "schematic":
+            raise ToolError("谱图格式请选择 native 或 schematic。")
         analysis = _unwrap(await client.send_command("getScore")).get("analysis")
         if not isinstance(analysis, dict):
             raise ToolError("MuseScore returned no score data")
@@ -62,39 +102,29 @@ def setup_viewer_tools(mcp, client: MuseScoreClient, context_service=None):
 
         shown = [
             m for m in measures
-            if m["measure"] >= first_measure and (last_measure is None or m["measure"] <= last_measure)
+            if m["measure"] >= (first_measure or 1) and (last_measure is None or m["measure"] <= last_measure)
         ]
-        payload = {**analysis, "measures": shown, "measureTicks": measure_ticks}
+        payload = {**analysis, "measures": shown, "measureTicks": measure_ticks, "format": "schematic"}
 
         title = analysis.get("title") or "Untitled"
         summary = (
-            f'Score "{title}": showing {len(shown)} of {len(measures)} measure(s), '
+            f'Schematic score "{title}": showing {len(shown)} of {len(measures)} measure(s), '
             f'{len(analysis.get("staves", []))} staff/staves.'
         )
         return ToolResult(content=summary, structured_content=json.loads(json.dumps(payload)))
 
-    @mcp.tool(description="读取已获取选段的MuseScore原生谱图，包含实际延音、连音组、字体和手动位置。返回PNG及音符在图中的位置，共用context_id对应的音符引用。较长范围分图，image_index从0开始。",
+    @mcp.tool(app=AppConfig(resource_uri=VIEWER_URI),
+              description="读取已获取选段的MuseScore原生谱图，包含实际延音、连音组、字体和手动位置。返回PNG及音符在图中的位置，共用context_id对应的音符引用。较长范围分图，image_index从0开始。",
               tags={"score"}, annotations={"readOnlyHint": True})
     async def get_score_image(
         context_id: Annotated[str, "read_arrangement_context返回的contextId"],
         image_index: Annotated[int, "从0开始的图片序号；按返回的nextImage继续读取"] = 0,
+        whole_system: Annotated[bool, "展开为当前原生整行"] = False,
     ) -> ToolResult:
-        from mcp.types import ImageContent, TextContent
-        from ..context.service import ContextError
         if context_service is None:
             raise ToolError("请先读取要查看的谱段。")
         try:
             context = context_service.context_result(context_id)
-            result = await context_service.command("arrangementImage", {
-                "snapshotId": context["snapshotId"], "scope": context["scope"], "imageIndex": image_index})
         except ContextError as error:
             raise ToolError(str(error)) from error
-        if result.get("snapshotId") != context["snapshotId"] or not result.get("pngBase64"):
-            raise ToolError("请更新MuseScore后重新读取这一段的谱图。")
-        metadata = {key: value for key, value in result.items() if key != "pngBase64"}
-        metadata["contextId"] = context_id
-        measures = result["measures"]
-        title = result.get("identity", {}).get("displayTitle", "当前乐谱")
-        caption = f"{title} · 第{measures[0]['firstMeasure']}—{measures[-1]['lastMeasure']}小节 · 谱图{image_index + 1}/{result['imageCount']}"
-        return ToolResult(content=[TextContent(text=caption),
-            ImageContent(data=result["pngBase64"], mimeType="image/png")], structured_content=metadata)
+        return await read_native(context, image_index, whole_system)

@@ -11,6 +11,8 @@ class Images:
     def __init__(self):self.calls=[];self.stale=False
     async def send_command(self,action,params=None):
         self.calls.append((action,params))
+        if action=='arrangementState':
+            return {'status':'success','result':{'snapshotId':'score:1','scope':{'start':0,'end':480,'firstTrack':0,'endTrack':4}}}
         assert action=='arrangementImage'
         if self.stale:return {'status':'success','result':{'error':'乐谱已经更新，请重新读取这一段后取图。'}}
         return {'status':'success','result':{'schemaVersion':'score-image/1','snapshotId':'score:1','geometryVersion':'geometry:1',
@@ -41,6 +43,16 @@ def test_next_image_uses_same_read_version():
         async with Client(mcp) as client:
             result=await client.call_tool('get_score_image',{'context_id':'task-1','image_index':1})
             assert result.data['imageIndex']==1 and score.calls[-1][1]['snapshotId']=='score:1'
+    asyncio.run(check())
+def test_show_score_opens_same_native_png_as_model_with_current_context():
+    async def check():
+        score,mcp=setup()
+        async with Client(mcp) as client:
+            result=await client.call_tool('show_score',{'first_measure':9,'last_measure':12,'whole_system':True})
+            assert any(v.type=='image' for v in result.content)
+            assert result.data['identity']['displayTitle']=='谱面标题'
+        assert score.calls[0]==('arrangementState',{'firstMeasure':9,'lastMeasure':12})
+        assert score.calls[1][1]['wholeSystem'] is True
     asyncio.run(check())
 def test_stale_read_returns_current_action():
     async def check():

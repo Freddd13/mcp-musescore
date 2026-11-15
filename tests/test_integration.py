@@ -107,7 +107,7 @@ def test_plugin_errors_surface_in_result():
 
 def test_show_score_returns_structured_score_for_the_viewer():
     async def scenario(c, mock):
-        result = await c.call_tool("show_score", {"first_measure": 2, "last_measure": 3})
+        result = await c.call_tool("show_score", {"first_measure": 2, "last_measure": 3, "format": "schematic"})
         score = result.structured_content
         assert [m["measure"] for m in score["measures"]] == [2, 3]
         assert score["measureTicks"] == 1920
